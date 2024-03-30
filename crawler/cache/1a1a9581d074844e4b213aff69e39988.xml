@@ -9,11 +9,27 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Mar 2024 08:09:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Mar 2024 13:23:18 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Man arrested as hostage situation in Dutch bar ends]]></title>
+            <description><![CDATA[The man had held four people hostage inside a nightclub in the eastern Dutch town of Ede.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68698022</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68698022#0</guid>
+            <pubDate>Sat, 30 Mar 2024 13:17:56 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12F1A/production/_133049577_9d7b4bfdbf3bc943e26437d898395de2ff7370e6.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[From the White House to a police station]]></title>
+            <description><![CDATA[How the Jeffrey Donaldson story unfolded, a world away from St Patrick's Day festivities.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68692428</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68692428#0</guid>
+            <pubDate>Sat, 30 Mar 2024 11:53:35 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9212/production/_133049373_washington.jpg"/>
+        </item>
         <item>
             <title><![CDATA[War a real threat and Europe not ready, warns Poland's PM]]></title>
             <description><![CDATA[Donald Tusk warns of a "pre-war era" as Russian attacks leave swathes of Ukraine without power.]]></description>
@@ -55,20 +71,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/163C1/production/_133037019_reutersoctober20232.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Moscow concert massacre and the Tajik connection]]></title>
-            <description><![CDATA[The Moscow attack suspects are all from Tajikistan, where many young people have been radicalised.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68682836</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68682836#0</guid>
-            <pubDate>Fri, 29 Mar 2024 12:58:33 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78D6/production/_133043903_gettyimages-2102846723-1.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[France loves Brazil says Macron after Lula meeting]]></title>
             <description><![CDATA[French and Brazilian presidents share moments of friendship with world during tour of Amazon.]]></description>
             <link>https://www.bbc.co.uk/news/world-latin-america-68692226</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-latin-america-68692226#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-latin-america-68692226#1</guid>
             <pubDate>Fri, 29 Mar 2024 15:33:51 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D254/production/_133044835_25f8f6e92d9d7987ea7012fafd3f2594ee4b39d5.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Moscow concert massacre and the Tajik connection]]></title>
+            <description><![CDATA[The Moscow attack suspects are all from Tajikistan, where many young people have been radicalised.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68682836</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68682836#1</guid>
+            <pubDate>Fri, 29 Mar 2024 12:58:33 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78D6/production/_133043903_gettyimages-2102846723-1.jpg"/>
         </item>
         <item>
             <title><![CDATA['My job is not over here' - Alonso to stay at Leverkusen]]></title>
@@ -95,36 +111,12 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0319/production/_133039700_gettyimages-948448032.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Russian propaganda network that 'paid MEPs' busted]]></title>
-            <description><![CDATA[Polish and Czech police say network used Russian money and popular website to push anti-Ukraine narratives.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68685604</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68685604#1</guid>
-            <pubDate>Thu, 28 Mar 2024 21:10:41 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BDBD/production/_133037584_gettyimages-2013759834.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[France moves closer to ban on hair discrimination]]></title>
-            <description><![CDATA[MPs vote in favour of a bill that will penalise workplace discrimination based on hair.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68685292</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68685292#1</guid>
-            <pubDate>Thu, 28 Mar 2024 16:33:17 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E92D/production/_133039695_gettyimages-1089351828-1.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Battle to run Istanbul becomes key to Turkey's future]]></title>
             <description><![CDATA[Millions of Turks vote on Sunday, and President Erdogan hopes to regain control of Turkey's biggest city.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68663417</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68663417#1</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68663417#2</guid>
             <pubDate>Thu, 28 Mar 2024 00:10:59 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13F3B/production/_133032718_istanbul-index-epa.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Deadly FlixBus crash on German motorway]]></title>
-            <description><![CDATA[Four people are killed when a coach veers to the right on the busy A9 autobahn before falling over.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68673114</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68673114#1</guid>
-            <pubDate>Thu, 28 Mar 2024 11:18:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E0EE/production/_133028575_leipzig_alamy_live_news.jpg"/>
         </item>
         <item>
             <title><![CDATA[Relatives of Moscow attack missing seek answers]]></title>

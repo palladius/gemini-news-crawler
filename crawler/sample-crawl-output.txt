@@ -1,100 +1,466 @@
 🖖🏻 Welcome to Gemini News Parser v0.1
-🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Home[0m # https://www.repubblica.it/rss/homepage/rss2.0.xml -->  30 news found.
-📰 [1] Title: [0;36;49mIsraele - Hamas, le news di oggi. Media: “Colloqui tra Usa e Israele su operazione a Rafah”. Ragazzo di 13 anni ucciso in raid a Jenin. Israele contesta allarme Onu su rischio carestia a Gaza nord[0m
-📰 [2] Title: [0;36;49mGuerra Ucraina - Russia, le news di oggi. Sette droni russi abbattuti nella notte. Zelensky a Usa: “Dateci missili Atacms per colpire Crimea”[0m
-🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Esteri[0m # https://www.repubblica.it/rss/esteri/rss2.0.xml -->  25 news found.
-📰 [1] Title: [0;36;49mLa foto dell’anno di Ap ritrae il corpo di Shani Louk uccisa da Hamas: critiche social. Ma il padre non le condivide[0m
-📰 [2] Title: [0;36;49mRiparte l’Operazione blackout: Mosca mira agli impianti elettrici ma per fermare fabbriche e treni[0m
-🕷️  Crawling RSS Feed from: [0;33;49mIl Fatto[0m # https://www.ilfattoquotidiano.it/feed/ -->  25 news found.
-📰 [1] Title: [0;36;49mMilano, studenti a rischio sospensione grave per l’occupazione dell’Istituto Severi-Correnti. Uno dei genitori: “Accuse non dimostrate”[0m
-📰 [2] Title: [0;36;49m“L’Ucraina? Questo clima di paura favorisce svolte autoritarie e serve a prepararci a futuri conflitti”: intervista all’antropologo Romain Huët[0m
-🕷️  Crawling RSS Feed from: [0;33;49mAdKronos - Primapagina[0m # https://www.adnkronos.com/RSS_PrimaPagina.xml -->  12 news found.
-📰 [1] Title: [0;36;49mAuto fuori strada a Pordenone, salvato ragazzo incastrato tra lamiere[0m
-📰 [2] Title: [0;36;49mPerù, perquisita casa presidente Boluarte: si indaga per corruzione[0m
-🕷️  Crawling RSS Feed from: [0;33;49mAdKronos - Ultim ora[0m # https://www.adnkronos.com/RSS_Ultimora.xml -->  30 news found.
-📰 [1] Title: [0;36;49mAuto fuori strada a Pordenone, salvato ragazzo incastrato tra lamiere[0m
-📰 [2] Title: [0;36;49mPerù, perquisita casa presidente Boluarte: si indaga per corruzione[0m
-🕷️  Crawling RSS Feed from: [0;33;49mAnsa - all[0m # https://www.ansa.it/sito/ansait_rss.xml -->  30 news found.
-📰 [1] Title: [0;36;49mTiratori scelti e filtraggi, oltre 600 agenti per la via Crucis del Papa[0m
-📰 [2] Title: [0;36;49mTutti i benefici del cioccolato, ma non datelo ai cani[0m
-🕷️  Crawling RSS Feed from: [0;33;49mAnsa - Mondo News[0m # https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml -->  44 news found.
-📰 [1] Title: [0;36;49mCisgiordania, media: 13enne ucciso in raid Israele vicino Jenin[0m
-📰 [2] Title: [0;36;49mUcraina, Scholz: Putin ha infranto principio pace in Europa[0m
-🕷️  Crawling RSS Feed from: [0;33;49mCorriere - Home[0m # https://xml2.corriereobjects.it/rss/homepage.xml -->  90 news found.
-📰 [1] Title: [0;36;49mQuanto rischia la Nato sul fianco Est dell’Europa e come si può difendere: ci vogliono 300 mila uomini [0m
-📰 [2] Title: [0;36;49mGli italiani a Rafah: « Si vive tra droni e bombe, colpisce la magrezza delle persone»[0m
-🕷️  Crawling RSS Feed from: [0;33;49mBCC Europe[0m # https://feeds.bbci.co.uk/news/world/europe/rss.xml -->  28 news found.
-📰 [1] Title: [0;36;49mWar a real threat and Europe not ready, warns Poland's PM[0m
-📰 [2] Title: [0;36;49m'Escorted through the airport like a criminal'[0m
-🕷️  Crawling RSS Feed from: [0;33;49mBBC Science[0m # https://feeds.bbci.co.uk/news/science_and_environment/rss.xml -->  18 news found.
+🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Home[0m # https://www.repubblica.it/rss/homepage/rss2.0.xml -->  [0;34;49m30[0m news found.
+📰 [1] Title: [0;36;49mIsraele - Hamas, le news di oggi. Libano, colpita auto con osservatori Onu: feriti spagnoli, norvegesi e un libanese. Israele: “Non siamo stati noi”[0m
+📚 author:  repubblicawww@repubblica.it (Redazione Repubblica.it)
+📚 categories:  ["Esteri"]
+📚 entry_id:  rep-locali:repubblica:422398612
+📚 id:  rep-locali:repubblica:422398612
+📚 published:  2024-03-30 12:04:35 UTC
+📚 summary:  Media: “Colloqui con gli Usa su operazione a Rafah”. Ragazzo di 13 anni ucciso in raid a Jenin. Nuovo caos aiuti a Gaza: 5 morti per spari e calca
+📚 title:  Israele - Hamas, le news di oggi. Libano, colpita auto con osservatori Onu: feriti spagnoli, norvegesi e un libanese. Israele: “Non siamo stati noi”
+📚 url:  https://www.repubblica.it/esteri/2024/03/30/diretta/israele_hamas_gaza_news_guerra_oggi-422398612/
+🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Esteri[0m # https://www.repubblica.it/rss/esteri/rss2.0.xml -->  [0;34;49m25[0m news found.
+📰 [1] Title: [0;36;49mLondra, accoltellato un giornalista iraniano critico con Teheran. È vivo ma in ospedale[0m
+📚 author:  repubblicawww@repubblica.it (Redazione Repubblica.it)
+📚 categories:  ["esteri"]
+📚 enclosure_url:  https://www.repstatic.it/content/nazionale/img/2024/03/30/123201011-93154ecb-41d4-4a0c-8d24-9113555521d8.jpg
+📚 entry_id:  https://www.repubblica.it/esteri/2024/03/30/news/pouria_zeraati_giornalista_iraniano_accoltellato_londra-422400190/?rss
+📚 id:  https://www.repubblica.it/esteri/2024/03/30/news/pouria_zeraati_giornalista_iraniano_accoltellato_londra-422400190/?rss
+📚 published:  2024-03-30 11:32:02 UTC
+📚 summary:  <p><a href="https://www.repubblica.it/esteri/2024/03/30/news/pouria_zeraati_giornalista_iraniano_accoltellato_londra-422400190/?rssimage"> <img src="https://www.repstatic.it/content/nazionale/img/2024/03/30/123201011-93154ecb-41d4-4a0c-8d24-9113555521d8.jpg" width="140" align="left" hspace="10"></a>Pouria Zeraati, 36 anni è conduttore del canale dissidente Iran International</p>
+📚 title:  Londra, accoltellato un giornalista iraniano critico con Teheran. È vivo ma in ospedale
+📚 url:  https://www.repubblica.it/esteri/2024/03/30/news/pouria_zeraati_giornalista_iraniano_accoltellato_londra-422400190/?rss
+🕷️  Crawling RSS Feed from: [0;33;49mIl Fatto[0m # https://www.ilfattoquotidiano.it/feed/ -->  [0;34;49m25[0m news found.
+📰 [1] Title: [0;36;49mLegge sulla caccia, M5s e Avs scrivono a Mattarella: “Deriva filo-venatoria, la proposta della Lega va fermata”[0m
+📚 author:  Alberto Marzocchi
+📚 categories:  ["Politica", "Caccia", "Sergio Costa", "Sergio Mattarella"]
+📚 comments:  https://www.ilfattoquotidiano.it/2024/03/30/legge-sulla-caccia-m5s-e-avs-scrivono-a-mattarella-deriva-filo-venatoria-la-proposta-della-lega-va-fermata/7496782/#respond
+📚 entry_id:  https://www.ilfattoquotidiano.it/?p=7496782
+📚 id:  https://www.ilfattoquotidiano.it/?p=7496782
+📚 image:  https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/30/CostaZanella-1050x551.jpg
+📚 published:  2024-03-30 12:57:26 UTC
+📚 summary:  <p>Caccia, no alla legge spara-tutto della Lega: il Parlamento la fermi – FIRMA LA PETIZIONE SU IOSCELGO Una lettera, dai toni duri, per chiedere al Capo dello Stato di fermare la proposta di legge sulla caccia avanzata dalla Lega e sostenuta da tutto il centrodestra. Sergio Costa del Movimento 5 stelle e Luana Zanella di [&#8230;]</p>
+<p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/30/legge-sulla-caccia-m5s-e-avs-scrivono-a-mattarella-deriva-filo-venatoria-la-proposta-della-lega-va-fermata/7496782/">Legge sulla caccia, M5s e Avs scrivono a Mattarella: &#8220;Deriva filo-venatoria, la proposta della Lega va fermata&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+📚 title:  Legge sulla caccia, M5s e Avs scrivono a Mattarella: “Deriva filo-venatoria, la proposta della Lega va fermata”
+📚 url:  https://www.ilfattoquotidiano.it/2024/03/30/legge-sulla-caccia-m5s-e-avs-scrivono-a-mattarella-deriva-filo-venatoria-la-proposta-della-lega-va-fermata/7496782/
+🕷️  Crawling RSS Feed from: [0;33;49mAdKronos - Primapagina[0m # https://www.adnkronos.com/RSS_PrimaPagina.xml -->  [0;34;49m12[0m news found.
+📰 [1] Title: [0;36;49mSerena Williams, il complimento a Sinner: "Avrei voluto avere il tuo dritto"[0m
+📚 author:  webinfo@adnkronos.com (Web Info)
+📚 categories:  ["sport"]
+📚 entry_id:  https://www.adnkronos.com/sport/serena-williams-il-complimento-a-sinner-avrei-voluto-avere-il-tuo-dritto_rT3hzxXpEemW1RPFELINu
+📚 id:  https://www.adnkronos.com/sport/serena-williams-il-complimento-a-sinner-avrei-voluto-avere-il-tuo-dritto_rT3hzxXpEemW1RPFELINu
+📚 image:  https://www.adnkronos.com/resources/028b-1a8861fd9480-734ab033fd48-1000/format/medium/serena_williams_fg.jpeg
+📚 published:  2024-03-30 12:16:58 UTC
+📚 summary:  (Adnkronos) - La vincitrice di 23 titoli del Grande Slam all'azzurro dopo la semifinale vinta su Daniil Medvedev nel torneo di Miami
+📚 title:  Serena Williams, il complimento a Sinner: "Avrei voluto avere il tuo dritto"
+📚 url:  https://www.adnkronos.com/sport/serena-williams-il-complimento-a-sinner-avrei-voluto-avere-il-tuo-dritto_rT3hzxXpEemW1RPFELINu
+🕷️  Crawling RSS Feed from: [0;33;49mAdKronos - Ultim ora[0m # https://www.adnkronos.com/RSS_Ultimora.xml -->  [0;34;49m30[0m news found.
+📰 [1] Title: [0;36;49mNapoli, giocatori in ginocchio per dire no al razzismo[0m
+📚 author:  webinfo@adnkronos.com (Web Info)
+📚 categories:  ["sport"]
+📚 entry_id:  https://www.adnkronos.com/sport/napoli-giocatori-in-ginocchio-per-dire-no-al-razzismo_3zeAs6s57gzzsrJxCFUbbK
+📚 id:  https://www.adnkronos.com/sport/napoli-giocatori-in-ginocchio-per-dire-no-al-razzismo_3zeAs6s57gzzsrJxCFUbbK
+📚 image:  https://www.adnkronos.com/resources/028b-1a8877a11179-b3906d4d8f9b-1000/format/medium/napoli_ginocchio.jpeg
+📚 published:  2024-03-30 13:17:28 UTC
+📚 summary:  (Adnkronos) - Prima del match con l'Atalanta dopo la mancata squalifica del difensore dell'Inter Francesco Acerbi
+📚 title:  Napoli, giocatori in ginocchio per dire no al razzismo
+📚 url:  https://www.adnkronos.com/sport/napoli-giocatori-in-ginocchio-per-dire-no-al-razzismo_3zeAs6s57gzzsrJxCFUbbK
+🕷️  Crawling RSS Feed from: [0;33;49mAnsa - all[0m # https://www.ansa.it/sito/ansait_rss.xml -->  [0;34;49m30[0m news found.
+📰 [1] Title: [0;36;49mDomenica torna l'ora legale, 90 milioni di risparmi[0m
+📚 categories:  []
+📚 entry_id:  https://www.ansa.it/sito/notizie/economia/2024/03/29/domenica-torna-lora-legale-90-milioni-di-risparmi_edcfe83e-fa13-43f9-8027-3afb57781b07.html
+📚 id:  https://www.ansa.it/sito/notizie/economia/2024/03/29/domenica-torna-lora-legale-90-milioni-di-risparmi_edcfe83e-fa13-43f9-8027-3afb57781b07.html
+📚 published:  2024-03-30 08:54:52 UTC
+📚 summary:  Terna, meno 370milioni di kWh, 170mila tonnellate Co2
+📚 title:  Domenica torna l'ora legale, 90 milioni di risparmi
+📚 url:  https://www.ansa.it/sito/notizie/economia/2024/03/29/domenica-torna-lora-legale-90-milioni-di-risparmi_edcfe83e-fa13-43f9-8027-3afb57781b07.html
+🕷️  Crawling RSS Feed from: [0;33;49mAnsa - Mondo News[0m # https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml -->  [0;34;49m39[0m news found.
+📰 [1] Title: [0;36;49mFoto di una vittima di Hamas vince premio e suscita polemiche[0m
+📚 categories:  []
+📚 entry_id:  https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/foto-di-una-vittima-di-hamas-vince-premio-e-suscita-polemiche_b63da953-9255-4ad7-a383-eb2c5252ad10.html
+📚 id:  https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/foto-di-una-vittima-di-hamas-vince-premio-e-suscita-polemiche_b63da953-9255-4ad7-a383-eb2c5252ad10.html
+📚 published:  2024-03-30 13:21:31 UTC
+📚 summary:  Ma il padre della ragazza, Shani Louk, difende lo scatto
+📚 title:  Foto di una vittima di Hamas vince premio e suscita polemiche
+📚 url:  https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/foto-di-una-vittima-di-hamas-vince-premio-e-suscita-polemiche_b63da953-9255-4ad7-a383-eb2c5252ad10.html
+🕷️  Crawling RSS Feed from: [0;33;49mCorriere - Home[0m # https://xml2.corriereobjects.it/rss/homepage.xml -->  [0;34;49m92[0m news found.
+📰 [1] Title: [0;36;49mNapoli-Atalanta: Miranchuk e Scamacca in gol. Poi segna Koopmeiners Live 0-3[0m
+📚 categories:  ["Sport"]
+📚 entry_id:  https://www.corriere.it/sport/calcio/serie-a/partita/napoli-atalanta/2380691/
+📚 id:  https://www.corriere.it/sport/calcio/serie-a/partita/napoli-atalanta/2380691/
+📚 published:  2024-03-30 13:16:52 UTC
+📚 summary:  <p><img src="https://images2.corriereobjects.it/methode_image/2024/03/29/Sport/Foto%20Sport%20-%20Trattate/LAPR0131-0037-U31402250702662Os-U34701098887778JnC-656x492@Corriere-Web-Nazionale.JPG" title="Napoli-Atalanta: Miranchuk e Scamacca in gol. Poi segna Koopmeiners Live 0-3" alt="Napoli-Atalanta: Miranchuk e Scamacca in gol. Poi segna Koopmeiners Live 0-3" /><p></p>
+📚 title:  Napoli-Atalanta: Miranchuk e Scamacca in gol. Poi segna Koopmeiners Live 0-3
+📚 url:  https://www.corriere.it/sport/calcio/serie-a/partita/napoli-atalanta/2380691/
+🕷️  Crawling RSS Feed from: [0;33;49mRiccardo - Blog[0m # https://ricc.rocks/en/index.xml -->  [0;34;49m11[0m news found.
+📰 [1] Title: [0;36;49mMidjourney - what I've learnt so far[0m
+📚 author:  Riccardo
+📚 categories:  ["midjourney", "generative AI", "graphics", "midjourney", "technology"]
+📚 entry_id:  https://ricc.rocks/en/posts/technology/midjourney/
+📚 id:  https://ricc.rocks/en/posts/technology/midjourney/
+📚 image:  https://ricc.rocks//gallery/midjourney/PalladiusFigata_a_fantasy_imagination_of_ancient_mayan_city_if__f699b7ca-43d9-4d2a-b2ee-2022a0317e01.png
+📚 published:  2023-04-10 20:17:43 UTC
+📚 summary:  I felel in love with MJ.
+Some tips: https://www.wired.it/article/come-usare-midjourney/
+See my gallery in this website: https://ricc.rocks/en/gallery/midjourney/
+See my MJ page: https://www.midjourney.com/app/users/6f8c6312-ed0d-479f-b236-efbbffbb9823/
+What it&rsquo;s good for amazing at merging/bending different concepts and giving you an artistic view of something you know. Example: a mermaid chair , or a non-existent Giraffe Triggerfish.
+great at styling things (style of Caravaggio, Pixar, &hellip;).
+📚 title:  Midjourney - what I've learnt so far
+📚 url:  https://ricc.rocks/en/posts/technology/midjourney/
+🕷️  Crawling RSS Feed from: [0;33;49mBCC Europe[0m # https://feeds.bbci.co.uk/news/world/europe/rss.xml -->  [0;34;49m27[0m news found.
+📰 [1] Title: [0;36;49mMan arrested as hostage situation in Dutch bar ends[0m
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/world-europe-68698022#0
+📚 id:  https://www.bbc.co.uk/news/world-europe-68698022#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12F1A/production/_133049577_9d7b4bfdbf3bc943e26437d898395de2ff7370e6.jpg
+📚 published:  2024-03-30 13:17:56 UTC
+📚 summary:  The man had held four people hostage inside a nightclub in the eastern Dutch town of Ede.
+📚 title:  Man arrested as hostage situation in Dutch bar ends
+📚 url:  https://www.bbc.co.uk/news/world-europe-68698022
+🕷️  Crawling RSS Feed from: [0;33;49mBBC Science[0m # https://feeds.bbci.co.uk/news/science_and_environment/rss.xml -->  [0;34;49m18[0m news found.
 📰 [1] Title: [0;36;49mMammals battle for life in new Attenborough series[0m
-📰 [2] Title: [0;36;49mE-waste drawers of doom growing, say campaigners[0m
-🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeera - News[0m # https://www.aljazeera.com/xml/rss/all.xml -->  25 news found.
-📰 [1] Title: [0;36;49mIsrael’s war on Gaza: List of key events, day 176[0m
-📰 [2] Title: [0;36;49mLand Day: What happened in Palestine in 1976?[0m
-🕷️  Crawling RSS Feed from: [0;33;49mCNN money[0m # http://rss.cnn.com/rss/money_latest.rss -->  1 news found.
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/science-environment-68658875#0
+📚 id:  https://www.bbc.co.uk/news/science-environment-68658875#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5E7E/production/_133009142_464592.jpg
+📚 published:  2024-03-29 00:48:56 UTC
+📚 summary:  The six-part series 'Mammals' will air this Sunday at 19:00 GMT.
+📚 title:  Mammals battle for life in new Attenborough series
+📚 url:  https://www.bbc.co.uk/news/science-environment-68658875
+🕷️  Crawling RSS Feed from: [0;33;49mBBC Politics[0m # https://feeds.bbci.co.uk/news/politics/rss.xml -->  [0;34;49m50[0m news found.
+📰 [1] Title: [0;36;49mJeffrey Donaldson: From the White House to Antrim police station[0m
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/uk-northern-ireland-68692428#0
+📚 id:  https://www.bbc.co.uk/news/uk-northern-ireland-68692428#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9212/production/_133049373_washington.jpg
+📚 published:  2024-03-30 11:53:35 UTC
+📚 summary:  How the Jeffrey Donaldson story unfolded, a world away from St Patrick's Day festivities.
+📚 title:  Jeffrey Donaldson: From the White House to Antrim police station
+📚 url:  https://www.bbc.co.uk/news/uk-northern-ireland-68692428
+🕷️  Crawling RSS Feed from: [0;33;49mBBC Science and Environment[0m # https://feeds.bbci.co.uk/news/science_and_environment/rss.xml -->  [0;34;49m18[0m news found.
+📰 [1] Title: [0;36;49mMammals battle for life in new Attenborough series[0m
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/science-environment-68658875#0
+📚 id:  https://www.bbc.co.uk/news/science-environment-68658875#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5E7E/production/_133009142_464592.jpg
+📚 published:  2024-03-29 00:48:56 UTC
+📚 summary:  The six-part series 'Mammals' will air this Sunday at 19:00 GMT.
+📚 title:  Mammals battle for life in new Attenborough series
+📚 url:  https://www.bbc.co.uk/news/science-environment-68658875
+🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeera - News[0m # https://www.aljazeera.com/xml/rss/all.xml -->  [0;34;49m25[0m news found.
+📰 [1] Title: [0;36;49mWhat is the economic cost of Baltimore’s bridge collapse?[0m
+📚 categories:  ["News"]
+📚 entry_id:  https://www.aljazeera.com/?t=1711605043
+📚 id:  https://www.aljazeera.com/?t=1711605043
+📚 published:  2024-03-30 13:17:01 UTC
+📚 summary:  The Baltimore port&#039;s closure could cost the economy $15m per day while insurers face up to $3bn in claims.
+📚 title:  What is the economic cost of Baltimore’s bridge collapse?
+📚 url:  https://www.aljazeera.com/news/2024/3/30/what-is-the-economic-cost-of-baltimores-key-bridge-collapse?traffic_source=rss
+🕷️  Crawling RSS Feed from: [0;33;49mCNN money[0m # http://rss.cnn.com/rss/money_latest.rss -->  [0;34;49m1[0m news found.
 📰 [1] Title: [0;36;49mRetirement contribution limits will rise in 2019[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general1[0m # http://feeds.abcnews.com/abcnews/usheadlines -->  25 news found.
+📚 categories:  []
+📚 entry_id:  http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html
+📚 id:  http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html
+📚 image:  http://i2.cdn.turner.com/money/dam/assets/170419100856-retirement-gold-120x90.jpg
+📚 published:  2018-11-01 20:50:22 UTC
+📚 summary:  Good news retirement savers: The Internal Revenue Service announced cost of living increases to the contribution limits for retirement-related plans in 2019.
+📚 title:  Retirement contribution limits will rise in 2019
+📚 url:  http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html?section=money_latest
+🕷️  Crawling RSS Feed from: [0;33;49mUS general1[0m # http://feeds.abcnews.com/abcnews/usheadlines -->  [0;34;49m25[0m news found.
 📰 [1] Title: [0;36;49m North Carolina loses to Alabama, becoming first No. 1 seed eliminated from NCAA men's basketball tournament[0m
-📰 [2] Title: [0;36;49m Building a new Key Bridge could take years and cost at least $400 million, experts say[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general2[0m # http://rss.cnn.com/rss/cnn_topstories.rss -->  69 news found.
+📚 categories:  ["US"]
+📚 entry_id:  https://abcnews.go.com/US/wireStory/north-carolina-loses-alabama-becoming-1-seed-eliminated-108640670
+📚 id:  https://abcnews.go.com/US/wireStory/north-carolina-loses-alabama-becoming-1-seed-eliminated-108640670
+📚 image:  https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg
+📚 published:  2024-03-29 04:21:55 UTC
+📚 summary:  North Carolina loses to Alabama, becoming first No. 1 seed eliminated from NCAA men's basketball tournament
+📚 title:   North Carolina loses to Alabama, becoming first No. 1 seed eliminated from NCAA men's basketball tournament
+📚 url:  https://abcnews.go.com/US/wireStory/north-carolina-loses-alabama-becoming-1-seed-eliminated-108640670
+🕷️  Crawling RSS Feed from: [0;33;49mUS general2[0m # http://rss.cnn.com/rss/cnn_topstories.rss -->  [0;34;49m69[0m news found.
 📰 [1] Title: [0;36;49mSome on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced[0m
-📰 [2] Title: [0;36;49mDominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general3[0m # http://www.cbsnews.com/latest/rss/main -->  30 news found.
-📰 [1] Title: [0;36;49mSee Caitlin Clark play: How to watch today's Iowa vs. Colorado women's NCAA March Madness Sweet 16 game[0m
-📰 [2] Title: [0;36;49mHow to watch today's Illinois vs. UConn men's NCAA March Madness Elite 8 game: Livestream options, more[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general7[0m # http://rss.csmonitor.com/feeds/usa -->  20 news found.
+📚 categories:  []
+📚 entry_id:  https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/index.html
+📚 id:  https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/index.html
+📚 image:  https://cdn.cnn.com/cnnnext/dam/assets/230418164538-02-dominion-fox-trial-settlement-0418-super-169.jpg
+📚 published:  2023-04-19 12:44:51 UTC
+📚 title:  Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced
+📚 url:  https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/index.html
+🕷️  Crawling RSS Feed from: [0;33;49mUS general3[0m # http://www.cbsnews.com/latest/rss/main -->  [0;34;49m30[0m news found.
+📰 [1] Title: [0;36;49mAuthor Jonathan Haidt discusses "The Anxious Generation"[0m
+📚 categories:  []
+📚 entry_id:  bcd31dee-230b-4507-a0a1-ba7c53c3505e
+📚 id:  bcd31dee-230b-4507-a0a1-ba7c53c3505e
+📚 published:  2024-03-30 13:08:29 UTC
+📚 summary:  Rates of depression, anxiety and suicide among young people in the United States have risen dramatically in the last decade. A highly anticipated book tracks the possible causes — and offers potential solutions.
+📚 title:  Author Jonathan Haidt discusses "The Anxious Generation"
+📚 url:  https://www.cbsnews.com/video/author-jonathan-haidt-discusses-the-anxious-generation/
+🕷️  Crawling RSS Feed from: [0;33;49mUS general7[0m # http://rss.csmonitor.com/feeds/usa -->  [0;34;49m20[0m news found.
 📰 [1] Title: [0;36;49mTransportation spending surges to historic levels. Will US get historic results?[0m
-📰 [2] Title: [0;36;49mBirthrates are tumbling worldwide, forcing hard choices on societies[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general8[0m # http://feeds.nbcnews.com/feeds/topstories -->  25 news found.
-📰 [1] Title: [0;36;49mBaltimore bridge crash brings scrutiny to contaminated fuel, an 'open secret' in shipping[0m
-📰 [2] Title: [0;36;49mBiden's latest campaign strategy: Get under Trump's skin[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general9[0m # http://feeds.nbcnews.com/feeds/worldnews -->  25 news found.
-📰 [1] Title: [0;36;49mThe end to Israel's subsidy for ultra-Orthodox who don't serve in army could imperil Netanyahu[0m
-📰 [2] Title: [0;36;49mEvan Gershkovich's friend says the reporter is unbroken by his year in a notorious Russian jail[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general14[0m # http://www.huffingtonpost.com/feeds/verticals/world/index.xml -->  8 news found.
-📰 [1] Title: [0;36;49m45 Dead After Bus Plunges Off Bridge In South Africa, Sole Survivor Is 8-Year-Old[0m
-📰 [2] Title: [0;36;49mUN Court Orders Israel To Open More Land-Based Aid Routes Into Gaza Strip[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general15[0m # http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml -->  35 news found.
+📚 author:  Laurent Belsie
+📚 categories:  []
+📚 entry_id:  09deaf1e43edbaa8d90235075f0fb231
+📚 id:  09deaf1e43edbaa8d90235075f0fb231
+📚 published:  2024-03-29 20:30:27 UTC
+📚 summary:  The U.S. has never spent so much on transportation, water systems, and other networks. Whether it will get once-in-a-generation results is unclear.
+📚 title:  Transportation spending surges to historic levels. Will US get historic results?
+📚 url:  https://www.csmonitor.com/USA/Society/2024/0329/Transportation-spending-surges-to-historic-levels.-Will-US-get-historic-results?icid=rss
+🕷️  Crawling RSS Feed from: [0;33;49mUS general8[0m # http://feeds.nbcnews.com/feeds/topstories -->  [0;34;49m25[0m news found.
+📰 [1] Title: [0;36;49mHundreds of trucks full of aid sit idle near border with Gaza as crisis deepens[0m
+📚 author:  Charlene Gubash and Doha Madani
+📚 categories:  []
+📚 entry_id:  https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+📚 id:  https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+📚 image:  https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240329-gaza-red-crescent-trucks-se-457p-7cc468.jpg
+📚 published:  2024-03-30 08:48:20 UTC
+📚 summary:  RAFAH, Egypt — Hundreds of trucks loaded with food and medical aid sat idle on the roads heading into Gaza recently as a senior humanitarian official accused the Israeli government of blocking lifesaving supplies from reaching the devastated enclave.
+📚 title:  Hundreds of trucks full of aid sit idle near border with Gaza as crisis deepens
+📚 url:  https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+🕷️  Crawling RSS Feed from: [0;33;49mUS general9[0m # http://feeds.nbcnews.com/feeds/worldnews -->  [0;34;49m25[0m news found.
+📰 [1] Title: [0;36;49mHundreds of trucks full of aid sit idle near border with Gaza as crisis deepens[0m
+📚 author:  Charlene Gubash and Doha Madani
+📚 categories:  []
+📚 entry_id:  https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+📚 id:  https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+📚 image:  https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240329-gaza-red-crescent-trucks-se-457p-7cc468.jpg
+📚 published:  2024-03-30 08:48:20 UTC
+📚 summary:  RAFAH, Egypt — Hundreds of trucks loaded with food and medical aid sat idle on the roads heading into Gaza recently as a senior humanitarian official accused the Israeli government of blocking lifesaving supplies from reaching the devastated enclave.
+📚 title:  Hundreds of trucks full of aid sit idle near border with Gaza as crisis deepens
+📚 url:  https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+🕷️  Crawling RSS Feed from: [0;33;49mUS general14[0m # http://www.huffingtonpost.com/feeds/verticals/world/index.xml -->  [0;34;49m9[0m news found.
+📰 [1] Title: [0;36;49mUkrainian President Zelenskyy Fires More Aides In Ongoing Personnel Shakeup[0m
+📚 categories:  []
+📚 comments:  https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85#comments
+📚 entry_id:  https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85
+📚 id:  https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85
+📚 published:  2024-03-30 12:33:40 UTC
+📚 summary:  No explanation was given immediately for the latest changes in a wide-reaching personnel shakeup over recent months.
+📚 title:  Ukrainian President Zelenskyy Fires More Aides In Ongoing Personnel Shakeup
+📚 url:  https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85
+🕷️  Crawling RSS Feed from: [0;33;49mUS general15[0m # http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml -->  [0;34;49m35[0m news found.
 📰 [1] Title: [0;36;49mCanada's drug experiment hits strong opposition[0m
-📰 [2] Title: [0;36;49mMassive crane to haul wreckage of Baltimore bridge[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general16[0m # http://news.yahoo.com/rss/us -->  50 news found.
-📰 [1] Title: [0;36;49mHillsdale County Board of Commissioners narrowly approve public defender budget[0m
-📰 [2] Title: [0;36;49mUnemployment claims in Michigan declined last week[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general17[0m # http://rss.news.yahoo.com/rss/world -->  50 news found.
-📰 [1] Title: [0;36;49mAP PHOTOS: Good Friday in Latin America[0m
-📰 [2] Title: [0;36;49mIn Indonesia, deforestation is intensifying disasters from severe weather and climate change[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general21[0m # http://www.theguardian.com/world/usa/rss -->  27 news found.
-📰 [1] Title: [0;36;49mUS reportedly approves transfer to Israel of bombs and jets worth billions[0m
-📰 [2] Title: [0;36;49mProsecutors suggest Trump violated gag order by attacking judge’s daughter[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general23[0m # http://www.newyorker.com/feed/news -->  24 news found.
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/world-us-canada-68621012#0
+📚 id:  https://www.bbc.co.uk/news/world-us-canada-68621012#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DA92/production/_133045955_guy6.jpg
+📚 published:  2024-03-30 01:02:13 UTC
+📚 summary:  The test policy to help address a deadly drug crisis in British Columbia faces public backlash and political challenges.
+📚 title:  Canada's drug experiment hits strong opposition
+📚 url:  https://www.bbc.co.uk/news/world-us-canada-68621012
+🕷️  Crawling RSS Feed from: [0;33;49mUS general16[0m # http://news.yahoo.com/rss/us -->  [0;34;49m50[0m news found.
+📰 [1] Title: [0;36;49mDixie Twin Drive-In now open for 2024 season[0m
+📚 categories:  []
+📚 entry_id:  dixie-twin-drive-now-open-130455703.html
+📚 id:  dixie-twin-drive-now-open-130455703.html
+📚 image:  https://media.zenfs.com/en/whio_cox_articles_828/02256065717e23cfbc5c9319f78a87c9
+📚 published:  2024-03-30 13:04:55 UTC
+📚 title:  Dixie Twin Drive-In now open for 2024 season
+📚 url:  https://www.yahoo.com/news/dixie-twin-drive-now-open-130455703.html
+🕷️  Crawling RSS Feed from: [0;33;49mUS general17[0m # http://rss.news.yahoo.com/rss/world -->  [0;34;49m50[0m news found.
+📰 [1] Title: [0;36;49m3 UN military observers, a Lebanese interpreter wounded in blast while patrolling southern border[0m
+📚 categories:  []
+📚 entry_id:  4-un-military-observers-wounded-111818281.html
+📚 id:  4-un-military-observers-wounded-111818281.html
+📚 image:  https://media.zenfs.com/en/ap.org/71eb5ed4b17d891deb7d1c333e751191
+📚 published:  2024-03-30 11:18:18 UTC
+📚 title:  3 UN military observers, a Lebanese interpreter wounded in blast while patrolling southern border
+📚 url:  https://www.yahoo.com/news/4-un-military-observers-wounded-111818281.html
+🕷️  Crawling RSS Feed from: [0;33;49mUS general21[0m # http://www.theguardian.com/world/usa/rss -->  [0;34;49m27[0m news found.
+📰 [1] Title: [0;36;49mAs Baltimore bridge cleanup begins, fear of environmental contamination looms[0m
+📚 author:  Dharna Noor in Baltimore
+📚 categories:  ["Baltimore bridge collapse", "US news", "Baltimore", "Environment"]
+📚 entry_id:  https://www.theguardian.com/us-news/2024/mar/30/baltimore-bridge-collapse-environment-hazard
+📚 id:  https://www.theguardian.com/us-news/2024/mar/30/baltimore-bridge-collapse-environment-hazard
+📚 image:  https://i.guim.co.uk/img/media/746d26069e8473ecb3f8bced0a76faad58ce5767/0_243_4998_3001/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=9174f9d2a43dc47594df37740a7c7e63
+📚 published:  2024-03-30 12:00:09 UTC
+📚 summary:  <p>Responders have currently found ‘no immediate threat’, but 14 of at least 56 containers carrying contaminants were destroyed</p><p>As authorities clean up the wreckage left behind by Tuesday’s deadly <a href="https://www.theguardian.com/us-news/baltimore-bridge-collapse">collapse of Baltimore’s Francis Scott Key Bridge</a>, they are also looking for signs of potential environmental contamination.</p><p>Responders have currently found “no immediate threat to the environment”. But for environmental experts, concerns still loom.</p> <a href="https://www.theguardian.com/us-news/2024/mar/30/baltimore-bridge-collapse-environment-hazard">Continue reading...</a>
+📚 title:  As Baltimore bridge cleanup begins, fear of environmental contamination looms
+📚 url:  https://www.theguardian.com/us-news/2024/mar/30/baltimore-bridge-collapse-environment-hazard
+🕷️  Crawling RSS Feed from: [0;33;49mUS general23[0m # http://www.newyorker.com/feed/news -->  [0;34;49m24[0m news found.
 📰 [1] Title: [0;36;49mThe Trump Stock Bubble: How Long Will It Last?[0m
-📰 [2] Title: [0;36;49mWhat Have Fourteen Years of Conservative Rule Done to Britain?[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general24[0m # http://feeds.feedburner.com/NationPBSNewsHour -->  15 news found.
+📚 author:  John Cassidy
+📚 categories:  ["News / Our Columnists"]
+📚 entry_id:  6606df42b3fbfc980e68b7cb
+📚 id:  6606df42b3fbfc980e68b7cb
+📚 image:  https://media.newyorker.com/photos/6606df73f3323ebce56da6ef/master/pass/Cassidy-Truth-Social.jpg
+📚 published:  2024-03-29 22:19:53 UTC
+📚 summary:  On paper, a Wall Street deal to take public the former President’s social-media company has given him a windfall of nearly $4.9 billion. But the stock is grossly overvalued and Trump can’t sell it immediately.
+📚 title:  The Trump Stock Bubble: How Long Will It Last?
+📚 url:  https://www.newyorker.com/news/our-columnists/the-trump-stock-bubble-how-long-will-it-last
+🕷️  Crawling RSS Feed from: [0;33;49mUS general24[0m # http://feeds.feedburner.com/NationPBSNewsHour -->  [0;34;49m15[0m news found.
 📰 [1] Title: [0;36;49mNews Wrap: Sessions insists he didn’t lie about Russian contacts to Senate[0m
-📰 [2] Title: [0;36;49mEscaping Harvey Weinstein was a ‘cat-and-mouse game,’ says Katherine Kendall[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general25[0m # http://feeds.feedburner.com/NewshourWorld -->  15 news found.
+📚 author:  PBS NewsHour
+📚 categories:  ["james comey", "jeff sessions", "senate judiciary committee"]
+📚 comments:  http://www.pbs.org/newshour/bb/news-wrap-sessions-insists-didnt-lie-russian-contacts-senate/#respond
+📚 enclosure_url:  https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_NewsWrap.mp3
+📚 entry_id:  http://www.pbs.org/newshour/?post_type=bb&p=231039
+📚 id:  http://www.pbs.org/newshour/?post_type=bb&p=231039
+📚 image:  http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1H1LG-1024x683.jpg
+📚 published:  2017-10-18 22:45:56 UTC
+📚 summary:  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1H1LG-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005811482/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_NewsWrap.mp3">Listen to the Audio</a></p><p><strong>HARI SREENIVASAN: </strong>In the day&#8217;s other news: Attorney General Jeff Sessions insisted he never lied to the Senate Judiciary Committee about his conversations with the Russian ambassador during the presidential campaign. At a hearing today, he bridled at Democratic Senator Al Franken&#8217;s accusation that he&#8217;d &#8212; quote &#8212; &#8220;moved the goalposts&#8221; on the nature of his discussions.</p>
+<p><strong>SEN. AL FRANKEN, </strong>D-Minn.: First it was, I didn&#8217;t have communications with Russians, which wasn&#8217;t true. Then it was, I never met with any Russians to discuss any political campaign, which may or may not be true.</p>
+<p>Now it&#8217;s, I didn&#8217;t discuss interference in the campaign.</p>
+<p><strong>JEFF SESSIONS, </strong>Attorney General: Well, let me just say without hesitation, that I conducted no improper discussions with the Russians at any time regarding the campaign or any other item facing this country.</p>
+<p><strong>HARI SREENIVASAN:</strong> Sessions has recused himself from the Justice Department&#8217;s investigation into Russia&#8217;s election meddling.</p>
+<p>President Trump had new criticism today for former FBI Director James Comey over the Hillary Clinton e-mail probe. He complained again that Comey decided to clear Clinton before she was even interviewed. That&#8217;s based on newly released draft statements by Comey from May of 2016. FBI officials say it was already clear that no charges were warranted.</p>
+<p>On another issue, the president faced fallout over the death of Army Sergeant La David Johnson in Niger this month. Congresswoman Frederica Wilson says she was with Mrs. Johnson when the president called. The Florida Democrat told The Washington Post that Mr. Trump said &#8212; quote &#8212; &#8220;He knew what he was signing up for, but I guess it hurts anyway.&#8221;</p>
+<p>The sergeant&#8217;s mother confirmed it, but the president denied it, and White House Press Secretary Sarah Huckabee Sanders went after Wilson.</p>
+<p><strong>SARAH SANDERS,</strong> White House Press Secretary: This is a president who loves our country very much, who has the greatest level of respect for men and women in uniform and wanted to call and offer condolences to the family, and I think to try to create something from that, that the congresswoman is doing, is, frankly, appalling and disgusting.</p>
+<p><strong>HARI SREENIVASAN:</strong> The Post also reported on another incident today. It quoted the father of a soldier killed in Afghanistan as saying the president offered $25,000 from his personal account, but never followed through.</p>
+<p>We will get more detail on all of this after the news summary.</p>
+<p>The death toll in Northern California&#8217;s wildfires rose to 42 today. Officials in Sonoma County found the remains of the latest victim, as they searched hundreds of burned homes. Meanwhile, fire crews made new gains overnight with the help of cooler weather and low winds.</p>
+<p>A two-time Olympic medalist says the former team doctor for U.S. women&#8217;s gymnastics sexually abused her for years. McKayla Maroney is the highest profile athlete to come forward in the scandal. In a statement today, she said Dr. Larry Nassar began molesting her when she was just 13. He&#8217;s awaiting sentencing on a child pornography charge, but has denied any sexual abuse.</p>
+<p>More questions tonight about drug pricing. A new study finds the costs of injectable cancer drugs, approved since 1996, rose an average of 25 percent over eight years. That&#8217;s far higher than the rate of inflation. The study was based at Emory University and published in &#8220;The Journal of Clinical Oncology.&#8221;</p>
+<p>And on Wall Street, health insurers and IBM fueled a surge in stocks today. The Dow Jones industrial average gained 160 points, more than half-a-percent, to close above 23000 for the first time. The Nasdaq rose just a fraction, and the S&amp;P 500 was up two points.</p>
+<p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/news-wrap-sessions-insists-didnt-lie-russian-contacts-senate/">News Wrap: Sessions insists he didn’t lie about Russian contacts to Senate</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+📚 title:  News Wrap: Sessions insists he didn’t lie about Russian contacts to Senate
+📚 url:  http://www.pbs.org/newshour/bb/news-wrap-sessions-insists-didnt-lie-russian-contacts-senate/
+🕷️  Crawling RSS Feed from: [0;33;49mUS general25[0m # http://feeds.feedburner.com/NewshourWorld -->  [0;34;49m15[0m news found.
 📰 [1] Title: [0;36;49mXi Jinping celebrates China’s rising power — and his own[0m
-📰 [2] Title: [0;36;49mThe battle for Mosul is over, but this hidden ISIS danger could lurk for years[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general29[0m # http://feeds.feedburner.com/AtlanticNational -->  25 news found.
+📚 author:  PBS NewsHour
+📚 categories:  ["china", "Communist Party of China", "Xi Jinping"]
+📚 comments:  http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/#respond
+📚 enclosure_url:  https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_XiJinpingcelebrates.mp3
+📚 entry_id:  http://www.pbs.org/newshour/?post_type=bb&p=231043
+📚 id:  http://www.pbs.org/newshour/?post_type=bb&p=231043
+📚 image:  http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1G5ZZ-1024x686.jpg
+📚 published:  2017-10-18 22:35:21 UTC
+📚 summary:  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1G5ZZ-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005812297/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_XiJinpingcelebrates.mp3">Listen to the Audio</a></p><p><strong>HARI SREENIVASAN:</strong> President Xi Jinping opened China&#8217;s twice-per-decade Communist Party Congress today with a lengthy list of his achievements during his first five-year term, and his vision of where he hopes to take his nation.</p>
+<p>But beyond the words, Xi is asserting power like no Chinese leader in decades.</p>
+<p>William Brangham reports.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> The applause, the music, it was a reception befitting the commanding role that Xi Jinping has taken since being named party leader five years ago.</p>
+<p>He opened today&#8217;s proceedings by hailing reforms he&#8217;s put in place, and proclaiming a &#8212; quote &#8212; &#8220;new era for China.&#8221;</p>
+<p><strong>PRESIDENT XI JINPING,</strong> China (through interpreter): The Chinese nation has realized a great leap, from declining in modern history to twisting its fate fundamentally and continuously moving to prosperity.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> Over 3.5 hours, Xi laid out his vision to shape the nation of 1.4 billion people into what he called a &#8212; quote &#8212; &#8220;great modern socialist country&#8221; over the next three decades.</p>
+<p><strong>PRESIDENT XI JINPING</strong> (through interpreter): Achieving the great rejuvenation of the Chinese nation will be no walk in the park, and it will take more than drumbeating and gong-clanging to get there. The whole party must be prepared to make more arduous, strenuous efforts.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> Susan Shirk is chair of the 21st Century China Center at the University of California, San Diego.</p>
+<p><strong>SUSAN SHIRK,</strong> University of California, San Diego: Xi Jinping has a vision of China&#8217;s role in the world that is much more ambitious than anything we have seen before, talking about China kind of moving toward the center of the world and having a lot more influence than it did before.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> In his address, Xi largely ignored the question of political reforms in China, and he didn&#8217;t mention President Trump or North Korea&#8217;s nuclear weapons program.</p>
+<p>But in a rare move, he did acknowledge that with global demand weakening, there were challenges facing China&#8217;s export-driven economy.</p>
+<p><strong>PRESIDENT XI JINPING</strong> (through interpreter):  While China&#8217;s overall productive forces have significantly improved and in many areas our production capacity leads the world, the more prominent problem is that our development is unbalanced and inadequate.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> Xi was one of the first foreign leaders to meet with President Trump.</p>
+<p><strong>PRESIDENT DONALD TRUMP:</strong> The relationship developed by President Xi and myself, I think, is outstanding.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> That was decidedly warmer than Mr. Trump&#8217;s past criticism of China and its economic and trade policies.</p>
+<p>But other U.S. officials are more critical of Beijing&#8217;s actions.</p>
+<p><strong>REX TILLERSON,</strong> Secretary of State: China, while rising alongside India, has done so less responsibly.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> Secretary of State Rex Tillerson today criticized China&#8217;s aggressive displays of economic and military power, particularly its expansion on man-made islands in the South China Sea.</p>
+<p><strong>REX TILLERSON:</strong> We will not shrink from China&#8217;s challenges to the rules-based order, and where China subverts the sovereignty of neighboring countries and disadvantages the U.S. and our friends.</p>
+<p><strong>SUSAN SHIRK:</strong> I think there are things to worry about in Chinese foreign policy that are mostly related to these maritime sovereignty issues and to a kind of bullying in Asia, but the global ambition could turn out to be positive.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> Susan Shirk says China has filled a vacuum left by the United States&#8217; withdrawal from global agreements like the Trans-Pacific Partnership and the Paris climate accords.</p>
+<p>Perhaps the most important thing to watch for in the next few days is who Xi establishes as his likely successor.</p>
+<p><strong>SUSAN SHIRK:</strong> That is why there is a lot of speculation now that he may be trying, much like Putin, to stay on beyond his normal term or to rule behind the scenes even after he retires.</p>
+<p><strong>WILLIAM BRANGHAM:</strong> President Trump will be traveling to Beijing to meet Xi next month.</p>
+<p>For the PBS NewsHour, I&#8217;m William Brangham.</p>
+<p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/">Xi Jinping celebrates China&#8217;s rising power &#8212; and his own</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+📚 title:  Xi Jinping celebrates China’s rising power — and his own
+📚 url:  http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/
+🕷️  Crawling RSS Feed from: [0;33;49mUS general29[0m # http://feeds.feedburner.com/AtlanticNational -->  [0;34;49m25[0m news found.
 📰 [1] Title: [0;36;49mIs the Biden-Netanyahu Relationship Rupturing?[0m
-📰 [2] Title: [0;36;49mThe Wars That Divide Washington[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general30[0m # http://feeds.feedburner.com/TheAtlanticWire -->  20 news found.
+📚 author:  The Editors
+📚 categories:  []
+📚 entry_id:  tag:theatlantic.com,2024:50-677826
+📚 id:  tag:theatlantic.com,2024:50-677826
+📚 image:  https://cdn.theatlantic.com/thumbor/fGNL0VAI9S4Tn6bUC1MW4gB3IG8=/media/img/mt/2024/03/still4/original.jpg
+📚 published:  2024-03-23 14:37:49 UTC
+📚 summary:  “If you flash back to the rupture during the Obama administration, Joe Biden was always the person who stepped in and tried to find a way to make it better.”
+📚 title:  Is the Biden-Netanyahu Relationship Rupturing?
+📚 url:  https://www.theatlantic.com/national/archive/2024/03/biden-netanyahu-israel-hamas-war-washington-week/677826/?utm_source=feed
+🕷️  Crawling RSS Feed from: [0;33;49mUS general30[0m # http://feeds.feedburner.com/TheAtlanticWire -->  [0;34;49m20[0m news found.
 📰 [1] Title: [0;36;49mThe 'Only' Profession to 'Celebrate What It Means to Live a Life'[0m
-📰 [2] Title: [0;36;49mCorinne Found the Perfect Way to Rebel Against <em>The Bachelor</em>[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general31[0m # http://www.latimes.com/nation/rss2.0.xml -->  100 news found.
-📰 [1] Title: [0;36;49mNews Analysis: Supreme Court has right and far-right wings. Their justices might not be those you'd guess[0m
-📰 [2] Title: [0;36;49mLos Angeles couple's Supreme Court case sheds light on immigrant visa rejections[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general32[0m # http://www.latimes.com/world/rss2.0.xml -->  100 news found.
-📰 [1] Title: [0;36;49mNews Analysis: Supreme Court has right and far-right wings. Their justices might not be those you'd guess[0m
-📰 [2] Title: [0;36;49mLos Angeles couple's Supreme Court case sheds light on immigrant visa rejections[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general34[0m # https://news.vice.com/rss -->  10 news found.
+📚 author:  Spencer Kornhaber
+📚 categories:  ["Culture"]
+📚 entry_id:  tag:thewire.com,2017:50-518082
+📚 id:  tag:thewire.com,2017:50-518082
+📚 published:  2017-02-28 17:57:00 UTC
+📚 summary:  In another strange sign of the mounting culture wars, Viola Davis’s emotional Oscars tribute to artists has become political fodder.
+📚 title:  The 'Only' Profession to 'Celebrate What It Means to Live a Life'
+📚 url:  https://www.theatlantic.com/entertainment/archive/2017/02/viola-davis-pos-oscars-only-profession-artists/518082/
+🕷️  Crawling RSS Feed from: [0;33;49mUS general31[0m # http://www.latimes.com/nation/rss2.0.xml -->  [0;34;49m100[0m news found.
+📰 [1] Title: [0;36;49mPeople in Gaza are starving. Why is it so hard to get aid to them? [0m
+📚 author:  Nabih Bulos
+📚 categories:  []
+📚 entry_id:  https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+📚 id:  https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+📚 published:  2024-03-30 10:00:01 UTC
+📚 summary:  <p>With warnings of 'imminent' famine in Gaza, there is a global push to get more aid to Palestinians amid the Israel-Hamas war. What are the roadblocks?</p>
+📚 title:  People in Gaza are starving. Why is it so hard to get aid to them? 
+📚 url:  https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+🕷️  Crawling RSS Feed from: [0;33;49mUS general32[0m # http://www.latimes.com/world/rss2.0.xml -->  [0;34;49m100[0m news found.
+📰 [1] Title: [0;36;49mPeople in Gaza are starving. Why is it so hard to get aid to them? [0m
+📚 author:  Nabih Bulos
+📚 categories:  []
+📚 entry_id:  https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+📚 id:  https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+📚 published:  2024-03-30 10:00:01 UTC
+📚 summary:  <p>With warnings of 'imminent' famine in Gaza, there is a global push to get more aid to Palestinians amid the Israel-Hamas war. What are the roadblocks?</p>
+📚 title:  People in Gaza are starving. Why is it so hard to get aid to them? 
+📚 url:  https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+🕷️  Crawling RSS Feed from: [0;33;49mUS general34[0m # https://news.vice.com/rss -->  [0;34;49m10[0m news found.
 📰 [1] Title: [0;36;49mInside the Christian Nationalist Church Where Proud Boys Go to be Baptized[0m
-📰 [2] Title: [0;36;49mWhat We Know About the Death of Nonbinary Teen Nex Benedict[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general36[0m # http://www.salon.com/category/news/feed/rss/ -->  0 news found.
-🕷️  Crawling RSS Feed from: [0;33;49mUS general37[0m # http://time.com/newsfeed/feed/ -->  10 news found.
+📚 author:  Tess Owen
+📚 categories:  ["News", "Proud Boys", "christian nationalism", "extremism", "hansel orzame", "California", "maga"]
+📚 entry_id:  3akex5
+📚 id:  3akex5
+📚 image:  http://video-images.vice.com/articles/65d7470d207da9d6f4bd4a0a/lede/1708607265010-screen-shot-2024-02-21-at-60817-pm.png
+📚 published:  2024-02-22 13:24:29 UTC
+📚 summary:  Southern California pastor Hansel Orzame leads an “unwoke church” where he prepares his followers to wage “spiritual warfare.”
+📚 title:  Inside the Christian Nationalist Church Where Proud Boys Go to be Baptized
+📚 url:  https://www.vice.com/en_us/article/3akex5/hansel-orzame-proud-boys-church-christian-nationalism
+🕷️  Crawling RSS Feed from: [0;33;49mUS general36[0m # http://www.salon.com/category/news/feed/rss/ -->  [0;34;49m0[0m news found.
+🕷️  Crawling RSS Feed from: [0;33;49mUS general37[0m # http://time.com/newsfeed/feed/ -->  [0;34;49m10[0m news found.
 📰 [1] Title: [0;36;49mWatch the Biggest Moments From King Charles III’s Coronation[0m
-📰 [2] Title: [0;36;49mHow the World Is Reacting to Shinzo Abe’s Death[0m
-🕷️  Crawling RSS Feed from: [0;33;49mUS general38[0m # http://feeds.foxnews.com/foxnews/latest?format=xml -->  25 news found.
-📰 [1] Title: [0;36;49mFBI interrogates Americans over social media posts 'every day, all day long,' agent says[0m
-📰 [2] Title: [0;36;49mDuke pulls away from top-seeded Houston in gritty second half to advance to Elite Eight[0m
+📚 author:  Man Sum Lai
+📚 categories:  ["Uncategorized", "King Charles III's Coronation", "News", "video"]
+📚 entry_id:  https://time.com/?p=6276813
+📚 id:  https://time.com/?p=6276813
+📚 published:  2023-05-06 10:17:28 UTC
+📚 summary:  Watch the biggest moments from King Charles III's coronation, where Charles and Camilla were crowned.
+📚 title:  Watch the Biggest Moments From King Charles III’s Coronation
+📚 url:  https://time.com/6276813/watch-the-biggest-moments-from-king-charles-iiis-coronation/
+🕷️  Crawling RSS Feed from: [0;33;49mUS general38[0m # http://feeds.foxnews.com/foxnews/latest?format=xml -->  [0;34;49m25[0m news found.
+📰 [1] Title: [0;36;49m10 wedding superstitions that date back decades but are still prevalent today[0m
+📚 categories:  ["3e03c4c0-b0be-5244-b652-3e6dfda66027", "fnc", "Fox News", "fox-news/lifestyle/weddings", "fox-news/entertainment/events/marriage", "fox-news/lifestyle/relationships", "fox-news/lifestyle", "fox-news/special/occasions", "fox-news/faith-values/family", "fox-news/lifestyle", "article"]
+📚 entry_id:  https://www.foxnews.com/lifestyle/wedding-superstitions
+📚 id:  https://www.foxnews.com/lifestyle/wedding-superstitions
+📚 image:  https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/11/931/523/wedding-istock.jpg?ve=1&tl=1
+📚 published:  2024-03-30 12:53:49 UTC
+📚 summary:  Wedding days come with many timeless traditions and ancient superstitions. Some couples take superstitions to heart, while others worry less.
+📚 title:  10 wedding superstitions that date back decades but are still prevalent today
+📚 url:  https://www.foxnews.com/lifestyle/wedding-superstitions
+field_counters: {"author"=>19, "categories"=>36, "comments"=>4, "enclosure_url"=>3, "entry_id"=>36, "id"=>36, "image"=>23, "published"=>36, "summary"=>33, "title"=>36, "url"=>36}📚 url:	36
+📚 categories:	36
+📚 entry_id:	36
+📚 id:	36
+📚 published:	36
+📚 title:	36
+📚 summary:	33
+📚 image:	23
+📚 author:	19
+📚 comments:	4
+📚 enclosure_url:	3
+📚 AdKronos - Primapagina:	title,url,summary,author,categories,published,entry_id,image
+📚 AdKronos - Ultim ora:	title,url,summary,author,categories,published,entry_id,image
+📚 Al Jazeera - News:	title,url,summary,categories,published,entry_id
+📚 Ansa - Mondo News:	title,url,summary,categories,published,entry_id
+📚 Ansa - all:	title,url,summary,categories,published,entry_id
+📚 BBC Politics:	title,url,summary,categories,published,entry_id,image
+📚 BBC Science:	title,url,summary,categories,published,entry_id,image
+📚 BBC Science and Environment:	title,url,summary,categories,published,entry_id,image
+📚 BCC Europe:	title,url,summary,categories,published,entry_id,image
+📚 CNN money:	title,url,summary,categories,published,entry_id,image
+📚 Corriere - Home:	title,url,summary,categories,published,entry_id
+📚 Il Fatto:	title,url,summary,author,categories,published,entry_id,comments,content,image
+📚 Repubblica - Esteri:	title,url,author,categories,published,enclosure_length,enclosure_type,enclosure_url,summary,entry_id
+📚 Repubblica - Home:	title,url,summary,author,categories,published,entry_id,updated
+📚 Riccardo - Blog:	title,url,summary,author,categories,published,entry_id,image
+📚 US general1:	title,url,summary,categories,published,entry_id,image
+📚 US general14:	title,url,summary,categories,published,entry_id,comments,content
+📚 US general15:	title,url,summary,categories,published,entry_id,image
+📚 US general16:	title,url,categories,published,entry_id,image
+📚 US general17:	title,url,categories,published,entry_id,image
+📚 US general2:	title,url,categories,published,entry_id,image
+📚 US general21:	title,url,summary,author,categories,published,entry_id,image
+📚 US general23:	title,url,summary,author,categories,published,entry_id,image
+📚 US general24:	title,url,author,categories,published,enclosure_length,enclosure_type,enclosure_url,summary,entry_id,comments,content,itunes_duration,itunes_summary,image
+📚 US general25:	title,url,author,categories,published,enclosure_length,enclosure_type,enclosure_url,summary,entry_id,comments,content,itunes_duration,itunes_summary,image
+📚 US general29:	entry_id,content,author,image,title_type,raw_title,published,updated,summary,url,links,title,categories
+📚 US general3:	title,url,summary,categories,published,entry_id
+📚 US general30:	entry_id,content,author,title_type,published,summary,url,links,title,categories
+📚 US general31:	title,url,summary,author,categories,published,entry_id,content
+📚 US general32:	title,url,summary,author,categories,published,entry_id,content
+📚 US general34:	title,url,summary,author,categories,published,entry_id,content,image
+📚 US general37:	title,url,summary,author,categories,published,entry_id,content
+📚 US general38:	title,url,summary,categories,published,entry_id,content,image
+📚 US general7:	title,url,author,categories,published,summary,entry_id
+📚 US general8:	title,url,summary,author,categories,published,entry_id,image
+📚 US general9:	title,url,summary,author,categories,published,entry_id,image

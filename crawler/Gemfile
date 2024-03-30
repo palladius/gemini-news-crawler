@@ -3,3 +3,4 @@ source "https://rubygems.org"
 gem 'feedjira'
 gem 'httparty' # wanted by feedjira
 gem 'colorize'
+gem "feedbag" # Autodiscovery of RSSs :)

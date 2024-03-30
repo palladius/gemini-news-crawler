@@ -9,7 +9,8 @@ NEWS ={
     ########################################################################################################
     # Best italian RSSs: https://www.internetto.it/lista-aggiornata-dei-migliori-feed-rss-italiani/
     ########################################################################################################
-
+    # Example from https://github.com/feedjira/feedjira
+    #'Earthquakes': 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom',
     'Repubblica - Home': 'https://www.repubblica.it/rss/homepage/rss2.0.xml', # homepage
     'Repubblica - Esteri': 'https://www.repubblica.it/rss/esteri/rss2.0.xml', # esteri
     'Il Fatto': 'https://www.ilfattoquotidiano.it/feed/', # generic
@@ -21,11 +22,14 @@ NEWS ={
     'Ansa - Mondo News': 'https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml',
     # Corriere meta RSS: https://www.corriere.it/rss/
     'Corriere - Home': 'https://xml2.corriereobjects.it/rss/homepage.xml',
+    'Riccardo - Blog': 'https://ricc.rocks/en/index.xml',
 #######################
 #  'Europe': {
 
     'BCC Europe': 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',
     'BBC Science': 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
+    'BBC Politics': 'https://feeds.bbci.co.uk/news/politics/rss.xml',
+    'BBC Science and Environment': 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
     # seems fishy but: https://www.ajplus.net/stories?format=rss
     'Al Jazeera - News': 'https://www.aljazeera.com/xml/rss/all.xml',
     'CNN money': 'http://rss.cnn.com/rss/money_latest.rss',
@@ -69,5 +73,37 @@ NEWS ={
     'US general37': 'http://time.com/newsfeed/feed/',
     'US general38': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
 
-  }
+  },
+
+}
+
+NewsFeedback = {
+  technology: [
+    # These works
+    'https://www.ruby-lang.org/en/',
+    'https://www.ruby-lang.org/it/',
+    'https://it.wikipedia.org/wiki/',
+    'http://www.latimes.com/',
+    # from feedbag
+    'https://daringfireball.net',
+    #'https://kottke.org', SLOW
+    #"http://planet.debian.org/", # oh wow so many
+    "http://ve.planetalinux.org",
+    "cnn.com",
+
+    # These Do NOT work
+    'https://www.repubblica.it',
+    'http://time.com/',
+    'http://www.bbc.com/',
+    'http://www.cnn.com/',
+    'https://www.bbc.com/',
+    'https://www.cnn.com/',
+    # personal
+    'http://ricc.rocks',
+    'https://ricc.rocks',
+    'ricc.rocks',
+    #'www.palladius.it',
+    #'https://www.linkedin.com/in/riccardocarlesso/',
+    'http://opentomeraviglia.app/',
+  ]
 }
