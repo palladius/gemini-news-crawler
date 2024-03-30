@@ -73,4 +73,8 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  # https://stackoverflow.com/questions/8013478/how-to-avoid-precompiled-assets-being-served-in-development-mode
+  #config.assets.prefix = "/assets_dev"
+
 end
