@@ -7,15 +7,25 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+if ENV['DESTROY_ALL_BEFORE'] == 'YES_WHY_NOT'
+  Article.delete_all
+  Category.delete_all
+end
+
 Article.create(
-  title: 'A sport news about politics',
+  title: 'Another sport news about politics',
   categories: ['sport', 'politics', '2024-04-01'],
   summary: 'Lets see if I can make this into creating the categories automatically by patching the model',
+  guid: 'rake-seed-01',
+  published_date: Time.now,
+  hidden_blurb: 'TODO the whole object I get from new API calls',
 )
 Article.create(
   title: 'Trump vs Berlusconi',
   categories: ['italy', 'politics', '2024-04-01'],
   summary: 'Lets see if I can make this into creating the categories automatically by patching the model',
+  guid: 'rake-seed-02',
 )
 Category.create(name: 'manhouse')
 
