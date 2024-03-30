@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  summary: MyText
+  content: MyText
+  author: MyString
+  link: MyString
+  published_date: 2024-03-30 20:55:25
+  image_url: MyString
+  feed_url: MyString
+  guid: MyString
+  hidden_blurb: MyText
+  language: MyString
+  active: false
+  ricc_internal_notes: MyText
+  ricc_source: MyString
+
+two:
+  title: MyString
+  summary: MyText
+  content: MyText
+  author: MyString
+  link: MyString
+  published_date: 2024-03-30 20:55:25
+  image_url: MyString
+  feed_url: MyString
+  guid: MyString
+  hidden_blurb: MyText
+  language: MyString
+  active: false
+  ricc_internal_notes: MyText
+  ricc_source: MyString

@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Article.create(
+  title: 'A sport news about politics',
+  categories: ['sport', 'politics'],
+  summary: 'Lets see if I can make this into creating the categories automatically by patching the model',
+)

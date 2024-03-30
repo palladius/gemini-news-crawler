@@ -20,7 +20,7 @@ run-prod:
 regenerate:
 # summary = description
 	echo TODO ricc make it recreate it if you forget something..
-	rails generate scaffold --force Article \
+	rails generate scaffold Article \
 		title:string summary:text content:text \
 		author:string \
 		link:string published_date:datetime \

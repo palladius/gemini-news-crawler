@@ -1,0 +1,77 @@
+<div id="<%= dom_id article %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Title:</strong>
+    <%= article.title %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary:</strong>
+    <%= article.summary %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Content:</strong>
+    <%= article.content %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Author:</strong>
+    <%= article.author %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Link:</strong>
+    <%= article.link %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Published date:</strong>
+    <%= article.published_date %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Image url:</strong>
+    <%= article.image_url %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Feed url:</strong>
+    <%= article.feed_url %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Guid:</strong>
+    <%= article.guid %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Hidden blurb:</strong>
+    <%= article.hidden_blurb %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Language:</strong>
+    <%= article.language %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Active:</strong>
+    <%= article.active %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Ricc internal notes:</strong>
+    <%= article.ricc_internal_notes %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Ricc source:</strong>
+    <%= article.ricc_source %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this article", article, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Edit this article", edit_article_path(article), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>
