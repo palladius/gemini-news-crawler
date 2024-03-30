@@ -6,7 +6,7 @@ require_relative './constants.rb'
 require_relative './news_cacher.rb'
 #NewsCacher
 
-MaxArticleSize = 1 # todo 100
+MaxArticleSize = 2 # todo 100
 RssCacheInvalidationMinutes = 15 # 15 minutes
 RSSVerbs = %w{
   author
@@ -60,17 +60,17 @@ def main
   url = NEWS[:italy].first
   NEWS[:italy].each do |newspaper_friendly_name, newspaper_feed|
     url = newspaper_feed
-    puts("🕷️  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
+    print("🕷️  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
     #xml = HTTParty.get(url).body
     #cacher.autocache(feed_url)
     cacher = NewsCacher.new
     xml  = cacher.autocache(url, verbose: false)
     feed = Feedjira.parse(xml) rescue nil
     if feed.nil?
-      puts "❌ Some issues with parsing #{url}: #{$!}"
+      puts "❌ Some issues with parsing #{url}: #{$!}".colorize(:red)
       next
     end
-    puts("🕷️  #{feed.entries.count} news found.")
+    puts(" -->  #{feed.entries.count} news found.")
 #    puts feed.entries.first.methods
     feed.entries.each_with_index do |rss_article, ix|
       break if ix == MaxArticleSize
@@ -78,7 +78,7 @@ def main
       #puts("📰 categories:  #{rss_article.categories}")
       RSSVerbs.each do |verb|
         if (rss_article.send verb rescue nil).to_s.length > 0
-          puts("📚 #{verb}:  #{rss_article.send verb}") rescue nil
+          # puts("📚 #{verb}:  #{rss_article.send verb}") rescue nil
         end
       end
       #puts("📰 categories:  #{rss_article.author}")

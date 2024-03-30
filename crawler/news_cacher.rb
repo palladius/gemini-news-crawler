@@ -26,11 +26,12 @@ class NewsCacher
   end
 
   def fetch_and_cache_feed(feed_url)
-#    feed = Feedjira::Feed.fetch(feed_url)
-    xml = HTTParty.get(feed_url).body
-    #puts xml
+    #begin
+      xml = HTTParty.get(feed_url).body rescue nil # TODO catch error
+    #rescue
+    #  raise "Error fetching: #{feed_url}"
+    #end
     filename = cache_filename(feed_url)
-    #File.open(filename, "w") { |f| f.write(feed.xml) }
     File.open(filename, "w") do |f|
       # f.write("<!-- Written by NewsCacher-->\n")
       # f.write("<!-- feed_url: '#{feed_url}' -->\n")

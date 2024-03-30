@@ -1,38 +1,100 @@
 🖖🏻 Welcome to Gemini News Parser v0.1
-🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Home[0m # https://www.repubblica.it/rss/homepage/rss2.0.xml
-🕷️  30 news found.
-📰 [1] Title: [0;36;49mTorna l’ora legale: un’ora in meno di sonno ma in più di luce[0m
-📚 author:  repubblicawww@repubblica.it (Redazione Repubblica.it)
-📚 categories:  ["Cronaca"]
-📚 entry_id:  rep-locali:repubblica:422398572
-🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Esteri[0m # https://www.repubblica.it/rss/esteri/rss2.0.xml
-🕷️  25 news found.
-📰 [1] Title: [0;36;49mRiparte l’Operazione blackout: Mosca mira agli impianti elettrici ma per fermare fabbriche e treni[0m
-📚 author:  repubblicawww@repubblica.it (Redazione Repubblica.it)
-📚 categories:  ["esteri"]
-📚 enclosure_url:  https://www.repstatic.it/content/nazionale/img/2024/03/29/220919130-d86ce428-608e-408d-8bd0-253316857c43.jpg
-📚 entry_id:  https://www.repubblica.it/esteri/2024/03/30/news/blackout_mosca_impianti_elettrici_ucraina_treni-422398530/?rss
-🕷️  Crawling RSS Feed from: [0;33;49mIl Fatto[0m # https://www.ilfattoquotidiano.it/feed/
-🕷️  25 news found.
-📰 [1] Title: [0;36;49mPapa Francesco, niente Via Crucis del Venerdì Santo: l’annuncio all’ultimo momento. Le sue meditazioni anche sulla “follia della guerra”[0m
-📚 author:  F. Q.
-📚 categories:  ["Cronaca", "Papa Francesco"]
-📚 comments:  https://www.ilfattoquotidiano.it/2024/03/29/papa-francesco-niente-via-crucis-del-venerdi-santo-lannuncio-allultimo-momento-le-sue-meditazioni-anche-sulla-follia-della-guerra/7496541/#respond
-📚 entry_id:  https://www.ilfattoquotidiano.it/?p=7496541
-📚 image:  https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/29/papa-francesco-1200-4-1050x551.jpg
-🕷️  Crawling RSS Feed from: [0;33;49mBCC Europe[0m # https://feeds.bbci.co.uk/news/world/europe/rss.xml
-🕷️  28 news found.
+🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Home[0m # https://www.repubblica.it/rss/homepage/rss2.0.xml -->  30 news found.
+📰 [1] Title: [0;36;49mIsraele - Hamas, le news di oggi. Media: “Colloqui tra Usa e Israele su operazione a Rafah”. Ragazzo di 13 anni ucciso in raid a Jenin. Israele contesta allarme Onu su rischio carestia a Gaza nord[0m
+📰 [2] Title: [0;36;49mGuerra Ucraina - Russia, le news di oggi. Sette droni russi abbattuti nella notte. Zelensky a Usa: “Dateci missili Atacms per colpire Crimea”[0m
+🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Esteri[0m # https://www.repubblica.it/rss/esteri/rss2.0.xml -->  25 news found.
+📰 [1] Title: [0;36;49mLa foto dell’anno di Ap ritrae il corpo di Shani Louk uccisa da Hamas: critiche social. Ma il padre non le condivide[0m
+📰 [2] Title: [0;36;49mRiparte l’Operazione blackout: Mosca mira agli impianti elettrici ma per fermare fabbriche e treni[0m
+🕷️  Crawling RSS Feed from: [0;33;49mIl Fatto[0m # https://www.ilfattoquotidiano.it/feed/ -->  25 news found.
+📰 [1] Title: [0;36;49mMilano, studenti a rischio sospensione grave per l’occupazione dell’Istituto Severi-Correnti. Uno dei genitori: “Accuse non dimostrate”[0m
+📰 [2] Title: [0;36;49m“L’Ucraina? Questo clima di paura favorisce svolte autoritarie e serve a prepararci a futuri conflitti”: intervista all’antropologo Romain Huët[0m
+🕷️  Crawling RSS Feed from: [0;33;49mAdKronos - Primapagina[0m # https://www.adnkronos.com/RSS_PrimaPagina.xml -->  12 news found.
+📰 [1] Title: [0;36;49mAuto fuori strada a Pordenone, salvato ragazzo incastrato tra lamiere[0m
+📰 [2] Title: [0;36;49mPerù, perquisita casa presidente Boluarte: si indaga per corruzione[0m
+🕷️  Crawling RSS Feed from: [0;33;49mAdKronos - Ultim ora[0m # https://www.adnkronos.com/RSS_Ultimora.xml -->  30 news found.
+📰 [1] Title: [0;36;49mAuto fuori strada a Pordenone, salvato ragazzo incastrato tra lamiere[0m
+📰 [2] Title: [0;36;49mPerù, perquisita casa presidente Boluarte: si indaga per corruzione[0m
+🕷️  Crawling RSS Feed from: [0;33;49mAnsa - all[0m # https://www.ansa.it/sito/ansait_rss.xml -->  30 news found.
+📰 [1] Title: [0;36;49mTiratori scelti e filtraggi, oltre 600 agenti per la via Crucis del Papa[0m
+📰 [2] Title: [0;36;49mTutti i benefici del cioccolato, ma non datelo ai cani[0m
+🕷️  Crawling RSS Feed from: [0;33;49mAnsa - Mondo News[0m # https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml -->  44 news found.
+📰 [1] Title: [0;36;49mCisgiordania, media: 13enne ucciso in raid Israele vicino Jenin[0m
+📰 [2] Title: [0;36;49mUcraina, Scholz: Putin ha infranto principio pace in Europa[0m
+🕷️  Crawling RSS Feed from: [0;33;49mCorriere - Home[0m # https://xml2.corriereobjects.it/rss/homepage.xml -->  90 news found.
+📰 [1] Title: [0;36;49mQuanto rischia la Nato sul fianco Est dell’Europa e come si può difendere: ci vogliono 300 mila uomini [0m
+📰 [2] Title: [0;36;49mGli italiani a Rafah: « Si vive tra droni e bombe, colpisce la magrezza delle persone»[0m
+🕷️  Crawling RSS Feed from: [0;33;49mBCC Europe[0m # https://feeds.bbci.co.uk/news/world/europe/rss.xml -->  28 news found.
 📰 [1] Title: [0;36;49mWar a real threat and Europe not ready, warns Poland's PM[0m
-📚 categories:  []
-📚 entry_id:  https://www.bbc.co.uk/news/world-europe-68692195#0
-📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6E4A/production/_133043282_gettyimages-2050979582.jpg
-🕷️  Crawling RSS Feed from: [0;33;49mBBC Science[0m # https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
-🕷️  18 news found.
+📰 [2] Title: [0;36;49m'Escorted through the airport like a criminal'[0m
+🕷️  Crawling RSS Feed from: [0;33;49mBBC Science[0m # https://feeds.bbci.co.uk/news/science_and_environment/rss.xml -->  18 news found.
 📰 [1] Title: [0;36;49mMammals battle for life in new Attenborough series[0m
-📚 categories:  []
-📚 entry_id:  https://www.bbc.co.uk/news/science-environment-68658875#0
-📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5E7E/production/_133009142_464592.jpg
-🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeer - March 2024[0m # https://www.aljazeera.com/sitemaps/article-archive/2024/03.xml
-❌ Some issues with parsing https://www.aljazeera.com/sitemaps/article-archive/2024/03.xml: 
-🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeera - News[0m # https://rss.app/feed/ivQb6hElsUAtduoK
-❌ Some issues with parsing https://rss.app/feed/ivQb6hElsUAtduoK: 
+📰 [2] Title: [0;36;49mE-waste drawers of doom growing, say campaigners[0m
+🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeera - News[0m # https://www.aljazeera.com/xml/rss/all.xml -->  25 news found.
+📰 [1] Title: [0;36;49mIsrael’s war on Gaza: List of key events, day 176[0m
+📰 [2] Title: [0;36;49mLand Day: What happened in Palestine in 1976?[0m
+🕷️  Crawling RSS Feed from: [0;33;49mCNN money[0m # http://rss.cnn.com/rss/money_latest.rss -->  1 news found.
+📰 [1] Title: [0;36;49mRetirement contribution limits will rise in 2019[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general1[0m # http://feeds.abcnews.com/abcnews/usheadlines -->  25 news found.
+📰 [1] Title: [0;36;49m North Carolina loses to Alabama, becoming first No. 1 seed eliminated from NCAA men's basketball tournament[0m
+📰 [2] Title: [0;36;49m Building a new Key Bridge could take years and cost at least $400 million, experts say[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general2[0m # http://rss.cnn.com/rss/cnn_topstories.rss -->  69 news found.
+📰 [1] Title: [0;36;49mSome on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement after deal is announced[0m
+📰 [2] Title: [0;36;49mDominion still has pending lawsuits against election deniers such as Rudy Giuliani and Sidney Powell[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general3[0m # http://www.cbsnews.com/latest/rss/main -->  30 news found.
+📰 [1] Title: [0;36;49mSee Caitlin Clark play: How to watch today's Iowa vs. Colorado women's NCAA March Madness Sweet 16 game[0m
+📰 [2] Title: [0;36;49mHow to watch today's Illinois vs. UConn men's NCAA March Madness Elite 8 game: Livestream options, more[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general7[0m # http://rss.csmonitor.com/feeds/usa -->  20 news found.
+📰 [1] Title: [0;36;49mTransportation spending surges to historic levels. Will US get historic results?[0m
+📰 [2] Title: [0;36;49mBirthrates are tumbling worldwide, forcing hard choices on societies[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general8[0m # http://feeds.nbcnews.com/feeds/topstories -->  25 news found.
+📰 [1] Title: [0;36;49mBaltimore bridge crash brings scrutiny to contaminated fuel, an 'open secret' in shipping[0m
+📰 [2] Title: [0;36;49mBiden's latest campaign strategy: Get under Trump's skin[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general9[0m # http://feeds.nbcnews.com/feeds/worldnews -->  25 news found.
+📰 [1] Title: [0;36;49mThe end to Israel's subsidy for ultra-Orthodox who don't serve in army could imperil Netanyahu[0m
+📰 [2] Title: [0;36;49mEvan Gershkovich's friend says the reporter is unbroken by his year in a notorious Russian jail[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general14[0m # http://www.huffingtonpost.com/feeds/verticals/world/index.xml -->  8 news found.
+📰 [1] Title: [0;36;49m45 Dead After Bus Plunges Off Bridge In South Africa, Sole Survivor Is 8-Year-Old[0m
+📰 [2] Title: [0;36;49mUN Court Orders Israel To Open More Land-Based Aid Routes Into Gaza Strip[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general15[0m # http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml -->  35 news found.
+📰 [1] Title: [0;36;49mCanada's drug experiment hits strong opposition[0m
+📰 [2] Title: [0;36;49mMassive crane to haul wreckage of Baltimore bridge[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general16[0m # http://news.yahoo.com/rss/us -->  50 news found.
+📰 [1] Title: [0;36;49mHillsdale County Board of Commissioners narrowly approve public defender budget[0m
+📰 [2] Title: [0;36;49mUnemployment claims in Michigan declined last week[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general17[0m # http://rss.news.yahoo.com/rss/world -->  50 news found.
+📰 [1] Title: [0;36;49mAP PHOTOS: Good Friday in Latin America[0m
+📰 [2] Title: [0;36;49mIn Indonesia, deforestation is intensifying disasters from severe weather and climate change[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general21[0m # http://www.theguardian.com/world/usa/rss -->  27 news found.
+📰 [1] Title: [0;36;49mUS reportedly approves transfer to Israel of bombs and jets worth billions[0m
+📰 [2] Title: [0;36;49mProsecutors suggest Trump violated gag order by attacking judge’s daughter[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general23[0m # http://www.newyorker.com/feed/news -->  24 news found.
+📰 [1] Title: [0;36;49mThe Trump Stock Bubble: How Long Will It Last?[0m
+📰 [2] Title: [0;36;49mWhat Have Fourteen Years of Conservative Rule Done to Britain?[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general24[0m # http://feeds.feedburner.com/NationPBSNewsHour -->  15 news found.
+📰 [1] Title: [0;36;49mNews Wrap: Sessions insists he didn’t lie about Russian contacts to Senate[0m
+📰 [2] Title: [0;36;49mEscaping Harvey Weinstein was a ‘cat-and-mouse game,’ says Katherine Kendall[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general25[0m # http://feeds.feedburner.com/NewshourWorld -->  15 news found.
+📰 [1] Title: [0;36;49mXi Jinping celebrates China’s rising power — and his own[0m
+📰 [2] Title: [0;36;49mThe battle for Mosul is over, but this hidden ISIS danger could lurk for years[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general29[0m # http://feeds.feedburner.com/AtlanticNational -->  25 news found.
+📰 [1] Title: [0;36;49mIs the Biden-Netanyahu Relationship Rupturing?[0m
+📰 [2] Title: [0;36;49mThe Wars That Divide Washington[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general30[0m # http://feeds.feedburner.com/TheAtlanticWire -->  20 news found.
+📰 [1] Title: [0;36;49mThe 'Only' Profession to 'Celebrate What It Means to Live a Life'[0m
+📰 [2] Title: [0;36;49mCorinne Found the Perfect Way to Rebel Against <em>The Bachelor</em>[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general31[0m # http://www.latimes.com/nation/rss2.0.xml -->  100 news found.
+📰 [1] Title: [0;36;49mNews Analysis: Supreme Court has right and far-right wings. Their justices might not be those you'd guess[0m
+📰 [2] Title: [0;36;49mLos Angeles couple's Supreme Court case sheds light on immigrant visa rejections[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general32[0m # http://www.latimes.com/world/rss2.0.xml -->  100 news found.
+📰 [1] Title: [0;36;49mNews Analysis: Supreme Court has right and far-right wings. Their justices might not be those you'd guess[0m
+📰 [2] Title: [0;36;49mLos Angeles couple's Supreme Court case sheds light on immigrant visa rejections[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general34[0m # https://news.vice.com/rss -->  10 news found.
+📰 [1] Title: [0;36;49mInside the Christian Nationalist Church Where Proud Boys Go to be Baptized[0m
+📰 [2] Title: [0;36;49mWhat We Know About the Death of Nonbinary Teen Nex Benedict[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general36[0m # http://www.salon.com/category/news/feed/rss/ -->  0 news found.
+🕷️  Crawling RSS Feed from: [0;33;49mUS general37[0m # http://time.com/newsfeed/feed/ -->  10 news found.
+📰 [1] Title: [0;36;49mWatch the Biggest Moments From King Charles III’s Coronation[0m
+📰 [2] Title: [0;36;49mHow the World Is Reacting to Shinzo Abe’s Death[0m
+🕷️  Crawling RSS Feed from: [0;33;49mUS general38[0m # http://feeds.foxnews.com/foxnews/latest?format=xml -->  25 news found.
+📰 [1] Title: [0;36;49mFBI interrogates Americans over social media posts 'every day, all day long,' agent says[0m
+📰 [2] Title: [0;36;49mDuke pulls away from top-seeded Houston in gritty second half to advance to Elite Eight[0m
