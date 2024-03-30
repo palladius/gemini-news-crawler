@@ -1,3 +1,3 @@
 
 crawl:
-	ruby crawl.rb
+	ruby crawl.rb | tee sample-crawl-output.txt

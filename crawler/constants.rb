@@ -5,25 +5,17 @@ CHANGELOG = {
   '0.1': 'initial stesure.'
 }
 NEWS ={
-  'italy':
-  [
-    'https://www.repubblica.it/rss/homepage/rss2.0.xml', # homepage
-    'https://www.repubblica.it/rss/esteri/rss2.0.xml', # esteri
-    'https://www.ilfattoquotidiano.it/feed/', # generic
-  ]
+  'italy': {
+    'Repubblica - Home': 'https://www.repubblica.it/rss/homepage/rss2.0.xml', # homepage
+    'Repubblica - Esteri': 'https://www.repubblica.it/rss/esteri/rss2.0.xml', # esteri
+    'Il Fatto': 'https://www.ilfattoquotidiano.it/feed/', # generic
+#  },
+#  'Europe': {
+    'BCC Europe': 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',
+    'BBC Science': 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
+    'Al Jazeer - March 2024': 'https://www.aljazeera.com/sitemaps/article-archive/2024/03.xml',
+    # seems fishy but: https://www.ajplus.net/stories?format=rss
+    # RSS from Al Jazeera news: https://www.aljazeera.com/news/
+    'Al Jazeera - News': 'https://rss.app/feed/ivQb6hElsUAtduoK',
+  }
 }
-
-
-# def colorize(text, color)
-#   codes = {
-#     red: "\033[31m",
-#     green: "\033[32m",
-#     yellow: "\033[33m",
-#     blue: "\033[34m",
-#     magenta: "\033[35m",
-#     cyan: "\033[36m",
-#     white: "\033[37m",
-#   }
-#   reset_code = "\033[0m"
-#   return "#{codes[color]}#{text}#{reset_code}"
-# end

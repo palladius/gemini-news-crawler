@@ -1,0 +1,38 @@
+🖖🏻 Welcome to Gemini News Parser v0.1
+🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Home[0m # https://www.repubblica.it/rss/homepage/rss2.0.xml
+🕷️  30 news found.
+📰 [1] Title: [0;36;49mTorna l’ora legale: un’ora in meno di sonno ma in più di luce[0m
+📚 author:  repubblicawww@repubblica.it (Redazione Repubblica.it)
+📚 categories:  ["Cronaca"]
+📚 entry_id:  rep-locali:repubblica:422398572
+🕷️  Crawling RSS Feed from: [0;33;49mRepubblica - Esteri[0m # https://www.repubblica.it/rss/esteri/rss2.0.xml
+🕷️  25 news found.
+📰 [1] Title: [0;36;49mRiparte l’Operazione blackout: Mosca mira agli impianti elettrici ma per fermare fabbriche e treni[0m
+📚 author:  repubblicawww@repubblica.it (Redazione Repubblica.it)
+📚 categories:  ["esteri"]
+📚 enclosure_url:  https://www.repstatic.it/content/nazionale/img/2024/03/29/220919130-d86ce428-608e-408d-8bd0-253316857c43.jpg
+📚 entry_id:  https://www.repubblica.it/esteri/2024/03/30/news/blackout_mosca_impianti_elettrici_ucraina_treni-422398530/?rss
+🕷️  Crawling RSS Feed from: [0;33;49mIl Fatto[0m # https://www.ilfattoquotidiano.it/feed/
+🕷️  25 news found.
+📰 [1] Title: [0;36;49mPapa Francesco, niente Via Crucis del Venerdì Santo: l’annuncio all’ultimo momento. Le sue meditazioni anche sulla “follia della guerra”[0m
+📚 author:  F. Q.
+📚 categories:  ["Cronaca", "Papa Francesco"]
+📚 comments:  https://www.ilfattoquotidiano.it/2024/03/29/papa-francesco-niente-via-crucis-del-venerdi-santo-lannuncio-allultimo-momento-le-sue-meditazioni-anche-sulla-follia-della-guerra/7496541/#respond
+📚 entry_id:  https://www.ilfattoquotidiano.it/?p=7496541
+📚 image:  https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/29/papa-francesco-1200-4-1050x551.jpg
+🕷️  Crawling RSS Feed from: [0;33;49mBCC Europe[0m # https://feeds.bbci.co.uk/news/world/europe/rss.xml
+🕷️  28 news found.
+📰 [1] Title: [0;36;49mWar a real threat and Europe not ready, warns Poland's PM[0m
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/world-europe-68692195#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6E4A/production/_133043282_gettyimages-2050979582.jpg
+🕷️  Crawling RSS Feed from: [0;33;49mBBC Science[0m # https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+🕷️  18 news found.
+📰 [1] Title: [0;36;49mMammals battle for life in new Attenborough series[0m
+📚 categories:  []
+📚 entry_id:  https://www.bbc.co.uk/news/science-environment-68658875#0
+📚 image:  https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5E7E/production/_133009142_464592.jpg
+🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeer - March 2024[0m # https://www.aljazeera.com/sitemaps/article-archive/2024/03.xml
+❌ Some issues with parsing https://www.aljazeera.com/sitemaps/article-archive/2024/03.xml: 
+🕷️  Crawling RSS Feed from: [0;33;49mAl Jazeera - News[0m # https://rss.app/feed/ivQb6hElsUAtduoK
+❌ Some issues with parsing https://rss.app/feed/ivQb6hElsUAtduoK: 
