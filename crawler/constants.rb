@@ -25,9 +25,13 @@ NEWS ={
     # Corriere meta RSS: https://www.corriere.it/rss/
     'Corriere - Home': 'https://xml2.corriereobjects.it/rss/homepage.xml',
     'Riccardo - Blog': 'https://ricc.rocks/en/index.xml',
-#######################
-#  'Europe': {
 
+    # US English
+
+    'Google News - US': 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
+    'Google News - Italian': 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    #######################
+#  'Europe': {
     'BCC Europe': 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',
     'BBC Science': 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
     'BBC Politics': 'https://feeds.bbci.co.uk/news/politics/rss.xml',
