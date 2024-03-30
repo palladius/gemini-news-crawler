@@ -1,4 +1,4 @@
 class ArticleTag < ApplicationRecord
-  belongs_to :article_id
-  belongs_to :category_id
+  belongs_to :article
+  belongs_to :category
 end

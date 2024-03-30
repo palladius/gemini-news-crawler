@@ -34,6 +34,12 @@ regenerate:
 	rails generate scaffold category name:string ricc_internal_notes:text --force
 
 # https://stackoverflow.com/questions/51509361/i-have-a-rails-blog-where-articles-can-have-multiple-categories-how-do-i-struc
-	rails generate model article_tag article_id:references category_id:references ricc_internal_notes:text  --force
+	rails generate model article_tag article:references category:references ricc_internal_notes:text  --force
 
 
+drop-and-recreate-db-dev:
+	RAILS_ENV=development rake db:drop db:migrate db:seed
+
+test-cat-article-association:
+	echo  ArticleTag.count | rails c
+	echo  Category.first.articles | rails c

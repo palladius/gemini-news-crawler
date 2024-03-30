@@ -9,6 +9,15 @@
 #   end
 Article.create(
   title: 'A sport news about politics',
-  categories: ['sport', 'politics'],
+  categories: ['sport', 'politics', '2024-04-01'],
   summary: 'Lets see if I can make this into creating the categories automatically by patching the model',
 )
+Article.create(
+  title: 'Trump vs Berlusconi',
+  categories: ['italy', 'politics', '2024-04-01'],
+  summary: 'Lets see if I can make this into creating the categories automatically by patching the model',
+)
+Category.create(name: 'manhouse')
+
+puts "✅ Now we have #{Category.all.count} categories"
+puts "❌ Now we have #{ArticleTag.all.count} ArticleTags (should be >0)"

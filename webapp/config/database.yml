@@ -19,17 +19,18 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
-dev-pg:
+development:
   <<: *default
-  database: webapp_development
+  #adapter: postgresql
+  #encoding: unicode
+  url: <%= ENV["DATABASE_URL_DEV"] %>
 
 # default: &default
-
-development:
-  adapter: sqlite3
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
-  database: storage/development.sqlite3
+# development:
+#   adapter: sqlite3
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
+#   timeout: 3000
+#   database: storage/development.sqlite3
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -87,6 +88,8 @@ test:
 #
 production:
   <<: *default
-  database: webapp_production
-  username: webapp
-  password: <%= ENV["WEBAPP_DATABASE_PASSWORD"] %>
+  # database: webapp_production
+  # username: webapp
+  # password: <%= ENV["WEBAPP_DATABASE_PASSWORD"] %>
+# production:
+  url: <%= ENV['DATABASE_URL_PROD'] %>

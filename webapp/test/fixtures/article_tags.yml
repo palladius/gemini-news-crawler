@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  article_id: one
-  category_id: one
+  article: one
+  category: one
   ricc_internal_notes: MyText
 
 two:
-  article_id: two
-  category_id: two
+  article: two
+  category: two
   ricc_internal_notes: MyText
