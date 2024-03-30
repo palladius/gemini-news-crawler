@@ -5,4 +5,5 @@ gem 'httparty' # wanted by feedjira
 gem 'colorize'
 gem "feedbag" # Autodiscovery of RSSs :)
 
+# https://github.com/olegmikhnovich/News-API-ruby oh wow
 gem 'news-api' # https://newsapi.org/docs/client-libraries/ruby
