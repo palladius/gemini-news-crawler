@@ -1,0 +1,3 @@
+
+crawl:
+	ruby crawl.rb
