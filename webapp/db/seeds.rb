@@ -9,12 +9,15 @@
 #   end
 
 if ENV['DESTROY_ALL_BEFORE'] == 'YES_WHY_NOT'
+  puts("DESTROY_ALL_BEFORE activated")
   Article.delete_all
   Category.delete_all
+else
+  puts('to DESTROY_ALL_BEFORE please activate the Omega13')
 end
 
 Article.create(
-  title: 'Another sport news about politics',
+  title: 'Another sport news about politics 3',
   categories: ['sport', 'politics', '2024-04-01'],
   summary: 'Lets see if I can make this into creating the categories automatically by patching the model',
   guid: 'rake-seed-01',

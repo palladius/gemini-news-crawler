@@ -38,7 +38,8 @@ regenerate:
 
 
 drop-and-recreate-db-dev:
-	RAILS_ENV=development rake db:drop db:migrate db:seed
+	DESTROY_ALL_BEFORE=YES_WHY_NOT rake db:seed
+#	RAILS_ENV=development rake db:drop db:migrate db:seed
 
 test-cat-article-association:
 	echo  ArticleTag.count | rails c
