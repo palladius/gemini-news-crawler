@@ -1,4 +1,6 @@
 
+# require_relative '../_env_gaic.rb'
+
 ProgVersion = '0.1'
 
 CHANGELOG = {
