@@ -1,0 +1,55 @@
+# [NewsFiler v2] NewsPaper: Google Cloud - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/769fbd419756
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Gemini codelab for Java developers using LangChain4j
+url: https://medium.com/google-cloud/gemini-codelab-for-java-developers-using-langchain4j-769fbd419756?source=rss----e52cf94d98af---4
+author: Guillaume Laforge
+categories:
+- langchain4j
+- gemini
+- google-cloud-platform
+- gcp-app-dev
+- java
+published: 2024-03-29 03:27:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/769fbd419756
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: <figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*f6qD8NYosB2mVZD2.jpg"
+  /></figure><p>No need to be a Python developer to do Generative AI! If you’re a
+  Java developer, you can take advantage of <a href="https://docs.langchain4j.dev/">LangChain4j</a>
+  to implement some advanced LLM integrations in your Java applications. And if you’re
+  interested in using <a href="https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/">Gemini</a>,
+  one of the best models available, I invite you to have a look at the following “codelab”
+  that I worked on:</p><p><a href="https://codelabs.developers.google.com/codelabs/gemini-java-developers">Codelab — Gemini
+  for Java Developers using LangChain4j</a></p><p>In this workshop, you’ll find various
+  examples covering the following use cases, in <em>crescendo</em> approach:</p><ul><li>Making
+  your fist call to Gemini (streaming &amp; non-streaming)</li><li>Maintaining a conversation</li><li>Taking
+  advantage of multimodality by analysing images with your prompts</li><li>Extracting
+  structured information from unstructured text</li><li>Using prompt templates</li><li>Doing
+  text classification with few-shot prompting</li><li>Implementing Retrieval Augmented
+  Generation to chat with your documentation</li><li>How to do Function Calling to
+  expand the LLM to interact with external APIs and services</li></ul><p>You’ll find
+  all the <a href="https://github.com/glaforge/gemini-workshop-for-java-developers">code
+  samples on Github</a>.</p><p>If you’re attending Devoxx France, be sure to attend
+  the <a href="https://www.devoxx.fr/en/schedule/talk/?id=40285">Hands-on-Lab workshop</a>
+  with my colleagues <a href="https://twitter.com/meteatamel">Mete Atamel</a> and
+  <a href="https://twitter.com/val_deleplace">Valentin Deleplace</a> who will guide
+  you through this codelab.</p><p><em>Originally published at </em><a href="https://glaforge.dev/posts/2024/03/27/gemini-codelab-for-java-developers/"><em>https://glaforge.dev</em></a><em>
+  on March 27, 2024.</em></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=769fbd419756"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/gemini-codelab-for-java-developers-using-langchain4j-769fbd419756">Gemini
+  codelab for Java developers using LangChain4j</a> was originally published in <a
+  href="https://medium.com/google-cloud">Google Cloud - Community</a> on Medium, where
+  people are continuing the conversation by highlighting and responding to this story.</p>

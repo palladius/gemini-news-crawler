@@ -1,0 +1,84 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16079
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 26, 2024 (#284)
+url: https://seroter.com/2024/03/26/daily-reading-list-march-26-2024-284/
+summary: Today's links look at doing incremental modernization of mainframe apps,
+  why companies are struggling to scale AI projects, and why frontend development
+  is now a sweet gig.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-26 23:29:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16079
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/26/daily-reading-list-march-26-2024-284/#comments
+content: "\n<p>Today&#8217;s reading list seemed to be skewed towards &#8220;struggles.&#8221;
+  Struggles with career progression, scaling AI programs, software supply chain risks,
+  upgrading core infrastructure, or even doing test-driven development right. The
+  struggle is real, but all you can do is find your next right step, and get access
+  to those who can help you make it through.</p>\n\n\n\n<p>[article] <strong><a href=\"https://hbr.org/2024/03/4-experiments-to-encourage-employees-career-progress\">4
+  Experiments to Encourage Employees’ Career Progress</a></strong>. Getting promoted
+  isn&#8217;t the way we should measure career progression. There are lots of ways
+  to advance professionally, and this article explores a few ways to think about it.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://martinfowler.com/articles/uncovering-mainframe-seams.html\">Uncovering
+  the Seams in Mainframes for Incremental Modernisation</a></strong>. This is the
+  type of architecture work I can geek out over. It&#8217;s real forensics into a
+  legacy system and finding seams that help you start incremental modernization.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://testing.googleblog.com/2024/03/whats-in-name.html\">What’s
+  in a Name?</a></strong> Here&#8217;s a good little post with very useful advice
+  on naming things in your codebase.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://medium.com/google-cloud/llm-finops-cost-optimization-options-to-run-high-performance-ai-ml-workloads-on-gke-in-google-96f79d79c51b\">LLM&amp;FinOps:
+  Cost Optimization Options to Run High Performance AI/ML Workloads on GKE in Google
+  Cloud</a></strong>. It wasn&#8217;t cheap for cloud providers to buy all this AI-ready
+  hardware, and it&#8217;s not necessarily cheap for you to use it. But you can manage
+  costs if you come into it prepared.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.ciodive.com/news/accenture-ai-investments-billions-data-modernization/711132/\">Accenture
+  sees companies struggling to scale AI</a></strong>. I found a few interesting nuggets
+  here. Big firms (cloud vendors, consulting shops) have invested in AI ahead of revenues.
+  But the client projects are now coming. And modernization is table stakes to take
+  advantage.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.sdxcentral.com/articles/interview/google-cloud-ciso-contrasts-shared-fate-vs-shared-responsibility-models/2024/03/\">Google
+  Cloud CISO contrasts shared fate vs. shared responsibility models</a></strong>.
+  It&#8217;s an important distinction, and this article calls out what &#8220;shared
+  fate&#8221; looks like.</p>\n\n\n\n<p>[article] <strong><a href=\"https://venturebeat.com/ai/tech-giants-grapple-with-ballooning-software-supply-chain-risk-jfrog-report-reveals/\">Tech
+  giants grapple with ballooning software supply chain risk, JFrog report reveals</a></strong>.
+  I mean, yeah, you&#8217;re going to have problems if you&#8217;re using a dozen
+  different programming languages. Time to go on a purge, my friend.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://thenewstack.io/why-isnt-the-world-upgrading-its-databases/\">Why
+  Isn’t the World Upgrading Its Databases?</a></strong> From what I&#8217;ve observed,
+  most companies don&#8217;t upgrade their infrastructure—databases, operating systems,
+  business apps, commercial software, programming languages—until there&#8217;s a
+  forcing function. If it just works, even if it&#8217;s out of mainstream support,
+  it&#8217;ll keep running until something requires a change.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://www.svpg.com/the-product-model-at-amazon/\">The Product
+  Model at Amazon</a></strong>. Read this to learn a bit about how Amazon figures
+  out which problems to try and solve, and how they use product discovery techniques
+  to test ideas.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://redmonk.com/kholterhoff/2024/03/01/why-the-frontend-kingmaker-isnt-full-stack-a-history/\">Why
+  the Frontend Kingmaker isn’t Full-Stack: A History</a></strong>. Be proud of being
+  a frontend engineer! That&#8217;s tough work. Kate looks at the evolution of &#8220;acceptance&#8221;
+  for this role.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine\">TDD:
+  You&#8217;re Probably Doing It Just Fine</a></strong>. Some pragmatic advice here
+  for those who might panic that they&#8217;re not doing test-driven development correctly.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16079\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

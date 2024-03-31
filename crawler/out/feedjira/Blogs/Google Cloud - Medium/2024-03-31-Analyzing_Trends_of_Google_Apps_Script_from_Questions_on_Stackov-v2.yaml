@@ -1,0 +1,236 @@
+# [NewsFiler v2] NewsPaper: Google Cloud - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/c6b448e36461
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Analyzing Trends of Google Apps Script from Questions on Stackoverflow using
+  Gemini 1.5 API
+url: https://medium.com/google-cloud/analyzing-trends-of-google-apps-script-from-questions-on-stackoverflow-using-gemini-1-5-api-c6b448e36461?source=rss----e52cf94d98af---4
+author: Kanshi Tanaike
+categories:
+- google-cloud-platform
+- generative-ai
+- machine-learning
+- google-apps-script
+- gemini
+published: 2024-03-31 02:51:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/c6b448e36461
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<figure><img alt="" src="https://cdn-images-1.medium.com/max/1000/0*2828W-RsKQh10X2F.png"
+  /></figure><h3>Abstract</h3><p>A new large language model (LLM) called Gemini with
+  an API is now available, allowing developers to analyze vast amounts of data. This
+  report explores trends in Google Apps Script by using the Gemini 1.5 API to analyze
+  questions on Stack Overflow.</p><h3>Introduction</h3><p>The release of the LLM model
+  Gemini as an API on Vertex AI and Google AI Studio has opened a world of possibilities.
+  <a href="https://deepmind.google/technologies/gemini/#introduction">Ref</a> The
+  Gemini API significantly expands the potential of various scripting languages, paving
+  the way for diverse applications. Additionally, Gemini 1.5 has recently been released
+  in AI Studio. <a href="https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/#sundar-note">Ref</a>
+  We can expect the Gemini 1.5 API to follow suit soon.</p><p>The difference between
+  Gemini 1.0 and Gemini 1.5 is as following table created by Gemini.</p><iframe src=""
+  width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/9bfb36b70efe743ac9169ae744e6fe3e/href">https://medium.com/media/9bfb36b70efe743ac9169ae744e6fe3e/href</a></iframe><p>Given
+  Gemini 1.5’s ability to analyze large data, this report leverages the Gemini 1.5
+  API to analyze trends in Google Apps Script from the data of questions on Stackoverflow.
+  We achieve this by examining all questions tagged google-apps-script from 2008 to
+  2024 (only 2024, from January to March 28) on Stack Overflow.</p><h3>Step</h3><p>The
+  steps of this analysis are as follows.</p><h3>1. Retrieve questions from Stackoverflow</h3><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/889/0*PENJvQbml73daj2L.png" /></figure><p>As
+  the base data of Stackoverflow, I used the data retrieved at “<a href="https://medium.com/google-cloud/trend-of-google-apps-script-tag-on-stackoverflow-2024-584e20fb892c">Trend
+  of google-apps-script Tag on Stackoverflow 2024</a>”. In that report, all questions
+  including a tag google-apps-script from 2008 to 2024 have already been retrieved.
+  The data from January 1, 2024, to March 28, 2024, was retrieved in this report.
+  All data is retrieved by StackExchange API. <a href="https://api.stackexchange.com/docs">Ref</a>
+  This flow can be seen in the above image. As a result, 17 CSV files including the
+  data from Stackoverflow were created. The total number of questions including google-apps-script
+  tag from 2008 to March 28, 2024, on Stackoverflow was 54,135.</p><h3>2. Generate
+  texts for each year</h3><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*ldN8YDuXzi6_uqmS.png"
+  /></figure><p>As the next step, each summary is created from the retrieved 17 CSV
+  files using Gemini 1.5 API. Because in the current stage, all 17 CSV data cannot
+  be directly used by one API call. So, I separated them. This flow can be seen in
+  the above image. By this flow, a text file including the summaries of each year
+  was created.</p><h3>3. Generate text from all year</h3><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*ZSv82VONRiP7AFS8.png"
+  /></figure><p>As the next step, a summary is created from a text file including
+  summaries from 2008 to 2024. This flow can be seen in the above image. By this flow,
+  the summary of all data from 2008 to 2024 is created.</p><h3>Usage</h3><p>In order
+  to test this script, please do the following steps.</p><h3>1. Create an API key</h3><p>Please
+  access <a href="https://makersuite.google.com/app/apikey">https://makersuite.google.com/app/apikey</a>
+  and create your API key. At that time, please enable Generative Language API at
+  the API console. This API key is used for this sample script.</p><p>This official
+  document can be also seen. <a href="https://ai.google.dev/">Ref</a>.</p><h3>2. Create
+  a Google Apps Script project</h3><p>In this report, Google Apps Script is used.
+  Of course, the method introducing this report can be also used in other languages.</p><p>Please
+  create a standalone Google Apps Script project. Of course, this script can be also
+  used with the container-bound script.</p><p>And, please open the script editor of
+  the Google Apps Script project.</p><h3>3. Base data</h3><p>Here, prepare the data
+  as described in the section “1. Retrieve questions from Stack Overflow.” In this
+  report, we focus on the values of “creation_date,” “title,” “score,” and “tags.”
+  While I initially wanted to include the body of the question, it significantly increased
+  the number of tokens for processing. Therefore, the body was excluded. However,
+  I believe the trend can still be obtained from the remaining values: “creation_date,”
+  “title,” “score,” and “tags.”</p><h3>4. Base script</h3><p>The base script for processing
+  this analysis is as follows. Please copy and paste the following script to the script
+  editor of Google Apps Script and save the script.</p><p>In this script, the model
+  models/gemini-1.5-pro-latest was used for generating texts.</p><pre>/**<br> * Sample
+  script for this report.<br> */<br>class DoGemini {<br>  /**<br>   * @param {Object}
+  object Object using this library.<br>   */<br>  constructor(object = {}) {<br>    const
+  model = &quot;models/gemini-1.5-pro-latest&quot;;<br><br>    this.baseUrl = `https://generativelanguage.googleapis.com/v1beta/${model}`;<br>    this.apiKey
+  = object.apiKey || null;<br>    this.headers = object.apiKey<br>      ? null<br>      :
+  {<br>          authorization: `Bearer ${object.token || ScriptApp.getOAuthToken()}`,<br>        };<br>    this.retry
+  = 5;<br>    this.folderId = object.folderId || &quot;root&quot;;<br><br>    this.object
+  = object;<br>  }<br><br>  /**<br>   * ### Description<br>   * Create summaries for
+  each year of the data.<br>   *<br>   * @returns {String} A file ID of the file including
+  the created summaries.<br>   */<br>  createSummariesOfEachYear() {<br>    const
+  headerText = [&quot;creation_date&quot;, &quot;title&quot;, &quot;score&quot;, &quot;tags&quot;].join(&quot;,&quot;);<br>    const
+  files = DriveApp.getFolderById(this.folderId).getFilesByType(<br>      MimeType.CSV<br>    );<br>    const
+  fileList = [];<br>    while (files.hasNext()) {<br>      const file = files.next();<br>      const
+  csv = file.getBlob().getDataAsString().trim() || &quot;No data.&quot;;<br>      const
+  filename = file.getName();<br>      fileList.push({ filename, csv });<br>    }<br>    if
+  (fileList.length == 0) {<br>      throw new Error(&quot;No CSV files.&quot;);<br>    }<br>    fileList.sort((a,
+  b) =&gt; (a.filename &gt; b.filename ? 1 : -1));<br>    console.log(<br>      `---
+  File list\n${JSON.stringify(<br>        fileList.map(({ filename }) =&gt; filename),<br>        null,<br>        2<br>      )}`<br>    );<br><br>    const
+  res = fileList.map(({ filename, csv }) =&gt; {<br>      console.log(`Now processing:
+  ${filename}`);<br>      const q = [<br>        `Summary the trend from the following
+  CSV data. The CSV data is questions related to Google Apps Script in Stackoverflow.
+  Namely, summarize the trend of questions on Stackoverflow from CSV data.`,<br>        `Consider
+  the creation date of the first column.`,<br>        `Consider the affection of the
+  advent of AI.`,<br>        `Consider the history of Google Apps Script.`,<br>        `Include
+  a value, that you evaluated the activity level of Google Apps Script between 1 and
+  100, in the response without overestimating.`,<br>        ``,<br>        `${filename}`,<br>        `The
+  format of CSV data is as follows.`,<br>        ``,<br>        `[Format of CSV data]`,<br>        `Created
+  date of the question, Title of the question, Score of the question, Tags related
+  to the question`,<br>        ``,<br>        `[CSV data]`,<br>        `${headerText}`,<br>        `${csv}`,<br>      ].join(&quot;\n&quot;);<br>      const
+  summary = this.generateContent_(q);<br>      return { filename, ...summary };<br>    });<br>    return
+  DriveApp.getFolderById(this.folderId)<br>      .createFile(&quot;summariesOfEachYear.txt&quot;,
+  JSON.stringify(res))<br>      .getId();<br>  }<br><br>  /**<br>   * ### Description<br>   *
+  Create a summary of all years.<br>   *<br>   * @param {String} fileId File ID including
+  summaries of each year.<br>   * @returns {String} A file ID of the file including
+  the created summary.<br>   */<br>  createSummaryOfAllYears(fileId) {<br>    if (!fileId)
+  {<br>      throw new Error(<br>        &quot;Please set the file ID of the file
+  including summaries of each year.&quot;<br>      );<br>    }<br>    const headerText
+  = [&quot;year&quot;, &quot;summary&quot;].join(&quot;,&quot;);<br>    const data
+  = JSON.parse(<br>      DriveApp.getFileById(fileId).getBlob().getDataAsString()<br>    );<br>    const
+  csv = data.map((e) =&gt; `${e.filename},${e.response}`).join(&quot;\n&quot;);<br><br>    //
+  const csv = data.map(e =&gt; `${e.filename},&#39;${JSON.stringify(e.response).replace(/&#39;/,
+  &quot;\&#39;&quot;)}&#39;`).join(&quot;\n&quot;);<br>    const q = [<br>      `Summary
+  the trend from the following CSV data. The CSV data is the summary of trend of questions
+  related to Google Apps Script in Stackoverflow every year. The summaries were created
+  by Gemini API.`,<br>      `Consider the each year of the first column.`,<br>      `Consider
+  the affection of the advent of AI.`,<br>      `Consider the history of Google Apps
+  Script.`,<br>      `At the last of summary, add all values, that you evaluated the
+  activity level of Google Apps Script between 1 and 100, in the response without
+  overestimating. Output the values as an array. The array format is [[&quot;year&quot;,
+  &quot;activity value&quot;],[&quot;year&quot;, &quot;activity value&quot;],,,].`,<br>      ``,<br>      `The
+  format of CSV data is as follows.`,<br>      ``,<br>      `[Format of CSV data]`,<br>      `year,
+  Summary of trend of questions`,<br>      ``,<br>      `[CSV data]`,<br>      `${headerText}`,<br>      `${csv}`,<br>    ].join(&quot;\n&quot;);<br>    const
+  { response } = this.generateContent_(q);<br>    return DriveApp.getFolderById(this.folderId)<br>      .createFile(&quot;summaryOfAllYears.txt&quot;,
+  response)<br>      .getId();<br>  }<br><br>  /**<br>   * ### Description<br>   *
+  Count tokens of inputted values with Gemini API.<br>   *<br>   * @param {Object}
+  options Object for UrlFetchApp.<br>   * @returns {Object} totalTokens<br>   */<br>  countToken_(options)
+  {<br>    const url =<br>      `${this.baseUrl}:countTokens` +<br>      (this.apiKey
+  ? `?key=${this.apiKey}` : &quot;&quot;);<br>    const res = this.fetch_({ url, ...options
+  });<br>    return JSON.parse(res.getContentText());<br>  }<br><br>  /**<br>   *
+  ### Description<br>   * Generate content with Gemini API.<br>   *<br>   * @param
+  {String} q Text for prompt.<br>   * @returns {UrlFetchApp.HTTPResponse|String[]}
+  Response from API. When pageToken is used, String[] is returned.<br>   */<br>  generateContent_(q)
+  {<br>    const payload = { contents: [{ parts: [{ text: q }], role: &quot;user&quot;
+  }] };<br>    const options = {<br>      payload: JSON.stringify(payload),<br>      contentType:
+  &quot;application/json&quot;,<br>      muteHttpExceptions: true,<br>    };<br>    if
+  (this.headers) {<br>      options.headers = headers;<br>    }<br>    const totalTokens
+  = this.countToken_(options);<br><br>    console.log(totalTokens); // Confirm the
+  total tokens in the log.<br><br>    const url =<br>      `${this.baseUrl}:generateContent`
+  +<br>      (this.apiKey ? `?key=${this.apiKey}` : &quot;&quot;);<br>    const res
+  = this.fetch_({ url, ...options });<br>    const obj = JSON.parse(res.getContentText());<br>    if
+  (<br>      obj.candidates &amp;&amp;<br>      obj.candidates.length &gt; 0 &amp;&amp;<br>      obj.candidates[0].content.parts.length
+  &gt; 0<br>    ) {<br>      return { totalTokens, response: obj.candidates[0].content.parts[0].text
+  };<br>    } else {<br>      this.retry--;<br>      console.warn(&quot;No response.
+  Retry again.&quot;);<br>      if (this.retry &gt; 0) {<br>        this.generateContent_(q);<br>      }
+  else {<br>        console.error(&quot;No response.&quot;);<br>      }<br>    }<br>  }<br><br>  /**<br>   *
+  ### Description<br>   * Request Gemini API.<br>   *<br>   * @param {Object} obj
+  Object for using UrlFetchApp.fetchAll.<br>   * @returns {UrlFetchApp.HTTPResponse}
+  Response from API.<br>   */<br>  fetch_(obj) {<br>    obj.muteHttpExceptions = true;<br>    const
+  res = UrlFetchApp.fetchAll([obj])[0];<br>    if (res.getResponseCode() != 200) {<br>      throw
+  new Error(res.getContentText());<br>    }<br>    return res;<br>  }<br>}</pre><h3>5.
+  Script for “Generate texts for each year”</h3><p>This script creates a text file
+  including summaries from 2008 to 2024. The file is created in the same folder as
+  the CSV files. Of course, you can also see each summary from the file.</p><pre>function
+  process1() {<br>  const apiKey = &quot;###&quot;; // Please set your API key.<br><br>  const
+  object = {<br>    apiKey,<br>    folderId: &quot;###&quot;, // Please set the folder
+  ID of the folder including 17 CSV files including data from Stackoverflow.<br>  };<br>  const
+  dg = new DoGemini(object);<br>  const res = dg.createSummariesOfEachYear();<br>  console.log(res);<br>}</pre><p>When
+  this script is run, the number of tokens for each year can be seen at the following
+  chart.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/981/0*bSWLQd16SvydbZbD.png"
+  /></figure><p>This chart reveals that the number of tokens exceeds 32,000 in most
+  years. In this context, the Gemini 1.5 API has proven to be a valuable tool.</p><h3>6.
+  Script for “Generate text from all year”</h3><p>This script creates a text file
+  of a summary of the trend of all questions including a tag google-apps-script posted
+  from 2008 to 2024. In this case, the result file is created in the root folder.</p><pre>function
+  process2() {<br>  const apiKey = &quot;###&quot;; // Please set your API key.<br>  const
+  fileId = &quot;###&quot;; // Please set the file ID of a text file including summaries
+  of each year.<br><br>  const object = { apiKey };<br>  const dg = new DoGemini(object);<br>  const
+  res = dg.createSummaryOfAllYears(fileId);<br>  console.log(res);<br>}</pre><h3>Result</h3><p>When
+  the above scripts are run, the following result is obtained.</p><pre>## Summary
+  of Google Apps Script Activity on Stack Overflow:<br><br>Based on the provided summaries
+  of Google Apps Script questions on Stack Overflow from 2008 to 2024, we can observe
+  the following trends:<br><br>**Early Stage (2008-2009):**<br><br>* Minimal activity
+  as the platform was in its early stages of development and adoption.<br><br>**Growth
+  and Adoption (2010 onwards):**<br><br>* Gradual increase in questions, indicating
+  growing interest and adoption.<br>* Focus on basic functionalities initially, followed
+  by more complex and diverse topics as the platform matured.<br>* Active community
+  participation and knowledge sharing.<br><br>**Impact of AI:**<br><br>* While not
+  explicitly evident in the earlier data, the potential for AI integration with Google
+  Apps Script is recognized and may influence future trends.<br><br>**Activity Level:**<br><br>*
+  Estimated activity level between **60 and 70 out of 100**, indicating a healthy
+  and active community with room for further growth.<br><br>**Specific Observations:**<br><br>*
+  Common topics include:<br>    * Basic syntax and functionality<br>    * Integration
+  with Google Sheets, Forms, and other Google products<br>    * Email automation<br>    *
+  Data manipulation<br>    * Triggering scripts<br>    * Web app development<br>*
+  Recurring challenges faced by users:<br>    * Authorization and permission errors<br>    *
+  Understanding specific methods and syntax<br>    * Debugging scripts<br>    * Optimizing
+  script performance<br><br>**Overall, the data suggests a steady and ongoing interest
+  in Google Apps Script, with a growing user base and increasingly complex use cases.
+  While AI integration is not yet a dominant theme, it has the potential to influence
+  future trends and applications.**<br><br>**Estimated Activity Levels:**<br><br>Based
+  on the analysis of each year&#39;s data, here&#39;s an array summarizing the estimated
+  activity levels of Google Apps Script on Stack Overflow:<br><br>```<br>[<br>  [&quot;2008-2009&quot;,
+  10], // Estimated low activity due to early stage<br>  [&quot;2010-2011&quot;, 30],
+  // Moderate activity during early growth<br>  [&quot;2011-2012&quot;, 60], // Increasing
+  activity and diversification of topics<br>  [&quot;2012-2013&quot;, 60], // Steady
+  growth and expanding capabilities<br>  [&quot;2013-2014&quot;, 60], // Moderately
+  active and engaged community<br>  [&quot;2014-2015&quot;, 65], // Consistent activity
+  with focus on both basic and advanced functionalities<br>  [&quot;2015-2016&quot;,
+  75], // Healthy and active community, diverse topics covered<br>  [&quot;2016-2017&quot;,
+  70], // Consistent activity, focus on integrations and web app development<br>  [&quot;2017-2018&quot;,
+  70], // Steady interest, diverse use cases, and demand for advanced functionalities<br>  [&quot;2018-2019&quot;,
+  65], // Consistent activity, potential for future AI integration<br>  [&quot;2019-2020&quot;,
+  65], // Sustained interest, potential influence of AI in automation<br>  [&quot;2020-2021&quot;,
+  65], // Consistent activity, continued relevance and adoption<br>  [&quot;2021-2022&quot;,
+  75], // Vibrant and active community, growing adoption and complex use cases<br>  [&quot;2022-2023&quot;,
+  75], // Consistent activity, potential for AI integration in specific areas<br>  [&quot;2023-2024&quot;,
+  65], // Steady interest, focus on basic functionalities and integrations<br>]<br>```<br><br>**Note:**
+  These activity levels are estimations based on the provided data and general knowledge
+  of Google Apps Script&#39;s adoption and development. A more precise assessment
+  would require access to a larger dataset and more detailed information about question
+  topics and user engagement.</pre><p>When the activity level is evaluated by Gemini
+  1.5 API for each year is exported as a chart, it becomes as follows.</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/981/0*Y_vIz1H0Xoz6yVBb.png" /></figure><p>The
+  above results confirm various insights about the trend of Google Apps Script on
+  Stack Overflow. Additionally, the Gemini 1.5 API emerged as a valuable tool for
+  data analysis.</p><h3>Note</h3><ul><li>The top illustration was created by <a href="https://gemini.google.com/">Gemini</a>
+  with giving the abstract.</li></ul><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c6b448e36461"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/analyzing-trends-of-google-apps-script-from-questions-on-stackoverflow-using-gemini-1-5-api-c6b448e36461">Analyzing
+  Trends of Google Apps Script from Questions on Stackoverflow using Gemini 1.5 API</a>
+  was originally published in <a href="https://medium.com/google-cloud">Google Cloud
+  - Community</a> on Medium, where people are continuing the conversation by highlighting
+  and responding to this story.</p>'

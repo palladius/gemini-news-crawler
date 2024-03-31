@@ -1,0 +1,83 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16004
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 20, 2024 (#280)
+url: https://seroter.com/2024/03/20/daily-reading-list-march-20-2024-280/
+summary: Today's links look at an AI model that understands UIs, what it means to
+  be a "creative" software engineer, and what a "softer" side of Java looks like.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-20 23:12:19.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16004
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/20/daily-reading-list-march-20-2024-280/#comments
+content: "\n<p>Another good day in Sunnyvale for a continuation of an offsite, and
+  a couple of presentations to customers. Today&#8217;s reading list has a lot of
+  AI, but also a mix of other topics. Enjoy!</p>\n\n\n\n<p>[blog] <strong><a href=\"https://blog.research.google/2024/03/screenai-visual-language-model-for-ui.html\">ScreenAI:
+  A visual language model for UI and visually-situated language understanding</a></strong>.
+  Very cool research. A model that&#8217;s trained on UI layouts and infographics
+  could really help with converting manual tasks to autonomous ones in the future.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://blog.jetbrains.com/teamcity/2024/03/meet-teamcity-pipelines/\">Make
+  CI/CD Part of Your Development Flow With TeamCity Pipelines</a></strong>. JetBrains
+  offers a mature CI/CD product, and it&#8217;s great that they&#8217;ve introduced
+  a new flavor that looks like an &#8220;easy button&#8221; for deployment pipelines.</p>\n\n\n\n<p>[paper]
+  <strong><a href=\"https://www.computer.org/csdl/magazine/so/2024/02/10445159/1URb85tSMOA\">Developer
+  Productivity for Humans, Part 8: Creativity in Software Engineering</a></strong>.
+  What does it mean to be a creative developer? This research explores that question
+  and finds a few categories to work with.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/containers-kubernetes/the-benefits-of-using-gke-for-running-ray-ai-workloads/\">Why
+  GKE for your Ray AI workloads? Portability, scalability, manageability, cost</a></strong>.
+  When folks complain about Kubernetes complexity, the first question should be &#8220;compared
+  to what?&#8221; This post was a good example of where Kubernetes seems to make something
+  simpler.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/containers-kubernetes/using-kuberay-and-kueue-to-orchestrate-ray-applications-in-gke/\">Advanced
+  scheduling for AI/ML with Ray and Kueue</a></strong>. Speaking of Ray, if you&#8217;re
+  running it on Kubernetes, you&#8217;re probably using KubeRay. Which means you might
+  be integrating with Kueue. Read about both here.</p>\n\n\n\n<p>[article] <strong><a
+  href=\"https://hbr.org/2024/03/is-your-ai-first-strategy-causing-more-problems-than-its-solving\">Is
+  Your AI-First Strategy Causing More Problems Than It’s Solving?</a></strong> I feel
+  the same way about &#8220;AI first&#8221; as I do about &#8220;every company is
+  a software company.&#8221; Neither are right. Your business goal should be delivering
+  the best, most differentiated product or service. Use AI, don&#8217;t use AI, whatever.
+  AI and software are &#8220;how&#8221;, not &#8220;why&#8221; or even &#8220;what.&#8221;</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://www.telerik.com/blogs/how-does-angular-compare-to-jquery\">How
+  Does Angular Compare to jQuery?</a></strong> I found this helpful, specifically
+  for the tutorial-style explanation of the two technologies.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://cloud.google.com/blog/products/identity-security/how-to-improve-resilience-to-ddos-attacks-with-cloud-armor-advanced-rate-limiting-capabilities/\">How
+  to improve resilience to DDoS attacks with Cloud Armor Advanced rate limiting capabilities</a></strong>.
+  It feels somewhat amazing that you can protect yourself against the absolute worst
+  DDoS attack imaginable by running a single CLI command.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://blog.pragmaticengineer.com/the-ai-developer/\">Is the
+  “AI developer”a threat to jobs – or a marketing stunt?</a></strong> Is the recently
+  announced Devin product (see <a href=\"https://shiftmag.dev/meet-devin-the-ai-software-engineer-2949/\">one
+  take here</a>) more about positioning around Copilot than actually doing something
+  new? Gergely takes a look.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.infoworld.com/article/3714282/getting-cozy-with-javas-new-softer-side.html\">Getting
+  cozy with Java&#8217;s new, softer side</a></strong>. These are good updates that
+  make Java feel simpler and easier to use.</p>\n\n\n\n<p>[article] <strong><a href=\"https://devops.com/jfrog-survey-surfaces-raft-of-devsecops-challenges/\">JFrog
+  Survey Surfaces Raft of DevSecOps Challenges</a></strong>. I don&#8217;t know if
+  these numbers are bad because I don&#8217;t know what &#8220;good&#8221; necessarily
+  looks like. But, if this looks like your company, maybe you&#8217;ll feel better?</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16004\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

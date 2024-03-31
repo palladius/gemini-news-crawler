@@ -1,0 +1,57 @@
+# [NewsFiler v2] NewsPaper: Marc Cohen - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/4c3faf0b27f2
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: NY to SF by Train in Four Hours
+url: https://marcacohen.medium.com/ny-to-sf-by-train-in-four-hours-4c3faf0b27f2?source=rss-1f225b5f22b2------2
+author: Marc Cohen
+categories:
+- politics
+- future
+- trains
+- climate-change
+- transportation
+published: 2020-11-01 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/4c3faf0b27f2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Marc Cohen - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: <p><em>(Visit </em><a href="https://mco.dev"><em>mco.dev</em></a><em> or
+  subscribe to my </em><a href="https://tinyletter.com/mco"><em>newsletter</em></a><em>
+  for more stories like this.)</em></p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*h6F0RnjoZgipDgXs.jpg"
+  /></figure><p>America’s rail infrastructure has fallen far behind the rest of the
+  world’s. Here’s how to fix that, and a few other problems along the way.</p><p>Under
+  FDR’s leadership, the federal government pulled the United States out of the Great
+  Depression, in part, by funding ambitious public works projects, like building our
+  vast interstate highway system. Now we’re in the midst of another severe depression,
+  calling for another round of big thinking and big investment.</p><p>What better
+  priority to focus on than building a network of high speed, clean energy trains.
+  Such an infrastructure would be a triple win:</p><ol><li>revolutionize transportation
+  in the US,</li><li>drastically reduce greenhouse gas emissions, and</li><li>create
+  a vast array of new jobs.</li></ol><p>I know what you’re saying — dream on, Marc,
+  that’ll never happen. But check out the article below about major advances by a
+  Dutch company, promising safe, clean, and efficient 600 mph trains. Can you imagine
+  what we could accomplish by focusing our resources on this problem with the same
+  intensity we brought to sending a man to the Moon?</p><p>A 600 mpg train would enable
+  travel from New York to Washington D.C. in thirty minutes and a cross country journey
+  in four hours.</p><p>After Joe Biden takes the oath of office, this should be a
+  domestic priority. I can’t think of a better way to restart our economy, reduce
+  our collective climate footprint, and build something of lasting value for future
+  generations.</p><blockquote><em>Plans for a new form of transportation are well
+  underway, suggesting that by 2040 we might have a more efficient and environmentally
+  friendly way to travel. (</em><a href="https://matadornetwork.com/read/futuristic-capsule-transportation-will-link-paris-amsterdam-fast/"><em>source</em></a><em>)</em></blockquote><p><em>Visit
+  </em><a href="https://mco.dev"><em>mco.dev</em></a><em> or subscribe to my </em><a
+  href="https://tinyletter.com/mco"><em>newsletter</em></a><em> for more stories like this.</em></p><img
+  src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=4c3faf0b27f2"
+  width="1" height="1" alt="">

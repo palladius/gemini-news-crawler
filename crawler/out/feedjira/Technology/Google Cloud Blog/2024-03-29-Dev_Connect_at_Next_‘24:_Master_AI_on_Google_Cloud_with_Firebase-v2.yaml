@@ -1,0 +1,109 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Dev Connect at Next ‘24: Master AI on Google Cloud with Firebase, Kaggle,
+  Android, and more'
+url: https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/
+summary: |-
+  <div class="block-paragraph_advanced"><p><span style="vertical-align: baseline;">Calling all the Firebase fanatics, Android experts, Flutter enthusiasts, Kaggle competitors, machine learning wizards, and anyone deeply involved with open-source Google AI projects! We're excited to unveil </span><a href="https://cloud.withgoogle.com/next/innovators-hive#dev_connect" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Dev Connect</span></a><span style="vertical-align: baseline;">, a new experience built to help you harness the power of Google Cloud and build bridges between developer communities at </span><a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Google Cloud Next ‘24</span></a><span style="vertical-align: baseline;">.</span></p>
+  <p><span style="vertical-align: baseline;">Designed for developers not currently utilizing Google Cloud, but eager to explore it for building and deploying applications written in Firebase, Android, Kaggle, Angular, Flutter, and Go, Dev Connect launches at Google Cloud Next '24.</span></p>
+  <h3><strong style="vertical-align: baseline;">Dev Connect: Your Google Cloud launchpad</strong></h3>
+  <p><span style="vertical-align: baseline;">Dev Connect at Next ‘24 is your fast-track to building apps and solutions with Google Cloud, no matter your existing technical stack. Get hands-on workshops, expert sessions, an AI competition, and dedicated networking — all designed for developers not already working with Google Cloud technologies. </span></p>
+  <h3><strong style="vertical-align: baseline;">Immerse yourself in Google Cloud</strong></h3>
+  <p><span style="vertical-align: baseline;">Prepare to unlock the full potential of Google Cloud. Expect a packed schedule overflowing with experiences tailored for developers including:</span></p>
+  <ul>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">Tailored sessions:</strong><span style="vertical-align: baseline;"> Dive into topics like building and deploying apps, proven cloud development strategies, and inspiring success stories from real-world Google Cloud users. You can expect sessions like:</span></p>
+  <ul>
+  <li><a href="https://cloud.withgoogle.com/next/session-library?session=AIML163#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">AIML163</span></a><span style="vertical-align: baseline;">: Boost your Android app with generative AI: building the next generation of apps</span></li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=DEV222" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">DEV222</span></a><span style="vertical-align: baseline;">: Scale and deliver GenAI apps with Google's Firebase and Firestore </span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=DEV247" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">DEV247</span></a><span style="vertical-align: baseline;">: Live-coding an app with Cloud Run and Flutter</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=AIML209" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">AIML209</span></a><span style="vertical-align: baseline;">: Build production AI applications in Go</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=AIML233" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">AIML233</span></a><span style="vertical-align: baseline;">: </span><span style="vertical-align: baseline;">Use large language models to answer difficult science questions</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=DEV312#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">DEV312</span></a><span style="vertical-align: baseline;">: Introducing Google’s open source, cloud-optimized framework for building generative AI apps</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><span style="vertical-align: baseline;"><a href="https://cloud.withgoogle.com/next/session-library?session=DEV220&amp;utm_source=linkedin&amp;utm_medium=unpaidsoc&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=next-homepage-social-share&amp;utm_term=-#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">DEV220</span></a><span style="vertical-align: baseline;">: How Locket Labs scales their workloads: Leveraging generative AI apps with Firebase and Firestore</span><br/><br/><span style="vertical-align: baseline;">This is just a sample of the many sessions curated for developers like you. Whether you care about full-stack, web, or mobile app development, want to compete in Kaggle’s AI and ML competitions, or are interested in getting experience with Google AI models, we’ve got you covered!</span><br/></span></p>
+  </li>
+  </ul>
+  </li>
+  </ul>
+  <ul>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">Hands-on workshops:</strong><span style="vertical-align: baseline;"> Get ready to learn by doing. Code, build, and create alongside experts.</span></p>
+  </li>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">Networking central:</strong><span style="vertical-align: baseline;"> Connect with like-minded developers from diverse Google communities, building valuable connections and sharing knowledge.</span></p>
+  </li>
+  </ul>
+  <h3><strong style="vertical-align: baseline;">But wait, there's more…</strong></h3>
+  <p><span style="vertical-align: baseline;">Dev Connect is so much more than just sessions and workshops. Get ready for:</span></p>
+  <ul>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><span style="vertical-align: baseline;">The </span><a href="https://cloud.withgoogle.com/next/session-library?session=DEVKEY#all" rel="noopener" target="_blank"><strong style="text-decoration: underline; vertical-align: baseline;">developer keynote</strong></a><strong style="vertical-align: baseline;">:</strong><span style="vertical-align: baseline;"> Hear about announcements that will make you smile, and discover the latest ways to accelerate your work.</span></p>
+  </li>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">Community Hub:</strong><span style="vertical-align: baseline;"> Visit </span><a href="https://cloud.withgoogle.com/next/innovators-hive#next_in_person" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Innovators Hive</span></a><span style="vertical-align: baseline;"> and immerse yourself in the vibrant world of Google communities. AI, Android, Firebase, Flutter, Kaggle experts are waiting for you to engage in 1:1 conversations, show you exciting demos, present you with inspiring projects, and swap ideas about extending projects to Google Cloud.</span></p>
+  </li>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=session-type-innovators-hive-lightning-talk#all" rel="noopener" target="_blank"><strong style="text-decoration: underline; vertical-align: baseline;">Lightning talks</strong></a><strong style="vertical-align: baseline;">:</strong><span style="vertical-align: baseline;"> Get quick bursts of inspiration from real-world case studies and demos that showcase the power of Google Cloud. Catch these exciting talks and more:</span></p>
+  </li>
+  <ul>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=session-type-innovators-hive-lightning-talk&amp;session=IHLT217" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">IHLT217</span></a><span style="vertical-align: baseline;">: Using Firebase for gamification on WhatsApp: A next-level DevRel strategy to measure impact</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=IHLT107" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">IHLT107</span></a><span style="vertical-align: baseline;">: </span><span style="vertical-align: baseline;">From idea to full-stack solutions with Dart and Google Cloud</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=IHLT216" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">IHLT216</span></a><span style="vertical-align: baseline;">: OSS + AI: Framework and resources for technologists</span></p>
+  </li>
+  <li aria-level="2" style="list-style-type: circle; vertical-align: baseline;">
+  <p role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=session-type-innovators-hive-lightning-talk&amp;session=IHLT110" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">IHLT110</span></a><span style="vertical-align: baseline;">: Power up your Android app: a guide to generative AI integration</span></p>
+  </li>
+  </ul>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">AI &amp; ML Kaggle competition:</strong><span style="vertical-align: baseline;"> Put your skills to the test in </span><a href="https://cloud.withgoogle.com/next/innovators-hive#challenges" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">a friendly Kaggle challenge</span></a><span style="vertical-align: baseline;"> with awesome prizes up for grabs. Kaggle Grandmasters and fellow AI enthusiasts will all be on hand. Whether you're a seasoned data scientist or just starting to explore LLMs, the LLM Trivia Time Kaggle competition is your chance to experiment, have fun, and compete for $20k in prizes. And you get to tune an LLM to tackle an entertaining collection of trivia, riddles, and brain teasers. And we also have a separate AI hackathon happening in case the Kaggle competition is not enough for you. </span></p>
+  </li>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">Fun learning:</strong><span style="vertical-align: baseline;"> Quizzes, demos, and developer badges turn education into fun.</span></p>
+  </li>
+  <li aria-level="1" style="list-style-type: disc; vertical-align: baseline;">
+  <p role="presentation"><strong style="vertical-align: baseline;">Happy Hour:</strong><span style="vertical-align: baseline;"> Unwind, network, and socialize with Googlers, experts, and fellow devs.</span></p>
+  </li>
+  </ul>
+  <p><span style="vertical-align: baseline;">Whether you're a Firebase fanatic, Android aficionado, or an AI enthusiast ready to explore cloud technologies, attending Dev Connect at Google Cloud Next '24 is a great opportunity to accelerate your development journey. Discover why Google Cloud is the ideal platform to power your Firebase and Android projects, experiment with the latest AI innovations, and connect with Google's vibrant open-source communities.</span></p>
+  <h3><strong style="vertical-align: baseline;">Mark your calendars!</strong></h3>
+  <p><span style="vertical-align: baseline;">Google Cloud Next '24 kicks off on April 9th in Las Vegas. Keep an eye on the </span><a href="http://cloud.google.com/blog"><span style="text-decoration: underline; vertical-align: baseline;">Google Cloud blog</span></a><span style="vertical-align: baseline;"> for the latest on Dev Connect sessions, the Kaggle competition, and how to get the most out of this thrilling developer experience.</span></p>
+  <p><span style="vertical-align: baseline;">This is your chance to supercharge your development journey. Get ready to learn, connect, and be inspired – Dev Connect awaits! Reserve your seat in your favorite sessions today!</span></p></div>
+author: Cameron Percy
+categories:
+- Application Development
+- Google Cloud Next
+published: 2024-03-29 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_w.max-600x600.jpg

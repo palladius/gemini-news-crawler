@@ -1,0 +1,77 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16021
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 21, 2024 (#281)
+url: https://seroter.com/2024/03/21/daily-reading-list-march-21-2024-281/
+summary: Today's links look at why big context windows are a big deal, how to design
+  storage for AI workloads, and what it looks like to be in a "flow state."
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-21 23:58:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16021
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/21/daily-reading-list-march-21-2024-281/#comments
+content: "\n<p>Are you good about taking a proper lunch hour? I&#8217;m hit or miss.
+  Today was a ten minute lunch and I struggle to remember what I ate. Take care of
+  yourself and eat food. At least I still was able to squeeze in some excellent blogs
+  and articles today!</p>\n\n\n\n<p>[blog] <strong><a href=\"https://daleonai.com/bigcontextwindows\">Big
+  Context Windows Are a Big Deal</a></strong>. Best post of the day, no doubt. Dale
+  writes an inspiring and engaging post about why Gemini&#8217;s context window is
+  such a game changer.</p>\n\n\n\n<p>[article] <strong><a href=\"https://techcrunch.com/2024/03/21/redis-switches-licenses-acquires-speedb-to-go-beyond-its-core-in-memory-database/\">Redis
+  switches licenses, acquires Speedb to go beyond its core in-memory database</a></strong>.
+  Not surprising, but it&#8217;s definitely clear that the OSS landscape has changed!
+  Here&#8217;s more from Redis on <a href=\"https://redis.com/blog/the-future-of-redis/\">their
+  future</a>.</p>\n\n\n\n<p>[article] <strong><a href=\"https://martinfowler.com/articles/measuring-developer-productivity-humans.html#HowToCaptureQualitativeMetrics\">How
+  to capture qualitative metrics</a></strong>. This is a continuation of a previously-shared
+  article and it explores details on actually acquiring data for qualitative studies.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://www.forrester.com/blogs/unleashing-the-power-of-turingbots-g-researchs-journey-to-transform-software-development-generative-ai-ai/\">How
+  G-Research Used TuringBots To Transform Software Development</a></strong>. Quick
+  post from Diego at Forrester, but he&#8217;s been on this AI-assisted dev tool topic
+  for a while now and has good insights.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.infoworld.com/article/3714763/ai-used-extensively-for-security-but-not-for-coding-jfrog-survey-finds.html\">AI
+  used extensively for security but not for coding, JFrog survey finds</a></strong>.
+  Interesting results, likely skewed based on who is asking the questions. But, it&#8217;s
+  good to get insights into the security toolchain story.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://cloud.google.com/blog/topics/customers/how-commerzbank-safeguards-its-data-with-vpc-service-controls/\">How
+  Commerzbank safeguards its data with VPC Service Controls</a></strong>. Surprisingly
+  deep post. However you create isolation perimeters around cloud resources and networks,
+  hopefully you have something like VPC-SC available to you.</p>\n\n\n\n<p>[guide]
+  <strong><a href=\"https://cloud.google.com/architecture/ai-ml/storage-for-ai-ml\">Design
+  storage for AI and ML workloads in Google Cloud</a></strong>. This is an excellent
+  guide for choosing the right type of storage for each stage of an AI/ML workload.
+  Its concepts apply regardless of where you train and run.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://www.infoq.com/articles/leading-team-software-engineer\">Leading tech
+  people or staying a software engineer: What to choose? Panel Discussion</a></strong>.
+  Most techies have this mental argument with themselves at SOME point in their career:
+  stay as an individual contributor, or get into management?</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://lifehacker.com/work/how-to-use-the-flow-state\">Use the
+  Eight Elements of the ‘Flow State’ to Be More Productive</a></strong>. I think we
+  all know (and crave) that feeling of being in a flow state. In the zone. Here&#8217;s
+  more about that.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/data-analytics/bigquery-sql-gets-time-windowing-and-gap-filling/\">Introducing
+  new BigQuery features to simplify time-series data analysis</a></strong>. BigQuery
+  is great at structured data, unstructured data, and everything in between.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16021\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

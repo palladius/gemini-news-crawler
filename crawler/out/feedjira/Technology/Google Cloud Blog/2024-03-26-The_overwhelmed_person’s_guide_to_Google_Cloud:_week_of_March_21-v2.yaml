@@ -1,0 +1,110 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'The overwhelmed person’s guide to Google Cloud: week of March 21'
+url: https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud/
+summary: "<div class=\"block-paragraph\"><p data-block-key=\"2u57j\"><i>The content
+  in this blog post was originally published last week as a members-only email to
+  the Google Cloud Innovators community. To get this content directly in your inbox
+  (not to mention</i> <a href=\"https://cloud.google.com/innovators/?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY23-Q4-Global-OPGGCWeekly-CGCBlog-EN&amp;utm_content=opggc&amp;utm_term=-\"><i>lots
+  of other benefits</i></a><i>),</i> <a href=\"https://cloud.google.com/innovators/?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY23-Q4-Global-OPGGCWeekly-CGCBlog-EN&amp;utm_content=opggc&amp;utm_term=-\"><i>sign
+  up to be an Innovator today</i></a><i>.</i></p><hr/><p data-block-key=\"di9mo\"></p></div>\n<div
+  class=\"block-paragraph\"><h3 data-block-key=\"a3czl\"><b>New and shiny</b></h3><p
+  data-block-key=\"6s4ls\"><i>Three new things to know this week</i></p><ul><li data-block-key=\"cdnqa\"><b>I’m
+  loving the refreshed Google Cloud documentation portal</b>. Good docs means happy
+  developers. Go peruse our <a href=\"https://cloud.google.com/docs\">docs site</a>
+  to see a brand new side navigation that makes exploration easier. And we added new
+  domain overview pages and product pages. Give me any feedback you have!</li><li
+  data-block-key=\"4ar23\"><b>Our mobile app finally gets me</b>. Are you running
+  the iOS or Android app for Google Cloud? It’s a handy tool for managing your cloud
+  on the go. We just turned on the <a href=\"https://cloud.google.com/blog/products/management-tools/personalized-service-health-incidents-in-google-cloud-mobile-app\">Personalized
+  Service Health experience</a> so you can see the incidents that impact the services
+  you’re running.</li><li data-block-key=\"4v7bg\"><b>Generate all the things</b>.
+  If you’re doing data science work, you’re probably using Python. I like that BigQuery’s
+  AI-assistance now generates Python code for your notebooks. <a href=\"https://cloud.google.com/bigquery/docs/write-sql-duet-ai#generate_python_code\">Check
+  out the instructions</a> and try it out.</li></ul><hr/><h3 data-block-key=\"742le\"><b>Watch
+  this</b></h3></div>\n<div class=\"block-video\">\n\n\n\n<div class=\"article-module
+  article-video \">\n  <figure>\n    <a class=\"h-c-video h-c-video--marquee\"\n      href=\"https://youtube.com/watch?v=tGjlka0clz0\"\n
+  \     data-glue-modal-trigger=\"uni-modal-tGjlka0clz0-\"\n      data-glue-modal-disabled-on-mobile=\"true\">\n\n
+  \     \n        \n\n        <div class=\"article-video__aspect-image\"\n          style=\"background-image:
+  url(https://storage.googleapis.com/gweb-cloudblog-publish/images/Watch_This_v31WFjY.max-800x800.png);\">\n
+  \         <span class=\"h-u-visually-hidden\">A captured image of Nathen, showcasing
+  DORA Research Program in a video tutorial</span>\n        </div>\n      \n      <svg
+  role=\"img\" class=\"h-c-video__play h-c-icon h-c-icon--color-white\">\n        <use
+  xlink:href=\"#mi-youtube-icon\"></use>\n      </svg>\n    </a>\n\n    \n  </figure>\n</div>\n\n<div
+  class=\"h-c-modal--video\"\n     data-glue-modal=\"uni-modal-tGjlka0clz0-\"\n     data-glue-modal-close-label=\"Close
+  Dialog\">\n   <a class=\"glue-yt-video\"\n      data-glue-yt-video-autoplay=\"true\"\n
+  \     data-glue-yt-video-height=\"99%\"\n      data-glue-yt-video-vid=\"tGjlka0clz0\"\n
+  \     data-glue-yt-video-width=\"100%\"\n      href=\"https://youtube.com/watch?v=tGjlka0clz0\"\n
+  \     ng-cloak>\n   </a>\n</div>\n\n</div>\n<div class=\"block-paragraph\"><p data-block-key=\"h9w35\"><b>DORA
+  in an AI-powered world.</b> Nathen explains how to think about how AI may contribute
+  to improved software delivery performance.</p><hr/><h3 data-block-key=\"bi0t5\"><b>Community
+  cuts</b></h3><p data-block-key=\"fiv9c\"><i>Every week I round up some of my favorite
+  links from builders around the Google Cloud-iverse. Want to see your blog or video
+  in the next issue? Drop Richard a line!</i></p><ul><li data-block-key=\"85rl7\"><b>How
+  do you move the data</b>? What does Extract-Transform-Load do, and how do you use
+  this pattern to move data around the cloud? <a href=\"https://medium.com/google-cloud/etl-in-google-cloud-platform-gcp-7c74c9edd9c7\"
+  target=\"_blank\">Dolly has a detailed post</a> that lays it out, including which
+  services you can use for each task.</li><li data-block-key=\"9njao\"><b>Do you</b>
+  <b><i>need</i></b><b> to understand how a Cloud service is built? No, but it’s helpful</b>.
+  BigQuery is a remarkable cloud service. You can certainly use it without knowing
+  how it’s architected, but you might want to <a href=\"https://medium.com/google-cloud/i-spent-6-hours-understanding-the-design-principles-of-bigquery-heres-what-i-found-6050cb7880fa\"
+  target=\"_blank\">read this post from Vu</a> to understand how BigQuery is put together.</li><li
+  data-block-key=\"9hpes\"><b>Can you really compare AI models</b>? Having a hard
+  time keeping up with all the AI models coming to market? Me too, and it’s kinda
+  my job to keep up! You can use <a href=\"https://cloud.google.com/vertex-ai/generative-ai/docs/models/side-by-side-eval\">auto
+  side-by-side in Vertex AI</a> to evaluate two models in the Model Registry. <a href=\"https://medium.com/google-cloud/navigating-google-clouds-vertex-ai-auto-sxs-a-technical-deep-dive-5ecc7a639494\"
+  target=\"_blank\">Jitendra wrote a helpful post</a> to show how it works.</li></ul><hr/><h3
+  data-block-key=\"atitm\"><b>Learn and grow</b></h3><p data-block-key=\"93ovk\"><i>Three
+  ways to build your cloud muscles this week</i></p><ul><li data-block-key=\"c4i0v\"><b>Want
+  to learn vector search in Spanner. Today is your lucky day</b>. There’s a <a href=\"https://codelabs.developers.google.com/codelabs/spanner-getting-started-vector-search?hl=en#0\"
+  target=\"_blank\">new code lab</a> that walks you through steps of generating embeddings
+  and using the vector data in a query.</li><li data-block-key=\"bmqu2\"><b>You get
+  the availability you pay for</b>. Should you pick a regional or zonal GKE cluster?
+  There are availability and cost implications to your choice! <a href=\"https://cloud.google.com/blog/products/containers-kubernetes/choosing-a-regional-vs-zonal-gke-cluster\">This
+  new post</a> explains those implications and helps you make the right choice.</li><li
+  data-block-key=\"6c12p\"><b>Managed software on managed Kubernetes? Tell me more</b>.
+  GKE in Autopilot mode is the most managed Kubernetes environment you’ll find. But
+  I haven’t noticed a ton of support for commercial software packages. Until now.
+  Run <a href=\"https://cloud.google.com/blog/products/containers-kubernetes/gke-autopilot-supports-elastic-cloud-on-kubernetes\">Elastic
+  Cloud on GKE Autopilot</a>, as well as <a href=\"https://www.hashicorp.com/blog/hashicorp-and-google-cloud-announce-gke-autopilot-support-for-consul\"
+  target=\"_blank\">Hashicorp Consul</a>. Good deal!</li></ul><hr/><h3 data-block-key=\"ati7h\"><b>One
+  more thing</b></h3></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/One_More_Thing_yY6lrjC.max-1000x1000.png\"\n
+  \       \n          alt=\"222 One More Thing..\">\n        \n        </a>\n      \n
+  \       <figcaption class=\"article-image__caption \"><p data-block-key=\"s5t1j\"><a
+  href=\"https://twitter.com/GoogleAI/status/1765446616578981957\">https://twitter.com/GoogleAI/status/1765446616578981957</a></p></figcaption>\n
+  \     \n    </figure>\n\n  \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div
+  class=\"block-paragraph\"><p data-block-key=\"w6t8h\"><b>Stack Overflow and Google
+  Cloud partnering together</b>. This should be a great arrangement for devs using
+  Stack Overflow to get better answers, and for Cloud developers who want trusted
+  answers. More from the <a href=\"https://www.googlecloudpresscorner.com/2024-02-29-Stack-Overflow-and-Google-Cloud-Announce-Strategic-Partnership-to-Bring-Generative-AI-to-Millions-of-Developers\"
+  target=\"_blank\">press release</a>.</p><hr/><p data-block-key=\"6lron\"><a href=\"https://cloud.google.com/innovators/?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY23-Q4-Global-OPGGCWeekly-CGCBlog-EN&amp;utm_content=opggc&amp;utm_term=-\"><i>Become
+  an Innovator</i></a><i> to stay up-to-date on the latest news, product updates,
+  events, and learning opportunities with Google Cloud.</i></p></div>"
+author: Richard Seroter
+categories:
+- Application Modernization
+- Application Development
+- Google Cloud
+published: 2024-03-26 18:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://storage.googleapis.com/gweb-cloudblog-publish/images/General-GC_Blog_header_2436x1200-v1.max-600x600.jpg

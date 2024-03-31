@@ -1,0 +1,76 @@
+# [NewsFiler v2] NewsPaper: Marc Cohen - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/6885bd21eda3
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Tell us your story
+url: https://medium.com/i-am-palestine/tell-us-your-story-6885bd21eda3?source=rss-1f225b5f22b2------2
+author: Marc Cohen
+published: 2024-03-23 22:00:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/6885bd21eda3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Marc Cohen - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- published
+- entry_id
+- content
+content: '<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*OlwfMbJnL6tW-bAo"
+  /><figcaption>Photo by <a href="https://unsplash.com/@maxsaeling?utm_source=medium&amp;utm_medium=referral">Max
+  Saeling</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral">Unsplash</a></figcaption></figure><h3>What
+  is this?</h3><p>This publication is a repository of Palestinians’ stories told in
+  their own voices, in the form of text, audio, and video.</p><h3>Why is it needed?</h3><p>A
+  <a href="https://www.972mag.com/us-media-palestinians/">study</a> by the University
+  of Arizona’s Maha Nassar found that of the opinion articles about Palestinians published
+  in The New York Times and The Washington Post between 2000 and 2009, Palestinians
+  themselves wrote roughly 1 percent (<a href="https://www.nytimes.com/2024/03/22/opinion/israel-american-jews-zionism.html?campaign_id=39&amp;emc=edit_ty_20240323&amp;instance_id=118291&amp;nl=opinion-today&amp;regi_id=72982178&amp;segment_id=161582&amp;te=1&amp;user_id=2cd37a855f14f318a21bf53c9729ed28">source</a>).
+  <strong>This needs to change.</strong></p><h3>How can I share my story?</h3><p>You
+  have a few options:</p><ol><li><strong>Medium Authoring</strong>: Create an account
+  on Medium.com (make it anonymous if you prefer not to be identified). Reach out
+  to me privately and I’ll make you a writer. Once you’re a writer, you can freely
+  write stories and submit them for publication on this site. This is probably the
+  most efficient option for both of us if you’d like to contribute multiple stories.</li><li><strong>Proxy
+  Authoring</strong>: No need to interact with Medium.com, just email me your story
+  and I’ll publish it for you in your name or anonymously, per your preference.</li><li><strong>Text
+  Interview:</strong> Clone <a href="https://docs.google.com/document/d/1cktFnxaiw-Mt4GhlSasPrMiu_DYnipQ2j4F9UtBb0aw/edit?usp=sharing">this
+  doc</a> containing a short list of interview questions, submit your answers and
+  share it back with me. I’ll take care of publishing the interview in your name or
+  anonymously, per your preference.</li><li><strong>Audio or Video Interview:</strong>
+  I meet you via videoconference and record the audio, video, or both of a short interview
+  where I ask you questions about your life and experiences. If you prefer anonymity,
+  I’ll transcribe the audio or video into a text article and destroy the original
+  recording. If you’re ok with being heard/seen, I’ll publish the audio/video (edited
+  for time and clarity) <strong>but only after you approve the publication copy</strong>.</li></ol><p>If
+  you’d like to contact me to submit a story, to be interviewed, or to ask any questions
+  you might have, you can reach me via email at <strong>marc@mco.dev</strong>.</p><h3>Should
+  I worry about being identified?</h3><p>Sadly, we live in a world in which antisemitism
+  is increasingly weaponized against anyone who dares to criticize Israel. People
+  have been harassed and jobs have been lost. If you have a story to tell but are
+  concerned about retribution, I will do everything I can to protect your identify.
+  All four options above include an anonymous authoring scenario. Note that option
+  1 above depends on medium.com protecting your identity. If you’re uncomfortable
+  with that, I recommend options 2–4.</p><p>The fact that people have to fear simply
+  telling the true story of their lives in their own names is a sad commentary on
+  the state of repression and fear Palestinians have to endure.</p><h3>How do I know
+  I can trust you?</h3><p>Options 2–4 avoid trusting medium.com but I can’t get around
+  you having to trust me. If you have a story to share but are concerned about my
+  trustworthiness (which I completely understand), I’m happy to meet with you by videoconference
+  and will happily answer any questions you may have and give you a chance to get
+  to know me and assess my sincerity and reliability for yourself.</p><h3>Who are you?</h3><p>I’m
+  not myself Palestinian — I’m a Jewish American Google engineer living in London.
+  Like many, I’m appalled not only by the genocide in Gaza, but also by the Apartheid
+  regime and general oppression of the Palestinian people which Israel has perpetuated
+  over the past 75 years.</p><p>Once you get to know someone, it’s harder to believe
+  the propaganda you may have heard about them. I created this publication to make
+  a safe place for Palestinians to tell their stories so that more people can get
+  to know them and understand their history, their struggles, and their hopes and dreams.</p><img
+  src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=6885bd21eda3"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/i-am-palestine/tell-us-your-story-6885bd21eda3">Tell
+  us your story</a> was originally published in <a href="https://medium.com/i-am-palestine">I
+  am Palestine</a> on Medium, where people are continuing the conversation by highlighting
+  and responding to this story.</p>'

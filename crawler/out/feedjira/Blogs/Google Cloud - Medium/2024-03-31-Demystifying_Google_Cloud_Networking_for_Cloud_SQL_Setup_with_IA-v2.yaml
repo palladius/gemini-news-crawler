@@ -1,0 +1,126 @@
+# [NewsFiler v2] NewsPaper: Google Cloud - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/ae36432d313b
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Demystifying Google Cloud Networking for Cloud SQL Setup with IAC — Part II
+url: https://medium.com/google-cloud/demystifying-google-cloud-networking-for-cloud-sql-setup-with-iac-part-ii-ae36432d313b?source=rss----e52cf94d98af---4
+author: paras mamgain
+categories:
+- private-service-connect
+- infrastructure
+- google-cloud-platform
+- terraform
+- cloud-networking
+published: 2024-03-31 02:50:19.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/ae36432d313b
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<h3><strong>Demystifying Google Cloud Networking for Cloud SQL Setup with
+  IAC — Part II</strong></h3><figure><img alt="" src="https://cdn-images-1.medium.com/proxy/1*O2A2IBNzegsOF79melvcjA.png"
+  /><figcaption>Simplifying Cloud Networking (Private Service Connect) for Cloud SQL</figcaption></figure><p>In
+  our <a href="https://medium.com/google-cloud/demystifying-google-cloud-networking-for-cloud-sql-setup-with-infrastructure-as-code-iac-2873d4068ed8">previous
+  write up</a> we described and shared the IaC code that uses the <a href="https://cloud.google.com/sql/docs/mysql/configure-private-services-access"><strong>Private
+  Service Access (PSA)</strong></a> and its unique ability in google cloud to enable
+  the accessiblity with the managed service using the private IP address of the managed
+  service. <br>This means a client can connect to the managed service wiithout there
+  instance being ever exposed to outside world via public IP address thus providing
+  better and a more granular approach to finetune security.</p><p>In short, private
+  service access enables the client to reach the internal IP address of the google
+  managed service and third part service by using secure and private connections.
+  This becomes very useful when we want to use the private IP address instead of external
+  IP address.</p><p>This article dives into Google Cloud’s Private Service Connect
+  (PSC). We’ll explore the challenges it solves and how terraform can automate infrastructure
+  management for Cloud SQL instance using PSC mode of connectivity.</p><h3>The Problem:
+  Simplify Private Service Connect in Cloud Networking for Cloud SQL instance</h3><p>Configuring
+  Google Cloud networking for Cloud SQL instances can be challenging especially for
+  users who are not familiar with the intricacies of VPCs, subnets, private service
+  connect and firewall rules. To simplify this process, we’ve bundled Terraform modules
+  into a single repository to handle the networking configuration seamlessly.</p><p><strong>e.g.</strong>
+  A VM instance present in our google cloud network can use the internal IP address
+  of the google cloud sql instance instead of its public IP address to establish a
+  private connection using private service connect.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*5GI9oZ_Pw_d5gxsIfY6O8w.png"
+  /></figure><p>Private service connect aims to incrementally address secure private
+  connections providing greater flexibility and a centralized way to manage private
+  connections compared to setting up individial VPC peering within cloud environments.</p><p>While
+  PSA (Private Service Access) and PSC (Private Service Connect) are both the functionality
+  that enables safe, secure and private connection to services they differ slightly
+  in there approach.</p><h3>Simplify Private Service Connect (PSC)</h3><p><a href="https://cloud.google.com/vpc/docs/private-service-connect"><strong>Private
+  Service Connect</strong></a> facilitates the private connection between your google
+  cloud VPC and services running in another VPC network by means of creating a dedicated
+  connection which is referred as service attachment. Service attachment then routes
+  the traffic between your VPC and the target service’s VPC.</p><figure><img alt=""
+  src="https://cdn-images-1.medium.com/max/1024/1*uxOmjYS1IYT3X8W6dbHZ6A.png" /></figure><h4><strong>Utilizing
+  Private Service Connect (PSC)</strong></h4><p>As an end user, following are the
+  high level overview and essential steps required in the configuration of the private
+  service connect (PSC) :</p><ol><li><strong>Create a Private Connection : </strong>When
+  creating a google cloud service instance supporting private service connect (PSC)
+  like Cloud SQL instance we need to enable/configure the instance to use the PSC.
+  When enabled, the Cloud SQL instance creates a service attachment for the instance
+  automatically. <br>The <strong>service attachment</strong> acts as a point that
+  VPC networks use to access the instance.</li><li><strong>Allowed Private Service
+  Connect projects : </strong>Allowed projects are associated with VPC networks &amp;
+  are associated to each Cloud SQL instance. If an instance isn’t contained in any
+  allowed projects, then you can’t enable Private Service Connect for the instance.</li><li><strong>Configure
+  DNS : </strong>While this is an<strong> optional but still a recommended step</strong>
+  to set up a DNS name like <em>myCloudSQLInstance.myProject</em> which resolves to
+  internal IP address assigned by the PSC endpoint.</li><li><strong>Manage Networking:
+  </strong>The way you set up your network for Cloud SQL depends on where your clients
+  are located.</li></ol><ul><li><strong>Clients on-premises or in another cloud:</strong>
+  If your clients are not within Google Cloud, you’ll need a secure connection like
+  Cloud VPN (HA VPN) or Cloud Interconnect to establish a secure connection between
+  your external network and google cloud network.</li><li><strong>Clients within Google
+  Cloud:</strong> If your clients are in the same Google Cloud project or a different
+  project within the same google cloud organization, a simpler approach using VPC
+  peering between your VPCs can be used for communication.</li></ul><p><strong>5</strong>.
+  <strong>Security and IAM Permissions :</strong> Make sure the necessary the firewalls
+  rules are configured appropriately to allow the client to connect to the instance
+  via its whitelisted ip address &amp; ports along with the necessary IAM permissions
+  to the client so that the user account, service account at the client side is able
+  to establish a client connection.</p><p><strong>e.g.</strong> <em>roles/cloudsql.client</em>
+  permission would be required for the compute service account expecting to establish
+  a connection to cloud sql instance.</p><h3><strong>The Solution: Terraform Modules
+  for Simplifying the configuration and usage of Google Cloud SQL with private service connect</strong></h3><p>The
+  pre-built modules bundle everything you need to connect securely to a private Cloud
+  SQL instance using Private Service Connect. No need to be a cloud networking expert — the
+  modules handle the complexity of setting up Private Service Connect endpoints, service
+  attachments etc. <br>Database administrators and application engineers can easily
+  configure Cloud SQL with the required network components.</p><h3>Supported Usage
+  Scenarios</h3><p>To further assist you in using our simplified networking cloud
+  sql modules, we’ve included multiple examples in the <a href="https://github.com/GoogleCloudPlatform/terraform-google-cloudsqlnetworking/tree/main/examples">examples</a>
+  folder of the github code repository.</p><p>These examples cover different scenarios,
+  complete with implementation guides and architecture designs. Here is a short description
+  about them that you can explore:</p><ol><li><a href="https://github.com/GoogleCloudPlatform/terraform-google-cloudsqlnetworking/blob/main/examples/3.PSC"><strong>PSC
+  Scenario</strong></a><strong> (within same google cloud org) :</strong> This solution
+  guides a user to create a PSC enabled Cloud SQL instance with a consumer and producer
+  project setup having a compute VM instance created in the consumer project connecting
+  to the Cloud SQL instance through PSC service endpoint.</li><li><a href="https://github.com/GoogleCloudPlatform/terraform-google-cloudsqlnetworking/blob/main/examples/4.PSC-Across-VPN"><strong>PSC
+  across VPN Scenario</strong></a><strong> : </strong>This solution helps user with
+  the IaC code to create a HA VPN connection between user and consumer project to
+  connect to a PSC enabled Cloud SQL instance in a producer project from a compute
+  VM instance through PSC service endpoint.</li></ol><p>If you’re ready to supercharge
+  your Google Cloud SQL configuration with private service connect, explore our repository
+  and discover how Terraform modules and the simplified samples can make your life
+  easier. Say goodbye to complex networking configurations and hello to simplified
+  Cloud SQL deployment.</p><p><a href="https://github.com/GoogleCloudPlatform/terraform-google-cloudsqlnetworking/tree/main">Explore
+  the Simplified Cloud Sql Networking Terraform Module Repository</a></p><p>You can
+  also refer to previous write up <a href="https://medium.com/google-cloud/demystifying-google-cloud-networking-for-cloud-sql-setup-with-infrastructure-as-code-iac-2873d4068ed8">Demystifying
+  Google Cloud Networking for Cloud SQL Setup with IAC — Part I</a></p><p>If you have
+  any specific suggestions, scenarios or ideas that you would like to cover then feel
+  free to reach out to us.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=ae36432d313b"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/demystifying-google-cloud-networking-for-cloud-sql-setup-with-iac-part-ii-ae36432d313b">Demystifying
+  Google Cloud Networking for Cloud SQL Setup with IAC — Part II</a> was originally
+  published in <a href="https://medium.com/google-cloud">Google Cloud - Community</a>
+  on Medium, where people are continuing the conversation by highlighting and responding
+  to this story.</p>'

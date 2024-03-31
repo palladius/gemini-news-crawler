@@ -1,0 +1,433 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_25_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_25_2024
+content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</strong>\n<h3>Issue</h3>\n<p>AlloyDB
+  clusters created using the Google Cloud CLI, the AlloyDB Admin API, or Terraform
+  have PostgreSQL 14 compatibility by default, instead of PostgreSQL 15 compatibility.</p>\n\n<p>To
+  mitigate this issue, take either one of the following steps:</p>\n\n<ul>\n<li>Specify
+  PostgreSQL version 15 when creating a cluster, instead of relying on the default
+  value.</li>\n<li>Use the Google Cloud console to create the cluster.</li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Artifact Registry</strong>\n<h3>Feature</h3>\n<p>The
+  software bill of materials (SBOM) feature is now <a href=\"https://cloud.google.com/products#product-launch-stages\">Generally
+  Available (GA)</a>.\nTo learn more, see <a href=\"https://cloud.google.com/artifact-analysis/docs/sbom-overview\">SBOM
+  overview</a>.</p>\n<h3>Changed</h3>\n<p>Artifact Analysis support for Vulnerability
+  Exploitability eXchange (VEX) statements now includes the capability to upload VEX
+  statements for multiple versions of an image. You can specify whether to associate
+  a VEX statement with one image digest, or all versions of an image. This feature
+  is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.
+  To learn more, see <a href=\"https://cloud.google.com/artifact-analysis/docs/upload-vex\">Upload
+  VEX statements</a>.</p>\n<strong class=\"release-note-product-title\">Backup and
+  DR</strong>\n<h3>Feature</h3>\n<p>Backup and DR Service added support to view <a
+  href=\"https://cloud.google.com/backup-disaster-recovery/docs/monitor-reports/compliance-logs\">daily
+  scheduled compliance logs</a> in Cloud Logging.</p>\n<h3>Feature</h3>\n<p>Backup
+  and DR Service added support to view <a href=\"https://cloud.google.com/backup-disaster-recovery/docs/monitor-reports/compliance-reports-bigquery\">daily
+  scheduled compliance reports</a> in BigQuery.</p>\n<strong class=\"release-note-product-title\">BigQuery</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-bigquery\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-bigquery\">google-cloud-bigquery</a></h3>\n\n<h4
+  id=\"2382_2024-03-21\"><a href=\"https://github.com/googleapis/java-bigquery/compare/v2.38.1...v2.38.2\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.38.2</a> (2024-03-21)</h4>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update actions/checkout action
+  (<a href=\"https://github.com/googleapis/java-bigquery/issues/3190\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#3190</a>) (<a href=\"https://github.com/googleapis/java-bigquery/commit/940e4f6c656a2e0f1d2e4d6e08d42214d14fe125\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">940e4f6</a>)</li>\n<li>Update
+  arrow.version to v15.0.1 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3189\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3189</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/fb6284e94d4744bb4c8f9501751bf79e04a2429b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">fb6284e</a>)</li>\n<li>Update
+  dependency com.google.api.grpc:proto-google-cloud-bigqueryconnection-v1 to v2.39.0
+  (<a href=\"https://github.com/googleapis/java-bigquery/issues/3186\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#3186</a>) (<a href=\"https://github.com/googleapis/java-bigquery/commit/9e705a140ac6fc1d1d64674dc985c35955911667\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">9e705a1</a>)</li>\n<li>Update
+  dependency com.google.apis:google-api-services-bigquery to v2-rev20240229-2.0.0
+  (<a href=\"https://github.com/googleapis/java-bigquery/issues/3188\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#3188</a>) (<a href=\"https://github.com/googleapis/java-bigquery/commit/a018424ccbf3c2c554d829c97e442f4813b2c764\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a018424</a>)</li>\n<li>Update
+  dependency com.google.cloud:google-cloud-datacatalog-bom to v1.43.0 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3187\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3187</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/497ff298d84e536161b112c6b1aa176d4d962a49\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">497ff29</a>)</li>\n<li>Update
+  dependency com.google.cloud:sdk-platform-java-config to v3.28.1 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3196\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3196</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/61f23a35d2b5cbbd66ddf35b93709a5669b5b102\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">61f23a3</a>)</li>\n<li>Update
+  github/codeql-action action to v2.24.6 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3178\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3178</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/8843cae621e1eede6b072b1347f2a68a36304bca\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">8843cae</a>)</li>\n<li>Update
+  github/codeql-action action to v2.24.7 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3194\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3194</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/2e2d730de9e4e49f25c20de2cfe1ae38babef830\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2e2d730</a>)</li>\n<li>Update
+  github/codeql-action action to v2.24.8 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3198\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3198</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/bd81a56a07c836abb05c1de0d42e9cd397920e99\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">bd81a56</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Chronicle</strong>\n<h3>Feature</h3>\n<p>Chronicle
+  Applied Threat Intelligence helps you identify and respond to threats. When enabled,
+  it ingests IOCs curated by Mandiant Threat Intelligence with an IC-Score greater
+  than 80 and generates an error when a match is found. The following are some of
+  the features of Applied Threat Intelligence.</p>\n\n<ul>\n<li><p><strong>Event-level
+  enrichment</strong>: All telemetry in Chronicle is enriched with Google Threat Intelligence
+  which is a combination of Mandiant and Virus Total, including all threat intelligence
+  associations like campaigns and actors.</p></li>\n<li><p><strong>Sophisticated indicator
+  matching</strong>: Curated out-of-the-box detections that deliver sophisticated
+  indicator matching using augmented prioritization logic, noise reduction based on
+  customer environment context, and other correlation techniques to maximize signal
+  to noise.</p></li>\n<li><p><strong>Active breach alerting</strong>: Uses Mandiant&#39;s
+  incident response intelligence to alert on potential active breaches delivering
+  on our <em>no patient 1</em> vision. </p></li>\n<li><p><strong>Curated behavioral
+  detections for emerging threats</strong>: To protect against newly emerging risks
+  and tactics, techniques, and procedures (TTPs), Applied Threat Intelligence uses
+  real-time insights.</p></li>\n<li><p><strong>DIY detection engineering and response
+  automation</strong>: Access to Fusion intelligence (formerly known as Mandiant Fusion)
+  for the following.</p>\n\n<ul>\n<li>Customer authoring of rules</li>\n<li>Customer
+  development of response playbooks</li>\n</ul></li>\n<li><p><strong>Curated views
+  for Investigation and triage Insights</strong>: Applied Threat Intelligence provides
+  curated  views that show valuable associations between an indicator and threat actor,
+  threat campaign, or malware, statistics about a threat observed in customer environments.
+  These views are invaluable for all security operations workflows.</p></li>\n</ul>\n\n<p>For
+  more information about Applied Threat Intelligence, see <a href=\"https://cloud.google.com/chronicle/docs/detection/\">Applied
+  Threat Intelligence overview</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Asset Inventory</strong>\n<h3>Feature</h3>\n<p>The following resource types are
+  now publicly available through the <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/exportAssets\">ExportAssets</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/listing-assets\">ListAssets</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/batchGetAssetsHistory\">BatchGetAssetsHistory</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/queryAssets\">QueryAssets</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/feeds\">Feed</a>,
+  and Search (<a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/searchAllResources\">SearchAllResources</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/searchAllIamPolicies\">SearchAllIamPolicies</a>)
+  APIs.</p>\n\n<ul>\n<li>Compute Engine\n<ul>\n<li><code>compute.googleapis.com/NetworkEdgeSecurityService</code></li>\n</ul></li>\n<li>Database
+  Migration\n<ul>\n<li><code>datamigration.googleapis.com/ConversionWorkspace</code></li>\n</ul></li>\n<li>Redis\n<ul>\n<li><code>redis.googleapis.com/Cluster</code></li>\n</ul></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Cloud Composer</strong>\n<h3>Issue</h3>\n<p>In
+  Cloud Composer versions from 2.1.0 to 2.6.4, task instances that succeeded in the
+  past can be marked as FAILED in some cases. We recommend to upgrade to <a href=\"https://cloud.google.com/composer/docs/release-notes#March_19_2024\">Cloud
+  Composer version 2.6.5</a> or later where this issue is fixed. For more information,
+  see the related <a href=\"https://cloud.google.com/composer/docs/composer-2/known-issues#tasks-marked-failed\">known
+  issue</a>.</p>\n<strong class=\"release-note-product-title\">Cloud Logging</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-logging\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-logging\">google-cloud-logging</a></h3>\n\n<h4
+  id=\"3162_2024-03-20\"><a href=\"https://github.com/googleapis/java-logging/compare/v3.16.1...v3.16.2\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3.16.2</a> (2024-03-20)</h4>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:sdk-platform-java-config
+  to v3.28.0 (<a href=\"https://github.com/googleapis/java-logging/issues/1560\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1560</a>) (<a href=\"https://github.com/googleapis/java-logging/commit/d52e62343aa814183baa4fa8ea39d41a5e7c423f\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">d52e623</a>)</li>\n<li>Update
+  dependency com.google.cloud:sdk-platform-java-config to v3.28.1 (<a href=\"https://github.com/googleapis/java-logging/issues/1563\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1563</a>) (<a
+  href=\"https://github.com/googleapis/java-logging/commit/81aa3e6b6662d62844b289a22e8aba50dff36a51\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">81aa3e6</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Cloud SQL for MySQL</strong>\n<h3>Feature</h3>\n<p>Private
+  Service Connect now includes support for <a href=\"https://cloud.google.com/sql/docs/mysql/replication/create-replica#create-read-replica-cloud-sql-instance-psc-enabled\">cross-region
+  read replicas</a>. You can also <a href=\"https://cloud.google.com/sql/docs/mysql/configure-ha\">choose
+  an availability type</a> (REGIONAL or ZONAL) for Private Service Connect-enabled
+  instances. Both features are in <a href=\"https://cloud.google.com/products?hl=en#product-launch-stages\">GA</a>.</p>\n<strong
+  class=\"release-note-product-title\">Cloud SQL for PostgreSQL</strong>\n<h3>Feature</h3>\n<p>Private
+  Service Connect now includes support for <a href=\"https://cloud.google.com/sql/docs/postgres/replication/create-replica#create-read-replica-cloud-sql-instance-psc-enabled\">cross-region
+  read replicas</a>. You can also <a href=\"https://cloud.google.com/sql/docs/postgres/configure-ha\">choose
+  an availability type</a> (REGIONAL or ZONAL) for Private Service Connect-enabled
+  instances. Both features are in <a href=\"https://cloud.google.com/products?hl=en#product-launch-stages\">GA</a>.</p>\n<strong
+  class=\"release-note-product-title\">Cloud SQL for SQL Server</strong>\n<h3>Feature</h3>\n<p>You
+  can now use <a href=\"https://cloud.google.com/sql/docs/sqlserver/configure-private-service-connect\">Private
+  Service Connect</a> to connect to a Cloud SQL for SQL Server instance. This solution
+  allows you to connect to the instance from multiple VPC networks that belong to
+  different groups, teams, projects, or organizations.</p>\n\n<p>Private Service Connect
+  includes support for <a href=\"https://cloud.google.com/sql/docs/sqlserver/replication/create-replica#create-read-replica-cloud-sql-instance-psc-enabled\">cross-region
+  read replicas</a>. You can also <a href=\"https://cloud.google.com/sql/docs/sqlserver/configure-ha\">choose
+  an availability type</a> (REGIONAL or ZONAL) for Private Service Connect-enabled
+  instances. </p>\n\n<p>All features are in <a href=\"https://cloud.google.com/products?hl=en#product-launch-stages\">GA</a>.</p>\n<strong
+  class=\"release-note-product-title\">Container Optimized OS</strong>\n<h3>Changed</h3>\n<h3
+  id=\"cos-beta-113-18244-1-7_\">cos-beta-113-18244-1-7 <a id=\"cos-arm64-beta-113-18244-1-7\"/></h3>\n\n<table
+  class=pkg>\n  <tr>\n    <td>Kernel</td>\n    <td>Docker</td>\n    <td>Containerd</td>\n
+  \   <td>GPU Drivers</td>\n  </tr>\n  <tr>\n    <td><a href=\"https://cos.googlesource.com/third_party/kernel/+/c663a756036b5afd3d11e8de8b378107e1641470\n\">COS-6.1.77</a></td>\n
+  \   <td>v24.0.9</td>\n    <td>v1.7.10</td>\n    <td>v535.154.05(default, latest),v470.223.02(R470
+  for compatibility with K80 GPUs)</td>\n  </tr>\n</table>\n<h3>Announcement</h3>\n<h3
+  id=\"updates_to_major_packages\">Updates to Major Packages:</h3>\n<h3>Feature</h3>\n<p>Updated
+  cos-gpu-installer to v2.2.0. Some key features of this update include: \n<ul>\n<li>Switched
+  precompiled\ndriver and signature location to COS build artifacts for M109.</li>\n<li>This
+  fixes a permissions issue in the GPU driver install directory with OSS drivers.</li>\n<li>Added
+  major version specification for GPU driver installation.</li>\n</ul></p>\n<h3>Changed</h3>\n<p>Update
+  default and latest NVIDIA GPU drivers to v535.154.05.</p>\n<h3>Changed</h3>\n<p>Updated
+  sys-apps/systemd to v254.9.</p>\n<h3>Changed</h3>\n<p>Updated docker-credential-gcr
+  to v2.1.22.</p>\n<h3>Changed</h3>\n<p>Updated app-containers/docker-cli to v24.0.5.</p>\n<h3>Changed</h3>\n<p>Updated
+  app-emulation/kubernetes to v1.29.1.</p>\n<h3>Changed</h3>\n<p>Updated app-containers/containerd
+  to v1.7.10.</p>\n<h3>Changed</h3>\n<p>Updated app-containers/runc to v1.1.12.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  app-emulation/cloud-init to v23.4.3.</p>\n<h3>Fixed</h3>\n<p>Upgraded app-admin/oslogin
+  to v20231004.00.</p>\n<h3>Changed</h3>\n<p>Upgraded app-admin/google-osconfig-agent
+  to v20240126.00.</p>\n<h3>Changed</h3>\n<p>Upgraded app-admin/google-guest-agent
+  to v20240213.00.</p>\n<h3>Changed</h3>\n<p>Upgraded app-admin/google-guest-configs
+  to v20240122.00.</p>\n<h3>Changed</h3>\n<p>Updated app-admin/sosreport to v4.6.1.</p>\n<h3>Changed</h3>\n<p>Updated
+  latest GPU driver to v535.104.05.</p>\n<h3>Changed</h3>\n<p>Updated GPU drivers
+  to v535.54.03 (R535 LTSB NVIDIA branch).</p>\n<h3>Changed</h3>\n<p>Upgraded app-containers/docker-credential-helpers
+  to v0.8.1.</p>\n<h3>Changed</h3>\n<p>Runtime sysctl changes:\n<ul>\n<li>Added: net.ipv4.tcp_backlog_ack_defer:
+  1</li>\n<li>Changed: fs.epoll.max_user_watches: 1809920 -&gt; 1809474</li>\n<li>Changed:
+  fs.fanotify.max_user_marks: 67577 -&gt; 67560</li>\n<li>Changed: fs.file-max: 812606
+  -&gt; 812400</li>\n<li>Changed: fs.inotify.max_user_watches: 63456 -&gt; 63441</li>\n<li>Changed:
+  kernel.threads-max: 63520 -&gt; 63504</li>\n<li>Changed: net.core.optmem_max: 20480
+  -&gt; 131072</li>\n<li>Changed: net.ipv4.tcp_mem: 94092    125456  188184 -&gt;
+  94068 125424  188136</li>\n<li>Changed: net.ipv4.udp_mem: 188184   250912  376368
+  -&gt; 188136    250848  376272</li>\n<li>Changed: net.ipv6.route.max_size: 4096
+  -&gt; 2147483647</li>\n<li>Changed: user.max_cgroup_namespaces: 31760 -&gt; 31752</li>\n<li>Changed:
+  user.max_fanotify_marks: 67577 -&gt; 67560</li>\n<li>Changed: user.max_inotify_watches:
+  63456 -&gt; 63441</li>\n<li>Changed: user.max_ipc_namespaces: 31760 -&gt; 31752</li>\n<li>Changed:
+  user.max_mnt_namespaces: 31760 -&gt; 31752</li>\n<li>Changed: user.max_net_namespaces:
+  31760 -&gt; 31752</li>\n<li>Changed: user.max_pid_namespaces: 31760 -&gt; 31752</li>\n<li>Changed:
+  user.max_time_namespaces: 31760 -&gt; 31752</li>\n<li>Changed: user.max_user_namespaces:
+  31760 -&gt; 31752</li>\n<li>Changed: user.max_uts_namespaces: 31760 -&gt; 31752</li>\n<li>Changed:
+  vm.lowmem_reserve_ratio: 256   256 32  0 -&gt; 256    256 32  0   0</li></p>\n\n<p><li>Added:
+  net.netfilter.nf_flowtable_tcp_timeout: 30</li>\n<li>Added: net.netfilter.nf_flowtable_udp_timeout:
+  30</li></p>\n\n<p><li>Changed: fs.file-max: 812608 -&gt; 812606</li></p>\n\n<p><li>Added:
+  net.ipv4.tcp_shrink_window: 0</li>\n<li>Added: net.ipv6.conf.all.accept_ra_min_lft:
+  0</li>\n<li>Added: net.ipv6.conf.default.accept_ra_min_lft: 0</li>\n<li>Added: net.ipv6.conf.docker0.accept_ra_min_lft:
+  0</li>\n<li>Added: net.ipv6.conf.eth0.accept_ra_min_lft: 0</li>\n<li>Added: net.ipv6.conf.lo.accept_ra_min_lft:
+  0</li></p>\n\n<p><li>Added: kernel.io_uring_disabled: 0</li>\n<li>Changed: fs.file-max:
+  812619 -&gt; 812608</li>\n<li>Changed: kernel.threads-max: 63519 -&gt; 63520</li>\n<li>Changed:
+  net.netfilter.nf_conntrack_sctp_timeout_shutdown_recd: 0 -&gt; 3</li>\n<li>Changed:
+  net.netfilter.nf_conntrack_sctp_timeout_shutdown_sent: 0 -&gt; 3</li>\n<li>Changed:
+  user.max_cgroup_namespaces: 31759 -&gt; 31760</li>\n<li>Changed: user.max_ipc_namespaces:
+  31759 -&gt; 31760</li>\n<li>Changed: user.max_mnt_namespaces: 31759 -&gt; 31760</li>\n<li>Changed:
+  user.max_net_namespaces: 31759 -&gt; 31760</li>\n<li>Changed: user.max_pid_namespaces:
+  31759 -&gt; 31760</li>\n<li>Changed: user.max_time_namespaces: 31759 -&gt; 31760</li>\n<li>Changed:
+  user.max_user_namespaces: 31759 -&gt; 31760</li>\n<li>Changed: user.max_uts_namespaces:
+  31759 -&gt; 31760</li></p>\n\n<p><li>Changed: fs.epoll.max_user_watches: 1809474
+  -&gt; 1809452</li>\n<li>Changed: fs.file-max: 812400 -&gt; 812392</li>\n<li>Changed:
+  kernel.threads-max: 63504 -&gt; 63503</li>\n<li>Changed: net.ipv4.tcp_mem: 94068
+  \   125424  188136 -&gt; 94065 125423  188130</li>\n<li>Changed: net.ipv4.udp_mem:
+  188136   250848  376272 -&gt; 188133    250847  376266</li>\n<li>Changed: user.max_cgroup_namespaces:
+  31752 -&gt; 31751</li>\n<li>Changed: user.max_ipc_namespaces: 31752 -&gt; 31751</li>\n<li>Changed:
+  user.max_mnt_namespaces: 31752 -&gt; 31751</li>\n<li>Changed: user.max_net_namespaces:
+  31752 -&gt; 31751</li>\n<li>Changed: user.max_pid_namespaces: 31752 -&gt; 31751</li>\n<li>Changed:
+  user.max_time_namespaces: 31752 -&gt; 31751</li>\n<li>Changed: user.max_user_namespaces:
+  31752 -&gt; 31751</li>\n<li>Changed: user.max_uts_namespaces: 31752 -&gt; 31751</li></p>\n\n<p><li>Changed:
+  fs.file-max: 812620 -&gt; 812619</li></p>\n\n<p><li>Added: fs.overflowgid: 65534</li>\n<li>Added:
+  fs.overflowuid: 65534</li></p>\n\n<p></ul></p>\n<h3>Announcement</h3>\n<h3 id=\"new_features_and_changes_in_the_linux_kernel\">New
+  Features and Changes in the Linux Kernel:</h3>\n<h3>Feature</h3>\n<p>Added additional
+  option to existing kernel cmdline flag that moves protected stateful partition integrity
+  tags to memory.</p>\n<h3>Fixed</h3>\n<p>Fixed a kernel crash that occurred when
+  running Postgres databases.</p>\n<h3>Feature</h3>\n<p>Enabled TDX Guest support
+  in the Linux Kernel.</p>\n<h3>Changed</h3>\n<p>Updated the Linux kernel to v6.1.77.</p>\n<h3>Announcement</h3>\n<h3
+  id=\"new_features_and_changes_in_the_image\">New Features and Changes in the Image:</h3>\n<h3>Feature</h3>\n<p>Changed
+  default umask value for a user to 027.</p>\n<h3>Feature</h3>\n<p>Removed legacy
+  logging agent (fluentd).</p>\n<h3>Feature</h3>\n<p>Fragmented nvidia-drivers and
+  nvidia-drivers-open pkg into separate packages per major version.</p>\n<h3>Feature</h3>\n<p>Enhanced
+  integrity-fs with disk resize and dm-clone.</p>\n<h3>Feature</h3>\n<p>Removed deprecated
+  R525 NVIDIA GPU drivers.</p>\n<h3>Feature</h3>\n<p>Added support for dm-zero and
+  dm-clone.</p>\n<h3>Feature</h3>\n<p>Sosreport now includes GPU Installer logs.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  a performance issue that was observed in Postgres databases.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  a container performance issue that occurred after running systemctl start cloud-audit-setup.</p>\n<h3>Feature</h3>\n<p>Updated
+  NVIDIA GPU drivers.</p>\n<h3>Feature</h3>\n<p>Backported support for TCP RTO configuration
+  in networkd.</p>\n<h3>Feature</h3>\n<p>Enable portmapper registration reporting
+  for lsof. This also fixes an issue where lsof is missing from SOS reports.</p>\n<h3>Feature</h3>\n<p>Add
+  compiler mitigations to mitigate memory corruption vulnerabilities.</p>\n<h3>Feature</h3>\n<p>Sequence
+  named before nss-lookup.target.</p>\n<h3>Fixed</h3>\n<p>Restore systemd-logind restart
+  behavior when dbus restarts.</p>\n<h3>Changed</h3>\n<p>Fixed an issue where symlinks
+  could not be moved.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue where IPv6 networking
+  would fail under high CPU load.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue with NFS
+  reconnects on GKE.</p>\n<h3>Fixed</h3>\n<p>The get_metadata_value script will now
+  retry if it experiences a connection error.</p>\n<h3>Fixed</h3>\n<p>Enabled persistence
+  mode with Nvidia GPU driver installation.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue
+  in ip6tables where the -C option did not work correctly.</p>\n<h3>Changed</h3>\n<p>Simplified
+  GPU driver installation by remounting driver installation path as executable from
+  cos-extensions.</p>\n<h3>Feature</h3>\n<p>Added support for user.* xattr on tmpfs.</p>\n<h3>Feature</h3>\n<p>Added
+  automatic generation of known modules list to image build process.</p>\n<h3>Feature</h3>\n<p>Include
+  nvidia plugin into sosreport.</p>\n<h3>Feature</h3>\n<p>Added support for iSCSI
+  targets and RAM block devices.</p>\n<h3>Fixed</h3>\n<p>Fixed a time-to-login slowdown
+  introduced by cloud-init changes.</p>\n<h3>Announcement</h3>\n<h3 id=\"cvesecurity_fixes\">CVE/Security
+  Fixes:</h3>\n<h3>Security</h3>\n<p>Fixed CVE-2024-21626 in app-containers/runc.</p>\n<h3>Security</h3>\n<p>Upgraded
+  app-editors/vim to v9.0.2167 and app-editors/vim-core to v9.0.2167. This resolves
+  CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4736, CVE-2023-4738, CVE-2023-4750,
+  CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535.</p>\n<h3>Security</h3>\n<p>Updated
+  dev-lang/go to v1.21.5. This fixes CVE-2023-45285 and CVE-2023-39326.</p>\n<h3>Security</h3>\n<p>Upgraded
+  dev-go/crypto to v0.17.0. This fixes CVE-2023-48795.</p>\n<h3>Security</h3>\n<p>Upgraded
+  sys-apps/dbus to v1.12.28. This fixes CVE-2023-34969.</p>\n<h3>Security</h3>\n<p>Fixed
+  CVE-2023-49083 in package dev-python/cryptography.</p>\n<h3>Security</h3>\n<p>Fixed
+  CVE-2023-6622, CVE-2023-5197, CVE-2023-42753, CVE-2023-4921, CVE-2023-4623, CVE-2023-4194,
+  CVE-2024-23851, CVE-2024-26581 in the Linux kernel.</p>\n<h3>Security</h3>\n<p>Updated
+  net-libs/nghttp2 to v1.57.0. This resolves CVE-2023-44487 and CVE-2023-35945.</p>\n<h3>Security</h3>\n<p>Updated
+  dev-go/net to v0.17.0. This resolves CVE-2023-44487 and CVE-2023-39325.</p>\n<h3>Security</h3>\n<p>Fixed
+  CVE-2023-4911 in sys-libs/glibc.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2023-38039
+  in net-misc/curl.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2023-5345 and CVE-2023-42756
+  in COS kernel.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2023-32636, CVE-2023-29499,
+  CVE-2023-32643, CVE-2023-32665, CVE-2023-32611 in glib and glib-utils.</p>\n<h3>Security</h3>\n<p>Upgraded
+  sys-fs/mdadm to v4.2. This resolves CVE-2023-28938 and CVE-2023-28736.</p>\n<h3>Security</h3>\n<p>Fixed
+  CVE-2023-4016 in sys-process/procps.</p>\n<h3>Security</h3>\n<p>Updated dev-go/yaml
+  to v3.0.1. This resolves CVE-2022-28948.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2022-40896
+  in pygments.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2023-24329 and CVE-2023-40217
+  in dev-lang/python.</p>\n<h3>Security</h3>\n<p>Fixed ncurses upgrade to 6.4p20220423.
+  This resolves CVE-2023-29491.</p>\n<h3>Security</h3>\n<p>Upgraded dev-db/sqlite
+  to v3.45.1-r1. This also fixes CVE-2023-7104.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2023-40546,
+  CVE-2023-40548, CVE-2023-40549, CVE-2023-40551, CVE-2023-40547, and CVE-2023-40550
+  in sys-boot/shim.</p>\n<h3>Security</h3>\n<p>Upgrade docker to v24.0.9. This fixes
+  CVE-2024-24557.</p>\n<h3>Security</h3>\n<p>Updated dev-libs/openssl to v3.0.13.
+  This resolves CVE-2024-0727 and CVE-2023-6129.</p>\n<h3>Security</h3>\n<p>Fixed
+  CVE-2024-0684 in sys-apps/coreutils.</p>\n<h3>Security</h3>\n<p>Upgraded net-misc/curl
+  to version 8.6.0. This fixes CVE-2024-0853 and CVE-2023-38545.</p>\n<h3>Security</h3>\n<p>Updated
+  dev-libs/libxml2 to 2.11.7. This fixes CVE-2024-25062.</p>\n<h3>Security</h3>\n<p>Updated
+  default GPU driver to v470.199.02 and latest GPU driver to v525.125.06. This resolves
+  CVE-2023-25515 and CVE-2023-25516.</p>\n<h3>Announcement</h3>\n<h3 id=\"updates_for_minor_packages\">Updates
+  for Minor Packages:</h3>\n<h3>Changed</h3>\n<p>Upgraded dev-libs/nss to v3.97.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  net-libs/gnutls to v3.8.3.</p>\n<h3>Changed</h3>\n<p>Upgraded dev-python/jinja to
+  v3.1.3.</p>\n<h3>Fixed</h3>\n<p>Upgraded app-admin/node-problem-detector to v0.8.15.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  app-eselect/eselect-iptables to v20220320.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-libs/libcap-ng
+  to v0.8.4-r1.</p>\n<h3>Fixed</h3>\n<p>Upgraded net-misc/rsync to v3.2.7-r4.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  dev-python/netifaces to v0.11.0-r2.</p>\n<h3>Fixed</h3>\n<p>Upgraded net-libs/libtirpc
+  to v1.3.4-r1.</p>\n<h3>Fixed</h3>\n<p>Upgraded app-admin/sudo to v1.9.15_p5.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  app-misc/jq to v1.7.1.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-apps/pv to v1.8.5.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  sys-process/lsof to v4.99.3.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-util/bsdiff to
+  v4.3.1-r42.</p>\n<h3>Fixed</h3>\n<p>Updated net-misc/openssh to v9.6_p1-r1.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  sys-apps/less to v643-r1.</p>\n<h3>Fixed</h3>\n<p>Upgraded chromeos-base/mojo_service_manager
+  to v0.0.1-r271.</p>\n<h3>Fixed</h3>\n<p>Upgraded net-misc/socat to v1.8.0.0.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  dev-python/jsonpatch to v1.33.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-python/pyyaml
+  to v6.0.1-r1.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-lang/python-exec to v2.4.10.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  dev-python/six to v1.16.0-r1.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-python/configobj
+  to v5.0.8.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-python/nose to v1.3.7_p20221026.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  dev-python/mock to v5.1.0.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-python/pyserial
+  to v3.5-r2.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-apps/hwdata to v0.376.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  sys-fs/xfsprogs to v6.5.0.</p>\n<h3>Changed</h3>\n<p>Upgraded dev-python/pygobject
+  to v3.46.0.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-devel/libtool to v2.4.6-r7.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  dev-libs/double-conversion to v3.2.1.</p>\n<h3>Fixed</h3>\n<p>Upgraded net-fs/cifs-utils
+  to v7.0-r1, Upgraded sys-libs/talloc to v2.4.1.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  app-arch/unzip to v6.0_p27-r1.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-apps/dmidecode
+  to v3.5-r3.</p>\n<h3>Fixed</h3>\n<p>Upgraded dev-util/gn to v2121.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  chromeos-base/chromeos-dbus-bindings to v0.0.1-r2787.</p>\n<h3>Changed</h3>\n<p>Updated
+  dev-embedded/libftdi to v1.5-r5.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-apps/coreutils
+  to v9.4.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-process/procps to v4.0.4.</p>\n<h3>Changed</h3>\n<p>Updated
+  dev-go/go-tools to v0.11.1_p20230712.</p>\n<h3>Fixed</h3>\n<p>Upgraded app-arch/pigz
+  to v2.8.</p>\n<h3>Fixed</h3>\n<p>Upgraded sys-block/thin-provisioning-tools to v0.9.0-r2.</p>\n<h3>Fixed</h3>\n<p>Upgraded
+  app-arch/tar to v1.35.</p>\n<h3>Changed</h3>\n<p>Upgraded app-arch/xz-utils to v5.4.6-r1.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  app-misc/ca-certificates to v20230311.3.97.</p>\n<h3>Changed</h3>\n<p>Upgraded net-dns/c-ares
+  to v1.26.0.</p>\n<h3>Changed</h3>\n<p>Upgraded net-dns/libidn2 to v2.3.7.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  sys-apps/attr to v2.5.2-r1.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-apps/ethtool
+  to v6.7.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-apps/file to v5.45-r4.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  sys-libs/libcap to v2.69-r1.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-libs/timezone-data
+  to v2024a.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-libs/zlib to v1.3.1-r1.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  dev-libs/libusb to v1.0.27.</p>\n<h3>Changed</h3>\n<p>Upgraded dev-libs/expat to
+  v2.6.0.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-apps/acl to v2.3.2.</p>\n<h3>Changed</h3>\n<p>Updated
+  gzip to v1.13.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-auth/pambase to v20240128.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  net-misc/chrony to v4.5.</p>\n<h3>Changed</h3>\n<p>Upgraded app-containers/cni-plugins
+  to v1.4.0.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-apps/makedumpfile to v1.7.4.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  chromeos-base/system_api to v0.0.1-r5643.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/update_engine-client
+  to v0.0.1-r2385.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/hiberman-client
+  to v0.0.1-r455.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/power_manager-client
+  to v0.0.1-r2859.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/dlcservice-client
+  to v0.0.1-r884.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/vm_protos to v0.0.1-r552.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  chromeos-base/shill-client to v0.0.1-r4325.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/minijail
+  to v18-r135.</p>\n<h3>Changed</h3>\n<p>Upgraded chromeos-base/debugd-client to v0.0.1-r2641.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  chromeos-base/session_manager-client to v0.0.1-r2722.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  chromeos-base/chromeos-common-script to v0.0.1-r601.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  chromeos-base/google-breakpad to v2024.01.16.190249-r226.</p>\n<h3>Changed</h3>\n<p>Upgraded
+  dev-util/puffin to v1.0.0-r450.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-fs/squashfs-tools
+  to v4.6.1.</p>\n<h3>Changed</h3>\n<p>Upgraded sys-apps/sandbox to v2.29-r1.</p>\n<strong
+  class=\"release-note-product-title\">Dialogflow</strong>\n<h3>Feature</h3>\n<p>Dialogflow
+  CX: The <strong><a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/agent#stt-model-selection\">Override
+  request-level speech model</a></strong> has been added to advanced speech settings.
+  This can be used to override the speech model provided in a runtime API request.
+  </p>\n<h3>Feature</h3>\n<p>Vertex AI Conversation <a href=\"https://cloud.google.com/dialogflow/vertex/docs/concept/data-store\">data
+  stores</a>: Gemini-pro 1.0 is now officially in General Availability. The model
+  includes optimized prompting, delivering enhanced results with minimal latency impact.
+  Please note: prompt optimization is currently focused on English, with other languages
+  to follow.</p>\n<h3>Deprecated</h3>\n<p>Vertex AI Conversation <a href=\"https://cloud.google.com/dialogflow/vertex/docs/concept/data-store\">data
+  stores</a>: The text-bison-001 model and fine-tuned text-bison@001 options will
+  be deprecated by Vertex AI on July 6th. Please transition as soon as possible to
+  the default option or another model available in the settings.</p>\n<h3>Feature</h3>\n<p>Dialogflow
+  CX: <a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/dtmf\">DTMF for
+  telephony integrations</a> is now available for preview.</p>\n<strong class=\"release-note-product-title\">Firestore
+  in Datastore mode</strong>\n<h3>Libraries</h3>\n<p>A weekly digest of client library
+  updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud SDK</a>.</p>\n<div
+  class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3 track-name=\"python\">Python</h3><h3
+  target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-ndb\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-ndb\">google-cloud-ndb</a></h3>\n\n<h4
+  id=\"231_2024-03-16\"><a href=\"https://github.com/googleapis/python-ndb/compare/v2.3.0...v2.3.1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.3.1</a> (2024-03-16)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li><strong>grpc:</strong> Fix large payload
+  handling when using the emulator. (<a href=\"https://github.com/googleapis/python-ndb/issues/975\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#975</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/d9162aee709062683bf5f9f01208bd40f46d490a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">d9162ae</a>)</li>\n<li>Remove
+  uses of six. <a href=\"https://github.com/googleapis/python-ndb/issues/913\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#913</a> (<a href=\"https://github.com/googleapis/python-ndb/issues/958\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#958</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/e17129a2114c3f5d45b99cc9a4911b586eb3fafa\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e17129a</a>)</li>\n<li>Show
+  a non-None error for core_exception.Unknown errors. (<a href=\"https://github.com/googleapis/python-ndb/issues/968\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#968</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/66e61cc578335509d480650906528fa390f44c11\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">66e61cc</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation\">Documentation</h5>\n\n<ul>\n<li>Document how to run system
+  tests against the emulator. (<a href=\"https://github.com/googleapis/python-ndb/issues/963\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#963</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/47db5b9f6ee1fc7c01ad86d476cd8e066fb5cffb\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">47db5b9</a>)</li>\n<li>Note
+  to use functools.wrap instead of utils.wrapping. (<a href=\"https://github.com/googleapis/python-ndb/issues/966\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#966</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/5e9f3d6977677c20b3447f07bf8bcf4553aac076\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">5e9f3d6</a>)</li>\n<li>Tell
+  users of utils.wrapping to use functools.wraps (<a href=\"https://github.com/googleapis/python-ndb/issues/967\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#967</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/042645b52608a1c11645dd4b014a90040468b113\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">042645b</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-datastore\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-datastore\">google-cloud-datastore</a></h3>\n\n<h4
+  id=\"2186_2024-03-18\"><a href=\"https://github.com/googleapis/java-datastore/compare/v2.18.5...v2.18.6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.18.6</a> (2024-03-18)</h4>\n\n<h5
+  id=\"bug_fixes_2\">Bug Fixes</h5>\n\n<ul>\n<li><strong>deps:</strong> Update the
+  Java code generator (gapic-generator-java) to 2.37.0 (<a href=\"https://github.com/googleapis/java-datastore/issues/1355\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1355</a>) (<a
+  href=\"https://github.com/googleapis/java-datastore/commit/bcc5668039d4dd2055e9666a65fcda3984fc33b5\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">bcc5668</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:sdk-platform-java-config
+  to v3.28.0 (<a href=\"https://github.com/googleapis/java-datastore/issues/1372\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1372</a>) (<a
+  href=\"https://github.com/googleapis/java-datastore/commit/09db2a75fa714a909bc6fa9b43a9213ae6467c84\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">09db2a7</a>)</li>\n<li>Update
+  dependency com.google.cloud:sdk-platform-java-config to v3.28.1 (<a href=\"https://github.com/googleapis/java-datastore/issues/1373\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1373</a>) (<a
+  href=\"https://github.com/googleapis/java-datastore/commit/c6e63e5f876fdda953935d09f0536a90a98a812c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">c6e63e5</a>)</li>\n<li>Update
+  dependency com.google.errorprone:error_prone_core to v2.26.0 (<a href=\"https://github.com/googleapis/java-datastore/issues/1361\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1361</a>) (<a
+  href=\"https://github.com/googleapis/java-datastore/commit/9442766ad61b0c1001d36ecfc0668308838b4a83\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">9442766</a>)</li>\n<li>Update
+  dependency com.google.errorprone:error_prone_core to v2.26.1 (<a href=\"https://github.com/googleapis/java-datastore/issues/1363\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1363</a>) (<a
+  href=\"https://github.com/googleapis/java-datastore/commit/05fe5bccf97dae92c00f2eead98424771cb321fd\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">05fe5bc</a>)</li>\n<li>Update
+  dependency com.google.guava:guava-testlib to v33.1.0-jre (<a href=\"https://github.com/googleapis/java-datastore/issues/1368\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1368</a>) (<a
+  href=\"https://github.com/googleapis/java-datastore/commit/0195345630f404bbcaf1601ded8a8e2011fc3e6e\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">0195345</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Secret Manager</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"go\">Go</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_secretmanagerapiv1\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/google-cloud-go/tree/main/secretmanager/apiv1\">secretmanager/apiv1</a></h3>\n\n<h4
+  id=\"1120_2024-03-19\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/secretmanager/v1.11.6...secretmanager/v1.12.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.12.0</a> (2024-03-19)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li><strong>secretmanager:</strong> New client
+  apiv1beta2 (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9610\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9610</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/443914f20df975e5075050e970f62941b66b2d28\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">443914f</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Sensitive Data Protection</strong>\n<h3>Fixed</h3>\n<p>From
+  February 12 through 27, 2024, a bug caused Sensitive Data Protection to inaccurately
+  set the free-text scores of certain data profiles to 0, where they should have been
+  higher. This bug is now resolved. All affected data profiles have been reprofiled.</p>\n\n<p>For
+  more information about the discovery service, see <a href=\"https://cloud.google.com/sensitive-data-protection/docs/data-profiles\">Data
+  profiles</a>.</p>\n\n    "
+title_type:
+published: &1 2024-03-25 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_25_2024
+title: March 25, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

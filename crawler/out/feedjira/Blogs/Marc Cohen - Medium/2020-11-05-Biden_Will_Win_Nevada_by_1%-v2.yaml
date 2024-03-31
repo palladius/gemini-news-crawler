@@ -1,0 +1,50 @@
+# [NewsFiler v2] NewsPaper: Marc Cohen - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/f36b79ba29a1
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Biden Will Win Nevada by 1%
+url: https://marcacohen.medium.com/biden-will-win-nevada-by-1-f36b79ba29a1?source=rss-1f225b5f22b2------2
+author: Marc Cohen
+categories:
+- voting
+- president
+- elections
+- election-2020
+- politics
+published: 2020-11-05 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/f36b79ba29a1
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Marc Cohen - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<figure><img alt="" src="https://cdn-images-1.medium.com/max/1000/0*7Bn_yC4-kypMFvYx.jpg"
+  /></figure><p>Nevada has 86% of its votes reported and won’t announce addtional
+  results until later today. But it’s pretty easy to crunch the numbers because it
+  has only 22 counties.</p><p>Nearly all of those counties are red except for Clark
+  and Washoe, which are by far the largest in population. All you have to do is extrapolate
+  the remaining votes, on a per county basis, to break the same way the existing votes
+  have gone.</p><p>One pitfall here is timing bias, i.e., the later counted votes
+  within a county may be distributed differently than those counted earlier. That’s
+  quite possible if they are comprised of a differently distributed category (e.g.
+  mail-in vs. in-person, early vs. later received absentee ballots, etc.).</p><p>According
+  to the New York Times, “Remaining votes include mail ballots received on Election
+  Day, those that will arrive over the next week and provisional ballots.”. So they’ll
+  likely skew a bit but it’s not obvious in which direction. And 86% is a pretty good
+  sample size.</p><p>The calculation below does this simple per-county extrapolation.
+  My projected shares of the total may be off a bit due to excluding the effect of
+  the two other party candidates, but the relative difference should be the same:
+  Biden will win Nevada by about 1%.</p><p>I can’t seem to embed the spreadsheet in
+  Medium but check my original post to see the calculation details: <a href="https://mco.dev/biden-will-win-nevada-by-1/">https://mco.dev/biden-will-win-nevada-by-1/</a>.</p><p><em>Originally
+  published at </em><a href="https://mco.dev/biden-will-win-nevada-by-1/"><em>https://mco.dev</em></a><em>
+  on November 5, 2020.</em></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=f36b79ba29a1"
+  width="1" height="1" alt="">'

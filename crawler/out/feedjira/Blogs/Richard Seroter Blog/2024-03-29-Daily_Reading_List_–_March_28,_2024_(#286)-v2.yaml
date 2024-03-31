@@ -1,0 +1,73 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16109
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 28, 2024 (#286)
+url: https://seroter.com/2024/03/28/daily-reading-list-march-28-2024-286/
+summary: Today's links look at why the future of frontend dev is already here, how
+  to get tech debt work onto your roadmap, and how to achieve greatness without falling
+  apart.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-29 00:49:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16109
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/28/daily-reading-list-march-28-2024-286/#respond
+content: "\n<p>We had our first in-person rehearsal for the Cloud Next &#8217;24 developer
+  keynote, and my stress level dropped a little bit. It feels good to be close to
+  the finish line, and we have such a great team involved in it. Heading home now,
+  and snuck in a bit of reading throughout the day.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://redmonk.com/kholterhoff/2024/03/28/the-future-of-frontend-is-already-here/\">The
+  Future of Frontend is Already Here</a></strong>. This might be the best thing I
+  read this week so far. Kate does an excellent job explaining the frontend landscape,
+  and gave me a half dozen projects or companies I need to look at.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://engineering.squarespace.com/blog/2024/why-we-built-a-write-back-cache-for-our-asset-library-with-google-cloud-spanner\">Why
+  We Built a Write Back Cache for Our Asset Library with Google Cloud Spanner</a></strong>.
+  The team at Squarespace wanted to improve some user and dev experiences, and wrote
+  up an explanation of why (and how) they built a cache.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://medium.com/google-cloud/from-whoami-to-whoarewe-with-gke-workload-identity-for-fleets-3795ee942187\">From
+  whoami to whoarewe with GKE Workload Identity for Fleets</a></strong>. I like the
+  ability to do identify federation across a set of Kubernetes clusters. Here&#8217;s
+  more on how it works.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://responsible-ai-developers.googleblog.com/2024/03/analyzing-next-token-probabilities-in-large-language-models.html\">Analyzing
+  the next token probabilities in large language models</a></strong>. How does an
+  LLM pick the next word in a sentence? Read this for additional understanding.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://www.infoq.com/articles/getting-tech-debt-on-roadmap\">How
+  to Get Tech-Debt on the Roadmap</a></strong>. I thought this was a very good perspective
+  on how to frame and prioritize work on technical debt. </p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://thenewstack.io/tutorial-using-langchain-and-gemini-to-summarize-articles/\">Tutorial:
+  Using LangChain and Gemini to Summarize Articles</a></strong>. Jani put together
+  a straightforward demo for you to see how you might use the popular LangChain framework
+  to work with an LLM.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://blog.google/products/pixel/google-pixel-sound-design/\">Listen
+  hear: How designers create sounds for Pixel</a></strong>. We&#8217;re surrounded
+  by things that involved thoughtful design, yet we may barely notice! One of those
+  could be sounds on our phones.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://thegrowtheq.com/achieving-greatness-without-falling-apart/\">Achieving
+  Greatness Without Falling Apart</a></strong>. Elite performers are often very competitive,
+  but also grounded in a way that the quest can be as fulfilling as the &#8220;win.&#8221;</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://blog.risingstack.com/retrieval-augmented-generation-tutorial-google-colab/\">Practical
+  Tutorial to Retrieval Augmented Generation on Google Colab</a></strong>. Good demo
+  that anyone can follow along with to try out RAG with Anthropic models.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16109\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

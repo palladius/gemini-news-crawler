@@ -1,0 +1,123 @@
+# [NewsFiler v2] NewsPaper: Google Cloud - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/b539ebfad4ea
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Upgrades!!! — Everything new with Kubernetes 1.30
+url: https://medium.com/google-cloud/upgrades-everything-new-with-kubernetes-1-30-b539ebfad4ea?source=rss----e52cf94d98af---4
+author: Imran Roshan
+categories:
+- cloud-computing
+- cybersecurity
+- kubernetes
+- google-cloud-platform
+published: 2024-03-28 10:20:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/b539ebfad4ea
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<h3>Upgrades!!! — Everything new with Kubernetes 1.30</h3><p>New features,
+  enhancements and everything exciting with Kubernetes 1.30</p><figure><img alt=""
+  src="https://cdn-images-1.medium.com/max/1024/1*pruZc4fqDQ7V6hN6z7dnpg.png" /></figure><p>Excited?
+  Aren’t we all? A slew of innovative features aimed at enhancing security, simplifying
+  pod management, and empowering developers are included in this version. Now let’s
+  explore the main features that take Kubernetes 1.30 to the next level.</p><h3>Enhanced
+  Security Again</h3><p>With the introduction of various improvements, Kubernetes
+  1.30 further establishes itself as a safe platform for workload deployment and management.</p><h4>User
+  namespaces for greater pod isolation [beta]</h4><p>This ground-breaking feature
+  gives users within pods fine-grained control over their identities; it will graduate
+  to beta in 1.30. It permits mapping the various values on the host system to the
+  UIDs (User IDs) and GIDs (Group IDs) used inside a pod. By drastically lowering
+  the attack surface, this isolation method makes it more difficult for compromised
+  containers to abuse privileges on the underlying host.</p><pre>apiVersion: v1<br>kind:
+  Pod<br>metadata:<br>  name: my-secure-pod<br>spec:<br>  securityContext:<br>    userNamespace:
+  true<br>  containers:<br>  - name: my-app<br>    image: my-secure-image:latest</pre><p>To
+  effectively isolate the container from other processes on the host, the Kubelet
+  is instructed to run it with a unique user namespace in this example by setting
+  the userNamespace: true property within the securityContext.</p><h4>Bound service
+  account tokens [beta]</h4><p>For service account authentication, bound service account
+  tokens (SATs) provide a more secure option than conventional, non-bound tokens.
+  Bound SATs, first released in 1.30 as beta, are associated with particular pods
+  and only provide access to the resources needed by those pods. As a result, the
+  potential damage is minimized by reducing the blast radius of compromised tokens.</p><pre>apiVersion:
+  v1<br>kind: Pod<br>metadata:<br>  name: my-pod-with-bound-sat<br>spec:<br>  serviceAccountName:
+  my-service-account<br>  template:<br>    spec:<br>      securityContext:<br>        #
+  Enables the use of the bound service account token<br>        podSecurityContext:
+  {}</pre><p>The pod can utilize the bound service account token linked to the designated
+  service account (my-service-account) by incorporating the podSecurityContext: {} section.</p><h4>Node
+  log queries</h4><p>Understanding node logs is essential for security analysis and
+  troubleshooting. With the beta release of Node Log Query in Kubernetes 1.30, administrators
+  can use the kubelet API to directly query system service logs on nodes. This reduces
+  the attack surface and expedites log collection without requiring additional system
+  access, thereby improving security.</p><p>Imagine running the following command
+  to search logs for kubelet process-related errors:</p><pre>kubectl get --raw &quot;/api/v1/nodes/worker/proxy/logs/?query=kubelet&amp;pattern=error&quot;</pre><p>With
+  this command, logs from the kubelet process running on the “worker” node that specifically
+  contain the keyword “error” are retrieved.</p><h4>AppArmor profile configurations
+  using Pod Security Contexts</h4><p>Within containers, AppArmor profiles offer a
+  potent way to enforce application security policies. By enabling administrators
+  to specify profiles directly within the PodSecurityContext and container.securityContext
+  fields, Kubernetes 1.30 streamlines the configuration of AppArmor. As a result,
+  policy management is simplified and beta AppArmor annotations are no longer required.</p><pre>apiVersion:
+  v1<br>kind: Pod<br>metadata:<br>  name: my-pod-with-apparmor<br>spec:<br>  securityContext:<br>    apparmorProfile:
+  &quot;restricted-runtime&quot;<br>  containers:<br>  - name: my-app<br>    image:
+  my-app-image:latest<br>    securityContext:<br>      apparmorProfile: &quot;runtime/default&quot;</pre><p>Here,
+  the container called “my-app” uses the “runtime/default” profile, but the pod itself
+  is assigned the “restricted-runtime” profile. This provides both pod and container
+  level granular control over AppArmor policies.</p><h3>Enhanced Pod Management</h3><h4>Node
+  Memory Swap</h4><p>Node memory swapping is now supported in Kubernetes 1.30. This
+  may enhance system stability when memory pressure is applied by enabling the kernel
+  to use swap space on nodes for memory management.</p><p>In Kubernetes 1.30, the
+  node memory swap feature has been redesigned to prioritize stability while providing
+  more control. With the introduction of LimitedSwap in place of UnlimitedSwap, Kubernetes
+  offers a more controlled and predictable method for handling swap usage on Linux
+  nodes. Don’t forget to assess your unique requirements prior to activating swap
+  and to put appropriate monitoring procedures in place.</p><pre>kind: KubeletConfiguration<br>apiVersion:
+  kubelet.config.k8s.io/v1beta1<br># ... other kubelet configurations<br>featureGates:<br>  NodeSwap:
+  &quot;true&quot;<br>memorySwap:<br>  swapBehavior: LimitedSwap</pre><h4>Container
+  resource based pod autoscaling</h4><p>By using this feature, horizontal pod autoscaling
+  (HPA) based on memory or CPU metrics of the container is enabled. This makes it
+  possible to scale more precisely depending on the real needs for containers. You
+  can make the most of your Kubernetes clusters’ resource allocation and scaling strategy
+  by concentrating on the metrics of individual containers.</p><pre>apiVersion: autoscaling/v2beta2<br>kind:
+  HorizontalPodAutoscaler<br>metadata:<br>  name: my-hpa<br>spec:<br>  scaleTargetRef:<br>    apiVersion:
+  apps/v1<br>    kind: Deployment<br>    name: my-deployment<br>  minReplicas: 2<br>  maxReplicas:
+  5<br>  metrics:<br>  - type: Resource<br>    resource:<br>      name: cpu<br>      target:<br>        type:
+  Utilization<br>        averageUtilization: 80<br>  containerMetrics:<br>  - name:
+  web-container # Target container within the Pod</pre><p>During the deployment, the
+  HPA keeps an eye on how much CPU resource each pod is using. The HPA will scale
+  the deployment to maintain an average CPU usage of 80% across all instances of the
+  web container since the average utilization is set to 80. The container name (web-container)
+  for which the CPU metric is to be monitored is specified in the containerMetrics
+  section.</p><h4>Dynamic resource allocation</h4><p>Structured parameters increase
+  the flexibility of resource allocation for pods. By defining resource requests and
+  limits more precisely, developers can optimize the use of available resources.</p><p>In
+  this case, the pod makes a minimum and maximum request for one GPU resource (nvidia.com/gpu
+  [invalid URL removed]). It also uses the standard memory resource definition to
+  request 8GB of memory.</p><pre>apiVersion: v1<br>kind: Pod<br>metadata:<br>  name:
+  my-gpu-app<br>spec:<br>  containers:<br>  - name: gpu-container<br>    resources:<br>      requests:<br>        resource.k8s.io/nvidia.com/gpu:<br>          type:
+  Resource<br>          minimum: 1<br>          maximum: 1<br>        resource.k8s.io/memory:<br>          type:
+  Resource<br>          requests:<br>            memory: &quot;8Gi&quot;</pre><p>DRA
+  in Kubernetes 1.30 opens the door to a more dynamic and effective resource management
+  environment with its structured parameters. As the feature develops, we should anticipate
+  a broader audience and the emergence of a vibrant third-party resource driver ecosystem
+  that meets a variety of application requirements.</p><h3>To Conclude</h3><p>Now,
+  obviously I am not part of the AI fleet to write down every single one of the feature
+  parameters in details so I would redirect you now to the best thing to exist after
+  Ice Cream. THE DOCUMENTATION!</p><ul><li><a href="https://github.com/kubernetes/sig-release/blob/master/releases/release_phases.md#docs-freeze">sig-release/releases/release_phases.md
+  at master · kubernetes/sig-release</a></li><li><a href="https://www.kubernetes.dev/resources/release/">Kubernetes
+  1.30 Release Information</a></li></ul><h3>Connect with me?</h3><p><a href="https://imranfosec.linkb.org/">Imran
+  Roshan</a></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b539ebfad4ea"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/upgrades-everything-new-with-kubernetes-1-30-b539ebfad4ea">Upgrades!!! — Everything
+  new with Kubernetes 1.30</a> was originally published in <a href="https://medium.com/google-cloud">Google
+  Cloud - Community</a> on Medium, where people are continuing the conversation by
+  highlighting and responding to this story.</p>'

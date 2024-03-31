@@ -1,0 +1,224 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-get-ready-for-next-24-what-you-need-to-know/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Cloud CISO Perspectives: Get ready for Next ‘24: What you need to know'
+url: https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-get-ready-for-next-24-what-you-need-to-know/
+summary: "<div class=\"block-paragraph\"><p data-block-key=\"eucpw\">Welcome to the
+  second Cloud CISO Perspectives for March 2024. Today, Brian Roddy, vice president
+  of security product management, Google Cloud, talks about some of the important
+  cybersecurity hot topics that will be driving our announcements at Google Cloud
+  Next in April.</p><p data-block-key=\"cfbf2\">As with all Cloud CISO Perspectives,
+  the contents of this newsletter are posted to the <a href=\"https://cloud.google.com/blog/products/identity-security/\">Google
+  Cloud blog</a>. If you’re reading this on the website and you’d like to receive
+  the email version, you can <a href=\"https://go.chronicle.security/cloudciso-newsletter-signup\"
+  target=\"_blank\">subscribe here</a>.</p><p data-block-key=\"79d8j\"><i>--Phil Venables,
+  VP, TI Security &amp; CISO, Google Cloud</i></p></div>\n<div class=\"block-aside\"><dl>\n
+  \   <dt>aside_block</dt>\n    <dd>&lt;ListValue: [StructValue([(&#x27;title&#x27;,
+  &#x27;Get vital CISO Insights with Google Cloud&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText
+  object at 0x3ee938db5490&gt;), (&#x27;btn_text&#x27;, &#x27;Visit the hub&#x27;),
+  (&#x27;href&#x27;, &#x27;https://cloud.google.com/solutions/security/leaders&#x27;),
+  (&#x27;image&#x27;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt;</dd>\n</dl></div>\n<div
+  class=\"block-paragraph\"><h3 data-block-key=\"hswvv\"><b>Get ready for Next ‘24:
+  What you need to know</b></h3><p data-block-key=\"7pue3\"><i>By Brian Roddy, vice
+  president of security product management, Google Cloud</i></p><p data-block-key=\"1j1lu\">We
+  have entered the <a href=\"https://cloud.google.com/blog/topics/systems/the-fifth-epoch-of-distributed-computing\">fifth
+  epoch of distributed computing</a>, and it promises to revolutionize information
+  technology and how we use it. More than a decade of work at Google has been put
+  into building AI into our products and solutions, and the shift to generative AI
+  represents an industry-wide acknowledgement of its potential.</p><p data-block-key=\"904s9\">Gen
+  AI has the potential to tip the balance of security in favor of defenders, and we
+  plan on revealing the next steps in the evolution of cybersecurity at Google Cloud
+  Next, from April 9-11. <a href=\"https://cloud.withgoogle.com/next?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=cgc-blog-session-launch-feb&amp;utm_term=-&amp;_ga=2.194274221.-1882690427.1708029791&amp;_gl=1%2anf16ec%2a_ga%2aMTg4MjY5MDQyNy4xNzA4MDI5Nzkx%2a_ga_WH2QY8WWF5%2aMTcwODk2NzA4My4xOC4xLjE3MDg5NjgyODAuMC4wLjA.\"
+  target=\"_blank\">Tickets are still available to Next ‘24</a>, where we’ll present
+  our vision for the future of cloud — and the vital role that security plays within.</p></div>\n<div
+  class=\"block-paragraph_with_image\"><div class=\"article-module h-c-page\">\n  <div
+  class=\"h-c-grid uni-paragraph-wrap\">\n    <div class=\"uni-paragraph\n      h-c-grid__col
+  h-c-grid__col--8 h-c-grid__col-m--6 h-c-grid__col-l--6\n      h-c-grid__col--offset-2
+  h-c-grid__col-m--offset-3 h-c-grid__col-l--offset-3\">\n\n      \n\n\n\n\n\n\n  \n\n
+  \   <figure class=\"article-image--wrap-small\n      \n      \"\n      >\n\n      \n
+  \     \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/Brian_Roddy_small_KeZuoml.max-1000x1000.jpg\"\n
+  \       \n          alt=\"Brian Roddy small\">\n        \n        </a>\n      \n
+  \       <figcaption class=\"article-image__caption \"><p data-block-key=\"0av3d\">Brian
+  Roddy, vice president of security product management, Google Cloud</p></figcaption>\n
+  \     \n    </figure>\n\n  \n\n\n\n\n\n      <p data-block-key=\"yk477\">The role
+  of chief information security officer has never been an easy one. CISOs are the
+  public face of an organization’s security team, and they sit at the nexus of the
+  security experts, engineers, and developers who report to them, the organization’s
+  security policies, and the executives and board of directors who they report to.
+  They often are blamed for security breaches that occur on their watch, and yet CISOs
+  are not fleeing their jobs — recent data suggests that, despite the stress of the
+  role, they <a href=\"https://ventureinsecurity.net/p/the-great-ciso-resignation-isnt-what\">stay
+  at their employer</a> for more than four and a half years at a time.</p><p data-block-key=\"7c5hc\">While
+  a CISO who has stayed with one company for five years has clearly demonstrated their
+  dedication to defending their organization’s data and supporting its security teams,
+  it doesn’t mean that they’re happy. <a href=\"https://www.sec.gov/news/press-release/2023-227\">High-profile
+  data breaches</a> are on the rise, and government agencies are imposing stricter
+  <a href=\"https://www.sec.gov/news/press-release/2023-139\">regulatory requirements</a>
+  including <a href=\"https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-new-sec-rules-can-help-business-leaders\">increasing
+  levels of legal accountability</a> (and even personal liability) for their organization’s
+  cybersecurity posture.</p>\n    </div>\n  </div>\n</div>\n\n</div>\n<div class=\"block-paragraph\"><p
+  data-block-key=\"1hrf3\">While I’m not going to spoil the announcements we have
+  planned, I do want to give a bit of context for where we were in 2023, and where
+  we’re headed.</p><p data-block-key=\"a6dc4\">As Mandiant CEO Kevin Mandia <a href=\"https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-late-april-2023\">said
+  last year</a>, “[W]hile we continue to face significant challenges, our industry
+  is getting better at cybersecurity and organizations globally have made progress
+  in strengthening their defenses. But we cannot let our guard down. We have seen
+  that attackers do not rest — and that they are increasingly sophisticated and well-funded.”</p><p
+  data-block-key=\"36k5l\">Earlier this month, we <a href=\"https://cloud.google.com/blog/products/identity-security/introducing-security-command-center-enterprise\">introduced
+  Security Command Center Enterprise</a>, adding long-awaited multicloud support and
+  becoming the first cloud risk management solution that fuses AI-powered SecOps with
+  cloud security. It’s designed to help break down the silos of tools, teams, and
+  data to ensure faster outcomes and higher efficacy for cloud security and enterprise
+  security operations. You don’t need a PhD in cryptography to know that we’re going
+  to be talking about this new version of our flagship risk management tool at Next
+  ‘24, but there’s a lot more we have to say.</p></div>\n<div class=\"block-pull_quote\"><div
+  class=\"uni-pull-quote h-c-page\">\n  <section class=\"h-c-grid\">\n    <div class=\"uni-pull-quote__wrapper
+  h-c-grid__col h-c-grid__col--8 h-c-grid__col-m--6 h-c-grid__col-l--6\n      h-c-grid__col--offset-2
+  h-c-grid__col-m--offset-3 h-c-grid__col-l--offset-3\">\n      <div class=\"uni-pull-quote__inner-wrapper
+  h-c-copy h-c-copy\">\n        <q class=\"uni-pull-quote__text\">We knew that by
+  focusing on building the right foundations, we would be able to provide products
+  that prioritize security by design and are made to help raise the bar on security.</q>\n\n
+  \       \n      </div>\n    </div>\n  </section>\n</div>\n\n</div>\n<div class=\"block-paragraph\"><p
+  data-block-key=\"zp1ti\">Organizations need security partners like Google, who have
+  <a href=\"https://cloud.google.com/blog/transform/prepare-rsa-cybersecurity-snapshot-numbers\">proven
+  expertise, solutions, and extended support</a>. Last year, we set out to create
+  a <a href=\"https://blog.google/technology/ai/why-we-focus-on-ai-and-to-what-end/\"
+  target=\"_blank\">bold and responsible model</a> for how gen AI could benefit cybersecurity
+  with a positive impact on the security ecosystem. Our vision for AI in security
+  <a href=\"https://cloud.google.com/blog/transform/why-ai-can-new-tech-help-security-solve-toil-threat-overload-and-talent-gap\">described
+  the possibilities</a>: How we could automate tasks to reduce toil, up-level talent,
+  and mitigate threats.</p><p data-block-key=\"57ojd\">Our investments in key technologies,
+  including threat intelligence, security operations, and risk management, drove our
+  progress towards making strong security simple and accessible. We announced at the
+  RSA Conference ‘23 in April our plan to <a href=\"https://cloud.google.com/blog/products/identity-security/rsa-google-cloud-security-ai-workbench-generative-ai\">supercharge
+  security with gen AI</a>, based on foundational AI research by <a href=\"https://ai.google/research/\"
+  target=\"_blank\">Google</a> and <a href=\"https://www.deepmind.com/research\" target=\"_blank\">DeepMind</a>,
+  and the deep expertise of our security teams. We built on that promise, and some
+  of our most important announcements revealed our ongoing work towards that goal.</p><p
+  data-block-key=\"7jro6\">At Next ‘23 in August, we shared additional <a href=\"https://cloud.google.com/blog/products/identity-security/security-ai-next23\">AI
+  innovations in our security products</a> and also expanded on our holistic approach
+  to securing AI. This included the application of the principles of our <a href=\"https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/\"
+  target=\"_blank\">Secure AI Framework</a> (SAIF): We explained why we believe that
+  AI needs to be <a href=\"https://cloud.google.com/blog/transform/prompt-findings-our-ai-red-teams-first-report-qa\">tested
+  by red teams</a>, detailed practical considerations for <a href=\"https://cloud.google.com/blog/transform/prompt-what-think-about-when-youre-thinking-about-securing-ai\">securing
+  AI</a>, and went deep into the <a href=\"https://cloud.google.com/blog/transform/from-turnkey-to-custom-tailor-your-ai-risk-governance-to-help-build-confidence\">risk
+  governance principles</a> that can help steer AI towards a more beneficial future.</p><p
+  data-block-key=\"bqgs6\">We knew that by focusing on building the right foundations,
+  we would be able to provide products that prioritize security by design and are
+  made to help raise the bar on security. Early user feedback showed that gen AI in
+  Security Operations <a href=\"https://cloud.google.com/blog/products/ai-machine-learning/duet-ai-for-developers-and-in-security-operations-now-ga\">helped
+  reduce the time</a> that security analysts spent writing, running, and refining
+  searches and triaging complex cases by a factor of seven.</p><p data-block-key=\"6k1qp\">Of
+  course, there’s a lot more work that our security teams did in the past year that
+  I haven’t been able to discuss in depth here that nevertheless plays an important
+  role. These topics include the news that we <a href=\"https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps\">stopped
+  the largest DDoS attack ever recorded</a> to date, <a href=\"https://cloud.google.com/blog/products/identity-security/how-google-cloud-blocked-largest-layer-7-ddos-attack-at-46-million-rps\">again</a>;
+  that we continue to invest in <a href=\"https://cloud.google.com/blog/products/identity-security/how-european-organizations-are-innovating-with-google-sovereign-cloud-solutions\">sovereign
+  data and risk management solutions</a>; and that we talked about why we <a href=\"https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ISACs-are-valuable-security-partners\">partner
+  with ISACs</a> to improve communication across the community.</p><p data-block-key=\"6luu7\">Google
+  Cloud’s technology and expertise ties together a trusted cloud foundation, a modern
+  SecOps platform, and frontline intelligence and expertise, all infused with the
+  power of gen AI to help drive the security outcomes you’re looking to achieve. I
+  hope you’ll join us at Next ‘24 so you can get a front-row seat to see what we’ve
+  been planning.</p><p data-block-key=\"4ppbu\">We’re looking forward to seeing you
+  at Next ‘24. If you haven’t yet, you can <a href=\"https://cloud.withgoogle.com/next?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=cgc-blog-session-launch-feb&amp;utm_term=-&amp;_ga=2.194274221.-1882690427.1708029791&amp;_gl=1%2anf16ec%2a_ga%2aMTg4MjY5MDQyNy4xNzA4MDI5Nzkx%2a_ga_WH2QY8WWF5%2aMTcwODk2NzA4My4xOC4xLjE3MDg5NjgyODAuMC4wLjA.\"
+  target=\"_blank\">register here</a>.</p></div>\n<div class=\"block-aside\"><dl>\n
+  \   <dt>aside_block</dt>\n    <dd>&lt;ListValue: [StructValue([(&#x27;title&#x27;,
+  &#x27;Join the Google Cloud CISO Community&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText
+  object at 0x3ee938db5bb0&gt;), (&#x27;btn_text&#x27;, &#x27;Learn more&#x27;), (&#x27;href&#x27;,
+  &#x27;https://rsvp.withgoogle.com/events/ciso-community-interest?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=2024-cloud-ciso-newsletter-events-ref&amp;utm_content=-&amp;utm_term=-&#x27;),
+  (&#x27;image&#x27;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt;</dd>\n</dl></div>\n<div
+  class=\"block-paragraph\"><h3 data-block-key=\"4bd61\"><b>In case you missed it</b></h3><p
+  data-block-key=\"8hq4u\">Here are the latest updates, products, services, and resources
+  from our security teams so far this month:</p><ul><li data-block-key=\"8bnup\"><b>Introducing
+  Threat Intelligence news from Google Cloud</b>: Google Cloud is excited to announce
+  the launch of a new blog channel: Threat Intelligence, featuring in-depth threat
+  research and guidance from Mandiant and Google Cloud experts on the frontlines of
+  the latest cyberattacks. It also features indicators, detections, rules, and more
+  that defenders can use to help proactively protect their organizations. <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/\"><b>Read
+  more</b></a>.</li><li data-block-key=\"70i1c\"><b>To securely deploy AI on Google
+  Cloud, follow these best practices</b>: As part of a new Google Cloud report on
+  securely deploying AI, we’ve put together a checklist to help organizations achieve
+  a strong security posture for their AI deployments. <a href=\"https://cloud.google.com/blog/transform/to-securely-build-ai-on-google-cloud-follow-these-best-practices-infographic/\"><b>Read
+  more</b></a>.</li><li data-block-key=\"e01fq\"><b>Leading through change: 5 steps
+  for executives on the cloud transformation path</b>: Google Cloud experts and our
+  customers say that they become even more successful when cybersecurity becomes everyone’s
+  responsibility. Here’s 5 ways to make that happen. <a href=\"https://cloud.google.com/transform/leading-through-change-5-steps-for-executives-on-the-cloud-transformation-path/\"><b>Read
+  more</b></a>.</li><li data-block-key=\"dehca\"><b>Secure by default: How to set
+  compliance controls for your Google Cloud Organization</b>: Assured Workloads can
+  help you ensure comprehensive data protection and regulatory compliance with folders
+  that support your compliance requirements. Here’s how. <a href=\"https://cloud.google.com/blog/products/identity-security/how-to-set-compliance-controls-for-your-google-cloud-organization\"><b>Read
+  more</b></a>.</li><li data-block-key=\"evhln\"><b>Making it easier to protect data
+  in Cloud SQL</b>: Discover sensitive data and manage risks with Sensitive Data Protection
+  for Cloud SQL. Here’s what’s new. <a href=\"https://cloud.google.com/blog/products/identity-security/expanding-sensitive-data-protection-to-make-it-easier-to-protect-data-in-cloud-sql\"><b>Read
+  more</b></a>.</li><li data-block-key=\"2tkle\"><b>Introducing stronger default Org
+  Policies for our customers</b>: We’ve released an updated and stronger set of security
+  defaults implemented with Organizational Policies. <a href=\"https://cloud.google.com/blog/products/identity-security/introducing-stronger-default-org-policies-for-our-customers\"><b>Read
+  more</b></a>.</li><li data-block-key=\"dq73o\"><b>How Commerzbank safeguards its
+  data with VPC Service Controls</b>: Commerzbank explains how VPC Service Controls
+  have helped them keep their sensitive data secure while using built-in Google Cloud
+  storage and data processing capabilities. <a href=\"https://cloud.google.com/blog/topics/customers/how-commerzbank-safeguards-its-data-with-vpc-service-controls\"><b>Read
+  more</b></a>.</li><li data-block-key=\"215mv\"><b>Securing Ray on Google Kubernetes
+  Engine</b>: Running Ray on GKE takes advantage of existing global Google infrastructure
+  components like Identity-Aware Proxy (IAP), for a more secure deployment. <a href=\"https://cloud.google.com/blog/products/containers-kubernetes/securing-ray-to-run-on-google-kubernetes-engine\"><b>Read
+  more</b></a>.</li><li data-block-key=\"9qo9f\"><b>Improving resilience to DDoS attacks
+  with Cloud Armor Advanced rate limiting capabilities</b>: As the threat landscape
+  evolves, you can use Google Cloud Armor to build a comprehensive DDoS mitigation
+  strategy. Here’s how. <a href=\"https://cloud.google.com/blog/products/identity-security/how-to-improve-resilience-to-ddos-attacks-with-cloud-armor-advanced-rate-limiting-capabilities\"><b>Read
+  more</b></a>.</li><li data-block-key=\"e85uo\"><b>How to choose a known, trusted
+  supplier for open source software</b>: With an increasing focus on managing open-source
+  software supply chain risk, both Citi and Google strive to apply more rigor across
+  risk mitigation. Here’s what we’ve learned. <a href=\"https://cloud.google.com/blog/products/identity-security/how-to-choose-a-known-trusted-supplier-for-open-source-software\"><b>Read
+  more</b></a>.</li></ul></div>\n<div class=\"block-paragraph\"><h3 data-block-key=\"29tyz\"><b>Threat
+  Intelligence news</b></h3><ul><li data-block-key=\"63li5\"><b>APT29 uses WINELOADER
+  to target German political parties</b>: In late February, APT29 used a new backdoor
+  variant publicly tracked as WINELOADER to target German political parties, the first
+  time Mandiant has seen this APT29 cluster has done so. This activity presents a
+  broad threat to European and other Western political parties. <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/apt29-wineloader-german-political-parties\"><b>Read
+  more</b></a>.</li><li data-block-key=\"2578l\"><b>Bringing access back — Initial
+  Access Brokers exploit F5 BIG-IP and ScreenConnect</b>: During the course of an
+  intrusion investigation in late October 2023, Mandiant observed a novel exploitation
+  of a vulnerability affecting F5 BIG-IP Traffic Management User Interface. This February,
+  we observed exploitation of Connectwise ScreenConnect by the same actor. This mix
+  of custom tooling and the SUPERSHELL framework used in these incidents is assessed
+  with moderate confidence to be unique to a People's Republic of China (PRC) threat
+  actor, UNC5174. <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect\"><b>Read
+  more</b></a>.</li></ul></div>\n<div class=\"block-paragraph\"><h3 data-block-key=\"rcfc5\"><b>Now
+  hear this: Google Cloud Security and Mandiant podcasts</b></h3><ul><li data-block-key=\"e7ec8\"><b>Decoding
+  'shifting left' for cloud security</b>: Are cloud operations more like pets, or
+  more like farm animals? Ahmad Robinson, a Google Cloud security architect, talks
+  with our Cloud Security podcast hosts Anton Chuvakin and Tim Peacock about why it’s
+  important to understand policy-as-code early in your cloud career, and why the cloud
+  is more like a working horse and less like Fido. <a href=\"https://cloud.withgoogle.com/cloudsecurity/podcast/ep165-your-cloud-is-not-a-pet-decoding-shifting-left-for-cloud-security/\"
+  target=\"_blank\"><b>Listen here</b></a>.</li><li data-block-key=\"34qmo\"><b>Leaping
+  at quantum problems</b>: What’s the real threat posed by quantum computers, and
+  how can post-quantum cryptography help defenders? Jennifer Fernick, Google senior
+  staff security engineer, shares her insights on all things quantum with our Cloud
+  Security podcast hosts Anton and Tim. <a href=\"https://cloud.withgoogle.com/cloudsecurity/podcast/ep164-quantum-computing-understanding-the-very-serious-threat-and-post-quantum-cryptography/\"
+  target=\"_blank\"><b>Listen here</b></a>.</li></ul><p data-block-key=\"d3tb2\">To
+  have our Cloud CISO Perspectives post delivered twice a month to your inbox, <a
+  href=\"https://go.chronicle.security/cloudciso-newsletter-signup\" target=\"_blank\">sign
+  up for our newsletter</a>. We’ll be back in two weeks with more security-related
+  updates from Google Cloud.</p></div>"
+author: Phil Venables
+categories:
+- Cloud CISO
+- Security & Identity
+published: 2024-03-28 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-get-ready-for-next-24-what-you-need-to-know/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://storage.googleapis.com/gweb-cloudblog-publish/images/2024_Cloud_CISO_Perspectives_header_no_title.max-600x600.jpg

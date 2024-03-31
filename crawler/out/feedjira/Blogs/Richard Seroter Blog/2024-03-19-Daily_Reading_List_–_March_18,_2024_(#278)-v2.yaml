@@ -1,0 +1,80 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=15965
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 18, 2024 (#278)
+url: https://seroter.com/2024/03/18/daily-reading-list-march-18-2024-278/
+summary: Today's links look at measuring generative AI adoption, a successful strategy
+  for mainframe modernization, and how to perform under pressure.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-19 00:03:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=15965
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/18/daily-reading-list-march-18-2024-278/#comments
+content: "\n<p>I&#8217;m in Sunnyvale today and had some terrific meetings. Probably
+  because I just finished reading <em><a href=\"https://amzn.to/3wU6xFw\">Death by
+  Meeting</a></em> and am focused on making my meetings more engaging and impactful.
+  It&#8217;s a quick read, and I highly recommend it.</p>\n\n\n\n<p>[article] <strong><a
+  href=\"https://newsletter.getdx.com/p/measuring-generative-ai-adoption-and-impact\">Three
+  methods for measuring GenAI adoption and impact</a></strong>. This is good for answering
+  the &#8220;how&#8221;, assuming you&#8217;ve answered the &#8220;what&#8221; and
+  &#8220;why&#8221; already. Use telemetry, experience sampling, and surveys to collect
+  data to answer your questions.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/data-analytics/gemini-pro-available-in-bigquery-through-vertex-ai/\">Dive
+  deeper into Gemini with BigQuery and Vertex AI</a></strong>. I like that you can
+  invoke models inline using SQL commands. This simplifies your architecture and makes
+  ML more approachable.</p>\n\n\n\n<p>[article] <strong><a href=\"https://thenewstack.io/finally-platform-engineering-for-enterprise-cloud-migration/\">Finally,
+  Platform Engineering for Enterprise Cloud Migration</a></strong>. My former CEO
+  at Pivotal is back with a company doing very interesting work modernizing mainframe
+  systems. This was an excellent piece about why these efforts typically fail today,
+  and how there&#8217;s a better way.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.infoq.com/presentations/incidents-culture-resilience\">Two
+  Years of Incidents at Six Different Companies: How a Culture of Resilience Can Help
+  You Accomplish Your Goals</a></strong>. Really good talk from Vanessa that educates
+  us on incidents, how to respond effectively, and some anti-patterns to avoid.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://developers.googleblog.com/2024/03/google-io-2024-save-the-date.html\">Tune
+  in for Google I/O on May 14</a></strong>. Might be worth marking your calendar for
+  this event where we share new hardware, services, and tech innovations each year.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://arstechnica.com/space/2024/03/thursdays-starship-flight-provided-a-glimpse-into-a-future-of-abundant-access-to-space/\">After
+  Thursday’s flight, Starship is already the most revolutionary rocket ever built</a></strong>.
+  There are times where it can feel like human civilization doesn&#8217;t create amazing
+  physical things any more, and then I get inspired by pieces like this.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://www.infoworld.com/article/3714445/open-source-is-not-insecure.html\">Open
+  source is not insecure</a></strong>. Dan explains that OSS itself improves your
+  security posture, but we need to rethink how we package, sign, verify, and distribute
+  OSS.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.ciodive.com/news/microsoft-azure-eliminates-cloud-data-egress-fees/710367/\">Microsoft
+  joins AWS, Google Cloud on path to free data egress</a></strong>. We started a trend!
+  Microsoft followed our lead and ensures you can leave a cloud provider with fewer
+  punitive costs.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://x.ai/blog/grok-os\">Open
+  Release of Grok-1</a></strong>. Access the weights and architecture of this model.
+  It already has an impressive number of forks and stars on GitHub.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://cloud.google.com/blog/products/gaming/generative-ai-fuels-next-gen-living-games/\">The
+  evolution of play: From live to living games</a></strong>. I&#8217;m not sure we
+  understand all the implications of this, but AI should definitely make games and
+  gameplay more interesting!</p>\n\n\n\n<p>[blog] <strong><a href=\"https://thegrowtheq.com/to-perform-under-pressure-shift-your-perspective/\">To
+  Perform Under Pressure, Shift Your Perspective</a></strong>. I enjoyed Steve&#8217;s
+  book (<em>Do Hard Things</em>) and this idea about perspective is an important one.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=15965\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

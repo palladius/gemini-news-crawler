@@ -1,0 +1,66 @@
+# [NewsFiler v2] NewsPaper: Guillaume Laforge - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/ee7bc330f5fe
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hands on Codelabs to dabble with Large Language Models in Java
+url: https://medium.com/google-cloud/hands-on-codelabs-to-dabble-with-large-language-models-in-java-ee7bc330f5fe?source=rss-431147437aeb------2
+author: Guillaume Laforge
+categories:
+- llm
+- generative-ai
+- java
+- google-cloud-platform
+- langchain
+published: 2023-12-18 00:00:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/ee7bc330f5fe
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Guillaume Laforge - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: <figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*QAqyUui7Mp-t2o8U.png"
+  /></figure><p>Hot on the heels of the <a href="https://glaforge.dev/posts/2023/12/13/get-started-with-gemini-in-java/">release
+  of Gemini</a>, I’d like to share a couple of resources I created to get your hands
+  on large language models, using <a href="https://github.com/langchain4j/">LangChain4J</a>,
+  and the <a href="https://ai.google/discover/palm2/">PaLM 2</a> model. Later on,
+  I’ll also share with you articles and codelabs that take advantage of Gemini, of course.</p><p>The
+  PaLM 2 model supports 2 modes:</p><ul><li>text generation,</li><li>and chat.</li></ul><p>In
+  the 2 codelabs, you’ll need to have created an account on Google Cloud, and created
+  a project. The codelabs will guide you through the steps to setup the environment,
+  and show you how to use the Google Cloud built-in shell and code editor, to develop
+  in the cloud.</p><p>You should be a Java developer, as the examples are in Java,
+  use the <a href="https://github.com/langchain4j/">LangChain4J</a> project, and Maven
+  for building the code.</p><h3>Generative AI text generation in Java with PaLM and
+  LangChain4J</h3><p>In the first <a href="https://codelabs.developers.google.com/codelabs/genai-text-gen-java-palm-langchain4j?hl=en#0">codelab</a>
+  you can explore:</p><ul><li>how to make your first call to PaLM for simple question/answer
+  scenarios</li><li>how to extract structured data out of unstructured text</li><li>how
+  to use prompts and prompt templates</li><li>how to classify text, with an example
+  on sentiment analysis</li></ul><h3>Generative AI powered chat with users and docs
+  in Java with PaLM and LangChain4J</h3><p>In the second <a href="https://codelabs.developers.google.com/codelabs/genai-chat-java-palm-langchain4j?hl=en#0">codelab</a>
+  you’ll use the chat model to learn:</p><ul><li>how to create your first chat with
+  the PaLM model</li><li>how to give your chatbot a personality, with an example with
+  a chess player</li><li>how to extract structured data out of unstructured text using
+  LangChain4J’s AiServices and its annotations</li><li>how to implement Retrieval
+  Augmented Generation (RAG) to answer questions about your own documentation</li></ul><h3>Going
+  further with Generative AI</h3><p>If you’re interested in going further with Generative
+  AI, and learn more, feel free to <a href="https://goo.gle/generativeai">join the
+  Google Cloud Innovators program</a>.</p><p>Google Cloud Innovators is <strong>free</strong>
+  and includes:</p><ul><li>live discussions, AMAs, and roadmap sessions to learn the
+  latest directly from Googlers,</li><li>the latest Google Cloud news right in your inbox,</li><li>digital
+  badge and video conference background,</li><li>500 credits of labs and learning
+  on Skills Boost.</li></ul><p><em>Originally published at </em><a href="https://glaforge.dev/posts/2023/12/18/get-hands-on-codelabs-to-dabble-with-llms/"><em>https://glaforge.dev</em></a><em>
+  on December 18, 2023.</em></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=ee7bc330f5fe"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/hands-on-codelabs-to-dabble-with-large-language-models-in-java-ee7bc330f5fe">Hands
+  on Codelabs to dabble with Large Language Models in Java</a> was originally published
+  in <a href="https://medium.com/google-cloud">Google Cloud - Community</a> on Medium,
+  where people are continuing the conversation by highlighting and responding to this
+  story.</p>

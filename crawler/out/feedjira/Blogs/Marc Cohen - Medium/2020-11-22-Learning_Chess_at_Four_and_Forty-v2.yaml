@@ -1,0 +1,49 @@
+# [NewsFiler v2] NewsPaper: Marc Cohen - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/55f46f56787f
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Learning Chess at Four and Forty
+url: https://marcacohen.medium.com/learning-chess-at-four-and-forty-55f46f56787f?source=rss-1f225b5f22b2------2
+author: Marc Cohen
+categories:
+- chess
+- teaching
+- education
+- learning
+- brain
+published: 2020-11-22 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/55f46f56787f
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Marc Cohen - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: <figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*pobZVPCMj8knIqS7.png"
+  /></figure><p>We learn differently at different ages. The learning advantages of
+  the young mind are well established, particularly in the area of language acquisition.
+  But in some dimensions, we may actually learn better at a more advanced age.</p><p>If
+  you know about Kahneman’s theory of <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">fast
+  and slow thinking</a>, it seems to me that the younger brain’s fast thinking engine
+  has a significant advantage, while the older brain’s slow thinking facilities are
+  likely more refined.</p><p>The article below relates the story of a father who set
+  out to teach his young daughter how to play chess, while learning the game himself,
+  at the same time. An excerpt I found poignant:</p><blockquote><em>…but there was
+  the look in her eyes as I checkmated her a second time. For whatever the games had
+  taught me about brains young and old, about the different ways we learn and deploy
+  our cognitive resources, they also taught me that the only thing harder than losing
+  to your daughter in chess is winning against her.</em></blockquote><p>This article
+  reminded me of my own experience teaching my daughter the game of chess, which is
+  captured in the photo above.</p><blockquote><em>What I learned trying to keep up
+  with my 4-year-old daughter at the royal game. @NautilusMag </em><a href="http://nautil.us/issue/36/aging/learning-chess-at-40"><em>http://nautil.us/issue/36/aging/learning-chess-at-40</em></a></blockquote><p><em>Originally
+  published at </em><a href="https://mco.dev/learning-chess-at-four-and-forty/"><em>https://mco.dev</em></a><em>
+  on November 22, 2020.</em></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=55f46f56787f"
+  width="1" height="1" alt="">

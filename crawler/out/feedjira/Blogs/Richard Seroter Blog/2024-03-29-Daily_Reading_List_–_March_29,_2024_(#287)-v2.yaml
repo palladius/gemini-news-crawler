@@ -1,0 +1,66 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16120
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 29, 2024 (#287)
+url: https://seroter.com/2024/03/29/daily-reading-list-march-29-2024-287/
+summary: Today's links look at why your strategy isn't sticking, why Wiz merging with
+  Angular is a big deal, and rapid movement on a Redis fork.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-29 22:46:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16120
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/29/daily-reading-list-march-29-2024-287/#respond
+content: "\n<p>Some of you may have had a holiday today, but I was grinding through
+  my inbox and getting some good work done. Enjoy the Easter weekend, and try not
+  to eat too many Peeps.</p>\n\n\n\n<p>[article] <strong><a href=\"https://thenewstack.io/how-to-write-sql-queries/\">How
+  to Write SQL Queries</a></strong>. This is a good introductory article to writing
+  SQL, and might be a good refresher for folks who don&#8217;t write it all the time
+  (*raises hand*).</p>\n\n\n\n<p>[blog] <strong><a href=\"https://medium.com/intuit-engineering/how-intuit-data-analysts-write-sql-2x-faster-with-internal-genai-tool-c3b9d482208a\">How
+  Intuit data analysts write SQL 2x faster with internal GenAI tool</a></strong>.
+  Once you understand how to write good SQL, maybe use AI to do more of it for you?
+  </p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/transform/to-securely-build-ai-on-google-cloud-follow-these-best-practices-infographic?e=48754805\">To
+  securely build AI on Google Cloud, follow these best practices [infographic]</a></strong>.
+  Skim the post and then open the linked whitepaper (no registration needed) to learn
+  about deploying AI securely in the cloud.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.thestack.technology/redis-fork-valkey-linux-foundation/\">AWS,
+  Google, Oracle back Redis fork “Valkey” under the Linux Foundation</a></strong>.
+  It&#8217;ll be wild to see how this plays out. <a href=\"https://thenewstack.io/linux-foundation-forks-the-open-source-redis-as-valkey/\">More
+  here</a>.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://glaforge.dev/posts/2024/03/27/gemini-codelab-for-java-developers/\">Gemini
+  codelab for Java developers using LangChain4j</a></strong>. If you decide to do
+  some hacking around this weekend, consider running Guillaume&#8217;s code lab. I&#8217;m
+  going to.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://www.forrester.com/blogs/wasm-today-ai-tomorrow-kubecon-expands-its-reach/\">Wasm
+  Today, AI Tomorrow: KubeCon Expands Its Reach</a></strong>. Devin at Forrester attended
+  Kubecon and saw a big push for AI and Wasm workloads.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://blog.angular.io/angular-and-wiz-are-better-together-91e633d8cd5a\">Angular
+  and Wiz Are Better Together</a></strong>. You know a web framework must be battle-tested
+  if it powers Google Search, Photos, and more. That framework, Wiz, has been Google-only.
+  But now we&#8217;re merging it with Angular.</p>\n\n\n\n<p>[article] <strong><a
+  href=\"https://hbr.org/2024/03/why-isnt-your-strategy-sticking\">Why Isn’t Your
+  Strategy Sticking?</a></strong> Landing a strategy is more than just having a plan.
+  This article looks at finding and resolving the obstacles.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16120\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

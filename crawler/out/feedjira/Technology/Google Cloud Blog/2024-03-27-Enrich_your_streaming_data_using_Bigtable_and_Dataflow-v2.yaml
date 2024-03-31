@@ -1,0 +1,146 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/products/data-analytics/enrich-streaming-data-in-bigtable-with-dataflow/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Enrich your streaming data using Bigtable and Dataflow
+url: https://cloud.google.com/blog/products/data-analytics/enrich-streaming-data-in-bigtable-with-dataflow/
+summary: "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align:
+  baseline;\">Data engineers know that eventing is all about speed, scale, and efficiency.
+  Event streams — high-volume data feeds coming off of things such as devices such
+  as point-of-sale systems or websites logging stateless clickstream activity — process
+  lightweight event payloads that often lack the information to make each event actionable
+  on its own. It is up to the consumers of the event stream to transform and enrich
+  the events, followed by further processing as required for their particular use
+  case. </span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n
+  \   <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n
+  \   <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/Enrich_your_streaming_data_using_Bigtable_.max-1000x1000.jpg\"\n
+  \       \n          alt=\"Enrich your streaming data using Bigtable and Dataflow\">\n
+  \       \n        </a>\n      \n    </figure>\n\n  \n      </div>\n    </div>\n
+  \ \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align:
+  baseline;\">Key-value stores such as </span><a href=\"https://cloud.google.com/bigtable\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Bigtable</span></a><span
+  style=\"vertical-align: baseline;\"> are the preferred choice for such workloads,
+  with their ability to process hundreds of thousands of events per second at very
+  low latencies. However, key value lookups often require a lot of careful productionisation
+  and scaling code to ensure the processing can happen with low latency and good operational
+  performance. </span></p>\n<p><span style=\"vertical-align: baseline;\">With the
+  new </span><a href=\"https://cloud.google.com/dataflow/docs/guides/enrichment\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Apache Beam Enrichment
+  transform</span></a><span style=\"vertical-align: baseline;\">, this process is
+  now just a few lines of code, allowing you to process events that are in messaging
+  systems like </span><a href=\"https://cloud.google.com/pubsub/docs/overview\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Pub/Sub</span></a><span
+  style=\"vertical-align: baseline;\"> or Apache Kafka, and enrich them with data
+  in Bigtable, before being sent along for further processing.</span></p>\n<p><span
+  style=\"vertical-align: baseline;\">This is critical for streaming applications,
+  as streaming joins enrich the data to give meaning to the streaming event. For example,
+  knowing the contents of a user’s shopping cart, or whether they browsed similar
+  items before, can bring valuable context to clickstream data that feeds into a recommendation
+  model. Identifying a fraudulent in-store credit card transaction requires much more
+  information than what’s in the current transaction, for example, the location of
+  the prior purchase, count of recent transactions or whether a travel notice is in
+  place. Similarly, enriching telemetry data from factory floor hardware with historical
+  signals from the same device or overall fleet statistics can help a machine learning
+  (ML) model predict failures before they happen.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">The </span><a href=\"https://beam.apache.org/releases/pydoc/current/apache_beam.transforms.enrichment.html\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">Apache Beam enrichment transform</span></a><span style=\"vertical-align:
+  baseline;\"> can take care of the client-side throttling to rate-limit the number
+  of requests being sent to the Bigtable instance when necessary. It retries the requests
+  with a configurable retry strategy, which by default is exponential backoff. If
+  coupled with auto-scaling, this allows Bigtable and </span><a href=\"https://cloud.google.com/dataflow\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Dataflow</span></a><span
+  style=\"vertical-align: baseline;\"> to scale up and down in tandem and automatically
+  reach an equilibrium. Beam 2.5.4.0 supports exponential backoff, which can be disabled
+  or replaced with a custom implementation.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">Lets see this in action:</span></p></div>\n<div class=\"block-code\"><dl>\n
+  \   <dt>code_block</dt>\n    <dd>&lt;ListValue: [StructValue([(&#x27;code&#x27;,
+  &#x27;with beam.Pipeline() as p:\\r\\n  output = (p\\r\\n            | &quot;Read
+  from PubSub&quot; &gt;&gt; beam.io.ReadFromPubSub(subscription=SUBSCRIPTION)\\r\\n
+  \           | &quot;Convert bytes to Row&quot;  &gt;&gt; beam.ParDo(DecodeBytes())\\r\\n
+  \           | &quot;Enrichment&quot; &gt;&gt; Enrichment(bigtable_handler)\\r\\n
+  \           | &quot;Run Inference&quot; &gt;&gt; RunInference(model_handler)\\r\\n
+  \           )&#x27;), (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;,
+  &lt;wagtail.rich_text.RichText object at 0x3ee9398460a0&gt;)])]&gt;</dd>\n</dl></div>\n<div
+  class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">The
+  above code runs a Dataflow job that reads from a Pub/Sub subscription and performs
+  data enrichment by doing a key-value lookup with Bigtable cluster. The enriched
+  data is then fed to the machine learning model for RunInference. </span></p>\n<p><span
+  style=\"vertical-align: baseline;\">The pictures below illustrate how Dataflow and
+  Bigtable work in harmony to scale correctly based on the load. When the job starts,
+  the Dataflow runner starts with one worker while the Bigtable cluster has three
+  nodes and autoscaling enabled for Dataflow and Bigtable. We observe a spike in the
+  input load for Dataflow at around 5:21 PM that leads it to scale to 40 workers.</span></p></div>\n<div
+  class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module
+  h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--large\n
+  \     \n      \n        h-c-grid__col\n        h-c-grid__col--6 h-c-grid__col--offset-3\n
+  \       \n        \n      \"\n      >\n\n      \n      \n        \n        <img\n
+  \           src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/2_yJOWQ1b.max-1000x1000.png\"\n
+  \       \n          alt=\"2\">\n        \n        </a>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">This increases the number of reads to the Bigtable
+  cluster. Bigtable automatically responds to the increased read traffic by scaling
+  to 10 nodes to maintain the user-defined CPU utilization target.</span></p></div>\n<div
+  class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module
+  h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--large\n
+  \     \n      \n        h-c-grid__col\n        h-c-grid__col--6 h-c-grid__col--offset-3\n
+  \       \n        \n      \"\n      >\n\n      \n      \n        \n        <img\n
+  \           src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/3_je4LBFv.max-1000x1000.png\"\n
+  \       \n          alt=\"3\">\n        \n        </a>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">The events can then be used for inference, with
+  either embedded models in the Dataflow worker or with </span><a href=\"https://cloud.google.com/vertex-ai\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Vertex AI</span></a><span
+  style=\"vertical-align: baseline;\">. </span></p>\n<p><span style=\"vertical-align:
+  baseline;\">This Apache Beam transform can also be useful for applications that
+  serve mixed batch and real-time workloads from the same Bigtable database, for example
+  multi-tenant SaaS products and interdepartmental line of business applications.
+  These workloads often take advantage of built-in Bigtable mechanisms to minimize
+  the impact of different workloads on one another. Latency-sensitive requests can
+  be run at </span><a href=\"https://cloud.google.com/bigtable/docs/request-priorities\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">high priority</span></a><span
+  style=\"vertical-align: baseline;\"> on a cluster that is simultaneously serving
+  large </span><a href=\"https://cloud.google.com/bigtable/docs/writes#flow-control\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">batch</span></a><span
+  style=\"vertical-align: baseline;\"> requests with </span><a href=\"https://cloud.google.com/bigtable/docs/request-priorities\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">low priority</span></a><span
+  style=\"vertical-align: baseline;\"> and </span><a href=\"https://cloud.google.com/bigtable/docs/writes#flow-control\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">throttling</span></a><span
+  style=\"vertical-align: baseline;\"> requests, while also </span><a href=\"https://cloud.google.com/bigtable/docs/autoscaling\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">automatically scaling</span></a><span
+  style=\"vertical-align: baseline;\"> the cluster up or down depending on demand.
+  These capabilities come in handy when using Dataflow with Bigtable, whether it’s
+  to bulk-ingest large amounts of data over many hours, or process streams in real-time.</span></p>\n<h3><span
+  style=\"vertical-align: baseline;\">Conclusion</span></h3>\n<p><span style=\"vertical-align:
+  baseline;\">With a few lines of code, we are able to build a production pipeline
+  that translates to many thousands of lines of production code under the covers,
+  allowing Pub/Sub, Dataflow, and Bigtable to seamlessly scale the system to meet
+  your business needs! And as </span><span style=\"vertical-align: baseline;\">machine
+  learning models evolve over time, it will be even more advantageous to use a NoSQL
+  database like Bigtable which offers a flexible schema. </span><span style=\"vertical-align:
+  baseline;\">With the upcoming Beam 2.55.0, the enrichment transform will also have
+  caching support for Redis that you can configure for your specific cache. To get
+  started, </span><a href=\"https://cloud.google.com/dataflow/docs/guides/enrichment\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">visit the documentation
+  page</span></a><span style=\"vertical-align: baseline;\">.</span></p></div>"
+author: Reza Rokni
+categories:
+- Databases
+- Data Analytics
+published: 2024-03-27 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/products/data-analytics/enrich-streaming-data-in-bigtable-with-dataflow/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

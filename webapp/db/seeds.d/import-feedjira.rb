@@ -1,6 +1,6 @@
 require 'feedjira'
 
-MaxArticlesToParse = 42
+MaxArticlesToParse = 4200
 FeedJiraSubdir =  '/../../../crawler/out/feedjira/' # relative to here: db/seeds.d/HERE
 
 dir = File.dirname(__FILE__) + FeedJiraSubdir
@@ -45,10 +45,12 @@ Dir[File.join(File.dirname(__FILE__), FeedJiraSubdir, '**', '*.yaml')].each_with
   obj = YAML.load(
     File.read(file),
     permitted_classes: [
-        Feedjira::Parser::RSSEntry,
         Time,
+        Feedjira::Parser,
+        Feedjira::Parser::RSSEntry,
         Feedjira::Parser::GloballyUniqueIdentifier,
         Feedjira::Parser::ITunesRSSItem,
+        Feedjira::Parser::AtomEntry,
     ]
   )
  # case obj.class

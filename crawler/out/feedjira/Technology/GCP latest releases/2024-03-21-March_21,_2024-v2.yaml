@@ -1,0 +1,154 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_21_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_21_2024
+content: "<strong class=\"release-note-product-title\">Anthos Config Management</strong>\n<h3>Feature</h3>\n<p>The
+  constraint template library includes a new template: <code>K8sPSSRunAsNonRoot</code>.
+  For reference, see the <a href=\"https://cloud.google.com/anthos-config-management/docs/latest/reference/constraint-template-library\">Constraint
+  template library</a>.</p>\n<h3>Changed</h3>\n<p>Policy Controller bundles have been
+  updated to the following versions: <code>cis-gke-v1.4.0</code>: <code>202402.0-preview</code>,
+  <code>nist-sp-800-190</code>: <code>202402.0</code>, <code>nist-sp-800-53-r5</code>:
+  <code>202402.0</code>, <code>pci-dss-v3.2.1</code>: <code>202402.0</code>, <code>pss-baseline-v2022</code>:
+  <code>202402.0</code>, <code>pss-restricted-v2022</code>: <code>202402.0</code>.
+  For reference, see <a href=\"https://cloud.google.com/anthos-config-management/docs/concepts/policy-controller-bundles\">Policy
+  Controller bundles overview</a>.</p>\n<h3>Fixed</h3>\n<p>Fixed a regression introduced
+  in 1.16.0 that limits the length of the Secret name referenced in the <code>spec.git.secretRef.name</code>
+  field of the RootSync object.</p>\n<h3>Fixed</h3>\n<p>Fixed a regression introduced
+  in 1.17.0 that caused Config Sync to sometimes <a href=\"https://cloud.google.com/anthos-config-management/docs/how-to/known-issues#git-sync-issue\">fail
+  to pull the latest commit from a Git branch</a> by upgrading git-sync (Config Sync
+  dependency for pulling from git) from v4.1.0 to v4.2.1.</p>\n<strong class=\"release-note-product-title\">Backup
+  and DR</strong>\n<h3>Announcement</h3>\n<p>Backup and DR Service 11.0.10.417 is
+  now available to update your backup/recovery appliance. Refer to these <a href=\"https://cloud.google.com/backup-disaster-recovery/docs/configuration/update-appliance\">instructions</a>
+  to update your appliance.</p>\n<h3>Announcement</h3>\n<p>Backup and DR Service 11.0.10
+  includes an operating system upgrade from CentOS 7 to Rocky Linux 8. As CentOS 7
+  will reach its End of Life (EOL) on June 24, 2024, you must upgrade to 11.0.10 before
+  the EOL date to continue receiving security updates. </p>\n\n<p>To upgrade to 11.0.10,
+  you should take a snapshot of the appliance&#39;s boot disk. If your backup/recovery
+  appliance is on 11.0.5 or below, then you need to upgrade to 11.0.9 before successfully
+  upgrading to 11.0.10. See <a href=\"https://cloud.google.com/backup-disaster-recovery/docs/release-notes#February_16_2024\">11.0.9
+  release notes</a> to know how to back up the boot disk.</p>\n<h3>Feature</h3>\n<p>Backup
+  and DR Service added support to access historical reports. <a href=\"https://cloud.google.com/backup-disaster-recovery/docs/monitor-reports/access-report\">Learn
+  more</a>.</p>\n<strong class=\"release-note-product-title\">BigQuery</strong>\n<h3>Feature</h3>\n<p>You
+  can now add <a href=\"https://cloud.google.com/bigquery/docs/salesforce-quickstart\">Salesforce
+  Data Cloud</a> data to BigQuery. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a> (GA).</p>\n<h3>Feature</h3>\n<p>Incremental materialized views now
+  support <a href=\"https://cloud.google.com/bigquery/docs/materialized-views-create#left-union\"><code>LEFT
+  OUTER JOIN</code> and <code>UNION ALL</code></a>. This feature is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.</p>\n<strong
+  class=\"release-note-product-title\">Bigtable</strong>\n<h3>Feature</h3>\n<p>You
+  can now view Bigtable cost data with instance granularity in the Google Cloud Billing
+  detailed export to BigQuery. For more information, see <a href=\"https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables/detailed-usage\">Structure
+  of detailed cost data export</a>.</p>\n<strong class=\"release-note-product-title\">Compute
+  Engine</strong>\n<h3>Feature</h3>\n<p><strong>Generally available</strong>: In a
+  managed instance group (MIG), you can set metadata and labels for all VMs in the
+  group without the need to create a new instance template. For more information,
+  see <a href=\"https://cloud.google.com/compute/docs/instance-groups/set-mig-aic\">Override
+  instance template properties with an all-instances configuration</a>.</p>\n<h3>Feature</h3>\n<p><strong>Generally
+  available</strong>: In a managed instance group (MIG), you can turn off repairs
+  to inspect failed and unhealthy VMs, to implement your own repair logic, or to monitor
+  the application health without triggering repairs by MIG. For more information,
+  see <a href=\"https://cloud.google.com/compute/docs/instance-groups/turn-off-vm-repairs-in-mig\">Turn
+  off repairs in a MIG</a>.</p>\n<strong class=\"release-note-product-title\">Dataproc</strong>\n<h3>Announcement</h3>\n<p>New
+  <a href=\"https://cloud.google.com/dataproc/docs/concepts/versioning/dataproc-version-clusters#supported_dataproc_versions\">Dataproc
+  on Compute Engine subminor image versions</a>:</p>\n\n<ul>\n<li>2.0.96-debian10,
+  2.0.96-rocky8, 2.0.96-ubuntu18</li>\n<li>2.1.44-debian11, 2.1.44-rocky8, 2.1.44-ubuntu20,
+  2.1.44-ubuntu20-arm</li>\n<li>2.2.10-debian12, 2.2.10-rocky9, 2.2.10-ubuntu22</li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Google Distributed Cloud Virtual for Bare Metal</strong>\n<h3>Announcement</h3>\n<h3
+  id=\"release_128300-gke131\">Release 1.28.300-gke.131</h3>\n\n<p>GKE on Bare Metal
+  1.28.300-gke.131 is now available for <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.28/downloads\">download</a>.
+  To upgrade, see <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.28/how-to/upgrade\">Upgrade
+  clusters</a>. GKE on Bare Metal 1.28.300-gke.131 runs on Kubernetes 1.28.</p>\n\n<p>If
+  you use a third-party storage vendor, check the <a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a> document to make sure the storage vendor has already
+  passed the qualification for this release of GKE on Bare Metal.</p>\n<h3>Changed</h3>\n<p><strong>Functionality
+  changes:</strong></p>\n\n<ul>\n<li><p>Updated preflight checks to add a check for
+  networking kernel modules.</p></li>\n<li><p>Updated preflight checks to remove the
+  check for <code>iptables</code> package availability.</p></li>\n<li><p>Increased
+  the default memory limit for <code>node-exporter</code>.</p></li>\n</ul>\n<h3>Fixed</h3>\n<p><strong>Fixes:</strong></p>\n\n<ul>\n<li>Fixed
+  an issue with configuring a proxy for your cluster that required you to manually
+  set <code>HTTPS_PROXY</code> and <code>NO_PROXY</code> environment variables on
+  the admin workstation.</li>\n</ul>\n<h3>Fixed</h3>\n<p>The following container image
+  security vulnerabilities have been fixed in 1.28.300-gke.131: </p>\n\n<ul>\n<li><p>High-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28948\">CVE-2022-28948</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499\">CVE-2023-29499</a></p></li>\n</ul></li>\n<li><p>Medium-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446\">CVE-2023-3446</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817\">CVE-2023-3817</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32611\">CVE-2023-32611</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32665\">CVE-2023-32665</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49290\">CVE-2023-49290</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21664\">CVE-2024-21664</a></p></li>\n<li><p><a
+  href=\"https://github.com/advisories/GHSA-2c7c-3mj9-8fqh\">GHSA-2c7c-3mj9-8fqh</a></p></li>\n</ul></li>\n<li><p>Low-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25743\">CVE-2021-25743</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975\">CVE-2023-2975</a></p></li>\n</ul></li>\n</ul>\n<h3>Issue</h3>\n<p><strong>Known
+  issues:</strong></p>\n\n<p>For information about the latest known issues, see <a
+  href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.28/troubleshooting/known-issues\">GKE
+  on Bare Metal known issues</a> in the Troubleshooting section.</p>\n<h3>Announcement</h3>\n<h3
+  id=\"release_11511\">Release 1.15.11</h3>\n\n<p>GKE on Bare Metal 1.15.11 is now
+  available for <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.15/downloads\">download</a>.
+  To upgrade, see <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.15/how-to/upgrade\">Upgrade
+  clusters</a>. GKE on Bare Metal 1.15.11 runs on Kubernetes 1.26.</p>\n\n<p>If you
+  use a third-party storage vendor, check the <a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a> document to make sure the storage vendor has already
+  passed the qualification for this release of GKE on Bare Metal.</p>\n<h3>Fixed</h3>\n<p>The
+  following container image security vulnerabilities have been fixed in 1.15.11: </p>\n\n<ul>\n<li><p>Medium-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218\">CVE-2023-46218</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49290\">CVE-2023-49290</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21664\">CVE-2024-21664</a></p></li>\n<li><p><a
+  href=\"https://github.com/advisories/GHSA-2c7c-3mj9-8fqh\">GHSA-2c7c-3mj9-8fqh</a></p></li>\n</ul></li>\n<li><p>Low-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25743\">CVE-2021-25743</a></li>\n</ul></li>\n</ul>\n<h3>Issue</h3>\n<p><strong>Known
+  issues:</strong></p>\n\n<p>For information about the latest known issues, see <a
+  href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.15/troubleshooting/known-issues\">GKE
+  on Bare Metal known issues</a> in the Troubleshooting section.</p>\n<strong class=\"release-note-product-title\">Google
+  Distributed Cloud Virtual for VMware</strong>\n<h3>Announcement</h3>\n<p>GKE on
+  VMware 1.28.300-gke.123 is now available. To upgrade, see\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/how-to/upgrading\">Upgrading
+  GKE on VMware</a>.\nGKE on VMware 1.28.300-gke.123 runs on Kubernetes v1.28.4-gke.1400.
+  \ </p>\n\n<p>If you are using a third-party storage vendor, check the\n<a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a>\ndocument to make sure the storage vendor has already
+  passed the qualification\nfor this release of GKE on VMware.  </p>\n<h3>Changed</h3>\n<ul>\n<li>Increased
+  the default memory limit for node-exporter.</li>\n<li>Updated the AIS version to
+  hybrid_identity_charon_20240228_0730_RC00.</li>\n</ul>\n<h3>Fixed</h3>\n<p>The following
+  issues are fixed in 1.28.300-gke.123:</p>\n\n<ul>\n<li>Fixed the issue where the
+  admin cluster backup did a retry on\nnon-idempotent operations.</li>\n<li>Fixed
+  the\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#controlplanenodeport-field-defaults-to-30968-when-manuallb-spec-is-empty\">known
+  issue</a>\nwhere the <code>controlPlaneNodePort</code> field defaulted to 30968
+  when the manualLB\nspec was empty.</li>\n<li>Fixed the\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#preflight-check-fails-when-the-hostname-isnt-in-the-ip-block-file.\">known
+  issue</a>\nthat caused the preflight check to fail when the hostname wasn&#39;t
+  in the IP\nblock file.</li>\n<li>Fixed the\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#kubelet-is-flooded-with-logs-stating-that-etckubernetesmanifests-does-not-exist-on-the-worker-nodes\">known
+  issue</a>\nthat caused Kubelet to be flooded with logs stating that\n&quot;/etc/kubernetes/manifests&quot;
+  does not exist on the worker nodes.</li>\n</ul>\n\n<p>The following vulnerabilities
+  are fixed in 1.28.300-gke.123:</p>\n\n<ul>\n<li><p>High-severity container vulnerabilities:</p>\n\n<ul>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5517\">CVE-2023-5517</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4408\">CVE-2023-4408</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499\">CVE-2023-29499</a></p></li>\n</ul></li>\n<li><p>Container-optimized
+  OS vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40547\">CVE-2023-40547</a></li>\n</ul></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Security Command Center</strong>\n<h3>Feature</h3>\n<p><strong>Security
+  Command Center detectors are now mapped to the following additional compliance frameworks:</strong></p>\n\n<ul>\n<li>CIS
+  Critical Security Controls v8</li>\n<li>Cloud Controls Matrix v 4</li>\n<li>HIPAA</li>\n<li>ISO
+  27001 (2022)</li>\n<li>NIST 800-53 (rev 5)</li>\n<li>NIST Cybersecurity Framework
+  (v 1.0)</li>\n<li>PCI-DSS 4.0</li>\n<li>SOC 2 (2017)</li>\n</ul>\n<strong class=\"release-note-product-title\">VPC
+  Service Controls</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/products#product-launch-stages\">Preview
+  stage</a> support for the following integration:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/vpc-service-controls/docs/supported-products#table_controls_partner\">Sovereign
+  Controls by Partners</a></li>\n</ul>\n<strong class=\"release-note-product-title\">reCAPTCHA
+  Enterprise</strong>\n<h3>Feature</h3>\n<p>reCAPTCHA Enterprise platform logs are
+  now available in Chronicle. Users can now view their reCAPTCHA assessment and annotation
+  data in a structured and searchable data format in Chronicle. For more information,
+  see <a href=\"https://cloud.google.com/chronicle/docs/ingestion/default-parsers/collect-gcp-recaptcha-logs\">Collect
+  reCAPTCHA Enterprise logs</a>.</p>\n\n    "
+title_type:
+published: &1 2024-03-21 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_21_2024
+title: March 21, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

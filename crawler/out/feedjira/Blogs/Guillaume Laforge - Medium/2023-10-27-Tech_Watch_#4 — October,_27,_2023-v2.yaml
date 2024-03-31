@@ -1,0 +1,72 @@
+# [NewsFiler v2] NewsPaper: Guillaume Laforge - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/d48a1449eeb0
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Tech Watch #4 — October, 27, 2023'
+url: https://glaforge.medium.com/tech-watch-4-october-27-2023-d48a1449eeb0?source=rss-431147437aeb------2
+author: Guillaume Laforge
+categories:
+- llm
+- tech-watch
+published: 2023-10-27 15:04:58.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/d48a1449eeb0
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Guillaume Laforge - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<h3>Tech Watch #4 — October, 27, 2023</h3><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*_2CIOvErFLG1qdX8tDCSqQ.png"
+  /></figure><ul><li>The <a href="https://www.stateof.ai/">State of AI report</a>
+  is pretty interesting to read (even if long!). Among the major sections: research,
+  industry, but also politics, safety, and some predictions. You’ll find an executive
+  summary in one slide, on slide #8.<br>On #22, <strong>emergent capabilities of LLMs</strong>
+  is covered and mentions Stanford’s research that talks about the importance of more
+  linear and continuous measures as otherwise capabilities sound like they emerge
+  out of the blue.<br>On #23, they talk about the <strong>context length of LLMs being
+  the new parameter count</strong>, as models try to have bigger context windows.<br>However,
+  on slide #24, they also talk about researchers who showed that <strong>in long context
+  windows the content provided in the middle is more ignored</strong> by LLMs compared
+  to content at the beginning or end of the window.<br>So be sure to <strong>put the
+  important bits first or last</strong>, but not lost in the middle.<br>Slide #26
+  speaks about <strong>smaller models trained with smaller curated datasets and can
+  rival 50x bigger models</strong>.<br>Slide #28 wonders if we’re <strong>running
+  out of human-generated data</strong>, and thus, if we’re going to have our LLMs
+  trained on… LLM generated data!</li><li><a href="https://projector.tensorflow.org/">3D
+  visualisation of vector embeddings from Tensorflow</a><br>As I’m working on a small
+  application that would help visuliase vector embeddings, I was looking for existing
+  apps or articles that show how vectors can be similar, and thus their semantic to
+  be similar as well. And I came across this existing visualisation from the Tensorflow
+  project, which uses the Word2Vec embedding approach. I like the fact you can use
+  different 3D projections techniques like t-SNE or PCA, and you see related vectors
+  closer in the 3D space, as their meaning is closer too.</li><li><a href="https://www.citusdata.com/blog/2023/10/26/making-postgres-tick-new-features-in-pg-cron/">A
+  cron extension for PostgreSQL</a><br>pg_cron is an extension for the PostgreSQL
+  database that adds scheduling capabilities. It can even be scheduled to run your
+  procedures or other SQL queries every few seconds.</li><li><a href="https://protomaps.com/">Protomaps</a>
+  is a free and open source map of the world, deployable as a single static file on
+  cloud storage (including Google Cloud Storage). You can use OpenStreetMap tiles,
+  as it’s distributed with a version of OSM. It’s using an efficient and open archive
+  format for pyramids of tile data, accessible via HTTP Range requests.</li><li><a
+  href="https://artistassistapp.com/">ArtistAssistApp</a> is an application which
+  can tell you which oil or water color paints to use and mix to create similar looking
+  colors for your painting, as you try to reproduce a photo. As a wannabe painter
+  myself, I always struggle creating mixes that match real colors, and this tool is
+  pretty clever to let you find the right mix (at least if you use some well-known
+  paint brands). This also reminds me of <a href="https://scrtwpns.com/mixbox/">mixbox</a>
+  which simulates color mixing as real color pigments mix in real paint, and using
+  such algorithm would greatly improve the real-life accuracy of color mixes in digital
+  art painting applications.</li><li><a href="https://vectorizer.ai/">Vectorizer</a>
+  is an online tool to transform an image into an SVG file. As I’m playing a bit with
+  Generative AI-based image generation, sometimes, the upscalers don’t suffice, and
+  you want to transform a nice generated image into a vectorial format (for example
+  clipart-like illustrations), so they scale gracefully in slide decks or on websites.</li></ul><img
+  src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=d48a1449eeb0"
+  width="1" height="1" alt="">'

@@ -1,0 +1,82 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=15983
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 19, 2024 (#279)
+url: https://seroter.com/2024/03/19/daily-reading-list-march-19-2024-279/
+summary: Today's links look at the best AI infrastructure platforms on the market,
+  how to make strategic decisions without much data, and how much inefficiency is
+  in eng orgs.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-20 00:10:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=15983
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/19/daily-reading-list-march-19-2024-279/#comments
+content: "\n<p>I spent most of today in an onsite offsite meeting, and it was great
+  seeing some colleagues I don&#8217;t get to hang out with all the time. In between
+  sessions, I got some good reading in.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/infrastructure-modernization/google-named-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q1-2024/\">Google
+  named a Leader in The Forrester Wave: AI Infrastructure Solutions, Q1 2024</a></strong>.
+  I also read the underlying report this morning, and there&#8217;s an impressive
+  set of vendors in this space right now. While we&#8217;re tops, it&#8217;s a reminder
+  that you should be &#8220;buying&#8221; expertise and agility, not hardware right
+  now. The landscape and use cases are still emerging!</p>\n\n\n\n<p>[article] <strong><a
+  href=\"https://newsletter.getdx.com/p/how-inefficient-are-engineering-organizations\">How
+  (in)efficient are engineering organizations?</a></strong> Here&#8217;s a quick look
+  at some data showing that about a quarter of a developer&#8217;s time is lost to
+  inefficiency.</p>\n\n\n\n<p>[article] <strong><a href=\"https://thenewstack.io/how-to-store-embeddings-in-vector-search-and-implement-rag/\">How
+  to Store Embeddings in Vector Search and Implement RAG</a></strong>. The process
+  of customizing LLM responses will keep getting easier, especially with managed services
+  in the picture.</p>\n\n\n\n<p>[article] <strong><a href=\"https://hbr.org/2024/03/when-you-have-to-make-a-strategic-decision-without-much-data\">When
+  You Have to Make a Strategic Decision Without Much Data</a></strong>. Sometimes
+  (often?) you don&#8217;t have the data available that could help you make a confident
+  decision. This article talks about three ways to set a course forward.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://www.cncf.io/blog/2024/03/19/istio-announces-the-beta-release-of-ambient-mode/\">Istio
+  announces the beta release of ambient mode</a></strong>. Service meshes are starting
+  to get a little simpler, and a proxy-less architecture will be popular in the years
+  ahead.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.ciodive.com/news/generative-ai-tech-debt-complexity-gartner/710486/\">Early
+  generative AI adopters at higher risk of tech debt</a></strong>. It&#8217;s guaranteed
+  that something you&#8217;re doing with generative AI today will be obsolete in a
+  year. That&#8217;s the nature of fast-evolving technology. But that work isn&#8217;t
+  in vain, as this article points out.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://blog.google/around-the-globe/google-asia/8-years-later-a-world-go-champions-reflections-on-alphago/\">8
+  years later: A world Go champion’s reflections on AlphaGo</a></strong>. I remember
+  this was a big deal when it happened. Here, we revisit the &#8220;win&#8221; by
+  AI and what Lee Sae Dol did afterwards.</p>\n\n\n\n<p>[article] <strong><a href=\"https://cutlefish.substack.com/p/notes-on-product-management-theater\">Notes
+  on Product management theater</a></strong>. Product guru John analyzes answers from
+  product guru Marty in a recent podcast. Good work.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://cloud.google.com/blog/products/data-analytics/apache-spark-stored-procedures-in-bigquery-are-ga/\">Unify
+  analytics with Spark procedures in BigQuery, now generally available</a></strong>.
+  BigQuery is such a fascinating, unified platform for analytics. So many things in
+  a single place, accessible through SQL queries.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://spin.atomicobject.com/concurrency-go/\">Leverage Go’s Concurrency:
+  Transforming API Data Fetching with Goroutines and Channels</a></strong>. This is
+  a complex language feature, but powerful. And I&#8217;d probably learn it by asking
+  generative AI to produce some code on my behalf.</p>\n\n\n\n<p>[article] <strong><a
+  href=\"https://www.infoworld.com/article/3714401/c-plus-plus-creator-rebuts-white-house-warning.html\">C++
+  creator rebuts White House warning</a></strong>. Is C++ memory safe? Its creator
+  says to chill out on all the &#8220;don&#8217;t use C++&#8221; talk.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want
+  to get this update sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=15983\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

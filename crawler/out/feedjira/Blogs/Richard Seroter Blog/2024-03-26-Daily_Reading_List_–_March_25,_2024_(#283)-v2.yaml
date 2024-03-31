@@ -1,0 +1,77 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16065
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 25, 2024 (#283)
+url: https://seroter.com/2024/03/25/daily-reading-list-march-25-2024-283/
+summary: Today's links look at trends from the 900 most popular open source AI tools,
+  choosing between exactly once and at least once streaming architectures, and how
+  to find and address burnout in your team.
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-26 00:07:39.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16065
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/25/daily-reading-list-march-25-2024-283/#respond
+content: "\n<p>It rained a lot in San Diego this past weekend, which is not part of
+  the agreement. I&#8217;m thinking of asking for a refund on my taxes. But it&#8217;s
+  60 degrees and sunny today, so all is forgiven. Jump into some good items below!</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://huyenchip.com/2024/03/14/ai-oss.html\">What I learned
+  from looking at 900 most popular open source AI tools</a></strong>. Outstanding
+  research that&#8217;s worth your attention. Chip looks at open source AI projects
+  to detect trends and behavior.</p>\n\n\n\n<p>[article] <strong><a href=\"https://hbr.org/2024/03/the-missing-link-between-strategy-and-innovation\">The
+  Missing Link Between Strategy and Innovation</a></strong>. I didn&#8217;t notice
+  anything earth-shattering here, but it was still a good reminder to understand your
+  &#8220;why&#8221; and cascade priorities.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/data-analytics/dataflow-at-least-once-vs-exactly-once-streaming-modes/\">At
+  least once Streaming: Save up to 70% for Streaming ETL workloads</a></strong>. Achieving
+  &#8220;exactly once&#8221; processing architectures isn&#8217;t cheap or simple.
+  At-least-once is cheaper and simpler, but comes with tradeoffs. Good post explaining
+  the differences.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.infoq.com/news/2024/03/discord-cloud-development-env\">Transitioning
+  Discord’s Engineering Team to Cloud Development Environments</a></strong>. Read
+  this for some lessons learned about moving from local dev to cloud dev.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://blog.google/products/maps/google-street-view-kazakhstan/\">Street
+  View comes to Kazakhstan</a></strong>. Even if you never leave your hometown, you
+  can still see the world nowadays. How amazing is that? We&#8217;re seeing things
+  now that were impossible to imagine just one generation ago.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://thenewstack.io/tech-works-how-to-identify-and-address-burnout-on-your-team/\">Tech
+  Works: How to Identify and Address Burnout on Your Team</a></strong>. Most of Jennifer&#8217;s
+  article is about identifying burnout, but there are also some proposed areas for
+  leaders to address.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://cloud.google.com/blog/products/databases/alloydb-and-spanner-databases-for-startups/\">Choosing
+  a suitable database for your startup: An overview of AlloyDB and Spanner</a></strong>.
+  So, so many databases out there. We have a handful in Google Cloud, and this post
+  helps you decide the right one for a given use case.</p>\n\n\n\n<p>[blog] <strong><a
+  href=\"https://bootcamp.uxdesign.cc/corporate-blogs-in-the-age-of-ai-f8b33142fd8a\">Corporate
+  blogs in the age of AI</a></strong>. Lak looks at blog post and notices a few changes
+  (AI summaries, generated images) that you may see become more common everywhere.</p>\n\n\n\n<p>[article]
+  <strong><a href=\"https://www.infoworld.com/article/3714784/ensuring-the-open-source-moment-continues.html\">Ensuring
+  the open source moment continues</a></strong>. The chatter continues after the decision
+  by Redis last week to change their license. And the <a href=\"https://www.thestack.technology/battle-of-the-redis-forks-begins/\">forks
+  are off and running</a>.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://medium.com/google-cloud/ai-on-gke-how-to-find-the-right-size-52979107a509\">AI
+  on GKE — how to find the right size?</a></strong> Here are some steps for setting
+  up machinery to test out open AI models and their performance on different infrastructure
+  configurations.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want to get this update sent to you
+  every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\" target=\"_blank\">Subscribe
+  to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div class=\"wp-block-jetpack-subscriptions__supports-newline
+  wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16065\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

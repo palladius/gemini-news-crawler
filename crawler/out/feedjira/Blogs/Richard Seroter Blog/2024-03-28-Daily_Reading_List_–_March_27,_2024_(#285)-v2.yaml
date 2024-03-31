@@ -1,0 +1,69 @@
+# [NewsFiler v2] NewsPaper: Richard Seroter Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://seroter.com/?p=16097
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Daily Reading List – March 27, 2024 (#285)
+url: https://seroter.com/2024/03/27/daily-reading-list-march-27-2024-285/
+summary: 'Today''s links look at trends with zero-day exploits, a new open LLM from
+  Databricks, and 12 good examples of product documentation. '
+author: Richard Seroter
+categories:
+- Daily Reading List
+published: 2024-03-28 01:05:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://seroter.com/?p=16097
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Richard Seroter Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://seroter.com/2024/03/27/daily-reading-list-march-27-2024-285/#comments
+content: "\n<p>Up to Sunnyvale again today, this time for a Cloud Next &#8217;24 rehearsal
+  session tomorrow. Just a couple weeks until the event. We&#8217;ve got a <a href=\"https://cloud.withgoogle.com/next\">couple
+  tickets left to purchase</a>, so get on that!</p>\n\n\n\n<p>[blog] <strong><a href=\"https://draft.dev/learn/12-documentation-examples-every-developer-tool-can-learn-from\">12
+  Documentation Examples Every Developer Tool Can Learn From</a></strong>. I&#8217;m
+  learning how tricky it is to get documentation &#8220;right.&#8221; There are so
+  many different audiences, learning goals, and ways to explain a product. This post
+  looks at who does docs well.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://blog.google/technology/safety-security/a-review-of-zero-day-in-the-wild-exploits-in-2023/\">A
+  review of zero-day in-the-wild exploits in 2023</a></strong>. This summarizes and
+  links to a free paper that explains how attacks are shifting, and how you can better
+  protect yourself. <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/2023-zero-day-trends/?e=48754805\">More
+  here</a>.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://thenewstack.io/stack-exchange-expands-beyond-qa-format-with-discussions/\">Stack
+  Exchange Expands Beyond Q&amp;A Format with ‘Discussions’</a></strong>. Important
+  experiment for Stack Overflow, and it should help keep folks engaged on the site.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://doordash.engineering/2024/03/27/setting-up-kafka-multi-tenancy/\">Setting
+  Up Kafka Multi-Tenancy</a></strong>. Here&#8217;s how DoorDash does &#8220;testing
+  in production&#8221; with a multi-tenant architecture that includes their messaging
+  system.</p>\n\n\n\n<p>[article] <strong><a href=\"https://www.infoworld.com/article/3714941/google-vertex-ai-studio-puts-the-promise-in-generative-ai.html\">Google
+  Vertex AI Studio puts the promise in generative AI</a></strong>. Here&#8217;s a
+  thorough review of our AI app building platform and what&#8217;s included.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms\">Announcing
+  DBRX: A new standard for efficient open source LLMs</a></strong>. Congrats to our
+  friends at Databricks on delivering a new open model that looks like it has great
+  performance. Some <a href=\"https://techcrunch.com/2024/03/27/databricks-spent-10m-on-a-generative-ai-model-that-still-cant-beat-gpt-4/\">spicy
+  media coverage here</a>.</p>\n\n\n\n<p>[blog] <strong><a href=\"https://www.docker.com/blog/is-your-container-image-really-distroless/\">Is
+  Your Container Image Really Distroless?</a></strong> Are you using a distroless
+  image, or wondering what that means? This Docker post explains.</p>\n\n\n\n<p>[blog]
+  <strong><a href=\"https://cloud.google.com/blog/products/identity-security/how-to-choose-a-known-trusted-supplier-for-open-source-software?e=48754805\">How
+  to choose a known, trusted supplier for open source software</a></strong>. Other
+  hot trends have drowned out secure software supply chain as a topic, but it&#8217;s
+  more important than ever.</p>\n\n\n\n<p>##</p>\n\n\n\n<p>Want to get this update
+  sent to you every day? <a rel=\"noreferrer noopener\" href=\"https://seroter.com/feed/\"
+  target=\"_blank\">Subscribe to my RSS feed</a> or subscribe via email below:</p>\n\n\n<div
+  class=\"wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions\">\n\t\t<div>\n\t\t\t<div>\n\t\t\t\t<div>\n\t\t\t\t\t<p
+  >\n\t\t\t\t\t\t<a href=\"https://seroter.com/?post_type=post&#038;p=16097\" style=\"font-size:
+  16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius:
+  0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration:
+  none; white-space: nowrap; margin-left: 0\">Subscribe</a>\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>"
+image: https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96

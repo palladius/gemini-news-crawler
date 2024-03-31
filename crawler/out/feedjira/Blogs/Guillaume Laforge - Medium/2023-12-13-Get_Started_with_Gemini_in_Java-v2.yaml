@@ -1,0 +1,87 @@
+# [NewsFiler v2] NewsPaper: Guillaume Laforge - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/923f2069ea4d
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Get Started with Gemini in Java
+url: https://medium.com/google-cloud/get-started-with-gemini-in-java-923f2069ea4d?source=rss-431147437aeb------2
+author: Guillaume Laforge
+categories:
+- java
+- gcp-app-dev
+- generative-ai-tools
+- google-cloud-platform
+- machine-learning
+published: 2023-12-13 00:00:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/923f2069ea4d
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Guillaume Laforge - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<figure><img alt="Logo of the Gemini large language model launched by Google"
+  src="https://cdn-images-1.medium.com/max/1024/0*4ohfuLfaP-ZAbo5_" /></figure><p>Google
+  announced today the availability of <a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-support-on-vertex-ai">Gemini</a>,
+  its latest and more powerful Large Language Model. Gemini is <strong>multimodal</strong>,
+  which means it’s able to consume not only text, but also images or videos.</p><p>I
+  had the pleasure of working on the Java samples and help with the Java SDK, with
+  wonderful engineer colleagues, and I’d like to share some examples of <strong>what
+  you can do with Gemini, using Java</strong>!</p><p>First of all, you’ll need to
+  have an account on Google Cloud and created a project. The Vertex AI API should
+  be enabled, to be able to access the Generative AI services, and in particular the
+  Gemini large language model. Be sure to check out the <a href="https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal?hl=en">instructions</a>.</p><h3>Preparing
+  your project build</h3><p>To get started with some coding, you’ll need to create
+  a Gradle or a Maven build file that requires the Google Cloud libraries BOM, and
+  the google-cloud-vertexai library. Here&#39;s an example with Maven:</p><pre>...<br>&lt;dependencyManagement&gt;<br>    &lt;dependencies&gt;<br>        &lt;dependency&gt;<br>            &lt;artifactId&gt;libraries-bom&lt;/artifactId&gt;<br>            &lt;groupId&gt;com.google.cloud&lt;/groupId&gt;<br>            &lt;scope&gt;import&lt;/scope&gt;<br>            &lt;type&gt;pom&lt;/type&gt;<br>            &lt;version&gt;26.29.0&lt;/version&gt;<br>        &lt;/dependency&gt;<br>    &lt;/dependencies&gt;<br>&lt;/dependencyManagement&gt;<br><br>&lt;dependencies&gt;<br>    &lt;dependency&gt;<br>        &lt;groupId&gt;com.google.cloud&lt;/groupId&gt;<br>        &lt;artifactId&gt;google-cloud-vertexai&lt;/artifactId&gt;<br>    &lt;/dependency&gt;<br>    ...<br>&lt;/dependencies&gt;<br>...</pre><h3>Your
+  first queries</h3><p>Now let’s have a look at our first multimodal example, mixing
+  text prompts and images:</p><pre>try (VertexAI vertexAI = new VertexAI(projectId,
+  location)) {<br>    byte[] imageBytes = Base64.getDecoder().decode(dataImageBase64);<br><br>    GenerativeModel
+  model = new GenerativeModel(&quot;gemini-pro-vision&quot;, vertexAI);<br>    GenerateContentResponse
+  response = model.generateContent(<br>        ContentMaker.fromMultiModalData(<br>            &quot;What
+  is this image about?&quot;,<br>            PartMaker.fromMimeTypeAndData(&quot;image/jpg&quot;,
+  imageBytes)<br>        ));<br><br>    System.out.println(ResponseHandler.getText(response));<br>}</pre><p>You
+  instantiate VertexAI with your Google Cloud project ID, and the region location
+  of your choice. To pass images to Gemini, you should either pass the bytes directly,
+  or you can pass a URI of an image stored in a cloud storage bucket (like gs://my-bucket/my-img.jpg).
+  You create an instance of the model. Here, I&#39;m using gemini-pro-vision. But
+  later on, a gemini-ultra-vision model will also be available. Let&#39;s ask the
+  model to generate content with the generateContent() method, by passing both a text
+  prompt, and also an image. The ContentMaker and PartMaker classes are helpers to
+  further simplify the creation of more advanced prompts that mix different modalities.
+  But you could also just pass a simple string as argument of the generateContent()
+  method. The ResponseHandler utility will retrieve all the text of the answer of
+  the model.</p><p>Instead of getting the whole output once all the text is generated,
+  you can also adopt a streaming approach:</p><pre>model.generateContentStream(&quot;Why
+  is the sky blue?&quot;)<br>    .stream()<br>    .forEach(System.out::print);</pre><p>You
+  can also iterate over the stream with a for loop:</p><pre>ResponseStream&lt;GenerateContentResponse&gt;
+  responseStream =<br>    model.generateContentStream(&quot;Why is the sky blue?&quot;);<br><br>for
+  (GenerateContentResponse responsePart: responseStream) {<br>    System.out.print(ResponseHandler.getText(responsePart));<br>}</pre><h3>Let’s
+  chat!</h3><p>Gemini is a multimodal model, and it’s actually both a text generation
+  model, but also a chat model. So you can chat with Gemini, and ask a series of questions
+  in context. There’s a handy ChatSession utility class which simplifies the handling
+  of the conversation:</p><pre>try (VertexAI vertexAI = new VertexAI(projectId, location))
+  {<br>    GenerateContentResponse response;<br><br>    GenerativeModel model = new
+  GenerativeModel(modelName, vertexAI);<br>    ChatSession chatSession = new ChatSession(model);<br><br>    response
+  = chatSession.sendMessage(&quot;Hello.&quot;);<br>    System.out.println(ResponseHandler.getText(response));<br><br>    response
+  = chatSession.sendMessage(&quot;What are all the colors in a rainbow?&quot;);<br>    System.out.println(ResponseHandler.getText(response));<br><br>    response
+  = chatSession.sendMessage(&quot;Why does it appear when it rains?&quot;);<br>    System.out.println(ResponseHandler.getText(response));<br>}</pre><p>This
+  is convenient to use ChatSession as it takes care of keeping track of past questions
+  from the user, and answers from the assistant.</p><h3>Going further</h3><p>This
+  is just a few examples of the capabilities of Gemini. Be sure to check out some
+  of the <a href="https://github.com/GoogleCloudPlatform/java-docs-samples/tree/main/vertexai/snippets/src/main/java/vertexai/gemini">samples
+  that are available on Github</a>. Read <a href="https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal?hl=en">more
+  about Gemini and Generative AI</a> in the Google Cloud documentation.</p><p><em>Originally
+  published at </em><a href="https://glaforge.dev/posts/2023/12/13/get-started-with-gemini-in-java/"><em>https://glaforge.dev</em></a><em>
+  on December 13, 2023.</em></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=923f2069ea4d"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/get-started-with-gemini-in-java-923f2069ea4d">Get
+  Started with Gemini in Java</a> was originally published in <a href="https://medium.com/google-cloud">Google
+  Cloud - Community</a> on Medium, where people are continuing the conversation by
+  highlighting and responding to this story.</p>'

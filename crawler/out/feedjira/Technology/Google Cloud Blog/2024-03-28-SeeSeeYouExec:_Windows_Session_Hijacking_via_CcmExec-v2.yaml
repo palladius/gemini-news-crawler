@@ -1,0 +1,236 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/topics/threat-intelligence/windows-session-hijacking-via-ccmexec/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'SeeSeeYouExec: Windows Session Hijacking via CcmExec'
+url: https://cloud.google.com/blog/topics/threat-intelligence/windows-session-hijacking-via-ccmexec/
+summary: "<div class=\"block-paragraph_advanced\"><p>Written by: Andrew Oliveau</p>\n<hr/>\n<p> </p></div>\n<div
+  class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Over
+  the last several years, the security community has witnessed an uptick in </span><a
+  href=\"https://github.com/subat0mik/Misconfiguration-Manager\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">System
+  Center Configuration Manager (SCCM)-related attacks</span></a><span style=\"vertical-align:
+  baseline;\">. From extracting network access account (NAA) credentials to deploying
+  malicious applications to targeted devices, SCCM attacks have aided in accomplishing
+  complex objectives and evading existing detections. Mandiant's Red Team has utilized
+  SCCM technology to perform novel attacks against mature clients where conventional
+  methodology was not possible. One such SCCM attack is introduced in this blog post.</span></p>\n<p><span
+  style=\"vertical-align: baseline;\">There was a time when red teamers with elevated
+  privileges on a Windows system could effortlessly inject shellcode into an unsuspecting
+  user's processes. This allowed red teamers to carry out post-exploitation activities
+  within that new process, such as keylogging or accessing LDAP as the affected user.
+  However, as endpoint detection and response (EDR) systems have improved, remote
+  process injection has turned into a risky operation, pushing red teamers to seek
+  alternative methods to hijack a user's session.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">Enter CcmExec, a service native to SCCM Windows clients that has an
+  interesting design that is useful for red teamers. In this blog post, we delve into
+  how the CcmExec service can be utilized for session hijacking and introduce </span><a
+  href=\"https://github.com/mandiant/CcmPwn\" rel=\"noopener\" target=\"_blank\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">CcmPwn</span></a><span
+  style=\"vertical-align: baseline;\">, a tool designed to facilitate this technique.
+  Finally, we will discuss detection strategies for security teams.</span></p>\n<h3><span
+  style=\"vertical-align: baseline;\">AppDomainManager Injection</span></h3>\n<p><span
+  style=\"vertical-align: baseline;\">Before diving into CcmExec, it is important
+  to understand the intricacies of </span><a href=\"https://github.com/TheWover/GhostLoader\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">AppDomainManager injection</span></a><span style=\"vertical-align: baseline;\">,
+  a loader hijacking technique used by attackers to execute arbitrary code within
+  a .NET application. In essence, the .NET framework provides a way to manage application
+  domains, which are isolated environments where .NET applications can run code. The
+  AppDomainManager class is a key part of this infrastructure, responsible for creating
+  and managing these application domains. However, if an attacker were to override
+  the AppDomainManager class constructor, they could force the hosting application
+  to run attacker-defined behavior when creating an application domain.</span></p>\n<p><span
+  style=\"vertical-align: baseline;\">The most common method to perform AppDomainManager
+  injection is through a </span><code style=\"vertical-align: baseline;\">.config</code><span
+  style=\"vertical-align: baseline;\"> file. This approach involves modifying the
+  application's configuration file to specify a custom dynamic-link library file (DLL)
+  and AppDomainManager to be executed by the .NET application. Here's how it's done:</span></p>\n<ol>\n<li
+  aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><strong style=\"vertical-align: baseline;\">Create a custom
+  AppDomainManager</strong><span style=\"vertical-align: baseline;\">: Develop a class
+  that derives from AppDomainManager and includes malicious code. Compile this class
+  into a DLL.</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: decimal;
+  vertical-align: baseline;\">\n<p role=\"presentation\"><strong style=\"vertical-align:
+  baseline;\">Create a configuration file</strong><span style=\"vertical-align: baseline;\">:
+  Modify or create the application's </span><code style=\"vertical-align: baseline;\">.config</code><span
+  style=\"vertical-align: baseline;\"> file (e.g., \"</span><code style=\"vertical-align:
+  baseline;\">application.exe.config</code><span style=\"vertical-align: baseline;\">\")
+  and add the following XML elements to specify the custom DLL and <a href=\"https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/appdomainmanagerassembly-element\"
+  rel=\"noopener\" target=\"_blank\">AppDomainManager</a>:<br/><br/></span></p>\n<pre
+  class=\"language-plain\"><code>&lt;configuration&gt;\n  &lt;runtime&gt;\n    &lt;appDomainManagerAssembly
+  value=\"YourDLL, Version=1.0.0.0, \nCulture=neutral, PublicKeyToken=null\" /&gt;\n
+  \   &lt;appDomainManagerType value=\"YourAppDomainManager\" /&gt;\n  &lt;/runtime&gt;\n&lt;/configuration&gt;\n</code></pre>\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\"> </span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\"><strong
+  style=\"vertical-align: baseline;\">Execute the application</strong><span style=\"vertical-align:
+  baseline;\">: When the .NET application is executed, the .NET runtime reads the
+  </span><code style=\"vertical-align: baseline;\">.config</code><span style=\"vertical-align:
+  baseline;\"> file located in the same folder and loads the specified custom AppDomainManager.
+  The code within the AppDomainManager is then executed within the context of the
+  application.</span></li>\n</ol>\n<h3><span style=\"vertical-align: baseline;\">Hijacking
+  CcmExec </span></h3>\n<p><span style=\"vertical-align: baseline;\">When analyzing
+  the CcmExec service's process, </span><code style=\"vertical-align: baseline;\">CcmExec.exe</code><span
+  style=\"vertical-align: baseline;\">, with a process analyzing tool such as </span><a
+  href=\"https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">Process Explorer</span></a><span style=\"vertical-align: baseline;\">,
+  a couple of things immediately stand out. The first thing that catches the eye is
+  that the process spawns the </span><code style=\"vertical-align: baseline;\">C:\\Windows\\CCM\\SCNotification.exe</code><span
+  style=\"vertical-align: baseline;\"> process for </span><strong style=\"vertical-align:
+  baseline;\">every interactive session on the Windows system</strong><span style=\"vertical-align:
+  baseline;\">, as shown in Figure 1. </span><code style=\"vertical-align: baseline;\">SCNotification.exe</code><span
+  style=\"vertical-align: baseline;\"> is a component of the SCCM client responsible
+  for displaying notifications to the user, such as software installation prompts
+  or restart notifications.</span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/seeseeyouexec-fig1.max-1000x1000.png\"\n
+  \       \n          alt=\"CcmExec.exe child processes\">\n        \n        </a>\n
+  \     \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"893ns\">Figure
+  1: CcmExec.exe child processes</p></figcaption>\n      \n    </figure>\n\n  \n      </div>\n
+  \   </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">Upon further inspection, it turns out that the
+  </span><code style=\"vertical-align: baseline;\">SCNotification.exe</code><span
+  style=\"vertical-align: baseline;\"> file is a .NET application, which comes with
+  its application configuration file at </span><code style=\"vertical-align: baseline;\">C:\\Windows\\CCM\\SCNotification.exe.config</code><span
+  style=\"vertical-align: baseline;\">. Do you see where this is going?</span></p>\n<p><span
+  style=\"vertical-align: baseline;\">By having administrator privileges on a Windows
+  system configured as an SCCM client, we could modify the configuration file to instruct
+  the .NET application to load a malicious DLL and obtain code execution on behalf
+  of every logged-in user! The attack is simple:</span></p>\n<ol>\n<li aria-level=\"1\"
+  style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><strong
+  style=\"vertical-align: baseline;\">Upload a malicious DLL to the target system</strong><span
+  style=\"vertical-align: baseline;\">:</span><strong style=\"vertical-align: baseline;\">
+  </strong><span style=\"vertical-align: baseline;\">This DLL contains the AppDomainManager
+  code to be executed in the user's session.</span></p>\n</li>\n<li aria-level=\"1\"
+  style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><strong
+  style=\"vertical-align: baseline;\">Modify the SCNotification.exe.config configuration
+  file</strong><span style=\"vertical-align: baseline;\">: Point to the malicious
+  DLL within this file.</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><strong style=\"vertical-align:
+  baseline;\">Restart the CcmExec service</strong><span style=\"vertical-align: baseline;\">:
+  This action causes the </span><code style=\"vertical-align: baseline;\">CcmExec.exe</code><span
+  style=\"vertical-align: baseline;\"> process to restart and run </span><code style=\"vertical-align:
+  baseline;\">SCNotification.exe</code><span style=\"vertical-align: baseline;\">
+  for every logged-in user.</span></p>\n</li>\n</ol>\n<p><span style=\"vertical-align:
+  baseline;\">This technique provides a stealthy way to execute code across multiple
+  user sessions without having to rely on remote shellcode injection.</span></p>\n<p><strong
+  style=\"vertical-align: baseline;\">Weaponizing Session Hijacking with CcmPwn</strong></p>\n<p><span
+  style=\"vertical-align: baseline;\">Weaponizing this technique is straightforward.
+  Using the </span><a href=\"https://github.com/fortra/impacket\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Impacket
+  library</span></a><span style=\"vertical-align: baseline;\">, we developed CcmPwn
+  to execute the aforementioned attack and hijack user sessions. CcmPwn is equipped
+  with various modules. The </span><code style=\"vertical-align: baseline;\">exec</code><span
+  style=\"vertical-align: baseline;\"> module uploads a custom configuration and DLL
+  file to the target system, remotely restarts the CcmExec service, and then reuploads
+  the original configuration file. An example is illustrated in Figure 2 and Figure
+  3, where using CcmPwn provided us with </span><a href=\"https://www.cobaltstrike.com/\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">Cobalt Strike</span></a><span style=\"vertical-align: baseline;\"> beacons
+  for the hijacked sessions.</span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/seeseeyouexec-fig2.max-1000x1000.png\"\n
+  \       \n          alt=\"CcmPwn exec module\">\n        \n        </a>\n      \n
+  \       <figcaption class=\"article-image__caption \"><p data-block-key=\"etjhx\">Figure
+  2: CcmPwn exec module</p></figcaption>\n      \n    </figure>\n\n  \n      </div>\n
+  \   </div>\n  \n\n\n\n\n</div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/seeseeyouexec-fig3.max-1000x1000.png\"\n
+  \       \n          alt=\"Cobalt Strike beacon for every logged-in user\">\n        \n
+  \       </a>\n      \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"etjhx\">Figure
+  3: Cobalt Strike beacon for every logged-in user</p></figcaption>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">Additionally, CcmPwn features a </span><code
+  style=\"vertical-align: baseline;\">coerce</code><span style=\"vertical-align: baseline;\">
+  module, which coerces an SMB or HTTP authentication request for every logged-in
+  user. Red teamers can leverage these coerced authentications to attempt password
+  cracking or conduct relay attacks. This module does not require a DLL, as it simply
+  uploads a malicious configuration file to the target. This file instructs </span><code
+  style=\"vertical-align: baseline;\">SCNotification.exe</code><span style=\"vertical-align:
+  baseline;\"> to load a file from an attacker-controlled file share, as shown in
+  Figure 4 and Figure 5.</span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/seeseeyouexec-fig4.max-1000x1000.png\"\n
+  \       \n          alt=\"CcmExec coerce module\">\n        \n        </a>\n      \n
+  \       <figcaption class=\"article-image__caption \"><p data-block-key=\"yke4z\">Figure
+  4: CcmExec coerce module</p></figcaption>\n      \n    </figure>\n\n  \n      </div>\n
+  \   </div>\n  \n\n\n\n\n</div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/seeseeyouexec-fig5.max-1000x1000.png\"\n
+  \       \n          alt=\"Obtaining coerced password hashes\">\n        \n        </a>\n
+  \     \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"yke4z\">Figure
+  5: Obtaining coerced password hashes</p></figcaption>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><h3><span
+  style=\"vertical-align: baseline;\">Defensive Considerations</span></h3>\n<p><span
+  style=\"vertical-align: baseline;\">Depending on the security information and event
+  management (SIEM) or EDR solution in use, this attack can be detected in a variety
+  of ways. The following defensive measures are recommended:</span></p>\n<ul>\n<li><strong
+  style=\"vertical-align: baseline;\">Monitor for 1026 Events for SCNotification.exe</strong><span
+  style=\"vertical-align: baseline;\">: Event ID 1026 is associated with .NET runtime
+  errors. When using CcmPwn's </span><code style=\"vertical-align: baseline;\">coerce</code><span
+  style=\"vertical-align: baseline;\"> module, </span><code style=\"vertical-align:
+  baseline;\">SCNotification.exe</code><span style=\"vertical-align: baseline;\">
+  attempts to load a non-existent DLL from an attacker-controlled file share. Since
+  the DLL cannot be found, the application produces a </span><code style=\"vertical-align:
+  baseline;\">System.IO.FileLoadException</code><span style=\"vertical-align: baseline;\">
+  error. An example of this behavior is shown in Figure 6.</span></li>\n</ul></div>\n<div
+  class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module
+  h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--large\n
+  \     \n      \n        h-c-grid__col\n        h-c-grid__col--6 h-c-grid__col--offset-3\n
+  \       \n        \n      \"\n      >\n\n      \n      \n        \n        <img\n
+  \           src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/seeseeyouexec-fig6.max-1000x1000.png\"\n
+  \       \n          alt=\".NET Runtime error for SCNotification.exe\">\n        \n
+  \       </a>\n      \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"yke4z\">Figure
+  6: .NET Runtime error for SCNotification.exe</p></figcaption>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><ul>\n<li
+  role=\"presentation\"><strong style=\"vertical-align: baseline;\">Monitor for 7036
+  Events and Remote Logon Type 3</strong><span style=\"vertical-align: baseline;\">:
+  The 7036 event corresponds to the starting and stopping of services. By monitoring
+  this event, security teams can detect suspicious restarts of the CcmExec service,
+  which may indicate an attempt to hijack user sessions. When using CcmPwn, a logon
+  type 3 (network logon) event will occur at the same time as the service stop, followed
+  by a 20-second delay before the service is started again. Monitoring for this pattern
+  can help triage these service events and provide context around potentially malicious
+  activity.</span></li>\n<li role=\"presentation\"><strong style=\"vertical-align:
+  baseline;\">Monitor File Modification and Configuration Strings</strong><span style=\"vertical-align:
+  baseline;\">: Since attackers need to modify the </span><code style=\"vertical-align:
+  baseline;\">SCNotification.exe.config</code><span style=\"vertical-align: baseline;\">
+  file to execute this attack, monitoring for changes to this file can provide an
+  early warning. Additionally, the presence of the \"</span><code style=\"vertical-align:
+  baseline;\">AppDomainManagerType</code><span style=\"vertical-align: baseline;\">\"
+  string in the configuration file should be scrutinized, as it is used in AppDomainManager
+  injection attacks. Security teams should investigate any unexpected occurrences
+  of this string in </span><code style=\"vertical-align: baseline;\">SCNotification.exe.config</code><span
+  style=\"vertical-align: baseline;\">.</span></li>\n</ul>\n<p><span style=\"vertical-align:
+  baseline;\">By implementing these defensive measures and adapting them to the specific
+  capabilities of their SIEM or EDR solutions, organizations can enhance their ability
+  to detect and respond to session hijacking attacks via the CcmExec service.</span></p></div>"
+author: 'Mandiant '
+categories:
+- Threat Intelligence
+published: 2024-03-28 13:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/topics/threat-intelligence/windows-session-hijacking-via-ccmexec/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

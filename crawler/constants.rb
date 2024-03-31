@@ -87,22 +87,31 @@ NEWS_BY_REGION ={
     'Riccardo Carlesso - Blog':   'https://ricc.rocks/en/index.xml',
     'Riccardo Carlesso - Medium': 'https://medium.com/feed/@palladiusbonton', # both this..
     'Romin Irani - Medium':       'https://iromin.medium.com/feed',           # .. and this work
+    'Guillaume Laforge - Medium':       'https://glaforge.medium.com/feed',           # .. and this work
+    'Marc Cohen - Medium':        'https://marcacohen.medium.com/feed',
+    'Laurent Picard - Medium':        'https://PicardParis.medium.com/feed',
+    'Aja Hammerly - Medium':        'https://thagomizer.medium.com/feed',
+    'Richard Seroter Blog':       'https://seroter.com/feed/',
+    'Google Cloud - Medium':      'https://medium.com/feed/google-cloud',
+  },
+  'Technology': {
+    'GCP latest releases':        'https://cloud.google.com/feeds/gcp-release-notes.xml',
+    'Google Cloud Blog': 'https://cloudblog.withgoogle.com/rss/',
+    'Ruby (English)':  'https://www.ruby-lang.org/en/',
+    'Ruby (Italian)':  'https://www.ruby-lang.org/it/',
   }
-
 }
 
 NewsFeedback = {
   technology: [
     # These works
-    'https://www.ruby-lang.org/en/',
-    'https://www.ruby-lang.org/it/',
     'https://it.wikipedia.org/wiki/',
     'http://www.latimes.com/',
     # from feedbag
     'https://daringfireball.net',
     #'https://kottke.org', SLOW
     #"http://planet.debian.org/", # oh wow so many
-    "http://ve.planetalinux.org",
+    #"http://ve.planetalinux.org",
     "cnn.com",
 
     # These Do NOT work
