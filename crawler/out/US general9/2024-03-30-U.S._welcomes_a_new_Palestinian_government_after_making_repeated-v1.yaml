@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general9
+# [NewsFiler v1] GUID: https://www.nbcnews.com/news/world/us-new-palestinian-government-political-reform-rcna145717
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: U.S. welcomes a new Palestinian government after making repeated calls for
+  political reform
+url: https://www.nbcnews.com/news/world/us-new-palestinian-government-political-reform-rcna145717
+summary: The United States has welcomed the formation of a new Palestinian autonomy
+  government, signaling it is accepting the revised Cabinet lineup as a step toward
+  Palestinian political reform.
+author: The Associated Press
+published: 2024-03-30 09:04:12.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/us-new-palestinian-government-political-reform-rcna145717
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240330-abbas-aa-d3bfea.jpg

@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general9
+# [NewsFiler v1] GUID: https://www.nbcnews.com/news/world/zelenskyy-fires-aides-reshuffle-russia-launches-drones-missiles-ukrain-rcna145721
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Zelenskyy fires more aides in a reshuffle as Russia launches drones and missiles
+  across Ukraine
+url: https://www.nbcnews.com/news/world/zelenskyy-fires-aides-reshuffle-russia-launches-drones-missiles-ukrain-rcna145721
+summary: Ukrainian President Volodymyr Zelenskyy dismissed a longtime aide and several
+  advisers on Saturday in a continuing reshuffle while Russia unleashed fresh attacks
+  overnight.
+author: The Associated Press
+published: 2024-03-30 12:49:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/zelenskyy-fires-aides-reshuffle-russia-launches-drones-missiles-ukrain-rcna145721
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240330-ukraine-aa-868f1e.jpg

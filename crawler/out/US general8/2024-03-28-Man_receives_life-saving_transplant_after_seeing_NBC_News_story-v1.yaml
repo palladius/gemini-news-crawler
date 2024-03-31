@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: US general8
+# [NewsFiler v1] GUID: now_daily_b_double_lung_transplant_240328
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Man receives life-saving transplant after seeing NBC News story
+url: https://www.nbcnews.com/now/video/man-receives-life-saving-transplant-after-seeing-nbc-story-207887429908
+summary: Dr. Gary Gibbon was battling lung cancer when he saw an NBC News story on
+  experimental transplants being carried out at Northwestern Medicine. A year later,
+  he credits it with saving his life.
+published: 2024-03-28 19:02:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: now_daily_b_double_lung_transplant_240328
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2024_03/1711652537598_now_daily_b_double_lung_transplant_240328_1920x1080-0nor1v.jpg

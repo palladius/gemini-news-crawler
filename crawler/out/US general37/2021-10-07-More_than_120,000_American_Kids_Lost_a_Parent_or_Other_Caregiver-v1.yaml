@@ -1,0 +1,75 @@
+# [NewsFiler v1] NewsPaper: US general37
+# [NewsFiler v1] GUID: https://time.com/?p=6104829
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: More than 120,000 American Kids Lost a Parent or Other Caregiver During the
+  COVID-19 Pandemic
+url: https://time.com/6104829/us-covid-orphans/
+summary: And the toll has been far greater among Black and Hispanic Americans, a new
+  study suggests.
+author: Mike Stobbe/AP
+categories:
+- Uncategorized
+- COVID-19
+- overnight
+- wire
+published: 2021-10-07 13:41:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://time.com/?p=6104829
+content: "\n<aside class=\"right-rail__container right-rail__container--ad\"><div
+  class=\"right-rail__ad__wrapper right-rail__module\"><div class=\"right-rail__ad\"
+  id=\"right-rail__ad-6104829\"></div></div>\n<div class=\"OUTBRAIN right-rail__outbrain
+  right-rail__module\" data-src=\"https://time.com/6104829/us-covid-orphans/\" data-widget-id=\"SB_2\"
+  data-ob-template=\"timemag\"></div></aside>\n\n\t\t\t\t<img decoding=\"async\" class=\"wp-block-gutenberg-custom-blocks-featured-media\"
+  src=\"https://api.time.com/wp-content/uploads/2021/10/death-covid-19-parent-caregiver.jpg\"
+  alt=\"death-covid-19-parent-caregiver\"/>\n\t\t\t\t<p>(NEW YORK) &mdash; The number
+  of U.S. children orphaned during the COVID-19 pandemic may be larger than previously
+  estimated, and the toll has been far greater among Black and Hispanic Americans,
+  a new study suggests.</p><p>More than half the children who lost a primary caregiver
+  during the pandemic belonged to those two racial groups, which make up about 40%
+  of the U.S. population, according to the study published Thursday by the medical
+  journal Pediatrics.</p><p>&ldquo;These findings really highlight those children
+  who have been left most vulnerable by the pandemic, and where additional resources
+  should be directed,&#8221; one of the study&#8217;s authors, Dr. Alexandra Blenkinsop
+  of Imperial College London, said in a statement.</p><p>During 15 months of the nearly
+  19-month COVID-19 pandemic, more than 120,000 U.S. children lost a parent or grandparent
+  who was a primary provider of financial support and care, the study found. Another
+  22,000 children experienced the death of a secondary caregiver &mdash; for example,
+  a grandparent who provided housing but not a child&#8217;s other basic needs.</p><p>In
+  many instances, surviving parents or other relatives remained to provide for these
+  children. But the researchers used the term &ldquo;orphanhood&rdquo; in their study
+  as they attempted to estimate how many children&#8217;s lives were upended.</p><p>Federal
+  statistics are not yet available on how many U.S. children went into foster care
+  last year. Researchers estimate COVID-19 drove a 15% increase in orphaned children.</p><p>The
+  new study&#8217;s numbers are based on statistical modeling that used fertility
+  rates, death statistics and household composition data to make estimates.</p><p>An
+  earlier study by different researchers estimated that roughly 40,000 U.S. children
+  lost a parent to COVID-19 as of February 2021.</p><p>The two studies&#8217; findings
+  are not inconsistent, said Ashton Verdery, an author of the earlier study. Verdery
+  and his colleagues focused on a shorter time period than the new study. Verdery&#8217;s
+  group also focused only on deaths of parents, while the new paper also captured
+  what happened to caregiving grandparents.</p><p>&ldquo;It is very important to understand
+  grandparental losses,&#8221; said Verdery, a researcher at Penn State, in an email.
+  &#8220;Many children live with grandparents,&rdquo; a living arrangement more common
+  among certain racial groups.</p><p>About 32% of all kids who lost a primary caregiver
+  were Hispanic and 26% were Black. Hispanic and Black Americans make up much smaller
+  percentages of the population than that. White children accounted for 35% of the
+  kids who lost primary caregivers, even though more than half of the population is
+  white.</p><p>The differences were far more pronounced in some states. In California,
+  67% of the children who lost primary caregivers were Hispanic. In Mississippi, 57%
+  of the children who lost primary caregivers were Black, the study found.</p><p>The
+  new study based its calculation on excess deaths, or deaths above what would be
+  considered typical. Most of those deaths were from the coronavirus, but the pandemic
+  has also led to <a href=\"https://apnews.com/article/us-coronavirus-deaths-top-3-million-e2bc856b6ec45563b84ee2e87ae8d5e7\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">more deaths</a> from other
+  causes.</p><p>Kate Kelly, a Georgia teenager, lost her 54-year-old father in January.
+  William &ldquo;Ed&rdquo; Kelly had difficulty breathing and an urgent care clinic
+  suspected it was due to COVID-19, she said. But it turned out he had a blocked artery
+  and died at work of a heart attack, leaving Kate, her two sisters and her mother.</p><p>In
+  the first month after he died, friends and neighbors brought groceries, made donations
+  and were very supportive. But after that, it seemed like everyone moved on &mdash;
+  except Kate and her family.</p><p>&ldquo;It&#8217;s been just like no help at all,&rdquo;
+  said the high school junior from Lilburn.</p><p>___</p><p><em>The Associated Press
+  Health &amp; Science Department receives support from the Howard Hughes Medical
+  Institute&rsquo;s Department of Science Education. The AP is solely responsible
+  for all content.</em></p>"

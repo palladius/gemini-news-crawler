@@ -1,0 +1,15 @@
+# [NewsFiler v1] NewsPaper: AdKronos - Primapagina
+# [NewsFiler v1] GUID: https://www.adnkronos.com/internazionale/esteri/hawaii-fuori-dal-trattato-nato-che-succede-se-le-attaccano_HhxISlZ7KPxRKsVgU619i
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hawaii fuori dal Trattato Nato, che succede se le attaccano?
+url: https://www.adnkronos.com/internazionale/esteri/hawaii-fuori-dal-trattato-nato-che-succede-se-le-attaccano_HhxISlZ7KPxRKsVgU619i
+summary: "(Adnkronos) - Il paradosso - per cui 49 dei 50 Stati americani sono 'coperti'
+  dal Trattato - è sottolineato dal presidente del think tank Pacific Forum di Honolulu,
+  David Santoro"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-30 21:11:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/hawaii-fuori-dal-trattato-nato-che-succede-se-le-attaccano_HhxISlZ7KPxRKsVgU619i
+image: https://www.adnkronos.com/resources/028b-1a8920fa5b3b-9240051a6975-1000/format/medium/hawaii_fg_ipa.jpeg

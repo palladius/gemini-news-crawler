@@ -1,0 +1,17 @@
+# [NewsFiler v1] NewsPaper: US general31
+# [NewsFiler v1] GUID: https://www.latimes.com/politics/story/2024-03-30/trump-justice-ronna-mcdaniel-john-eastman-kari-lake-peter-navarro
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Column: Justice is finally coming to some of the liars and cheats who enabled
+  Trump'
+url: https://www.latimes.com/politics/story/2024-03-30/trump-justice-ronna-mcdaniel-john-eastman-kari-lake-peter-navarro
+summary: "<p>The defenestration of Ronna McDaniel, threatened disbarment of John Eastman
+  and capitulation of Kari Lake in a defamation lawsuit suggest a welcome reckoning
+  is upon us.</p>"
+author: Mark Z. Barabak
+published: 2024-03-31 03:54:26.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-30/trump-justice-ronna-mcdaniel-john-eastman-kari-lake-peter-navarro
+content: "<p>The defenestration of Ronna McDaniel, threatened disbarment of John Eastman
+  and capitulation of Kari Lake in a defamation lawsuit suggest a welcome reckoning
+  is upon us.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/00b27b3/2147483647/strip/false/crop/3900x2600+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb3%2F2c%2F7b4ac9114c3291b9b91249109d51%2F1191712-na-pol-republican-candidate-rally-35-ajs.jpg

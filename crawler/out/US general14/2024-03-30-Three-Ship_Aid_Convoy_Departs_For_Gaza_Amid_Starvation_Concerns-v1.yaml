@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general14
+# [NewsFiler v1] GUID: https://www.huffpost.com/entry/ship-aid-convoy-departs-for-gaza-amid-starvation-concerns_n_66081c6de4b06d4ea5c61c39
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Three-Ship Aid Convoy Departs For Gaza Amid Starvation Concerns
+url: https://www.huffpost.com/entry/ship-aid-convoy-departs-for-gaza-amid-starvation-concerns_n_66081c6de4b06d4ea5c61c39
+summary: World Central Kitchen said the vessels and a barge were carrying ready-to-eat
+  items like rice, pasta, flour, legumes, canned vegetables and proteins.
+published: 2024-03-30 14:23:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/ship-aid-convoy-departs-for-gaza-amid-starvation-concerns_n_66081c6de4b06d4ea5c61c39
+comments: https://www.huffpost.com/entry/ship-aid-convoy-departs-for-gaza-amid-starvation-concerns_n_66081c6de4b06d4ea5c61c39#comments
+content: "\n        World Central Kitchen said the vessels and a barge were carrying
+  ready-to-eat items like rice, pasta, flour, legumes, canned vegetables and proteins.\n
+  \     "

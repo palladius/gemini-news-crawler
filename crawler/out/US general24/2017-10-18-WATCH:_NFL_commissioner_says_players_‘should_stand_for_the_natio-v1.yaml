@@ -1,0 +1,44 @@
+# [NewsFiler v1] NewsPaper: US general24
+# [NewsFiler v1] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=231004
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'WATCH: NFL commissioner says players ‘should stand for the national anthem’'
+url: http://www.pbs.org/newshour/rundown/watch-live-nfl-commissioner-expected-take-questions-amid-national-anthem-debate/
+author: Joshua Barajas
+categories:
+- national anthem
+- nfl
+- Roger Goodell
+published: 2017-10-18 17:35:03.000000000 Z
+summary: |
+  <p><iframe class='youtube-player' type='text/html' width='689' height='418' src='http://www.youtube.com/embed/CuAqZf4aSE8?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe><br />
+  <em>NFL Commissioner Roger Goodell held a news conference today after the second day of the annual owners meeting. Watch his remarks in the player above.</em></p>
+  <p>NFL players will be encouraged to stand for the national anthem at the start of the football games, the league&#8217;s chief told reporters today.</p>
+  <p>After two days of meeting with owners of each NFL team, representatives for the players&#8217; union and players themselves, the NFL has reiterated its decision to keep its existing policy of not requiring players to stand during the anthem. Goodell said yesterday that the league would<a href="https://www.nytimes.com/2017/10/17/sports/football/nfl-anthem-protests-trump.html">not instate a rule</a> that would penalize players who refuse to stand for the anthem.</p>
+  <div class="nhlinkbox alignleft"><div class="nhlinkbox-head">RELATED LINKS</div><div class="nhlinkbox-links"><ul><li><a href="http://www.pbs.org/newshour/updates/column-black-athletes-wealth-doesnt-equal-freedom/">Column: For black athletes, wealth doesn’t equal freedom <i class="fa fa-angle-double-right"></i></a></li><li><a href="http://www.pbs.org/newshour/bb/nfl-players-team-defiance-solidarity/">NFL players team up in defiance and solidarity <i class="fa fa-angle-double-right"></i></a></li><li><a href="http://www.pbs.org/newshour/updates/column-americas-sport-nfl-cannot-escape-politics/">Column: As ‘America’s sport,’ the NFL cannot escape politics <i class="fa fa-angle-double-right"></i></a></li></ul></div></div>
+  <p>&#8220;We believe everyone should stand for the national anthem,&#8221; he told reporters at a news conference today. &#8220;That&#8217;s an important part of our policy. It&#8217;s also an important part of our game that we all take great pride in. And it&#8217;s also important for us to honor our flag and our country and I think our fans expect us to do that.&#8221;</p>
+  <p>Goodell&#8217;s remarks came after President Donald Trump continued his criticism of the NFL this morning. On Twitter, Trump said: &#8220;The NFL has decided that it will not force players to stand for the playing of our National Anthem. Total disrespect for our great country!&#8221;</p>
+  <p>After former San Francisco 49ers quarterback Colin Kaepernick kneeled during the anthem last year to protest police killings of unarmed black men, dozens of other players joined him to draw greater attention to social and racial injustice. Last month, Trump said the NFL ought to fire players who didn&#8217;t stand for the anthem.</p>
+  <p>The players &#8220;are not doing this in any way to be disrespectful to the flag,&#8221; Goodell said today. &#8220;But they also understand how it&#8217;s being interpreted.&#8221;</p>
+  <p>Goodell also said the league wanted to stay out of the political arena over the issue.</p>
+  <p>&#8220;We&#8217;re not looking to get into politics,&#8221; he told reporters. &#8220;What we&#8217;re looking to do is to continue to get people focused on football.&#8221;</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/watch-live-nfl-commissioner-expected-take-questions-amid-national-anthem-debate/">WATCH: NFL commissioner says players &#8216;should stand for the national anthem&#8217;</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=231004
+comments: http://www.pbs.org/newshour/rundown/watch-live-nfl-commissioner-expected-take-questions-amid-national-anthem-debate/#respond
+content: |
+  <p><iframe class='youtube-player' type='text/html' width='689' height='418' src='http://www.youtube.com/embed/CuAqZf4aSE8?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe><br />
+  <em>NFL Commissioner Roger Goodell held a news conference today after the second day of the annual owners meeting. Watch his remarks in the player above.</em></p>
+  <p>NFL players will be encouraged to stand for the national anthem at the start of the football games, the league&#8217;s chief told reporters today.</p>
+  <p>After two days of meeting with owners of each NFL team, representatives for the players&#8217; union and players themselves, the NFL has reiterated its decision to keep its existing policy of not requiring players to stand during the anthem. Goodell said yesterday that the league would<a href="https://www.nytimes.com/2017/10/17/sports/football/nfl-anthem-protests-trump.html">not instate a rule</a> that would penalize players who refuse to stand for the anthem.</p>
+  <div class="nhlinkbox alignleft"><div class="nhlinkbox-head">RELATED LINKS</div><div class="nhlinkbox-links"><ul><li><a href="http://www.pbs.org/newshour/updates/column-black-athletes-wealth-doesnt-equal-freedom/">Column: For black athletes, wealth doesn’t equal freedom <i class="fa fa-angle-double-right"></i></a></li><li><a href="http://www.pbs.org/newshour/bb/nfl-players-team-defiance-solidarity/">NFL players team up in defiance and solidarity <i class="fa fa-angle-double-right"></i></a></li><li><a href="http://www.pbs.org/newshour/updates/column-americas-sport-nfl-cannot-escape-politics/">Column: As ‘America’s sport,’ the NFL cannot escape politics <i class="fa fa-angle-double-right"></i></a></li></ul></div></div>
+  <p>&#8220;We believe everyone should stand for the national anthem,&#8221; he told reporters at a news conference today. &#8220;That&#8217;s an important part of our policy. It&#8217;s also an important part of our game that we all take great pride in. And it&#8217;s also important for us to honor our flag and our country and I think our fans expect us to do that.&#8221;</p>
+  <p>Goodell&#8217;s remarks came after President Donald Trump continued his criticism of the NFL this morning. On Twitter, Trump said: &#8220;The NFL has decided that it will not force players to stand for the playing of our National Anthem. Total disrespect for our great country!&#8221;</p>
+  <p>After former San Francisco 49ers quarterback Colin Kaepernick kneeled during the anthem last year to protest police killings of unarmed black men, dozens of other players joined him to draw greater attention to social and racial injustice. Last month, Trump said the NFL ought to fire players who didn&#8217;t stand for the anthem.</p>
+  <p>The players &#8220;are not doing this in any way to be disrespectful to the flag,&#8221; Goodell said today. &#8220;But they also understand how it&#8217;s being interpreted.&#8221;</p>
+  <p>Goodell also said the league wanted to stay out of the political arena over the issue.</p>
+  <p>&#8220;We&#8217;re not looking to get into politics,&#8221; he told reporters. &#8220;What we&#8217;re looking to do is to continue to get people focused on football.&#8221;</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/watch-live-nfl-commissioner-expected-take-questions-amid-national-anthem-debate/">WATCH: NFL commissioner says players &#8216;should stand for the national anthem&#8217;</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: But the NFL reiterated its decision today to keep its standing policy
+  of not requiring players to stand during the anthem.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GX4X-1024x683.jpg

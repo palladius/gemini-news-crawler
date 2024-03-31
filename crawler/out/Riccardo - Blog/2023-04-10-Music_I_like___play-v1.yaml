@@ -1,0 +1,25 @@
+# [NewsFiler v1] NewsPaper: Riccardo - Blog
+# [NewsFiler v1] GUID: https://ricc.rocks/en/posts/hobbies/music/
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Music I like / play
+url: https://ricc.rocks/en/posts/hobbies/music/
+summary: |-
+  If you have a strong stomach, see some of my recordings on YouTube: https://www.youtube.com/playlist?list=PL8D88F687A9626E5C.
+  Genesis Do you like Genesis? Here are my favorite songs:
+  Do you recognize the song?
+  And what about this?
+  My favorite songs are (note I&rsquo;m a pianist):
+  Can-Utility and the Costaliners The Musical Box (also my favorite Cover Band!) Supper&rsquo;s ready The knife The Lamb lies down on Broadway Firth of fifth (this is me playing MANY years and KG ago: https://www.
+author: Riccardo
+categories:
+- midjourney
+- music
+- piano
+- Genesis
+- DreamTheater
+- music
+- hobbies
+published: 2023-04-10 20:17:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://ricc.rocks/en/posts/hobbies/music/
+image: https://ricc.rocks//gallery/midjourney/PalladiusFigata_king_Canute_standing_on_the_shore_and_speaking__dd781f09-c2c5-48bd-9e1c-d6bcbed9bd6a.png

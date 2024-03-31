@@ -9,11 +9,19 @@
             <link>https://www.bbc.co.uk/news/science_and_environment</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Mar 2024 13:23:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Mar 2024 05:45:37 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Seagulls 'charismatic' not 'criminal', say scientists]]></title>
+            <description><![CDATA[Urban seagulls get a bad press but we must learn to live alongside them, say conservation experts.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68599512</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68599512#0</guid>
+            <pubDate>Sun, 31 Mar 2024 00:05:00 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/182DF/production/_132993099_tj_gullinflight.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Mammals battle for life in new Attenborough series]]></title>
             <description><![CDATA[The six-part series 'Mammals' will air this Sunday at 19:00 GMT.]]></description>
@@ -61,14 +69,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68655661#0</guid>
             <pubDate>Mon, 25 Mar 2024 19:27:45 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15483/production/_133017178_mediaitem133017177.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[The hunt for physics' mysterious 'ghost' particles]]></title>
-            <description><![CDATA[Physicists believe a new experiment could prove their existence and answer fundamental questions about our Universe.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-68631692</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68631692#0</guid>
-            <pubDate>Mon, 25 Mar 2024 00:49:30 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69C6/production/_132987072_f0375562-quantum_fluctuations_conceptual_illustration.jpg"/>
         </item>
         <item>
             <title><![CDATA[Brain-chip patient plays online chess - Neuralink]]></title>

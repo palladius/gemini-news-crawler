@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 #require 'feedjira'
 #require 'httparty'
 require 'feedbag'

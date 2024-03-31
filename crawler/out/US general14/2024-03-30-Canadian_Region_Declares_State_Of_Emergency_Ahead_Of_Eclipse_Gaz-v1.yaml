@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: US general14
+# [NewsFiler v1] GUID: https://www.huffpost.com/entry/ap-cn-canada-solar-eclipse_n_66082746e4b0fe3ef6717e12
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Canadian Region Declares State Of Emergency Ahead Of Eclipse Gazer Onslaught
+url: https://www.huffpost.com/entry/ap-cn-canada-solar-eclipse_n_66082746e4b0fe3ef6717e12
+summary: Ontario’s Niagara Region is expecting up to a million visitors for the solar
+  eclipse in early April.
+published: 2024-03-30 15:06:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/ap-cn-canada-solar-eclipse_n_66082746e4b0fe3ef6717e12
+comments: https://www.huffpost.com/entry/ap-cn-canada-solar-eclipse_n_66082746e4b0fe3ef6717e12#comments
+content: "\n        Ontario’s Niagara Region is expecting up to a million visitors
+  for the solar eclipse in early April.\n      "

@@ -1,0 +1,16 @@
+# [NewsFiler v1] NewsPaper: AdKronos - Primapagina
+# [NewsFiler v1] GUID: https://www.adnkronos.com/internazionale/esteri/attentato-mosca-russia-isis-intelligence_1DS90uBtD3TN79gOQ5eeMs
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: '"Russia sapeva della minaccia Isis", le responsabilità di Mosca nel dossier
+  degli 007'
+url: https://www.adnkronos.com/internazionale/esteri/attentato-mosca-russia-isis-intelligence_1DS90uBtD3TN79gOQ5eeMs
+summary: "(Adnkronos) - Secondo un'organizzazione investigativa con sede nel Regno
+  Unito venuta in possesso di documenti dell'intelligence russa, i servizi di sicurezza
+  sarebbero stati a conoscenza del pericolo giorni prima dell'attentato a Mosca"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-30 23:06:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/attentato-mosca-russia-isis-intelligence_1DS90uBtD3TN79gOQ5eeMs
+image: https://www.adnkronos.com/resources/028b-1a894a2ae47c-cfb2d54c277e-1000/format/medium/putin_militari_afp.jpeg

@@ -1,0 +1,19 @@
+# [NewsFiler v1] NewsPaper: Corriere - Home
+# [NewsFiler v1] GUID: https://www.corriere.it/esteri/24_marzo_30/donbass-retrovie-sono-diventate-fronte-manovre-mosca-testano-alleati-cd0bb75e-eecd-11ee-990f-f81d5ab8cdcb.shtml
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: In Donbass le retrovie sono diventate il fronte. Le manovre di Mosca testano
+  gli alleati
+url: https://www.corriere.it/esteri/24_marzo_30/donbass-retrovie-sono-diventate-fronte-manovre-mosca-testano-alleati-cd0bb75e-eecd-11ee-990f-f81d5ab8cdcb.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Esteri/Foto%20Esteri%20-%20Trattate/c7a31892a266446b9b973e089994dc53--0--707023cd290641d6906368de993abbba-k5n-U34701111310871TYC-656x492@Corriere-Web-Sezioni.jpg"
+  title="In Donbass le retrovie sono diventate il fronte. Le manovre di Mosca testano
+  gli alleati" alt="In Donbass le retrovie sono diventate il fronte. Le manovre di
+  Mosca testano gli alleati" /><p>Ma i russi non hanno (ancora) le forze per sfondare.
+  Il paradosso: il pil degli alleati di Kiev è 63 trilioni di dollari, quello del
+  fronte filorusso si ferma a 2</p>'
+author: Lorenzo Cremonesi
+categories:
+- Esteri
+published: 2024-03-31 05:24:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/esteri/24_marzo_30/donbass-retrovie-sono-diventate-fronte-manovre-mosca-testano-alleati-cd0bb75e-eecd-11ee-990f-f81d5ab8cdcb.shtml

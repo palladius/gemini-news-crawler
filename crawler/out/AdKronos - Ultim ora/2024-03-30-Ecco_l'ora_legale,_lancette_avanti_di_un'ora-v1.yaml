@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: AdKronos - Ultim ora
+# [NewsFiler v1] GUID: https://www.adnkronos.com/cronaca/ora-legale-2024-quando-marzo_1jfRbGDgO1ss2IHoOwq79q
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Ecco l'ora legale, lancette avanti di un'ora
+url: https://www.adnkronos.com/cronaca/ora-legale-2024-quando-marzo_1jfRbGDgO1ss2IHoOwq79q
+summary: "(Adnkronos) - Un'ora di sonno in meno, un'ora di luce in più: conviene?"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-30 23:02:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/ora-legale-2024-quando-marzo_1jfRbGDgO1ss2IHoOwq79q
+image: https://www.adnkronos.com/resources/028b-1a894906fb52-3cbe4776e8a2-1000/format/medium/ora_legale_2_fg.jpeg

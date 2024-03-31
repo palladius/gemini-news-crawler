@@ -1,12 +1,39 @@
+#!/usr/bin/env ruby
+
+########################################################
+# This started as a crawler but became more as a
+#
+# Cool features:
+# 1. Find fields from N different RSS feeds and print stats over them
+# 1. Cache News into file so we dont hit too many things.
+#
+# Here's a stat for 300 websites with 10 articles:
+# 📚 categories:  371
+# 📚 entry_id:    371
+# 📚 id:          371
+# 📚 title:       371
+# 📚 published:   370
+# 📚 summary:     345
+# 📚 image:       227
+# 📚 author:      197
+# 📚 comments:    40
+# 📚 enclosure_url: 20
+#
+# This means I can count on these fields:
+# id, title, entry_id, categories, published
+########################################################
+
+
 require 'feedjira'
 require 'httparty'
 require 'colorize'
 require_relative '../_env_gaic.rb'
 require_relative './constants.rb'
-require_relative './news_cacher.rb'
-#NewsCacher
+require_relative 'lib/news_cacher.rb'
+require_relative 'lib/news_filer.rb'
 
-MaxArticleSize = 1 # todo 100
+MaxArticleSize = 5 # todo 100
+MaxNewsWebsites = 300 # todo 100
 RssCacheInvalidationMinutes = 15 # 15 minutes
 
 Useless = %w{ enclosure category guid language lastmod loc pubDate description link publication_date pub_date elevation dcterms
@@ -41,7 +68,6 @@ RSSVerbs = %w{
 
    title url summary published entry_id
    title url summary author categories published entry_id image
-
 
   }.sort.uniq - Useless
 
@@ -84,10 +110,14 @@ def main
   entries4all= {}
   puts("🖖🏻 Welcome to Gemini News Parser v#{ProgVersion}")
   #print NEWS[:italy]
-  url = NEWS[:italy].first
+  #url = NEWS[:italy].first
+  ix=0
   NEWS[:italy].each do |newspaper_friendly_name, newspaper_feed|
+    ix += 1
+    break if ix > MaxNewsWebsites
+    file_dumper = NewsFiler.new("out/#{newspaper_friendly_name}/")
     url = newspaper_feed
-    print("🕷️  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
+    print("🕷️ #{ix}  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
     #xml = HTTParty.get(url).body
     #cacher.autocache(feed_url)
     cacher = NewsCacher.new
@@ -103,6 +133,7 @@ def main
       #puts rss_article.to_s
       break if ix == MaxArticleSize
       puts("📰 [#{ix+1}] Title: #{rss_article.title.colorize(:cyan)}")
+      file_dumper.write_article(newspaper_friendly_name, rss_article)
       # All verbs but ENTRIES
       RSSVerbs.each do |verb|
         field_counters[verb] ||= 0

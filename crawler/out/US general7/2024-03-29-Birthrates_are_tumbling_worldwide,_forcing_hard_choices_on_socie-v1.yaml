@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: US general7
+# [NewsFiler v1] GUID: c90d64a78af1146783eda02d6f6285b8
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Birthrates are tumbling worldwide, forcing hard choices on societies
+url: https://www.csmonitor.com/USA/2024/0329/Birthrates-are-tumbling-worldwide-forcing-hard-choices-on-societies?icid=rss
+author: Simon Montlake
+published: 2024-03-29 20:07:04.000000000 Z
+summary: 'After a century in which the global population grew almost fourfold, a turning
+  point awaits. In the next century, the world''s population is expected to peak,
+  leading to questions about how best to sustain thriving societies. '
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: c90d64a78af1146783eda02d6f6285b8

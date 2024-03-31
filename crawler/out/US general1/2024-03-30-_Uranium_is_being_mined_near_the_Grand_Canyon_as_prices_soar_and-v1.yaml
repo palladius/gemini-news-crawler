@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general1
+# [NewsFiler v1] GUID: https://abcnews.go.com/US/wireStory/uranium-mined-grand-canyon-prices-soar-us-pushes-108675642
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " Uranium is being mined near the Grand Canyon as prices soar and the US pushes
+  for more nuclear power"
+url: https://abcnews.go.com/US/wireStory/uranium-mined-grand-canyon-prices-soar-us-pushes-108675642
+summary: The largest uranium producer in the United States is ramping up work at a
+  mine less than 10 miles from the rim of the Grand Canyon
+categories:
+- US
+published: 2024-03-30 04:38:28.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://abcnews.go.com/US/wireStory/uranium-mined-grand-canyon-prices-soar-us-pushes-108675642
+image: https://s.abcnews.com/images/US/wirestory_98d43974de13924fb3c36f62b55f53b3_4x3_384.jpg

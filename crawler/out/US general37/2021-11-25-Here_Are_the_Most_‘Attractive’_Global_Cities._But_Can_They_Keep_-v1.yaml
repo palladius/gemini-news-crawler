@@ -1,0 +1,75 @@
+# [NewsFiler v1] NewsPaper: US general37
+# [NewsFiler v1] GUID: https://time.com/?p=6123998
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Here Are the Most ‘Attractive’ Global Cities. But Can They Keep Their Edge
+  in the Post-Pandemic World? 
+url: https://time.com/6123998/gpci-power-cities-pandemic/
+summary: Many of the world's major global cities saw a significant decrease in competitiveness
+  during the COVID-19 pandemic
+author: Chad de Guzman
+categories:
+- Uncategorized
+- biztech2030
+- News
+- overnight
+- Travel
+published: 2021-11-25 12:18:58.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://time.com/?p=6123998
+content: "\n<aside class=\"right-rail__container right-rail__container--ad\"><div
+  class=\"right-rail__ad__wrapper right-rail__module\"><div class=\"right-rail__ad\"
+  id=\"right-rail__ad-6123998\"></div></div>\n<div class=\"OUTBRAIN right-rail__outbrain
+  right-rail__module video-2\" data-src=\"https://time.com/6123998/gpci-power-cities-pandemic/\"
+  data-widget-id=\"SB_4\" data-ob-template=\"timemag\"></div></aside>\n\n\t\t\t\t<img
+  decoding=\"async\" class=\"wp-block-gutenberg-custom-blocks-featured-media\" src=\"https://api.time.com/wp-content/uploads/2021/11/the-shard-london-uk.jpg\"
+  alt=\"the-shard-london-uk\"/>\n\t\t\t\t<p>Many major global cities saw a significant
+  decrease in competitiveness during the COVID-19 pandemic, as governments tightened
+  border restrictions and imposed tough social distancing restrictions, according
+  to the 2021 Global Power City Index (GPCI).</p><p>It remains to be seen whether,
+  in the <a href=\"https://time.com/6051955/work-after-covid-19/\" >post-pandemic
+  world of work</a>, <a href=\"https://time.com/collection/worlds-greatest-places-2021/\"
+  >these global hubs</a> will retain their ability to attract the highest-caliber
+  workers. But, the <a href=\"https://mori-m-foundation.or.jp/english/ius2/gpci2/index.shtml\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">2021 Global Power City Index</a>&mdash;produced
+  by the Mori Memorial Foundation&rsquo;s Institute for Urban Strategies in Tokyo&mdash;found
+  most major cities have adapted to work-from-home and hybrid work trends.</p><p>Peter
+  Dustan, a researcher at the Institute for Urban Strategies, says that while <a href=\"https://time.com/6108331/business-travel-decline-covid-19/\"
+  >international travel is still difficult</a> due to COVID restrictions, many cities
+  have begun relaxing social distancing measures, as COVID-19 vaccinations rise. Some
+  cities have also begun <a href=\"https://time.com/6084098/employer-vaccine-mandates/\"
+  >requiring proof of vaccination</a> to attend large events, eat at restaurants or
+  use public transit.</p><p>Dustan thinks this year&#8217;s Power City Index, released
+  Wednesday, is useful for comparing how cities have been affected by COVID-19. &ldquo;The
+  shape or character of urban attractiveness may shift, but its importance in attracting
+  new business and talent will remain,&rdquo; he says.</p><p><strong>Read more: </strong><a
+  href=\"https://time.com/collection/worlds-greatest-places-2021/\" ><em>Here Are
+  the World&#8217;s Greatest Places of 2021</em></a></p><p>For instance, Hong Kong,
+  which has ranked in the top 10 each year for the past seven years, slid to 13th
+  place from ninth in 2020. Hong Kong&#8217;s government has among the <a href=\"https://time.com/5872102/hong-kong-coronavirus-social-distancing/\"
+  >toughest COVID-19 border restrictions</a> in the world, with up to three weeks
+  of mandatory hotel quarantine for travelers. The Asian financial hub also had the
+  biggest decline in the number of air passengers, at 88%.</p><p>London continues
+  to be the most attractive city, according to the Global Power City Index, but its
+  overall score dipped, with the report&#8217;s authors attributing the decline to
+  both the pandemic and Brexit, which hampered its economy and global accessibility.
+  &ldquo;The fact that all other European cities increased their economy scores suggests
+  that the U.K.&rsquo;s exit from the EU is beginning to have an impact, allowing
+  other European cities to start catching up to London,&rdquo; the institute said.</p><p>Tokyo
+  improved its overall scores, in large part due to <a href=\"https://time.com/6089274/tokyo-olympics-economic-benefits/\"
+  >the 2020 Olympics and Paralympics</a> and improvements in work flexibility as Japan
+  <a href=\"https://asia.nikkei.com/Business/Business-trends/Stop-logging-hours-Japan-finds-flexibility-in-age-of-telework\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">adapts to work from home</a>.</p><p>The
+  Global Power City Index evaluates and ranks global cities by their &ldquo;magnetism&rdquo;
+  using 70 indicators across six categories: economy, research and development, cultural
+  interaction, livability, environment and accessibility.</p><p>In the 48 cities assessed
+  this year, the study saw accessibility taking a huge hit; compared to the year before
+  the global pandemic began, the frequency of international flights between these
+  cities decreased nearly 50%.</p><p>But the Institute for Urban Strategies reported
+  some positive changes in the 48 cities despite fewer people moving between them&mdash;more
+  than half of them saw an increase in co-working spaces and a decline in working
+  hours.</p><h2 class=\"wp-block-heading\">Here are the Global Power City Index&#8217;s
+  top 10 world cities:</h2><ol> <li><b>London </b></li> <li><b>New York </b></li>
+  <li><b>Tokyo </b></li> <li><b>Paris </b></li> <li><b>Singapore </b></li> <li><b>Amsterdam
+  </b></li> <li><b>Berlin </b></li> <li><b>Seoul </b></li> <li><b>Madrid </b></li>
+  <li><b>Shanghai</b></li> </ol>"

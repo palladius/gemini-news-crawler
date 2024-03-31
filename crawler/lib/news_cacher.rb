@@ -1,9 +1,14 @@
+################################################
+# This library gives you a NewsCacher.
+#
+# TODO(P1): refactor feed_url into initializer
+################################################
+
 #require 'feedjira'
 require 'httparty'
 require 'digest' # https://ruby-doc.org/stdlib-2.4.0/libdoc/digest/rdoc/Digest/MD5.html
 
 # Caches a file for 30min..
-# TODO refacrtor feed_url into initializer
 class NewsCacher
   def initialize(cache_dir = "cache", cache_duration = 30)
     @cache_dir = cache_dir

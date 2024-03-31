@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: BCC Europe
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/world-68555627#0
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The FSB bicycle assassin Putin wants back in Russia
+url: https://www.bbc.co.uk/news/world-68555627
+summary: How Russia is weaponising the murky world of 'hostage diplomacy' and Germany
+  is caught in the middle.
+published: 2024-03-31 00:26:46.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-68555627#0
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1BCA/production/_133041170_putin-index-getty.jpg

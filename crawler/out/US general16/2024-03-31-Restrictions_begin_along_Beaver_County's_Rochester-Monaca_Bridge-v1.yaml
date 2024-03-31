@@ -1,0 +1,9 @@
+# [NewsFiler v1] NewsPaper: US general16
+# [NewsFiler v1] GUID: restrictions-begin-along-beaver-countys-043104618.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Restrictions begin along Beaver County's Rochester-Monaca Bridge Monday morning
+url: https://www.yahoo.com/news/restrictions-begin-along-beaver-countys-043104618.html
+published: 2024-03-31 04:31:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: restrictions-begin-along-beaver-countys-043104618.html

@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: AdKronos - Primapagina
+# [NewsFiler v1] GUID: https://www.adnkronos.com/sport/fiorentina-milan-1-2-vittoria-pioli-al-franchi-con-loftus-cheek-e-leao_12hhTR5XXOLYHzIju8R380
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Fiorentina-Milan 1-2, vittoria Pioli al Franchi con Loftus-Cheek e Leao
+url: https://www.adnkronos.com/sport/fiorentina-milan-1-2-vittoria-pioli-al-franchi-con-loftus-cheek-e-leao_12hhTR5XXOLYHzIju8R380
+summary: "(Adnkronos) - Sconfitta in casa per i viola, in rete Duncan"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- sport
+published: 2024-03-30 22:06:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/sport/fiorentina-milan-1-2-vittoria-pioli-al-franchi-con-loftus-cheek-e-leao_12hhTR5XXOLYHzIju8R380
+image: https://www.adnkronos.com/resources/028b-1a89375aa32e-eb88299e2bdf-1000/format/medium/milan_loftuscheek_afp.jpeg

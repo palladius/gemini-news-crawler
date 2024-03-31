@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general15
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/world-middle-east-68698357#0
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: US sends weapons to Israel despite Gaza toll unease
+url: https://www.bbc.co.uk/news/world-middle-east-68698357
+summary: The delivery of arms to Israel comes as the US expresses concern over deaths
+  and suffering amongst Gaza's residents.
+published: 2024-03-30 14:09:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-middle-east-68698357#0
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65F9/production/_133050162_mediaitem133050161.jpg

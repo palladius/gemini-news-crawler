@@ -1,0 +1,10 @@
+# [NewsFiler v1] NewsPaper: Ansa - Mondo News
+# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/media-egitto-domani-al-cairo-la-ripresa-dei-negoziati-sulla-tregua.-a-gaza_83dee667-9192-4091-8c79-68ca7e37eafc.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Nuovo round di negoziati al Cairo, tensione sulla Linea Blu
+url: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/media-egitto-domani-al-cairo-la-ripresa-dei-negoziati-sulla-tregua.-a-gaza_83dee667-9192-4091-8c79-68ca7e37eafc.html
+summary: Colpito un convoglio Onu al confine fra Libano e Israele, scambi di accuse
+  fra le due parti
+published: 2024-03-31 05:10:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/media-egitto-domani-al-cairo-la-ripresa-dei-negoziati-sulla-tregua.-a-gaza_83dee667-9192-4091-8c79-68ca7e37eafc.html

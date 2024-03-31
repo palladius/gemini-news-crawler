@@ -1,0 +1,9 @@
+# [NewsFiler v1] NewsPaper: Ansa - all
+# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/economia/2024/03/29/domenica-torna-lora-legale-90-milioni-di-risparmi_edcfe83e-fa13-43f9-8027-3afb57781b07.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: E' tornata l'ora legale, 90 milioni di risparmi
+url: https://www.ansa.it/sito/notizie/economia/2024/03/29/domenica-torna-lora-legale-90-milioni-di-risparmi_edcfe83e-fa13-43f9-8027-3afb57781b07.html
+summary: Terna, meno 370milioni di kWh, 170mila tonnellate Co2
+published: 2024-03-31 04:58:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/economia/2024/03/29/domenica-torna-lora-legale-90-milioni-di-risparmi_edcfe83e-fa13-43f9-8027-3afb57781b07.html

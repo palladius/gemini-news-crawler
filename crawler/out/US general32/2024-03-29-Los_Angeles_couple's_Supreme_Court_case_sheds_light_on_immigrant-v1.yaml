@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general32
+# [NewsFiler v1] GUID: https://www.latimes.com/politics/story/2024-03-29/los-angeles-couples-supreme-court-case-sheds-light-on-immigrant-visa-rejections
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Los Angeles couple's Supreme Court case sheds light on immigrant visa rejections
+url: https://www.latimes.com/politics/story/2024-03-29/los-angeles-couples-supreme-court-case-sheds-light-on-immigrant-visa-rejections
+summary: "<p>Luis Acensio Cordero was denied a visa to return to the U.S. from El
+  Salvador and has been separated from his wife, Sandra Muñoz, since 2015.</p>"
+author: Andrea Castillo
+published: 2024-03-29 10:00:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-29/los-angeles-couples-supreme-court-case-sheds-light-on-immigrant-visa-rejections
+content: "<p>Luis Acensio Cordero was denied a visa to return to the U.S. from El
+  Salvador and has been separated from his wife, Sandra Muñoz, since 2015.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/dcfe44e/2147483647/strip/false/crop/8192x5464+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4c%2Fed%2Fd104da7244c79676aa86e44cb594%2F1394064-na-pol-gang-tattoos-supreme-court-06-fo.jpg

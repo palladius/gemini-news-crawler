@@ -1,0 +1,16 @@
+# [NewsFiler v1] NewsPaper: US general31
+# [NewsFiler v1] GUID: https://www.latimes.com/politics/story/2024-03-29/supreme-court-far-right-wing-could-grow-if-trump-becomes-president-again
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'News Analysis: Supreme Court has right and far-right wings. Their justices
+  might not be those you''d guess'
+url: https://www.latimes.com/politics/story/2024-03-29/supreme-court-far-right-wing-could-grow-if-trump-becomes-president-again
+summary: "<p>The abortion pill case shows the gap between the Supreme Court's far-right
+  and merely conservative justices. A second Trump presidency could move the bench
+  further right.</p>"
+author: David Lauter
+published: 2024-03-29 10:00:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-29/supreme-court-far-right-wing-could-grow-if-trump-becomes-president-again
+content: "<p>The abortion pill case shows the gap between the Supreme Court's far-right
+  and merely conservative justices. A second Trump presidency could move the bench
+  further right.</p>"

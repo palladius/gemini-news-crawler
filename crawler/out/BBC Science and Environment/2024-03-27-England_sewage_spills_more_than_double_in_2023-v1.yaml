@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: BBC Science and Environment
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/science-environment-68665335#0
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: England sewage spills more than double in 2023
+url: https://www.bbc.co.uk/news/science-environment-68665335
+summary: Environment Agency data shows sewage spilled into England's waterways for
+  over 3.6 million hours last year.
+published: 2024-03-27 21:27:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/science-environment-68665335#0
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92CE/production/_133028573_sewage_england_getty.jpg

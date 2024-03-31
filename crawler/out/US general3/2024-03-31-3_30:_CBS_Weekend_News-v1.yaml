@@ -1,0 +1,11 @@
+# [NewsFiler v1] NewsPaper: US general3
+# [NewsFiler v1] GUID: 4d0259d1-c057-4782-a82e-718ccc2075b2
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: '3/30: CBS Weekend News'
+url: https://www.cbsnews.com/video/033024-cbs-weekend-news/
+summary: Millions are on the move for Easter and Spring break travel; Nonprofit helps
+  kids bond with rescued rabbits
+published: 2024-03-31 04:01:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 4d0259d1-c057-4782-a82e-718ccc2075b2

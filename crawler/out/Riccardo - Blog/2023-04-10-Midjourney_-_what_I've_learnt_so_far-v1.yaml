@@ -1,0 +1,23 @@
+# [NewsFiler v1] NewsPaper: Riccardo - Blog
+# [NewsFiler v1] GUID: https://ricc.rocks/en/posts/technology/midjourney/
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Midjourney - what I've learnt so far
+url: https://ricc.rocks/en/posts/technology/midjourney/
+summary: |-
+  I felel in love with MJ.
+  Some tips: https://www.wired.it/article/come-usare-midjourney/
+  See my gallery in this website: https://ricc.rocks/en/gallery/midjourney/
+  See my MJ page: https://www.midjourney.com/app/users/6f8c6312-ed0d-479f-b236-efbbffbb9823/
+  What it&rsquo;s good for amazing at merging/bending different concepts and giving you an artistic view of something you know. Example: a mermaid chair , or a non-existent Giraffe Triggerfish.
+  great at styling things (style of Caravaggio, Pixar, &hellip;).
+author: Riccardo
+categories:
+- midjourney
+- generative AI
+- graphics
+- midjourney
+- technology
+published: 2023-04-10 20:17:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://ricc.rocks/en/posts/technology/midjourney/
+image: https://ricc.rocks//gallery/midjourney/PalladiusFigata_a_fantasy_imagination_of_ancient_mayan_city_if__f699b7ca-43d9-4d2a-b2ee-2022a0317e01.png

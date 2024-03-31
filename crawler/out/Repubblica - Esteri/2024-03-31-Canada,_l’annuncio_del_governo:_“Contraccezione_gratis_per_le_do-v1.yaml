@@ -1,0 +1,19 @@
+# [NewsFiler v1] NewsPaper: Repubblica - Esteri
+# [NewsFiler v1] GUID: https://www.repubblica.it/esteri/2024/03/31/news/canada_contraccezione_gratis_donne-422401628/?rss
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'Canada, l’annuncio del governo: “Contraccezione gratis per le donne”'
+url: https://www.repubblica.it/esteri/2024/03/31/news/canada_contraccezione_gratis_donne-422401628/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 01:56:34.000000000 Z
+enclosure_length: '38912'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/31/035633462-1bc87b57-2a7f-439a-94b6-a0c35e4e944b.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/31/news/canada_contraccezione_gratis_donne-422401628/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/31/035633462-1bc87b57-2a7f-439a-94b6-a0c35e4e944b.jpg"
+  width="140" align="left" hspace="10"></a>Il provvedimento è la prima parte del piano
+  di riforma sanitaria</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/canada_contraccezione_gratis_donne-422401628/?rss

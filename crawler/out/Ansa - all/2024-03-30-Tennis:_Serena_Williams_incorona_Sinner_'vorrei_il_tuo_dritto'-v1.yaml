@@ -1,0 +1,9 @@
+# [NewsFiler v1] NewsPaper: Ansa - all
+# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/sport/tennis/2024/03/30/tennis-serena-williams-incorona-sinner-vorrei-il-tuo-dritto_ad00fbe5-e600-4fe8-bf91-09e09bfb32ba.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Tennis: Serena Williams incorona Sinner ''vorrei il tuo dritto'''
+url: https://www.ansa.it/sito/notizie/sport/tennis/2024/03/30/tennis-serena-williams-incorona-sinner-vorrei-il-tuo-dritto_ad00fbe5-e600-4fe8-bf91-09e09bfb32ba.html
+summary: Campionessa Usa incontra l'azzurro dopo match vinto con Medvedev
+published: 2024-03-30 15:36:31.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/sport/tennis/2024/03/30/tennis-serena-williams-incorona-sinner-vorrei-il-tuo-dritto_ad00fbe5-e600-4fe8-bf91-09e09bfb32ba.html

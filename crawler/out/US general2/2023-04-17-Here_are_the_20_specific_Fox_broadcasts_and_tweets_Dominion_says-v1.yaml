@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: US general2
+# [NewsFiler v1] GUID: https://www.cnn.com/2023/04/17/media/dominion-fox-news-allegations/index.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory
+url: https://www.cnn.com/2023/04/17/media/dominion-fox-news-allegations/index.html
+summary: |-
+  • Fox-Dominion trial delay 'is not unusual,' judge says
+  • Fox News' defamation battle isn't stopping Trump's election lies
+published: 2023-04-17 16:01:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/17/media/dominion-fox-news-allegations/index.html
+image: https://cdn.cnn.com/cnnnext/dam/assets/230416140110-maria-bartiromo-file-020823-restricted-super-169.jpg

@@ -1,0 +1,24 @@
+# [NewsFiler v1] NewsPaper: Google News - US
+# [NewsFiler v1] GUID: CBMiRmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvYnJpZGdlLWNvbGxhcHNlLWNyZXctZGVicmlzLmh0bWzSAQA
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Crews at Site of Bridge Collapse Work on Removing First Piece of Debris - The
+  New York Times
+url: https://news.google.com/rss/articles/CBMiRmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvYnJpZGdlLWNvbGxhcHNlLWNyZXctZGVicmlzLmh0bWzSAQA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiRmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvYnJpZGdlLWNvbGxhcHNlLWNyZXctZGVicmlzLmh0bWzSAQA?oc=5"
+  target="_blank">Crews at Site of Bridge Collapse Work on Removing First Piece of
+  Debris</a>&nbsp;&nbsp;<font color="#6f6f6f">The New York Times</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiV2h0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMC91cy9mcmFuY2lzLXNjb3R0LWtleS1icmlkZ2UtY29sbGFwc2Utc2F0dXJkYXkvaW5kZXguaHRtbNIBUGh0dHBzOi8vYW1wLmNubi5jb20vY25uLzIwMjQvMDMvMzAvdXMvZnJhbmNpcy1zY290dC1rZXktYnJpZGdlLWNvbGxhcHNlLXNhdHVyZGF5?oc=5"
+  target="_blank">Reopening the Port of Baltimore could take weeks as colossal wreckage
+  cleanup gets underway, officials say</a>&nbsp;&nbsp;<font color="#6f6f6f">CNN</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2JhbHRpbW9yZS1icmlkZ2UtY29sbGFwc2UtY3VsdHVyYWwtaWRlbnRpdHktOTFjM2JmZThjMjM1ZWZmMDE1NzgwODY5MTI1OWE1MTTSAQA?oc=5"
+  target="_blank">In Key Bridge collapse, Baltimore lost a piece of its cultural identity</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Associated Press</font></li><li><a href="https://news.google.com/rss/articles/CBMiWGh0dHBzOi8vZm9ydHVuZS5jb20vMjAyNC8wMy8yOC9tYXJpdGltZS1sYXctZnJhbmNpcy1zY290dC1rZXktYnJpZGdlLWNvbGxhcHNlLWJhbHRpbW9yZS_SAQA?oc=5"
+  target="_blank">How a 173-year-old law created for wooden ships could complicate
+  rebuilding the Francis Scott Key Bridge in Baltimore</a>&nbsp;&nbsp;<font color="#6f6f6f">Fortune</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiSWh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvdmlldy1zaGlwLWtleS1icmlkZ2UtYmFsdGltb3JlLmh0bWzSAQA?oc=5"
+  target="_blank">A Close-Up View of the Baltimore Bridge Collapse</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li></ol>
+published: 2024-03-31 00:01:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiRmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvYnJpZGdlLWNvbGxhcHNlLWNyZXctZGVicmlzLmh0bWzSAQA

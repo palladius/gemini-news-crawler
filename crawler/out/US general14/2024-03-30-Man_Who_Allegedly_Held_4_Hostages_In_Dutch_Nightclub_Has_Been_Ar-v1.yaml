@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: US general14
+# [NewsFiler v1] GUID: https://www.huffpost.com/entry/ap-eu-netherlands-hostages_n_66082477e4b088173d050d28
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Man Who Allegedly Held 4 Hostages In Dutch Nightclub Has Been Arrested
+url: https://www.huffpost.com/entry/ap-eu-netherlands-hostages_n_66082477e4b088173d050d28
+summary: Dutch authorities were "exceptionally happy" that there was a peaceful ending
+  after four people were held hostage for hours.
+published: 2024-03-30 14:51:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/ap-eu-netherlands-hostages_n_66082477e4b088173d050d28
+comments: https://www.huffpost.com/entry/ap-eu-netherlands-hostages_n_66082477e4b088173d050d28#comments
+content: "\n        Dutch authorities were \"exceptionally happy\" that there was
+  a peaceful ending after four people were held hostage for hours.\n      "

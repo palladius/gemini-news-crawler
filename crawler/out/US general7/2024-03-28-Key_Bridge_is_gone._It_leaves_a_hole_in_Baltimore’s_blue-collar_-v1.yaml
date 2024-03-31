@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general7
+# [NewsFiler v1] GUID: 71ea139e9e56aa9db77700b0c0b2e3a6
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Key Bridge is gone. It leaves a hole in Baltimore’s blue-collar soul.
+url: https://www.csmonitor.com/USA/2024/0328/Key-Bridge-is-gone.-It-leaves-a-hole-in-Baltimore-s-blue-collar-soul?icid=rss
+author: Peter Grier
+published: 2024-03-28 20:31:00.000000000 Z
+summary: 'Before it collapsed, Baltimore’s Key Bridge was a city icon. You could see
+  it from everywhere. It had a personality – blue-collar, like the city. '
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 71ea139e9e56aa9db77700b0c0b2e3a6

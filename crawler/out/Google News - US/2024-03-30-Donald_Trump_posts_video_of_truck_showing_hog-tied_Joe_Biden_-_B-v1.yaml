@@ -1,0 +1,19 @@
+# [NewsFiler v1] NewsPaper: Google News - US
+# [NewsFiler v1] GUID: CBMiMWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC11cy1jYW5hZGEtNjg2OTg2MjfSATVodHRwczovL3d3dy5iYmMuY29tL25ld3Mvd29ybGQtdXMtY2FuYWRhLTY4Njk4NjI3LmFtcA
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Donald Trump posts video of truck showing hog-tied Joe Biden - BBC.com
+url: https://news.google.com/rss/articles/CBMiMWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC11cy1jYW5hZGEtNjg2OTg2MjfSATVodHRwczovL3d3dy5iYmMuY29tL25ld3Mvd29ybGQtdXMtY2FuYWRhLTY4Njk4NjI3LmFtcA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiMWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC11cy1jYW5hZGEtNjg2OTg2MjfSATVodHRwczovL3d3dy5iYmMuY29tL25ld3Mvd29ybGQtdXMtY2FuYWRhLTY4Njk4NjI3LmFtcA?oc=5"
+  target="_blank">Donald Trump posts video of truck showing hog-tied Joe Biden</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">BBC.com</font></li><li><a href="https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL3RydW1wLW1lZGlhLXRydXRoLXNvY2lhbC1uYXNkYXEtc3RvY2stMTA2ZDdjNDIzMTc0Y2ExZDdjYzNjYzlhM2YzODk3YTDSAQA?oc=5"
+  target="_blank">Trump's social media company gains in its first day of trading on
+  Nasdaq</a>&nbsp;&nbsp;<font color="#6f6f6f">The Associated Press</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiRWh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvcG9saXRpY3MvdHJ1bXAtYmlkZW4taW1hZ2UuaHRtbNIBAA?oc=5"
+  target="_blank">Trump Shares Video Featuring Image of a Hog-Tied Biden</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li><li><a href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2RvbmFsZC10cnVtcC1ueXBkLW9mZmljZXIta2lsbGVkLXdha2UtZnVuZXJhbC1lOTE3NDRjNDBjNDUxM2VhZDg4Y2FhMjQ3YWI5OTE2ZdIBAA?oc=5"
+  target="_blank">Donald Trump attends wake of slain NYPD officer</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Associated Press</font></li></ol>
+published: 2024-03-30 20:03:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiMWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC11cy1jYW5hZGEtNjg2OTg2MjfSATVodHRwczovL3d3dy5iYmMuY29tL25ld3Mvd29ybGQtdXMtY2FuYWRhLTY4Njk4NjI3LmFtcA
