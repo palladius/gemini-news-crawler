@@ -18,17 +18,28 @@
     <category domain="https://napoli.repubblica.it">/rep-napoli/cronaca</category>
     <category domain="https://www.repubblica.it">/repubblica/politica</category>
     <category domain="https://www.repubblica.it">/repubblica/spettacoli/people</category>
-    <pubDate>Sun, 31 Mar 2024 22:32:18 +0200</pubDate>
-    <lastBuildDate>Sun, 31 Mar 2024 22:32:18 +0200</lastBuildDate>
+    <category domain="https://genova.repubblica.it">/rep-genova/cronaca</category>
+    <pubDate>Sun, 31 Mar 2024 23:32:16 +0200</pubDate>
+    <lastBuildDate>Sun, 31 Mar 2024 23:32:16 +0200</lastBuildDate>
     <item>
-      <title>Sinner – Dimitrov, in diretta la finale di Miami. Jannik vince il primo set 6-3</title>
+      <title>Sinner batte in due set Dimitrov e conquista il torneo di Miami: è lui il nuovo numero 2 del mondo</title>
       <link>https://www.repubblica.it/sport/tennis/2024/03/31/diretta/sinner_dimitrov_diretta_oggi_finale_miami_atp-422402672/</link>
-      <description><![CDATA[Alle 21 italiane l’ultimo atto del Masters 1000 che si gioca in Florida. In caso di successo, Jannik diventerebbe il numero due al mondo del ranking Atp]]></description>
+      <description><![CDATA[Jannik domina il bulgaro 6-3, 6-1 e spodesta Alcaraz nel ruolo di vice Djokovic]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/sport/tennis">Tennis</category>
-      <pubDate>Sun, 31 Mar 2024 20:30:20 +0000</pubDate>
+      <pubDate>Sun, 31 Mar 2024 20:36:30 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:repubblica:422402672</guid>
-      <dcterms:modified>2024-03-31T20:30:20Z</dcterms:modified>
+      <dcterms:modified>2024-03-31T20:36:30Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Jannik Sinner e il nuovo numero 2 del mondo: a Miami batte in finale Dimitrov e spodesta Alcaraz in classifica</title>
+      <link>https://www.repubblica.it/sport/tennis/2024/03/31/news/sinner_dimitrov_finale_miami_masters_1000-422403123/</link>
+      <description><![CDATA[L’altoatesino si conferma il migliore italiano della storia]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/sport/tennis">Tennis</category>
+      <pubDate>Sun, 31 Mar 2024 20:25:32 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422403123</guid>
+      <dcterms:modified>2024-03-31T20:25:32Z</dcterms:modified>
     </item>
     <item>
       <title>Guerra Ucraina - Russia, le news di oggi. Putin firma il decreto sulla leva di primavera: “Arruolamento per 150mila”. Elon Musk: “Kiev rischia di perdere Odessa se non negozia”</title>
@@ -133,6 +144,16 @@
       <dcterms:modified>2024-03-31T16:18:09Z</dcterms:modified>
     </item>
     <item>
+      <title>In fin di vita clochard aggredito a sprangate: sedicenne accusato di tentato omicidio</title>
+      <link>https://genova.repubblica.it/cronaca/2024/03/31/news/sarzana_sedicenne_aggredisce_clochard_con_una_spranga_accusato_di_tentato_omicidio-422402681/</link>
+      <description><![CDATA[]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-genova/cronaca">Cronaca</category>
+      <pubDate>Sun, 31 Mar 2024 16:01:44 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-genova:422402681</guid>
+      <dcterms:modified>2024-03-31T16:01:44Z</dcterms:modified>
+    </item>
+    <item>
       <title>La dottoressa non va in pensione e continua a lavorare nel pronto soccorso</title>
       <link>https://firenze.repubblica.it/cronaca/2024/03/31/news/firenze_ospedale_torregalli_pronto_soccorso_dottoressa_70_anni_non_va_in_pensione_mi_piace_lavorare_qui-422402629/</link>
       <description><![CDATA[Maria Bruna Lorenzi dell’ospedale di Torregalli di Firenze sta per compiere 70 anni: “Non mi fermo, mi piace troppo quello che faccio”]]></description>
@@ -183,16 +204,6 @@
       <pubDate>Sun, 31 Mar 2024 10:45:34 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:rep-roma:422402349</guid>
       <dcterms:modified>2024-03-31T10:45:34Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Condoni edilizi più facili nel Lazio, Fratelli d’Italia: “Sanatorie per 63 mila pratiche bocciate anche nelle zone vincolate”</title>
-      <link>https://roma.repubblica.it/cronaca/2024/03/31/news/condoni_edilizi_lazio_fratelli_ditalia_sanatorie-422402316/</link>
-      <description><![CDATA[Proposto un nuovo colpo di spugna del valore di 3 miliardi. Sconfessato dalla destra l’operato di Storace]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/rep-roma/cronaca">Cronaca</category>
-      <pubDate>Sun, 31 Mar 2024 10:09:20 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-roma:422402316</guid>
-      <dcterms:modified>2024-03-31T10:09:20Z</dcterms:modified>
     </item>
     <item>
       <title>Polvere del Sahara su Roma, arriva la nube rossa. Il Campidoglio: “Restate a casa il più possibile”</title>
@@ -294,16 +305,6 @@
       <category domain="/repubblica/politica">Politica</category>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:repubblica:422401407</guid>
-      <dcterms:modified>2024-03-31T00:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>La Lega teme il rimpasto. Idea Meloni: Leo al Mef e Giorgetti in Europa</title>
-      <link>https://www.repubblica.it/politica/2024/03/31/news/lega_teme_rimpasto_idea_meloni_leo_al_mef_e_giorgetti_in_europa-422401507/</link>
-      <description><![CDATA[Il Carroccio potrebbe perdere rappresentanza nel governo se andasse male alle elezioni di giugno. Turnover in vista pure per ministri di FI sostituiti con figure più vicine a Tajani]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422401507</guid>
       <dcterms:modified>2024-03-31T00:00:00Z</dcterms:modified>
     </item>
     <item>

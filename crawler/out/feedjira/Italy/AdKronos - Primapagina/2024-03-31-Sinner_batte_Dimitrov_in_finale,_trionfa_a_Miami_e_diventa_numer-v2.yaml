@@ -1,16 +1,16 @@
 # [NewsFiler v2] NewsPaper: AdKronos - Primapagina (this should go in the Entries as of v2)
-# [NewsFiler v2] GUID: https://www.adnkronos.com/sport/sinner-dimitrov-oggi-in-finale-miami-jannik-vuole-titolo-e-secondo-posto_27s1AGcxOShyHFNwibFJqI
+# [NewsFiler v2] GUID: https://www.adnkronos.com/sport/sinner-dimitrov-finale-miami-risultato-oggi-31-marzo-2024_27s1AGcxOShyHFNwibFJqI
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: Sinner batte Dimitrov in finale, trionfa a Miami e diventa numero 2 del mondo
-url: https://www.adnkronos.com/sport/sinner-dimitrov-oggi-in-finale-miami-jannik-vuole-titolo-e-secondo-posto_27s1AGcxOShyHFNwibFJqI
+url: https://www.adnkronos.com/sport/sinner-dimitrov-finale-miami-risultato-oggi-31-marzo-2024_27s1AGcxOShyHFNwibFJqI
 summary: "(Adnkronos) - L'azzurro domina contro il bulgaro, terzo titolo dell'anno"
 author: webinfo@adnkronos.com (Web Info)
 categories:
 - sport
-published: 2024-03-31 18:55:35.000000000 Z
+published: 2024-03-31 18:55:00.000000000 Z
 entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.adnkronos.com/sport/sinner-dimitrov-oggi-in-finale-miami-jannik-vuole-titolo-e-secondo-posto_27s1AGcxOShyHFNwibFJqI
+  guid: https://www.adnkronos.com/sport/sinner-dimitrov-finale-miami-risultato-oggi-31-marzo-2024_27s1AGcxOShyHFNwibFJqI
 carlessian_info:
   news_filer_version: 2
   newspaper: AdKronos - Primapagina
