@@ -14,7 +14,7 @@ run:
 
 run-prod:
 	RAILS_ENV=production rake assets:precompile
-	RAILS_ENV=production rails s
+	RAILS_ENV=production rails s -p 3001 -b 0.0.0.0
 
 
 regenerate-DANGEROUS-DO-NOT-DO-IT:
