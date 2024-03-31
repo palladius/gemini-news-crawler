@@ -3,10 +3,12 @@
 ################################################################################################
 apiVersion: deploy.cloud.google.com/v1
 kind: DeliveryPipeline
+description: My ♊️ Gemini 📰 News 🕷️ Crawler 🪈 Pipeline
 metadata:
   name: gemini-news-crawler-rails-app
   description: |
-    240322 v4.1 Added endpoints with n1-standard-{8-16} depending on target
+    240331 v1.0 Copied from Demo Vegas24
+    240331 v1.1 Removed automations as it still gives problems
 serialPipeline:
   stages:
   - targetId: rails-dev
@@ -26,12 +28,13 @@ apiVersion: deploy.cloud.google.com/v1
 kind: Target
 metadata:
   name: rails-dev
+description: Cloud Run Dev service
 run:
   location: projects/palladius-genai/locations/europe-west1
-
 ---
 apiVersion: deploy.cloud.google.com/v1
 kind: Target
+description: Cloud Run STAG service
 metadata:
   name: rails-staging
 run:
@@ -42,44 +45,41 @@ apiVersion: deploy.cloud.google.com/v1
 kind: Target
 metadata:
   name: rails-prod
-customTarget:
-  customTargetType: vertex-ai-endpoint
-requireApproval: true
+description: Cloud Run PROD service
+#requireApproval: true
 run:
   location: projects/palladius-genai/locations/europe-west1
+---
 
----
-apiVersion: deploy.cloud.google.com/v1
-kind: Automation
-metadata:
-  name:  vertex-demo-verify/promote-dev2staging
-  #name:  vertex-demo-verify/auto-promote-after-verify # from Nate
-description: promotes a release Dev 2 staging immediately # after Deploy, Verify, PostDeploy
-suspended: false
-serviceAccount: 849075740253-compute@developer.gserviceaccount.com # correct ricc SA for ricc-and-nardy
-selector:
-- target:
-    id: rails-dev
-rules:
-- promoteRelease:
-    name: "promote-release-v4-1to2"
-    wait: 0m
-    toTargetId: "@next"
-    #toTargetId: rails-staging
----
-apiVersion: deploy.cloud.google.com/v1
-kind: Automation
-metadata:
-  name:  vertex-demo-verify/promote-staging2prod
-description: promotes a release staging 2 Prod immediately - pending approval
-suspended: false
-serviceAccount: 849075740253-compute@developer.gserviceaccount.com # correct ricc SA for ricc-and-nardy
-selector:
-- target:
-    id: rails-staging
-rules:
-- promoteRelease:
-    name: "promote-release-v4-2to3"
-    wait: 0m
-    toTargetId: "@next"
-    #toTargetId: rails-staging
+# ---
+# apiVersion: deploy.cloud.google.com/v1
+# kind: Automation
+# metadata:
+#   name: gemini-news-crawler-rails-app/promote-dev2staging
+# description: promotes a release Dev 2 staging immediately # after Deploy, Verify, PostDeploy
+# suspended: false
+# serviceAccount: 849075740253-compute@developer.gserviceaccount.com # correct ricc SA for ricc-and-nardy
+# selector:
+# - target:
+#     id: rails-dev
+# rules:
+# - promoteRelease:
+#     name: "promote-release-1to2"
+#     wait: 0m
+#     toTargetId: "@next"
+# ---
+# apiVersion: deploy.cloud.google.com/v1
+# kind: Automation
+# metadata:
+#   name: gemini-news-crawler-rails-app/promote-staging2prod
+# description: promotes a release staging 2 Prod immediately - pending approval
+# suspended: false
+# serviceAccount: 849075740253-compute@developer.gserviceaccount.com # correct ricc SA for ricc-and-nardy
+# selector:
+# - target:
+#     id: rails-staging
+# rules:
+# - promoteRelease:
+#     name: "promote-release-2to3"
+#     wait: 0m
+#     toTargetId: "@next"

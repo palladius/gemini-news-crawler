@@ -16,5 +16,6 @@ profiles:
     rawYaml:
     - deploy/run-service-prod.yaml
 deploy:
-  cloudrun: {}
-# reghion: europe-west1
+#  cloudrun: {}
+  cloudrun:
+   region: europe-west1
