@@ -1,0 +1,85 @@
+# Copied from  git@github.com:palladius/clouddeploy-vertex-demo.git
+################################################################################################
+################################################################################################
+apiVersion: deploy.cloud.google.com/v1
+kind: DeliveryPipeline
+metadata:
+  name: gemini-news-crawler-rails-app
+  description: |
+    240322 v4.1 Added endpoints with n1-standard-{8-16} depending on target
+serialPipeline:
+  stages:
+  - targetId: rails-dev
+    profiles: [dev]
+    strategy:
+      standard:
+        verify: true
+  - targetId: rails-staging
+    profiles: [staging]
+    strategy:
+      standard:
+        verify: true
+  - targetId: rails-prod
+    profiles: [prod]
+---
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+  name: rails-dev
+run:
+  location: projects/palladius-genai/locations/europe-west1
+
+---
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+  name: rails-staging
+run:
+  location: projects/palladius-genai/locations/europe-west1
+
+---
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+  name: rails-prod
+customTarget:
+  customTargetType: vertex-ai-endpoint
+requireApproval: true
+run:
+  location: projects/palladius-genai/locations/europe-west1
+
+---
+apiVersion: deploy.cloud.google.com/v1
+kind: Automation
+metadata:
+  name:  vertex-demo-verify/promote-dev2staging
+  #name:  vertex-demo-verify/auto-promote-after-verify # from Nate
+description: promotes a release Dev 2 staging immediately # after Deploy, Verify, PostDeploy
+suspended: false
+serviceAccount: 849075740253-compute@developer.gserviceaccount.com # correct ricc SA for ricc-and-nardy
+selector:
+- target:
+    id: rails-dev
+rules:
+- promoteRelease:
+    name: "promote-release-v4-1to2"
+    wait: 0m
+    toTargetId: "@next"
+    #toTargetId: rails-staging
+---
+apiVersion: deploy.cloud.google.com/v1
+kind: Automation
+metadata:
+  name:  vertex-demo-verify/promote-staging2prod
+description: promotes a release staging 2 Prod immediately - pending approval
+suspended: false
+serviceAccount: 849075740253-compute@developer.gserviceaccount.com # correct ricc SA for ricc-and-nardy
+selector:
+- target:
+    id: rails-staging
+rules:
+- promoteRelease:
+    name: "promote-release-v4-2to3"
+    wait: 0m
+    toTargetId: "@next"
+    #toTargetId: rails-staging

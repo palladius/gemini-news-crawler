@@ -2,7 +2,7 @@
 # Build ENV needed:
 # Self link: https://console.cloud.google.com/cloud-build/triggers;region=global?e=-13802955&mods=logs_tg_staging&project=palladius-genai
 #
-# Loosely inspired by ror7-tailwind-puffintours
+# Loosely inspired by ror7-tailwind-gemini-news-crawler
 # Securing builds: https://cloud.google.com/build/docs/securing-builds/use-secrets
 #
 # TODO(ricc): 1. make this work with Skaffold using _SKAFFOLD_DEPLOY_UNIT.
@@ -52,7 +52,7 @@ steps:
 # First I build a docker latest version..
 - name: 'gcr.io/cloud-builders/docker'
   id: 1. Docker Build - to CB_LATEST # might be error prone vs the one create from computer
-  args: ['build', '-t', "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours:latest", '.']
+  args: ['build', '-t', "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest", '.']
   dir: webapp
 
 # Then I tag it with another so it survives multiple builds..
@@ -60,8 +60,8 @@ steps:
   id: 2. Tag latest to vVERSION
   args:
     - 'tag'
-    - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours:latest"
-    - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours:sha-$SHORT_SHA"
+    - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest"
+    - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:sha-$SHORT_SHA"
   dir: webapp
   #env:
   #- 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
@@ -86,8 +86,8 @@ steps:
 #   - 'myapp-latest'
 #   - '--image'
 #   # TODO(ricc): check in the future whsat works best: tag to latest vs to specific SHA.
-#   # "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours-cb:sha-$SHORT_SHA"
-#   - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours-cb:latest"
+#   # "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler-cb:sha-$SHORT_SHA"
+#   - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler-cb:latest"
 #   - '--region'
 #   - "${_REGION}"
 #   - '--platform'

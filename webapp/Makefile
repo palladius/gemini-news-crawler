@@ -45,3 +45,7 @@ drop-and-recreate-db-dev:
 test-cat-article-association:
 	echo  ArticleTag.count | rails c
 	echo  Category.first.articles | rails c
+
+
+cloud-deploy-setup:
+	gcloud deploy apply --file=clouddeploy.yaml --region=europe-west1 --project=palladius-genai

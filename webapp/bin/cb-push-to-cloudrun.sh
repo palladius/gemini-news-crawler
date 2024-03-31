@@ -17,9 +17,9 @@ else
   echo Riccardo NOT LOCAL
 fi
 
-if [ -f /secretenvrc/puffintours-envrc ] ; then
+if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
   echo Looks like youre on Cloud Run mounting an envrc directly form SM. You could be protecteder. # :)
-  . /secretenvrc/puffintours-envrc
+  . /secretenvrc/gemini-news-crawler-envrc
 else
   echo Riccardo NOT Secret
 fi
@@ -42,7 +42,7 @@ export BUCKET="${BUCKET:-bucket-non-datur}"
 #- "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:sha-$SHORT_SHA"
 
 # get from secret manager
-#SECRET_REGION=$(gcloud secrets versions access latest --secret=PUFFINTOURS_REGION)
+#SECRET_REGION=$(gcloud secrets versions access latest --secret=gemini-news-crawler_REGION)
 
 # Derived info
 CLOUDRUN_PROJECT_ID="$PROJECT_ID"
@@ -73,7 +73,7 @@ set -x
 # Change AppName if deployed from Carlessian computer
 if hostname | egrep 'ricc-macbookpro|derek' ; then
   #echo 'I believe this code wont work given how BASH vars suck '
-  export APP_NAME='puffintours-manhouse'
+  export APP_NAME='gemini-news-crawler-manhouse'
 fi
 
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
@@ -97,12 +97,12 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="DATABASE_USER=$DATABASE_USER" \
       --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
       --set-env-vars="BUCKET=$BUCKET" \
-      --set-secrets="/secretenvrc/puffintours-envrc=puffintours-envrc:latest" \
+      --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
 
 
-#      --update-secrets=PUFFINTOURS_SECRET_KEY=PUFFINTOURS_SECRET_KEY:latest \
-#      --service-account="puffintours-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
+#      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
+#      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
 
 
 # make sure we exit 0 with a string (set -e guarantees this)

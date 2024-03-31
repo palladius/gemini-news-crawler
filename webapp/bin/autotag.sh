@@ -8,7 +8,6 @@
 # * _PROJECT_ID (needed)
 # * _REGION         (redundant)
 # * _MESSAGGIO_OCCASIONALE (for fun)
-# TODO: export APP_NAME='puffintours'
 
 set -euo pipefail
 
