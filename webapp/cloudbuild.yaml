@@ -116,7 +116,7 @@ steps:
   id: Push PROD to Cloud run from POOR Env with DB stuff..
   entrypoint: bash
   args:
-  - bin/cb-push-to-cloudrun.sh
+  - bin/cb-push-to-cloudrun-prod.sh
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -127,5 +127,6 @@ steps:
   - 'DATABASE_PASS=$_DATABASE_PASS'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
 
 
