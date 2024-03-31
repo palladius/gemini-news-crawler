@@ -3,8 +3,26 @@
   <p>Find me in app/views/pages/stats.html.erb</p>
 
 
-  <h2>ENV</h2>
+  <h2>🌱 ENV</h2>
 
   <p>RAILS_ENV: <%= ENV['RAILS_ENV']%></p>
+
+  <h2>🔑 Encrypted Vars</h2>
+
+  <p>
+    Rails.application.credentials['ricc-passwords']['fake-pwd'] =
+    <b><%= Rails.application.credentials['ricc-passwords']['fake-pwd'] %></b>
+  </p>
+  <p>
+    Rails.application.credentials['ricc-passwords']['description'] =
+    <b><%= Rails.application.credentials['ricc-passwords']['description'] %></b>
+  </p>
+
+  <h2>🧪 DB Stuff</h2>
+
+  <p>ActiveRecord::Base.configurations.configs_for(env_name: 'development')[0].url:
+    <b><%=  ActiveRecord::Base.configurations.configs_for(env_name: 'development')[0].url.to_s.gsub(/\/\/.*\//, '//.../') %></b>
+  </p>
+
 
 </div>
