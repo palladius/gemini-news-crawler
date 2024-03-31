@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-26/supreme-court-argument-abortion-pills-justices-skeptical
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Supreme Court justices appear skeptical of Texas doctors' challenge to abortion
+  pills
+url: https://www.latimes.com/politics/story/2024-03-26/supreme-court-argument-abortion-pills-justices-skeptical
+summary: "<p>Supreme Court justices question whether a group of Texas doctors had
+  legal standing to sue over access to abortion pills through pharmacies or through
+  the mail.</p>"
+author: David G. Savage
+published: 2024-03-26 16:06:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-26/supreme-court-argument-abortion-pills-justices-skeptical
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Supreme Court justices question whether a group of Texas doctors had
+  legal standing to sue over access to abortion pills through pharmacies or through
+  the mail.</p>"

@@ -1,0 +1,40 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497480
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: A fine aprile migliaia di miliardi di cicale invaderanno gli Stati Uniti. Succede
+  ogni 200 anni
+url: https://www.ilfattoquotidiano.it/2024/03/31/a-fine-aprile-migliaia-di-miliardi-di-cicale-invaderanno-gli-stati-uniti-succede-ogni-200-anni/7497480/
+summary: |
+  <p>Da fine aprile le cicale invaderanno gli Stati Uniti come non succedeva da duecento anni. Lo racconta Repubblica che parla di svariate migliaia di miliardi di insetti che assalteranno le regioni orientali del paese, dalla Louisiana all’Illinois. E che non dovrebbero fare grossi danni a parte il rumore. E anzi, dovrebbero contribuire al ciclo alimentare [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/a-fine-aprile-migliaia-di-miliardi-di-cicale-invaderanno-gli-stati-uniti-succede-ogni-200-anni/7497480/">A fine aprile migliaia di miliardi di cicale invaderanno gli Stati Uniti. Succede ogni 200 anni</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Mondo
+- Stati Uniti
+published: 2024-03-31 14:56:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497480
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/a-fine-aprile-migliaia-di-miliardi-di-cicale-invaderanno-gli-stati-uniti-succede-ogni-200-anni/7497480/#comments
+content: |
+  <p>Da fine aprile le cicale invaderanno gli <strong>Stati Uniti</strong> come non succedeva da duecento anni. Lo racconta <em>Repubblica</em> che parla di svariate<strong> migliaia di miliardi di insetti</strong> che assalteranno le <strong>regioni orientali</strong> del paese, dalla Louisiana all’Illinois. E che non dovrebbero fare grossi danni a parte il rumore. E anzi, dovrebbero contribuire al ciclo alimentare della natura.</p>
+  <p>&#8220;Le <strong>Brood XIII e XIX</strong>, ossia le covate così numerate, hanno vissuto sotto terra rispettivamente per 17 e 13 anni, ma verso la fine di aprile verranno in superficie per riprodursi&#8221;, scrive il quotidiano romano in un articolo del suo corrispondente locale.</p>
+  <p>La nuova generazione darà vita a &#8220;<strong>trilioni di insetti</strong>, perché la <strong>coincidenza</strong> dell’apparizione contemporanea delle due covate accade solo <strong>ogni 221 anni</strong>, e quindi gli scienziati calcolano che la prossima non avverrà prima del 2244&#8243;.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/a-fine-aprile-migliaia-di-miliardi-di-cicale-invaderanno-gli-stati-uniti-succede-ogni-200-anni/7497480/">A fine aprile migliaia di miliardi di cicale invaderanno gli Stati Uniti. Succede ogni 200 anni</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/cicale-1200-1050x551.jpg

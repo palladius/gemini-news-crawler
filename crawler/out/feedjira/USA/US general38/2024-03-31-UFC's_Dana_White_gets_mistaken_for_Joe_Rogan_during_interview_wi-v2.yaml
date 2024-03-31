@@ -1,0 +1,68 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/media/ufcs-dana-white-gets-mistaken-joe-rogan-during-interview-sage-steele
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: UFC's Dana White gets mistaken for Joe Rogan during interview with Sage Steele
+url: https://www.foxnews.com/media/ufcs-dana-white-gets-mistaken-joe-rogan-during-interview-sage-steele
+summary: Former ESPN host Sage Steele accidentally addressed UFC president Dana White
+  as podcast host Joe Rogan on Thursday at the very end of an interview.
+categories:
+- 4cf7b803-ae76-53be-bac2-babb96ee4685
+- fnc
+- Fox News
+- fox-news/media
+- fox-news/media/culture-trends
+- fox-news/sports/ufc
+- fox-news/sports
+- fox-news/media
+- article
+published: 2024-03-31 16:23:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/media/ufcs-dana-white-gets-mistaken-joe-rogan-during-interview-sage-steele
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>Former ESPN host Sage Steele mistakenly addressed UFC president Dana
+  White as podcast host Joe Rogan during an interview on Steele''s podcast on Thursday. </p><p>White
+  sat down with Steele during an appearance on the <a href="https://www.youtube.com/watch?v=KNKRKs-UegA"
+  target="_blank" rel="nofollow noopener">"Sage Steele Podcast,"</a> and at the very
+  end of the interview, the host asked White, "What is Joe Rogan''s dream?" White
+  repeated the question as Steele corrected herself and said, "Joe Rogan. Dana White."</p><p>"Did
+  you just think that was Joe Rogan?" White said. Steele admitted, "I totally did."</p><p>"She
+  just called me f-----g Joe Rogan. You thought I was f-----g Joe Rogan?!" he asked.
+  "I was bald before Joe Rogan was ever bald. White said fans often mistake him for
+  Rogan. </p><p><a href="https://www.foxnews.com/sports/ufcs-dana-white-delivers-pro-freedom-response-being-asked-sean-stricklands-tirade"
+  target="_blank" rel="noopener"><strong><u>UFC''S DANA WHITE DELIVERS PRO-FREEDOM
+  RESPONSE AFTER BEING ASKED ABOUT SEAN STRICKLAND''S TIRADE</u></strong></a></p><p>"I
+  just did a two-hour f-----g podcast, I just flew here from Vegas, and she thought
+  she was interviewing Joe Rogan," he cracked. </p><p>"Jesus, Jesus," Steele continued.
+  White quipped that "all us White, bald guys look alike." </p><p>Steele also referred
+  to White as "Joe" earlier in the interview, but the two didn''t address it at the
+  time. </p><p><a href="https://www.foxnews.com/sports/ufcs-dana-white-abruptly-quits-howie-mandel-show-little-explanation-f-ing-tired-doing-podcasts"
+  target="_blank" rel="noopener">White abruptly stormed</a> off the set of Howie Mandel’s
+  podcast in February and said he was "so f-----g tired of doing podcasts." </p><p><a
+  href="https://www.foxnews.com/media/joe-rogan-suggests-one-biggest-problems-biden-administration-staff-ridiculous"
+  target="_blank" rel="noopener"><strong>JOE ROGAN SUGGESTS ONE OF THE BIGGEST PROBLEMS
+  WITH THE BIDEN ADMINISTRATION IS THE STAFF: ‘SO RIDICULOUS’</strong></a></p><p>During
+  the "Howie Mandel Does Stuff" podcast, Mandel introduced the UFC president and said
+  he was an "amazing guy."</p><p>After the introduction, White said he was done with
+  podcasts before pushing the mic away and eventually walking off. </p><p>"Thank you
+  for all the kind words, I appreciate it. I am so f-----g tired of doing podcasts.
+  It’s—I''m literally done with them. I''m not doing any more podcasts," he said. </p><p>White
+  also posted a clip of the exchange with Steele to <a href="https://www.foxnews.com/media"
+  target="_blank" rel="noopener">social media.</a></p><p>Mandel walked in on the two
+  at the end of the interview and joked that Steele also referred to him as Joe Rogan. </p><p>Mandel
+  praised both Steele and White at the very end of the clip and said the interview
+  was inspiring. </p><p><i>Fox News'' Paulina Dedaj contributed to this report.</i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/WHITE-ROGAN-SPLIT.jpg?ve=1&tl=1

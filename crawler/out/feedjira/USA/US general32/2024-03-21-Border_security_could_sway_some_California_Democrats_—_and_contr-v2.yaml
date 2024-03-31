@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-21/border-issues-could-affect-vulnerable-california-democrats-and-sway-control-of-congress
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Border security could sway some California Democrats — and control of Congress
+url: https://www.latimes.com/politics/story/2024-03-21/border-issues-could-affect-vulnerable-california-democrats-and-sway-control-of-congress
+summary: "<p>Since Trump got Republicans to bail on a bipartisan border deal, some
+  Democrats have grown more outspoken in favor of stricter immigration policies and
+  stronger border security.</p>"
+author: Andrea Castillo
+published: 2024-03-21 10:00:34.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-21/border-issues-could-affect-vulnerable-california-democrats-and-sway-control-of-congress
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Since Trump got Republicans to bail on a bipartisan border deal, some
+  Democrats have grown more outspoken in favor of stricter immigration policies and
+  stronger border security.</p>"

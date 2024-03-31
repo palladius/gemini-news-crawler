@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: olly-alexander-rejects-calls-boycott-165130808.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Olly Alexander Rejects Calls to Boycott Eurovision
+url: https://www.yahoo.com/entertainment/olly-alexander-rejects-calls-boycott-165130808.html
+published: 2024-03-29 16:51:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: olly-alexander-rejects-calls-boycott-165130808.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/billboard_547/f9621f549668c93cca36bebd6a5875b0

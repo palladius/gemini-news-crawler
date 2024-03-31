@@ -1,0 +1,50 @@
+# [NewsFiler v2] NewsPaper: Romin Irani - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/acd571e0b6bc
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Book Review : The Good Enough Job by Simone Stolzoff'
+url: https://iromin.medium.com/book-review-the-good-enough-job-by-simone-stolzoff-acd571e0b6bc?source=rss-802a4d428d95------2
+author: Romin Irani
+categories:
+- work
+- book-review
+- identity
+published: 2024-02-21 15:26:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/acd571e0b6bc
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Romin Irani - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<h3>Book Review : The Good Enough Job by Simone Stolzoff</h3><p>This is
+  a book review on <a href="https://www.amazon.in/Good-Enough-Job-What-First/dp/1529146305/ref=sr_1_1?crid=86P6XC5YB5ZK&amp;dib=eyJ2IjoiMSJ9.os8dbmYAd5qoVpTe40Nx-qTumkvcfmi_J1672iuOC_nGjHj071QN20LucGBJIEps.84iJS5CuaD8cy6ObqFt-OjgC52zCX1Fk05GX2TzEmAc">The
+  Good Enough Job: What We Gain When We Don’t Put Work First by Simone Stolzoff</a>.</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/341/0*RNZYV83Ns-RvXx_d.jpg" /></figure><p>This
+  book starts on a solid note with a question to you that goes something like “Who
+  are you?”. I don’t know how you will answer that question but often, as the author
+  notes, we usually define ourselves with our current job/role.</p><p>This question
+  is one that I have struggled to answer myself and most importantly, battled for
+  a long time now to disconnect my identity vis-a-vis my work life.</p><p>Simone takes
+  a refreshing approach to this topic in keeping the content real and away from a
+  preachy and theoretical treatise by covering each chapter to bust a work myth via
+  real people and their life stories. I particularly liked this style since it kept
+  me engaged and identify at times with what each of the folks in the story were going through.</p><p>The
+  work myths that are addressed effectively are:</p><ul><li>We are what we do</li><li>Your
+  job can be your God</li><li>Dream jobs</li><li>Your work is your worth</li><li>Workplace
+  can be your family</li><li>Working more hours always leads to better work</li><li>Cushy
+  office perks</li><li>Status equals success</li><li>Personal boundaries</li></ul><p>I
+  have never believed in some of the points above and it was good to see similar experiences
+  with folks in the stories covered.</p><p>I believe this book is a timely reminder
+  to all of us to figure out our identity , that is not intervened with our work.
+  Easier said than done but something that is an important topic to me of late.</p><img
+  src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=acd571e0b6bc"
+  width="1" height="1" alt="">'

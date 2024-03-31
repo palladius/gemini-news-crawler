@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://napoli.corriere.it/notizie/cronaca/24_marzo_31/morta-daniela-shualy-la-moglie-di-raiz-degli-almamegretta-fc5aed00-f504-466b-b500-1bb786c75xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Morta Daniela Shualy, la moglie di Raiz degli Almamegretta. Il post di addio
+  del gruppo
+url: https://napoli.corriere.it/notizie/cronaca/24_marzo_31/morta-daniela-shualy-la-moglie-di-raiz-degli-almamegretta-fc5aed00-f504-466b-b500-1bb786c75xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/Tappi%20Regionali/CorriereMezzogiorno/2024/03/31/Foto%20-%20Trattate/660957bc9804c_ori_crop_MASTER__0x0.jpeg"
+  title="Morta Daniela Shualy, la moglie di Raiz degli Almamegretta. Il post di addio
+  del gruppo" alt="Morta Daniela Shualy, la moglie di Raiz degli Almamegretta. Il
+  post di addio del gruppo" /><p>Gli Almamegretta: «Sconvolti e smarriti, ci mancherai».
+  Raiz è anche uno dei protagonisti della serie «Mare Fuori»L''addio degli Almamegretta:
+  «Sconvolti e smarriti, ci mancherai»L''addio degli Almamegretta: «Sconvolti e smarriti,
+  ci mancherai»</p>'
+author: Anna Santini
+categories:
+- Corriere
+published: 2024-03-31 19:36:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://napoli.corriere.it/notizie/cronaca/24_marzo_31/morta-daniela-shualy-la-moglie-di-raiz-degli-almamegretta-fc5aed00-f504-466b-b500-1bb786c75xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

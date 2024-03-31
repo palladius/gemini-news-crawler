@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/2024/03/31/wafa-13-palestinesi-uccisi-in-raid-su-zona-di-khan-yunis_96d552ab-8f4e-42fd-ba84-3cf97cb74901.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Wafa, '13 palestinesi uccisi in raid su zona di Khan Yunis'
+url: https://www.ansa.it/sito/notizie/mondo/2024/03/31/wafa-13-palestinesi-uccisi-in-raid-su-zona-di-khan-yunis_96d552ab-8f4e-42fd-ba84-3cf97cb74901.html
+summary: "'Anche una madre e sua figlia. Colpita anche Gaza City'"
+published: 2024-03-31 11:13:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/2024/03/31/wafa-13-palestinesi-uccisi-in-raid-su-zona-di-khan-yunis_96d552ab-8f4e-42fd-ba84-3cf97cb74901.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

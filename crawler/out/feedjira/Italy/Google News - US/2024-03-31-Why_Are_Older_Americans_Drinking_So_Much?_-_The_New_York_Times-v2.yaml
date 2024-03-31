@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiSmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvaGVhbHRoL3NlbmlvcnMtYWxjb2hvbC1jb25zdW1wdGlvbi5odG1s0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Why Are Older Americans Drinking So Much? - The New York Times
+url: https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvaGVhbHRoL3NlbmlvcnMtYWxjb2hvbC1jb25zdW1wdGlvbi5odG1s0gEA?oc=5
+summary: <a href="https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvaGVhbHRoL3NlbmlvcnMtYWxjb2hvbC1jb25zdW1wdGlvbi5odG1s0gEA?oc=5"
+  target="_blank">Why Are Older Americans Drinking So Much?</a>&nbsp;&nbsp;<font color="#6f6f6f">The
+  New York Times</font>
+published: 2024-03-31 14:21:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiSmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvaGVhbHRoL3NlbmlvcnMtYWxjb2hvbC1jb25zdW1wdGlvbi5odG1s0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

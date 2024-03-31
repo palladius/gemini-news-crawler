@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/17/opinions/us-tax-system-wealthy-disney-pearl/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Opinion: Why millionaires like us want to pay more in taxes'
+url: https://www.cnn.com/2023/04/17/opinions/us-tax-system-wealthy-disney-pearl/index.html
+summary: 'Tuesday is Tax Day in America, one of the most stressful days of the year,
+  when many taxpayers will finally end their procrastination, file their federal returns,
+  and hope for a refund from the IRS. But for many of the nation''s wealthiest, it''s
+  just another Tuesday. '
+published: 2023-04-17 19:32:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/17/opinions/us-tax-system-wealthy-disney-pearl/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/220112154235-filing-taxes-stock-super-169.jpeg

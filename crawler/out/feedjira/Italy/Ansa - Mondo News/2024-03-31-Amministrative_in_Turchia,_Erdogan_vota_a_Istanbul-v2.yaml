@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/31/amministrative-in-turchia-erdogan-vota-a-istanbul_6b395db1-c963-467c-9c3e-bb6813fe44dc.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Amministrative in Turchia, Erdogan vota a Istanbul
+url: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/31/amministrative-in-turchia-erdogan-vota-a-istanbul_6b395db1-c963-467c-9c3e-bb6813fe44dc.html
+summary: Il presidente turco cerca di riprendere la città sul Bosforo
+published: 2024-03-31 10:30:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/31/amministrative-in-turchia-erdogan-vota-a-istanbul_6b395db1-c963-467c-9c3e-bb6813fe44dc.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

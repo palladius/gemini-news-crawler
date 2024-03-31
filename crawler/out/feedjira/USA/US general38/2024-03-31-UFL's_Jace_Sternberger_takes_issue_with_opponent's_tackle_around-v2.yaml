@@ -1,0 +1,66 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/sports/ufl-jace-sternberger-takes-issue-opponents-tackle-around-his-knees
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: UFL's Jace Sternberger takes issue with opponent's tackle around his knees
+url: https://www.foxnews.com/sports/ufl-jace-sternberger-takes-issue-opponents-tackle-around-his-knees
+summary: Birmingham Stallions tight end Jace Sternberger took issue with a tackle
+  around his knees during the first UFL game against the Arlington Renegades.
+categories:
+- 70ee2db5-b145-5b8d-975a-5928b1c18a6d
+- fnc
+- Fox News
+- fox-news/sports/ufl
+- fox-news/sports
+- fox-news/sports/nfl/green-bay-packers
+- fox-news/sports
+- article
+published: 2024-03-31 17:16:26.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/sports/ufl-jace-sternberger-takes-issue-opponents-tackle-around-his-knees
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p><a href="https://www.foxnews.com/category/sports/ufl" target="_blank"
+  rel="noopener">Birmingham Stallions</a> tight end Jace Sternberger took issue with
+  a hit he took after a catch in a game against the Arlington Renegades Saturday in
+  the first United Football League game.</p><p>Stallions quarterback <a href="https://www.foxnews.com/sports/united-football-league-players-may-know-ahead-1st-season"
+  target="_blank" rel="noopener">Matt Corral</a> fired a pass to Sternberger in the
+  middle of the field, and Sternberger broke one tackle and was immediately met by
+  four Arlington players. </p><p>Cornerback Steven Jones Jr. appeared to hit Sternberger
+  low, at the back of the knees, leading with his helmet.</p><p><a href="https://www.foxnews.com/sports"
+  target="_blank" rel="noopener"><strong><u>CLICK HERE FOR MORE SPORTS COVERAGE ON
+  FOXNEWS.COM</u></strong></a></p><p>Sternberger was OK after the hit, but he was
+  annoyed with how serious it could have been.</p><p>"Lmao imagine if I would’ve got
+  hurt bc this bulls---. Cmon now @TheRock," he wrote on X.</p><p><a href="https://twitter.com/SouthernCharmSp/status/1774126620363653346"
+  target="_blank" rel="nofollow noopener"><strong>VIEW THE MOMENT ON X.</strong></a></p><p>Sternberger
+  is among former NFL players who have played or will play in the UFL this spring.
+  He played in 18 games for the <a href="https://www.foxnews.com/category/sports/nfl/green-bay-packers"
+  target="_blank" rel="noopener">Green Bay Packers</a> between 2019 and 2020, catching
+  21 passes for 114 yards and a touchdown.</p><p><a href="https://www.foxnews.com/sports/ufl-kicker-praises-god-drilling-game-winning-64-yard-field-goal-first-attempt-since-high-school"
+  target="_blank" rel="noopener"><strong>UFL KICKER PRAISES GOD AFTER DRILLING GAME-WINNING
+  64-YARD FIELD GOAL IN FIRST ATTEMPT SINCE HIGH SCHOOL</strong></a></p><p>He joined
+  the Stallions during the team’s first season in the USFL and stayed for a second
+  stint in 2023. He was on the <a href="https://www.foxnews.com/category/sports/nfl/buffalo-bills"
+  target="_blank" rel="noopener">Buffalo Bills’ training camp roster</a> in between
+  stints but was unable to secure a roster spot for the 2023 season.</p><p>Birmingham
+  won the game over Arlington, 27-14. Sternberger had two catches for 32 yards.</p><p>Tackles
+  throughout the sport have come under fire. While the NFL didn’t address low tackling
+  technique, owners agreed to outlaw the hip-drop tackle with the swivel motion. NFL
+  defenders and the NFLPA disagreed with the move.</p><p><i><strong>Follow Fox News
+  Digital’s</strong></i><a href="https://twitter.com/FoxNewsSports_" target="_blank"
+  rel="noopener"><i><strong> <u>sports coverage on X</u></strong></i></a><i><strong>
+  and subscribe to</strong></i><a href="https://www.foxnews.com/newsletters" target="_blank"
+  rel="noopener"><i><strong><u> the Fox News Sports Huddle newsletter</u></strong></i></a><i><strong>.</strong></i></p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/Jace-Sternberger.jpg?ve=1&tl=1

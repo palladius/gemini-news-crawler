@@ -1,5 +1,5 @@
 # [NewsFiler v2] NewsPaper: US general15 (this should go in the Entries as of v2)
-# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-us-canada-68702031#0
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-us-canada-68702031#2
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: 'Watch: Man''s miraculous near-miss from runaway saw blade'
@@ -9,7 +9,7 @@ summary: Seconds after entering a shop in the US, the blade from a nearby constr
 published: 2024-03-31 04:22:57.000000000 Z
 entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
   is_perma_link: 'false'
-  guid: https://www.bbc.co.uk/news/world-us-canada-68702031#0
+  guid: https://www.bbc.co.uk/news/world-us-canada-68702031#2
 carlessian_info:
   news_filer_version: 2
   newspaper: US general15

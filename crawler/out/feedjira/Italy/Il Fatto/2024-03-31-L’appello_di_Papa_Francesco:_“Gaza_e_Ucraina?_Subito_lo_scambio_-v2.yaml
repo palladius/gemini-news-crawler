@@ -1,0 +1,38 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497461
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'L’appello di Papa Francesco: “Gaza e Ucraina? Subito lo scambio di tutti i
+  prigionieri e un cessate il fuoco”'
+url: https://www.ilfattoquotidiano.it/2024/03/31/lappello-di-papa-francesco-gaza-e-ucraina-subito-lo-scambio-di-tutti-i-prigionieri-e-un-cessate-il-fuoco/7497461/
+summary: |
+  <p>&#8220;Continuamente chiudiamo le porte della vita con le guerre. Volgiamo lo sguardo verso la città santa di Gerulemme, testimone della passione e della resurrezione di Cristo. Il mio pensiero va alle vittime dei conflitti nel mondo, a cominciare da quelli in Palestina e in Ucraina. Cristo risorto riporti la pace per quelle popolazioni martoriate&#8221;. Lo [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/lappello-di-papa-francesco-gaza-e-ucraina-subito-lo-scambio-di-tutti-i-prigionieri-e-un-cessate-il-fuoco/7497461/">L&#8217;appello di Papa Francesco: &#8220;Gaza e Ucraina? Subito lo scambio di tutti i prigionieri e un cessate il fuoco&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Agenzia Vista Alexander Jakhnagiev
+categories:
+- Cronaca
+- Papa Francesco
+published: 2024-03-31 14:27:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497461
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/lappello-di-papa-francesco-gaza-e-ucraina-subito-lo-scambio-di-tutti-i-prigionieri-e-un-cessate-il-fuoco/7497461/#comments
+content: |
+  <p>&#8220;Continuamente chiudiamo le porte della vita con le guerre. Volgiamo lo sguardo verso la città santa di Gerulemme, testimone della passione e della resurrezione di Cristo. I<a href="https://www.ilfattoquotidiano.it/2024/03/31/il-papa-la-pace-non-si-costruisce-con-le-armi-fermare-i-venti-di-guerra-sulleuropa/7497349/" target="_blank" rel="noopener">l mio pensiero va alle vittime dei conflitti nel mondo</a>, a cominciare da quelli in <strong>Palestina</strong> e in <strong>Ucraina</strong>. Cristo risorto riporti la pace per quelle popolazioni martoriate&#8221;. Lo ha detto <strong>Papa Francesco</strong>, parlando ai fedeli dopo la Messa di Pasqua. Che poi ha aggiunto: &#8220;Auspico uno scambio generale di tutti i prigionieri tra Russia e Ucraina: tutti per tutti. Inoltre, faccio nuovamente appello a che sia garantita la possibilità di accesso agli aiuti umanitari a Gaza, esortando nuovamente a un pronto rilascio degli ostaggi rapiti il 7 ottobre scorso e a un immediato cessate il fuoco nella Striscia&#8221;.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/lappello-di-papa-francesco-gaza-e-ucraina-subito-lo-scambio-di-tutti-i-prigionieri-e-un-cessate-il-fuoco/7497461/">L&#8217;appello di Papa Francesco: &#8220;Gaza e Ucraina? Subito lo scambio di tutti i prigionieri e un cessate il fuoco&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/PapaVista-1050x551.jpg

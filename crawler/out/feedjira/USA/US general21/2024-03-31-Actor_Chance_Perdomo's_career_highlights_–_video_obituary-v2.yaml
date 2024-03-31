@@ -1,0 +1,41 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/tv-and-radio/video/2024/mar/31/actor-chance-perdomo-career-highlights-video-obituary
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Actor Chance Perdomo's career highlights – video obituary
+url: https://www.theguardian.com/tv-and-radio/video/2024/mar/31/actor-chance-perdomo-career-highlights-video-obituary
+summary: <p>Chance Perdomo, the British American actor who starred in the TV shows
+  Chilling Adventures of Sabrina and Gen V, has died in a motorcycle accident aged
+  27. Nobody else was involved in the accident, his representatives said in a statement.
+  No details on the location or date of the accident were shared.</p><p></p><p>Perdomo’s
+  most recent role was in Gen V, a spinoff of the superhero parody drama The Boys,
+  as Andre Anderson, a student who can use magnetic forces to manipulate the world
+  around him.</p><p><a href="https://www.theguardian.com/tv-and-radio/2023/sep/29/gen-v-review-this-teen-spinoff-of-the-boys-is-extraordinary"><br></a>Perdomo
+  was born in 1996 in Los Angeles and raised in Southampton. He moved to London and
+  joined the National Youth Theatre. He was nominated for a Bafta for best actor in
+  a leading role in 2018 for his performance in the dramatisation Killed By My Debt</p><p></p><ul><li><p><a
+  href="https://www.theguardian.com/tv-and-radio/2024/mar/30/chance-perdomo-dead-27"><strong>Chance
+  Perdomo, star of Gen V and Chilling Adventures of Sabrina, dead at 27</strong></a></p></li></ul>
+  <a href="https://www.theguardian.com/tv-and-radio/video/2024/mar/31/actor-chance-perdomo-career-highlights-video-obituary">Continue
+  reading...</a>
+categories:
+- Television
+- US news
+- UK news
+- World news
+published: 2024-03-31 13:33:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/tv-and-radio/video/2024/mar/31/actor-chance-perdomo-career-highlights-video-obituary
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/4fcb02f0aa44081d268860fb278af963a3292419/0_97_2073_1243/master/2073.jpg?width=140&quality=85&auto=format&fit=max&s=51a7e801e07b6ef498e2364f9784f499

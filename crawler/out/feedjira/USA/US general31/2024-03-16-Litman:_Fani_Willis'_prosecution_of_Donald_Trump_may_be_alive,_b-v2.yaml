@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/opinion/story/2024-03-15/fani-willis-donald-trump-georgia-racketeering-prosecution-judge-mcafee-ruling
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Litman: Fani Willis'' prosecution of Donald Trump may be alive, but it isn''t
+  well'
+url: https://www.latimes.com/opinion/story/2024-03-15/fani-willis-donald-trump-georgia-racketeering-prosecution-judge-mcafee-ruling
+summary: "<p>Judge Scott McAfee ruled that the Georgia racketeering case can proceed
+  without special prosecutor Nathan Wade, but he questioned the prosecution team's
+  ethics.</p>"
+author: Harry Litman
+published: 2024-03-16 00:29:31.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/opinion/story/2024-03-15/fani-willis-donald-trump-georgia-racketeering-prosecution-judge-mcafee-ruling
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Judge Scott McAfee ruled that the Georgia racketeering case can proceed
+  without special prosecutor Nathan Wade, but he questioned the prosecution team's
+  ethics.</p>"

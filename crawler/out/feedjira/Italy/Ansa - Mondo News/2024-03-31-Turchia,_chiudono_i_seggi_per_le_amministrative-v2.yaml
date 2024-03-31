@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/31/turchia-chiudono-i-seggi-per-le-amministrative_cacb5a55-369c-4976-b1c2-4164d00d9ae1.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Turchia, chiudono i seggi per le amministrative
+url: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/31/turchia-chiudono-i-seggi-per-le-amministrative_cacb5a55-369c-4976-b1c2-4164d00d9ae1.html
+summary: Al via lo scrutinio, Erdogan vuole riprendere Istanbul e Ankara
+published: 2024-03-31 14:32:52.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/31/turchia-chiudono-i-seggi-per-le-amministrative_cacb5a55-369c-4976-b1c2-4164d00d9ae1.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

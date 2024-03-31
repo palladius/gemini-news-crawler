@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/us/maine-shooting-bowdoin-yarmouth/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Maine authorities detained a person of interest after 4 people were found dead
+  in a home and 3 others shot while driving
+url: https://www.cnn.com/2023/04/18/us/maine-shooting-bowdoin-yarmouth/index.html
+summary: 'Maine authorities have detained a person of interest and continue to investigate
+  after two shooting incidents that appear to be connected left at least four people
+  dead and three others injured, state police said. '
+published: 2023-04-19 01:49:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/us/maine-shooting-bowdoin-yarmouth/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230418144820-01-yarmouth-shooting-0418-super-169.jpg

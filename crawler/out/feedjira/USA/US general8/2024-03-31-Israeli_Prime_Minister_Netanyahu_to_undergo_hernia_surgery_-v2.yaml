@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/world/israeli-prime-minister-netanyahu-undergo-hernia-surgery-rcna145778
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Israeli Prime Minister Netanyahu to undergo hernia surgery '
+url: https://www.nbcnews.com/news/world/israeli-prime-minister-netanyahu-undergo-hernia-surgery-rcna145778
+summary: JERUSALEM — Prime Minister Benjamin Netanyahu’s office says the Israeli leader
+  will undergo surgery on Sunday for a hernia.
+author: The Associated Press and Yarden Segev
+published: 2024-03-31 16:12:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/israeli-prime-minister-netanyahu-undergo-hernia-surgery-rcna145778
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240317-benjamin-netanyahu-vl-1045a-b88ae5.jpg

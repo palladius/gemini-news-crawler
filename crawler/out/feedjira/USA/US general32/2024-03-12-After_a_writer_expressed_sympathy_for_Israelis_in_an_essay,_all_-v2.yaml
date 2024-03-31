@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-12/jewish-israeli-writer-tests-the-limits-of-empathy
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: After a writer expressed sympathy for Israelis in an essay, all hell broke
+  loose at a literary journal
+url: https://www.latimes.com/world-nation/story/2024-03-12/jewish-israeli-writer-tests-the-limits-of-empathy
+summary: "<p>A Jewish writer described her attempts after Oct. 7 to find empathy across
+  the Israeli-Palestinian divide. Her essay triggered mass resignations and a retraction.</p>"
+author: Jenny Jarvie
+published: 2024-03-12 10:00:27.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-12/jewish-israeli-writer-tests-the-limits-of-empathy
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>A Jewish writer described her attempts after Oct. 7 to find empathy across
+  the Israeli-Palestinian divide. Her essay triggered mass resignations and a retraction.</p>"

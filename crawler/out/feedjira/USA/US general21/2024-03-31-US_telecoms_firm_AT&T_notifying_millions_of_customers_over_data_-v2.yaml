@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/business/2024/mar/31/us-telecoms-firm-att-notifying-millions-of-customers-over-data-breach
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: US telecoms firm AT&T notifying millions of customers over data breach
+url: https://www.theguardian.com/business/2024/mar/31/us-telecoms-firm-att-notifying-millions-of-customers-over-data-breach
+summary: <p>Company says information found on the dark web includes social security
+  numbers for current and former account holders</p><p>US telecommunications giant
+  AT&amp;T says it has started notifying millions of customers about the theft of
+  personal data recently discovered online.</p><p>The company said Saturday that a
+  dataset found on the “dark web” contains information such as social security numbers
+  for about 7.6 million current AT&amp;T account holders and 65.4 million former account
+  holders.</p> <a href="https://www.theguardian.com/business/2024/mar/31/us-telecoms-firm-att-notifying-millions-of-customers-over-data-breach">Continue
+  reading...</a>
+author: Associated Press
+categories:
+- AT&T
+- US news
+- Technology
+- Business
+published: 2024-03-31 04:48:42.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/business/2024/mar/31/us-telecoms-firm-att-notifying-millions-of-customers-over-data-breach
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/7d95666f820c5269e9a20a1acbda1a340eeac701/0_239_6320_3794/master/6320.jpg?width=140&quality=85&auto=format&fit=max&s=1490f9d5adf0c2d09cafcb557e59ae2d

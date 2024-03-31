@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/entertainment-arts/story/2024-03-11/kate-middleton-apologizes-for-confusion-her-amateur-photo-editing-caused
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Doctored photo of Kate Middleton is credibility blow for royal family in crisis
+url: https://www.latimes.com/entertainment-arts/story/2024-03-11/kate-middleton-apologizes-for-confusion-her-amateur-photo-editing-caused
+summary: "<p>Catherine, the Princess of Wales, issued a rare apology Monday after
+  news agencies retracted a photo of her and her children because she had digitally
+  altered it.</p>"
+author: Nardine Saad
+published: 2024-03-11 16:46:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/entertainment-arts/story/2024-03-11/kate-middleton-apologizes-for-confusion-her-amateur-photo-editing-caused
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Catherine, the Princess of Wales, issued a rare apology Monday after
+  news agencies retracted a photo of her and her children because she had digitally
+  altered it.</p>"

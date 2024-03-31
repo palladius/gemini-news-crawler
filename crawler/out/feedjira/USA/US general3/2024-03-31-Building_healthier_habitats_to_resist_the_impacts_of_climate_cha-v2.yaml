@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 3a2c7bd1-3779-4f6e-9e8f-059c54be4df7
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Building healthier habitats to resist the impacts of climate change
+url: https://www.cbsnews.com/video/building-healthier-habitats-to-resist-the-impacts-of-climate-change/
+summary: Scientists have prescribed practical steps to heal our warming planet, including
+  returning our towns back to a more natural state. CBS News correspondent Jonathan
+  Vigliotti explains how taking steps to mitigate the effects of climate change can
+  save us from the trauma of disasters brought about by extreme weather.
+published: 2024-03-31 16:10:12.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 3a2c7bd1-3779-4f6e-9e8f-059c54be4df7
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

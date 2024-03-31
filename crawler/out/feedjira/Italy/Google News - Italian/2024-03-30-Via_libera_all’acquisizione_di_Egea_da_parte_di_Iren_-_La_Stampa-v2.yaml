@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMia2h0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2N1bmVvLzIwMjQvMDMvMzAvbmV3cy92aWFfbGliZXJhX2FsbGFjcXVpc2l6aW9uZV9kaV9lZ2VhX2RhX3BhcnRlX2RpX2lyZW4tMTQxODc0MzIv0gFvaHR0cHM6Ly93d3cubGFzdGFtcGEuaXQvY3VuZW8vMjAyNC8wMy8zMC9uZXdzL3ZpYV9saWJlcmFfYWxsYWNxdWlzaXppb25lX2RpX2VnZWFfZGFfcGFydGVfZGlfaXJlbi0xNDE4NzQzMi9hbXAv
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Via libera all’acquisizione di Egea da parte di Iren - La Stampa
+url: https://news.google.com/rss/articles/CBMia2h0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2N1bmVvLzIwMjQvMDMvMzAvbmV3cy92aWFfbGliZXJhX2FsbGFjcXVpc2l6aW9uZV9kaV9lZ2VhX2RhX3BhcnRlX2RpX2lyZW4tMTQxODc0MzIv0gFvaHR0cHM6Ly93d3cubGFzdGFtcGEuaXQvY3VuZW8vMjAyNC8wMy8zMC9uZXdzL3ZpYV9saWJlcmFfYWxsYWNxdWlzaXppb25lX2RpX2VnZWFfZGFfcGFydGVfZGlfaXJlbi0xNDE4NzQzMi9hbXAv?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMia2h0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2N1bmVvLzIwMjQvMDMvMzAvbmV3cy92aWFfbGliZXJhX2FsbGFjcXVpc2l6aW9uZV9kaV9lZ2VhX2RhX3BhcnRlX2RpX2lyZW4tMTQxODc0MzIv0gFvaHR0cHM6Ly93d3cubGFzdGFtcGEuaXQvY3VuZW8vMjAyNC8wMy8zMC9uZXdzL3ZpYV9saWJlcmFfYWxsYWNxdWlzaXppb25lX2RpX2VnZWFfZGFfcGFydGVfZGlfaXJlbi0xNDE4NzQzMi9hbXAv?oc=5"
+  target="_blank">Via libera all’acquisizione di Egea da parte di Iren</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Stampa</font></li><li><a href="https://news.google.com/rss/articles/CBMilAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9lY29ub21pYS8yMDI0LzAzLzMwL2lyZW4tcmlsZXZhLWlsLTUwLWRlbGxhLW5ld2NvLXBlci1pbC1zYWx2YXRhZ2dpby1lZ2VhXzQ0N2E3MWE1LTRlNDMtNGIxYi1iYjdiLTI0MzAyZGNjMmViMi5odG1s0gGYAWh0dHBzOi8vd3d3LmFuc2EuaXQvYW1wL3NpdG8vbm90aXppZS9lY29ub21pYS8yMDI0LzAzLzMwL2lyZW4tcmlsZXZhLWlsLTUwLWRlbGxhLW5ld2NvLXBlci1pbC1zYWx2YXRhZ2dpby1lZ2VhXzQ0N2E3MWE1LTRlNDMtNGIxYi1iYjdiLTI0MzAyZGNjMmViMi5odG1s?oc=5"
+  target="_blank">Iren rileva il 50% della Newco per il salvataggio Egea</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Agenzia ANSA</font></li><li><a href="https://news.google.com/rss/articles/CBMixQFodHRwczovL3Rvcmluby5jb3JyaWVyZS5pdC9ub3RpemllL2Vjb25vbWlhLzI0X21hcnpvXzMwL2lyZW4tdmlhLWxpYmVyYS1hbGwtYWNxdWlzaXppb25lLWRpLWVnZWEtZGFsLWZhYmJyby1wcmltZS1iYXNpLWRpLXVuLW51b3ZvLWNhcGl0b2xvLXBlci1sYS1zb2NpZXRhLWEzZmQ0ZTg0LWM1ODItNDZmMS04MGQ1LTA5NDE0Njg4OXhsay5zaHRtbNIByQFodHRwczovL3Rvcmluby5jb3JyaWVyZS5pdC9ub3RpemllL2Vjb25vbWlhLzI0X21hcnpvXzMwL2lyZW4tdmlhLWxpYmVyYS1hbGwtYWNxdWlzaXppb25lLWRpLWVnZWEtZGFsLWZhYmJyby1wcmltZS1iYXNpLWRpLXVuLW51b3ZvLWNhcGl0b2xvLXBlci1sYS1zb2NpZXRhLWEzZmQ0ZTg0LWM1ODItNDZmMS04MGQ1LTA5NDE0Njg4OXhsa19hbXAuc2h0bWw?oc=5"
+  target="_blank">Iren, via libera all''acquisizione di Egea. Dal Fabbro: «Prime basi
+  di un nuovo capitolo per la società»</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMiQmh0dHBzOi8vd3d3Lmlsc29sZTI0b3JlLmNvbS9yYWRpb2Nvci9uUkNfMzAuMDMuMjAyNF8xNy4yMF8zNTUxMDM1NdIBAA?oc=5"
+  target="_blank">*** Iren: accordo per acquisire 50% NewCo per salvare gruppo Egea</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Il Sole 24 ORE</font></li></ol>'
+published: 2024-03-30 17:26:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMia2h0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2N1bmVvLzIwMjQvMDMvMzAvbmV3cy92aWFfbGliZXJhX2FsbGFjcXVpc2l6aW9uZV9kaV9lZ2VhX2RhX3BhcnRlX2RpX2lyZW4tMTQxODc0MzIv0gFvaHR0cHM6Ly93d3cubGFzdGFtcGEuaXQvY3VuZW8vMjAyNC8wMy8zMC9uZXdzL3ZpYV9saWJlcmFfYWxsYWNxdWlzaXppb25lX2RpX2VnZWFfZGFfcGFydGVfZGlfaXJlbi0xNDE4NzQzMi9hbXAv
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/california/story/2024-03-16/shasta-voters-oust-far-right-leader
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'One far-right leader ousted. Another barely hangs on. Is Shasta rejecting
+  MAGA politics?        '
+url: https://www.latimes.com/california/story/2024-03-16/shasta-voters-oust-far-right-leader
+summary: "<p>Supervisor Patrick Jones, who has led the far-right charge in Shasta
+  County, has lost his re-election bid. The March primary results could signal a shift
+  toward the political center in Shasta.   </p>"
+author: Hailey Branson-Potts, Jessica Garrison
+published: 2024-03-16 10:00:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/california/story/2024-03-16/shasta-voters-oust-far-right-leader
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Supervisor Patrick Jones, who has led the far-right charge in Shasta
+  County, has lost his re-election bid. The March primary results could signal a shift
+  toward the political center in Shasta.   </p>"

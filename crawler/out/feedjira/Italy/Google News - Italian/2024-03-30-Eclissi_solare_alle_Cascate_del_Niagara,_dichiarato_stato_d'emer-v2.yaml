@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiggFodHRwczovL3d3dy5mYW5wYWdlLml0L2VzdGVyaS9lY2xpc3NpLXNvbGFyZS1hbGxlLWNhc2NhdGUtZGVsLW5pYWdhcmEtZGljaGlhcmF0by1zdGF0by1kZW1lcmdlbnphLWluLWFycml2by11bi1taWxpb25lLWRpLXBlcnNvbmUv0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Eclissi solare alle Cascate del Niagara, dichiarato stato d''emergenza: in
+  arrivo un milione di persone - Fanpage.it'
+url: https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5mYW5wYWdlLml0L2VzdGVyaS9lY2xpc3NpLXNvbGFyZS1hbGxlLWNhc2NhdGUtZGVsLW5pYWdhcmEtZGljaGlhcmF0by1zdGF0by1kZW1lcmdlbnphLWluLWFycml2by11bi1taWxpb25lLWRpLXBlcnNvbmUv0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5mYW5wYWdlLml0L2VzdGVyaS9lY2xpc3NpLXNvbGFyZS1hbGxlLWNhc2NhdGUtZGVsLW5pYWdhcmEtZGljaGlhcmF0by1zdGF0by1kZW1lcmdlbnphLWluLWFycml2by11bi1taWxpb25lLWRpLXBlcnNvbmUv0gEA?oc=5"
+  target="_blank">Eclissi solare alle Cascate del Niagara, dichiarato stato d''emergenza:
+  in arrivo un milione di persone</a>&nbsp;&nbsp;<font color="#6f6f6f">Fanpage.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LmlsZ2lvcm5hbGUuaXQvbmV3cy9hdHR1YWxpdC9sOC1hcHJpbGUtZmluaXItdHV0dG8taS10aWt0b2tlcnMtYW5udW5jaWFuby1maW5lLW1vbmRvLXN1aS0yMzAzMDU5Lmh0bWzSAQA?oc=5"
+  target="_blank">"L''8 Aprile finirà tutto": i tiktokers annunciano la fine del mondo
+  sui social</a>&nbsp;&nbsp;<font color="#6f6f6f">ilGiornale.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiRWh0dHBzOi8vd3d3Lm1lZGlhLmluYWYuaXQvMjAyNC8wMy8yOS9lY2xpc3NpLW5hc2EtY2l0aXplbi1zY2llbnRpc3RzL9IBAA?oc=5"
+  target="_blank">Tutti scienziati con l''eclissi solare - MEDIA INAF</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Media Inaf</font></li><li><a href="https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9tZXRlby1lY2xpc3NpLXRvdGFsZS1kaS1zb2xlLXNhci1ub3R0ZS1pbi1waWVuby1naW9ybm8tdmVkaWFtby1xdWFuZG8tZS1kb3ZlLTE2NTMyMdIBdmh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9tZXRlby1lY2xpc3NpLXRvdGFsZS1kaS1zb2xlLXNhci1ub3R0ZS1pbi1waWVuby1naW9ybm8tdmVkaWFtby1xdWFuZG8tZS1kb3ZlLTE2NTMyMS9hbXA?oc=5"
+  target="_blank">Meteo: Eclissi Totale di Sole, sarà notte in pieno giorno! Vediamo
+  quando e dove</a>&nbsp;&nbsp;<font color="#6f6f6f">iLMeteo.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3LmlsbWF0dGluby5pdC9wcmltb3BpYW5vL2VzdGVyaS9jYXNjYXRlX25pYWdhcmFfZW1lcmdlbnphX2VjbGlzc2lfcHJldmlzdG9fdW5fbWlsaW9uZV9wZXJzb25lLTgwMjcyNzUuaHRtbNIBAA?oc=5"
+  target="_blank">Cascate Niagara, proclamato lo stato di emergenza per l''eclissi
+  solare: in arrivo un milione di persone</a>&nbsp;&nbsp;<font color="#6f6f6f">ilmattino.it</font></li></ol>'
+published: 2024-03-30 15:08:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiggFodHRwczovL3d3dy5mYW5wYWdlLml0L2VzdGVyaS9lY2xpc3NpLXNvbGFyZS1hbGxlLWNhc2NhdGUtZGVsLW5pYWdhcmEtZGljaGlhcmF0by1zdGF0by1kZW1lcmdlbnphLWluLWFycml2by11bi1taWxpb25lLWRpLXBlcnNvbmUv0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

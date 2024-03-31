@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Politics (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/uk-politics-68677341#1
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Peers to get up to £100 a night for hotel stays
+url: https://www.bbc.co.uk/news/uk-politics-68677341
+summary: Members who live outside London will be able to claim for accommodation when
+  they attend the Lords.
+published: 2024-03-27 14:26:12.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/uk-politics-68677341#1
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Politics
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12414/production/_133027747_4c6f13417497320d057facd4e363cf1908377798115_361_2975_16741000x563.jpg

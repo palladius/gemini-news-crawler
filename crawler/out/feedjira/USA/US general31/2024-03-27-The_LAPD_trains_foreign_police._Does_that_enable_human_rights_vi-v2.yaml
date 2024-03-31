@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/california/story/2024-03-27/lapd-ties-to-foreign-departments-comes-under-scrutiny
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The LAPD trains foreign police. Does that enable human rights violations?
+url: https://www.latimes.com/california/story/2024-03-27/lapd-ties-to-foreign-departments-comes-under-scrutiny
+summary: "<p>Five United Arab Emirates officers graduate from L.A.'s Police Academy,
+  raising new questions about LAPD ties to overseas law enforcement, including Israeli
+  security forces.</p>"
+author: Libor Jany
+published: 2024-03-27 10:00:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/california/story/2024-03-27/lapd-ties-to-foreign-departments-comes-under-scrutiny
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>Five United Arab Emirates officers graduate from L.A.'s Police Academy,
+  raising new questions about LAPD ties to overseas law enforcement, including Israeli
+  security forces.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/6c952e2/2147483647/strip/false/crop/7727x5152+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F01%2F96%2F1f58f18345ac8694be42a54a0e47%2F1363798-me-1020-lapd-graduation-006-ik.jpg

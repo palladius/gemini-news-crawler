@@ -1,0 +1,45 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497554
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Re Carlo con Camilla alla messa di Pasqua a Windsor: è la principale apparizione
+  pubblica dall’annuncio del cancro. Assenti William e Kate'
+url: https://www.ilfattoquotidiano.it/2024/03/31/re-carlo-con-camilla-alla-messa-di-pasqua-a-windsor-e-la-principale-apparizione-pubblica-dallannuncio-del-cancro-assenti-william-e-kate/7497554/
+summary: |
+  <p>Carlo III si è presentato in chiesa vestito con un soprabito scuro: il sovrano, 75 anni, è apparso sorridente, salutando e scherzando, mentre scendeva dall’auto insieme alla moglie. </p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/re-carlo-con-camilla-alla-messa-di-pasqua-a-windsor-e-la-principale-apparizione-pubblica-dallannuncio-del-cancro-assenti-william-e-kate/7497554/">Re Carlo con Camilla alla messa di Pasqua a Windsor: è la principale apparizione pubblica dall&#8217;annuncio del cancro. Assenti William e Kate</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- World News
+- Baby George
+- Kate Middleton
+- Principe William
+- Re Carlo III
+- William e Kate
+published: 2024-03-31 16:34:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497554
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/re-carlo-con-camilla-alla-messa-di-pasqua-a-windsor-e-la-principale-apparizione-pubblica-dallannuncio-del-cancro-assenti-william-e-kate/7497554/#respond
+content: |
+  <p>Il <strong>re Carlo III</strong> ha partecipato oggi alla tradizionale cerimonia religiosa di <strong>Pasqua</strong> nella Cappella di San Giorgio a <strong>Windsor</strong>. Con lui anche la moglie, la regina <strong>Camilla</strong>. Per il re si tratta della <strong>principale</strong> <strong>apparizione pubblica</strong> da quando ha annunciato due mesi fa di avere un cancro.</p>
+  <p>Carlo III si è presentato in chiesa vestito con un <strong>soprabito</strong> <strong>scuro</strong>: il sovrano, 75 anni, è apparso sorridente, salutando e scherzando, mentre scendeva dall’auto insieme alla moglie.</p>
+  <p>Assenti invece il principe e la principessa di Galles, <strong>William e Kate</strong>. Né la coppia né i loro figli, George, Charlotte e Louis, dopo l&#8217;annuncio della principessa di avere un tumore e di aver iniziato la chemioterapia preventiva, erano presenti alla cerimonia.</p>
+  <p>Dopo l’annuncio della sua malattia Carlo ha annullato tutti gli impegni pubblici ufficiali, anche se continua a svolgere alcune funzioni ufficiali, come gli incontri con il premier.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/re-carlo-con-camilla-alla-messa-di-pasqua-a-windsor-e-la-principale-apparizione-pubblica-dallannuncio-del-cancro-assenti-william-e-kate/7497554/">Re Carlo con Camilla alla messa di Pasqua a Windsor: è la principale apparizione pubblica dall&#8217;annuncio del cancro. Assenti William e Kate</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/re-carlo-III-e-Camilla-1200-1050x551.jpg

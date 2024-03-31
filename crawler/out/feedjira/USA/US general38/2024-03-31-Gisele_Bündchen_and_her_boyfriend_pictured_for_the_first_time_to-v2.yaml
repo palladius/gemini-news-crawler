@@ -1,0 +1,85 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/entertainment/gisele-bundchen-boyfriend-pictured-first-time-together-since-denied-cheating-tom-brady
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Gisele Bündchen and her boyfriend pictured for the first time together since
+  she denied cheating on Tom Brady
+url: https://www.foxnews.com/entertainment/gisele-bundchen-boyfriend-pictured-first-time-together-since-denied-cheating-tom-brady
+summary: Gisele Bündchen was photographed with boyfriend Joaquim Valente for the first
+  time since she refuted claims she cheated on ex-husband Tom Brady with him.
+categories:
+- 4cbbaebd-bf57-5acf-a4d6-af139adbed7b
+- fnc
+- Fox News
+- fox-news/entertainment
+- fox-news/entertainment/events/divorce
+- fox-news/person/gisele-bundchen
+- fox-news/person/tom-brady
+- fox-news/entertainment/events/couples
+- fox-news/entertainment
+- article
+published: 2024-03-31 20:00:24.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/entertainment/gisele-bundchen-boyfriend-pictured-first-time-together-since-denied-cheating-tom-brady
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p><a href="https://www.foxnews.com/category/person/gisele-bundchen" target="_blank"
+  rel="noopener">Gisele Bündchen</a> and her boyfriend, jiu-jitsui instructor Joaquim
+  Valente, were spotted out together for the first time since the supermodel confirmed
+  her new romance while simultaneously dispelling rumors about the inception of their
+  relationship.</p><p>In a recent interview with The New York Times, Bündchen vehemently
+  denied that she had cheated on ex-husband <a href="https://www.foxnews.com/category/person/tom-brady"
+  target="_blank" rel="noopener">Tom Brady</a> with Valente. </p><p>"That is a lie,"
+  she told the outlet.</p><p>"This is something that happens to a lot of women who
+  get blamed when they have the courage to leave an unhealthy relationship and are
+  labeled as being unfaithful," Bündchen added.</p><p><a href="https://www.foxnews.com/entertainment/gisele-bundchens-kids-tom-brady-have-different-rules-homes"
+  target="_blank" rel="noopener"><strong>GISELE BÜNDCHEN''s KIDS WITH TOM BRADY HAVE
+  ''DIFFERENT RULES'' BETWEEN HOMES: ''I CAN ONLY CONTROL WHAT I DO''</strong></a></p><p>"They
+  have to deal with their communities. They have to deal with their family. Of course
+  for me, it just happens to be a little bit amplified," she told the outlet of women
+  combating the adulterous label. "No one really knows what happens between two people,
+  only the two people in the relationship." </p><p>She and Valente were spotted outside
+  Bündchen''s new mansion in Surfside, Florida, which is currently undergoing renovations.
+  The couple were spotted discussing plans for the property with a designer before
+  leaving the location in Valente''s truck.</p><p>The spotting comes a day after Valente
+  was seen supporting Bündchen at the launch of her new cookbook, "Nourish," in Miami.</p><p><a
+  href="https://www.foxnews.com/entertainment" target="_blank" rel="noopener"><strong><u>LIKE
+  WHAT YOU’RE READING? CLICK HERE FOR MORE ENTERTAINMENT NEWS</u></strong></a></p><p>Although
+  it''s unclear when their relationship began, Bündchen insists that the two started
+  out as friends. </p><p>"This is the first time I am seeing someone that was a friend
+  of mine first," she told The New York Times, although she did not name Valente directly.
+  "It''s very different. It is very honest, and it''s very transparent." </p><p><a
+  href="https://www.foxnews.com/entertainment/signs-tom-brady-gisele-bundchen-were-headed-end-zone"
+  target="_blank" rel="noopener">Bündchen and Brady</a> divorced in 2022 after 13
+  years of marriage. They share two children together; Benjamin, 14 and Vivian, 11. </p><p><a
+  href="https://www.foxnews.com/newsletters" target="_blank" rel="noopener"><strong>CLICK
+  HERE TO SIGN UP FOR THE ENTERTAINMENT NEWSLETTER</strong></a></p><p>Only a month
+  after her divorce from Brady was finalized, reports and photographs surfaced of
+  <a href="https://www.foxnews.com/entertainment/gisele-bundchen-not-dating-martial-arts-instructor-joaquim-valente-despite-photos-source"
+  target="_blank" rel="noopener">Bündchen and Valente</a> together, sparking speculation
+  they were an item. At the time, a source close to the supermodel told Fox News Digital,
+  "None of it''s true."</p><p>"This is the kids'' and Gisele''s longtime martial arts
+  teacher. There''s no truth to any dating rumors," the source said. Regarding the
+  headlines, the source noted they had reached "a whole new level of disrespect and
+  disregard" for Bündchen.</p><p>Valente is one of three sons who own the Valente
+  Brothers business in North Miami Beach. According to the <a href="https://valentebrothers.com/"
+  target="_blank" rel="nofollow noopener"><u>business'' website</u></a>, he "moved
+  to Miami in 2007 to study criminology at Barry University. He quickly impressed
+  everyone with his unique technique, outstanding teaching skills and remarkable charisma.
+  Joaquim, like his brothers, had Grandmaster Hélio as his main teacher and trained
+  weekly with the Grand Master."</p><p>Bündchen and Brady continue to co-parent their
+  children together, both having homes in <a href="https://www.foxnews.com/entertainment/tom-brady-kids-florida-food-bank-gisele-bundchen-divorce"
+  target="_blank" rel="noopener">Southern Florida.</a></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/gisele-bundchen-tom-brady-joaquim.jpg?ve=1&tl=1

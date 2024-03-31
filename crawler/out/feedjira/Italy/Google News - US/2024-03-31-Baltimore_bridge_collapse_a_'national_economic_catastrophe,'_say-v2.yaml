@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiXmh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjQvMDMvMzEvYmFsdGltb3JlLWJyaWRnZS1jb2xsYXBzZS1hLW5hdGlvbmFsLWVjb25vbWljLWNhdGFzdHJvcGhlLmh0bWzSAWJodHRwczovL3d3dy5jbmJjLmNvbS9hbXAvMjAyNC8wMy8zMS9iYWx0aW1vcmUtYnJpZGdlLWNvbGxhcHNlLWEtbmF0aW9uYWwtZWNvbm9taWMtY2F0YXN0cm9waGUuaHRtbA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Baltimore bridge collapse a 'national economic catastrophe,' says Maryland
+  governor - CNBC
+url: https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjQvMDMvMzEvYmFsdGltb3JlLWJyaWRnZS1jb2xsYXBzZS1hLW5hdGlvbmFsLWVjb25vbWljLWNhdGFzdHJvcGhlLmh0bWzSAWJodHRwczovL3d3dy5jbmJjLmNvbS9hbXAvMjAyNC8wMy8zMS9iYWx0aW1vcmUtYnJpZGdlLWNvbGxhcHNlLWEtbmF0aW9uYWwtZWNvbm9taWMtY2F0YXN0cm9waGUuaHRtbA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjQvMDMvMzEvYmFsdGltb3JlLWJyaWRnZS1jb2xsYXBzZS1hLW5hdGlvbmFsLWVjb25vbWljLWNhdGFzdHJvcGhlLmh0bWzSAWJodHRwczovL3d3dy5jbmJjLmNvbS9hbXAvMjAyNC8wMy8zMS9iYWx0aW1vcmUtYnJpZGdlLWNvbGxhcHNlLWEtbmF0aW9uYWwtZWNvbm9taWMtY2F0YXN0cm9waGUuaHRtbA?oc=5"
+  target="_blank">Baltimore bridge collapse a ''national economic catastrophe,'' says
+  Maryland governor</a>&nbsp;&nbsp;<font color="#6f6f6f">CNBC</font></li><li><a href="https://news.google.com/rss/articles/CBMiemh0dHBzOi8vd3d3LmJhbHRpbW9yZXN1bi5jb20vMjAyNC8wMy8zMS93b3JrZXJzLXJlbW92ZS1maXJzdC1waWVjZS1vZi1rZXktYnJpZGdlLWZyb20tc2hpcC1hcy1zYWx2YWdlLW9wZXJhdGlvbi1jb250aW51ZXMv0gEA?oc=5"
+  target="_blank">Workers remove first piece of Key Bridge as salvage operation continues</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Baltimore Sun</font></li><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vNmFiYy5jb20vYmFsdGltb3JlLWJyaWRnZS1jb2xsYXBzZS1mcmFuY2lzLXNjb3R0LWtleS1sYXJyeS1kZXNhbnRpcy1tYXJ5bGFuZC8xNDU5OTA0My_SAQA?oc=5"
+  target="_blank">Man who crossed Baltimore''s Key Bridge just before collapse speaks
+  out: ''I''m really lucky''</a>&nbsp;&nbsp;<font color="#6f6f6f">WPVI-TV</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vd3d3LmNubi5jb20vdmlkZW9zL3VzLzIwMjQvMDMvMzEvYnJpZGdlLWJhbHRpbW9yZS1jb2xsYXBzZS1jbG9zZXVwLWNvYXN0LWd1YXJkLXBhem1pbm8tbnItdnB4LmNubtIBAA?oc=5"
+  target="_blank">New video shows scope of operation to clear collapsed bridge in
+  Baltimore</a>&nbsp;&nbsp;<font color="#6f6f6f">CNN</font></li></ol>'
+published: 2024-03-31 17:52:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiXmh0dHBzOi8vd3d3LmNuYmMuY29tLzIwMjQvMDMvMzEvYmFsdGltb3JlLWJyaWRnZS1jb2xsYXBzZS1hLW5hdGlvbmFsLWVjb25vbWljLWNhdGFzdHJvcGhlLmh0bWzSAWJodHRwczovL3d3dy5jbmJjLmNvbS9hbXAvMjAyNC8wMy8zMS9iYWx0aW1vcmUtYnJpZGdlLWNvbGxhcHNlLWEtbmF0aW9uYWwtZWNvbm9taWMtY2F0YXN0cm9waGUuaHRtbA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

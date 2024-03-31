@@ -1,0 +1,74 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/entertainment/kate-beckinsale-shares-cryptic-post-apparently-celebrating-easter-in-hospital
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Kate Beckinsale shares cryptic post apparently celebrating Easter in hospital
+url: https://www.foxnews.com/entertainment/kate-beckinsale-shares-cryptic-post-apparently-celebrating-easter-in-hospital
+summary: Kate Beckinsale shared a new photo, apparently celebrating Easter in the
+  hospital, as she continues to undergo treatment for an unidentified condition.
+categories:
+- fdf59b68-5fbd-5d33-9588-c56bc9a2187a
+- fnc
+- Fox News
+- fox-news/entertainment
+- fox-news/person/kate-beckinsale
+- fox-news/entertainment/movies
+- fox-news/entertainment
+- article
+published: 2024-03-31 19:22:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/entertainment/kate-beckinsale-shares-cryptic-post-apparently-celebrating-easter-in-hospital
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p><a href="https://www.foxnews.com/entertainment/kate-beckinsale-wears-provocative-titanic-dress-leonardo-dicaprios-birthday-photos"
+  target="_blank" rel="noopener">Kate Beckinsale</a> shared a selfie of her festive
+  Easter socks amid her ongoing health issues.</p><p>On Sunday, the actress posted
+  a photo of her legs and feet, wearing white bunny socks, in what appears to be a
+  hospital bed with the simple caption, "Happy Easter."</p><p>She did not specify
+  exactly when the photo was taken, but received support from fans and friends in
+  the comments section on the post.</p><p>Gwen Stefani asked, "What’s wrong!!!" with
+  the prayer hands emoji.</p><p><a href="https://www.foxnews.com/entertainment/kate-beckinsale-reveals-hospitalization-shares-tearful-photos"
+  target="_blank" rel="noopener"><strong>KATE BECKINSALE REVEALS HOSPITALIZATION AS
+  SHE SHARES TEARFUL PHOTOS</strong></a></p><p>British actress Alice Evans wrote,
+  "So sorry you're in hospital still, Kate. I do hope nothing is seriously wrong.
+  I know you've been through the ringer in the past year. Sending love and positive
+  vibes."</p><p>On March 11, Beckinsale revealed she had been hospitalized while praising
+  her mom on U.K. Mother’s Day.</p><p>Along with photos of her mom, Beckinsale shared
+  pictures of herself dressed in a hospital gown with a black bow in her hair. A close-up
+  shot showed tears in Beckinsale's eyes as she laid in a hospital bed.</p><p><a href="https://www.foxnews.com/newsletters?cmpid=fnfirstnl"
+  target="_blank" rel="noopener"><strong>CLICK HERE TO SIGN UP FOR THE ENTERTAINMENT
+  NEWSLETTER</strong></a></p><p>"Thank you to those that love us and support us when
+  it’s s--- and try to make sure there are some bits that aren’t," the "Underworld"
+  star wrote on Instagram. "And for looking after our dogs when we can’t, and lead
+  us to remember happy things when we can’t."</p><p>"And turn up when we are sick
+  and sit with us… And send balloons and check in and pull us out of wells with love,"
+  she continued. "Thank you for loving us, those who do, and for the amazing, kindest
+  Nick, and especially for my mother’s capacity for joy. It is so inspiring and beautiful."</p><p>Beckinsale
+  did not indicate what caused the hospitalization. <a href="https://www.foxnews.com/entertainment/kate-beckinsale-shuts-down-plastic-surgery-accusation"
+  target="_blank" rel="noopener">Representatives for Beckinsale</a> did not immediately
+  respond to Fox News Digital's request for comment.</p><p><a href="https://www.foxnews.com/entertainment"
+  target="_blank" rel="noopener"><strong>LIKE WHAT YOU’RE READING? CLICK HERE FOR
+  MORE ENTERTAINMENT NEWS</strong></a></p><p>A couple days after her first post, <a
+  href="https://www.foxnews.com/entertainment/kate-beckinsale-shares-cryptic-post-hospital-bed-endures-mystery-illness"
+  target="_blank" rel="noopener">she shared another update</a> to her Instagram story,
+  showing herself in a hospital bed with her cat, simply captioned, "visitor."</p><p>Following
+  that, she also posted a series of photos showing her from around the time of the
+  Golden Globes, with the caption, "Some things from before."</p><p>The "Click" star
+  also recently endured the loss of her stepfather, Roy Battersby, who died January
+  10 after suffering a stroke the day before. The British TV director had also been
+  battling two types of cancer at the time of his death.</p><p>Beckinsale shared photos
+  of herself still in her silver Golden Globes gown by her stepfather's side on Jan.
+  9.</p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/KateBeckinsaleSplitEasterSocks.jpg?ve=1&tl=1

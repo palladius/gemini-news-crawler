@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 66043dda819660c830f1e271
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Alicia Keys Returns to Her Roots with Her New Musical, “Hell’s Kitchen”
+url: https://www.newyorker.com/podcast/the-new-yorker-radio-hour/alicia-keys-returns-to-her-roots-with-her-new-musical-hells-kitchen
+summary: In her musical opening on Broadway, Keys tells a story very much like her
+  own life—but don’t call it autobiographical. Plus, Rhiannon Giddens on the Black
+  roots of country music.
+categories:
+- Podcast / The New Yorker Radio Hour
+- News / New Yorker Favorites
+published: 2024-03-29 19:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 66043dda819660c830f1e271
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/6605ca79ad8cefb429bd744d/master/pass/Radio_Hour_ALICIA_KEYS_FINAL_03-28-2024.jpg

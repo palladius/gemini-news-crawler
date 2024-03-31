@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiqwFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9tb25kby9tZWRpb29yaWVudGUvMjAyNC8wMy8zMS9kZWxlZ2F6aW9uZS1tb3NzYWQtZS1zaGluLWJldC1wYXJ0ZS1wZXItaWwtY2Fpcm8uLWhhbWFzLW5vbi1hbmNvcmFfODNkZWU2NjctOTE5Mi00MDkxLThjNzktNjhjYTdlMzdlYWZjLmh0bWzSAa8BaHR0cHM6Ly93d3cuYW5zYS5pdC9hbXAvc2l0by9ub3RpemllL21vbmRvL21lZGlvb3JpZW50ZS8yMDI0LzAzLzMxL2RlbGVnYXppb25lLW1vc3NhZC1lLXNoaW4tYmV0LXBhcnRlLXBlci1pbC1jYWlyby4taGFtYXMtbm9uLWFuY29yYV84M2RlZTY2Ny05MTkyLTQwOTEtOGM3OS02OGNhN2UzN2VhZmMuaHRtbA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hamas ancora non ha deciso se inviare la delegazione per i colloqui - Agenzia
+  ANSA
+url: https://news.google.com/rss/articles/CBMiqwFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9tb25kby9tZWRpb29yaWVudGUvMjAyNC8wMy8zMS9kZWxlZ2F6aW9uZS1tb3NzYWQtZS1zaGluLWJldC1wYXJ0ZS1wZXItaWwtY2Fpcm8uLWhhbWFzLW5vbi1hbmNvcmFfODNkZWU2NjctOTE5Mi00MDkxLThjNzktNjhjYTdlMzdlYWZjLmh0bWzSAa8BaHR0cHM6Ly93d3cuYW5zYS5pdC9hbXAvc2l0by9ub3RpemllL21vbmRvL21lZGlvb3JpZW50ZS8yMDI0LzAzLzMxL2RlbGVnYXppb25lLW1vc3NhZC1lLXNoaW4tYmV0LXBhcnRlLXBlci1pbC1jYWlyby4taGFtYXMtbm9uLWFuY29yYV84M2RlZTY2Ny05MTkyLTQwOTEtOGM3OS02OGNhN2UzN2VhZmMuaHRtbA?oc=5
+summary: <a href="https://news.google.com/rss/articles/CBMiqwFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9tb25kby9tZWRpb29yaWVudGUvMjAyNC8wMy8zMS9kZWxlZ2F6aW9uZS1tb3NzYWQtZS1zaGluLWJldC1wYXJ0ZS1wZXItaWwtY2Fpcm8uLWhhbWFzLW5vbi1hbmNvcmFfODNkZWU2NjctOTE5Mi00MDkxLThjNzktNjhjYTdlMzdlYWZjLmh0bWzSAa8BaHR0cHM6Ly93d3cuYW5zYS5pdC9hbXAvc2l0by9ub3RpemllL21vbmRvL21lZGlvb3JpZW50ZS8yMDI0LzAzLzMxL2RlbGVnYXppb25lLW1vc3NhZC1lLXNoaW4tYmV0LXBhcnRlLXBlci1pbC1jYWlyby4taGFtYXMtbm9uLWFuY29yYV84M2RlZTY2Ny05MTkyLTQwOTEtOGM3OS02OGNhN2UzN2VhZmMuaHRtbA?oc=5"
+  target="_blank">Hamas ancora non ha deciso se inviare la delegazione per i colloqui</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Agenzia ANSA</font><strong><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pQM2RhaEN4RWtBc0U5NVJGR055Z0FQAQ?hl=it&gl=IT&ceid=IT:it&oc=5"
+  target="_blank">Visualizza la copertura completa su Google News</a></strong>
+published: 2024-03-31 18:03:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiqwFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9tb25kby9tZWRpb29yaWVudGUvMjAyNC8wMy8zMS9kZWxlZ2F6aW9uZS1tb3NzYWQtZS1zaGluLWJldC1wYXJ0ZS1wZXItaWwtY2Fpcm8uLWhhbWFzLW5vbi1hbmNvcmFfODNkZWU2NjctOTE5Mi00MDkxLThjNzktNjhjYTdlMzdlYWZjLmh0bWzSAa8BaHR0cHM6Ly93d3cuYW5zYS5pdC9hbXAvc2l0by9ub3RpemllL21vbmRvL21lZGlvb3JpZW50ZS8yMDI0LzAzLzMxL2RlbGVnYXppb25lLW1vc3NhZC1lLXNoaW4tYmV0LXBhcnRlLXBlci1pbC1jYWlyby4taGFtYXMtbm9uLWFuY29yYV84M2RlZTY2Ny05MTkyLTQwOTEtOGM3OS02OGNhN2UzN2VhZmMuaHRtbA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

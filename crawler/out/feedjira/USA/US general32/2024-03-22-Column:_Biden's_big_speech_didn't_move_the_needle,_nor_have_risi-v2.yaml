@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-22/bidens-big-speech-didnt-move-the-needle-will-anything
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Column: Biden''s big speech didn''t move the needle, nor have rising wages.
+  But these 3 things might'
+url: https://www.latimes.com/politics/story/2024-03-22/bidens-big-speech-didnt-move-the-needle-will-anything
+summary: "<p>Even as public opinion on the economy is up and crime is down, President
+  Biden's approval ratings haven't changed. Should Democrats panic? No.</p>"
+author: David Lauter
+published: 2024-03-22 10:00:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-22/bidens-big-speech-didnt-move-the-needle-will-anything
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Even as public opinion on the economy is up and crime is down, President
+  Biden's approval ratings haven't changed. Should Democrats panic? No.</p>"

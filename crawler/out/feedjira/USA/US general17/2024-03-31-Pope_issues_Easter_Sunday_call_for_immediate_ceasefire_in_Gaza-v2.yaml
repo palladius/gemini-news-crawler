@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: pope-issues-easter-sunday-call-184353868.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pope issues Easter Sunday call for immediate ceasefire in Gaza
+url: https://www.yahoo.com/news/pope-issues-easter-sunday-call-184353868.html
+published: 2024-03-31 18:43:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: pope-issues-easter-sunday-call-184353868.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/dpa_international_526/9e52af3985416e7bd97ad574dd0e8fbe

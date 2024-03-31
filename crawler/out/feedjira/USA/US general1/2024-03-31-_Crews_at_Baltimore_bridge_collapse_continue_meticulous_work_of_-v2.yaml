@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general1 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://abcnews.go.com/US/wireStory/crews-baltimore-bridge-collapse-continue-meticulous-work-removing-108694681
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " Crews at Baltimore bridge collapse continue meticulous work of removing twisted
+  steel and concrete"
+url: https://abcnews.go.com/US/wireStory/crews-baltimore-bridge-collapse-continue-meticulous-work-removing-108694681
+summary: Crews continue the complicated and meticulous operation of removing the steel
+  and concrete from the fallen Francis Scott Key Bridge in Baltimore
+categories:
+- US
+published: 2024-03-31 18:30:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://abcnews.go.com/US/wireStory/crews-baltimore-bridge-collapse-continue-meticulous-work-removing-108694681
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general1
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- image
+image: https://s.abcnews.com/images/US/wirestory_e656b7f2efcc7770de9c2d922faa7b20_4x3_384.jpg

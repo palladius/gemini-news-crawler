@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/28/disturbing-rough-sleepers-and-migrants-removed-from-paris-ahead-of-olympics
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'Disturbing': Rough sleepers and migrants removed from Paris ahead of Olympics"
+url: https://www.euronews.com/2024/03/28/disturbing-rough-sleepers-and-migrants-removed-from-paris-ahead-of-olympics
+summary: Hundreds of migrants and rough sleepers have been relocated from Paris to
+  regional France on chartered bus services.
+published: 2024-03-28 11:14:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/28/disturbing-rough-sleepers-and-migrants-removed-from-paris-ahead-of-olympics
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general16 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: greg-locke-reacts-trailer-full-184234722.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Greg Locke reacts to trailer full of bibles burned in Wilson County near church
+url: https://www.yahoo.com/news/greg-locke-reacts-trailer-full-184234722.html
+published: 2024-03-31 18:42:34.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: greg-locke-reacts-trailer-full-184234722.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general16
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/the-tennessean/ec22f74246cc8d3ba8570a7433bb46e4

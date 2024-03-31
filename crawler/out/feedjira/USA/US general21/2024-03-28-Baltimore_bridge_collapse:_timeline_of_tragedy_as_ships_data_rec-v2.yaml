@@ -1,0 +1,39 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/video/2024/mar/27/baltimore-bridge-collapse-timeline-ships-data-records-ntsb-video
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Baltimore bridge collapse: timeline of tragedy as ships data records read
+  out by NTSB – video'
+url: https://www.theguardian.com/us-news/video/2024/mar/27/baltimore-bridge-collapse-timeline-ships-data-records-ntsb-video
+summary: '<p>The National Transportation Safety Board''s (NTSB) investigator in charge,
+  Marcel Muise, reads out data from the Dali''s voyage data recorder, providing a
+  timeline of events that led to the cargo ship crashing into the Francis Scott Key
+  Bridge in Baltimore, Maryland.</p><ul><li><p><a href="https://www.theguardian.com/us-news/2024/mar/27/baltimore-bridge-collapse-investigation-recovery-updates">Baltimore
+  bridge collapse: what we know so far</a></p></li><li><p><a href="https://www.theguardian.com/us-news/2024/mar/27/baltimore-bridge-collapse-conspiracy-theories">Online
+  conspiracy circles galvanize to proclaim Baltimore bridge collapse a ‘black swan
+  event’</a></p></li><li><p><a href="https://www.theguardian.com/us-news/2024/mar/27/baltimore-bridge-collapse-death-toll-black-box">Baltimore
+  bridge collapse: two bodies recovered from water, officials say</a></p></li></ul>
+  <a href="https://www.theguardian.com/us-news/video/2024/mar/27/baltimore-bridge-collapse-timeline-ships-data-records-ntsb-video">Continue
+  reading...</a>'
+categories:
+- Baltimore bridge collapse
+- Baltimore
+- Maryland
+- US news
+- World news
+published: 2024-03-28 02:22:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/video/2024/mar/27/baltimore-bridge-collapse-timeline-ships-data-records-ntsb-video
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/d36c3e95556707e0b8d41c35f8d7eea8d4e4eaae/1272_418_3034_1822/master/3034.jpg?width=140&quality=85&auto=format&fit=max&s=569f328b824d3d86bb6bc033b0ca588d

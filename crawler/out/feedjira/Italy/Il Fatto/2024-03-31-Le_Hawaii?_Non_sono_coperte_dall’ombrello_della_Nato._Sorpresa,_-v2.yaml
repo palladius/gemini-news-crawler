@@ -1,0 +1,41 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497516
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Le Hawaii? Non sono coperte dall’ombrello della Nato. Sorpresa, sì, ma fino
+  a un certo punto: ecco qual è la spiegazione'
+url: https://www.ilfattoquotidiano.it/2024/03/31/le-hawaii-non-sono-coperte-dallombrello-della-nato-sorpresa-si-ma-fino-a-un-certo-punto-ecco-qual-e-la-spiegazione/7497516/
+summary: |
+  <p>Se ci fosse un nuovo attacco a Pearl Harbor, i membri della Nato non sarebbero obbligati a difendere gli Stati Uniti. A scriverlo è la versione online della Cnn, che sottolinea come la gran parte degli abitanti dell&#8217;arcipelago non abbia alcuna idea di essere fuori dalla protezione del Patto Atlantico. A parlare al sito della [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/le-hawaii-non-sono-coperte-dallombrello-della-nato-sorpresa-si-ma-fino-a-un-certo-punto-ecco-qual-e-la-spiegazione/7497516/">Le Hawaii? Non sono coperte dall&#8217;ombrello della Nato. Sorpresa, sì, ma fino a un certo punto: ecco qual è la spiegazione</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Mondo
+- Hawaii
+- Nato
+- Stati Uniti
+published: 2024-03-31 15:30:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497516
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/le-hawaii-non-sono-coperte-dallombrello-della-nato-sorpresa-si-ma-fino-a-un-certo-punto-ecco-qual-e-la-spiegazione/7497516/#comments
+content: |
+  <p>Se ci fosse un nuovo attacco a <strong>Pearl</strong> <strong>Harbor</strong>, i membri della Nato non sarebbero obbligati a difendere gli <strong>Stati Uniti</strong>. A scriverlo è la versione online della <em>Cnn</em>, che sottolinea come la gran parte degli abitanti dell&#8217;arcipelago non abbia alcuna idea di essere fuori dalla protezione del <strong>Patto</strong> <strong>Atlantico</strong>. A parlare al sito della tv americana è <strong>David</strong> <strong>Santoro</strong>, presidente del think tank <strong>Pacific Forum</strong> di <strong>Honolulu</strong>, che spiega che i suoi concittadini presumono, erroneamente, che le <strong>Hawaii</strong> &#8220;facciano parte degli Stati Uniti e quindi siano coperte dalla Nato&#8221;. Anche per il fatto che appunto a <strong>Pearl Harbor</strong> c&#8217;è un&#8217;importante base della <strong>Marina militare</strong> e a <strong>Nord-Ovest</strong> di <strong>Honolulu</strong> si trova il quartier generale del comando indopacifico.</p>
+  <p>Qual è la spiegazione? Intanto basta partire dal nome dell&#8217;alleanza politico-militare: Organizzazione del Trattato del <strong>Nord Atlantico</strong>. Le Hawaii si trovano nel <strong>Pacifico</strong> e, a differenza della <strong>California</strong>, del <strong>Colorado</strong> o dell’<strong>Alaska</strong>, &#8211; ricorda la Cnn &#8211; sono il <strong>cinquantesimo Stato</strong> che non fa parte degli <strong>Stati Uniti continentali</strong>. &#8220;L&#8217;argomentazione a favore dell’esclusione delle Hawaii è semplicemente che non fanno parte del <strong>Nord America</strong>&#8220;, afferma Santoro. L’eccezione, del resto, è già enunciata nel <strong>Trattato di Washington</strong>, il documento che istituì la Nato nel 1949, un decennio prima che le Hawaii diventassero uno stato. Mentre l’articolo 5 del trattato prevede infatti<strong> l’autodifesa collettiva</strong> in caso di attacco militare contro qualsiasi Stato membro, l’articolo 6 ne limita la portata geografica.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/le-hawaii-non-sono-coperte-dallombrello-della-nato-sorpresa-si-ma-fino-a-un-certo-punto-ecco-qual-e-la-spiegazione/7497516/">Le Hawaii? Non sono coperte dall&#8217;ombrello della Nato. Sorpresa, sì, ma fino a un certo punto: ecco qual è la spiegazione</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/hawaii-honolulu-1200-1050x551.jpg

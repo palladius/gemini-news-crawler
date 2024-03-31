@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Politics (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/uk-politics-68623831#3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Chris Mason: What further Rwanda delay says about the plan'
+url: https://www.bbc.co.uk/news/uk-politics-68623831
+summary: The government's flagship Rwanda bill will be back before MPs after Easter,
+  following a series of heavy defeats in the Lords.
+published: 2024-03-21 08:58:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/uk-politics-68623831#3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Politics
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4687/production/_132855081_7da05a9ec9cb38409c973888df47566a11019660.jpg

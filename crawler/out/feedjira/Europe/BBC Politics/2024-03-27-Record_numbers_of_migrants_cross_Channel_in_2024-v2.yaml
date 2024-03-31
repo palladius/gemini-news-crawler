@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Politics (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.com/news/articles/c4nq66lm57zo#1
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Record numbers of migrants cross Channel in 2024
+url: https://www.bbc.com/news/articles/c4nq66lm57zo
+summary: The number of migrants arriving in the UK in 2024 after crossing the Channel
+  has hit a record high.
+published: 2024-03-27 14:53:02.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.com/news/articles/c4nq66lm57zo#1
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Politics
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/news/240/cpsprodpb/06ef/live/bf33ae30-ec2e-11ee-9d23-3be38fc3d32e.jpg

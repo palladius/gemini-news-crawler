@@ -1,0 +1,165 @@
+# [NewsFiler v2] NewsPaper: Romin Irani - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/15d92e408bf9
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Using Duet AI to generate a Starter App from an OpenAPI Specification
+url: https://medium.com/google-cloud/using-duet-ai-to-generate-a-starter-app-from-an-openapi-specification-15d92e408bf9?source=rss-802a4d428d95------2
+author: Romin Irani
+categories:
+- duet-ai
+- gemini
+- open-api
+- gcp-app-dev
+- google-cloud-platform
+published: 2024-03-01 01:54:02.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/15d92e408bf9
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Romin Irani - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<p>OpenAPI specification is well known with API Developers and one of the
+  areas that I wanted to explore was to see how well Duet AI for Developers is able
+  to generate an OpenAPI Specification and then use that to generate a starter application.</p><h3>Pre-requisites</h3><p>We
+  will assume that you have the following in place:</p><ul><li>A Google Cloud Project
+  with billing enabled</li><li>Duet AI enabled for your Cloud Project</li></ul><p>In
+  case you are looking for setting up Duet AI for your Google Cloud project, check
+  out the steps over <a href="https://cloud.google.com/duet-ai/docs/discover/set-up-duet-ai">here</a>.
+  The steps help you enable Duet AI in your Google Cloud Project and also setup the
+  Cloud Shell IDE for working with Duet AI.</p><h3>My setup</h3><p>I am using Google
+  Cloud Shell IDE and sending across my prompts to Duet AI via the Chat Interface
+  available in the IDE.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*eSodnBGqk0Ojn5FyE4SnnA.png"
+  /></figure><h3>Generate the OpenAPI Specification</h3><p>We will keep things simple
+  here. We will work with a fictitious application that manages a list of books. Each
+  book will have a list of attributes that we will specify and we will keep things
+  focused on a few retrieval operations across books only.</p><p>We askDuet AI to
+  generate an OpenAPI Specification via the prompt given below:</p><blockquote>I am
+  designing an API for searching a library of books. Each book has the following attributes:
+  id, title, a list of categories, a list of authors, year published and a brief summary.
+  Please generate an OpenAPI Specification that allows one to search for the following
+  operations:</blockquote><blockquote>1. All books</blockquote><blockquote>2. A single
+  book by id</blockquote><blockquote>3. Given a book id, find its categories</blockquote><blockquote>4.
+  Given a book id, find its authors</blockquote><p>Duet AI came back with the following
+  OpenAPI Specification</p><pre>swagger: &quot;2.0&quot;<br>info:<br>  title: &quot;Book
+  Search API&quot;<br>  description: &quot;This API allows you to search for books
+  in a library.&quot;<br>  version: &quot;1.0.0&quot;<br>host: &quot;bookshelf.googleapis.com&quot;<br>schemes:<br>  -
+  &quot;https&quot;<br>paths:<br>  /books:<br>    get:<br>      summary: &quot;Get
+  all books&quot;<br>      operationId: &quot;getAllBooks&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;A list of all books&quot;<br>          schema:<br>            type: &quot;array&quot;<br>            items:<br>              type:
+  &quot;object&quot;<br>              properties:<br>                id:<br>                  type:
+  &quot;integer&quot;<br>                  format: &quot;int64&quot;<br>                title:<br>                  type:
+  &quot;string&quot;<br>                categories:<br>                  type: &quot;array&quot;<br>                  items:<br>                    type:
+  &quot;string&quot;<br>                authors:<br>                  type: &quot;array&quot;<br>                  items:<br>                    type:
+  &quot;string&quot;<br>                yearPublished:<br>                  type:
+  &quot;integer&quot;<br>                  format: &quot;int32&quot;<br>                summary:<br>                  type:
+  &quot;string&quot;<br>  /books/{id}:<br>    get:<br>      summary: &quot;Get a single
+  book by id&quot;<br>      operationId: &quot;getBookById&quot;<br>      parameters:<br>        -
+  name: &quot;id&quot;<br>          in: &quot;path&quot;<br>          required: true<br>          type:
+  &quot;integer&quot;<br>          format: &quot;int64&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;The book with the given id&quot;<br>          schema:<br>            type:
+  &quot;object&quot;<br>            properties:<br>              id:<br>                type:
+  &quot;integer&quot;<br>                format: &quot;int64&quot;<br>              title:<br>                type:
+  &quot;string&quot;<br>              categories:<br>                type: &quot;array&quot;<br>                items:<br>                  type:
+  &quot;string&quot;<br>              authors:<br>                type: &quot;array&quot;<br>                items:<br>                  type:
+  &quot;string&quot;<br>              yearPublished:<br>                type: &quot;integer&quot;<br>                format:
+  &quot;int32&quot;<br>              summary:<br>                type: &quot;string&quot;<br>  /books/{id}/categories:<br>    get:<br>      summary:
+  &quot;Get the categories for a book by id&quot;<br>      operationId: &quot;getCategoriesForBookById&quot;<br>      parameters:<br>        -
+  name: &quot;id&quot;<br>          in: &quot;path&quot;<br>          required: true<br>          type:
+  &quot;integer&quot;<br>          format: &quot;int64&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;The categories for the book with the given id&quot;<br>          schema:<br>            type:
+  &quot;array&quot;<br>            items:<br>              type: &quot;string&quot;<br>  /books/{id}/authors:<br>    get:<br>      summary:
+  &quot;Get the authors for a book by id&quot;<br>      operationId: &quot;getAuthorsForBookById&quot;<br>      parameters:<br>        -
+  name: &quot;id&quot;<br>          in: &quot;path&quot;<br>          required: true<br>          type:
+  &quot;integer&quot;<br>          format: &quot;int64&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;The authors for the book with the given id&quot;<br>          schema:<br>            type:
+  &quot;array&quot;<br>            items:<br>              type: &quot;string&quot;</pre><p>It
+  could have done better by defining the book schema. In fact, that is what I ask
+  next via the following prompt:</p><blockquote>Please update the above specification
+  to use a book schema.</blockquote><p>It comes back with the following:</p><pre>swagger:
+  &quot;2.0&quot;<br>info:<br>  title: &quot;Book Search API&quot;<br>  description:
+  &quot;This API allows you to search for books in a library.&quot;<br>  version:
+  &quot;1.0.0&quot;<br>host: &quot;bookshelf.googleapis.com&quot;<br>schemes:<br>  -
+  &quot;https&quot;<br>paths:<br>  /books:<br>    get:<br>      summary: &quot;Get
+  all books&quot;<br>      operationId: &quot;getAllBooks&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;A list of all books&quot;<br>          schema:<br>            type: &quot;array&quot;<br>            items:<br>              $ref:
+  &quot;#/definitions/Book&quot;<br>  /books/{id}:<br>    get:<br>      summary: &quot;Get
+  a single book by id&quot;<br>      operationId: &quot;getBookById&quot;<br>      parameters:<br>        -
+  name: &quot;id&quot;<br>          in: &quot;path&quot;<br>          required: true<br>          type:
+  &quot;integer&quot;<br>          format: &quot;int64&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;The book with the given id&quot;<br>          schema:<br>            $ref:
+  &quot;#/definitions/Book&quot;<br>  /books/{id}/categories:<br>    get:<br>      summary:
+  &quot;Get the categories for a book by id&quot;<br>      operationId: &quot;getCategoriesForBookById&quot;<br>      parameters:<br>        -
+  name: &quot;id&quot;<br>          in: &quot;path&quot;<br>          required: true<br>          type:
+  &quot;integer&quot;<br>          format: &quot;int64&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;The categories for the book with the given id&quot;<br>          schema:<br>            type:
+  &quot;array&quot;<br>            items:<br>              type: &quot;string&quot;<br>  /books/{id}/authors:<br>    get:<br>      summary:
+  &quot;Get the authors for a book by id&quot;<br>      operationId: &quot;getAuthorsForBookById&quot;<br>      parameters:<br>        -
+  name: &quot;id&quot;<br>          in: &quot;path&quot;<br>          required: true<br>          type:
+  &quot;integer&quot;<br>          format: &quot;int64&quot;<br>      responses:<br>        &quot;200&quot;:<br>          description:
+  &quot;The authors for the book with the given id&quot;<br>          schema:<br>            type:
+  &quot;array&quot;<br>            items:<br>              type: &quot;string&quot;<br>definitions:<br>  Book:<br>    type:
+  &quot;object&quot;<br>    properties:<br>      id:<br>        type: &quot;integer&quot;<br>        format:
+  &quot;int64&quot;<br>      title:<br>        type: &quot;string&quot;<br>      categories:<br>        type:
+  &quot;array&quot;<br>        items:<br>          type: &quot;string&quot;<br>      authors:<br>        type:
+  &quot;array&quot;<br>        items:<br>          type: &quot;string&quot;<br>      yearPublished:<br>        type:
+  &quot;integer&quot;<br>        format: &quot;int32&quot;<br>      summary:<br>        type:
+  &quot;string&quot;</pre><h3>Generate the starter app</h3><p>Now that the OpenAPI
+  Specification has been generated, it would be good to get a starter application
+  template for the API implementation, based on the specification and in a language/framework
+  of your choice. Let’s ask Duet AI for help.</p><p>I save the specification YAML
+  in a file and then give the following prompt:</p><blockquote>Based on the above
+  OpenAPI spec, can you generate a Python Flask App that uses only the Flask framework
+  and will work with a local in memory list of books.</blockquote><p>Duet AI responded
+  with the following:</p><pre>from flask import Flask, jsonify, request<br><br>app
+  = Flask(__name__)<br><br>books = [<br>    {<br>        &quot;id&quot;: 1,<br>        &quot;title&quot;:
+  &quot;The Catcher in the Rye&quot;,<br>        &quot;categories&quot;: [&quot;Fiction&quot;,
+  &quot;Coming of age&quot;],<br>        &quot;authors&quot;: [&quot;J.D. Salinger&quot;],<br>        &quot;yearPublished&quot;:
+  1951,<br>        &quot;summary&quot;: &quot;The Catcher in the Rye is a 1951 novel
+  by J. D. Salinger. Originally published for adults, it has since become popular
+  with adolescent readers for its themes of teenage angst and alienation. The novel
+  has been translated widely. Around one million copies are sold each year with total
+  sales of more than 65 million books.&quot;<br>    },<br>    {<br>        &quot;id&quot;:
+  2,<br>        &quot;title&quot;: &quot;To Kill a Mockingbird&quot;,<br>        &quot;categories&quot;:
+  [&quot;Fiction&quot;, &quot;Southern Gothic&quot;],<br>        &quot;authors&quot;:
+  [&quot;Harper Lee&quot;],<br>        &quot;yearPublished&quot;: 1960,<br>        &quot;summary&quot;:
+  &quot;To Kill a Mockingbird is a novel by American author Harper Lee. It was published
+  in 1960 and was instantly successful. The plot and characters are loosely based
+  on Lee&#39;s observations of her family and neighbors, as well as on an event that
+  occurred near her hometown in 1936, when she was 10 years old.&quot;<br>    },<br>    {<br>        &quot;id&quot;:
+  3,<br>        &quot;title&quot;: &quot;The Great Gatsby&quot;,<br>        &quot;categories&quot;:
+  [&quot;Fiction&quot;, &quot;American literature&quot;],<br>        &quot;authors&quot;:
+  [&quot;F. Scott Fitzgerald&quot;],<br>        &quot;yearPublished&quot;: 1925,<br>        &quot;summary&quot;:
+  &quot;The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald
+  that follows a cast of characters living in the fictional town of West Egg on prosperous
+  Long Island in the summer of 1922.&quot;<br>    }<br>]<br><br>@app.route(&quot;/&quot;)<br>def
+  index():<br>    return jsonify(books)<br><br>@app.route(&quot;/books/&lt;int:id&gt;&quot;,
+  methods=[&quot;GET&quot;])<br>def get_book(id):<br>    book = [book for book in
+  books if book[&quot;id&quot;] == id]<br>    if book:<br>        return jsonify(book[0])<br>    else:<br>        return
+  jsonify({&quot;message&quot;: &quot;Book not found&quot;}), 404<br><br>@app.route(&quot;/books/&lt;int:id&gt;/categories&quot;,
+  methods=[&quot;GET&quot;])<br>def get_categories_for_book(id):<br>    book = [book
+  for book in books if book[&quot;id&quot;] == id]<br>    if book:<br>        return
+  jsonify(book[0][&quot;categories&quot;])<br>    else:<br>        return jsonify({&quot;message&quot;:
+  &quot;Book not found&quot;}), 404<br><br>@app.route(&quot;/books/&lt;int:id&gt;/authors&quot;,
+  methods=[&quot;GET&quot;])<br>def get_authors_for_book(id):<br>    book = [book
+  for book in books if book[&quot;id&quot;] == id]<br>    if book:<br>        return
+  jsonify(book[0][&quot;authors&quot;])<br>    else:<br>        return jsonify({&quot;message&quot;:
+  &quot;Book not found&quot;}), 404<br><br>if __name__ == &quot;__main__&quot;:<br>    app.run()</pre><p>The
+  response from Duet AI also included some information on the endpoints as shown below:</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/1*E2JLovrlAyHmriEIlUJ83w.png"
+  /></figure><p>and instructions on how to run the application.</p><p>This is good
+  stuff and helps me to get up and running with minutes and I have a basic Python
+  Flask implementation for my API.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=15d92e408bf9"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/using-duet-ai-to-generate-a-starter-app-from-an-openapi-specification-15d92e408bf9">Using
+  Duet AI to generate a Starter App from an OpenAPI Specification</a> was originally
+  published in <a href="https://medium.com/google-cloud">Google Cloud - Community</a>
+  on Medium, where people are continuing the conversation by highlighting and responding
+  to this story.</p>'

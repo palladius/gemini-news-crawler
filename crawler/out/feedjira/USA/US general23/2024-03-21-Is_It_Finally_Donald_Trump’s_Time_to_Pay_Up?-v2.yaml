@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 65fc95363b9b71a7879d6261
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Is It Finally Donald Trump’s Time to Pay Up?
+url: https://www.newyorker.com/news/letter-from-bidens-washington/is-it-finally-donald-trumps-time-to-pay-up
+summary: The ex-President, triggered by the thought of losing Trump Tower, contemplates
+  a 2024 reckoning.
+author: Susan B. Glasser
+categories:
+- News / Letter from Biden’s Washington
+published: 2024-03-21 23:08:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65fc95363b9b71a7879d6261
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/65fc954f6deb86ab27bb472a/master/pass/Glasser-Trump-Money-Probs.jpg

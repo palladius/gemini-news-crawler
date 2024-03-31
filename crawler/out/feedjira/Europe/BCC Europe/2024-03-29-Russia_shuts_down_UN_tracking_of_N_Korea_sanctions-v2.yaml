@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BCC Europe (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-asia-68691417#1
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Russia shuts down UN tracking of N Korea sanctions
+url: https://www.bbc.co.uk/news/world-asia-68691417
+summary: The group was investigating Russia's reported violations in using North Korean
+  weapons in Ukraine.
+published: 2024-03-29 04:48:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-asia-68691417#1
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BCC Europe
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12AEC/production/_133042567_kimrussia.png

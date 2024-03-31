@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/28/french-budget-deficit-rose-to-55-in-2023
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: French budget deficit rose to 5.5% in 2023
+url: https://www.euronews.com/2024/03/28/french-budget-deficit-rose-to-55-in-2023
+summary: The French budget deficit rose to 5.5% according to new data by statistical
+  agency Insee. Prime Minister Attal announced welfare cuts could be imposed to lower
+  the budget deficit to 2.7 percent by 2027.
+published: 2024-03-28 17:30:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/28/french-budget-deficit-rose-to-55-in-2023
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,38 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/31/news/hawaii_no_difesa_nato_addestrmento_marines_guerra_pacfico_cina-422402445/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: "“Le Hawaii non saranno difese dalla Nato”. La scoperta shock degli abitanti
+  mentre sull’arcipelago i marines si addestrano alla guerra con la Cina"
+url: https://www.repubblica.it/esteri/2024/03/31/news/hawaii_no_difesa_nato_addestrmento_marines_guerra_pacfico_cina-422402445/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 13:22:27.000000000 Z
+enclosure_length: '65258'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/31/152222342-18f5bdcb-47cd-43e4-869d-95a402917451.jpg
+summary: '<p><a href="https://www.repubblica.it/esteri/2024/03/31/news/hawaii_no_difesa_nato_addestrmento_marines_guerra_pacfico_cina-422402445/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/31/152222342-18f5bdcb-47cd-43e4-869d-95a402917451.jpg"
+  width="140" align="left" hspace="10"></a>Le isole sono diventate Stato solo nel
+  1959, dieci anni dopo la firma del Trattato atlantico. E poi c’è il fattore geografico:
+  in teoria l’Alleanza copre solo Europa e Nord America. Il precedente della guerra
+  delle Falkland del 1982</p>'
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/hawaii_no_difesa_nato_addestrmento_marines_guerra_pacfico_cina-422402445/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

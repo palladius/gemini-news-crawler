@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/opinion/story/2024-03-17/ukraine-mike-johnson-mitch-mcconnell-joe-biden
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Calmes: One Trump puppet stands between Ukraine and the aid it needs '
+url: https://www.latimes.com/opinion/story/2024-03-17/ukraine-mike-johnson-mitch-mcconnell-joe-biden
+summary: "<p>Speaker Mike Johnson says he cares about the fate of Ukraine and Europe.
+  He could prove it by letting the House vote on Biden's aid package. </p>"
+author: Jackie Calmes
+published: 2024-03-17 10:09:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/opinion/story/2024-03-17/ukraine-mike-johnson-mitch-mcconnell-joe-biden
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Speaker Mike Johnson says he cares about the fate of Ukraine and Europe.
+  He could prove it by letting the House vote on Biden's aid package. </p>"

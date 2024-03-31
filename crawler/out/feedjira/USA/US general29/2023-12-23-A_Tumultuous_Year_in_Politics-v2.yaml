@@ -1,0 +1,53 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2023:50-676914
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2023:50-676914
+content: <p><em>Editor&rsquo;s Note:</em> <em>Washington Week With The Atlantic</em>
+  is a partnership between NewsHour Productions, WETA, and <em>The Atlantic</em> airing
+  every Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check
+  your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.
+  <br /></p><p dir="ltr">On Tuesday, Colorado’s Supreme Court disqualified Donald
+  Trump from the state’s primary ballot after determining that his actions on January
+  6, 2021, made him ineligible under the U.S. Constitution’s insurrection clause.</p><p>The
+  Colorado court’s actions come on the precipice of another tumultuous year in politics,
+  one featuring a general election and a likely rematch of the 2020 race between the
+  former and present U.S. presidents.</p><p>Joining editor in chief of <em>The Atlantic</em>
+  and moderator, Jeffrey Goldberg, this week to look back at 2023 and discuss what
+  to expect in 2024 are Lisa Desjardins, correspondent at <em>PBS NewsHour</em>; Adam
+  Harris, staff writer at <em>The Atlantic</em>; Zolan Kanno-Youngs, White House correspondent
+  at <em>The New York Times</em>; and Susan Page, Washington bureau chief at <em>USA
+  Today</em>.</p><p dir="ltr">Read the full transcript <a href="https://www.pbs.org/weta/washingtonweek/video/2023/12/washington-week-with-the-atlantic-full-episode-122223">here</a>.</p><div
+  class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://youtu.be/nHIzE3VOxYA?si=CaSwb9gHSLve9c_P"><iframe
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"
+  class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FnHIzE3VOxYA%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnHIzE3VOxYA&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnHIzE3VOxYA%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube"
+  title="YouTube embed" width="854"></iframe></div>
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/ZBXUFy3vh5hmKNnAbDq3kODyjPo=/media/img/mt/2023/12/Still2_16/original.jpg
+title_type: html
+raw_title: A Tumultuous Year in Politics
+published: 2023-12-23 12:00:00.000000000 Z
+updated: 2023-12-30 14:33:20.000000000 Z
+summary: Watch the full episode of <em>Washington Week With The Atlantic</em>, December
+  22, 2023.
+url: https://www.theatlantic.com/national/archive/2023/12/colorado-supreme-court-trump-2024-washington-week/676914/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2023/12/colorado-supreme-court-trump-2024-washington-week/676914/?utm_source=feed
+title: A Tumultuous Year in Politics
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

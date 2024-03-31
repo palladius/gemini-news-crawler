@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/28/nonsense-putin-rules-out-attacks-on-nato-countries
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'Nonsense': Putin rules out attacks on NATO countries"
+url: https://www.euronews.com/2024/03/28/nonsense-putin-rules-out-attacks-on-nato-countries
+summary: Putin has claimed Russia has no plans to attack NATO countries but will shoot
+  down F-16 fighter jets sent to Ukraine from Western countries.
+published: 2024-03-28 13:22:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/28/nonsense-putin-rules-out-attacks-on-nato-countries
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

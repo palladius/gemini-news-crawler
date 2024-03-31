@@ -1,0 +1,53 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2023:50-676054
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2023:50-676054
+content: <p><em>Editor&rsquo;s Note:</em> <em>Washington Week with The Atlantic</em>
+  is a partnership between NewsHour Productions, WETA, and The Atlantic airing every
+  Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check
+  your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.
+  <br /></p><p dir="ltr">Anger and frustration are growing among some members of House
+  Speaker Mike Johnson’s caucus over government spending. Johnson has a long legislative
+  to-do list when the House returns to Washington after Thanksgiving, and with Republicans
+  holding a razor-thin majority, his moves will be scrutinized by Republicans and
+  Democrats alike.</p><p dir="ltr">Joining this week’s guest moderator of <em>Washington
+  Week With The Atlantic</em>, Lisa Desjardins, to discuss this and more are Carl
+  Hulse, chief Washington correspondent at <em>The New York Times</em>; Nikole Killion,
+  congressional correspondent at CBS News; Toluse Olorunnipa, White House bureau chief
+  at <em>The Washington Post</em>; and Susan Page, Washington bureau chief at <em>USA
+  Today</em>.</p><p data-id="injected-recirculation-link" dir="ltr">Read the full
+  transcript <i>[<a href="https://www.pbs.org/weta/washingtonweek/video/2023/11/washington-week-with-the-atlantic-full-episode-112423">here</a>]</i>.</p><div
+  class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://youtu.be/bPsV_l-8EWE?si=Ef4rxZZMsLNZiZF8"><iframe
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"
+  class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FbPsV_l-8EWE&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbPsV_l-8EWE&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FbPsV_l-8EWE%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube"
+  title="YouTube embed" width="854"></iframe></div>
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/HmepEEMtLG5bQZiarnhYZVOmNds=/media/img/mt/2023/11/WW24-1/original.jpg
+title_type: html
+raw_title: Anger and Frustration Grow in the House
+published: 2023-11-25 23:15:37.000000000 Z
+updated: 2023-11-26 02:27:00.000000000 Z
+summary: Watch the full episode of <em>Washington Week With The Atlantic</em>, November
+  24, 2023
+url: https://www.theatlantic.com/national/archive/2023/11/washington-week-mike-johnson-house-republicans/676054/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2023/11/washington-week-mike-johnson-house-republicans/676054/?utm_source=feed
+title: Anger and Frustration Grow in the House
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

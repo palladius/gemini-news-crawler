@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMioAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s0gGkAWh0dHBzOi8vd3d3LmFuc2EuaXQvYW1wL3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Bnl: anomalie sui conti, clienti segnalano addebiti errati. La banca: ''Problema
+  tecnico risolto'' - Agenzia ANSA'
+url: https://news.google.com/rss/articles/CBMioAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s0gGkAWh0dHBzOi8vd3d3LmFuc2EuaXQvYW1wL3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMioAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s0gGkAWh0dHBzOi8vd3d3LmFuc2EuaXQvYW1wL3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s?oc=5"
+  target="_blank">Bnl: anomalie sui conti, clienti segnalano addebiti errati. La banca:
+  ''Problema tecnico risolto''</a>&nbsp;&nbsp;<font color="#6f6f6f">Agenzia ANSA</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMC9uZXdzL2JubF9wcm9ibGVtaV9vZ2dpLTQyMjQwMDEwMy_SAVNodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2Vjb25vbWlhLzIwMjQvMDMvMzAvbmV3cy9ibmxfcHJvYmxlbWlfb2dnaS00MjI0MDAxMDMvYW1wLw?oc=5"
+  target="_blank">Bnl, addebiti multipli sui conti correnti. La banca: “Anomalia risolta
+  in mattinata, tutte le somme sono già …</a>&nbsp;&nbsp;<font color="#6f6f6f">la
+  Repubblica</font></li><li><a href="https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy5sYW1ldGluby5pdC9VbHRpbW9yYS9wcm9ibGVtaS10ZWNuaWNpLWJubC1hbGxhcm1lLWNvbnRpLXByb3NjaXVnYXRpLWUtYWRkZWJpdGktbXVsdGlwbGktc3VpLWNvbnRpLWNvcnJlbnRpLWRpc2FnaS1hbmNoZS1wZXItY2xpZW50aS1hLWxhbWV6aWEuaHRtbNIBAA?oc=5"
+  target="_blank">Problemi tecnici Bnl, allarme conti prosciugati e addebiti multipli
+  sui conti correnti: disagi anche per clienti a Lamezia</a>&nbsp;&nbsp;<font color="#6f6f6f">Il
+  Lametino</font></li><li><a href="https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3LmlsdGVtcG8uaXQvYXR0dWFsaXRhLzIwMjQvMDMvMzAvbmV3cy9ibmwtcGFuaWNvLWNvcnJlbnRpc3RpLWFub21hbGllLWFkZGViaXRpLW11bHRpcGxpLWNvbnRpLWNoZS1zdWNjZWRlLTM4OTAxNzkwL9IBggFodHRwczovL3d3dy5pbHRlbXBvLml0L2F0dHVhbGl0YS8yMDI0LzAzLzMwL25ld3MvYm5sLXBhbmljby1jb3JyZW50aXN0aS1hbm9tYWxpZS1hZGRlYml0aS1tdWx0aXBsaS1jb250aS1jaGUtc3VjY2VkZS0zODkwMTc5MC9hbXAv?oc=5"
+  target="_blank">Bnl, panico per i correntisti: "Anomalie" e "addebiti multipli".
+  Che succede</a>&nbsp;&nbsp;<font color="#6f6f6f">Il Tempo</font></li><li><a href="https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vd3d3LmFnaS5pdC9lY29ub21pYS9uZXdzLzIwMjQtMDMtMzAvYWRkZWJpdGktc3UtY29udGktYm5sLWFub21hbGlhLXJpc29sdGEtMjU4NjU5ODcv0gFgaHR0cHM6Ly93d3cuYWdpLml0L2Vjb25vbWlhL25ld3MvMjAyNC0wMy0zMC9hZGRlYml0aS1zdS1jb250aS1ibmwtYW5vbWFsaWEtcmlzb2x0YS0yNTg2NTk4Ny9hbXAv?oc=5"
+  target="_blank">Conti bancari svuotati, ma è soltanto un errore tecnico. Bnl risolve</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">AGI - Agenzia Italia</font></li></ol>'
+published: 2024-03-31 12:26:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMioAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s0gGkAWh0dHBzOi8vd3d3LmFuc2EuaXQvYW1wL3NpdG8vbm90aXppZS9lY29ub21pYS9hemllbmRlLzIwMjQvMDMvMzAvYm5sLWFub21hbGllLXN1aS1jb250aS1jbGllbnRpLXNlZ25hbGFuby1hZGRlYml0aS1lcnJhdGktXzFhZTZjNTYyLWE3OTMtNDdlZC05ODc2LTY0NDNlYjFkYjlmZi5odG1s
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

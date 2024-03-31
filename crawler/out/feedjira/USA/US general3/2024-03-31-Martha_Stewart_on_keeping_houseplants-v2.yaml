@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 5fb6f626-2973-4008-b639-5cedb199b7ab
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Martha Stewart on keeping houseplants
+url: https://www.cbsnews.com/video/martha-stewart-on-keeping-houseplants/
+summary: The lifestyle entrepreneur and host of "Martha Gardens" offers advice on
+  how to bring beauty into your home with potted plants, and how to keep them looking
+  their best.
+published: 2024-03-31 16:16:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 5fb6f626-2973-4008-b639-5cedb199b7ab
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

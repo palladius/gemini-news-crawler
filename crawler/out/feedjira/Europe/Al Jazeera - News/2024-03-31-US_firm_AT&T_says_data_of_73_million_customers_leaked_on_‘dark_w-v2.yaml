@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711873513
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: US firm AT&T says data of 73 million customers leaked on ‘dark web’
+url: https://www.aljazeera.com/news/2024/3/31/us-firm-att-says-data-of-73-million-customers-leaked-on-dark-web?traffic_source=rss
+summary: At least 7.6 million existing AT&amp;T account holders and 65.4 million former
+  users hit by the breach, the company says.
+categories:
+- News
+published: 2024-03-31 09:40:27.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711873513
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: pope-francis-calls-predecessor-benedict-191336637.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pope Francis calls predecessor Benedict a key transitional figure
+url: https://www.yahoo.com/news/pope-francis-calls-predecessor-benedict-191336637.html
+published: 2024-03-31 19:13:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: pope-francis-calls-predecessor-benedict-191336637.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/dpa_international_526/7ad001f615c202297ab068d01d0dc878

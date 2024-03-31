@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/spettacoli/cinema-serie-tv/24_marzo_31/cillian-murphy-diventato-vegano-scelta-etica-salute-carne-non-mi-manca-0596ea66-ef4c-11ee-bf07-6534603970e5.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Cillian Murphy è diventato vegano: «Scelta etica e di salute, la carne non
+  mi manca»'
+url: https://www.corriere.it/spettacoli/cinema-serie-tv/24_marzo_31/cillian-murphy-diventato-vegano-scelta-etica-salute-carne-non-mi-manca-0596ea66-ef4c-11ee-bf07-6534603970e5.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Spettacoli/Foto%20Spettacoli%20-%20Trattate/a3e62267-f900-4880-89cf-446d23b70836_16-9-discover-aspect-ratio_default_0-kvyE-U34701127795339AFF-656x492@Corriere-Web-Sezioni.jpg"
+  title="Cillian Murphy è diventato vegano: «Scelta etica e di salute, la carne non
+  mi manca»" alt="Cillian Murphy è diventato vegano: «Scelta etica e di salute, la
+  carne non mi manca»" /><p>La star di «Oppenheimer» ha abbandonato il vegetarianismo
+  per il veganesimo. Ma rivela: «Mi manca terribilmente il formaggio»</p>'
+author: Redazione Spettacoli
+categories:
+- Spettacoli
+published: 2024-03-31 12:20:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/spettacoli/cinema-serie-tv/24_marzo_31/cillian-murphy-diventato-vegano-scelta-etica-salute-carne-non-mi-manca-0596ea66-ef4c-11ee-bf07-6534603970e5.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

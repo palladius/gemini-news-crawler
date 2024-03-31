@@ -1,0 +1,114 @@
+# [NewsFiler v2] NewsPaper: US general24 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=230851
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: California wine country tries to get back to business despite wildfire destruction
+url: http://www.pbs.org/newshour/bb/california-wine-country-tries-get-back-business-despite-wildfire-destruction/
+author: Joanne Jennings
+categories:
+- california wildfires
+- napa county
+- wildfires
+published: 2017-10-16 22:35:59.000000000 Z
+enclosure_length: '11000000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171016_Californiawinecountry.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GHWC-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005716439/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171016_Californiawinecountry.mp3">Listen to the Audio</a></p><p><strong>JUDY WOODRUFF:</strong> Firefighters say they are making some progress battling the wildfires in Northern California. In all, the fires have consumed more than 220,000 acres, an area larger than New York City.</p>
+  <p>More than 5,700 structures have been destroyed. And at least 41 people have died, making it the deadliest wildfire in the state&#8217;s history.</p>
+  <p>The wine industry and the tourism business connected with it are trying to take stock. More than $50 billion in California&#8217;s economy comes from the wine business. And nearly 24 million people visit the region for that reason every year.</p>
+  <p>Special correspondent Joanne Jennings reports from Napa County.</p>
+  <p><strong>JOANNE JENNINGS, </strong>Special Correspondent: The Mayacamas mountain range creates a natural barrier between Sonoma and Napa Counties. And it is here where the massive Nuns fire is posing a tough challenge for some 11,000 firefighters who are taming the blaze with aircraft and units on the ground.</p>
+  <p><strong>CAPT. MARK BRENNERMAN,</strong> Viejas fire Department: We&#8217;re going around and making sure none of these fires that are still smoldering and smoking, we&#8217;re not going to get another big fire out of them.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Even as firefighters are battling shifting winds, owners and workers in Wine Country are trying to determine just how much damage has been done.</p>
+  <p>The tony Highlands gated community was among the first to be consumed by flames when the Atlas fire raced through this canyon, leaving several mansions in rubble. Down the hill, at the Silverado resort, charred remnants of the Safeway PGA Tour remain. The major golf event had just wrapped up last Sunday afternoon, a few hours before flames engulfed tents and grandstands, forcing spectators and athletes to evacuate.</p>
+  <p><strong>MAN:</strong> Do you see how it burned right up to the retaining wall here?</p>
+  <p><strong>JOANNE JENNINGS:</strong> Silverado resident Steve Messina stayed behind and shot video of fire crews containing the flames, which consumed some condos. Within minutes, flames raced three miles down Silverado Trail, home to several storied hillside vineyards.</p>
+  <p>Most wineries in the region have been spared the worst. But hundreds suffered some damage. And at least eight vineyards have been significantly damaged or destroyed.</p>
+  <p>Pierre Birebent, who has been making wines for the family-owned Signorello estate for 20 years, rushed to his winery as quickly as he could.</p>
+  <p><strong>PIERRE BIREBENT,</strong> Signorello Estate Vineyards: I jumped right in my truck, came down, and then when I was riding down, I saw the hill all flaming.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Two vineyard workers joined him to help save the estate&#8217;s tasting room.</p>
+  <p><strong>PIERRE BIREBENT:</strong> But the smoke was getting very thick, and the wind was very strong. And after an hour, we couldn&#8217;t breathe anymore. At the moment, I was so upset. It was rage to see that I couldn&#8217;t do anything. But it was like fighting a giant.</p>
+  <p><strong>JOANNE JENNINGS:</strong> The tasting room, which also housed the winery&#8217;s office and a dining room, burned to the ground. But Birebent says he wants to focused on what survived.</p>
+  <p>Fortunately, he said, the fire stopped short of reaching the vineyard, the crush pad, or any of the barrels of wine stored on site; 95 percent of this year&#8217;s grapes were already picked.</p>
+  <p>But, to be on the safe side, Birebent is taking these samples to a lab to make sure the juice is not too acidic for winemaking. If the crops are OK, a staff of 25 employees will have jobs to return to.</p>
+  <p>As the fires begin to recede and the smoke clears, people here are beginning to wonder when the tourists, who fuel much of the economy, will return.</p>
+  <p>It&#8217;s a serious concern for Andrew and Jeni (ph) Schluter, who are self-employed and are raising a young family.</p>
+  <p><strong>ANDREW SCHLUTER,</strong> Andrew&#8217;s Tours and Transportation: I do wine tours and transportation for people. And my business started to do really, really well. I was on track to have the best month ever.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Andrew just bought this new SUV, which has been idle in his driveway collecting ash. Jeni is a personal trainer and has family who lost their homes in the fires. She&#8217;s just not sure how they&#8217;re going to make ends meet.</p>
+  <p><strong>WOMAN:</strong> I think we&#8217;re just overwhelmed, you know? And uncertainty is kind of scary.</p>
+  <p><strong>ANDREW SCHLUTER:</strong> We will hopefully get by for awhile, but we might make &#8212; have to make some hard decisions shortly.</p>
+  <p><strong>JOANNE JENNINGS:</strong> While fires burn nearby, some vineyards are already open to tourists. At the Raymond Vineyard, workers are crushing grapes at a feverish pitch. The tasting room is open for the first time since the fires started.</p>
+  <p>Jeremy and Erika Moore arrived from Tennessee yesterday. They considered canceling their trip, but decided the best way they could help people here is to give them their business.</p>
+  <p><strong>JEREMY MOORE,</strong> Tourist: On the one hand, a few hundred yards from here, you can see them shuttling up with the helicopters fighting fires, but then here it&#8217;s beautiful. They are doing some great tastings, and they are working outside on the crops. So, it&#8217;s a weird combination of tragedy, but then at the same time business must go on, too.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Proprietor Jean-Charles Boisset owns several wineries in California, France and Canada, but like many other people here, he and his family had to evacuate their home when the flames came dangerously close.</p>
+  <p>Still, he is bullish about the future of the wine industry in this region.</p>
+  <p><strong>JEAN-CHARLES BOISSET,</strong> Boisset Collection: Napa has been one of the most amazing agricultural places in California for a long time, so it will survive those fires. What I love, as a Frenchman here in California, is that amazing American positive attitude.</p>
+  <p>We will recover. We will walk again, run again, and we will welcome all our guests and give them the dreams of fine wine.</p>
+  <p><strong>JOANNE JENNINGS:</strong> For the PBS NewsHour, I&#8217;m Joanne Jennings in Napa Valley, California.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/california-wine-country-tries-get-back-business-despite-wildfire-destruction/">California wine country tries to get back to business despite wildfire destruction</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=230851
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general24
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/california-wine-country-tries-get-back-business-despite-wildfire-destruction/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005716439/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>JUDY WOODRUFF:</strong> Firefighters say they are making some progress battling the wildfires in Northern California. In all, the fires have consumed more than 220,000 acres, an area larger than New York City.</p>
+  <p>More than 5,700 structures have been destroyed. And at least 41 people have died, making it the deadliest wildfire in the state&#8217;s history.</p>
+  <p>The wine industry and the tourism business connected with it are trying to take stock. More than $50 billion in California&#8217;s economy comes from the wine business. And nearly 24 million people visit the region for that reason every year.</p>
+  <p>Special correspondent Joanne Jennings reports from Napa County.</p>
+  <p><strong>JOANNE JENNINGS, </strong>Special Correspondent: The Mayacamas mountain range creates a natural barrier between Sonoma and Napa Counties. And it is here where the massive Nuns fire is posing a tough challenge for some 11,000 firefighters who are taming the blaze with aircraft and units on the ground.</p>
+  <p><strong>CAPT. MARK BRENNERMAN,</strong> Viejas fire Department: We&#8217;re going around and making sure none of these fires that are still smoldering and smoking, we&#8217;re not going to get another big fire out of them.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Even as firefighters are battling shifting winds, owners and workers in Wine Country are trying to determine just how much damage has been done.</p>
+  <p>The tony Highlands gated community was among the first to be consumed by flames when the Atlas fire raced through this canyon, leaving several mansions in rubble. Down the hill, at the Silverado resort, charred remnants of the Safeway PGA Tour remain. The major golf event had just wrapped up last Sunday afternoon, a few hours before flames engulfed tents and grandstands, forcing spectators and athletes to evacuate.</p>
+  <p><strong>MAN:</strong> Do you see how it burned right up to the retaining wall here?</p>
+  <p><strong>JOANNE JENNINGS:</strong> Silverado resident Steve Messina stayed behind and shot video of fire crews containing the flames, which consumed some condos. Within minutes, flames raced three miles down Silverado Trail, home to several storied hillside vineyards.</p>
+  <p>Most wineries in the region have been spared the worst. But hundreds suffered some damage. And at least eight vineyards have been significantly damaged or destroyed.</p>
+  <p>Pierre Birebent, who has been making wines for the family-owned Signorello estate for 20 years, rushed to his winery as quickly as he could.</p>
+  <p><strong>PIERRE BIREBENT,</strong> Signorello Estate Vineyards: I jumped right in my truck, came down, and then when I was riding down, I saw the hill all flaming.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Two vineyard workers joined him to help save the estate&#8217;s tasting room.</p>
+  <p><strong>PIERRE BIREBENT:</strong> But the smoke was getting very thick, and the wind was very strong. And after an hour, we couldn&#8217;t breathe anymore. At the moment, I was so upset. It was rage to see that I couldn&#8217;t do anything. But it was like fighting a giant.</p>
+  <p><strong>JOANNE JENNINGS:</strong> The tasting room, which also housed the winery&#8217;s office and a dining room, burned to the ground. But Birebent says he wants to focused on what survived.</p>
+  <p>Fortunately, he said, the fire stopped short of reaching the vineyard, the crush pad, or any of the barrels of wine stored on site; 95 percent of this year&#8217;s grapes were already picked.</p>
+  <p>But, to be on the safe side, Birebent is taking these samples to a lab to make sure the juice is not too acidic for winemaking. If the crops are OK, a staff of 25 employees will have jobs to return to.</p>
+  <p>As the fires begin to recede and the smoke clears, people here are beginning to wonder when the tourists, who fuel much of the economy, will return.</p>
+  <p>It&#8217;s a serious concern for Andrew and Jeni (ph) Schluter, who are self-employed and are raising a young family.</p>
+  <p><strong>ANDREW SCHLUTER,</strong> Andrew&#8217;s Tours and Transportation: I do wine tours and transportation for people. And my business started to do really, really well. I was on track to have the best month ever.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Andrew just bought this new SUV, which has been idle in his driveway collecting ash. Jeni is a personal trainer and has family who lost their homes in the fires. She&#8217;s just not sure how they&#8217;re going to make ends meet.</p>
+  <p><strong>WOMAN:</strong> I think we&#8217;re just overwhelmed, you know? And uncertainty is kind of scary.</p>
+  <p><strong>ANDREW SCHLUTER:</strong> We will hopefully get by for awhile, but we might make &#8212; have to make some hard decisions shortly.</p>
+  <p><strong>JOANNE JENNINGS:</strong> While fires burn nearby, some vineyards are already open to tourists. At the Raymond Vineyard, workers are crushing grapes at a feverish pitch. The tasting room is open for the first time since the fires started.</p>
+  <p>Jeremy and Erika Moore arrived from Tennessee yesterday. They considered canceling their trip, but decided the best way they could help people here is to give them their business.</p>
+  <p><strong>JEREMY MOORE,</strong> Tourist: On the one hand, a few hundred yards from here, you can see them shuttling up with the helicopters fighting fires, but then here it&#8217;s beautiful. They are doing some great tastings, and they are working outside on the crops. So, it&#8217;s a weird combination of tragedy, but then at the same time business must go on, too.</p>
+  <p><strong>JOANNE JENNINGS:</strong> Proprietor Jean-Charles Boisset owns several wineries in California, France and Canada, but like many other people here, he and his family had to evacuate their home when the flames came dangerously close.</p>
+  <p>Still, he is bullish about the future of the wine industry in this region.</p>
+  <p><strong>JEAN-CHARLES BOISSET,</strong> Boisset Collection: Napa has been one of the most amazing agricultural places in California for a long time, so it will survive those fires. What I love, as a Frenchman here in California, is that amazing American positive attitude.</p>
+  <p>We will recover. We will walk again, run again, and we will welcome all our guests and give them the dreams of fine wine.</p>
+  <p><strong>JOANNE JENNINGS:</strong> For the PBS NewsHour, I&#8217;m Joanne Jennings in Napa Valley, California.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/california-wine-country-tries-get-back-business-despite-wildfire-destruction/">California wine country tries to get back to business despite wildfire destruction</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '5:53'
+itunes_summary: Firefighters are making progress taming the wildfires that have consumed
+  more than 220,000 acres across Northern California and killed at least 41 people.
+  Special correspondent Joanne Jennings reports from Napa County, where crews are
+  battling shifting winds, and owners and workers from wine country return to determine
+  how much damage has been done.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GHWC-1024x656.jpg

@@ -1,0 +1,73 @@
+# [NewsFiler v2] NewsPaper: US general24 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=230883
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "summary", "entry_id", "comments", "content", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: San Antonio truck driver pleads guilty in fatal human smuggling case
+url: http://www.pbs.org/newshour/rundown/san-antonio-truck-driver-pleads-guilty-fatal-human-smuggling-case/
+author: Joshua Barajas
+categories:
+- human smuggling
+- immigration
+- James Matthew Bradley
+- Jr.
+- San Antonio
+- texas
+published: 2017-10-17 14:44:25.000000000 Z
+summary: |
+  <div id="attachment_222624" class="wp-caption aligncenter" style="width: 2139px"><img class="size-full wp-image-222624" src="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3CLEZ.jpg" alt="Police officers work on a crime scene after 10 undocumented immigrants being smuggled into the U.S. were found dead inside a sweltering 18-wheeler trailer parked behind a Walmart store in San Antonio. Photo by Ray Whitehouse/Reuters" width="2139" height="1320" srcset="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3CLEZ.jpg 2139w, http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3CLEZ-300x185.jpg 300w, http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3CLEZ-1024x632.jpg 1024w" sizes="(max-width: 2139px) 100vw, 2139px" /><p class="wp-caption-text">Police officers work on a crime scene after 10 undocumented immigrants being smuggled into the U.S. were found dead inside a sweltering 18-wheeler trailer parked behind a Walmart store in San Antonio. Photo by Ray Whitehouse/Reuters</p></div>
+  <p>A 61-year-old San Antonio man pleaded guilty to two federal charges in the human smuggling incident that led to the deaths of 10 undocumented immigrants this summer.</p>
+  <p>James Matthew Bradley Jr., who appeared before a U.S. magistrate judge Monday, pleaded guilty to &#8220;one count of conspiracy to transport aliens resulting in death and one count of transporting aliens resulting in death,&#8221; according to a <a href="https://www.justice.gov/usao-wdtx/pr/james-matthew-bradley-jr-pleads-guilty-transporting-undocumented-aliens-resulting-death">statement</a> from the U.S. Attorney&#8217;s Office for the Western District of Texas.</p>
+  <p>The office added that Bradley&#8217;s &#8220;admission of guilt&#8221; meant he packed dozens of unauthorized immigrants into a tractor-trailer for financial gain, adding that the suspect confirmed that details from court documents were &#8220;factually correct.&#8221;</p>
+  <p>On July 23, San Antonio Police Department officers responded to a call from a Walmart employee shortly past midnight. Once officers arrived, they found 39 immigrants at the scene. Of those carried in the tractor-trailer, eight were found dead in the rear of the trailer, while two died later at nearby hospitals, the statement said.</p>
+  <p>Survivors of the incident said there was <a href="http://www.pbs.org/newshour/bb/death-migrants-texas-shows-dangers-human-smuggling/">no air conditioning in the overheated trailer</a> and had to take turns to breath through a hole in the back of the truck for air. Bradley also initially told investigators that he was unaware of the immigrants in the trailer until he had stopped at the Walmart in San Antonio for bathroom break.</p>
+  <p>The attorney&#8217;s office also said Bradley faces up to life in prison with the charges and that he is scheduled to be sentenced in January 2018. Immigrants said there were up to 200 people transported on the trailer and that different fees were quoted to them for the ride north from the U.S.-Mexico border, the statement added.</p>
+  <p>Jason Buch of San Antonio Express-News told the NewsHour earlier this year that Border Patrol agents in Laredo, Texas, reported an uptick of immigrants using tractor-trailers to get pass checkpoints at the border.</p>
+  <p>“People are usually going on to major metropolitan areas or regions of the country that employ a lot of immigrant laborers, so, areas with large agriculture industries or construction booms,” Buch said.</p>
+  <p><iframe class='youtube-player' type='text/html' width='689' height='418' src='http://www.youtube.com/embed/Yt4NpM4Wa5w?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></p>
+  <p><em>The NewsHour&#8217;s John Yang learned more about the July human smuggling case and immigration politics from Jason Buch of San Antonio Express News.</em></p>
+  <p>Shane M. Folden, special agent in charge of homeland security investigations in San Antonio, said in the statement that the proceeding &#8220;helps to close the door on one of the conspirators responsible for causing the tragic loss of life and wreaking havoc on those who survived this horrific incident.&#8221;</p>
+  <p>“This case is a glaring reminder that alien smugglers are driven by greed and have little regard for the health and well-being of their human cargo, which can prove to be a deadly combination,&#8221; he added.</p>
+  <p>Bradley&#8217;s co-defendant Pedro Silva Segura was also indicted last month with faces two counts of conspiracy and two counts of transporting undocumented immigrants resulting in serious bodily injury and placing lives in jeopardy.</p>
+  <p>Segura, 47, is an undocumented immigrant who resides in Laredo, Texas.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/san-antonio-truck-driver-pleads-guilty-fatal-human-smuggling-case/">San Antonio truck driver pleads guilty in fatal human smuggling case</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=230883
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general24
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- summary
+- entry_id
+- comments
+- content
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/rundown/san-antonio-truck-driver-pleads-guilty-fatal-human-smuggling-case/#respond
+content: |
+  <div id="attachment_222624" class="wp-caption aligncenter" style="width: 2139px"></div>
+  <p>A 61-year-old San Antonio man pleaded guilty to two federal charges in the human smuggling incident that led to the deaths of 10 undocumented immigrants this summer.</p>
+  <p>James Matthew Bradley Jr., who appeared before a U.S. magistrate judge Monday, pleaded guilty to &#8220;one count of conspiracy to transport aliens resulting in death and one count of transporting aliens resulting in death,&#8221; according to a <a href="https://www.justice.gov/usao-wdtx/pr/james-matthew-bradley-jr-pleads-guilty-transporting-undocumented-aliens-resulting-death">statement</a> from the U.S. Attorney&#8217;s Office for the Western District of Texas.</p>
+  <p>The office added that Bradley&#8217;s &#8220;admission of guilt&#8221; meant he packed dozens of unauthorized immigrants into a tractor-trailer for financial gain, adding that the suspect confirmed that details from court documents were &#8220;factually correct.&#8221;</p>
+  <p>On July 23, San Antonio Police Department officers responded to a call from a Walmart employee shortly past midnight. Once officers arrived, they found 39 immigrants at the scene. Of those carried in the tractor-trailer, eight were found dead in the rear of the trailer, while two died later at nearby hospitals, the statement said.</p>
+  <p>Survivors of the incident said there was <a href="http://www.pbs.org/newshour/bb/death-migrants-texas-shows-dangers-human-smuggling/">no air conditioning in the overheated trailer</a> and had to take turns to breath through a hole in the back of the truck for air. Bradley also initially told investigators that he was unaware of the immigrants in the trailer until he had stopped at the Walmart in San Antonio for bathroom break.</p>
+  <p>The attorney&#8217;s office also said Bradley faces up to life in prison with the charges and that he is scheduled to be sentenced in January 2018. Immigrants said there were up to 200 people transported on the trailer and that different fees were quoted to them for the ride north from the U.S.-Mexico border, the statement added.</p>
+  <p>Jason Buch of San Antonio Express-News told the NewsHour earlier this year that Border Patrol agents in Laredo, Texas, reported an uptick of immigrants using tractor-trailers to get pass checkpoints at the border.</p>
+  <p>“People are usually going on to major metropolitan areas or regions of the country that employ a lot of immigrant laborers, so, areas with large agriculture industries or construction booms,” Buch said.</p>
+  <p><iframe class='youtube-player' type='text/html' width='689' height='418' src='http://www.youtube.com/embed/Yt4NpM4Wa5w?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></p>
+  <p><em>The NewsHour&#8217;s John Yang learned more about the July human smuggling case and immigration politics from Jason Buch of San Antonio Express News.</em></p>
+  <p>Shane M. Folden, special agent in charge of homeland security investigations in San Antonio, said in the statement that the proceeding &#8220;helps to close the door on one of the conspirators responsible for causing the tragic loss of life and wreaking havoc on those who survived this horrific incident.&#8221;</p>
+  <p>“This case is a glaring reminder that alien smugglers are driven by greed and have little regard for the health and well-being of their human cargo, which can prove to be a deadly combination,&#8221; he added.</p>
+  <p>Bradley&#8217;s co-defendant Pedro Silva Segura was also indicted last month with faces two counts of conspiracy and two counts of transporting undocumented immigrants resulting in serious bodily injury and placing lives in jeopardy.</p>
+  <p>Segura, 47, is an undocumented immigrant who resides in Laredo, Texas.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/san-antonio-truck-driver-pleads-guilty-fatal-human-smuggling-case/">San Antonio truck driver pleads guilty in fatal human smuggling case</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: A 61-year-old San Antonio man pleaded guilty to two federal charges
+  in the human smuggling incident that led to the deaths of 10 undocumented immigrants
+  this summer.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3CLEZ-1024x632.jpg

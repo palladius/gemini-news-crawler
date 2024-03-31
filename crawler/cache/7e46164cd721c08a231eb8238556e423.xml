@@ -9,11 +9,19 @@
             <link>https://www.bbc.co.uk/news/world/us_and_canada</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 31 Mar 2024 09:08:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Mar 2024 20:23:26 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Stop stealing from Air Force One, journalists told]]></title>
+            <description><![CDATA[Pillowcases and plates are among items that have reportedly vanished from the US president's plane.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68702982</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68702982#0</guid>
+            <pubDate>Sun, 31 Mar 2024 13:44:14 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/829B/production/_133053433_gettyimages-2074381629.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Trump posts video of truck showing hog-tied Biden]]></title>
             <description><![CDATA[The Biden campaign condemns the video, accusing Donald Trump of "regularly inciting political violence".]]></description>
@@ -31,20 +39,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/214D/production/_133052580_gettyimages-1502654186.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Watch: Man's miraculous near-miss from runaway saw blade]]></title>
-            <description><![CDATA[Seconds after entering a shop in the US, the blade from a nearby construction site becomes lodged in the door.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68702031</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68702031#0</guid>
-            <pubDate>Sun, 31 Mar 2024 04:22:57 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/142C1/production/_133052628_p0hmz367.jpg"/>
+            <title><![CDATA[Eight Chinese migrants found dead on Mexico beach]]></title>
+            <description><![CDATA[The group were in a boat that capsized along a route used by people trying to reach the US.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68703354</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68703354#0</guid>
+            <pubDate>Sun, 31 Mar 2024 12:39:43 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9817/production/_133053983_de40.jpg"/>
         </item>
         <item>
-            <title><![CDATA[US sends weapons to Israel despite Gaza toll unease]]></title>
-            <description><![CDATA[The delivery of arms to Israel comes as the US expresses concern over deaths and suffering amongst Gaza's residents.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-68698357</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-68698357#0</guid>
-            <pubDate>Sat, 30 Mar 2024 14:09:04 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65F9/production/_133050162_mediaitem133050161.jpg"/>
+            <title><![CDATA[Beyoncé album is missing tracks on vinyl, fans say]]></title>
+            <description><![CDATA[Fans who pre-ordered physical copies of the star's latest album say they have been short-changed.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-68702870</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68702870#0</guid>
+            <pubDate>Sun, 31 Mar 2024 11:28:17 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9493/production/_133053083_beyonce-tour.jpg"/>
         </item>
         <item>
             <title><![CDATA[Data from 73 million AT&T accounts leaked online]]></title>
@@ -55,20 +63,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D0B1/production/_133052435_336b72622cd29215f65329aecb5e6516f81229530_0_2977_20461000x687.jpg"/>
         </item>
         <item>
+            <title><![CDATA[US sends weapons to Israel despite Gaza toll unease]]></title>
+            <description><![CDATA[The delivery of arms to Israel comes as the US expresses concern over deaths and suffering amongst Gaza's residents.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-68698357</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-68698357#0</guid>
+            <pubDate>Sat, 30 Mar 2024 14:09:04 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65F9/production/_133050162_mediaitem133050161.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Police on horseback chase down suspect]]></title>
             <description><![CDATA[Police bodycam showed the suspected shoplifter trying to run across three lanes of traffic.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68701787</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68701787#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68701787#1</guid>
             <pubDate>Sat, 30 Mar 2024 21:50:27 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11251/production/_133052207_p0hmyhxz.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Canada's drug experiment hits strong opposition]]></title>
-            <description><![CDATA[The test policy to help address a deadly drug crisis in British Columbia faces public backlash and political challenges.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68621012</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68621012#0</guid>
-            <pubDate>Sat, 30 Mar 2024 01:02:13 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DA92/production/_133045955_guy6.jpg"/>
         </item>
         <item>
             <title><![CDATA[FDA issues alert on heart pump linked to 49 deaths]]></title>
@@ -77,6 +85,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-latin-america-68698626#1</guid>
             <pubDate>Sat, 30 Mar 2024 14:51:37 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BE9A/production/_133049784_gettyimages-1032111798.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Canada's drug experiment hits strong opposition]]></title>
+            <description><![CDATA[The test policy to help address a deadly drug crisis in British Columbia faces public backlash and political challenges.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68621012</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68621012#1</guid>
+            <pubDate>Sat, 30 Mar 2024 01:02:13 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DA92/production/_133045955_guy6.jpg"/>
         </item>
         <item>
             <title><![CDATA[Massive crane to haul wreckage of Baltimore bridge]]></title>

@@ -1,0 +1,40 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/business/2024/mar/28/baltimore-bridge-collapse-could-lead-to-record-insurance-loss-says-lloyds-boss
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Baltimore bridge collapse could lead to record insurance loss, says Lloyd’s
+  boss
+url: https://www.theguardian.com/business/2024/mar/28/baltimore-bridge-collapse-could-lead-to-record-insurance-loss-says-lloyds-boss
+summary: <p>Bruce Carnegie-Brown says disaster could cost billions and result in largest
+  single marine insurance loss ever</p><p>The collapse of Baltimore’s Francis Scott
+  Key Bridge is likely to lead to the largest single marine insurance loss ever, the
+  chair of Lloyd’s of London has said.</p><p>Bruce Carnegie-Brown said he expected
+  to see insurers incur multibillion-dollar losses after the disaster, which resulted
+  in the deaths of at least two people, with four others missing and presumed dead.</p>
+  <a href="https://www.theguardian.com/business/2024/mar/28/baltimore-bridge-collapse-could-lead-to-record-insurance-loss-says-lloyds-boss">Continue
+  reading...</a>
+author: Jack Simpson
+categories:
+- Lloyd's
+- Insurance industry
+- Baltimore bridge collapse
+- Business
+- US news
+- World news
+published: 2024-03-28 11:15:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/business/2024/mar/28/baltimore-bridge-collapse-could-lead-to-record-insurance-loss-says-lloyds-boss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/3d8610f0adbae0d1bee242b15ae5173211b84773/10_8_1768_1061/master/1768.jpg?width=140&quality=85&auto=format&fit=max&s=c993be2e430ef1625648695b0222df6d

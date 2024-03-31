@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general1 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://abcnews.go.com/US/wireStory/oklahoma-state-patrol-diverting-traffic-after-barge-hit-108683817
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " Oklahoma State Patrol says it is diverting traffic after a barge hit a bridge"
+url: https://abcnews.go.com/US/wireStory/oklahoma-state-patrol-diverting-traffic-after-barge-hit-108683817
+summary: The Oklahoma State Patrol says it closed a highway south of Sallisaw after
+  a barge struck a bridge over the Arkansas River
+categories:
+- US
+published: 2024-03-31 00:30:26.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://abcnews.go.com/US/wireStory/oklahoma-state-patrol-diverting-traffic-after-barge-hit-108683817
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general1
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- image
+image: https://s.abcnews.com/images/US/wirestory_b5b23e261d82624a4c77334a16af139f_4x3_384.jpg

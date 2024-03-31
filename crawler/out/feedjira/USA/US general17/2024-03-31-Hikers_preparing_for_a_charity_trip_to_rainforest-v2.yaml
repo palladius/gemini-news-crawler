@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: hikers-preparing-charity-trip-rainforest-083932022.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hikers preparing for a charity trip to rainforest
+url: https://www.yahoo.com/news/hikers-preparing-charity-trip-rainforest-083932022.html
+published: 2024-03-31 08:39:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: hikers-preparing-charity-trip-rainforest-083932022.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/bbc_us_articles_995/1fbfb93c2489fab4b667ae45f24a33f0

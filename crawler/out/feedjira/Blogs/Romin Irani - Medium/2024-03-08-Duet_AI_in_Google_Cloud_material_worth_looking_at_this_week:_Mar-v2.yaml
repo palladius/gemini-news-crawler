@@ -1,0 +1,66 @@
+# [NewsFiler v2] NewsPaper: Romin Irani - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/298196dbd3c8
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Duet AI in Google Cloud material worth looking at this week: March 4, 2024'
+url: https://medium.com/google-cloud/duet-ai-in-google-cloud-material-worth-looking-at-this-week-march-4-2024-298196dbd3c8?source=rss-802a4d428d95------2
+author: Romin Irani
+categories:
+- gemini
+- duet-ai
+- generative-ai
+- google-cloud-platform
+- machine-learning
+published: 2024-03-08 04:44:17.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/298196dbd3c8
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Romin Irani - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: "<p>A selection of Duet AI in Google Cloud materials that are worth your
+  attention.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/316/0*w5mOtHVpRnSxVAuK.png\"
+  /></figure><p><strong>Developer and Operational Productivity in Google Cloud with
+  Duet AI</strong></p><p>This is an excellent session that can be one that you can
+  use both for your own understanding and also across the organization. It manages
+  to cover a whole range of topics from developer productivity, what problem Duet
+  AI addresses, key areas that Duet AI can help out developers and demonstrations
+  of the same. I liked the take on how Developer Productivity, which if boosted through
+  tools like Duet AI, can directly influence positive business outcomes.</p><iframe
+  src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FjpmmC6GATRc%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjpmmC6GATRc&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FjpmmC6GATRc%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube\"
+  width=\"854\" height=\"480\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/dabc080d9919caeef91a71ef036024f2/href\">https://medium.com/media/dabc080d9919caeef91a71ef036024f2/href</a></iframe><p><strong>Code
+  Vipassana Season 5 Session 3: Duet AI to accelerate test driven development</strong></p><p>Test
+  Driven Development is a key methodology when working with an existing code base
+  and then introducing new functionality. Duet AI is well suited to this since it
+  supports you with Code explanaibility, code generation, test case generation and
+  documentation. If you get this technique right and Duet AI works well, you are bound
+  to see a good productivity improvement and still ensuring a code % of code coverage.
+  This session uses the Ruby language, so a good way for you to even check out how
+  well Duet AI supports the language.</p><iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FOIv68OWuEXk&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOIv68OWuEXk&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FOIv68OWuEXk%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube\"
+  width=\"854\" height=\"480\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/1242d4c64c964685bb3a78f443212061/href\">https://medium.com/media/1242d4c64c964685bb3a78f443212061/href</a></iframe><p><strong>Duet
+  AI for building a Chrome Extension app in JavaScript</strong></p><p>This is an interesting
+  session from Code Vipassana Season 5 again. This time, you build out a Chrome Extension
+  with Duet AI’s assistance. The essence of such a session is to show that you could
+  pretty use Duet AI for a wide variety of tasks. Often folks ask this question on
+  how well Duet AI will work for a specific language, framework or task? The usual
+  answer that I give is … try it.</p><iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fp8_m6bG3iwQ%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dp8_m6bG3iwQ&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fp8_m6bG3iwQ%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube\"
+  width=\"854\" height=\"480\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/23163a0dd7a395db11470ef20d704cf0/href\">https://medium.com/media/23163a0dd7a395db11470ef20d704cf0/href</a></iframe><p>\U0001F449
+  For all Duet AI resources, check out the Github Repo: <a href=\"https://lnkd.in/deY9zWn9\">https://lnkd.in/deY9zWn9</a></p><p>\U0001F449
+  If you’d like to share an article you wrote or came across on Duet AI, please submit
+  to the repo and/or share in the comments.</p><p>\U0001F449 If you’d consider sharing
+  a blog on <a href=\"https://medium.com/google-cloud\">Google Cloud Community publication</a>,
+  do reach out.</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=298196dbd3c8\"
+  width=\"1\" height=\"1\" alt=\"\"><hr><p><a href=\"https://medium.com/google-cloud/duet-ai-in-google-cloud-material-worth-looking-at-this-week-march-4-2024-298196dbd3c8\">Duet
+  AI in Google Cloud material worth looking at this week: March 4, 2024</a> was originally
+  published in <a href=\"https://medium.com/google-cloud\">Google Cloud - Community</a>
+  on Medium, where people are continuing the conversation by highlighting and responding
+  to this story.</p>"

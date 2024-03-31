@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/video/2024/03/29/watch-aftermath-of-deadly-cyclone-gamane-in-madagascar
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'WATCH: Aftermath of deadly cyclone Gamane in Madagascar'
+url: https://www.euronews.com/video/2024/03/29/watch-aftermath-of-deadly-cyclone-gamane-in-madagascar
+summary: The storm killed 18 people and left four missing after making landfall on
+  the north of the Indian Ocean island nation earlier this week, authorities said
+  on Friday.
+published: 2024-03-29 19:01:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/video/2024/03/29/watch-aftermath-of-deadly-cyclone-gamane-in-madagascar
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

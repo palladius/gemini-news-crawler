@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/28/just-miserable-wars-toll-on-palestinian-children-stuns-doctors
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'Just miserable': War's toll on Palestinian children stuns doctors "
+url: https://www.euronews.com/2024/03/28/just-miserable-wars-toll-on-palestinian-children-stuns-doctors
+summary: Gut-wrenching child casualties from Israeli strikes were described to reporters
+  by medics.
+published: 2024-03-28 07:03:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/28/just-miserable-wars-toll-on-palestinian-children-stuns-doctors
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

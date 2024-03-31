@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/16/success/husbands-wives-earning-division-of-labor-pew-survey/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Even when wives make as much as husbands, they still do more at home
+url: https://www.cnn.com/2023/04/16/success/husbands-wives-earning-division-of-labor-pew-survey/index.html
+summary: |-
+  • Four out of the five US metro areas with the lowest unemployment are in Florida. Here's why
+  • Opinion: The overlooked problem with raising the retirement age for Social Security
+published: 2023-04-16 17:29:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/16/success/husbands-wives-earning-division-of-labor-pew-survey/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230414164019-husbands-wives-earnings-stock-super-169.jpg

@@ -1,0 +1,43 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497457
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Il Libano denuncia all’Onu l’attacco al personale Unifil. Netanyahu sarà operato
+  per un’ernia: interim al ministro della Giustizia'
+url: https://www.ilfattoquotidiano.it/2024/03/31/netanyahu-sara-operato-per-unernia-durante-loperazione-interim-al-ministro-della-giustizia/7497457/
+summary: |
+  <p>Il Libano presenterà una denuncia &#8220;urgente&#8221; al Consiglio di sicurezza dell&#8217;Onu per l&#8217;attacco attribuito a Israele che ha colpito un gruppo di osservatori internazionali della missione Unifil. Per Beirut si è trattato di una &#8220;violazione internazionale e umanitaria&#8221;. Nell’attacco sono rimasti feriti 4 addetti della missione di diverse nazionalità (cilena, norvegese, australiano, libanese). Beirut ha [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/netanyahu-sara-operato-per-unernia-durante-loperazione-interim-al-ministro-della-giustizia/7497457/">Il Libano denuncia all&#8217;Onu l&#8217;attacco al personale Unifil. Netanyahu sarà operato per un&#8217;ernia: interim al ministro della Giustizia</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Mondo
+- Benjamin Netanyahu
+- Israele
+published: 2024-03-31 14:11:52.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497457
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/netanyahu-sara-operato-per-unernia-durante-loperazione-interim-al-ministro-della-giustizia/7497457/#comments
+content: |
+  <p>Il <strong>Libano</strong> presenterà una denuncia &#8220;urgente&#8221; al<strong> Consiglio di sicurezza dell&#8217;Onu</strong> per l&#8217;attacco attribuito a <strong>Israele</strong> che ha colpito un gruppo di osservatori internazionali della missione Unifil. Per Beirut si è trattato di una &#8220;violazione internazionale e umanitaria&#8221;. Nell’attacco sono rimasti feriti 4 addetti della missione di diverse nazionalità (cilena, norvegese, australiano, libanese). Beirut ha contestato &#8220;gli attacchi contro le forze di pace dell’Onu, che continuano dopo gli attacchi contro i giornalisti, soccorritori, bambini, donne e bambini”, come scrive il quotidiano <em>L&#8217;Orient Le Jour</em>. Il ministro degli Esteri <strong>Abdallah Bou Habib</strong> ha avuto un colloquio con il comandante in capo dell’Unifil, il generale spagnolo <strong>Aroldo Lazaro</strong>, e ha espresso la necessità di “garantire la sicurezza degli impiegati delle Nazioni Unite, <strong>proteggere i civili</strong> e intervenire rapidamente per porre fine alle violazioni israeliane applicando pienamente la Risoluzione 1701 dell’Onu” che ha messo fine alla guerra tra <strong>Hezbollah</strong> e <strong>Libano</strong> nel <strong>2006</strong>. In mattinata era stato il segretario generale delle Nazioni Unite <strong>Antonio Guterres</strong> a condannare l&#8217;episodio di ieri, esprimendo &#8220;forte preoccupazione&#8221;.</p>
+  <p>Sull&#8217;altro fronte, oltre alle bocche di fuoco israeliane, pare siano tornate a muoversi anche le attività diplomatiche. L’ufficiale di più alto rango delle forze armate degli Stati Uniti ha presentato al comandante in capo dell’esercito israeliano la proposta di Washington per un’alternativa all’offensiva di terra ipotizzata da Israele nella città di <strong>Rafah</strong>, nel sud della Striscia di Gaza. Il capo dello stato maggiore congiunto americano <strong>Charles Q. Brown</strong> ha avuto nei giorni scorsi una conversazione con il capo di stato maggiore dell&#8217;Idf <strong>Herzi Halevi </strong>durante la quale ha comunicato che gli Usa &#8220;non accetteranno&#8221; vittime civili di massa a Rafah, un&#8217;eventualità che lo stesso presidente americano <strong>Joe Biden</strong> aveva definito una &#8220;linea rossa&#8221; da non superare. La proposta di Washington riassunta da Brown includerebbe la messa in sicurezza del confine tra la<strong> Striscia di Gaza</strong> e l’<strong>Egitto</strong> con strumenti tecnologici per impedire il contrabbando di armi attraverso il cosiddetto Corridoio Filadelfia, l’isolamento della città di Rafah, il lancio di raid mirati e l’istituzione di un control room congiunta per coordinarsi sulle operazioni.</p>
+  <p>Ma il governo di Tel Aviv spera di poter passare presto all&#8217;azione nell&#8217;ultima città di Gaza non ancora coinvolta in un&#8217;operazione di terra d&#8217;Israele. Non a caso il ministro della Difesa, <strong>Yoav Gallant</strong>, spinge per il mantenimento della pressione sui miliziani dicendo che Hamas sta implodendo e quindi Israele non può fermarsi adesso, nonostante la risoluzione Onu che chiede un cessate il fuoco immediato: “<strong>Hamas sta collassando dall’interno</strong> &#8211; ha detto citando miliziani arrestati, secondo quanto riferito dalle autorità &#8211; Nelle ultime due settimane, centinaia di terroristi sono stati catturati e quello che dicono è che Hamas sta crollando dall’interno. Il prezzo che stanno pagando è molto alto”.</p>
+  <p>Un atteggiamento del genere rende difficile l&#8217;inizio di colloqui tra le parti per una tregua. Non a caso il partito armato palestinese ha annunciato di non aver ancora deciso se inviare o meno una delegazione al <strong>Cairo</strong> e a <strong>Doha</strong> per discutere di una nuova tregua a Gaza. Hamas ritiene ancora &#8220;<strong>troppo distanti</strong>&#8221; le posizioni tra il movimento e Israele per &#8220;fare progressi&#8221; nei negoziati su una tregua a Gaza. Lo ha reso noto un responsabile della fazione palestinese. &#8220;Dubito che ci saranno progressi in questi negoziati perché le <strong>posizioni sono troppo distanti</strong>&#8220;, ha detto il funzionario in condizione di anonimato. Il primo ministro israeliano &#8220;Netanyahu non è serio e non è interessato, e l’amministrazione americana non esercita alcuna pressione reale&#8221;, ha aggiunto.</p>
+  <p>Intanto nella serata di domenica il premier di Israele <strong>Benyamin Netanyahu</strong> si sottoporrà ad un intervento chirurgico all’<strong>ernia</strong>. Lo ha reso noto l’ufficio del primo ministro. L’intervento avverrà in <strong>anestesia</strong> <strong>generale </strong>e per questo durante l&#8217;operazione il ministro della Giustizia <strong>Yariv Levin</strong> assumerà la carica di<strong> capo del governo ad interim</strong>.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/netanyahu-sara-operato-per-unernia-durante-loperazione-interim-al-ministro-della-giustizia/7497457/">Il Libano denuncia all&#8217;Onu l&#8217;attacco al personale Unifil. Netanyahu sarà operato per un&#8217;ernia: interim al ministro della Giustizia</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2021/03/05/netanyahu-1200-1050x551.jpg

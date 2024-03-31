@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CCAiC0NBNi1BNFVXNkFzmAEB
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: AT&T dark web data leak of over 70 million current, former customers - ABC
+  News
+url: https://news.google.com/rss/articles/CCAiC0NBNi1BNFVXNkFzmAEB?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CCAiC0NBNi1BNFVXNkFzmAEB?oc=5"
+  target="_blank">AT&T dark web data leak of over 70 million current, former customers</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">ABC News</font></li><li><a href="https://news.google.com/rss/articles/CBMiUGh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvYnVzaW5lc3MvYXR0LXBhc3Njb2Rlcy1yZXNldC1kYXRhLWJyZWFjaC5odG1s0gEA?oc=5"
+  target="_blank">AT&T Resets Millions of Passcodes After Customer Records Are Leaked</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li><li><a href="https://news.google.com/rss/articles/CBMiSWh0dHBzOi8vYWJjbmV3cy5nby5jb20vQnVzaW5lc3MvYXR0LWRhdGEtbGVhay1kYXJrLXdlYi9zdG9yeT9pZD0xMDg2ODYyOTbSAU1odHRwczovL2FiY25ld3MuZ28uY29tL2FtcC9CdXNpbmVzcy9hdHQtZGF0YS1sZWFrLWRhcmstd2ViL3N0b3J5P2lkPTEwODY4NjI5Ng?oc=5"
+  target="_blank">Data from 73M current, former customers leaked on dark web, AT&T
+  confirms</a>&nbsp;&nbsp;<font color="#6f6f6f">ABC News</font></li><li><a href="https://news.google.com/rss/articles/CBMiR2h0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjQvMDMvMzAvYXR0LWRhcmstd2ViLWxlYWsv0gEA?oc=5"
+  target="_blank">AT&T discloses leak of 73 million accounts to dark web</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Washington Post</font></li></ol>
+published: 2024-03-31 14:50:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CCAiC0NBNi1BNFVXNkFzmAEB
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

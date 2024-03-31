@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422402728
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Houston, compleanni di sangue: due morti e tre feriti in due diverse sparatorie'
+url: https://www.repubblica.it/esteri/2024/03/31/news/houston_feste_di_compleanno_sparatorie-422402728/
+summary: Le feste di compleanno finiscono in tragedia. All’origine della prima sparatoria
+  forse un banale diverbio; la seconda è stata causata da un vicino che si lamentava
+  del rumore
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Esteri
+published: 2024-03-31 16:56:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422402728
+updated: 2024-03-31 16:56:45.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

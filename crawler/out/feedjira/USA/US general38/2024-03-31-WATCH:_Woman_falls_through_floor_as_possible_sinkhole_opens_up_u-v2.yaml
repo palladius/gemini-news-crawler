@@ -1,0 +1,73 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/world/watch-woman-falls-floor-possible-sinkhole-opens-shopping-mall
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'WATCH: Woman falls through floor as possible sinkhole opens up under shopping
+  mall'
+url: https://www.foxnews.com/world/watch-woman-falls-floor-possible-sinkhole-opens-shopping-mall
+summary: Video from security cameras caught the moment when the floor collapsed on
+  the second floor of a shopping center due to a possible sinkhole damaging the ground
+  floor.
+categories:
+- 548dd6b2-04ae-528a-ba6d-04b7024c7fc1
+- fnc
+- Fox News
+- fox-news/world/world-regions/china
+- fox-news/world/disasters
+- fox-news/world/disasters/disaster-response
+- fox-news/science/planet-earth/natural-disasters
+- fox-news/world
+- article
+published: 2024-03-31 13:05:31.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/world/watch-woman-falls-floor-possible-sinkhole-opens-shopping-mall
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>Video captured the moment last weekend when a woman casually shopping
+  in a <a href="https://www.foxnews.com/category/world/world-regions/china" target="_blank"
+  rel="noopener">Chinese department store</a> disappeared as a possible sinkhole swallowed
+  a portion of the floor. </p><p>A construction worker on the first floor of a shopping
+  mall in the city of Zhenjiang in Jiangsu, China, told local outlets a sinkhole opened
+  up, trapping him and causing the floor above to collapse. </p><p>In the video, a
+  woman was walking around on the second story of a shopping mall in Zhenjiang when
+  <a href="https://www.foxnews.com/category/world/disasters" target="_blank" rel="noopener">the
+  floor caved in</a>, toppling two clothing racks as the woman fell through the hole.
+  A second woman, wearing a yellow jacket, ran away from the hole before stopping
+  to go back and check on the other woman, according to Newsflare.</p><p>Mr. Huang,
+  a representative of the mall, told reporters both people suffered only minor injuries.
+  Emergency crews and firefighters responded immediately and helped rescue both of
+  the victims before cleaning up the damage.</p><p><a href="https://www.foxnews.com/us/could-protective-barriers-prevented-baltimore-bridge-collapse"
+  target="_blank" rel="noopener"><strong>COULD PROTECTIVE BARRIERS HAVE PREVENTED
+  BALTIMORE BRIDGE COLLAPSE?</strong></a></p><p>"As they are our customers, we, as
+  the responsible party, have been actively handling the aftermath and providing necessary
+  assistance," Huang said.</p><p>The construction worker suffered a leg injury from
+  falling debris, while the shopper suffered fractures, Australian news outlet ABC
+  reported. </p><p><a href="https://www.foxnews.com/world/tnt-blast-kills-2-polish-military-engineers-training-exercise"
+  target="_blank" rel="noopener"><strong>TNT BLAST KILLS 2 POLISH MILITARY ENGINEERS
+  DURING TRAINING EXERCISE</strong></a></p><p>City officials have launched an investigation
+  into the incident to determine <a href="https://www.foxnews.com/video/2601521513001"
+  target="_blank" rel="noopener">what caused the damage</a>.  </p><p>China is no stranger
+  to sinkholes. A giant one opened once up in an ancient forest in Guangxi Zhuang.
+  The hole measured 1,000 feet in length, 490 feet in width and nearly 630 feet in
+  depth. Experts determined the sinkhole had three cave entrances. </p><p><a href="https://www.foxnews.com/world/3-killed-several-missing-incident-migrant-boat-southeastern-spain"
+  target="_blank" rel="noopener"><strong>3 KILLED, SEVERAL MISSING AFTER INCIDENT
+  INVOLVING MIGRANT BOAT OFF SOUTHEASTERN SPAIN</strong></a></p><p>The sinkhole's
+  bottom is lined with a <a href="https://www.foxnews.com/world/china-sinkhole-discovered-forest"
+  target="_blank" rel="noopener">"well-preserved primitive forest,"</a> according
+  to the local news agency.</p><p>Sinkholes can form when the ground is worn away,
+  either due to composition — such as limestone, a porous rock that easily dissolves
+  in water — from a loss of groundwater that causes air pockets to form or from acid
+  rainwater eating away at bedrock. </p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/China-sinkhole.jpg?ve=1&tl=1

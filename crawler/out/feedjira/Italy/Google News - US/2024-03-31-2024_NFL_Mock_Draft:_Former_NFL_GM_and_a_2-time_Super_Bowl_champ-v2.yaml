@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMilwFodHRwczovL3d3dy5jYnNzcG9ydHMuY29tL25mbC9kcmFmdC9uZXdzLzIwMjQtbmZsLW1vY2stZHJhZnQtZm9ybWVyLW5mbC1nbS1hbmQtYS0yLXRpbWUtc3VwZXItYm93bC1jaGFtcGlvbi1nby10aHJvdWdoLXRoZS1lbnRpcmUtZmlyc3Qtcm91bmQtb2YtcGlja3Mv0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: '2024 NFL Mock Draft: Former NFL GM and a 2-time Super Bowl champion go through
+  the entire first round of picks - CBS Sports'
+url: https://news.google.com/rss/articles/CBMilwFodHRwczovL3d3dy5jYnNzcG9ydHMuY29tL25mbC9kcmFmdC9uZXdzLzIwMjQtbmZsLW1vY2stZHJhZnQtZm9ybWVyLW5mbC1nbS1hbmQtYS0yLXRpbWUtc3VwZXItYm93bC1jaGFtcGlvbi1nby10aHJvdWdoLXRoZS1lbnRpcmUtZmlyc3Qtcm91bmQtb2YtcGlja3Mv0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMilwFodHRwczovL3d3dy5jYnNzcG9ydHMuY29tL25mbC9kcmFmdC9uZXdzLzIwMjQtbmZsLW1vY2stZHJhZnQtZm9ybWVyLW5mbC1nbS1hbmQtYS0yLXRpbWUtc3VwZXItYm93bC1jaGFtcGlvbi1nby10aHJvdWdoLXRoZS1lbnRpcmUtZmlyc3Qtcm91bmQtb2YtcGlja3Mv0gEA?oc=5"
+  target="_blank">2024 NFL Mock Draft: Former NFL GM and a 2-time Super Bowl champion
+  go through the entire first round of picks</a>&nbsp;&nbsp;<font color="#6f6f6f">CBS
+  Sports</font></li><li><a href="https://news.google.com/rss/articles/CBMiY2h0dHBzOi8vc3BvcnRzLnlhaG9vLmNvbS8yMDI0LW5mbC1kcmFmdC1ob3ctZXZlcnktdGVhbS1zaG91bGQtdGFja2xlLXRoZS1xYi1wb3NpdGlvbi0yMDUwMjI5NjUuaHRtbNIBAA?oc=5"
+  target="_blank">2024 NFL Draft: How every team should tackle the QB position</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Yahoo Sports</font></li><li><a href="https://news.google.com/rss/articles/CBMidmh0dHBzOi8vd3d3Lm5mbC5jb20vbmV3cy9lcmljLWVkaG9sbS0yMDI0LW5mbC1tb2NrLWRyYWZ0LTItMC1qLWotbWNjYXJ0aHktdG8tY29tbWFuZGVycy1jb3dib3lzLXRhcmdldC1icmlhbi10aG9tYXMtanLSAQA?oc=5"
+  target="_blank">Eric Edholm 2024 NFL mock draft 2.0: J.J. McCarthy to Commanders;
+  Cowboys target Brian Thomas Jr.</a>&nbsp;&nbsp;<font color="#6f6f6f">NFL.com</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3LnBmZi5jb20vbmV3cy9kcmFmdC0yMDI0LW5mbC1kcmFmdC1wcm9zcGVjdC1zdXBlcmxhdGl2ZXMtZXZlcnktcG9zaXRpb27SAQA?oc=5"
+  target="_blank">2024 NFL Draft: Prospect superlatives for every position | NFL Draft</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Pro Football Focus</font></li><li><a href="https://news.google.com/rss/articles/CBMidmh0dHBzOi8vd3d3LmVzcG4uY29tL25mbC9kcmFmdDIwMjQvaW5zaWRlci9zdG9yeS9fL2lkLzM5ODI4Mjg5LzIwMjQtbmZsLWRyYWZ0LWxhdGVzdC1idXp6LXJ1bW9ycy1uZXdzLXByb3NwZWN0cy1yaXNlcnPSAQA?oc=5"
+  target="_blank">2024 NFL draft: Latest buzz, prospect risers, Round 1 rumors</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">ESPN</font></li></ol>'
+published: 2024-03-31 10:00:48.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMilwFodHRwczovL3d3dy5jYnNzcG9ydHMuY29tL25mbC9kcmFmdC9uZXdzLzIwMjQtbmZsLW1vY2stZHJhZnQtZm9ybWVyLW5mbC1nbS1hbmQtYS0yLXRpbWUtc3VwZXItYm93bC1jaGFtcGlvbi1nby10aHJvdWdoLXRoZS1lbnRpcmUtZmlyc3Qtcm91bmQtb2YtcGlja3Mv0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

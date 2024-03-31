@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/entertainment/michelle-yeoh-star-trek-section-31/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Michelle Yeoh set to return in new 'Star Trek' movie
+url: https://www.cnn.com/2023/04/18/entertainment/michelle-yeoh-star-trek-section-31/index.html
+summary: 'Live long and prosper, Michelle Yeoh. '
+published: 2023-04-18 19:11:23.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/entertainment/michelle-yeoh-star-trek-section-31/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230418135551-michelle-yeoh-star-trek-discovery-file-super-169.jpg

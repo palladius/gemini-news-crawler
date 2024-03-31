@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/31/turkish-opposition-leads-in-vote-to-run-istanbul-and-other-key-cities-preliminary-results-
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Turkish opposition leads in vote to run Istanbul and other key cities, preliminary
+  results showed
+url: https://www.euronews.com/2024/03/31/turkish-opposition-leads-in-vote-to-run-istanbul-and-other-key-cities-preliminary-results-
+summary: Turkish opposition leads in vote to run Istanbul and other key cities, preliminary
+  results showed, in a major upset to President Recep Tayyip Erdogan who had set his
+  sights on retaking control of those urban areas
+published: 2024-03-31 18:39:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/31/turkish-opposition-leads-in-vote-to-run-istanbul-and-other-key-cities-preliminary-results-
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

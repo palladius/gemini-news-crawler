@@ -1,0 +1,79 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/politics/hochul-echoes-wh-new-york-transgender-day-visibility-easter-orders-landmarks-lit-occasion
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hochul echoes WH with New York Transgender Day of Visibility on Easter, orders
+  landmarks lit for occasion
+url: https://www.foxnews.com/politics/hochul-echoes-wh-new-york-transgender-day-visibility-easter-orders-landmarks-lit-occasion
+summary: Thirteen landmarks in New York will be lit Sunday in observance of International
+  Transgender Day of Visibility, which happens to fall on Easter this year.
+categories:
+- 196f9f4d-93ed-594d-82e8-43aaa43b0d6c
+- fnc
+- Fox News
+- fox-news/politics
+- fox-news/us/us-regions/northeast/new-york
+- fox-news/person/kathy-hochul
+- fox-news/person/joe-biden
+- fox-news/politics/executive/white-house
+- fox-news/politics
+- article
+published: 2024-03-31 15:28:34.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/politics/hochul-echoes-wh-new-york-transgender-day-visibility-easter-orders-landmarks-lit-occasion
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>The state of New York will have 13 landmarks lit in celebration of Transgender
+  Day of Visibility Sunday, joining the White House in observation of the day.</p><p>One
+  World Trade Center, the Empire State Plaza and Niagara Falls are just a few of the
+  locations that "will be lit light pink, white and light blue," a press release from
+  the office of Gov. Kathy Hochul states. </p><p>"I am proud of the strength transgender
+  New Yorkers display every day and want to make one thing clear: You are always welcome
+  in New York. You are loved," Hochul said. </p><p>Events scheduled around the world
+  include panels and speakers in Cincinnati and Atlanta, marches in Melbourne and
+  Philadelphia and an inclusive roller derby league game on <a href="https://www.foxnews.com/category/us/us-regions/northeast/new-york"
+  target="_blank" rel="noopener">New York''s Long Island.</a> A picnic is planned
+  in the English town of Hitchin.</p><p><a href="https://www.foxnews.com/politics/trump-demands-biden-issue-apology-over-blasphemous-trans-visibility-day-easter-sunday-appalling"
+  target="_blank" rel="noopener"><strong>TRUMP DEMANDS BIDEN ISSUE APOLOGY OVER ''BLASPHEMOUS''
+  TRANS VISIBILITY DAY ON EASTER SUNDAY: ''APPALLING''</strong></a></p><p>Perhaps
+  the highest-profile U.S. event is a rally scheduled for Sunday on the National Mall
+  in Washington, D.C.</p><p><a href="https://www.foxnews.com/category/person/joe-biden"
+  target="_blank" rel="noopener"><u>President Biden</u></a> was slammed on social
+  media Saturday after marking Easter Sunday, the most solemn Christian holiday, "Transgender
+  Day of Visibility."</p><p><a href="https://www.foxnews.com/politics/biden-slammed-social-media-announcing-transgender-day-visibility-easter-sunday"
+  target="_blank" rel="noopener"><strong>BIDEN SLAMMED ON SOCIAL MEDIA AFTER ANNOUNCING
+  TRANSGENDER DAY OF VISIBILITY ON EASTER SUNDAY</strong></a></p><p>While March 31
+  has been designated to honor the transgender movement in the U.S. since Biden took
+  office and internationally since 2009, this year it falls on <a href="https://www.foxnews.com/category/us/religion/christianity"
+  target="_blank" rel="noopener">Easter Sunday,</a> one of the most important days
+  for Christians celebrating the resurrection of Jesus Christ. </p><p>"On Transgender
+  Day of Visibility, we honor the extraordinary courage and contributions of transgender
+  Americans and reaffirm our Nation’s commitment to forming a more perfect Union —
+  where all people are created equal and treated equally throughout their lives,"
+  a statement released by <a href="https://www.foxnews.com/category/politics/executive/white-house"
+  target="_blank" rel="noopener"><u>the White House</u></a> said. </p><p><a href="https://www.foxnews.com/video/6350039090112"
+  target="_blank" rel="noopener"><strong>HUCKABEE SLAMS BIDEN FOR RECOGNIZING ''TRANS
+  VISIBILITY DAY'' ON EASTER SUNDAY: ''GONE TO LA LA LAND''</strong></a></p><p>"Transgender
+  persons deserve to live authentically, safely and with dignity," Secretary of State
+  Antony Blinken said in a statement released Easter Sunday. </p><p>International
+  Transgender Day of Visibility was first organized in 2009 by Rachel Crandall-Crocker,
+  the executive director and co-founder of Transgender Michigan, according to The
+  Associated Press. </p><p>"I think that once a person understands us, it’s hard to
+  discriminate against us," she said in an interview. "I created it because I wanted
+  a time that we don’t have to be so lonely. I wanted a day that we’re all together
+  all over the world as one community. And that’s exactly what we are."</p><p><i>Fox
+  News'' Haley Chi-Sing, Anders Hagstrom and the Associated Press contributed to this
+  report. </i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/01/931/523/Kathy-Hochul-School.jpg?ve=1&tl=1

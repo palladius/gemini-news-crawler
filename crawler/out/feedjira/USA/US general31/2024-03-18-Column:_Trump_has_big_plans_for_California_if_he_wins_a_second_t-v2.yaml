@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-18/column-trump-has-big-plans-for-california-in-the-second-term-hes-seeking-fasten-your-seatbelts
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Column: Trump has big plans for California if he wins a second term. Fasten
+  your seatbelts'
+url: https://www.latimes.com/politics/story/2024-03-18/column-trump-has-big-plans-for-california-in-the-second-term-hes-seeking-fasten-your-seatbelts
+summary: "<p>Former President Trump is bashing California in his 2024 campaign; if
+  he wins he wants to force it to change — on environment, immigration, LGBTQ issues
+  and more.</p>"
+author: Doyle McManus
+published: 2024-03-18 09:00:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-18/column-trump-has-big-plans-for-california-in-the-second-term-hes-seeking-fasten-your-seatbelts
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Former President Trump is bashing California in his 2024 campaign; if
+  he wins he wants to force it to change — on environment, immigration, LGBTQ issues
+  and more.</p>"

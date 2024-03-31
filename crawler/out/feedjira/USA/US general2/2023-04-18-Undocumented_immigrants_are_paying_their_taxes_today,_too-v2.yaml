@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/us/undocumented-immigrants-taxes-cec/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Undocumented immigrants are paying their taxes today, too
+url: https://www.cnn.com/2023/04/18/us/undocumented-immigrants-taxes-cec/index.html
+summary: 'It''s a surprising fact that''s often overlooked in the immigration debate. '
+published: 2023-04-18 18:29:24.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/us/undocumented-immigrants-taxes-cec/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/170328102815-dreamer-posts-taxes-super-169.jpg

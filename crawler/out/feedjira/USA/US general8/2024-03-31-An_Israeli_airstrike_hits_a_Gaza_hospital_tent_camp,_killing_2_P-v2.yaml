@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/world/israeli-airstrike-hits-gaza-hospital-tent-camp-killing-2-palestinians-rcna145768
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'An Israeli airstrike hits a Gaza hospital tent camp, killing 2 Palestinians
+  and hurting journalists '
+url: https://www.nbcnews.com/news/world/israeli-airstrike-hits-gaza-hospital-tent-camp-killing-2-palestinians-rcna145768
+summary: An Israeli airstrike hit a tent camp in the courtyard of a crowded hospital
+  in central Gaza on Sunday, killing two Palestinians and wounding another 15, including
+  journalists working nearby.
+author: The Associated Press
+published: 2024-03-31 15:23:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/israeli-airstrike-hits-gaza-hospital-tent-camp-killing-2-palestinians-rcna145768
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-gaza-hospital-strike-vl-1105a-b11146.jpg

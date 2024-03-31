@@ -1,0 +1,36 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMihQFodHRwczovL3d3dy5sZWdnby5pdC9zcGV0dGFjb2xpL3RlbGV2aXNpb25lL2ZhZ25hbmlfY29ydGVnZ2lhdG9yaV9maWRhbnphdG9fbWVudGFuYV9iZWx2ZV9xdWFuZG9fY29taW5jaWFfb2dnaV8zMV8zXzIwMjQtODAyODk5Ny5odG1s0gF9aHR0cHM6Ly93d3cubGVnZ28uaXQvQU1QL3NwZXR0YWNvbGkvZmFnbmFuaV9jb3J0ZWdnaWF0b3JpX2ZpZGFuemF0b19tZW50YW5hX2JlbHZlX3F1YW5kb19jb21pbmNpYV9vZ2dpXzMxXzNfMjAyNC04MDI4OTk3Lmh0bWw
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Francesca Fagnani: «Il successo con Belve non ha cambiato la mia vita con
+  Mentana, ma ha aumentato i corteggia - leggo.it'
+url: https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5sZWdnby5pdC9zcGV0dGFjb2xpL3RlbGV2aXNpb25lL2ZhZ25hbmlfY29ydGVnZ2lhdG9yaV9maWRhbnphdG9fbWVudGFuYV9iZWx2ZV9xdWFuZG9fY29taW5jaWFfb2dnaV8zMV8zXzIwMjQtODAyODk5Ny5odG1s0gF9aHR0cHM6Ly93d3cubGVnZ28uaXQvQU1QL3NwZXR0YWNvbGkvZmFnbmFuaV9jb3J0ZWdnaWF0b3JpX2ZpZGFuemF0b19tZW50YW5hX2JlbHZlX3F1YW5kb19jb21pbmNpYV9vZ2dpXzMxXzNfMjAyNC04MDI4OTk3Lmh0bWw?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5sZWdnby5pdC9zcGV0dGFjb2xpL3RlbGV2aXNpb25lL2ZhZ25hbmlfY29ydGVnZ2lhdG9yaV9maWRhbnphdG9fbWVudGFuYV9iZWx2ZV9xdWFuZG9fY29taW5jaWFfb2dnaV8zMV8zXzIwMjQtODAyODk5Ny5odG1s0gF9aHR0cHM6Ly93d3cubGVnZ28uaXQvQU1QL3NwZXR0YWNvbGkvZmFnbmFuaV9jb3J0ZWdnaWF0b3JpX2ZpZGFuemF0b19tZW50YW5hX2JlbHZlX3F1YW5kb19jb21pbmNpYV9vZ2dpXzMxXzNfMjAyNC04MDI4OTk3Lmh0bWw?oc=5"
+  target="_blank">Francesca Fagnani: «Il successo con Belve non ha cambiato la mia
+  vita con Mentana, ma ha aumentato i corteggia</a>&nbsp;&nbsp;<font color="#6f6f6f">leggo.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMia2h0dHBzOi8vd3d3LmxpYmVyby5pdC9tYWdhemluZS9uZXdzL2ZlZGV6LWJlbHZlLWNvbW1vemlvbmUtdHJhZGltZW50aS1jaGlhcmEtZmVycmFnbmktY29zLWUtc3VjY2Vzc28tMTE5MjQx0gFvaHR0cHM6Ly93d3cubGliZXJvLml0L21hZ2F6aW5lL25ld3MvZmVkZXotYmVsdmUtY29tbW96aW9uZS10cmFkaW1lbnRpLWNoaWFyYS1mZXJyYWduaS1jb3MtZS1zdWNjZXNzby0xMTkyNDEvYW1w?oc=5"
+  target="_blank">Fedez in lacrime a Belve: i (presunti) tradimenti e gli alti e bassi
+  con la Ferragni. Cosa ha detto</a>&nbsp;&nbsp;<font color="#6f6f6f">Libero Magazine</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiTGh0dHBzOi8vd3d3LmlsZ2lvcm5vLml0L21pbGFuby9jdWx0dXJhL2ZlZGV6LWJlbHZlLWZlcnJhZ25pLWZhZ25hbmktY2U3MnFub2TSAQA?oc=5"
+  target="_blank">Fedez in lacrime per la fine del matrimonio con Chiara Ferragni:
+  ecco cos''ha detto a “Belve”</a>&nbsp;&nbsp;<font color="#6f6f6f">IL GIORNO</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vd3d3LmdhenpldHRhLml0L3R2LzI5LTAzLTIwMjQvZmVkZXotYS1iZWx2ZS1pbC05LWFwcmlsZS1hbnRpY2lwYXppb25pLWludGVydmlzdGEtZGEtZmFnbmFuaS5zaHRtbNIBbWh0dHBzOi8vd3d3LmdhenpldHRhLml0L3R2LzI5LTAzLTIwMjQvZmVkZXotYS1iZWx2ZS1pbC05LWFwcmlsZS1hbnRpY2lwYXppb25pLWludGVydmlzdGEtZGEtZmFnbmFuaV9hbXAuc2h0bWw?oc=5"
+  target="_blank">Fedez, l''intervista a Belve in onda il 9 aprile: le indiscrezioni
+  tra lacrime e smentite</a>&nbsp;&nbsp;<font color="#6f6f6f">La Gazzetta dello Sport</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmlsbWVzc2FnZ2Vyby5pdC9wZXJzb25lL2ZlZGV6X2FfYmVsdmVfaW5fbGFjcmltZV9jb3NhX2hhX2RldHRvX3N1X3RyYWRpbWVudGlfZV9maWdsaS04MDI1Mzk1Lmh0bWzSAQA?oc=5"
+  target="_blank">Fedez in lacrime a Belve: «Nessun tradimento. Nascondere il volto
+  dei figli una scelta concordata con Chiara»</a>&nbsp;&nbsp;<font color="#6f6f6f">ilmessaggero.it</font></li></ol>'
+published: 2024-03-31 11:44:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMihQFodHRwczovL3d3dy5sZWdnby5pdC9zcGV0dGFjb2xpL3RlbGV2aXNpb25lL2ZhZ25hbmlfY29ydGVnZ2lhdG9yaV9maWRhbnphdG9fbWVudGFuYV9iZWx2ZV9xdWFuZG9fY29taW5jaWFfb2dnaV8zMV8zXzIwMjQtODAyODk5Ny5odG1s0gF9aHR0cHM6Ly93d3cubGVnZ28uaXQvQU1QL3NwZXR0YWNvbGkvZmFnbmFuaV9jb3J0ZWdnaWF0b3JpX2ZpZGFuemF0b19tZW50YW5hX2JlbHZlX3F1YW5kb19jb21pbmNpYV9vZ2dpXzMxXzNfMjAyNC04MDI4OTk3Lmh0bWw
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 6606dc4b07b93c193cfb0ca4
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: It’s Shohei Ohtani Season in L.A.
+url: https://www.newyorker.com/news/letter-from-los-angeles/its-shohei-ohtani-season-in-la
+summary: Even before the startling accusations made against Ohtani’s interpreter,
+  the Dodgers star was seemingly at the center of civic life.
+author: Emily Witt
+categories:
+- News / Letter from Los Angeles
+- Sports / The Sporting Scene
+published: 2024-03-29 18:41:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 6606dc4b07b93c193cfb0ca4
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/6606e5d2035af923de756b84/master/pass/Witt-Ohtani-Opening-Day.jpg

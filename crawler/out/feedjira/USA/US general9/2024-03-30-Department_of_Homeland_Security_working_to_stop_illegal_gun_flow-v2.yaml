@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general9 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: now_topstory_gve_haiti_guns_240329
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Department of Homeland Security working to stop illegal gun flow into Haiti
+url: https://www.nbcnews.com/now/video/department-of-homeland-security-working-to-stop-illegal-gun-flow-into-haiti-207989829756
+summary: A U.N. report last year found most of the guns used by gangs in Haiti have
+  been smuggled illegally from the U.S. NBC’s Guad Venegas got an exclusive look inside
+  the Department of Homeland Security operation that’s working to stop the flow of
+  those weapons.
+published: 2024-03-30 02:03:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: now_topstory_gve_haiti_guns_240329
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general9
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2024_03/1711764226975_now_topstory_gve_haiti_guns_240329_1920x1080-daw2rv.jpg

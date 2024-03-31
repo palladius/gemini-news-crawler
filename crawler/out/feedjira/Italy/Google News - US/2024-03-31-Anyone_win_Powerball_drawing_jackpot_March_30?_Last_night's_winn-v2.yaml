@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMioAFodHRwczovL3d3dy5pbmR5c3Rhci5jb20vc3RvcnkvbmV3cy8yMDI0LzAzLzMwL3Bvd2VyYmFsbC1udW1iZXJzLTMtMzAtMjQtZHJhd2luZy1sb3R0ZXJ5LWphY2twb3QtYW55b25lLXdpbi1wb3dlci1iYWxsLW1hcmNoLTMwLXdpbm5lci1tZWdhLW1pbGxpb24vNzMxNTYwNjEwMDcv0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Anyone win Powerball drawing jackpot March 30? Last night's winning numbers,
+  results - IndyStar
+url: https://news.google.com/rss/articles/CBMioAFodHRwczovL3d3dy5pbmR5c3Rhci5jb20vc3RvcnkvbmV3cy8yMDI0LzAzLzMwL3Bvd2VyYmFsbC1udW1iZXJzLTMtMzAtMjQtZHJhd2luZy1sb3R0ZXJ5LWphY2twb3QtYW55b25lLXdpbi1wb3dlci1iYWxsLW1hcmNoLTMwLXdpbm5lci1tZWdhLW1pbGxpb24vNzMxNTYwNjEwMDcv0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMioAFodHRwczovL3d3dy5pbmR5c3Rhci5jb20vc3RvcnkvbmV3cy8yMDI0LzAzLzMwL3Bvd2VyYmFsbC1udW1iZXJzLTMtMzAtMjQtZHJhd2luZy1sb3R0ZXJ5LWphY2twb3QtYW55b25lLXdpbi1wb3dlci1iYWxsLW1hcmNoLTMwLXdpbm5lci1tZWdhLW1pbGxpb24vNzMxNTYwNjEwMDcv0gEA?oc=5"
+  target="_blank">Anyone win Powerball drawing jackpot March 30? Last night''s winning
+  numbers, results</a>&nbsp;&nbsp;<font color="#6f6f6f">IndyStar</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3d3LjluZXdzLmNvbS9hcnRpY2xlL21vbmV5L2NvbG9yYWRvLXBvd2VyYmFsbC13aW5uZXJzLzczLWFkNWFjZTc2LWE0YTktNGQxNy1hYWFhLWRhZTFmOTFmNTk2M9IBAA?oc=5"
+  target="_blank">Colorado Powerball winners: Here''s where the winning tickets were
+  sold</a>&nbsp;&nbsp;<font color="#6f6f6f">9News.com KUSA</font></li><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9tb25leS9sb3R0ZXJ5LzIwMjQvMDMvMzAvcG93ZXJiYWxsLXdpbm5pbmctbnVtYmVycy83MzE1NjYyMjAwNy_SAQA?oc=5"
+  target="_blank">Powerball winning numbers for 03/30/24: Jackpot rises to $935 million</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">USA TODAY</font></li><li><a href="https://news.google.com/rss/articles/CBMiaGh0dHBzOi8vd3d3LmNsaWNrb25kZXRyb2l0LmNvbS9uZXdzL2xvY2FsLzIwMjQvMDMvMzEvd2lubmluZy1wb3dlcmJhbGwtdGlja2V0LXdvcnRoLTFtLXNvbGQtaW4tbWljaGlnYW4v0gEA?oc=5"
+  target="_blank">Winning Powerball ticket worth $1M sold in Michigan</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">WDIV ClickOnDetroit</font></li></ol>'
+published: 2024-03-31 04:52:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMioAFodHRwczovL3d3dy5pbmR5c3Rhci5jb20vc3RvcnkvbmV3cy8yMDI0LzAzLzMwL3Bvd2VyYmFsbC1udW1iZXJzLTMtMzAtMjQtZHJhd2luZy1sb3R0ZXJ5LWphY2twb3QtYW55b25lLXdpbi1wb3dlci1iYWxsLW1hcmNoLTMwLXdpbm5lci1tZWdhLW1pbGxpb24vNzMxNTYwNjEwMDcv0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

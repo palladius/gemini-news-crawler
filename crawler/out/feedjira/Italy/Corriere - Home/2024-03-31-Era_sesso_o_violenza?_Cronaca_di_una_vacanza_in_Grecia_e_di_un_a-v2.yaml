@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/sette/attualita/24_marzo_31/era-sesso-o-violenza-cronaca-di-una-vacanza-in-grecia-e-di-un-abuso-normale-56b44242-bff4-480c-b3bb-5e345dc20xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Era sesso o violenza? Cronaca di una vacanza in Grecia e di un abuso “normale”
+url: https://www.corriere.it/sette/attualita/24_marzo_31/era-sesso-o-violenza-cronaca-di-una-vacanza-in-grecia-e-di-un-abuso-normale-56b44242-bff4-480c-b3bb-5e345dc20xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/25/Sette/Foto%20Sette%20-%20Trattate/6601a907040f7_ori_crop_MASTER__0x0.jpeg"
+  title="Era sesso o violenza? Cronaca di una vacanza in Grecia e di un abuso “normale”"
+  alt="Era sesso o violenza? Cronaca di una vacanza in Grecia e di un abuso “normale”"
+  /><p>Tre ragazze, il loro primo viaggio da adulte. Tara, una di loro, ha un piccolo
+  segreto (quasi) inconfessabile: il film mostra quanto può rivelarsi difficile, per
+  lui ma anche per lei, riconoscere il confine tra un rapporto e la fine del consensoTre
+  ragazze, il loro primo viaggio da adulte. Tara, una di loro, ha un piccolo segreto
+  (quasi) inconfessabile: il film mostra quanto può rivelarsi difficile, per lui ma
+  anche per lei, riconoscere il confine tra un rapporto e la fine del consensoTre
+  ragazze, il loro primo viaggio da adulte. Tara, una di loro, ha un piccolo segreto
+  (quasi) inconfessabile: il film mostra quanto può rivelarsi difficile, per lui ma
+  anche per lei, riconoscere il confine tra un rapporto e la fine del consenso</p>'
+author: Greta Olivo
+categories:
+- Corriere
+published: 2024-03-31 16:51:39.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/sette/attualita/24_marzo_31/era-sesso-o-violenza-cronaca-di-una-vacanza-in-grecia-e-di-un-abuso-normale-56b44242-bff4-480c-b3bb-5e345dc20xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

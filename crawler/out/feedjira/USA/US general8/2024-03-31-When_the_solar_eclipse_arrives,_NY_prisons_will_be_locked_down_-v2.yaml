@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/us-news/solar-eclipse-arrives-ny-prisons-will-locked-rcna145783
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'When the solar eclipse arrives, NY prisons will be locked down '
+url: https://www.nbcnews.com/news/us-news/solar-eclipse-arrives-ny-prisons-will-locked-rcna145783
+summary: Preparations for April’s solar eclipse have ramped up as the highly anticipated
+  astronomical event nears -- those preps, it turns out, include New York’s prisons.
+author: Sandra Escallon and Brian Price
+published: 2024-03-31 19:03:24.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/us-news/solar-eclipse-arrives-ny-prisons-will-locked-rcna145783
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-02/240226-Oregon-total-solar-eclipse-NASA-2017-ac-523p-2e5762.jpg

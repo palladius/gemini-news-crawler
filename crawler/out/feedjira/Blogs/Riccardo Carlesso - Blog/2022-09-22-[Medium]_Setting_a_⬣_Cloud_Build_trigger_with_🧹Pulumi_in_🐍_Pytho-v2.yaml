@@ -1,0 +1,36 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://ricc.rocks/en/posts/medium/2022-09-12-gcp-cb-trigger-with-pulumi-python/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "[Medium] Setting a ⬣ Cloud Build trigger with \U0001F9F9Pulumi in \U0001F40D
+  Python"
+url: https://ricc.rocks/en/posts/medium/2022-09-12-gcp-cb-trigger-with-pulumi-python/
+summary: |-
+  The Original article here: https://medium.com/google-cloud/setting-cloudbuild-with-pulumi-in-python-330e8b54b2cf
+  TODO(7feb23): add this video as embedded: https://www.youtube.com/watch?v=5jhWVNN8P_M (created on 6feb23)
+  A couple of weeks ago, I fell in love with Pulumi. it has everything I wanted from Terraform: easy to set up, easy config management, a nice UI for free, and most importantly… language Support! Pulumi is the best invention after Buffalo Pizza and has only a problem.. no Ruby support :/
+  Anyway, I’m so in love with ⬣ GCP (which happens to pay my salary, I got to admit), Cloud Build, Cloud Deploy, and in general CI/CD pipelines on Google Cloud that I wanted to give it a try.
+author: Riccardo
+categories:
+- symlink
+- GCP
+- pulumi
+- CloudBuild
+- Medium
+published: 2022-09-22 20:17:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://ricc.rocks/en/posts/medium/2022-09-12-gcp-cb-trigger-with-pulumi-python/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Blog
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://ricc.rocks//images/mtg-clone.jpg

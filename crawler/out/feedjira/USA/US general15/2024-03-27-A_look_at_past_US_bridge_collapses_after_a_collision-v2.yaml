@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general15 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-us-canada-68642024#2
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: A look at past US bridge collapses after a collision
+url: https://www.bbc.co.uk/news/world-us-canada-68642024
+summary: Images dating back to 1980 reveal the scale of damage from other incidents
+  where a ship ran into a bridge.
+published: 2024-03-27 18:51:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-us-canada-68642024#2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general15
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C1E1/production/_133033694_p0hmccdg.jpg

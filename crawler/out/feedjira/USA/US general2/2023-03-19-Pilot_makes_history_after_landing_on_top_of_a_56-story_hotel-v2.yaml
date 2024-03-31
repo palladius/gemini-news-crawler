@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/videos/travel/2023/03/17/pilot-lands-on-dubai-helipad-cprog-orig-aw-ao.cnn
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pilot makes history after landing on top of a 56-story hotel
+url: https://www.cnn.com/videos/travel/2023/03/17/pilot-lands-on-dubai-helipad-cprog-orig-aw-ao.cnn
+summary: Polish pilot Lukasz Czepiela made history after landing a plane on a helipad
+  at the top of a 56-story hotel in Dubai.
+published: 2023-03-19 11:22:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/videos/travel/2023/03/17/pilot-lands-on-dubai-helipad-cprog-orig-aw-ao.cnn
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230317140252-helipad-plane-landing-super-169.jpg

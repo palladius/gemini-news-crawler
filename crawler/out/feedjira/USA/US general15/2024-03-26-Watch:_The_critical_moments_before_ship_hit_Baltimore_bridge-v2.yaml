@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general15 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-us-canada-68667813#2
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Watch: The critical moments before ship hit Baltimore bridge'
+url: https://www.bbc.co.uk/news/world-us-canada-68667813
+summary: BBC Verify analyses the collision between the container ship and the Key
+  Bridge in Baltimore
+published: 2024-03-26 13:37:02.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-us-canada-68667813#2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general15
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F5DE/production/_133024926_baltimore-index.jpg

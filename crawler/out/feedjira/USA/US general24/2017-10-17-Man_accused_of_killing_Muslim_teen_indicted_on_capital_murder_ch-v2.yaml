@@ -1,0 +1,62 @@
+# [NewsFiler v2] NewsPaper: US general24 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=230856
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "summary", "entry_id", "comments", "content", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Man accused of killing Muslim teen indicted on capital murder charges
+url: http://www.pbs.org/newshour/rundown/man-accused-killing-muslim-teen-indicted-capital-murder-charges/
+author: Joshua Barajas
+categories:
+- Darwin Martinez Torres
+- Nabra Hassanen
+- virginia
+published: 2017-10-17 00:03:24.000000000 Z
+summary: |
+  <div id="attachment_219616" class="wp-caption aligncenter" style="width: 2200px"><img class="size-full wp-image-219616" src="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/06/RTS17Y2I-e1498073248551.jpg" alt="An attendee leaves flowers for Nabra Hassanen, a teenage Muslim girl killed by a bat-wielding motorist near a Virginia mosque, during a vigil in New York City. Photo by Brendan McDermid/Reuters" width="2200" height="1466" /><p class="wp-caption-text">An attendee leaves flowers for Nabra Hassanen, a teenage Muslim girl killed by a bat-wielding motorist near a Virginia mosque, during a vigil in New York City. Photo by Brendan McDermid/Reuters</p></div>
+  <p>A grand jury has formally charged a 22-year-old man with capital murder and rape in the death of Nabra Hassanen, who was killed on her walk back to a Virginia mosque.</p>
+  <p>The Fairfax County Circuit Court indicted Darwin Martinez-Torres of Sterling, Virginia, on Monday on four counts of capital murder for killing Nabra, who was with friends while they had a meal before Ramadan services. Dozens of people had gathered outside the courthouse today, <a href="https://twitter.com/MikeMurilloWTOP/status/918910737573171201">chanting &#8220;Justice for Nabra.&#8221;</a></p>
+  <p>Virginia law has specific conditions for pursuing the death penalty, but the Associated Press reported that the grand jury&#8217;s indictment described in graphic detail how Nabra&#8217;s killing was <a href="https://apnews.com/950a9642c9c84840a8a11535ecd5fcbb?utm_campaign=SocialFlow&amp;utm_source=Twitter&amp;utm_medium=APSouthRegion">grounds for a death penalty</a> against Martinez-Torres. The indictment appears to acknowledge for the first time that the 17-year-old Muslim teen was raped. Under state law, the combination of a rape charge with a premeditated murder charge means the death penalty can be pursued.</p>
+  <p>Police have said that Martinez-Torres, who is an undocumented immigrant, got into a confrontation on June 18 with a group of teens walking back to the All Dulles Area Muslim Society after grabbing a late meal. He is accused of returning later and beating Nabra with a baseball bat. Police said Nabra&#8217;s body was later discovered in a pond. A search warrant affidavit revealed that Martinez-Torres admitted to killing Nabra and had led authorities to where he dumped her body, AP reported.</p>
+  <p>Nabra&#8217;s parents and Muslim advocates have said that Nabra&#8217;s death was motivated by hate, but police has said that they will not treat the killing as a hate crime. Instead, police have said it was a <a href="http://www.pbs.org/newshour/rundown/police-say-17-year-old-girl-killed-road-rage-incident-near-mosque/">road rage incident</a>.</p>
+  <p>“The reason this guy he hit my daughter is because she’s Muslim,” Nabra&#8217;s father Mahmoud Hassanen <a href="http://wamu.org/story/17/10/13/man-accused-murder-nabra-hassanen-heads-court/">told WAMU</a>. “Why [didn’t he] hit the boy who bothered him?”</p>
+  <p>Nabra&#8217;s father added that he hoped for the death penalty, while her mother said she wanted Martinez-Torres to serve life in prison.</p>
+  <p>“I just want people to remember her, and don’t forget her,” Mahmoud told WAMU. “I think nobody can forget her too, for what she did in her life.”</p>
+  <p>A preliminary hearing for Martinez-Torres reportedly <a href="http://www.fox5dc.com/news/local-news/nabra-hassanens-family-has-outburst-in-hearing-after-seeing-accused-killer">turned emotional</a> on Friday, with Nabra&#8217;s parents both shouting at the suspect in court. Nabra&#8217;s mother Sawsan Gazzar apparently threw a shoe at Martinez-Torres during the proceedings.</p>
+  <p><strong><a href="http://www.pbs.org/newshour/rundown/d-c-memorial-slain-muslim-teen-set-fire-officials-say/">READ MORE: D.C. memorial for slain Muslim teen was set on fire, officials say</a></strong></p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/man-accused-killing-muslim-teen-indicted-capital-murder-charges/">Man accused of killing Muslim teen indicted on capital murder charges</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=230856
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general24
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- summary
+- entry_id
+- comments
+- content
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/rundown/man-accused-killing-muslim-teen-indicted-capital-murder-charges/#respond
+content: |
+  <div id="attachment_219616" class="wp-caption aligncenter" style="width: 2200px"></div>
+  <p>A grand jury has formally charged a 22-year-old man with capital murder and rape in the death of Nabra Hassanen, who was killed on her walk back to a Virginia mosque.</p>
+  <p>The Fairfax County Circuit Court indicted Darwin Martinez-Torres of Sterling, Virginia, on Monday on four counts of capital murder for killing Nabra, who was with friends while they had a meal before Ramadan services. Dozens of people had gathered outside the courthouse today, <a href="https://twitter.com/MikeMurilloWTOP/status/918910737573171201">chanting &#8220;Justice for Nabra.&#8221;</a></p>
+  <p>Virginia law has specific conditions for pursuing the death penalty, but the Associated Press reported that the grand jury&#8217;s indictment described in graphic detail how Nabra&#8217;s killing was <a href="https://apnews.com/950a9642c9c84840a8a11535ecd5fcbb?utm_campaign=SocialFlow&amp;utm_source=Twitter&amp;utm_medium=APSouthRegion">grounds for a death penalty</a> against Martinez-Torres. The indictment appears to acknowledge for the first time that the 17-year-old Muslim teen was raped. Under state law, the combination of a rape charge with a premeditated murder charge means the death penalty can be pursued.</p>
+  <p>Police have said that Martinez-Torres, who is an undocumented immigrant, got into a confrontation on June 18 with a group of teens walking back to the All Dulles Area Muslim Society after grabbing a late meal. He is accused of returning later and beating Nabra with a baseball bat. Police said Nabra&#8217;s body was later discovered in a pond. A search warrant affidavit revealed that Martinez-Torres admitted to killing Nabra and had led authorities to where he dumped her body, AP reported.</p>
+  <p>Nabra&#8217;s parents and Muslim advocates have said that Nabra&#8217;s death was motivated by hate, but police has said that they will not treat the killing as a hate crime. Instead, police have said it was a <a href="http://www.pbs.org/newshour/rundown/police-say-17-year-old-girl-killed-road-rage-incident-near-mosque/">road rage incident</a>.</p>
+  <p>“The reason this guy he hit my daughter is because she’s Muslim,” Nabra&#8217;s father Mahmoud Hassanen <a href="http://wamu.org/story/17/10/13/man-accused-murder-nabra-hassanen-heads-court/">told WAMU</a>. “Why [didn’t he] hit the boy who bothered him?”</p>
+  <p>Nabra&#8217;s father added that he hoped for the death penalty, while her mother said she wanted Martinez-Torres to serve life in prison.</p>
+  <p>“I just want people to remember her, and don’t forget her,” Mahmoud told WAMU. “I think nobody can forget her too, for what she did in her life.”</p>
+  <p>A preliminary hearing for Martinez-Torres reportedly <a href="http://www.fox5dc.com/news/local-news/nabra-hassanens-family-has-outburst-in-hearing-after-seeing-accused-killer">turned emotional</a> on Friday, with Nabra&#8217;s parents both shouting at the suspect in court. Nabra&#8217;s mother Sawsan Gazzar apparently threw a shoe at Martinez-Torres during the proceedings.</p>
+  <p><strong><a href="http://www.pbs.org/newshour/rundown/d-c-memorial-slain-muslim-teen-set-fire-officials-say/">READ MORE: D.C. memorial for slain Muslim teen was set on fire, officials say</a></strong></p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/man-accused-killing-muslim-teen-indicted-capital-murder-charges/">Man accused of killing Muslim teen indicted on capital murder charges</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: The Fairfax County Circuit Court indicted Darwin Martinez-Torres of
+  Sterling, Virginia, on Monday on four counts of capital murder for killing Nabra
+  Hassanen during her walk back to a Virginia mosque.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/06/RTS17Y2I-1024x683.jpg

@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/internazionale/esteri/jobs-gates-e-musk-i-segreti-della-silicon-valley-nel-libro-di-kara-swisher_1DSFHp3rtXCumFhSKHJep6
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Jobs, Gates e Musk: i segreti della Silicon Valley nel libro di Kara Swisher'
+url: https://www.adnkronos.com/internazionale/esteri/jobs-gates-e-musk-i-segreti-della-silicon-valley-nel-libro-di-kara-swisher_1DSFHp3rtXCumFhSKHJep6
+summary: "(Adnkronos) - Le feste trash dei fondatori di Google, gli scontri tra Steve
+  Jobs e Bill Gates, gli insulti di Elon Musk: ecco il libro della più irriverente
+  cronista tecnologica americana"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-31 10:39:55.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/jobs-gates-e-musk-i-segreti-della-silicon-valley-nel-libro-di-kara-swisher_1DSFHp3rtXCumFhSKHJep6
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8a42445f6f-ab8e92a95677-1000/format/medium/clipboard-0013.jpeg

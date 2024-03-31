@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/travel/article/southwest-airlines-flight-delays/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Southwest says flights resumed after delays caused by 'tech issues'
+url: https://www.cnn.com/travel/article/southwest-airlines-flight-delays/index.html
+summary: |-
+  • Delta Air Lines reports record bookings for summer travel
+  • Air France and Airbus acquitted in trial over 2009 plane crash
+published: 2023-04-18 17:15:29.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/travel/article/southwest-airlines-flight-delays/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230323105146-southwest-airlines-file-101121-super-169.jpeg

@@ -1,0 +1,165 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/4558047da41
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Ruby on Rails-like ORM and scaffolding in Golang anyone?
+url: https://medium.com/@palladiusbonton/ruby-on-rails-like-orm-in-golang-anyone-gopher-random-4558047da41?source=rss-b5293b96912f------2
+author: Riccardo Carlesso
+published: 2022-12-22 09:16:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/4558047da41
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- published
+- entry_id
+- content
+content: "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*w8gS6tqRhLiC88zPy8S6_A.jpeg\"
+  /><figcaption>This is a typical Gopher writing code… on Rails \U0001F688!</figcaption></figure><p>I
+  ❤️ Ruby on Rails. With all my \U0001F49B. I can rapid-prototype any 3–4 models app
+  in a couple of hours and do a POC in an afternoon, and this is thanks to scaffolding.
+  I can write this and RoR will create a proper Model, Controller, and ~4 Views (MVC)
+  and DB schema with rock-solid change-management :</p><pre>rails generate scaffold
+  Album title:string year:decimal singer:reference<br>rails generate scaffold Track
+  title:string duration:decimal album:references<br>rails generate scaffold Article
+  title:string body:string comment:string rating:integer url:string is_public:boolean<br><br>bundle
+  exec rake db:migrate</pre><p>However, my colleagues bully me that\U0001F53BRuby
+  is dead, \U0001F688 Rails is dead, and long live \U0001F4E6 Node.Js and so on. So
+  I thought: it’s \U0001F385 December, let’s learn a new language. I thought of learning
+  C# — just kidding (I’m already a pianist)— I thought that Golang was the way to
+  go. As of December 1st \U0001F385, everyone on Facebook has a single thing in mind:
+  Whammageddon!</p><p>After taking a 2h course in Go and doing my first word count,
+  my head got big and I thought: I’m now ready for the next step: a silly Whammageddon
+  app to record my friends whammageddon spectacular stories!</p><figure><img alt=\"\"
+  src=\"https://cdn-images-1.medium.com/max/640/0*DdSJzp9ib9Un8Nf-.jpg\" /><figcaption><strong>Whammageddon
+  rules</strong> — if you just woke up from a criogenic coffin yesterday :)</figcaption></figure><h4>\U0001F688
+  Golang on Rails options</h4><p>I tried (meaning, I spent 2 hours each) a few options
+  (Bee, Revel, Buffalo), and I’ll describe them in order. Note that I might be unfair
+  to the first in chronological order as my ability to go get something wasn’t as
+  good as in try number 3 :)</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*wSymZpyLJCBXn29b.png\"
+  /><figcaption>Queen Bee might be biased on who wins…</figcaption></figure><h4>1:
+  \U0001F41D <a href=\"https://github.com/beego/beego\">Beego</a></h4><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/757/1*I3y7zygaqbuHY2CMlqNIVQ.png\"
+  /><figcaption>Code source: <a href=\"https://github.com/beego/beego\">https://github.com/beego/beego</a></figcaption></figure><p><a
+  href=\"https://github.com/beego/beego\">Beego</a> was the first Google result for
+  “Ruby on Rails” for go. To be fair to bee, I was on a long flight to Israel and
+  tried to make it work with jumpy airport internet and the experience was horrible
+  (as a true Italian, I thought of filing a PR to enlarge gocapabilities with a new
+  4-letter verb). Nothing wrong with Bee, though.</p><p>This is how a migration looks like:</p><p><strong>Pros</strong>
+  \U0001F603:</p><ul><li>I really enjoyed its ability to simply create ORM model from
+  CLI. Example:</li></ul><pre>$ bee generate scaffold riccardo_post -fields &#39;title:string,body:text,active:bool,published:datetime&#39;</pre><ul><li>It
+  also allows to have different models connecting to different datasources (wOOt!
+  I wonder how you do a JOIN from Europe to Australia). Example: ```</li></ul><pre>bee
+  generate scaffold user -fields=&quot;first_name:string:255,last_name:string:255,email:string:255&quot;
+  -driver=postgres -conn=&quot;postgres://user:pass@localhost:5432/db?sslmode=disable&quot;<br>bee
+  generate scaffold riccpost -fields=&quot;title:string,body:text&quot; -driver=mysql
+  -conn=&quot;root:@tcp(127.0.0.1:3306)/test&quot;</pre><ul><li>CLI allows to create
+  docs and <strong>swagger</strong> interface on the fly via bee run -downdoc=true
+  -gendoc=true .</li><li>I ~supports <strong>80%</strong> <strong>scaffolding</strong>
+  for <strong>model</strong>, controllers, <strong>DB/migration</strong> but creates
+  an empty view (<a href=\"https://github.com/beego/bee/issues/102\">github issue</a>).
+  In my case, it gets the controller dependencies wrong (probably because its a monorepo)
+  and I need to manually fix it ( long path to beego-whammageddon/models). \U0001F62B</li></ul><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*m2ybLgp4pQgKU5OelQQ9lA.png\"
+  /><figcaption>It politely asks me if I want to create model, controller, resource,
+  migration and migrate the DB itself! Wow!</figcaption></figure><ul><li>bee dockerize
+  creates a Dockerfile for you. I’ve always wished for the same on RoR!</li></ul><p><strong>Cons
+  </strong>\U0001F622<strong> :</strong></p><ul><li>Lack of Scaffolding capabilities
+  on the <strong>view</strong> side. It rocks on model/migration, but it doesn’t create
+  the needed views.</li><li>Scaffolding on Controller side seems broken to me. I get
+  Method Not Allowed, which is answered <a href=\"https://stackoverflow.com/questions/28545260/configure-beego-router-to-serve-index-html-for-angularjs-non-server-routes\">here</a>
+  (missing Get()function — why would you do that?!?)</li></ul><h4>2. \U0001F973 <a
+  href=\"https://revel.github.io/\">Revel</a></h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/855/0*auID_UEO9MIMprUk.png\"
+  /><figcaption>Source: <a href=\"https://revel.github.io/\">https://revel.github.io/</a></figcaption></figure><p>When
+  <a href=\"https://levelup.gitconnected.com/golang-beego-vs-revel-how-to-choose-63ee8f081bc3\">I
+  read from Amrit</a>: “ If you have used Ruby on Rails, you are going to love Revel.
+  If you are a Python developer who has used Django, you will like Beego.” I felt:
+  what have I done in the past 4 hours?!? I had an agnition, or shall I say… a revelation!!</p><p>Revel
+  has a very simple and straightforward <a href=\"http://revel.github.io/tutorial/firstapp.html\">docs
+  page</a> which will guide you through a multi-page, stateless form-rich hello world
+  within 10 minutes.</p><p>It has <a href=\"https://github.com/revel/modules\"><strong>modules</strong></a>
+  (pluggable packages) for NewRelic, Static files, Logging, ..</p><p>It has nice <a
+  href=\"https://github.com/revel/examples\"><strong>examples</strong></a> repos;
+  the closest to Ror seems to be the Booking app (<a href=\"https://revel.github.io/examples/booking.html\">docs</a> — <a
+  href=\"https://github.com/revel/examples/tree/master/booking\">code</a>). Code is
+  from 2020.</p><p>It uses <a href=\"https://github.com/go-gorp/gorp\">GORP</a> as
+  ORM. However, after first excitement, I realized also Revel lacks a proper way to scaffold</p><p>I
+  was too stupid to make it work and I threw the sponge. Hoewver with 2 lines you
+  can actually get this — wow!</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/715/1*tSpbPlJ-wQ8wrB07WbIqow.png\"
+  /></figure><p>Commands to achieve this (copied from <a href=\"https://github.com/revel/examples\">here</a>):</p><pre>git
+  clone https://github.com/revel/examples.git &quot;${GOPATH}/src/github.com/revel/examples&quot;<br>#DOESNT
+  WORK FOR ME - I might be stuipid<br>revel run github.com/revel/examples/booking<br>#
+  THIS WORKS FOR ME<br>revel run &quot;${GOPATH}/src/github.com/revel/examples&quot;</pre><p>So
+  if you have time to understand and reverse engineer the booking app, you’re going
+  to enjoy Revel a lot. However, the inability to scaffold from scratch is a real
+  turn off for me.</p><p>Here I totally failed to do any scaffolding: no model/controller/view
+  for me. I’ll probably spend some time in the weekend reverse-engineering the booking
+  app… \U0001F622</p><h4>3. \U0001F9AC<a href=\"https://gobuffalo.io/\">Buffalo</a></h4><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*7OoJFpCz1UHBeHudcME5Gw.png\"
+  /><figcaption>source: <a href=\"https://gobuffalo.io/\">https://gobuffalo.io/</a></figcaption></figure><p>Now,
+  the first thing you see with Buffalo is — wOOt? They even bothered adding a CSS!
+  Clearly, there’s some money and a real company behind this (like DHH and Basecamp
+  behind Rails). Graphics is captivating and I love it already!</p><p>First, it uses
+  <a href=\"https://gobuffalo.io/documentation/database/pop/\"><strong>pop</strong></a>
+  which supports PostgreS Cockroach MySQL and Sqlite3 out of the box.</p><p>With <a
+  href=\"https://gobuffalo.io/documentation/database/soda/\">Soda</a> and <a href=\"https://gobuffalo.io/documentation/database/fizz/\">Fizz</a>,
+  you get a Rails-like experience in setting up the DB and migrating it:</p><pre>//
+  migrate UP<br>create_table(&quot;users&quot;) {<br>  t.Column(&quot;email&quot;,
+  &quot;string&quot;, {})<br>  t.Column(&quot;twitter_handle&quot;, &quot;string&quot;,
+  {&quot;size&quot;: 50})<br>  t.Column(&quot;age&quot;, &quot;integer&quot;, {&quot;default&quot;:
+  0})<br>  t.Column(&quot;admin&quot;, &quot;bool&quot;, {&quot;default&quot;: false})<br>
+  \ t.Column(&quot;company_id&quot;, &quot;uuid&quot;, {&quot;default_raw&quot;: &quot;uuid_generate_v1()&quot;})<br>
+  \ t.Column(&quot;bio&quot;, &quot;text&quot;, {&quot;null&quot;: true})<br>  t.Column(&quot;joined_at&quot;,
+  &quot;timestamp&quot;, {})<br>}<br><br>// migrate down<br>drop_table(&quot;users&quot;)</pre><p>This
+  is absolutely fantastic ! Unfortunately it doesn’t seem to have the CLI interface
+  to create a scaffold \U0001F610, while you can reach a great experience by typing
+  the code yourself.</p><p>To use generators, it looks to me you need to install pop
+  as a separate module: <a href=\"https://github.com/gobuffalo/buffalo-pop\">https://github.com/gobuffalo/buffalo-pop</a>.
+  After doing so, you get buffalo pop g --help which returns <a href=\"https://gobuffalo.io/documentation/database/generators/\">this
+  same output</a>. (Before, it would return a weird output).</p><p>Now, I was able
+  with a single command line (non documented anywhere, just by trying out!) to create
+  a new model with my fields and also its migration, but not the controller and the
+  views :/</p><pre><br># For &#39;--skip-migration&#39; read below<br>buffalo pop
+  g model --skip-migration foobar RiccTitle:string RiccDescription:text<br>buffalo
+  pop g model --skip-migration barbaz RiccDescription:text UltimateAnswer:int32 Active:bool</pre><p>Note:
+  he first time you call the function without skip miogration, but every subsequent
+  invocation it will create another migration for the same model; so if you just want
+  to auto-magically update the model until you got it right, you call it as above.</p><p>Like
+  in Rails, DB can be easily configured in a single YAML or via ENV variables.</p><pre>#
+  database.yaml<br>development:<br>  dialect: postgres<br>  database: whamageddon_buffalo_development<br>
+  \ user: postgres<br>  password: postgres<br>  host: 127.0.0.1<br>  pool: 5<br><br>test:<br>
+  \ url: {{envOr &quot;TEST_DATABASE_URL&quot; &quot;postgres://postgres:postgres@127.0.0.1:5432/whamageddon_buffalo_test?sslmode=disable&quot;}}<br><br>production:<br>
+  \ url: {{envOr &quot;DATABASE_URL&quot; &quot;postgres://postgres:postgres@127.0.0.1:5432/whamageddon_buffalo_production?sslmode=disable&quot;}}</pre><h4>[Golang
+  vs Ruby] on ORM and Scaffolding</h4><p>So my first impressions on Go (vs Ruby):</p><ul><li>➕blazing
+  fast</li><li>➕compile in a single binary — easy to dockerize/ship.</li><li>➖ Go
+  has a tendency to want your app to be single repo. What if I want to have 3 folders
+  under the same repo — can I <em>Mr Go</em>?</li></ul><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*0iP_R7AzQVGITIANUNtAuw.png\"
+  /><figcaption>No thanks Mr Go :)</figcaption></figure><ul><li>➖ Lack of a convincing
+  zero-brain scaffolding technique.</li></ul><h4>Conclusions</h4><p>Like Bonucci told
+  the Brits at the end of European Championship in London, <em>“</em><a href=\"https://www.youtube.com/watch?v=69WrQRHicKU\"><em>ne
+  dovete mangiare di pastasciutta!</em></a><em>”</em> (<em>you still have a lot of
+  pasta to eat</em>), I believe Golang has still a long way to go to get to Ruby feasts
+  when it comes to ORM and Rails rapid-prototyping.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/498/0*rwZiolVj9MrM3-Pf.gif\"
+  /><figcaption>Bonucci is a recognized national hero in Italy after this. Expect
+  rolling the arm gesture to catch up with emojipedia starting v14.0!</figcaption></figure><p>This
+  morning, while swimming, I wanted to create a nice table with 3–5 stars for all,
+  but Medium doesn’t support tables. Hence I’ll just get the winner per topic:</p><ul><li>Documentation:
+  <strong>revel</strong> &amp; <strong>buffalo</strong></li><li>Look and feel: <strong>Buffalo</strong></li><li>Documentation
+  for day-0 hello app: <strong>revel</strong>.</li><li>Model CLI creation: <strong>beego</strong>.</li><li>Migration:
+  <strong>Buffalo</strong> (thanks to <strong>fizz</strong>)</li><li>Scaffolding:
+  <strong>none </strong><em>(rails rulez)</em>.</li></ul><p>However, go has a long
+  list of advantages that makes this passage worthwhile:</p><ul><li>damn easy <em>dockerization</em>
+  (single chubby binary)</li><li>no dependencies craze in prod (single chubby binary)</li></ul><p>Note
+  there are also other solution apart from Bee, Revel and Buffalo: <a href=\"https://github.com/gin-gonic/gin\"><strong>Gin&amp;Gonic</strong></a>,
+  <a href=\"https://github.com/goji/goji\"><strong>Goji</strong></a>, <a href=\"https://github.com/kataras/iris-cli\">Iris</a>, …
+  and I hear <strong>echo</strong> also strikes a great balance (think of Sinatra
+  if you’re a rubyist).</p><p><strong>Note</strong>. I’m a ~day1 user of Go. I’m pretty
+  sure some things I’ve said might be incorrect. I’d be honoured to get your feedback
+  in form of comments.</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=4558047da41\"
+  width=\"1\" height=\"1\" alt=\"\">"

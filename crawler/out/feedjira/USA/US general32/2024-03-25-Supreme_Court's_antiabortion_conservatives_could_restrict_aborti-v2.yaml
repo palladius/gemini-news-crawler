@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-25/supreme-court-could-restrict-abortion-pills-sent-by-mail
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Supreme Court's antiabortion conservatives could restrict abortion pills sent
+  by mail, even in blue states
+url: https://www.latimes.com/world-nation/story/2024-03-25/supreme-court-could-restrict-abortion-pills-sent-by-mail
+summary: "<p>The Supreme Court's antiabortion conservatives will decide whether to
+  restrict abortion pills, including in California and other states where abortion
+  is legal.  </p>"
+author: David G. Savage
+published: 2024-03-25 10:00:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-25/supreme-court-could-restrict-abortion-pills-sent-by-mail
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>The Supreme Court's antiabortion conservatives will decide whether to
+  restrict abortion pills, including in California and other states where abortion
+  is legal.  </p>"

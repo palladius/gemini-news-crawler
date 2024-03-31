@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiXWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL9IBYWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL2FtcC8
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Auto, ecco il bonus per installare Gpl o metano sulle benzina - la Repubblica
+url: https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL9IBYWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL2FtcC8?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL9IBYWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL2FtcC8?oc=5"
+  target="_blank">Auto, ecco il bonus per installare Gpl o metano sulle benzina</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">la Repubblica</font></li><li><a href="https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vd3d3Lmlsc29sZTI0b3JlLmNvbS9hcnQvZWNvYm9udXMtYXV0by1jLWUtZGVjcmV0by1hbGwtZWxldHRyaWNvLXF1YXJ0by1kb3RlLUFGWGxDS0ZE0gEtaHR0cHM6Ly9hbXAyNC5pbHNvbGUyNG9yZS5jb20vcGFnaW5hL0FGWGxDS0ZE?oc=5"
+  target="_blank">Ecobonus auto, c’è il decreto: incentivi fino a 13.500 euro</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Il Sole 24 ORE</font></li><li><a href="https://news.google.com/rss/articles/CBMiRGh0dHBzOi8vdGcyNC5za3kuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9ib251cy1hdXRvLTIwMjQtZWNvaW5jZW50aXZp0gFIaHR0cHM6Ly90ZzI0LnNreS5pdC9lY29ub21pYS8yMDI0LzAzLzMxL2JvbnVzLWF1dG8tMjAyNC1lY29pbmNlbnRpdmkvYW1w?oc=5"
+  target="_blank">Bonus auto, arrivano i nuovi ecoincentivi: come funzionano e chi
+  ne ha diritto</a>&nbsp;&nbsp;<font color="#6f6f6f">Sky Tg24 </font></li><li><a href="https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LnF1YXR0cm9ydW90ZS5pdC9uZXdzL21lcmNhdG8vMjAyNC8wMy8zMS9pbmNlbnRpdmlfYXV0b19ncGxfbWV0YW5vX2JpZnVlbF9jb252ZXJzaW9uZV9ib251c18yMDI0Lmh0bWzSAXRodHRwczovL3d3dy5xdWF0dHJvcnVvdGUuaXQvbmV3cy9tZXJjYXRvLzIwMjQvMDMvMzEvaW5jZW50aXZpX2F1dG9fZ3BsX21ldGFub19iaWZ1ZWxfY29udmVyc2lvbmVfYm9udXNfMjAyNC5hbXAuaHRtbA?oc=5"
+  target="_blank">Incentivi auto Gpl metano bifuel: conversione bonus 2024 - Quattroruote.it</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Quattroruote</font></li><li><a href="https://news.google.com/rss/articles/CBMirAFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9lY29ub21pYS9jb25zdW1pLzI0X21hcnpvXzMwL2Vjb2JvbnVzLWF1dG8taW5jZW50aXZpLWZpbm8tYS0xMy01MDAtZXVyby1jb21lLWZ1bnppb25hLWUtY2hpLW5lLWhhLWRpcml0dG8tMDYzNmU4ZGMtOTBjOS00OWQ5LWI5MDEtNjBiOWNmYTk3eGxrLnNodG1s0gGwAWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Vjb25vbWlhL2NvbnN1bWkvMjRfbWFyem9fMzAvZWNvYm9udXMtYXV0by1pbmNlbnRpdmktZmluby1hLTEzLTUwMC1ldXJvLWNvbWUtZnVuemlvbmEtZS1jaGktbmUtaGEtZGlyaXR0by0wNjM2ZThkYy05MGM5LTQ5ZDktYjkwMS02MGI5Y2ZhOTd4bGtfYW1wLnNodG1s?oc=5"
+  target="_blank">Ecobonus auto, incentivi fino a 13.500 euro: come funziona e chi
+  ne ha diritto</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere della Sera</font></li></ol>'
+published: 2024-03-31 10:54:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiXWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL9IBYWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvZWNvbm9taWEvMjAyNC8wMy8zMS9uZXdzL2F1dG9fYm9udXNfaW5jZW50aXZpX21ldGFub19ncGwtNDIyNDAyMzUzL2FtcC8
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

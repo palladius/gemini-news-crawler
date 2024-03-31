@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711884565
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Israel’s war on Gaza: List of key events, day 177'
+url: https://www.aljazeera.com/news/2024/3/31/israels-war-on-gaza-list-of-key-events-day-177?traffic_source=rss
+summary: Gaza&#039;s Media Office says Israel has committed &#039;a new massacre&#039;
+  by bombing inside the walls of Al-Aqsa Martyrs Hospital.
+categories:
+- News
+published: 2024-03-31 12:27:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711884565
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

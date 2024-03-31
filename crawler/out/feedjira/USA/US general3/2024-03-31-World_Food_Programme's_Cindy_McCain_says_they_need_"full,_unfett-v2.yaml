@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 4344465a-c5d5-4a13-91fe-6bd09e7e85a6
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: World Food Programme's Cindy McCain says they need "full, unfettered access"
+  into Gaza
+url: https://www.cbsnews.com/video/world-food-programmes-cindy-mccain-says-they-need-full-unfettered-access-into-gaza/
+summary: As the humanitarian crisis in Gaza continues amid the war between Israel
+  and Hamas, World Food Programme executive director Cindy McCain tells "Face the
+  Nation" that the organization needs "full, unfettered access" into the region "and
+  right now we don't have that."
+published: 2024-03-31 17:43:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 4344465a-c5d5-4a13-91fe-6bd09e7e85a6
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

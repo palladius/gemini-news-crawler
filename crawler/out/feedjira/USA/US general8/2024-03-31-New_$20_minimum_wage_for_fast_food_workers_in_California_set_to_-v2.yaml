@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/us-news/new-20-minimum-wage-fast-food-workers-california-set-start-monday-rcna145766
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: New $20 minimum wage for fast food workers in California set to start Monday
+url: https://www.nbcnews.com/news/us-news/new-20-minimum-wage-fast-food-workers-california-set-start-monday-rcna145766
+summary: LIVERMORE, Calif.
+author: The Associated Press
+published: 2024-03-31 13:41:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/us-news/new-20-minimum-wage-fast-food-workers-california-set-start-monday-rcna145766
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2022-09/220906-fast-food-workers-california-jm-1118-ad5c86.jpg

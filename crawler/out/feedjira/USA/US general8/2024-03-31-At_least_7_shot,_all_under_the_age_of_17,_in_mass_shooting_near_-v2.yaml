@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/us-news/least-7-shot-age-17-mass-shooting-indianapolis-mall-rcna145765
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: At least 7 shot, all under the age of 17, in mass shooting near Indianapolis
+  mall
+url: https://www.nbcnews.com/news/us-news/least-7-shot-age-17-mass-shooting-indianapolis-mall-rcna145765
+summary: Seven children were injured in a shooting outside a mall in downtown Indianapolis
+  on Saturday night, police said.
+author: Doha Madani
+published: 2024-03-31 14:09:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/us-news/least-7-shot-age-17-mass-shooting-indianapolis-mall-rcna145765
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-indianapolis-shooting-vl-951a-e40cc2.jpg

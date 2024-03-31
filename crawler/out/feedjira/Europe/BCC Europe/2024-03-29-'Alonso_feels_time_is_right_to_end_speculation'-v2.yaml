@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BCC Europe (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/sport/football/68692439#2
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'Alonso feels time is right to end speculation'"
+url: https://www.bbc.co.uk/sport/football/68692439
+summary: Xabi Alonso "felt the time was right" to end speculation over his future
+  by announcing he will stay at Bayer Leverkusen, writes Guillem Balague.
+published: 2024-03-29 15:12:48.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/sport/football/68692439#2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BCC Europe
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0086/production/_133043100_alonso.jpg

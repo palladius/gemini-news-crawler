@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/internazionale/esteri/gaza-tregua-e-ostaggi-nuovo-round-negoziati-israele-hamas-al-cairo_5eFcAFxrkJIOBjLbfgbHtq
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Israele-Hamas, tregua lontana. Netanyahu: "Non c''è vittoria senza entrare
+  a Rafah"'
+url: https://www.adnkronos.com/internazionale/esteri/gaza-tregua-e-ostaggi-nuovo-round-negoziati-israele-hamas-al-cairo_5eFcAFxrkJIOBjLbfgbHtq
+summary: (Adnkronos) - I miliziani vogliono "risposte sul ritiro" delle truppe israeliane
+  dalla Striscia di Gaza e sulla "fine dei combattimenti" nell'enclave. Attacco con
+  coltello a Be'er Sheva, ucciso aggressore
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-31 09:03:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/gaza-tregua-e-ostaggi-nuovo-round-negoziati-israele-hamas-al-cairo_5eFcAFxrkJIOBjLbfgbHtq
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8adf053fca-f28afb2aac49-1000/format/medium/gaza_persone_macerie_afp_1-1-275724603.jpeg

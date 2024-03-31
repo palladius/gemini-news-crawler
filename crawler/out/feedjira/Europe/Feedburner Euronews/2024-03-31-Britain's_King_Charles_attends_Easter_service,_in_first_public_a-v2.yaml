@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/31/britains-king-charles-attends-easter-service-in-first-public-appearance-since-cancer-diagn
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Britain's King Charles attends Easter service, in first public appearance since
+  cancer diagnosis
+url: https://www.euronews.com/2024/03/31/britains-king-charles-attends-easter-service-in-first-public-appearance-since-cancer-diagn
+summary: The Prince and Princess of Wales did not attend, as Catherine continues her
+  cancer treatment.
+published: 2024-03-31 11:26:48.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/31/britains-king-charles-attends-easter-service-in-first-public-appearance-since-cancer-diagn
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

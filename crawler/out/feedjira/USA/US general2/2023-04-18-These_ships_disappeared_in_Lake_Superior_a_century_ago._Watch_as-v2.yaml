@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/videos/travel/2023/04/18/century-old-shipwrecks-lake-superior-discovery-contd-orig-zt.cnn
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: These ships disappeared in Lake Superior a century ago. Watch as they're found
+  again
+url: https://www.cnn.com/videos/travel/2023/04/18/century-old-shipwrecks-lake-superior-discovery-contd-orig-zt.cnn
+summary: The Great Lakes Shipwreck Historical Society has found two of three ships
+  that sank in the same Lake Superior storm more than a century ago, locating one
+  in 2021 and the other in 2022.
+published: 2023-04-18 19:29:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/videos/travel/2023/04/18/century-old-shipwrecks-lake-superior-discovery-contd-orig-zt.cnn
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230418114424-lostwreck2-super-169.jpg

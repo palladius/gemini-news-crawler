@@ -1,0 +1,36 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/31/news/re_carlo_messa_di_pasqua_cancro-422402362/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Re Carlo va alla messa di Pasqua. È l’apparizione in pubblico più significativa
+  dalla diagnosi di cancro. Assenti William e Kate
+url: https://www.repubblica.it/esteri/2024/03/31/news/re_carlo_messa_di_pasqua_cancro-422402362/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 11:08:01.000000000 Z
+enclosure_length: '32547'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/31/130429354-9437884e-96d4-48de-8179-cc5a29350a48.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/31/news/re_carlo_messa_di_pasqua_cancro-422402362/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/31/130429354-9437884e-96d4-48de-8179-cc5a29350a48.jpg"
+  width="140" align="left" hspace="10"></a>Presenti anche la principessa Anna e suo
+  marito Sir Timothy Laurence, il principe Edoardo, il principe Andrea e Sarah Ferguson</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/re_carlo_messa_di_pasqua_cancro-422402362/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

@@ -1,0 +1,83 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/health/health-weekend-read-taylor-swift-brain-surgery-seniors-health-struggles
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Health's weekend read includes Taylor Swift's impact amid brain surgery, seniors’
+  health struggles and more
+url: https://www.foxnews.com/health/health-weekend-read-taylor-swift-brain-surgery-seniors-health-struggles
+summary: As you wind down your weekend, check out some of the top stories of the week
+  in Health that you may have missed, or have been meaning to check out.
+categories:
+- cb55cd80-bd3a-55f6-bbf7-97201d7a5447
+- fnc
+- Fox News
+- fox-news/health
+- fox-news/lifestyle
+- fox-news/health/healthy-living/health-care
+- fox-news/health/cancer
+- fox-news/health/medical-research/surgery
+- fox-news/tech/artificial-intelligence
+- fox-news/health/geriatric-health
+- fox-news/health/nutrition-and-fitness/nutrition
+- fox-news/health/heart-health
+- fox-news/health/healthy-living
+- fox-news/health
+- article
+published: 2024-03-31 18:22:23.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/health/health-weekend-read-taylor-swift-brain-surgery-seniors-health-struggles
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>Fox News Digital publishes an array of health pieces all week long to
+  keep you in the know on a range of wellness topics: health care access, innovative
+  surgeries, cancer research, mental health trends and more — plus, personal stories
+  of people and families overcoming great obstacles.</p><p>As you wind down your weekend,
+  check out some of the top stories of the week in Health that you may have missed,
+  or have been meaning to check out. </p><p><a href="https://www.foxnews.com/newsletters?cmpid=fnfirstnl"><strong><u>CLICK
+  HERE TO SIGN UP FOR OUR HEALTH NEWSLETTER</u></strong></a></p><p>These are just
+  a few of what''s new, of course. There are many more to see at <a href="https://www.foxnews.com/lifestyle"><u>http://www.foxnews/health</u></a>. </p><p>Dive
+  into this selection here.</p><p>A New Jersey woman stayed awake during her brain
+  surgery — and sang Taylor Swift songs to help doctors gauge her cognitive function.
+  Selena Campione, 36, shared her story with Fox News Digital. <a href="https://www.foxnews.com/health/new-jersey-woman-sings-taylor-swift-hits-awake-brain-surgery-eras-tour"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>Adults tend to need more medical
+  care as they age, but coordinating that care can be stressful and strenuous for
+  seniors. Doctors discussed the health care challenges older adults face — and what
+  needs to change to improve the situation. <a href="https://www.foxnews.com/health/health-care-overwhelmingly-complex-older-adults-experts-increasing-hurdle"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>It’s happening more often — busy
+  physicians are turning to chatbots for help in summarizing medical reports. Experts
+  weighed the benefits and the risks of using AI in the health care space. <a href="https://www.foxnews.com/health/more-doctors-use-chatgpt-help-busy-workloads-ai-reliable-assistant"><i><strong><u>Click
+  here to get the story</u></strong></i></a><i><strong>.</strong></i></p><p>Time-restricted
+  eating has been linked to a higher risk of heart-related death in a new study. The
+  researchers and cardiologists offer their insights on the surprising connection.
+  <a href="https://www.foxnews.com/health/intermittent-fasting-linked-higher-risk-heart-related-death-study"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>Kate Middleton’s announcement
+  of a cancer diagnosis has sparked an outpouring of support — and concerns about
+  the uptick of cases among younger adults. Here’s what to know about the recommended
+  cancer screenings for early detection. <a href="https://www.foxnews.com/health/cancer-princess-kate-important-screenings-focus-best-health"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>The benefits of cold plunging
+  and other ice therapies have been called into question by a new study. The researchers
+  plus cold therapy experts reacted to the findings. <a href="https://www.foxnews.com/health/cold-therapy-techniques-scrutiny-researchers-overall-benefits-remain-uncertain"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>People who smoke marijuana daily
+  face a significantly higher risk of heart attack and stroke, a new study found.
+  Get the details on the effects of frequent cannabis use. <a href="https://www.foxnews.com/health/daily-weed-smokers-higher-risk-heart-attack-stroke-american-heart-association-study"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>Drug overdoses reached a new high
+  last year in the U.S., according to a new CDC report. Find out what groups were
+  most affected — and what addiction experts think about the surge. <a href="https://www.foxnews.com/health/drug-overdoses-reached-record-high-latest-cdc-report-grim-statistics"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p>Since 2020, the prevalence of
+  medication abortions — triggered by what’s known as the abortion pill — has risen
+  10%. Women’s health experts detailed the possible reasons for the increase. <a href="https://www.foxnews.com/health/abortion-pills-spiked-recent-years-new-report-reveals-substantial-increase"><i><strong><u>Click
+  here to get the story.</u></strong></i></a></p><p><a href="https://www.foxnews.com/health"><i><strong><u>For
+  more Health articles, visit </u></strong></i></a><a href="http://www.foxnews/health"><i><strong><u>www.foxnews.com/health</u></strong></i></a><i><strong>.</strong></i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/swift-selena-graphic-5.png?ve=1&tl=1

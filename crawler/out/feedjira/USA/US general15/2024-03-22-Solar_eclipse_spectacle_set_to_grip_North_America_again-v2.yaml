@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general15 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/science-environment-68597945#3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Solar eclipse spectacle set to grip North America again
+url: https://www.bbc.co.uk/news/science-environment-68597945
+summary: How lucky is that? The US will witness its second total solar eclipse in
+  seven years on 8 April.
+published: 2024-03-22 06:09:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/science-environment-68597945#3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general15
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1759D/production/_132954659_gettyimages-836246380.jpg

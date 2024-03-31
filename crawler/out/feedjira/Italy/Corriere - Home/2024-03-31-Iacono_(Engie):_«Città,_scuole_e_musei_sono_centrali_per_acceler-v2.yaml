@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/economia/aziende/24_marzo_31/iacono-engie-citta-scuole-e-musei-sono-centrali-per-accelerare-la-transizione-energetica-f0d2a301-9cc2-4d34-a3ea-f1390ee71xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Iacono (Engie): «Città, scuole e musei sono centrali per accelerare la transizione
+  energetica»'
+url: https://www.corriere.it/economia/aziende/24_marzo_31/iacono-engie-citta-scuole-e-musei-sono-centrali-per-accelerare-la-transizione-energetica-f0d2a301-9cc2-4d34-a3ea-f1390ee71xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Economia/Foto%20Economia%20-%20Trattate/66086f1831788_ori_crop_MASTER__0x0.png"
+  title="Iacono (Engie): «Città, scuole e musei sono centrali per accelerare la transizione
+  energetica»" alt="Iacono (Engie): «Città, scuole e musei sono centrali per accelerare
+  la transizione energetica»" /><p>L’ad del gruppo in Italia: serve più flessibilità,
+  occorre pensare oltre il PnrrL’ad del gruppo in Italia: serve più flessibilità,
+  occorre pensare oltre il PnrrL’ad del gruppo in Italia: serve più flessibilità,
+  occorre pensare oltre il Pnrr</p>'
+author: Nicola Saldutti
+categories:
+- Economia
+published: 2024-03-31 06:44:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/economia/aziende/24_marzo_31/iacono-engie-citta-scuole-e-musei-sono-centrali-per-accelerare-la-transizione-energetica-f0d2a301-9cc2-4d34-a3ea-f1390ee71xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

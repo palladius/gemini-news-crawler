@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711888102
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Lost in Orientalism: Arab Christians and the war in Gaza'
+url: https://www.aljazeera.com/opinions/2024/3/31/lost-in-orientalism-arab-christians-and-the-war-in-gaza?traffic_source=rss
+summary: Centuries-old misconceptions compel Western Christians to ignore the plight
+  of Palestinian Christians and Muslims.
+categories:
+- Opinions
+published: 2024-03-31 13:14:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711888102
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

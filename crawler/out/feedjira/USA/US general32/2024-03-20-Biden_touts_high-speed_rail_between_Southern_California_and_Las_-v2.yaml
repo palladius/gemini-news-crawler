@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-19/biden-arizona-nevada
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Biden touts high-speed rail between Southern California and Las Vegas
+url: https://www.latimes.com/politics/story/2024-03-19/biden-arizona-nevada
+summary: "<p>Biden is appearing in Nevada and Arizona, two swing states, with a focus
+  on Latino voters and pocketbook issues.</p>"
+author: Seema Mehta
+published: 2024-03-20 01:32:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-19/biden-arizona-nevada
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Biden is appearing in Nevada and Arizona, two swing states, with a focus
+  on Latino voters and pocketbook issues.</p>"

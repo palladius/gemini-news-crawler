@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: mtp_clip_baconjohnson_240331
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "‘It’s possible’ Speaker Johnson could lose his job over Ukraine vote: GOP
+  congressman"
+url: https://www.nbcnews.com/meet-the-press/video/-it-s-possible-speaker-johnson-could-lose-his-job-over-ukraine-vote-gop-congressman-208031301797
+summary: Rep. Don Bacon (R-Neb.) tells Meet the Press that there are “one or two people
+  that are not team players” in the House Republican conference, and they may choose
+  to vote to remove Speaker Johnson over a vote to support aid to Ukraine.
+published: 2024-03-31 13:39:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: mtp_clip_baconjohnson_240331
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2024_03/1711892360753_mtp_clip_baconjohnson_240331_1920x1080-3y0wed.jpg

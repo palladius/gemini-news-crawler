@@ -1,0 +1,89 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/politics/blinken-calls-for-celebration-trans-holiday-on-easter
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Blinken calls for 'celebration' of trans holiday on Easter
+url: https://www.foxnews.com/politics/blinken-calls-for-celebration-trans-holiday-on-easter
+summary: Secretary of State Antony Blinken was the latest Biden administration official
+  to mark the Transgender Day of Visibility, which this year falls on Easter Sunday.
+categories:
+- 5616938c-ef7b-567e-a97b-85fc89474a58
+- fnc
+- Fox News
+- fox-news/politics/foreign-policy/state-department
+- fox-news/politics/executive/white-house
+- fox-news/person/joe-biden
+- fox-news/us/religion/christianity
+- fox-news/person/donald-trump
+- fox-news/person/mike-johnson
+- fox-news/politics
+- article
+published: 2024-03-31 16:46:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/politics/blinken-calls-for-celebration-trans-holiday-on-easter
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>Secretary of State <a href="https://www.foxnews.com/category/politics/foreign-policy/state-department"
+  target="_blank" rel="noopener">Antony Blinken</a> became the latest Biden administration
+  official to mark Transgender Day of Visibility, which has sparked controversy for
+  being celebrated the same day as Easter.</p><p>"Transgender Day of Visibility is
+  a celebration of the courage and resilience of transgender, nonbinary and gender
+  non-confirming persons who exist in every country and culture around the world,"
+  Blinken said in a statement Sunday. </p><p>"On this day, the United States recognizes
+  the achievements and progress that trans persons have made in the global struggle
+  for equality and re-affirms its commitment to supporting the equality, inclusion
+  and full recognition of the human rights of transgender persons."</p><p>The statement
+  comes after <a href="https://www.foxnews.com/category/person/joe-biden" target="_blank"
+  rel="noopener">President Biden</a> sparked backlash with a similar statement Friday,
+  marking Sunday as a day to "honor the extraordinary courage and contributions of
+  transgender Americans."</p><p><a href="https://www.foxnews.com/politics/trump-demands-biden-issue-apology-over-blasphemous-trans-visibility-day-easter-sunday-appalling"
+  target="_blank" rel="noopener"><strong>TRUMP DEMANDS BIDEN ISSUE APOLOGY OVER ''BLASPHEMOUS''
+  TRANS VISIBILITY DAY ON EASTER SUNDAY: ''APPALLING''</strong></a></p><p>Conservatives
+  on social media questioned the timing of the White House celebration, noting the
+  day falls on Easter Sunday, one of the holiest days of the Christian calendar.</p><p>"The
+  Biden White House has betrayed the central tenet of Easter — which is the resurrection
+  of Jesus Christ," <a href="https://www.foxnews.com/category/person/mike-johnson"
+  target="_blank" rel="noopener"><u>House Speaker Mike Johnson</u></a> said on X.
+  "Banning sacred truth and tradition—while at the same time proclaiming Easter Sunday
+  as ''Transgender Day''—is outrageous and abhorrent. The American people are taking
+  note."</p><p>"I am absolutely disgusted that Joe Biden has declared the most Holy
+  of Holy days — a self proclaimed devout Catholic — as Transgender Day of Visibility,"
+  former Olympic gold medal-winning decathlete Caitlyn Jenner said. "The only thing
+  you should be declaring on this day is ‘HE is Risen’."</p><p>The White House celebration
+  also earned the scorn of <a href="https://www.foxnews.com/category/person/donald-trump"
+  target="_blank" rel="noopener">former President Trump</a>, and Trump''s national
+  press secretary, Karoline Leavitt, called on Biden to issue an apology for the statement.</p><p><a
+  href="https://www.foxnews.com/politics/biden-slammed-social-media-announcing-transgender-day-visibility-easter-sunday"
+  target="_blank" rel="noopener"><strong><u>BIDEN SLAMMED ON SOCIAL MEDIA AFTER ANNOUNCING
+  TRANSGENDER DAY OF VISIBILITY ON EASTER SUNDAY</u></strong></a> </p><p>"We call
+  on Joe Biden''s failing campaign and the White House to issue an apology to the
+  millions of Catholics and Christians across America who believe (Sunday) is for
+  one celebration only — the resurrection of Jesus Christ," Leavitt said.</p><p>In
+  Blinken''s statement, the secretary of state noted that "trans persons face violence,
+  suppression, and infringements on their human rights and fundamental freedoms" in
+  other parts of the world, but he argued the United States is urging "partners around
+  the globe to work with the United States in fighting for a world in which transgender
+  persons are free to live safely and openly as themselves."</p><p>The White House
+  argued the celebration always falls on March 31 and that Easter is not always the
+  same day, and it issued a statement in response Saturday, calling the backlash over
+  its celebration of the day divisive.</p><p>"<a href="https://www.foxnews.com/category/us/religion/christianity"
+  target="_blank" rel="noopener">As a Christian</a> who celebrates Easter with family,
+  President Biden stands for bringing people together and upholding the dignity and
+  freedoms of every American," the statement said. </p><p>"Sadly, it’s unsurprising
+  politicians are seeking to divide and weaken our country with cruel, hateful and
+  dishonest rhetoric. President Biden will never abuse his faith for political purposes
+  or for profit."</p><p>Reached for comment, a State Department spokesperson referred
+  Fox News Digital the White House statement.</p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/02/931/523/secretary-of-state-antony-blinken.jpg?ve=1&tl=1

@@ -1,0 +1,42 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497578
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Aggressione omofoba a Scampia, un 23enne denuncia: “Insulti, sputi e cicche
+  di sigarette spente addosso”'
+url: https://www.ilfattoquotidiano.it/2024/03/31/aggressione-omofoba-a-scampia-un-23enne-denuncia-insulti-sputi-e-cicche-di-sigarette-spente-addosso/7497578/
+summary: |
+  <p>&#8220;Sono arrabbiato. Li denuncio&#8220;. Inizia così il racconto di Simone, il 23enne che ha denunciato a Radio Pride un&#8217;aggressione omofoba subita da due ragazzi mentre si trovava sul corso principale di Scampia, a Napoli. Sono stati &#8220;20 minuti di puro terrore&#8221;, racconta il giovane ricostruendo quanto avvenuto venerdì scorso: &#8220;Ero appena uscito dal Conad &#8211; [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/aggressione-omofoba-a-scampia-un-23enne-denuncia-insulti-sputi-e-cicche-di-sigarette-spente-addosso/7497578/">Aggressione omofoba a Scampia, un 23enne denuncia: &#8220;Insulti, sputi e cicche di sigarette spente addosso&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Cronaca
+- Arcigay
+- Omofobia
+- Scampia
+published: 2024-03-31 17:20:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497578
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/aggressione-omofoba-a-scampia-un-23enne-denuncia-insulti-sputi-e-cicche-di-sigarette-spente-addosso/7497578/#comments
+content: |
+  <p>&#8220;Sono arrabbiato. <strong>Li denuncio</strong>&#8220;. Inizia così il racconto di Simone, il <strong>23enne</strong> che ha denunciato a <strong>Radio Pride</strong> un&#8217;<strong>aggressione omofoba</strong> subita da due ragazzi mentre si trovava sul corso principale di <strong>Scampia</strong>, a <strong>Napoli</strong>. Sono stati &#8220;20 minuti di puro terrore&#8221;, racconta il giovane ricostruendo quanto avvenuto venerdì scorso: &#8220;Ero appena uscito dal Conad &#8211; ha detto alla radio &#8211; per comprare un uovo di Pasqua. <strong>Due ragazzi in sella ad uno scooter</strong> mi hanno avvicinato. Mi hanno chiamato &#8216;ricchiò&#8217; e poi sono iniziati gli <strong>sputi</strong> e le<strong> cicche di sigarette spente addosso</strong>&#8220;.</p>
+  <p>La fine dell’incubo e arrivata 20 minuti dopo, quando il 23enne ha minacciato di filmarli: “<strong>Ho detto loro che li avrei filmati</strong>, così avrebbero passato guai seri con la giustizia. Sono pronto a denunciarli. Non accetto più questo stato di cose”. Non è la prima volta che il giovane subisce un&#8217;aggressione a sfondo omofobo. &#8220;Tuttavia, finora, ero stato vittima di meri <strong>insulti</strong> <strong>verbali</strong>. Questa volta si è trattato di una cosa ben diversa. Ma non voglio nascondermi, io li denuncio&#8221;, annuncia Simone. La denuncia sarà sporta anche grazie al sostegno dell’<strong>Arcigay Napoli</strong>: &#8220;Il nostro avvocato è a sua completa disposizione &#8211; ha detto il presidente <strong>Antonello Sannino</strong> &#8211; occorre combattere questi balordi. Si è trattato dell’ennesimo vile episodio a sfondo omofobo, tra l’altro molto violento, perchè si parla di sigarette spente addosso e di sputi. Faremo tutto quanto nelle nostre disponibilità per <strong>ottenere giustizia</strong>&#8220;.</p>
+  <p>Sulla vicenda è anche intervenuto il deputato di Forza Italia e sottosegretario di Stato al Mit, <strong>Tullio Ferrante</strong>: &#8220;La notizia lascia esterrefatti . Un <strong>atteggiamento ripugnante</strong>, sintomo di una degradante (sotto)cultura in cui ignoranza e sopraffazione hanno la meglio e che purtroppo ancora trova terreno fertile in alcuni segmenti sociali delle nostre città&#8221;, ha dichiarato Ferrante esprimendo &#8220;<strong>solidarietà</strong> al giovane Simone che ha avuto il coraggio di denunciare la vile aggressione, con la speranza che si faccia piena luce sull&#8217;accaduto e che i delinquenti vengano assicurati presto alla giustizia&#8221;.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/aggressione-omofoba-a-scampia-un-23enne-denuncia-insulti-sputi-e-cicche-di-sigarette-spente-addosso/7497578/">Aggressione omofoba a Scampia, un 23enne denuncia: &#8220;Insulti, sputi e cicche di sigarette spente addosso&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/5818977_large-1-1050x551.jpg

@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://video.corrierefiorentino.corriere.it/la-colombina-vola-perfettamente-verso-il-carro-per-lo-scoppio-il-video-dall-interno-del-duomo-di-firenze/1d17ee00-47c9-4bcc-b40d-26f1377f2xlk
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'La Colombina vola (perfettamente) verso il Carro per lo scoppio: il video
+  dall''interno del Duomo di Firenze'
+url: https://video.corrierefiorentino.corriere.it/la-colombina-vola-perfettamente-verso-il-carro-per-lo-scoppio-il-video-dall-interno-del-duomo-di-firenze/1d17ee00-47c9-4bcc-b40d-26f1377f2xlk
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/Video/2024/03/31/Foto%20-%20Trattate/660936274f235_ori_crop_MASTER__0x0.jpeg"
+  title="La Colombina vola (perfettamente) verso il Carro per lo scoppio: il video
+  dall''interno del Duomo di Firenze" alt="La Colombina vola (perfettamente) verso
+  il Carro per lo scoppio: il video dall''interno del Duomo di Firenze" /><p>Un volo
+  perfetto ha acceso e fatto "scoppiare" il carroUn volo perfetto quello che ha acceso
+  e fatto "scoppiare" il carro in questa Pasqua 2024 a Firenze: ecco le immaginiUn
+  volo perfetto quello che ha acceso e fatto "scoppiare" il carro in questa Pasqua
+  2024 a Firenze: ecco le immagini</p>'
+author: Corriere
+categories:
+- Corriere
+published: 2024-03-31 12:33:39.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://video.corrierefiorentino.corriere.it/la-colombina-vola-perfettamente-verso-il-carro-per-lo-scoppio-il-video-dall-interno-del-duomo-di-firenze/1d17ee00-47c9-4bcc-b40d-26f1377f2xlk
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

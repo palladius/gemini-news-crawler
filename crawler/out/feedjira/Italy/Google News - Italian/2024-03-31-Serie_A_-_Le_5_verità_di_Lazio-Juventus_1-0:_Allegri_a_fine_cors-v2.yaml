@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMimAFodHRwczovL3d3dy5ldXJvc3BvcnQuaXQvY2FsY2lvL3NlcmllLWEvMjAyMy0yMDI0L2xlLTUtdmVyaXRhLWRpLWxhemlvLWp1dmVudHVzLTEtMC1hbGxlZ3JpLWEtZmluZS1jb3JzYS10dWRvci1oYS1kYXRvLWxhLXNjb3NzYV9zdG8xMDA4NTQ0MC9zdG9yeS5zaHRtbNIBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Serie A - Le 5 verità di Lazio-Juventus 1-0: Allegri a fine corsa, Tudor ha
+  dato la scossa - Eurosport IT'
+url: https://news.google.com/rss/articles/CBMimAFodHRwczovL3d3dy5ldXJvc3BvcnQuaXQvY2FsY2lvL3NlcmllLWEvMjAyMy0yMDI0L2xlLTUtdmVyaXRhLWRpLWxhemlvLWp1dmVudHVzLTEtMC1hbGxlZ3JpLWEtZmluZS1jb3JzYS10dWRvci1oYS1kYXRvLWxhLXNjb3NzYV9zdG8xMDA4NTQ0MC9zdG9yeS5zaHRtbNIBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMimAFodHRwczovL3d3dy5ldXJvc3BvcnQuaXQvY2FsY2lvL3NlcmllLWEvMjAyMy0yMDI0L2xlLTUtdmVyaXRhLWRpLWxhemlvLWp1dmVudHVzLTEtMC1hbGxlZ3JpLWEtZmluZS1jb3JzYS10dWRvci1oYS1kYXRvLWxhLXNjb3NzYV9zdG8xMDA4NTQ0MC9zdG9yeS5zaHRtbNIBAA?oc=5"
+  target="_blank">Serie A - Le 5 verità di Lazio-Juventus 1-0: Allegri a fine corsa,
+  Tudor ha dato la scossa</a>&nbsp;&nbsp;<font color="#6f6f6f">Eurosport IT</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LmdhenpldHRhLml0L0NhbGNpby9TZXJpZS1BL0p1dmVudHVzLzMwLTAzLTIwMjQvYWxsZWdyaS1kb3BvLWxhemlvLWp1dmUtc3RpYW1vLWNhbG1pLnNodG1s0gFpaHR0cHM6Ly93d3cuZ2F6emV0dGEuaXQvQ2FsY2lvL1NlcmllLUEvSnV2ZW50dXMvMzAtMDMtMjAyNC9hbGxlZ3JpLWRvcG8tbGF6aW8tanV2ZS1zdGlhbW8tY2FsbWlfYW1wLnNodG1s?oc=5"
+  target="_blank">Allegri: "Ci va un po'' male, ma non siamo mica diventati brocchi"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Gazzetta dello Sport</font></li><li><a href="https://news.google.com/rss/articles/CBMiWmh0dHBzOi8vd3d3LmZhbnRhY2FsY2lvLml0L25ld3MvY2FsY2lvLWl0YWxpYS8zMV8wM18yMDI0L21hcnVzaWMtZ29sLWxhemlvLWp1dmVudHVzLTQ1ODg3ONIBXmh0dHBzOi8vd3d3LmZhbnRhY2FsY2lvLml0L2FtcC9uZXdzL2NhbGNpby1pdGFsaWEvMzFfMDNfMjAyNC9tYXJ1c2ljLWdvbC1sYXppby1qdXZlbnR1cy00NTg4Nzg?oc=5"
+  target="_blank">Marusic allo scadere, incubo Lazio per la Juventus: ecco perché</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Fantacalcio ®</font></li><li><a href="https://news.google.com/rss/articles/CBMikgFodHRwczovL3d3dy50dXR0b3Nwb3J0LmNvbS9uZXdzL2NhbGNpby9zZXJpZS1hL2p1dmVudHVzLzIwMjQvMDMvMzAtMTI0OTQ3MTI2L2FsbGVncmlfY2hhbXBpb25zX2RhX2NlbnRyYXJlX2VfbGFfY2VudHJlcmVtb19pX3RpZm9zaV9jaV9zb3N0ZW5nb25vX9IBlAFodHRwczovL20udHV0dG9zcG9ydC5jb20vYW1wL25ld3MvY2FsY2lvL3NlcmllLWEvanV2ZW50dXMvMjAyNC8wMy8zMC0xMjQ5NDcxMjYvYWxsZWdyaV9jaGFtcGlvbnNfZGFfY2VudHJhcmVfZV9sYV9jZW50cmVyZW1vX2lfdGlmb3NpX2NpX3Nvc3Rlbmdvbm9f?oc=5"
+  target="_blank">Allegri: "Champions da centrare e la centreremo. I tifosi ci sostengono"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Tuttosport</font></li><li><a href="https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LmlsYmlhbmNvbmVyby5jb20vYS9sYXppby1qdXZlbnR1cy1jaGlyaWNvLWEtY2FsZG8tZm9ybWF6aW9uZS1pZ25vYmlsZS1hbGxlZ3JpLWhhLWZhLTE4Mjg10gEA?oc=5"
+  target="_blank">Lazio-Juventus, Chirico a caldo: ''Formazione ignobile, Allegri
+  ha fatto capire a Tudor di avere paura''</a>&nbsp;&nbsp;<font color="#6f6f6f">ilBianconero</font></li></ol>'
+published: 2024-03-31 06:37:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMimAFodHRwczovL3d3dy5ldXJvc3BvcnQuaXQvY2FsY2lvL3NlcmllLWEvMjAyMy0yMDI0L2xlLTUtdmVyaXRhLWRpLWxhemlvLWp1dmVudHVzLTEtMC1hbGxlZ3JpLWEtZmluZS1jb3JzYS10dWRvci1oYS1kYXRvLWxhLXNjb3NzYV9zdG8xMDA4NTQ0MC9zdG9yeS5zaHRtbNIBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

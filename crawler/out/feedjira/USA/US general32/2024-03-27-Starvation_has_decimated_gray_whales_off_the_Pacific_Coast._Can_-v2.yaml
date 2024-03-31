@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/environment/story/2024-03-27/starvation-has-decimated-pacific-coast-gray-whales
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Starvation has decimated gray whales off the Pacific Coast. Can the giants
+  ever recover? '
+url: https://www.latimes.com/environment/story/2024-03-27/starvation-has-decimated-pacific-coast-gray-whales
+summary: "<p>Researchers suspect that starvation may have killed half off all gray
+  whales off the Pacific Coast of North America. What happened to their food source?
+  </p>"
+author: Susanne Rust
+published: 2024-03-27 19:25:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/environment/story/2024-03-27/starvation-has-decimated-pacific-coast-gray-whales
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>Researchers suspect that starvation may have killed half off all gray
+  whales off the Pacific Coast of North America. What happened to their food source?
+  </p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/5873a0b/2147483647/strip/false/crop/6456x4304+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F09%2F07%2Fb05d85f94806990f15633cea1362%2Fla-photos-1staff-768971-me-whales-dead-san-francisco-04-cmc.jpg

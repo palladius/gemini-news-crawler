@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BCC Europe (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-europe-68644916#3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Moscow attack: ''The first thing you notice is the smell'''
+url: https://www.bbc.co.uk/news/world-europe-68644916
+summary: The BBC's Steve Rosenberg visits the Moscow concert hall where more than
+  100 were people were killed.
+published: 2024-03-23 11:37:24.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-europe-68644916#3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BCC Europe
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13163/production/_132997187_p0hlh0xl.jpg

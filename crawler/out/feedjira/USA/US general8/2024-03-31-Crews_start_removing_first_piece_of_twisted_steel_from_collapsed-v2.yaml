@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/us-news/crews-start-removing-first-piece-twisted-steel-collapsed-baltimore-bri-rcna145758
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Crews start removing first piece of twisted steel from collapsed Baltimore
+  bridge
+url: https://www.nbcnews.com/news/us-news/crews-start-removing-first-piece-twisted-steel-collapsed-baltimore-bri-rcna145758
+summary: Teams of engineers worked Saturday on the intricate process of cutting and
+  lifting the first section of twisted steel from the collapsed Francis Scott Key
+  Bridge, which crumpled into the Patapsco River this week after a massive cargo ship
+  crashed into one of its supports.
+author: The Associated Press
+published: 2024-03-31 04:19:20.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/us-news/crews-start-removing-first-piece-twisted-steel-collapsed-baltimore-bri-rcna145758
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240330-maryland-bridge-cc-1149p-0ebc9c.jpg

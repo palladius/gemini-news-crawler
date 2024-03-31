@@ -1,0 +1,66 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/sports/tigers-aj-hinch-says-he-was-nearly-hit-car-field-game-vs-white-sox
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Tigers' A.J. Hinch says he was nearly hit by car on field before game vs. White
+  Sox
+url: https://www.foxnews.com/sports/tigers-aj-hinch-says-he-was-nearly-hit-car-field-game-vs-white-sox
+summary: Detroit Tigers manager A.J. Hinch said Saturday he was nearly hit by a car
+  that traveled around Guaranteed Rate Field Thursday during the Chicago White Sox&apos;s
+  festivities.
+categories:
+- f03e7068-18de-5b41-943c-efa0cb11fe3b
+- fnc
+- Fox News
+- fox-news/sports/mlb/detroit-tigers
+- fox-news/sports/mlb
+- fox-news/sports/mlb/chicago-white-sox
+- fox-news/sports
+- article
+published: 2024-03-31 17:55:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/sports/tigers-aj-hinch-says-he-was-nearly-hit-car-field-game-vs-white-sox
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>Thursday marked opening day for baseball, and it nearly turned disastrous
+  for <a href="https://www.foxnews.com/category/sports/mlb/detroit-tigers" target="_blank"
+  rel="noopener">Detroit Tigers</a> manager A.J. Hinch during his team’s game against
+  the Chicago White Sox.</p><p>The <a href="https://www.foxnews.com/category/sports/mlb/chicago-white-sox"
+  target="_blank" rel="noopener">White Sox</a> decided to bring players out on Guaranteed
+  Rate Field via car. </p><p>Hinch told reporters Saturday before the second game
+  of the season he was nearly hit by a car.</p><p><a href="https://www.foxnews.com/sports"
+  target="_blank" rel="noopener"><strong><u>CLICK HERE FOR MORE SPORTS COVERAGE ON
+  FOXNEWS.COM</u></strong></a></p><p>"That was a close one," Hinch said, via MLive.com.
+  "They have priority. Clearly. I''ll let the cars pass next time."</p><p>Photos on
+  social media showed the cars traveling around the warning track and down the third
+  base line. It wasn’t clear just how close the vehicles got to Hinch.</p><p>The Tigers
+  have gotten off to a hot start to 2024 with two straight wins.</p><p><a href="https://www.foxnews.com/sports/yankees-sweat-through-new-nike-uniforms-prompting-backlash-a-disgrace"
+  target="_blank" rel="noopener"><strong>YANKEES SWEAT THROUGH NEW NIKE UNIFORMS,
+  PROMPTING BACKLASH: ''A DISGRACE''</strong></a></p><p>On Saturday, Carson Kelly
+  hit a run-scoring single in the seventh inning and the 10th inning to help Detroit
+  defeat Chicago 7-6 in extras. Mark Canha and Riley Greene also homered during the
+  game.</p><p>"We want to play for bigger things. We want to go to the playoffs, and
+  we want to go win," Kelly said after the game. "Obviously, to get there, you''ve
+  got to win ... these close games, and I think that''s what we''re going to go out
+  and show."</p><p>Hinch is in his fourth season with the Tigers. He guided Detroit
+  to an improvement in 2023 from 2022 with a record of 78-84.</p><p>He’s 481-329 during
+  his career after managing the Arizona Diamondbacks and <a href="https://www.foxnews.com/category/sports/mlb/houston-astros"
+  target="_blank" rel="noopener">Houston Astros</a> earlier in his career.</p><p><i>The
+  Associated Press contributed to this report.</i></p><p><i><strong>Follow Fox News
+  Digital’s</strong></i><a href="https://twitter.com/FoxNewsSports_" target="_blank"
+  rel="noopener"><i><strong> <u>sports coverage on X</u></strong></i></a><i><strong>
+  and subscribe to</strong></i><a href="https://www.foxnews.com/newsletters" target="_blank"
+  rel="noopener"><i><strong><u> the Fox News Sports Huddle newsletter</u></strong></i></a><i><strong>.</strong></i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/AJ-Hinch.jpg?ve=1&tl=1

@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-18/how-a-south-korean-radio-producer-came-to-worship-dodger-superstar-shohei-ohtani
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: How far would you go for Shohei Ohtani? This man rearranged his whole life
+url: https://www.latimes.com/world-nation/story/2024-03-18/how-a-south-korean-radio-producer-came-to-worship-dodger-superstar-shohei-ohtani
+summary: "<p>Japanese athletes have long been shunned in South Korea. This radio producer
+  is leading a campaign to make an exception for Dodger superstar Shohei Ohtani.</p>"
+author: Max Kim
+published: 2024-03-18 10:00:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-18/how-a-south-korean-radio-producer-came-to-worship-dodger-superstar-shohei-ohtani
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Japanese athletes have long been shunned in South Korea. This radio producer
+  is leading a campaign to make an exception for Dodger superstar Shohei Ohtani.</p>"

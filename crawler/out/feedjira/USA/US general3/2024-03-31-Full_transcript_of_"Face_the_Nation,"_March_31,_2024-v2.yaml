@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 6f39e617-0f4d-46c8-86cf-f35a73195bd3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Full transcript of "Face the Nation," March 31, 2024
+url: https://www.cbsnews.com/news/face-the-nation-full-transcript-03-31-2024/
+summary: On this "Face the Nation" broadcast, Transportation Secretary Pete Buttigieg
+  and Baltimore Mayor Brandon Scott join Ed O'Keefe.
+published: 2024-03-31 18:48:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 6f39e617-0f4d-46c8-86cf-f35a73195bd3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

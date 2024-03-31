@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 601664c7-2d44-4483-b6dc-e22ff2e5e55b
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Christians celebrate Easter at Church of the Holy Sepulcher in contested Jerusalem
+url: https://www.cbsnews.com/video/christians-celebrate-easter-at-church-of-the-holy-sepulcher-in-contested-jerusalem/
+summary: In Jerusalem, Easter Sunday celebrations were muted at the Church of the
+  Holy Sepulcher, believed to be the site of Jesus Christ's crucifixion. Members of
+  Jerusalem's Christian minority say they are under attack amid the war between Israel
+  and Hamas. Holly Williams reports.
+published: 2024-03-31 17:43:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 601664c7-2d44-4483-b6dc-e22ff2e5e55b
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

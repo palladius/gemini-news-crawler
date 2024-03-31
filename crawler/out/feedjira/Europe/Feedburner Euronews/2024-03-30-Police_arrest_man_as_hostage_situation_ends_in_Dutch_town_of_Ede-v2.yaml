@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/30/several-people-held-hostage-inside-dutch-nightclub
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Police arrest man as hostage situation ends in Dutch town of Ede
+url: https://www.euronews.com/2024/03/30/several-people-held-hostage-inside-dutch-nightclub
+summary: The reason for the hostage-taking was not clear, but police said on X that
+  “at the moment there is no indication of a terrorist motive.”
+published: 2024-03-30 11:00:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/30/several-people-held-hostage-inside-dutch-nightclub
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

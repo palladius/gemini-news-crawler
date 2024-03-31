@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/economia/lavoro/cards/smart-working-serve-l-accordo-individuale-ecco-cosa-cambia-dal-1-aprile/smart-working-cosa-cambia-da-aprile_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Smart working, serve l’accordo individuale: cosa cambia dal 1°aprile (anche
+  per i fragili)'
+url: https://www.corriere.it/economia/lavoro/cards/smart-working-serve-l-accordo-individuale-ecco-cosa-cambia-dal-1-aprile/smart-working-cosa-cambia-da-aprile_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/28/Economia/Foto%20Economia%20-%20Trattate/660541fa322f9_ori_crop_MASTER__0x0.jpeg"
+  title="Smart working, serve l’accordo individuale: cosa cambia dal 1°aprile (anche
+  per i fragili)" alt="Smart working, serve l’accordo individuale: cosa cambia dal
+  1°aprile (anche per i fragili)" /><p>Il 31 marzo scadono le deroghe previste durante
+  il Covid-19 per i soggetti cosiddetti fragili e dei genitori di figli under 14:
+  tutte le novitàIl 31 marzo scadono le deroghe previste durante il Covid-19 per i
+  soggetti cosiddetti fragili e dei genitori di figli under 14: tutte le novitàIl
+  31 marzo scadono le deroghe previste durante il Covid-19 per i soggetti cosiddetti
+  fragili e dei genitori di figli under 14: tutte le novità</p>'
+author: Valentina Iorio
+categories:
+- Economia
+published: 2024-03-30 08:59:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/economia/lavoro/cards/smart-working-serve-l-accordo-individuale-ecco-cosa-cambia-dal-1-aprile/smart-working-cosa-cambia-da-aprile_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

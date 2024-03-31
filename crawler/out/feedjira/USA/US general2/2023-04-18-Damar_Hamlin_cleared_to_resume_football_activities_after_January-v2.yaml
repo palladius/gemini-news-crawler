@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/sport/damar-hamlin-cleared-to-train-nfl-spt-intl/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Damar Hamlin cleared to resume football activities after January cardiac arrest
+url: https://www.cnn.com/2023/04/18/sport/damar-hamlin-cleared-to-train-nfl-spt-intl/index.html
+summary: Buffalo Bills safety Damar Hamlin, who has been cleared to resume football
+  activities, said Tuesday his cardiac arrest during an NFL game in January was caused
+  by commotio cordis.
+published: 2023-04-18 22:11:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/sport/damar-hamlin-cleared-to-train-nfl-spt-intl/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230418173748-damar-hamlin-super-169.jpg

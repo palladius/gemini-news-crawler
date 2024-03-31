@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-27/the-standoff-at-gate-36-texas-sends-in-the-troops-to-block-migrants-from-seeking-asylum
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'The standoff at Gate 36: Texas sends in the troops to block migrants from
+  seeking asylum '
+url: https://www.latimes.com/world-nation/story/2024-03-27/the-standoff-at-gate-36-texas-sends-in-the-troops-to-block-migrants-from-seeking-asylum
+summary: "<p>Immigration enforcement has long been the domain of the federal government.
+  Texas is trying to change that.</p>"
+author: Patrick J. McDonnell
+published: 2024-03-27 10:00:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-27/the-standoff-at-gate-36-texas-sends-in-the-troops-to-block-migrants-from-seeking-asylum
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Immigration enforcement has long been the domain of the federal government.
+  Texas is trying to change that.</p>"

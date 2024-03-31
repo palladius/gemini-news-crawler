@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 65fda0aeeac688c6bc30d77f
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Canoeing in a Superfund Site
+url: https://www.newyorker.com/news/our-local-correspondents/canoeing-in-a-superfund-site
+summary: Paddling in the Gowanus Canal, in Brooklyn, has inspired one recovering lawyer
+  to write poetry about toxic sludge, floating condoms, and gentrification.
+author: Eric Lach
+categories:
+- News / Our Local Correspondents
+published: 2024-03-26 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65fda0aeeac688c6bc30d77f
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/6601e7037f586e359bdedce9/master/pass/Lach_Gowanus_Social.jpg

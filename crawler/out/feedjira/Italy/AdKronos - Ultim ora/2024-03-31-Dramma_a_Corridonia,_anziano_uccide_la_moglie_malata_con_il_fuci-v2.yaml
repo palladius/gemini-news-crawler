@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/dramma-a-corridonia-anziano-uccide-la-moglie-malata-con-il-fucile-e-tenta-il-suicidio_70MitMRkl94vXuKuBZolaA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Dramma a Corridonia, anziano uccide la moglie malata con il fucile e tenta
+  il suicidio
+url: https://www.adnkronos.com/cronaca/dramma-a-corridonia-anziano-uccide-la-moglie-malata-con-il-fucile-e-tenta-il-suicidio_70MitMRkl94vXuKuBZolaA
+summary: "(Adnkronos) - L'uomo, di 86 anni, è ricoverato in gravissime condizioni
+  all'ospedale di Ancona. La moglie aveva anche lei 86 anni"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-31 14:18:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/dramma-a-corridonia-anziano-uccide-la-moglie-malata-con-il-fucile-e-tenta-il-suicidio_70MitMRkl94vXuKuBZolaA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/0287-19914f0495af-cd759d3d4441-1000/format/medium/carabinieri_auto23_fg.jpeg

@@ -1,0 +1,58 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/831b56ba6fc5
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: My favourite Toolchain
+url: https://medium.com/@palladiusbonton/my-favourite-toolchain-831b56ba6fc5?source=rss-b5293b96912f------2
+author: Riccardo Carlesso
+published: 2023-04-12 11:31:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/831b56ba6fc5
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- published
+- entry_id
+- content
+content: "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Zpiw3oLXwzs37UElBG4mIA.png\"
+  /><figcaption>How <em>midjourney</em> imagines my favourite Toolchain, in 4 familiar
+  colors ;)</figcaption></figure><p>Recently, my alter ego Richard asked a provocative
+  question: are you happy with your toolchain, is it modern enough?</p><p>Before answering
+  that question, o thought, first I need to assess it and enumerate it. Let’s see
+  \U0001F648 what toolchain is:</p><ul><li><strong>Coding IDE</strong>: <strong>vscode</strong>.
+  It is so amazing, I’ve tried something different, the OSS version, but it’s fast,
+  extensible and just wow. The only missing thing is, a fast edit-over-ssh. But it’s
+  not MS fault.</li><li><strong>Favourite language:</strong> <strong>Ruby</strong>.
+  I know what you’re thinking, but it makes me happy, and efficient. I’ve tried other
+  languages and frameworks, and nothing beats RoR in 2022 (I’ve spent 2 weekend to
+  prove myself wrong, failing). If I need efficiency</li><li><strong>App Development:
+  Ruby on Rails.</strong> I’ve given Js a go many times, it’s spectacular on many
+  parts, but developing an app in a DRY way (rather than duplicating code for BE/FE)
+  and having a single solid choice over a fragmentation of libs for me wins.</li><li><strong>CI:
+  </strong>GCP <strong>Cloud Build</strong> and <a href=\"http://skaffoold.dev\"><strong>skaffold</strong></a>.
+  I might be biased as Googler here.</li><li><strong>CD</strong>: <strong>Cloud Deploy</strong>
+  and <strong>GitHub actions</strong>. Again, biased \U0001F60A</li><li><strong>CI/CD</strong>:
+  Skaffold plus GCP tooling on top of github repos. Use <strong>kustomize</strong>
+  to DRY the manifests.</li><li><strong>Serverless</strong>: <strong>Cloud Run</strong>
+  and <strong>App Engine</strong>. Never been a huge fan of Cloud functions, or maybe
+  I just don’t get them :)</li><li><a href=\"https://en.wikipedia.org/wiki/Infrastructure_as_a_service\"><strong>IaaS</strong></a><strong> :
+  Google Cloud Platform</strong>. If you ask my favourite product, I’d say <strong>GCE</strong>
+  as it was my first love.</li><li><strong>PaaS: App Engine </strong>+ <strong>Heroku</strong>.</li><li><strong>SaaS:
+  GitHub, Google Workspace, Atlassian Bitbucket</strong>.</li><li><strong>Infra as
+  Code:</strong> <strong>Pulumi</strong> and <strong>Terraform</strong>. Back in the
+  days, <strong>Chef</strong>.</li><li><strong>kubernetes</strong>: I love <strong>GKE</strong>
+  remotely, and <strong>minikube</strong> locally. <strong>Kustomize</strong> to DRY
+  my manifests. Not a big fan of Helm, tried it and hated it. Kpt is in my TODO list.</li><li><strong>Docker</strong>:
+  I love <strong>docker-compose</strong>, although it doesn’t scale much. For simple
+  single-apps, I use that. For more complex stuff, skaffold.</li><li><strong>Testing</strong>:
+  I invented a bash testing suite — a friend told me I’d become famous — I didn’t
+  \U0001F603. Happy to share code with you if you ask, and you’re back to the asylum tonight.</li></ul><p>More
+  to follow…</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*m80mWeOX7BXq_ooi.png\"
+  /><figcaption>Infra as Code is so hot right now!</figcaption></figure><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=831b56ba6fc5\"
+  width=\"1\" height=\"1\" alt=\"\">"

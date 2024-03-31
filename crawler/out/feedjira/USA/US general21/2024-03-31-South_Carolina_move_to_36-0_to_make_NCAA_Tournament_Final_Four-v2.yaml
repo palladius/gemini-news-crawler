@@ -1,0 +1,56 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/sport/2024/mar/31/south-carolina-move-to-36-0-to-make-ncaa-tournament-final-four
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: South Carolina move to 36-0 to make NCAA Tournament Final Four
+url: https://www.theguardian.com/sport/2024/mar/31/south-carolina-move-to-36-0-to-make-ncaa-tournament-final-four
+summary: <ul><li>Oregon State 58-70 South Carolina</li><li>Gamecocks aim for first
+  undefeated season since 2016</li></ul><p>Tessa Johnson scored 15 points, Kamilla
+  Cardoso added 12 and undefeated South Carolina advanced to the Final Four of the
+  women’s NCAA Tournament with a 70-58 win over Oregon State on Sunday.<br><br>South
+  Carolina made it to the national semifinals unbeaten for the second straight season.
+  The Gamecocks lost to Caitlin Clark and Iowa in the Final Four last year. This time,
+  with an entirely new starting lineup, coach Dawn Staley has her group on the verge
+  of the school’s third national championship.<br><br>The Gamecocks, who have made
+  the Final Four in four straight years, will play either Texas or NC State on Friday
+  night in Cleveland. Two more wins by South Carolina would make the Gamecocks the
+  10th school to finish a season undefeated and the first since UConn did so in 2016.<br><br>Top-seeded
+  South Carolina (36-0) led by four at the half and built a 14-point lead before No
+  3 seed Oregon State (27-8) closed the score to 62-58 with 3:55 left in the game.
+  But the Beavers missed their final seven shots.<br><br>Johnson answered after a
+  timeout with a three-point play, scoring on a drive to restore a seven-point cushion.
+  No one scored until Johnson made two free throws with 44.5 seconds left. Raegan
+  Beers scored 16 points to lead the Beavers.<br><br>This was the second straight
+  game in the Albany 1 Region where South Carolina let a double-digit second-half
+  lead slip away. Just as they did against Indiana in the regional semifinal, the
+  young Gamecocks made the necessary plays down the stretch.<br><br>South Carolina
+  led 43-41 before scoring 12 straight points in the third quarter. Raven Johnson,
+  who hit the big 3-pointer to beat Indiana in the Sweet 16, connected on a corner
+  3 to start the game-changing spurt. Tessa Johnson followed with five straight points,
+  and Sania Feagin capped the burst with the four points that made it 55-41 with 1:36
+  left in the third quarter.</p> <a href="https://www.theguardian.com/sport/2024/mar/31/south-carolina-move-to-36-0-to-make-ncaa-tournament-final-four">Continue
+  reading...</a>
+author: Associated Press
+categories:
+- NCAA tournament
+- College basketball
+- College sports
+- US sports
+- Sport
+published: 2024-03-31 19:40:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/sport/2024/mar/31/south-carolina-move-to-36-0-to-make-ncaa-tournament-final-four
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/ba873721521d743821d522e9d3fe30ddb2311107/0_70_5570_3344/master/5570.jpg?width=140&quality=85&auto=format&fit=max&s=3308b8298cebf59476206b2adcfc535d

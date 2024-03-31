@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/opinion/story/2024-03-24/donald-trump-election-2024-israel-hamas-gaza-chuck-schumer
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Abcarian: Who has the moral authority to speak about Israel''s excesses? Certainly
+  not Donald Trump.'
+url: https://www.latimes.com/opinion/story/2024-03-24/donald-trump-election-2024-israel-hamas-gaza-chuck-schumer
+summary: "<p>Senate Majority Leader Chuck Schumer's courageous call for the ouster
+  of Israeli leader Benjamin Netanyahu stands in contrast to Trump's malevolent inanities.</p>"
+author: Robin Abcarian
+published: 2024-03-24 10:02:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/opinion/story/2024-03-24/donald-trump-election-2024-israel-hamas-gaza-chuck-schumer
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Senate Majority Leader Chuck Schumer's courageous call for the ouster
+  of Israeli leader Benjamin Netanyahu stands in contrast to Trump's malevolent inanities.</p>"

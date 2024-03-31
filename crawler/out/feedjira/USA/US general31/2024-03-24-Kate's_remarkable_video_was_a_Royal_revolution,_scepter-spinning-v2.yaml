@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-24/la-me-kate-middleton-cancer-patt-morrison
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Kate's remarkable video was a Royal revolution, scepter-spinning in its frankness
+url: https://www.latimes.com/world-nation/story/2024-03-24/la-me-kate-middleton-cancer-patt-morrison
+summary: "<p>Kate Middleton's video in which she shares her cancer diagnosis stuns
+  the tabloids into silence — for the moment anyway — with its revolutionary frankness.
+  </p>"
+author: Patt Morrison
+published: 2024-03-24 16:43:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-24/la-me-kate-middleton-cancer-patt-morrison
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Kate Middleton's video in which she shares her cancer diagnosis stuns
+  the tabloids into silence — for the moment anyway — with its revolutionary frankness.
+  </p>"

@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/california/story/2024-03-14/cal-mex-restaurants-new-york
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Column: Cal-Mex is having a moment in New York. But how does it taste?'
+url: https://www.latimes.com/california/story/2024-03-14/cal-mex-restaurants-new-york
+summary: "<p>Californians nostalgic for Mexican food have tried to replicate what
+  they're missing in New York, to middling results. Now, the city is having a Cal-Mex
+  moment.</p>"
+author: Gustavo Arellano
+published: 2024-03-14 10:00:31.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/california/story/2024-03-14/cal-mex-restaurants-new-york
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>Californians nostalgic for Mexican food have tried to replicate what
+  they're missing in New York, to middling results. Now, the city is having a Cal-Mex
+  moment.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/4db0469/2147483647/strip/false/crop/4032x3024+0+0/resize/1500x1125!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F6e%2F22%2Ff282b35f45dea649803aea0b27d9%2Flos-tacos-no-1-times-square.jpg

@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiZGh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY29tbWVudGkvMjAyNC8wMy8zMS9uZXdzL3ZhbGRpdGFyYV9zb25vX2lvX2Ffc2VudGlybWlfc3RyYW5pZXJhLTQyMjQwMTU4My_SAWhodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2NvbW1lbnRpLzIwMjQvMDMvMzEvbmV3cy92YWxkaXRhcmFfc29ub19pb19hX3NlbnRpcm1pX3N0cmFuaWVyYS00MjI0MDE1ODMvYW1wLw
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Ministro Valditara, sono io a sentirmi straniera - la Repubblica
+url: https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY29tbWVudGkvMjAyNC8wMy8zMS9uZXdzL3ZhbGRpdGFyYV9zb25vX2lvX2Ffc2VudGlybWlfc3RyYW5pZXJhLTQyMjQwMTU4My_SAWhodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2NvbW1lbnRpLzIwMjQvMDMvMzEvbmV3cy92YWxkaXRhcmFfc29ub19pb19hX3NlbnRpcm1pX3N0cmFuaWVyYS00MjI0MDE1ODMvYW1wLw?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY29tbWVudGkvMjAyNC8wMy8zMS9uZXdzL3ZhbGRpdGFyYV9zb25vX2lvX2Ffc2VudGlybWlfc3RyYW5pZXJhLTQyMjQwMTU4My_SAWhodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2NvbW1lbnRpLzIwMjQvMDMvMzEvbmV3cy92YWxkaXRhcmFfc29ub19pb19hX3NlbnRpcm1pX3N0cmFuaWVyYS00MjI0MDE1ODMvYW1wLw?oc=5"
+  target="_blank">Ministro Valditara, sono io a sentirmi straniera</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">la Repubblica</font></li><li><a href="https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L3Rvcmluby8yMDI0LzAzLzMxL25ld3Mvc3BlY2NoaW9fZGVpX3RlbXBpX2xldHRlcmVfb2dnaV8zMV9tYXJ6b18yMDI0LTE0MTg4MzA1L9IBamh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L3Rvcmluby8yMDI0LzAzLzMxL25ld3Mvc3BlY2NoaW9fZGVpX3RlbXBpX2xldHRlcmVfb2dnaV8zMV9tYXJ6b18yMDI0LTE0MTg4MzA1L2FtcC8?oc=5"
+  target="_blank">Le lettere di Specchio dei Tempi del 31 marzo 2024</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Stampa</font></li><li><a href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LmlsZ2lvcm5hbGUuaXQvbmV3cy9wb2xpdGljYS9zdHJhbmllcmktbmVsbGUtY2xhc3NpLWNvcy1nb3Zlcm5vLWRhbGVtYS1taXNlLXByaW1vLXRldHRvLTIzMDM0NTUuaHRtbNIBAA?oc=5"
+  target="_blank">Quando D'Alema mise il primo tetto agli stranieri nelle classi</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">ilGiornale.it</font></li><li><a href="https://news.google.com/rss/articles/CBMiyQFodHRwczovL3d3dy5pbGZhdHRvcXVvdGlkaWFuby5pdC8yMDI0LzAzLzMwL3RldHRvLWFnbGktc3RyYW5pZXJpLWluLWF1bGEtaW4tOC1zY3VvbGUtc3UtMTAtZ2xpLWFsdW5uaS1ub24taXRhbGlhbmktc29uby1naWEtbWVuby1kZWwtMjAtaS1kYXRpLWRlbC1taW5pc3Rlcm8tY2hlLXNtZW50aXNjb25vLXNhbHZpbmktZS12YWxkaXRhcmEvNzQ5NjE5My_SAc0BaHR0cHM6Ly93d3cuaWxmYXR0b3F1b3RpZGlhbm8uaXQvMjAyNC8wMy8zMC90ZXR0by1hZ2xpLXN0cmFuaWVyaS1pbi1hdWxhLWluLTgtc2N1b2xlLXN1LTEwLWdsaS1hbHVubmktbm9uLWl0YWxpYW5pLXNvbm8tZ2lhLW1lbm8tZGVsLTIwLWktZGF0aS1kZWwtbWluaXN0ZXJvLWNoZS1zbWVudGlzY29uby1zYWx2aW5pLWUtdmFsZGl0YXJhLzc0OTYxOTMvYW1wLw?oc=5"
+  target="_blank">“Tetto agli stranieri in aula”? In 8 scuole su 10 gli alunni non
+  italiani sono già meno del 20%:…</a>&nbsp;&nbsp;<font color="#6f6f6f">Il Fatto Quotidiano</font></li></ol>
+published: 2024-03-30 23:01:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiZGh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY29tbWVudGkvMjAyNC8wMy8zMS9uZXdzL3ZhbGRpdGFyYV9zb25vX2lvX2Ffc2VudGlybWlfc3RyYW5pZXJhLTQyMjQwMTU4My_SAWhodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2NvbW1lbnRpLzIwMjQvMDMvMzEvbmV3cy92YWxkaXRhcmFfc29ub19pb19hX3NlbnRpcm1pX3N0cmFuaWVyYS00MjI0MDE1ODMvYW1wLw
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

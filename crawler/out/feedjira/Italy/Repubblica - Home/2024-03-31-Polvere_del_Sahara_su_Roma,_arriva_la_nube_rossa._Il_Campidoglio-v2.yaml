@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:rep-roma:422402311
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Polvere del Sahara su Roma, arriva la nube rossa. Il Campidoglio: “Restate
+  a casa il più possibile”'
+url: https://roma.repubblica.it/cronaca/2024/03/31/news/polvere_sahara_roma_inquinamento_allarme-422402311/
+summary: 'Dalle ultime rilevazioni è stato registrato il superamento del valore limite
+  giornaliero di Pm10 previsto dalla normativa vigente: “Necessario da parte della
+  cittadinanza attuare una serie di azioni volontarie”'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-31 10:00:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:rep-roma:422402311
+updated: 2024-03-31 10:00:49.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-20/biden-courts-latino-voters-and-presses-housing-affordability-in-nevada-and-arizona
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Biden courts Latino voters and presses housing affordability, manufacturing
+  in Nevada and Arizona
+url: https://www.latimes.com/politics/story/2024-03-20/biden-courts-latino-voters-and-presses-housing-affordability-in-nevada-and-arizona
+summary: "<p>President Biden, trying to fend off Trump in the key swing states of
+  Arizona and Nevada, courts Latino voters and highlights pocketbook issues.</p>"
+author: Seema Mehta
+published: 2024-03-20 23:01:02.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-20/biden-courts-latino-voters-and-presses-housing-affordability-in-nevada-and-arizona
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>President Biden, trying to fend off Trump in the key swing states of
+  Arizona and Nevada, courts Latino voters and highlights pocketbook issues.</p>"

@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general14 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.huffpost.com/entry/royal-family-easter_n_65ee723ee4b05cfcf67ff2d4
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "comments", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Royal Family Puts On United Front At Easter Following Kate, Charles’ Cancer
+  Diagnoses
+url: https://www.huffpost.com/entry/royal-family-easter_n_65ee723ee4b05cfcf67ff2d4
+summary: The royal appearance comes a little over a week after the Princess of Wales
+  revealed she'd been diagnosed with cancer.
+published: 2024-03-31 12:23:42.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/royal-family-easter_n_65ee723ee4b05cfcf67ff2d4
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general14
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- comments
+- content
+comments: https://www.huffpost.com/entry/royal-family-easter_n_65ee723ee4b05cfcf67ff2d4#comments
+content: "\n        The royal appearance comes a little over a week after the Princess
+  of Wales revealed she'd been diagnosed with cancer.\n      "

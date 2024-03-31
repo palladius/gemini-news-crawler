@@ -1,0 +1,110 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/politics/white-house-celebrates-trans-holiday-easter-us-extensive-list-days-devoted-lgbt-causes
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: '3 months and 28 days: LGBTQ events clog calendar as White House faces backlash
+  over Easter announcement'
+url: https://www.foxnews.com/politics/white-house-celebrates-trans-holiday-easter-us-extensive-list-days-devoted-lgbt-causes
+summary: The U.S. celebrates dozens of LGBT holidays and weeks, data shows, including
+  the White House proclaiming Transgender Day of Visibility on Easter Sunday.
+categories:
+- 58853f5f-8e0e-5573-98cb-47937cf30c80
+- fnc
+- Fox News
+- fox-news/person/joe-biden
+- fox-news/politics/executive/white-house
+- fox-news/lifestyle/occasions/holiday
+- fox-news/us/education/diversity
+- fox-news/newsedge/politics
+- fox-news/politics
+- article
+published: 2024-03-31 17:42:12.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/politics/white-house-celebrates-trans-holiday-easter-us-extensive-list-days-devoted-lgbt-causes
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>Amid backlash <a href="https://www.foxnews.com/category/politics/executive/white-house"
+  target="_blank" rel="noopener">about the White House proclaiming</a> Transgender
+  Day of Visibility on Easter Sunday, Fox News Digital found an extensive list of
+  LGBT-focused holidays celebrated throughout the year, including a handful recognized
+  by the White House. </p><p>"On Transgender Day of Visibility, we honor the extraordinary
+  courage and contributions of transgender Americans and reaffirm our Nation’s commitment
+  to forming a more perfect Union — where all people are created equal and treated
+  equally throughout their lives," said a White House statement recognizing Transgender
+  Day of Visibility on Easter Sunday, the most holy holiday for Christians. </p><p>"Today,
+  we send a message to all transgender Americans: You are loved. You are heard. You
+  are understood. You belong. You are America, and my entire Administration and I
+  have your back," it added. </p><p>"Now, therefore, I, Joseph R. Biden Jr., President
+  of the United States of America, by virtue of the authority vested in me by the
+  Constitution and the laws of the United States, do hereby proclaim March 31, 2024,
+  as Transgender Day of Visibility."</p><p><a href="https://www.foxnews.com/politics/biden-slammed-social-media-announcing-transgender-day-visibility-easter-sunday"
+  target="_blank" rel="noopener"><strong>BIDEN SLAMMED ON SOCIAL MEDIA AFTER ANNOUNCING
+  TRANSGENDER DAY OF VISIBILITY ON EASTER SUNDAY</strong></a></p><p>Conservatives
+  and other critics of the White House ripped the decision to recognize Transgender
+  Day of Visibility on Easter, calling it an attack on Christianity. International
+  Transgender Day of Visibility was created by activists more than 10 years ago and
+  is celebrated each year on March 31, while the date of Easter Sunday changes from
+  year to year. </p><p><a href="https://www.foxnews.com/politics/americans-arent-buying-bidens-devout-catholic-label-poll-finds"
+  target="_blank" rel="noopener"><strong><u>AMERICANS AREN'T BUYING BIDEN'S 'DEVOUT
+  CATHOLIC' LABEL, POLL FINDS</u></strong></a></p><p>The Trump campaign called on
+  Biden to apologize for the proclamation. </p><p>"<a href="https://www.foxnews.com/category/person/joe-biden"
+  target="_blank" rel="noopener">We call on Joe Biden's failing</a> campaign and the
+  White House to issue an apology to the millions of Catholics and Christians across
+  America who believe tomorrow is for one celebration only — the resurrection of Jesus
+  Christ," Karoline Leavitt said. </p><p><a href="https://www.foxnews.com/media/biden-skewered-worlds-worst-catholic-cheapens-irish-catholic-identity"
+  target="_blank" rel="noopener"><strong><u>BIDEN SKEWERED AS 'WORLD’S WORST CATHOLIC'
+  WHO CHEAPENS IRISH AND CATHOLIC IDENTITY</u></strong></a></p><p>Others on <a href="https://www.foxbusiness.com/category/social-media"
+  target="_blank" rel="noopener">social media</a> pointed out that cities, universities,
+  LGBT organizations and government officials celebrate similar calendar events throughout
+  the year. Fox News Digital found at least 28 other related holidays celebrated in
+  the U.S., including International Asexuality Day, International Day of Pink, Day
+  of Silence, Harvey Milk Day, Pansexual and Panromantic Awareness Day and International
+  Drag Day. </p><p>There are also entire months devoted to LGBT causes or commemorations,
+  including Pride Month in June, LGBT History Month in October and Transgender Awareness
+  Month in November. </p><p>Not every holiday throughout the year is recognized by
+  the White House or high-ranking lawmakers, but holidays are celebrated by advocacy
+  groups in cities such as Seattle or on college campuses. </p><p>The Biden White
+  House has celebrated at least seven other holidays celebrating and commemorating
+  LGBT issues, including National Coming Out Day in October; Lesbian Day of Visibility
+  in April; International Day Against Homophobia, Transphobia and Biphobia in May;
+  Pride Month in June; Spirit Day in October; Intersex Awareness Day in October; and
+  Transgender Day of Remembrance in November. </p><p>The Biden administration has
+  celebrated Transgender Day of Visibility each year since 2021 on March 31, and White
+  House spokesman Andrew Bates said Biden, as a Christian, is working to bring "people
+  together" with the event. </p><p>"As a Christian who celebrates Easter with family,
+  President Biden stands for bringing people together and upholding the dignity and
+  freedoms of every American," Bates said in comment to Fox News Digital on Sunday. </p><p><a
+  href="https://www.foxnews.com/politics/white-house-doubles-down-inclusiveness-message-backlash-transgender-day-visibility-easter"
+  target="_blank" rel="noopener"><strong>WHITE HOUSE DOUBLES DOWN ON INCLUSIVENESS
+  MESSAGE AMID BACKLASH OVER TRANSGENDER DAY OF VISIBILITY ON EASTER</strong></a></p><p>"Sadly,
+  it’s unsurprising politicians are seeking to divide and weaken our country with
+  cruel, hateful and dishonest rhetoric. President Biden will never abuse his faith
+  for political purposes or for profit."</p><p>Biden, who is Catholic, did post a
+  message Sunday celebrating Easter and Jesus’ resurrection. </p><p>"Jill and I send
+  our warmest wishes to Christians around the world celebrating the power of hope
+  and the promise of Christ’s Resurrection this Easter Sunday," he posted Sunday morning. </p><p>The
+  Biden administration has a long history promoting and supporting <a href="https://www.foxnews.com/category/us/education/diversity"
+  target="_blank" rel="noopener">the LGBT community, including last year</a> when
+  the president hosted the White House’s largest Pride celebration in its history,
+  according to Reuters. Biden has repeatedly vowed to combat discrimination against
+  the gay community and spoke in support of the trans community during his State of
+  the Union address earlier this month. </p><p>The White House has previously come
+  under fire from critics during events heralding the LGBT community, including last
+  year when a transgender model and activist took off her top at a Pride event at
+  the White House and cupped her breasts in photos and for inviting an anti-police
+  nonbinary drag queen to attend the Respect for Marriage Act signing in 2022. </p><p>Republicans
+  have continued hammering the Biden administration online for <a href="https://www.foxnews.com/category/lifestyle/occasions/holiday"
+  target="_blank" rel="noopener">celebrating the holiday on the same</a> day as Easter. </p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/11/931/523/GettyImages-1806653988.jpg?ve=1&tl=1

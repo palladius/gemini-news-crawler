@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 42177aaa-bdd4-4cc8-ae22-63dd3f69bc3d
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pete Buttigieg says "we don't fully know" conditions for Baltimore bridge repair
+url: https://www.cbsnews.com/news/pete-buttigieg-francis-scott-bridge-reconstruction-face-the-nation/
+summary: Transportation Secretary Pete Buttigieg said that as officials eye rebuilding
+  efforts, it's not fully known the condition of what remains of the Francis Scott
+  Key Bridge in Baltimore.
+published: 2024-03-31 13:55:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 42177aaa-bdd4-4cc8-ae22-63dd3f69bc3d
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

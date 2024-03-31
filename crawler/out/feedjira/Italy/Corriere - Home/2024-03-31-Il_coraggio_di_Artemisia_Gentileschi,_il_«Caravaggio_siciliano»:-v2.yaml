@@ -1,0 +1,43 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/cultura/cards/coraggio-artemisia-gentileschi-caravaggio-siciliano-musei-aperti-pasqua-pasquetta-dieci-consigli-brescia-nuoro/rivoluzione-macchiaioli-brescia_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Il coraggio di Artemisia Gentileschi, il «Caravaggio siciliano»: i musei aperti
+  a Pasqua e a Pasquetta in dieci consigli, da Brescia a Nuoro'
+url: https://www.corriere.it/cultura/cards/coraggio-artemisia-gentileschi-caravaggio-siciliano-musei-aperti-pasqua-pasquetta-dieci-consigli-brescia-nuoro/rivoluzione-macchiaioli-brescia_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Cultura/Foto%20Cultura%20-%20Trattate/mann_san-casciano_7-scaled2-kq5f-u34701126060569dqh-656x492corriere-web-sezioni_master_ori_crop_MASTER__0x0.jpg"
+  title="Il coraggio di Artemisia Gentileschi, il «Caravaggio siciliano»: i musei
+  aperti a Pasqua e a Pasquetta in dieci consigli, da Brescia a Nuoro" alt="Il coraggio
+  di Artemisia Gentileschi, il «Caravaggio siciliano»: i musei aperti a Pasqua e a
+  Pasquetta in dieci consigli, da Brescia a Nuoro" /><p>I Macchiaioli a Brescia, Escher
+  a Ferrara, Kiefer a Firenze: alcune mostre aperte durante le feste pasquali, domenica
+  31 marzo e lunedì 1° aprile. In una dichiarazione a margine di una visita al Colosseo,
+  il ministro della Cultura Gennaro Sangiuliano ha ricordato che i musei, in occasione
+  del ponte pasquale, resteranno aperti. «È finita la stagione che purtroppo si è
+  vissuta negli anni passati in cui c’era la cosiddetta “beffa di Pasqua”— ha detto
+  il ministro —: venivano tanti turisti e trovavano chiusi alcuni musei della nostra
+  nazione. Adesso i siti sono tutti aperti, sono stati aperti anche a Natale e a Capodanno
+  perché è doveroso rispondere alle richieste dei tanti turisti». Poi Sangiuliano
+  ha concluso: «Sono qui idealmente per stringere la mano a tutte le lavoratrici e
+  i lavoratori che prestano la loro opera e che con il loro impegno e la loro passione
+  garantiscono la fruibilità del nostro patrimonio nazionale interpretando l’articolo
+  9 della Costituzione». Luoghi, orari, tariffe e modalità di visita sono su: cultura.gov.it.</p>'
+author: Jessica Chia
+categories:
+- Cultura
+published: 2024-03-31 19:34:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/cultura/cards/coraggio-artemisia-gentileschi-caravaggio-siciliano-musei-aperti-pasqua-pasquetta-dieci-consigli-brescia-nuoro/rivoluzione-macchiaioli-brescia_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

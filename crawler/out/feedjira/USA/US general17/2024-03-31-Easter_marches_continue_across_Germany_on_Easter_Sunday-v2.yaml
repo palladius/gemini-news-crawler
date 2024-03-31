@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: easter-marches-continue-across-germany-174357490.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Easter marches continue across Germany on Easter Sunday
+url: https://www.yahoo.com/news/easter-marches-continue-across-germany-174357490.html
+published: 2024-03-31 17:43:57.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: easter-marches-continue-across-germany-174357490.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/dpa_international_526/6bc51e1f8257e503ac57291edd556650

@@ -1,0 +1,122 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/b2585e55385e
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hey Bard, write a responsive Javascript Search Engine app for me..
+url: https://medium.com/@palladiusbonton/hey-bard-write-a-responsive-javascript-search-engine-app-for-me-b2585e55385e?source=rss-b5293b96912f------2
+author: Riccardo Carlesso
+categories:
+- javascript
+- bard-ai
+- google-cloud-run
+- search
+- json
+published: 2023-11-20 14:01:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/b2585e55385e
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: "<p>I suck at Javascript. \U0001F612 It’s time to admit it. \U0001F605 Let’s
+  see how <strong>Bard</strong> helped me overcome this limitation… and create <a
+  href=\"https://js-simple-search-bsl7ylv4hq-ew.a.run.app/\">this app</a>!</p><p>I
+  tried for years to cope and survive in a world which seems to be unable to exist
+  without Javascript, and last weekend I succumbed. Time to ask your favorite JS developer
+  <a href=\"https://medium.com/@ch.stanger\">Chris</a> to point you at some good documentation
+  and start reading about this weird language.</p><p><strong><em>Promises, promises…</em></strong>
+  unless? Wait, what if an <strong>LLM</strong> could code the app for me? Maybe I’m
+  not good to start the project myself, but what if <a href=\"https://bard.google.com/\">Bard</a>
+  can do it for me, I should be able to tweak the code myself.</p><p><strong>TL;DR</strong>
+  If you don’t want to read my Italian drama, <a href=\"https://github.com/palladius/js-simple-seach\">jump
+  to the code</a> (or see the <a href=\"https://js-simple-search-bsl7ylv4hq-ew.a.run.app/\">result
+  on Cloud Run</a>).</p><p>Two days ago, I was babysitting my kids; playing with my
+  mobile phone while they were playing with Lego…</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*GRWdYdfz_8efocft\"
+  /><figcaption>Little Seby in the Lego room in Google Zurich</figcaption></figure><p>..
+  and I started asking Bard a question. But wait, <em>“how do I make sure the question
+  remains available when I go back home to my big computer?”</em> I was quite surprised
+  by the answer.</p><h4>The Coding concept</h4><p>What’s my idea? Say <strong>you
+  have a gazillion articles / assets and want to be fast at searching on them</strong>.
+  But you can’t accept a 1–2 seconds latency from a typical server-side website search.</p><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/970/0*hWAdQ_6qqfONWXn1\" /><figcaption>Flash
+  is searching through all my docs ina static, local <em>JSON</em>! Barry likes to
+  win easy :)</figcaption></figure><p>I want a search bar where I can start typing
+  stuff and the choice starts to diminish. Then I want to have a number of cards with
+  the results (from a static JSON — I’ll make it dynamic in a next episode!). I also
+  want to have some rudimental clicking to narrow down the choice, say with a Boolean
+  “is this a technical article).</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*_glEQUM0vp5CBAJ_\"
+  /><figcaption>A quick and customizable search bar.</figcaption></figure><h4>Write
+  a good prompt</h4><p>My kids are delving into plenty of Legos, so I have plenty
+  of time to try a verbose and well planned prompt. After all, I want it to write
+  an app for me! Let’s not save time and details.</p><p>Prompt 1: “<strong><em>I would
+  like to build a small and responsive search engine. The DB Is small and static so
+  I don’t need anything complicated. I just want to have a frontend JavaScript where
+  you start typing a word and it searches for all the elements matching this word
+  in title or description. The only important thing to me is responsiveness so every
+  time you type a letter it starts selecting just things matching it, so you want
+  to write say “pistachio”, the selection should start kicking in already with ‘p’,
+  ‘pi’, ‘pis’, and so on. Can you help me write the code?</em></strong>”</p><p>I’m
+  so ignorant on JS that I’m not even sure this is something you can do fully on client-side
+  ( index.html+ script.js) or if you need some server-side effort (add node.jsto the
+  mix) to provide the JSON (although on the server-side I have 20-year expertise — this
+  part I can do without help).</p><h4>Bard reply might surprise you..</h4><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*aZIktNHDSVE0nl-MhdHkPw.png\"
+  /><figcaption>Bard answer</figcaption></figure><p>Now, Bard started with a confident
+  “<em>Sure, here’s the JavaScript code for a small and responsive search engine that
+  works with a static database:</em>” but I don’t trust what I see. Plus, I don’t
+  have a computer with me, so I can’t try the code. I asked him to do two things that
+  Google is really good at doing:</p><ul><li>export in email (cheap / persistent)</li><li>export
+  to <a href=\"https://docs.google.com/document/d/1y75TsYpu9kr3vh0zEEoq-IpBTfmbJ77fsISVKbHsRRU/edit\">GDoc</a>
+  (richer / can edit)</li></ul><p>Look:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*7AU7_E2Wql-JTjPmC8Zz-A.png\"
+  /><figcaption><strong>Bard</strong> exports to <strong>GDocs</strong> and <strong>GMail</strong>
+  in case you want to elaborate on your brainstorming idea.</figcaption></figure><p>When
+  I was home I had plenty to choose from: my \U0001F4EC GMail inbox, my \U0001F4C3
+  Google Docs link. what I didn’t know is that the conversation is saved conveniently
+  in a top left tab, and you can pin it — until you’re done with your project.</p><p>I
+  paste the JS / HTML code and… it works FROM SCRATCH! Teh first tentative works!
+  Wow I’m impressed. I start putting the <a href=\"https://github.com/palladius/js-simple-search\">code
+  into github</a> for posterity and for making potentially breaking changes.</p><h4>Let’s
+  add complexity. Add a Boolean and multi-parameter search!</h4><p>Prompt2. “<strong><em>Wow!
+  Say I want to do something a bit more complex for example selecting a Boolean (isTechnical=true/false)
+  which is in the frontend as checkbox and in the JSON, and I want to sort the result
+  by some kind of rating? Can you help me add those two functionalities both to html
+  and to JavaScript?”</em></strong></p><p>Result:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/916/1*LqieYZJOw5dEYrNiyER7pA.png\"
+  /><figcaption>The result is impeccable — except with the <em>Pasta Primavera</em>
+  which definitely not \U0001F1EE\U0001F1F9-compliant!</figcaption></figure><p>Note
+  that Bard gives me the index.html code, the script.jscode , and also a pre-baked
+  JSON which responds to my requirements (a isTechnical boolean and a float rating).</p><h4>Add
+  little nits: CSS and Cards</h4><p>Prompt 3. <strong>Wow this is amazing! Final thing,
+  can you share a little css snippet to make this look nice and professional? I’m
+  bad at CSS.</strong></p><p>This made the final visualization a bit better (not much).</p><p>Prompt
+  4. <strong><em>Fantastic! Last thing. I would like to visualize the search result
+  as nicely formatted cards, think of three rectangles per row, with title description
+  and maybe a small image turned into a square with rounded corners. Can you help
+  me with html and CSS?</em></strong></p><p>And this is the first time Bard makes
+  a mistake. He gives me a HTML code which seems like <a href=\"https://angular.io/api/common/NgFor\">Angular</a>
+  (ngFor ):</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/940/1*CsYSrgiS7TedB28Xt-7atw.png\"
+  /><figcaption>This is a mistake: `ngFor` only exists in <a href=\"https://angular.io/api/common/NgFor\">Angular</a>
+  framework (I presume?)</figcaption></figure><h4>Result</h4><p>The app is currently
+  served by cloud run here: <a href=\"https://js-simple-search-bsl7ylv4hq-ew.a.run.app/\">https://js-simple-search-bsl7ylv4hq-ew.a.run.app/</a></p><p>This
+  is the final result in GIF format:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*D8xzbhzjBKZkjsvU.gif\"
+  /></figure><p>The functionalities it demonstrates are:</p><ul><li>responsive sub-JSON
+  search function (every letter triggers a search on <em>Title</em> or <em>Description</em>)</li><li>boolean
+  selection (isTechnical or not)</li><li>Sort by <em>rating</em> (number) or by <em>Title</em> (string)</li></ul><h4>Conclusions</h4><p>As
+  a person who can’t even code a strlen() in Javascript, I was able to create a simple
+  / dumb — yet customized — website <strong>within an hour</strong> on a Saturday
+  afternoon (when my wife was babysitting).</p><p><a href=\"https://bard.google.com/\">bard.google.com</a>
+  gave me good code from the beginning, and responded correctly to the next 2 questions.
+  The first error was at the 4th prompt (!). Also, on the negatives, the CSS for cards
+  was pretty ugly so I had to fix it myself (luckily I speak some rudimental <a href=\"https://getbootstrap.com/docs/4.0/components/card/\">Boostrap</a>).</p><p>I
+  found Bard can be a pretty good companion if you have time to kill away from keyboard,
+  and you want to go with the flow in some brainstorming phase, ready to copy the
+  content when you’re back to your workstation.</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b2585e55385e\"
+  width=\"1\" height=\"1\" alt=\"\">"

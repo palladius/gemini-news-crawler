@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/politics/congress/gop-rep-tim-walberg-suggests-gaza-handled-nagasaki-hiroshima-rcna145752
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: GOP Rep. Tim Walberg suggests Gaza should be handled 'like Nagasaki and Hiroshima'
+url: https://www.nbcnews.com/politics/congress/gop-rep-tim-walberg-suggests-gaza-handled-nagasaki-hiroshima-rcna145752
+summary: Rep. Tim Walberg, R-Mich., said this week that the conflict in Gaza should
+  be over quickly "like Nagasaki and Hiroshima."
+author: 'Rebecca Cohen and Emma Li '
+published: 2024-03-31 17:02:27.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/politics/congress/gop-rep-tim-walberg-suggests-gaza-handled-nagasaki-hiroshima-rcna145752
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-Tim-Walberg-vl-917a-7ec5f2.jpg

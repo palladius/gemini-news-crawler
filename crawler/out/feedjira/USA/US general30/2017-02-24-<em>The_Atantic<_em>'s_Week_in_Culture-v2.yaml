@@ -1,0 +1,99 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517704
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517704
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/Rembrandts_zoon_Titus_in_monniksdracht_Rijksmuseum_SK_A_3138/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"&lt;em&gt;The Atantic&lt;/em&gt;&#39;s
+  Week in Culture\"\n            >\n        \n        \n    \n\n\n    \n    \n\n</figure>\n\n<p><strong>Don’t
+  Miss</strong></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/the-case-for-shyness/516933/\">The
+  Case for Shyness</a>—<em>Megan Garber traces the history of timidity via Joe Moran’s
+  fascinating new book </em>Shrinking Violets<em>.</em></p>\n\n<hr />\n<figure><img
+  alt=\"\" height=\"427\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/lead_960_2-4/40106278c.jpg\"
+  width=\"630\" />\n<figcaption class=\"credit\">Chris Pizzello / Invision / AP</figcaption>\n</figure>\n\n<p><strong>Oscars</strong></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/oscars-crash-course-2017/517152/\">Your
+  2017 Oscars Crash Course</a>—<em>Arnav Adhikari rounds up all the best stories from
+  </em>Atlantic<em> writers to get you up to speed for the 89th Academy Awards.</em></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/my-2017-oscar-predictions/517677/\">My
+  2017 Oscars Predictions</a>—<em>Christopher Orr considers the top contenders for
+  the biggest awards at the ceremony.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/fire-at-sea-documentary-review/517359/\">In
+  <em>Fire at Sea</em>, Tragedy and Normalcy Live Side by Side</a>—<em>Anna Diamond
+  reviews the Oscar-nominated documentary, which offers a compelling portrait of how
+  the migration crisis affects a tiny Italian island.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/denzel-washingtons-enduring-stardom/517581/\">On
+  Denzel Washington’s Enduring Stardom</a>—<em>David Sims explores the reasons behind
+  the </em>Fences<em> actor’s remarkable longevity.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/a-common-theme-for-this-years-oscar-nominated-documentaries/517638/\">A
+  Common Theme For This Year’s Oscar-Nominated Documentaries</a>—<em>Sarah Feldberg
+  explores the films focused on the migrant crisis and Syrian conflict at this year’s
+  Academy Awards.</em></p>\n\n<hr />\n<figure><img alt=\"\" height=\"420\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/lead_960_3-3/06488ca59.jpg\"
+  width=\"630\" />\n<figcaption class=\"credit\">Sundance Selects</figcaption>\n</figure>\n\n<p><strong>Film</strong></p>\n\n<p><em><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/kiki-revisits-the-inspirational-power-of-new-yorks-ballroom-scene/517371/\">Kiki
+  </a></em><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/kiki-revisits-the-inspirational-power-of-new-yorks-ballroom-scene/517371/\">Revisits
+  the Power of New York’s Ball Culture</a>—<em>David Sims praises the new documentary,
+  which looks at a safe haven for LBTQ youths of color, first examined in </em>Paris
+  Is Burning<em>.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/the-south-african-building-that-came-to-symbolize-the-apocalypse/517056/\">The
+  South African Building That Came to Symbolize the Apocalypse</a>—<em>Ryan Lenora
+  Brown shares the architectural history of Ponte City, Africa’s tallest apartment
+  block which has become a mainstay of movies about the end of the world.</em></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/why-netflix-will-release-martin-scorseses-next-film/517476/\">Why
+  Netflix Will Release Martin Scorsese’s Next Film</a>—<em>David Sims unpacks the
+  reasons behind why the streaming service will produce the director’s next gangster
+  epic.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/get-out-jordan-peele-review/517524/\"><em>Get
+  Out</em> Is a Funny and Brilliantly Subversive Horror Film</a>—<em>David Sims relishes
+  Jordan Peele’s excellent directorial debut.</em></p>\n\n<p><em><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/i-dont-feel-at-home-in-this-world-anymore-is-a-dark-goofy-neo-noir/517623/\">I
+  Don’t Feel at Home in This World Anymore </a></em><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/i-dont-feel-at-home-in-this-world-anymore-is-a-dark-goofy-neo-noir/517623/\">Is
+  a Dark, Goofy Neo-Noir</a>—<em>David Sims watches Macon Blair’s directorial debut,
+  which swerves between indie comedy and ultra-violence.</em></p>\n\n<hr />\n<figure><img
+  alt=\"\" height=\"369\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/Kampf_der_untergehenden_Gotter_by_F._W._Heine/df00096f7.jpg\"
+  width=\"630\" />\n<figcaption class=\"credit\">Wikimedia Commons</figcaption>\n</figure>\n\n<p><strong>Books</strong></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/the-politics-of-retelling-norse-mythology/517422/\">The
+  Politics of Retelling <em>Norse Mythology</em></a>—<em>Lisa L. Hannett unpacks Neil
+  Gaiman’s remarkable new book, which has triggered a debate about who owns pagan
+  tales.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/simon-and-schusters-completely-avoidable-milo-disaster/517362/\">Simon
+  & Schuster’s Completely Avoidable Milo Yiannopoulos Disaster</a>—<em>Sophie Gilbert
+  criticizes the publisher’s delayed cancelling of the former </em>Breitbart<em> editor’s
+  book deal.</em></p>\n\n<hr />\n<figure><img alt=\"\" height=\"420\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/lead_960-6/ea7ec32df.jpg\"
+  width=\"630\" />\n<figcaption class=\"credit\">Brooklyn Academy of Music</figcaption>\n</figure>\n\n<p><strong>Theater</strong></p>\n\n<p><em><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/escaped-alone-caryl-churchill-bam/517191/\">Escaped
+  Alone </a></em><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/escaped-alone-caryl-churchill-bam/517191/\">Finds
+  Comfort at the End of the World</a>—<em>Sophie Gilbert analyzes Caryl Churchill’s
+  new play, which finds solace amid an apocalypse.</em></p>\n\n<hr />\n<figure><img
+  alt=\"\" height=\"410\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/lead_large-6/a1f867d5c.png\"
+  width=\"615\" />\n<figcaption class=\"credit\">Universal</figcaption>\n</figure>\n\n<p><strong>Music</strong></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/katy-perry-is-chained-to-her-rivalry-with-taylor-swift/517461/\">The
+  Maddening Media Obsession With Female Feuds, Katy Perry Edition</a>—<em>Spencer
+  Kornhaber discusses the problems with how the singer’s supposed rivalry with Taylor
+  Swift is portrayed.</em></p>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/frank-ocean-calvin-harris-migos-slide-review-song-of-summer/517707/\">Frank
+  Ocean’s Surprising Slide Back to Pop</a>—<em>Spencer Kornhaber listens to the enigmatic
+  singer’s new collaboration with Calvin Harris and Migos. </em></p>\n\n<hr />\n<figure><img
+  alt=\"\" height=\"410\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/lead_large-5/f36d786d0.jpg\"
+  width=\"615\" />\n<figcaption class=\"credit\">Eric Miller / Reuters</figcaption>\n</figure>\n\n<p><strong>Media</strong></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/scenes-from-the-mall-of-america/517503/\">Scenes
+  From the Mall of America</a>—<em>Megan Garber weighs in on the massive shopping
+  center’s announcement of a writing residency in honor of its 25th anniversary.</em></p>\n\n<p><a
+  href=\"https://www.theatlantic.com/entertainment/archive/2017/02/why-are-celebrities-known-as-stars/517674/\">Why
+  Are They ‘Stars’?</a>—<em>Megan Garber connects the history of why celebrities are
+  considered celestial to Shakespeare, Chaucer, and movie cameras.</em></p>\n"
+author: The Editors
+title_type:
+published: 2017-02-24 23:11:42.000000000 Z
+summary: A roundup of our recent writing on arts and entertainment
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/the-atantics-week-in-culture/517704/
+title: "<em>The Atantic</em>'s Week in Culture"
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

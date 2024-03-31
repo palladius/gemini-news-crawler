@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMipAFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNS5zaHRtbNIBpwFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNV9hbXAuaHRtbA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Sinner-Dimitrov, la finale del Masters 1000 di Miami in diretta: break di
+  Jannik 3-2 - Corriere della Sera'
+url: https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNS5zaHRtbNIBpwFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNV9hbXAuaHRtbA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNS5zaHRtbNIBpwFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNV9hbXAuaHRtbA?oc=5"
+  target="_blank">Sinner-Dimitrov, la finale del Masters 1000 di Miami in diretta:
+  break di Jannik 3-2</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere della Sera</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LmdhenpldHRhLml0L1Rlbm5pcy9BVFAvMzEtMDMtMjAyNC9zaW5uZXItZGltaXRyb3YtbGl2ZS1maW5hbGUtbWlhbWktcmlzdWx0YXRvLWRpcmV0dGEuc2h0bWzSAQA?oc=5"
+  target="_blank">Sinner-Dimitrov: LIVE la finale a Miami | la diretta | Gazzetta.it</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Gazzetta dello Sport</font></li><li><a href="https://news.google.com/rss/articles/CBMiTGh0dHBzOi8vd3d3LmxhbmF6aW9uZS5pdC9zcG9ydC9zaW5uZXItZGltaXRyb3YtZGlyZXR0YS1maW5hbGUtbWlhbWktaWc2ZXM1bnXSAQA?oc=5"
+  target="_blank">Sinner-Dimitrov: la finale di Miami in diretta. Primo set 6-3 per
+  Jannik. Se vince oggi è numero 2 Atp</a>&nbsp;&nbsp;<font color="#6f6f6f">LA NAZIONE</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vc3BvcnQuc2t5Lml0L3Rlbm5pcy8yMDI0LzAzLzMxL3Npbm5lci1kaW1pdHJvdi1hdHAtbWlhbWktcmlzdWx0YXRv0gFOaHR0cHM6Ly9zcG9ydC5za3kuaXQvdGVubmlzLzIwMjQvMDMvMzEvc2lubmVyLWRpbWl0cm92LWF0cC1taWFtaS1yaXN1bHRhdG8vYW1w?oc=5"
+  target="_blank">Sinner-Dimitrov LIVE alle 20.30 su Sky Sport</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Sky Sport</font></li><li><a href="https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5zcG9ydG1lZGlhc2V0Lm1lZGlhc2V0Lml0L3Rlbm5pcy9taWFtaS1vcGVuLXNpbm5lci1kaW1pdHJvdi1zaS1naW9jYW5vLWlsLXRpdG9sby1sYS1maW5hbGUtZS1pbi1kaXJldHRhXzc5OTYyNzY3LTIwMjQwMmsuc2h0bWzSAURodHRwczovL2FtcC5zcG9ydG1lZGlhc2V0Lm1lZGlhc2V0Lml0L3Nwb3J0bWVkaWFzZXQvYXJ0aWNsZS83OTk2Mjc2Nw?oc=5"
+  target="_blank">Miami Open, Sinner-Dimitrov si giocano il titolo: 0-0 (4-2), la
+  finale è in diretta - Sportmediaset</a>&nbsp;&nbsp;<font color="#6f6f6f">Sport Mediaset</font></li></ol>'
+published: 2024-03-31 19:38:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMipAFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNS5zaHRtbNIBpwFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcG9ydC90ZW5uaXMvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3Npbm5lci1kaW1pdHJvdi1maW5hbGUtZGlyZXR0YS1tYXN0ZXJzLTEwMDAtbWlhbWktcmlzdWx0YXRvLTI5Y2Q5NjlhLWVmNTItMTFlZS1iZjA3LTY1MzQ2MDM5NzBlNV9hbXAuaHRtbA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

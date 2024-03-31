@@ -1,0 +1,167 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517674
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517674
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/GETTYIMAGES_544338083_74/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"Why Are They &#39;Stars&#39;?\"\n
+  \           >\n        \n        \n    \n\n\n    \n    \n\n</figure>\n\n<p>It makes
+  so much sense to refer to certain kinds of celebrities as “stars.” At their heights,
+  those people inspire the rest of us. They shine, larger than life, above us, and
+  around us. They suggest, in their insistent omnipresence, a certain order to the
+  world. To see the stars—or, more specifically, to believe in them, taxonomically—is
+  to endorse a notion that the people before us on our screens, far from us and yet
+  so close, exist, as the author Jeanine Basinger <a href=\"https://books.google.com/books?id=20cCO6sQnwgC&amp;printsec=frontcover&amp;source=gbs_atb#v=onepage&amp;q=star&amp;f=false\">puts
+  it</a>, “on some plane between ours and that of the gods.”</p>\n\n<p>But: Why are
+  they “stars,” specifically? Why is Hollywood’s Walk of Fame populated by pentagrams
+  of pale pink, rather than some other arbitrary shape? Why is it “stars” who are,
+  obviously and incorrectly, <a href=\"http://www.slate.com/articles/life/the_next_20/2016/09/the_invention_of_us_weekly_s_stars_they_re_just_like_us_feature.html\">Just
+  Like Us</a>?</p>\n<!-- START \"MORE ON\" SINGLE STORY BOX v. 2 -->\n\n<aside class=\"callout\">\n<hr
+  />\n<h4>Related Story</h4>\n\n<div><a href=\"https://www.theatlantic.com/entertainment/archive/2015/12/what-we-talk-about-when-we-talk-about-demagogues/419514/\"><img
+  alt=\"\" src=\"https://cdn.theatlantic.com/assets/media/img/mt/2015/12/lead_960-1/lead_960.jpg?1449610048\"
+  width=\"242\" /> </a></div>\n\n<p><a href=\"https://www.theatlantic.com/entertainment/archive/2015/12/what-we-talk-about-when-we-talk-about-demagogues/419514/\">What
+  We Talk About When We Talk About ‘Demagogues’</a></p>\n\n<hr /></aside>\n<!-- END
+  \"MORE ON\" SINGLE STORY BOX v. 2 -->\n\n<p>The answer has to do with Ovid. And
+  Shakespeare. And Thomas Edison. And Mary Pickford. Stars are stars, certainly, because
+  they sparkle and shine—because, even when they are bathed in the limelight, they
+  seem to have an incandescence of their own. But they are “stars,” much more specifically,
+  because they are part of Western culture’s longstanding tendency to associate the
+  human with the heavenly. They are “stars” because their audiences want them—and
+  in some sense need them—to be.</p>\n\n<p>The broad use of the word “star” to indicate
+  a leader among us dates back, <a href=\"https://theatre.illinois.edu/portfolio/peter-davis-theatre-studies/\">Peter
+  Davis</a>, a theater historian at the University of Illinois at Urbana-Champaign,
+  told me, to the Middle Ages. Chaucer, who was also <a href=\"http://blog.oxforddictionaries.com/2013/01/chaucer-in-the-house-of-fame/\">the
+  first recorded user</a> of the word “celebrity” and <a href=\"http://blog.oxforddictionaries.com/2013/01/chaucer-in-the-house-of-fame/\">one
+  of the first to use</a> the word “famous,” also <a href=\"http://blog.oxforddictionaries.com/2013/01/chaucer-in-the-house-of-fame/\">hinted
+  at</a> the lexical convergence of the human and the celestial: In <i>The House of
+  Fame</i>, Chaucer’s dreamer worries that he might find himself “stellified.” “O
+  God Who made nature,” <a href=\"http://ummutility.umm.maine.edu/necastro/chaucer/translation/hf/hf.html\">the
+  dreamer thinks</a>, “am I to die in no other way? Will Jove transform me into a
+  star?”</p>\n\n<p>Chaucer, Dean Swinford <a href=\"https://books.google.com/books?id=rdtEAQAAQBAJ&amp;pg=PT61&amp;lpg=PT61&amp;dq=chaucer+stellify&amp;source=bl&amp;ots=E4bGAvPvCk&amp;sig=zXF7T_X6WLS6EDSGIxJuf2uewyA&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwirw467gqfSAhVIxFQKHQrXCNIQ6AEIKDAC#v=onepage&amp;q=chaucer%20stellify&amp;f=false\">points
+  out</a> in his book <i>Through the Daemon’s Gate</i>, was recalling Ovid’s <a href=\"https://en.wikipedia.org/wiki/Metamorphoses\">notion
+  of metamorphosis</a>—the idea that humans could be transformed, in this case, into
+  the shiny stuff of constellations. Chaucer’s words also <a href=\"https://books.google.com/books?id=rdtEAQAAQBAJ&amp;pg=PT61&amp;lpg=PT61&amp;dq=chaucer+stellify&amp;source=bl&amp;ots=E4bGAvPvCk&amp;sig=zXF7T_X6WLS6EDSGIxJuf2uewyA&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwirw467gqfSAhVIxFQKHQrXCNIQ6AEIKDAC#v=onepage&amp;q=chaucer%20stellify&amp;f=false\">carried
+  architectural implications</a> that would likely have been apparent to his audiences:
+  “Fixing with stars,” Swinford points out, “implies the creation of a mosaic-like
+  decoration of the interior of a cathedral.” The building was an intentional mimicry
+  of the sky, and an unintentional anticipation of Hollywood’s own kind of firmament:
+  It presented stars as a constellation of gleaming lights, always above.</p>\n\n<aside
+  class=\"pullquote instapaper_ignore\">It was through the wily dynamics of public
+  relations that “star,” in the United States, was born.</aside>\n\n<p>The <i>US Weekly</i>fied
+  version of stellification is in many ways a direct descendant of Chaucer’s: It emphasizes
+  the role of the celebrity as a body both distant and accessible, gleaming and sparkling
+  and yet reassuringly omnipresent. Stars have long suggested a kind of order—and
+  orientation—within chaotic human lives. They have long hinted that there is something
+  bigger, something beyond, something more.</p>\n\n<p>Little surprise, then, that—especially
+  as the world of science became more familiar with the workings of celestial bodies—the
+  world of the theater seized on their symbolism. Molière, Peter Davis told me, made
+  Chaucerian use of the personified “star”: In <i>School for Wives</i>, in 1662, Horace
+  <a href=\"http://www.searchengine.org.uk/ebooks/85/18.pdf\">describes</a> Agnes
+  as “this young star of love, adorned by so many charms.” Shakespeare, too, neatly
+  anticipated Hollywood’s blending of the personal and the celestial in both his plays
+  and his poems. “We make guilty of our disasters the sun, the moon, and stars,” <a
+  href=\"http://nfs.sparknotes.com/lear/page_36.html\">Edmund laments in </a><i><a
+  href=\"http://nfs.sparknotes.com/lear/page_36.html\">King Lear</a>, “</i>as if we
+  were villains on necessity, fools by heavenly compulsion.” Love, too, in Shakespeare’s
+  mind, makes its highest sense as a heavenly force, reassuring in its constancy:
+  In “<a href=\"http://www.shakespeare-online.com/sonnets/116.html\">Sonnet 116</a>,”
+  the bard finds love to be “...an ever-fixed mark / That looks on tempests and is
+  never shaken; / It is the star to every wand’ring bark, / Whose worth’s unknown,
+  although his height be taken.”</p>\n\n<p>It was in this context, Davis explains,
+  that the notion of the human star came to refer, in particular, to the decidedly
+  grounded firmament of the theater—and to the decidedly human person of the actor.
+  According to the<i> Oxford English Dictionary</i>, the first reference to a “star”
+  of the stage came in 1751, with the <i>Bays in Council </i>announcing, “You may
+  Shine the brightest Theatric Star, that ever enliven’d of charm’d an Audience.”
+  Around the same time, in 1761, the book <i>Historical Theatres of London & Dublin</i>
+  noted of an apparently Meryl Streepian actor named Garrick: “That Luminary soon
+  after became a Star of the first Magnitude.” Garrick would appear again in 1765,
+  in <a href=\"https://books.google.com/books?id=F_gRAAAAYAAJ&amp;pg=PA424&amp;dq=bright+star+appearing&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj95c-2wpLKAhVM8GMKHX3dBaY4MhDoAQhLMAY#v=onepage&amp;q=bright%20star%20appearing&amp;f=false\">an
+  extremely effusive article written about him in <i>The Gentleman’s and London Magazine</i></a>:
+  “The rumor of this bright star appearing in the East flew with the rapidity of lightening
+  through the town, and drew all the theatrical Magi thither to pay their devotions
+  to his new-born son of genius….”</p>\n\n<p>By the 1820s, it was common to refer
+  to actors as “stars”—for purposes of salesmanship as much as anything else. Theater
+  touring became popular during that time, in both England and America. British actors,
+  in particular, Davis told me, were often promoted as “stars” for their tours in
+  the U.S. as a way to ensure that large audiences would come to witness their performances.
+  Actors like <a href=\"https://en.wikipedia.org/wiki/Edmund_Kean\">Edmund Kean</a>,
+  <a href=\"https://en.wikipedia.org/wiki/George_Frederick_Cooke\">George Frederick
+  Cooke</a>, and <a href=\"https://en.wikipedia.org/wiki/Charles_Kemble\">Charles</a>
+  and <a href=\"https://en.wikipedia.org/wiki/Fanny_Kemble\">Fanny Kemble</a> were
+  celestially sold to American audiences. Sometimes, Davis notes, the actors were
+  considered to have passed their prime in Britain; they used their American tours
+  to reboot their careers back home. It was fitting: Through the wily dynamics of
+  public relations, “star,” in the U.S., was born.</p>\n\n<p>The term carried through
+  as theater acting gave way to movie acting—as silent films gave way to talkies.
+  “The observable ‘glow’ of potential stardom was present from the very beginning
+  of film history,” Jeanine Basinger notes in her book<i> </i><a href=\"https://books.google.com/books?id=20cCO6sQnwgC&amp;printsec=frontcover&amp;source=gbs_atb#v=onepage&amp;q=star&amp;f=false\"><i>The
+  Star Machine</i></a>. But it also took hold, as with so much else in Hollywood history,
+  fitfully. As <a href=\"http://newsroom.ucla.edu/experts/preview/54d13d506eafb561bd00038a/\">Jan-Christopher
+  Horak</a>, the director of the UCLA Film and Television Archive, told me, the earliest
+  films didn’t name the actors who starred in them. That was in part because the actors,
+  many of whom had been trained in the theater, were initially embarrassed to be putting
+  their hard-won skills to the service of this strange new medium.</p>\n\n<aside class=\"pullquote
+  instapaper_ignore\">The earliest films didn’t bother to name the actors who starred
+  in them.</aside>\n\n<p>It was also, however, because of the mechanics of the medium
+  itself. On film, Anne Helen Petersen suggests in her book <a href=\"https://books.google.com/books/about/Scandals_of_Classic_Hollywood.html?id=NehhAwAAQBAJ\"><i>Scandals
+  of Classic Hollywood:</i><em> Sex, Deviance, and Drama From the Golden Age of American
+  Cinema</em></a>, the Hollywood star was a function of technology as much as it was
+  one of culture. As early cinema developed in the early 20th century, bulky and unwieldy
+  cameras made it difficult for cinematographers to capture anything beyond full-length
+  shots of actors. “Because viewers couldn’t see the actor’s face up close,” Petersen
+  writes, “it was difficult to develop the feelings of admiration or affection we
+  associate with film stars.” As cameras improved, though, close-ups became more common,
+  emphasizing actors’ faces and humanity. As sound became part of the cinema experience,
+  voices, too, substituted full personas for lurching images. The “picture personality”
+  had arrived. The “star,” yet again, was born.</p>\n\n<p>With that came the star
+  system that would give structure to Hollywood for much of its young life. Mary Pickford,
+  Horak notes, one of the first movie actors to be billed under her (stage) name,
+  soon began making films under her own banner. Charlie Chaplin, long before Andy
+  Warhol would <a href=\"https://en.wikipedia.org/wiki/Warhol_superstars\">ironize
+  the term</a>, became a superstar. The star itself, in the era of spotlights and
+  marquis banners, soon became a metonym—a convenient and fitting way to describe
+  the people who studded Hollywood’s new and expanding firmament. The term that had
+  taken life in the age of Shakespeare and Molière and early romanticism—a time that
+  would, in some places, find art becoming obsessed with the dignity of the individual
+  and the fiery workings of the human soul—came alive yet again in the glow of the
+  screen.</p>\n\n<p>It may be quaint, today, to talk of “movie stars.” This is an
+  age defined, after all, by that other Chaucerian term: the “celebrity.” It’s an
+  age of <a href=\"http://goop.com/\">actor-founded lifestyle brands</a> and <a href=\"https://www.grumpycats.com/\">internet-famous
+  felines</a> and <a href=\"https://www.theatlantic.com/entertainment/archive/2014/07/lessons-in-capitalism-from-kim-kardashian/375252/\">people
+  starring in reality itself</a>. But our current celebrities, too, suggest something
+  similar to what “star” has long evoked: orientation, transcendence, a kind of union
+  between mortals and the gods they have chosen for themselves. “Celebrity” <a href=\"http://www.etymonline.com/index.php?term=celebrity\">comes
+  from the Old French</a> for “rite” or “ceremony”; it suggests that even the most
+  frivolous of the famous are filling a role that is, in its way, profound. Stars—fusions
+  of person and persona, of the fleshy human and the flinty image on the stage and
+  screen—have long offered a kind of structure within the hectic hum of human lives.
+  They have long promised that most basic and inspiring of things: that we can be
+  something more than what we are. “I am big,” Norma Desmond, that fading star, <a
+  href=\"https://en.wikipedia.org/wiki/Sunset_Boulevard_(film)\">insisted</a>. “It’s
+  the pictures that got small.”</p>\n"
+author: Megan Garber
+title_type:
+published: 2017-02-24 18:41:00.000000000 Z
+summary: Celebrities are celestial because of Shakespeare. And because of Chaucer.
+  And because of the weird workings of the movie camera.
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/why-are-celebrities-known-as-stars/517674/
+title: Why Are They 'Stars'?
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

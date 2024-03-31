@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiUmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMS9wb2xpdGljcy9ib2ItZ29vZC1wcmltYXJ5LWZpZ2h0LXZpcmdpbmlhL2luZGV4Lmh0bWzSAUtodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMxL3BvbGl0aWNzL2JvYi1nb29kLXByaW1hcnktZmlnaHQtdmlyZ2luaWE
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Embittered Republicans plot to knock off House GOP’s hard-right leader in Virginia
+  primary feud - CNN
+url: https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMS9wb2xpdGljcy9ib2ItZ29vZC1wcmltYXJ5LWZpZ2h0LXZpcmdpbmlhL2luZGV4Lmh0bWzSAUtodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMxL3BvbGl0aWNzL2JvYi1nb29kLXByaW1hcnktZmlnaHQtdmlyZ2luaWE?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMS9wb2xpdGljcy9ib2ItZ29vZC1wcmltYXJ5LWZpZ2h0LXZpcmdpbmlhL2luZGV4Lmh0bWzSAUtodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMxL3BvbGl0aWNzL2JvYi1nb29kLXByaW1hcnktZmlnaHQtdmlyZ2luaWE?oc=5"
+  target="_blank">Embittered Republicans plot to knock off House GOP’s hard-right
+  leader in Virginia primary feud</a>&nbsp;&nbsp;<font color="#6f6f6f">CNN</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9wb2xpdGljcy8yMDI0LzAzLzI4L2ZyZWVkb20tY2F1Y3VzLWNoYWlyLWZhY2VzLXByaW1hcnktcGVyaWwv0gEA?oc=5"
+  target="_blank">Freedom Caucus chair faces primary peril - The Washington Post</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Washington Post</font></li><li><a href="https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3NldC5jb20vbmV3cy9sb2NhbC9ib2ItZ29vZC1ob3N0cy1jYW1wYWlnbi1ldmVudC1mZWRlcmFsLWxhd21ha2Vycy1hdHRlbmQtdmlyZ2luaWEtbWFyY2gtMjAyNNIBamh0dHBzOi8vd3NldC5jb20vYW1wL25ld3MvbG9jYWwvYm9iLWdvb2QtaG9zdHMtY2FtcGFpZ24tZXZlbnQtZmVkZXJhbC1sYXdtYWtlcnMtYXR0ZW5kLXZpcmdpbmlhLW1hcmNoLTIwMjQ?oc=5"
+  target="_blank">Bob Good hosts campaign event, federal lawmakers attend</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">WSET</font></li><li><a href="https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vZGFpbHljYWxsZXIuY29tLzIwMjQvMDMvMjYvdHJ1bXAtZ29wLXByaW1hcnktYm9iLWdvb2QtZnJlZWRvbS1jYXVjdXMtY2hhaXIv0gEA?oc=5"
+  target="_blank">EXCLUSIVE: New Primary Ad Attacks Freedom Caucus Chair Bob Good
+  For Lack Of ''Faith'' In Trump</a>&nbsp;&nbsp;<font color="#6f6f6f">Daily Caller</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMivwFodHRwczovL2RhaWx5cHJvZ3Jlc3MuY29tL25ld3MvbG9jYWwvZ292ZXJubWVudC1wb2xpdGljcy9sb3lhbHR5LXRlc3QtYm9iLWdvb2QtYW5kLWhpcy1jb25zZXJ2YXRpdmUtYWxsaWVzLXdhbnQtdm90ZXJzLXRvLWtub3ctaGVzLXRydW1wcy1tYW4vYXJ0aWNsZV9iY2Q5MTJiYy1lYzlhLTExZWUtOTUxZC0yN2I1ZDUwYTMwMmQuaHRtbNIBAA?oc=5"
+  target="_blank">Loyalty test: Bob Good and his conservative allies want voters to
+  know he''s Trump''s man</a>&nbsp;&nbsp;<font color="#6f6f6f">The Daily Progress</font></li></ol>'
+published: 2024-03-31 11:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiUmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMS9wb2xpdGljcy9ib2ItZ29vZC1wcmltYXJ5LWZpZ2h0LXZpcmdpbmlhL2luZGV4Lmh0bWzSAUtodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMxL3BvbGl0aWNzL2JvYi1nb29kLXByaW1hcnktZmlnaHQtdmlyZ2luaWE
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

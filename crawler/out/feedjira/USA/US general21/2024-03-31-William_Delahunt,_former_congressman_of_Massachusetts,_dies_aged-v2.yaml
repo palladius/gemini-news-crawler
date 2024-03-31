@@ -1,0 +1,36 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/31/william-delahunt-former-massachusetts-congressman-dies
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: William Delahunt, former congressman of Massachusetts, dies aged 82
+url: https://www.theguardian.com/us-news/2024/mar/31/william-delahunt-former-massachusetts-congressman-dies
+summary: <p>Representative postponed his own retirement from Washington to help pass
+  Barack Obama presidency’s legislative agenda</p><p>Longtime Democratic congressman
+  William D Delahunt, who postponed his own retirement from Washington to help pass
+  the <a href="https://www.theguardian.com/us-news/barack-obama">Barack Obama</a>
+  presidency’s legislative agenda, has died after a long-term illness, his family
+  announced.</p><p>Delahunt died Saturday at his home in Quincy, Massachusetts, at
+  the age of 82, news reports said.</p> <a href="https://www.theguardian.com/us-news/2024/mar/31/william-delahunt-former-massachusetts-congressman-dies">Continue
+  reading...</a>
+author: Associated Press
+categories:
+- Massachusetts
+- US politics
+- US news
+published: 2024-03-31 14:15:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/31/william-delahunt-former-massachusetts-congressman-dies
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/1ac5835ecf8bc858f568f48adb64649b6f85b90f/0_80_4633_2778/master/4633.jpg?width=140&quality=85&auto=format&fit=max&s=fe611f1ad801407ba918162ae604a02c

@@ -1,0 +1,93 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=230720
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: South Sudan civil war causes Africa’s worst refugee crisis
+url: http://www.pbs.org/newshour/bb/south-sudan-civil-war-causes-africas-worst-refugee-crisis/
+author: PBS NewsHour
+categories:
+- africa
+- NewsHour Weekend
+- refugee crisis
+- South Sudan
+published: 2017-10-15 19:26:17.000000000 Z
+enclosure_length: '2110000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/PNWE20171015_SouthSudanRefugees_WEB.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTX3905F-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTX3905F.jpg" /></p><p><a href="http://video.pbs.org/video/3005689148/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/PNWE20171015_SouthSudanRefugees_WEB.mp3">Listen to the Audio</a></p><p>The United Nations says South Sudan’s four-year-old civil war has left half of the nation’s population &#8212; 6 million people &#8212; in need of humanitarian aid. The conflict began when South Sudan’s army split between factions loyal to President Salva Kiir and former Vice President Riek Machar. The two men mobilized their respective tribes, the Dinka and the Nuer. The war has caused what is now one of the world’s worst refugee crises.</p>
+  <p><strong>SIMONA FOLTYN</strong>: Civil war is emptying huge swaths of South Sudan. The violence has uprooted four million people, including two million who’ve fled to neighboring countries. In the last year, more than a million South Sudanese have poured into northern Uganda alone, crossing makeshift bridges like this one to flee fighting, hunger, and brutal attacks on civilians.</p>
+  <p><strong>SEME LUPAI, REFUGE</strong>E: They started fighting very, very severely. So that made us to escape with our properties to this side.</p>
+  <p><strong>SIMONA FOLTYN</strong>: When Seme Lupai’s family went to one of the refugee camps, initially, he stayed behind to look after the family’s most precious commodity &#8212; their cattle. He hid for a year to escape the violence. The refugees carry whatever they can salvage &#8212; mattresses, pots, clothes, notebooks &#8212; remnants of once peaceful lives turned upside down. At checkpoints, Ugandan soldiers search their belongings for weapons, before the refugees proceed to reception centers. After entering Uganda, the refugees sign in at small waystations. For many, it’s the first night spent in safety after walking for days to escape fighting. Levi Arike fled with his wife and four children.</p>
+  <p><strong>LEVI ARIKE, REFUGEE</strong>: When the gunshots started, we laid under a tree with the whole family, because there was nowhere else to hide. We waited for the fighting to stop, and then we got up and started walking to Uganda.</p>
+  <p><strong>SIMONA FOLTYN</strong>: Uganda now shoulders most of the burden of Africa’s biggest refugee crisis, managing a constellation of camps which require food, water, healthcare, and policing. At Imvepi Camp, now home to more than 120,000 South Sudanese, new arrivals receive vaccinations, hot meals, and basic items such as soap and plastic tarps to build a house. The government also gives each refugee family a small plot of land, about a twentieth of an acre, where they can build a tent shelter and grow crops to eat or sell. But the land often proves too rocky for farming.</p>
+  <p><strong>SIMONA FOLTYN, IMVEPI REFUGEE CAMP, NORTHERN UGANDA</strong>: After completing the registration process, the new arrivals will receive their plot, to start a new life as refugees in Uganda. While they are safe here, there are many challenges ahead, not least processing the trauma of what they experienced back home.</p>
+  <p>This woman, who we’ll call “Agnes,” agreed to tell us about her harrowing experience. She says four government soldiers from President Salva Kiir’s Dinka tribe stopped her as she was fleeing South Sudan and raped her right in front of her family.</p>
+  <p><strong>AGNES</strong> (translated to English): When they started raping me, they told me not to raise alarm, otherwise they would shoot me. Still when I’m sleeping, I’m dreaming of the Dinka, that they are coming to rape me again.</p>
+  <p><strong>SIMONA FOLTYN</strong>: How often do you have those dreams?</p>
+  <p><strong>AGNES</strong>: Daily, every time I lie down, those dreams come.</p>
+  <p><strong>SIMONA FOLTYN</strong>: A recent Human Rights Watch report on South Sudan found “&#8230;a clear pattern of government forces unlawfully targeting civilians for killings, rapes, torture&#8230;and destruction of property..” The victims are from ethnic groups suspected to support the rebels.</p>
+  <p><strong>AGNES</strong>: They are doing it, because they know very well that those soldiers are our brothers. So they do it to punish them..</p>
+  <p><strong>SIMONA FOLTYN</strong>: Although the rebels, known as the Sudan People’s Liberation Army In Opposition, purport to protect local communities, there are also reports of their fighters assaulting civilians near the Ugandan border. Josephine Yanya told us she didn’t feel safe in the presence of either side’s soldiers. Her family and neighbors fled their village after government soldiers killed her uncle.</p>
+  <p>They hid in the mountains only to find themselves under attack again, this time by opposition fighters from the Nuer tribe loyal to former vice president Riek Machar. Yanya says ethnic Nuer soldiers from the SPLA-IO rebel group raped a member of her group and stole her father&#8217;s’ cattle.</p>
+  <p><strong>JOSEPHINE YANYA</strong> (translated to English): Before we were thinking that the rebels would protect us, but if they are lacking food, they just come and take things by force.</p>
+  <p><strong>SIMONA FOLTYN</strong>: With nowhere left to hide, Yanya fled to Uganda with her son.<br />
+  But instead of finding a place to rebuild their lives, they are in limbo. And aid groups don’t have enough food to distribute.</p>
+  <p><strong>JOSEPHINE YANYA</strong> (translated to English):We are getting small food rations. I know it won’t be enough even for one month.</p>
+  <p><strong>SIMONA FOLTYN</strong>: According to the United Nations, the international community has given less than a-third of the $1.4 billion dollars needed for the refugee response in South Sudan’s neighboring countries. These refugees foresee more hardship and have no idea when they might return home.</p>
+  <p><strong>JOSEPHINE YANYA</strong> (translated to English): I’m always praying for peace in South Sudan, and until then, I’ll just stay here.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/south-sudan-civil-war-causes-africas-worst-refugee-crisis/">South Sudan civil war causes Africa’s worst refugee crisis</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=230720
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/south-sudan-civil-war-causes-africas-worst-refugee-crisis/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005689148/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p>The United Nations says South Sudan’s four-year-old civil war has left half of the nation’s population &#8212; 6 million people &#8212; in need of humanitarian aid. The conflict began when South Sudan’s army split between factions loyal to President Salva Kiir and former Vice President Riek Machar. The two men mobilized their respective tribes, the Dinka and the Nuer. The war has caused what is now one of the world’s worst refugee crises.</p>
+  <p><strong>SIMONA FOLTYN</strong>: Civil war is emptying huge swaths of South Sudan. The violence has uprooted four million people, including two million who’ve fled to neighboring countries. In the last year, more than a million South Sudanese have poured into northern Uganda alone, crossing makeshift bridges like this one to flee fighting, hunger, and brutal attacks on civilians.</p>
+  <p><strong>SEME LUPAI, REFUGE</strong>E: They started fighting very, very severely. So that made us to escape with our properties to this side.</p>
+  <p><strong>SIMONA FOLTYN</strong>: When Seme Lupai’s family went to one of the refugee camps, initially, he stayed behind to look after the family’s most precious commodity &#8212; their cattle. He hid for a year to escape the violence. The refugees carry whatever they can salvage &#8212; mattresses, pots, clothes, notebooks &#8212; remnants of once peaceful lives turned upside down. At checkpoints, Ugandan soldiers search their belongings for weapons, before the refugees proceed to reception centers. After entering Uganda, the refugees sign in at small waystations. For many, it’s the first night spent in safety after walking for days to escape fighting. Levi Arike fled with his wife and four children.</p>
+  <p><strong>LEVI ARIKE, REFUGEE</strong>: When the gunshots started, we laid under a tree with the whole family, because there was nowhere else to hide. We waited for the fighting to stop, and then we got up and started walking to Uganda.</p>
+  <p><strong>SIMONA FOLTYN</strong>: Uganda now shoulders most of the burden of Africa’s biggest refugee crisis, managing a constellation of camps which require food, water, healthcare, and policing. At Imvepi Camp, now home to more than 120,000 South Sudanese, new arrivals receive vaccinations, hot meals, and basic items such as soap and plastic tarps to build a house. The government also gives each refugee family a small plot of land, about a twentieth of an acre, where they can build a tent shelter and grow crops to eat or sell. But the land often proves too rocky for farming.</p>
+  <p><strong>SIMONA FOLTYN, IMVEPI REFUGEE CAMP, NORTHERN UGANDA</strong>: After completing the registration process, the new arrivals will receive their plot, to start a new life as refugees in Uganda. While they are safe here, there are many challenges ahead, not least processing the trauma of what they experienced back home.</p>
+  <p>This woman, who we’ll call “Agnes,” agreed to tell us about her harrowing experience. She says four government soldiers from President Salva Kiir’s Dinka tribe stopped her as she was fleeing South Sudan and raped her right in front of her family.</p>
+  <p><strong>AGNES</strong> (translated to English): When they started raping me, they told me not to raise alarm, otherwise they would shoot me. Still when I’m sleeping, I’m dreaming of the Dinka, that they are coming to rape me again.</p>
+  <p><strong>SIMONA FOLTYN</strong>: How often do you have those dreams?</p>
+  <p><strong>AGNES</strong>: Daily, every time I lie down, those dreams come.</p>
+  <p><strong>SIMONA FOLTYN</strong>: A recent Human Rights Watch report on South Sudan found “&#8230;a clear pattern of government forces unlawfully targeting civilians for killings, rapes, torture&#8230;and destruction of property..” The victims are from ethnic groups suspected to support the rebels.</p>
+  <p><strong>AGNES</strong>: They are doing it, because they know very well that those soldiers are our brothers. So they do it to punish them..</p>
+  <p><strong>SIMONA FOLTYN</strong>: Although the rebels, known as the Sudan People’s Liberation Army In Opposition, purport to protect local communities, there are also reports of their fighters assaulting civilians near the Ugandan border. Josephine Yanya told us she didn’t feel safe in the presence of either side’s soldiers. Her family and neighbors fled their village after government soldiers killed her uncle.</p>
+  <p>They hid in the mountains only to find themselves under attack again, this time by opposition fighters from the Nuer tribe loyal to former vice president Riek Machar. Yanya says ethnic Nuer soldiers from the SPLA-IO rebel group raped a member of her group and stole her father&#8217;s’ cattle.</p>
+  <p><strong>JOSEPHINE YANYA</strong> (translated to English): Before we were thinking that the rebels would protect us, but if they are lacking food, they just come and take things by force.</p>
+  <p><strong>SIMONA FOLTYN</strong>: With nowhere left to hide, Yanya fled to Uganda with her son.<br />
+  But instead of finding a place to rebuild their lives, they are in limbo. And aid groups don’t have enough food to distribute.</p>
+  <p><strong>JOSEPHINE YANYA</strong> (translated to English):We are getting small food rations. I know it won’t be enough even for one month.</p>
+  <p><strong>SIMONA FOLTYN</strong>: According to the United Nations, the international community has given less than a-third of the $1.4 billion dollars needed for the refugee response in South Sudan’s neighboring countries. These refugees foresee more hardship and have no idea when they might return home.</p>
+  <p><strong>JOSEPHINE YANYA</strong> (translated to English): I’m always praying for peace in South Sudan, and until then, I’ll just stay here.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/south-sudan-civil-war-causes-africas-worst-refugee-crisis/">South Sudan civil war causes Africa’s worst refugee crisis</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '00:04:30'
+itunes_summary: 'South Sudan’s four-year civil war has left half of the nation’s population,
+  6 million people, in need of humanitarian aid and caused one of the world’s worst
+  refugee crises. With support from the U.S. Holocaust Memorial Museum’s Center for
+  the Prevention of Genocide, NewsHour Weekend Special Correspondent Simona Foltyn
+  and journalist Jason Patinkin traveled to Uganda to meet people desperate for asylum. '
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTX3905F-1024x683.jpg

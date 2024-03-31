@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general9 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/world/multiple-people-held-hostage-dutch-town-evacuated-rcna145718
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'A man suspected of holding 4 hostages for hours in a Dutch nightclub has been
+  arrested  '
+url: https://www.nbcnews.com/news/world/multiple-people-held-hostage-dutch-town-evacuated-rcna145718
+summary: Heavily armed police cordoned off part of a Dutch town on Saturday, saying
+  that multiple people were being held hostage, and have evacuated nearby homes.
+author: The Associated Press
+published: 2024-03-30 10:14:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/multiple-people-held-hostage-dutch-town-evacuated-rcna145718
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general9
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240330-netherlands-nd-f9ba12.jpg

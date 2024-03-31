@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: bc8075d8-6647-48ad-96f2-031b801aad70
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Baltimore Mayor Brandon Scott: "No party conversation should be involved"
+  in bridge recovery'
+url: https://www.cbsnews.com/video/baltimore-mayor-brandon-scott-no-party-conversation-should-be-involved-in-bridge-recovery/
+summary: Baltimore Mayor Brandon Scott tells "Face the Nation" that as his city seeks
+  federal assistance to rebuild after the Francis Scott Key Bridge collapsed, "no
+  party conversation should be involved."
+published: 2024-03-31 19:13:35.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: bc8075d8-6647-48ad-96f2-031b801aad70
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -17,7 +17,7 @@ categories:
 - fox-news/us
 - fox-news/us
 - article
-published: 2024-03-31 02:09:06.000000000 Z
+published: 2024-03-31 17:19:40.000000000 Z
 entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
   is_perma_link: 'true'
   guid: https://www.foxnews.com/us/pro-palestinian-protesters-interrupt-easter-vigil-service-st-patricks-cathedral-nyc
@@ -60,6 +60,6 @@ content: '<p>As thousands of Pro-Palestinian protesters gathered in Times Square
   the release of hostages captured by Hamas. The conference has also decried the deaths
   of civilians. </p><p>"Thousands of innocent people have died in this conflict, and
   thousands more have been displaced and face tremendous suffering," the bishops said.
-  "This must stop." </p><p><i>Fox News Digital''s Christine Rousselle contributed
-  to this report. </i></p>'
+  "This must stop." </p><p><i>Fox News Digital''s Christine Rousselle and Pilar Arias
+  contributed to this report. </i></p>'
 image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/11/931/523/GettyImages-1405908282.jpg?ve=1&tl=1

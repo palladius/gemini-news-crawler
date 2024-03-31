@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMimAFodHRwczovL3d3dy5hbnNhLml0L2xpZ3VyaWEvbm90aXppZS8yMDI0LzAzLzMxL2EtcG9saWNsaW5pY28tcy5tYXJ0aW5vLWRpLWdlbm92YS11bi1jYXNvLWRpLWRlbmd1ZS1naWEtZGltZXNzb18zMDNkNDdlYS1lNTY4LTQzODEtODQyYi1lNDgxMTllMDgwOTkuaHRtbNIBnAFodHRwczovL3d3dy5hbnNhLml0L2FtcC9saWd1cmlhL25vdGl6aWUvMjAyNC8wMy8zMS9hLXBvbGljbGluaWNvLXMubWFydGluby1kaS1nZW5vdmEtdW4tY2Fzby1kaS1kZW5ndWUtZ2lhLWRpbWVzc29fMzAzZDQ3ZWEtZTU2OC00MzgxLTg0MmItZTQ4MTE5ZTA4MDk5Lmh0bWw
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: A Policlinico S.Martino di Genova un caso di Dengue, già dimesso - Agenzia
+  ANSA
+url: https://news.google.com/rss/articles/CBMimAFodHRwczovL3d3dy5hbnNhLml0L2xpZ3VyaWEvbm90aXppZS8yMDI0LzAzLzMxL2EtcG9saWNsaW5pY28tcy5tYXJ0aW5vLWRpLWdlbm92YS11bi1jYXNvLWRpLWRlbmd1ZS1naWEtZGltZXNzb18zMDNkNDdlYS1lNTY4LTQzODEtODQyYi1lNDgxMTllMDgwOTkuaHRtbNIBnAFodHRwczovL3d3dy5hbnNhLml0L2FtcC9saWd1cmlhL25vdGl6aWUvMjAyNC8wMy8zMS9hLXBvbGljbGluaWNvLXMubWFydGluby1kaS1nZW5vdmEtdW4tY2Fzby1kaS1kZW5ndWUtZ2lhLWRpbWVzc29fMzAzZDQ3ZWEtZTU2OC00MzgxLTg0MmItZTQ4MTE5ZTA4MDk5Lmh0bWw?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMimAFodHRwczovL3d3dy5hbnNhLml0L2xpZ3VyaWEvbm90aXppZS8yMDI0LzAzLzMxL2EtcG9saWNsaW5pY28tcy5tYXJ0aW5vLWRpLWdlbm92YS11bi1jYXNvLWRpLWRlbmd1ZS1naWEtZGltZXNzb18zMDNkNDdlYS1lNTY4LTQzODEtODQyYi1lNDgxMTllMDgwOTkuaHRtbNIBnAFodHRwczovL3d3dy5hbnNhLml0L2FtcC9saWd1cmlhL25vdGl6aWUvMjAyNC8wMy8zMS9hLXBvbGljbGluaWNvLXMubWFydGluby1kaS1nZW5vdmEtdW4tY2Fzby1kaS1kZW5ndWUtZ2lhLWRpbWVzc29fMzAzZDQ3ZWEtZTU2OC00MzgxLTg0MmItZTQ4MTE5ZTA4MDk5Lmh0bWw?oc=5"
+  target="_blank">A Policlinico S.Martino di Genova un caso di Dengue, già dimesso</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Agenzia ANSA</font></li><li><a href="https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3Lmdlbm92YXRvZGF5Lml0L2Nyb25hY2EvZmViYnJlLWRlbmd1ZS1yYWdhenpvLW9zcGVkYWxlLXNhbi1tYXJ0aW5vLmh0bWzSAVJodHRwczovL2FtcC5nZW5vdmF0b2RheS5pdC9jcm9uYWNhL2ZlYmJyZS1kZW5ndWUtcmFnYXp6by1vc3BlZGFsZS1zYW4tbWFydGluby5odG1s?oc=5"
+  target="_blank">Diagnosticato un caso di dengue a Genova</a>&nbsp;&nbsp;<font color="#6f6f6f">GenovaToday</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMicmh0dHBzOi8vZ2Vub3ZhLnJlcHViYmxpY2EuaXQvY3JvbmFjYS8yMDI0LzAzLzI5L25ld3MvZGVuZ3VlX2dlbm92YV9vc3BlZGFsZV9zYW5fbWFydGlub19tYXR0ZW9fYmFzc2V0dGktNDIyMzkyMDEzL9IBdmh0dHBzOi8vZ2Vub3ZhLnJlcHViYmxpY2EuaXQvY3JvbmFjYS8yMDI0LzAzLzI5L25ld3MvZGVuZ3VlX2dlbm92YV9vc3BlZGFsZV9zYW5fbWFydGlub19tYXR0ZW9fYmFzc2V0dGktNDIyMzkyMDEzL2FtcC8?oc=5"
+  target="_blank">Dengue, un caso (importato) a Genova</a>&nbsp;&nbsp;<font color="#6f6f6f">La
+  Repubblica</font></li><li><a href="https://news.google.com/rss/articles/CBMiRGh0dHBzOi8vd3d3LnByaW1vY2FuYWxlLml0L3Nhbml0JUMzJUEwLzM5NjY1LWRlbmd1ZS1nZW5vdmEtY2Fzby5odG1s0gFIaHR0cHM6Ly93d3cucHJpbW9jYW5hbGUuaXQvc2FuaXQlQzMlQTAvMzk2NjUtZGVuZ3VlLWdlbm92YS1jYXNvLmFtcC5odG1s?oc=5"
+  target="_blank">Diagnosticato un caso di dengue a Genova - Primocanale.it - Le notizie
+  aggiornate dalla Liguria</a>&nbsp;&nbsp;<font color="#6f6f6f">Primocanale</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3Lml2Zy5pdC8yMDI0LzAzL3ZpcnVzLWRlbmd1ZS1kaWFnbm9zdGljYXRvLXVuLWNhc28taW4tb3NwZWRhbGUtbGlndXJlLXNpLXRyYXR0YS1kaS11bi1yYWdhenpvLXRvcm5hdG8tZGFsbGFyZ2VudGluYS_SAYMBaHR0cHM6Ly93d3cuaXZnLml0LzIwMjQvMDMvdmlydXMtZGVuZ3VlLWRpYWdub3N0aWNhdG8tdW4tY2Fzby1pbi1vc3BlZGFsZS1saWd1cmUtc2ktdHJhdHRhLWRpLXVuLXJhZ2F6em8tdG9ybmF0by1kYWxsYXJnZW50aW5hLz9hbXA?oc=5"
+  target="_blank">Virus Dengue, diagnosticato un caso in ospedale Ligure: si tratta
+  di un ragazzo tornato dall’Argentina</a>&nbsp;&nbsp;<font color="#6f6f6f">IVG.it</font></li></ol>'
+published: 2024-03-31 15:54:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMimAFodHRwczovL3d3dy5hbnNhLml0L2xpZ3VyaWEvbm90aXppZS8yMDI0LzAzLzMxL2EtcG9saWNsaW5pY28tcy5tYXJ0aW5vLWRpLWdlbm92YS11bi1jYXNvLWRpLWRlbmd1ZS1naWEtZGltZXNzb18zMDNkNDdlYS1lNTY4LTQzODEtODQyYi1lNDgxMTllMDgwOTkuaHRtbNIBnAFodHRwczovL3d3dy5hbnNhLml0L2FtcC9saWd1cmlhL25vdGl6aWUvMjAyNC8wMy8zMS9hLXBvbGljbGluaWNvLXMubWFydGluby1kaS1nZW5vdmEtdW4tY2Fzby1kaS1kZW5ndWUtZ2lhLWRpbWVzc29fMzAzZDQ3ZWEtZTU2OC00MzgxLTg0MmItZTQ4MTE5ZTA4MDk5Lmh0bWw
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

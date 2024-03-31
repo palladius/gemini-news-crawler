@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/politics/clarence-thomas-ethics-democrats/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Democrats bash Justice Clarence Thomas but their plan to investigate ethics
+  allegations is unclear
+url: https://www.cnn.com/2023/04/18/politics/clarence-thomas-ethics-democrats/index.html
+summary: 'Senate Democrats railed against Justice Clarence Thomas on Tuesday amid
+  reports that the Supreme Court conservative failed to disclose luxury travel, gifts
+  and a real estate transaction involving a GOP megadonor, but their plan to investigate
+  the conservative jurist remains unclear.  '
+published: 2023-04-18 20:29:46.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/politics/clarence-thomas-ethics-democrats/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230417104735-01-clarence-thomas-2016-file-super-169.jpg

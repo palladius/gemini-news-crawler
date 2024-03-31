@@ -1,0 +1,40 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497532
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Il padrone è scomparso da due anni ma Pacchione lo aspetta sempre nello stesso
+  punto: la storia a Chi l’ha visto?'
+url: https://www.ilfattoquotidiano.it/2024/03/31/il-padrone-e-scomparso-da-due-anni-ma-pacchione-lo-aspetta-sempre-nello-stesso-punto-la-storia-a-chi-lha-visto/7497532/
+summary: |
+  <p>La storia non può che ricordare quella di Hachiko, il cane diventato famoso per la sua grande fedeltà nei confronti del padrone</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/il-padrone-e-scomparso-da-due-anni-ma-pacchione-lo-aspetta-sempre-nello-stesso-punto-la-storia-a-chi-lha-visto/7497532/">Il padrone è scomparso da due anni ma Pacchione lo aspetta sempre nello stesso punto: la storia a Chi l&#8217;ha visto?</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Trending News
+- Chi l'ha visto
+published: 2024-03-31 15:57:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497532
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/il-padrone-e-scomparso-da-due-anni-ma-pacchione-lo-aspetta-sempre-nello-stesso-punto-la-storia-a-chi-lha-visto/7497532/#respond
+content: |
+  <p>C&#8217;è un <strong>Hachiko</strong> anche in Italia. Si chiama <strong>Pacchione</strong> e la sua storia è stata raccontata da <em>Chi l&#8217;ha visto?.</em> Il cane da due anni torna ad aspettare il padrone sempre nello stesso punto, forse proprio per indicare, spiega <strong>Federica Sciarelli</strong>, la conduttrice del programma Rai, &#8220;che Antonio è scomparso da qui&#8221;.</p>
+  <p>La storia arriva da <strong>Forenza</strong>, in provincia di <strong>Potenza</strong> da dove il 15 gennaio 2022 è scomparso <strong>Antonio</strong> <strong>Iasi</strong>, imprenditore agricolo. Così, mostrando le immagini del cane, Sciarelli racconta: &#8220;Il fratello di Antonio ci dice che il cane Pacchione si ferma sempre nello stesso posto, un po&#8217; come se volesse dire: Antonio è scomparso da qui. Il fratello va in giro con il trattore, ma lui si ferma sempre nello stesso punto&#8221;.</p>
+  <p>La storia non può che ricordare quella di Hachiko, il cane diventato famoso per la sua grande fedeltà nei confronti del padrone, il professore giapponese <strong>Hidesauburo Ueno</strong>. Dopo la morte improvvisa di Ueno, avvenuta mentre insegnava all&#8217;Università, il cane andò ogni giorno, per quasi 10 anni, ad attenderlo alla stazione Shibuya, sperando in un suo ritorno. Un po&#8217; come fa Pacchione nelle campagne potentine.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/il-padrone-e-scomparso-da-due-anni-ma-pacchione-lo-aspetta-sempre-nello-stesso-punto-la-storia-a-chi-lha-visto/7497532/">Il padrone è scomparso da due anni ma Pacchione lo aspetta sempre nello stesso punto: la storia a Chi l&#8217;ha visto?</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/pacchione1200-1050x551.jpg

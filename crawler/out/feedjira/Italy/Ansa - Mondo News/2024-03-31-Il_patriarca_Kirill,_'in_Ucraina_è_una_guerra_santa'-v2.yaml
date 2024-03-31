@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/31/il-patriarca-kirill-in-ucraina-e-una-guerra-santa_93ab4b17-b849-4c4b-9dca-afcb8336eb3d.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Il patriarca Kirill, 'in Ucraina è una guerra santa'
+url: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/31/il-patriarca-kirill-in-ucraina-e-una-guerra-santa_93ab4b17-b849-4c4b-9dca-afcb8336eb3d.html
+summary: Capo chiesa ortodossa russa va oltre 'l'operazione speciale'
+published: 2024-03-31 09:59:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/31/il-patriarca-kirill-in-ucraina-e-una-guerra-santa_93ab4b17-b849-4c4b-9dca-afcb8336eb3d.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

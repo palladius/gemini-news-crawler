@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/14/entertainment/barry-season-4-review/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Review: ''Barry'' takes a whack at its farewell season'
+url: https://www.cnn.com/2023/04/14/entertainment/barry-season-4-review/index.html
+summary: '"Barry" has taken chances from the very beginning, which is certainly true
+  of a fourth and final season that picks up where the third left off, with its hitman-turned-wannabe
+  actor getting arrested. That paves the way for an even darker season that accentuates
+  the show''s ensemble aspect while leaning a little too heavily on blurring lines
+  with flights of fancy.'
+published: 2023-04-14 12:33:08.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/14/entertainment/barry-season-4-review/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230412113212-01-barry-season-4-super-169.jpg

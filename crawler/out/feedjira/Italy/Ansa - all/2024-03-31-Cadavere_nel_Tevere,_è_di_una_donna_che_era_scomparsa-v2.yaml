@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/lazio/notizie/2024/03/31/cadavere-nel-tevere-e-di-una-donna-che-era-scomparsa_849fb00c-63f2-4003-8a88-598556cd3a29.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Cadavere nel Tevere, è di una donna che era scomparsa
+url: https://www.ansa.it/lazio/notizie/2024/03/31/cadavere-nel-tevere-e-di-una-donna-che-era-scomparsa_849fb00c-63f2-4003-8a88-598556cd3a29.html
+summary: E' una 63enne di cui si erano perse le tracce alcuni giorni fa 
+published: 2024-03-31 12:50:19.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/lazio/notizie/2024/03/31/cadavere-nel-tevere-e-di-una-donna-che-era-scomparsa_849fb00c-63f2-4003-8a88-598556cd3a29.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

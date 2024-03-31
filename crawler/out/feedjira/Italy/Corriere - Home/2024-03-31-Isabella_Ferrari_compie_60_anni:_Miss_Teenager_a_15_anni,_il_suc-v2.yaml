@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/spettacoli/cinema-serie-tv/cards/isabella-ferrari-compie-60-anni-miss-teenager-15-anni-successo-sapore-mare-8-segreti/miss-teenager_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Isabella Ferrari compie 60 anni: Miss Teenager a 15 anni, il successo con
+  «Sapore di mare», 8 segreti'
+url: https://www.corriere.it/spettacoli/cinema-serie-tv/cards/isabella-ferrari-compie-60-anni-miss-teenager-15-anni-successo-sapore-mare-8-segreti/miss-teenager_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/27/Spettacoli/Foto%20Spettacoli%20-%20Trattate/isferr-cf-cropped-21-0-615-491_ori_crop_MASTER__0x0.jpg"
+  title="Isabella Ferrari compie 60 anni: Miss Teenager a 15 anni, il successo con
+  «Sapore di mare», 8 segreti" alt="Isabella Ferrari compie 60 anni: Miss Teenager
+  a 15 anni, il successo con «Sapore di mare», 8 segreti" /><p>L’attrice di «Distretto
+  di Polizia» e «Caos calmo» è nata a Ponte dell''Olio, nel piacentino, il 31 marzo
+  1964</p>'
+author: Arianna Ascione
+categories:
+- Spettacoli
+published: 2024-03-31 09:03:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/spettacoli/cinema-serie-tv/cards/isabella-ferrari-compie-60-anni-miss-teenager-15-anni-successo-sapore-mare-8-segreti/miss-teenager_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

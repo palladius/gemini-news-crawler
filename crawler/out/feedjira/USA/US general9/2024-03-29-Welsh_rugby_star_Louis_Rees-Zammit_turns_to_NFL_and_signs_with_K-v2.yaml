@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general9 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/sports/british-rugby-star-louis-rees-zammit-turns-nfl-signs-kansas-city-chief-rcna145454
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Welsh rugby star Louis Rees-Zammit turns to NFL and signs with Kansas City
+  Chiefs
+url: https://www.nbcnews.com/news/sports/british-rugby-star-louis-rees-zammit-turns-nfl-signs-kansas-city-chief-rcna145454
+summary: Louis Rees-Zammit, the wicked fast Welsh rugby star and fan favorite, has
+  made an extraordinary crossover to American football, signing a deal with the Kansas
+  City Chiefs, the team announced Friday.
+author: Marlene Lenthang and Alexander Smith
+published: 2024-03-29 19:28:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/sports/british-rugby-star-louis-rees-zammit-turns-nfl-signs-kansas-city-chief-rcna145454
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general9
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240328-Louis-Rees-Zammit-ew-1041a-c413af.jpg

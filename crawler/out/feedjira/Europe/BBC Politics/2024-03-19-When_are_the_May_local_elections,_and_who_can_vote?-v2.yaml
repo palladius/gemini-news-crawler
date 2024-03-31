@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Politics (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/uk-politics-68552707#3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: When are the May local elections, and who can vote?
+url: https://www.bbc.co.uk/news/uk-politics-68552707
+summary: Voters in parts of England and Wales will elect councillors, mayors and police
+  commissioners in May.
+published: 2024-03-19 12:04:35.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/uk-politics-68552707#3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Politics
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/164D6/production/_132905319_le_2024_promo_simpleguide-nc.png

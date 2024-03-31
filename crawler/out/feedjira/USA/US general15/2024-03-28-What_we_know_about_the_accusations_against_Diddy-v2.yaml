@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general15 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/entertainment-arts-68676287#3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: What we know about the accusations against Diddy
+url: https://www.bbc.co.uk/news/entertainment-arts-68676287
+summary: The rap mogul's homes were raided by federal authorities amid a flurry of
+  lawsuits alleging abuse.
+published: 2024-03-28 13:40:26.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/entertainment-arts-68676287#3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general15
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9059/production/_133035963_pa-5964113-cannes2008.jpg

@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Science (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/science-environment-68318273#2
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pioneering European satellite burns up over Pacific
+url: https://www.bbc.co.uk/news/science-environment-68318273
+summary: The veteran ERS-2 Earth observation spacecraft dives to destruction 2,000km
+  west of California.
+published: 2024-02-21 20:18:31.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/science-environment-68318273#2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Science
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/111D0/production/_132669007_ers_esa.jpg

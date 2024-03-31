@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/31/pope-francis-calls-for-a-ceasefire-in-gaza-during-a-blustery-easter-sunday-mass
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Pope Francis calls for a ceasefire in Gaza during a blustery Easter Sunday
+  Mass '
+url: https://www.euronews.com/2024/03/31/pope-francis-calls-for-a-ceasefire-in-gaza-during-a-blustery-easter-sunday-mass
+summary: Despite health concerns, the pontiff led the service in front of tens of
+  thousands of people who had gathered in St Peter's Square in Vatican City.
+published: 2024-03-31 15:52:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/31/pope-francis-calls-for-a-ceasefire-in-gaza-during-a-blustery-easter-sunday-mass
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

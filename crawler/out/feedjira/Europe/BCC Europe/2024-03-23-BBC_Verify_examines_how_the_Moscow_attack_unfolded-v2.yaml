@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BCC Europe (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-europe-68648387#3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: BBC Verify examines how the Moscow attack unfolded
+url: https://www.bbc.co.uk/news/world-europe-68648387
+summary: More than a hundred people were killed in a packed concert venue in Moscow
+  after gunmen opened fire.
+published: 2024-03-23 18:48:54.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-europe-68648387#3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BCC Europe
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E5AF/production/_132999785_p0hljs09.jpg

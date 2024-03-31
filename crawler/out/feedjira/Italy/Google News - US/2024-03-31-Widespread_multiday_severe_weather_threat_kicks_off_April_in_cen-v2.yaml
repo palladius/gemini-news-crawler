@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiYmh0dHBzOi8vd3d3LmZveHdlYXRoZXIuY29tL3dlYXRoZXItbmV3cy9zZXZlcmUtd2VhdGhlci10b3JuYWRvZXMtcGxhaW5zLW1pZHdlc3Qtc291dGgtbWlkLWF0bGFudGlj0gFmaHR0cHM6Ly93d3cuZm94d2VhdGhlci5jb20vd2VhdGhlci1uZXdzL3NldmVyZS13ZWF0aGVyLXRvcm5hZG9lcy1wbGFpbnMtbWlkd2VzdC1zb3V0aC1taWQtYXRsYW50aWMuYW1w
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Widespread multiday severe weather threat kicks off April in central, eastern
+  US - Fox Weather '
+url: https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3LmZveHdlYXRoZXIuY29tL3dlYXRoZXItbmV3cy9zZXZlcmUtd2VhdGhlci10b3JuYWRvZXMtcGxhaW5zLW1pZHdlc3Qtc291dGgtbWlkLWF0bGFudGlj0gFmaHR0cHM6Ly93d3cuZm94d2VhdGhlci5jb20vd2VhdGhlci1uZXdzL3NldmVyZS13ZWF0aGVyLXRvcm5hZG9lcy1wbGFpbnMtbWlkd2VzdC1zb3V0aC1taWQtYXRsYW50aWMuYW1w?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3LmZveHdlYXRoZXIuY29tL3dlYXRoZXItbmV3cy9zZXZlcmUtd2VhdGhlci10b3JuYWRvZXMtcGxhaW5zLW1pZHdlc3Qtc291dGgtbWlkLWF0bGFudGlj0gFmaHR0cHM6Ly93d3cuZm94d2VhdGhlci5jb20vd2VhdGhlci1uZXdzL3NldmVyZS13ZWF0aGVyLXRvcm5hZG9lcy1wbGFpbnMtbWlkd2VzdC1zb3V0aC1taWQtYXRsYW50aWMuYW1w?oc=5"
+  target="_blank">Widespread multiday severe weather threat kicks off April in central,
+  eastern US</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox Weather </font></li><li><a href="https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd2VhdGhlci5jb20vbmV3cy93ZWF0aGVyL25ld3MvMjAyNC0wMy0zMC13ZWF0aGVyLWFwcmlsLXRvcm5hZG8tc25vdy1mbG9vZC10cm9waWNhbC1zdG9ybdIBAA?oc=5"
+  target="_blank">April's Weather Can Include Tornadoes, Snow, Flood | Weather.com</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Weather Channel</font></li><li><a href="https://news.google.com/rss/articles/CBMiXWh0dHBzOi8vbnlwb3N0LmNvbS8yMDI0LzAzLzMxL3VzLW5ld3MvbWFzc2l2ZS10aHVuZGVyc3Rvcm1zLXRvcm5hZG9lcy1leHBlY3RlZC1hY3Jvc3MtdGhlLXVzL9IBYWh0dHBzOi8vbnlwb3N0LmNvbS8yMDI0LzAzLzMxL3VzLW5ld3MvbWFzc2l2ZS10aHVuZGVyc3Rvcm1zLXRvcm5hZG9lcy1leHBlY3RlZC1hY3Jvc3MtdGhlLXVzL2FtcC8?oc=5"
+  target="_blank">Massive thunderstorms, tornadoes expected across the US impacting
+  50 million Americans</a>&nbsp;&nbsp;<font color="#6f6f6f">New York Post </font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS93ZWF0aGVyLzIwMjQvMDMvMzEvc3Rvcm0tdW5pdGVkLXN0YXRlcy1zZXZlcmUtc25vdy1mbG9vZGluZy_SAQA?oc=5"
+  target="_blank">Major storm to sweep United States with severe weather, snow, flooding</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Washington Post</font></li><li><a href="https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3LndreXQuY29tLzIwMjQvMDMvMzEvZmlyc3QtYWxlcnQtd2VhdGhlci1kYXktdHJhY2tpbmctc29tZS10aHVuZGVyc3Rvcm1zLWVhc3Rlci1zdW5kYXkv0gFxaHR0cHM6Ly93d3cud2t5dC5jb20vMjAyNC8wMy8zMS9maXJzdC1hbGVydC13ZWF0aGVyLWRheS10cmFja2luZy1zb21lLXRodW5kZXJzdG9ybXMtZWFzdGVyLXN1bmRheS8_b3V0cHV0VHlwZT1hbXA?oc=5"
+  target="_blank">First Alert Weather Day | Tracking some thunderstorms for Easter
+  Sunday</a>&nbsp;&nbsp;<font color="#6f6f6f">WKYT</font></li></ol>
+published: 2024-03-31 13:54:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiYmh0dHBzOi8vd3d3LmZveHdlYXRoZXIuY29tL3dlYXRoZXItbmV3cy9zZXZlcmUtd2VhdGhlci10b3JuYWRvZXMtcGxhaW5zLW1pZHdlc3Qtc291dGgtbWlkLWF0bGFudGlj0gFmaHR0cHM6Ly93d3cuZm94d2VhdGhlci5jb20vd2VhdGhlci1uZXdzL3NldmVyZS13ZWF0aGVyLXRvcm5hZG9lcy1wbGFpbnMtbWlkd2VzdC1zb3V0aC1taWQtYXRsYW50aWMuYW1w
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

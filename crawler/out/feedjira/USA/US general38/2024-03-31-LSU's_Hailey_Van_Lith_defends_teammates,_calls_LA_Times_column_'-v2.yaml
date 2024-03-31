@@ -1,0 +1,95 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/sports/lsus-hailey-van-lith-defends-teammates-calls-la-times-column-racist-dirty-debutantes-jab
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: LSU's Hailey Van Lith defends teammates, calls LA Times column 'racist' after
+  'dirty debutantes' jab
+url: https://www.foxnews.com/sports/lsus-hailey-van-lith-defends-teammates-calls-la-times-column-racist-dirty-debutantes-jab
+summary: LSU guard Hailey Van Lith is the latest Lady Tigers basketball player to
+  defend her teammates after a Los Angeles Times column called the team &quot;dirty
+  debutantes.&quot;
+categories:
+- 5fd6f457-4cc2-5817-9154-9ca9bd3df59d
+- fnc
+- Fox News
+- fox-news/sports/ncaa/lsu-tigers
+- fox-news/sports/ncaa
+- fox-news/sports/ncaa-bk
+- fox-news/sports
+- fox-news/topic/trending-news
+- fox-news/sports
+- article
+published: 2024-03-31 19:00:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/sports/lsus-hailey-van-lith-defends-teammates-calls-la-times-column-racist-dirty-debutantes-jab
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p><a href="https://www.foxnews.com/category/sports/ncaa/lsu-tigers" target="_blank"
+  rel="noopener">LSU guard</a> Hailey Van Lith came to the defense of her team on
+  Sunday after a Los Angeles Times column described the Tigers women’s basketball
+  team as "dirty debutantes," saying that perception was "racist."</p><p>Before the
+  Tigers <a href="https://www.foxnews.com/category/sports/ncaa/ucla-bruins" target="_blank"
+  rel="noopener">faced UCLA</a> on Saturday for their Sweet 16 matchup – they won
+  78-69 with Flau’Jae Johnson leading the way with 24 points – the column was published
+  by the L.A. Times. </p><p>Van Lith, who is White, regrets reading the column because
+  it "can crush your soul a little bit." However, she had her teammates’ backs when
+  discussing it ahead of the Tigers’ Elite Eight game against Iowa on Monday night.
+   </p><p><a href="https://www.foxnews.com/sports" target="_blank" rel="noopener"><strong>CLICK
+  HERE FOR MORE SPORTS COVERAGE ON FOXNEWS.COM</strong></a></p><p>"We do have a lot
+  of Black women on this team, and unfortunately, that bias does exist still today,
+  and a lot of the people that are making those comments are being racist towards
+  my teammates," Van Lith said, per ESPN. "I'm in a unique situation where I see with
+  myself, I'll talk trash, and I'll get a different reaction than if Angel [Reese]
+  talks trash. I have a duty to my teammates to have their back. Some of the words
+  that were used in that article were very sad and upsetting."</p><p>"Calling us the
+  ‘dirty debutantes,’ that has nothing to do with sports. That's not motivating."</p><p>The
+  L.A. Times removed the "dirty debutantes" language from the column later on Saturday,
+  saying in a statement, per ESPN, that "it did not meet Times editorial standards."</p><p><a
+  href="https://www.foxnews.com/sports/lsus-kim-mulkey-shreds-la-times-column-describing-players-dirty-debutantes"
+  target="_blank" rel="noopener"><strong>LSU'S KIM MULKEY SHREDS LA TIMES OVER COLUMN
+  DESCRIBING PLAYERS AS ‘DIRTY DEBUTANTES’</strong></a></p><p>"In my opinion, I know
+  for a fact that people see us differently because we do have a lot of Black women
+  on our team who have an attitude and like to talk trash and people feel a way about
+  it," Van Lith continued. "At the end of the day, I'm rocking with them because they
+  don't let that change who they are. They stay true to themselves, and so I'll have
+  their back."</p><p>Van Lith added that her time at Louisville, where she spent her
+  first three seasons of <a href="https://www.foxnews.com/category/sports/ncaa-bk"
+  target="_blank" rel="noopener">college basketball</a>, and in high school saw the
+  same criticism – a double standard. </p><p>"A lot of the times, I'm one of the only
+  White people on the team, and so I do see things from a different perspective,"
+  she said. "I think a lot of people who live in communities that everyone is like
+  them, that's when they tend to think, 'Oh, racism doesn't exist today.' But I have
+  seen it and I experienced it, and I watch it happen to my teammates. I watch it
+  happen to my friends."</p><p>Van Lith is only the latest to comment publicly about
+  the column, as head coach Kim Mulkey ripped it, saying it was "sexist" and "wrong."</p><p>"You
+  can criticize coaches all you want," she said, per ESPN. "That’s our business. You
+  can come at us and say, ‘You’re the worst coach in America. I hate you, I hate everything
+  about you.’ We expect that. It comes with the territory."</p><p>"But the one thing
+  I'm not going to let you do, I'm not going to let you attack young people, and there
+  were some things in this commentary that you should be offended by as women. It
+  was so sexist. It was good versus evil in that game today. Evil? Called us dirty
+  debutantes? Are you kidding me?</p><p>"I can't sit up here as a mother and a grandmother
+  and a leader of young people and allow somebody to say that. Because guys, that's
+  wrong. I know sexism when I see it and I read it. That was awful."</p><p>Lady Tigers
+  star Angel Reese also defended her head coach, saying that she and her teammates
+  are "good villains" who all want to help women’s basketball grow. </p><p>"That’s
+  what we’re worried about," Reese said. "Just being able to have teammates that have
+  my back, have teammates, have coaches just have each other’s back this whole time.
+  I don’t care what the outside thinks. I know what’s going on in that locker room."</p><p><i>Follow
+  Fox News Digital’s </i><a href="https://twitter.com/FoxNewsSports_" target="_blank"
+  rel="noopener"><i><strong>sports coverage on X</strong></i></a><i>, and subscribe
+  to </i><a href="https://www.foxnews.com/newsletters" target="_blank" rel="noopener"><i><strong>the
+  Fox News Sports Huddle newsletter</strong></i></a><i>.</i></p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/Hailey-Van-Lith-.jpg?ve=1&tl=1

@@ -1,0 +1,44 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/business/2024/mar/28/sam-bankman-fried-sentenced-prison-ftx-fraud
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "‘He knew it was wrong’: Sam Bankman-Fried sentenced to 25 years in prison
+  over FTX fraud"
+url: https://www.theguardian.com/business/2024/mar/28/sam-bankman-fried-sentenced-prison-ftx-fraud
+summary: <p>Judge orders disgraced crypto mogul to forfeit $11bn in assets and says
+  he showed no remorse for his crimes</p><p>Sam Bankman-Fried, the disgraced cryptocurrency
+  mogul who perpetrated one of the largest financial frauds in history, has been sentenced
+  to 25 years<strong> </strong>in prison and ordered to forfeit $11bn in assets. His
+  lawyer reiterated a pledge to appeal the sentence the same day.</p><p>The judge,
+  Lewis Kaplan, issued the penalty in a Manhattan courtroom on Thursday. Bankman-Fried,
+  the former chief executive of the now-bankrupt cryptocurrency exchange FTX, was
+  <a href="https://www.theguardian.com/business/2023/nov/02/sam-bankman-guilty-ftx-alameda">convicted
+  of fraud and conspiracy to launder money</a> late last year.</p> <a href="https://www.theguardian.com/business/2024/mar/28/sam-bankman-fried-sentenced-prison-ftx-fraud">Continue
+  reading...</a>
+author: Nick Robins-Early
+categories:
+- Sam Bankman-Fried
+- Technology
+- Cryptocurrencies
+- FTX
+- Business
+- US news
+- New York
+- Law (US)
+published: 2024-03-28 18:38:29.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/business/2024/mar/28/sam-bankman-fried-sentenced-prison-ftx-fraud
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/c529ab9e8109e3968cad4a31b18e9307ff6a2a5a/0_7_3000_1800/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=61fe33057aae8aa9dee60d533adfb549

@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711871071
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Wael Dahdouh: Gaza’s voice amid loss and courage'
+url: https://www.aljazeera.com/program/talk-to-al-jazeera/2024/3/31/wael-dahdouh-gazas-voice-amid-loss-and-courage?traffic_source=rss
+summary: Al Jazeera’s Gaza bureau chief bears scars of war, echoes resilience globally.
+categories:
+- TV Shows
+published: 2024-03-31 10:30:42.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711871071
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

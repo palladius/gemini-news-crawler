@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: f_pkg_lon_jmfceos_240327
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: U.S. business leaders meet with China’s president as Beijing seeks closer ties
+url: https://www.nbcnews.com/video/u-s-business-leaders-meet-with-china-s-president-207772741507
+summary: NBC News' Janis Mackey Frayer reports from Beijing, where a number of U.S.
+  business leaders, including the CEOs of Blackstone, Qualcomm, Bloomberg, Chubb and
+  FedEx, met with the Chinese president
+published: 2024-03-27 12:48:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: f_pkg_lon_jmfceos_240327
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2024_03/2chia_JMF_ceotz-k4f1gn.jpg

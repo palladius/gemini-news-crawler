@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 65e214c893c9e0e03e6fcd34
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: How Andy Kim Took on New Jersey’s Political Machine
+url: https://www.newyorker.com/news/persons-of-interest/how-andy-kim-took-on-new-jerseys-political-machine
+summary: In his bid for the Senate, the third-term congressman had to overcome a challenge
+  from the state’s First Lady—and a Democratic Party system that favors the powers
+  that be.
+author: E. Tammy Kim
+categories:
+- News / Persons of Interest
+published: 2024-03-28 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65e214c893c9e0e03e6fcd34
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/65fc6ae98573c4b50a3e8bb8/master/pass/Kim-Andy-Kim.jpg

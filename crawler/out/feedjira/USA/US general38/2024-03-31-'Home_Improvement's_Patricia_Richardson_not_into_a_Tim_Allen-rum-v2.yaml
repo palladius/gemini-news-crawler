@@ -1,0 +1,84 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/entertainment/home-improvements-patricia-richardson-not-into-tim-allen-rumored-reboot-notes-onscreen-son-felon
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'Home Improvement's Patricia Richardson not into a Tim Allen-rumored reboot,
+  notes on-screen son is a 'felon'"
+url: https://www.foxnews.com/entertainment/home-improvements-patricia-richardson-not-into-tim-allen-rumored-reboot-notes-onscreen-son-felon
+summary: "&quot;Home Improvement&quot; star Patricia Richardson weighs in on reboot
+  after on-screen son&apos;s arrest, felony charge."
+categories:
+- 77a8d557-c6b0-5d7e-802e-fc686f611882
+- fnc
+- Fox News
+- fox-news/entertainment/tv
+- fox-news/person/tim-allen
+- fox-news/entertainment
+- fox-news/entertainment
+- article
+published: 2024-03-31 18:15:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/entertainment/home-improvements-patricia-richardson-not-into-tim-allen-rumored-reboot-notes-onscreen-son-felon
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>Patricia Richardson is not looking to reprise her role in, "<a href="https://www.foxnews.com/category/entertainment/tv"
+  target="_blank" rel="noopener">Home Improvement</a>," despite rumors from the show's
+  star and her onscreen husband, Tim Allen, who has suggested otherwise.</p><p>In
+  a recent conversation on the "Back to the Best" podcast, Richardson was emphatic
+  that she did not want to do a reboot of the 90s sitcom. "It was so weird…I would
+  hear [Tim] was coming out publicly and saying this stuff about how everyone was
+  on board to do a ‘Home Improvement’ reunion," she remarked. "But he never asked
+  me, and he never asked <a href="https://www.foxnews.com/entertainment/home-improvement-star-jonathan-taylor-thomas-seen-publicly-first-time-years-where-cast-is-today"
+  target="_blank" rel="noopener">Jonathan [Taylor Thomas</a>]. Who I talk to."</p><p>"So
+  I called Jonathan one day and said, 'Has he asked you about this? And he went, ‘No.’
+  And "Why's he going around telling everybody that we're all on board when he hasn’t
+  talked to you or me?'"</p><p><a href="https://www.foxnews.com/entertainment/patricia-richardson-chemistry-tim-allen-home-improvement"
+  target="_blank" rel="noopener"><strong>PATRICIA RICHARDSON SAYS CHEMISTY WITH TIM
+  ALLEN MADE HER TAKE THE PART ON 'HOME IMPROVEMENT'</strong></a></p><p><a href="https://www.foxnews.com/entertainment"
+  target="_blank" rel="noopener"><strong><u>LIKE WHAT YOU’RE READING? CLICK HERE FOR
+  MORE ENTERTAINMENT NEWS</u></strong></a></p><p>Richardson added that at one point,
+  a rumor online had circulated about a specific script pertaining to her character,
+  matriarch Jill Taylor. "He was kind of lying to people and telling people I was
+  on board and I didn't know anything about it," she said of Allen. "So I wrote a
+  big thing on Twitter and said 'I'm not involved in any series with Jill and I've
+  also never even been asked to do another ‘Home Improvement’ reunion thing. But I
+  would not want to," she added.</p><p>"I mean, Zach is now a felon," she said, referencing
+  her onscreen son Zachary Ty Bryan, who has been arrested for a litany of charges
+  including <a href="https://www.foxnews.com/entertainment/actor-zachery-ty-bryan-pleads-guilty-felony-assault-stemming-domestic-violence-arrest"
+  target="_blank" rel="noopener">domestic violence</a>. In October, he pleaded guilty
+  to felony assault in the fourth degree. </p><p>In 1978, Allen was arrested for possession
+  of cocaine, pleading guilty to felony drug trafficking charges, avoiding a life
+  sentence by giving the names of others involved. He served a little over 2 years
+  before being paroled.</p><p>"Taran [Noah Smith] hasn’t acted since he left the show;
+  he's not an actor anymore," Richardson continued of her youngest onscreen son. "And
+  Jonathan's not really interested in acting. He wants to direct and write. And we
+  don’t have Wilson," she said referencing late actor Earl Hindman who portrayed the
+  family's neighbor.</p><p>"It's not gonna be the show, at all," Richardson said of
+  a possible reboot. "And people think we can just magically go right back to who
+  we were 30 years ago. And do a show that was 30 years ago and we've all changed
+  quite a bit, I think, since then," she admitted. "It would be very weird."</p><p><a
+  href="https://www.foxnews.com/newsletters" target="_blank" rel="noopener"><strong>CLICK
+  HERE TO SIGN UP FOR THE ENTERTAINMENT NEWSLETTER</strong></a> </p><p>"I think we
+  did it, we did it well, we quit at the right time before it got really bad. And
+  it should just stay as it is," she suggested. </p><p>Her honesty comes months after
+  initial rumblings of a reboot <a href="https://www.foxnews.com/category/person/tim-allen"
+  target="_blank" rel="noopener">sparked by Allen</a> in November. He told the now
+  defunct outlet, The Messenger, as reported by Entertainment Weekly, "I see Richard
+  Karn a lot," who played Al Borland. "And I talk to the boys and I'm there as one
+  of their friends. We keep talking about [a spinoff]."</p><p>"It's funny, one of
+  the conversations we've had recently is how weird it would be if 'Home Improvement'
+  would be about the kids' kids," Allen shared. "Like if all of them had children,
+  and I'm a grandparent. 'Home Re-Improvement; or something like that. It's come up."</p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/home-improvement-reboot.jpg?ve=1&tl=1

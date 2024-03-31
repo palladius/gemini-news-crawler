@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/cronaca/2024/03/31/a-policlinico-s.martino-di-genova-un-caso-di-dengue-gia-dimesso_3cd2e75c-963d-429a-a478-bf692e6550aa.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: A Policlinico S.Martino di Genova un caso di Dengue, già dimesso
+url: https://www.ansa.it/sito/notizie/cronaca/2024/03/31/a-policlinico-s.martino-di-genova-un-caso-di-dengue-gia-dimesso_3cd2e75c-963d-429a-a478-bf692e6550aa.html
+summary: Ragazzo arrivato dall'Argentina, 'ho riconosciuto i sintomi dalle campagne
+  tv'
+published: 2024-03-31 15:02:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/cronaca/2024/03/31/a-policlinico-s.martino-di-genova-un-caso-di-dengue-gia-dimesso_3cd2e75c-963d-429a-a478-bf692e6550aa.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general16 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: nanny-tries-push-toddlers-safety-173045821.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Nanny tries to push toddlers to safety before speeding car hits all three,
+  TX cops say
+url: https://www.yahoo.com/news/nanny-tries-push-toddlers-safety-173045821.html
+published: 2024-03-31 17:30:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: nanny-tries-push-toddlers-safety-173045821.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general16
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/fort_worth_star_telegram_mcclatchy_952/84a17f00b2f8e01ed417acdfa0fa4c2c

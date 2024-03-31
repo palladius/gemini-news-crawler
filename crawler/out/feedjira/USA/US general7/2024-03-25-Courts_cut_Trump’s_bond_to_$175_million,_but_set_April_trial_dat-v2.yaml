@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general7 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: c77e057e77b24297d6009aeec3ba6c7c
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Courts cut Trump’s bond to $175 million, but set April trial date
+url: https://www.csmonitor.com/USA/Politics/2024/0325/Courts-cut-Trump-s-bond-to-175-million-but-set-April-trial-date?icid=rss
+author: Peter Grier
+published: 2024-03-25 21:43:03.000000000 Z
+summary: 'Donald Trump faced a huge bond – nearly half a billion dollars – to appeal
+  a verdict in a civil fraud case. He got a reprieve Monday when an appeals court
+  lowered the bond to $175 million. '
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: c77e057e77b24297d6009aeec3ba6c7c
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general7
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- published
+- summary
+- entry_id

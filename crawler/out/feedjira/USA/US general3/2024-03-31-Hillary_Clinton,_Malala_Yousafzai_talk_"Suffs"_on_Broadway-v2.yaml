@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: fc73d1a2-a0b6-44b3-b747-18e6a47daa1f
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hillary Clinton, Malala Yousafzai talk "Suffs" on Broadway
+url: https://www.cbsnews.com/video/hillary-clinton-malala-yousafzai-talk-suffs-on-broadway/
+summary: '"Suffs" (short for suffragists) is a new Broadway musical about women''s
+  fight more than a century ago for a "radical" idea: the right to vote. Correspondent
+  Martha Teichner talks with two of the show''s producers, Nobel laureate Malala Yousafzai
+  and former Secretary of State Hillary Clinton, about the importance of art to spread
+  a political message. She also talks with cast members, including the show''s writer
+  and star Shaina Taub, who says "Suffs" has a timely message: "Every generation has
+  to fight to protect these rights and freedoms again and again and again."'
+published: 2024-03-31 16:26:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: fc73d1a2-a0b6-44b3-b747-18e6a47daa1f
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

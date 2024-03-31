@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/2024/03/31/hamas-posizioni-ancora-troppo-distanti.-netanyahu-si-sono-irrigiditi-sulla-tregua_793990cf-0991-46c9-a04a-732d897043bf.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Hamas: ''Posizioni ancora troppo distanti''. Netanyahu: ''Si sono irrigiditi
+  sulla tregua'''
+url: https://www.ansa.it/sito/notizie/mondo/2024/03/31/hamas-posizioni-ancora-troppo-distanti.-netanyahu-si-sono-irrigiditi-sulla-tregua_793990cf-0991-46c9-a04a-732d897043bf.html
+summary: 'In serata il premier si sottoporrà ad un intervento chirurgico di ernia
+  in anestesia totale. Il ministro della Giustizia assumerà la carica di capo del
+  governo.  Al Cairo una delegazione di Mossad e Shin Bet  '
+published: 2024-03-31 18:50:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/2024/03/31/hamas-posizioni-ancora-troppo-distanti.-netanyahu-si-sono-irrigiditi-sulla-tregua_793990cf-0991-46c9-a04a-732d897043bf.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

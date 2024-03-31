@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: onboard-obsession-snorkeling-manta-rays-210941288.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Onboard Obsession: Snorkeling With Manta Rays on an Expedition Cruise to Palau''s
+  Rock Islands'
+url: https://www.yahoo.com/lifestyle/onboard-obsession-snorkeling-manta-rays-210941288.html
+published: 2024-03-29 21:09:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: onboard-obsession-snorkeling-manta-rays-210941288.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/conde_nast_traveler_225/b2aa87643f87ce66ae8dad9483e8bb05

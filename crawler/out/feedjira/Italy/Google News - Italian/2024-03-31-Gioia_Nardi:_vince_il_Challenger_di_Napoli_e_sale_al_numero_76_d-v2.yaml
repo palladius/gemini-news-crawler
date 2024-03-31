@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMidGh0dHBzOi8vd3d3LmdhenpldHRhLml0L1Rlbm5pcy9BVFAvMzEtMDMtMjAyNC9uYXJkaS12aW5jZS1pbC1jaGFsbGVuZ2VyLWRpLW5hcG9saS1lLXNhbGUtYWwtNzYtbmVsLXJhbmtpbmctYXRwLnNodG1s0gF4aHR0cHM6Ly93d3cuZ2F6emV0dGEuaXQvVGVubmlzL0FUUC8zMS0wMy0yMDI0L25hcmRpLXZpbmNlLWlsLWNoYWxsZW5nZXItZGktbmFwb2xpLWUtc2FsZS1hbC03Ni1uZWwtcmFua2luZy1hdHBfYW1wLnNodG1s
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Gioia Nardi: vince il Challenger di Napoli e sale al numero 76 del ranking
+  Atp - La Gazzetta dello Sport'
+url: https://news.google.com/rss/articles/CBMidGh0dHBzOi8vd3d3LmdhenpldHRhLml0L1Rlbm5pcy9BVFAvMzEtMDMtMjAyNC9uYXJkaS12aW5jZS1pbC1jaGFsbGVuZ2VyLWRpLW5hcG9saS1lLXNhbGUtYWwtNzYtbmVsLXJhbmtpbmctYXRwLnNodG1s0gF4aHR0cHM6Ly93d3cuZ2F6emV0dGEuaXQvVGVubmlzL0FUUC8zMS0wMy0yMDI0L25hcmRpLXZpbmNlLWlsLWNoYWxsZW5nZXItZGktbmFwb2xpLWUtc2FsZS1hbC03Ni1uZWwtcmFua2luZy1hdHBfYW1wLnNodG1s?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMidGh0dHBzOi8vd3d3LmdhenpldHRhLml0L1Rlbm5pcy9BVFAvMzEtMDMtMjAyNC9uYXJkaS12aW5jZS1pbC1jaGFsbGVuZ2VyLWRpLW5hcG9saS1lLXNhbGUtYWwtNzYtbmVsLXJhbmtpbmctYXRwLnNodG1s0gF4aHR0cHM6Ly93d3cuZ2F6emV0dGEuaXQvVGVubmlzL0FUUC8zMS0wMy0yMDI0L25hcmRpLXZpbmNlLWlsLWNoYWxsZW5nZXItZGktbmFwb2xpLWUtc2FsZS1hbC03Ni1uZWwtcmFua2luZy1hdHBfYW1wLnNodG1s?oc=5"
+  target="_blank">Gioia Nardi: vince il Challenger di Napoli e sale al numero 76 del
+  ranking Atp</a>&nbsp;&nbsp;<font color="#6f6f6f">La Gazzetta dello Sport</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMikQFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9zcG9ydC90ZW5uaXMvMjAyNC8wMy8zMC90ZW5uaXMtbmFyZGktaW4tZmluYWxlLWFsLWNoYWxsZW5nZXItZGktbmFwb2xpX2NmOGI0NTIxLWUwNmEtNDU4OS05MDg1LTQ3ZTA5NDIwYTFhNC5odG1s0gGVAWh0dHBzOi8vd3d3LmFuc2EuaXQvYW1wL3NpdG8vbm90aXppZS9zcG9ydC90ZW5uaXMvMjAyNC8wMy8zMC90ZW5uaXMtbmFyZGktaW4tZmluYWxlLWFsLWNoYWxsZW5nZXItZGktbmFwb2xpX2NmOGI0NTIxLWUwNmEtNDU4OS05MDg1LTQ3ZTA5NDIwYTFhNC5odG1s?oc=5"
+  target="_blank">Tennis: Nardi in finale al Challenger di Napoli</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Agenzia ANSA</font></li><li><a href="https://news.google.com/rss/articles/CBMikAFodHRwczovL3d3dy5jb3JyaWVyZWRlbGxvc3BvcnQuaXQvdmlkZW8vdGVubmlzLzIwMjQvMDMvMzEtMTI0OTc5NjI4L25hcmRpX3NpX3RpbmdlX2lfY2FwZWxsaV9kX2F6enVycm9fY29uX2xhX2JvbWJvbGV0dGFfbF9lc2lsYXJhbnRlX3NpcGFyaWV0dG_SAZIBaHR0cHM6Ly9tLmNvcnJpZXJlZGVsbG9zcG9ydC5pdC9hbXAvdmlkZW8vdGVubmlzLzIwMjQvMDMvMzEtMTI0OTc5NjI4L25hcmRpX3NpX3RpbmdlX2lfY2FwZWxsaV9kX2F6enVycm9fY29uX2xhX2JvbWJvbGV0dGFfbF9lc2lsYXJhbnRlX3NpcGFyaWV0dG8?oc=5"
+  target="_blank">Nardi si tinge i capelli d''azzurro con la bomboletta: l''esilarante
+  siparietto</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere dello Sport</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMihAFodHRwczovL3d3dy50dXR0b3Nwb3J0LmNvbS9uZXdzL3Rlbm5pcy8yMDI0LzAzLzMxLTEyNDk3Njc1MS9uYXJkaV90cmlvbmZhX2FfbmFwb2xpX2hlcmJlcnRfa29faW5fZmluYWxlX2x1Y2Ffb3JhX251bWVyb183Nl9hbF9tb25kb1_SAYYBaHR0cHM6Ly9tLnR1dHRvc3BvcnQuY29tL2FtcC9uZXdzL3Rlbm5pcy8yMDI0LzAzLzMxLTEyNDk3Njc1MS9uYXJkaV90cmlvbmZhX2FfbmFwb2xpX2hlcmJlcnRfa29faW5fZmluYWxlX2x1Y2Ffb3JhX251bWVyb183Nl9hbF9tb25kb18?oc=5"
+  target="_blank">Nardi trionfa a Napoli, Herbert ko in finale: Luca ora è numero
+  76 al mondo!</a>&nbsp;&nbsp;<font color="#6f6f6f">Tuttosport</font></li><li><a href="https://news.google.com/rss/articles/CBMiVGh0dHBzOi8vd3d3LmlsbWF0dGluby5pdC9zcG9ydC90ZW5uaXMvdGVubmlzX25hcG9saV9jdXBfMjAyNF9sdWNhX25hcmRpLTgwMjkyMjUuaHRtbNIBAA?oc=5"
+  target="_blank">Napoli Tennis Cup 2024, vince Luca Nardi: «Ora mi tingerò il ciuffo
+  d''azzurro»</a>&nbsp;&nbsp;<font color="#6f6f6f">ilmattino.it</font></li></ol>'
+published: 2024-03-31 19:35:08.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMidGh0dHBzOi8vd3d3LmdhenpldHRhLml0L1Rlbm5pcy9BVFAvMzEtMDMtMjAyNC9uYXJkaS12aW5jZS1pbC1jaGFsbGVuZ2VyLWRpLW5hcG9saS1lLXNhbGUtYWwtNzYtbmVsLXJhbmtpbmctYXRwLnNodG1s0gF4aHR0cHM6Ly93d3cuZ2F6emV0dGEuaXQvVGVubmlzL0FUUC8zMS0wMy0yMDI0L25hcmRpLXZpbmNlLWlsLWNoYWxsZW5nZXItZGktbmFwb2xpLWUtc2FsZS1hbC03Ni1uZWwtcmFua2luZy1hdHBfYW1wLnNodG1s
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Politics (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/uk-politics-68615798#2
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Lib Dems: Time is running out for Rishi Sunak'
+url: https://www.bbc.co.uk/news/uk-politics-68615798
+summary: Ed Davey launches his party's local election campaign with their latest stunt
+  graphic poking fun at the government.
+published: 2024-03-20 11:16:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/uk-politics-68615798#2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Politics
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16AF5/production/_132971929_p0hkr8yg.jpg

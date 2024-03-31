@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/us-news/gmail-revolutionized-email-20-years-ago-rcna145777
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Gmail revolutionized email 20 years ago '
+url: https://www.nbcnews.com/news/us-news/gmail-revolutionized-email-20-years-ago-rcna145777
+summary: SAN FRANCISCO — Google co-founders Larry Page and Sergey Brin loved pulling
+  pranks, so much so they began rolling out outlandish ideas every April Fool’s Day
+  not long after starting their company more than a quarter century ago.
+author: The Associated Press
+published: 2024-03-31 16:07:28.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/us-news/gmail-revolutionized-email-20-years-ago-rcna145777
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-google-sergey-brin-larry-page-vl-1201p-25940c.jpg

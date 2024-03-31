@@ -1,0 +1,86 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/entertainment/rebel-wilson-tried-ozempic-weight-loss-journey-those-drugs-can-be-good
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Rebel Wilson tried Ozempic on weight-loss journey: ‘Those drugs can be good’'
+url: https://www.foxnews.com/entertainment/rebel-wilson-tried-ozempic-weight-loss-journey-those-drugs-can-be-good
+summary: Rebel Wilson revealed that she tried Ozempic during her weight-loss journey
+  and was not opposed to the idea of the drug being useful for others.
+categories:
+- 4ecde41a-b367-5fc7-96a2-73ef579ce870
+- fnc
+- Fox News
+- fox-news/entertainment
+- fox-news/entertainment/movies
+- fox-news/entertainment/tv
+- fox-news/entertainment
+- article
+published: 2024-03-31 18:26:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/entertainment/rebel-wilson-tried-ozempic-weight-loss-journey-those-drugs-can-be-good
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>Rebel Wilson, like many in Hollywood, revealed she has tried the popular
+  weight-loss <a href="https://www.foxnews.com/entertainment/sharon-osbourne-doesnt-regret-taking-ozempic"
+  target="_blank" rel="noopener">drug Ozempic</a><a rel="noopener">.</a></p><p>In
+  a new interview with the Sunday Times, Wilson spoke about her weight-loss journey
+  and the various methods she employed to lose approximately 80 pounds since 2020.</p><p>One
+  of those was Ozempic, which she briefly used, saying, "Someone like me could have
+  a bottomless appetite for sweets, so I think those drugs can be good."</p><p>Wilson
+  is no longer taking Ozempic, and she ultimately focused not only on physical but
+  mental health to lose weight.</p><p><a href="https://www.foxnews.com/entertainment/rebel-wilson-treated-different-weight-loss-transformation"
+  target="_blank" rel="noopener"><strong>REBEL WILSON DISCUSSES ‘INTERESTING’ WAYS
+  PEOPLE HAVE TREATED HER AFTER WEIGHT-LOSS TRANSFORMATION</strong></a></p><p>She
+  noted that people were initially reluctant to encourage her to lose weight, based
+  on her career success playing "the funny fat girl."</p><p>"Basically, no one apart
+  from my mum wanted me to lose weight," she said. "People thought I’d lose my pigeonhole
+  in my career, playing the fat funny character, and they wanted me to continue in
+  that," she told the outlet.</p><p>"I wasn’t dealing with my emotions properly, I
+  was just stuffing my face and holding on to them," she said of her mental health.
+  After speaking with a doctor to address those concerns, she said "the weight just
+  kind of dropped off."</p><p>Wilson also pursued weight loss to improve her chances
+  at IVF, and she <a href="https://www.foxnews.com/entertainment/rebel-wilson-welcomes-baby-girl-via-surrogate"
+  target="_blank" rel="noopener">welcomed a baby girl, Royce</a>, in 2022.</p><p><a
+  href="https://www.foxnews.com/newsletters?cmpid=fnfirstnl" target="_blank" rel="noopener"><strong>CLICK
+  HERE TO SIGN UP FOR THE ENTERTAINMENT NEWSLETTER</strong></a></p><p>She told the
+  Sunday Times she is currently at a weight she’s comfortable with, calling it "still
+  curvy and solid."</p><p>"I feel strongly that young women shouldn’t try to obsess
+  over looking like Victoria’s Secret models; they should just look like themselves,"
+  Wilson said. "I know that my relationship with food is complicated."</p><p>Her weight
+  is part of her ongoing issues with comedian <a href="https://www.foxnews.com/entertainment/sacha-baron-cohen-denies-rebel-wilsons-claim-was-a-hole-movie-set"
+  target="_blank" rel="noopener">Sacha Baron Cohen</a><a rel="noopener">.</a></p><p>Last
+  week, Wilson revealed that the "a-hole" she was referring to in her new memoir,
+  "Rebel Rising," was Cohen after they worked together on "The Brothers Grimsby."</p><p><a
+  href="https://www.foxnews.com/entertainment" target="_blank" rel="noopener"><strong>LIKE
+  WHAT YOU’RE READING? CLICK HERE FOR MORE ENTERTAINMENT NEWS</strong></a></p><p>"I
+  will not be bullied or silenced by high priced lawyers or PR crisis managers," Wilson
+  wrote in an Instagram story. "The ‘a--hole’ that I am talking about in ONE CHAPTER
+  of my book is: Sacha Baron Cohen."</p><p>A representative for Cohen refuted her
+  claims, telling Fox News Digital, "While we appreciate the importance of speaking
+  out, these demonstrably false claims are directly contradicted by extensive detailed
+  evidence, including contemporaneous documents, film footage, and eyewitness accounts
+  from those present before, during and after the production of ''The Brothers Grimsby.’"</p><p>In
+  her Sunday Times interview, Wilson said she felt "disrespected on set" and that
+  her weight was used against her.</p><p>"It’s one thing for someone who is fat to
+  exploit their size for comedy, but it’s another for somebody else to humiliate you,"
+  Wilson said.</p><p>She felt that the costumes purposefully highlighted "all the
+  cellulite on my thighs" and <a href="https://www.foxnews.com/entertainment/rebel-wilson-responds-accused-fat-phobia-not-including-plus-sizes-new-clothing-line"
+  target="_blank" rel="noopener">other insecurities</a> and that she was "something
+  to be laughed at and degraded because of my size."</p><p>According to the outlet,
+  she wrote in her memoir, "I’m sharing my story now because the more women talk about
+  things like this, hopefully the less it happens. And hopefully fewer women have
+  to work harder just to respect themselves."</p><p>"Rebel Rising" will be released
+  April 2.</p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/RebelWilson.jpg?ve=1&tl=1

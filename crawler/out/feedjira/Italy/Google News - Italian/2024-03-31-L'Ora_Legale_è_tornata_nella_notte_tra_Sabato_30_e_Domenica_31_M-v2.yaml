@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMieWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9sb3JhLWxlZ2FsZS10b3JuYXRhLW5lbGxhLW5vdHRlLXRyYS1zYWJhdG8tMzAtZS1kb21lbmljYS0zMS1tYXJ6by1nbGktYWdnaW9ybmFtZW50aS0xNDAwNTXSAX1odHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbG9yYS1sZWdhbGUtdG9ybmF0YS1uZWxsYS1ub3R0ZS10cmEtc2FiYXRvLTMwLWUtZG9tZW5pY2EtMzEtbWFyem8tZ2xpLWFnZ2lvcm5hbWVudGktMTQwMDU1L2FtcA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: L'Ora Legale è tornata nella notte tra Sabato 30 e Domenica 31 Marzo, gli aggiornamenti
+  - iLMeteo.it
+url: https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9sb3JhLWxlZ2FsZS10b3JuYXRhLW5lbGxhLW5vdHRlLXRyYS1zYWJhdG8tMzAtZS1kb21lbmljYS0zMS1tYXJ6by1nbGktYWdnaW9ybmFtZW50aS0xNDAwNTXSAX1odHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbG9yYS1sZWdhbGUtdG9ybmF0YS1uZWxsYS1ub3R0ZS10cmEtc2FiYXRvLTMwLWUtZG9tZW5pY2EtMzEtbWFyem8tZ2xpLWFnZ2lvcm5hbWVudGktMTQwMDU1L2FtcA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9sb3JhLWxlZ2FsZS10b3JuYXRhLW5lbGxhLW5vdHRlLXRyYS1zYWJhdG8tMzAtZS1kb21lbmljYS0zMS1tYXJ6by1nbGktYWdnaW9ybmFtZW50aS0xNDAwNTXSAX1odHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbG9yYS1sZWdhbGUtdG9ybmF0YS1uZWxsYS1ub3R0ZS10cmEtc2FiYXRvLTMwLWUtZG9tZW5pY2EtMzEtbWFyem8tZ2xpLWFnZ2lvcm5hbWVudGktMTQwMDU1L2FtcA?oc=5"
+  target="_blank">L''Ora Legale è tornata nella notte tra Sabato 30 e Domenica 31
+  Marzo, gli aggiornamenti</a>&nbsp;&nbsp;<font color="#6f6f6f">iLMeteo.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vd3d3LmlsZ2lvcm5hbGUuaXQvbmV3cy9ldXJvcGEvYWxtZW5vLXJpc3Bhcm1pYXRlY2ktZGliYXR0aXRvLXN1bGxvLXN0cmVzcy1vcmEtbGVnYWxlLTIzMDM0NDkuaHRtbNIBAA?oc=5"
+  target="_blank">Almeno risparmiateci il dibattito sullo stress da ora legale</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">ilGiornale.it</font></li><li><a href="https://news.google.com/rss/articles/CBMioQFodHRwczovL2dkcy5pdC9hcnRpY29saS9zb2NpZXRhLzIwMjQvMDMvMjgvdG9ybmEtbG9yYS1sZWdhbGUtaW4taXRhbGlhLWVjY28tcXVhbmRvLW1hbmRhcmUtYXZhbnRpLWxlLWxhbmNldHRlLWRlZ2xpLW9yb2xvZ2ktYTg1MDk5YzMtYWQ3OS00YzAyLTg1NTEtZmFjM2FhMDQyZmI3L9IBpQFodHRwczovL2dkcy5pdC9hcnRpY29saS9zb2NpZXRhLzIwMjQvMDMvMjgvdG9ybmEtbG9yYS1sZWdhbGUtaW4taXRhbGlhLWVjY28tcXVhbmRvLW1hbmRhcmUtYXZhbnRpLWxlLWxhbmNldHRlLWRlZ2xpLW9yb2xvZ2ktYTg1MDk5YzMtYWQ3OS00YzAyLTg1NTEtZmFjM2FhMDQyZmI3L2FtcC8?oc=5"
+  target="_blank">Torna l''ora legale in Italia, ecco quando mandare avanti le lancette
+  degli orologi</a>&nbsp;&nbsp;<font color="#6f6f6f">Giornale di Sicilia</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5pbHRlbXBvLml0L2F0dHVhbGl0YS8yMDI0LzAzLzMxL25ld3Mvb3JhLWxlZ2FsZS1wZXJjaGUtYmVuZWZpY2ktdmFudGFnZ2ktbWFyaW8tdG96emktdmFsZXJpby1yb3NzaS1hbGJlcnRpbmktMzg5MDY4MjUv0gGGAWh0dHBzOi8vd3d3LmlsdGVtcG8uaXQvYXR0dWFsaXRhLzIwMjQvMDMvMzEvbmV3cy9vcmEtbGVnYWxlLXBlcmNoZS1iZW5lZmljaS12YW50YWdnaS1tYXJpby10b3p6aS12YWxlcmlvLXJvc3NpLWFsYmVydGluaS0zODkwNjgyNS9hbXAv?oc=5"
+  target="_blank">Ora legale, perché spostiamo le lancette: i pro e i contro di Tozzi
+  e Rossi Albertini</a>&nbsp;&nbsp;<font color="#6f6f6f">Il Tempo</font></li></ol>'
+published: 2024-03-31 17:48:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMieWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9sb3JhLWxlZ2FsZS10b3JuYXRhLW5lbGxhLW5vdHRlLXRyYS1zYWJhdG8tMzAtZS1kb21lbmljYS0zMS1tYXJ6by1nbGktYWdnaW9ybmFtZW50aS0xNDAwNTXSAX1odHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbG9yYS1sZWdhbGUtdG9ybmF0YS1uZWxsYS1ub3R0ZS10cmEtc2FiYXRvLTMwLWUtZG9tZW5pY2EtMzEtbWFyem8tZ2xpLWFnZ2lvcm5hbWVudGktMTQwMDU1L2FtcA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

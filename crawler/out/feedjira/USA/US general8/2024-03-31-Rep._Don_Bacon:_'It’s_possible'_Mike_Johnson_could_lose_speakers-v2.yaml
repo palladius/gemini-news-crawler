@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/politics/politics-news/rep-don-bacon-s-possible-johnson-lose-speakership-ukraine-rcna145668
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Rep. Don Bacon: ''It’s possible'' Mike Johnson could lose speakership over
+  Ukraine'
+url: https://www.nbcnews.com/politics/politics-news/rep-don-bacon-s-possible-johnson-lose-speakership-ukraine-rcna145668
+summary: Rep. Don Bacon on Sunday warned that "it's possible" that Speaker Mike Johnson
+  could face a vote to oust him if he moves to pass Ukraine aid in the House.
+author: Alexandra Marquez
+published: 2024-03-31 15:34:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/politics/politics-news/rep-don-bacon-s-possible-johnson-lose-speakership-ukraine-rcna145668
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240329-don-bacon-se-347p-aeb5e6.jpg

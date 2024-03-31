@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://video.corriere.it/sport/i-pacers-travolgono-lakers-l-ai-fanno-piangere-loro-tifosi/8dd6b71a-ef80-11ee-bf07-6534603970e5
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: I Pacers travolgono i Lakers e con l'AI fanno ‘piangere’ i loro tifosi
+url: https://video.corriere.it/sport/i-pacers-travolgono-lakers-l-ai-fanno-piangere-loro-tifosi/8dd6b71a-ef80-11ee-bf07-6534603970e5
+summary: <p><img src="https://images2.corriereobjects.it/methode_image/Video/2024/03/31/Sport/Foto%20Sport%20-%20Trattate/lakers_piangono-k0TC--656x492@Corriere-Web-Nazionale.JPG"
+  title="I Pacers travolgono i Lakers e con l'AI fanno ‘piangere’ i loro tifosi" alt="I
+  Pacers travolgono i Lakers e con l'AI fanno ‘piangere’ i loro tifosi" /><p>Il divertente
+  sfottò durante la partita di Nba di sabato vinta da Indiana 109-90</p>
+categories:
+- CorriereTV
+published: 2024-03-31 19:13:20.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://video.corriere.it/sport/i-pacers-travolgono-lakers-l-ai-fanno-piangere-loro-tifosi/8dd6b71a-ef80-11ee-bf07-6534603970e5
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

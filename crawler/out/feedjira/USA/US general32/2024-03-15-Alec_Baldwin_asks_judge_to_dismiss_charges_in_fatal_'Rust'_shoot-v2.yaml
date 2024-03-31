@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/entertainment-arts/business/story/2024-03-14/alec-baldwin-asks-judge-to-dismiss-charges-in-fatal-rust-shooting
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Alec Baldwin asks judge to dismiss charges in fatal 'Rust' shooting
+url: https://www.latimes.com/entertainment-arts/business/story/2024-03-14/alec-baldwin-asks-judge-to-dismiss-charges-in-fatal-rust-shooting
+summary: "<p>Baldwin's attorneys allege prosecutorial misconduct, saying his 'rights
+  have been trampled to the extreme.' The actor's criminal trial is set for July 10.</p>"
+author: Meg James
+published: 2024-03-15 02:05:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/entertainment-arts/business/story/2024-03-14/alec-baldwin-asks-judge-to-dismiss-charges-in-fatal-rust-shooting
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Baldwin's attorneys allege prosecutorial misconduct, saying his 'rights
+  have been trampled to the extreme.' The actor's criminal trial is set for July 10.</p>"

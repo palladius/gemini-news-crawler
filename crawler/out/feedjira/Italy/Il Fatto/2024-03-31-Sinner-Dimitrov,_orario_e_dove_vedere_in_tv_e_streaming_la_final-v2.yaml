@@ -1,0 +1,49 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7496846
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Sinner-Dimitrov, orario e dove vedere in tv e streaming la finale del Masters
+  di Miami
+url: https://www.ilfattoquotidiano.it/2024/03/31/sinner-dimitrov-orario-e-dove-vedere-in-tv-e-streaming-finale-miami/7496846/
+summary: |
+  <p>Sarà la sfida tra i due giocatori più in forma di questo inizio di 2024. Jannik Sinner contro Grigor Dimitrov è il meglio che i primi tre mesi della stagione tennistica ha finora messo in mostra. L&#8217;italiano numero 3 al mondo è reduce dalla vittoria agli Australian Open e a Rotterdam, oltre che dalla semifinale [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/sinner-dimitrov-orario-e-dove-vedere-in-tv-e-streaming-finale-miami/7496846/">Sinner-Dimitrov, orario e dove vedere in tv e streaming la finale del Masters di Miami</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Sport
+- Tennis
+- Jannik Sinner
+published: 2024-03-31 16:29:55.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7496846
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/sinner-dimitrov-orario-e-dove-vedere-in-tv-e-streaming-finale-miami/7496846/#comments
+content: |
+  <p>Sarà la sfida tra i due giocatori più in forma di questo inizio di 2024. <strong>Jannik Sinner</strong> contro <strong>Grigor Dimitrov</strong> è il meglio che i primi tre mesi della stagione tennistica ha finora messo in mostra. L&#8217;italiano numero 3 al mondo è reduce dalla vittoria agli<strong> Australian Open</strong> e a <strong>Rotterdam</strong>, oltre che dalla semifinale agli <strong>Indian Wells</strong>; il bulgaro ha raggiunto la finale a <strong>Brisbane</strong> e il terzo turno a Melbourne prima di una nuova finale all&#8217;<strong>Open 13</strong> e, ancora, arrivare quasi in fondo a Rotterdam (semifinale) e agli ottavi a Indian Wells. Una <strong>rinascita</strong> quella di Dimitrov, atteso ora dallo <strong>&#8220;Jannik test&#8221;</strong>. Si ritroveranno di fronte <strong>domenica</strong> alle <strong>ore 21</strong> nella finale del <strong>Masters 1000 di Miami</strong>, dove Sinner ha già perso due volte a un passo dal trofeo.</p>
+  <p><span style="color: #8c0404;"><strong>Chi è Dimitrov<br />
+  </strong></span>Ma se sulla partenza sprint dell&#8217;altoatesino c&#8217;era da scommetterci dopo il finale del 2023, meno pronosticabile era l&#8217;inizio di Dimitrov. <strong>Ex numero 3 al mondo</strong>, nel <strong>2017</strong> fu capace di vincere le <strong>Atp Finals</strong> e ora, con il ritorno a un match che vale un trofeo importante, rientrerà nella <strong>Top 10</strong> riportando il <strong>rovescio a una mano</strong>, merce sempre più rara, nell&#8217;élite del tennis mondiale. La sua è stata una carriera di alti e bassi, caratterizzata da ripide ascese e altrettanto repentine cadute. In carriera ha vinto <strong>9 titoli</strong> e ha intascato oltre <strong>25,5 milioni di dollari</strong> in premi. Professionista dal <strong>2008</strong>, Dimitrov compirà <strong>33 anni</strong> tra poco più di un mese e sembra pronto a vivere un&#8217;altra curva della sua carriera. (<strong><a href="https://www.ilfattoquotidiano.it/2024/03/31/grigor-dimitrov-chi-e-avversario-di-sinner-finale-di-miami-la-sua-storia/7497317/" target="_blank" rel="noopener">Qui la sua storia</a></strong>)</p>
+  <p><span style="color: #8c0404;"><strong>I precedenti<br />
+  </strong></span>Il bulgaro e Sinner si sono scontrati <strong>tre volte</strong>. L&#8217;ultimo precedente risale ai <strong>quarti di finale</strong> di <strong>Pechino</strong>, un match particolare nel quale l&#8217;altoatesino vomitò in un bidone dentro il campo nel corso di una battaglia che lo vide vincere in tre set per poi lanciarsi verso il successo del torneo. Fu l&#8217;inizio della striscia che lo ha portato a un passo dal numero 2 del mondo. Gli altri due precedenti risalgono al 2022 ed esattamente a un anno fa. Dimitrov si impose agli ottavi degli<strong> Internazionali di Roma</strong> in tre set, mentre a <strong>Miami nel 2023</strong> ebbe la meglio l&#8217;azzurro ai 32simi in due set rapidi.</p>
+
+  <p><span style="color: #8c0404;"><strong>Il cammino fin qui</strong></span><br />
+  Sarà quindi il quarto testa a testa. Dimitrov ci arriva dopo aver eliminato tre teste di serie e due Top Ten. Il suo percorso era iniziato con una vittoria in tre set contro Alejandro <strong>Tabilo</strong>, poi al secondo turno ha affondato Yannick <strong>Hanfmann</strong> e negli ottavi ha avuto la meglio su <span class="tsp-dib tsp-lpns tsp-npp">Hubert </span><span class="tsp-dib tsp-lpns tsp-npp"><strong>Hurkacz</strong>. Quindi il doppio capolavoro: prima ha fatto &#8220;sentire un 13enne&#8221; Carlos <strong>Alcaraz</strong> (il copyright è dello spagnolo) nei quarti e dopo ha schiantato anche </span><span class="tsp-dib tsp-lpns tsp-npp">Alexander </span><span class="tsp-dib tsp-lpns tsp-npp"><strong>Zverev</strong>. Sinner è cresciuto di partita in partita. Dopo il <em>bye</em> al primo turno, ha lasciato un set per strada contro Tallon <strong>Griekspoor</strong> e superato Andrea <strong>Vavassori</strong>, quindi ha battuto Christopher <strong>O’Connell</strong> e Tomas <strong>Machac</strong> guadagnandosi la semifinale contro Daniil <strong>Medvedev</strong>, superato con un agevole 6-1 6-2. </span></p>
+  <p><span style="color: #8c0404;"><strong>Dove seguirla<br />
+  </strong></span>La finale può valere il sorpasso di Sinner ad Alcaraz al secondo posto della classifica mondiale. L&#8217;inizio della partita è in programma alle 21 di domenica. Il match sarà trasmesso in <strong>esclusiva tv</strong> da <strong>Sky</strong> che l&#8217;ha programmato su due canali, <strong>Sky Sport Uno</strong> (201) e <strong>Sky Sport Tennis</strong> (203). Sarà possibile seguire la partita anche in <strong>streaming</strong> su <strong>Sky Go</strong> e sulla piattaforma <strong>Now</strong> per chi è abbonato. Chi non dovesse avere a disposizione un abbonamento pay, potrà seguire gratuitamente la <strong>diretta testuale</strong> su <em>Ilfattoquotidiano.it </em>a partire dalle 20.50.</p>
+
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/sinner-dimitrov-orario-e-dove-vedere-in-tv-e-streaming-finale-miami/7496846/">Sinner-Dimitrov, orario e dove vedere in tv e streaming la finale del Masters di Miami</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/30/Sinner_Quando_Gioca_Dimitrov_Finale_Miami-1050x551.jpg

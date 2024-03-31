@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/tecnologia/cards/tanti-auguri-di-buona-pasqua-le-immagini-e-le-frasi-piu-eleganti-per-fare-gli-auguri-via-whatsapp/buona-pasqua-da-corriere-login_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Il “selfie impossibile” di Trump, Putin e Kim, e le altre immagini per fare
+  gli auguri di Pasqua
+url: https://www.corriere.it/tecnologia/cards/tanti-auguri-di-buona-pasqua-le-immagini-e-le-frasi-piu-eleganti-per-fare-gli-auguri-via-whatsapp/buona-pasqua-da-corriere-login_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/28/Tecnologia/Foto%20Tecnologia%20-%20Trattate/6608270e8290e.r_d.512-512-0_ori_crop_MASTER__0x0.jpeg"
+  title="Il “selfie impossibile” di Trump, Putin e Kim, e le altre immagini per fare
+  gli auguri di Pasqua" alt="Il “selfie impossibile” di Trump, Putin e Kim, e le altre
+  immagini per fare gli auguri di Pasqua" /><p>Quest''anno il giorno cade il 31 marzo,
+  quindi viene definita Pasqua bassa: vi proponiamo una serie di immagini di utilizzo
+  libero da inviare via messaggio per festeggiare assieme anche distanzaQuest''anno
+  il giorno cade il 31 marzo, quindi viene definita Pasqua bassa: vi proponiamo una
+  serie di immagini di utilizzo libero da inviare via messaggio per festeggiare assieme
+  anche distanzaQuest''anno il giorno cade il 31 marzo, quindi viene definita Pasqua
+  bassa: vi proponiamo una serie di immagini di utilizzo libero da inviare via messaggio
+  per festeggiare assieme anche distanza</p>'
+author: redazione LOGIN
+categories:
+- Tecnologia
+published: 2024-03-31 10:14:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/tecnologia/cards/tanti-auguri-di-buona-pasqua-le-immagini-e-le-frasi-piu-eleganti-per-fare-gli-auguri-via-whatsapp/buona-pasqua-da-corriere-login_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

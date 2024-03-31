@@ -141,8 +141,11 @@ def main
       puts(" -->  #{feed.entries.count.to_s.colorize(:blue)} news found.")
   #    puts feed.entries.first.methods
       feed.entries.each_with_index do |rss_article, ix|
-        #puts rss_article.to_s
         break if ix == MaxArticleSize
+
+        # In case Title is not defined or its VERY short - lets pass to the next news
+        next if rss_article.title.to_s.length < 4
+
         puts("📰 [#{ix+1}] Title: #{rss_article.title.colorize(:cyan)}")
         file_dumper.write_article(newspaper_friendly_name, rss_article, macro_region)
         # All verbs but ENTRIES

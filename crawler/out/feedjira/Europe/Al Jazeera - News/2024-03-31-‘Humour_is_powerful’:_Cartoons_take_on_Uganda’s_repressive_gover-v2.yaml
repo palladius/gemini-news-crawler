@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711808585
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "‘Humour is powerful’: Cartoons take on Uganda’s repressive government"
+url: https://www.aljazeera.com/features/2024/3/31/humour-is-powerful-a-ugandan-cartoonist-takes-on-a-repressive-government?traffic_source=rss
+summary: Huge potholes and rundown hospitals are actually getting fixed – thanks to
+  online satirical campaigns
+categories:
+- Features
+published: 2024-03-31 11:26:46.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711808585
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

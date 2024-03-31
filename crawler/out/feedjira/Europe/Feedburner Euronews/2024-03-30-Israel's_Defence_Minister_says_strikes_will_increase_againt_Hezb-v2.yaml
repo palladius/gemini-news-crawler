@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/30/israels-defence-minister-says-israel-will-extend-military-campaign
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Israel's Defence Minister says strikes will increase againt Hezbollah
+url: https://www.euronews.com/2024/03/30/israels-defence-minister-says-israel-will-extend-military-campaign
+summary: Yoav Gallant's words come as the White House resumes talks to bring Israeli
+  officials to Washington to discuss Rafah offensive.
+published: 2024-03-30 07:40:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/30/israels-defence-minister-says-israel-will-extend-military-campaign
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

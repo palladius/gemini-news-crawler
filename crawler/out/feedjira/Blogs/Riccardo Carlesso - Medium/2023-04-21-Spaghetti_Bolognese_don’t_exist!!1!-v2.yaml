@@ -1,0 +1,74 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/2088d85909dd
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Spaghetti Bolognese don’t exist!!1!
+url: https://medium.com/@palladiusbonton/spaghetti-bolognese-dont-exist-1-2088d85909dd?source=rss-b5293b96912f------2
+author: Riccardo Carlesso
+published: 2023-04-21 16:09:23.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/2088d85909dd
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- published
+- entry_id
+- content
+content: "<p><em>(yes, the exclamation marks are correct \U0001F609)</em></p><p><strong>Spaghetti
+  Bolognese</strong>: Everyone knows them… except Italians.</p><figure><img alt=\"\"
+  src=\"https://cdn-images-1.medium.com/max/750/0*5ZewLxGd3Yska4Am.jpg\" /><figcaption>An
+  imaginary dish, .. just like square root of -1, or like a word which doesn’t exist...
+  just uselesser</figcaption></figure><p>Right, read it again if you don’t believe
+  me… in Italy we don’t prepare that kind of pasta.</p><p>What the hell, you may be
+  wondering… Italy is famous for spaghetti <em>and</em> bolognese sauce (that we call
+  “ragù<em> alla bolognese</em>” or simply ragù<em>, (from </em><a href=\"https://en.wikipedia.org/wiki/Ragout\"><strong><em>r</em>agoût</strong></a>),
+  but we would never mix these two things in the same dish).</p><p>Why oh why, you
+  may as well think? I think the reason can be found in two ways.</p><p>First, they
+  come from two different cultures. Spaghetti come from the south, where a simpler
+  tomato, basil, and veg sauce would seem more appropriate.</p><p>Second, spaghetti
+  are slippery, so they’re not as good to ‘retain’ a demanding sauce as a beef ragù
+  is. As every bolognese person can tell you, appropriate pastas for bolognese ragù
+  can be: tagliatelle (first choice), pennette/penne/mezzepenne, conchiglie, fusilli,
+  maccheroni, … in general every form of ‘<strong>pasta rigata</strong>’ (<em>ribbed
+  pasta</em>). Pasta rigata is a pasta that is not smooth, so thas sauce is more likely
+  to stay with the pasta, instead of slipping down. I think the main reason why every
+  person from Bologna is horrified by the mere idea of associating spaghetti with
+  our proud ragÃ¹ is that we perfectly know (because everyone has made that mistake
+  once in their life) what happens if you do that: spaghetti would ruthlessly come
+  up your fork completely naked of any red or meaty trace… just to leave a gloomy
+  surprise in the very end: a bloody pool of meat and tomato just looking at you as
+  if asking “Now what?”. And unless you are Italian, you don’t know what scarpetta
+  is. but that’s another story.</p><h4>What does wikipedia say?</h4><p>As Wikipedia
+  (as of 19dec09) says about <a href=\"http://en.wikipedia.org/wiki/Bolognese_sauce\">Bolognese_sauce</a>:</p><p><em>[…]
+  </em>Bolognese sauce known in Italian as <strong>ragù alla bolognese</strong>, pronounced
+  [, ragù bolognese, or simply ragù) is a meat-based sauce in Italian cuisine, typical
+  of the city of Bologna. It is customarily used to dress tagliatelle al ragù and
+  to prepare lasagne alla bolognese.</p><p>Italian ragù alla bolognese is a slowly
+  cooked meat-based sauce, and its preparation involves several techniques, including
+  sweating, sautéing and braising. Ingredients include a characteristic soffritto
+  of onion, celery and carrot, different types of minced or finely chopped beef, often
+  alongside small amounts of fatty pork. White wine, milk, and a small amount of tomato
+  paste or tomatoes are added, and the dish is then gently simmered at length to produce
+  a thick sauce.</p><p>Outside Italy, the phrase “Bolognese sauce” is often used to
+  refer to a tomato-based sauce to which minced meat has been added; such sauces typically
+  bear little resemblance to the Italian ragù alla bolognese, being more similar in
+  fact to the ragù alla napoletana from the tomato-rich south of the country. Although
+  in Italy ragù alla bolognese is not used with spaghetti (but rather with flat pasta,
+  like tagliatelle),[2][3][4] so-called “spaghetti bolognese” has become a popular
+  dish in many other parts of the world.[where</p><h4>I’m not Italian: what can we
+  do to comply?</h4><p>If you weren’t born with the privilege of \U0001F1EE\U0001F1F9
+  Italianity, I’ve built a software for you to teach you the proper <em>abbinamenti</em>
+  (couplings) between <strong>pastas</strong> and <strong>sauces</strong>.</p><p>It’s
+  simple, install my app from github: <a href=\"https://github.com/palladius/pasta\">https://github.com/palladius/pasta</a></p><p>It’s
+  written in Ruby on Rails (of course), it’s fully Dockerized, and features a beautiful
+  matrix of pastas/sauces:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*kfAypJ0sBgMh2UKu.png\"
+  /></figure><p>The code which defined good condiments is <a href=\"https://github.com/palladius/pasta/blob/master/db/seeds.rb#L75-L100\">here</a>,
+  under <a href=\"https://github.com/palladius/pasta/blob/master/db/seeds.rb#L75-L100\">db/seeds.rb</a> .</p><img
+  src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=2088d85909dd\"
+  width=\"1\" height=\"1\" alt=\"\">"

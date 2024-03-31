@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/29/un-top-court-orders-israel-to-allow-more-aid-into-gaza
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Top UN court orders Israel to allow more aid into Gaza
+url: https://www.euronews.com/2024/03/29/un-top-court-orders-israel-to-allow-more-aid-into-gaza
+summary: The Palestinian Foreign Ministry called the case “a vital step in the global
+  effort to hold Israel accountable for perpetrating genocide.”
+published: 2024-03-29 05:33:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/29/un-top-court-orders-israel-to-allow-more-aid-into-gaza
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

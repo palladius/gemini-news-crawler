@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/internazionale/esteri/elezioni-turchia-risultati-voto-akp-erdogan_7g1p5QgRvuJDuf8CHcmpy4
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Elezioni Turchia, frena l''Akp di Erdogan: verso vittoria opposizione a Istanbul
+  e Ankara'
+url: https://www.adnkronos.com/internazionale/esteri/elezioni-turchia-risultati-voto-akp-erdogan_7g1p5QgRvuJDuf8CHcmpy4
+summary: "(Adnkronos) - Per la Commissione elettorale c'è stata un'alta affluenza.
+  Un morto in scontri durante il voto"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-31 09:41:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/elezioni-turchia-risultati-voto-akp-erdogan_7g1p5QgRvuJDuf8CHcmpy4
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8acbbb2154-f12490c4cf41-1000/format/medium/elezioni_turchia_afp.jpeg

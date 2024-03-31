@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-20/texas-immigration-law-on-hold-again-while-a-new-panel-of-appellate-judges-decides-what-to-do
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: What's next for the disputed Texas immigration law on hold after whiplash court
+  rulings?
+url: https://www.latimes.com/world-nation/story/2024-03-20/texas-immigration-law-on-hold-again-while-a-new-panel-of-appellate-judges-decides-what-to-do
+summary: "<p>Texas' controversial immigration law is on hold again after court moves
+  that confounded the Biden administration and spurred outrage from Mexico's government.
+  \ </p>"
+author: David G. Savage, Patrick J. McDonnell
+published: 2024-03-20 15:40:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-20/texas-immigration-law-on-hold-again-while-a-new-panel-of-appellate-judges-decides-what-to-do
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Texas' controversial immigration law is on hold again after court moves
+  that confounded the Biden administration and spurred outrage from Mexico's government.
+  \ </p>"

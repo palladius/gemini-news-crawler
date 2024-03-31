@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiT2h0dHBzOi8vd3d3LnNwYWNlLmNvbS93b21lbi1pbi1zcGFjZS1xdW90ZXMtaW5zcGlyYXRpb25hbC1zY2llbmNlLWhpc3RvcnktbW9udGjSAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: We asked over 50 women space leaders for words of inspiration. Here's what
+  they told us - Space.com
+url: https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3LnNwYWNlLmNvbS93b21lbi1pbi1zcGFjZS1xdW90ZXMtaW5zcGlyYXRpb25hbC1zY2llbmNlLWhpc3RvcnktbW9udGjSAQA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3LnNwYWNlLmNvbS93b21lbi1pbi1zcGFjZS1xdW90ZXMtaW5zcGlyYXRpb25hbC1zY2llbmNlLWhpc3RvcnktbW9udGjSAQA?oc=5"
+  target="_blank">We asked over 50 women space leaders for words of inspiration. Here''s
+  what they told us</a>&nbsp;&nbsp;<font color="#6f6f6f">Space.com</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMigQFodHRwczovL2Jsb2cuYWRhZnJ1aXQuY29tLzIwMjQvMDMvMjkvd29tZW5zLWhpc3RvcnktbW9udGgtY2VsZWJyYXRpbmctd29tZW4tYXN0cm9uYXV0cy0yMDI0LXdobTI0LXdvbWVuc2hpc3Rvcnltb250aC13b21lbmluc3RlbS_SAQA?oc=5"
+  target="_blank">Women''s History Month: Celebrating Women Astronauts 2024 #WHM24
+  #WomensHistoryMonth #WomenInSTEM</a>&nbsp;&nbsp;<font color="#6f6f6f">Adafruit Blog</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LndmaXQub3JnL3NwYWNlLzIwMjQtMDMtMjkvZm9yLXdvbWVucy1oaXN0b3J5LW1vbnRoLW9uZS12ZXRlcmFuLWluc3BpcmVzLW5leHQtZ2VuZXJhdGlvbi1vZi1leHBsb3JlcnPSAQA?oc=5"
+  target="_blank">For Women''s History Month, one veteran inspires next generation
+  of explorers</a>&nbsp;&nbsp;<font color="#6f6f6f">wfit</font></li><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LndtZmUub3JnL3BvZGNhc3QvYXJlLXdlLXRoZXJlLXlldC8yMDI0LTAzLTI2L2V4cGxvcmluZy13b21lbi11LXMtc3BhY2UtZXhwbG9yYXRpb27SAQA?oc=5"
+  target="_blank">Exploring the women of U.S. space exploration</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">WMFE</font></li></ol>'
+published: 2024-03-31 01:33:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiT2h0dHBzOi8vd3d3LnNwYWNlLmNvbS93b21lbi1pbi1zcGFjZS1xdW90ZXMtaW5zcGlyYXRpb25hbC1zY2llbmNlLWhpc3RvcnktbW9udGjSAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

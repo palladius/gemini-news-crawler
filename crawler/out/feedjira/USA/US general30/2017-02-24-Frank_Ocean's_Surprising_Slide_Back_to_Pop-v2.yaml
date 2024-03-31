@@ -1,0 +1,93 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517707
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517707
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/C5No152VYAAXONH/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"Frank Ocean&#39;s Surprising
+  Slide Back to Pop\"\n            >\n        \n        \n    \n\n\n    \n    \n\n</figure>\n\n<p>“Frank
+  Ocean appears courtesy of Frank Ocean,” reads the liner notes to Calvin Harris’s
+  new single “Slide,” which in this unseasonably warm late February has kicked off
+  the 2017 song-of-the-summer battle. Most artists only ever appear anywhere courtesy
+  of their record label, but Ocean is a free agent and this song is another surprise
+  move in his ongoing rewriting of pop stardom.</p>\n\n<div class=\"oembed\" data-oembed-name=\"open.spotify.com\"
+  data-oembed-src=\"https://open.spotify.com/embed/track/6gpcs5eMhJwax4mIfKDYQk\n\">\n<div
+  class=\"oembed\" data-oembed-name=\"open.spotify.com\" data-oembed-src=\"https://open.spotify.com/embed/track/6gpcs5eMhJwax4mIfKDYQk\"><iframe
+  allowfullscreen=\"\" class=\"embedly-embed\" frameborder=\"0\" height=\"100\" scrolling=\"no\"
+  src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fembed.spotify.com%2F%3Furi%3Dspotify%3Atrack%3A6gpcs5eMhJwax4mIfKDYQk&amp;url=https%3A%2F%2Fopen.spotify.com%2Ftrack%2F6gpcs5eMhJwax4mIfKDYQk&amp;image=https%3A%2F%2Fi.scdn.co%2Fimage%2F24a63c5c743b4376b7b7d570cf4a83ea017382fd&amp;key=8164a61223cb4585ad276041728caca9&amp;type=text%2Fhtml&amp;schema=spotify\"
+  width=\"650\"></iframe></div>\n</div>\n\n<p>Last summer, the buzzy R&B singer broke
+  years of unexplained silence with a duo of albums, <em>Endless </em>and <em>Blond(e)</em>,
+  that defied conventions both musically and business-wise. The latter of the two
+  releases—the one that was actually for sale and had distinguishable songs, in contrast
+  to the<a href=\"https://www.theatlantic.com/entertainment/archive/2016/08/frank-oceans-endless-released-early-thoughts/496598/\">
+  free-form streaming audiovisual project</a> <em>Endless</em>—arrived not via his
+  record company, Def Jam, but <a href=\"https://www.nytimes.com/2016/11/20/arts/music/frank-ocean-blonde-interview.html?_r=0\">independently</a>.
+  Through years of wrangling (and <a href=\"http://pitchfork.com/news/71866-listen-to-frank-oceans-new-beats-1-radio-show-right-now/\">the
+  help of Apple</a>, the new corporate patron of label-agnostic pop artists), he had
+  freed himself of the kind of contract that once was considered both prize and necessity
+  for new singers.</p>\n\n<aside class=\"callout-placeholder\" data-source=\"curated\"></aside>\n\n<p>It
+  seemed possible he’d then use this newfound liberty to burrow deeper into an anti-commercial,
+  anti-pop mindset. <a href=\"https://www.theatlantic.com/entertainment/archive/2016/12/albums-of-the-year-2016/510404/\"><em>Blond(e)
+  </em>is a masterpiece</a>, but a <a href=\"https://www.theatlantic.com/entertainment/archive/2016/08/frank-ocean-blond-blonde-review-endless-time/496985/\">weird
+  one</a>: mostly free of drums, recognizable song structures, and anything that could
+  be a hit. It took him four years to make, had <a href=\"https://www.theatlantic.com/entertainment/archive/2016/08/blond-or-blonde-frank-ocean-spelling-album-def-jam-universal-exclusives/497204/\">two
+  competing spellings for its name</a>, and featured a tie-in print magazine. You
+  can understand why its creator might not want to have to run all of his material
+  past Universal Music Group’s A&R. And you might guess that future Ocean projects
+  would become even more esoteric.</p>\n\n<p>But today brings the mostly good news
+  that Ocean has not entirely decided to withhold his talents—a voice that imparts
+  both feeling and attitude, an adventuresome ear, a smart and funny lyrical sensibility—from
+  the radio race. He’s paired up with Calvin Harris, the Scottish EDM star famous
+  for unsubtle but irresistible Top 40 fare like “This Is What You Came For” (his
+  2016 summer smash, featuring Rihanna) and “We Found Love” (his 2011 summer smash,
+  featuring, again, Rihanna). Rounding out the bill are two-thirds of Migos, the Atlanta
+  rap group enjoying breakthrough national success in 2017 with <a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/migos-culture-number-one-album/515916/\">the
+  tricky-fun album <em>Culture</em></a> and the No. 1 hit “Bad & Boujee.”</p>\n\n<p>Harris’s
+  knack for consolidating popular trends and nudging them ever-so-slightly forward
+  is on display here, with the beat for “Slide” sucking in Bruno Mars’s recent revivalist
+  funk and Justin Bieber’s airy tropical house for a blend that will only reveal its
+  full potential when heard on the beach. One of Ocean’s latter-day signatures, a
+  squeaky manipulated voice, opens the track with the couplet “I might empty my bank
+  account / And buy that boy a wooden pipe.” I won’t pretend to know exactly what
+  the wooden pipe is supposed to mean here. But the sentiment comes across, to these
+  ears, as a boy hitting on a boy.</p>\n\n<p>Which is not insignificant in 2017 pop,
+  especially in light of <a href=\"http://hiphopdx.com/news/id.42294/title.migos-questions-support-for-ilovemakonnen-coming-out-as-gay\">recent
+  comments</a> by Migos: Asked about the rapper Makonnen who’d just come out as gay,
+  they said it seemed “fucked up” and “wack” that he’d previously put on a tough,
+  streetwise persona. The group later gave an apology that said they were fine with
+  gays but that didn’t quite address the stereotypes they’d seemed to endorse. In
+  any case, they are now on a track with Frank Ocean, who <a href=\"https://www.theatlantic.com/entertainment/archive/2012/07/the-love-letter-that-shook-hip-hop/259510/\">shook
+  hip-hop</a> with a 2012 admission of an affair with a man—and who has since scrambled
+  all sorts of expectations about culture, machismo, and sex.</p>\n\n<p>Migos themselves
+  sound great, the stickiness of their distinctive flows suddenly plainer than ever
+  over such a sturdy and sunny beat. Ocean’s verses seem to cryptically, wearily talk
+  about the moment at the end of a night in the club when the lights come up and you
+  see who you might take home; Migos’s lyrics are explicit boasts of wining and dining
+  and heterosexual screwing around the world. The divides between Ocean, Migos, and
+  Harris’s sensibilities couldn’t be clearer, but the song is a reminder of pop’s
+  power to make very different elements slide together.</p>\n"
+author: Spencer Kornhaber
+title_type:
+published: 2017-02-24 18:10:00.000000000 Z
+summary: His team-up with Calvin Harris and Migos on "Slide" scrambles some expectations,
+  but mostly just sounds like summer.
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/frank-ocean-calvin-harris-migos-slide-review-song-of-summer/517707/
+title: Frank Ocean's Surprising Slide Back to Pop
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

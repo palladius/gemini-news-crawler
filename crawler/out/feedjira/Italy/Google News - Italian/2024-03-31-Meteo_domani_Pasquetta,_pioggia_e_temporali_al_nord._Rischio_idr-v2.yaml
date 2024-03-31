@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMif2h0dHBzOi8vd3d3LmlsbWVzc2FnZ2Vyby5pdC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWzSAYMBaHR0cHM6Ly93d3cuaWxtZXNzYWdnZXJvLml0L0FNUC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWw
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Meteo domani Pasquetta, pioggia e temporali al nord. Rischio idrogeologico
+  in Lombardia, allerta arancione in - ilmessaggero.it
+url: https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmlsbWVzc2FnZ2Vyby5pdC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWzSAYMBaHR0cHM6Ly93d3cuaWxtZXNzYWdnZXJvLml0L0FNUC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWw?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmlsbWVzc2FnZ2Vyby5pdC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWzSAYMBaHR0cHM6Ly93d3cuaWxtZXNzYWdnZXJvLml0L0FNUC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWw?oc=5"
+  target="_blank">Meteo domani Pasquetta, pioggia e temporali al nord. Rischio idrogeologico
+  in Lombardia, allerta arancione in</a>&nbsp;&nbsp;<font color="#6f6f6f">ilmessaggero.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiNmh0dHBzOi8vdGcyNC5za3kuaXQvY3JvbmFjYS8yMDI0LzAzLzMxL21ldGVvLXBhc3F1ZXR0YdIBOmh0dHBzOi8vdGcyNC5za3kuaXQvY3JvbmFjYS8yMDI0LzAzLzMxL21ldGVvLXBhc3F1ZXR0YS9hbXA?oc=5"
+  target="_blank">Meteo di Pasquetta, Italia spaccata in due: al Nord allerte, al
+  Sud sole e caldo</a>&nbsp;&nbsp;<font color="#6f6f6f">Sky Tg24 </font></li><li><a
+  href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2Nyb25hY2EvMjAyNC8wMy8zMS9uZXdzL21hbHRlbXBvX2l0YWxpYV9hbGxlcnRhX2FsX25vcmRfc29sZV9hbF9jZW50cm8tc3VkLTE0MTg4MTU2L9IBcGh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2Nyb25hY2EvMjAyNC8wMy8zMS9uZXdzL21hbHRlbXBvX2l0YWxpYV9hbGxlcnRhX2FsX25vcmRfc29sZV9hbF9jZW50cm8tc3VkLTE0MTg4MTU2L2FtcC8?oc=5"
+  target="_blank">Maltempo, Italia divisa in due: allerta al Nord, sole al Centro-Sud
+  e neve rossa sulle Alpi. Nubifragio nella…</a>&nbsp;&nbsp;<font color="#6f6f6f">La
+  Stampa</font></li><li><a href="https://news.google.com/rss/articles/CBMiwgFodHRwczovL3d3dy4zYm1ldGVvLmNvbS9naW9ybmFsZS1tZXRlby9jcm9uYWNhLW1ldGVvLS0tbGEtcGVydHVyYmF6aW9uZS1kaS1wYXNxdWEtcG9ydGEtbnVvdmEtcGlvZ2dpYS1lLXRlbXBvcmFsaS1hbmNoZS1pbnRlbnNpLWNvbi1yaXNjaGlvLW51YmlmcmFnaS0tc2l0dWF6aW9uZS1lLXByZXZpc2lvbmUtcHJvc3NpbWUtb3JlLTcxODYzMdIBAA?oc=5"
+  target="_blank">Cronaca Meteo - Pasqua con forti temporali e grandine su parte d''Italia,
+  caldo estivo al Sud. Situazione con foto, video e previsione prossime ore</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">3bmeteo</font></li></ol>'
+published: 2024-03-31 14:22:34.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMif2h0dHBzOi8vd3d3LmlsbWVzc2FnZ2Vyby5pdC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWzSAYMBaHR0cHM6Ly93d3cuaWxtZXNzYWdnZXJvLml0L0FNUC9pdGFsaWEvbWV0ZW9fZG9tYW5pX3Bhc3F1ZXR0YV8xX2FwcmlsZV9wcmV2aXNpb25pX3RlbXBvcmFsaV9kb3ZlX3F1YW5kb191bHRpbWVfbm90aXppZS04MDI5MDY4Lmh0bWw
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

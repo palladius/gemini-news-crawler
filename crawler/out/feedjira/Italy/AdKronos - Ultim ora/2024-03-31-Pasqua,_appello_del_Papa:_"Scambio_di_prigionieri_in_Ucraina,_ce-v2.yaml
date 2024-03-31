@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/messa-di-pasqua-in-30mila-per-il-papa-a-san-pietro_4h1HdPeq2OiJD0THKqcRT7
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Pasqua, appello del Papa: "Scambio di prigionieri in Ucraina, cessate il fuoco
+  a Gaza"'
+url: https://www.adnkronos.com/cronaca/messa-di-pasqua-in-30mila-per-il-papa-a-san-pietro_4h1HdPeq2OiJD0THKqcRT7
+summary: "(Adnkronos) - In 60mila per il Pontefice a San Pietro, bagno di folla a
+  bordo della papamobile"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-31 09:20:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/messa-di-pasqua-in-30mila-per-il-papa-a-san-pietro_4h1HdPeq2OiJD0THKqcRT7
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8a546ade75-8804e8c12d2d-1000/format/medium/papa_francesco_folla_pasqua_afp.jpeg

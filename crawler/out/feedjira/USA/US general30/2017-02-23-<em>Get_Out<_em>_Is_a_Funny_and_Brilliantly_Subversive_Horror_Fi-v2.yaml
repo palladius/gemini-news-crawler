@@ -1,0 +1,100 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517524
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517524
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/get_out/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"&lt;em&gt;Get Out&lt;/em&gt;
+  Is a Funny and Brilliantly Subversive Horror Film\"\n            >\n        \n        \n
+  \   \n\n\n    \n    \n\n</figure>\n\n<p>The opening scene of <em>Get Out</em> is
+  a familiar horror-movie image—a stranger walking an unfamiliar street, in the dead
+  of night, nervously looking over their shoulder at every rustle of sound. The setting
+  is the suburbs, a frequent favorite of the slasher genre, only the victim is not
+  a scantily clad teen girl, but an African American man, uneasily navigating what
+  seems like hostile territory. A car pulls up alongside him, blasting the dirge-like
+  old-fashioned ditty “<a href=\"https://www.youtube.com/watch?v=SXmk8dbFv_o\">Run
+  Rabbit Run</a>.” “Not today,” he mutters, turning around and walking in the opposite
+  direction. But of course, his fate is already sealed.</p>\n\n<p><em>Get Out</em>
+  was written and directed by Jordan Peele, one half of the legendary sketch-comedy
+  duo behind <em>Key & Peele</em>. That show had a remarkable grasp on the visual
+  hallmarks of the film genres it often mimicked, and its humor often lay in the preciseness
+  of its parody. But <em>Get Out </em>is no mere pastiche. It’s an atmospheric, restrained,
+  extremely effective work of horror with a clear point of view, a darkly hilarious
+  movie that never trips over itself in search of a cheap laugh or scare. What might
+  sound like a one-joke premise turns into something richly textured; what might seem
+  like an easy metaphor is, in fact, anything but.</p>\n\n<aside class=\"callout-placeholder\"
+  data-source=\"curated\"></aside>\n\n<p>Like so many horror films, <em>Get Out</em>
+  is exploring the creepy menace of the suburbs. Usually, similar slasher movies exist
+  to puncture the false veneer of safety that comes with a white picket fence, but
+  in <em>Get Out</em>, the threatening vibe is present from minute one. Chris (Daniel
+  Kaluuya) is about to meet the parents of his girlfriend Rose (Allison Williams)
+  for the first time and is nervous when he realizes she hasn’t told them that he’s
+  black. After a long drive, their manse turns out to be exactly what you might imagine—giant,
+  secluded, pristine, and filled with trinkets from trips around the world.</p>\n\n<p>Rose’s
+  father Dean (Bradley Whitford) is a little too eager to call Chris “my man,” her
+  mother Missy (Catherine Keener) is icy and standoffish, and her brother Jeremy (Caleb
+  Landry Jones) is weirdly aggressive, but there’s nothing that unusual going on at
+  first. Peele layers in a familiar awkwardness before slowly introducing elements
+  of dread. The house’s maid Georgina (Betty Gabriel) and the groundskeeper Walter
+  (Marcus Henderson), both black, have strangely placid demeanors; Missy is a psychiatrist
+  who keeps offering to hypnotize Chris (just to help him stop smoking, you understand);
+  and, naturally, there’s a locked basement no one’s allowed to go into (just a nasty
+  case of mold, of course).</p>\n\n<p>It’s best to know as little as possible about
+  <em>Get Out</em>’s second and third acts. Peele’s plotting is as crisp as his knack
+  for visual storytelling, and he doles out tidbits of information with glee, letting
+  the audience slowly figure out the particulars of Rose’s family while they guess
+  at just how deep the malevolence goes. Chris is on edge from minute one, understandably;
+  behind the family’s friendly surface is the kind of passive prejudice he obviously
+  feared from the get-go. The delight comes in watching how Peele heightens that into
+  real terror. <em>Get Out</em> is clearly playing on the discomfort a young African
+  American man might have in visiting a largely white community—something rarely explored
+  by the horror genre.</p>\n\n<p>There are few more frightening monsters to conjure
+  than racism, after all. It’s a topic the genre has brushed up against—with the black
+  protagonist of <em>Night of the Living Dead</em>, a rare sight in 1968, or in Bernard
+  Rose’s 1992 classic <em>Candyman</em>, in which the titular figure in part represented
+  America’s history of slavery and repression. But racism is still a surprisingly
+  uncommon subject matter, and Peele addresses a more insidious fear—of the fallacy
+  of America being a post-racial society, and of the nightmares one can imagine under
+  that benign surface.</p>\n\n<p>Kaluuya, a British actor who was extraordinary in
+  the <em>Black Mirror </em>episode “Fifteen Million Merits” and, more recently, played
+  Emily Blunt’s stoic partner in <em>Sicario</em>, is terrific in the lead role. Williams
+  excels as Rose, weaponizing the lack of self-awareness she deploys so well on HBO’s
+  <em>Girls</em>. The entire cast is perfectly restrained, save for maybe Jones, who
+  feels unhinged from the start, and the delightful Lil Rel Howery, who plays Chris’s
+  friend Rod, a TSA agent with the kind of moxie and deductive powers one might not
+  expect from an employee of that particular agency.<strong> </strong>He’s a vehicle
+  for the film’s biggest laugh lines—but <em>Get Out </em>is funny throughout, wringing
+  jokes from even the tensest moments.</p>\n\n<p>Best of all, though, is that <em>Get
+  Out </em>is truly frightening. Not because it’s loaded with jump scares (though
+  it does have a couple of good ones), nor because it features excessively visceral
+  violence. It’s so perfectly calibrated that every escalation feels organic: What
+  begins as an awkward tale of meeting the parents becomes something much, much worse,
+  but it’s all part of a fully realized whole. <em>Get Out </em>is an extremely confident
+  debut feature for Peele, one steeped in the language of horror cinema rather than
+  merely copying it. It’s also likely to be one of the wryest, funniest, most relevant
+  films of the year.  </p>\n"
+author: David Sims
+title_type:
+published: 2017-02-23 16:06:00.000000000 Z
+summary: The <em>Key & Peele </em>comedian Jordan Peele makes a confident, richly
+  textured debut as a writer and director.
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/get-out-jordan-peele-review/517524/
+title: "<em>Get Out</em> Is a Funny and Brilliantly Subversive Horror Film"
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

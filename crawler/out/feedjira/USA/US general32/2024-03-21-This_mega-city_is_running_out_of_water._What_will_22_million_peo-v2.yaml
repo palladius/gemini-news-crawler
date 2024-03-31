@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-21/mexico-city-taps-run-dry-water-crisis
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'This mega-city is running out of water. What will 22 million people do when
+  the taps run dry?  '
+url: https://www.latimes.com/world-nation/story/2024-03-21/mexico-city-taps-run-dry-water-crisis
+summary: "<p>The challenge in Mexico City, built amid lakes by the Aztecs, had long
+  been getting rid of water, not storing it. Now its taps are running dry. </p>"
+author: Patrick J. McDonnell
+published: 2024-03-21 10:00:55.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-21/mexico-city-taps-run-dry-water-crisis
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>The challenge in Mexico City, built amid lakes by the Aztecs, had long
+  been getting rid of water, not storing it. Now its taps are running dry. </p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/2ef30a2/2147483647/strip/false/crop/3708x2220+0+0/resize/1500x898!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0c%2Ff3%2F9f625eb44f91928e4e4a71a72a91%2Ftravel-frida-and-diego-82876-1.jpg

@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/politics/fulton-county-trump-fake-electors/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Fulton County DA says fake Trump electors are incriminating one another and
+  wants lawyer disqualified '
+url: https://www.cnn.com/2023/04/18/politics/fulton-county-trump-fake-electors/index.html
+summary: The Fulton County District Attorney's office said some fake electors for
+  Donald Trump have implicated each other in potential criminal activity and is seeking
+  to disqualify their lawyer, according to a new court filing.
+published: 2023-04-19 15:31:24.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/politics/fulton-county-trump-fake-electors/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230109112258-trump-willis-split-super-169.jpg

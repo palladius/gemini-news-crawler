@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711865538
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Car bomb kills seven at crowded market in Syrian town near Turkish border
+url: https://www.aljazeera.com/news/2024/3/31/car-bomb-kills-at-least-seven-in-syrian-town-near-turkish-border?traffic_source=rss
+summary: Blast occurred in Syrian opposition city of Azaz during peak late night shopping
+  after breaking the day&#039;s Ramadan fast.
+categories:
+- News
+published: 2024-03-31 07:17:33.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711865538
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

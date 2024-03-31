@@ -1,0 +1,42 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/31/baltimore-bridge-collpase-engineers-removing-wreckage
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Engineers begin removing Baltimore Key Bridge’s mangled wreckage
+url: https://www.theguardian.com/us-news/2024/mar/31/baltimore-bridge-collpase-engineers-removing-wreckage
+summary: <p>Crew starts intricate removal work on Francis Scott Key Bridge as officials
+  stress that health of US national economy depends on it</p><p>Crews of engineers
+  have begun the dangerous and intricate job of removing the mangled <a href="https://www.theguardian.com/us-news/baltimore-bridge-collapse">wreckage
+  of the Francis Scott Key Bridge</a> from the Patapsco River outside Baltimore, as
+  top federal government and Maryland state officials stressed Sunday that the health
+  of the US national economy depended on it.</p><p>Officials took to the political
+  talkshows Sunday to praise the emergency teams that have now amassed in the Patapsco
+  and have started the delicate process of cutting and lifting steel debris from the
+  north side of <a href="https://www.theguardian.com/us-news/2024/mar/30/baltimore-bridge-collapse-environment-hazard">the
+  destroyed bridge</a>. Wes Moore, the governor of Maryland, said the operation was
+  extremely complex.</p> <a href="https://www.theguardian.com/us-news/2024/mar/31/baltimore-bridge-collpase-engineers-removing-wreckage">Continue
+  reading...</a>
+author: Ed Pilkington in New York
+categories:
+- Baltimore bridge collapse
+- Baltimore
+- Maryland
+- US politics
+- US news
+published: 2024-03-31 19:35:35.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/31/baltimore-bridge-collpase-engineers-removing-wreckage
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/5e6f06b2be4bec334f546bce1cab8ac8685d5614/0_0_1811_1087/master/1811.jpg?width=140&quality=85&auto=format&fit=max&s=f1bb4071c7835086339c1090ef8e67dd

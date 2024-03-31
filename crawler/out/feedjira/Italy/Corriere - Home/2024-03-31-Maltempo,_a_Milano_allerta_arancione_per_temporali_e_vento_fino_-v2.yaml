@@ -1,0 +1,38 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://milano.corriere.it/notizie/cronaca/24_marzo_31/maltempo-a-milano-allerta-arancione-per-temporali-e-vento-fino-a-90-all-ora-il-comune-non-sostate-sotto-gli-alberi-92afafc3-6d61-4166-a703-f9eb0db7cxlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Maltempo, a Milano allerta arancione per temporali e vento fino a 90 all''ora:
+  «Lontani da alberi e cantieri»'
+url: https://milano.corriere.it/notizie/cronaca/24_marzo_31/maltempo-a-milano-allerta-arancione-per-temporali-e-vento-fino-a-90-all-ora-il-comune-non-sostate-sotto-gli-alberi-92afafc3-6d61-4166-a703-f9eb0db7cxlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Milano/Foto%20Milano%20-%20Trattate/62b7964feefef_ori_crop_MASTER__0x0.jpeg"
+  title="Maltempo, a Milano allerta arancione per temporali e vento fino a 90 all''ora:
+  «Lontani da alberi e cantieri»" alt="Maltempo, a Milano allerta arancione per temporali
+  e vento fino a 90 all''ora: «Lontani da alberi e cantieri»" /><p>Nord Italia ancora
+  minacciato dalle intemperie: Valle d''Aosta, Lombardia ed Emilia-Romagna le regioni
+  più a rischio idrogeologico fino a lunedì. In montagna nebbia e pericolo di valanghe,
+  impianti poco affollatiNord Italia ancora minacciato dalle intemperie: Valle d''Aosta,
+  Lombardia ed Emilia-Romagna le regioni più a rischio idrogeologico fino a lunedì.
+  In montagna nebbia e pericolo di valanghe, impianti poco affollatiNord Italia ancora
+  minacciato dalle intemperie: Valle d''Aosta, Lombardia ed Emilia-Romagna le regioni
+  più a rischio idrogeologico fino a lunedì. In montagna nebbia e pericolo di valanghe,
+  impianti poco affollati</p>'
+author: Redazione Milano
+categories:
+- Corriere
+published: 2024-03-31 18:33:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://milano.corriere.it/notizie/cronaca/24_marzo_31/maltempo-a-milano-allerta-arancione-per-temporali-e-vento-fino-a-90-all-ora-il-comune-non-sostate-sotto-gli-alberi-92afafc3-6d61-4166-a703-f9eb0db7cxlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

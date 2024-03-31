@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/california/story/2024-03-23/with-kate-middleton-cancer-in-the-news-heres-how-to-talk-to-your-child-about-serious-illnesses
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Kate Middleton is helping her kids through cancer diagnosis. How to talk to
+  your children
+url: https://www.latimes.com/california/story/2024-03-23/with-kate-middleton-cancer-in-the-news-heres-how-to-talk-to-your-child-about-serious-illnesses
+summary: "<p>Kate Middleton emphasized the time she took to share her cancer diagnosis
+  with her children. Here's how adults can speak to children about serious illnesses.</p>"
+author: Karen Garcia
+published: 2024-03-23 10:00:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/california/story/2024-03-23/with-kate-middleton-cancer-in-the-news-heres-how-to-talk-to-your-child-about-serious-illnesses
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Kate Middleton emphasized the time she took to share her cancer diagnosis
+  with her children. Here's how adults can speak to children about serious illnesses.</p>"

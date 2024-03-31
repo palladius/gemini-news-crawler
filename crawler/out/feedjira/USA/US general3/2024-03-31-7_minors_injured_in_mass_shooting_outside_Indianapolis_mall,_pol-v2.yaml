@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 71ebb0c0-4220-4f9f-942e-432b8a18b8ef
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 7 minors injured in mass shooting outside Indianapolis mall, police say
+url: https://www.cbsnews.com/news/mass-shooting-indianapolis-mall-children-teens-injured/
+summary: Seven minors between the ages of 12 and 17 were hospitalized with gunshot
+  wounds Saturday night. A suspect has not been found.
+published: 2024-03-31 17:26:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 71ebb0c0-4220-4f9f-942e-432b8a18b8ef
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

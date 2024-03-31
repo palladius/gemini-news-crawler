@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/opinions/medication-abortion-mifepristone-miscarriage-jones-ctpr/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Mifepristone saved my life '
+url: https://www.cnn.com/2023/04/18/opinions/medication-abortion-mifepristone-miscarriage-jones-ctpr/index.html
+summary: 'The ruling earlier this month by a Texas federal judge to suspend the US
+  Food and Drug Administration''s approval of a drug that is used frequently for medication
+  abortions, is very personal for me.  '
+published: 2023-04-18 11:30:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/opinions/medication-abortion-mifepristone-miscarriage-jones-ctpr/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230105123125-medication-abortion-process-wellness-super-169.jpg

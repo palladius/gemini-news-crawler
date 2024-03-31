@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/science/story/2024-03-13/u-s-teens-are-using-thc-derived-from-hemp-in-states-where-marijuana-is-illegal
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 11% of high school seniors report using delta-8 THC, advertised as 'legal'
+  form of cannabis
+url: https://www.latimes.com/science/story/2024-03-13/u-s-teens-are-using-thc-derived-from-hemp-in-states-where-marijuana-is-illegal
+summary: "<p>More than 11% of high school seniors said in a national survey that they
+  had used delta-8 THC, a psychoactive compound that is derived from hemp, in the
+  last year. </p>"
+author: Emily Alpert Reyes
+published: 2024-03-13 13:42:47.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/science/story/2024-03-13/u-s-teens-are-using-thc-derived-from-hemp-in-states-where-marijuana-is-illegal
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>More than 11% of high school seniors said in a national survey that they
+  had used delta-8 THC, a psychoactive compound that is derived from hemp, in the
+  last year. </p>"

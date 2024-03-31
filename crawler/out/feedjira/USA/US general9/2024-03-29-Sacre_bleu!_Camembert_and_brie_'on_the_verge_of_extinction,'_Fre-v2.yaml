@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general9 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/world/camembert-brie-disappear-scientists-france-warn-rcna143862
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Sacre bleu! Camembert and brie ''on the verge of extinction,'' French scientists
+  warn  '
+url: https://www.nbcnews.com/news/world/camembert-brie-disappear-scientists-france-warn-rcna143862
+summary: Camembert and Brie could disappear, scientists in France are warning, owing
+  to a decline of strains of fungus that give them their unique tastes and textures.
+author: Josh Lederman and Briony Sowden
+published: 2024-03-29 17:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/camembert-brie-disappear-scientists-france-warn-rcna143862
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general9
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240326-brie-camembert-extinction-cheese-cs-b2904f.jpg

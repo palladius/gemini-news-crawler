@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/environment/story/2024-03-19/how-much-will-shift-to-zero-emissions-trucks-cost
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: What will shift to zero-emission trucks cost?  $1 trillion for charging alone,
+  study says
+url: https://www.latimes.com/environment/story/2024-03-19/how-much-will-shift-to-zero-emissions-trucks-cost
+summary: "<p>The study, sponsored by the freight truck industry, \nadds to concerns
+  over government mandates. But government officials say the move away from fossil
+  fuels will have economic benefits. </p>"
+author: Russ Mitchell
+published: 2024-03-19 15:00:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/environment/story/2024-03-19/how-much-will-shift-to-zero-emissions-trucks-cost
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>The study, sponsored by the freight truck industry, \nadds to concerns
+  over government mandates. But government officials say the move away from fossil
+  fuels will have economic benefits. </p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/8598e68/2147483647/strip/false/crop/6424x4282+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7f%2F34%2F8b283c2f49cbbfd2cb36773abb70%2Fla-photos-1staff-817121-fi-long-beach-trucks-09-cmc.jpg

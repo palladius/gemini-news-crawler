@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Primapagina (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/meteo-anche-roma-sotto-la-sabbia-del-sahara-lavviso-del-comune_6s1kmCh6q3Vgz5sQNgtpac
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Meteo, anche Roma sotto la sabbia del Sahara: l''avviso del Comune'
+url: https://www.adnkronos.com/cronaca/meteo-anche-roma-sotto-la-sabbia-del-sahara-lavviso-del-comune_6s1kmCh6q3Vgz5sQNgtpac
+summary: "(Adnkronos) - Pasqua nel segno dello Scirocco nella Capitale, le raccomandazioni
+  alla cittadinanza"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-31 12:12:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/meteo-anche-roma-sotto-la-sabbia-del-sahara-lavviso-del-comune_6s1kmCh6q3Vgz5sQNgtpac
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Primapagina
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8a636c4189-c727ac5f9ccc-1000/format/medium/cielo_giallo_sabbia_sahara_fg_ipa.jpeg

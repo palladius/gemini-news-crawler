@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 7ee32079-1038-48f5-b9d0-92b2b3f8895a
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: King Charles attends Easter service in 1st major outing since cancer diagnosis
+url: https://www.cbsnews.com/news/king-charles-easter-service-first-major-public-outing-cancer-diagnosis/
+summary: King Charles III attended an Easter service at Windsor Castle with the queen
+  and other royal family members, marking his most important public outing in months.
+published: 2024-03-31 14:50:46.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 7ee32079-1038-48f5-b9d0-92b2b3f8895a
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

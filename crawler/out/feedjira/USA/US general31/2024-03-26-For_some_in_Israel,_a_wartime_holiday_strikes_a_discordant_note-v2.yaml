@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-26/for-some-in-israel-a-wartime-holiday-strikes-discordant-note
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: For some in Israel, a wartime holiday strikes a discordant note
+url: https://www.latimes.com/world-nation/story/2024-03-26/for-some-in-israel-a-wartime-holiday-strikes-discordant-note
+summary: "<p>The Jewish holiday of Purim is normally lighthearted and festive, but
+  against a backdrop of war, some celebrations take on a stridently nationalistic
+  edge.</p>"
+author: Laura King
+published: 2024-03-26 10:00:55.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-26/for-some-in-israel-a-wartime-holiday-strikes-discordant-note
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>The Jewish holiday of Purim is normally lighthearted and festive, but
+  against a backdrop of war, some celebrations take on a stridently nationalistic
+  edge.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/6092af5/2147483647/strip/false/crop/5616x3744+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F36%2F5c%2F041c008c4a7f98a1d48d0dd29127%2F1358911-fg-0325-israelgazawar-mwy-100102.jpg

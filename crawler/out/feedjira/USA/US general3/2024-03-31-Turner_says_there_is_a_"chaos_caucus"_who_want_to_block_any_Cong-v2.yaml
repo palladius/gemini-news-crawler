@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: bd40471f-6f9e-459e-a9a0-4ed08dca0c79
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Turner says there is a "chaos caucus" who want to block any Congressional action
+url: https://www.cbsnews.com/news/mike-turner-chaos-caucus-motion-to-vacate-face-the-nation-03-31-2024/
+summary: Rep. Mike Turner tells "Face the Nation" that there is a "chaos caucus that
+  wants to stop everything that a person in Congress does" as Speaker Mike Johnson
+  faces a possible motion to vacate.
+published: 2024-03-31 16:40:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: bd40471f-6f9e-459e-a9a0-4ed08dca0c79
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

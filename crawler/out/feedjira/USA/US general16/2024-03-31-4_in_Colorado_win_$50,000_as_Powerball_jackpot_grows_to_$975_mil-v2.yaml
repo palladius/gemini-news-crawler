@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general16 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 4-colorado-win-50-000-174547937.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 4 in Colorado win $50,000 as Powerball jackpot grows to $975 million without
+  big winner
+url: https://www.yahoo.com/news/4-colorado-win-50-000-174547937.html
+published: 2024-03-31 17:45:47.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 4-colorado-win-50-000-174547937.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general16
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/kdvr_denver_articles_499/b3a133a6b89e2906de82cc496708f507

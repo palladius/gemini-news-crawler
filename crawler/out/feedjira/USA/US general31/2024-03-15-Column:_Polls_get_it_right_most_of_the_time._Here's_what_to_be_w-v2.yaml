@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-15/column-polls-get-it-right-most-of-the-time-heres-what-to-be-wary-of
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Column: Polls get it right most of the time. Here''s what to be wary of'
+url: https://www.latimes.com/politics/story/2024-03-15/column-polls-get-it-right-most-of-the-time-heres-what-to-be-wary-of
+summary: "<p>Polls get things right most of the time, but problems crop up, generating
+  headlines. How to tell the good from the bad, and how L.A. Times polls did this
+  year.</p>"
+author: David Lauter
+published: 2024-03-15 10:00:39.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-15/column-polls-get-it-right-most-of-the-time-heres-what-to-be-wary-of
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>Polls get things right most of the time, but problems crop up, generating
+  headlines. How to tell the good from the bad, and how L.A. Times polls did this
+  year.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/f0f5d06/2147483647/strip/false/crop/2000x1283+0+0/resize/1500x962!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbc%2F23%2F0144d67a8cdbcee2ae76d578f3f0%2Fimg-2489711-me-1108-voti-2-1-as62joiu.jpg

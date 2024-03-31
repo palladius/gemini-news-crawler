@@ -1,0 +1,92 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/media/clyburn-hits-back-reports-he-worked-gop-gerrymander-s-c-district-absolutely-not-true
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Clyburn hits back at reports he worked with GOP to gerrymander S.C. district:
+  ''Absolutely not true'''
+url: https://www.foxnews.com/media/clyburn-hits-back-reports-he-worked-gop-gerrymander-s-c-district-absolutely-not-true
+summary: Rep. Clyburn hit back at reports that he worked with the GOP to redistrict
+  30,000 Black voters into his own district on Sunday during &quot;Meet the Press.&quot;
+categories:
+- 56c8187b-3fa0-5f17-a986-7797515dc029
+- fnc
+- Fox News
+- fox-news/media
+- fox-news/us/democratic-party
+- fox-news/politics/elections
+- fox-news/media
+- article
+published: 2024-03-31 19:30:20.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/media/clyburn-hits-back-reports-he-worked-gop-gerrymander-s-c-district-absolutely-not-true
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>Rep. <a href="https://www.foxnews.com/media/rep-jim-clyburn-very-concerned-black-voter-turnout-out-biden"
+  target="_blank" rel="noopener">Jim Clyburn,</a> D-S.C., hit back at a 2023 report
+  that alleged he worked with Republicans to maintain a "grip" on his South Carolina
+  district by making sure "30,000 Black voters" would be redrawn into his district
+  for the 2024 elections, which he said was "absolutely not true." </p><p>"ProPublica
+  has a report that you actually worked with Republicans on this map to maintain a
+  tighter grip on your own district by ensuring that 30,000 Black voters would move
+  from a neighboring swing district into your own. Was that the case?" NBC News host
+  Kristen Welker asked Clyburn. </p><p>"No that is not the case at all," Clyburn said.
+  "When someone picks up the phone and asks you, ‘what are your suggestions as we
+  are about to get these lines drawn,' I offered my suggestions," he said. "And I
+  certainly didn't ask my district to be turned into a minority district, and that's
+  what it is. People keep publishing that I have a majority minority district, that
+  is absolutely not true, check the numbers." </p><p>A federal <a href="https://www.foxnews.com/politics/south-carolina-congressional-map-stay-this-years-elections-panel-rules"
+  target="_blank" rel="noopener">court in South Carolina ruled</a> on Thursday that
+  this year's congressional elections in South Carolina will be held under a map that
+  it had already deemed unconstitutional and discriminatory against Black voters,
+  with time running out ahead of voting deadlines and a lack of a decision on the
+  case by the Supreme Court.</p><p><a href="https://www.foxnews.com/politics/alabama-republicans-reject-proposal-create-2nd-majority-black-district-despite-supreme-court-ruling"
+  target="_blank" rel="noopener"><strong>ALABAMA REPUBLICANS REJECT PROPOSAL TO CREATE
+  2ND MAJORITY-BLACK DISTRICT DESPITE SUPREME COURT RULING</strong></a></p><p>A panel
+  of three federal judges from South Carolina wrote that "with the primary election
+  procedures rapidly approaching, the appeal before the Supreme Court still pending,
+  and no remedial plan in place, the ideal must bend to the practical."</p><p>The
+  case hinges on South Carolina’s 1st Congressional District, currently held by Republican
+  Rep. Nancy Mace. Last year, the same 3-judge panel ordered South Carolina to redraw
+  the district, which runs from Charleston to Hilton Head Island, after finding that
+  the state used race as a proxy for partisan affiliation in violation of the equal
+  protection clause of the 14th Amendment to the Constitution.</p><p>Clyburn said
+  people were misrepresenting what happened and that it had been going on for years. </p><p>"Yes,
+  I offered my suggestions. Did they follow my suggestions? Absolutely not, and so
+  when you say you spoke to me, and that there's an agreement, that is absolutely
+  not true," he continued, adding that the reporter was trying to make a "headline"
+  rather than "headway" on the story. </p><p><a href="https://www.foxnews.com/politics/us-supreme-court-rejects-michigan-commissions-plea-overturn-order-redraw-detroit-legislative-seats"
+  target="_blank" rel="noopener"><strong><u>US SUPREME COURT REJECTS MICHIGAN COMMISSION'S
+  PLEA TO OVERTURN ORDER TO REDRAW DETROIT LEGISLATIVE SEATS</u></strong></a></p><p><a
+  href="https://www.foxnews.com/politics/left-wing-nonprofit-leads-charge-against-justice-clarence-thomas-political-drive-by-shooting"
+  target="_blank" rel="noopener">ProPublica alleged</a> in 2023 that Clyburn sent
+  an aide, Dalton Tresvant, to meet with state Republicans about the new congressional
+  map. The report claimed Clyburn's suggested map would benefit his standing within
+  his own district and Republicans in a neighboring district.</p><p>"Some of Tresvant’s
+  proposals appealed to Republicans. The sketch added Black voters to Clyburn’s district
+  while moving out some predominantly White precincts that leaned toward the GOP.
+  The Republicans kept Tresvant’s map confidential as they worked through the redistricting
+  process for the following two months," ProPublica reported. </p><p>According to
+  ProPublica, a spokesperson previously confirmed that they "engaged in discussions
+  regarding the boundaries of the 6th Congressional District."</p><p>After South Carolina's
+  Legislature, which Republicans lead, redrew the district, civil rights groups swiftly
+  filed a lawsuit, charging state lawmakers with choosing "perhaps the worst option
+  of the available maps" for Black voters, arguing they had removed Black voters and
+  made it a safer seat for Republicans.</p><p>Last year, a 3-judge panel — the same
+  that issued Thursday's order — concluded that <a href="https://www.foxnews.com/category/us/us-regions/southeast/south-carolina"
+  target="_blank" rel="noopener">South Carolina’s legislature</a> "exiled" 30,000
+  Democratic-leaning Black voters from the 1st District to help safeguard Mace. The
+  state appealed that ruling, and the Supreme Court heard arguments in October but
+  has yet to issue a decision.</p><p><i>The Associated Press contributed to this report.</i></p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/JAMES-CLYBURN-MEET-THE-PRESS.jpg?ve=1&tl=1

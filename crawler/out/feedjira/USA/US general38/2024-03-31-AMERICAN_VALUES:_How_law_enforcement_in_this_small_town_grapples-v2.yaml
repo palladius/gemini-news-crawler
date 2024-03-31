@@ -1,0 +1,96 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/media/american-values-law-enforcement-small-town-grapples-anti-police-reforms-hands-tied
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'AMERICAN VALUES: How law enforcement in this small town grapples with anti-police
+  reforms: ''Hands are tied'''
+url: https://www.foxnews.com/media/american-values-law-enforcement-small-town-grapples-anti-police-reforms-hands-tied
+summary: Small town marshal, Randy Wilson, said the ongoing effort to improve and
+  reform policing needs to be done at the local level and with input from the entire
+  community.
+categories:
+- 5c229b96-68a2-5271-b30c-78ea7a85e4e6
+- fnc
+- Fox News
+- fox-news/us/digital-originals
+- fox-news/us/crime/police-and-law-enforcement
+- fox-news/us/us-protests
+- fox-news/us/us-regions/midwest/missouri
+- fox-news/media
+- article
+published: 2024-03-31 18:30:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/media/american-values-law-enforcement-small-town-grapples-anti-police-reforms-hands-tied
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>A small town police force said it is still grappling against the ongoing
+  push from anti-police activists, federal and state lawmakers to reform law enforcement
+  practices. </p><p>"The<i> </i>people and the organizations that want these policies
+  – I understand that there''s a lot that can be fixed, and I think there''s a lot
+  of things that can be changed," Noel Marshal Randy Wilson told Fox News. "But here''s
+  the question: How far do you go with it to where you''re tying our hands to where
+  we can''t do anything?<i>" </i></p><p>Wilson has worked in law enforcement for over
+  30 years, and in 2019 was elected marshal <a href="https://www.foxnews.com/category/us/us-regions/midwest/missouri"
+  target="_blank" rel="noopener">of Noel, Missouri</a>, a small town in the Ozarks
+  with a population under 2,000. One of the few remaining local marshals in the state,
+  Wilson is responsible for all general law enforcement duties in Noel.</p><p><a href="https://www.foxnews.com/category/us/digital-originals"
+  target="_blank" rel="noopener"><strong><u>WATCH MORE FOX NEWS DIGITAL ORIGINALS
+  HERE</u></strong></a></p><p>A big believer in "old school" community policing, he
+  said fostering relationships with residents and becoming <a href="https://www.foxnews.com/media/american-values-small-town-marshal-details-cops-learn-old-school-policing"
+  target="_blank" rel="noopener">trusted figure in town</a> makes it easier to spot
+  and defuse potential problems before they occur without having to use force. </p><p>The
+  rural community has a diverse population, with many of its residents being migrants
+  from South America and Africa who came to Noel to work at the Tyson poultry plant
+  in town. However, when social justice protests and calls to defund the police broke
+  out across the country in May 2020, after the death of George Floyd, an unarmed
+  Black man, Wilson was not concerned about his own residents turning against him.</p><p>"Someone
+  said, ‘Well what’s different about you and everyplace else?’" Wilson recalled being
+  asked. "I said, ‘Cause I’m elected and who do you think elects me?’"</p><p>In response
+  to the widespread calls for reform, in 2022 President Biden <a href="https://www.foxnews.com/politics/white-house-silent-police-policy-tyre-nichols-death-one-year-bidens-significant-reforms"
+  target="_blank" rel="noopener">signed an executive order</a> that banned choke holds
+  and limited the use of no-knock warrants for federal officers. It also required
+  reports to a database of misconduct from federal officers, and encouraged, but did
+  not require, similar reports from local law enforcement agencies.</p><p>Missouri
+  lawmakers have also battled to pass reform in the state to address systemic racism
+  in policing and remove <a href="https://www.foxnews.com/us/us-police-departments-cops-job-recruitment-anti-cop-climate"
+  target="_blank" rel="noopener">barriers to disciplining officers</a> for misconduct. </p><p><strong>"</strong>It''s
+  happening here too," Sergeant Travis Sheppard told Fox News. "Our hands are tied
+  on a lot of things." </p><p>"Used to be, even for misdemeanors, you could put them
+  in jail. Now it''s cite and release them," he added. "From when I first started
+  in law enforcement back in the early 2000s, it''s totally different today."</p><p><a
+  href="https://www.foxnews.com/media/american-values-small-town-america-saying-american-dream-getting-hard"><strong>AMERICAN
+  VALUES: What small town America is saying about the American Dream, ''getting too
+  hard''</strong></a></p><p>But despite <a href="https://www.foxnews.com/politics/primary-challenger-squad-cori-bush-blasts-defund-police-private-security-spending"
+  target="_blank" rel="noopener">state-wide changes in policing</a>, and the pressure
+  from federal lawmakers, most reforms still occur at the local level. </p><p>As an
+  elected official, Wilson has more control over policing procedures than a Chief
+  of Police would and says he has a very good working relationship with the mayor
+  and city council. </p><p>"We sit down, we discuss things," Wilson said. "It''s easier
+  being elected because you can say, okay, here''s the way you''re telling me to do
+  it, here''s the way I see it, can we compromise here to where we''re both getting
+  what we want and we''re making it work?<i>" </i></p><p>Both Wilson and Sheppard
+  said instead of lawmakers implementing blanket reforms, which can sometimes hinder
+  police or make them hesitant to act in fear of facing consequences, <a href="https://www.foxnews.com/politics/law-enforcement-groups-skeptical-police-reform-talks-succeed-tyre-nichols-death"
+  target="_blank" rel="noopener">legislators need to consult</a> more with actual
+  officers and even citizens when tackling criminal justice reform. </p><p>"I don''t
+  think legislators know exactly what happens out here in the field," Sheppard said.
+  "They know what they''re told."</p><p>"These legislators ain''t been out here in
+  a patrol car. They haven''t rode around. They haven''t seen the stuff that we see,"
+  he added. "So yeah, I think a lot of it is they''re going with what they''re told,
+  going with what they believe, instead of what they know."</p><p>Wilson said improving
+  policing should be a process that involves entire communities. </p><p>"It''s a community
+  effort," he said. "If you''re not working together, then where is your community
+  going to be at?."</p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/noel-marshal-policing-reform-thumbnail.png?ve=1&tl=1

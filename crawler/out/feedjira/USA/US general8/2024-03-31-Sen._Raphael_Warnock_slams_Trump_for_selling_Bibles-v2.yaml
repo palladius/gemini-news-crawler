@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/politics/2024-election/sen-raphael-warnock-slams-trump-selling-bibles-rcna145767
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Sen. Raphael Warnock slams Trump for selling Bibles
+url: https://www.nbcnews.com/politics/2024-election/sen-raphael-warnock-slams-trump-selling-bibles-rcna145767
+summary: Sen. Raphael Warnock, D-Ga., on Sunday excoriated former President Donald
+  Trump over the $60 Bibles he is selling in partnership with country music star Lee
+  Greenwood.
+author: Summer Concepcion
+published: 2024-03-31 15:30:29.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/politics/2024-election/sen-raphael-warnock-slams-trump-selling-bibles-rcna145767
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-raphael-warnock-vl-1011a-2af758.jpg

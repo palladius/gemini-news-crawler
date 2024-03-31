@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMinAFodHRwczovL3d3dy50Z2NvbTI0Lm1lZGlhc2V0Lml0LzIwMjQvdmlkZW8vcGFwYS1mcmFuY2VzY28tY2ktc2lhLXNjYW1iaW8tZGktcHJpZ2lvbmllcmktdHJhLW1vc2NhLWUta2lldi1jZXNzYXRlLWlsLWZ1b2NvLW5lbGxhLXN0cmlzY2lhLV83OTk2NTc2OC0wMmsuc2h0bWzSAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Papa Francesco: "Ci sia scambio di prigionieri tra Mosca e Kiev | Cessate
+  il fuoco nella Striscia" - TGCOM'
+url: https://news.google.com/rss/articles/CBMinAFodHRwczovL3d3dy50Z2NvbTI0Lm1lZGlhc2V0Lml0LzIwMjQvdmlkZW8vcGFwYS1mcmFuY2VzY28tY2ktc2lhLXNjYW1iaW8tZGktcHJpZ2lvbmllcmktdHJhLW1vc2NhLWUta2lldi1jZXNzYXRlLWlsLWZ1b2NvLW5lbGxhLXN0cmlzY2lhLV83OTk2NTc2OC0wMmsuc2h0bWzSAQA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMinAFodHRwczovL3d3dy50Z2NvbTI0Lm1lZGlhc2V0Lml0LzIwMjQvdmlkZW8vcGFwYS1mcmFuY2VzY28tY2ktc2lhLXNjYW1iaW8tZGktcHJpZ2lvbmllcmktdHJhLW1vc2NhLWUta2lldi1jZXNzYXRlLWlsLWZ1b2NvLW5lbGxhLXN0cmlzY2lhLV83OTk2NTc2OC0wMmsuc2h0bWzSAQA?oc=5"
+  target="_blank">Papa Francesco: "Ci sia scambio di prigionieri tra Mosca e Kiev
+  | Cessate il fuoco nella Striscia"</a>&nbsp;&nbsp;<font color="#6f6f6f">TGCOM</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Nyb25hY2hlLzI0X21hcnpvXzMxL3BhcGEtZnJhbmNlc2NvLXBhc3F1YS05OGYxNTY1MC1lZjQ0LTExZWUtYmYwNy02NTM0NjAzOTcwZTUuc2h0bWzSAXBodHRwczovL3d3dy5jb3JyaWVyZS5pdC9jcm9uYWNoZS8yNF9tYXJ6b18zMS9wYXBhLWZyYW5jZXNjby1wYXNxdWEtOThmMTU2NTAtZWY0NC0xMWVlLWJmMDctNjUzNDYwMzk3MGU1X2FtcC5odG1s?oc=5"
+  target="_blank">Messa di Pasqua, Papa Francesco: «Scambio dei prigionieri in Ucraina,
+  tutti per tutti, e tregua a Gaza....</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LnZhdGljYW5uZXdzLnZhL2l0L3BhcGEvbmV3cy8yMDI0LTAzL3BhcGEtZnJhbmNlc2NvLXVyYmktZXQtb3JiaS1wYWNlLWlzcmFlbGUtcGFsZXN0aW5hLXVjcmFpbmEuaHRtbNIBAA?oc=5"
+  target="_blank">Urbi et Orbi, il Papa: la pace non si costruisce con le armi, ma
+  tendendo le mani e aprendo i cuori</a>&nbsp;&nbsp;<font color="#6f6f6f">Vatican
+  News - Italiano</font></li><li><a href="https://news.google.com/rss/articles/CBMicWh0dHBzOi8vd3d3LmxpYmVyby5pdC90di9icmVha2luZy1uZXdzLWRlbGxlLTIxMzAtLWlsLXBhcGEtbW9zY2EtZS1raWV2LXNjYW1iaW5vLWktcHJpZ2lvbmllcmlfbXNGRDAwMDAwMDAwNDIyODk10gEA?oc=5"
+  target="_blank">Breaking News delle 21.30 | Il Papa: "Mosca e Kiev scambino i prigionieri</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Libero Tv </font></li></ol>'
+published: 2024-03-31 19:06:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMinAFodHRwczovL3d3dy50Z2NvbTI0Lm1lZGlhc2V0Lml0LzIwMjQvdmlkZW8vcGFwYS1mcmFuY2VzY28tY2ktc2lhLXNjYW1iaW8tZGktcHJpZ2lvbmllcmktdHJhLW1vc2NhLWUta2lldi1jZXNzYXRlLWlsLWZ1b2NvLW5lbGxhLXN0cmlzY2lhLV83OTk2NTc2OC0wMmsuc2h0bWzSAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

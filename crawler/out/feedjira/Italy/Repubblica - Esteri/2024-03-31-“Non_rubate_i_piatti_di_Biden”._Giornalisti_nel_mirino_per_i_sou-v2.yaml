@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/31/news/air_force_one_furti_souvenir_giornalisti-422402677/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: "“Non rubate i piatti di Biden”. Giornalisti nel mirino per i souvenir sottratti
+  dall’Air Force One"
+url: https://www.repubblica.it/esteri/2024/03/31/news/air_force_one_furti_souvenir_giornalisti-422402677/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 15:39:06.000000000 Z
+enclosure_length: '32050'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/31/173904074-9ffec533-5830-4990-8cc9-ae2f05321adc.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/31/news/air_force_one_furti_souvenir_giornalisti-422402677/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/31/173904074-9ffec533-5830-4990-8cc9-ae2f05321adc.jpg"
+  width="140" align="left" hspace="10"></a>L’Associazione dei corrispondenti della
+  Casa Bianca costretta a scrivere una mail di avvertimento dopo l’ultimo inventario
+  dell’aereo presidenziale</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/air_force_one_furti_souvenir_giornalisti-422402677/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

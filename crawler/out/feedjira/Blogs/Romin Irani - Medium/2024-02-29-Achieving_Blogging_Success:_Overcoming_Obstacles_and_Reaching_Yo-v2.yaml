@@ -1,0 +1,191 @@
+# [NewsFiler v2] NewsPaper: Romin Irani - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/641d424bf064
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Achieving Blogging Success: Overcoming Obstacles and Reaching Your Goals'
+url: https://iromin.medium.com/achieving-blogging-success-overcoming-obstacles-and-reaching-your-goals-641d424bf064?source=rss-802a4d428d95------2
+author: Romin Irani
+categories:
+- writing
+- tech-blogging
+- blogging-tips
+- tips
+- blogging
+published: 2024-02-29 06:11:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/641d424bf064
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Romin Irani - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<p>I have done a fair bit of blogging and managing blogs over the years
+  and would like to take this opportunity to address some of the key questions/points
+  that I am asked around blogging.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/960/0*YB-abF0rtPAtEtei.png"
+  /><figcaption>Image Reference : <a href="https://creazilla.com/nodes/1717346-book-hand-pen-illustration">https://creazilla.com/nodes/1717346-book-hand-pen-illustration</a></figcaption></figure><p>I
+  have categorized these frequently asked questions/concerns/doubts and have put down
+  my thoughts for each of them. I respect each of these questions/points and I want
+  to share my experience that can help you cross that bridge.</p><h3>I have not written
+  before / Not good at writing</h3><p>There is always a first time. The most popular
+  bloggers also started with their first post and look where they are now. We have
+  all started somewhere, stumbled and got along.</p><p>The tools to get writing today
+  have never been better and easier. Writing is a great way to improve and share your
+  knowledge. Consider this as an opportunity and get started.</p><p>This point is
+  coupled usually with the fact that most folks stay away from written communication
+  stating that they are not good at writing. Some say their hold on the language that
+  they wish to communicate in is not good. A few have remarked that “English is not
+  my forte”.</p><p>To be honest, none of us are experts in any language or communication.
+  Ask anyone who reads stuff online, that they are looking to learn, to get inspired,
+  looking to connect to the ideas and perfect written communication is not something
+  that they are looking for. This is not some school/college exam where you are going
+  to get penalized for some grammar mistakes. If in doubt, use online tools to help
+  you structure some of your statements. I can vouch that all of us who are reading
+  your article do not give a second look to your perfectly crafted statements. So
+  get your stories in place, because that matters and the words will help support
+  it, perfect grammar or not.</p><h3>Start blogging</h3><p>One of my most enjoyable
+  and importantly learning experience while blogging came from my writing at Programmable
+  Web. Thank you John Musser and Adam DuVander for the opportunity. Over a period
+  of a few years, I ended up covering 100s of artciles covering API News. As a side
+  note, APIs still rule :-)</p><p>I remember that since covering this kind of news
+  was new to me, I asked my editor, Adam, if I could first observe a few posts for
+  a week or two and then start blogging. Adam caught that immediately and I distinctly
+  remember him telling me that you just have to get started and that he will help
+  to review and give feedback. That gave me a lot of confidence and indirectly it
+  underlined the fact that you have to get in the water, if you have to swim.</p><p>So
+  in essence, just like any other task, get started with, get your work reviewed,
+  folks are there to make your writing better and soon you will get the framework
+  that helps you create the posts.</p><p>Its perfectly fine to be a bit afraid about
+  your first post, how it will be received but you have to get started. That is something
+  that you have to do.</p><h3>Which topic to write about?</h3><p>You might be lucky
+  if you are planning to write for a publication that has highlighted a few key topics
+  on which they are looking out for articles. If those articles are in areas that
+  you are already knowledgable about or are interested to explore, then it makes it easier.</p><p>But
+  a majority of us may not have that data. In that case, my suggestion is to pick
+  a topic that you are passionate about or are familiar with and which might be a
+  more comfortable thing to start with. If you are working with a set of tools, languages,
+  platforms at your work, that could be a good source to tap into also.</p><p>As script
+  writers say, the stories are all around us and this is true when it comes to you.
+  You definitely have a few topics that you can talk about. Just tap into those.</p><h3>This
+  topic has been covered multiple times!!!</h3><p>This is a point that I have seen
+  most folks new to blogging get discouraged by. They mention that the topic has been
+  covered a lot by others, there is nothing new to cover here and a lot of overthinking
+  starts.</p><p>My response to that is “Who cares?” . You can interpret my answer
+  in a couple of ways. One would be to assume that I am asking you to write and not
+  bother about anyone. But my real point when I say “Who cares?” is to actually understand
+  that there are several folks who are interested in what you may write. You have
+  a different view or style that the other 999 folks who have written on the topic.
+  What matters is that you got out of the blocks, got a post in front of the world
+  and I can assure you that there are folks who will read and benefit from your post.
+  They do care about what you write, they will be investing their time in reading
+  your post and might even learn a thing or not. So you focus on the what you can
+  control i.e. the blog post and let the world know that you have written the post.</p><h3>I
+  have an idea but am struggling to write!</h3><p>This is a valid concern and one
+  that each one of us face, even if we have written 100s of blog posts. You know the
+  drill : you have an idea or topic in your mind, you know the material and yet struggle
+  to put a structure to the blog to get you started. Often called writer’s block but
+  we don’t need to make things that complicated.</p><p>One of my first editors, when
+  I wrote for Wrox publications in the year 2000, told me that it is very simple to
+  write an article or a chapter for a book. The steps are as follows:</p><ol><li>You
+  tell the audience what you are going to cover.</li><li>You cover it.</li><li>You
+  tell the audience what you have covered.</li></ol><p>Simple … isn’t it? It does
+  illustrate effectively that you could possibly use the above structure as a guide
+  to get going. In my case, what really helps us when I write technical articles is
+  to <strong>get my application code working</strong>. Once that is ready, I tell
+  the folks what I am going to cover, then describe the working code and conclude
+  by what they have seen. Try that the next time.</p><p>I don’t think there is a magic
+  formula but be prepared to have your own tool available to write down ideas, points,
+  etc that you may get anytime of the day. If you are planning a series of articles,
+  put down the topics in a list that you would prefer to cover and then tackle them
+  topic by topic. Divide and Conquer or breaking it down into immediate targets is
+  also another strategy that has worked well for me.</p><h3>I am afraid of how my
+  material will be accepted?</h3><p>The fear of feedback is real for all for us. I
+  am not going to say that its easy and we need to be cool about that. Feedback is
+  essential to improve and feedback at times can hurt your confidence. The same applies
+  not just to writing but also to conference / event talks that you do.</p><p>I always
+  believe that its essential to do a few things first. If you are going to talk and
+  write in public, make sure that you are putting in your best effort into the material.
+  As long as your process is sincere and its the best that you could do, you are a success.</p><p>An
+  approach you can try is to have a few trusted folks that you can reach out to for
+  review. If you are writing a book or for a popular publication, chances are that
+  there is already a process where your work is reviewed before being approved for
+  publication. If you are writing on your own blog, reach out to a few folks, who
+  you believe would give you feedback from multiple angles. Take that feedback seriously,
+  see what you can incorporate and then publish your article.</p><p>Worst case, what
+  might happen? Someone might point out that they did not like the article? Ask them
+  if there are areas that you could improve. Others may point that there are incorrect
+  things in the blog post. Ask them to point them out and correct the blog post. The
+  fact that you accepted some errors on your part (not intentional) and still went
+  ahead and corrected it with feedback, is a great asset.</p><p>In one of the books
+  that I wrote, one individual actually read the book page by page and incorporated
+  suggestions/fixes across the book and highlighted in detail where the problems were.
+  This was not from the book publishers reviewers but from someone in the general
+  public. So be positive and you will be amazed to see genuine feedback from folks
+  who recognize that you have put in the effort to share your knowledge on something
+  new/recent and are willing to help fix it to make it more useful to others.</p><p>There
+  will be your share of feedback which will be like a punch or might even sound rude.
+  Even in those circumstances, see if there are any suggestions in there to improve
+  or is it just a rant. For e.g. I was given feedback that one of my books was the
+  worst technical book that has ever been published but with no other feedback. I
+  moved on to the next feedback … we have to. That didn’t prevent me for continuing
+  to write and share stuff that I like.</p><h3>What kind of format?</h3><p>This is
+  an interesting point and one that I believe if addressed well can bring more people
+  to blogs. Giving an example from the technical world, you should not be restricted
+  or assume that technical blogs can be of a certain type or format only.</p><p>You
+  can write a technical blog:</p><ul><li>Informational on the topic</li><li>Quick
+  How to or Getting Started on the topic</li><li>A codelab that folks can try on the topic</li><li>Share
+  a cool talk that you heard, an article you read, etc.</li><li>Summarize a few articles
+  to read that you found useful and believe that others would benefit.</li><li>A competitive
+  study that you have done about one tool/tech v/s the other.</li><li>Built an interesting
+  tool or project. Open it up on Github and share it via a blog post.</li><li>Implemented
+  a cool feature in your recent project. Write about it.</li><li>Fixed a tough problem.
+  Help others who might be facing a similar issue with your solution.</li></ul><p>There
+  are additional formats than the ones listed above. The takeaway point is that there
+  is no right or wrong format. Not all formats may even be relevant to all your readers.
+  You might not be comfortable writing about some of these formats. It’s completely
+  fine. Pick one that you can start with.</p><h3>Just ask for help</h3><p>The power
+  of the community is often underestimated by most of us. We also grossly underestimate
+  the number of folks, who are ready to help out with their feedback and guidance.
+  But that can only happen if you take the first step and just ask them. Feel free
+  to reach out to your inner circle, trusted circle, folks you know give you constructive
+  feedback when you are taking your first few steps in this. In fact, even as someone
+  who is used to blogging, I end up reaching out to few folks on certain topics or
+  a particular blog post that I’d like them to review first. There are plenty of good
+  folks out there, who know more on most topics than each one of us. So as long you
+  are comfortable and accepting of that fact, help is just a message away.</p><h3>Its
+  an investment of my time. I need to get paid.</h3><p>This is a fair point and I
+  would leave it to each one of you individually to decide if you want to get compensated
+  for each blog post that you write. You need to consider publications that you can
+  write for, which may give you a token amount for each blog post. On the other hand,
+  if you are writing at your own blog, you do have a choice of earning some income
+  from it (the amounts may not be astronomic but you have the option). Examples of
+  this include Medium which has a member only stories option or at your personal blog,
+  you could use some relevant Ads.</p><p>In my experience, every blog that I have
+  written has paid me back several times (whether I was paid for it or not). It has
+  paid me back in becoming a better writer, able to communicate technical terms better,
+  got me valuable readers that give me feedback, opened up opportunities via folks
+  reaching out vis-a-vis the topic that I have written and more. So keep a long term
+  view in terms of multiple returns that you will get for your time investment.</p><p>There
+  is a big difference between someone holding a job and doing blogging occasionally
+  and someone who does blogging/reporting/technical writing for a living. The latter
+  definitely will look at avenues that can sustain them and getting paid for it is
+  a high priority for them.</p><h3>Why should I blog?</h3><p>If you have been reading
+  this article and reached this section, I don’t think you need this section since
+  you have your own judgement on how blogging is useful.</p><p>I personally believe
+  that blogging regularly has benefits and all of which I may not be able to list
+  down here or do justice to them via examples. Here are some points from my experience:</p><ul><li>It
+  helps me or forces me in a good way to learn more about a topic. Its similar to
+  teaching a class. It will make you read a bit more, try out ways to explain a topic,
+  makes you double check a few things and more.</li><li>It definitely helps to improve
+  your communication skills. Written skills are important or have never been as important
+  as they are today, given the age of Gen AI tools that we live in today.</li></ul><p>All
+  the best for your blogging journey. Do share in your own experiences that got you
+  started and any other tips/advice that you may have for writers.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=641d424bf064"
+  width="1" height="1" alt="">'

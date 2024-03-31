@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/17/tech/google-ai-search-engine-stock-drop/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Google-parent stock drops on fears it could lose search market share to AI-powered
+  rivals
+url: https://www.cnn.com/2023/04/17/tech/google-ai-search-engine-stock-drop/index.html
+summary: Shares of Google-parent Alphabet fell more than 3% in early trading Monday
+  after a report sparked concerns that its core search engine could lose market share
+  to AI-powered rivals, including Microsoft's Bing.
+published: 2023-04-17 15:52:19.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/17/tech/google-ai-search-engine-stock-drop/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230202110718-02-google-bay-view-campus-0627-file-super-169.jpg

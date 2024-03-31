@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/politics/white-house/conservatives-shell-decades-long-white-house-easter-egg-contest-rcna145771
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Conservatives shell long-standing White House Easter Egg contest
+url: https://www.nbcnews.com/politics/white-house/conservatives-shell-decades-long-white-house-easter-egg-contest-rcna145771
+summary: Several conservative outlets did not "yolk" around this weekend when covering
+  the White House's annual Easter celebrations, accusing it of banning religious themes
+  from the annual children's egg decorating contest — even though that guidance predated
+  the Biden administration, according to the first lady's office.
+author: Elyse Perlmutter-Gumbiner and Alexandra Marquez
+published: 2024-03-31 16:23:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/politics/white-house/conservatives-shell-decades-long-white-house-easter-egg-contest-rcna145771
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-white-house-easter-egg-roll-vl-1132a-d91a89.jpg

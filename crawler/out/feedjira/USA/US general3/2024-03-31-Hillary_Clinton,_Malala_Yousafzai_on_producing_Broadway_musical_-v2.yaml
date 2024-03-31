@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 89044b38-ff36-4800-9a7f-8eab954945ed
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hillary Clinton, Malala Yousafzai on producing Broadway musical "Suffs"
+url: https://www.cbsnews.com/news/suffs-hillary-clinton-malala-yousafzai-on-broadway-musical-about-suffragists/
+summary: A new Broadway musical tells the story of suffragists and their fight for
+  the right to vote. Two of the show's producers, Nobel laureate Malala Yousafzai
+  and former Secretary of State Hillary Clinton, discuss the importance of art to
+  spread a political message.
+published: 2024-03-31 13:42:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 89044b38-ff36-4800-9a7f-8eab954945ed
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

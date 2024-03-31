@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiXGh0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvbW9ydGEtZGFuaWVsYS1zaHVhbHktbW9nbGllLXJhaXotYWxtYW1lZ3JldHRhLW1hcmUtZnVvcmkv0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'È morta Daniela Shualy, moglie del cantante Raiz. L''ultima dedica per «Mare
+  Fuori» e il dolore degli Almamegretta: «Siamo sconvolti» - Open'
+url: https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvbW9ydGEtZGFuaWVsYS1zaHVhbHktbW9nbGllLXJhaXotYWxtYW1lZ3JldHRhLW1hcmUtZnVvcmkv0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvbW9ydGEtZGFuaWVsYS1zaHVhbHktbW9nbGllLXJhaXotYWxtYW1lZ3JldHRhLW1hcmUtZnVvcmkv0gEA?oc=5"
+  target="_blank">È morta Daniela Shualy, moglie del cantante Raiz. L''ultima dedica
+  per «Mare Fuori» e il dolore degli Almamegretta: «Siamo sconvolti»</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Open</font></li><li><a href="https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd3d3LnRnY29tMjQubWVkaWFzZXQuaXQvc3BldHRhY29sby9hbG1hbWVncmV0dGEtcmFpei1tb2dsaWUtbW9ydGFfNzk5NTkwODAtMjAyNDAyay5zaHRtbNIBOGh0dHBzOi8vYW1wLnRnY29tMjQubWVkaWFzZXQuaXQvdGdjb20yNC9hcnRpY2xlLzc5OTU5MDgw?oc=5"
+  target="_blank">Almamegretta, morta la moglie di Raiz: "L''amore di una vita"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">TGCOM</font></li><li><a href="https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2Nyb25hY2EvMjAyNC8wMy8zMS9uZXdzL21vcnRlX2RhbmllbGFfc2h1YWx5X21vZ2xpZV9yYWl6X2FsbWFtZWdyZXR0YV9tYXJlX2Z1b3JpLTE0MTg4ODA0L9IBdmh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2Nyb25hY2EvMjAyNC8wMy8zMS9uZXdzL21vcnRlX2RhbmllbGFfc2h1YWx5X21vZ2xpZV9yYWl6X2FsbWFtZWdyZXR0YV9tYXJlX2Z1b3JpLTE0MTg4ODA0L2FtcC8?oc=5"
+  target="_blank">È morta Daniela Shualy, la moglie di Raiz degli Almamegretta</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Stampa</font></li><li><a href="https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd3d3LmlsbWF0dGluby5pdC9zcGV0dGFjb2xpL211c2ljYS9yYWl6X21vcnRhX21vZ2xpZV9kYW5pZWxhX3NodWFseV9vZ2dpX3VsdGltZV9ub3RpemllX2FsbWFtZWdyZXR0YS04MDI5MDMwLmh0bWzSAQA?oc=5"
+  target="_blank">Raiz, è morta la moglie Daniela Shualy: il cordoglio social degli
+  Almamegretta</a>&nbsp;&nbsp;<font color="#6f6f6f">ilmattino.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vbmFwb2xpLnJlcHViYmxpY2EuaXQvY3JvbmFjYS8yMDI0LzAzLzMxL25ld3MvbW9nbGllX3JhaXpfbW9ydGFfYWxtYW1lZ3JldHRhX2NvcmRvZ2xpb19zb2NpYWwtNDIyNDAyNDYyL9IBc2h0dHBzOi8vbmFwb2xpLnJlcHViYmxpY2EuaXQvY3JvbmFjYS8yMDI0LzAzLzMxL25ld3MvbW9nbGllX3JhaXpfbW9ydGFfYWxtYW1lZ3JldHRhX2NvcmRvZ2xpb19zb2NpYWwtNDIyNDAyNDYyL2FtcC8?oc=5"
+  target="_blank">È morta Daniela Shuali, moglie di Raiz: lutto nella comunità ebraica,
+  in rete il cordoglio dei fan del cantau…</a>&nbsp;&nbsp;<font color="#6f6f6f">La
+  Repubblica</font></li></ol>'
+published: 2024-03-31 16:18:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiXGh0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvbW9ydGEtZGFuaWVsYS1zaHVhbHktbW9nbGllLXJhaXotYWxtYW1lZ3JldHRhLW1hcmUtZnVvcmkv0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

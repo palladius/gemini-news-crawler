@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/health/womens-health/pcos-diagnosis-treatment-difficult-women-rcna142430
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'A hormonal condition that affects millions of women is difficult for doctors
+  to diagnose and treat. Here’s why  '
+url: https://www.nbcnews.com/health/womens-health/pcos-diagnosis-treatment-difficult-women-rcna142430
+summary: 'Why PCOS symptoms are so difficult to diagnose and treat, according to researchers
+  and doctors. '
+author: Caroline Hopkins
+published: 2024-03-31 11:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/health/womens-health/pcos-diagnosis-treatment-difficult-women-rcna142430
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240313-pcos-treatment-2x1-lr-1f1bbe.jpg

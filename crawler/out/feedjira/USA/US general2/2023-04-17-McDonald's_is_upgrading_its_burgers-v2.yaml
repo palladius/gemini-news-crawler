@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/17/business/mcdonalds-burgers/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: McDonald's is upgrading its burgers
+url: https://www.cnn.com/2023/04/17/business/mcdonalds-burgers/index.html
+summary: 'McDonald''s, which has been focusing on upgrading its core items to boost
+  sales, is rolling out a series of changes designed to improve its signature burgers. '
+published: 2023-04-17 16:31:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/17/business/mcdonalds-burgers/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230414175339-02-mcdonalds-burger-update-super-169.jpg

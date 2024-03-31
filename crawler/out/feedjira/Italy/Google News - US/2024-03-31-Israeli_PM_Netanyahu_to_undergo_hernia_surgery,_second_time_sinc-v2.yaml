@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMifGh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL3dvcmxkLzIwMjQvMDMvMzEvaXNyYWVsaS1wbS1uZXRhbnlhaHUtdG8tdW5kZXJnby1oZXJuaWEtc3VyZ2VyeS1zZWNvbmQtdGltZS83MzE2MDQ0MzAwNy_SAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Israeli PM Netanyahu to undergo hernia surgery, second time since 2013 - USA
+  TODAY
+url: https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL3dvcmxkLzIwMjQvMDMvMzEvaXNyYWVsaS1wbS1uZXRhbnlhaHUtdG8tdW5kZXJnby1oZXJuaWEtc3VyZ2VyeS1zZWNvbmQtdGltZS83MzE2MDQ0MzAwNy_SAQA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL3dvcmxkLzIwMjQvMDMvMzEvaXNyYWVsaS1wbS1uZXRhbnlhaHUtdG8tdW5kZXJnby1oZXJuaWEtc3VyZ2VyeS1zZWNvbmQtdGltZS83MzE2MDQ0MzAwNy_SAQA?oc=5"
+  target="_blank">Israeli PM Netanyahu to undergo hernia surgery, second time since
+  2013</a>&nbsp;&nbsp;<font color="#6f6f6f">USA TODAY</font></li><li><a href="https://news.google.com/rss/articles/CBMiMmh0dHBzOi8vd3d3Lmpwb3N0LmNvbS9icmVha2luZy1uZXdzL2FydGljbGUtNzk0NTU20gEA?oc=5"
+  target="_blank">Benjamin Netanyahu to undergo hernia surgery, will be sedated -
+  Israel News</a>&nbsp;&nbsp;<font color="#6f6f6f">The Jerusalem Post</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMibmh0dHBzOi8vd3d3LnRpbWVzb2Zpc3JhZWwuY29tL25ldGFueWFodS10by11bmRlcmdvLWhlcm5pYS1zdXJnZXJ5LXN1bmRheS1ldmVuaW5nLWluLWplcnVzYWxlbS1oaXMtb2ZmaWNlLXNheXMv0gFyaHR0cHM6Ly93d3cudGltZXNvZmlzcmFlbC5jb20vbmV0YW55YWh1LXRvLXVuZGVyZ28taGVybmlhLXN1cmdlcnktc3VuZGF5LWV2ZW5pbmctaW4tamVydXNhbGVtLWhpcy1vZmZpY2Utc2F5cy9hbXAv?oc=5"
+  target="_blank">Netanyahu to undergo hernia surgery Sunday evening in Jerusalem,
+  his office says</a>&nbsp;&nbsp;<font color="#6f6f6f">The Times of Israel</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiTmh0dHBzOi8vd3d3LmZveG5ld3MuY29tL3dvcmxkL25ldGFueWFodS11bmRlcmdvLWhlcm5pYS1zdXJnZXJ5LWZ1bGwtYW5lc3RoZXNpYdIBUmh0dHBzOi8vd3d3LmZveG5ld3MuY29tL3dvcmxkL25ldGFueWFodS11bmRlcmdvLWhlcm5pYS1zdXJnZXJ5LWZ1bGwtYW5lc3RoZXNpYS5hbXA?oc=5"
+  target="_blank">Netanyahu to undergo hernia surgery under full anesthesia</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Fox News</font></li></ol>
+published: 2024-03-31 18:56:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMifGh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL3dvcmxkLzIwMjQvMDMvMzEvaXNyYWVsaS1wbS1uZXRhbnlhaHUtdG8tdW5kZXJnby1oZXJuaWEtc3VyZ2VyeS1zZWNvbmQtdGltZS83MzE2MDQ0MzAwNy_SAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

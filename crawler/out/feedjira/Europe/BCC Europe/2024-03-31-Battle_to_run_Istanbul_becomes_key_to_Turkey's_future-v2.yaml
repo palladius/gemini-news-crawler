@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BCC Europe (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-europe-68663417#2
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Battle to run Istanbul becomes key to Turkey's future
+url: https://www.bbc.co.uk/news/world-europe-68663417
+summary: Millions of Turks have voted, and President Erdogan hopes to regain control
+  of Turkey's biggest city.
+published: 2024-03-31 06:41:29.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-europe-68663417#2
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BCC Europe
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13F3B/production/_133032718_istanbul-index-epa.jpg

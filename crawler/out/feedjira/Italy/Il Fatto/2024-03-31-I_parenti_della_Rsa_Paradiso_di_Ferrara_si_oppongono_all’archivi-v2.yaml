@@ -1,0 +1,41 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497472
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: I parenti della Rsa Paradiso di Ferrara si oppongono all’archiviazione degli
+  indagati per i fatti del 2020 sotto Covid
+url: https://www.ilfattoquotidiano.it/2024/03/31/i-parenti-della-rsa-paradiso-di-ferrara-si-oppongono-allarchiviazione-degli-indagati-per-i-fatti-del-2020-sotto-covid/7497472/
+summary: |
+  <p>Il Comitato Parenti Residenza Paradiso di Ferrara, che raggruppa le famiglie che il 28 dicembre 2020 fecero un esposto alla Procura di Ferrara, a seguito dei morti e dei contagi che si verificarono tra la seconda e la terza ondata di Covid 19 nella Casa residenza per anziani Residenza Paradiso, &#8220;ha deciso in modo unanime [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/i-parenti-della-rsa-paradiso-di-ferrara-si-oppongono-allarchiviazione-degli-indagati-per-i-fatti-del-2020-sotto-covid/7497472/">I parenti della Rsa Paradiso di Ferrara si oppongono all&#8217;archiviazione degli indagati per i fatti del 2020 sotto Covid</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Diritti
+- Coronavirus
+published: 2024-03-31 17:04:44.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497472
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/i-parenti-della-rsa-paradiso-di-ferrara-si-oppongono-allarchiviazione-degli-indagati-per-i-fatti-del-2020-sotto-covid/7497472/#respond
+content: |
+  <p>Il<strong> Comitato Parenti Residenza Paradiso di Ferrara</strong>, che raggruppa le famiglie che il <strong>28 dicembre 2020</strong> fecero un esposto alla <strong>Procura di Ferrara</strong>, a seguito dei morti e dei contagi che si verificarono tra la seconda e la terza ondata di <strong>Covid 19</strong> nella Casa residenza per anziani Residenza Paradiso, &#8220;ha deciso in modo unanime e fermo di opporsi al provvedimento di <strong>richiesta di archiviazione</strong> formulata dal Pubblico Ministero&#8221;.</p>
+  <p>Lo si legge in una nota del Comitato che spiega che &#8220;a nostro parere e col conforto di<br />
+  <strong>Amnesty International Italia</strong> che si è impegnata dal 2020 su questi temi e in questa direzione, a livello nazionale, la richiesta non tiene in considerazione i diritti costituzionali universali garantiti dalla Repubblica – il diritto alla salute e il diritto all’uguaglianza – e i diritti umani in ambito internazionale sanciti ad esempio dalla <strong>Carta dei diritti fondamentali dell’Unione Europea</strong>, tra essi il diritto alla salute, alla vita, alla dignità umana, alla non discriminazione e il diritto di non essere sottoposti a trattamenti inumani e degradanti&#8221;.</p>
+  <p>Il Comitato Parenti Residenza Paradiso di Ferrara si opporrà, pertanto, alla richiesta di archiviazione formulata dal Pubblico Ministero per i<strong> sei indagati</strong> della Residenza Paradiso a seguito dei morti e dei contagi che si verificarono tra la seconda e la terza ondata di Covid nella struttura.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/i-parenti-della-rsa-paradiso-di-ferrara-si-oppongono-allarchiviazione-degli-indagati-per-i-fatti-del-2020-sotto-covid/7497472/">I parenti della Rsa Paradiso di Ferrara si oppongono all&#8217;archiviazione degli indagati per i fatti del 2020 sotto Covid</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2020/10/31/anziani-coronavirus-1200-1050x551.jpg

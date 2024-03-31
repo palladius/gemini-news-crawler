@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/health/fda-bivalent-booster-additional-doses/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: FDA clears the way for additional bivalent boosters for certain vulnerable
+  individuals
+url: https://www.cnn.com/2023/04/18/health/fda-bivalent-booster-additional-doses/index.html
+summary: The U.S. Food and Drug Administration amended the terms of its emergency
+  use authorizations for the Pfizer and Moderna bivalent vaccines on Tuesday, allowing
+  people ages 65 and older and certain people with weakened immunity to get additional
+  doses before this fall's vaccination campaigns.
+published: 2023-04-18 15:09:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/health/fda-bivalent-booster-additional-doses/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230418103631-covid-vaccine-booster-bivalent-super-169.jpg

@@ -1,0 +1,77 @@
+# [NewsFiler v2] NewsPaper: Politico EU (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.politico.eu/?post_type=pro&p=4520202
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: France to provide new missiles, used armored vehicles to Ukraine, defense minister
+  says
+url: https://www.politico.eu/article/france-missiles-used-armored-vehicles-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication
+summary: 'Paris would send ''hundreds'' of vehicles over the next year, Sébastien
+  Lecornu tells La Tribune Dimanche. '
+author: Zia Weise
+categories:
+- Defense
+- Energy infrastructure
+- Missiles
+- Munitions
+- War in Ukraine
+- Defense
+published: 2024-03-31 13:58:27.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.politico.eu/?post_type=pro&p=4520202
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Politico EU
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+content: |2
+
+  <p>France will send new surface-to-air missiles and old armored vehicles to Ukraine, the country’s defense minister said on Sunday.&nbsp;</p>
+
+
+
+  <p>Sébastien Lecornu <a href="https://www.latribune.fr/economie/france/j-exige-la-constitution-de-stocks-pour-produire-des-munitions-sebastien-lecornu-ministre-des-armees-994261.html" target="_blank">told La Tribune Dimanche</a> that President Emmanuel Macron had asked him to design a “new aid package” to help Kyiv defend against Russia&#8217;s invasion.</p>
+
+
+
+  <p>This will “notably include old equipment from our armies, which is still functional,” he said. “To hold such a long frontline, the Ukrainian army needs, for example, our armored vehicles —&nbsp;this is absolutely key for troop mobility and is part of Ukraine’s requests.”&nbsp;</p>
+
+
+
+  <p>Asked how many vehicles France would provide, Lecornu said: “We&#8217;re talking in the hundreds for 2024 and early 2025.”&nbsp;</p>
+
+
+
+  <p>He said France would also provide a “new batch of Aster 30 missiles” to Ukraine.“We are also developing <a href="https://www.yahoo.com/news/1-dead-russia-launches-attacks-094915932.html" data-type="link" data-id="https://www.yahoo.com/news/1-dead-russia-launches-attacks-094915932.html" target="_blank">remotely operated munitions</a> in a very short timeframe, for delivery to the Ukrainians as early as this summer,” he said.&nbsp;</p>
+
+
+
+  <p>The arms deliveries come amid accusations —&nbsp;by Germany in particular —&nbsp;that Paris is not pulling its weight on military aid to Ukraine. German officials have publicly <a href="https://www.politico.eu/article/ukraine-aid-france-strikes-back-and-publishes-weapons-data-macron-kiel-taurus-scalp/" data-type="link" data-id="https://www.politico.eu/article/ukraine-aid-france-strikes-back-and-publishes-weapons-data-macron-kiel-taurus-scalp/">voiced frustration</a> with the size of France&#8217;s assistance to Kyiv. German Chancellor Olaf Scholz has repeatedly called for an audit of national contributions amid discussions on how to calibrate an EU fund for reimbursing countries for their military donations to Kyiv.</p>
+
+
+
+  <p>Russia <a href="https://www.reuters.com/world/europe/russia-says-it-hits-ukraines-energy-infrastructure-gas-production-facilities-2024-03-31/" target="_blank">continued hitting</a> Ukraine’s energy infrastructure on Sunday. A Russian missile strike in Ukraine’s western Lviv region on Sunday killed one man, while another man died in an attack in the northeast, the <a href="https://apnews.com/article/russia-ukraine-war-energy-infrastructure-de446fa5182eb4b1480783b402b01d9b" data-type="link" data-id="https://apnews.com/article/russia-ukraine-war-energy-infrastructure-de446fa5182eb4b1480783b402b01d9b" target="_blank">Associated Press</a> reported.</p>
+
+
+
+  <p>The Ukrainian air force said it shot down nine of the 11 Shahed-type drones launched by Russia overnight, as well as nine out of 14 cruise missiles.</p>
+
+
+
+  <p>Meanwhile, hundreds of thousands in Ukraine’s Odesa region were left without power Sunday after debris from a downed Russian drone caused a blaze at an energy facility, the AP reported Gov. Oleh Kiper as saying.</p>
+
+
+
+  <p>Sunday&#8217;s attacks came just days after <a href="https://www.politico.eu/article/russia-ukraine-war-missile-attack-damaged-three-power-plants-in-ukraine/" data-type="link" data-id="https://www.politico.eu/article/russia-ukraine-war-missile-attack-damaged-three-power-plants-in-ukraine/">Moscow unleashed</a> 99 missiles and drones in a massive attack against Ukrainian energy infrastructure. Three power plants were seriously damaged in that onslaught, Ukrainian energy company DTEK <a rel="noreferrer noopener" href="https://www.facebook.com/DTEKcompany/posts/pfbid0RWvEs5SBBi4WfBzu14UE3DpKT36zmwCnVber9DUuHoB48upG6FX7hQrAs7Wo8h2jl" target="_blank">said</a>.</p>
+
+
+
+  <p>Russian President Vladimir Putin on Sunday signed a decree setting out the routine <a href="https://www.reuters.com/world/europe/russias-putin-signs-decree-spring-military-conscription-2024-03-31/" data-type="link" data-id="https://www.reuters.com/world/europe/russias-putin-signs-decree-spring-military-conscription-2024-03-31/" target="_blank">spring conscription campaign</a>, calling up 150,000 citizens for military service, a post on the Kremlin&#8217;s website indicated on Sunday. All men in Russia are required to serve one year of compulsory military service.</p>

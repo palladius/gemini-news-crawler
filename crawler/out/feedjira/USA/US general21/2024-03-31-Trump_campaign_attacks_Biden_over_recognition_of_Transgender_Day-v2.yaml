@@ -1,0 +1,42 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/31/biden-transgender-day-of-visibility-trump-republicans
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Trump campaign attacks Biden over recognition of Transgender Day of Visibility
+url: https://www.theguardian.com/us-news/2024/mar/31/biden-transgender-day-of-visibility-trump-republicans
+summary: <p>White House says Republicans ‘seeking to divide country’ after they object
+  to 31 March date that overlapped with Easter this year</p><p>A <a href="https://www.theguardian.com/us-news/joebiden">Joe
+  Biden</a> White House spokesperson said Republicans who have spent the Easter weekend
+  criticizing the president for declaring Sunday’s annual Transgender Day of Visibility
+  “are seeking to divide and weaken our country with cruel, hateful and dishonest
+  rhetoric”.</p><p>“As a Christian who celebrates Easter with family, President Biden
+  stands for bringing people together and upholding the dignity and freedoms of every
+  American,” the White House spokesperson Andrew Bates said. “President Biden will
+  never abuse his faith for political purposes or for profit.”</p> <a href="https://www.theguardian.com/us-news/2024/mar/31/biden-transgender-day-of-visibility-trump-republicans">Continue
+  reading...</a>
+author: Associated Press and Guardian staff
+categories:
+- Joe Biden
+- Donald Trump
+- Transgender
+- US politics
+- US news
+- US elections 2024
+- Easter
+published: 2024-03-31 13:51:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/31/biden-transgender-day-of-visibility-trump-republicans
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/a5f1de1dd5c49e0338012c5b45901a9d08ab8028/0_50_4000_2400/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=b134f7c0bce374068ac3378e0ee0f391

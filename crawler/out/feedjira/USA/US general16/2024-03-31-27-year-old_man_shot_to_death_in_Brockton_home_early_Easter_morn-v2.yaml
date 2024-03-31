@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general16 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 27-old-man-shot-death-173705599.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 27-year-old man shot to death in Brockton home early Easter morning. What we
+  know
+url: https://www.yahoo.com/news/27-old-man-shot-death-173705599.html
+published: 2024-03-31 17:37:05.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 27-old-man-shot-death-173705599.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general16
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/the-enterprise/27b08cb2b1a0fbec7eb2de5d617bb7ff

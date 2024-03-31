@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/17/entertainment/jamie-foxx-remains-hospitalized/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Jamie Foxx remains hospitalized nearly a week after 'medical complication'
+url: https://www.cnn.com/2023/04/17/entertainment/jamie-foxx-remains-hospitalized/index.html
+summary: Jamie Foxx remains hospitalized in Georgia nearly a week after his daughter
+  revealed the actor experienced a "medical complication," a source with knowledge
+  of the matter told CNN on Monday.
+published: 2023-04-18 00:27:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/17/entertainment/jamie-foxx-remains-hospitalized/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230417195159-jamie-foxx-health-update-042023-super-169.jpg

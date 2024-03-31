@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 66031319c05df51f3ad9f74f
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: How Kate Middleton Shamed the Internet
+url: https://www.newyorker.com/news/letter-from-the-uk/how-kate-middleton-shamed-the-internet
+summary: After the Princess’s cancer diagnosis, some who had pushed conspiracy theories
+  about her absence seemed chastened. Others were less contrite.
+author: Anna Russell
+categories:
+- News / Letter from the U.K.
+published: 2024-03-27 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 66031319c05df51f3ad9f74f
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/660319d95fc1198bbb1f37fe/master/pass/Russell-Kate-03-26-24.jpg

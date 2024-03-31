@@ -1,0 +1,42 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/sport/2024/mar/31/ronda-rousey-i-never-wanted-to-talk-about-concussion-it-felt-like-a-weakness
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Ronda Rousey: ‘I never wanted to talk about concussion. It felt like a weakness’'
+url: https://www.theguardian.com/sport/2024/mar/31/ronda-rousey-i-never-wanted-to-talk-about-concussion-it-felt-like-a-weakness
+summary: <p>The former MMA fighter, once described as ‘the world’s most dominant athlete’,
+  reveals her fears for the future after a career riddled with glory and pain</p><p>‘I
+  worry about it because we already have Alzheimer’s and dementia in our family, and
+  those family members did not get whacked on the head a whole bunch,” Ronda Rousey
+  says as she considers a future shrouded by the consequences of concussion and a
+  past where she broke so many barriers for women before a shattering fall.</p><p>At
+  her peak, in 2015, Rousey was described by <em>Sports Illustrated</em> as “the <a
+  href="https://www.si.com/mma/2015/05/12/ronda-rousey-ufc-mma-fighter-armbar.">world’s
+  most dominant athlete</a>”. She had changed a brutal sport to become <a href="https://www.theguardian.com/sport/blog/2018/jan/30/ufc-ronda-rousey-wwe-mixed-martial-arts">the
+  face of the UFC</a>, the billion-dollar juggernaut which drives the popularity of
+  Mixed&nbsp;Martial Arts.</p> <a href="https://www.theguardian.com/sport/2024/mar/31/ronda-rousey-i-never-wanted-to-talk-about-concussion-it-felt-like-a-weakness">Continue
+  reading...</a>
+author: Donald McRae
+categories:
+- Ronda Rousey
+- US sports
+- MMA
+- UFC
+- Sport
+published: 2024-03-31 07:00:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/sport/2024/mar/31/ronda-rousey-i-never-wanted-to-talk-about-concussion-it-felt-like-a-weakness
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/7d460eb1c6f27c8344e742ddb16fe64ea843b46c/0_318_1838_1102/master/1838.jpg?width=140&quality=85&auto=format&fit=max&s=a30cd9ac64d073adc4a5e9b786879ea6

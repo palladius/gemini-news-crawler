@@ -1,0 +1,57 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2023:50-676957
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2023:50-676957
+content: '<p><em>Editor&rsquo;s Note:</em> <em>Washington Week With The Atlantic</em>
+  is a partnership between NewsHour Productions, WETA, and <em>The Atlantic</em> airing
+  every Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check
+  your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.
+  <br /></p><p dir="ltr">In this year-end episode, some of the contributors to the
+  <em>The Atlantic</em>’s <a href="https://www.theatlantic.com/magazine/toc/2024/01/?utm_source=feed">January/February
+  issue</a> forecast what a second Trump term might look like. For the magazine, 24
+  <em>Atlantic</em> writers––experts in foreign and domestic policy, economics, and
+  national security––examined Trump’s record and his recent statements, and wrote
+  about what they believe his agenda would be in a theoretical second term.</p><p
+  dir="ltr">Joining editor in chief of <em>The Atlantic</em> and moderator, Jeffrey
+  Goldberg, this week to discuss this and more are McKay Coppins, staff writer at
+  <em>The Atlantic</em> and author of <em>Romney: A Reckoning</em>; Franklin Foer,
+  staff writer at <em>The Atlantic</em> and author of <em>The Last Politician: Inside
+  Joe Biden’s White House</em> and the <em>Struggle for America’s Future</em>; Adrienne
+  LaFrance, executive editor of <em>The Atlantic</em>; and Clint Smith, staff writer
+  at <em>The Atlantic</em> and author of <em>How the Word Is Passed: A Reckoning With
+  the History of Slavery Across America</em>.</p><p dir="ltr"><b>Read the full transcript
+  <a href="https://www.pbs.org/weta/washingtonweek/video/2023/12/washington-week-with-the-atlantic-full-episode-122923">here</a>.</b></p><div
+  class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://youtu.be/pc-r2YVkQ88"><iframe
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"
+  class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fpc-r2YVkQ88%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dpc-r2YVkQ88&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fpc-r2YVkQ88%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube"
+  title="YouTube embed" width="854"></iframe></div>'
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/QBxp0s4R-uwEvASOCBiraxy0yJs=/0x2:1920x1081/media/img/mt/2023/12/still3/original.jpg
+title_type: html
+raw_title: What a Collapse Could Look Like
+published: 2023-12-30 12:00:00.000000000 Z
+updated: 2023-12-30 14:33:47.000000000 Z
+summary: Watch the full episode of <em>Washington Week With The Atlantic</em>, December
+  29, 2023.
+url: https://www.theatlantic.com/national/archive/2023/12/trump-2024-second-term-washington-week/676957/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2023/12/trump-2024-second-term-washington-week/676957/?utm_source=feed
+title: What a Collapse Could Look Like
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

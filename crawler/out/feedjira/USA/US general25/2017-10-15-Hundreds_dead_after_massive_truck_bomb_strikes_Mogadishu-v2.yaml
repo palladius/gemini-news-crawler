@@ -1,0 +1,60 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=230705
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "summary", "entry_id", "comments", "content", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Hundreds dead after massive truck bomb strikes Mogadishu
+url: http://www.pbs.org/newshour/rundown/hundreds-dead-massive-truck-bomb-strikes-mogadishu/
+author: reganm
+categories:
+- al-Shabab
+- Mogadishu
+- NewsHour Weekend
+published: 2017-10-15 16:27:49.000000000 Z
+summary: |
+  <div id="attachment_230709" class="wp-caption aligncenter" style="width: 689px"><img src="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GGFV-1024x652.jpg" alt="mogadishu bombing " width="689" height="439" class="size-large wp-image-230709" srcset="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GGFV-1024x652.jpg 1024w, http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GGFV-300x191.jpg 300w" sizes="(max-width: 689px) 100vw, 689px" /><p class="wp-caption-text">Civilians evacuate from the scene of an explosion in KM4 street in the Hodan district of Mogadishu, Somalia October 14, 2017. Photo By Feisal Omar/Reuters</p></div>
+  <p>At least 231 people were killed and hundreds more wounded after a massive truck bomb on Saturday struck Somalia&#8217;s capital city of Mogadishu. </p>
+  <p>The Somali government has blamed the al-Qaida-linked militant group al-Shabab for the attack, and called it the deadliest ever to hit the nation.</p>
+  <p>The blast took place outside the Safari Hotel, where rescue workers dug through the rubble of collapsed buildings overnight in search of survivors. Witnesses described a devastating scene with large-scale carnage, as doctors worked feverishly to attend to the dead and injured, many badly burned. </p>
+  <p>&#8220;The hospital is overwhelmed by both dead and wounded,&#8221; Dr. Mohamed Yusuf, the director of Medina hospital located near the blast, <a href="https://www.nbcnews.com/news/world/truck-bomb-rocks-mogadishu-hotel-killing-85-police-n810781" target="_blank">told </a>the Associated Press. &#8220;We also received people whose limbs were cut away by the bomb. This is really horrendous, unlike any other time in the past.&#8221;</p>
+  <p>Photos and videos of the bombing, which took place on a busy street near a section of the city housing foreign embassies, showed collapsed walls, twisted metal, and sporadic fires spewing smoke. The Qatari government said its embassy was &#8220;severely damaged&#8221; in the strike. </p>
+  <p>There should be an embedded item here. Please visit the original post to view it.</p>
+  <p>Family members searched through the wreckage and waited at local hospitals with the hopes of finding relatives who survived the bombing. </p>
+  <p>Somali President Mohamed Abdullahi Mohamed announced three days of mourning. The attacks received international condemnation, including from the United States. </p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/hundreds-dead-massive-truck-bomb-strikes-mogadishu/">Hundreds dead after massive truck bomb strikes Mogadishu</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=230705
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- summary
+- entry_id
+- comments
+- content
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/rundown/hundreds-dead-massive-truck-bomb-strikes-mogadishu/#respond
+content: |
+  <div id="attachment_230709" class="wp-caption aligncenter" style="width: 689px"></div>
+  <p>At least 231 people were killed and hundreds more wounded after a massive truck bomb on Saturday struck Somalia&#8217;s capital city of Mogadishu. </p>
+  <p>The Somali government has blamed the al-Qaida-linked militant group al-Shabab for the attack, and called it the deadliest ever to hit the nation.</p>
+  <p>The blast took place outside the Safari Hotel, where rescue workers dug through the rubble of collapsed buildings overnight in search of survivors. Witnesses described a devastating scene with large-scale carnage, as doctors worked feverishly to attend to the dead and injured, many badly burned. </p>
+  <p>&#8220;The hospital is overwhelmed by both dead and wounded,&#8221; Dr. Mohamed Yusuf, the director of Medina hospital located near the blast, <a href="https://www.nbcnews.com/news/world/truck-bomb-rocks-mogadishu-hotel-killing-85-police-n810781" target="_blank">told </a>the Associated Press. &#8220;We also received people whose limbs were cut away by the bomb. This is really horrendous, unlike any other time in the past.&#8221;</p>
+  <p>Photos and videos of the bombing, which took place on a busy street near a section of the city housing foreign embassies, showed collapsed walls, twisted metal, and sporadic fires spewing smoke. The Qatari government said its embassy was &#8220;severely damaged&#8221; in the strike. </p>
+  <blockquote class="twitter-tweet" data-width="550">
+  <p lang="en" dir="ltr">The truck bombing in Mogadishu is the deadliest in conflict-riven Somalia so far. Here are other major attacks: <a href="https://t.co/owNEZlqslj">https://t.co/owNEZlqslj</a> <a href="https://t.co/HxUaSA85q2">pic.twitter.com/HxUaSA85q2</a></p>
+  <p>&mdash; AFP Africa (@AFPAfrica) <a href="https://twitter.com/AFPAfrica/status/919591758564134918?ref_src=twsrc%5Etfw">October 15, 2017</a></p></blockquote>
+  <p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+  <p>Family members searched through the wreckage and waited at local hospitals with the hopes of finding relatives who survived the bombing. </p>
+  <p>Somali President Mohamed Abdullahi Mohamed announced three days of mourning. The attacks received international condemnation, including from the United States. </p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/hundreds-dead-massive-truck-bomb-strikes-mogadishu/">Hundreds dead after massive truck bomb strikes Mogadishu</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: At least 231 people were killed and hundreds more wounded after a
+  massive truck bomb on Saturday struck Somalia's capital city of Mogadishu.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GGFV-1024x652.jpg

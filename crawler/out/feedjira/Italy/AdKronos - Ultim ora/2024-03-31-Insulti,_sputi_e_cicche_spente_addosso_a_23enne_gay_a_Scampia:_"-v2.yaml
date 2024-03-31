@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/insulti-sputi-e-cicche-spente-addosso-a-23enne-gay-a-scampia-20-minuti-di-terrore_tT26D38GoJ1cE4rkfdJdO
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Insulti, sputi e cicche spente addosso a 23enne gay a Scampia: "20 minuti
+  di terrore"'
+url: https://www.adnkronos.com/cronaca/insulti-sputi-e-cicche-spente-addosso-a-23enne-gay-a-scampia-20-minuti-di-terrore_tT26D38GoJ1cE4rkfdJdO
+summary: "(Adnkronos) - Non è la prima volta che il giovane viene aggredito"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-31 14:08:58.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/insulti-sputi-e-cicche-spente-addosso-a-23enne-gay-a-scampia-20-minuti-di-terrore_tT26D38GoJ1cE4rkfdJdO
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8a8d089fbe-766cdc92bb01-1000/format/medium/nuovo_evento_caricato_da_napolipress_il_14-05-2019_14_3.jpeg

@@ -1,0 +1,151 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517155
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517155
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/RTSYFOR/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"Marine Le Pen: Madame Présidente?
+  \"\n            >\n        \n        \n    \n\n\n    \n    \n\n</figure>\n\n<p dir=\"ltr\">Marine
+  Le Pen is hoping the wave of populism sweeping the Western world carries her to
+  the Élysée Palace.</p>\n\n<p dir=\"ltr\">“The wind of history has turned,” Le Pen,
+  who heads the far-right National Front (FN), <a href=\"https://www.youtube.com/watch?v=ZHPOW91K-fM\">told</a>
+  a crowd of supporters at the kickoff of her presidential bid earlier this month
+  in Lyon, the industrial city in southeastern France. “It will carry us to the summit.”</p>\n\n<p
+  dir=\"ltr\">Opinion polls have shown Le Pen winning the first round of France’s
+  presidential election in April, only to lose to whomever she faces in the second
+  round of voting in May. That candidate will likely be <a href=\"https://www.theatlantic.com/news/archive/2016/11/francois-fillon-france/508607/\">François
+  Fillon</a>, the center-right candidate, or <a href=\"https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwir1_nk_aPSAhUFj1QKHcLnCocQFggaMAA&amp;url=https%3A%2F%2Fwww.theatlantic.com%2Fnews%2Farchive%2F2017%2F02%2Fmacron-economics%2F515919%2F&amp;usg=AFQjCNH2xaKOZJsUIoPfpTzqFN_AfzC6og&amp;sig2=fUSJncYjv0HPXoPFDu6Ewg&amp;bvm=bv.147448319,d.eWE\">Emmanuel
+  Macron</a>, the independent; polls show the two men seesawing between second and
+  third place in the first round. If no candidate achieves a majority in the first
+  round, the top-two vote getters advance to a second round run-off. Although it’s
+  still early, and polling can be wrong, the likelihood of Le Pen beating either Fillon
+  or Macron in the second round is slim. Still, with the Western establishment reeling
+  from Donald Trump’s victory in the U.S. presidential election, the U.K.’s decision
+  to leave the European Union, and growing anger at political elites throughout Europe,
+  Le Pen and other far-right, populist leaders in Europe fancy their chances.</p>\n\n<p
+  dir=\"ltr\">Le Pen envisions a France with closed borders, its own currency, and
+  tough immigration controls; a country that is independent of international bodies
+  like NATO, and one that ultimately puts itself first. This inward thinking, Le Pen
+  reminded supporters, would not be unique to France.</p>\n\n<p dir=\"ltr\">“Other
+  people have shown the way,” she said, alluding to the Brexit vote last summer and
+  Trump’s election last November.</p>\n\n<p dir=\"ltr\">Although such sentiments might
+  be experiencing a resurgence, many of Le Pen’s policies are not new. Indeed, her
+  <a href=\"https://www.marine2017.fr/wp-content/uploads/2017/02/projet-presidentiel-marine-le-pen.pdf\">144-point
+  manifesto</a> outlining her vision for France reflects many of the policies the
+  FN has put forward since it was founded more than four decades ago by her father,
+  Jean-Marie Le Pen. From the onset, the party has opposed the European Union, economic
+  protectionism, and same-sex marriage. It has also been characterized by anti-immigrant,
+  anti-Muslim, and anti-Semitic sentiment (Jean-Marie Le Pen has repeatedly dismissed
+  the Holocaust as a minor “<a href=\"http://www.bfmtv.com/politique/jean-marie-le-pen-persiste-sur-les-chambres-a-gaz-873716.html\">detail</a>”
+  of history and defended collaborators of the Vichy government, which deported tens
+  of thousands of French Jews to death camps during World War II).</p>\n\n<p dir=\"ltr\">Those
+  views haven’t earned the FN much electoral success. The party <a href=\"https://www.theatlantic.com/international/archive/2015/12/marine-le-pen-front-national-france/420348/\">didn’t
+  win</a> a single local election in 2015, and claims only two<strong> </strong>seats
+  in French parliament. The FN’s previous best performance in the presidential election
+  was in 2002 when Jean-Marie Le Pen advanced to the second round for the first time
+  in the FN’s history; voters handed then-incumbent President Jacques Chirac 82 percent
+  of the vote—an unprecedented victory that was widely regarded more<strong> </strong>as
+  a rebuke of the FN than approval of Chirac. By the time Marine Le Pen took over
+  as the leader of the FN in 2011, the party began a period of transformative rebranding—one
+  which retained its far-right values with less emphasis on the homophobic, anti-Semitic
+  elements. This ultimately resulted in the expulsion of the elder Le Pen from the
+  party in 2015 in a family battle played out in the media.</p>\n\n<figure><img alt=\"\"
+  height=\"403\" src=\"https://cdn.theatlantic.com/assets/media/img/posts/2017/02/RTR1NKLE/1c1c25aa7.jpg\"
+  width=\"630\" />\n<figcaption class=\"caption\">National Front founder Jean-Marie
+  Le Pen delivers a speech next to his daughter, Marine Le Pen, in Britany, France
+  on March 17, 2007. (Daniel Joubert / Reuters)</figcaption>\n</figure>\n\n<p dir=\"ltr\">“Voluntarily
+  or not, he gave ammunition to our adversaries,” Le Pen <a href=\"https://www.theguardian.com/world/2016/nov/01/the-ruthlessly-effective-rebranding-of-europes-new-far-right\">said</a>
+  of her father in November, adding: “Today our adversaries no longer have that ammunition.”</p>\n\n<p
+  dir=\"ltr\">Still, the younger Le Pen’s rebranding efforts alone may not be enough.
+  Dr. David Lees, a researcher on French politics at Warwick University, told me last
+  November<strong> </strong>that though Le Pen’s outsider status has certainly helped
+  her anti-establishment image, it could also pose a challenge.</p>\n\n<p dir=\"ltr\"><b>“</b>The
+  FN has only got two members of the National Assembly in France … so if she does
+  win, she wouldn’t be able to form a government,” Lees said. “She would find it very
+  hard to govern without having any sense of support in Parliament. She just wouldn’t
+  get anything through because the options of ruling by decree in France are very
+  small for a president.”</p>\n\n<p dir=\"ltr\">Indeed, finding common ground with
+  other members of the government would prove difficult for Le Pen—especially in comparison
+  to competitors like Macron, whose centrist, business-orientated agenda could be
+  more appealing to swing votes on the left and right than the FN’s populist agenda.
+  Still, Le Pen’s rebranding has proven effective in communities previously marginalized
+  by the FN. The party has actively pursued more progressive causes such as promoting
+  women’s rights and gay rights, as well as protecting France’s Jewish community from
+  anti-Semitism—often by presenting Muslim immigration as a threat to all three.</p>\n\n<p
+  dir=\"ltr\">“We do not want to live under the rule or threat of Islamic fundamentalism,”
+  she told supporters in Lyon, and accused Muslim immigrants of “looking to impose
+  on us gender discrimination in public places, full body veils or not, prayer rooms
+  in the workplace, prayers in the streets, huge mosques.”</p>\n\n<p dir=\"ltr\">The
+  FN has found common cause with far-right parties throughout Europe who share its
+  anti-Islam and anti-globalist agenda, as well as other governments. Le Pen has praised
+  both Trump and Russian President Vladimir Putin, <a href=\"http://www.reuters.com/article/us-france-election-le-pen-idUSKBN13B230\">noting</a>
+  that if she were elected, the three leaders “would be good for world peace.” Le
+  Pen has been a vocal proponent of rapprochement with Russia. In addition to rejecting
+  the notion of Russia’s actions in Ukraine’s Crimea as an invasion, she also condemned
+  U.S. and EU sanctions on Moscow as “<a href=\"http://www.cnn.com/videos/world/2017/02/01/france-intv-amanpour-marine-le-pen-b.cnn\">completely
+  stupid</a>.” The FN received an 11-million euro (about $11.6 million) loan from
+  the Moscow-based First Czech Russian Bank in 2014, and Le Pen has <a href=\"http://www.politico.eu/article/le-pen-russia-crimea-putin-money-bank-national-front-seeks-russian-cash-for-election-fight/\">reportedly</a>
+  asked Russia for another loan to finance her current presidential bid, citing French
+  banks’ refusal to lend.</p>\n\n<p dir=\"ltr\">Fredrik Wesslau, the director of the
+  Wider Europe Programme at the European Council on Foreign Relations, told me in
+  January that<strong> </strong>Moscow’s ideological affinity with the FN is what
+  attracts it to most of Europe’s far-right populist parties.</p>\n\n<p dir=\"ltr\">“They
+  see a country that’s willing to stick up for socially conservative rights, that’s
+  embraced authoritarian populism, that’s also xenophobic, in particular anti-Islam,
+  which is something that many of these parties can relate to,” Wesslau said. “There’s
+  a lot of overlap.”</p>\n\n<p dir=\"ltr\">And while the FN leader isn’t the only
+  French presidential candidate to support better relations with Russia (Fillon, the
+  center-right candidate, has also supported reconciliation), reports of Russian media
+  coverage favoring Le Pen against other contenders has sparked <a href=\"https://www.nytimes.com/2016/12/19/opinion/russian-meddling-and-europes-elections.html\">concerns</a>
+  Moscow might try to interfere in France’s elections similar to the way it did in
+  the U.S. elections.</p>\n\n<p dir=\"ltr\">But for all the challenges Le Pen faces
+  as an untested leader of historically fringe party, one that is often overlooked
+  is her role as France’s sole female candidate. Women have historically been underrepresented
+  in French politics, with female lawmakers making up <a href=\"http://www.ipu.org/wmn-f/classif.htm\">25
+  percent</a> of the National Assembly and <a href=\"http://www.ipu.org/wmn-f/classif.htm\">27
+  percent</a> of the Senate. Édith Cresson became the first and only woman to serve
+  as prime minister in 1991 under President François Mitterrand, but suffered low
+  approval ratings and lost the post after less than a year—a loss some attribute
+  to <a href=\"https://books.google.com/books?id=4wQe6IcBaMQC&amp;pg=PA189#v=onepage&amp;q&amp;f=false\">misogynist
+  attitudes</a> among the Socialist party elites. Socialist party member Ségolène
+  Royal made French history in 2007 when she became the first woman to be nominated
+  as a presidential candidate by a major party. She lost to Nicolas Sarkozy in the
+  second round.</p>\n\n<p dir=\"ltr\">If Le Pen advances to the second round as polls
+  suggest she could, she’ll only be the second female candidate to have done so since
+  Royal. It’s a glass ceiling Lees said she may have a difficult time shattering.</p>\n\n<p
+  dir=\"ltr\">“We’ve never had a female president, we’ve never had a female leader
+  really in France,” Lees said. “So there really isn’t precedent there.”</p>\n\n<p
+  dir=\"ltr\">With the first round of voting less than two months away, Le Pen has
+  the task of maintaining the lead polls have given her since the start of the election.
+  But it will also involve not being derailed by recent <a href=\"http://www.theatlantic.com/liveblogs/2017/01/europe-elections/513677/14799/\">allegations</a>
+  she misused 300,000 euros of EU funds to pay her parliamentary assistants. It’s
+  a charge Le Pen denies, and one that has resulted in the arrest of her chief of
+  staff, Catherine Griset, who has been <a href=\"https://www.theatlantic.com/liveblogs/2017/01/europe-elections/513677/14799/\">charged
+  with breach of trust</a>. Le Pen’s lawyers say the investigation is an attempt to
+  harm the presidential hopeful “at the very moment when her candidacy is making a
+  major breakthrough.”</p>\n\n<p dir=\"ltr\"></p>\n"
+author: Yasmeen Serhan
+title_type:
+published: 2017-02-24 14:08:20.000000000 Z
+summary: The far-right candidate leads in French polls, but her challenges may prove
+  insurmountable.
+links:
+- https://www.theatlantic.com/news/archive/2017/02/marine-le-pen-france/517155/
+title: 'Marine Le Pen: Madame Présidente? '
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- News

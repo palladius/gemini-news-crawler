@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMicGh0dHBzOi8vd3d3LnRoZXZlcmdlLmNvbS8yMDI0LzMvMzAvMjQxMTU2NjcvYXBwbGUtYWlydGFnLWFtYXpvbi1raW5kbGUtcGFwZXJ3aGl0ZS1oYm8tbWF4LXN1YnNjcmlwdGlvbi1kZWFsLXNhbGXSAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Apple's AirTags have briefly returned to their best price to date - The Verge
+url: https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LnRoZXZlcmdlLmNvbS8yMDI0LzMvMzAvMjQxMTU2NjcvYXBwbGUtYWlydGFnLWFtYXpvbi1raW5kbGUtcGFwZXJ3aGl0ZS1oYm8tbWF4LXN1YnNjcmlwdGlvbi1kZWFsLXNhbGXSAQA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LnRoZXZlcmdlLmNvbS8yMDI0LzMvMzAvMjQxMTU2NjcvYXBwbGUtYWlydGFnLWFtYXpvbi1raW5kbGUtcGFwZXJ3aGl0ZS1oYm8tbWF4LXN1YnNjcmlwdGlvbi1kZWFsLXNhbGXSAQA?oc=5"
+  target="_blank">Apple's AirTags have briefly returned to their best price to date</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Verge</font></li><li><a href="https://news.google.com/rss/articles/CBMiRmh0dHBzOi8vd3d3LmNubi5jb20vY25uLXVuZGVyc2NvcmVkL2RlYWxzL2FwcGxlLWFpcnRhZy1zYWxlLTIwMjQtMDMtMjjSAUpodHRwczovL2FtcC5jbm4uY29tL2Nubi9jbm4tdW5kZXJzY29yZWQvZGVhbHMvYXBwbGUtYWlydGFnLXNhbGUtMjAyNC0wMy0yOA?oc=5"
+  target="_blank">A 4-pack of Apple’s beloved AirTags is back down to its lowest price</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">CNN Underscored</font></li><li><a href="https://news.google.com/rss/articles/CBMiamh0dHBzOi8vd3d3LmVuZ2FkZ2V0LmNvbS9hLWZvdXItcGFjay1vZi1hcHBsZS1haXJ0YWdzLWlzLWRvd24tdG8taXRzLWxvd2VzdC1wcmljZS15ZXQtb2YtNzUtMTYxNTEwNTQyLmh0bWzSAQA?oc=5"
+  target="_blank">A four-pack of Apple AirTags is down to its lowest price yet of
+  $75</a>&nbsp;&nbsp;<font color="#6f6f6f">Engadget</font></li><li><a href="https://news.google.com/rss/articles/CBMibWh0dHBzOi8vOXRvNXRveXMuY29tLzIwMjQvMDMvMjgvZm91ci1vZi1hcHBsZXMtYWlydGFncy1kcm9wLXRvLTc1LWFtYXpvbi1sb3ctcmVnLTk5LXNpbmdsZS1pdGVtLWZpbmRlci1hdC0yNC_SAQA?oc=5"
+  target="_blank">Four of Apple's AirTags drop to $75 (Amazon low, Reg. $99), single
+  item finder at $24</a>&nbsp;&nbsp;<font color="#6f6f6f">9to5Toys</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiPWh0dHBzOi8vd3d3Lm1hY3J1bW9ycy5jb20vMjAyNC8wMy8yOC9hbWF6b24tZGlzY291bnRzLWFpcnRhZy_SAQA?oc=5"
+  target="_blank">Amazon Discounts AirTag 4-Pack to $74.99 ($24 Off)</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">MacRumors</font></li></ol>
+published: 2024-03-30 15:06:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMicGh0dHBzOi8vd3d3LnRoZXZlcmdlLmNvbS8yMDI0LzMvMzAvMjQxMTU2NjcvYXBwbGUtYWlydGFnLWFtYXpvbi1raW5kbGUtcGFwZXJ3aGl0ZS1oYm8tbWF4LXN1YnNjcmlwdGlvbi1kZWFsLXNhbGXSAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

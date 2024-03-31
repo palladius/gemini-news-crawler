@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/opinion/story/2024-03-26/embassy-rainbow-pride-flag-ban-republican-budget
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Granderson: New ban on Pride flags at U.S. embassies is more than bad optics'
+url: https://www.latimes.com/opinion/story/2024-03-26/embassy-rainbow-pride-flag-ban-republican-budget
+summary: "<p>Republicans would back the recent budget deal only if it included a measure
+  curbing American leadership on human rights.</p>"
+author: LZ Granderson
+published: 2024-03-26 10:00:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/opinion/story/2024-03-26/embassy-rainbow-pride-flag-ban-republican-budget
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Republicans would back the recent budget deal only if it included a measure
+  curbing American leadership on human rights.</p>"

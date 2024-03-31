@@ -1,0 +1,65 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=230716
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Iraqi, Kurdish forces in standoff, weeks after Kurdish vote for independence
+url: http://www.pbs.org/newshour/bb/iraqi-kurdish-forces-standoff-weeks-kurdish-vote-independence/
+author: PBS NewsHour
+categories:
+- iraq
+- Kurdistan
+- middle east
+- NewsHour Weekend
+published: 2017-10-15 20:33:23.000000000 Z
+enclosure_length: '1396000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/Morris_INTV_WEB.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GDM5-e1508091808691-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GDM5.jpg" /></p><p><a href="http://video.pbs.org/video/3005688931/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/Morris_INTV_WEB.mp3">Listen to the Audio</a></p><p><strong>HARI SREENIVASAN:</strong> The desire of the Kurds along Iraq&#8217;s northern border to govern themselves is receiving more resistance from Iraq&#8217;s central government. Iraqi army forces are demanding Kurdish troops withdraw from oil fields and military bases around Kirkuk, a city in the Kurdistan region that voted for independence last month. Kirkuk also has 10% of Iraq&#8217;s known oil reserves. Washington Post&#8217;s Loveday Morris is in Baghdad covering this standoff joins me now via Skype. First of all the significance of this. Why is it so important?</p>
+  <p><strong>LOVEDAY MORRIS:</strong> There&#8217;s been a longtime conflict between Baghdad and Kurdistan over these disputed territories. Most significant of which is Kirkuk because of the oil reserves. But the referendum last month has really sharpened these disputes because you have Baghdad opposing independence and so it feels like they have to restate its territorial claims these areas. So that&#8217;s why we&#8217;re seeing a lot of tension right now. </p>
+  <p><strong>HARI SREENIVASAN:</strong> And just to give people a little bit of a brief timeline &#8211; Iraqi forces control this area for a while and then in June ISIS took over the area and now it&#8217;s kind of back in Kurdish hands?</p>
+  <p><strong>LOVEDAY MORRIS:</strong> Right. So in June 2014 Iraq lost control of a lot of the areas and we have this huge collapse in the face of an ISIS offensive. Over 100,000 soldiers fled and Kurdish forces moved in some of these areas &#8211; some of them maybe took from ISIS and others just moved into into the vacuum. And so Iraqi forces have been in these areas since June 2014. And that&#8217;s their main demand that they return to the areas. </p>
+  <p><strong>HARI SREENIVASAN:</strong> What&#8217;s the likelihood that this standoff right now turns violent? Into some sort of a civil war?</p>
+  <p><strong>LOVEDAY MORRIS:</strong>: I think at this point both sides don&#8217;t want violence. Al-Abadi, the prime minister, is really trying to defuse the situation by saying there&#8217;s going to be no  military attack. But at the same time there is this buildup of forces so that I think they are trying to, in a way, intimidate the Kurds to withdraw from some areas but they don&#8217;t want to see a fight per say. But in this really tense situation there can be a small spark and things can turn violent quite easily.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Thank you. </p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/iraqi-kurdish-forces-standoff-weeks-kurdish-vote-independence/">Iraqi, Kurdish forces in standoff, weeks after Kurdish vote for independence</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=230716
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/iraqi-kurdish-forces-standoff-weeks-kurdish-vote-independence/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005688931/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>HARI SREENIVASAN:</strong> The desire of the Kurds along Iraq&#8217;s northern border to govern themselves is receiving more resistance from Iraq&#8217;s central government. Iraqi army forces are demanding Kurdish troops withdraw from oil fields and military bases around Kirkuk, a city in the Kurdistan region that voted for independence last month. Kirkuk also has 10% of Iraq&#8217;s known oil reserves. Washington Post&#8217;s Loveday Morris is in Baghdad covering this standoff joins me now via Skype. First of all the significance of this. Why is it so important?</p>
+  <p><strong>LOVEDAY MORRIS:</strong> There&#8217;s been a longtime conflict between Baghdad and Kurdistan over these disputed territories. Most significant of which is Kirkuk because of the oil reserves. But the referendum last month has really sharpened these disputes because you have Baghdad opposing independence and so it feels like they have to restate its territorial claims these areas. So that&#8217;s why we&#8217;re seeing a lot of tension right now. </p>
+  <p><strong>HARI SREENIVASAN:</strong> And just to give people a little bit of a brief timeline &#8211; Iraqi forces control this area for a while and then in June ISIS took over the area and now it&#8217;s kind of back in Kurdish hands?</p>
+  <p><strong>LOVEDAY MORRIS:</strong> Right. So in June 2014 Iraq lost control of a lot of the areas and we have this huge collapse in the face of an ISIS offensive. Over 100,000 soldiers fled and Kurdish forces moved in some of these areas &#8211; some of them maybe took from ISIS and others just moved into into the vacuum. And so Iraqi forces have been in these areas since June 2014. And that&#8217;s their main demand that they return to the areas. </p>
+  <p><strong>HARI SREENIVASAN:</strong> What&#8217;s the likelihood that this standoff right now turns violent? Into some sort of a civil war?</p>
+  <p><strong>LOVEDAY MORRIS:</strong>: I think at this point both sides don&#8217;t want violence. Al-Abadi, the prime minister, is really trying to defuse the situation by saying there&#8217;s going to be no  military attack. But at the same time there is this buildup of forces so that I think they are trying to, in a way, intimidate the Kurds to withdraw from some areas but they don&#8217;t want to see a fight per say. But in this really tense situation there can be a small spark and things can turn violent quite easily.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Thank you. </p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/iraqi-kurdish-forces-standoff-weeks-kurdish-vote-independence/">Iraqi, Kurdish forces in standoff, weeks after Kurdish vote for independence</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '00:02:58'
+itunes_summary: " Iraqi army and Kurdish troops are in a standoff in Kirkuk, a city
+  located in the Kurdistan region, which voted for independence from Iraq last month.
+  Kirkuk holds 10 percent of Iraq’s oil reserves. Washington Post reporter Loveday
+  Morris, who is covering the standoff, joins Hari Sreenivasan via Skype from Baghdad.
+  \n"
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GDM5-1024x626.jpg

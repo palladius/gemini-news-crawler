@@ -1,0 +1,131 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/lifestyle/massachusetts-faith-leader-bidens-transgender-day-visibility-distraction-urges-compassion
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Massachusetts faith leader says Biden's 'Transgender Day of Visibility' a 'distraction'
+  yet urges compassion
+url: https://www.foxnews.com/lifestyle/massachusetts-faith-leader-bidens-transgender-day-visibility-distraction-urges-compassion
+summary: Amid the Biden administration&apos;s declaration of March 31, 2024, as the
+  &quot;Transgender Day of Visibility&quot; on the same day as Easter, faith leader
+  in Massachusetts responds with reminders of Christ.
+categories:
+- 6b7c5d08-17d4-51dd-bca2-2bfedbd52578
+- fnc
+- Fox News
+- fox-news/faith-values/faith
+- fox-news/faith-values
+- fox-news/us/religion
+- fox-news/lifestyle
+- fox-news/person/joe-biden
+- fox-news/us/religion/christianity
+- fox-news/lifestyle/occasions/holiday
+- fox-news/lifestyle/occasions
+- fox-news/special/occasions
+- fox-news/politics/executive/white-house
+- fox-news/lifestyle
+- article
+published: 2024-03-31 19:08:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/lifestyle/massachusetts-faith-leader-bidens-transgender-day-visibility-distraction-urges-compassion
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>As Christians, even on Easter, "we expect friction (if not worse) from
+  the world (Matthew 10:16-25)," said <a href="https://www.foxnews.com/person/s/james-spencer"
+  target="_blank" rel="noopener">faith leader James Spencer</a> to Fox News Digital
+  this week.</p><p>And the right response to that, said the president of the D. L.
+  Moody Center in Northfield, Massachusetts, "is to continue to deepen our commitment
+  to Christ through worship and discipleship."</p><p>Spencer, however, expressed concern
+  over President Biden''s recent proclamation of March 31, 2024, on which Easter Sunday
+  falls, as the "Transgender Day of Visibility (TDOV)" in America. Spencer noted that
+  the announcement drew harsh reactions on social media.</p><p><a href="https://www.foxnews.com/lifestyle/jesus-christs-resurrection-means-all-road-emmaus-texas-pastor"
+  target="_blank" rel="noopener"><strong>JESUS CHRIST''S RESURRECTION MEANS WE ARE
+  ALL ON THE ‘ROAD TO EMMAUS,’ SAYS TEXAS PASTOR</strong></a></p><p>"Some have suggested
+  that this was yet another <a href="https://www.foxnews.com/category/us/religion/christianity"
+  target="_blank" rel="noopener">attack on Christianity</a> by the Biden administration,"
+  he said.</p><p>"While I don’t see how declaring the TDOV on the same day as Easter,
+  regardless of historical precedent, could encourage unity, I’m less concerned with
+  the date of TDOV than with what I believe to be a potential distraction for the
+  Christian community during the Easter season."</p><p>Charging that politicians don''t
+  often have the church''s interests at heart, he decried "pandering to Christians
+  by quoting Bible passages out of context" and "pointing to the truth that we are
+  all made in the image of God to underscore human dignity without acknowledging the
+  responsibility that <a href="https://www.foxnews.com/faith-values" target="_blank"
+  rel="noopener">being made in God’s image</a> implies."</p><p>White House spokesperson
+  Andrew Bates released a statement this weekend saying those who are critical of
+  Biden’s inclusiveness message are trying to further divide the country.</p><p>"As
+  a Christian who celebrates Easter with family, <a href="https://www.foxnews.com/category/person/joe-biden"
+  target="_blank" rel="noopener">President Biden</a> stands for bringing people together
+  and upholding the dignity and freedoms of every American," Bates said in an earlier
+  statement to Fox News Digital. "Sadly, it’s unsurprising politicians are seeking
+  to divide and weaken our country with cruel, hateful and dishonest rhetoric. President
+  Biden will never abuse his faith for political purposes or for profit."</p><p>The
+  date March 31 is one of several dates that has been designated to honor the transgender
+  movement internationally since at least 2009. </p><p><a href="https://www.foxnews.com/politics/white-house-doubles-down-inclusiveness-message-backlash-transgender-day-visibility-easter"
+  target="_blank" rel="noopener"><strong>WHITE HOUSE DOUBLES DOWN ON INCLUSIVENESS
+  MESSAGE AMID BACKLASH OVER TRANSGENDER DAY OF VISIBILITY ON EASTER</strong></a></p><p>Yet
+  this year it falls on <a href="https://www.foxnews.com/category/us/religion/christianity"
+  target="_blank" rel="noopener"><u>Easter Sunday</u></a> — one of the most important
+  days in all of Christianity as the resurrection of Jesus Christ is celebrated. </p><p>Spencer
+  suggested some appropriate responses by Christians in the wake of the president''s
+  declaration and the actions and comments of other political officials. </p><p>"First,
+  we need to recognize that our governing officials are human," Spencer said. "Because
+  they are human, they are often going to be misguided. As such, one of our first
+  responses should be compassion. If Jesus can say it about the Roman guards who crucified
+  Him, how can we not step back at a comparatively minor injury and say, ‘Father,
+  forgive them, for they know not what they do.’"</p><p>He said as well, "Jesus offers
+  us an example of what it means to love our enemies and to pray for those who persecute
+  us."</p><p>Spencer said the second potential response is to <a href="https://www.foxnews.com/category/faith-values/faith"
+  target="_blank" rel="noopener">"endure in faithfulness."</a></p><p><a href="https://www.foxnews.com/lifestyle/cardinal-dolan-new-york-reveals-good-friday-message-god-has-last-word"
+  target="_blank" rel="noopener"><strong><u>CARDINAL DOLAN OF NEW YORK REVEALS HIS
+  GOOD FRIDAY MESSAGE: ‘GOD HAS THE LAST WORD''</u></strong></a></p><p>"At times,
+  we have set our sights on fixing what only God can fix. Our job is not to fix the
+  broken world — but to endure faithfully within it. If we long for the restoration
+  of all things, we must first focus on living ‘lives of holiness and godliness, waiting
+  for and hastening the day of God’ (2 Peter 3:11-12)." </p><p>Spencer said that "as
+  we live such lives, we will ultimately find ourselves loving our neighbor, caring
+  for the vulnerable and proclaiming the gospel in word and deed."</p><p>In line with
+  this, he said that "our world doesn’t need to change for us to serve Christ (1 Cor
+  7:17-24). We serve Christ until the world around us changes and then we serve Christ
+  some more."</p><p>And third, he said, is a potential "final lesson."</p><p>In the
+  Garden of Gethsemane, "Jesus prayed and, in doing so, reaffirmed His willingness
+  to submit to the Father’s will," Spencer told Fox News Digital via email. </p><p><a
+  href="https://www.foxnews.com/newsletters?cmpid=fnfirstnl"><strong><u>CLICK HERE
+  TO SIGN UP FOR OUR LIFESTYLE NEWSLETTER</u></strong></a></p><p>"Like us, Jesus did
+  not want the pain and suffering He saw coming. He wanted to accomplish the work
+  of providing a way for salvation for all who believe without the anguish of the
+  cross." </p><p>And yet — "in the end, Jesus wanted something else more: He wanted
+  the Father’s will to be done rather than His own (Matt. 26:39)." </p><p>Spencer
+  added that "political and social pressure may be necessary on occasion … Still,
+  we need to cultivate the deep conviction of Christ so that we, too, may say, ‘Not
+  as I will, but as you will.’"</p><p>He also said, "The world needs to see the difference
+  Christ makes. As such, in this moment (and a multitude of others), we must respond
+  to Christ rather than [the world]." </p><p>If we do this, he said, "the world will
+  not see our indignation or moral outrage but our unwavering loyalty to a risen Savior
+  and Lord who has authority over all things in heaven and on Earth."</p><p><a href="https://www.foxnews.com/politics/trump-demands-biden-issue-apology-over-blasphemous-trans-visibility-day-easter-sunday-appalling"
+  target="_blank" rel="noopener">The Trump campaign</a><a rel="noopener">,</a> among
+  others, blasted the White House for the Biden TDOV proclamation.</p><p>"We call
+  on Joe Biden’s failing campaign and White House to issue an apology to the millions
+  of Catholics and Christians across America who believe [Easter Sunday] is for one
+  celebration only — the resurrection of Jesus Christ," said Karoline Leavitt, the
+  Trump campaign’s press secretary.</p><p>The Biden White House stood by its March
+  29 proclamation. </p><p>"Transgender Americans are part of the fabric of our Nation,"
+  the White House said in its statement on March 29th. "Whether serving their communities
+  or in the military, raising families or running businesses, they help America thrive.
+  They deserve, and are entitled to, the same rights and freedoms as every other American,
+  including the most fundamental freedom to be their true selves."</p><p><i>Fox News
+  Digital''s Stephen Sorace, as well as The Associated Press, contributed reporting. </i></p><p><a
+  href="https://www.foxnews.com/lifestyle"><i><strong><u>For more Lifestyle articles,
+  visit www.foxnews.com/lifestyle</u></strong></i></a><i><strong>.</strong></i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/EASTER-SPLIT.jpg?ve=1&tl=1

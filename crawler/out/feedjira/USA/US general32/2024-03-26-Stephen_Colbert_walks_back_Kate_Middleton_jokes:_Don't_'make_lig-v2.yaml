@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/entertainment-arts/tv/story/2024-03-26/stephen-colbert-kate-middleton-jokes-cancer-tragedy
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Stephen Colbert walks back Kate Middleton jokes: Don''t ''make light of somebody
+  else''s tragedy'''
+url: https://www.latimes.com/entertainment-arts/tv/story/2024-03-26/stephen-colbert-kate-middleton-jokes-cancer-tragedy
+summary: "<p>'Late Show' host Stephen Colbert expresses remorse for making light of
+  Kate Middleton and Prince William before learning that the princess of Wales has
+  cancer.</p>"
+author: Nardine Saad
+published: 2024-03-26 18:30:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/entertainment-arts/tv/story/2024-03-26/stephen-colbert-kate-middleton-jokes-cancer-tragedy
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>'Late Show' host Stephen Colbert expresses remorse for making light of
+  Kate Middleton and Prince William before learning that the princess of Wales has
+  cancer.</p>"

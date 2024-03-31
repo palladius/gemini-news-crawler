@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: dd64c83f-d9ef-4a8b-95d0-2be54d3bb3fe
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The Who's "Tommy" returns to Broadway
+url: https://www.cbsnews.com/video/the-whos-tommy-returns-to-broadway/
+summary: The rock opera "Tommy" was one of The Who's biggest hits, and won five Tony
+  Awards when it was translated to Broadway three decades ago. Now it's back, in a
+  version that Pete Townshend and director Des McAnuff say is more relevant than ever.
+  Correspondent Tracy Smith talks with Townshend, who describes the personal price
+  he's paid for every iteration of "Tommy"; and with the star and creative team who
+  discuss turning the story of a pinball wizard into Broadway magic.
+published: 2024-03-31 14:14:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: dd64c83f-d9ef-4a8b-95d0-2be54d3bb3fe
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

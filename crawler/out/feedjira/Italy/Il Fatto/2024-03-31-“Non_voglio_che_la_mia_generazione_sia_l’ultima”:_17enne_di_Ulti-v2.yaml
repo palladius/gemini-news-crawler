@@ -1,0 +1,40 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497517
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "“Non voglio che la mia generazione sia l’ultima”: 17enne di Ultima Generazione
+  interviene alla messa di Pasqua. Trascinata via dalla Digos"
+url: https://www.ilfattoquotidiano.it/2024/03/31/blitz-di-ultima-generazione-durante-la-messa-di-pasqua-a-padova-attivista-portata-via-dalla-polizia-video/7497517/
+summary: |
+  <p>&#8220;Voglio solo portare un messaggio di pace&#8220;. Un&#8217;attivista di Ultima Generazione ha tentato di leggere un messaggio durante la messa di Pasqua, celebrata dal vescovo, nella chiesa della Madonna incoronata alla Sacra Famiglia, a Padova. Gli attivisti per il clima, presenti in chiesa, erano due, e sono stati bloccati e portati in questura dalla Digos. [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/blitz-di-ultima-generazione-durante-la-messa-di-pasqua-a-padova-attivista-portata-via-dalla-polizia-video/7497517/">&#8220;Non voglio che la mia generazione sia l&#8217;ultima&#8221;: 17enne di Ultima Generazione interviene alla messa di Pasqua. Trascinata via dalla Digos</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Cronaca
+- Padova
+published: 2024-03-31 15:48:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497517
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/blitz-di-ultima-generazione-durante-la-messa-di-pasqua-a-padova-attivista-portata-via-dalla-polizia-video/7497517/#comments
+content: |
+  <p>&#8220;Voglio solo portare<strong> un messaggio di pace</strong>&#8220;. Un&#8217;attivista di <strong>Ultima Generazione</strong> ha tentato di leggere un messaggio durante la <strong>messa di Pasqua</strong>, celebrata dal vescovo, nella chiesa della Madonna incoronata alla Sacra Famiglia, a <strong>Padova</strong>. Gli attivisti per il clima, presenti in chiesa, erano due, e sono stati bloccati e portati in questura dalla Digos. Gli agenti della polizia devono aver riscontrato una particolare pericolosità nell&#8217;atto della giovane di leggere un manoscritto, atto che merita il più urgente intervento di personale in divisa, come si capisce. Come ha peraltro comunicato la questura la giovane è la stessa ragazza che aveva tentato la stessa manifestazione anche la notte di Natale durante la messa nella <strong>Basilica di Sant&#8217;Antonio</strong>.</p>
+  <p>&#8220;Ho 17 anni &#8211; ha detto l&#8217;attivista in un videomessaggio &#8211; non voglio che la mia generazione sia l&#8217;ultima. Dobbiamo lottare per l&#8217;ambiente, per il clima&#8221;. &#8220;<strong>Fede</strong>, una 17enne aderente alla campagna di Ultima Generazione &#8211; si legge in una nota del movimento ambientalista &#8211; ha provato a prendere parola per rompere il<strong> silenzio assordante di fronte a guerre</strong>, povertà e il <strong>collasso</strong> del nostro <strong>eco-sistema</strong> provocando eventi sempre più estremi&#8221;. Purtroppo &#8220;non ha fatto in tempo a chinarsi davanti ai fedeli prima che la polizia scattasse dentro la chiesa per portarla via. Siamo in un Paese dove non si rispetta più la libertà di opinione e la manifestazione nonviolenta &#8211; è il commento degli attivisti -, rimanere in silenzio davanti al crollo della nostra democrazia è un atto violento verso noi stessi&#8221;.</p>
+  <p>Vale la pena ricordare che la<strong> seconda enciclica</strong> di <strong>Papa</strong> <strong>Francesco</strong>, nel 2015 (terzo anno di pontificato), è stata la<em> Laudato si&#8217;</em>, formula che deriva dal<em> Cantico delle Creature</em> di <strong>San Francesco</strong>. Il tema principale di quella enciclica è la connessione tra <strong>crisi ambientale</strong> della Terra e <strong>crisi sociale dell&#8217;umanità</strong>, ossia l&#8217;ecologia integrale, tant&#8217;è vero che lo stesso Bergoglio l&#8217;ha definita &#8220;non un&#8217;enciclica verde ma di un&#8217;enciclica sociale&#8221;. E poi c&#8217;è la questione del messaggio di pace: innumerevoli istituzioni e associazioni cattoliche in questi giorni hanno ribadito l&#8217;urgenza di spegnere i fuochi di guerra in Europa e nel Mediterraneo, a partire dal pontefice fino alla Cei passando per i frati di Assisi. Tuttavia secondo la diocesi e la questura di Padova messaggi analoghi in chiesa non possono essere letti. Pena un&#8217;identificazione in questura.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/blitz-di-ultima-generazione-durante-la-messa-di-pasqua-a-padova-attivista-portata-via-dalla-polizia-video/7497517/">&#8220;Non voglio che la mia generazione sia l&#8217;ultima&#8221;: 17enne di Ultima Generazione interviene alla messa di Pasqua. Trascinata via dalla Digos</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/PadovaUltima-1050x551.jpg

@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general7 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: e0df0dde6c19752fa4e8825f072ab84a
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: They live in shelters. They earn badges by helping migrants. Meet NYC’s Girl
+  Scouts.
+url: https://www.csmonitor.com/USA/2024/0326/They-live-in-shelters.-They-earn-badges-by-helping-migrants.-Meet-NYC-s-Girl-Scouts?icid=rss
+author: Sara Herschander
+published: 2024-03-26 16:33:30.000000000 Z
+summary: New York’s largest Girl Scout troop includes members who live in emergency
+  shelters. They’re also on the front lines of welcoming young immigrants.
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: e0df0dde6c19752fa4e8825f072ab84a
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general7
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- published
+- summary
+- entry_id

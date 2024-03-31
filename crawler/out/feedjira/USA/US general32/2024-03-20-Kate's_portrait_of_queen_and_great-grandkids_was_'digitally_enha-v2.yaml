@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/entertainment-arts/story/2024-03-19/kate-middleton-queen-elizabeth-portrait-grandchildren-getty-images
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Kate's portrait of queen and great-grandkids was 'digitally enhanced,' Getty
+  Images says
+url: https://www.latimes.com/entertainment-arts/story/2024-03-19/kate-middleton-queen-elizabeth-portrait-grandchildren-getty-images
+summary: "<p>Another photo shot by Catherine, the Princess of Wales, was manipulated,
+  prompting Getty Images to undertake 'a review of handout images.'</p>"
+author: Nardine Saad
+published: 2024-03-20 15:52:54.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/entertainment-arts/story/2024-03-19/kate-middleton-queen-elizabeth-portrait-grandchildren-getty-images
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>Another photo shot by Catherine, the Princess of Wales, was manipulated,
+  prompting Getty Images to undertake 'a review of handout images.'</p>"

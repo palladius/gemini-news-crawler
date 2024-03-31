@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/maltempo-si-abbatte-sulla-lombardia-bomba-dacqua-tromba-daria-e-voragine_4HiYw7eihi5bGDszqRe5Xm
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Maltempo si abbatte sulla Lombardia: bomba d''acqua, tromba d''aria e voragine'
+url: https://www.adnkronos.com/cronaca/maltempo-si-abbatte-sulla-lombardia-bomba-dacqua-tromba-daria-e-voragine_4HiYw7eihi5bGDszqRe5Xm
+summary: "(Adnkronos) - Da Milano a Varese, decine gli interventi dei vigili. A Gavirate
+  tre evacuati"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-31 10:01:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/maltempo-si-abbatte-sulla-lombardia-bomba-dacqua-tromba-daria-e-voragine_4HiYw7eihi5bGDszqRe5Xm
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8a357aaf02-eca855144058-1000/format/medium/milano_maltempo_31marzo_fg.jpeg

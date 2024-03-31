@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMi5wFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9lc3RlcmkvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3VjcmFpbmEtcnVzc2lhLW5vdGl6aWUtb2dnaS1kaXJldHRhLXplbGVuc2t5LXVzYS1kYXRlY2ktbWlzc2lsaS1hdGFjbXMtY29scGlyZS1jcmltZWEtbGljZW56aWEtc3VvLXByaW1vLWFzc2lzdGVudGUtYWx0cmktZnVuemlvbmFyaS03NWUyNDRiOC1lZWI3LTExZWUtOTkwZi1mODFkNWFiOGNkY2Iuc2h0bWzSAeoBaHR0cHM6Ly93d3cuY29ycmllcmUuaXQvZXN0ZXJpL2RpcmV0dGEtbGl2ZS8yNF9tYXJ6b18zMS91Y3JhaW5hLXJ1c3NpYS1ub3RpemllLW9nZ2ktZGlyZXR0YS16ZWxlbnNreS11c2EtZGF0ZWNpLW1pc3NpbGktYXRhY21zLWNvbHBpcmUtY3JpbWVhLWxpY2VuemlhLXN1by1wcmltby1hc3Npc3RlbnRlLWFsdHJpLWZ1bnppb25hcmktNzVlMjQ0YjgtZWViNy0xMWVlLTk5MGYtZjgxZDVhYjhjZGNiX2FtcC5odG1s
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Ucraina-Russia, le notizie di oggi in diretta | Zelensky agli Usa: «Dateci
+  i missili Atacms per colpire la... - Corriere della Sera'
+url: https://news.google.com/rss/articles/CBMi5wFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9lc3RlcmkvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3VjcmFpbmEtcnVzc2lhLW5vdGl6aWUtb2dnaS1kaXJldHRhLXplbGVuc2t5LXVzYS1kYXRlY2ktbWlzc2lsaS1hdGFjbXMtY29scGlyZS1jcmltZWEtbGljZW56aWEtc3VvLXByaW1vLWFzc2lzdGVudGUtYWx0cmktZnVuemlvbmFyaS03NWUyNDRiOC1lZWI3LTExZWUtOTkwZi1mODFkNWFiOGNkY2Iuc2h0bWzSAeoBaHR0cHM6Ly93d3cuY29ycmllcmUuaXQvZXN0ZXJpL2RpcmV0dGEtbGl2ZS8yNF9tYXJ6b18zMS91Y3JhaW5hLXJ1c3NpYS1ub3RpemllLW9nZ2ktZGlyZXR0YS16ZWxlbnNreS11c2EtZGF0ZWNpLW1pc3NpbGktYXRhY21zLWNvbHBpcmUtY3JpbWVhLWxpY2VuemlhLXN1by1wcmltby1hc3Npc3RlbnRlLWFsdHJpLWZ1bnppb25hcmktNzVlMjQ0YjgtZWViNy0xMWVlLTk5MGYtZjgxZDVhYjhjZGNiX2FtcC5odG1s?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMi5wFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9lc3RlcmkvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3VjcmFpbmEtcnVzc2lhLW5vdGl6aWUtb2dnaS1kaXJldHRhLXplbGVuc2t5LXVzYS1kYXRlY2ktbWlzc2lsaS1hdGFjbXMtY29scGlyZS1jcmltZWEtbGljZW56aWEtc3VvLXByaW1vLWFzc2lzdGVudGUtYWx0cmktZnVuemlvbmFyaS03NWUyNDRiOC1lZWI3LTExZWUtOTkwZi1mODFkNWFiOGNkY2Iuc2h0bWzSAeoBaHR0cHM6Ly93d3cuY29ycmllcmUuaXQvZXN0ZXJpL2RpcmV0dGEtbGl2ZS8yNF9tYXJ6b18zMS91Y3JhaW5hLXJ1c3NpYS1ub3RpemllLW9nZ2ktZGlyZXR0YS16ZWxlbnNreS11c2EtZGF0ZWNpLW1pc3NpbGktYXRhY21zLWNvbHBpcmUtY3JpbWVhLWxpY2VuemlhLXN1by1wcmltby1hc3Npc3RlbnRlLWFsdHJpLWZ1bnppb25hcmktNzVlMjQ0YjgtZWViNy0xMWVlLTk5MGYtZjgxZDVhYjhjZGNiX2FtcC5odG1s?oc=5"
+  target="_blank">Ucraina-Russia, le notizie di oggi in diretta | Zelensky agli Usa:
+  «Dateci i missili Atacms per colpire la...</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2VzdGVyaS8yMDI0LzAzLzMxL25ld3MvcHV0aW5faXNpc19jaW5hX2ludGVydmlzdGFfY29saW5fcF9jbGFya2UtMTQxODc3MDQv0gFmaHR0cHM6Ly93d3cubGFzdGFtcGEuaXQvZXN0ZXJpLzIwMjQvMDMvMzEvbmV3cy9wdXRpbl9pc2lzX2NpbmFfaW50ZXJ2aXN0YV9jb2xpbl9wX2NsYXJrZS0xNDE4NzcwNC9hbXAv?oc=5"
+  target="_blank">Colin P. Clarke: “Putin sapeva della rabbia dell’Isis, la Cina sarà
+  il prossimo obiettivo”</a>&nbsp;&nbsp;<font color="#6f6f6f">La Stampa</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LmFkbmtyb25vcy5jb20vaW50ZXJuYXppb25hbGUvZXN0ZXJpL2F0dGVudGF0by1tb3NjYS1ydXNzaWEtaXNpcy1pbnRlbGxpZ2VuY2VfMURTOTB1QnREM1RONzlnT1E1ZWVNc9IBAA?oc=5"
+  target="_blank">Attacco a Mosca, Russia sapeva della minaccia Isis?</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Adnkronos</font></li><li><a href="https://news.google.com/rss/articles/CBMiR2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8yOS9hdHRlbnRhdG8tbW9zY2EtYXJyZXN0aS10YWdpa2lzdGFu0gFLaHR0cHM6Ly90ZzI0LnNreS5pdC9tb25kby8yMDI0LzAzLzI5L2F0dGVudGF0by1tb3NjYS1hcnJlc3RpLXRhZ2lraXN0YW4vYW1w?oc=5"
+  target="_blank">Attentato a Mosca, nove presunti fiancheggiatori arrestati in Tagikistan</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Sky Tg24 </font></li><li><a href="https://news.google.com/rss/articles/CBMigQFodHRwczovL3d3dy5pbGZhdHRvcXVvdGlkaWFuby5pdC8yMDI0LzAzLzI5L3R1cmNoaWEtYXR0YWNjby1pc2lzLW1vc2NhLTAwNy1zdHJhbmllcmktZXJkb2dhbi1kaXNhbGxpbmVhdG8tcG9zaXppb25pLW5hdG8vNzQ5NjAyNi_SAYUBaHR0cHM6Ly93d3cuaWxmYXR0b3F1b3RpZGlhbm8uaXQvMjAyNC8wMy8yOS90dXJjaGlhLWF0dGFjY28taXNpcy1tb3NjYS0wMDctc3RyYW5pZXJpLWVyZG9nYW4tZGlzYWxsaW5lYXRvLXBvc2l6aW9uaS1uYXRvLzc0OTYwMjYvYW1wLw?oc=5"
+  target="_blank">La Turchia: “Dietro l’attacco dell’Isis a Mosca c’erano gli 007
+  stranieri”</a>&nbsp;&nbsp;<font color="#6f6f6f">Il Fatto Quotidiano</font></li></ol>'
+published: 2024-03-31 18:51:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMi5wFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9lc3RlcmkvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3VjcmFpbmEtcnVzc2lhLW5vdGl6aWUtb2dnaS1kaXJldHRhLXplbGVuc2t5LXVzYS1kYXRlY2ktbWlzc2lsaS1hdGFjbXMtY29scGlyZS1jcmltZWEtbGljZW56aWEtc3VvLXByaW1vLWFzc2lzdGVudGUtYWx0cmktZnVuemlvbmFyaS03NWUyNDRiOC1lZWI3LTExZWUtOTkwZi1mODFkNWFiOGNkY2Iuc2h0bWzSAeoBaHR0cHM6Ly93d3cuY29ycmllcmUuaXQvZXN0ZXJpL2RpcmV0dGEtbGl2ZS8yNF9tYXJ6b18zMS91Y3JhaW5hLXJ1c3NpYS1ub3RpemllLW9nZ2ktZGlyZXR0YS16ZWxlbnNreS11c2EtZGF0ZWNpLW1pc3NpbGktYXRhY21zLWNvbHBpcmUtY3JpbWVhLWxpY2VuemlhLXN1by1wcmltby1hc3Npc3RlbnRlLWFsdHJpLWZ1bnppb25hcmktNzVlMjQ0YjgtZWViNy0xMWVlLTk5MGYtZjgxZDVhYjhjZGNiX2FtcC5odG1s
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

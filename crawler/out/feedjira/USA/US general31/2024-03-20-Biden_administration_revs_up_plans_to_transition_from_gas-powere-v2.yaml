@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/environment/story/2024-03-20/biden-administration-speeds-transition-to-electric-vehicles
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Biden administration revs up plans to transition from gas-powered vehicles
+  to EVs
+url: https://www.latimes.com/environment/story/2024-03-20/biden-administration-speeds-transition-to-electric-vehicles
+summary: "<p>A U.S. EPA rule would require car manufacturers to increase sales of
+  electric vehicles while cutting carbon emissions from gasoline-powered vehicles.</p>"
+author: Hannah Fry, Tony Briscoe
+published: 2024-03-20 16:25:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/environment/story/2024-03-20/biden-administration-speeds-transition-to-electric-vehicles
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>A U.S. EPA rule would require car manufacturers to increase sales of
+  electric vehicles while cutting carbon emissions from gasoline-powered vehicles.</p>"

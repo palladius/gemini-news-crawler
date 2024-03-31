@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general17 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: fighting-rages-across-gaza-amid-110618286.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Fighting rages across Gaza amid revival of truce talks
+url: https://www.yahoo.com/news/fighting-rages-across-gaza-amid-110618286.html
+published: 2024-03-31 11:06:18.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: fighting-rages-across-gaza-amid-110618286.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general17
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/reuters.com/6804d097e8f0b7a49827b5c44ec71866

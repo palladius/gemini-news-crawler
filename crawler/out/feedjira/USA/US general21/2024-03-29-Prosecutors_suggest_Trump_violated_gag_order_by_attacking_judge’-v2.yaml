@@ -1,0 +1,41 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/29/trump-gag-order-prosecutors-judge-daughter
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Prosecutors suggest Trump violated gag order by attacking judge’s daughter
+url: https://www.theguardian.com/us-news/2024/mar/29/trump-gag-order-prosecutors-judge-daughter
+summary: <p>Ex-president deserves sanction for Truth Social post that criticized daughter
+  of Juan Merchan, hush-money trial prosecutors say</p><p>Manhattan prosecutors asked
+  the judge presiding in <a href="https://www.theguardian.com/us-news/donaldtrump">Donald
+  Trump’s</a> upcoming criminal trial on charges of covering up hush money to a porn
+  star before the 2016 election to confirm that a recent gag order preventing the
+  former president from making inflammatory comments extends to the judge’s family
+  members.</p><p>The prosecutors in the Manhattan district attorney’s office suggested
+  in a two-page letter on Friday that, as far as they were concerned, Trump had violated
+  the gag order by attacking the judge’s daughter in a recent social media post and
+  should be sanctioned for future violations.</p> <a href="https://www.theguardian.com/us-news/2024/mar/29/trump-gag-order-prosecutors-judge-daughter">Continue
+  reading...</a>
+author: Hugo Lowell
+categories:
+- Donald Trump
+- US news
+- World news
+- US politics
+- New York
+published: 2024-03-29 23:22:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/29/trump-gag-order-prosecutors-judge-daughter
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/5009a11fdb75ef7b801a87265aa0823b5b623a3d/0_85_3895_2337/master/3895.jpg?width=140&quality=85&auto=format&fit=max&s=a14436b2771bd16a581d0f72fe07e5ae

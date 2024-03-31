@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Primapagina (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/internazionale/esteri/netanyahu-sara-operato-allernia-interim-a-ministro-giustizia_47eK0q51H272aDRGOKDSYc
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Israele, operazione per Netanyahu: "Tornerò presto". E ribadisce: “Entreremo
+  a Rafah”'
+url: https://www.adnkronos.com/internazionale/esteri/netanyahu-sara-operato-allernia-interim-a-ministro-giustizia_47eK0q51H272aDRGOKDSYc
+summary: "(Adnkronos) - Il ministro della Giustizia israeliano Yariv Levin, assumerà
+  le funzioni di premier ad interim"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-31 14:22:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/netanyahu-sara-operato-allernia-interim-a-ministro-giustizia_47eK0q51H272aDRGOKDSYc
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Primapagina
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/0289-19ee0ca16e33-f4a763c16948-1000/format/medium/netanyahu_conferenzastampa_afp.jpeg

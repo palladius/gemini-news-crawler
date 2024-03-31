@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/opinion/story/2024-03-12/donald-trump-maga-republican-party-rnc-election-2024-jonah-goldberg
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Goldberg: Trump and his MAGA movement stormed the Republican establishment.
+  Now they have become it'
+url: https://www.latimes.com/opinion/story/2024-03-12/donald-trump-maga-republican-party-rnc-election-2024-jonah-goldberg
+summary: "<p>The Super Tuesday primaries and change of national GOP leadership made
+  the takeover official. Now the movement will have no one to blame but itself.</p>"
+author: Jonah Goldberg
+published: 2024-03-12 10:15:23.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/opinion/story/2024-03-12/donald-trump-maga-republican-party-rnc-election-2024-jonah-goldberg
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>The Super Tuesday primaries and change of national GOP leadership made
+  the takeover official. Now the movement will have no one to blame but itself.</p>"

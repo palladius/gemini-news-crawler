@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/opinion/story/2024-03-18/donald-trump-bloodbath-violence-election-2024-biden-auto-industry-ohio-jonah-goldberg
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Goldberg: Did Trump literally threaten a ''bloodbath''? No, and claiming he
+  did only helps his campaign'
+url: https://www.latimes.com/opinion/story/2024-03-18/donald-trump-bloodbath-violence-election-2024-biden-auto-industry-ohio-jonah-goldberg
+summary: "<p>It's easy to misconstrue the ex-president's comment in Ohio given his
+  incoherence and history as well as the media's biases. But it won't help get Biden
+  reelected.</p>"
+author: Jonah Goldberg
+published: 2024-03-18 23:18:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/opinion/story/2024-03-18/donald-trump-bloodbath-violence-election-2024-biden-auto-industry-ohio-jonah-goldberg
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>It's easy to misconstrue the ex-president's comment in Ohio given his
+  incoherence and history as well as the media's biases. But it won't help get Biden
+  reelected.</p>"

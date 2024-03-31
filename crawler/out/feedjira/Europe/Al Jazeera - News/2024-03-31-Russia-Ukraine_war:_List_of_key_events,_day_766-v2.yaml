@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711887814
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Russia-Ukraine war: List of key events, day 766'
+url: https://www.aljazeera.com/news/2024/3/31/russia-ukraine-war-list-of-key-events-day-766?traffic_source=rss
+summary: As the war enters its 766th day, these are the main developments.
+categories:
+- News
+published: 2024-03-31 12:57:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711887814
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

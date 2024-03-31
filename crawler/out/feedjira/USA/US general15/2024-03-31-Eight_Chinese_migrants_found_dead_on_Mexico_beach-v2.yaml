@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general15 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-us-canada-68703354#0
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Eight Chinese migrants found dead on Mexico beach
+url: https://www.bbc.co.uk/news/world-us-canada-68703354
+summary: The group were in a boat that capsized along a route used by people trying
+  to reach the US.
+published: 2024-03-31 12:39:43.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-us-canada-68703354#0
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general15
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9817/production/_133053983_de40.jpg

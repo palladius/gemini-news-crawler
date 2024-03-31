@@ -1,0 +1,56 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2023:50-675960
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2023:50-675960
+content: '<p><em>Editor&rsquo;s Note:</em> <em>Washington Week with The Atlantic</em>
+  is a partnership between NewsHour Productions, WETA, and The Atlantic airing every
+  Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check
+  your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.
+  <br /></p><p dir="ltr">Democratic Senator Joe Manchin of West Virginia’s announcement
+  that he will not seek reelection in 2024 capped a paradoxical week for Democrats.
+  Manchin’s news puts Democrats’ control of the Senate at greater risk at the same
+  time that polling for President Joe Biden continues to decline. But there was good
+  news for Democrats: They scored a number of victories in Tuesday’s off-year election,
+  including swing state Ohio voting to codify the right to an abortion in the state’s
+  constitution.</p><p dir="ltr">Joining the editor in chief of <em>The Atlantic</em>
+  and moderator, Jeffrey Goldberg, this week to discuss this and more are David Brooks,
+  a columnist at <em>The New York Times</em> and the author of <em>How to Know a Person:
+  The Art of Seeing Others Deeply and Being Deeply Seen</em>; Eugene Daniels, a White
+  House correspondent and a co-author of <em>Politico</em>’s Playbook; Asma Khalid,
+  a White House correspondent at NPR; and Ed O’Keefe, a senior White House and political
+  correspondent at CBS.</p><p data-id="injected-recirculation-link" dir="ltr">Read
+  the full transcript <i>[<a href="https://www.pbs.org/weta/washingtonweek/video/2023/11/washington-week-with-the-atlantic-full-episode-111023">here</a>]</i>.</p><div
+  class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://youtu.be/dzesB4tOC1c?si=1ITFP9H0rHOwoP49"><iframe
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"
+  class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FdzesB4tOC1c%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdzesB4tOC1c&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdzesB4tOC1c%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube"
+  title="YouTube embed" width="854"></iframe></div>'
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/rWX3bUJahqy5AfZ4wv_m19MnBCI=/media/img/mt/2023/11/WW10/original.jpg
+title_type: html
+raw_title: A Paradoxical Week for Democrats
+published: 2023-11-11 20:54:44.000000000 Z
+updated: 2023-11-11 20:54:44.000000000 Z
+summary: Watch the full episode of <em>Washington Week With The Atlantic</em>, November
+  10, 2023
+url: https://www.theatlantic.com/national/archive/2023/11/democrats-biden-election-2024/675960/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2023/11/democrats-biden-election-2024/675960/?utm_source=feed
+title: A Paradoxical Week for Democrats
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title
