@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: BBC Science
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/science-environment-68369916#1
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: UK quits treaty that lets oil firms sue government
+url: https://www.bbc.co.uk/news/science-environment-68369916
+summary: The ECT allowed fossil-fuel companies to sue governments for billions in
+  compensation for lost profits.
+published: 2024-02-22 12:34:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/science-environment-68369916#1
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/107C/production/_124402240_rig.jpg

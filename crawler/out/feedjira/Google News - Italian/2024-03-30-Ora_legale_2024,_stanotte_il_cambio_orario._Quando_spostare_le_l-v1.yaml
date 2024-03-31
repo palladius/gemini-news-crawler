@@ -1,0 +1,19 @@
+# [NewsFiler v1] NewsPaper: Google News - Italian
+# [NewsFiler v1] GUID: CBMiUmh0dHBzOi8vd3d3LnF1b3RpZGlhbm8ubmV0L2Nyb25hY2Evb3JhLWxlZ2FsZS0yMDI0LWNhbWJpby1vcmFyaW8tc3Rhbm90dGUteXE5OWg5NXfSAQA
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Ora legale 2024, stanotte il cambio orario. Quando spostare le lancette - QUOTIDIANO
+  NAZIONALE
+url: https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3LnF1b3RpZGlhbm8ubmV0L2Nyb25hY2Evb3JhLWxlZ2FsZS0yMDI0LWNhbWJpby1vcmFyaW8tc3Rhbm90dGUteXE5OWg5NXfSAQA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3LnF1b3RpZGlhbm8ubmV0L2Nyb25hY2Evb3JhLWxlZ2FsZS0yMDI0LWNhbWJpby1vcmFyaW8tc3Rhbm90dGUteXE5OWg5NXfSAQA?oc=5"
+  target="_blank">Ora legale 2024, stanotte il cambio orario. Quando spostare le lancette</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">QUOTIDIANO NAZIONALE</font></li><li><a href="https://news.google.com/rss/articles/CBMiRWh0dHBzOi8vd3d3LnJvbWF0b2RheS5pdC9hdHR1YWxpdGEvb3JhLWxlZ2FsZS0yMDI0LXF1YW5kby1jYW1iaWEuaHRtbNIBRWh0dHBzOi8vYW1wLnJvbWF0b2RheS5pdC9hdHR1YWxpdGEvb3JhLWxlZ2FsZS0yMDI0LXF1YW5kby1jYW1iaWEuaHRtbA?oc=5"
+  target="_blank">Ora legale 2024, lancette indietro o avanti? Quando spostarle</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">RomaToday</font></li><li><a href="https://news.google.com/rss/articles/CBMiQWh0dHBzOi8vd3d3LmxpYmVyby5pdC90di9lLXRvcm5hdGEtbG9yYS1sZWdhbGVfbXNGMzEyOTcwODAxMzYxQzA20gEA?oc=5"
+  target="_blank">E'' tornata l''ora legale</a>&nbsp;&nbsp;<font color="#6f6f6f">Libero
+  Tv </font></li><li><a href="https://news.google.com/rss/articles/CBMijQFodHRwczovL3d3dy5sYXN0YW1wYS5pdC9jcm9uYWNhLzIwMjQvMDMvMzEvbmV3cy9lX3Rvcm5hdGFfbG9yYV9sZWdhbGVfbGFuY2V0dGVfZGVsbG9yb2xvZ2lvX2F2YW50aV9kaV91bm9yYV9wcm9fZV9jb250cm9fZGVsX2NhbWJpby0xNDE4ODA3Ny_SAZEBaHR0cHM6Ly93d3cubGFzdGFtcGEuaXQvY3JvbmFjYS8yMDI0LzAzLzMxL25ld3MvZV90b3JuYXRhX2xvcmFfbGVnYWxlX2xhbmNldHRlX2RlbGxvcm9sb2dpb19hdmFudGlfZGlfdW5vcmFfcHJvX2VfY29udHJvX2RlbF9jYW1iaW8tMTQxODgwNzcvYW1wLw?oc=5"
+  target="_blank">È tornata l’ora legale, lancette dell’orologio avanti di un’ora:
+  pro e contro del cambio</a>&nbsp;&nbsp;<font color="#6f6f6f">La Stampa</font></li></ol>'
+published: 2024-03-30 09:42:08.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiUmh0dHBzOi8vd3d3LnF1b3RpZGlhbm8ubmV0L2Nyb25hY2Evb3JhLWxlZ2FsZS0yMDI0LWNhbWJpby1vcmFyaW8tc3Rhbm90dGUteXE5OWg5NXfSAQA

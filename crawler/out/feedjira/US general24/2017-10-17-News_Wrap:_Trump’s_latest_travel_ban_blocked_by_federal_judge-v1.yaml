@@ -1,0 +1,73 @@
+# [NewsFiler v1] NewsPaper: US general24
+# [NewsFiler v1] GUID: http://www.pbs.org/newshour/?post_type=bb&p=230958
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'News Wrap: Trump’s latest travel ban blocked by federal judge'
+url: http://www.pbs.org/newshour/bb/news-wrap-trumps-latest-travel-ban-blocked-federal-judge/
+author: PBS NewsHour
+categories:
+- Hawaii
+- Tom Marino
+- travel ban
+published: 2017-10-17 22:45:01.000000000 Z
+enclosure_length: '10000000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171017_NewsWrap.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTX3H1N3-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005759068/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171017_NewsWrap.mp3">Listen to the Audio</a></p><p><strong>JUDY WOODRUFF:</strong> And in the day&#8217;s other news: A federal judge in Hawaii struck down the Trump administration&#8217;s latest travel ban.</p>
+  <p>That temporarily blocks enforcement of the order nationwide, but the Justice Department says it will appeal. The ban extended to six mostly Muslim nations, plus North Korea and Venezuela.</p>
+  <p>Pennsylvania Congressman Tom Marino withdrew today from consideration to be President Trump&#8217;s drug czar. That followed an investigation by The Washington Post and CBS News. They found Marino was key in passing a 2016 law that limits the Drug Enforcement Administration&#8217;s ability to rein in opioid distribution.</p>
+  <p>A new verbal battle has broken out between the president and Republican Senator John McCain. It began last night in Philadelphia, when the Arizona senator and former Vietnam POW appeared to criticize Mr. Trump and his followers. He cited a list of failings.</p>
+  <p><strong>SEN. JOHN MCCAIN,</strong> R-Ariz.: To fear the world we have organized and led for three-quarters-of-a-century, to abandon the ideals we have advanced around the globe for the sake of some half-baked, spurious nationalism cooked up by people who would rather find scapegoats than solve problems.</p>
+  <p>(CHEERING AND APPLAUSE)</p>
+  <p><strong>JUDY WOODRUFF:</strong> The president answered by saying, &#8220;At some point, I fight back, and it won&#8217;t be pretty.&#8221;</p>
+  <p>In turn, McCain said, &#8220;I have faced tougher adversaries.&#8221;</p>
+  <p>In Afghanistan, Taliban bombings and shootings left at least 74 people dead today. The worst was Paktika province in the east, where two car bombs killed dozens, including the provincial police chief, and wounded more than 100 others. Taliban militants also staged attacks in the south and west of the country.</p>
+  <p>In Syria, militia forces backed by the U.S. say they have retaken the Islamic State group&#8217;s de facto capital. The city of Raqqa had been under ISIS control since 2014. The battle to recapture it began in June. Today, Kurdish-led fighters celebrated as they moved into the city center. The U.S. military said 90 percent of Raqqa has been taken, with pockets of militants remaining.</p>
+  <p>There&#8217;s word that U.S. airstrikes in Yemen killed dozens of Islamic State fighters on Monday. The strikes were apparently carried out by drones. The Pentagon says the targets were training camps for recruits.</p>
+  <p>In Northern Iraq, Kurdish forces withdrew from more territory today, as Iraqi government troops advanced. It came on the heels of the Kurds&#8217; vote for independence. Federal forces and allied militia had already forced the Kurds to leave the area in and around Kirkuk and its oil fields.</p>
+  <p>Iraq&#8217;s prime minister said that paves the way for talks.</p>
+  <p><strong>HAIDER AL-ABADI, </strong>Prime Minister, Iraq (through interpreter): I call for dialogue on the basis of partnership in one country and under the Constitution. The referendum is finished and has become a thing from the past. We hoped that they would cancel it, but we have finished it on the ground.</p>
+  <p><strong>JUDY WOODRUFF:</strong> Meanwhile, the president of Iraqi Kurdistan, Massoud Barzani, insisted that the referendum will not be in vain.</p>
+  <p>Another 10,000 to 15,000 Rohingya Muslims fled Buddhist Myanmar for Bangladesh over the weekend. Drone video showed snaking lines of refugees making the trek to already crowded camps. Many told of villages torched by mobs and soldiers. Others said they were starved out of their homes.</p>
+  <p>Back in this country, a new fire broke out in the San Francisco Bay Area, just as crews had made major progress against other fires in Northern California. Thick smoke billowed from the new site early today, as it burned through forests in the Santa Cruz Mountains. Weary fire crews said they&#8217;re calling in more help.</p>
+  <p><strong>ROB SHERMAN,</strong> Division Chief, Cal Fire: So, the idea is to hit it pretty hard with aircraft and then go ahead and hit it with the ground resources at the same time. We have had north winds, a lot of drying, and everything&#8217;s really, really dry. So it&#8217;s challenging.</p>
+  <p><strong>JUDY WOODRUFF:</strong> In Southern California, yet another fire spread on Mount Wilson, about 25 miles north of downtown Los Angeles. It threatened a historic observatory and communications towers.</p>
+  <p>President Trump&#8217;s overall wealth has taken a hit, as his New York real estate loses some of its luster. Forbes ranks him 248 this year on its list of the 400 wealthiest Americans. That&#8217;s down nearly 100 points from last year. His estimated worth is $3.1 billion.</p>
+  <p>Microsoft co-founder Bill Gates again tops the list. He&#8217;s worth nearly $90 billion.</p>
+  <p>And on Wall Street, the Dow Jones industrial average traded above 23,000 for the first time. In the end, it gained 40 points to close at 22997. The Nasdaq fell a fraction, and the S&amp;P 500 added one point.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/news-wrap-trumps-latest-travel-ban-blocked-federal-judge/">News Wrap: Trump’s latest travel ban blocked by federal judge</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=230958
+comments: http://www.pbs.org/newshour/bb/news-wrap-trumps-latest-travel-ban-blocked-federal-judge/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005759068/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>JUDY WOODRUFF:</strong> And in the day&#8217;s other news: A federal judge in Hawaii struck down the Trump administration&#8217;s latest travel ban.</p>
+  <p>That temporarily blocks enforcement of the order nationwide, but the Justice Department says it will appeal. The ban extended to six mostly Muslim nations, plus North Korea and Venezuela.</p>
+  <p>Pennsylvania Congressman Tom Marino withdrew today from consideration to be President Trump&#8217;s drug czar. That followed an investigation by The Washington Post and CBS News. They found Marino was key in passing a 2016 law that limits the Drug Enforcement Administration&#8217;s ability to rein in opioid distribution.</p>
+  <p>A new verbal battle has broken out between the president and Republican Senator John McCain. It began last night in Philadelphia, when the Arizona senator and former Vietnam POW appeared to criticize Mr. Trump and his followers. He cited a list of failings.</p>
+  <p><strong>SEN. JOHN MCCAIN,</strong> R-Ariz.: To fear the world we have organized and led for three-quarters-of-a-century, to abandon the ideals we have advanced around the globe for the sake of some half-baked, spurious nationalism cooked up by people who would rather find scapegoats than solve problems.</p>
+  <p>(CHEERING AND APPLAUSE)</p>
+  <p><strong>JUDY WOODRUFF:</strong> The president answered by saying, &#8220;At some point, I fight back, and it won&#8217;t be pretty.&#8221;</p>
+  <p>In turn, McCain said, &#8220;I have faced tougher adversaries.&#8221;</p>
+  <p>In Afghanistan, Taliban bombings and shootings left at least 74 people dead today. The worst was Paktika province in the east, where two car bombs killed dozens, including the provincial police chief, and wounded more than 100 others. Taliban militants also staged attacks in the south and west of the country.</p>
+  <p>In Syria, militia forces backed by the U.S. say they have retaken the Islamic State group&#8217;s de facto capital. The city of Raqqa had been under ISIS control since 2014. The battle to recapture it began in June. Today, Kurdish-led fighters celebrated as they moved into the city center. The U.S. military said 90 percent of Raqqa has been taken, with pockets of militants remaining.</p>
+  <p>There&#8217;s word that U.S. airstrikes in Yemen killed dozens of Islamic State fighters on Monday. The strikes were apparently carried out by drones. The Pentagon says the targets were training camps for recruits.</p>
+  <p>In Northern Iraq, Kurdish forces withdrew from more territory today, as Iraqi government troops advanced. It came on the heels of the Kurds&#8217; vote for independence. Federal forces and allied militia had already forced the Kurds to leave the area in and around Kirkuk and its oil fields.</p>
+  <p>Iraq&#8217;s prime minister said that paves the way for talks.</p>
+  <p><strong>HAIDER AL-ABADI, </strong>Prime Minister, Iraq (through interpreter): I call for dialogue on the basis of partnership in one country and under the Constitution. The referendum is finished and has become a thing from the past. We hoped that they would cancel it, but we have finished it on the ground.</p>
+  <p><strong>JUDY WOODRUFF:</strong> Meanwhile, the president of Iraqi Kurdistan, Massoud Barzani, insisted that the referendum will not be in vain.</p>
+  <p>Another 10,000 to 15,000 Rohingya Muslims fled Buddhist Myanmar for Bangladesh over the weekend. Drone video showed snaking lines of refugees making the trek to already crowded camps. Many told of villages torched by mobs and soldiers. Others said they were starved out of their homes.</p>
+  <p>Back in this country, a new fire broke out in the San Francisco Bay Area, just as crews had made major progress against other fires in Northern California. Thick smoke billowed from the new site early today, as it burned through forests in the Santa Cruz Mountains. Weary fire crews said they&#8217;re calling in more help.</p>
+  <p><strong>ROB SHERMAN,</strong> Division Chief, Cal Fire: So, the idea is to hit it pretty hard with aircraft and then go ahead and hit it with the ground resources at the same time. We have had north winds, a lot of drying, and everything&#8217;s really, really dry. So it&#8217;s challenging.</p>
+  <p><strong>JUDY WOODRUFF:</strong> In Southern California, yet another fire spread on Mount Wilson, about 25 miles north of downtown Los Angeles. It threatened a historic observatory and communications towers.</p>
+  <p>President Trump&#8217;s overall wealth has taken a hit, as his New York real estate loses some of its luster. Forbes ranks him 248 this year on its list of the 400 wealthiest Americans. That&#8217;s down nearly 100 points from last year. His estimated worth is $3.1 billion.</p>
+  <p>Microsoft co-founder Bill Gates again tops the list. He&#8217;s worth nearly $90 billion.</p>
+  <p>And on Wall Street, the Dow Jones industrial average traded above 23,000 for the first time. In the end, it gained 40 points to close at 22997. The Nasdaq fell a fraction, and the S&amp;P 500 added one point.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/news-wrap-trumps-latest-travel-ban-blocked-federal-judge/">News Wrap: Trump’s latest travel ban blocked by federal judge</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '5:09'
+itunes_summary: In our news wrap Tuesday, a federal judge in Hawaii struck down the
+  Trump administration’s latest travel ban that extended to six mostly Muslim nations,
+  plus North Korea and Venezuela. The move temporarily blocks enforcement of the order
+  nationwide, but the Justice Department said it will appeal. Also, Rep. Tom Marino,
+  R-Pa., withdrew from the consideration to be the next drug czar.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTX3H1N3-1024x683.jpg

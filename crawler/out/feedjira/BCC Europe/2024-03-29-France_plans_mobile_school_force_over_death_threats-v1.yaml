@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: BCC Europe
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/world-europe-68693694#0
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: France plans mobile school force over death threats
+url: https://www.bbc.co.uk/news/world-europe-68693694
+summary: Tensions are high after a Paris headteacher resigned in a row over a student
+  wearing a headscarf.
+published: 2024-03-29 16:30:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-europe-68693694#0
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14C3E/production/_133045058_gettyimages-2113339914.jpg

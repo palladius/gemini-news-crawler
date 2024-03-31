@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general15
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/world-latin-america-68698626#1
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: FDA issues alert on heart pump linked to 49 deaths
+url: https://www.bbc.co.uk/news/world-latin-america-68698626
+summary: The device, which is used to temporarily support a patient's heart, remains
+  on the market in the US.
+published: 2024-03-30 14:51:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-latin-america-68698626#1
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BE9A/production/_133049784_gettyimages-1032111798.jpg

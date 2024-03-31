@@ -1,0 +1,32 @@
+# [NewsFiler v1] NewsPaper: US general21
+# [NewsFiler v1] GUID: https://www.theguardian.com/commentisfree/2024/mar/30/trump-selling-bibles
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Trump selling Bibles may be desperation – but that shouldn’t cheer anyone up
+  | Arwa Mahdawi
+url: https://www.theguardian.com/commentisfree/2024/mar/30/trump-selling-bibles
+summary: <p>Despite mockery, Trump has sold trading cards, sneakers, cologne and perfume
+  – and manages to get the last laugh</p><p>In the beginning, God created the heavens
+  and the earth and, of course, Donald John Trump. The former US president, as we
+  all know, and as he has repeatedly told us, is God’s gift to humanity. He’s basically
+  <a href="https://www.theguardian.com/us-news/2024/mar/26/biden-trump-new-york-court-hearing">Jesus</a>
+  … if Jesus were a blond sexual <a href="https://www.theguardian.com/us-news/2023/may/10/trump-trial-verdict-white-house-2024-run">predator</a>
+  from Queens.</p> <a href="https://www.theguardian.com/commentisfree/2024/mar/30/trump-selling-bibles">Continue
+  reading...</a>
+author: Arwa Mahdawi
+categories:
+- Donald Trump
+- Kansas City Chiefs
+- Gaza
+- Israel-Gaza war
+- Joe Biden
+- Biden administration
+- Taliban
+- Abortion
+- Reproductive rights
+- US supreme court
+- Race
+- Women
+published: 2024-03-30 13:46:27.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/commentisfree/2024/mar/30/trump-selling-bibles
+image: https://i.guim.co.uk/img/media/182fdb98428aecee4ee42c211a403b595d2cb823/75_324_2413_1447/master/2413.jpg?width=140&quality=85&auto=format&fit=max&s=c0e3f1623f8a0e91b1596d37f6d85c3b

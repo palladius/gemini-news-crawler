@@ -1,0 +1,16 @@
+# [NewsFiler v1] NewsPaper: Repubblica - Home
+# [NewsFiler v1] GUID: rep-locali:repubblica:422401407
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Conte: “Questo governo delegittima i magistrati e fa la lotta all’antimafia”'
+url: https://www.repubblica.it/politica/2024/03/31/news/conte_intervista_governo_magistrati_sandokan_antimafia-422401407/
+summary: 'Intervista al leader del M5S: “Meloni sta indebolendo le norme anticorruzione
+  e spuntando le armi di inquirenti e giudici. Non spezza il legame tra politica e
+  affari”'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Politica
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401407
+updated: 2024-03-31 00:00:00.000000000 Z

@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: Al Jazeera - News
+# [NewsFiler v1] GUID: https://www.aljazeera.com/?t=1711862129
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Polls open in Turkey local elections in key test of Erdogan’s popularity
+url: https://www.aljazeera.com/news/2024/3/31/polls-open-in-turkey-local-elections-in-key-test-of-erdogans-popularity?traffic_source=rss
+summary: Vote will decide who gets to control Istanbul and capital Ankara, both of
+  which the Turkish president lost in 2019.
+categories:
+- News
+published: 2024-03-31 06:39:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711862129

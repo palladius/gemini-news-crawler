@@ -1,15 +1,19 @@
 class Article < ApplicationRecord
 
-  validates :title, uniqueness: true
+  validates :title, uniqueness: true, presence: true
+  validates :guid, uniqueness: true
 
   has_many :article_tags,
     primary_key: :id,
     foreign_key: :article_id,
-    class_name: 'ArticleTag'
+    class_name: 'ArticleTag',
+    dependent: :delete_all
 
   has_many :categories,
     through: :article_tags,
-    source: :category
+    source: :category,
+    dependent: :delete_all
+
 
   # https://stackoverflow.com/questions/18232623/create-related-objects-after-initialize-another-object-in-rails
   #after_initialize :set_categories

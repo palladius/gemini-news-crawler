@@ -10,6 +10,7 @@
 
 if ENV['DESTROY_ALL_BEFORE'] == 'YES_WHY_NOT'
   puts("DESTROY_ALL_BEFORE activated")
+  ArticleTag.delete_all
   Article.delete_all
   Category.delete_all
 else

@@ -32,8 +32,8 @@ require_relative './constants.rb'
 require_relative 'lib/news_cacher.rb'
 require_relative 'lib/news_filer.rb'
 
-MaxArticleSize = 5 # todo 100
-MaxNewsWebsites = 300 # todo 100
+MaxArticleSize = 10 # todo 100
+MaxNewsWebsites = 50 # todo 100
 RssCacheInvalidationMinutes = 15 # 15 minutes
 
 Useless = %w{ enclosure category guid language lastmod loc pubDate description link publication_date pub_date elevation dcterms

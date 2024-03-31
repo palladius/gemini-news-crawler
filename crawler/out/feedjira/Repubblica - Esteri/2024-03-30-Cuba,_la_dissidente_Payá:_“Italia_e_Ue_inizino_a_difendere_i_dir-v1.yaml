@@ -1,0 +1,20 @@
+# [NewsFiler v1] NewsPaper: Repubblica - Esteri
+# [NewsFiler v1] GUID: https://www.repubblica.it/esteri/2024/03/31/news/cuba_diritti_umani_intervista_dissidente_paya-422401426/?rss
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'Cuba, la dissidente Payá: “Italia e Ue inizino a difendere i diritti umani”'
+url: https://www.repubblica.it/esteri/2024/03/31/news/cuba_diritti_umani_intervista_dissidente_paya-422401426/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-30 23:00:00.000000000 Z
+enclosure_length: '66584'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/30/195908921-6cb858a4-8e2f-434e-8c15-8999d8336d2c.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/31/news/cuba_diritti_umani_intervista_dissidente_paya-422401426/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/30/195908921-6cb858a4-8e2f-434e-8c15-8999d8336d2c.jpg"
+  width="140" align="left" hspace="10"></a>“Chiadiamo la sospensione dell’accordo
+  di Dialogo politico e cooperazione attraverso il quale la Ue invia ogni anno al
+  regime milioni di euro”</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/cuba_diritti_umani_intervista_dissidente_paya-422401426/?rss

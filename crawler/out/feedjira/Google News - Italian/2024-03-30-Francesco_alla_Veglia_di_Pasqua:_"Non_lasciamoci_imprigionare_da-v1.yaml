@@ -1,0 +1,23 @@
+# [NewsFiler v1] NewsPaper: Google News - Italian
+# [NewsFiler v1] GUID: CBMiS2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YdIBT2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YS9hbXA
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Francesco alla Veglia di Pasqua: "Non lasciamoci imprigionare da macigni della
+  morte" - Sky Tg24 '
+url: https://news.google.com/rss/articles/CBMiS2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YdIBT2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YS9hbXA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiS2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YdIBT2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YS9hbXA?oc=5"
+  target="_blank">Francesco alla Veglia di Pasqua: "Non lasciamoci imprigionare da
+  macigni della morte"</a>&nbsp;&nbsp;<font color="#6f6f6f">Sky Tg24 </font></li><li><a
+  href="https://news.google.com/rss/articles/CBMia2h0dHBzOi8vd3d3LnRnY29tMjQubWVkaWFzZXQuaXQvY3JvbmFjYS9wYXBhLWZyYW5jZXNjby12ZWdsaWEtcGFzcXVhLTIwMjQtc2FuLXBpZXRyb183OTkyMTk2MS0yMDI0MDJrLnNodG1s0gE4aHR0cHM6Ly9hbXAudGdjb20yNC5tZWRpYXNldC5pdC90Z2NvbTI0L2FydGljbGUvNzk5MjE5NjE?oc=5"
+  target="_blank">Papa Francesco: "La Pasqua fa rotolare via i macigni della morte"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">TGCOM</font></li><li><a href="https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY3JvbmFjYS8yMDI0LzAzLzMxL25ld3MvcGFzcXVhX3BhcGFfZnJhbmNlc2NvX21lc3NhX3VyYmlfZXRfb3JiaS00MjI0MDE1MTYv0gEA?oc=5"
+  target="_blank">Papa Francesco celebra la messa di Pasqua in piazza San Pietro,
+  a mezzogiorno l''urbi et orbi</a>&nbsp;&nbsp;<font color="#6f6f6f">la Repubblica</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3LmF2dmVuaXJlLml0L3BhcGEvcGFnaW5lL3BhcGEtdmVnbGlhLXBhc3F1YWxlLW5vbi1waXUtbWFjaWduaS1kaS1tb3J0ZdIBVWh0dHBzOi8vd3d3LmF2dmVuaXJlLml0L2FtcC9wYXBhL3BhZ2luZS9wYXBhLXZlZ2xpYS1wYXNxdWFsZS1ub24tcGl1LW1hY2lnbmktZGktbW9ydGU?oc=5"
+  target="_blank">Il Papa: «Gesù Risorto rimuove i macigni della morte»</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Avvenire</font></li><li><a href="https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LnZhdGljYW5uZXdzLnZhL2l0L3BhcGEvbmV3cy8yMDI0LTAzL3BhcGEtdmVnbGlhLXBhc3F1YWxlLWdlc3Utcmlzb3J0by1wYWdpbmEtbnVvdmEtZ2VuZXJlLXVtYW5vLmh0bWzSAQA?oc=5"
+  target="_blank">Il Papa: Pasqua è speranza oltre i muri dell''egoismo e la ferocia
+  delle guerre</a>&nbsp;&nbsp;<font color="#6f6f6f">Vatican News - Italiano</font></li></ol>'
+published: 2024-03-30 23:43:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiS2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YdIBT2h0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMC92YXRpY2Fuby1wYXBhLWZyYW5jZXNjby1pbXBlZ25pLXBhc3F1YS9hbXA

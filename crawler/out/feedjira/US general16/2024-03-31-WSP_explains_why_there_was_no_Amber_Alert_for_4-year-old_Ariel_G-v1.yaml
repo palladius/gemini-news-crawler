@@ -1,0 +1,9 @@
+# [NewsFiler v1] NewsPaper: US general16
+# [NewsFiler v1] GUID: wsp-explains-why-no-amber-060053747.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: WSP explains why there was no Amber Alert for 4-year-old Ariel Garcia
+url: https://www.yahoo.com/news/wsp-explains-why-no-amber-060053747.html
+published: 2024-03-31 06:00:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: wsp-explains-why-no-amber-060053747.html

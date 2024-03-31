@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: Al Jazeera - News
+# [NewsFiler v1] GUID: https://www.aljazeera.com/?t=1711808637
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "‘Complicity’: Leaders, activists slam US for sending more arms to Israel"
+url: https://www.aljazeera.com/news/2024/3/30/complicity-leaders-activists-slam-us-for-sending-more-arms-to-israel?traffic_source=rss
+summary: Media reports say the US has agreed to transfer a new weapons package worth
+  $2.5bn to Israel amid its ongoing Gaza war.
+categories:
+- News
+published: 2024-03-30 16:21:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711808637

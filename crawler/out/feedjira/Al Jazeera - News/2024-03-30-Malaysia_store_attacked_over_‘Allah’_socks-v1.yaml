@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: Al Jazeera - News
+# [NewsFiler v1] GUID: https://www.aljazeera.com/?t=1711797842
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Malaysia store attacked over ‘Allah’ socks
+url: https://www.aljazeera.com/news/2024/3/30/malaysia-store-attacked-over-allah-socks?traffic_source=rss
+summary: The KK Super Mart chain apologised after photos of the socks on sale caused
+  widespread anger among Muslims.
+categories:
+- News
+published: 2024-03-30 13:43:08.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711797842

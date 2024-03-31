@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: US general14
+# [NewsFiler v1] GUID: https://www.huffpost.com/entry/un-court-orders-israel-to-open-more-aid-routes-into-gaza-strip_n_6605c0fde4b068637426fa01
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: UN Court Orders Israel To Open More Land-Based Aid Routes Into Gaza Strip
+url: https://www.huffpost.com/entry/un-court-orders-israel-to-open-more-aid-routes-into-gaza-strip_n_6605c0fde4b068637426fa01
+summary: Aid packages airdropped into Gaza have reportedly led to deaths of people
+  trying to recover them.
+published: 2024-03-28 19:25:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/un-court-orders-israel-to-open-more-aid-routes-into-gaza-strip_n_6605c0fde4b068637426fa01
+comments: https://www.huffpost.com/entry/un-court-orders-israel-to-open-more-aid-routes-into-gaza-strip_n_6605c0fde4b068637426fa01#comments
+content: "\n        Aid packages airdropped into Gaza have reportedly led to deaths
+  of people trying to recover them.\n      "

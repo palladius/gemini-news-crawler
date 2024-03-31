@@ -6,6 +6,7 @@ ruby "3.2.2"
 ################################
 # Riccardo start
 #gem "sqlite3", "~> 1.4"
+gem 'feedjira'
 # brew install postgresql@15
 # /Riccardo end
 ################################

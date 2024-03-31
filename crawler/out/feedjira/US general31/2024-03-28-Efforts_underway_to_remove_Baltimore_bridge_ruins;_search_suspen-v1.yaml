@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general31
+# [NewsFiler v1] GUID: https://www.latimes.com/california/story/2024-03-28/efforts-underway-to-remove-baltimore-bridge-ruins-search-suspended-for-4-workers-presumed-dead
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Efforts underway to remove Baltimore bridge ruins; search suspended for 4
+  workers presumed dead '
+url: https://www.latimes.com/california/story/2024-03-28/efforts-underway-to-remove-baltimore-bridge-ruins-search-suspended-for-4-workers-presumed-dead
+summary: "<p>Cleanup the wreckage of the collapsed Francis Scott Key Bridge in Baltimore
+  begins and authorities announce suspension of the search for four workers.</p>"
+author: Summer Lin
+published: 2024-03-28 16:04:33.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/california/story/2024-03-28/efforts-underway-to-remove-baltimore-bridge-ruins-search-suspended-for-4-workers-presumed-dead
+content: "<p>Cleanup the wreckage of the collapsed Francis Scott Key Bridge in Baltimore
+  begins and authorities announce suspension of the search for four workers.</p>"

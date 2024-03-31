@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: BCC Europe
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/sport/football/68692969#1
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'My job is not over here' - Alonso to stay at Leverkusen"
+url: https://www.bbc.co.uk/sport/football/68692969
+summary: Xabi Alonso announces he will remain as manager of Bayer Leverkusen beyond
+  this summer despite interest from Liverpool and Bayern Munich.
+published: 2024-03-29 15:28:46.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/sport/football/68692969#1
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1D0A/production/_133043470_gettyimages-2084423316.jpg

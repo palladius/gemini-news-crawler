@@ -1,0 +1,15 @@
+# [NewsFiler v1] NewsPaper: AdKronos - Ultim ora
+# [NewsFiler v1] GUID: https://www.adnkronos.com/internazionale/esteri/ostaggi-hamas-netanyahu-al-centro-delle-proteste-si-dimetta_4mTQJ6pBnEhbiVeYGDUx3C
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Ostaggi Hamas, Netanyahu al centro delle proteste: "Si dimetta"'
+url: https://www.adnkronos.com/internazionale/esteri/ostaggi-hamas-netanyahu-al-centro-delle-proteste-si-dimetta_4mTQJ6pBnEhbiVeYGDUx3C
+summary: '(Adnkronos) - In centinaia hanno manifestato a Caesarea vicino alla residenza
+  privata del premier israeliano. Corteo anche a Tel Aviv, 16 arresti. I parenti dei
+  rapiti: "E'' lui l''ostacolo all''accordo, condotta criminale"'
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-31 06:03:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/ostaggi-hamas-netanyahu-al-centro-delle-proteste-si-dimetta_4mTQJ6pBnEhbiVeYGDUx3C
+image: https://www.adnkronos.com/resources/028b-1a89df70d5ee-979f0cd8a593-1000/format/medium/israele_proteste_netanyahu_afp.jpeg

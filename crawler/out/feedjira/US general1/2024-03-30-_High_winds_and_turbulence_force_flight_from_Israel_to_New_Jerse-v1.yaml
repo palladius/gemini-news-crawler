@@ -1,0 +1,15 @@
+# [NewsFiler v1] NewsPaper: US general1
+# [NewsFiler v1] GUID: https://abcnews.go.com/US/wireStory/high-winds-turbulence-force-flight-israel-new-jersey-108673162
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " High winds and turbulence force flight from Israel to New Jersey to be diverted
+  to New York state"
+url: https://abcnews.go.com/US/wireStory/high-winds-turbulence-force-flight-israel-new-jersey-108673162
+summary: High winds and turbulence have forced a United Airlines flight from Israel
+  to be diverted from its destination of Newark Airport in New Jersey to Stewart International
+  Airport in New Windsor, New York
+categories:
+- US
+published: 2024-03-30 02:14:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://abcnews.go.com/US/wireStory/high-winds-turbulence-force-flight-israel-new-jersey-108673162
+image: https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg

@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general3
+# [NewsFiler v1] GUID: 8f974c84-5be0-4f29-9cc0-b259ed63e4cc
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Did a dentist accused of murder poison his wife's protein shakes?
+url: https://www.cbsnews.com/news/james-craig-colorado-dentist-accused-murder-angela-craig-poison-protein-shakes-48-hours/
+summary: Angela Craig's autopsy revealed she had been poisoned. Police claim the evidence
+  points to her husband James — alleging he purchased potassium cyanide and arsenic
+  and laced her protein shakes with poison.
+published: 2024-03-31 02:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 8f974c84-5be0-4f29-9cc0-b259ed63e4cc

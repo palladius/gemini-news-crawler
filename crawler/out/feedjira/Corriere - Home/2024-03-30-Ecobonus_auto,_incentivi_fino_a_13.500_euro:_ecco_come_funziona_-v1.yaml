@@ -1,0 +1,22 @@
+# [NewsFiler v1] NewsPaper: Corriere - Home
+# [NewsFiler v1] GUID: https://www.corriere.it/economia/consumi/24_marzo_30/ecobonus-auto-incentivi-fino-a-13-500-euro-come-funziona-e-chi-ne-ha-diritto-0636e8dc-90c9-49d9-b901-60b9cfa97xlk.shtml
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Ecobonus auto, incentivi fino a 13.500 euro: ecco come funziona e chi ne ha
+  diritto'
+url: https://www.corriere.it/economia/consumi/24_marzo_30/ecobonus-auto-incentivi-fino-a-13-500-euro-come-funziona-e-chi-ne-ha-diritto-0636e8dc-90c9-49d9-b901-60b9cfa97xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Economia/Foto%20Economia%20-%20Trattate/6608204c86ab2_ori_crop_MASTER__0x0.jpeg"
+  title="Ecobonus auto, incentivi fino a 13.500 euro: ecco come funziona e chi ne
+  ha diritto" alt="Ecobonus auto, incentivi fino a 13.500 euro: ecco come funziona
+  e chi ne ha diritto" /><p>La nuova tranche di ecobonus per auto, moto e veicoli
+  commerciali è in arrivo. Il decreto è pronto: a breve la firma della Presidenza
+  del ConsiglioLa nuova tranche di ecobonus per auto, moto e veicoli commerciali è
+  in arrivo. Il decreto è pronto: a breve la firma della Presidenza del ConsiglioLa
+  nuova tranche di ecobonus per auto, moto e veicoli commerciali è in arrivo. Il decreto
+  è pronto: a breve la firma della Presidenza del Consiglio</p>'
+author: Redazione Economia
+categories:
+- Economia
+published: 2024-03-30 16:09:28.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/economia/consumi/24_marzo_30/ecobonus-auto-incentivi-fino-a-13-500-euro-come-funziona-e-chi-ne-ha-diritto-0636e8dc-90c9-49d9-b901-60b9cfa97xlk.shtml

@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general9
+# [NewsFiler v1] GUID: https://www.nbcnews.com/health/parenting/everest-base-camp-young-children-rcna143586
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Meet the families who've taken children as young as 2 to Everest Base Camp
+url: https://www.nbcnews.com/health/parenting/everest-base-camp-young-children-rcna143586
+summary: A handful of families have taken children as young as 2 years old to Mount
+  Everest Base Camp in recent years. Three of them describe the experience.
+author: 'Aria Bendix '
+published: 2024-03-16 11:00:42.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/health/parenting/everest-base-camp-young-children-rcna143586
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240314-Hazel-Matulis-ew-609p-42e316.jpg

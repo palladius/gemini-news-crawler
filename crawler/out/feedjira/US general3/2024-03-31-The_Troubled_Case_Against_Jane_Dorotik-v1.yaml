@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general3
+# [NewsFiler v1] GUID: de869149-9c07-438b-b381-4791c32c0d12
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The Troubled Case Against Jane Dorotik
+url: https://www.cbsnews.com/video/the-troubled-case-against-jane-dorotik/
+summary: A woman convicted of murdering her husband discovers serious problems with
+  some key evidence used against her at trial. "48 Hours" correspondent Erin Moriarty
+  reports.
+published: 2024-03-31 06:01:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: de869149-9c07-438b-b381-4791c32c0d12

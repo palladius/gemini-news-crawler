@@ -1,0 +1,15 @@
+# [NewsFiler v1] NewsPaper: US general23
+# [NewsFiler v1] GUID: 66042eb99bd0541d0ad7554e
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The Shameless Oral Arguments in the Supreme Court’s Abortion-Pill Case
+url: https://www.newyorker.com/news/daily-comment/the-shameless-oral-arguments-in-the-supreme-courts-abortion-pill-case
+summary: Even some conservative Justices seemed unpersuaded by the Alliance for Hippocratic
+  Medicine’s claims.
+author: Amy Davidson Sorkin
+categories:
+- News / Daily Comment
+published: 2024-03-27 20:02:42.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 66042eb99bd0541d0ad7554e
+image: https://media.newyorker.com/photos/66043836ccb0afffa5de39a3/master/pass/ADS-Abortion-Pill-SCOTUS.jpg

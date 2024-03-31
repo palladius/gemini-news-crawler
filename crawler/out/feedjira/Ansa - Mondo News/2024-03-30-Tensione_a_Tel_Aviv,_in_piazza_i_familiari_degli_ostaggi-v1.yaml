@@ -1,0 +1,9 @@
+# [NewsFiler v1] NewsPaper: Ansa - Mondo News
+# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/tensione-a-tel-aviv-in-piazza-i-familiari-degli-ostaggi_8aeaf067-a5e2-4000-8b02-6ed57ec40f6d.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Tensione a Tel Aviv, in piazza i familiari degli ostaggi
+url: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/tensione-a-tel-aviv-in-piazza-i-familiari-degli-ostaggi_8aeaf067-a5e2-4000-8b02-6ed57ec40f6d.html
+summary: Migliaia chiedono che tornino loro cari. Scontri con la polizia
+published: 2024-03-30 19:23:21.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/tensione-a-tel-aviv-in-piazza-i-familiari-degli-ostaggi_8aeaf067-a5e2-4000-8b02-6ed57ec40f6d.html

@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general7
+# [NewsFiler v1] GUID: 708d29caf1d8c4ec2a7eb3fa14bf5e8d
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: US parents are having fewer children, later. What it means for society.
+url: https://www.csmonitor.com/USA/2024/0327/US-parents-are-having-fewer-children-later.-What-it-means-for-society?icid=rss
+author: Simon Montlake
+published: 2024-03-27 19:58:00.000000000 Z
+summary: People are having fewer children later in life. What do smaller families
+  mean for society?
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 708d29caf1d8c4ec2a7eb3fa14bf5e8d

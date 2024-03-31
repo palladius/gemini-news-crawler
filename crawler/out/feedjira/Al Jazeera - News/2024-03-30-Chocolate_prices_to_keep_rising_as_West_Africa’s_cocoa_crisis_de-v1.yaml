@@ -1,0 +1,13 @@
+# [NewsFiler v1] NewsPaper: Al Jazeera - News
+# [NewsFiler v1] GUID: https://www.aljazeera.com/?t=1711804858
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Chocolate prices to keep rising as West Africa’s cocoa crisis deepens
+url: https://www.aljazeera.com/gallery/2024/3/30/chocolate-prices-to-keep-rising-as-west-africas-cocoa-crisis-deepens?traffic_source=rss
+summary: Top growers in Ivory Coast and Ghana are facing catastrophic harvests, resulting
+  in record-high cocoa prices.
+categories:
+- News
+published: 2024-03-30 14:30:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711804858

@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general7
+# [NewsFiler v1] GUID: c5c37e5091cd706cc05d189f5fb45851
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Baltimore bridge collapse raises port safety issues
+url: https://www.csmonitor.com/USA/2024/0327/Baltimore-bridge-collapse-raises-port-safety-issues?icid=rss
+author: Sophie Hills
+published: 2024-03-27 21:39:00.000000000 Z
+summary: 'The collapse of a major Baltimore bridge after a cargo ship rammed it raises
+  safety issues. Such collisions are rare, but improvements are needed. '
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: c5c37e5091cd706cc05d189f5fb45851

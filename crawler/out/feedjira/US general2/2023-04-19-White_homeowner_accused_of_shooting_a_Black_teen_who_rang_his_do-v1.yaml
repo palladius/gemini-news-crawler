@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general2
+# [NewsFiler v1] GUID: https://www.cnn.com/2023/04/18/us/kansas-city-ralph-yarl-shooting-tuesday/index.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: White homeowner accused of shooting a Black teen who rang his doorbell turns
+  himself in to face criminal charges
+url: https://www.cnn.com/2023/04/18/us/kansas-city-ralph-yarl-shooting-tuesday/index.html
+summary: |-
+  • 'A major part of Ralph died': Aunt of teen shot after ringing wrong doorbell speaks
+  • 20-year-old woman shot after friend turned into the wrong driveway in upstate New York, officials say
+published: 2023-04-19 04:29:05.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/us/kansas-city-ralph-yarl-shooting-tuesday/index.html
+image: https://cdn.cnn.com/cnnnext/dam/assets/230417181520-03b-ralph-yarl-cropped-super-169.jpg

@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: BBC Politics
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/business-68688486#1
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Post-Brexit tax to hit UK car exports to Canada
+url: https://www.bbc.co.uk/news/business-68688486
+summary: A post-Brexit deal has expired with no new agreement, which leaving UK exports
+  to Canada subject to new tariffs.
+published: 2024-03-28 18:01:21.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/business-68688486#1
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B8C8/production/_133040374_cars.jpg

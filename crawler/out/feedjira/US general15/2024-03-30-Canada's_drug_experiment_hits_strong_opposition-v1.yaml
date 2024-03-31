@@ -1,0 +1,12 @@
+# [NewsFiler v1] NewsPaper: US general15
+# [NewsFiler v1] GUID: https://www.bbc.co.uk/news/world-us-canada-68621012#0
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Canada's drug experiment hits strong opposition
+url: https://www.bbc.co.uk/news/world-us-canada-68621012
+summary: The test policy to help address a deadly drug crisis in British Columbia
+  faces public backlash and political challenges.
+published: 2024-03-30 01:02:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/world-us-canada-68621012#0
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DA92/production/_133045955_guy6.jpg

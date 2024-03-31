@@ -1,0 +1,11 @@
+# [NewsFiler v1] NewsPaper: US general2
+# [NewsFiler v1] GUID: https://www.cnn.com/2023/04/18/entertainment/jake-gyllenhaal-jamie-lee-curtis-pandemic-living/index.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Jake Gyllenhaal and Jamie Lee Curtis spent the Covid-19 lockdown together
+url: https://www.cnn.com/2023/04/18/entertainment/jake-gyllenhaal-jamie-lee-curtis-pandemic-living/index.html
+summary: It's sourdough bread and handstands for Jake Gyllenhaal and Jamie Lee Curtis.
+published: 2023-04-18 14:40:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/entertainment/jake-gyllenhaal-jamie-lee-curtis-pandemic-living/index.html
+image: https://cdn.cnn.com/cnnnext/dam/assets/230418143926-jake-gyllenhaal-jamie-lee-curtis-041723-super-169.jpeg

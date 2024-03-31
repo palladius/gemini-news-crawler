@@ -1,0 +1,17 @@
+# [NewsFiler v1] NewsPaper: Repubblica - Home
+# [NewsFiler v1] GUID: rep-locali:repubblica:422401396
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Zelensky avverte gli Usa: “Senza gli aiuti militari ci dovremo ritirare”.
+  E nomina gli uomini per impostare una guerra di blitz contro la Russia'
+url: https://www.repubblica.it/esteri/2024/03/31/news/zelensky_ucraina_ritirata_armi_aiuti_usa_russia_putin-422401396/
+summary: 'Il leader ucraino al Washington Post: “Arretrare e accorciare la prima linea
+  è meglio che permettere ai russi di romperla e minacciare le grandi città”. Salgono
+  gli uomini di Budanov, esperti in campagne aggressive contro Mosca'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Esteri
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401396
+updated: 2024-03-31 00:00:00.000000000 Z

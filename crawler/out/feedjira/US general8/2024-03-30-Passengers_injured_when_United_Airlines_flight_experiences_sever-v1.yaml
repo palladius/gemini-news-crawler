@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general8
+# [NewsFiler v1] GUID: nn_gso_turbulence_injures_passengers_on_busy_travel_weekend_240330
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Passengers injured when United Airlines flight experiences severe turbulence
+url: https://www.nbcnews.com/nightly-news/video/passengers-injured-when-united-airlines-flight-experiences-severe-turbulence-208012869884
+summary: Seven passengers were injured when United Airlines Flight 85 from Tel Aviv
+  to Newark, New Jersey experienced several minutes of severe turbulence due to a
+  sudden change in wind direction. The flight was diverted to Stewart International
+  Airport, 70 miles north of New York City. NBC News’ George Solis reports.
+published: 2024-03-30 23:11:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: nn_gso_turbulence_injures_passengers_on_busy_travel_weekend_240330
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2024_03/1711840292628_nn_gso_turbulence_injures_passengers_on_busy_travel_weekend_240330_1920x1080-m5iy4n.jpg

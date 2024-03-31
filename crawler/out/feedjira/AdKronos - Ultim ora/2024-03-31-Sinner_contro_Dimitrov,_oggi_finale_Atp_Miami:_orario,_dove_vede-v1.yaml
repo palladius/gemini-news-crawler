@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: AdKronos - Ultim ora
+# [NewsFiler v1] GUID: https://www.adnkronos.com/sport/sinner-contro-dimitrov-oggi-finale-atp-miami-orario-dove-vederla_56a7OzsupCBYugtDQl71sM
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Sinner contro Dimitrov, oggi finale Atp Miami: orario, dove vederla'
+url: https://www.adnkronos.com/sport/sinner-contro-dimitrov-oggi-finale-atp-miami-orario-dove-vederla_56a7OzsupCBYugtDQl71sM
+summary: "(Adnkronos) - L'azzurro 22enne, testa di serie numero 2 e terzo giocatore
+  del mondo sfiderà il bulgaro classe 1991 che è a caccia del decimo titolo"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- sport
+published: 2024-03-31 06:45:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/sport/sinner-contro-dimitrov-oggi-finale-atp-miami-orario-dove-vederla_56a7OzsupCBYugtDQl71sM
+image: https://www.adnkronos.com/resources/028b-1a89ee5817f1-e9149c71d069-1000/format/medium/sinner_atpmiami_fg_ipa.jpeg

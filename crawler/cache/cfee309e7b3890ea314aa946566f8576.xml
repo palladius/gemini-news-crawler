@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Sat, 30 Mar 2024 21:01:56 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 31 Mar 2024 06:39:04 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,23 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.3</generator>
 			<item>
+				<link>https://www.aljazeera.com/news/2024/3/31/polls-open-in-turkey-local-elections-in-key-test-of-erdogans-popularity?traffic_source=rss</link>
+				<title>Polls open in Turkey local elections in key test of Erdogan’s popularity</title>
+				<description><![CDATA[Vote will decide who gets to control Istanbul and capital Ankara, both of which the Turkish president lost in 2019.]]></description>
+				<pubDate>Sun, 31 Mar 2024 06:39:04 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711862129</guid>
+							</item>
+					<item>
+				<link>https://www.aljazeera.com/news/2024/3/31/ramadan-2024-where-do-your-dates-come-from?traffic_source=rss</link>
+				<title>Ramadan 2024: Where do your dates come from?</title>
+				<description><![CDATA[Egypt, Saudi Arabia and Algeria produce nearly half the world’s dates.
+]]></description>
+				<pubDate>Sun, 31 Mar 2024 05:46:21 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711718482</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/news/2024/3/30/gaza-truce-talks-set-to-resume-as-thousands-protest-netanyahu-in-israel?traffic_source=rss</link>
 				<title>Gaza truce talks set to resume, as thousands protest Netanyahu in Israel</title>
 				<description><![CDATA[Negotiations on Sunday come after UN Security Council demanded a ceasefire this week, nearly six months into the war.]]></description>
@@ -203,22 +220,6 @@
 				<pubDate>Sat, 30 Mar 2024 06:59:58 +0000</pubDate>
 				<category>News</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711778038</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/3/30/pure-veg-fleet-how-indian-food-app-zomato-sparked-a-caste-purity-debate?traffic_source=rss</link>
-				<title>‘Pure veg fleet’: How Indian food app Zomato sparked a caste, purity debate</title>
-				<description><![CDATA[Delivery workers worry that vegetarian-only fleets today could pave the way for caste-based delivery systems tomorrow.]]></description>
-				<pubDate>Sat, 30 Mar 2024 04:06:23 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711730883</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/features/longform/2024/3/30/gaza-war-reminds-vietnam-of-liberation-struggle-once-shared-with-palestine?traffic_source=rss</link>
-				<title>Gaza war reminds Vietnam of liberation struggle once shared with Palestine</title>
-				<description><![CDATA[Israel&#039;s war on Gaza spurs Vietnam’s youth to rediscover solidarity with Palestinians and a shared revolutionary past.]]></description>
-				<pubDate>Sat, 30 Mar 2024 00:19:45 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1710942670</guid>
 							</item>
 			</channel>
 </rss>

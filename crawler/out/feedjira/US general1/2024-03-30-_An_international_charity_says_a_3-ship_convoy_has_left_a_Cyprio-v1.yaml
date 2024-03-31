@@ -1,0 +1,14 @@
+# [NewsFiler v1] NewsPaper: US general1
+# [NewsFiler v1] GUID: https://abcnews.go.com/US/wireStory/international-charity-3-ship-convoy-left-cypriot-port-108678661
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " An international charity says a 3-ship convoy has left a Cypriot port to
+  deliver 400 tons of food to war-devastated Gaza"
+url: https://abcnews.go.com/US/wireStory/international-charity-3-ship-convoy-left-cypriot-port-108678661
+summary: An international charity says a 3-ship convoy has left a Cypriot port to
+  deliver 400 tons of food to war-devastated Gaza
+categories:
+- US
+published: 2024-03-30 15:26:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://abcnews.go.com/US/wireStory/international-charity-3-ship-convoy-left-cypriot-port-108678661
+image: https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg

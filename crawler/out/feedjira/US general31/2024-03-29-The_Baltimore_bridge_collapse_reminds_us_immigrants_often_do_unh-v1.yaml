@@ -1,0 +1,16 @@
+# [NewsFiler v1] NewsPaper: US general31
+# [NewsFiler v1] GUID: https://www.latimes.com/world-nation/story/2024-03-29/the-baltimore-bridge-collapse-reminds-us-immigrants-often-do-unheralded-and-dangerous-work
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The Baltimore bridge collapse reminds us immigrants often do unheralded and
+  dangerous work
+url: https://www.latimes.com/world-nation/story/2024-03-29/the-baltimore-bridge-collapse-reminds-us-immigrants-often-do-unheralded-and-dangerous-work
+summary: "<p>Immigrants built America, but some politicians and pundits would like
+  us to believe that the great contributions of immigrants stopped somewhere in the
+  late 1800s.</p>"
+author: Lorraine Ali
+published: 2024-03-29 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-29/the-baltimore-bridge-collapse-reminds-us-immigrants-often-do-unheralded-and-dangerous-work
+content: "<p>Immigrants built America, but some politicians and pundits would like
+  us to believe that the great contributions of immigrants stopped somewhere in the
+  late 1800s.</p>"

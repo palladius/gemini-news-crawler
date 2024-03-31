@@ -1,0 +1,15 @@
+# [NewsFiler v1] NewsPaper: US general32
+# [NewsFiler v1] GUID: https://www.latimes.com/california/story/2024-03-28/california-supreme-court-mifepristone-abortion-pills-case
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: What the Supreme Court's abortion pill case could mean for California
+url: https://www.latimes.com/california/story/2024-03-28/california-supreme-court-mifepristone-abortion-pills-case
+summary: "<p>The high court is weighing a case that could rewrite the rules of care
+  in more than two-thirds of U.S. abortions, limiting access to a popular drug even
+  in states where it remains legal.</p>"
+author: Sonja Sharp
+published: 2024-03-28 10:00:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/california/story/2024-03-28/california-supreme-court-mifepristone-abortion-pills-case
+content: "<p>The high court is weighing a case that could rewrite the rules of care
+  in more than two-thirds of U.S. abortions, limiting access to a popular drug even
+  in states where it remains legal.</p>"

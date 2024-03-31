@@ -1,0 +1,65 @@
+# [NewsFiler v1] NewsPaper: US general37
+# [NewsFiler v1] GUID: https://time.com/?p=6104308
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Oil Company Took More Than 3 Hours to Stop Biggest California Oil Spill in
+  Decades
+url: https://time.com/6104308/amplify-california-oil-spill/
+summary: Following a low-pressure alarm around 2:30 a.m. on Oct. 2, Amplify Energy
+  didn’t shut the pipeline down until 6:01 a.m.
+author: Robert Tuttle and John Gittelsohn/Bloomberg
+categories:
+- Uncategorized
+- bloomberg wire
+- California
+- overnight
+published: 2021-10-06 05:48:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://time.com/?p=6104308
+content: "\n<aside class=\"right-rail__container right-rail__container--ad\"><div
+  class=\"right-rail__ad__wrapper right-rail__module\"><div class=\"right-rail__ad\"
+  id=\"right-rail__ad-6104308\"></div></div>\n<div class=\"OUTBRAIN right-rail__outbrain
+  right-rail__module video-2\" data-src=\"https://time.com/6104308/amplify-california-oil-spill/\"
+  data-widget-id=\"SB_4\" data-ob-template=\"timemag\"></div></aside>\n\n\t\t\t\t<img
+  decoding=\"async\" class=\"wp-block-gutenberg-custom-blocks-featured-media\" src=\"https://api.time.com/wp-content/uploads/2021/10/california-oil-spill-huntington-beach.jpg\"
+  alt=\"california-oil-spill-huntington-beach\"/>\n\t\t\t\t<p>Driller Amplify Energy
+  Corp. took more than three hours to halt California&rsquo;s worst oil spill in almost
+  three decades, according to a government report.</p><p>Following a low-pressure
+  alarm around 2:30 a.m. on Oct. 2 from its San Pedro Bay Pipeline, Amplify&rsquo;s
+  Beta Offshore unit didn&rsquo;t shut the pipeline down until 6:01 a.m., the U.S.
+  Department of Transportation&rsquo;s Pipeline and Hazardous Materials Safety Administration
+  <a href=\"https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2021-10/Beta%20Offshore%20CAO.10.04.2021.pdf\"
+  \ target=\"_blank\" rel=\"noopener noreferrer\" target=\"_blank\">said</a> in a
+  corrective action order Tuesday.</p><p>The company didn&rsquo;t return messages
+  seeking comment.</p><p>While all the details aren&rsquo;t known, &ldquo;the facts
+  that are stated are very concerning to us,&rdquo; said Bill Caram, executive director
+  of Pipeline Safety Trust, a group that engages with pipeline operators. Operational
+  reasons can cause a pipeline to lose pressure suddenly, but &ldquo;we would have
+  expected a pipeline to shut a line much faster than three hours&rdquo; and also
+  report it more quickly, he said.</p><p>The Golden State&rsquo;s largest oil leak
+  since a 1994 earthquake split open a pipeline spilled as much as 3,000 barrels along
+  the California coast, according to Amplify&rsquo;s estimates. The oil has drifted
+  southward, forced the closure of popular surfing beaches and sullied wetlands.</p><p>Divers
+  have found a 13-inch split in the pipeline that was &ldquo;the likely source of
+  the release of the oil,&rdquo; said U.S. Coast Guard spokesperson Rebecca Ore at
+  a briefing on Tuesday. About 4,000 feet of the pipeline was &ldquo;laterally displaced
+  by 105 feet.&rdquo;</p><p>Amplify CEO Martyn Willsher said at the briefing that
+  footage showed the pipeline was &ldquo;pulled like a bowstring.&rdquo; That type
+  of dislocation is &ldquo;not common,&rdquo; he added.</p><p>He said his company
+  didn&rsquo;t confirm the leak until about 8 a.m. that morning, when an oil sheen
+  on nearby waters was identified.</p><p>&ldquo;Regardless of the cause, we&rsquo;re
+  going to do everything we can to make things right,&rdquo; Willsher said.</p><p>After
+  shutting the pipeline, Beta didn&rsquo;t report the incident to the National Response
+  Center for another three hours, according to the report. Initial estimates indicated
+  that the pipeline released about 700 barrels, much less than the company&rsquo;s
+  number.</p><p>Beta Offshore was ordered to review and assess the effectiveness of
+  its emergency response plan, including &ldquo;the on-scene response and support,
+  coordination, notification, and communication with emergency responders and public
+  officials,&rdquo; according to the document. PHMSA didn&rsquo;t specify if the time
+  taken to shut the line and notify the National Response Center was too slow or adequate.</p><p>An
+  email and call to PHMSA regarding the appropriateness of the three hour wait wasn&rsquo;t
+  immediately returned.</p><p>The root cause of the accident remains unconfirmed but
+  &ldquo;preliminary reports indicate that the failure may have been caused by an
+  anchor that hooked the pipeline, causing a partial tear,&rdquo; according to the
+  order. There&rsquo;s no confirmation on a ship causing the leak.</p><p><em>&#8211;With
+  assistance from Mike Jeffers.</em></p>"

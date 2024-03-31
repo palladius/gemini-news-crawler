@@ -1,0 +1,10 @@
+# [NewsFiler v1] NewsPaper: US general16
+# [NewsFiler v1] GUID: part-19th-st-moline-undergo-050100357.html
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Part of 19th St. in Moline to undergo construction
+url: https://www.yahoo.com/news/part-19th-st-moline-undergo-050100357.html
+published: 2024-03-31 05:01:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: part-19th-st-moline-undergo-050100357.html
+image: https://media.zenfs.com/en/whbf_davenport_articles_271/a840e87d95d67ca404f6cde7caa46a2d

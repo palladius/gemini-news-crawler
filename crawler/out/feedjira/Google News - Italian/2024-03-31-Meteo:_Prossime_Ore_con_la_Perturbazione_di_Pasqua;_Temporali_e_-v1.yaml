@@ -1,0 +1,20 @@
+# [NewsFiler v1] NewsPaper: Google News - Italian
+# [NewsFiler v1] GUID: CBMiiwFodHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbWV0ZW8tcHJvc3NpbWUtb3JlLWNvbi1sYS1wZXJ0dXJiYXppb25lLWRpLXBhc3F1YS10ZW1wb3JhbGktZS1ncmFuZGluZS1zdS1hbGN1bmUtcmVnaW9uaS12ZWRpYW1vLWRvdmUtMDc0NTU30gGPAWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9tZXRlby1wcm9zc2ltZS1vcmUtY29uLWxhLXBlcnR1cmJhemlvbmUtZGktcGFzcXVhLXRlbXBvcmFsaS1lLWdyYW5kaW5lLXN1LWFsY3VuZS1yZWdpb25pLXZlZGlhbW8tZG92ZS0wNzQ1NTcvYW1w
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Meteo: Prossime Ore con la Perturbazione di Pasqua; Temporali e Grandine su
+  alcune regioni, vediamo dove - iLMeteo.it'
+url: https://news.google.com/rss/articles/CBMiiwFodHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbWV0ZW8tcHJvc3NpbWUtb3JlLWNvbi1sYS1wZXJ0dXJiYXppb25lLWRpLXBhc3F1YS10ZW1wb3JhbGktZS1ncmFuZGluZS1zdS1hbGN1bmUtcmVnaW9uaS12ZWRpYW1vLWRvdmUtMDc0NTU30gGPAWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9tZXRlby1wcm9zc2ltZS1vcmUtY29uLWxhLXBlcnR1cmJhemlvbmUtZGktcGFzcXVhLXRlbXBvcmFsaS1lLWdyYW5kaW5lLXN1LWFsY3VuZS1yZWdpb25pLXZlZGlhbW8tZG92ZS0wNzQ1NTcvYW1w?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiiwFodHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbWV0ZW8tcHJvc3NpbWUtb3JlLWNvbi1sYS1wZXJ0dXJiYXppb25lLWRpLXBhc3F1YS10ZW1wb3JhbGktZS1ncmFuZGluZS1zdS1hbGN1bmUtcmVnaW9uaS12ZWRpYW1vLWRvdmUtMDc0NTU30gGPAWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9tZXRlby1wcm9zc2ltZS1vcmUtY29uLWxhLXBlcnR1cmJhemlvbmUtZGktcGFzcXVhLXRlbXBvcmFsaS1lLWdyYW5kaW5lLXN1LWFsY3VuZS1yZWdpb25pLXZlZGlhbW8tZG92ZS0wNzQ1NTcvYW1w?oc=5"
+  target="_blank">Meteo: Prossime Ore con la Perturbazione di Pasqua; Temporali e
+  Grandine su alcune regioni, vediamo dove</a>&nbsp;&nbsp;<font color="#6f6f6f">iLMeteo.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmlsdGVtcG8uaXQvYXR0dWFsaXRhLzIwMjQvMDMvMzEvbmV3cy9tZXRlby1zb3R0b2Nvcm9uYS1wYXNxdWEtcGFzcXVldHRhLXBlZ2dpb3JhbWVudG8tc29ycHJlc2EtcHJldmlzaW9uaS0zODkwNjc0OC_SAQA?oc=5"
+  target="_blank">Meteo, a Pasqua si affaccia "il peggioramento". Sottocorona: sorpresa
+  a Pasquetta...</a>&nbsp;&nbsp;<font color="#6f6f6f">Il Tempo</font></li><li><a href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2N1bmVvLzIwMjQvMDMvMzEvbmV3cy9wYXNxdWFfY29uX2xhX3Bpb2dnaWFfYV9wYXNxdWV0dGFfaWxfcmVnYWxvX2RlbF9zb2xlLTE0MTg3NTkyL9IBAA?oc=5"
+  target="_blank">Pasqua con la pioggia, a Pasquetta il “regalo” del sole</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Stampa</font></li><li><a href="https://news.google.com/rss/articles/CBMiWWh0dHBzOi8vd3d3Lm1ldGVvLml0L25vdGl6aWUvbWV0ZW8tc2FiYXRvLXNhbnRvLWNvbi1waW9nZ2UtZS12ZW50aS1jYWxkby1hbm9tYWxvLTU4MzBlMjUx0gFdaHR0cHM6Ly93d3cubWV0ZW8uaXQvbm90aXppZS9tZXRlby1zYWJhdG8tc2FudG8tY29uLXBpb2dnZS1lLXZlbnRpLWNhbGRvLWFub21hbG8tNTgzMGUyNTEvYW1w?oc=5"
+  target="_blank">Meteo: sabato santo con piogge e forti venti. Caldo anomalo al Sud</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">METEO.IT</font></li></ol>'
+published: 2024-03-31 06:11:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiiwFodHRwczovL3d3dy5pbG1ldGVvLml0L25vdGl6aWUvbWV0ZW8tcHJvc3NpbWUtb3JlLWNvbi1sYS1wZXJ0dXJiYXppb25lLWRpLXBhc3F1YS10ZW1wb3JhbGktZS1ncmFuZGluZS1zdS1hbGN1bmUtcmVnaW9uaS12ZWRpYW1vLWRvdmUtMDc0NTU30gGPAWh0dHBzOi8vd3d3LmlsbWV0ZW8uaXQvbm90aXppZS9tZXRlby1wcm9zc2ltZS1vcmUtY29uLWxhLXBlcnR1cmJhemlvbmUtZGktcGFzcXVhLXRlbXBvcmFsaS1lLWdyYW5kaW5lLXN1LWFsY3VuZS1yZWdpb25pLXZlZGlhbW8tZG92ZS0wNzQ1NTcvYW1w

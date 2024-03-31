@@ -1,0 +1,15 @@
+# [NewsFiler v1] NewsPaper: US general23
+# [NewsFiler v1] GUID: 65fc4ab36eb25857b37d8539
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Why Robert Hur Called Biden an “Elderly Man with a Poor Memory”
+url: https://www.newyorker.com/news/daily-comment/the-impossible-role-of-robert-hur
+summary: In his first interview after the release of his controversial report, the
+  former special counsel insists that it was not his job to write for the public.
+author: Jeannie Suk Gersen
+categories:
+- News / Daily Comment
+published: 2024-03-22 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65fc4ab36eb25857b37d8539
+image: https://media.newyorker.com/photos/65fc8ba8eac688c6bc30d5f4/master/pass/Gersen_Robert_Hur.jpg
