@@ -4,8 +4,8 @@
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: Israeli military says it killed Hezbollah commander Ismail al-Zin
 url: https://www.aljazeera.com/news/2024/3/31/israeli-military-says-it-killed-hezbollah-commander-ismail-al-zin?traffic_source=rss
-summary: The commander, Ismail al-Zin, worked in the anti-tank missile unit of Hezbollah&#039;s
-  Radwan forces.
+summary: The commander worked in the anti-tank missile unit of Hezbollah&#039;s Radwan
+  forces.
 categories:
 - News
 published: 2024-03-31 20:04:03.000000000 Z

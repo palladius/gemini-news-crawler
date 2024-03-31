@@ -9,18 +9,18 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 31 Mar 2024 21:33:48 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Mar 2024 22:04:44 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Jeffrey Donaldson: From the White House to Antrim police station]]></title>
-            <description><![CDATA[How the Jeffrey Donaldson story unfolded, a world away from St Patrick's Day festivities.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68692428</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68692428#0</guid>
-            <pubDate>Sat, 30 Mar 2024 11:53:35 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9212/production/_133049373_washington.jpg"/>
+            <title><![CDATA[Government pledges support for Stormont stability]]></title>
+            <description><![CDATA[It follows the resignation of Sir Jeffrey Donaldson as DUP leader after he was charged with historical sex offences.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68703959</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68703959#0</guid>
+            <pubDate>Sun, 31 Mar 2024 17:09:49 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3093/production/_133053421_1be07e8640acd7889e2509471780dcfd56a4f8ad.jpg"/>
         </item>
         <item>
             <title><![CDATA[Another moment of instability for Northern Ireland]]></title>
@@ -285,6 +285,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68615798#2</guid>
             <pubDate>Wed, 20 Mar 2024 11:16:14 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16AF5/production/_132971929_p0hkr8yg.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jeffrey Donaldson: From the White House to Antrim police station]]></title>
+            <description><![CDATA[How the Jeffrey Donaldson story unfolded, a world away from St Patrick's Day festivities.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68692428</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68692428#3</guid>
+            <pubDate>Sat, 30 Mar 2024 11:53:35 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9212/production/_133049373_washington.jpg"/>
         </item>
         <item>
             <title><![CDATA[Yousaf: a challenging first year as first minister]]></title>

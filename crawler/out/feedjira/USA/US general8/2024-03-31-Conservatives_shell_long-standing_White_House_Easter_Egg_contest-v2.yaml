@@ -2,7 +2,7 @@
 # [NewsFiler v2] GUID: https://www.nbcnews.com/politics/white-house/conservatives-shell-decades-long-white-house-easter-egg-contest-rcna145771
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
-title: Conservatives shell long-standing White House Easter Egg contest
+title: Conservatives shell long-standing White House Easter egg contest
 url: https://www.nbcnews.com/politics/white-house/conservatives-shell-decades-long-white-house-easter-egg-contest-rcna145771
 summary: Several conservative outlets did not "yolk" around this weekend when covering
   the White House's annual Easter celebrations, accusing it of banning religious themes
