@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMibWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Nyb25hY2hlLzI0X21hcnpvXzMxL3BhcGEtZnJhbmNlc2NvLXBhc3F1YS05OGYxNTY1MC1lZjQ0LTExZWUtYmYwNy02NTM0NjAzOTcwZTUuc2h0bWzSAXBodHRwczovL3d3dy5jb3JyaWVyZS5pdC9jcm9uYWNoZS8yNF9tYXJ6b18zMS9wYXBhLWZyYW5jZXNjby1wYXNxdWEtOThmMTU2NTAtZWY0NC0xMWVlLWJmMDctNjUzNDYwMzk3MGU1X2FtcC5odG1s
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Messa di Pasqua, Papa Francesco: «Scambio dei prigionieri in Ucraina, tutti
+  per tutti, e tregua a Gaza.... - Corriere della Sera'
+url: https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Nyb25hY2hlLzI0X21hcnpvXzMxL3BhcGEtZnJhbmNlc2NvLXBhc3F1YS05OGYxNTY1MC1lZjQ0LTExZWUtYmYwNy02NTM0NjAzOTcwZTUuc2h0bWzSAXBodHRwczovL3d3dy5jb3JyaWVyZS5pdC9jcm9uYWNoZS8yNF9tYXJ6b18zMS9wYXBhLWZyYW5jZXNjby1wYXNxdWEtOThmMTU2NTAtZWY0NC0xMWVlLWJmMDctNjUzNDYwMzk3MGU1X2FtcC5odG1s?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Nyb25hY2hlLzI0X21hcnpvXzMxL3BhcGEtZnJhbmNlc2NvLXBhc3F1YS05OGYxNTY1MC1lZjQ0LTExZWUtYmYwNy02NTM0NjAzOTcwZTUuc2h0bWzSAXBodHRwczovL3d3dy5jb3JyaWVyZS5pdC9jcm9uYWNoZS8yNF9tYXJ6b18zMS9wYXBhLWZyYW5jZXNjby1wYXNxdWEtOThmMTU2NTAtZWY0NC0xMWVlLWJmMDctNjUzNDYwMzk3MGU1X2FtcC5odG1s?oc=5"
+  target="_blank">Messa di Pasqua, Papa Francesco: «Scambio dei prigionieri in Ucraina,
+  tutti per tutti, e tregua a Gaza....</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMicWh0dHBzOi8vd3d3LmxpYmVyby5pdC90di9icmVha2luZy1uZXdzLWRlbGxlLTIxMzAtLWlsLXBhcGEtbW9zY2EtZS1raWV2LXNjYW1iaW5vLWktcHJpZ2lvbmllcmlfbXNGRDAwMDAwMDAwNDIyODk10gEA?oc=5"
+  target="_blank">Breaking News delle 21.30 | Il Papa: "Mosca e Kiev scambino i prigionieri</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Libero Tv </font></li><li><a href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LnZhdGljYW5uZXdzLnZhL2l0L3BhcGEvbmV3cy8yMDI0LTAzL3BhcGEtZnJhbmNlc2NvLXVyYmktZXQtb3JiaS1wYWNlLWlzcmFlbGUtcGFsZXN0aW5hLXVjcmFpbmEuaHRtbNIBAA?oc=5"
+  target="_blank">Urbi et Orbi, il Papa: la pace non si costruisce con le armi, ma
+  tendendo le mani e aprendo i cuori</a>&nbsp;&nbsp;<font color="#6f6f6f">Vatican
+  News - Italiano</font></li><li><a href="https://news.google.com/rss/articles/CBMia2h0dHBzOi8vd3d3LnRnY29tMjQubWVkaWFzZXQuaXQvY3JvbmFjYS9wYXNxdWEtcGFwYS1mcmFuY2VzY28tbWVzc2FnZ2lvLXVyYmktZXQtb3JiaV83OTk1MDkzMC0yMDI0MDJrLnNodG1s0gE4aHR0cHM6Ly9hbXAudGdjb20yNC5tZWRpYXNldC5pdC90Z2NvbTI0L2FydGljbGUvNzk5NTA5MzA?oc=5"
+  target="_blank">Papa Francesco: ci sia scambio di prigionieri tra Mosca e Kiev|
+  "Rilasciare gli ostaggi a Gaza, cessate il fuoco nella Striscia"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">TGCOM</font></li><li><a href="https://news.google.com/rss/articles/CBMihwFodHRwczovL3d3dy5pbGZhdHRvcXVvdGlkaWFuby5pdC8yMDI0LzAzLzMxL2lsLXBhcGEtbGEtcGFjZS1ub24tc2ktY29zdHJ1aXNjZS1jb24tbGUtYXJtaS1mZXJtYXJlLWktdmVudGktZGktZ3VlcnJhLXN1bGxldXJvcGEvNzQ5NzM0OS_SAYsBaHR0cHM6Ly93d3cuaWxmYXR0b3F1b3RpZGlhbm8uaXQvMjAyNC8wMy8zMS9pbC1wYXBhLWxhLXBhY2Utbm9uLXNpLWNvc3RydWlzY2UtY29uLWxlLWFybWktZmVybWFyZS1pLXZlbnRpLWRpLWd1ZXJyYS1zdWxsZXVyb3BhLzc0OTczNDkvYW1wLw?oc=5"
+  target="_blank">Il Papa: “La pace non si costruisce con le armi. Fermare i venti
+  di guerra sull’Europa”</a>&nbsp;&nbsp;<font color="#6f6f6f">Il Fatto Quotidiano</font></li></ol>'
+published: 2024-03-31 10:18:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMibWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Nyb25hY2hlLzI0X21hcnpvXzMxL3BhcGEtZnJhbmNlc2NvLXBhc3F1YS05OGYxNTY1MC1lZjQ0LTExZWUtYmYwNy02NTM0NjAzOTcwZTUuc2h0bWzSAXBodHRwczovL3d3dy5jb3JyaWVyZS5pdC9jcm9uYWNoZS8yNF9tYXJ6b18zMS9wYXBhLWZyYW5jZXNjby1wYXNxdWEtOThmMTU2NTAtZWY0NC0xMWVlLWJmMDctNjUzNDYwMzk3MGU1X2FtcC5odG1s
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiXmh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL25hdGlvbi8yMDI0LzAzLzMxL2hvdXNlLWZpcmUta2lsbHMtZmlyZS1jaGllZi83MzE2MDk4OTAwNy_SAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 2 people charged in connection with house blaze that led to death of NC fire
+  chief - USA TODAY
+url: https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL25hdGlvbi8yMDI0LzAzLzMxL2hvdXNlLWZpcmUta2lsbHMtZmlyZS1jaGllZi83MzE2MDk4OTAwNy_SAQA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL25hdGlvbi8yMDI0LzAzLzMxL2hvdXNlLWZpcmUta2lsbHMtZmlyZS1jaGllZi83MzE2MDk4OTAwNy_SAQA?oc=5"
+  target="_blank">2 people charged in connection with house blaze that led to death
+  of NC fire chief</a>&nbsp;&nbsp;<font color="#6f6f6f">USA TODAY</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiVWh0dHBzOi8vd3d3LndyYWwuY29tL3N0b3J5L25jLWZpcmUtY2FwdGFpbi1kaWVzLWZyb20taW5qdXJpZXMtaW4taG91c2UtZmlyZS8yMTM1NTA4MS_SASJodHRwczovL3d3dy53cmFsLmNvbS9hbXAvMjEzNTUwODEv?oc=5"
+  target="_blank">NC fire captain dies from injuries in house fire</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">WRAL News</font></li><li><a href="https://news.google.com/rss/articles/CBMi0AFodHRwczovL3d3dy53Zm15bmV3czIuY29tL2FydGljbGUvbmV3cy9sb2NhbC9sZXhpbmd0b24tZmlyZS1maWdodGVyLWZpcmVmaWdodGVyLXJvbm5pZS1tZXRjYWxmLWRlcGFydG1lbnQtaG91c2UtZmlyZS1kZWF0aC10cmlhZC1icm90aGVyaG9vZC1zaXN0ZXJob29kLWZhbWlseS1jb21tdW5pdHkvODMtODZhNGU4NGItNzA1YS00NjMwLTk2NjctODBiZWVkYmZlNGNm0gEA?oc=5"
+  target="_blank">The death of a Lexington firefighter shakes departments across the
+  Triad</a>&nbsp;&nbsp;<font color="#6f6f6f">WFMYNews2.com</font></li><li><a href="https://news.google.com/rss/articles/CBMijgFodHRwczovL215Zm94OC5jb20vbmV3cy9ub3J0aC1jYXJvbGluYS9waWVkbW9udC10cmlhZC8yLWNoYXJnZWQtaW4tY29ubmVjdGlvbi10by1ob3VzZS1maXJlLXRoYXQta2lsbGVkLWxleGluZ3Rvbi1maXJlLWNhcHRhaW4tcm9ubmllLW1ldGNhbGYv0gGSAWh0dHBzOi8vbXlmb3g4LmNvbS9uZXdzL25vcnRoLWNhcm9saW5hL3BpZWRtb250LXRyaWFkLzItY2hhcmdlZC1pbi1jb25uZWN0aW9uLXRvLWhvdXNlLWZpcmUtdGhhdC1raWxsZWQtbGV4aW5ndG9uLWZpcmUtY2FwdGFpbi1yb25uaWUtbWV0Y2FsZi9hbXAv?oc=5"
+  target="_blank">2 charged in connection to house fire that killed Lexington Fire
+  Captain Ronnie Metcalf</a>&nbsp;&nbsp;<font color="#6f6f6f">WGHP FOX8 Greensboro</font></li></ol>
+published: 2024-03-31 18:18:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiXmh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9uZXdzL25hdGlvbi8yMDI0LzAzLzMxL2hvdXNlLWZpcmUta2lsbHMtZmlyZS1jaGllZi83MzE2MDk4OTAwNy_SAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

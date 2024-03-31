@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMicmh0dHBzOi8vd3d3LmluZGVwZW5kZW50LmNvLnVrL25ld3Mvd29ybGQvYW1lcmljYXMvYmFsdGltb3JlLWtleS1icmlkZ2UtY29sbGFwc2UtZGVhdGhzLWNyYW5lLXVwZGF0ZXMtYjI1MjExOTkuaHRtbNIBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Baltimore Key Bridge collapse latest news: Workers start removing piece of
+  wreckage - The Independent'
+url: https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LmluZGVwZW5kZW50LmNvLnVrL25ld3Mvd29ybGQvYW1lcmljYXMvYmFsdGltb3JlLWtleS1icmlkZ2UtY29sbGFwc2UtZGVhdGhzLWNyYW5lLXVwZGF0ZXMtYjI1MjExOTkuaHRtbNIBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LmluZGVwZW5kZW50LmNvLnVrL25ld3Mvd29ybGQvYW1lcmljYXMvYmFsdGltb3JlLWtleS1icmlkZ2UtY29sbGFwc2UtZGVhdGhzLWNyYW5lLXVwZGF0ZXMtYjI1MjExOTkuaHRtbNIBAA?oc=5"
+  target="_blank">Baltimore Key Bridge collapse latest news: Workers start removing
+  piece of wreckage</a>&nbsp;&nbsp;<font color="#6f6f6f">The Independent</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiVWh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMS91cy9mcmFuY2lzLXNjb3R0LWtleS1icmlkZ2UtY29sbGFwc2Utc3VuZGF5L2luZGV4Lmh0bWzSAU5odHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMxL3VzL2ZyYW5jaXMtc2NvdHQta2V5LWJyaWRnZS1jb2xsYXBzZS1zdW5kYXk?oc=5"
+  target="_blank">Crews remove first pieces of collapsed Baltimore bridge from the
+  water</a>&nbsp;&nbsp;<font color="#6f6f6f">CNN</font></li><li><a href="https://news.google.com/rss/articles/CBMiV2h0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzEvdXMvcG9saXRpY3MvYnV0dGlnaWVnLWNvbmdyZXNzLWJhbHRpbW9yZS1icmlkZ2UuaHRtbNIBAA?oc=5"
+  target="_blank">Buttigieg Calls on Congress for More Money to Collapsed Baltimore
+  Bridge</a>&nbsp;&nbsp;<font color="#6f6f6f">The New York Times</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5mb3hidXNpbmVzcy5jb20vZWNvbm9teS9tYXJ5bGFuZC1nb3Ytd2FybnMtYnJpZGdlLWNvbGxhcHNlLXdpbGwtaGF2ZS1tYXNzaXZlLWltcGFjdC11cy1lY29ub215LWFjcm9zcy1tdWx0aXBsZS1pbmR1c3RyaWVz0gGJAWh0dHBzOi8vd3d3LmZveGJ1c2luZXNzLmNvbS9lY29ub215L21hcnlsYW5kLWdvdi13YXJucy1icmlkZ2UtY29sbGFwc2Utd2lsbC1oYXZlLW1hc3NpdmUtaW1wYWN0LXVzLWVjb25vbXktYWNyb3NzLW11bHRpcGxlLWluZHVzdHJpZXMuYW1w?oc=5"
+  target="_blank">Maryland governor warns bridge collapse will have ''massive impact''
+  on US economy across multiple industries</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox
+  Business</font></li><li><a href="https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9idXNpbmVzcy8yMDI0LzAzLzMxL2JhbHRpbW9yZS1wb3J0LWVjb25vbXkv0gEA?oc=5"
+  target="_blank">Baltimore braces for economic hit amid fears port shuttered for
+  months</a>&nbsp;&nbsp;<font color="#6f6f6f">The Washington Post</font></li></ol>'
+published: 2024-03-31 16:50:54.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMicmh0dHBzOi8vd3d3LmluZGVwZW5kZW50LmNvLnVrL25ld3Mvd29ybGQvYW1lcmljYXMvYmFsdGltb3JlLWtleS1icmlkZ2UtY29sbGFwc2UtZGVhdGhzLWNyYW5lLXVwZGF0ZXMtYjI1MjExOTkuaHRtbNIBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiT2h0dHBzOi8vd3d3LnBob25lYXJlbmEuY29tL25ld3MvZ29vZ2xlLXBvZGNhc3RzLWFwcC10by1jbG9zZS1uZXh0LXdlZWtfaWQxNTY4MjbSAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Google Podcasts app closes Tuesday; Google recommends that users migrate to
+  this app - PhoneArena
+url: https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3LnBob25lYXJlbmEuY29tL25ld3MvZ29vZ2xlLXBvZGNhc3RzLWFwcC10by1jbG9zZS1uZXh0LXdlZWtfaWQxNTY4MjbSAQA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3LnBob25lYXJlbmEuY29tL25ld3MvZ29vZ2xlLXBvZGNhc3RzLWFwcC10by1jbG9zZS1uZXh0LXdlZWtfaWQxNTY4MjbSAQA?oc=5"
+  target="_blank">Google Podcasts app closes Tuesday; Google recommends that users
+  migrate to this app</a>&nbsp;&nbsp;<font color="#6f6f6f">PhoneArena</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMifGh0dHBzOi8vd3d3LmZvcmJlcy5jb20vc2l0ZXMvZGF2ZXl3aW5kZXIvMjAyNC8wMy8zMS9wb3B1bGFyLWdvb2dsZS1hcHAtd2lsbC1zdG9wLXdvcmtpbmctaW4tMy1kYXlzLWhvdy10by1taWdyYXRlLXlvdXItZGF0YS_SAQA?oc=5"
+  target="_blank">This Popular Google App Will Stop Working In 3 Days—How To Migrate
+  Your Data</a>&nbsp;&nbsp;<font color="#6f6f6f">Forbes</font></li><li><a href="https://news.google.com/rss/articles/CBMiVmh0dHBzOi8vd3d3LnRoZXZlcmdlLmNvbS8yMDI0LzMvMzAvMjQxMTY2OTAvdGhlLWdvb2dsZS1wb2RjYXN0cy1hcHBzLXRpbWUtaXMtYWxtb3N0LXVw0gEA?oc=5"
+  target="_blank">Google Podcasts' time is almost up.</a>&nbsp;&nbsp;<font color="#6f6f6f">The
+  Verge</font></li><li><a href="https://news.google.com/rss/articles/CBMibmh0dHBzOi8vZGVhZGxpbmUuY29tLzIwMjQvMDMvZ29vZ2xlLXBvZGNhc3RzLXNodXR0aW5nLWRvd24tY29udGVudC1wcm9kdWNlcnMtbWlncmF0ZS15b3V0dWJlLW11c2ljLTEyMzU4NzI0MzUv0gFyaHR0cHM6Ly9kZWFkbGluZS5jb20vMjAyNC8wMy9nb29nbGUtcG9kY2FzdHMtc2h1dHRpbmctZG93bi1jb250ZW50LXByb2R1Y2Vycy1taWdyYXRlLXlvdXR1YmUtbXVzaWMtMTIzNTg3MjQzNS9hbXAv?oc=5"
+  target="_blank">Google Podcasts Shutting Down, Content Producers Urged To Migrate
+  To YouTube Music</a>&nbsp;&nbsp;<font color="#6f6f6f">Deadline</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vd3d3LmJsZWVwaW5nY29tcHV0ZXIuY29tL25ld3MvZ29vZ2xlL2dvb2dsZS1wb2RjYXN0cy1zZXJ2aWNlLXNodXRzLWRvd24taW4tdGhlLXVzLW5leHQtd2Vlay_SAWhodHRwczovL3d3dy5ibGVlcGluZ2NvbXB1dGVyLmNvbS9uZXdzL2dvb2dsZS9nb29nbGUtcG9kY2FzdHMtc2VydmljZS1zaHV0cy1kb3duLWluLXRoZS11cy1uZXh0LXdlZWsvYW1wLw?oc=5"
+  target="_blank">Google Podcasts service shuts down in the US next week</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">BleepingComputer</font></li></ol>
+published: 2024-03-31 04:38:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiT2h0dHBzOi8vd3d3LnBob25lYXJlbmEuY29tL25ld3MvZ29vZ2xlLXBvZGNhc3RzLWFwcC10by1jbG9zZS1uZXh0LXdlZWtfaWQxNTY4MjbSAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

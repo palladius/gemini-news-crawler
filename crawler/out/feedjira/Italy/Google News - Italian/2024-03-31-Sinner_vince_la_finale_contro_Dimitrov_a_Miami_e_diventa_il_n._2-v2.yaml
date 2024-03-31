@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMirAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9zcG9ydC90ZW5uaXMvMjAyNC8wMy8zMS9zaW5uZXItdmluY2UtbGEtZmluYWxlLWNvbnRyby1kaW1pdHJvdi1hLW1pYW1pLWUtZGl2ZW50YS1pbC1uLi0yLWFsLW1vbmRvX2I5NjM0NDE4LWI2ZjItNGRjZi04YzdiLTIxN2E5NTliY2IzMy5odG1s0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Sinner vince la finale contro Dimitrov a Miami e diventa il n. 2 al mondo -
+  Tennis - Ansa.it - Agenzia ANSA
+url: https://news.google.com/rss/articles/CBMirAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9zcG9ydC90ZW5uaXMvMjAyNC8wMy8zMS9zaW5uZXItdmluY2UtbGEtZmluYWxlLWNvbnRyby1kaW1pdHJvdi1hLW1pYW1pLWUtZGl2ZW50YS1pbC1uLi0yLWFsLW1vbmRvX2I5NjM0NDE4LWI2ZjItNGRjZi04YzdiLTIxN2E5NTliY2IzMy5odG1s0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMirAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9zcG9ydC90ZW5uaXMvMjAyNC8wMy8zMS9zaW5uZXItdmluY2UtbGEtZmluYWxlLWNvbnRyby1kaW1pdHJvdi1hLW1pYW1pLWUtZGl2ZW50YS1pbC1uLi0yLWFsLW1vbmRvX2I5NjM0NDE4LWI2ZjItNGRjZi04YzdiLTIxN2E5NTliY2IzMy5odG1s0gEA?oc=5"
+  target="_blank">Sinner vince la finale contro Dimitrov a Miami e diventa il n. 2
+  al mondo - Tennis - Ansa.it</a>&nbsp;&nbsp;<font color="#6f6f6f">Agenzia ANSA</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vc3BvcnQuc2t5Lml0L3Rlbm5pcy8yMDI0LzAzLzMxL3Npbm5lci1kaW1pdHJvdi1hdHAtbWlhbWktcmlzdWx0YXRv0gFOaHR0cHM6Ly9zcG9ydC5za3kuaXQvdGVubmlzLzIwMjQvMDMvMzEvc2lubmVyLWRpbWl0cm92LWF0cC1taWFtaS1yaXN1bHRhdG8vYW1w?oc=5"
+  target="_blank">Sinner conquista Miami e diventa n. 2: Dimitrov ko</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Sky Sport</font></li><li><a href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LnViaXRlbm5pcy5jb20vYmxvZy8yMDI0LzAzLzMxL2xpdmUtYXRwLW1pYW1pLWZpbmFsZS1zaW5uZXItZGltaXRyb3YtcHJvbnRpLWEtZ2lvY2Fyc2ktaWwtdGl0b2xvL9IBcGh0dHBzOi8vd3d3LnViaXRlbm5pcy5jb20vYmxvZy8yMDI0LzAzLzMxL2xpdmUtYXRwLW1pYW1pLWZpbmFsZS1zaW5uZXItZGltaXRyb3YtcHJvbnRpLWEtZ2lvY2Fyc2ktaWwtdGl0b2xvL2FtcC8?oc=5"
+  target="_blank">LIVE ATP Miami, finale: Sinner avanti di un break, Jannik conduce
+  4-2 su Dimitrov</a>&nbsp;&nbsp;<font color="#6f6f6f">Ubitennis</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vd3d3LmdhenpldHRhLml0L1Rlbm5pcy9BVFAvMzEtMDMtMjAyNC9zaW5uZXItdHV0dGktaS1yZWNvcmQtZGVsLW51b3ZvLW51bWVyby0yLnNodG1s0gFgaHR0cHM6Ly93d3cuZ2F6emV0dGEuaXQvVGVubmlzL0FUUC8zMS0wMy0yMDI0L3Npbm5lci10dXR0aS1pLXJlY29yZC1kZWwtbnVvdm8tbnVtZXJvLTJfYW1wLnNodG1s?oc=5"
+  target="_blank">Primo italiano numero 2 e non solo: ecco tutti i record di Jannik</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Gazzetta dello Sport</font></li><li><a href="https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5ldXJvc3BvcnQuaXQvdGVubmlzL2F0cC1taWFtaS8yMDI0L2phbm5pay1zaW5uZXItdmluY2UtaWwtdGl0b2xvLWEtbWlhbWktZWQtZS1pbC1udW92by1uMi1kZWwtbW9uZG8tZGltaXRyb3Ytc2ktYXJyZW5kZS1pbi0yLXNldF9zdG8xMDA4NjYyOS9zdG9yeS5zaHRtbNIBAA?oc=5"
+  target="_blank">Jannik Sinner vince il titolo a Miami ed è il nuovo n°2 del mondo:
+  Dimitrov si arrende in 2 set</a>&nbsp;&nbsp;<font color="#6f6f6f">Eurosport IT</font></li></ol>'
+published: 2024-03-31 20:43:04.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMirAFodHRwczovL3d3dy5hbnNhLml0L3NpdG8vbm90aXppZS9zcG9ydC90ZW5uaXMvMjAyNC8wMy8zMS9zaW5uZXItdmluY2UtbGEtZmluYWxlLWNvbnRyby1kaW1pdHJvdi1hLW1pYW1pLWUtZGl2ZW50YS1pbC1uLi0yLWFsLW1vbmRvX2I5NjM0NDE4LWI2ZjItNGRjZi04YzdiLTIxN2E5NTliY2IzMy5odG1s0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

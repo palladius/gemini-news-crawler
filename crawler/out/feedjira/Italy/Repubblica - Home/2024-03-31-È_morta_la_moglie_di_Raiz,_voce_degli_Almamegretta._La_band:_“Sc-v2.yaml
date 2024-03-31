@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422402428
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'È morta la moglie di Raiz, voce degli Almamegretta. La band: “Sconvolti e
+  smarriti”'
+url: https://www.repubblica.it/spettacoli/people/2024/03/31/news/morta_moglie_raiz_almamegretta-422402428/
+summary: 'Addio a Daniela Shualy. Qualche giorno fa il musicista aveva postato un
+  tenero messaggio: “A Daniela, amore di una vita. La più bella dei Quartieri fa ammore
+  cu''mme"'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- People
+published: 2024-03-31 12:22:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422402428
+updated: 2024-03-31 12:22:45.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

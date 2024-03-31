@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiiQFodHRwczovL3d3dy5jaXRpemVuLXRpbWVzLmNvbS9zdG9yeS9uZXdzL2xvY2FsLzIwMjQvMDMvMzAvZ3VpZGUtdG8tMjAyNHMtc29sYXItZWNsaXBzZS1pbi1hc2hldmlsbGUtd2hhdC10by1rbm93LWV2ZW50cy1tb3JlLzczMTQ0NjYwMDA3L9IBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Will the total eclipse be visible in Asheville? What to know, events, breweries,
+  more - Citizen Times
+url: https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5jaXRpemVuLXRpbWVzLmNvbS9zdG9yeS9uZXdzL2xvY2FsLzIwMjQvMDMvMzAvZ3VpZGUtdG8tMjAyNHMtc29sYXItZWNsaXBzZS1pbi1hc2hldmlsbGUtd2hhdC10by1rbm93LWV2ZW50cy1tb3JlLzczMTQ0NjYwMDA3L9IBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5jaXRpemVuLXRpbWVzLmNvbS9zdG9yeS9uZXdzL2xvY2FsLzIwMjQvMDMvMzAvZ3VpZGUtdG8tMjAyNHMtc29sYXItZWNsaXBzZS1pbi1hc2hldmlsbGUtd2hhdC10by1rbm93LWV2ZW50cy1tb3JlLzczMTQ0NjYwMDA3L9IBAA?oc=5"
+  target="_blank">Will the total eclipse be visible in Asheville? What to know, events,
+  breweries, more</a>&nbsp;&nbsp;<font color="#6f6f6f">Citizen Times</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5kaXNwYXRjaC5jb20vc3RvcnkvbmV3cy8yMDI0LzAzLzI5L2NvbHVtYnVzLW9oaW8td2VhdGhlci1wcmVkaWN0aW9uLWZvci10aGUtYXByaWwtOC10b3RhbC1zb2xhci1lY2xpcHNlLzczMTQ2MzQ2MDA3L9IBAA?oc=5"
+  target="_blank">Columbus, Ohio, weather prediction for the April 8 total solar eclipse</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Columbus Dispatch</font></li><li><a href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd2xvcy5jb20vbmV3cy9sb2NhbC90aXBzLXByZXBhcmluZy12aWV3aW5nLXNvbGFyLWVjbGlwc2Utd2VzdGVybi1ub3J0aC1jYXJvbGluYS1hcHJpbC04LTIwMjQtcGFydGlhbNIBcGh0dHBzOi8vd2xvcy5jb20vYW1wL25ld3MvbG9jYWwvdGlwcy1wcmVwYXJpbmctdmlld2luZy1zb2xhci1lY2xpcHNlLXdlc3Rlcm4tbm9ydGgtY2Fyb2xpbmEtYXByaWwtOC0yMDI0LXBhcnRpYWw?oc=5"
+  target="_blank">Here are tips on preparing for and viewing the solar eclipse in
+  Western NC</a>&nbsp;&nbsp;<font color="#6f6f6f">WLOS</font></li><li><a href="https://news.google.com/rss/articles/CBMijAFodHRwczovL3d3dy5zdGF0ZXNtYW4uY29tL3N0b3J5L25ld3Mvc3RhdGUvMjAyNC8wMy8zMC93aGVyZS10by1zZWUtc29sYXItZWNsaXBzZS0yMDI0LXRleGFzLXBhcmtzLW1hcC12aWV3aW5nLWdsYXNzZXMtcGF0aC10aW1lLzczMTQ2ODMyMDA3L9IBAA?oc=5"
+  target="_blank">Still not sure where to see the solar eclipse in Texas? Here''s
+  a list of parks, watch parties</a>&nbsp;&nbsp;<font color="#6f6f6f">Austin American-Statesman</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMihgFodHRwczovL3d3dy5mcmVlcC5jb20vc3RvcnkvbmV3cy9sb2NhbC9taWNoaWdhbi8yMDI0LzAzLzMxLzIwMjQtc29sYXItZWNsaXBzZS13ZWF0aGVyLWZvcmVjYXN0LXdpbGwtY2xvdWRzLWdldC1pbi10aGUtd2F5LzczMTU2NDg5MDA3L9IBAA?oc=5"
+  target="_blank">Way-too-early weather forecast for April 8, 2024 solar eclipse:
+  Will clouds get in way?</a>&nbsp;&nbsp;<font color="#6f6f6f">Detroit Free Press</font></li></ol>'
+published: 2024-03-31 20:29:58.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiiQFodHRwczovL3d3dy5jaXRpemVuLXRpbWVzLmNvbS9zdG9yeS9uZXdzL2xvY2FsLzIwMjQvMDMvMzAvZ3VpZGUtdG8tMjAyNHMtc29sYXItZWNsaXBzZS1pbi1hc2hldmlsbGUtd2hhdC10by1rbm93LWV2ZW50cy1tb3JlLzczMTQ0NjYwMDA3L9IBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

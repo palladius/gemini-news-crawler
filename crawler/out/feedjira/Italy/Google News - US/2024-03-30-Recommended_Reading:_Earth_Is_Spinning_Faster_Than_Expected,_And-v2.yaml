@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMihgFodHRwczovL3d3dy5ob2RpbmtlZS5jb20vYXJ0aWNsZXMvZWFydGgtaXMtc3Bpbm5pbmctZmFzdGVyLXRoYW4tZXhwZWN0ZWQtYW5kLXdlLW1heS1oYXZlLXRvLXN1YnRyYWN0LWEtd2hvbGUtc2Vjb25kLWZyb20tdGhlLXdvcmxkcy1jbNIBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Recommended Reading: Earth Is Spinning Faster Than Expected, And We May Have
+  To Subtract A Whole Second From The World''s Clocks - HODINKEE'
+url: https://news.google.com/rss/articles/CBMihgFodHRwczovL3d3dy5ob2RpbmtlZS5jb20vYXJ0aWNsZXMvZWFydGgtaXMtc3Bpbm5pbmctZmFzdGVyLXRoYW4tZXhwZWN0ZWQtYW5kLXdlLW1heS1oYXZlLXRvLXN1YnRyYWN0LWEtd2hvbGUtc2Vjb25kLWZyb20tdGhlLXdvcmxkcy1jbNIBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMihgFodHRwczovL3d3dy5ob2RpbmtlZS5jb20vYXJ0aWNsZXMvZWFydGgtaXMtc3Bpbm5pbmctZmFzdGVyLXRoYW4tZXhwZWN0ZWQtYW5kLXdlLW1heS1oYXZlLXRvLXN1YnRyYWN0LWEtd2hvbGUtc2Vjb25kLWZyb20tdGhlLXdvcmxkcy1jbNIBAA?oc=5"
+  target="_blank">Recommended Reading: Earth Is Spinning Faster Than Expected, And
+  We May Have To Subtract A Whole Second From The World''s Clocks</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">HODINKEE</font></li><li><a href="https://news.google.com/rss/articles/CBMiX2h0dHBzOi8vd2VhdGhlci5jb20vbmV3cy9jbGltYXRlL3ZpZGVvL2F0b21pYy1jbG9jay1kaWxlbW1hLWltcGVuZGluZy13YXJtaW5nLWJsb2Nrcy1pdC1mb3Itbm930gEA?oc=5"
+  target="_blank">Atomic Clock Dilemma Impending, Warming Blocks It For Now - Videos
+  from The Weather Channel</a>&nbsp;&nbsp;<font color="#6f6f6f">The Weather Channel</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiNmh0dHBzOi8vZnV0dXJpc20uY29tL3RoZS1ieXRlL3BvbGFyLWljZS1lYXJ0aC1yb3RhdGlvbtIBAA?oc=5"
+  target="_blank">So Much Polar Ice Is Melting That It''s Slowing Down the Earth''s
+  Rotation</a>&nbsp;&nbsp;<font color="#6f6f6f">Futurism</font></li><li><a href="https://news.google.com/rss/articles/CBMia2h0dHBzOi8vZW5naW5lZXJpbmcuZmIuY29tLzIwMjIvMDcvMjUvcHJvZHVjdGlvbi1lbmdpbmVlcmluZy9pdHMtdGltZS10by1sZWF2ZS10aGUtbGVhcC1zZWNvbmQtaW4tdGhlLXBhc3Qv0gEA?oc=5"
+  target="_blank">It''s time to leave the leap second in the past</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Facebook Engineering</font></li></ol>'
+published: 2024-03-30 17:00:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMihgFodHRwczovL3d3dy5ob2RpbmtlZS5jb20vYXJ0aWNsZXMvZWFydGgtaXMtc3Bpbm5pbmctZmFzdGVyLXRoYW4tZXhwZWN0ZWQtYW5kLXdlLW1heS1oYXZlLXRvLXN1YnRyYWN0LWEtd2hvbGUtc2Vjb25kLWZyb20tdGhlLXdvcmxkcy1jbNIBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -3,7 +3,9 @@ class ArticlesController < ApplicationController
 
   # GET /articles or /articles.json
   def index
-    @articles = Article.all.sort_by(&:published_date).reverse # DESC
+ #   @articles = Article.all.sort_by(&:published_date) # .reverse # DESC
+    @articles = Article.select(&:published_date).sort_by(&:published_date).last(100).reverse # DESC
+    @article_total_count = Article.all.count
   end
 
   # GET /articles/1 or /articles/1.json

@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiaGh0dHBzOi8vbnlwb3N0LmNvbS8yMDI0LzAzLzMxL2J1c2luZXNzL2NhbGlmb3JuaWEtMjAtd2FnZS1pbmNyZWFzZXMtZm9yLWZhc3QtZm9vZC13b3Jrcy10by1iZWdpbi1tb25kYXkv0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Calif. $20 wage increases for fast food workers to begin Monday — here''s
+  how it will impact stores - New York Post '
+url: https://news.google.com/rss/articles/CBMiaGh0dHBzOi8vbnlwb3N0LmNvbS8yMDI0LzAzLzMxL2J1c2luZXNzL2NhbGlmb3JuaWEtMjAtd2FnZS1pbmNyZWFzZXMtZm9yLWZhc3QtZm9vZC13b3Jrcy10by1iZWdpbi1tb25kYXkv0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiaGh0dHBzOi8vbnlwb3N0LmNvbS8yMDI0LzAzLzMxL2J1c2luZXNzL2NhbGlmb3JuaWEtMjAtd2FnZS1pbmNyZWFzZXMtZm9yLWZhc3QtZm9vZC13b3Jrcy10by1iZWdpbi1tb25kYXkv0gEA?oc=5"
+  target="_blank">Calif. $20 wage increases for fast food workers to begin Monday
+  — here''s how it will impact stores</a>&nbsp;&nbsp;<font color="#6f6f6f">New York
+  Post </font></li><li><a href="https://news.google.com/rss/articles/CBMibWh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2NhbGlmb3JuaWEtaGlnaGVzdC11bmVtcGxveW1lbnQtc2xvd2VyLWpvYi1ncm93dGgtYjFlNGM4MjJiMzNmMjlmODE5ZGJiMDI0MTAzY2M4NDPSAQA?oc=5"
+  target="_blank">California''s unemployment rate is the highest in the nation. Slower
+  job growth is to blame</a>&nbsp;&nbsp;<font color="#6f6f6f">The Associated Press</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiY2h0dHBzOi8vd3d3LmJsb29tYmVyZy5jb20vb3Bpbmlvbi9hcnRpY2xlcy8yMDI0LTAzLTI4L2dhdmluLW5ld3NvbS1zLW1pbmltdW0td2FnZS1sYXctaXMtaGFsZi1iYWtlZNIBAA?oc=5"
+  target="_blank">Gavin Newsom''s Minimum-Wage Law Is Half-Baked</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Bloomberg</font></li><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LnVzYXRvZGF5LmNvbS9zdG9yeS9tb25leS8yMDI0LzAzLzMxL2NhbGlmb3JuaWEtZmFzdC1mb29kLW1pbmltdW0td2FnZS83MzEzNjc4NjAwNy_SAQA?oc=5"
+  target="_blank">California fast food minimum wage: How will this impact workers?</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">USA TODAY</font></li><li><a href="https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5mb3hidXNpbmVzcy5jb20vcG9saXRpY3MvcmVzdGF1cmFudC1vd25lci1mZWFycy1jYWxpZm9ybmlhLW1pbmltdW0td2FnZS1sYXctc2lsZW50LXRheC1jb25zdW1lcnMtY29sbGFwc2luZy1idXNpbmVzc2Vz0gGGAWh0dHBzOi8vd3d3LmZveGJ1c2luZXNzLmNvbS9wb2xpdGljcy9yZXN0YXVyYW50LW93bmVyLWZlYXJzLWNhbGlmb3JuaWEtbWluaW11bS13YWdlLWxhdy1zaWxlbnQtdGF4LWNvbnN1bWVycy1jb2xsYXBzaW5nLWJ1c2luZXNzZXMuYW1w?oc=5"
+  target="_blank">Restaurant owner fears California minimum wage law is ''a silent
+  tax'' on consumers, ''collapsing'' businesses</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox
+  Business</font></li></ol>'
+published: 2024-03-31 16:55:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiaGh0dHBzOi8vbnlwb3N0LmNvbS8yMDI0LzAzLzMxL2J1c2luZXNzL2NhbGlmb3JuaWEtMjAtd2FnZS1pbmNyZWFzZXMtZm9yLWZhc3QtZm9vZC13b3Jrcy10by1iZWdpbi1tb25kYXkv0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

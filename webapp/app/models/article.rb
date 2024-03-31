@@ -25,15 +25,15 @@ class Article < ApplicationRecord
     def categories=(categories)
       method_ver = '0.2'
       raise "I only accept an Array of Strings!" unless categories.is_a? Array
-      Rails.logger.info "Setting categories with #{categories}"
-      puts "Setting categories with #{categories}"
+      #Rails.logger.info "Setting categories with #{categories}"
+      #puts "Setting categories with #{categories}"
 
       write_attribute :ricc_internal_notes, categories
       #write_attribute :username, username
       @categories_to_be_initialized = []
       categories.each do |category_name|
         c = Category.find_or_create_by(name: category_name)
-        puts("🦄 Category created or found: #{c}")
+        puts("#{Category.emoji}  Category created or found: #{c} (id=#{c.id})")
         @categories_to_be_initialized << c
       end
       puts "Setting categories with #{categories}"

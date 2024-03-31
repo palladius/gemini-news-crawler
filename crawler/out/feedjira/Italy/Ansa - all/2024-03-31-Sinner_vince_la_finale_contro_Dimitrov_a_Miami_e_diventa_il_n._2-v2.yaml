@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/sport/tennis/2024/03/31/sinner-vince-la-finale-contro-dimitrov-a-miami-e-diventa-il-n.-2-al-mondo_b9634418-b6f2-4dcf-8c7b-217a959bcb33.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Sinner vince la finale contro Dimitrov a Miami e diventa il n. 2 al mondo
+url: https://www.ansa.it/sito/notizie/sport/tennis/2024/03/31/sinner-vince-la-finale-contro-dimitrov-a-miami-e-diventa-il-n.-2-al-mondo_b9634418-b6f2-4dcf-8c7b-217a959bcb33.html
+summary: L'azzurro ha battuto il bulgaro 6-3, 6-1 e conquista il secondo posto. Nessun
+  tennista italiano ha mai raggiunto una posizione del genere nel ranking Atp. Ora
+  Jannik ha nel mirino Djokovic
+published: 2024-03-31 20:57:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/sport/tennis/2024/03/31/sinner-vince-la-finale-contro-dimitrov-a-miami-e-diventa-il-n.-2-al-mondo_b9634418-b6f2-4dcf-8c7b-217a959bcb33.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

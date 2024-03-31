@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiggFodHRwczovL3d3dy5ibG9vbWJlcmcuY29tL25ld3MvYXJ0aWNsZXMvMjAyNC0wMy0zMS90dXJrZXktbXVuaWNpcGFsLWVsZWN0aW9ucy1lcmRvZ2FuLXNldC1mb3Itc2hvY2stZGVmZWF0LWFnYWluc3QtbWFpbi1vcHBvc2l0aW9u0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Turkey Municipal Elections: Erdogan Set for Shock Defeat Against Main Opposition
+  - Bloomberg'
+url: https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5ibG9vbWJlcmcuY29tL25ld3MvYXJ0aWNsZXMvMjAyNC0wMy0zMS90dXJrZXktbXVuaWNpcGFsLWVsZWN0aW9ucy1lcmRvZ2FuLXNldC1mb3Itc2hvY2stZGVmZWF0LWFnYWluc3QtbWFpbi1vcHBvc2l0aW9u0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5ibG9vbWJlcmcuY29tL25ld3MvYXJ0aWNsZXMvMjAyNC0wMy0zMS90dXJrZXktbXVuaWNpcGFsLWVsZWN0aW9ucy1lcmRvZ2FuLXNldC1mb3Itc2hvY2stZGVmZWF0LWFnYWluc3QtbWFpbi1vcHBvc2l0aW9u0gEA?oc=5"
+  target="_blank">Turkey Municipal Elections: Erdogan Set for Shock Defeat Against
+  Main Opposition</a>&nbsp;&nbsp;<font color="#6f6f6f">Bloomberg</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiamh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL3R1cmtleS1sb2NhbC1lbGVjdGlvbnMtZXJkb2dhbi1wb3B1bGFyaXR5LXRlc3QtOGFkYzRkZjU2Y2RiY2UyNGY3ODkwMGUxZDE0MmZmMjHSAQA?oc=5"
+  target="_blank">Turkey election results: Opposition to retain key cities in blow
+  to Erdogan</a>&nbsp;&nbsp;<font color="#6f6f6f">The Associated Press</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vbmV3cy8yMDI0LzMvMzEvdHVya2V5cy1vcHBvc2l0aW9uLXNldC10by1ob2xkLXBvd2VyLWluLW1ham9yLWNpdGllcy1wYXJ0aWFsLXJlc3VsdHMtc2hvd9IBdmh0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vYW1wL25ld3MvMjAyNC8zLzMxL3R1cmtleXMtb3Bwb3NpdGlvbi1zZXQtdG8taG9sZC1wb3dlci1pbi1tYWpvci1jaXRpZXMtcGFydGlhbC1yZXN1bHRzLXNob3c?oc=5"
+  target="_blank">Turkey’s opposition set to hold power in major cities, partial results
+  show</a>&nbsp;&nbsp;<font color="#6f6f6f">Al Jazeera English</font></li><li><a href="https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzEvd29ybGQvbWlkZGxlZWFzdC9pc3RhbmJ1bC1tYXlvci1yYWNlLXR1cmtleS5odG1s0gEA?oc=5"
+  target="_blank">At Stake in the Istanbul Mayoral Race: Turkey''s Political Future</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li></ol>'
+published: 2024-03-31 20:07:33.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiggFodHRwczovL3d3dy5ibG9vbWJlcmcuY29tL25ld3MvYXJ0aWNsZXMvMjAyNC0wMy0zMS90dXJrZXktbXVuaWNpcGFsLWVsZWN0aW9ucy1lcmRvZ2FuLXNldC1mb3Itc2hvY2stZGVmZWF0LWFnYWluc3QtbWFpbi1vcHBvc2l0aW9u0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

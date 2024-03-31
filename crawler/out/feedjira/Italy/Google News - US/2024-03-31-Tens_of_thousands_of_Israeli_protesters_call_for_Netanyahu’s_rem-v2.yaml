@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiYGh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbNIBYGh0dHBzOi8vYW1wLnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Tens of thousands of Israeli protesters call for Netanyahu’s removal - The
+  Guardian
+url: https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbNIBYGh0dHBzOi8vYW1wLnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbNIBYGh0dHBzOi8vYW1wLnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbA?oc=5"
+  target="_blank">Tens of thousands of Israeli protesters call for Netanyahu’s removal</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Guardian</font></li><li><a href="https://news.google.com/rss/articles/CBMiV2h0dHBzOi8vd3d3LmNubi5jb20vbWlkZGxlZWFzdC9saXZlLW5ld3MvaXNyYWVsLWhhbWFzLXdhci1nYXphLW5ld3MtMDMtMzEtMjQvaW5kZXguaHRtbNIBW2h0dHBzOi8vYW1wLmNubi5jb20vY25uL21pZGRsZWVhc3QvbGl2ZS1uZXdzL2lzcmFlbC1oYW1hcy13YXItZ2F6YS1uZXdzLTAzLTMxLTI0L2luZGV4Lmh0bWw?oc=5"
+  target="_blank">Devastation in Gaza as Israel wages war on Hamas: Live updates</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">CNN</font></li><li><a href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LnRpbWVzb2Zpc3JhZWwuY29tL3RlbnMtb2YtdGhvdXNhbmRzLXRocm9uZy1rbmVzc2V0LWF0LXN0YXJ0LW9mLTQtZGF5LXByb3Rlc3QtYWdhaW5zdC1nb3Zlcm5tZW50L9IBcGh0dHBzOi8vd3d3LnRpbWVzb2Zpc3JhZWwuY29tL3RlbnMtb2YtdGhvdXNhbmRzLXRocm9uZy1rbmVzc2V0LWF0LXN0YXJ0LW9mLTQtZGF5LXByb3Rlc3QtYWdhaW5zdC1nb3Zlcm5tZW50L2FtcC8?oc=5"
+  target="_blank">Tens of thousands throng Knesset at start of 4-day protest against
+  government</a>&nbsp;&nbsp;<font color="#6f6f6f">The Times of Israel</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiXGh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2lzcmFlbC1oYW1hcy13YXItbmV3cy0wMy0zMS0yMDI0LTJkZmJjMTU0NDA5YWU2MTYwYjRlNTk0YjFiMzQ2ZTEz0gEA?oc=5"
+  target="_blank">Gaza: An Israeli airstrike on a hospital tent camp kills 2 Palestinians</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Associated Press</font></li><li><a href="https://news.google.com/rss/articles/CBMiX2h0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS93b3JsZC8yMDI0LzAzLzMxL2lzcmFlbC1wcm90ZXN0cy1ob3N0YWdlcy1mYW1pbGllcy1uZWdvdGlhdGlvbnMv0gEA?oc=5"
+  target="_blank">Families of Israeli hostages join protests calling for Netanyahu
+  to go</a>&nbsp;&nbsp;<font color="#6f6f6f">The Washington Post</font></li></ol>'
+published: 2024-03-31 11:38:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiYGh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbNIBYGh0dHBzOi8vYW1wLnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDI0L21hci8zMS9pc3JhZWxpLXByb3Rlc3RlcnMtY2FsbC1iZW5qYW1pbi1uZXRhbnlhaHUtcmVtb3ZhbA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

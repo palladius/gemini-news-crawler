@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMijQFodHRwczovL3d3dy5jb3JyaWVyZWRlbGxvc3BvcnQuaXQvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGHSAY8BaHR0cHM6Ly9tLmNvcnJpZXJlZGVsbG9zcG9ydC5pdC9hbXAvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGE
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Pagelle Lazio-Juve: splendido Gila, Mandas sicuro. Nuovo Kamada - Corriere
+  dello Sport'
+url: https://news.google.com/rss/articles/CBMijQFodHRwczovL3d3dy5jb3JyaWVyZWRlbGxvc3BvcnQuaXQvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGHSAY8BaHR0cHM6Ly9tLmNvcnJpZXJlZGVsbG9zcG9ydC5pdC9hbXAvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGE?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMijQFodHRwczovL3d3dy5jb3JyaWVyZWRlbGxvc3BvcnQuaXQvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGHSAY8BaHR0cHM6Ly9tLmNvcnJpZXJlZGVsbG9zcG9ydC5pdC9hbXAvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGE?oc=5"
+  target="_blank">Pagelle Lazio-Juve: splendido Gila, Mandas sicuro. Nuovo Kamada</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Corriere dello Sport</font></li><li><a href="https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LmlsYmlhbmNvbmVyby5jb20vYS9sYXppby1qdXZlbnR1cy1jaGlyaWNvLWEtY2FsZG8tZm9ybWF6aW9uZS1pZ25vYmlsZS1hbGxlZ3JpLWhhLWZhLTE4Mjg10gEA?oc=5"
+  target="_blank">Lazio-Juventus, Chirico a caldo: ''Formazione ignobile, Allegri
+  ha fatto capire a Tudor di avere paura''</a>&nbsp;&nbsp;<font color="#6f6f6f">ilBianconero</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiWmh0dHBzOi8vd3d3LmZhbnRhY2FsY2lvLml0L25ld3MvY2FsY2lvLWl0YWxpYS8zMV8wM18yMDI0L21hcnVzaWMtZ29sLWxhemlvLWp1dmVudHVzLTQ1ODg3ONIBXmh0dHBzOi8vd3d3LmZhbnRhY2FsY2lvLml0L2FtcC9uZXdzL2NhbGNpby1pdGFsaWEvMzFfMDNfMjAyNC9tYXJ1c2ljLWdvbC1sYXppby1qdXZlbnR1cy00NTg4Nzg?oc=5"
+  target="_blank">Marusic allo scadere, incubo Lazio per la Juventus: ecco perché</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Fantacalcio ®</font></li><li><a href="https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vd3d3LmdhenpldHRhLml0L0NhbGNpby9TZXJpZS1BL0xhemlvLzMwLTAzLTIwMjQvbGF6aW8tanV2ZS0xLTAtZ29sLWRpLW1hcnVzaWMtYWwtOTMuc2h0bWzSAWVodHRwczovL3d3dy5nYXp6ZXR0YS5pdC9DYWxjaW8vU2VyaWUtQS9MYXppby8zMC0wMy0yMDI0L2xhemlvLWp1dmUtMS0wLWdvbC1kaS1tYXJ1c2ljLWFsLTkzX2FtcC5zaHRtbA?oc=5"
+  target="_blank">Marusic-gol, Tudor gode al 93'': la Lazio batte una Juve senza attacco
+  e sempre più in crisi</a>&nbsp;&nbsp;<font color="#6f6f6f">La Gazzetta dello Sport</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vd3d3LmNhbGNpb21lcmNhdG8uY29tL25ld3MvanV2ZW50dXMtaS1udW1lcmktc29uby1kcmFtbWF0aWNpLWUtbGEtc2NvbmZpdHRhLWUtZ2l1c3RhLW1hLXR1ZC0zMTE0M9IBAA?oc=5"
+  target="_blank">Juventus, i numeri sono drammatici e la sconfitta è giusta: ma Tudor
+  l''ha vinta con i cambi</a>&nbsp;&nbsp;<font color="#6f6f6f">Calciomercato.com</font></li></ol>'
+published: 2024-03-31 07:24:47.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMijQFodHRwczovL3d3dy5jb3JyaWVyZWRlbGxvc3BvcnQuaXQvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGHSAY8BaHR0cHM6Ly9tLmNvcnJpZXJlZGVsbG9zcG9ydC5pdC9hbXAvbmV3cy9jYWxjaW8vc2VyaWUtYS9sYXppby8yMDI0LzAzLzMxLTEyNDk1Njk5OC9wYWdlbGxlX2xhemlvLWp1dmVfc3BsZW5kaWRvX2dpbGFfbWFuZGFzX3NpY3Vyb19udW92b19rYW1hZGE
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

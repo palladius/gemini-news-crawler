@@ -8,7 +8,7 @@ module ArticlesHelper
       '🇪🇺'
     when 'Blogs'
       '🖕🏻'
-    when 'Americas'
+    when 'Americas', 'USA'
       '🇺🇸'
     else
      "#{article.macro_region} ??"

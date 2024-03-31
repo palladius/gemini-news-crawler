@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiYWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3dvcmxkL2V1cm9wZS9wb3BlLWZyYW5jaXMtZWFzdGVyLWFkZHJlc3MtY2FsbHMtZ2F6YS1jZWFzZWZpcmUtMjAyNC0wMy0zMS_SAQA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pope Francis, in Easter address, calls for Gaza ceasefire - Reuters
+url: https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3dvcmxkL2V1cm9wZS9wb3BlLWZyYW5jaXMtZWFzdGVyLWFkZHJlc3MtY2FsbHMtZ2F6YS1jZWFzZWZpcmUtMjAyNC0wMy0zMS_SAQA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3dvcmxkL2V1cm9wZS9wb3BlLWZyYW5jaXMtZWFzdGVyLWFkZHJlc3MtY2FsbHMtZ2F6YS1jZWFzZWZpcmUtMjAyNC0wMy0zMS_SAQA?oc=5"
+  target="_blank">Pope Francis, in Easter address, calls for Gaza ceasefire</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Reuters</font></li><li><a href="https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzEvd29ybGQvZXVyb3BlL3BvcGUtZnJhbmNpcy1lYXN0ZXItc3BlZWNoLmh0bWzSAQA?oc=5"
+  target="_blank">Pope Francis, in Easter Message, Calls for Gaza Cease-Fire</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li><li><a href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vdGhlaGlsbC5jb20vcG9saWN5L2ludGVybmF0aW9uYWwvNDU2NjU4MC1wb3BlLWZyYW5jaXMtbWFrZXMtYXBwZWFsLWZvci1wZWFjZS1pbi1nYXphLWluLWVhc3Rlci1tZXNzYWdlL9IBc2h0dHBzOi8vdGhlaGlsbC5jb20vcG9saWN5L2ludGVybmF0aW9uYWwvNDU2NjU4MC1wb3BlLWZyYW5jaXMtbWFrZXMtYXBwZWFsLWZvci1wZWFjZS1pbi1nYXphLWluLWVhc3Rlci1tZXNzYWdlL2FtcC8?oc=5"
+  target="_blank">Pope Francis makes appeal for peace in Gaza in Easter message</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Hill</font></li><li><a href="https://news.google.com/rss/articles/CBMiSGh0dHBzOi8vd3d3LmNic25ld3MuY29tL25ld3MvcG9wZS1mcmFuY2lzLWVhc3Rlci1zdW5kYXktbWFzcy0yMDI0LXBlYWNlL9IBTGh0dHBzOi8vd3d3LmNic25ld3MuY29tL2FtcC9uZXdzL3BvcGUtZnJhbmNpcy1lYXN0ZXItc3VuZGF5LW1hc3MtMjAyNC1wZWFjZS8?oc=5"
+  target="_blank">Pope Francis says "peace is never made with weapons" at Easter Sunday
+  mass in St. Peter's Square</a>&nbsp;&nbsp;<font color="#6f6f6f">CBS News</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiTGh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS93b3JsZC8yMDI0LzAzLzMxL3BvcGUtZnJhbmNpcy1lYXN0ZXItYWRkcmVzcy_SAQA?oc=5"
+  target="_blank">Pope Francis's Easter address calls for peace in Gaza, Ukraine -
+  The Washington Post</a>&nbsp;&nbsp;<font color="#6f6f6f">The Washington Post</font></li></ol>
+published: 2024-03-31 16:31:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiYWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3dvcmxkL2V1cm9wZS9wb3BlLWZyYW5jaXMtZWFzdGVyLWFkZHJlc3MtY2FsbHMtZ2F6YS1jZWFzZWZpcmUtMjAyNC0wMy0zMS_SAQA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

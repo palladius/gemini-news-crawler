@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: Al Jazeera - News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.aljazeera.com/?t=1711910640
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Turkey’s opposition set to hold power in major cities, partial results show
+url: https://www.aljazeera.com/news/2024/3/31/turkeys-opposition-set-to-hold-power-in-major-cities-partial-results-show?traffic_source=rss
+summary: 'Partial results in local elections show CHP candidates ahead of their AK
+  Party rivals in Ankara and Istanbul. '
+categories:
+- News
+published: 2024-03-31 20:40:18.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.aljazeera.com/?t=1711910640
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Al Jazeera - News
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

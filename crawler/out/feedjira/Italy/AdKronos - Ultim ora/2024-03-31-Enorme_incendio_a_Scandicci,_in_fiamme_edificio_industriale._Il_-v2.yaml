@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/enorme-incendio-a-scandicci-in-fiamme-edificio-industriale-il-sindaco-tenete-le-finestre-chiuse_6c4daqSPJeBA09L6NbZz2A
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Enorme incendio a Scandicci, in fiamme edificio industriale. Il sindaco: "Tenete
+  le finestre chiuse"'
+url: https://www.adnkronos.com/cronaca/enorme-incendio-a-scandicci-in-fiamme-edificio-industriale-il-sindaco-tenete-le-finestre-chiuse_6c4daqSPJeBA09L6NbZz2A
+summary: "(Adnkronos) - Non ci sono persone coinvolte"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-31 20:57:23.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/enorme-incendio-a-scandicci-in-fiamme-edificio-industriale-il-sindaco-tenete-le-finestre-chiuse_6c4daqSPJeBA09L6NbZz2A
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8b1f16e6ac-1b0ba742dd9b-1000/format/medium/scandicci_incendio.jpeg

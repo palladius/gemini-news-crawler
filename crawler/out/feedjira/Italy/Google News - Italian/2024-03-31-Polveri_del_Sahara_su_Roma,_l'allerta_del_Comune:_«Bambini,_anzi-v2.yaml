@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiU2h0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvcG9sdmVyaS1zYWhhcmEtcm9tYS1hbGxlcnRhLWNvbXVuZS1xdWFsaXRhLWFyaWEv0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Polveri del Sahara su Roma, l''allerta del Comune: «Bambini, anziani e donne
+  incinte escano il meno possibile. Lasciate a casa la macchina» - Open'
+url: https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvcG9sdmVyaS1zYWhhcmEtcm9tYS1hbGxlcnRhLWNvbXVuZS1xdWFsaXRhLWFyaWEv0gEA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvcG9sdmVyaS1zYWhhcmEtcm9tYS1hbGxlcnRhLWNvbXVuZS1xdWFsaXRhLWFyaWEv0gEA?oc=5"
+  target="_blank">Polveri del Sahara su Roma, l''allerta del Comune: «Bambini, anziani
+  e donne incinte escano il meno possibile. Lasciate a casa la macchina»</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Open</font></li><li><a href="https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vcm9tYS5yZXB1YmJsaWNhLml0L2Nyb25hY2EvMjAyNC8wMy8zMS9uZXdzL3BvbHZlcmVfc2FoYXJhX3JvbWFfaW5xdWluYW1lbnRvX2FsbGFybWUtNDIyNDAyMzExL9IBamh0dHBzOi8vcm9tYS5yZXB1YmJsaWNhLml0L2Nyb25hY2EvMjAyNC8wMy8zMS9uZXdzL3BvbHZlcmVfc2FoYXJhX3JvbWFfaW5xdWluYW1lbnRvX2FsbGFybWUtNDIyNDAyMzExL2FtcC8?oc=5"
+  target="_blank">Polvere del Sahara su Roma, arriva la nube rossa. Il Campidoglio:
+  “Restate a casa il più possibile”</a>&nbsp;&nbsp;<font color="#6f6f6f">Repubblica
+  Roma</font></li><li><a href="https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3LnJvbWF0b2RheS5pdC9hdHR1YWxpdGEvc2FiYmlhLXNhaGFyYS1yb21hLXJhY2NvbWFuZGF6aW9uaS1jb211bmUuaHRtbNIBUWh0dHBzOi8vYW1wLnJvbWF0b2RheS5pdC9hdHR1YWxpdGEvc2FiYmlhLXNhaGFyYS1yb21hLXJhY2NvbWFuZGF6aW9uaS1jb211bmUuaHRtbA?oc=5"
+  target="_blank">Nel cielo di Roma sabbia del Sahara e polveri sottili. Il Campidoglio:
+  “Spostatevi in bicicletta”</a>&nbsp;&nbsp;<font color="#6f6f6f">RomaToday</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMid2h0dHBzOi8vd3d3LmFkbmtyb25vcy5jb20vY3JvbmFjYS9tZXRlby1hbmNoZS1yb21hLXNvdHRvLWxhLXNhYmJpYS1kZWwtc2FoYXJhLWxhdnZpc28tZGVsLWNvbXVuZV82czFrbUNoNnEzVmd6NXNRTmd0cGFj0gEA?oc=5"
+  target="_blank">Cielo giallo Sahara anche a Roma, il Comune: "Evitare di esporsi"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Adnkronos</font></li><li><a href="https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3Lm1vbmV5Lml0L3BlcmNoZS1jaWVsby1naWFsbG8tY29zYS1zdGEtc3VjY2VkZW5kby1pdGFsaWEtcmlzY2hpLXNhbHV0ZdIBAA?oc=5"
+  target="_blank">Perché il cielo è giallo, cosa sta succedendo in Italia e rischi
+  per la salute</a>&nbsp;&nbsp;<font color="#6f6f6f">Money.it</font></li></ol>'
+published: 2024-03-31 19:39:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiU2h0dHBzOi8vd3d3Lm9wZW4ub25saW5lLzIwMjQvMDMvMzEvcG9sdmVyaS1zYWhhcmEtcm9tYS1hbGxlcnRhLWNvbXVuZS1xdWFsaXRhLWFyaWEv0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,36 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiuQFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcGV0dGFjb2xpL2NhcmRzL2FtaWNpLWVsaW1pbmF0aS1zZXJhbGUtZ2lvdmFubmkta3Vtby1hbmNoZS1zZWNvbmRhLXB1bnRhdGEtcGVyZG9uby1iYWxsZXJpbmkvYXlsZS1jYW50YW50ZS1mb3JzZS1kYW5uYXRvLW1hLXNpY3VyYW1lbnRlLXN0b25hdG9fcHJpbmNpcGFsZS5zaHRtbNIBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Amici, gli eliminati dal Serale: da Giovanni a Kumo, anche nella seconda puntata
+  perdono i ballerini - Corriere della Sera'
+url: https://news.google.com/rss/articles/CBMiuQFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcGV0dGFjb2xpL2NhcmRzL2FtaWNpLWVsaW1pbmF0aS1zZXJhbGUtZ2lvdmFubmkta3Vtby1hbmNoZS1zZWNvbmRhLXB1bnRhdGEtcGVyZG9uby1iYWxsZXJpbmkvYXlsZS1jYW50YW50ZS1mb3JzZS1kYW5uYXRvLW1hLXNpY3VyYW1lbnRlLXN0b25hdG9fcHJpbmNpcGFsZS5zaHRtbNIBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiuQFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcGV0dGFjb2xpL2NhcmRzL2FtaWNpLWVsaW1pbmF0aS1zZXJhbGUtZ2lvdmFubmkta3Vtby1hbmNoZS1zZWNvbmRhLXB1bnRhdGEtcGVyZG9uby1iYWxsZXJpbmkvYXlsZS1jYW50YW50ZS1mb3JzZS1kYW5uYXRvLW1hLXNpY3VyYW1lbnRlLXN0b25hdG9fcHJpbmNpcGFsZS5zaHRtbNIBAA?oc=5"
+  target="_blank">Amici, gli eliminati dal Serale: da Giovanni a Kumo, anche nella
+  seconda puntata perdono i ballerini</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMiyQFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcGV0dGFjb2xpL2NhcmRzL2FtaWNpLXBhZ2VsbGUtbWlkYS1yaWZpdXRhLWNhbnRhcmUtc2VuemEtYXV0b3R1bmUtdm90by00LWdpb2ZyZS1saW5lYS1jb21pY2EtaW5jb25zYXBldm9sZS12b3RvLTcvbmljaG9sYXMtZWxpbWluYXRvLWR1ZS1wdW50YXRlLXJpdGFyZG8tdm90by02X3ByaW5jaXBhbGUuc2h0bWzSAcwBaHR0cHM6Ly93d3cuY29ycmllcmUuaXQvc3BldHRhY29saS9jYXJkcy9hbWljaS1wYWdlbGxlLW1pZGEtcmlmaXV0YS1jYW50YXJlLXNlbnphLWF1dG90dW5lLXZvdG8tNC1naW9mcmUtbGluZWEtY29taWNhLWluY29uc2FwZXZvbGUtdm90by03L25pY2hvbGFzLWVsaW1pbmF0by1kdWUtcHVudGF0ZS1yaXRhcmRvLXZvdG8tNl9wcmluY2lwYWxlX2FtcC5odG1s?oc=5"
+  target="_blank">Amici, le pagelle: Mida rifiuta di cantare senza autotune (voto
+  4), Giofrè linea comica inconsapevole (voto 7)</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd3d3LmxpYmVyby5pdC9tYWdhemluZS9uZXdzL2FtaWNpLTIzLWdpb3Zhbm5pLW5pY2hvbGFzLWVsaW1pbmF0aS1jb3NhLWhhbm5vLWRldHRvLTExOTM3NNIBZGh0dHBzOi8vd3d3LmxpYmVyby5pdC9tYWdhemluZS9uZXdzL2FtaWNpLTIzLWdpb3Zhbm5pLW5pY2hvbGFzLWVsaW1pbmF0aS1jb3NhLWhhbm5vLWRldHRvLTExOTM3NC9hbXA?oc=5"
+  target="_blank">Amici 23, Nicholas e Giovanni eliminati, cosa hanno detto dopo la
+  puntata: "Quelle parole di Maria sono già una vittoria"</a>&nbsp;&nbsp;<font color="#6f6f6f">Libero
+  Magazine</font></li><li><a href="https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LnF1b3RpZGlhbm8ubmV0L21hZ2F6aW5lL3NwZXR0YWNvbGkvYW1pY2ktc2VyYWxlLWVsaW1pbmF0aS1zZWNvbmRhLXB1bnRhdGEtMzAtbWFyem8tdjMxNmVlMDXSAQA?oc=5"
+  target="_blank">Amici Serale 30 marzo: eliminati, l''incidente e cosa è successo
+  nella seconda puntata</a>&nbsp;&nbsp;<font color="#6f6f6f">QUOTIDIANO NAZIONALE</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vd3d3LnRnY29tMjQubWVkaWFzZXQuaXQvdGVsZXZpc2lvbmUvYW1pY2ktMjAyMy1lbGltaW5hdGktbmljaG9sYXMtZ2lvdmFubmlfNzk5MzQzNzAtMjAyNDAyay5zaHRtbNIBOGh0dHBzOi8vYW1wLnRnY29tMjQubWVkaWFzZXQuaXQvdGdjb20yNC9hcnRpY2xlLzc5OTM0Mzcw?oc=5"
+  target="_blank">"Amici 2023", serata nera per la danza: eliminati i ballerini Nicholas
+  e Giovanni</a>&nbsp;&nbsp;<font color="#6f6f6f">TGCOM</font></li></ol>'
+published: 2024-03-31 17:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiuQFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9zcGV0dGFjb2xpL2NhcmRzL2FtaWNpLWVsaW1pbmF0aS1zZXJhbGUtZ2lvdmFubmkta3Vtby1hbmNoZS1zZWNvbmRhLXB1bnRhdGEtcGVyZG9uby1iYWxsZXJpbmkvYXlsZS1jYW50YW50ZS1mb3JzZS1kYW5uYXRvLW1hLXNpY3VyYW1lbnRlLXN0b25hdG9fcHJpbmNpcGFsZS5zaHRtbNIBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
