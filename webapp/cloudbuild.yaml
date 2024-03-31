@@ -1,5 +1,6 @@
 ###############################################################################
 # Build ENV needed:
+# Self link: https://console.cloud.google.com/cloud-build/triggers;region=global?e=-13802955&mods=logs_tg_staging&project=palladius-genai
 #
 # Loosely inspired by ror7-tailwind-puffintours
 # Securing builds: https://cloud.google.com/build/docs/securing-builds/use-secrets
@@ -51,6 +52,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   id: 1. Docker Build - to CB_LATEST # might be error prone vs the one create from computer
   args: ['build', '-t', "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours:latest", '.']
+  dir: webapp
 
 # Then I tag it with another so it survives multiple builds..
 - name: 'gcr.io/cloud-builders/docker'
@@ -59,7 +61,7 @@ steps:
     - 'tag'
     - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours:latest"
     - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/puffintours/puffintours:sha-$SHORT_SHA"
-#  dir: rails/puffintours/
+  dir: webapp
   #env:
   #- 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
 
@@ -98,6 +100,7 @@ steps:
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun.sh
+  dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
