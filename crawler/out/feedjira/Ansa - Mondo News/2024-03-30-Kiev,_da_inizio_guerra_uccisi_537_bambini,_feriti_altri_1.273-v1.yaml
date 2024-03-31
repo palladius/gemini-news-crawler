@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: Ansa - Mondo News
-# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/kiev-da-inizio-guerra-uccisi-537-bambini-feriti-altri-1.273_d3701da5-2be6-4f99-b5ce-e029fd9589ea.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: Kiev, da inizio guerra uccisi 537 bambini, feriti altri 1.273
-url: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/kiev-da-inizio-guerra-uccisi-537-bambini-feriti-altri-1.273_d3701da5-2be6-4f99-b5ce-e029fd9589ea.html
-summary: 'Ukrinform: ''I dati diffusi dalla procura generale ucraina'''
-published: 2024-03-30 18:12:18.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/kiev-da-inizio-guerra-uccisi-537-bambini-feriti-altri-1.273_d3701da5-2be6-4f99-b5ce-e029fd9589ea.html

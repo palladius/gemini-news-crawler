@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: b5f89697-1aa1-4770-aa5d-3d917b7fc934
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Here Comes the Sun: Paul Giamatti and more'
+url: https://www.cbsnews.com/video/here-comes-the-sun-paul-giamatti-and-more/
+summary: Actor Paul Giamatti sits down with Lesley Stahl to discuss his latest film,
+  “The Holdovers,” as well as other characters he has portrayed throughout his career.
+  Then, Seth Doane travels to the Musée d’Orsay in Paris to learn about the AI-generated
+  avatar of Vincent Van Gogh. “Here Comes the Sun” is a closer look at some of the
+  people, places and things we bring you every week on “CBS Sunday Morning.”
+published: 2024-03-31 08:31:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: b5f89697-1aa1-4770-aa5d-3d917b7fc934
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

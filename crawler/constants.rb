@@ -1,18 +1,19 @@
 
 # require_relative '../_env_gaic.rb'
 
-ProgVersion = '0.1'
+ProgVersion = '0.2'
 
 CHANGELOG = {
-  '0.1': 'initial stesure.'
+  '0.1': 'initial stesure.',
+  '0.2': 'integrating with Rails app. Adding more 2-level news',
 }
-NEWS ={
-  'italy': {
+
+NEWS_BY_REGION ={
+  'Italy': {
     ########################################################################################################
     # Best italian RSSs: https://www.internetto.it/lista-aggiornata-dei-migliori-feed-rss-italiani/
     ########################################################################################################
     # Example from https://github.com/feedjira/feedjira
-    #'Earthquakes': 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom',
     'Repubblica - Home': 'https://www.repubblica.it/rss/homepage/rss2.0.xml', # homepage
     'Repubblica - Esteri': 'https://www.repubblica.it/rss/esteri/rss2.0.xml', # esteri
     'Il Fatto': 'https://www.ilfattoquotidiano.it/feed/', # generic
@@ -24,14 +25,13 @@ NEWS ={
     'Ansa - Mondo News': 'https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml',
     # Corriere meta RSS: https://www.corriere.it/rss/
     'Corriere - Home': 'https://xml2.corriereobjects.it/rss/homepage.xml',
-    'Riccardo - Blog': 'https://ricc.rocks/en/index.xml',
-
-    # US English
-
-    'Google News - US': 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
+    'Riccardo Carlesso - Blog': 'https://ricc.rocks/en/index.xml',
     'Google News - Italian': 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
+    # US English
+    'Google News - US': 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
     #######################
-#  'Europe': {
+  },
+  'Europe': {
     'BCC Europe': 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',
     'BBC Science': 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',
     'BBC Politics': 'https://feeds.bbci.co.uk/news/politics/rss.xml',
@@ -41,9 +41,14 @@ NEWS ={
     'CNN money': 'http://rss.cnn.com/rss/money_latest.rss',
     #'CNN Worls HTML': 'https://edition.cnn.com/world',
 
-#  },
-#  'US Genera l': {  # WOWOWOW    # https://about.fb.com/wp-content/uploads/2016/05/rss-urls-1.pdf
-# BROKEN 'riccardo CNN': 'https://rss.app/feed/0Up7DBlFK2DIbtl1',
+
+    # Copied frm here: https://rss.feedspot.com/european_news_rss_feeds/
+    'Politico EU': 'https://www.politico.eu/feed/',
+    'Feedburner Euronews': 'https://feeds.feedburner.com/euronews/en/home/',
+    # add more if nice.
+  },
+  'USA': {
+    # WOWOWOW    # https://about.fb.com/wp-content/uploads/2016/05/rss-urls-1.pdf
     'US general1': 'http://feeds.abcnews.com/abcnews/usheadlines',
     'US general2': 'http://rss.cnn.com/rss/cnn_topstories.rss',
     'US general3': 'http://www.cbsnews.com/latest/rss/main',
@@ -78,7 +83,6 @@ NEWS ={
     'US general36': 'http://www.salon.com/category/news/feed/rss/',
     'US general37': 'http://time.com/newsfeed/feed/',
     'US general38': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
-
   },
 
 }

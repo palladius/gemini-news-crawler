@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: US general16
-# [NewsFiler v1] GUID: towns-less-sand-salt-due-064700674.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: Towns use less sand and salt due to warmer winter
-url: https://www.yahoo.com/news/towns-less-sand-salt-due-064700674.html
-published: 2024-03-31 06:47:00.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  is_perma_link: 'false'
-  guid: towns-less-sand-salt-due-064700674.html

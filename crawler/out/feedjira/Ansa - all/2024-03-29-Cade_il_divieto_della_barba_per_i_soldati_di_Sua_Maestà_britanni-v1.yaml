@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: Ansa - all
-# [NewsFiler v1] GUID: https://www.ansa.it/canale_lifestyle/notizie/beauty_fitness/2024/03/29/cade-il-divieto-della-barba-per-i-soldati-di-sua-maesta-britannica_246429ba-60f7-4076-b124-895f96c449ce.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: Cade il divieto della barba per i soldati di Sua Maestà britannica
-url: https://www.ansa.it/canale_lifestyle/notizie/beauty_fitness/2024/03/29/cade-il-divieto-della-barba-per-i-soldati-di-sua-maesta-britannica_246429ba-60f7-4076-b124-895f96c449ce.html
-summary: Il Ministero della Difesa rivede regole sul decoro militare
-published: 2024-03-29 21:10:16.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.ansa.it/canale_lifestyle/notizie/beauty_fitness/2024/03/29/cade-il-divieto-della-barba-per-i-soldati-di-sua-maesta-britannica_246429ba-60f7-4076-b124-895f96c449ce.html

@@ -32,9 +32,10 @@ require_relative './constants.rb'
 require_relative 'lib/news_cacher.rb'
 require_relative 'lib/news_filer.rb'
 
-MaxArticleSize = 10 # todo 100
-MaxNewsWebsites = 50 # todo 100
-RssCacheInvalidationMinutes = 15 # 15 minutes
+MaxArticleSize = ENV.fetch('MAX_ARTICLE_SIZE', '2').to_i  # 10 # todo 100
+MaxNewsWebsites = ENV.fetch('MAX_WEBSITES', '3').to_i  # 50 # todo 100
+RssCacheInvalidationMinutes = ENV.fetch('RSS_CACHE_INVALIDATION_MINUTES', '15').to_i  # 15 # 15 minutes
+
 
 Useless = %w{ enclosure category guid language lastmod loc pubDate description link publication_date pub_date elevation dcterms
   entries
@@ -108,50 +109,68 @@ end
 def main
   field_counters = {}
   entries4all= {}
+  puts "=============================="
   puts("🖖🏻 Welcome to Gemini News Parser v#{ProgVersion}")
+  puts "🌱 MaxArticleSize:       #{MaxArticleSize}"
+  puts "🌱 MaxNewsWebsites:      #{MaxNewsWebsites}"
+  puts "🌱 RssCacheInvalidation: #{RssCacheInvalidationMinutes}m"
+  puts "=============================="
+
   #print NEWS[:italy]
   #url = NEWS[:italy].first
-  ix=0
-  NEWS[:italy].each do |newspaper_friendly_name, newspaper_feed|
-    ix += 1
-    break if ix > MaxNewsWebsites
-    file_dumper = NewsFiler.new("out/feedjira/#{newspaper_friendly_name}/")
-    url = newspaper_feed
-    print("🕷️ #{ix}  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
-    #xml = HTTParty.get(url).body
-    #cacher.autocache(feed_url)
-    cacher = NewsCacher.new
-    xml  = cacher.autocache(url, verbose: false)
-    feed = Feedjira.parse(xml) rescue nil
-    if feed.nil?
-      puts "❌ Some issues with parsing #{url}: #{$!}".colorize(:red)
-      next
-    end
-    puts(" -->  #{feed.entries.count.to_s.colorize(:blue)} news found.")
-#    puts feed.entries.first.methods
-    feed.entries.each_with_index do |rss_article, ix|
-      #puts rss_article.to_s
-      break if ix == MaxArticleSize
-      puts("📰 [#{ix+1}] Title: #{rss_article.title.colorize(:cyan)}")
-      file_dumper.write_article(newspaper_friendly_name, rss_article)
-      # All verbs but ENTRIES
-      RSSVerbs.each do |verb|
-        field_counters[verb] ||= 0
-        if (rss_article.send verb rescue nil).to_s.length > 0
-          field_counters[verb] += 1
-          puts("📚 #{verb}:  #{rss_article.send verb}") rescue nil
+
+  NEWS_BY_REGION.each do |macro_region, blurb|
+    puts("🌎🌎🌎 MACRO REGION: #{macro_region} 🌎🌎🌎")
+    #NEWS[:italy].each do |newspaper_friendly_name, newspaper_feed|
+    ix=0
+    blurb.each do |newspaper_friendly_name, newspaper_feed|
+      ix += 1
+      break if ix > MaxNewsWebsites
+      file_dumper = NewsFiler.new("out/feedjira/#{macro_region}/#{newspaper_friendly_name}/")
+      url = newspaper_feed
+      print("🕷️ #{ix}  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
+      #xml = HTTParty.get(url).body
+      #cacher.autocache(feed_url)
+      cacher = NewsCacher.new
+      xml  = cacher.autocache(url, verbose: false)
+      feed = Feedjira.parse(xml) rescue nil
+      if feed.nil?
+        puts "❌ Some issues with parsing #{url}: #{$!}".colorize(:red)
+        next
+      end
+      puts(" -->  #{feed.entries.count.to_s.colorize(:blue)} news found.")
+  #    puts feed.entries.first.methods
+      feed.entries.each_with_index do |rss_article, ix|
+        #puts rss_article.to_s
+        break if ix == MaxArticleSize
+        puts("📰 [#{ix+1}] Title: #{rss_article.title.colorize(:cyan)}")
+        file_dumper.write_article(newspaper_friendly_name, rss_article)
+        # All verbs but ENTRIES
+        RSSVerbs.each do |verb|
+          field_counters[verb] ||= 0
+          if (rss_article.send verb rescue nil).to_s.length > 0
+            field_counters[verb] += 1
+            # puts("📚 #{verb}:  #{rss_article.send verb}") rescue nil
+          end
+        end
+        # Entries verb has many things
+        if (rss_article.send 'entries' rescue nil).to_s.length > 0
+          rss_entries_keys = rss_article.entries.map{|x| x[0]}
+          #puts("🧑🏻‍💻 ENTRIES:  #{}")
+          # Setting this for statistics
+          entries4all[newspaper_friendly_name] = rss_entries_keys.join(',') if rss_entries_keys.is_a? Array
         end
       end
-      # Entries verb has many things
-      if (rss_article.send 'entries' rescue nil).to_s.length > 0
-        rss_entries_keys = rss_article.entries.map{|x| x[0]}
-        #puts("🧑🏻‍💻 ENTRIES:  #{}")
-        entries4all[newspaper_friendly_name] = rss_entries_keys.join(',') if rss_entries_keys.is_a? Array
-      end
-    end
-    #cacher.print_stats(url) if verbose
-  end
-  #
+    end #/Newspaper within macro region
+  end # Macro Region
+
+
+  puts 'Done with the super duper hyper-loop.'
+
+
+
+
+
   print("field_counters: ", field_counters)
   field_counters.map{|x,y| [x,y]}.sort_by{|x,y|-y}.each do |article_field, cardinality|
     puts("📚 #{article_field}:\t#{cardinality}")

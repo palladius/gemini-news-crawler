@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: US general16
-# [NewsFiler v1] GUID: ny-lottery-win-4-5-053909837.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: NY Lottery Win 4, Take 5, Cash4Life winning numbers for Saturday, March 30
-url: https://www.yahoo.com/news/ny-lottery-win-4-5-053909837.html
-published: 2024-03-31 05:39:09.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  is_perma_link: 'false'
-  guid: ny-lottery-win-4-5-053909837.html

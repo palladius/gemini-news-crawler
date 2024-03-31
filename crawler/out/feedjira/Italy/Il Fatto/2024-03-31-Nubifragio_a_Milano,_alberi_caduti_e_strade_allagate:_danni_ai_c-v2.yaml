@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497292
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Nubifragio a Milano, alberi caduti e strade allagate: danni ai cantieri e
+  alla segnaletica – Video'
+url: https://www.ilfattoquotidiano.it/2024/03/31/nubifragio-a-milano-alberi-caduti-e-strade-allagate-danni-ai-cantieri-e-alla-segnaletica-video/7497292/
+summary: |
+  <p>Danni a Milano per il violento temporale, accompagnato da raffiche di vento, che si è abbattuto sulla città la sera di sabato 30 marzo. Diversi gli alberi caduti lungo le strade, danneggiata la segnaletica verticale e le grate dei cantieri della M4. Nel video, la situazione in via Gattamelata davanti all&#8217;ingresso del MiCo.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/nubifragio-a-milano-alberi-caduti-e-strade-allagate-danni-ai-cantieri-e-alla-segnaletica-video/7497292/">Nubifragio a Milano, alberi caduti e strade allagate: danni ai cantieri e alla segnaletica &#8211; Video</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Local Team per Il Fatto
+categories:
+- Cronaca
+- Milano
+published: 2024-03-31 08:22:29.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497292
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/nubifragio-a-milano-alberi-caduti-e-strade-allagate-danni-ai-cantieri-e-alla-segnaletica-video/7497292/#respond
+content: |
+  <p>Danni a <strong>Milano</strong> per il violento temporale, accompagnato da raffiche di vento, che si è abbattuto sulla città la sera di sabato 30 marzo. Diversi gli alberi caduti lungo le strade, danneggiata la segnaletica verticale e le grate dei cantieri della M4. Nel video, la situazione in via Gattamelata davanti all&#8217;ingresso del MiCo.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/nubifragio-a-milano-alberi-caduti-e-strade-allagate-danni-ai-cantieri-e-alla-segnaletica-video/7497292/">Nubifragio a Milano, alberi caduti e strade allagate: danni ai cantieri e alla segnaletica &#8211; Video</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/MilanoTemporale-1050x551.jpg

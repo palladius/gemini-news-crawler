@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/31/news/usa_2024_biden_primarie_north_dakota-422401633/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Usa 2024, Biden vince le primarie dem in North Dakota
+url: https://www.repubblica.it/esteri/2024/03/31/news/usa_2024_biden_primarie_north_dakota-422401633/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 03:00:05.000000000 Z
+enclosure_length: '28866'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/31/050003940-fdfe7201-dbe1-4e8f-abde-a49154d7dbbb.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/31/news/usa_2024_biden_primarie_north_dakota-422401633/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/31/050003940-fdfe7201-dbe1-4e8f-abde-a49154d7dbbb.jpg"
+  width="140" align="left" hspace="10"></a>Il presidente americano ha ottenuto il
+  92% delle preferenze</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/usa_2024_biden_primarie_north_dakota-422401633/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

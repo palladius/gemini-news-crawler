@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: Ansa - Mondo News
-# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/paura-in-olanda-si-barrica-con-4-ostaggi-in-un-caffe_bc03a2b1-a2a9-419e-a819-d3d3fa4b0f5e.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: 'Paura in Olanda, si barrica con 4 ostaggi in un caffè '
-url: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/paura-in-olanda-si-barrica-con-4-ostaggi-in-un-caffe_bc03a2b1-a2a9-419e-a819-d3d3fa4b0f5e.html
-summary: 'Minaccia di far saltare il bar, poi li libera. Non è terrorismo '
-published: 2024-03-30 18:17:26.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/paura-in-olanda-si-barrica-con-4-ostaggi-in-un-caffe_bc03a2b1-a2a9-419e-a819-d3d3fa4b0f5e.html

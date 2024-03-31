@@ -18,6 +18,7 @@
   <% end %>
   <% if action_name == "show" %>
   <h2><%= @articles.count %> Related articles</h2>
+
   <% @articles.each do |x| %>
     <%= link_to x,x %><br/>
   <% end %>

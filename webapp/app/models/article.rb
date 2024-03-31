@@ -73,6 +73,9 @@ class Article < ApplicationRecord
       end
     end
 
+    def yyyymmdd
+      published_date.to_s[0,10]
+    end
     def to_s
       "#{Article.emoji} #{title}"
     end

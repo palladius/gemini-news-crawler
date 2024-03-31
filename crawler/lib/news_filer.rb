@@ -2,8 +2,11 @@ require 'yaml'
 
 class NewsFiler
 
-  VERSION = 1  # Increment for future changes to the data format
-
+  VERSION = 2  # Increment for future changes to the data format
+  CHANGELOG = "
+  2024-03-31 v2Added carlessian_info hash which is persisted alongside the rest. Useful t capture Newspaper name
+  2024-03-30 v1 Initial stesure. Just exposes vanilla RSS from feedjira
+"
   def initialize(output_dir)
     @output_dir = output_dir
     `mkdir -p "#{@output_dir}"`
@@ -13,10 +16,21 @@ class NewsFiler
     filename = generate_unique_filename(newspaper: newspaper, article: article)
     filepath = File.join(@output_dir, filename)
 
+    carlessian_info = {
+      'news_filer_version' => VERSION,
+      'newspaper' => newspaper.to_s, # if not its a symbol -> ugly
+    }
+    #article.categories << "GNC::Newspapaer::#{newspaper}"
+    article['carlessian_info'] = carlessian_info
+
+    #puts article.methods.sort.select{|m| m.match 'set' }.join ','
+    #article.author ||= 'Testing Random author'
+
     File.open(filepath, 'w') do |file|
       #file.write "# Dunno why but its not yamnl..\n"
-      file.write "# [NewsFiler v#{VERSION}] NewsPaper: #{newspaper}\n"
+      file.write "# [NewsFiler v#{VERSION}] NewsPaper: #{newspaper} (this should go in the Entries as of v2)\n"
       file.write "# [NewsFiler v#{VERSION}] GUID: #{article.entry_id}\n"
+      file.write "# [NewsFiler v#{VERSION}] entries.keys: #{article.entries.map{|a| a[0] }}\n"
       #file.write to_yaml(article)
       file.write article.to_yaml
     end

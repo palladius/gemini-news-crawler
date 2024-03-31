@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: Ansa - Mondo News
-# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/31/gaza-media-12-morti-in-raid-israele-su-persone-in-attesa-aiuti_471666ab-aaca-4a4c-805c-6db755a5c586.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: 'Gaza, media: 12 morti in raid Israele su persone in attesa aiuti'
-url: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/31/gaza-media-12-morti-in-raid-israele-su-persone-in-attesa-aiuti_471666ab-aaca-4a4c-805c-6db755a5c586.html
-summary: Il bombardamento sarebbe avvenuto sulla rotonda del Kuwait
-published: 2024-03-30 23:48:10.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/31/gaza-media-12-morti-in-raid-israele-su-persone-in-attesa-aiuti_471666ab-aaca-4a4c-805c-6db755a5c586.html

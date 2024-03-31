@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/31/news/germania_storici_scholz_russia_ucraina-422402200/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'Germania, sotto accusa il posizionamento di Scholz sulla Russia: gli storici
+  scrivono al premier “è erratico e sbagliato”'
+url: https://www.repubblica.it/esteri/2024/03/31/news/germania_storici_scholz_russia_ucraina-422402200/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 08:08:51.000000000 Z
+enclosure_length: '21396'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/31/100823109-9c309e2f-6c00-4964-bbca-8bedd267f1da.jpg
+summary: '<p><a href="https://www.repubblica.it/esteri/2024/03/31/news/germania_storici_scholz_russia_ucraina-422402200/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/31/100823109-9c309e2f-6c00-4964-bbca-8bedd267f1da.jpg"
+  width="140" align="left" hspace="10"></a>Una lettera firmata anche dal grande studioso
+  Heinrich August Winkler demolisce le ambiguità della Spd sulla Russia. E intanto
+  l’ex cancelliere Schroeder torna all’attacco: “Posso mediare con Putin”. Ma il ministro
+  Lauterbach ne chiede l’espulsione dal partito</p>'
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/germania_storici_scholz_russia_ucraina-422402200/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

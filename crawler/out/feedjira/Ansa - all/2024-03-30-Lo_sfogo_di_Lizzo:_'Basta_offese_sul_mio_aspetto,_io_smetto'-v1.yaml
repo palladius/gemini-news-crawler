@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: Ansa - all
-# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/cultura/musica/2024/03/30/lo-sfogo-di-lizzo-basta-offese-sul-mio-aspetto-io-smetto_4f2732ed-a911-42cb-9ad9-7031fc75ae42.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: 'Lo sfogo di Lizzo: ''Basta offese sul mio aspetto, io smetto'''
-url: https://www.ansa.it/sito/notizie/cultura/musica/2024/03/30/lo-sfogo-di-lizzo-basta-offese-sul-mio-aspetto-io-smetto_4f2732ed-a911-42cb-9ad9-7031fc75ae42.html
-summary: '"Voglio rendere felici le persone, ma il mondo non mi vuole"'
-published: 2024-03-30 17:51:41.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.ansa.it/sito/notizie/cultura/musica/2024/03/30/lo-sfogo-di-lizzo-basta-offese-sul-mio-aspetto-io-smetto_4f2732ed-a911-42cb-9ad9-7031fc75ae42.html

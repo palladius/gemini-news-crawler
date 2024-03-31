@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: BBC Science (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/science-environment-68599512#0
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Seagulls 'charismatic' not 'criminal', say scientists
+url: https://www.bbc.co.uk/news/science-environment-68599512
+summary: Urban seagulls get a bad press but we must learn to live alongside them,
+  say conservation experts.
+published: 2024-03-31 00:05:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/science-environment-68599512#0
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Science
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/182DF/production/_132993099_tj_gullinflight.jpg

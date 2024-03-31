@@ -1,9 +1,0 @@
-# [NewsFiler v1] NewsPaper: Ansa - all
-# [NewsFiler v1] GUID: https://www.ansa.it/sito/notizie/politica/2024/03/30/-mattarella-chiama-roberto-salis-le-sono-vicino_5b10c91b-085c-4f65-9cb1-91df3a5a9247.html
---- !ruby/object:Feedjira::Parser::RSSEntry
-title: 'Mattarella chiama Roberto Salis: ''Le sono vicino'''
-url: https://www.ansa.it/sito/notizie/politica/2024/03/30/-mattarella-chiama-roberto-salis-le-sono-vicino_5b10c91b-085c-4f65-9cb1-91df3a5a9247.html
-summary: "'Disparità di trattamento ci colpisce'. Il padre: 'Si interesserà' "
-published: 2024-03-31 05:03:12.000000000 Z
-entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
-  guid: https://www.ansa.it/sito/notizie/politica/2024/03/30/-mattarella-chiama-roberto-salis-le-sono-vicino_5b10c91b-085c-4f65-9cb1-91df3a5a9247.html
