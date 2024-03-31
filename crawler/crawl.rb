@@ -115,7 +115,7 @@ def main
   NEWS[:italy].each do |newspaper_friendly_name, newspaper_feed|
     ix += 1
     break if ix > MaxNewsWebsites
-    file_dumper = NewsFiler.new("out/#{newspaper_friendly_name}/")
+    file_dumper = NewsFiler.new("out/feedjira/#{newspaper_friendly_name}/")
     url = newspaper_feed
     print("🕷️ #{ix}  Crawling RSS Feed from: #{newspaper_friendly_name.to_s.colorize :yellow} # #{url}")
     #xml = HTTParty.get(url).body
