@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422382131
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Ultimo stadio
+url: https://www.repubblica.it/sport/2024/03/31/news/stadi_europei_calcio_2024_legge_gestione-422382131/
+summary: Strutture fatiscenti, investimenti bloccati, il rischio di perdere Euro 2032.
+  E Abodi vuole un commissario
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Sport
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422382131
+updated: 2024-03-31 00:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

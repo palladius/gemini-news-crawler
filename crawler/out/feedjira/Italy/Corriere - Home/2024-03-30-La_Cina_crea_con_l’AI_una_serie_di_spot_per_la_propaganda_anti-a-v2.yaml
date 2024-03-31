@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/esteri/24_marzo_30/cina-crea-l-ai-serie-spot-la-propaganda-anti-americana-1917abf8-edbb-11ee-8deb-6faf828a47a7.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: La Cina crea con l’AI una serie di spot per la propaganda anti-americana
+url: https://www.corriere.it/esteri/24_marzo_30/cina-crea-l-ai-serie-spot-la-propaganda-anti-americana-1917abf8-edbb-11ee-8deb-6faf828a47a7.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/29/Esteri/Foto%20Esteri%20-%20Trattate/AI-k7DF-U34701067033244mhH-656x492@Corriere-Web-Sezioni.JPG"
+  title="La Cina crea con l’AI una serie di spot per la propaganda anti-americana"
+  alt="La Cina crea con l’AI una serie di spot per la propaganda anti-americana" /><p>Il
+  canale media statale CGTN sta trasmettendo dei video per demolire il miraggio del
+  benessere Made in Usa: tra sogni d’oltreoceano disillusi e panorami distopici, ecco
+  come la Cina si sta avvalendo dell’intelligenza artificiale</p>'
+author: Clara Valenzani
+categories:
+- Esteri
+published: 2024-03-30 15:11:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/esteri/24_marzo_30/cina-crea-l-ai-serie-spot-la-propaganda-anti-americana-1917abf8-edbb-11ee-8deb-6faf828a47a7.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

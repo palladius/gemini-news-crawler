@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.iodonna.it/oroscopo/domani/?intcmp=iod_hpcor_articolo
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Che giornata ci attende domani e cosa riserva per lei e per lui. Le previsioni
+url: https://www.iodonna.it/oroscopo/domani/?intcmp=iod_hpcor_articolo
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2023/12/29/IoDonna/Foto%20IoDonna%20-%20Trattate/segni-zodiacali-bilancia-GettyImages-1338850152-scaled-U3150199486620YE-U34502057369037fTH-656x492@Corriere-Web-Nazionale.jpg"
+  title="Che giornata ci attende domani e cosa riserva per lei e per lui. Le previsioni"
+  alt="Che giornata ci attende domani e cosa riserva per lei e per lui. Le previsioni"
+  /><p>Le previsioni, segno per segno: i pianeti alleati, i periodi dell’anno fortunati
+  e quando invece stare attenti a possibili sgambetti “stellari”Le previsioni, segno
+  per segno: i pianeti alleati, i periodi dell’anno fortunati e quando invece stare
+  attenti a possibili sgambetti “stellari</p>'
+categories:
+- IoDonna
+published: 2024-03-20 07:17:18.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.iodonna.it/oroscopo/domani/?intcmp=iod_hpcor_articolo
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

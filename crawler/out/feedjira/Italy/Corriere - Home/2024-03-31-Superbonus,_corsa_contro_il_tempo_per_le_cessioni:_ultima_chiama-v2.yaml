@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/economia/casa/cards/superbonus-corsa-contro-il-tempo-per-le-cessioni-del-credito-ultima-chiamata-il-4-aprile/superbonus-stop-alle-cessioni_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Superbonus, corsa contro il tempo per le cessioni: ultima chiamata il 4 aprile'
+url: https://www.corriere.it/economia/casa/cards/superbonus-corsa-contro-il-tempo-per-le-cessioni-del-credito-ultima-chiamata-il-4-aprile/superbonus-stop-alle-cessioni_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Economia/Foto%20Economia%20-%20Trattate/65cb910f68c5b_ori_crop_MASTER__0x0.jpeg"
+  title="Superbonus, corsa contro il tempo per le cessioni: ultima chiamata il 4 aprile"
+  alt="Superbonus, corsa contro il tempo per le cessioni: ultima chiamata il 4 aprile"
+  /><p>Rimangono pochi giorni a chi ha fatto un errore o non ha comunicato all''Agenzia
+  delle Entrate di aver optato per lo sconto in fattura e la cessione del creditoRimangono
+  pochi giorni a chi ha fatto un errore o non ha comunicato all''Agenzia delle Entrate
+  di aver optato per lo sconto in fattura e la cessione del creditoRimangono pochi
+  giorni a chi ha fatto un errore o non ha comunicato all''Agenzia delle Entrate di
+  aver optato per lo sconto in fattura e la cessione del credito</p>'
+author: Valentina Iorio
+categories:
+- Economia
+published: 2024-03-31 07:40:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/economia/casa/cards/superbonus-corsa-contro-il-tempo-per-le-cessioni-del-credito-ultima-chiamata-il-4-aprile/superbonus-stop-alle-cessioni_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

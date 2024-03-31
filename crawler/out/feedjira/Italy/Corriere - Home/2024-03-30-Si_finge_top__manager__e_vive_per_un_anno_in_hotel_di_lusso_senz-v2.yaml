@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_30/alto-adige-si-finge-un-top-manager-e-vive-per-un-anno-in-hotel-di-lusso-senza-pagare-bandito-da-32-comuni-a9f802e7-b867-41d3-8dab-15fd7333exlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Si finge top  manager  e vive per un anno in hotel di lusso senza pagare:
+  ora è stato bandito da 32 comuni'
+url: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_30/alto-adige-si-finge-un-top-manager-e-vive-per-un-anno-in-hotel-di-lusso-senza-pagare-bandito-da-32-comuni-a9f802e7-b867-41d3-8dab-15fd7333exlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Varie/Foto%20Varie%20-%20Trattate/6607c43f6fb2f_ori_crop_MASTER__0x0.jpeg"
+  title="Si finge top  manager  e vive per un anno in hotel di lusso senza pagare:
+  ora è stato bandito da 32 comuni" alt="Si finge top  manager  e vive per un anno
+  in hotel di lusso senza pagare: ora è stato bandito da 32 comuni" /><p>L''uomo,
+  di 46 anni, si presentava con supercar presa a noleggio assicurando che avrebbe
+  saldato il conto in seguito ma poi si dileguavaL''uomo, di 46 anni, si presentava
+  con supercar presa a noleggio assicurando che avrebbe saldato il conto in seguito
+  ma poi si dileguava. Il questore di Bolzano gli ha dato 32 fogli di via per altrettanti
+  comuniL''uomo, di 46 anni, si presentava con supercar presa a noleggio assicurando
+  che avrebbe saldato il conto in seguito ma poi si dileguava. Il questore di Bolzano
+  gli ha dato 32 fogli di via per altrettanti comuni</p>'
+author: Chiara Currò Dossi
+categories:
+- Corriere
+published: 2024-03-30 22:27:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_30/alto-adige-si-finge-un-top-manager-e-vive-per-un-anno-in-hotel-di-lusso-senza-pagare-bandito-da-32-comuni-a9f802e7-b867-41d3-8dab-15fd7333exlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

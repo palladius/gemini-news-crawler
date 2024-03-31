@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://corrieredelveneto.corriere.it/notizie/venezia-mestre/24_marzo_31/chioggia-finisce-nel-canale-con-l-auto-che-si-inabissa-e-muore-passeggera-salvata-da-un-vigile-del-fuoco-98e623dc-294d-4f11-886f-8a98b2d9axlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Chioggia, finisce nel canale con l'auto che si inabissa e muore. Passeggera
+  salvata da un vigile del fuoco
+url: https://corrieredelveneto.corriere.it/notizie/venezia-mestre/24_marzo_31/chioggia-finisce-nel-canale-con-l-auto-che-si-inabissa-e-muore-passeggera-salvata-da-un-vigile-del-fuoco-98e623dc-294d-4f11-886f-8a98b2d9axlk.shtml
+summary: <p><img src="https://images2.corriereobjects.it/methode_image/Tappi%20Regionali/CorriereVeneto/2024/03/31/Foto%20-%20Trattate/66091f7458644.r_d.600-459-0_ori_crop_MASTER__0x0.jpeg"
+  title="Chioggia, finisce nel canale con l'auto che si inabissa e muore. Passeggera
+  salvata da un vigile del fuoco" alt="Chioggia, finisce nel canale con l'auto che
+  si inabissa e muore. Passeggera salvata da un vigile del fuoco" /><p>Tragedia nella
+  notte. A dare l'allarme e intervenire un pompiere che abita di fronte al corso d'acquaTragedia
+  nella notte. A dare l'allarme e intervenire un pompiere che abita di fronte al corso
+  d'acquaTragedia nella notte. A dare l'allarme e intervenire un pompiere che abita
+  di fronte al corso d'acqua</p>
+author: Redazione Online
+categories:
+- Corriere
+published: 2024-03-31 08:52:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://corrieredelveneto.corriere.it/notizie/venezia-mestre/24_marzo_31/chioggia-finisce-nel-canale-con-l-auto-che-si-inabissa-e-muore-passeggera-salvata-da-un-vigile-del-fuoco-98e623dc-294d-4f11-886f-8a98b2d9axlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

@@ -3,7 +3,7 @@
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: 'Nubifragio a Milano e tromba d’aria nel Varesotto: alberi caduti e strade
-  allagate'
+  allagate, danni in città'
 url: https://milano.repubblica.it/cronaca/2024/03/31/news/maltempo_nubifragio_milano_varese_danni-422402197/
 summary: Nella tarda serata di sabato decine di interventi dei vigili del fuoco. A
   Gavirate si apre una voragine nella strada, evacuata una famiglia

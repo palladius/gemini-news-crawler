@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422400849
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Incentivi auto 2024, bonus non solo per le elettriche: cosa sapere su rottamazione
+  e nuovi contributi'
+url: https://www.repubblica.it/economia/2024/03/30/news/incentivi_auto_elettriche_2024_rottamazione-422400849/
+summary: Dopo il via libera del Mef, tocca a Palazzo Chigi. Fra un mese i nuovi ecoincentivi
+  fino a 13.750 euro saranno realtà. Fondi anche per le moto
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Economia
+published: 2024-03-30 19:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422400849
+updated: 2024-03-30 19:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

@@ -1,0 +1,39 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497298
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Fuga di gas in chiesa durante la messa: 40 fedeli in ospedale, alcuni in camera
+  iperbarica'
+url: https://www.ilfattoquotidiano.it/2024/03/31/fuga-di-gas-in-chiesa-durante-la-messa-40-fedeli-in-ospedale-alcuni-in-camera-iperbarica/7497298/
+summary: |
+  <p>Un&#8217;intossicazione di massa durante la veglia pasquale. A causa di una fuga di gas si è scatenato il panico nella tarda serata di sabato nella chiesa parrocchiale di San Costanzo a Pont Canavese, in provincia di Torino. Nel pieno della funzione religiosa, diverse persone hanno iniziato ad accusare malori, nausea, mal di testa e svenimenti. [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/fuga-di-gas-in-chiesa-durante-la-messa-40-fedeli-in-ospedale-alcuni-in-camera-iperbarica/7497298/">Fuga di gas in chiesa durante la messa: 40 fedeli in ospedale, alcuni in camera iperbarica</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Cronaca
+- Torino
+published: 2024-03-31 08:42:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497298
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/fuga-di-gas-in-chiesa-durante-la-messa-40-fedeli-in-ospedale-alcuni-in-camera-iperbarica/7497298/#respond
+content: |
+  <p>Un&#8217;<strong>intossicazione</strong> di massa durante la <strong>veglia pasquale</strong>. A causa di una <strong>fuga di gas</strong> si è scatenato il <strong>panico</strong> nella tarda serata di sabato nella chiesa parrocchiale di <strong>San Costanzo</strong> a <strong>Pont Canavese</strong>, in provincia di Torino. Nel pieno della funzione religiosa, diverse persone hanno iniziato ad accusare <strong>malori</strong>, nausea, <strong>mal di testa</strong> e svenimenti. La causa, come ricostruito dai soccorritori, è da attribuire a un&#8217;intossicazione da <strong>monossido di carbonio</strong>, causata probabilmente da un <strong>guasto alla caldaia</strong> della chiesa.</p>
+  <p>Le persone finite in ospedale sono<strong> 40</strong> e in almeno una decina &#8211; tra cui un <strong>bambino di 8 anni</strong> &#8211; sono state costrette al trattamento in <strong>camera iperbarica</strong> negli ospedali di Ivrea e Ciriè. Nessuno è in gravi condizioni. Sul posto sono giunte diverse squadre dei <strong>vigili del fuoco</strong> partite da Ivrea, Rivarolo Canavese e Cuorgnè, oltre ai reparti specializzati del <strong>nucleo Nbcr</strong> spediti da Torino. Le <strong>ambulanze</strong> accorse sul posto hanno prestato i primi soccorsi direttamente sul <strong>sagrato</strong> della chiesa.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/fuga-di-gas-in-chiesa-durante-la-messa-40-fedeli-in-ospedale-alcuni-in-camera-iperbarica/7497298/">Fuga di gas in chiesa durante la messa: 40 fedeli in ospedale, alcuni in camera iperbarica</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/Pont-Canavese-intossicati-in-chiesa-1050x551.jpg

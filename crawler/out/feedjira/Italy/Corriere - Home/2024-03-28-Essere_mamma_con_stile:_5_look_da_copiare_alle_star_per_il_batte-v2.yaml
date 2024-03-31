@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.iodonna.it/moda/tendenze/2024/03/22/outfit-battesimo-mamma-idee-look/?intcmp=iod_hpcor_articolo
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Essere mamma con stile: 5 look da copiare alle star per il battesimo |Foto '
+url: https://www.iodonna.it/moda/tendenze/2024/03/22/outfit-battesimo-mamma-idee-look/?intcmp=iod_hpcor_articolo
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/25/IoDonna/Foto%20IoDonna%20-%20Trattate/slider-battesimo-kedD-U3470934601723hR-656x492@Corriere-Web-Sezioni.jpg"
+  title="Essere mamma con stile: 5 look da copiare alle star per il battesimo |Foto
+  " alt="Essere mamma con stile: 5 look da copiare alle star per il battesimo |Foto
+  " /><p>Dalle opzioni con pantaloni ai lunghi abiti eterei: i migliori look a cui
+  ispirarsi per essere eleganti, ma a proprio agio, durante la cerimoniaDalle opzioni
+  con pantaloni ai lunghi abiti eterei: i migliori look a cui ispirarsi per essere
+  eleganti, ma a proprio agio, durante la cerimonia</p>'
+categories:
+- IoDonna
+published: 2024-03-28 08:41:31.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.iodonna.it/moda/tendenze/2024/03/22/outfit-battesimo-mamma-idee-look/?intcmp=iod_hpcor_articolo
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

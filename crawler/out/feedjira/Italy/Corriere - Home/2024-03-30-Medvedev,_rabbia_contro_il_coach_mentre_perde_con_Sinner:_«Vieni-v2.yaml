@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/sport/tennis/24_marzo_29/medvedev-rabbia-contro-coach-sinner-707e534e-ee13-11ee-8deb-6faf828a47a7.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Medvedev, rabbia contro il coach mentre perde con Sinner: «Vieni tu, guarda
+  se ci riesci»'
+url: https://www.corriere.it/sport/tennis/24_marzo_29/medvedev-rabbia-contro-coach-sinner-707e534e-ee13-11ee-8deb-6faf828a47a7.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/29/Sport/Foto%20Sport%20-%20Trattate/2123369614-kR2D-U34701085319148RQC-656x492@Corriere-Web-Sezioni.jpg"
+  title="Medvedev, rabbia contro il coach mentre perde con Sinner: «Vieni tu, guarda
+  se ci riesci»" alt="Medvedev, rabbia contro il coach mentre perde con Sinner: «Vieni
+  tu, guarda se ci riesci»" /><p>Tutta la rabbia di Daniil Medvedev contro il suo
+  coach, Gilles Cervara. Il tennista russo, sul 5-1 per Jannik Sinner nel secondo
+  set della semifinale del Masters 1000 di Miami, reagisce con frustrazione all''allenatore
+  che dagli spalti gli dava indicazioni</p>'
+author: Redazione Sport
+categories:
+- Sport
+published: 2024-03-30 17:12:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/sport/tennis/24_marzo_29/medvedev-rabbia-contro-coach-sinner-707e534e-ee13-11ee-8deb-6faf828a47a7.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

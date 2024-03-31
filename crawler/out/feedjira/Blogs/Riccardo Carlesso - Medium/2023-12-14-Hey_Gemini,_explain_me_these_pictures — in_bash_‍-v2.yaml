@@ -1,0 +1,207 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/06c03d0d0512
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hey Gemini, explain me these pictures — in bash ‍
+url: https://blog.devops.dev/hey-gemini-explain-me-these-pictures-in-bash-06c03d0d0512?source=rss-b5293b96912f------2
+author: Riccardo Carlesso
+categories:
+- bash
+- gemini
+- curl
+- genai
+- google
+published: 2023-12-14 15:16:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/06c03d0d0512
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: "<h3>Hey Gemini, explain me these pictures — in bash \U0001F9D1\U0001F3FD‍\U0001F4BB</h3><p><a
+  href=\"https://www.youtube.com/watch?v=jV1vkHv4zq8\"><strong>Gemini</strong> is
+  finally out</a>!</p><p>And… it’s <strong>multimodal</strong>! Which means, you can
+  use both images and text to ask for questions (the output is only text — for now \U0001F609).</p><p>Note:
+  all the code snippets (and images) in here are available in my <a href=\"https://github.com/palladius/genai-googlecloud-scripts/tree/main/07-bash-gemini-multimodal-jam\"><strong>GitHub repo</strong></a>.</p><p>Let’s
+  get started!</p><h3>Hey Gemini, describe what you see..</h3><p>Let’s start by an
+  album by my favourite band:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/536/0*gbubXqodziySrF_A\"
+  /><figcaption>One of my favourite albums of all time — will Gemini recognize it?</figcaption></figure><pre>$
+  ./gemini-generic.sh images/genesis-selling-england.jpg Describe what you see<br>#
+  \U0001F90C  QUESTION: Describe what you see<br># \U0001F321️ TEMPERATURE: 0.2 <br>#
+  \U0001F440 Examining image images/genesis-selling-england.jpg: JPEG image data,
+  JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, baseline,
+  precision 8, 536x528, components 3. <br># ♊ Gemini no Saga answer for you:<br>The
+  cover of Genesis album Selling England by the Pound features a painting <br>by British
+  artist Paul Whitehead. The painting depicts a group of people in <br>a park, with
+  a man sleeping on a bench in the foreground. The people are all<br>wearing clothes
+  from the 1920s or 1930s, and the painting has a nostalgic, <br>almost surreal feel
+  to it. The colors are muted and the figures are slightly <br>blurred, which gives
+  the painting a dreamlike quality. The painting is also <br>full of symbolism, with
+  the sleeping man representing England and the people <br>around him representing
+  the different aspects of English society. The painting<br>has been interpreted in
+  many different ways, but it is generally seen as a<br>commentary on the state of
+  England in the 1970s.</pre><p><em>♊ The cover of Genesis’ album Selling England
+  by the Pound features a painting by British artist Paul Whitehead. The painting
+  depicts a group of people in a park, with a man sleeping on a bench in the foreground.
+  The people are all wearing clothes from the 1920s or 1930s, and the painting has
+  a nostalgic, almost surreal feel to it. The colors are muted and the figures are
+  slightly blurred, which gives the painting a dreamlike quality. The painting is
+  also full of symbolism, with the sleeping man representing England and the people
+  around him representing the different aspects of English society. The painting has
+  been interpreted in many different ways, but it is generally seen as a commentary
+  on the state of England in the 1970s.</em></p><p>A quick googling confirms that
+  <a href=\"https://en.wikipedia.org/wiki/Paul_Whitehead\">Paul Whitehead</a> actually
+  covered one of my favourite album of all times. If you love Genesis too and want
+  to see me play Firth of Fifth, please check <a href=\"https://www.youtube.com/watch?v=4VBxd9n1dSU\">my
+  youtube video.</a></p><p>Let’s try this cat now:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/320/0*maiP4twRlm4le8Qx\"
+  /><figcaption>This is a cat from Google sample images</figcaption></figure><p><strong>Gemini</strong>:
+  A cat is walking in the snow. The cat is brown and white and has a long tail. The
+  cat is looking at the camera. The snow is white and is covering the ground.</p><h4>How
+  did I do it?</h4><p>If you check my bash script (<a href=\"https://github.com/palladius/genai-googlecloud-scripts/blob/main/07-bash-gemini-multimodal-jam/gemini-generic.sh\">gemini-generic.sh</a>),
+  you can see the request looks like this:</p><pre>data=$(_base64_encode_mac_or_linux
+  &quot;$IMAGE&quot;) # Mac or Linux should both work!<br># ...<br>cat &gt; &quot;$REQUEST_FILE&quot;
+  &lt;&lt;EOF<br>{&#39;contents&#39;: {<br>      &#39;role&#39;: &#39;USER&#39;,<br>
+  \     &#39;parts&#39;: [<br>        {&#39;text&#39;: &#39;$QUESTION&#39;},<br>        {&#39;inline_data&#39;:
+  {<br>            &#39;data&#39;: &#39;$data&#39;,<br>            &#39;mime_type&#39;:&#39;image/jpeg&#39;}}]<br>
+  \   }<br><br>}<br>EOF</pre><p>The hardest part is actually the base64conversion,
+  and making it work both on my Mac and on my Linux (as our grand-parents say in Italy
+  <em>“You wanted </em><em>/bin/bash.? Now you pedal!”</em>).</p><h4>An Italian image,
+  explained in Italian</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/926/0*KyG34HB0fyBRdHH8\"
+  /><figcaption>The city of XXX, in Italy. Seen from the YYY palace (surprise!). Picture
+  from my colleague Daria.</figcaption></figure><pre>./gemini-explain-image.sh images/italian-town.jpg<br>[..]<br>
+  This is a view of the city of Trento, Italy from the Buonconsiglio Castle.</pre><p><strong>Gemini
+  (</strong><em>\U0001F1EC\U0001F1E7</em><strong>): </strong><em>This is a view of
+  the city of Trento, Italy from the Buonconsiglio Castle.</em></p><p>Let’s ask the
+  same in Italian:</p><pre>$ GENERATE_MP3=true ./gemini-explain-image-italian.sh images/italian-town.jpg<br>#
+  \U0001F90C  QUESTION: Descrivimi cosa vedi in questa immagine<br># \U0001F321️  TEMPERATURE:
+  0.2<br># \U0001F440 Examining image images/italian-town.jpg: JPEG image data, JFIF
+  standard 1.01, aspect ratio, density 1x1, segment length 16, Exif Standard: [TIFF
+  image data, little-endian, direntries=1, software=Google], baseline, precision 8,
+  926x1230, components 3.<br># ♊ Gemini no Saga answer for you:<br> La foto mostra
+  una loggia con delle colonne in pietra che incorniciano la vista di una città.<br>
+  La città è circondata da montagne e si possono vedere i tetti delle case e le torri
+  delle chiese.<br> Il cielo è azzurro e ci sono delle nuvole bianche.<br># TTS_LANG:
+  it-IT<br>Written .tmp.tts-output.json. curl_ret=0<br>t.audio.encoded: ASCII text,
+  with very long lines (65536), with no line terminators<br>t.mp3:           MPEG
+  ADTS, layer III, v2,  32 kbps, 24 kHz, Monaural<br>t.mp3: MPEG ADTS, layer III,
+  v2,  32 kbps, 24 kHz, Monaural<br>All good. MP3 created: &#39;t.La foto mostra una
+  loggia con delle colonne in pie.mp3&#39;</pre><p>Gemini (\U0001F1EE\U0001F1F9):
+  <em>La foto mostra una loggia con delle colonne in pietra che incorniciano la vista
+  di una città. La città è circondata da montagne e si possono vedere i tetti delle
+  case e le torri delle chiese. Il cielo è azzurro e ci sono delle nuvole bianche.</em></p><p>As
+  you see, Italian is more verbose (my wife says the same about me!) but it’s not
+  aware of the <a href=\"https://www.buonconsiglio.it/\">Buonconsiglio Palace</a>.
+  Interesting! I presume the Italian model has less training material to learn from
+  than the English one.</p><p>Makes sense.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*kM6xWj1LtmR46I0q\"
+  /><figcaption>Btw, I highly recommend Trento, I was cycling around there: great
+  views and great wines!</figcaption></figure><h4>Comparing two images</h4><p>How
+  about comparing two images?</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/786/1*yiGN2IyD-eaLglpR63_Krw.png\"
+  /><figcaption>Gemini constellation vs Saint Seiya’s Gemini saint.</figcaption></figure><p>Some
+  sample code is in my Makefile for convenience. try this:</p><pre>ricc@derek:~/git/genai-googlecloud-scripts/07-bash-gemini-multimodal-jam$
+  \U0001F43C !mak<br>make compare-two-geminis <br>./gemini-generic-two-pics.sh  images/gemini-constellation.png
+  \  images/saga-blue-hair.jpg<br>♊️ Question: Can you highlight similarity and differences
+  between the two? Also, do you recognize the same person in both of them?<br> \U0001F440
+  Examining image1 images/gemini-constellation.png: images/gemini-constellation.png:
+  PNG image data, 1675 x 1302, 8-bit/color RGBA, non-interlaced. <br> \U0001F440 Examining
+  image2 images/saga-blue-hair.jpg: images/saga-blue-hair.jpg: JPEG image data, JFIF
+  standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision
+  8, 193x261, components 3. <br>♊️ Describing attached image:<br> The two images are
+  of the constellation Gemini and the anime character Gemini Saga. The constellation
+  is said to represent the twins Castor and Pollux, while the character Gemini Saga
+  is a Gemini Saint in the anime series Saint Seiya. Both images depict two figures
+  that are connected to each other. The constellation is made up of stars, while the
+  character is a human.</pre><p><strong>♊ Response</strong>: ️ <em>The two images
+  are of the constellation Gemini and the anime character Gemini Saga. The constellation
+  is said to represent the twins Castor and Pollux, while the character Gemini Saga
+  is a Gemini Saint in the anime series Saint Seiya. Both images depict two figures
+  that are connected to each other. The constellation is made up of stars, while the
+  character is a human.</em></p><p>Today we’ve learnt something we certainly didn’t
+  know: a constellation is made of stars, while the guy on the right is human \U0001F603</p><h4>Introducing
+  Audio!</h4><p>Why don’t we throw some audio in the mix?</p><p>I’ve added a tts.sh ,
+  which creates an MP3 out of an english (or Italian!) text given in ARGV. Convenient
+  uh?</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*-QOBFPt1GsVq2LVK\"
+  /><figcaption>My kids beside American Santa Klaus (we live in Zurich, there’s a
+  Santa for every language and ethnicity!)</figcaption></figure><p>A few weeks ago
+  my kids went to visit Santa Klaus.. the American Santa — they’ll tell you there’s
+  another who speaks German instead, he’s called <em>Samiklaus</em>, they still can’t
+  decide if its the same guy — my kids are X and Y year old; how old? Let’s ask Gemini!</p><pre>$
+  make age-test<br># equivalent to:<br>$ GENERATE_MP3=true ./gemini-generic.sh images/ricc-family-with-santa.jpg
+  Tell me the age of the people you see, from left to right.<br># \U0001F90C  QUESTION:
+  Tell me the age of the people you see, from left to right.<br># \U0001F321️  TEMPERATURE:
+  0.2<br># \U0001F440 Examining image images/ricc-family-with-santa.jpg: JPEG image
+  data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, Exif Standard:
+  [TIFF image data, little-endian, direntries=3, software=Google], baseline, precision
+  8, 1164x826, components 3.<br># ♊ Gemini no Saga answer for you:<br>1. 30-35<br>2.
+  2-3<br>3. 40-45<br>4. 2-3<br>5. 60-65<br>[..]<br>All good. MP3 created [..]</pre><p>Now
+  I’m older than 40–45 (46) so technically speaking this is a mistake, but as a human
+  interaction I will consider it as a success \U0001F609</p><p>Now this is not the
+  best of MP3s, but it works! Check out <a href=\"https://github.com/palladius/genai-googlecloud-scripts/blob/main/07-bash-gemini-multimodal-jam/images/ricc-family-with-santa.jpg.mp3\">ricc-family-with-santa.jpg.mp3</a>.</p><p>You
+  can also find Trento in Italian here: <a href=\"https://github.com/palladius/genai-googlecloud-scripts/blob/main/07-bash-gemini-multimodal-jam/images/italian-town.jpg.mp3\">italian-town.jpg.mp3</a>.</p><h4>Something
+  useful now: understand a diagram!</h4><p>A colleague told me yesterday: the power
+  of Gemini is that not only “he” understands text and images, also the very complex
+  relationship between items in a diagram. This morning my Accrux earphones wouldn’t
+  work, so I decided to understand how they work. I downloaded the <a href=\"https://raw.githubusercontent.com/palladius/genai-googlecloud-scripts/main/07-bash-gemini-multimodal-jam/images/instruction-manuals/Acrux-User-Manual-4700503.pdf\">User
+  Manual</a>, uploaded to Gemini <a href=\"https://raw.githubusercontent.com/palladius/genai-googlecloud-scripts/main/07-bash-gemini-multimodal-jam/images/instruction-manuals/Acrux-User-Manual-4700503.png\">as
+  image</a>, and asked Gemini a few questions.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*hfF-icWAS9U4T30e.png\"
+  /><figcaption>I’m not so young anymore so I can’t read this unless it’s printed
+  on A3. And I respect Amazon too much!</figcaption></figure><p>From UI, this is <em>easy
+  peasy</em>. Upload image and ask question:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/612/0*TXJPDl-xEJFt6FEL\"
+  /></figure><p>And what about bash? Let’s do the same from CLI:</p><pre>$ make read-instruction-manual-for-me
+  <br>[..]<br>./gemini-generic.sh images/instruction-manuals/Acrux-User-Manual-4700503.png
+  &#39;1. How do i TURN it on? 2. Where is the power button located? 3. Is this the
+  one called ANC?&#39;<br># \U0001F90C  QUESTION: 1. How do i TURN it on? 2. Where
+  is the power button located? 3. Is this the one called ANC?<br># \U0001F321️  TEMPERATURE:
+  0.2 <br># \U0001F440 Examining image images/instruction-manuals/Acrux-User-Manual-4700503.png:
+  PNG image data, 1664 x 929, 8-bit/color RGBA, non-interlaced. <br># ♊ Gemini no
+  Saga answer for you:<br>1. Long press the power button for 2 seconds.<br>2. The
+  power button is located on the right earcup.<br>3. Yes, this is the one called ANC.<br>#
+  Note: No mp3 file generated (use GENERATE_MP3=true to generate one)</pre><p>My question
+  (I actually asked the questions one by one, so think of it as an avalanche-chat):</p><ol><li>How
+  do i TURN it on?</li><li>Where is the power button located?</li><li>Is this the
+  one called ANC?</li></ol><p># ♊ Gemini answer:<br><em>1. Long press the power button
+  for 2 seconds.<br>2. The power button is located on the right earcup.<br>3. Yes,
+  this is the one called ANC.</em></p><p>Bingo!</p><h4>An unexpected Games of Thrones
+  plot twist</h4><p>This is the avatar I use in Google. I’m really curious to see
+  what gemini can infer from here, also because I used some filters.</p><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/600/0*w_qhJiiXjD2ZudEZ\" /><figcaption>Riccardo
+  in the Amsterdam office, a few years/kilos ago.</figcaption></figure><pre>$ ./gemini-explain-image.sh
+  images/ricc-logo.png<br>[..]<br>This is a photo of a man standing behind a Google
+  Cloud Platform cutout.<br>The man is smiling and wearing a shirt that says, “That’s
+  what I do,<br>I drink and I know things.” The background is a brick wall with blue<br>and
+  white accents.</pre><p><strong>♊ </strong>Gemini:<em> This is a photo of a man standing
+  behind a Google Cloud Platform cutout. The man is smiling and wearing a shirt that
+  says, “That’s what I do,<br>I drink and I know things.” The background is a brick
+  wall with blue<br>and white accents.</em></p><p>And I thought! Of course, this is
+  my favourite Games of Thrones t-shirt. Let’s see if he knows:</p><p><strong><em>Q:
+  Do you recognize the quote in this person tshirt?</em></strong></p><pre>$ GENERATE_MP3=true
+  ./gemini-generic.sh images/ricc-logo.png Do you recognize the quote in this person
+  tshirt<br>[..]<br> &quot;That&#39;s what I do, I drink and I know things&quot; is
+  a quote from the TV show Game of Thrones,<br> said by the character Tyrion Lannister.</pre><p><strong>♊
+  </strong>Response: <em>“That’s what I do, I drink and I know things” is a quote
+  from the TV show Game of Thrones, said by the character Tyrion Lannister.</em></p><p>And
+  you also have the MP3 if you wish: <a href=\"https://github.com/palladius/genai-googlecloud-scripts/blob/main/07-bash-gemini-multimodal-jam/images/ricc-logo.png.mp3\">images/ricc-logo.png.mp3</a></p><figure><img
+  alt=\"\" src=\"https://cdn-images-1.medium.com/max/1000/0*gz3JRSvt3G_-iDcm\" /></figure><p><em>Chapeau</em>,
+  Gemini!</p><h4>Conclusions</h4><p>Calling Gemini is easy, fun and powerful!</p><ul><li><strong>Easy</strong>.
+  If you can invoke Gemini via curl, imagine how easy it is to invoke it with your
+  favourite language! <a href=\"https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal\"><strong>Try
+  out our SDK</strong></a><strong> </strong>in Python, Node, Java, Go. For everything
+  else there’s REST/cURL!</li><li><strong>Fun</strong>. look at how many use cases
+  I’ve shown in this page: comparing two images, asking questions abuot an image,
+  a writing, age of people, .. possibilities are endless.</li><li><strong>Powerful</strong>.
+  Multi-modal is a game changer. And for what I hear, <em>more modes are coming</em>. \U0001F609</li></ul><p>Did
+  you like this? Want more of this? Write it in the comments!</p><p>Riccardo</p><img
+  src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=06c03d0d0512\"
+  width=\"1\" height=\"1\" alt=\"\"><hr><p><a href=\"https://blog.devops.dev/hey-gemini-explain-me-these-pictures-in-bash-06c03d0d0512\">Hey
+  Gemini, explain me these pictures — in bash \U0001F9D1\U0001F3FD‍\U0001F4BB</a>
+  was originally published in <a href=\"https://blog.devops.dev\">DevOps.dev</a> on
+  Medium, where people are continuing the conversation by highlighting and responding
+  to this story.</p>"

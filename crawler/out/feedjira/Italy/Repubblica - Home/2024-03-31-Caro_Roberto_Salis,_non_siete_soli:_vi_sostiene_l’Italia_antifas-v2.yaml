@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401526
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Caro Roberto Salis, non siete soli: vi sostiene l’Italia antifascista'
+url: https://www.repubblica.it/cronaca/2024/03/31/news/ilaria_roberto_salis_lettera_furio_colombo-422401526/
+summary: 'La lettera di Furio Colombo al padre della giovane detenuta a Budapest:
+  il governo italiano ha trattato le catene di Ilaria come una variabile del tutto
+  ragionevole di ciò che può accadere in un’aula di tribunale'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401526
+updated: 2024-03-31 00:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

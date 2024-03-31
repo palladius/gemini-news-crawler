@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/30/news/gaza_ultime_notizie_diario_sami_al_ajrami-422398514/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Diario da Gaza – Ramadan e Venerdì Santo insieme. La gente della Striscia riscopre
+  la fede per far fronte agli orrori della guerra
+url: https://www.repubblica.it/esteri/2024/03/30/news/gaza_ultime_notizie_diario_sami_al_ajrami-422398514/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-30 00:00:00.000000000 Z
+enclosure_length: '62344'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/29/220357629-6c7a1356-3b9c-4540-ac4e-6d96aa801db2.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/30/news/gaza_ultime_notizie_diario_sami_al_ajrami-422398514/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/29/220357629-6c7a1356-3b9c-4540-ac4e-6d96aa801db2.jpg"
+  width="140" align="left" hspace="10"></a>La testimonianza. A Rafah sono rimaste
+  aperte soltanto un paio di moschee e alcuni imam celebrano all’aperto, davanti alle
+  tende. A Gaza City, nella chiesa della Sacra Famiglia, resistono i riti della Pasqua</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/30/news/gaza_ultime_notizie_diario_sami_al_ajrami-422398514/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

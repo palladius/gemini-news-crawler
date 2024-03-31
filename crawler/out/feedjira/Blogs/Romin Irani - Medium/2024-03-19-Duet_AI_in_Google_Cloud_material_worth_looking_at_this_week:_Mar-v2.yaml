@@ -1,0 +1,72 @@
+# [NewsFiler v2] NewsPaper: Romin Irani - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/b4c8d4df17d6
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Duet AI in Google Cloud material worth looking at this week: March 18, 2024'
+url: https://medium.com/google-cloud/duet-ai-in-google-cloud-material-worth-looking-at-this-week-march-18-2024-b4c8d4df17d6?source=rss-802a4d428d95------2
+author: Romin Irani
+categories:
+- gcp-app-dev
+- machine-learning
+- generative-ai
+- duet-ai
+- google-cloud-platform
+published: 2024-03-19 09:33:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/b4c8d4df17d6
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Romin Irani - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/316/0*TDKbgJU9S_mqJ2yz.png\"
+  /></figure><p>A selection of Duet AI in Google Cloud materials that are worth your
+  attention.</p><p>First up, we have an <a href=\"https://medium.com/@larry_nguyen/duet-ai-for-developers-using-vscode-e8315260bb9b\">article</a>
+  by <a href=\"https://medium.com/u/71429b330390\">Larry Nguyen</a> that takes you
+  through the various steps of using Duet AI for application development. The article
+  starts off with Duet AI Setup and then building from scratch an application that
+  manages a list of people. The data is backed with a Firestore database and there
+  is even a web front-end that is built out. Check it out.</p><p><a href=\"https://medium.com/@larry_nguyen/duet-ai-for-developers-using-vscode-e8315260bb9b\">Duet
+  AI for Developers using VSCode</a></p><p>The second <a href=\"https://medium.com/@amaliasonia3/creating-worlds-one-line-at-a-time-the-power-of-duet-ai-generative-ai-for-developers-3e5f13f9f434\">article</a>
+  by <a href=\"https://medium.com/u/9a7d5511eb4e\">Sonia Khasanah Amalia</a> is a
+  summary of one of the codelabs that has been listed below that gives you a tour
+  of various Duet AI features. If you have never used an AI Assistant before and want
+  to understand how to work with Duet AI and the type of tasks that it can help with,
+  this is a good started article to go with the lab.</p><p><a href=\"https://medium.com/@amaliasonia3/creating-worlds-one-line-at-a-time-the-power-of-duet-ai-generative-ai-for-developers-3e5f13f9f434\">Creating
+  Worlds, One Line at a Time: The Power of Duet AI-Generative AI for Developers</a></p><p>Did
+  anyone say codelabs? Duet AI is best experienced by doing something with it. We
+  have a series of codelabs (last count was 10) that have been published in the last
+  couple of months and you can try them out in your own Google Cloud project. Check
+  out this codelab list. I have put them together in a specific order that will gradually
+  introduce you to Duet AI.</p><ul><li><a href=\"https://codelabs.developers.google.com/codelabs/cloud-developer-duetai?hl=en\">A
+  Tour of Duet AI for Developers</a></li><li><a href=\"https://codelabs.developers.google.com/codelabs/duet-ai-workshop?hl=en\">How
+  to use Duet AI to explore and enhance an existing application</a></li><li><a href=\"https://codelabs.developers.google.com/codelabs/duet-throughout-the-sdlc?hl=en\">Using
+  Duet AI Throughout the Software Development Lifecycle</a></li><li><a href=\"https://codelabs.developers.google.com/codelabs/stylish-with-duet?hl=en\">Getting
+  Stylish with Duet AI for Developers</a></li><li><a href=\"https://codelabs.developers.google.com/codelabs/duet-ai-technical-hands-on-workshop-guide?hl=en\">Duet
+  AI Technical Hands On Workshop Guide for Developers Codelab</a></li><li><a href=\"https://codelabs.developers.google.com/bookshelf-duetai-bigquery?hl=en\">Bookshelf
+  builder: Use Duet AI to build a Java Cloud Function for a Gemini application</a></li><li><a
+  href=\"https://codelabs.developers.google.com/bookshelf-duetai-bq-sql?hl=en\">Bookshelf
+  Analytics: Use Duet AI to build SQL applications with BigQuery and Generative AI</a></li><li><a
+  href=\"https://codelabs.developers.google.com/create-chrome-extension-duetai?hl=en\">Codelab:
+  Build a Chrome Extension in JavaScript using DuetAI</a></li><li><a href=\"https://codelabs.developers.google.com/tdd-ruby-app-duetai?hl=en\">Codelab:
+  Duet AI to accelerate test driven development</a></li><li><a href=\"https://codelabs.developers.google.com/bookshelf-duetai-web-cloudrun?hl=en\">Bookshelf
+  Analytics: Use Duet AI to build a Java Cloud Run Application that takes BigQuery
+  data to the web</a></li></ul><p>\U0001F449 For all Duet AI resources, check out
+  the Github Repo: <a href=\"https://lnkd.in/deY9zWn9\">https://lnkd.in/deY9zWn9</a></p><p>\U0001F449
+  If you’d like to share an article you wrote or came across on Duet AI, please submit
+  to the repo and/or share in the comments.</p><p>\U0001F449 If you’d consider sharing
+  a blog on <a href=\"https://medium.com/google-cloud\">Google Cloud Community publication</a>,
+  do reach out.</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b4c8d4df17d6\"
+  width=\"1\" height=\"1\" alt=\"\"><hr><p><a href=\"https://medium.com/google-cloud/duet-ai-in-google-cloud-material-worth-looking-at-this-week-march-18-2024-b4c8d4df17d6\">Duet
+  AI in Google Cloud material worth looking at this week: March 18, 2024</a> was originally
+  published in <a href=\"https://medium.com/google-cloud\">Google Cloud - Community</a>
+  on Medium, where people are continuing the conversation by highlighting and responding
+  to this story.</p>"

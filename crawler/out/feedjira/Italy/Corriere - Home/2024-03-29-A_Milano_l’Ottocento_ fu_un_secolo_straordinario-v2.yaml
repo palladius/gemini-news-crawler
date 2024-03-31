@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/lodicoalcorriere/index/29-03-2024/index.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: A Milano l’Ottocento  fu un secolo straordinario
+url: https://www.corriere.it/lodicoalcorriere/index/29-03-2024/index.shtml
+summary: <p><img src="https://images2.corriereobjects.it/methode_image/Cassetto%20Redazionale/Nazionale/Media/Rubriche%20Immagini/Placeholder/lodicoacorriere_656x492.jpg"
+  title="A Milano l’Ottocento  fu un secolo straordinario" alt="A Milano l’Ottocento
+   fu un secolo straordinario" /><p></p>
+author: Aldo Cazzullo
+categories:
+- Cultura
+published: 2024-03-29 23:29:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/lodicoalcorriere/index/29-03-2024/index.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

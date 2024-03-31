@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/30/news/giornalista_russia_antonina_favorskaya_arrestata_navalny-422400649/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Russia, giornalisti ancora nel mirino. Arrestata Antonina Favorskaja, la reporter
+  che filmò le ultime immagini di Navalny
+url: https://www.repubblica.it/esteri/2024/03/30/news/giornalista_russia_antonina_favorskaya_arrestata_navalny-422400649/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-30 16:42:52.000000000 Z
+enclosure_length: '26048'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/30/145954525-729c1769-5c42-4f3f-b205-2255ba359edd.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/30/news/giornalista_russia_antonina_favorskaya_arrestata_navalny-422400649/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/30/145954525-729c1769-5c42-4f3f-b205-2255ba359edd.jpg"
+  width="140" align="left" hspace="10"></a>Accusata di aver lavorato per Fondazione
+  fondata dal dissidente deceduto che in Russia dal 2021 è considerata estremista.
+  Con lei fermate anche altre croniste</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/30/news/giornalista_russia_antonina_favorskaya_arrestata_navalny-422400649/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

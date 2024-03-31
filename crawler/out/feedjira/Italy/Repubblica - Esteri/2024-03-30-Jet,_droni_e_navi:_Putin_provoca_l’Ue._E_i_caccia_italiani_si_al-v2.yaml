@@ -1,0 +1,36 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/30/news/polonia_eurofighter_putin_caccia_italia-422398526/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'Jet, droni e navi: Putin provoca l’Ue. E i caccia italiani si alzano in volo'
+url: https://www.repubblica.it/esteri/2024/03/30/news/polonia_eurofighter_putin_caccia_italia-422398526/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-30 00:00:00.000000000 Z
+enclosure_length: '25691'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/29/220829967-790e3d06-ea00-497d-9503-232dd440acde.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/30/news/polonia_eurofighter_putin_caccia_italia-422398526/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/29/220829967-790e3d06-ea00-497d-9503-232dd440acde.jpg"
+  width="140" align="left" hspace="10"></a>In Polonia per due volte i nostri Eurofighter
+  scortano via degli Ilyushin 20. Tensioni anche in Romania e nelle acque del Mar
+  Rosso</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/30/news/polonia_eurofighter_putin_caccia_italia-422398526/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

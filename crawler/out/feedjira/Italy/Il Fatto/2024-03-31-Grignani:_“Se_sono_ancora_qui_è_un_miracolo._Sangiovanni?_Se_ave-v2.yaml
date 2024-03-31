@@ -1,0 +1,40 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497296
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Grignani: “Se sono ancora qui è un miracolo. Sangiovanni? Se avesse vissuto
+  quello che ho vissuto io sarebbe morto di fatica, ma lo comprendo”'
+url: https://www.ilfattoquotidiano.it/2024/03/31/grignani-se-sono-ancora-qui-e-un-miracolo-sangiovanni-se-avesse-vissuto-quello-che-ho-vissuto-io-sarebbe-morto-di-fatica-ma-lo-comprendo/7497296/
+summary: |
+  <p>Il cantante, alla vigilia dell'incisione del nuovo disco, si è raccontato in un'intervista a Il Messaggero</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/grignani-se-sono-ancora-qui-e-un-miracolo-sangiovanni-se-avesse-vissuto-quello-che-ho-vissuto-io-sarebbe-morto-di-fatica-ma-lo-comprendo/7497296/">Grignani: &#8220;Se sono ancora qui è un miracolo. Sangiovanni? Se avesse vissuto quello che ho vissuto io sarebbe morto di fatica, ma lo comprendo&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Francesco Canino
+categories:
+- Musica
+published: 2024-03-31 08:44:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497296
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/grignani-se-sono-ancora-qui-e-un-miracolo-sangiovanni-se-avesse-vissuto-quello-che-ho-vissuto-io-sarebbe-morto-di-fatica-ma-lo-comprendo/7497296/#respond
+content: |
+  <p>“Se sono ancora qui, è un miracolo”. Si è raccontato a cuore aperto <strong>Gianluca</strong> <strong>Grignani</strong> nell’intervista a <em>Il Messaggero</em> alla vigilia di un appuntamento importante: tra quindici giorni andrà ad incidere il suo nuovo disco che arriva a dieci anni di distanza dall’ultimo. Un nuovo inizio, dopo una vita vissuta sopra le righe, mentre è in giro per l’Italia con il tour<strong><em> Residui di Rock&#8217;n&#8217;Roll</em></strong>. La scelta del titolo? “Ero a fare un ospitata in radio con Fiorella Mannoia e Gigi D&#8217;Alessio. Mi cadde dalla tasca una cartina sospetta. Mi guardarono basiti. Io sorrisi: ‘Che c&#8217;è? Sono solo residui di rock&#8217;n&#8217;roll’”.</p>
+  <p>Nella data zero si è sfogato con la sua band, salvo poi ringraziarli via social, spiegando di volere bene ai suoi musicisti: “Non mi sono arrabbiato. Io coccolo, più che sentirmi coccolato. Sono sempre per gli altri, solo per gli altri. Anche troppo. Sono un finto difficile. La verità è che sono troppo buono. E infatti se ne approfittano”, precisa nell’intervista.</p>
+  <p>Intanto già pensa al futuro, visto che l’anno prossimo la sua canzone manifesto, <em>Destinazione paradiso</em>, compirà <strong>trent&#8217;anni</strong>. Come la celebrerà? Con un <strong>tour internazionale</strong>. “Andrò in tour in Sud America. E mi piacerebbe suonare sui palchi dei festival rock europei”, anticipa. Come avrebbe voluto fare nel ’96, ai tempi de <em>La fabbrica di plastica</em>. “Il fatto è che quel disco uscì in un periodo in cui i social non esistevano e per la musica italiana era difficilissimo imporsi a livello internazionale. <strong>Oggi con i social</strong>, vedi il caso dei Come si chiamano? (“I Maneskin”, gli suggerisce qualcuno dall&#8217;altra parte del telefono, accanto lui, <em>ndr</em>) Vabbè, quelli. Bravi, bravissimi. Però hanno avuto la<strong> fortuna di uscire nell&#8217;era dei social</strong>: in un attimo arrivi ovunque”.</p>
+  <p>Poi a Grignani chiedono che ne pensa della scelta di <strong>Sangiovanni</strong> di prendersi una pausa dalla musica a causa dell’eccesso di pressioni e aspettative: “Se avesse vissuto quello che ho vissuto io agli esordi a quest&#8217;ora sarebbe morto di fatica. Io ho vissuto una cosa che in Italia si vedeva ai tempi di Celentano e che poi non si è più vista: quando andavo a presentare i dischi, le città si bloccavano per via dei bagni di folla. Però lo comprendo. Io mi sfogai con<em> La fabbrica di plastica</em>: se sono ancora qui, è un miracolo”. E non si sottrae ad un giudizio tranchant sull’industria discografica: “A un certo punto ho pensato di dover morire per essere compreso. Sia chiaro: non ho mai pensato a gesti estremi. Ma pensavo: &#8216;Forse mi capiranno solo quando sarò morto'&#8221;.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/grignani-se-sono-ancora-qui-e-un-miracolo-sangiovanni-se-avesse-vissuto-quello-che-ho-vissuto-io-sarebbe-morto-di-fatica-ma-lo-comprendo/7497296/">Grignani: &#8220;Se sono ancora qui è un miracolo. Sangiovanni? Se avesse vissuto quello che ho vissuto io sarebbe morto di fatica, ma lo comprendo&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2023/02/20/gianluca-grignani-1050x551.jpg

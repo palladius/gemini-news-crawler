@@ -1,0 +1,41 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/offerte-recensioni/moda/abbigliamento-accessori/24_marzo_29/la-stagione-del-trench-i-modelli-femminili-su-cui-puntare-quest-anno-b6ee3eac-400d-441f-834d-afa1cc3e2xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'La stagione del trench: classici o eclettici, i modelli su cui puntare quest’anno
+  secondo noi'
+url: https://www.corriere.it/offerte-recensioni/moda/abbigliamento-accessori/24_marzo_29/la-stagione-del-trench-i-modelli-femminili-su-cui-puntare-quest-anno-b6ee3eac-400d-441f-834d-afa1cc3e2xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/28/Tecnologia/Foto%20Tecnologia%20-%20Trattate/66053dfa9df12_ori_crop_MASTER__0x0.jpeg"
+  title="La stagione del trench: classici o eclettici, i modelli su cui puntare quest’anno
+  secondo noi" alt="La stagione del trench: classici o eclettici, i modelli su cui
+  puntare quest’anno secondo noi" /><p>Il capospalla per eccellenza della mezza stagione
+  è il trench. Adesso che le temperature si sono alzate, è giunta l’ora di mettere
+  via cappotti e piumini, lasciando spazio a soprabiti più leggeri come questo. Ecco
+  le versioni più in voga adesso, da indossare in molteplici occasioni e con innumerevoli
+  lookIl capospalla per eccellenza della mezza stagione è il trench. Adesso che le
+  temperature si sono alzate, è giunta l’ora di mettere via cappotti e piumini, lasciando
+  spazio a soprabiti più leggeri come questo. Ecco le versioni più in voga adesso,
+  da indossare in molteplici occasioni e con innumerevoli lookIl capospalla per eccellenza
+  della mezza stagione è il trench. Adesso che le temperature si sono alzate, è giunta
+  l’ora di mettere via cappotti e piumini, lasciando spazio a soprabiti più leggeri
+  come questo. Ecco le versioni più in voga adesso, da indossare in molteplici occasioni
+  e con innumerevoli look</p>'
+author: Camilla Sernagiotto
+categories:
+- Tecnologia
+published: 2024-03-29 15:21:37.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/offerte-recensioni/moda/abbigliamento-accessori/24_marzo_29/la-stagione-del-trench-i-modelli-femminili-su-cui-puntare-quest-anno-b6ee3eac-400d-441f-834d-afa1cc3e2xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

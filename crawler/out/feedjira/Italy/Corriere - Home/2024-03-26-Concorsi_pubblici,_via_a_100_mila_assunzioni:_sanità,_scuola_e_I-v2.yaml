@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/economia/lavoro/cards/concorsi-pubblici-100-mila-nuove-assunzioni-nel-2024-dalla-scuola-all-inps-dove-cercare-il-posto-fisso/pa-100-mila-nuove-assunzioni_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Concorsi pubblici, via a 100 mila assunzioni: sanità, scuola e Inps, la corsa
+  al posto fisso'
+url: https://www.corriere.it/economia/lavoro/cards/concorsi-pubblici-100-mila-nuove-assunzioni-nel-2024-dalla-scuola-all-inps-dove-cercare-il-posto-fisso/pa-100-mila-nuove-assunzioni_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/18/Economia/Foto%20Economia%20-%20Trattate/65f86fe6578f3_ori_crop_MASTER__0x0.jpeg"
+  title="Concorsi pubblici, via a 100 mila assunzioni: sanità, scuola e Inps, la corsa
+  al posto fisso" alt="Concorsi pubblici, via a 100 mila assunzioni: sanità, scuola
+  e Inps, la corsa al posto fisso" /><p>Nuovo round di assunzioni nel pubblico impiego:
+  dopo i 173 mila neoassunti del 2023, il nuovo anno prevede l’ingresso di altre 100
+  mila figure professionaliNuovo round di assunzioni nel pubblico impiego: dopo i
+  173 mila neoassunti del 2023, il nuovo anno prevede l’ingresso di altre 100 mila
+  figure professionaliNuovo round di assunzioni nel pubblico impiego: dopo i 173 mila
+  neoassunti del 2023, il nuovo anno prevede l’ingresso di altre 100 mila figure professionali</p>'
+author: Redazione Economia
+categories:
+- Economia
+published: 2024-03-26 15:28:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/economia/lavoro/cards/concorsi-pubblici-100-mila-nuove-assunzioni-nel-2024-dalla-scuola-all-inps-dove-cercare-il-posto-fisso/pa-100-mila-nuove-assunzioni_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

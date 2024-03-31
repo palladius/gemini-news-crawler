@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/cultura/cinema/2024/03/30/marlon-brando-i-100-anni-del-divo-eretico-di-hollywood_3b4a7ee3-333f-4793-a31c-19d5de830fd4.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Marlon Brando, i 100 anni del divo eretico di Hollywood
+url: https://www.ansa.it/sito/notizie/cultura/cinema/2024/03/30/marlon-brando-i-100-anni-del-divo-eretico-di-hollywood_3b4a7ee3-333f-4793-a31c-19d5de830fd4.html
+summary: Dall'Actors Studio all'Oscar per il Padrino tra trionfi e cadute
+published: 2024-03-30 17:42:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/cultura/cinema/2024/03/30/marlon-brando-i-100-anni-del-divo-eretico-di-hollywood_3b4a7ee3-333f-4793-a31c-19d5de830fd4.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

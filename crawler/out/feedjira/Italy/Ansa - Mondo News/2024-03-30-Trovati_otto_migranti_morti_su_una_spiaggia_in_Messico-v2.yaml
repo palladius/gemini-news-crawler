@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/2024/03/30/trovati-otto-migranti-morti-su-una-spiaggia-in-messico_f515ced5-1e6d-4741-a015-e4b71b205546.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Trovati otto migranti morti su una spiaggia in Messico
+url: https://www.ansa.it/sito/notizie/mondo/2024/03/30/trovati-otto-migranti-morti-su-una-spiaggia-in-messico_f515ced5-1e6d-4741-a015-e4b71b205546.html
+summary: La loro imbarcazione affondata al largo dello stato di Oaxaca
+published: 2024-03-30 16:07:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/2024/03/30/trovati-otto-migranti-morti-su-una-spiaggia-in-messico_f515ced5-1e6d-4741-a015-e4b71b205546.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

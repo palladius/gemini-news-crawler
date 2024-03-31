@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401409
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: La candidata ai vertici dell’Inps e la rissa alla sua festa di laurea tra Fazzolari
+  e gli Autonomi
+url: https://www.repubblica.it/politica/2024/03/31/news/fazzolari_nomine_inps_vittimberga-422401409/
+summary: 'Il sottosegretario vuole Vittimberga dg: 30 anni fa i tafferugli che cementarono
+  il sodalizio'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Politica
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401409
+updated: 2024-03-31 00:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

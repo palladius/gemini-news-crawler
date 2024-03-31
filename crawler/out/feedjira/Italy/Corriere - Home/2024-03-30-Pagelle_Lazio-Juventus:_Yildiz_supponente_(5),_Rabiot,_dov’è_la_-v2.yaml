@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/sport/calcio/serie-a/cards/pagelle-lazio-juventus/lazio-juventus-1-0_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Pagelle Lazio-Juventus: Yildiz supponente (5), Rabiot, dov’è la qualità (5),
+  c’è solo Chiesa'
+url: https://www.corriere.it/sport/calcio/serie-a/cards/pagelle-lazio-juventus/lazio-juventus-1-0_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Sport/Foto%20Sport%20-%20Trattate/2125598772-kI1-U347011084359165jH-656x492@Corriere-Web-Sezioni.jpg"
+  title="Pagelle Lazio-Juventus: Yildiz supponente (5), Rabiot, dov’è la qualità (5),
+  c’è solo Chiesa" alt="Pagelle Lazio-Juventus: Yildiz supponente (5), Rabiot, dov’è
+  la qualità (5), c’è solo Chiesa" /><p>La Lazio bate la Juventus all’esordio di Tudor
+  in panchina: bianconeri puniti da un gol di Marusic nel recupero. Voti e giudizi
+  dei protagonisti</p>'
+author: Marco Cherubini
+categories:
+- Sport
+published: 2024-03-30 20:14:15.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/sport/calcio/serie-a/cards/pagelle-lazio-juventus/lazio-juventus-1-0_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

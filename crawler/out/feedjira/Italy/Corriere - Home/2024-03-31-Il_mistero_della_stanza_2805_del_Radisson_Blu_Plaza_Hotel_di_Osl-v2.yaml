@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/esteri/24_marzo_31/radisson-plaza-hotel-oslo-1995-unsolved-mysteries-netflix-c4ed1cb0-ee8d-11ee-990f-f81d5ab8cdcb.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Il mistero della stanza 2805 del Radisson Blu Plaza Hotel di Oslo, irrisolto
+  da 29 anni: chi ha sparato attraverso la porta, e chi era Lois?'
+url: https://www.corriere.it/esteri/24_marzo_31/radisson-plaza-hotel-oslo-1995-unsolved-mysteries-netflix-c4ed1cb0-ee8d-11ee-990f-f81d5ab8cdcb.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Esteri/Foto%20Esteri%20-%20Trattate/S-2595-skann_194-22-e630f2e-ko1F-U34701100406411zUB-656x492@Corriere-Web-Sezioni.jpg"
+  title="Il mistero della stanza 2805 del Radisson Blu Plaza Hotel di Oslo, irrisolto
+  da 29 anni: chi ha sparato attraverso la porta, e chi era Lois?" alt="Il mistero
+  della stanza 2805 del Radisson Blu Plaza Hotel di Oslo, irrisolto da 29 anni: chi
+  ha sparato attraverso la porta, e chi era Lois?" /><p>Caso mai risolto, a cui si
+  è dedicata anche la serie Netflix «Unsolved Mysteries»: nell’hotel di Oslo, nel
+  1995, una donna fu trovata morta nella stanza 2805. Poco prima, qualcuno aveva esploso
+  un colpo di pistola attraverso la porta. Ma chi era la vittima? Una spia (dell’Est
+  o del Mossad) o una persona con un passato da cancellare? </p>'
+author: Guido Olimpio
+categories:
+- Esteri
+published: 2024-03-31 08:43:28.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/esteri/24_marzo_31/radisson-plaza-hotel-oslo-1995-unsolved-mysteries-netflix-c4ed1cb0-ee8d-11ee-990f-f81d5ab8cdcb.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

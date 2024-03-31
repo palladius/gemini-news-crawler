@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/diverse-persone-prese-in-ostaggio-in-un-caffe-in-olanda_6abf5777-b542-4b70-918f-2588367f4b0a.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Diverse persone prese in ostaggio in un caffè in Olanda
+url: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/diverse-persone-prese-in-ostaggio-in-un-caffe-in-olanda_6abf5777-b542-4b70-918f-2588367f4b0a.html
+summary: A Ede, nell'est del Paese. Polizia, non sembra terrorismo'
+published: 2024-03-30 10:06:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/europa/2024/03/30/diverse-persone-prese-in-ostaggio-in-un-caffe-in-olanda_6abf5777-b542-4b70-918f-2588367f4b0a.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

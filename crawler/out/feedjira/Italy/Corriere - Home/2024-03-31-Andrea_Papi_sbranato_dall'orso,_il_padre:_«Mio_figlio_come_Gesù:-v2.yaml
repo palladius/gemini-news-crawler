@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_31/andrea-papi-sbranato-dall-orso-il-padre-mio-figlio-come-gesu-ucciso-e-schernito-pretendiamo-giustizia-5d10b196-cc24-4930-9920-32e6b041bxlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Andrea Papi sbranato dall''orso, il padre: «Mio figlio come Gesù: ucciso e
+  schernito. Pretendiamo giustizia»'
+url: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_31/andrea-papi-sbranato-dall-orso-il-padre-mio-figlio-come-gesu-ucciso-e-schernito-pretendiamo-giustizia-5d10b196-cc24-4930-9920-32e6b041bxlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Varie/Foto%20Varie%20-%20Trattate/66090b69d77c1_ori_crop_MASTER__0x0.jpeg"
+  title="Andrea Papi sbranato dall''orso, il padre: «Mio figlio come Gesù: ucciso
+  e schernito. Pretendiamo giustizia»" alt="Andrea Papi sbranato dall''orso, il padre:
+  «Mio figlio come Gesù: ucciso e schernito. Pretendiamo giustizia»" /><p>La famiglia
+  a un anno dal dramma: pretendiamo giustiziaLa famiglia, ad un anno dal dramma, replica
+  alle tante calunnie socialLa famiglia, ad un anno dal dramma, replica alle tante
+  calunnie social</p>'
+author: Enrico Pruner
+categories:
+- Corriere
+published: 2024-03-31 07:49:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_31/andrea-papi-sbranato-dall-orso-il-padre-mio-figlio-come-gesu-ucciso-e-schernito-pretendiamo-giustizia-5d10b196-cc24-4930-9920-32e6b041bxlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

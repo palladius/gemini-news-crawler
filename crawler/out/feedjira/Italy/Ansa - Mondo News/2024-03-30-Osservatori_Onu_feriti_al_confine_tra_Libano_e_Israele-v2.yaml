@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/osservatori-onu-feriti-al-confine-tra-libano-e-israele_ee9924a5-8af5-4110-95ba-98b0ec552afc.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Osservatori Onu feriti al confine tra Libano e Israele
+url: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/osservatori-onu-feriti-al-confine-tra-libano-e-israele_ee9924a5-8af5-4110-95ba-98b0ec552afc.html
+summary: Non è chiaro da quale parte del confine sia giunto il fuoco
+published: 2024-03-30 10:32:49.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/osservatori-onu-feriti-al-confine-tra-libano-e-israele_ee9924a5-8af5-4110-95ba-98b0ec552afc.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

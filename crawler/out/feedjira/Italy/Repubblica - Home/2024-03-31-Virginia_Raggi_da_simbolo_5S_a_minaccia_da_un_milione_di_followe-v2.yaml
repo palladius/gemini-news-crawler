@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:rep-roma:422402213
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Virginia Raggi da simbolo 5S a minaccia da un milione di follower: perché
+  Giuseppe Conte ha vietato le Europee all''ex sindaca'
+url: https://roma.repubblica.it/cronaca/2024/03/31/news/virginia_raggi_giuseppe_conte_vieta_elezioni_europee-422402213/
+summary: 'Il regolamento del Movimento per le candidature a Bruxelles ha fatto il
+  resto: l’ex sindaca è consigliera comunale, potrebbe correre. Ma è al terzo mandato'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-31 08:34:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:rep-roma:422402213
+updated: 2024-03-31 08:34:36.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

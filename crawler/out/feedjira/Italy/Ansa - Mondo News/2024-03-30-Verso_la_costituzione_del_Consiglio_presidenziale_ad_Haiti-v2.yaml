@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/americalatina/2024/03/30/verso-la-costituzione-del-consiglio-presidenziale-ad-haiti_0c6b9517-fa96-481e-aba9-6c4894ef0f16.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Verso la costituzione del Consiglio presidenziale ad Haiti
+url: https://www.ansa.it/sito/notizie/mondo/americalatina/2024/03/30/verso-la-costituzione-del-consiglio-presidenziale-ad-haiti_0c6b9517-fa96-481e-aba9-6c4894ef0f16.html
+summary: La Comunità dei Caraibi trasmette ufficialmente i membri
+published: 2024-03-30 16:04:55.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/americalatina/2024/03/30/verso-la-costituzione-del-consiglio-presidenziale-ad-haiti_0c6b9517-fa96-481e-aba9-6c4894ef0f16.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

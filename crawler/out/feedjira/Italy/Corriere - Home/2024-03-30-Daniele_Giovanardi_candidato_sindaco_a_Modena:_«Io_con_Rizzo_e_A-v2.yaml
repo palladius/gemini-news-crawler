@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/politica/24_marzo_30/daniele-giovanardi-candidato-sindaco-modena-io-rizzo-alemanno-perche-stanno-le-persone-b8d58652-ee82-11ee-990f-f81d5ab8cdcb.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Daniele Giovanardi candidato sindaco a Modena: «Io con Rizzo e Alemanno perché
+  stanno con le persone»'
+url: https://www.corriere.it/politica/24_marzo_30/daniele-giovanardi-candidato-sindaco-modena-io-rizzo-alemanno-perche-stanno-le-persone-b8d58652-ee82-11ee-990f-f81d5ab8cdcb.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Politica/Foto%20Politica%20-%20Trattate/WhatsApp%20Image%202024-03-23%20at%206.56.50%20PM-kITH-U347010987462580aF-656x492@Corriere-Web-Sezioni.jpeg"
+  title="Daniele Giovanardi candidato sindaco a Modena: «Io con Rizzo e Alemanno perché
+  stanno con le persone»" alt="Daniele Giovanardi candidato sindaco a Modena: «Io
+  con Rizzo e Alemanno perché stanno con le persone»" /><p>L’ex direttore del Pronto
+  soccorso locale, già no vax e ora pacifista (oltre che fratello di Carlo), in lista
+  con «idee molto chiare su sicurezza, viabilità e sanità»</p>'
+author: Franco Stefanoni
+categories:
+- Politica
+published: 2024-03-30 14:31:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/politica/24_marzo_30/daniele-giovanardi-candidato-sindaco-modena-io-rizzo-alemanno-perche-stanno-le-persone-b8d58652-ee82-11ee-990f-f81d5ab8cdcb.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

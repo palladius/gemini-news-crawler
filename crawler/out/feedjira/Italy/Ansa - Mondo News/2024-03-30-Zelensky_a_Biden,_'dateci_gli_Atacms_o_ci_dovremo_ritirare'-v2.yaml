@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/2024/03/30/zelensky-solleva-dallincarico-consigliere-alla-presidenza_9686c4cf-50bd-483e-9dbd-5228cfcad885.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Zelensky a Biden, 'dateci gli Atacms o ci dovremo ritirare'
+url: https://www.ansa.it/sito/notizie/mondo/2024/03/30/zelensky-solleva-dallincarico-consigliere-alla-presidenza_9686c4cf-50bd-483e-9dbd-5228cfcad885.html
+summary: 'Il leader ucraino silura il suo primo consigliere. Nuova notte di raid contro
+  l''energia '
+published: 2024-03-30 16:16:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/2024/03/30/zelensky-solleva-dallincarico-consigliere-alla-presidenza_9686c4cf-50bd-483e-9dbd-5228cfcad885.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

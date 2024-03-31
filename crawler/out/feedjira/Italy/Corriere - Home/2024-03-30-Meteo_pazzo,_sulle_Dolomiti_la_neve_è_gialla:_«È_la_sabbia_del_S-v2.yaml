@@ -1,0 +1,38 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://corrieredelveneto.corriere.it/notizie/cronaca/24_marzo_30/meteo-pazzo-sulle-dolomiti-la-neve-e-gialla-e-la-sabbia-del-sahara-portata-dal-vento-per-oltre-2-500-chilometri-f93ef3ec-4cbe-46ba-a1aa-cc23480f5xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Meteo pazzo, sulle Dolomiti la neve è gialla: «È la sabbia del Sahara portata
+  dal vento per oltre 2.500 chilometri»'
+url: https://corrieredelveneto.corriere.it/notizie/cronaca/24_marzo_30/meteo-pazzo-sulle-dolomiti-la-neve-e-gialla-e-la-sabbia-del-sahara-portata-dal-vento-per-oltre-2-500-chilometri-f93ef3ec-4cbe-46ba-a1aa-cc23480f5xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/Tappi%20Regionali/CorriereVeneto/2024/03/30/Foto%20-%20Trattate/66085debf2b2d.r_d.328-246-0_ori_crop_MASTER__0x0.jpeg"
+  title="Meteo pazzo, sulle Dolomiti la neve è gialla: «È la sabbia del Sahara portata
+  dal vento per oltre 2.500 chilometri»" alt="Meteo pazzo, sulle Dolomiti la neve
+  è gialla: «È la sabbia del Sahara portata dal vento per oltre 2.500 chilometri»"
+  /><p>Granelli di sabbia colorano i fiocchi gelati con venature giallo e arancio.
+  L''esperto: «Tocca tutta la regione». Granelli di sabbia colorano i fiocchi gelati
+  con venature giallo e arancio. L''esperto: «Tocca tutta la regione, fertilizza i
+  terreni ma sporca molto». Rischio valanghe a livello 3 nel Bellunese e allerta gialla
+  per i fiumi fino a martedìGranelli di sabbia colorano i fiocchi gelati con venature
+  giallo e arancio. L''esperto: «Tocca tutta la regione, fertilizza i terreni ma sporca
+  molto». Rischio valanghe a livello 3 nel Bellunese e allerta gialla per i fiumi
+  fino a martedì</p>'
+author: Dimitri Canello
+categories:
+- Corriere
+published: 2024-03-30 19:24:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://corrieredelveneto.corriere.it/notizie/cronaca/24_marzo_30/meteo-pazzo-sulle-dolomiti-la-neve-e-gialla-e-la-sabbia-del-sahara-portata-dal-vento-per-oltre-2-500-chilometri-f93ef3ec-4cbe-46ba-a1aa-cc23480f5xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

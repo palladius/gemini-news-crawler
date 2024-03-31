@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/spettacoli/24_marzo_30/ho-mentito-rieccomi-12d4fc22-ee93-11ee-990f-f81d5ab8cdcb.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "«Ho mentito, rieccomi»"
+url: https://www.corriere.it/spettacoli/24_marzo_30/ho-mentito-rieccomi-12d4fc22-ee93-11ee-990f-f81d5ab8cdcb.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Spettacoli/Foto%20Spettacoli%20-%20Trattate/SherylCrow_P_FromMgmt_VWill_SCowns_Alexa_SC-0496_RetJF_v2b_FNL-kitH-U34701099399627wpG-656x492@Corriere-Web-Sezioni.jpg"
+  title="«Ho mentito, rieccomi»" alt="«Ho mentito, rieccomi»" /><p>Sheryl Crow: avevo
+  urgenza di parlare di relazioni,di crudeltà dei social e di Intelligenza Artificiale</p>'
+categories:
+- Spettacoli
+published: 2024-03-30 20:21:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/spettacoli/24_marzo_30/ho-mentito-rieccomi-12d4fc22-ee93-11ee-990f-f81d5ab8cdcb.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

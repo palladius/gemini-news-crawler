@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401549
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "“Mamma ha 97 anni e va seguita h24. Mio marito e io senza assistenza”"
+url: https://www.repubblica.it/economia/2024/03/31/news/anziani_non_autosufficienti_storia_mamma_ha_97_anni_e_va_seguita_h24_mio_marito_e_io_senza_assistenza-422401549/
+summary: Maria Sgabelluri, 66 anni, insegnante di sostegno di Bovalino, comune in
+  provincia di Reggio Calabria
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Economia
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401549
+updated: 2024-03-31 00:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

@@ -1,0 +1,42 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7496255
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Inter, calciomercato senza botti? Da Zielinski a Taremi, fino al contratto
+  di Lautaro e Inzaghi. La situazione
+url: https://www.ilfattoquotidiano.it/2024/03/31/inter-calciomercato-senza-botti-da-zielinski-a-taremi-fino-al-contratto-di-lautaro-e-inzaghi-la-situazione/7496255/
+summary: |
+  <p>Archiviata (suo malgrado) la Champions e archiviato (quasi) il discorso scudetto, l’Inter ha già le idee chiare su come muoversi. Tanto che il calciomercato dei probabilissimi campioni d’Italia è già partito da mesi, con operazioni già concluse e una certezza: non ci saranno botti di mercato clamorosi. Spese folli? Nessuna: la gestione Marotta&#8211;Ausilio è molto [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/inter-calciomercato-senza-botti-da-zielinski-a-taremi-fino-al-contratto-di-lautaro-e-inzaghi-la-situazione/7496255/">Inter, calciomercato senza botti? Da Zielinski a Taremi, fino al contratto di Lautaro e Inzaghi. La situazione</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Valentino Della Casa
+categories:
+- Calcio
+- Inter
+- Milano
+- Simone Inzaghi
+published: 2024-03-31 07:15:35.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7496255
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/inter-calciomercato-senza-botti-da-zielinski-a-taremi-fino-al-contratto-di-lautaro-e-inzaghi-la-situazione/7496255/#respond
+content: |
+  <p align="LEFT">Archiviata (suo malgrado) la <strong>Champions</strong> e archiviato (quasi) il discorso scudetto, l’<strong>Inter</strong> ha già le idee chiare su come muoversi. Tanto che il <strong>calciomercato</strong> dei probabilissimi campioni d’Italia è già partito da mesi, con operazioni già concluse e una certezza: non ci saranno<strong> botti di mercato clamorosi</strong>. Spese folli? Nessuna: la gestione <strong>Marotta</strong>&#8211;<strong>Ausilio</strong> è molto oculata, e la scelta di puntare su alcuni acquisti mirati, di prospettiva o già formati, è piuttosto chiara. Anche perché, allo stato dell’arte, la squadra non avrà bisogno di <strong>rivoluzioni</strong>. Due arrivi già ci saranno: si tratta di <strong>Zielinski</strong> e, a breve, anche <strong>Taremi</strong>. Il trequartista si svincola dal <strong>Napoli</strong>, ha già sostenuto le <strong>visite mediche</strong> e firmerà a giugno un quadriennale a circa 4,5 milioni di euro. Tutto fatto, nessuna sorpresa. E non dovrebbero essercene nemmeno per l’attaccante ora al <strong>Porto</strong>: le visite mediche sono slittate, ma la scelta di diventare un giocatore dell’Inter non è cambiata, con un <strong>biennale</strong> pronto per essere firmato.</p>
+  <p align="LEFT">Sono questi i due acquisti che più premevano al club. Perché serve un giocatore che possa dare un ricambio a <strong>Mkhitaryan</strong> e perché oltre a <strong>Thuram</strong> e <strong>Lautaro</strong>, servono alternative che possano garantire più continuità di impiego rispetto a <strong>Sanchez</strong> (contratto in scadenza a giugno) e <strong>Arnautovic</strong> (in scadenza nel 2025). E a proposito di attacco, i tifosi stanno aspettando ancora l’ufficialità della firma del rinnovo di <strong>Lautaro</strong> fino al 2028. “Non ci saranno problemi”, continuano a ripetere sia i dirigenti, sia il giocatore: che possa salutare l’Inter a fine stagione sembra più impossibile che <strong>improbabile</strong>. Per il resto, solo qualche piccolo ritocco, con la priorità che andrà alla porta. La missione è stata affidata ad <strong>Handanovic</strong>, che dovrà trovare un vice di <strong>Sommer</strong> in grado, nel giro di poche stagioni, di diventare il nuovo titolare. Per <strong>Audero</strong> le possibilità di riscatto sono minime (andrebbero pagati 6,5 milioni di euro alla Sampdoria): l’Inter cerca un profilo giovane, da far crescere all’ombra dello svizzero. Uno dei nomi più gettonati è il belga <strong>Tobe Leysen</strong> del Leuven: il classe 2002 è stato più volte visionato, ma non è l’unico in lista. L’obiettivo, carissimo, è<strong> Di Gregorio</strong> del Monza: ma per fare un vice non si vogliono spendere cifre vicine ai 20 milioni. Non c’è fretta.</p>
+  <p align="LEFT">Anche perché il progetto a lungo termine è già stato avviato nelle scorse stagioni. Si dovrà procedere al <strong>pagamento dell’obbligo di riscatto</strong> del prestito di <strong>Frattesi</strong> (dilazionato su più anni). E poi c’è da pagare al Monza <strong>Carlos</strong> <strong>Augusto</strong>, confermatissimo sulla fascia dove è arrivato anche il giovane <strong>Buchanan</strong> a gennaio per rimpiazzare <strong>Cuadrado</strong>. L’ex Juve dopo una stagione anonima saluterà, così come <strong>Sensi</strong>. Per <strong>Klaassen</strong>, invece, è valida l’opzione per il rinnovo fino al 2025 e non è escluso che venga esercitata. Cessioni? Non previste, soprattutto per i big. L’unico sacrificio, di fronte a cifre veramente altissime, potrebbe essere <strong>Barella</strong>, che già l’anno scorso aveva ricevuto qualche interessamento dalla <strong>Premier</strong>. Il suo addio cambierebbe molte cose, ma al momento la dirigenza non ha ricevuto segnali. Così come non ne arrivano su un possibile cambio in panchina: <strong>Inzaghi</strong> ha un contratto fino al 2025, ma l’intenzione è di proseguire ancora insieme per altre stagioni. Si avvieranno le <strong>trattative</strong> in questi mesi, per evitare di cominciare la stagione con una panchina in scadenza. Ma la <strong>soddisfazione</strong> per l’ex Lazio è molta, e dopo tre anni lo stesso allenatore sa che ha ancora molto lavoro da fare a <strong>Milano</strong>. Con uno scudetto in più, le cose potrebbero essere molto più semplici.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/inter-calciomercato-senza-botti-da-zielinski-a-taremi-fino-al-contratto-di-lautaro-e-inzaghi-la-situazione/7496255/">Inter, calciomercato senza botti? Da Zielinski a Taremi, fino al contratto di Lautaro e Inzaghi. La situazione</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2020/10/02/Zielinski-positivo-coronavirus-1050x551.jpg

@@ -1,0 +1,75 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/c5ea9ba576ec
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Gemma is born!
+url: https://medium.com/google-cloud/gemma-is-born-c5ea9ba576ec?source=rss-b5293b96912f------2
+author: Riccardo Carlesso
+categories:
+- machine-learning
+- gemma
+- google-cloud-platform
+- curl
+- vertex-ai
+published: 2024-02-26 16:23:09.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/c5ea9ba576ec
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<p>As a rubyist, I love gems.</p><p>So imagine my delight and surprise when
+  last week <a href="https://blog.google/technology/developers/gemma-open-models/">Google
+  announced <strong>Gemma</strong></a>, a family of open models available directly
+  on `Kaggle`: <a href="https://www.kaggle.com/models/google/gemma">google/gemma</a>.
+  Plus, it’s <em>free</em>!</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/925/1*zktJLAqzgGa4ISoynpyMSQ.jpeg"
+  /><figcaption>Gemma is born!</figcaption></figure><h4>But I know nothing about ML
+  and Kaggle!</h4><p>If you’re like me, a CLI kind of person, fear no more! I found
+  a way to call Gemma with cURL (<a href="https://www.youtube.com/watch?v=1ZXHsNqkDI4">“if
+  you can curl it, you can call it in any language!”</a> — said a wise man in Dodgeball — did he?).</p><p>Don’t
+  believe me? Check out my ugly bash code here: <a href="https://github.com/palladius/genai-googlecloud-scripts/tree/main/10-gemma-is-born">https://github.com/palladius/genai-googlecloud-scripts/tree/main/10-gemma-is-born</a>/</p><h4>How
+  do I install Gemma locally?</h4><p>I haven’t tried that one out, I’m sorry. It’s
+  in my todo list.</p><h4>How do I install Gemma in the Cloud?</h4><p>As Barney would
+  say <em>“Glad you asked!”. </em>I got hooked by <a href="https://www.youtube.com/watch?v=BM3wzKSPOoI">this
+  great video</a> by Mark Ryan which got me started.</p><p>Please note that in this
+  case you need <a href="https://cloud.google.com/docs/get-started">access to Google
+  Cloud</a> and have billing enabled. You need:<br>1. A Gmail account (Google Account)<br>2.
+  A Google Cloud Project with <a href="https://cloud.google.com/billing/docs/how-to/modify-project">billing enabled</a>.</p><p>If
+  this doesn’t scare you off, the easiest way is to:</p><ol><li>Click on <a href="https://www.kaggle.com/models/google/gemma">https://www.kaggle.com/models/google/gemma</a></li><li>Click
+  on <a href="https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335">Gemma
+  on Vertex Model Garden</a> in that page.</li><li>Follow instructions.</li></ol><p>Once
+  done, you should have something like this:</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*jucMU_v822feb70TLKSDBw.png"
+  /><figcaption>Gemma has been installed</figcaption></figure><h4>Ok, so what now?
+  How do I interact with Gemma?</h4><p>Glad you asked!</p><ul><li>Click on the model
+  (blue line above).</li><li>Under “Deploy and Test” tab you should see an awesome
+  “Test your model ”. It accepts a JSON.</li></ul><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*qGEh59zcn_abB4XBA9Ossg.png"
+  /></figure><p>It took me one hour of digging but I can tell you, the JSON can be
+  as simple as this:</p><pre>{<br>  &quot;instances&quot;: [{<br>    &quot;prompt&quot;:
+  &quot;What&#39;s the difference between a city bike and a racing bike?&quot;,<br>    &quot;max_tokens&quot;:
+  1000<br>  }]<br>}</pre><p>The output will look like this:</p><pre>{<br>  &quot;predictions&quot;:
+  [<br>    &quot;.. GEMMA_ANSWER_HERE ...&quot;<br>  ],<br>  &quot;deployedModelId&quot;:
+  &quot;6852805176160419840&quot;,<br>  &quot;model&quot;: &quot;projects/980606839737/locations/us-central1/models/google_gemma-7b-it-1708849093570&quot;,<br>  &quot;modelDisplayName&quot;:
+  &quot;google_gemma-7b-it-1708849093570&quot;,<br>  &quot;modelVersionId&quot;: &quot;1&quot;<br>}</pre><p>So
+  writing a shell wrapper is as easy as cURLplus ajq(latest code <a href="https://github.com/palladius/genai-googlecloud-scripts/blob/main/10-gemma-is-born/gemma-hello.sh">here</a>):</p><pre>#
+  You just change these to your model_id and your project_id<br>ENDPOINT_ID=&quot;6294864597715255296&quot;<br>PROJECT_NUMBER=&quot;980606839737&quot;<br>#
+  this contains the question<br>INPUT_DATA_FILE=&quot;gemma-input-hello.json&quot;<br>#
+  this contains the answer (not really needed but good for training purposes)<br>OUTPUT_DATA_FILE=&quot;gemma-output-hello.json&quot;<br><br>curl
+  \<br>    -X POST \<br>    -H &quot;Authorization: Bearer $(gcloud auth print-access-token)&quot;
+  \<br>    -H &quot;Content-Type: application/json&quot; \<br>    https://us-central1-aiplatform.googleapis.com/v1/projects/${PROJECT_NUMBER}/locations/us-central1/endpoints/${ENDPOINT_ID}:predict
+  \<br>    -d &quot;@${INPUT_DATA_FILE}&quot; | tee &quot;$OUTPUT_DATA_FILE&quot;<br><br>PREDICTION=$(cat
+  &quot;$OUTPUT_DATA_FILE&quot; | jq .predictions[0])<br><br>echo -en &quot;$PREDICTION\n&quot;</pre><h4>Conclusions</h4><p>Deploying
+  Gemma to Vertex AI and calling the model via curl is a <em>breeze</em>.</p><p>And
+  you, what are you waiting for?</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c5ea9ba576ec"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/gemma-is-born-c5ea9ba576ec">Gemma
+  is born!</a> was originally published in <a href="https://medium.com/google-cloud">Google
+  Cloud - Community</a> on Medium, where people are continuing the conversation by
+  highlighting and responding to this story.</p>'

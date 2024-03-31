@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/cook/news/cards/pasqua-riva-mare-10-ristoranti-cui-mangiare-liguria-levante-ponente-consigliati-guida-touring-club-italiano/10-indirizzi-consigliati-touring-club-italiano_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Pasqua in riva al mare: 10 ristoranti in cui mangiare in Liguria consigliati
+  dalla Guida del Touring Club Italiano'
+url: https://www.corriere.it/cook/news/cards/pasqua-riva-mare-10-ristoranti-cui-mangiare-liguria-levante-ponente-consigliati-guida-touring-club-italiano/10-indirizzi-consigliati-touring-club-italiano_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/28/Cucina/Foto%20Cucina%20-%20Trattate/76647920_1739414896188737_2958857937205854208_n-kzwH--656x492@Corriere-Web-Sezioni.jpg"
+  title="Pasqua in riva al mare: 10 ristoranti in cui mangiare in Liguria consigliati
+  dalla Guida del Touring Club Italiano" alt="Pasqua in riva al mare: 10 ristoranti
+  in cui mangiare in Liguria consigliati dalla Guida del Touring Club Italiano" /><p>Meta
+  ideale per trascorrere una giornata o un week-end sul mare, la Liguria offre una
+  grande varietà di località turistiche e panorami da favola. Ecco dieci ristoranti
+  da provare, dalla riviera di Levante a quella di Ponente, consigliati dalla Guida
+  Alberghi e Ristoranti d’Italia 2024 del Touring Club Italiano</p>'
+author: Giuseppe Scuotri
+categories:
+- Corriere
+published: 2024-03-30 10:39:33.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/cook/news/cards/pasqua-riva-mare-10-ristoranti-cui-mangiare-liguria-levante-ponente-consigliati-guida-touring-club-italiano/10-indirizzi-consigliati-touring-club-italiano_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

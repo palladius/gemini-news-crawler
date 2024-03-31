@@ -1,0 +1,42 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497302
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Salvini: “Ci sono leader europei che vogliono mandare i nostri soldati a combattere,
+  sono un pericolo”'
+url: https://www.ilfattoquotidiano.it/2024/03/31/salvini-ci-sono-leader-europei-che-vogliono-mandare-i-nostri-soldati-a-combattere-sono-un-pericolo/7497302/
+summary: |
+  <p>&#8220;Non si può accogliere nessuno, non si può integrare nessuno, se si cancellano le radici più profonde del nostro essere&#8221;. Matteo Salvini ha pubblicato un video sui social di auguri per la Pasqua. E ha parlato anche della guerra in Ucraina: &#8220;Ci sono leader europei che vogliono mandare i nostri soldati a combattere al di [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/salvini-ci-sono-leader-europei-che-vogliono-mandare-i-nostri-soldati-a-combattere-sono-un-pericolo/7497302/">Salvini: &#8220;Ci sono leader europei che vogliono mandare i nostri soldati a combattere, sono un pericolo&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Politica
+- Matteo Salvini
+published: 2024-03-31 08:45:56.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497302
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/salvini-ci-sono-leader-europei-che-vogliono-mandare-i-nostri-soldati-a-combattere-sono-un-pericolo/7497302/#respond
+content: |
+  <div class="item">
+  <p>&#8220;Non si può accogliere nessuno, non si può integrare nessuno, se si cancellano le radici più profonde del nostro essere&#8221;. <strong>Matteo Salvini</strong> ha pubblicato un video sui social di auguri per la Pasqua. E ha parlato anche della guerra in Ucraina: &#8220;Ci sono leader europei che vogliono mandare i nostri soldati a combattere al di fuori dei nostri confini. Da ministro, da segretario della Lega, da uomo e da genitore ce la metterò tutta perché siano settimane e mesi di pace&#8221;.</p>
+  </div>
+  <div class="clearerleft"></div>
+  <div class="RecordStory"></div>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/salvini-ci-sono-leader-europei-che-vogliono-mandare-i-nostri-soldati-a-combattere-sono-un-pericolo/7497302/">Salvini: &#8220;Ci sono leader europei che vogliono mandare i nostri soldati a combattere, sono un pericolo&#8221;</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/Salvini-1050x551.jpg

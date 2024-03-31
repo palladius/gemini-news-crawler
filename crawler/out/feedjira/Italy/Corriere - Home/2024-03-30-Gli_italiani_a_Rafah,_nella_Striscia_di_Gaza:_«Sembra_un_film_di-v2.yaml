@@ -1,0 +1,34 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/esteri/24_marzo_30/italiani-rafah-gaza-50ed5044-ee0d-11ee-8deb-6faf828a47a7.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Gli italiani a Rafah, nella Striscia di Gaza: «Sembra un film distopico. Si
+  vive tra droni e bombe, colpisce la magrezza delle persone»'
+url: https://www.corriere.it/esteri/24_marzo_30/italiani-rafah-gaza-50ed5044-ee0d-11ee-8deb-6faf828a47a7.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/29/Esteri/Foto%20Esteri%20-%20Trattate/ad32ac18e22e48ff8f747353d7f90a18--0--afbd518d71b64b6fa1485b19126d0b3c-kmlE-U3470108411058698B-656x492@Corriere-Web-Sezioni.jpg"
+  title="Gli italiani a Rafah, nella Striscia di Gaza: «Sembra un film distopico.
+  Si vive tra droni e bombe, colpisce la magrezza delle persone»" alt="Gli italiani
+  a Rafah, nella Striscia di Gaza: «Sembra un film distopico. Si vive tra droni e
+  bombe, colpisce la magrezza delle persone»" /><p>Il racconto di Maria Marelli e
+  Federico Dessi, due operatori umanitari che vivono nella Striscia di Gaza, in missione
+  per una ong internazionale che assiste soprattutto disabili: si dorme lontano dalle
+  finestre per evitare le bombe </p>'
+author: Andrea Nicastro
+categories:
+- Esteri
+published: 2024-03-30 15:11:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/esteri/24_marzo_30/italiani-rafah-gaza-50ed5044-ee0d-11ee-8deb-6faf828a47a7.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

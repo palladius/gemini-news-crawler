@@ -1,0 +1,38 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497270
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Un casino
+url: https://www.ilfattoquotidiano.it/2024/03/31/un-casino/7497270/
+summary: |
+  <p>Un casino &#8211; la mia vignetta per Il Fatto Quotidiano oggi in edicola! #pasqua #guerra #gaza #russia #ucraina #hamas #israele #vignetta #fumetto #memeitaliani #umorismo #satira #humor #natangelo</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/un-casino/7497270/">Un casino</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Mario Natangelo
+categories:
+- Blog
+- Pasqua
+published: 2024-03-31 07:21:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497270
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/un-casino/7497270/#comments
+content: |
+  <p>Un casino &#8211; la mia vignetta per Il Fatto Quotidiano oggi in edicola!<br />
+  #pasqua #guerra #gaza #russia #ucraina #hamas #israele #vignetta #fumetto #memeitaliani #umorismo #satira #humor #natangelo<img src="https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/IMG_20240331_090318_007-630x674.jpg" alt="" width="360" height="385" class="alignnone size-large wp-image-7497271" /></p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/un-casino/7497270/">Un casino</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/31/IMG_20240331_090318_007-1050x1123.jpg

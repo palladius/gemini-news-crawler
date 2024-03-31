@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:rep-napoli:422401257
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'I segreti della cattura di “Sandokan” Schiavone: “Arrivammo a lui seguendo
+  sua moglie. Si arrese ma aveva 2 kalashnikov pronti a far fuoco...”'
+url: https://napoli.repubblica.it/cronaca/2024/03/31/news/sandokan_schiavone_camorra_casalesi_arresto_guido_longo_dia_casal_di_principe_mafia-422401257/
+summary: 'Guido Longo, ex questore e già capocentro Dia di Napoli svela a “Repubblica”
+  la lunga indagine e il blitz di 15 ore. E sul nuovo scenario: “Lui sa tutto della
+  enorme potenza economica dei Casalesi...e sa anche molto altro”'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-30 23:30:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:rep-napoli:422401257
+updated: 2024-03-30 23:30:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

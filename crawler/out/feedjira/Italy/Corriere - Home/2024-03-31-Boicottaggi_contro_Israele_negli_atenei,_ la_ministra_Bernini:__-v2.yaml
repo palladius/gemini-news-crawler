@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/scuola/24_marzo_30/i-boicottaggi-negli-atenei-il-governo-scelte-sbagliate-e594f089-3242-4814-a82d-9781feb54xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Boicottaggi contro Israele negli atenei,  la ministra Bernini:   «Scelte sbagliate»
+   Burioni: negli atenei eccessi di intolleranza'
+url: https://www.corriere.it/scuola/24_marzo_30/i-boicottaggi-negli-atenei-il-governo-scelte-sbagliate-e594f089-3242-4814-a82d-9781feb54xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Cultura/Foto%20Cultura%20-%20Trattate/6608891fe0fd3_ori_crop_MASTER__0x0.jpeg"
+  title="Boicottaggi contro Israele negli atenei,  la ministra Bernini:   «Scelte
+  sbagliate»  Burioni: negli atenei eccessi di intolleranza" alt="Boicottaggi contro
+  Israele negli atenei,  la ministra Bernini:   «Scelte sbagliate»  Burioni: negli
+  atenei eccessi di intolleranza" /><p>Bernini e le decisioni anti Israele: ogni forma
+  di esclusione ribalta il principio di neutralità scientificaBernini e le decisioni
+  anti Israele: ogni forma di esclusione ribalta il principio di neutralità scientificaBernini
+  e le decisioni anti Israele: ogni forma di esclusione ribalta il principio di neutralità
+  scientifica</p>'
+author: Valentina Santarpia
+categories:
+- Cultura
+published: 2024-03-31 08:34:08.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/scuola/24_marzo_30/i-boicottaggi-negli-atenei-il-governo-scelte-sbagliate-e594f089-3242-4814-a82d-9781feb54xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

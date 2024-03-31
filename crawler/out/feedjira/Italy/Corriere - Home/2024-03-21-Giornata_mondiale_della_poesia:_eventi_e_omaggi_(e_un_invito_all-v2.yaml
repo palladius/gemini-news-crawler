@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/cultura/24_marzo_21/giornata-mondiale-poesia-eventi-omaggi-invito-lettura-f047490c-e768-11ee-a95a-09971739e78f.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Giornata mondiale della poesia: eventi e omaggi (e un invito alla lettura)
+  Lo speciale'
+url: https://www.corriere.it/cultura/24_marzo_21/giornata-mondiale-poesia-eventi-omaggi-invito-lettura-f047490c-e768-11ee-a95a-09971739e78f.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/21/Cultura/Foto%20Cultura%20-%20Trattate/21cul05f1-kwGE-U3470771458446eaF-656x492@Corriere-Web-Sezioni.jpg"
+  title="Giornata mondiale della poesia: eventi e omaggi (e un invito alla lettura)
+  Lo speciale" alt="Giornata mondiale della poesia: eventi e omaggi (e un invito alla
+  lettura) Lo speciale" /><p>Il 21 marzo è la data scelta dall’Unesco per celebrare
+  la parola poetica. Gli eventi nelle città e l’iniziativa del «Corriere» e «la Lettura»:
+  «Marzo - Il mese della poesia»</p>'
+author: Redazione Cultura
+categories:
+- Cultura
+published: 2024-03-21 20:11:44.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/cultura/24_marzo_21/giornata-mondiale-poesia-eventi-omaggi-invito-lettura-f047490c-e768-11ee-a95a-09971739e78f.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

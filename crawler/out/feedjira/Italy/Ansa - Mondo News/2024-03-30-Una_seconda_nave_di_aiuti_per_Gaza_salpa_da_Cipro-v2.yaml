@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/una-seconda-nave-di-aiuti-per-gaza-salpa-da-cipro_48086464-2b01-4c59-9d40-ea1e44222e9b.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Una seconda nave di aiuti per Gaza salpa da Cipro
+url: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/una-seconda-nave-di-aiuti-per-gaza-salpa-da-cipro_48086464-2b01-4c59-9d40-ea1e44222e9b.html
+summary: Due settimane dopo arrivo della prima, 400 tonnellate da 2 Ong
+published: 2024-03-30 14:25:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/03/30/una-seconda-nave-di-aiuti-per-gaza-salpa-da-cipro_48086464-2b01-4c59-9d40-ea1e44222e9b.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

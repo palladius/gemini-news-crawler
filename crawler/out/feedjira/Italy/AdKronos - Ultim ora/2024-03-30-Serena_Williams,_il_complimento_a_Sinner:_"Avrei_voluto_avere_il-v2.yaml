@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/sport/serena-williams-il-complimento-a-sinner-avrei-voluto-avere-il-tuo-dritto_rT3hzxXpEemW1RPFELINu
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Serena Williams, il complimento a Sinner: "Avrei voluto avere il tuo dritto"'
+url: https://www.adnkronos.com/sport/serena-williams-il-complimento-a-sinner-avrei-voluto-avere-il-tuo-dritto_rT3hzxXpEemW1RPFELINu
+summary: "(Adnkronos) - La vincitrice di 23 titoli del Grande Slam all'azzurro dopo
+  la semifinale vinta su Daniil Medvedev nel torneo di Miami"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- sport
+published: 2024-03-30 12:16:58.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/sport/serena-williams-il-complimento-a-sinner-avrei-voluto-avere-il-tuo-dritto_rT3hzxXpEemW1RPFELINu
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8861fd9480-734ab033fd48-1000/format/medium/serena_williams_fg.jpeg

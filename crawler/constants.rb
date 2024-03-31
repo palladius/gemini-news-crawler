@@ -25,7 +25,6 @@ NEWS_BY_REGION ={
     'Ansa - Mondo News': 'https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml',
     # Corriere meta RSS: https://www.corriere.it/rss/
     'Corriere - Home': 'https://xml2.corriereobjects.it/rss/homepage.xml',
-    'Riccardo Carlesso - Blog': 'https://ricc.rocks/en/index.xml',
     'Google News - Italian': 'https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it',
     # US English
     'Google News - US': 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en',
@@ -84,6 +83,11 @@ NEWS_BY_REGION ={
     'US general37': 'http://time.com/newsfeed/feed/',
     'US general38': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
   },
+  'Blogs': {
+    'Riccardo Carlesso - Blog':   'https://ricc.rocks/en/index.xml',
+    'Riccardo Carlesso - Medium': 'https://medium.com/feed/@palladiusbonton', # both this..
+    'Romin Irani - Medium':       'https://iromin.medium.com/feed',           # .. and this work
+  }
 
 }
 

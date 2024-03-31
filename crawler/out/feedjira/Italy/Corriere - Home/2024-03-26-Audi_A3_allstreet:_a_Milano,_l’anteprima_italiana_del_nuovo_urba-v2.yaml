@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/motori/news/24_marzo_23/audi-a3-allstreet-milano-l-anteprima-italiana-nuovo-urban-crossover-foto-f42fda64-e913-11ee-919a-5276ae33aa1b.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Audi A3 allstreet: a Milano, l’anteprima italiana del nuovo urban crossover.
+  Le foto'
+url: https://www.corriere.it/motori/news/24_marzo_23/audi-a3-allstreet-milano-l-anteprima-italiana-nuovo-urban-crossover-foto-f42fda64-e913-11ee-919a-5276ae33aa1b.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/23/Motori/Foto%20Motori%20-%20Trattate/audia3allstreetanteprimaitalianaamilano_002-krfe-u34708559905317fh-656x492corriere-web-sezioni_MASTER.jpg"
+  title="Audi A3 allstreet: a Milano, l’anteprima italiana del nuovo urban crossover.
+  Le foto" alt="Audi A3 allstreet: a Milano, l’anteprima italiana del nuovo urban
+  crossover. Le foto" /><p>Il Teatro Alcione di piazza Vetra ha ospitato «L’ovunque
+  è qui», la première di un’inedita versione della A3 con elementi off-road. Fabrizio
+  Longo, direttore Audi Italia: «Un’auto nata per un contesto urbano, ma polivalente»</p>'
+author: Francesca Cibrario
+categories:
+- Motori
+published: 2024-03-26 09:05:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/motori/news/24_marzo_23/audi-a3-allstreet-milano-l-anteprima-italiana-nuovo-urban-crossover-foto-f42fda64-e913-11ee-919a-5276ae33aa1b.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

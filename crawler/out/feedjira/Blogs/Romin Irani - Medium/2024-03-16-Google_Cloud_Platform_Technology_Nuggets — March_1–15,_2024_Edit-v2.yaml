@@ -1,0 +1,195 @@
+# [NewsFiler v2] NewsPaper: Romin Irani - Medium (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://medium.com/p/9e6c725ed7c5
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Google Cloud Platform Technology Nuggets — March 1–15, 2024 Edition
+url: https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-march-1-15-2024-edition-9e6c725ed7c5?source=rss-802a4d428d95------2
+author: Romin Irani
+categories:
+- gcp-weekly
+- google-cloud-platform
+- tech-nuggets
+published: 2024-03-16 12:22:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://medium.com/p/9e6c725ed7c5
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Romin Irani - Medium
+  macro_region: Blogs
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- entry_id
+- content
+content: '<h3>Google Cloud Platform Technology Nuggets — March 1–15, 2024 Edition</h3><p>Welcome
+  to the March 1–15, 2024 edition of Google Cloud Technology Nuggets.</p><p>Please
+  feel free to give <a href="https://forms.gle/UAsAS7YLxYSBTNBy9">feedback</a> on
+  this issue and share the <a href="https://gcptechnuggets.substack.com/">subscription
+  form</a> with your peers.</p><h3>Google Cloud NEXT ’24 Updates</h3><p>Google Cloud
+  NEXT ’24 is just a few weeks away. If you are attending the event in-person, the
+  <a href="https://cloud.withgoogle.com/next/session-library?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=cgc-blog-session-launch-feb&amp;utm_term=-">full
+  list of sessions</a> is now available. You can also make use of the Agenda Builder
+  to plan out attending the sessions that you don’t want to miss. Check out the <a
+  href="https://cloud.google.com/blog/topics/google-cloud-next/full-session-catalog-now-live-for-google-cloud-next24">blog
+  post</a> for more details and check out some of the anticipated sessions mention
+  in the post.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*vsTKI3JJFN9vmIR8.jpg"
+  /></figure><h3>Containers and Kubernetes</h3><p>There are several updates in this
+  space for this edition of the newsletter.</p><p>Solution Architectures are all about
+  tradeoffs isn’t it? Regional or a Zonal cluster for your GKE environments? You have
+  to consider multiple points like availability, costs, maintenance, scalability and
+  more. Check out this <a href="https://cloud.google.com/blog/products/containers-kubernetes/choosing-a-regional-vs-zonal-gke-cluster">detailed
+  article</a> that breaks down each of these points vis-a-vis Regional and Zonal clusters.</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/1*PCTIhE45lk5Gpe84ydZiuA.png"
+  /></figure><p>Google Kubernetes Engine (GKE) in Autopilot mode is seeing significant
+  updates of late to make it ideally suited to running your AI workloads, not just
+  from the manageability perspective but from the choice of compute options. There
+  are two new compute classes in Autopilot that have been introduced: Accelerator
+  and Performance. The Accelerator class improves GPU support with resource reservation
+  capabilities. The Performance class enables high-performance workloads to run on
+  Autopilot mode at scale. There are several pricing updates too, including a price
+  cut for majority of GPU workloads running on GKE in Autopilot mode, along with the
+  ability to keep your existing Reservations and committed use discounts, as you move
+  your workloads between the Standard and Autopilot modes of GKE, as well as between
+  Compute Engine VMs. Check out the <a href="https://cloud.google.com/blog/products/containers-kubernetes/new-features-to-run-ai-more-efficiently-on-fully-managed-gke">post</a>
+  for more details.</p><p>Have you heard about ECK? It is Elastic Cloud on Kubernetes
+  and the official Elastic Operator for Kubernetes. If you are looking to run the
+  Elastic Stack on a cloud-native Kubernetes environment, then this is the way to
+  go. Combine that with running it on GKE in Autopilot mode, and the combination gets
+  the best of both services. Check out the <a href="https://cloud.google.com/blog/products/containers-kubernetes/gke-autopilot-supports-elastic-cloud-on-kubernetes">blog
+  post</a> for more details.</p><p>Looking to create an Internal Developer Platform
+  (IDP) for your teams, as part of Platform Engineering, you need to consider a foundation
+  that can provide flexibility in terms of the requirements that your developers would
+  have. Kubernetes is a solid foundation to do that due to the abstractions that it
+  has available. But building one is a significant task and there is good help here
+  in terms of the <a href="https://cloud.google.com/blog/products/containers-kubernetes/gke-build-an-enterprise-developer-platform-for-fast-app-delivery">blog
+  post</a> and a <a href="https://cloud.google.com/architecture/enterprise-application-blueprint">detailed
+  solution guide</a>. Check it out.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*gkFV7tQu5_qr2DcI.png"
+  /></figure><p>One more post that highlights the GKE Autopilot value proposition
+  and this time it is about how it handles security for you. In summary, it helps
+  you configure nodes, node pools, and in-cluster policy for you according to security
+  best practices, allowing you to focus on workload-specific security. Check out this
+  <a href="https://cloud.google.com/blog/products/containers-kubernetes/move-in-ready-kubernetes-security-with-gke-autopilot">informative
+  article</a> to brush up on Kubernetes security aspects and what Autopilot mode does
+  for you, as part of the shared fate operating model.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/991/0*NrHMWPCs6N1SpxGD.png"
+  /></figure><h3>Customers</h3><p>You are going through an application modernization
+  journey at your organization and the initial applications that you have containerized
+  and moved to Cloud Run have been a success. On top of that, you have achieved some
+  of these numbers: 70% toil reduction, 90% cost savings, and unlocked new capabilities
+  by integrating with some of the services available on Google Cloud? This is exactly
+  what DZ Bank, the second largest bank in Germany in terms of assets, has published.
+  Check out their <a href="https://cloud.google.com/blog/products/serverless/how-dz-bank-uses-a-cloud-run-first-approach-to-unlock-big-savings">story</a>.</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/0*OAIjCEqjo-cyfYrB.png" /></figure><p>Another
+  customer success is from Glance, which provides innovative lock screen experiences
+  across millions of mobile phones. Glance recently migrated their database from Azure
+  Cosmos DB to Cloud Spanner. The move was needed due to the frequent need to optimize
+  their application vis-a-vis the database requirements and operations management
+  too. To select a database, they conducted a month-long proof of concept with various
+  databases to ensure that their pipelines worked along with their performance requirements.
+  Spanner emerged as the Database of choice. Check out the <a href="https://cloud.google.com/blog/products/databases/why-glance-migrated-its-document-database-to-spanner">post</a>
+  that discusses their experience, reasons for moving, what Spanner provides them
+  and more.</p><h3>Identity and Security</h3><p>Security Command Center Enterprise
+  edition has been announced. It fuses cloud and enterprise security requirements
+  into a single offering that you can use across your multi-cloud environments. The
+  edition is integrated with various aspects of Mandiant solutions too. Check out
+  the <a href="https://cloud.google.com/blog/products/identity-security/introducing-security-command-center-enterprise">blog</a>
+  for more details.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/633/0*I9Y9h6q2o4Tyy3GT.png"
+  /></figure><p>The first of Google Cloud Security Talks of 2024 have started. By
+  the time, this newsletter reaches out, the first edition on March 13 would have
+  completed. You can still visit the on-demand page and view the sessions. There are
+  several interesting topics around Gen AI and its role in security along with regular
+  updates on threat intelligence. Check out the <a href="https://cloud.google.com/blog/products/identity-security/join-our-first-security-talks-of-2024">post</a>
+  for more details.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*MR9muIji4V4p43Nk.png"
+  /></figure><h3>Machine Learning</h3><p>The rate at which the Gen AI foundational
+  models are being made available by various providers is astounding. Speaking of
+  Anthropic’s Claude 3 models, they are soon going to be available on Vertex AI Model
+  Garden, with one of the models (Sonnet), which is best combination of skills and
+  speed is now available in private preview for customers. Check out the <a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-anthropics-claude-3-models-in-google-cloud-vertex-ai">blog
+  post</a> on this announcement.</p><p>It is generally accepted now that while foundational
+  models are more than capable, the way forward is to have a specialized model for
+  your domain. But which approach should you use to specialize it. Should you use
+  Prompt Engineering, RAG or Fine tuning? Check out this <a href="https://cloud.google.com/blog/products/ai-machine-learning/three-step-design-pattern-for-specializing-llms">post</a>
+  that gives you an overview of these approaches and a side-by-side comparison.</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/0*J4deyAgU8O-5w6ip.png" /></figure><h3>Databases</h3><p>As
+  Organizations continue to grapple with how to maximize capabilities with Gen AI,
+  the fundamental point remains that you will need to have ability to access, manage,
+  and activate all types of data. What this means for Cloud Providers is to assess
+  this development and see how their own services around Database products stands
+  and adding native Gen AI capabilities within the products itself. In a key blog
+  post that highlights how Google Cloud has expanded the GenAI capabilities across
+  key products like BigQuery, AlloyDB, Spanner and more is noteworthy. With this capabilities,
+  your usage of cross services goes up but then the data and governance can be better
+  managed. Check out the <a href="https://cloud.google.com/blog/products/databases/bigquery-and-alloydb-hit-major-milestone-with-ai-enabled-updates">blog
+  post</a> in details that highlights some of these developments.</p><p>In a similar
+  key <a href="https://cloud.google.com/blog/products/databases/discover-new-gen-ai-google-cloud-database-capabilities">post</a>,
+  read about announcements around general availability (GA) of AlloyDB AI, an integrated
+  set of capabilities in AlloyDB to easily build Enterprise Gen AI apps and introduction
+  of vector search capabilities across Spanner, MySQL, and Redis. There is also an
+  increasing integration with LangChain across these features.</p><p>Speaking of LangChain
+  integrations, the key question is what are the LangChain packages that leverage
+  these new Google Cloud database features. The <a href="https://cloud.google.com/blog/products/databases/build-rag-applications-with-langchain-and-google-cloud">blog
+  post</a> highlights the packages around Document Loaders, Vector Stores and Chat
+  Messages Memory. If you are developer who is using the popular LangChain framework
+  and wants to try out these Google Database integrations, this is a must read post
+  to show you the path. The post has Getting Started guides too.</p><figure><img alt=""
+  src="https://cdn-images-1.medium.com/max/1024/1*2gPRX0o17wqXWp76Xunzug.png" /></figure><p>Several
+  blog posts have been specifically written on the various database services, their
+  support for Gen AI, LangChain frameworks and how you can start building out applications
+  with them. Here is a list:</p><ul><li><a href="https://cloud.google.com/blog/products/databases/cloud-sql-for-mysql-supports-vector-embeddings-search">Build
+  generative AI applications with similarity search in Cloud SQL for MySQL</a></li></ul><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/1*bCpR7SqNqrYHOAkYH-LIUg.png"
+  /></figure><ul><li><a href="https://cloud.google.com/blog/products/databases/memorystore-for-redis-vector-search-and-langchain-integration">Memorystore
+  for Redis vector search and LangChain integrations for Gen AI</a></li></ul><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/0*W-wx29VN7b5sbWxa.png" /></figure><ul><li><a
+  href="https://cloud.google.com/blog/products/databases/how-spanner-vector-search-supports-generative-ai-apps">Build
+  generative AI and similarity search applications at virtually unlimited scale with Spanner</a></li></ul><p>Finally,
+  if you are using Cloud SQL for SQL Server, you can now run build and run SSRS reports
+  with databases hosted on Cloud SQL for SQL Server. Check out the <a href="https://cloud.google.com/blog/products/databases/announcing-sql-server-reporting-services-ssrs-in-google-cloud-sql">blog
+  post</a> for more details.</p><h3>Data Analytics</h3><p>BigQuery and Vertex AI integration
+  to help you with Generative AI features has taken the next step with:</p><ul><li>Gemini
+  models are available in BigQuery ML</li><li>Vertex AI’s document processing and
+  speech-to-text APIs can be used in BigQuery</li><li>Vector Search capabilities have
+  come to BigQuery</li></ul><p>Check out the <a href="https://cloud.google.com/blog/products/data-analytics/bring-generative-ai-to-bigquery-with-vertex-ai-integration">blog
+  post</a> for more details on each of these features. If you prefer to see an example
+  of how to use Gemini 1.0 Pro in BigQuery, check out the instructive <a href="https://cloud.google.com/blog/products/data-analytics/gemini-pro-available-in-bigquery-through-vertex-ai">blog post</a>.</p><figure><img
+  alt="" src="https://cdn-images-1.medium.com/max/1024/1*GQO_xADKDmViVUS_J9Kheg.png"
+  /></figure><p>Do you use Dataflow, have predictable processing volumes and looking
+  to optimize costs? Check out the General Availability of Dataflow streaming committed
+  use discounts (CUDs) that addressing a key cost component: streaming compute. The
+  CUDs are available across the following Dataflow resources:</p><ul><li>Worker CPU
+  and memory for streaming jobs</li><li>Streaming engine usage</li><li>Data compute
+  units (DCUs) for Dataflow Prime streaming jobs</li></ul><p>Check out the <a href="https://cloud.google.com/blog/products/data-analytics/save-with-new-dataflow-streaming-committed-use-discounts-cuds">blog
+  post</a> for more details, which also includes an example.</p><figure><img alt=""
+  src="https://cdn-images-1.medium.com/max/600/0*ONBoRnJzb_x-zLDH.png" /></figure><h3>Management
+  Tools</h3><p>Looking to integrate Spring and gRPC services together? How about addressing
+  that via first class Spring annotations and then once this has been developed and
+  deployed, getting the metrics from the application scraped by Prometheus and exposed
+  as a Grafana dashboard. Check out the <a href="https://cloud.google.com/blog/products/networking/build-spring-based-grpc-microservices-with-oss-monitoring">blog
+  post</a> for more details.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*vmd2Oc5wFwJHDchA.jpg"
+  /></figure><p>A few months back, we covered Personalized Health which provides you
+  information on disruptive events impacting Google Cloud products and services relevant
+  to your projects. This service is now available in the Google Cloud Mobile app.
+  This enhances the Monitoring capabilities of the Mobile application, which was earlier
+  providing information on Incidents, Logs, Uptime Checks and more. Check out the
+  <a href="https://cloud.google.com/blog/products/management-tools/personalized-service-health-incidents-in-google-cloud-mobile-app">post</a>
+  for more details.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*VrxmSQxm5mihgrm6.jpg"
+  /></figure><h3>Learn Google Cloud</h3><p>If you are attending Cloud NEXT ’24, there
+  are tons of learning opportunities for you. These range from picking up Skill Badges,
+  to immersive workshops, breakout sessions and more in the Innovators Hive area.
+  Check out the <a href="https://cloud.google.com/blog/topics/training-certifications/training-and-certification-for-developers-at-google-cloud-next24">post</a>
+  for more details.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*8ENXKL84HlVQaidc.jpg"
+  /></figure><h3>Stay in Touch</h3><p>Have questions, comments, or other feedback
+  on this newsletter? Please send <a href="https://forms.gle/UAsAS7YLxYSBTNBy9">Feedback</a>.</p><p>If
+  any of your peers are interested in receiving this newsletter, send them the <a
+  href="https://gcptechnuggets.substack.com/">Subscribe</a> link.</p><p>Want to keep
+  tabs on new Google Cloud product announcements? We have a handy page that you should
+  bookmark → <a href="https://bit.ly/3umz3cA">What’s new with Google Cloud</a>.</p><img
+  src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=9e6c725ed7c5"
+  width="1" height="1" alt=""><hr><p><a href="https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-march-1-15-2024-edition-9e6c725ed7c5">Google
+  Cloud Platform Technology Nuggets — March 1–15, 2024 Edition</a> was originally
+  published in <a href="https://medium.com/google-cloud">Google Cloud - Community</a>
+  on Medium, where people are continuing the conversation by highlighting and responding
+  to this story.</p>'

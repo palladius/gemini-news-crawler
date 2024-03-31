@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/archiviato-il-caso-mark-caltagirone-pamela-prati-non-fu-truffata_3LDzgeAXohueQIkAcyUlvu
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Archiviato il caso Mark Caltagirone: "Pamela Prati non fu truffata"'
+url: https://www.adnkronos.com/cronaca/archiviato-il-caso-mark-caltagirone-pamela-prati-non-fu-truffata_3LDzgeAXohueQIkAcyUlvu
+summary: "(Adnkronos) - Il gip di Roma ha archiviato l'indagine nata dalla denuncia
+  presentata dalla showgirl nel 2019 a carico delle sue due ex agenti Eliana Michelazzo
+  e Pamela Perricciolo"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-30 19:20:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/archiviato-il-caso-mark-caltagirone-pamela-prati-non-fu-truffata_3LDzgeAXohueQIkAcyUlvu
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a88f95083de-87dbbc01d78c-1000/format/medium/prati_pamela_fg_ipa.jpeg

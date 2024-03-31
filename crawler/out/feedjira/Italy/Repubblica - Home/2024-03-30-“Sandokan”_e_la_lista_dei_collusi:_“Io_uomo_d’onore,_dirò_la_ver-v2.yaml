@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:rep-napoli:422401446
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "“Sandokan” e la lista dei collusi: “Io uomo d’onore, dirò la verità”"
+url: https://napoli.repubblica.it/cronaca/2024/03/31/news/schiavone_casal_di_principe_interrogatori-422401446/
+summary: 'Già cinque gli interrogatori per Schiavone, atteso ora da due incontri a
+  settimana coi pm. L’ex boss dovrà fornire l’elenco di politici e imprenditori che
+  facevano affari coi Casalesi e rispondere alle domande: ebbe un ruolo nelle stragi
+  di mafia?'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+- Cronaca
+published: 2024-03-30 23:30:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:rep-napoli:422401446
+updated: 2024-03-30 23:30:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

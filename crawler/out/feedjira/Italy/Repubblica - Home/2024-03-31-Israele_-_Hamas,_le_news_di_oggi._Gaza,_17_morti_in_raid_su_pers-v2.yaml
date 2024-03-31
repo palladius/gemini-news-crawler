@@ -3,18 +3,18 @@
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: 'Israele - Hamas, le news di oggi. Gaza, 17 morti in raid su persone in attesa
-  aiuti. Manifestazioni contro governo a Tel Aviv: 16 arresti. Hamas: “400 uccisi
-  da Israele in assedio ospedale al-Shifa”'
+  aiuti. Manifestazioni contro governo a Tel Aviv: 16 arresti. Al Cairo oggi nuovo
+  round di negoziati per il cessate il fuoco'
 url: https://www.repubblica.it/esteri/2024/03/31/diretta/israele_hamas_gaza_news_guerra_oggi-422401619/
 summary: ''
 author: repubblicawww@repubblica.it (Redazione Repubblica.it)
 categories:
 - Esteri
-published: 2024-03-31 08:23:06.000000000 Z
+published: 2024-03-31 08:45:04.000000000 Z
 entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
   is_perma_link: 'false'
   guid: rep-locali:repubblica:422401619
-updated: 2024-03-31 08:23:06.000000000 Z
+updated: 2024-03-31 08:45:04.000000000 Z
 carlessian_info:
   news_filer_version: 2
   newspaper: Repubblica - Home

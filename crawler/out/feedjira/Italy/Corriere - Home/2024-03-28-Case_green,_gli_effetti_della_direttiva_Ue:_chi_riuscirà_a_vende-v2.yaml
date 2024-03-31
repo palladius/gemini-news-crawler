@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/economia/casa/cards/case-green-gli-effetti-della-direttiva-ue-chi-riuscira-a-vendere-le-vecchie-abitazioni/due-anni-di-tempo-ma-molta-discrezionalita_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Case green, gli effetti della direttiva Ue: chi riuscirà a vendere le vecchie
+  abitazioni?'
+url: https://www.corriere.it/economia/casa/cards/case-green-gli-effetti-della-direttiva-ue-chi-riuscira-a-vendere-le-vecchie-abitazioni/due-anni-di-tempo-ma-molta-discrezionalita_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/22/Economia/Foto%20Economia%20-%20Trattate/65fd9aeb99556_ori_crop_MASTER__0x0.jpeg"
+  title="Case green, gli effetti della direttiva Ue: chi riuscirà a vendere le vecchie
+  abitazioni?" alt="Case green, gli effetti della direttiva Ue: chi riuscirà a vendere
+  le vecchie abitazioni?" /><p>Dai nuovi incentivi ai lavori fatti dalle «Esco», quali
+  sono gli strumenti che possono evitare alle abitazioni ad alto consumo di finire
+  fuori dal mercatoDai nuovi incentivi ai lavori fatti dalle «Esco», quali sono gli
+  strumenti che possono evitare alle abitazioni ad alto consumo di finire fuori dal
+  mercatoDai nuovi incentivi ai lavori fatti dalle «Esco», quali sono gli strumenti
+  che possono evitare alle abitazioni ad alto consumo di finire fuori dal mercato</p>'
+author: Gino Pagliuca
+categories:
+- Economia
+published: 2024-03-28 08:31:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/economia/casa/cards/case-green-gli-effetti-della-direttiva-ue-chi-riuscira-a-vendere-le-vecchie-abitazioni/due-anni-di-tempo-ma-molta-discrezionalita_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

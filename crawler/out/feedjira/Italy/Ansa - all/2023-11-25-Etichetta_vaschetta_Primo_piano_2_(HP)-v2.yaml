@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/elementiHP/2023/06/15/etichetta-vaschetta-primopiano-2-hp_b0741ba3-786f-4efe-8b82-e2f2d753366b.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Etichetta vaschetta Primo piano 2 (HP)
+url: https://www.ansa.it/sito/elementiHP/2023/06/15/etichetta-vaschetta-primopiano-2-hp_b0741ba3-786f-4efe-8b82-e2f2d753366b.html
+summary: ''
+published: 2023-11-25 18:50:47.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/elementiHP/2023/06/15/etichetta-vaschetta-primopiano-2-hp_b0741ba3-786f-4efe-8b82-e2f2d753366b.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

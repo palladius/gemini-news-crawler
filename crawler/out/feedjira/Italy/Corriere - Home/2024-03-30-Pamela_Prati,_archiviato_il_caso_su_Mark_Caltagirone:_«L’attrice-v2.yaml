@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://roma.corriere.it/notizie/cronaca/24_marzo_30/pamela-prati-archiviato-il-caso-su-mark-caltagirone-l-attrice-non-fu-truffata-lo-scopo-era-auto-promozionale-6d185495-1165-4a80-a89f-ca6d64b34xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Pamela Prati, archiviato il caso su Mark Caltagirone: «L’attrice non fu truffata,
+  azione auto-promozionale»'
+url: https://roma.corriere.it/notizie/cronaca/24_marzo_30/pamela-prati-archiviato-il-caso-su-mark-caltagirone-l-attrice-non-fu-truffata-lo-scopo-era-auto-promozionale-6d185495-1165-4a80-a89f-ca6d64b34xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Roma/Foto%20Roma%20-%20Trattate/66085c493e47a.r_d.370-185-0_ori_crop_MASTER__0x0.jpeg"
+  title="Pamela Prati, archiviato il caso su Mark Caltagirone: «L’attrice non fu truffata,
+  azione auto-promozionale»" alt="Pamela Prati, archiviato il caso su Mark Caltagirone:
+  «L’attrice non fu truffata, azione auto-promozionale»" /><p>Il gip ha archiviato
+  ritenendo la ricostruzione fornita dalla Prati assolutamente artificiosaIl gip ha
+  archiviato ritenendo la ricostruzione fornita dalla Prati assolutamente artificiosaIl
+  gip ha archiviato ritenendo la ricostruzione fornita dalla Prati assolutamente artificiosa</p>'
+author: Giulio De Santis
+categories:
+- Corriere
+published: 2024-03-30 19:00:13.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://roma.corriere.it/notizie/cronaca/24_marzo_30/pamela-prati-archiviato-il-caso-su-mark-caltagirone-l-attrice-non-fu-truffata-lo-scopo-era-auto-promozionale-6d185495-1165-4a80-a89f-ca6d64b34xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

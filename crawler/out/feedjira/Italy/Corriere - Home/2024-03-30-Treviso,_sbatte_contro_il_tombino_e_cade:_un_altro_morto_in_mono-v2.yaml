@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://corrieredelveneto.corriere.it/notizie/treviso/cronaca/24_marzo_30/treviso-sbatte-contro-il-tombino-e-cade-un-altro-morto-in-monopattino-ffae5991-a0c1-4695-90ee-4f75e25bbxlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Treviso, sbatte contro il tombino e cade: un altro morto in monopattino'
+url: https://corrieredelveneto.corriere.it/notizie/treviso/cronaca/24_marzo_30/treviso-sbatte-contro-il-tombino-e-cade-un-altro-morto-in-monopattino-ffae5991-a0c1-4695-90ee-4f75e25bbxlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/Tappi%20Regionali/CorriereVeneto/2024/03/29/Foto%20-%20Trattate/6607238abbcb1_ori_crop_MASTER__0x0.jpeg"
+  title="Treviso, sbatte contro il tombino e cade: un altro morto in monopattino"
+  alt="Treviso, sbatte contro il tombino e cade: un altro morto in monopattino" /><p>  Il
+  sindaco e le nuove regole: «Meno danni col casco»Mogliano, morto il «principe» Gony
+  Asti protagonista delle notti e frequentatore di vip. Il sindaco e le nuove regole
+  per il mezzo: «Meno danni col casco»Mogliano, morto il «principe» Gony Asti protagonista
+  delle notti e frequentatore di vip. Il sindaco e le nuove regole per il mezzo: «Meno
+  danni col casco»</p>'
+author: Margherita Bertolo
+categories:
+- Corriere
+published: 2024-03-30 23:11:52.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://corrieredelveneto.corriere.it/notizie/treviso/cronaca/24_marzo_30/treviso-sbatte-contro-il-tombino-e-cade-un-altro-morto-in-monopattino-ffae5991-a0c1-4695-90ee-4f75e25bbxlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

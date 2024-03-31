@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/spettacoli/cinema-serie-tv/24_marzo_30/vanina-tante-prove-mediaset-ritrova-strada-fiction-aa189518-eea1-11ee-990f-f81d5ab8cdcb.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "«Vanina», dopo tante prove Mediaset ritrova la strada della fiction"
+url: https://www.corriere.it/spettacoli/cinema-serie-tv/24_marzo_30/vanina-tante-prove-mediaset-ritrova-strada-fiction-aa189518-eea1-11ee-990f-f81d5ab8cdcb.shtml
+summary: <p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Spettacoli/Foto%20Spettacoli%20-%20Trattate/giusybuscemivaninaguarrasielasquadra-kgvd-u34701102873253ir-656x492corriere-web-sezioni_master_ori_crop_MASTER__0x0.jpg"
+  title="«Vanina», dopo tante prove Mediaset ritrova la strada della fiction" alt="«Vanina»,
+  dopo tante prove Mediaset ritrova la strada della fiction" /><p></p>
+categories:
+- Spettacoli
+published: 2024-03-30 20:29:10.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/spettacoli/cinema-serie-tv/24_marzo_30/vanina-tante-prove-mediaset-ritrova-strada-fiction-aa189518-eea1-11ee-990f-f81d5ab8cdcb.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

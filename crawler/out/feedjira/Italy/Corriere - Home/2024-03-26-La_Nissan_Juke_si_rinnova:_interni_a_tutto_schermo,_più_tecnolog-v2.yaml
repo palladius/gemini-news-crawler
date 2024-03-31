@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/motori/news/anteprime/cards/nissan-juke-si-rinnova-interni-tutto-schermo-piu-tecnologia-torna-colore-giallo/ritorno-giallo_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'La Nissan Juke si rinnova: interni a tutto schermo, più tecnologia e torna
+  il colore giallo'
+url: https://www.corriere.it/motori/news/anteprime/cards/nissan-juke-si-rinnova-interni-tutto-schermo-piu-tecnologia-torna-colore-giallo/ritorno-giallo_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/18/Motori/Foto%20Motori%20-%20Trattate/JUKE%20MC%202024%20-%20Exterior%20_%20iconic%20yellow%20body%20color%20-%20N-Sport%20-%20dynamic%20front%20view-kAAH--656x492@Corriere-Web-Sezioni.jpg"
+  title="La Nissan Juke si rinnova: interni a tutto schermo, più tecnologia e torna
+  il colore giallo" alt="La Nissan Juke si rinnova: interni a tutto schermo, più tecnologia
+  e torna il colore giallo" /><p>In occasione dell’introduzione del nuovo allestimento
+  N-Sport, la Casa giapponese ripropone un colore molto desiderato dai clienti e non
+  mancano novità per abitacolo ed infotainment</p>'
+author: Andrea Paoletti
+categories:
+- Motori
+published: 2024-03-26 09:05:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/motori/news/anteprime/cards/nissan-juke-si-rinnova-interni-tutto-schermo-piu-tecnologia-torna-colore-giallo/ritorno-giallo_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

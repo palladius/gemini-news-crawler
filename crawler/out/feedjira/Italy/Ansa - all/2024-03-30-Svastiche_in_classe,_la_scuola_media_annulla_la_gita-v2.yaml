@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/valledaosta/notizie/2024/03/30/svastiche-in-classe-la-scuola-media-annulla-la-gita_e563c5f4-4b77-4f67-a09d-0fe6c3644bf2.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Svastiche in classe, la scuola media annulla la gita
+url: https://www.ansa.it/valledaosta/notizie/2024/03/30/svastiche-in-classe-la-scuola-media-annulla-la-gita_e563c5f4-4b77-4f67-a09d-0fe6c3644bf2.html
+summary: A Saint-Vincent, saltato il viaggio educativo su una strage nazista
+published: 2024-03-30 18:25:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/valledaosta/notizie/2024/03/30/svastiche-in-classe-la-scuola-media-annulla-la-gita_e563c5f4-4b77-4f67-a09d-0fe6c3644bf2.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

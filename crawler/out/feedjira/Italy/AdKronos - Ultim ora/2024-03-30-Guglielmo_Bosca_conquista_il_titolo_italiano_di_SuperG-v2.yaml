@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/sport/guglielmo-bosca-conquista-il-titolo-italiano-di-superg_4XUtQZe9hkTztBYNSlHeK0
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Guglielmo Bosca conquista il titolo italiano di SuperG
+url: https://www.adnkronos.com/sport/guglielmo-bosca-conquista-il-titolo-italiano-di-superg_4XUtQZe9hkTztBYNSlHeK0
+summary: "(Adnkronos) - Sul podio anche Innerhofer e Giovanni Franzoni"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- sport
+published: 2024-03-30 13:21:21.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/sport/guglielmo-bosca-conquista-il-titolo-italiano-di-superg_4XUtQZe9hkTztBYNSlHeK0
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8879055476-9c80c0e739c7-1000/format/medium/guglielmobosca_sci_afp.jpeg

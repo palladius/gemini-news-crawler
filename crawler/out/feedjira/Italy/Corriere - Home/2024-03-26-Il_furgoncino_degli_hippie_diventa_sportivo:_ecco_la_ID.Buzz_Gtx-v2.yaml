@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/motori/news/anteprime/24_marzo_21/furgoncino-hippie-diventa-sportivo-ecco-idbuzz-gtx-340-cavalli-5dc1285a-e76d-11ee-a95a-09971739e78f.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Il furgoncino degli hippie diventa sportivo: ecco la ID.Buzz Gtx da 340 cavalli'
+url: https://www.corriere.it/motori/news/anteprime/24_marzo_21/furgoncino-hippie-diventa-sportivo-ecco-idbuzz-gtx-340-cavalli-5dc1285a-e76d-11ee-a95a-09971739e78f.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/21/Motori/Foto%20Motori%20-%20Trattate/vw-id.-buzz-gtx-2024-cf-cropped-0-0-1280-720-k9kC--656x492@Corriere-Web-Sezioni.jpg"
+  title="Il furgoncino degli hippie diventa sportivo: ecco la ID.Buzz Gtx da 340 cavalli"
+  alt="Il furgoncino degli hippie diventa sportivo: ecco la ID.Buzz Gtx da 340 cavalli"
+  /><p>Debutto nella seconda metà dell’anno per le due versioni più prestazionali
+  del van elettrico, a trazione integrale. Quella a passo normale è dotata di una
+  batteria da 79 kWh, con il passo lungo — volendo a sette posti — si sale a 86 kWh
+  netti</p>'
+author: Maurizio Bertera
+categories:
+- Motori
+published: 2024-03-26 09:05:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/motori/news/anteprime/24_marzo_21/furgoncino-hippie-diventa-sportivo-ecco-idbuzz-gtx-340-cavalli-5dc1285a-e76d-11ee-a95a-09971739e78f.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

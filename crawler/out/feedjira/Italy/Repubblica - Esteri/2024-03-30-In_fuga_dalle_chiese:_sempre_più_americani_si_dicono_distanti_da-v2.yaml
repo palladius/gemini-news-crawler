@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/30/news/stati_uniti_religione_fuga-422400119/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'In fuga dalle chiese: sempre più americani si dicono distanti dalla religione
+  organizzata'
+url: https://www.repubblica.it/esteri/2024/03/30/news/stati_uniti_religione_fuga-422400119/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-30 10:12:41.000000000 Z
+enclosure_length: '32063'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/30/111240446-6e230b2d-b7b3-4cfd-8d04-2b15c4679bf9.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/30/news/stati_uniti_religione_fuga-422400119/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/30/111240446-6e230b2d-b7b3-4cfd-8d04-2b15c4679bf9.jpg"
+  width="140" align="left" hspace="10"></a>Aumenta del 15% il numero di cittadini
+  che si dichiara non affiliato a una particolare religione, il calo tra i cattolici
+  bianchi è del 6%</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/30/news/stati_uniti_religione_fuga-422400119/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

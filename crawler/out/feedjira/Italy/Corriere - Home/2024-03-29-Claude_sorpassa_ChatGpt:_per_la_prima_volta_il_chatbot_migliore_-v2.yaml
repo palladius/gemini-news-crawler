@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/tecnologia/24_marzo_29/claude-3-sorpassa-gpt-4-per-la-prima-volta-il-chatbot-migliore-al-mondo-non-e-una-creatura-di-open-ai-754332ea-adf8-4bbb-97db-872e83d46xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Claude sorpassa ChatGpt: per la prima volta il chatbot migliore non è quello
+  di Open AI'
+url: https://www.corriere.it/tecnologia/24_marzo_29/claude-3-sorpassa-gpt-4-per-la-prima-volta-il-chatbot-migliore-al-mondo-non-e-una-creatura-di-open-ai-754332ea-adf8-4bbb-97db-872e83d46xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/29/Tecnologia/Foto%20Tecnologia%20-%20Trattate/6606bb5e3fd6f.r_d.512-512-0_ori_crop_MASTER__0x0.jpeg"
+  title="Claude sorpassa ChatGpt: per la prima volta il chatbot migliore non è quello
+  di Open AI" alt="Claude sorpassa ChatGpt: per la prima volta il chatbot migliore
+  non è quello di Open AI" /><p>La classifica stilata da Chatbot Arena, una piattaforma
+  creata dalle università americane per monitorare i risultati delle AI generative
+  La classifica stilata da Chatbot Arena, una piattaforma creata dalle università
+  americane per monitorare i risultati delle AI generative La classifica stilata da
+  Chatbot Arena, una piattaforma creata dalle università americane per monitorare
+  i risultati delle AI generative </p>'
+author: Redazione LogIn
+categories:
+- Tecnologia
+published: 2024-03-29 13:46:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/tecnologia/24_marzo_29/claude-3-sorpassa-gpt-4-per-la-prima-volta-il-chatbot-migliore-al-mondo-non-e-una-creatura-di-open-ai-754332ea-adf8-4bbb-97db-872e83d46xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

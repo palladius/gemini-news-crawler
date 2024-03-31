@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/cook/news/cards/carne-grigliata-quantita-tagli-migliori-consigli-star-chef-s-table-dario-cecchini/quantita-carne-giusta-una-grigliata_principale.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Carne per grigliata: dalla quantità ai tagli migliori, i consigli della star
+  tv Dario Cecchini'
+url: https://www.corriere.it/cook/news/cards/carne-grigliata-quantita-tagli-migliori-consigli-star-chef-s-table-dario-cecchini/quantita-carne-giusta-una-grigliata_principale.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2020/08/12/Cucina/Foto%20Cucina%20-%20Trattate/dario%20cecchini-cf-cropped-46-0-706-533-k5xD--656x492@Corriere-Web-Sezioni.jpg"
+  title="Carne per grigliata: dalla quantità ai tagli migliori, i consigli della star
+  tv Dario Cecchini" alt="Carne per grigliata: dalla quantità ai tagli migliori, i
+  consigli della star tv Dario Cecchini" /><p>Di manzo o di maiale? E poi, quale taglio?
+  Una buona grigliata non si improvvisa. Se volete essere certi del risultato, chiedete
+  al macellaio di fiducia. Qui i consigli del butcher Dario Cecchini per arrivare
+  al banco delle carni con un’idea precisa</p>'
+author: Redazione Cook
+categories:
+- Corriere
+published: 2024-03-30 19:35:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/cook/news/cards/carne-grigliata-quantita-tagli-migliori-consigli-star-chef-s-table-dario-cecchini/quantita-carne-giusta-una-grigliata_principale.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

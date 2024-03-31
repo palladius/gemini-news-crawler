@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/politica/2024/03/30/dai-manganelli-a-salis-quando-il-colle-alza-la-voce_0b0824ec-031f-4ccc-804a-a5d0220ea256.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Dai manganelli a Salis, quando il Colle alza la voce
+url: https://www.ansa.it/sito/notizie/politica/2024/03/30/dai-manganelli-a-salis-quando-il-colle-alza-la-voce_0b0824ec-031f-4ccc-804a-a5d0220ea256.html
+summary: Nell'ultimo mese sempre di più gli interventi di Mattarella
+published: 2024-03-31 08:01:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/politica/2024/03/30/dai-manganelli-a-salis-quando-il-colle-alza-la-voce_0b0824ec-031f-4ccc-804a-a5d0220ea256.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

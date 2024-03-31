@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401396
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Zelensky cambia la squadra, salgono gli uomini di Budanov: verso una guerra
+  di blitz contro la Russia'
+url: https://www.repubblica.it/esteri/2024/03/31/news/zelensky_ucraina_ritirata_armi_aiuti_usa_russia_putin-422401396/
+summary: 'Il leader ucraino al Washington Post: “Arretrare e accorciare la prima linea
+  è meglio che permettere ai russi di romperla e minacciare le grandi città”. Salgono
+  gli uomini di Budanov, esperti in campagne aggressive contro Mosca'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Esteri
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401396
+updated: 2024-03-31 00:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

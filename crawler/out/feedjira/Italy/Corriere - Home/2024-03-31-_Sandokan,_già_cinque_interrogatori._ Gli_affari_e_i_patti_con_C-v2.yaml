@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/cronache/24_marzo_30/sandokan-gia-cinque-interrogatori-affari-patti-cosa-nostra-5da066fc-eed3-11ee-990f-f81d5ab8cdcb.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " Sandokan, già cinque interrogatori.  Gli affari e i patti con Cosa Nostra"
+url: https://www.corriere.it/cronache/24_marzo_30/sandokan-gia-cinque-interrogatori-affari-patti-cosa-nostra-5da066fc-eed3-11ee-990f-f81d5ab8cdcb.shtml
+summary: <p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Interni/Foto%20Interni%20-%20Trattate/22030070-k0pH-U34701109821471eiD-656x492@Corriere-Web-Sezioni.jpg"
+  title=" Sandokan, già cinque interrogatori.  Gli affari e i patti con Cosa Nostra"
+  alt=" Sandokan, già cinque interrogatori.  Gli affari e i patti con Cosa Nostra"
+  /><p> Che cosa sa Schiavone sul traffico di rifiuti, il riciclaggio milionario a
+  Tenerife, l’appoggio a Riina negli anni degli attentati. Con i pm in calendario
+  due incontri a settimana</p>
+author: Fulvio Bufi
+categories:
+- Cronache
+published: 2024-03-31 07:39:32.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/cronache/24_marzo_30/sandokan-gia-cinque-interrogatori-affari-patti-cosa-nostra-5da066fc-eed3-11ee-990f-f81d5ab8cdcb.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

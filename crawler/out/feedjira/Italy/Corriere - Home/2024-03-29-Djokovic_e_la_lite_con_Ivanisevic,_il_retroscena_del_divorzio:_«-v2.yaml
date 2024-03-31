@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/sport/tennis/24_marzo_29/djokovic-lite-ivanisevic-divorzio-retroscena-e4d97336-ede6-11ee-8deb-6faf828a47a7.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Djokovic e la lite con Ivanisevic, il retroscena del divorzio: «Vi caccio
+  tutti»'
+url: https://www.corriere.it/sport/tennis/24_marzo_29/djokovic-lite-ivanisevic-divorzio-retroscena-e4d97336-ede6-11ee-8deb-6faf828a47a7.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/29/Sport/Foto%20Sport%20-%20Trattate/WhatsApp-Image-2024-03-29-at-18.07.33-kn7B-U34701075640637UWG-656x492@Corriere-Web-Sezioni.jpg"
+  title="Djokovic e la lite con Ivanisevic, il retroscena del divorzio: «Vi caccio
+  tutti»" alt="Djokovic e la lite con Ivanisevic, il retroscena del divorzio: «Vi
+  caccio tutti»" /><p>Novak Djokovic si è separato dal suo coach Goran Ivanisevic
+  ma tra lui e il suo team non c''era un clima sereno da mesi: dallo sfogo in Australia
+  alla sconfitta in semifinale con Sinner fino alla lite definitiva a Indian Wells
+  </p>'
+author: Guendalina Galdi
+categories:
+- Sport
+published: 2024-03-29 22:31:33.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/sport/tennis/24_marzo_29/djokovic-lite-ivanisevic-divorzio-retroscena-e4d97336-ede6-11ee-8deb-6faf828a47a7.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401555
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "“Con l’Alzheimer e l’invalidità al 70% non abbiamo diritto a nessun aiuto”"
+url: https://www.repubblica.it/economia/2024/03/31/news/mirella_pedini_storia_con_lalzheimer_e_linvalidita_al_70_non_abbiamo_diritto_a_nessun_aiuto-422401555/
+summary: "Mirella Pedini, pensionata, ha 63 anni. Assiste il marito malato precoce
+  di Alzheimer. Vivono ad Abbiategrasso, in provincia \n     di Milano"
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Economia
+published: 2024-03-31 00:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401555
+updated: 2024-03-31 00:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

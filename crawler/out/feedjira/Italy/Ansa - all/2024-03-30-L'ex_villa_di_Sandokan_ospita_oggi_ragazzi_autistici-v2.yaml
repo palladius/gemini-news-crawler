@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - all (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/cronaca/2024/03/30/lex-villa-di-sandokan-ospita-oggi-ragazzi-autistici_8b26ce26-e65b-4af5-bb7b-df05a0d1cd3e.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: L'ex villa di Sandokan ospita oggi ragazzi autistici
+url: https://www.ansa.it/sito/notizie/cronaca/2024/03/30/lex-villa-di-sandokan-ospita-oggi-ragazzi-autistici_8b26ce26-e65b-4af5-bb7b-df05a0d1cd3e.html
+summary: Nell'immobile confiscato le attività di due coop sociali
+published: 2024-03-30 17:02:34.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/cronaca/2024/03/30/lex-villa-di-sandokan-ospita-oggi-ragazzi-autistici_8b26ce26-e65b-4af5-bb7b-df05a0d1cd3e.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - all
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
