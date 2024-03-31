@@ -97,7 +97,23 @@ steps:
 
 
 - name: 'gcr.io/cloud-builders/gcloud'
-  id: Push to Cloud run from POOR Env with DB stuff..
+  id: Push DEV to Cloud run from POOR Env with DB stuff..
+  entrypoint: bash
+  args:
+  - bin/cb-push-to-cloudrun-dev.sh
+  dir: webapp
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+  - 'DATABASE_HOST=$_DATABASE_HOST'
+  - 'DATABASE_NAME=$_DATABASE_NAME'
+  - 'DATABASE_USER=$_DATABASE_USER'
+  - 'DATABASE_PASS=$_DATABASE_PASS'
+  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: Push PROD to Cloud run from POOR Env with DB stuff..
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun.sh
@@ -109,6 +125,7 @@ steps:
   - 'DATABASE_NAME=$_DATABASE_NAME'
   - 'DATABASE_USER=$_DATABASE_USER'
   - 'DATABASE_PASS=$_DATABASE_PASS'
-#  - 'GCLOUD_REGION=$GCLOUD_REGION'
-#  - 'REGION=$REGION'
+  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+
 
