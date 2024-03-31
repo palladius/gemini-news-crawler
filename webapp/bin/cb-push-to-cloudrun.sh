@@ -21,7 +21,7 @@ if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
   echo Looks like youre on Cloud Run mounting an envrc directly form SM. You could be protecteder. # :)
   . /secretenvrc/gemini-news-crawler-envrc
 else
-  echo Riccardo NOT Secret
+  echo Riccardo NOT Secret in /secretenvrc/gemini-news-crawler-envrc
 fi
 
 set -euo pipefail
@@ -69,6 +69,8 @@ echo "UPLOADED_IMAGE_WITH_VER: $UPLOADED_IMAGE_WITH_VER"
 # echo "DATABASE_HOST:  $DATABASE_HOST"
 # echo "DATABASE_HOST:  $DATABASE_HOST"
 # echo "DATABASE_NAME:  $DATABASE_NAME"
+echo "DATABASE_URL_DEV: $DATABASE_URL_DEV"
+echo "DATABASE_URL_PROD: $DATABASE_URL_PROD"
 echo "---- /DEBUG ----"
 
 set -x

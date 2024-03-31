@@ -16,6 +16,10 @@ class Category < ApplicationRecord
       self.name
     end
 
+    def fancy_name
+      name.gsub(' ', '_')
+    end
+
     def emoji
       Category.emoji
     end

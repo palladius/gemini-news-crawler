@@ -7,6 +7,16 @@ ruby "3.2.2"
 # Riccardo start
 gem "sqlite3", "~> 1.4" # just for test
 gem 'feedjira'
+# Tanto non va..
+# group :development, :test do
+#   gem 'guard-livereload', '~> 2.5', require: false
+# end
+# group :development do
+#   gem 'listen'
+#   gem 'guard'
+#   gem 'guard-zeus'
+#   gem 'rack-livereload'
+#  end
 # brew install postgresql@15
 # /Riccardo end
 ################################

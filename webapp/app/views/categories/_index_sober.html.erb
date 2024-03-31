@@ -1,0 +1,31 @@
+<div class="w-full">
+  <% if notice.present? %>
+    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+  <% end %>
+
+  <div class="flex justify-between items-center">
+    <h1 class="font-bold text-4xl"><%= @categories.count %> Categories</h1>
+    <%= link_to "New category", new_category_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
+  </div>
+
+  <div id="categories" class="min-w-full">
+    <%#= render @categories %>
+    <%#= render partial: "category_sober", collection: @categories %>
+    <div class="flex flex-wrap flex-shrink">
+      <% @categories.each do |category| %>
+        <%#= render "category_sober", category: category %>
+
+        <div class="flex rounded-full px-4 py-2 items-center bg-gray-200/50 border border-purple-500">
+          <span class="mr-2"> <%= category.emoji %></span>
+          <span class="text-sm font-medium font-mono">#<%= link_to category.fancy_name,category %></span>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
