@@ -1,7 +1,9 @@
 <h1 class="font-bold text-4xl" ><%= Article.emoji %><%= article.title %></h1>
 
-<div class="rounded-md p-4 mb-4 decoration-zinc-300 underline text-red-500	decoration-2 indent-1.5	">
-  <p>TODO(ricc): add tagged categories 2</p>
+<div class="rounded-md p-4 mb-4 decoration-zinc-300 underline decoration-2 indent-1.5	">
+  <% @categories.each do |cat| %>
+    <%= render_fancy_category(cat) %>
+  <% end %>
 </div>
 
 <div id="<%= dom_id article %>">
