@@ -5,4 +5,10 @@ if [ "${1}" == "./bin/rails" ] && [ "${2}" == "server" ]; then
   ./bin/rails db:prepare
 fi
 
+echo "============================================================"
+echo Siamo su $0
+echo Ciao da Riccardo. Speriamo la porta sia 8080 se no siamo fregati.
+echo Sto per fare una exec di: "${@}"
+echo "============================================================"
+
 exec "${@}"

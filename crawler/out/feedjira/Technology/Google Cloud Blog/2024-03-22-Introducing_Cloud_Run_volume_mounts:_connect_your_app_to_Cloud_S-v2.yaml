@@ -25,7 +25,7 @@ summary: "<div class=\"block-paragraph\"><p data-block-key=\"vdaxa\">We’ve bui
   &#x27;gcloud beta run services update [SERVICE_NAME] \\\\\\r\\n--execution-environment
   gen2 \\\\ \\r\\n--add-volume=name=v_mount,type=cloud-storage,bucket=[YOUR_BUCKET_NAME]
   \ \\\\\\r\\n--add-volume-mount=volume=v_mount,mount-path=[MOUNT_PATH]&#x27;), (&#x27;language&#x27;,
-  &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText object at 0x3ecdc41c60a0&gt;)])]&gt;</dd>\n</dl></div>\n<div
+  &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText object at 0x3ee934a8e370&gt;)])]&gt;</dd>\n</dl></div>\n<div
   class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Volume
   mounts come in handy in a number of situations. </span></p>\n<h3 role=\"presentation\"><strong
   style=\"vertical-align: baseline;\">1. Store app configuration</strong></h3>\n<p><span
@@ -128,7 +128,7 @@ summary: "<div class=\"block-paragraph\"><p data-block-key=\"vdaxa\">We’ve bui
   --image nginx [SERVICE_NAME] \\\\\\r\\n--execution-environment gen2 --port 80 \\\\\\r\\n--add-volume=name=html-volume,type=cloud-storage,bucket=[YOUR_BUCKET_NAME],readonly=true
   \\\\\\r\\n--add-volume-mount=volume=html-volume,mount-path=&#x27;/usr/share/nginx/html&#x27;&quot;),
   (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText
-  object at 0x3ecdc41c65b0&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><p><span
+  object at 0x3ee934a8e850&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><p><span
   style=\"vertical-align: baseline;\">As a last step, be sure to set up content caching,
   either through </span><a href=\"https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/\"
   rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
@@ -152,7 +152,7 @@ summary: "<div class=\"block-paragraph\"><p data-block-key=\"vdaxa\">We’ve bui
   deploy [SERVICE_NAME] --source \\\\\\r\\n--execution-environment gen2 \\\\\\r\\n--add-volume=name=[VOLUME_NAME],type=cloud-storage,bucket=[BUCKET_NAME]
   \\\\ \\r\\n--add-volume-mount=volume=[VOLUME_NAME],mount-path=[MOUNT_PATH]&#x27;),
   (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText
-  object at 0x3ecdc41c6820&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><p><span
+  object at 0x3ee934a8e5b0&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><p><span
   style=\"vertical-align: baseline;\">Similarly, you can mount any NFS file share
   as a volume in Cloud Run. If you don’t already have an NFS server, we recommend
   using Cloud Filestore, Google Cloud’s fully managed NFS offering. </span></p>\n<p><span

@@ -63,7 +63,7 @@ summary: "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-alig
   \           | &quot;Enrichment&quot; &gt;&gt; Enrichment(bigtable_handler)\\r\\n
   \           | &quot;Run Inference&quot; &gt;&gt; RunInference(model_handler)\\r\\n
   \           )&#x27;), (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;,
-  &lt;wagtail.rich_text.RichText object at 0x3ecdc1082190&gt;)])]&gt;</dd>\n</dl></div>\n<div
+  &lt;wagtail.rich_text.RichText object at 0x3ee9340d33d0&gt;)])]&gt;</dd>\n</dl></div>\n<div
   class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">The
   above code runs a Dataflow job that reads from a Pub/Sub subscription and performs
   data enrichment by doing a key-value lookup with Bigtable cluster. The enriched
