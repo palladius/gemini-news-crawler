@@ -52,3 +52,8 @@ test-cat-article-association:
 
 cloud-deploy-setup:
 	gcloud deploy apply --file=clouddeploy.yaml --region=europe-west1 --project=palladius-genai
+
+# https://discuss.rubyonrails.org/t/rails-master-key-and-per-environment-init/82615
+# My MASTER)_KEY is in ENV now.
+credentials-edit:
+	bin/rails credentials:edit -e production
