@@ -30,7 +30,7 @@ set -euo pipefail
 # ENV set
 ################################################
 export GCLOUD_REGION="${GCLOUD_REGION:-europe-west1}"
-export APP_NAME='puffintours'
+export APP_NAME='gemini-news-crawler'
 export GIT_STATE="$(git rev-list -1 HEAD --abbrev-commit)"
 export GIT_COMMIT_SHA="$(git rev-parse HEAD)" # big commit
 export GIT_SHORT_SHA="${GIT_COMMIT_SHA:0:7}" # first 7 chars: Riccardo reproducing what CB does for me.
@@ -58,40 +58,17 @@ if [ latest = "${1:-sthElse}" ]; then
 fi
 
 echo "---- DEBUG  ----"
-echo "DEPLOY_VERSION:   $DEPLOY_VERSION"
-echo "APP_VERSION:   $APP_VERSION"
-echo "GIT_SHORT_SHA: $GIT_SHORT_SHA"
-echo "UPLOADED_IMAGE_WITH_SHA: $UPLOADED_IMAGE_WITH_SHA"
-echo "DATABASE_HOST: $DATABASE_HOST"
-echo "DATABASE_NAME: $DATABASE_NAME"
+echo "DEPLOY_VERSION: $DEPLOY_VERSION"
+echo "APP_VERSION:    $APP_VERSION"
+echo "GIT_SHORT_SHA:  $GIT_SHORT_SHA"
+echo "UPL_IMG_W/_SHA: $UPLOADED_IMAGE_WITH_SHA"
+# echo "DATABASE_HOST:  $DATABASE_HOST"
+# echo "DATABASE_HOST:  $DATABASE_HOST"
+# echo "DATABASE_NAME:  $DATABASE_NAME"
 echo "---- /DEBUG ----"
-
-# TODO(ricc): As a future iteration, tag and push the v0.1.2 too and use that for CRun
-#docker tag "$TAGGED_IMAGE" "$TAGGED_IMAGE:v`./version.sh`"
-
-# copy locally. Changing name for localhost testing :)
-#gsutil cp "gs://${PROJECT_ID}-state/.env.gcs" .envrc.from-gcs
-
-# source = now I have all info here even without direnv :)
-# This exposes REGION, APP_ENV, APP_VERSION, REGION, GIT_STATE
-#source .envrc.from-gcs
 
 set -x
 
-#################################################################
-# TODO(ricc): remove the clutter when this is proven to work.
-#################################################################
-# Note from Marc: this is not needed since its baked into CB
-# --set-env-vars="APP_VERSION=$APP_VERSION" \
-# Not used anymore
-#--set-env-vars="APPLICATION_DEFAULT_CREDENTIALS=/sa.json" \
-#  --update-secrets=PUFFINTOURS_OAUTH_CLIENT_SECRET_JSON_FILE_CONTENT=PUFFINTOURS_OAUTH_CLIENT_SECRET_JSON_FILE_CONTENT:latest \
-#################################################################
-
-# Ho creato questo: (vedi https://console.cloud.google.com/run/detail/europe-west6/${APP_NAME}-poor-cb/yaml/view?hl=IT&project=ror-goldie )
-# limits:
-#             cpu: 2000m
-#             memory: 2Gi
 
 # Change AppName if deployed from Carlessian computer
 if hostname | egrep 'ricc-macbookpro|derek' ; then

@@ -25,6 +25,7 @@ substitutions:
   _REGION: europe-west1 # for Cloud Build.
   _GCLOUD_REGION: europe-west1
   _PROJECT_ID: palladius-genai
+  _APP_NAME: gemini-news-crawler
   _SKAFFOLD_DEFAULT_REPO: 'europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler'
   # _MESSAGGIO_OCCASIONALE: on cloud build!
 images:
