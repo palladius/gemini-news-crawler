@@ -94,7 +94,6 @@ production:
 # production:
   url: <%= ENV['DATABASE_URL_PROD'] %>
 
-
 test:
   adapter: sqlite3
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>

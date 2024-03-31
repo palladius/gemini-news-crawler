@@ -83,10 +83,10 @@ fi
 echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnager 2. make the SA able to access SM and 3. call it properly.'
 
 #########
-# PROD
-# che non puo andare perche le var sono di dev
-#  url: <%= ENV['DATABASE_URL_PROD'] %>
-##########
+# DEV
+# Uses: DATABASE_URL_DEV
+# TODO when it works delete DATABASE_blah
+#########
 
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
     beta run deploy "${APP_NAME}-dev" \
@@ -104,15 +104,15 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="RAILS_SERVE_STATIC_FILES=true" \
       --set-env-vars="MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
-      --set-env-vars="DATABASE_URL_PROD=$DATABASE_URL_PROD" \
+      --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
+      --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
+      --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
+      --set-env-vars="DATABASE_USER=$DATABASE_USER" \
+      --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
       --set-env-vars="BUCKET=$BUCKET" \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
 
-      # --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
-      # --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
-      # --set-env-vars="DATABASE_USER=$DATABASE_USER" \
-      # --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
 
 #      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
 #      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
