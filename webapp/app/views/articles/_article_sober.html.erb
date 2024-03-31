@@ -1,8 +1,10 @@
-<p class="article" >
+<p class="" >
     <% if article.link.to_s.length > 0 %>
         <%= link_to '🌏', article.link %>
     <% end %>
-    [<%= article.newspaper %>]
+    <span class="text-xs font-mono hover:font-serif text-xs font-extralight" >
+        [<%= render_article_newspapaer article %>]
+    </span>
 
     <%= link_to article.yyyymmdd, article %>
     <b><%= link_to article.title, article %></b>

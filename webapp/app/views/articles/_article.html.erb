@@ -1,36 +1,40 @@
 <h1 class="font-bold text-4xl" ><%= Article.emoji %><%= article.title %></h1>
 
 <div class="rounded-md p-4 mb-4 decoration-zinc-300 underline decoration-2 indent-1.5	">
+
   <% @categories.each do |cat| %>
     <%= render_fancy_category(cat) %>
   <% end %>
 </div>
 
 <div id="<%= dom_id article %>">
-  <!--
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Title:</strong>
-    <%= article.title %>
-  </p>
-  -->
 
   <p class="my-5">
-    <strong class="block font-medium mb-1">Summary:</strong>     <%= article.summary %>
+    <strong class="font-medium mb-1">🕸️ Guid:</strong> <%= link_to article.guid,article.guid %>
   </p>
 
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Content:</strong>
-    <%= article.content %>
+  <p class="my-5">(
+    By <strong class="font-medium mb-1"><%= article.author %></strong>,
+    on <%= article.published_date %>)
   </p>
 
   <p class="my-5">
-    <strong class="block font-medium mb-1">Author:</strong>
-    <%= article.author %>
+    <strong class="font-medium mb-1">Summary:</strong>
+    <%= article.summary %>
   </p>
 
+
+
+  <% if article.image_url %>
+    <%= image_tag article.image_url %>
+  <% end %>
+
+  <hr/>
+
+
+
   <p class="my-5">
-    <strong class="block font-medium mb-1">Link:</strong>
-    <%= article.link %>
+    <strong class="font-medium mb-1">Link:</strong>    <%= article.link %>
   </p>
 
   <p class="my-5">
@@ -48,10 +52,7 @@
     <%= article.feed_url %>
   </p>
 
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Guid:</strong>
-    <%= article.guid %>
-  </p>
+
 
   <p class="my-5">
     <strong class="block font-medium mb-1">Hidden blurb:</strong>

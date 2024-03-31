@@ -93,3 +93,10 @@ production:
   # password: <%= ENV["WEBAPP_DATABASE_PASSWORD"] %>
 # production:
   url: <%= ENV['DATABASE_URL_PROD'] %>
+
+
+test:
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
+  timeout: 3000
+  database: storage/test.sqlite3
