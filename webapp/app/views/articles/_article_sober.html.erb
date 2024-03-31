@@ -2,6 +2,7 @@
     <% if article.link.to_s.length > 0 %>
         <%= link_to '🌏', article.link %>
     <% end %>
+    [<%= article.newspaper %>]
 
     <%= link_to article.yyyymmdd, article %>
     <b><%= link_to article.title, article %></b>

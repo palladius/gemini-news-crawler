@@ -56,7 +56,7 @@ class Article < ApplicationRecord
     def set_defaults
       puts("Article::set_defaults (before_save). My id=#{self.id}")
       self.active ||= true
-      self.author ||= 'Cielcio Conti'
+#      self.author ||= 'Cielcio Conti'
     end
 
     def set_defaults_after

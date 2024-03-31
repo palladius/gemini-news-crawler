@@ -17,19 +17,20 @@ run-prod:
 	RAILS_ENV=production rails s
 
 
-regenerate:
+regenerate-DANGEROUS-DO-NOT-DO-IT:
 # summary = description
 	echo TODO ricc make it recreate it if you forget something..
-	rails generate scaffold Article \
-		title:string summary:text content:text \
-		author:string \
-		link:string published_date:datetime \
-		image_url:string feed_url:string guid:string \
-		hidden_blurb:text \
-		language:string \
-		active:boolean \
-		ricc_internal_notes:text ricc_source:string \
-		 --force
+	echo Article has now a 4th migration so i wouldnt suggest to redo it.
+	# rails generate scaffold Article \
+	# 	title:string summary:text content:text \
+	# 	author:string \
+	# 	link:string published_date:datetime \
+	# 	image_url:string feed_url:string guid:string \
+	# 	hidden_blurb:text \
+	# 	language:string \
+	# 	active:boolean \
+	# 	ricc_internal_notes:text ricc_source:string \
+	# 	 --force
 
 	rails generate scaffold category name:string ricc_internal_notes:text --force
 
