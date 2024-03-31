@@ -10,11 +10,11 @@ export DEPLOY_VERSION='1.0.2b'
 #direnv allow "$(git rev-parse --show-toplevel)"
 # if it fails no probs... yet
 
-if [ -f .env.sh ] ; then
-  echo Looks like youre local
-  . .env.sh
+if [ -f .envrc ] ; then
+  echo Looks like youre local since I see your envrc.
+  . .envrc
 else
-  echo Riccardo NOT LOCAL
+  echo 'Riccardo NOT LOCAL probably in the Cloud'
 fi
 
 if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
@@ -53,8 +53,11 @@ UPLOADED_IMAGE_WITH_SHA="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAM
 
 # $1 can be unbound
 if [ latest = "${1:-sthElse}" ]; then
-  echo Overriding the version to LATEST:
+  echo '🗞️ Overriding both SHA/VER to LATEST (or whatever DOLL1 says) since you gave me DOLL1:'
   export UPLOADED_IMAGE_WITH_SHA="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:latest"
+  export UPLOADED_IMAGE_WITH_VER="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:latest"
+else
+  echo You didnt give me any DOLL_1.. continuing
 fi
 
 echo "---- DEBUG  ----"
@@ -62,6 +65,7 @@ echo "DEPLOY_VERSION: $DEPLOY_VERSION"
 echo "APP_VERSION:    $APP_VERSION"
 echo "GIT_SHORT_SHA:  $GIT_SHORT_SHA"
 echo "UPL_IMG_W/_SHA: $UPLOADED_IMAGE_WITH_SHA"
+echo "UPLOADED_IMAGE_WITH_VER: $UPLOADED_IMAGE_WITH_VER"
 # echo "DATABASE_HOST:  $DATABASE_HOST"
 # echo "DATABASE_HOST:  $DATABASE_HOST"
 # echo "DATABASE_NAME:  $DATABASE_NAME"
