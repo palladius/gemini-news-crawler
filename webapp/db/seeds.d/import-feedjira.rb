@@ -49,7 +49,8 @@ end
 
 Dir[File.join(File.dirname(__FILE__), FeedJiraSubdir, '**', '*.yaml')].each_with_index do |file, ix|
   next if ix  > MaxArticlesToParse
-  puts("💾 File ##{ix}: #{ file}")
+  #puts("💾 File ##{ix}: #{ file}")
+  print('💾')
   obj = YAML.load(
     File.read(file),
     aliases: true,
