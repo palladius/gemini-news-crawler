@@ -1,0 +1,118 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#February_21_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#February_21_2024
+content: "<strong class=\"release-note-product-title\">Chronicle</strong>\n<h3>Fixed</h3>\n<p>Fixed
+  an issue that prevents you from using the <a href=\"https://cloud.google.com/looker/docs/reference/param-measure-types#list\">list</a>,
+  <a href=\"https://cloud.google.com/looker/docs/reference/param-measure-types#percentile\">percentile</a>,
+  and <a href=\"https://cloud.google.com/looker/docs/reference/param-measure-types#percentile_distinct\">percentile_distinct</a>
+  functions when you create a custom measure in your dashboard.</p>\n<strong class=\"release-note-product-title\">Chronicle
+  SOAR</strong>\n<h3>Announcement</h3>\n<p>Remote Agents Release 1.4.9 is currently
+  in Preview.</p>\n<h3>Changed</h3>\n<p>The Docker image to pull for this release
+  is 1.4.9.2</p>\n<h3>Fixed</h3>\n<p>Upgrade agents from 1.3.8 on RHEL not working
+  as expected (ID #00243884)</p>\n<h3>Fixed</h3>\n<p>Publisher memory usage issue
+  (ID #00273756)</p>\n<strong class=\"release-note-product-title\">Compute Engine</strong>\n<h3>Feature</h3>\n<p><strong>Preview</strong>:
+  With managed workload identities for Compute Engine, you can implement mutually
+  authenticated and encrypted communications between any two Compute Engine VMs. Workload
+  applications running on the configured VMs can use the X.509 credentials for per-VM
+  mTLS. These mTLS certificates are automatically rotated and managed for you by Certificate
+  Authority Service.</p>\n\n<p>For more information, see <a href=\"https://cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls\">Authenticate
+  workloads to other workloads over mTLS</a>.</p>\n<strong class=\"release-note-product-title\">Contact
+  Center AI Platform</strong>\n<h3>Announcement</h3>\n<p><strong>Version 3.11 is released</strong></p>\n\n<p>All
+  release notes published on this date are part of version 3.11.</p>\n<h3>Feature</h3>\n<p><strong>Cold
+  chat transfer</strong></p>\n\n<p>Agents can do a &quot;cold transfer&quot; for a
+  chat. With a cold chat transfer, the agent assigns a chat session to a new agent
+  or a queue, and then immediately leaves the chat without waiting for the new agent
+  to join. This helps agents efficiently transfer chats without being bound to them.
+  For more information, see <a href=\"https://cloud.google.com/contact-center/ccai-platform/docs/Transfer_for_Chat\">Transfer
+  a Chat</a>.</p>\n<h3>Feature</h3>\n<p><strong>Support for partial response in Dialogflow</strong></p>\n\n<p>CCAI
+  Platform supports the partial response option in Dialogflow. This is particularly
+  useful when the virtual agent needs to call a webhook that will likely take a while
+  to run. With partial response enabled, Dialogflow can immediately send an initial
+  fulfillment message to the end-user, such as, &quot;One moment while I look that
+  up.&quot; This way, while the webhook runs and the final fulfillment message is
+  generated, the end-user expects a short wait instead of assuming that there is a
+  problem. For information about configuring this capability in Dialogflow,  see <a
+  href=\"https://cloud.google.com/dialogflow/cx/docs/concept/fulfillment#partial-response\">Partial
+  response for streaming API</a>.</p>\n<h3>Feature</h3>\n<p>Added new response fields
+  for indicating agent availability to the <code>manager/api/v1/agents/current_status</code>
+  and <code>apps/api/v1/wait_times</code> APIs. These indicate the number of assigned
+  agents, logged-in agents, available agents, and breakthrough agents.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  an issue that prevented copying an IVR menu structure.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  an issue where the automatic redirect to a PSTN number used a direct PSTN dial instead
+  of the configured BYOC SIP dial settings.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue
+  where the account ID in search results did not refresh after removing search input.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  an issue preventing the editing of user permissions for Microsoft Teams users.</p>\n<h3>Fixed</h3>\n<p>Updated
+  virtual task assistants to support an unlimited number of data parameters.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  an issue where the Contact Name displayed &#39;Chat User&#39; instead of the end-user&#39;s
+  name.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue where the <strong>Agent</strong> and
+  <strong>Supervisor</strong> filters on the <strong>Agents</strong> page displayed
+  as <strong>All undefined</strong>.</p>\n<h3>Fixed</h3>\n<p>Fixed an issue where
+  the file name was not visible when the user held the pointer over the compose-email
+  pane.</p>\n<h3>Fixed</h3>\n<p>Fixed the error message that displays when an administrator
+  disables an email queue with an invalid IMAP connection.</p>\n<h3>Fixed</h3>\n<p>Fixed
+  an issue where holiday-hours messages didn&#39;t play when the support center or
+  queues were outside of their hours of operation.</p>\n<strong class=\"release-note-product-title\">Dataflow</strong>\n<h3>Feature</h3>\n<p>You
+  can now use Gemma models in your Apache Beam inference pipelines. For more information,
+  see <a href=\"https://cloud.google.com/dataflow/docs/machine-learning/gemma\">Use
+  Gemma open models with Dataflow</a>.</p>\n<strong class=\"release-note-product-title\">Dataform</strong>\n<h3>Feature</h3>\n<p><a
+  href=\"https://cloud.google.com/dataform/docs/vpc-service-controls\">Support for
+  VPC Service Controls</a> is generally available (<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>).</p>\n<strong
+  class=\"release-note-product-title\">Google Kubernetes Engine</strong>\n<h3>Feature</h3>\n<p>The
+  <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/stateful-ha\">GKE
+  Stateful HA Operator</a> is now available in GA starting in GKE versions 1.28.5-gke.1113000
+  and later, or 1.29.0-gke.1272000 and later.  The GKE Stateful HA Operator is enabled
+  in new Autopilot clusters and opt-in for new Standard clusters.</p>\n<strong class=\"release-note-product-title\">Immersive
+  Stream for XR</strong>\n<h3>Changed</h3>\n<p>Upgrade to Unreal Engine 5.3.</p>\n\n<ul>\n<li>Cloud
+  builder in ISXR Content now uses Unreal Engine version 5.3.2.</li>\n<li>Only the
+  latest version of the <a href=\"https://github.com/GoogleCloudPlatform/immersive-stream-for-xr-templates\">Template
+  Project</a> (3.0.0) is compatible with the latest builder in the Content.</li>\n</ul>\n<h3>Changed</h3>\n<p>Optimized
+  the <a href=\"https://github.com/GoogleCloudPlatform/immersive-stream-for-xr-templates\">Unreal
+  Template Project</a>.</p>\n\n<ul>\n<li>Simplified logic in blueprints.</li>\n<li>Easier
+  to use events for mode switching.</li>\n<li>New demos for Session ID and AR Virtual
+  Background.</li>\n<li>Now you can integrate files from the template directly into
+  your existing Unreal projects to work on Immersive Stream for XR in both 3D and
+  AR modes.</li>\n</ul>\n<strong class=\"release-note-product-title\">Spanner</strong>\n<h3>Feature</h3>\n<p><a
+  href=\"https://opentelemetry.io/blog/2023/sunsetting-opencensus/\">The OpenCensus
+  libraries are archived</a>. Spanner now supports OpenTelemetry, and we recommend
+  all OpenCensus users to migrate to OpenTelemetry for your observability needs. For
+  more information, see <a href=\"https://cloud.google.com/spanner/docs/capture-visualize-latency\">Examine
+  latency in a Spanner component with OpenTelemetry</a>.</p>\n<strong class=\"release-note-product-title\">VPC
+  Service Controls</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/products#product-launch-stages\">General
+  availability</a> support for the following integration:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/dataform/docs/vpc-service-controls\">Dataform</a></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Vertex AI</strong>\n<h3>Feature</h3>\n<p><strong>Gemma
+  open models are available</strong></p>\n\n<p>Gemma models, a family of lightweight,
+  open models built from the same research and technology used to create the Gemini
+  models, are available to run on your hardware, mobile devices, or hosted services.
+  To learn more, see <a href=\"https://cloud.google.com/vertex-ai/docs/generative-ai/open-models/use-gemma\">Use
+  Gemma open models</a> and the <a href=\"https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335\">Gemma
+  Model Garden card</a>.</p>\n<strong class=\"release-note-product-title\">reCAPTCHA
+  Enterprise</strong>\n<h3>Changed</h3>\n<p>reCAPTCHA Enterprise Mobile SDK v18.4.2
+  is now available for iOS.</p>\n\n<p>This version contains fixes for the following
+  stability issues:</p>\n\n<ul>\n<li><a href=\"https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk/issues/88\">Issue
+  1</a></li>\n<li><a href=\"https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk/issues/89\">Issue
+  2</a></li>\n<li><a href=\"https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk/issues/90\">Issue
+  3</a></li>\n</ul>\n<h3>Changed</h3>\n<p>reCAPTCHA Enterprise Mobile SDK v18.5.0-beta01
+  is now available for Android.</p>\n\n<p>This version contains the following changes:</p>\n\n<ul>\n<li>Support
+  for Android API 19 is removed.</li>\n<li>Dependency on OkHttp 4.11.0 is added.</li>\n<li>New
+  exception type is added for devices without a network connection: <code>NO_NETWORK_FOUND</code>.</li>\n</ul>\n\n
+  \   "
+title_type:
+published: &1 2024-02-21 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#February_21_2024
+title: February 21, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

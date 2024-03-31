@@ -1,0 +1,88 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/topics/public-sector/strengthening-federal-cybersecurity-cisa-zero-trust-and-google-workspace-exclusive-sessions-at-next-24/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Strengthening Federal Cybersecurity: CISA, Zero Trust, and Google Workspace:
+  Exclusive Sessions at Next ‘24'
+url: https://cloud.google.com/blog/topics/public-sector/strengthening-federal-cybersecurity-cisa-zero-trust-and-google-workspace-exclusive-sessions-at-next-24/
+summary: '<div class="block-paragraph"><p data-block-key="iay7r">The Federal IT landscape
+  is undergoing a rapid shift toward stronger cybersecurity, driven by CISA''s<a href="https://www.cisa.gov/zero-trust-maturity-model"
+  target="_blank"> Zero Trust Maturity Model v2.0</a>. This model offers a roadmap
+  for federal agencies to boost their cyber posture. For government agencies, selecting
+  the right tools to navigate this transformation is paramount. Google Workspace enters
+  the picture with its robust security capabilities, designed to meet the demanding
+  compliance requirements of federal agencies.</p><p data-block-key="ee0lr"><b>CISA''s
+  Zero Trust Mandate and the Role of Google Workspace</b></p><p data-block-key="43nt2">CISA''s
+  Zero Trust Maturity Model emphasizes granular access control, constant verification,
+  and device-agnostic security. Google Workspace embraces this "never trust, always
+  verify" principle with features that:</p><ul><li data-block-key="8tgcq"><b>Fortify
+  Identity and Access Management:</b> Context-Aware Access and powerful authentication
+  tools ensure only the right people have access to the right data.</li><li data-block-key="2chpd"><b>Enhance
+  Endpoint Security:</b> Endpoint management and advanced device controls protect
+  sensitive information at every access point.</li><li data-block-key="a7b6m"><b>Secure
+  Data Storage and Sharing:</b> Data Loss Prevention (DLP) capabilities and granular
+  sharing controls safeguard data while enabling collaboration</li></ul><p data-block-key="eqrf2"><b>Insights
+  from the Google Workspace Zero Trust Security Workshop</b></p><p data-block-key="3fa76">The
+  recent Google Workspace Zero Trust Security Workshop offered a valuable deep dive
+  into how Google Workspace can support federal agencies in their Zero Trust journeys.
+  The workshop featured insights from CISA experts on applying Zero Trust principles
+  within the federal landscape. Attendees benefited from the ManTech case study, showcasing
+  a real-world implementation of Zero Trust architecture powered by Google Workspace
+  and Gemini AI. <a href="https://www.mantech.com/mantech-google-cloud-partnership"
+  target="_blank">ManTech''s</a> shared experience demonstrates the success of the
+  platform in achieving CMMC compliance, offering a valuable blueprint for other agencies.
+  The workshop also included interactive demos, providing IT decision-makers with
+  hands-on experience utilizing Google Workspace''s security controls.</p><p data-block-key="d1km8"><b>Your
+  Zero Trust Playbook</b></p><p data-block-key="2jk51">For those who missed the workshop,
+  <a href="https://drive.google.com/file/d/1U2G_8o7sjbB5zmk7j0v8fbTvbhW6oigf/view"
+  target="_blank">Google''s Workspace Zero trust best practices guide for U.S. public
+  Sector agencies</a> is an invaluable resource for achieving CISA-compliant Zero
+  Trust maturity.</p><p data-block-key="818o"><b>Exclusive Sessions on Federal Cybersecurity
+  and Google Workspace at Google Cloud Next ‘24</b></p><p data-block-key="15j1i">The
+  conversation continues at <a href="https://cloud.withgoogle.com/next?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=registerfornext&amp;utm_term=-"
+  target="_blank">Google Cloud Next ‘24</a>, featuring sessions on:</p><ul><li data-block-key="et42p"><a
+  href="https://cloud.withgoogle.com/next/session-library?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=-&amp;utm_term=-&amp;gad_source=1&amp;gclid=CjwKCAjw48-vBhBbEiwAzqrZVBVrYFS_eA3xwm19ioQ1TendU0pV8ig7mwt3IQgmsPF36xGK9cVqzBoCsGQQAvD_BwE&amp;gclsrc=aw.ds&amp;session=SEC218#all"
+  target="_blank"><b>Assured Workloads for Public Sector Compliance:</b></a> Learn
+  how to achieve stringent compliance across various frameworks (CJIS, FedRAMP, ITAR,
+  DoD ILs).</li><li data-block-key="7ueit"><a href="https://cloud.withgoogle.com/next?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=FY23-Q3-global-ENDM33-physicalevent-er-next-2023-mc&amp;utm_content=regular-price&amp;utm_term=-&amp;gclid=CjwKCAjww7KmBhAyEiwA5-PUSuRLMHuDwozatUhjGD-0OfX896uM7kGiHDIMX2xIItC-ptVTtIoXZBoCPAYQAvD_BwE&amp;gclsrc=aw.ds&amp;session=COL203"
+  target="_blank"><b>Keep Your Data Private and Compliant with Gemini in Google Workspace</b></a>
+  Join this session to learn about built-in privacy and security controls in Gemini
+  for Google Workspace, and understand how your organization can achieve digital sovereignty
+  with Sovereign Controls.</li><li data-block-key="d1uvo"><a href="https://cloud.withgoogle.com/next/session-library?session=COL102#all"
+  target="_blank"><b>Breaking Silos with AI-Powered Collaboration:</b></a> Explore
+  how Google Workspace facilitates efficiency, secure collaboration, and innovation.</li><li
+  data-block-key="mk95"><a href="https://cloud.withgoogle.com/next/session-library?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=-&amp;utm_term=-&amp;gad_source=1&amp;gclid=CjwKCAjw48-vBhBbEiwAzqrZVBVrYFS_eA3xwm19ioQ1TendU0pV8ig7mwt3IQgmsPF36xGK9cVqzBoCsGQQAvD_BwE&amp;gclsrc=aw.ds&amp;session=COL203#all"
+  target="_blank"><b>Gemini in Google Workspace: Privacy Reassured:</b></a> Understand
+  how Gemini delivers powerful capabilities while safeguarding data sovereignty.</li><li
+  data-block-key="d6cfg"><a href="https://cloud.withgoogle.com/next?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=FY23-Q3-global-ENDM33-physicalevent-er-next-2023-mc&amp;utm_content=regular-price&amp;utm_term=-&amp;gclid=CjwKCAjww7KmBhAyEiwA5-PUSuRLMHuDwozatUhjGD-0OfX896uM7kGiHDIMX2xIItC-ptVTtIoXZBoCPAYQAvD_BwE&amp;gclsrc=aw.ds&amp;session=COL118"
+  target="_blank"><b>Government-Ready: How Google Workspace is Enabling Secure Collaboration</b></a><b>:</b>
+  Discover how Google Workspace empowers federal, state, and local agencies to streamline
+  operations while maintaining the highest levels of data protection <i>(featuring
+  ManTech)</i>.</li></ul><p data-block-key="6r5q7">In the ever-evolving landscape
+  of federal cybersecurity, Google is committed to empowering agencies with innovative
+  solutions. Google Workspace, built on Zero Trust principles, provides the agility
+  and resilience needed to face future challenges. When combined with the broader
+  capabilities of Google Cloud, agencies gain a powerful arsenal to protect sensitive
+  data and achieve their missions. Google''s dedication to continuous innovation ensures
+  that federal agencies will always have the cutting-edge tools they need to stay
+  ahead of evolving cyber threats.</p></div>'
+author: Nicolette Stepakoff Google Public Sector
+categories:
+- Public Sector
+published: 2024-03-25 15:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/topics/public-sector/strengthening-federal-cybersecurity-cisa-zero-trust-and-google-workspace-exclusive-sessions-at-next-24/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://storage.googleapis.com/gweb-cloudblog-publish/images/20526_GWS_GenAI_Privacy_Blog_Header_V3.4.m.m.max-600x600.png

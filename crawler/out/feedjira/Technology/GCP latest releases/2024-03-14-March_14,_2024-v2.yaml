@@ -1,0 +1,211 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_14_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_14_2024
+content: "<strong class=\"release-note-product-title\">Apigee UI</strong>\n<h3>Announcement</h3>\n<p>On
+  March 14, 2024 we released an updated version of the Apigee UI.</p>\n<h3>Fixed</h3>\n<table>\n<thead>\n<tr>\n<th>Bug
+  ID</th>\n<th>Description</th>\n</tr>\n</thead>\n\n<tbody>\n<tr>\n<td><strong>320739232</strong></td>\n<td><strong>An
+  issue was fixed where an incorrect error message was displayed after an API proxy
+  or shared flow was undeployed.</strong></td>\n</tr>\n</tbody>\n</table>\n<strong
+  class=\"release-note-product-title\">Chronicle</strong>\n<h3>Changed</h3>\n<p>The
+  following supported default parsers have changed. Each is listed by product name
+  and <code>log_type</code> value, if applicable.</p>\n\n<ul>\n<li>Akamai WAF (<code>AKAMAI_WAF</code>)</li>\n<li>Alcatel
+  Switch (<code>ALCATEL_SWITCH</code>)</li>\n<li>Arcsight CEF (<code>ARCSIGHT_CEF</code>)</li>\n<li>Auth0
+  (<code>AUTH_ZERO</code>)</li>\n<li>AWS Cloudtrail (<code>AWS_CLOUDTRAIL</code>)</li>\n<li>AWS
+  Config (<code>AWS_CONFIG</code>)</li>\n<li>AWS GuardDuty (<code>GUARDDUTY</code>)</li>\n<li>Azure
+  AD (<code>AZURE_AD</code>)</li>\n<li>Azure AD Directory Audit (<code>AZURE_AD_AUDIT</code>)</li>\n<li>Azure
+  App Service (<code>AZURE_APP_SERVICE</code>)</li>\n<li>Azure Key Vault logging (<code>AZURE_KEYVAULT_AUDIT</code>)</li>\n<li>BIND
+  (<code>BIND_DNS</code>)</li>\n<li>Blue Coat Proxy (<code>BLUECOAT_WEBPROXY</code>)</li>\n<li>Box
+  (<code>BOX</code>)</li>\n<li>Chrome Management (<code>N/A</code>)</li>\n<li>Cisco
+  AMP (<code>CISCO_AMP</code>)</li>\n<li>Cisco Umbrella DNS (<code>UMBRELLA_DNS</code>)</li>\n<li>Cisco
+  VPN (<code>CISCO_VPN</code>)</li>\n<li>Citrix Netscaler (<code>CITRIX_NETSCALER</code>)</li>\n<li>Cloud
+  Audit Logs (<code>N/A</code>)</li>\n<li>Cloudflare (<code>CLOUDFLARE</code>)</li>\n<li>Cofense
+  (<code>COFENSE_TRIAGE</code>)</li>\n<li>Corelight (<code>CORELIGHT</code>)</li>\n<li>CrowdStrike
+  Falcon (<code>CS_EDR</code>)</li>\n<li>CSV Custom IOC (<code>CSV_CUSTOM_IOC</code>)</li>\n<li>Custom
+  Application Access Logs (<code>CUSTOM_APPLICATION_ACCESS</code>)</li>\n<li>Cybergatekeeper
+  NAC (<code>CYBERGATEKEEPER_NAC</code>)</li>\n<li>Extreme Wireless (<code>EXTREME_WIRELESS</code>)</li>\n<li>F5
+  ASM (<code>F5_ASM</code>)</li>\n<li>F5 BIGIP LTM (<code>F5_BIGIP_LTM</code>)</li>\n<li>Falco
+  IDS (<code>FALCO_IDS</code>)</li>\n<li>FireEye (<code>FIREEYE_ALERT</code>)</li>\n<li>FireEye
+  ETP (<code>FIREEYE_ETP</code>)</li>\n<li>ForgeRock Identity Cloud (<code>FORGEROCK_IDENTITY_CLOUD</code>)</li>\n<li>FortiGate
+  (<code>FORTINET_FIREWALL</code>)</li>\n<li>GCP_APP_ENGINE (<code>GCP_APP_ENGINE</code>)</li>\n<li>HP
+  Procurve Switch (<code>HP_PROCURVE</code>)</li>\n<li>IAM Context (<code>N/A</code>)</li>\n<li>IBM
+  DB2 (<code>DB2_DB</code>)</li>\n<li>IBM Mainframe Storage (<code>IBM_MAINFRAME_STORAGE</code>)</li>\n<li>IBM
+  Security Access Manager (<code>IBM_SAM</code>)</li>\n<li>Illumio Core (<code>ILLUMIO_CORE</code>)</li>\n<li>Imperva
+  (<code>IMPERVA_WAF</code>)</li>\n<li>Infoblox (<code>INFOBLOX</code>)</li>\n<li>JAMF
+  CMDB (<code>JAMF</code>)</li>\n<li>KerioControl Firewall (<code>KERIOCONTROL</code>)</li>\n<li>Microsoft
+  Azure Activity (<code>AZURE_ACTIVITY</code>)</li>\n<li>Microsoft Azure Resource
+  (<code>AZURE_RESOURCE_LOGS</code>)</li>\n<li>Microsoft Defender For Cloud (<code>MICROSOFT_DEFENDER_CLOUD_ALERTS</code>)</li>\n<li>Microsoft
+  Defender for Endpoint (<code>MICROSOFT_DEFENDER_ENDPOINT</code>)</li>\n<li>Microsoft
+  Exchange (<code>EXCHANGE_MAIL</code>)</li>\n<li>Microsoft Graph Activity Logs (<code>MICROSOFT_GRAPH_ACTIVITY_LOGS</code>)</li>\n<li>Microsoft
+  Graph API Alerts (<code>MICROSOFT_GRAPH_ALERT</code>)</li>\n<li>Microsoft IIS (<code>IIS</code>)</li>\n<li>Microsoft
+  System Center Endpoint Protection (<code>MICROSOFT_SCEP</code>)</li>\n<li>Mobile
+  Endpoint Security (<code>LOOKOUT_MOBILE_ENDPOINT_SECURITY</code>)</li>\n<li>Mongo
+  Database (<code>MONGO_DB</code>)</li>\n<li>Netscout OCI (<code>NETSCOUT_OCI</code>)</li>\n<li>Netskope
+  (<code>NETSKOPE_ALERT</code>)</li>\n<li>Netskope Web Proxy (<code>NETSKOPE_WEBPROXY</code>)</li>\n<li>Network
+  Policy Server (<code>MICROSOFT_NPS</code>)</li>\n<li>Nutanix Prism (<code>NUTANIX_PRISM</code>)</li>\n<li>Office
+  365 (<code>OFFICE_365</code>)</li>\n<li>Okta (<code>OKTA</code>)</li>\n<li>OpenCanary
+  (<code>OPENCANARY</code>)</li>\n<li>Ordr IoT (<code>ORDR_IOT</code>)</li>\n<li>Palo
+  Alto Cortex XDR Alerts (<code>CORTEX_XDR</code>)</li>\n<li>Palo Alto Networks Firewall
+  (<code>PAN_FIREWALL</code>)</li>\n<li>Palo Alto Prisma Cloud (<code>PAN_PRISMA_CLOUD</code>)</li>\n<li>PerimeterX
+  Bot Protection (<code>PERIMETERX_BOT_PROTECTION</code>)</li>\n<li>Phishlabs (<code>PHISHLABS</code>)</li>\n<li>Proofpoint
+  Sendmail Sentrion (<code>PROOFPOINT_SENDMAIL_SENTRION</code>)</li>\n<li>Pulse Secure
+  (<code>PULSE_SECURE_VPN</code>)</li>\n<li>RH-ISAC (<code>RH_ISAC_IOC</code>)</li>\n<li>SailPoint
+  IAM (<code>SAILPOINT_IAM</code>)</li>\n<li>Salesforce (<code>SALESFORCE</code>)</li>\n<li>Sap
+  Business Technology Platform (<code>SAP_BTP</code>)</li>\n<li>Security Command Center
+  Threat (<code>N/A</code>)</li>\n<li>Sentinelone Alerts (<code>SENTINELONE_ALERT</code>)</li>\n<li>Shibboleth
+  IDP (<code>SHIBBOLETH_IDP</code>)</li>\n<li>Sourcefire (<code>SOURCEFIRE_IDS</code>)</li>\n<li>Splunk
+  Attack Analyzer (<code>SPLUNK_ATTACK_ANALYZER</code>)</li>\n<li>STIX Threat Intelligence
+  (<code>STIX</code>)</li>\n<li>Symantec CloudSOC CASB (<code>SYMANTEC_CASB</code>)</li>\n<li>Symantec
+  DLP (<code>SYMANTEC_DLP</code>)</li>\n<li>Tanium Asset (<code>TANIUM_ASSET</code>)</li>\n<li>Thinkst
+  Canary (<code>THINKST_CANARY</code>)</li>\n<li>Trend Micro Deep Security (<code>TRENDMICRO_DEEP_SECURITY</code>)</li>\n<li>Vectra
+  Detect (<code>VECTRA_DETECT</code>)</li>\n<li>Vectra Stream (<code>VECTRA_STREAM</code>)</li>\n<li>VeridiumID
+  by Veridium (<code>VERIDIUM_ID</code>)</li>\n<li>Wazuh (<code>WAZUH</code>)</li>\n<li>Windows
+  Defender ATP (<code>WINDOWS_DEFENDER_ATP</code>)</li>\n<li>Windows DNS (<code>WINDOWS_DNS</code>)</li>\n<li>Windows
+  Event (<code>WINEVTLOG</code>)</li>\n<li>Windows Event (XML) (<code>WINEVTLOG_XML</code>)</li>\n<li>Windows
+  Local Administrator Password Solution (<code>MICROSOFT_LAPS</code>)</li>\n<li>wiz.io
+  (<code>WIZ_IO</code>)</li>\n<li>Workspace Activities (<code>WORKSPACE_ACTIVITY</code>)</li>\n<li>XAMS
+  by Xiting (<code>XITING_XAMS</code>)</li>\n<li>Zscaler CASB (<code>ZSCALER_CASB</code>)</li>\n<li>Zscaler
+  DLP (<code>ZSCALER_DLP</code>)</li>\n<li>Zscaler Internet Access Audit Logs (<code>ZSCALER_INTERNET_ACCESS</code>)</li>\n</ul>\n\n<p>The
+  following log types, without a default parser, were added. Each is listed by product
+  name and <code>log_type</code> value, if applicable.</p>\n\n<ul>\n<li>Aruba Switch
+  (<code>ARUBA_SWITCH</code>)</li>\n<li>Azure AD Password Protection (<code>AZURE_AD_PASSWORD_PROTECTION</code>)</li>\n<li>Azure
+  Front Door (<code>AZURE_FRONT_DOOR</code>)</li>\n<li>Babelforce (<code>BABELFORCE</code>)</li>\n<li>Cloudaware
+  (<code>CLOUDAWARE</code>)</li>\n<li>Coalition Control API (<code>COALITION</code>)</li>\n<li>Crowdstrike
+  Identity Protection Services (<code>CS_IDP</code>)</li>\n<li>Cymulate (<code>CYMULATE</code>)</li>\n<li>Dell
+  ECS Enterprise Object Storage (<code>DELL_ECS</code>)</li>\n<li>Google Cloud NGFW
+  Enterprise (<code>GCP_NGFW_ENTERPRISE</code>)</li>\n<li>Google Cloud Secure Web
+  Proxy (<code>GCP_SWP</code>)</li>\n<li>HaveIBeenPwned (<code>HIBP</code>)</li>\n<li>HPE
+  BladeSystem C7000 (<code>HPE_BLADESYSTEM_C7000</code>)</li>\n<li>HP OpenView (<code>HP_OPENVIEW</code>)</li>\n<li>IBM
+  DS8000 Storage (<code>IBM_DS8000</code>)</li>\n<li>IBM-i Operating System (<code>IBM_I</code>)</li>\n<li>Multicom
+  Switch (<code>MULTICOM_SWITCH</code>)</li>\n<li>Nextthink Finder (<code>NEXTTHINK_FINDER</code>)</li>\n<li>Palo
+  Alto Cortex XDR Management Audit (<code>PAN_XDR_MGMT_AUDIT</code>)</li>\n<li>PingIdentity
+  Directory Server Logs (<code>PING_DIRECTORY</code>)</li>\n<li>Prisma SD-WAN (<code>PRISMA_SD_WAN</code>)</li>\n<li>Redhat
+  Jboss (<code>REDHAT_JBOSS</code>)</li>\n<li>SafeBreach (<code>SAFEBREACH</code>)</li>\n<li>Scality
+  Ring Audit (<code>SCALITY_RING_AUDIT</code>)</li>\n<li>Sendsafely (<code>SENDSAFELY</code>)</li>\n<li>Solace
+  Pub Sub Cloud (<code>SOLACE_AUDIT</code>)</li>\n<li>Sonicwall Secure Mobile Access
+  (<code>SONICWALL_SMA</code>)</li>\n<li>Sonrai Enterprise Cloud Security Solution
+  (<code>SONRAI</code>)</li>\n<li>Tenemos Journey Manager System Event Publisher (<code>TENEMOS_MANAGER_SYSTEMEVENT</code>)</li>\n<li>TrueFort
+  Platform (<code>TRUEFORT</code>)</li>\n<li>Ubiquiti Accesspoint (<code>UBIQUITI_ACCESSPOINT</code>)</li>\n<li>WithSecure
+  Cloud Protection (<code>WITHSECURE_CLOUD</code>)</li>\n<li>WithSecure Elements Connector
+  (<code>WITHSECURE_ELEMENTS</code>)</li>\n<li>YAMAHA ROUTER RTX1200 (<code>YAMAHA_ROUTER</code>)</li>\n</ul>\n\n<p>For
+  a list of supported log types and details about default parser changes, see <a href=\"https://cloud.google.com/chronicle/docs/ingestion/parser-list/supported-default-parsers\">Supported
+  log types and default parsers</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Composer</strong>\n<h3>Issue</h3>\n<p>In Airflow 2.6.3 offered in Cloud Composer
+  versions earlier than 2.6.2, task statuses can be deleted as a result of the <a
+  href=\"https://github.com/apache/airflow/issues/31179\">#31179</a> Airflow issue.
+  If you use Airflow 2.6.3, we recommend to upgrade to <a href=\"https://cloud.google.com/composer/docs/release-notes#February_22_2024\">Cloud
+  Composer version 2.6.2</a> or later where this issue is fixed.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Data Fusion</strong>\n<h3>Fixed</h3>\n<p><a href=\"https://cloud.google.com/data-fusion/docs/how-to/configure-salesforce-batch-source\">Salesforce
+  plugin</a> version 1.6.3 is available in Cloud Data Fusion versions 6.8.0 and later.
+  The release includes the following changes:</p>\n\n<ul>\n<li>Fixed an issue in the
+  Salesforce sink plugin causing an unsupported type <code>datetime</code> error for
+  <strong>DateTime type</strong> fields in the input schema. In this version, the
+  Salesforce sink plugin supports datetime and decimal logical types (<a href=\"https://cdap.atlassian.net/browse/PLUGIN-1749\">PLUGIN-1749</a>).</li>\n<li>Fixed
+  an issue in all Salesforce plugins causing a pipeline to fail when using an OAuth
+  macro because the oAuth macro value didn&#39;t get passed to the plugin as intended.
+  In this version, all Salesforce plugins support an OAuth macro (<a href=\"https://cdap.atlassian.net/browse/PLUGIN-1767\">PLUGIN-1767</a>).</li>\n<li>At
+  the time of failure on the Salesforce sink side, if the <strong>Error handling</strong>
+  property is set to the <strong>Fail on error</strong> option, the Salesforce job
+  is aborted, which stops newer batches from being added to the job due to spark retry
+  settings in CDAP (<a href=\"https://cdap.atlassian.net/browse/PLUGIN-1768\">PLUGIN-1768</a>).</li>\n<li>To
+  make debugging easier, additional debug logs and batch results in logs are available.</li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Cloud Run</strong>\n<h3>Feature</h3>\n<p><a
+  href=\"https://cloud.google.com/run/docs/configuring/vpc-direct-vpc\">Direct VPC
+  egress</a> now supports Cloud NAT with <a href=\"https://cloud.google.com/nat/docs/public-nat\">Public
+  NAT</a> IP addresses (in Preview).</p>\n<strong class=\"release-note-product-title\">Cloud
+  SQL for SQL Server</strong>\n<h3>Announcement</h3>\n<p>A new maintenance version
+  rollout is currently underway for all supported SQL Server versions.</p>\n\n<p>If
+  you have configured a maintenance window for your instance, then the updates will
+  occur according to the timeframe that you set in the window. Otherwise, the updates
+  will occur within the next few weeks. The new maintenance version is [SQL Server
+  version].R20240216.01_RC00.</p>\n\n<p>To learn how to check your maintenance version,
+  see <a href=\"https://cloud.google.com/sql/docs/sqlserver/self-service-maintenance#before-you-begin\">Self-service
+  maintenance</a>. To find your maintenance window or to manage maintenance updates,
+  see <a href=\"https://cloud.google.com/sql/docs/sqlserver/set-maintenance-window\">Find
+  and set maintenance windows</a>.</p>\n<strong class=\"release-note-product-title\">Dataproc</strong>\n<h3>Announcement</h3>\n<p>New
+  <a href=\"https://cloud.google.com/dataproc/docs/concepts/versioning/dataproc-version-clusters#supported_dataproc_versions\">Dataproc
+  on Compute Engine subminor image versions</a>:</p>\n\n<ul>\n<li>2.0.95-debian10,
+  2.0.95-rocky8, 2.0.95-ubuntu18</li>\n<li>2.1.43-debian11, 2.1.43-rocky8, 2.1.43-ubuntu20,
+  2.1.43-ubuntu20-arm</li>\n<li>2.2.9-debian12, 2.2.9-rocky9, 2.2.9-ubuntu22</li>\n</ul>\n<h3>Announcement</h3>\n<p>New
+  <a href=\"https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions\">Dataproc
+  Serverless for Spark runtime versions</a>:</p>\n\n<ul>\n<li>1.1.54</li>\n<li>2.0.62</li>\n<li>2.1.41</li>\n<li>2.2.0-RC14</li>\n</ul>\n<h3>Changed</h3>\n<p>Added
+  the <code>bigframes</code> (<a href=\"https://cloud.google.com/python/docs/reference/bigframes\">BigQuery
+  DataFrames</a>) Python package in the Dataproc Serverless for Spark 2.1 runtime.</p>\n<strong
+  class=\"release-note-product-title\">Google Cloud Architecture Center</strong>\n<h3>Changed</h3>\n<p><a
+  href=\"https://cloud.google.com/architecture/storage-advisor#data_transfer_options\">Design
+  an optimal storage strategy for your cloud workload</a>: Added guidance about data
+  transfer options.</p>\n<strong class=\"release-note-product-title\">Google Distributed
+  Cloud Edge</strong>\n<h3>Announcement</h3>\n<p>This is a patch release of Google
+  Distributed Cloud Edge (version 1.6.1).</p>\n<h3>Feature</h3>\n<p>The following
+  new features have been introduced in this release of Distributed Cloud Edge:</p>\n\n<ul>\n<li><p><strong>Multi-rack
+  deployments.</strong> Distributed Cloud Edge now supports aggregating the resources
+  of multiple Distributed Cloud Edge Racks into a single zone. You can now create
+  clusters that span nodes across multiple Distributed Cloud Edge Racks. A single
+  multi-rack deployment supports one Distributed Cloud Edge Base Rack and up to 10
+  Distributed Cloud Edge Standalone Racks. For more information, see <a href=\"https://cloud.google.com/distributed-cloud/edge/latest/docs/how-it-works\">How
+  Distributed Cloud Edge works</a>.</p></li>\n<li><p><strong>Distributed Cloud Edge
+  Base Rack.</strong> We are now shipping a new form factor of Distributed Cloud Edge
+  Rack hardware, the Distributed Cloud Edge Base Rack. This form factor is a pair
+  of existing Distributed Cloud Edge Standalone Rack hardware with the addition of
+  four network switches that aggregate network traffic from up to 10 Distributed Cloud
+  Edge Standalone Racks.</p></li>\n<li><p><strong>Prometheus integration.</strong>
+  You can now use the Prometheus metrics solution to collect Distributed Cloud Edge
+  metrics and workload metrics on local control plane clusters running in survivability
+  mode. For more information, see <a href=\"https://cloud.google.com/distributed-cloud/edge/latest/docs/logs-metrics#collecting_workload_metrics_with_prometheus\">Collect
+  metrics with Prometheus</a>.</p></li>\n<li><p><strong>Node labels.</strong> You
+  can now assign unique labels to individual nodes when creating a node pool. For
+  more information, see <a href=\"https://cloud.google.com/distributed-cloud/edge/latest/docs/nodepools#create\">Create
+  a node pool</a>.</p></li>\n</ul>\n<h3>Changed</h3>\n<p>The following changes have
+  been introduced in this release of Distributed Cloud Edge:</p>\n\n<ul>\n<li><p><strong>Cloud
+  control plane clusters can no longer be created in subsequent releases of Distributed
+  Cloud Edge.</strong> Distributed Cloud Edge version 1.6.1 is the last release of
+  Distributed Cloud Edge in which you can create Cloud control plane clusters. Creation
+  of cloud control plane clusters will be disabled in the next minor release of Distributed
+  Cloud Edge. Existing cloud control plane clusters will continue to run workloads.</p></li>\n<li><p><strong>Release
+  channel requirement for specifying cluster software versions.</strong> If you want
+  to specify a Distributed Cloud Edge software version when creating a cluster, you
+  must now set the cluster&#39;s release channel to <code>NONE</code>. If you do not
+  specify a release channel or explicitly set it to <code>REGULAR</code>, the cluster
+  automatically upgrades to the latest version of Distributed Cloud Edge software
+  and specifying a software version is not possible.</p></li>\n</ul>\n<h3>Issue</h3>\n<p>This
+  release of Distributed Cloud Edge contains the following known issues:</p>\n\n<ul>\n<li><p><strong>Nodes
+  can get stuck in <code>Ready,SchedulingDisabled</code> state after applying configuration
+  changes.</strong> Applying or deleting the <code>NodeSystemConfigUpdate</code> or
+  <code>SriovNetworkNodePolicy</code> resources can result in a node that&#39;s stuck
+  in the <code>Ready, Scheduling Disabled</code> state after it reboots. To resolve
+  this issue, see <a href=\"https://cloud.google.com/distributed-cloud/edge/latest/docs/troubleshooting\">Troubleshoot
+  Distributed Cloud Edge</a>.</p></li>\n<li><p><strong>Deleting clusters and node
+  pools fails when a node is not ready.</strong> If a node in a cluster or node pool
+  that you want to delete is in the <code>NotReady</code> state, the deletion can
+  fail. Contact <a href=\"https://cloud.google.com/distributed-cloud/edge/latest/docs/getting-support\">Google
+  Support</a> to remedy this condition.</p></li>\n<li><p><strong>Nodes using Symcloud
+  Storage report the file system as read-only after reboot.</strong> When multiple
+  nodes that use Symcloud Storage reboot at once in a cluster, they can incorrectly
+  mark the file system as read-only. Contact <a href=\"https://cloud.google.com/distributed-cloud/edge/latest/docs/getting-support\">Google
+  Support</a> to remedy this condition.</p></li>\n</ul>\n<h3>Announcement</h3>\n<p>Google
+  Distributed Cloud Edge management software has been updated.</p>\n<strong class=\"release-note-product-title\">Google
+  Kubernetes Engine</strong>\n<h3>Fixed</h3>\n<p>A previous version of the GKE logging
+  agent that rolled out in GKE version 1.28.7-gke.1100000 contained a security vulnerability.
+  This version has been immediately removed.</p>\n<strong class=\"release-note-product-title\">VPC
+  Service Controls</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/products#product-launch-stages\">Preview
+  stage</a> support for the following integration:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/vpc-service-controls/docs/supported-products#table_api_keys\">API
+  keys</a></li>\n</ul>\n\n    "
+title_type:
+published: &1 2024-03-14 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_14_2024
+title: March 14, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

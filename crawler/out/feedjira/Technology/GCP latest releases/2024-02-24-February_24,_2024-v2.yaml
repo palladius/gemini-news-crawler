@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#February_24_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#February_24_2024
+content: "<strong class=\"release-note-product-title\">Google Distributed Cloud Virtual
+  for VMware</strong>\n<h3>Security</h3>\n<p>The following vulnerabilities were discovered
+  in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2024-0193</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-013\">GCP-2024-013
+  security bulletin</a>.</p>\n\n    "
+title_type:
+published: &1 2024-02-24 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#February_24_2024
+title: February 24, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

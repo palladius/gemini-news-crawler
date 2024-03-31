@@ -1,0 +1,58 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-at-enterprise-connect-2024/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Enterprise Connect 2024 - Bringing AI to the Contact Center
+url: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-at-enterprise-connect-2024/
+summary: |-
+  <div class="block-paragraph_advanced"><p><strong style="vertical-align: baseline;">Bringing AI to the contact center</strong></p>
+  <p><span style="vertical-align: baseline;">The contact center landscape has changed drastically in the last 18 months, thanks in no small part to the emergence of large language models (LLMs) and generative AI. In our experience, when organizations leverage gen AI in the contact center, virtual agents can reduce effort and time-to-value,  helping customers connect faster to the answers they seek.  </span></p>
+  <p><span style="vertical-align: baseline;">But it's important to be thoughtful about how and when to apply generative AI. At Google Cloud, we offer a range of sophisticated generative and deterministic capabilities to ensure you have the best technology for each use case.  We bring this innovation to enterprise-ready products, including Google Cloud’s CCAI Platform (CCAI-P), to help organizations build, use, and succeed in rapidly adopting AI. While other contact center providers are scrambling to integrate AI to their technology stacks, CCAI-P has always been built with groundbreaking Google’s AI research at its core.</span></p>
+  <p><span style="vertical-align: baseline;">This week, at </span><a href="https://enterpriseconnect.com/" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Enterprise Connect</span></a><span style="vertical-align: baseline;">, we’re sharing new ways that Google Cloud’s Contact Center AI Platform (CCAI-P), our end-to-end Contact Center as a Service solution, is accelerating AI-enabled customer service modernization, and we are announcing several exciting new product enhancements. </span></p>
+  <h3><strong style="vertical-align: baseline;">Increase the Speed from Research to Enterprise Readiness</strong></h3>
+  <p><span style="vertical-align: baseline;">WIth CCAI-P, Google Cloud is infusing AI across the customer engagement and agent experience. With Google Cloud, you have a reliable, proven path from ground-breaking research to enterprise ready adoption and value. This means you don't have to wait for integrations or updates from your various solution providers in order to benefit from the latest breakthroughs. And those breakthroughs are happening fast! In the past year, Contact Center AI Platform launched almost 100 AI-enabled features through continuous integration, meaning that they become immediately accessible to Contact Center AI Platform customers as they become available. </span></p>
+  <h3><strong style="vertical-align: baseline;">Future-proof your Customer Experience</strong></h3>
+  <p><span style="vertical-align: baseline;">CCAI-P rests on Google Cloud’s built-in scalability, reliability, and security. This cloud-native architecture:</span></p>
+  <ul>
+  <li role="presentation"><strong style="vertical-align: baseline;">Eliminates complex on-premise setups: </strong><span style="vertical-align: baseline;">Deployments are faster, and your total cost of ownership decreases.</span></li>
+  <li role="presentation"><strong style="vertical-align: baseline;">Ensures adaptability: </strong><span style="vertical-align: baseline;">Scale seamlessly alongside customer demand and evolving AI workloads.</span></li>
+  <li role="presentation"><strong style="vertical-align: baseline;">Safeguards sensitive data: </strong><span style="vertical-align: baseline;">Benefit from Google's stringent security protocols to protect your customers' information.</span></li>
+  </ul>
+  <p><span style="vertical-align: baseline;">The cloud contact center market is plagued by outages and downtime, which is the number one reason many organizations continue to rely on legacy, on-premise infrastructure. With downtime potentially costing thousands of dollars per minute, we’re pleased to announce that our </span><strong style="font-style: italic; vertical-align: baseline;">new multi-region capability</strong><span style="vertical-align: baseline;"> now provides cross-region failover, offering customers mission-critical uptime, resiliency, business continuity, and disaster recovery readiness for mission critical customer engagements. With multi-region support, customers benefit from seamless failover across geo-dispersed Google Cloud regions in the event of a catastrophic regional outage, ensuring that cloud outages never impact critical customer experiences. </span></p>
+  <h3><strong style="vertical-align: baseline;">Transform CX with Multimodal AI</strong></h3>
+  <p><span style="vertical-align: baseline;">The era of smart devices demands equally smart contact center solutions. CCAI-P leverages multimodal AI to:</span></p>
+  <ul>
+  <li role="presentation"><strong style="vertical-align: baseline;">Empower customers: </strong><span style="vertical-align: baseline;">Enable self-service by letting customers submit photos, videos, or attachments for visual problem-solving and faster time to resolution. </span></li>
+  <li role="presentation"><strong style="vertical-align: baseline;">Optimize agent interactions:</strong><span style="vertical-align: baseline;"> Leverage AI to present relevant information during calls based on real-time understanding of both visual and textual cues.</span></li>
+  <li role="presentation"><strong style="vertical-align: baseline;">Drive omnichannel fluidity: </strong><span style="vertical-align: baseline;">Ensure seamless transitions between voice, chat, and</span><span style="font-style: italic; vertical-align: baseline;"> </span><strong style="font-style: italic; vertical-align: baseline;">new social channels</strong><span style="font-style: italic; vertical-align: baseline;"> </span><span style="vertical-align: baseline;">like WhatsApp for effortless customer journeys.</span></li>
+  </ul>
+  <h3><strong style="vertical-align: baseline;">Unlock Deeper Insights with Quality AI</strong></h3>
+  <p><span style="vertical-align: baseline;">Quality management is an essential part of delivering great customer experiences, and contact center operations teams use these tools to evaluate performance, troubleshoot issues, and continually improve the services they provide. Yet, many quality assurance processes remain highly manual, costly, and time consuming. Consequently, only a small fraction of customer conversations are evaluated. </span></p>
+  <p><span style="vertical-align: baseline;">Today, we’re happy to announce the new public preview of </span><strong style="font-style: italic; vertical-align: baseline;">CCAI Quality AI, our new quality scoring and performance management solution </strong><span style="vertical-align: baseline;">that uses Google AI to reduce costs while improving customer experiences. This LLM-powered solution provides:</span></p>
+  <ul>
+  <li role="presentation"><strong style="vertical-align: baseline;">AI-powered quality scoring:</strong><span style="vertical-align: baseline;"> Automatically evaluate 100% of your conversations against key customer service metrics.</span></li>
+  <li role="presentation"><strong style="vertical-align: baseline;">Actionable agent insights:</strong><span style="vertical-align: baseline;"> Pinpoint areas for coaching, uncover emerging topics, and analyze agent performance trends.</span></li>
+  <li role="presentation"><strong style="vertical-align: baseline;">Holistic performance dashboards: </strong><span style="vertical-align: baseline;">Visualize key contact center metrics and drivers with unparalleled accuracy.</span></li>
+  </ul>
+  <h3><strong style="vertical-align: baseline;">The Bottom Line</strong></h3>
+  <p><span style="vertical-align: baseline;">The pace of innovation in conversational and generative AI will continue to accelerate. To have a competitive advantage in the market, you want to be as close to ground zero of innovation as possible. The gap between theoretical search and application of AI has narrowed to near-zero. CCAI-P will always be at the forefront of turning Google AI research into contact center products, helping businesses quickly adopt the latest capabilities to stay ahead of their competition. By choosing CCAI-P, you can position your organization at the forefront of AI innovation and deliver an exceptional, future-ready customer experience. </span></p>
+  <h3><strong style="vertical-align: baseline;">Experience the Power of </strong><span style="vertical-align: baseline;">CCAI-P</span></h3>
+  <p><span style="vertical-align: baseline;">Don't miss out! See Google Cloud's transformative AI solutions firsthand at </span><a href="https://enterpriseconnect.com/" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Enterprise Connect</span></a><span style="vertical-align: baseline;">, booth #1405 (March 25 - 27, Orlando, FL). And check out our </span><a href="https://schedule.enterpriseconnect.com/session/keynote-fireside-chat-google-cloud/903211" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Keynote Fireside Chat </span></a><span style="vertical-align: baseline;">on Wednesday 3/27 at 11:45am EST.</span></p></div>
+author: Kevin Shatzkamer
+categories:
+- AI & Machine Learning
+published: 2024-03-26 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-at-enterprise-connect-2024/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

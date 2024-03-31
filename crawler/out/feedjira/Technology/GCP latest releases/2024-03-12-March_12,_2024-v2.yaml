@@ -1,0 +1,158 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_12_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_12_2024
+content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</strong>\n<h3>Feature</h3>\n<p>AlloyDB
+  Language Connectors are now generally available (<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>).
+  These language connectors are libraries that provide automated mutual TLS connections,
+  IAM-based authorization, and Automated IAM Authentication when connecting to an
+  AlloyDB instance. For more information about language connectors, see <a href=\"https://cloud.google.com/alloydb/docs/language-connectors-overview\">AlloyDB
+  Language Connectors overview</a>.</p>\n<strong class=\"release-note-product-title\">Anti
+  Money Laundering AI</strong>\n<h3>Announcement</h3>\n<p>Added a new metric to AML
+  AI, providing insight into the importance of each feature family to an AML AI Model.
+  This metric is available in new v4 <a href=\"https://cloud.google.com/financial-services/anti-money-laundering/docs/reference/engine-versions\">engine
+  versions</a>. It allows you to:</p>\n\n<ul>\n<li>Act on model monitoring outputs
+  in the context of their importance to a model</li>\n<li>Check the contribution of
+  your Party Supplementary Data to a model</li>\n</ul>\n<strong class=\"release-note-product-title\">App
+  Engine standard environment Go</strong>\n<h3>Breaking</h3>\n<p>You can&#39;t use
+  the latest version of <code>dev_appserver.py</code> to locally run your\napplications
+  for runtimes that reached <a href=\"https://cloud.google.com/appengine/docs/standard/lifecycle/support-schedule\">end
+  of support</a>.\nTo continue using an archived version of <code>dev_appserver.py</code>,
+  see\n<a href=\"https://cloud.google.com/appengine/docs/standard/tools/using-local-server-for-eos-runtimes\">Use
+  the local development server after runtimes reach the end of support</a>.</p>\n<strong
+  class=\"release-note-product-title\">App Engine standard environment Java</strong>\n<h3>Breaking</h3>\n<p>You
+  can&#39;t use the latest version of <code>dev_appserver.py</code> to locally run
+  your\napplications for runtimes that reached <a href=\"https://cloud.google.com/appengine/docs/standard/lifecycle/support-schedule\">end
+  of support</a>.\nTo continue using an archived version of <code>dev_appserver.py</code>,
+  see\n<a href=\"https://cloud.google.com/appengine/docs/standard/tools/using-local-server-for-eos-runtimes\">Use
+  the local development server after runtimes reach the end of support</a>.</p>\n<strong
+  class=\"release-note-product-title\">App Engine standard environment PHP</strong>\n<h3>Breaking</h3>\n<p>You
+  can&#39;t use the latest version of <code>dev_appserver.py</code> to locally run
+  your\napplications for runtimes that reached <a href=\"https://cloud.google.com/appengine/docs/standard/lifecycle/support-schedule\">end
+  of support</a>.\nTo continue using an archived version of <code>dev_appserver.py</code>,
+  see\n<a href=\"https://cloud.google.com/appengine/docs/standard/tools/using-local-server-for-eos-runtimes\">Use
+  the local development server after runtimes reach the end of support</a>.</p>\n<strong
+  class=\"release-note-product-title\">App Engine standard environment Python</strong>\n<h3>Breaking</h3>\n<p>You
+  can&#39;t use the latest version of <code>dev_appserver.py</code> to locally run
+  your\napplications for runtimes that reached <a href=\"https://cloud.google.com/appengine/docs/standard/lifecycle/support-schedule\">end
+  of support</a>.\nTo continue using an archived version of <code>dev_appserver.py</code>,
+  see\n<a href=\"https://cloud.google.com/appengine/docs/standard/tools/using-local-server-for-eos-runtimes\">Use
+  the local development server after runtimes reach the end of support</a>.</p>\n<strong
+  class=\"release-note-product-title\">Blockchain Node Engine</strong>\n<h3>Announcement</h3>\n<p>On
+  March 12, 2024, Blockchain Node Engine upgraded all mainnet Ethereum nodes in preparation
+  for the Dencun Hardfork.</p>\n<strong class=\"release-note-product-title\">Certificate
+  Manager</strong>\n<h3>Feature</h3>\n<p>Certificate Manager supports integration
+  with regional external Application Load Balancers and regional internal Application
+  Load Balancers. This feature is generally available (<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>).
+  For more information, see <a href=\"https://cloud.google.com/certificate-manager/docs/overview\">Certificate
+  Manager overview</a>.</p>\n<strong class=\"release-note-product-title\">Chronicle</strong>\n<h3>Feature</h3>\n<p><a
+  href=\"https://cloud.google.com/chronicle/docs/install/troubleshoot-forwarder\">Forwarder
+  troubleshooting guide</a> is now available to help you diagnose and resolve common
+  issues that may arise while using the Chronicle Linux forwarder. </p>\n<strong class=\"release-note-product-title\">Cloud
+  Composer</strong>\n<h3>Fixed</h3>\n<p>Fixed creation and upgrades in environments
+  that have environment variables with special symbols.</p>\n<h3>Changed</h3>\n<p><strong>Cloud
+  Composer 2.6.4</strong> <a href=\"https://cloud.google.com/composer/docs/concepts/versioning/composer-versions\">images</a>
+  are available:</p>\n\n<ul>\n<li>composer-2.6.4-airflow-2.6.3 (default)</li>\n<li>composer-2.6.4-airflow-2.5.3</li>\n</ul>\n<h3>Deprecated</h3>\n<p>Cloud
+  Composer versions 2.1.8 and 1.20.8 have reached their <a href=\"https://cloud.google.com/composer/docs/concepts/versioning/composer-versioning-overview#version-deprecation-and-support\">end
+  of full support period</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Data Fusion</strong>\n<h3>Fixed</h3>\n<p>The Cloud Data Fusion version 6.9.2.3 patch
+  revision is generally available (<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>).
+  6.9.2.3 includes the following fixes:</p>\n\n<ul>\n<li><p>Skipped running <code>MetadataConsumerSubscriberService</code>
+  when <a href=\"https://cloud.google.com/data-fusion/docs/how-to/view-lineage-in-dataplex\">Dataplex
+  Data Lineage Integration</a> is disabled (<a href=\"https://cdap.atlassian.net/browse/CDAP-20947\">CDAP-20947</a>).</p></li>\n<li><p>Fixed
+  an issue causing runtime arguments of pipeline triggers to not propagate to downstream
+  pipelines (<a href=\"https://cdap.atlassian.net/browse/CDAP-20943\">CDAP-20943</a>).</p></li>\n<li><p>Fixed
+  an issue causing pipelines to fail in starting state when the system worker service
+  is intermittently unavailable (<a href=\"https://cdap.atlassian.net/browse/CDAP-20956\">CDAP-20956</a>).</p></li>\n<li><p>Fixed
+  an issue causing pipelines to fail in starting state when the Compute Engine metadata
+  server is intermittently unavailable (<a href=\"https://cdap.atlassian.net/jira/software/c/projects/CDAP/issues/CDAP-20955\">CDAP-20955</a>).</p></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Cloud Load Balancing</strong>\n<h3>Feature</h3>\n<p>The
+  global external Proxy Network Load Balancer is implemented on globally distributed
+  GFEs and supports advanced traffic management capabilities. This load balancer can
+  be configured to handle either TCP or SSL traffic by using either a target TCP proxy
+  or a target SSL proxy respectively. Global external proxy Network Load Balancers
+  support backends such as instance groups, hybrid NEGs, and Private Service Connect
+  NEGs.\nFor details, see the <a href=\"https://cloud.google.com/load-balancing/docs/tcp\">External
+  proxy Network Load Balancer overview</a>.</p>\n\n<p>To set up a global external
+  Proxy Network Load Balancer, see the following pages:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/load-balancing/docs/tcp/set-up-global-ext-proxy-ssl\">Instance
+  group backends with SSL</a></li>\n<li><a href=\"https://cloud.google.com/load-balancing/docs/tcp/set-up-global-ext-proxy-tcp\">Instance
+  group backends with TCP</a></li>\n</ul>\n\n<p>This capability is in <strong>General
+  Availability</strong>.</p>\n<h3>Feature</h3>\n<p>Regional external Application Load
+  Balancers and regional internal Application Load Balancers now support Certificate
+  Manager certificates.  For more information, see <a href=\"https://cloud.google.com/load-balancing/docs/ssl-certificates#certificate-summary\">Certificates
+  and Google Cloud load balancers</a>.</p>\n\n<p>This capability is in <strong>General
+  Availability</strong>.</p>\n<strong class=\"release-note-product-title\">Cloud Storage</strong>\n<h3>Feature</h3>\n<p>You
+  can now view granular bucket-level cost data in the <a href=\"https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables/detailed-usage\">Cloud
+  Billing Detailed data export</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Translation</strong>\n<h3>Feature</h3>\n<p>For AutoML datasets, you can <a href=\"https://cloud.google.com/translate/docs/advanced/automl-datasets#import-data\">tag
+  segment pairs</a> when importing them through the Google Cloud console.</p>\n<h3>Changed</h3>\n<p>You
+  can request document translations with <a href=\"https://cloud.google.com/translate/docs/advanced/endpoints\">multi-regional
+  endpoints</a>.</p>\n<strong class=\"release-note-product-title\">Compute Engine</strong>\n<h3>Feature</h3>\n<p><strong>Generally
+  available</strong>: You can scale a single VM into a managed instance group (MIG),
+  which is a group of VMs that you can manage as a single entity. A MIG can make your
+  workload scalable and highly available using features like autoscaling, autohealing,
+  regional (multiple zones) deployment, and automatic updating. </p>\n\n<p>For more
+  information, see <a href=\"https://cloud.google.com/compute/docs/instance-groups/create-mig-from-vm\">Create
+  a MIG from an existing VM</a>.</p>\n<strong class=\"release-note-product-title\">Container
+  Registry</strong>\n<h3>Announcement</h3>\n<p>New tooling is available to upgrade
+  from Container Registry to Artifact Registry. For more information on the available
+  tools, see <a href=\"https://cloud.google.com/artifact-registry/docs/transition/auto-migrate-gcr-ar\">Automate
+  migration to Artifact Registry</a>.</p>\n<strong class=\"release-note-product-title\">Dataform</strong>\n<h3>Feature</h3>\n<p>Granting
+  repository access to all authenticated users is available. For more information,
+  see <a href=\"https://cloud.google.com/dataform/docs/access-control#grant_public_access_to_a_repository\">Grant
+  public access to a repository</a>.</p>\n<strong class=\"release-note-product-title\">Retail
+  API</strong>\n<h3>Changed</h3>\n<p><strong>Vertex AI Search for retail: Renamed
+  in the console and documentation</strong></p>\n\n<p>The Google Cloud console has
+  been updated to show the current product name for Vertex AI Search for retail.</p>\n\n<p>You
+  might see the old names (Retail or Retail API) in some places—for example, in the
+  documentation. Google is in the process of updating content to reflect the new branding.</p>\n<strong
+  class=\"release-note-product-title\">Vertex AI Search and Conversation</strong>\n<h3>Announcement</h3>\n<p><strong>Vertex
+  AI Search: Vertex AI Search for healthcare (GA)</strong></p>\n\n<p>Vertex AI Search
+  for healthcare is Generally available (GA).  Healthcare search lets you query healthcare
+  records stored in FHIR data stores.  For more information, see <a href=\"https://cloud.google.com/generative-ai-app-builder/docs/introduction#es-and-personalize\">Vertex
+  AI Search</a>. With healthcare search, you can:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/generative-ai-app-builder/docs/create-data-store-hc\">Create
+  a healthcare search data store and import FHIR R4 data</a></li>\n<li><a href=\"https://cloud.google.com/generative-ai-app-builder/docs/create-app-hc\">Create
+  a healthcare search app</a></li>\n<li><a href=\"https://cloud.google.com/generative-ai-app-builder/docs/search-hc-data\">Search
+  healthcare data using keywords and natural language queries</a></li>\n<li><a href=\"https://cloud.google.com/generative-ai-app-builder/docs/search-hc-data#nl-search-genAI\">Search
+  healthcare data using natural language queries with generative AI answers</a> (Private
+  preview)</li>\n</ul>\n<h3>Feature</h3>\n<p><strong>Vertex AI Search: Specify a parser
+  for unstructured content (Public preview)</strong></p>\n\n<p>You can control how
+  documents are parsed when they are uploaded to Vertex AI Search. Parser specification
+  is available in Public preview.</p>\n\n<p>Vertex AI Search provides a digital parser
+  (GA), an OCR parser for PDFs (Public preview), and a layout parser (Public Preview). During
+  data store creation for generic search apps with unstructured data, you can set
+  a default parser for the data store and an override parser for specific file types.</p>\n\n<p>For
+  more information, see <a href=\"https://cloud.google.com/generative-ai-app-builder/docs/parse-chunk-documents#parsing\">Parse
+  documents</a>. </p>\n<h3>Feature</h3>\n<p><strong>Vertex AI Search: Turn on document
+  chunking (Public preview)</strong></p>\n\n<p>To use Vertex AI Search for retrieval-augmented
+  generation (RAG) for LLMs, you can turn on document chunking when creating a data
+  store. Document chunking is available in Public preview.</p>\n\n<p>When document
+  chunking is turned on, your documents are split into chunks when you ingest documents
+  into your data store, and your search app can return chunks of data in search results
+  instead of full documents. Using chunked data for RAG increases relevance for LLM
+  answers and reduces computational load for LLMs. Document chunking is in Public
+  preview. For more information, see <a href=\"https://cloud.google.com/generative-ai-app-builder/docs/parse-chunk-documents#parse-chunk-rag\">Chunk
+  documents for RAG</a>. </p>\n<h3>Feature</h3>\n<p><strong>Vertex AI Search: Connect
+  ServiceNow as a data source (Private preview)</strong></p>\n\n<p>You can connect
+  ServiceNow as a third-party data source for Vertex AI Search. For more information,
+  see <a href=\"https://cloud.google.com/generative-ai-app-builder/docs/connect-third-party-data-source\">Connect
+  a third-party data source</a>.</p>\n\n    "
+title_type:
+published: &1 2024-03-12 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_12_2024
+title: March 12, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

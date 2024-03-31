@@ -1,0 +1,428 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#February_29_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#February_29_2024
+content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</strong>\n<h3>Announcement</h3>\n<p><a
+  href=\"https://cloud.google.com/alloydb/docs/ai/\">AlloyDB AI</a> is now generally
+  available (<a href=\"https://cloud.google.com/products#product-launch-stages\">GA</a>).</p>\n<h3>Feature</h3>\n<p><a
+  href=\"https://cloud.google.com/alloydb/docs/omni\">AlloyDB Omni</a> version 15.5.0
+  is now available. This version includes the following features and changes:</p>\n\n<ul>\n<li>When
+  <a href=\"https://cloud.google.com/alloydb/docs/omni/install\">installing AlloyDB
+  Omni using its command-line tool</a>, you can now specify the TCP port that the
+  instance accepts connections on.</li>\n<li>Automated failover for <a href=\"https://cloud.google.com/alloydb/docs/omni/kubernetes-ha\">highly
+  available (HA) Kubernetes-based clusters</a> is available in Preview.</li>\n<li>The
+  following extensions are updated:\n<ul>\n<li>Updated <code>pg_cron</code> to version
+  1.6.</li>\n<li>Updated <code>pg_repack</code> to version 1.5.0.</li>\n<li>Updated
+  <code>pgfincore</code> to version 1.3.1.</li>\n<li>Updated <code>pglogical</code>
+  to version 2.4.4.</li>\n<li>Updated <code>pgvector</code> to version 0.5.1.</li>\n</ul></li>\n<li>The
+  following extensions are now included:\n<ul>\n<li>Added <code>autoinc</code> version
+  1.0.</li>\n<li>Added <code>insert_username</code> version 1.0.</li>\n<li>Added <code>moddatetime</code>
+  version 1.0.</li>\n<li>Added <code>tcn</code> version 1.0.</li>\n</ul></li>\n<li>Updated
+  core PostgreSQL compatibility to version 15.5.</li>\n<li>Applied <a href=\"https://www.postgresql.org/support/security/CVE-2024-0985/\">security
+  fix CVE-2024-0985</a> from PostgreSQL.</li>\n<li>Various bug fixes and performance
+  improvements.</li>\n</ul>\n<h3>Breaking</h3>\n<p>The return value of the <code>embedding()</code>
+  function of <code>google_ml_integration</code> has changed.\nThe <code>embedding()</code>
+  function now returns an array of <code>REAL</code> values, and not a <code>VECTOR</code>
+  value. This allows you to install and use the extension without the requirement
+  of installing <code>pgvector</code> as well.</p>\n\n<p>If you wrote application
+  code that uses <code>embedding()</code> during the Preview of AlloyDB AI, then you
+  might need to update it to add explicit casting from the <code>REAL[]</code> data
+  type to the <code>VECTOR</code> data type. For more information, see <a href=\"https://cloud.google.com/alloydb/docs/ai/work-with-embeddings\">Work
+  with vector embeddings</a>.</p>\n<h3>Changed</h3>\n<p>A <a href=\"https://cloud.google.com/alloydb/docs/omni/quickstart\">revised
+  quickstart</a> helps you install and run AlloyDB Omni on a Debian or Ubuntu system
+  using a handful of commands.</p>\n<strong class=\"release-note-product-title\">BigQuery</strong>\n<h3>Feature</h3>\n<p>The
+  following BigQuery cross-cloud features are now\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>\n(GA):</p>\n\n<ul>\n<li>You can take advantage of the benefits of\n<a
+  href=\"https://cloud.google.com/bigquery/docs/materialized-views-intro#biglake\">materialized
+  views over Amazon S3 metadata cache-enabled BigLake tables</a>.</li>\n<li>You can
+  create\n<a href=\"https://cloud.google.com/bigquery/docs/materialized-views-intro#materialized_view_replicas\">materialized
+  view replicas</a>\nof materialized views over Amazon S3 metadata cache-enabled Biglake
+  tables.\nMaterialized view replicas let you use the materialized view data in\nqueries
+  while avoiding data egress costs and improving query performance.</li>\n<li>You
+  can\n<a href=\"https://cloud.google.com/bigquery/docs/materialized-view-replicas-manage#get-info\">get
+  information about materialized view replicas</a>    by using SQL, the bq command-line
+  tool, or the BigQuery API.</li>\n<li>You can use <a href=\"https://cloud.google.com/bigquery/docs/biglake-intro#cross-cloud_joins\">cross-cloud
+  joins</a> to run queries that span both Google Cloud and BigQuery Omni regions.</li>\n</ul>\n<h3>Feature</h3>\n<p>The
+  consolidated SQL translator API combines the interactive and batch translator into
+  a single workflow, improving the efficiency and stability of your <a href=\"https://cloud.google.com/bigquery/docs/batch-sql-translator#api\">translation
+  jobs created using the API</a>. This feature is available in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n<strong
+  class=\"release-note-product-title\">Data Catalog</strong>\n<h3>Announcement</h3>\n<p>Data
+  Catalog is now available in the Frankfurt (<code>aws-eu-central-1</code>), Sydney
+  (<code>aws-ap-southeast-2</code>) and Washington (<code>azure-westus2</code>) regions.
+  For more information on region and feature availability, see <a href=\"https://cloud.google.com/data-catalog/docs/concepts/regions\">regions</a>.</p>\n<strong
+  class=\"release-note-product-title\">Dataproc</strong>\n<h3>Announcement</h3>\n<p>New
+  <a href=\"https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions\">Dataproc
+  Serverless for Spark runtime versions</a>:</p>\n\n<ul>\n<li>1.1.52</li>\n<li>2.0.60</li>\n<li>2.1.39</li>\n<li>2.2.0-RC12</li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Document AI</strong>\n<h3>Feature</h3>\n<p>The
+  Custom Extractor supports three levels of nesting so you can easily extract structured
+  data from complex documents and tables (earnings reports, tax forms, invoices, resumes,
+  etc.). Learn how to use <a href=\"https://cloud.google.com/document-ai/docs/workbench/cde-with-genai#three-level_nesting\">three
+  levels of nesting</a>. </p>\n<h3>Feature</h3>\n<p>The Custom Extractor with generative
+  AI is now available in the asia-southeast1 (Singapore) regions. For more information,
+  see <a href=\"https://cloud.google.com/document-ai/docs/processors-list#custom_processors\">Custom
+  processors</a>.</p>\n<h3>Feature</h3>\n<p>See the model type, generative or custom,
+  powering a Custom Extractor processor version by <a href=\"https://cloud.google.com/document-ai/docs/reference/rest/v1/projects.locations.processors.processorVersions#modeltype\">getting
+  the model type from the processorVersions API</a>.</p>\n<strong class=\"release-note-product-title\">Google
+  Distributed Cloud Virtual for VMware</strong>\n<h3>Announcement</h3>\n<p>GKE  on
+  VMware 1.16.6-gke.40 is now available. To upgrade, see\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/1.16/how-to/upgrading\">Upgrading
+  GKE on VMware</a>.\nGKE on VMware 1.16.6-gke.40 runs on Kubernetes v1.27.8-gke.1500.</p>\n\n<p>If
+  you are using a third-party storage vendor, check the\n<a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a>\ndocument to make sure the storage vendor has already
+  passed the qualification\nfor this release of GKE on VMware.</p>\n<h3>Fixed</h3>\n<p>The
+  following issues are fixed in1.16.6-gke.40:</p>\n\n<ul>\n<li>Fixed the\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#kubelet-is-flooded-with-logs-stating-that-etckubernetesmanifests-does-not-exist-on-the-worker-nodes\">known
+  issue</a>\nthat caused kubelet to be flooded with logs stating that\n<code>/etc/kubernetes/manifests</code>
+  does not exist on the worker nodes.</li>\n<li>Fixed the \n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#preflight-check-fails-when-the-hostname-isnt-in-the-ip-block-file.\">known
+  issue</a>\nthat caused a preflight check to fail when the hostname isn&#39;t in
+  the IP\nblock file.</li>\n<li>Fixed the manual load balancer issue where the IngressIP
+  is overwritten\nwith the Spec.LoadBalancerIP even if it is empty.</li>\n<li>Fixed\nthe<a
+  href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#1.15-user-master-machine-encounters-an-unexpected-recreation-when-the-user-cluster-controller-is-upgraded-to-1.16\">
+  known issue</a>\n where a 1.15 user master machine encountered an unexpected recreation
+  when\nthe user cluster controller was upgraded to 1.16.</li>\n</ul>\n\n<p>The following
+  vulnerabilities are fixed in1.16.6-gke.40:</p>\n\n<ul>\n<li><p>Critical container
+  vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1996\">CVE-2022-1996</a></li>\n</ul></li>\n<li><p>High-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5517\">CVE-2023-5517</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4408\">CVE-2023-4408
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26147\">CVE-2024-26147</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499\">CVE-2023-29499</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27533\">CVE-2023-27533</a></p></li>\n</ul></li>\n<li><p>Container-optimized
+  OS vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6531\">CVE-2023-6531</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6915\">CVE-2023-6915</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0646\">CVE-2024-0646
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7104\">CVE-2023-7104
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6040\">CVE-2023-6040
+  </a></p></li>\n</ul></li>\n<li><p>Ubuntu vulnerabilities:</p>\n\n<ul>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6040\">CVE-2023-6040</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6606\">CVE-2023-6606</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6817\">CVE-2023-6817</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6931\">CVE-2023-6931</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6932\">CVE-2023-6932</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0193\">CVE-2024-0193</a></p></li>\n</ul></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Memorystore for Redis</strong>\n<h3>Feature</h3>\n<p>Added
+  support for vector store and vector search capabilities (Preview). For more details,
+  see <a href=\"https://cloud.google.com/memorystore/docs/redis/about-vector-search\">About
+  vector search</a>.</p>\n<strong class=\"release-note-product-title\">Security Command
+  Center</strong>\n<h3>Feature</h3>\n<p><strong>Security Command Center API v2 released
+  to Preview</strong></p>\n\n<p>The Security Command Center API v2, which enables
+  data residency control and includes the <code>/locations/<var>LOCATION</var></code>
+  field in resource names, is released to <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>\n\n<p>For
+  more information, see the REST reference <a href=\"https://cloud.google.com/security-command-center/docs/reference/rest\">Security
+  Command Center API Overview</a>.</p>\n<h3>Feature</h3>\n<p><strong>Data residency
+  for Security Command Center release to Preview</strong></p>\n\n<p>Security Command
+  Center data residency control is released to <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.
+  Security Command Center supports the following data locations:</p>\n\n<ul>\n<li>European
+  Union (<code>eu</code>)</li>\n<li>United States (<code>us</code>)</li>\n<li>Global
+  (<code>global</code>)</li>\n</ul>\n\n<p>For more information, see <a href=\"https://cloud.google.com/security-command-center/docs/data-residency-support\">Data
+  residency</a>.</p>\n<strong class=\"release-note-product-title\">Spanner</strong>\n<h3>Feature</h3>\n<p>Spanner
+  regional endpoint is now available in <code>me-central2</code>. You can use regional
+  endpoints if your data location must be restricted and controlled to comply with
+  regulatory requirements. For more information, see <a href=\"https://cloud.google.com/spanner/docs/endpoints\">Global
+  and regional service endpoints</a>.</p>\n<h3>Libraries</h3>\n<p>February 2024 Client
+  libraries release note </p>\n\n<p>A monthly digest of client library updates from
+  across the <a href=\"https://cloud.google.com/sdk\">Cloud SDK</a>.</p>\n<div class=\"ds-selector-tabs\"
+  data-ds-scope=\"code-sample\">\n<section><h3 track-name=\"go\">Go</h3><h3 target=\"_blank\"
+  rel=\"noreferrer noopener\" id=\"changes_for_spanneradmindatabaseapiv1\" class=\"external\">Changes
+  for <a href=\"https://github.com/googleapis/google-cloud-go/tree/main/spanner/admin/database/apiv1\">spanner/admin/database/apiv1</a></h3>\n\n<h4
+  id=\"1560_2024-01-30\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/spanner/v1.55.0...spanner/v1.56.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.56.0</a> (2024-01-30)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li><strong>spanner/admin/database:</strong>
+  Add proto descriptors for proto and enum types in create/update/get database ddl
+  requests (<a href=\"https://github.com/googleapis/google-cloud-go/commit/97d62c7a6a305c47670ea9c147edc444f4bf8620\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">97d62c7</a>)</li>\n<li><strong>spanner/spansql:</strong>
+  Add support for CREATE VIEW with SQL SECURITY DEFINER (<a href=\"https://github.com/googleapis/google-cloud-go/issues/8754\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#8754</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/5f156e8c88f4729f569ee5b4ac9378dda3907997\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">5f156e8</a>)</li>\n<li><strong>spanner:</strong>
+  Add FLOAT32 enum to TypeCode (<a href=\"https://github.com/googleapis/google-cloud-go/commit/97d62c7a6a305c47670ea9c147edc444f4bf8620\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">97d62c7</a>)</li>\n<li><strong>spanner:</strong>
+  Add max_commit_delay API (<a href=\"https://github.com/googleapis/google-cloud-go/commit/af2f8b4f3401c0b12dadb2c504aa0f902aee76de\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">af2f8b4</a>)</li>\n<li><strong>spanner:</strong>
+  Add proto and enum types (<a href=\"https://github.com/googleapis/google-cloud-go/commit/00b990061592a20a181e61faa6964b45205b76a7\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">00b9900</a>)</li>\n<li><strong>spanner:</strong>
+  Add SelectAll method to decode from Spanner iterator.Rows to golang struct (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9206\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9206</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/802088f1322752bb9ce9bab1315c3fed6b3a99aa\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">802088f</a>)</li>\n</ul>\n\n<h4
+  id=\"1570_2024-02-13\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/spanner/v1.56.0...spanner/v1.57.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.57.0</a> (2024-02-13)</h4>\n\n<h5
+  id=\"features_2\">Features</h5>\n\n<ul>\n<li><strong>spanner:</strong> Add OpenTelemetry
+  implementation (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9254\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9254</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/fc51cc2ac71e8fb0b3e381379dc343630ed441e7\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">fc51cc2</a>)</li>\n<li><strong>spanner:</strong>
+  Support max_commit_delay in Spanner transactions (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9299\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9299</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/a8078f0b841281bd439c548db9d303f6b5ce54e6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a8078f0</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li><strong>spanner:</strong> Enable universe
+  domain resolution options (<a href=\"https://github.com/googleapis/google-cloud-go/commit/fd1d56930fa8a747be35a224611f4797b8aeb698\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">fd1d569</a>)</li>\n<li><strong>spanner:</strong>
+  Internal test package should import local version (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9416\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9416</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/f377281a73553af9a9a2bee2181efe2e354e1c68\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f377281</a>)</li>\n<li><strong>spanner:</strong>
+  SelectAll struct fields match should be case-insensitive (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9417\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9417</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/7ff535672b868e6cba54abdf5dd92b9199e4d1d4\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7ff5356</a>)</li>\n<li><strong>spanner:</strong>
+  Support time.Time and other custom types using SelectAll (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9382\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9382</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/dc21234268b08a4a21b2b3a1ed9ed74d65a289f0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">dc21234</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation\">Documentation</h5>\n\n<ul>\n<li><strong>spanner:</strong> Update
+  the comment regarding eligible SQL shapes for PartitionQuery (<a href=\"https://github.com/googleapis/google-cloud-go/commit/e60a6ba01acf2ef2e8d12e23ed5c6e876edeb1b7\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e60a6ba</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-spanner\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-spanner\">google-cloud-spanner</a></h3>\n\n<h4
+  id=\"6570_2024-01-29\"><a href=\"https://github.com/googleapis/java-spanner/compare/v6.56.0...v6.57.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6.57.0</a> (2024-01-29)</h4>\n\n<h5
+  id=\"features_3\">Features</h5>\n\n<ul>\n<li>Add FLOAT32 enum to TypeCode (<a href=\"https://github.com/googleapis/java-spanner/issues/2800\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2800</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/383fea5b5dc434621585a1b5cfd128a01780472a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">383fea5</a>)</li>\n<li>Add
+  support for Proto Columns (<a href=\"https://github.com/googleapis/java-spanner/issues/2779\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2779</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/30d37dd80c91b2dffdfee732677607ce028fb8d2\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">30d37dd</a>)</li>\n<li><strong>spanner:</strong>
+  Add proto descriptors for proto and enum types in create/update/get database ddl
+  requests (<a href=\"https://github.com/googleapis/java-spanner/issues/2774\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2774</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/4a906bf2719c30dcd7371f497a8a28c250db77be\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">4a906bf</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_2\">Bug Fixes</h5>\n\n<ul>\n<li>Remove google-cloud-spanner-executor
+  from the BOM (<a href=\"https://github.com/googleapis/java-spanner/issues/2844\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2844</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/655000a3b0471b279cbcbe8a4a601337e7274ef8\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">655000a</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:google-cloud-shared-dependencies
+  to v3.22.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2785\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2785</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/f689f742d8754134523ed0394b9c1b8256adcae2\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f689f74</a>)</li>\n<li>Update
+  dependency com.google.cloud:google-cloud-shared-dependencies to v3.23.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2801\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2801</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/95f064f9f60a17de375e532ec6dd78dca0743e79\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">95f064f</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation_2\">Documentation</h5>\n\n<ul>\n<li>Samples and tests for instance
+  APIs. (<a href=\"https://github.com/googleapis/java-spanner/issues/2768\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2768</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/88e24c7a7d046056605a2a824450e0153b339c86\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">88e24c7</a>)</li>\n</ul>\n\n<h4
+  id=\"6580_2024-02-08\"><a href=\"https://github.com/googleapis/java-spanner/compare/v6.57.0...v6.58.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6.58.0</a> (2024-02-08)</h4>\n\n<h5
+  id=\"features_4\">Features</h5>\n\n<ul>\n<li>Open telemetry implementation (<a href=\"https://github.com/googleapis/java-spanner/issues/2770\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2770</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/244d6a836795bf07dacd6b766436dbd6bf5fa912\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">244d6a8</a>)</li>\n<li><strong>spanner:</strong>
+  Support max_commit_delay in Spanner transactions (<a href=\"https://github.com/googleapis/java-spanner/issues/2854\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2854</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/e2b7ae66648ea775c18c71ab353edd6c0f50e7ac\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e2b7ae6</a>)</li>\n<li>Support
+  Directed Read in Connection API (<a href=\"https://github.com/googleapis/java-spanner/issues/2855\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2855</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/ee477c2e7c509ce4b7c43da3b68c1433c59e46fb\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">ee477c2</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_3\">Bug Fixes</h5>\n\n<ul>\n<li>Cast for Proto type (<a href=\"https://github.com/googleapis/java-spanner/issues/2862\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2862</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/0a95dba47681c9c4cc4e41ecfb5dadec6357bff6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">0a95dba</a>)</li>\n<li>Ignore
+  UnsupportedOperationException for virtual threads (<a href=\"https://github.com/googleapis/java-spanner/issues/2866\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2866</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/aa9ad7f5a5e2405e8082a542916c3d1fa7d0fa25\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">aa9ad7f</a>)</li>\n<li>Use
+  default query options with statement cache (<a href=\"https://github.com/googleapis/java-spanner/issues/2860\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2860</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/741e4cf4eb51c4635078cfe2c52b7462bd4cbbd8\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">741e4cf</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies_2\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:google-cloud-shared-dependencies
+  to v3.24.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2856\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2856</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/968877e4eff7da3ff27180c2a6129b04922d1af4\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">968877e</a>)</li>\n</ul>\n\n<h4
+  id=\"6590_2024-02-15\"><a href=\"https://github.com/googleapis/java-spanner/compare/v6.58.0...v6.59.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6.59.0</a> (2024-02-15)</h4>\n\n<h5
+  id=\"features_5\">Features</h5>\n\n<ul>\n<li>Support public methods to use autogenerated
+  admin clients. (<a href=\"https://github.com/googleapis/java-spanner/issues/2878\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2878</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/53bcb3eca2e814472c3def24e8e03d47652a8e42\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">53bcb3e</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies_3\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:sdk-platform-java-config
+  to v3.25.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2888\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2888</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/8e2da5126263c7acd134fb7fcfeb590ca190ce8e\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">8e2da51</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation_3\">Documentation</h5>\n\n<ul>\n<li>README for OpenTelemetry
+  metrics and traces (<a href=\"https://github.com/googleapis/java-spanner/issues/2880\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2880</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/c8632f5b2f462420a8c2a1f4308a68a18a414472\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">c8632f5</a>)</li>\n<li>Samples
+  and tests for database Admin APIs. (<a href=\"https://github.com/googleapis/java-spanner/issues/2775\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2775</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/14ae01cd82e455a0dc22d7e3bb8c362e541ede12\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">14ae01c</a>)</li>\n</ul>\n\n<h4
+  id=\"6600_2024-02-21\"><a href=\"https://github.com/googleapis/java-spanner/compare/v6.59.0...v6.60.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6.60.0</a> (2024-02-21)</h4>\n\n<h5
+  id=\"features_6\">Features</h5>\n\n<ul>\n<li>Add an API method for reordering firewall
+  policies (<a href=\"https://github.com/googleapis/java-spanner/commit/62319f032163c4ad3e8771dd5f92e7b8a086b5ee\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">62319f0</a>)</li>\n<li><strong>spanner:</strong>
+  Add field for multiplexed session in spanner.proto (<a href=\"https://github.com/googleapis/java-spanner/commit/62319f032163c4ad3e8771dd5f92e7b8a086b5ee\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">62319f0</a>)</li>\n<li>Update
+  TransactionOptions to include new option exclude_txn_from_change_streams (<a href=\"https://github.com/googleapis/java-spanner/issues/2853\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2853</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/62319f032163c4ad3e8771dd5f92e7b8a086b5ee\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">62319f0</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_4\">Bug Fixes</h5>\n\n<ul>\n<li>Add ensureDecoded to proto type (<a
+  href=\"https://github.com/googleapis/java-spanner/issues/2897\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2897</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/e99b78c5d810195d368112eed2b185d2d99e62a9\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e99b78c</a>)</li>\n<li><strong>spanner:</strong>
+  Fix write replace used by dataflow template and import export (<a href=\"https://github.com/googleapis/java-spanner/issues/2901\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2901</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/64b90429d4fe53f8509a3923e046406b4bc5876a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">64b9042</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies_4\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:google-cloud-trace
+  to v2.36.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2749\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2749</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/51a348a0c2b84106ea763721bed3420a0d07f30a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">51a348a</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation_4\">Documentation</h5>\n\n<ul>\n<li>Update comments (<a href=\"https://github.com/googleapis/java-spanner/commit/62319f032163c4ad3e8771dd5f92e7b8a086b5ee\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">62319f0</a>)</li>\n<li>Update
+  the comment regarding eligible SQL shapes for PartitionQuery (<a href=\"https://github.com/googleapis/java-spanner/commit/62319f032163c4ad3e8771dd5f92e7b8a086b5ee\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">62319f0</a>)</li>\n</ul>\n\n<h4
+  id=\"6601_2024-02-23\"><a href=\"https://github.com/googleapis/java-spanner/compare/v6.60.0...v6.60.1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6.60.1</a> (2024-02-23)</h4>\n\n<h5
+  id=\"dependencies_5\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:google-cloud-monitoring
+  to v3.37.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2920\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2920</a>) (<a href=\"https://github.com/googleapis/java-spanner/commit/a3441bbad546a1aac1349d6e142a4ac8d32d2a90\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a3441bb</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:native-maven-plugin to v0.10.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2861\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2861</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/a652c3b6ef6d6ed87d581e73a26a5086acdc5f07\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a652c3b</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:native-maven-plugin to v0.10.1 (<a href=\"https://github.com/googleapis/java-spanner/issues/2919\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2919</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/8800a2894a1c17bde1a0da3ffcc868f10f7690d5\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">8800a28</a>)</li>\n<li>Update
+  dependency org.json:json to v20240205 (<a href=\"https://github.com/googleapis/java-spanner/issues/2913\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2913</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/277ed81a0beb95ea57f95a9660a4a6b6adea645b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">277ed81</a>)</li>\n<li>Update
+  dependency org.junit.vintage:junit-vintage-engine to v5.10.2 (<a href=\"https://github.com/googleapis/java-spanner/issues/2868\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2868</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/71a65ecee5af63996297f8692d569d2a9acfd8ac\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">71a65ec</a>)</li>\n<li>Update
+  opentelemetry.version to v1.35.0 (<a href=\"https://github.com/googleapis/java-spanner/issues/2902\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2902</a>) (<a
+  href=\"https://github.com/googleapis/java-spanner/commit/3286eaea96a40c6ace8abed22040a637d291b09c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3286eae</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"node.js\">Node.js</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloudspanner\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/nodejs-spanner\">@google-cloud/spanner</a></h3>\n\n<h4
+  id=\"730_2024-02-08\"><a href=\"https://github.com/googleapis/nodejs-spanner/compare/v7.2.0...v7.3.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7.3.0</a> (2024-02-08)</h4>\n\n<h5
+  id=\"features_7\">Features</h5>\n\n<ul>\n<li><strong>spanner:</strong> Add maxCommitDelay
+  support (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1992\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1992</a>) (<a href=\"https://github.com/googleapis/nodejs-spanner/commit/9f8440843fd8926a37ec300a318dad33b83b4f97\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">9f84408</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_5\">Bug Fixes</h5>\n\n<ul>\n<li><strong>deps:</strong> Update dependency
+  google-gax to v4.1.0 (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1981\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1981</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/2a36150cb61e9abeef073724189cc651d29d8776\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2a36150</a>)</li>\n<li><strong>deps:</strong>
+  Update dependency google-gax to v4.2.0 (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1988\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1988</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/005589a7727ee87948a55a6c7710f5150fc1c6a7\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">005589a</a>)</li>\n<li><strong>deps:</strong>
+  Update dependency google-gax to v4.2.1 (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1989\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1989</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/d2ae9952e7449ce2321e69a6be36c9d50d863095\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">d2ae995</a>)</li>\n<li><strong>deps:</strong>
+  Update dependency google-gax to v4.3.0 (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1990\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1990</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/e625753a37393f32d9e449aa7324763082f6c923\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e625753</a>)</li>\n</ul>\n\n<h4
+  id=\"740_2024-02-23\"><a href=\"https://github.com/googleapis/nodejs-spanner/compare/v7.3.0...v7.4.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7.4.0</a> (2024-02-23)</h4>\n\n<h5
+  id=\"features_8\">Features</h5>\n\n<ul>\n<li><strong>spanner:</strong> Add PG.OID
+  support (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1948\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1948</a>) (<a href=\"https://github.com/googleapis/nodejs-spanner/commit/cf9df7a54c21ac995bbea9ad82c3544e4aff41b6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">cf9df7a</a>)</li>\n<li>Untyped
+  param types (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1869\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1869</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/6ef44c383a90bf6ae95de531c83e21d2d58da159\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6ef44c3</a>)</li>\n<li>Update
+  TransactionOptions to include new option exclude_txn_from_change_streams (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1998\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1998</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/937a7a13f8c7660e21d34ebbaecad426b2bacd99\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">937a7a1</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_6\">Bug Fixes</h5>\n\n<ul>\n<li><strong>deps:</strong> Update dependency
+  google-gax to v4.3.1 (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/1995\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1995</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/bed4832445e72c7116fe5495c79d989664220b38\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">bed4832</a>)</li>\n<li>Only
+  reset pending value with resume token (<a href=\"https://github.com/googleapis/nodejs-spanner/issues/2000\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2000</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-spanner/commit/f337089567d7d92c9467e311be7d72b0a7dc8047\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f337089</a>), closes
+  <a href=\"https://github.com/googleapis/nodejs-spanner/issues/1959\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1959</a> </li>\n</ul></section>\n<section><h3
+  track-name=\"python\">Python</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloud-spanner_2\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-spanner\">google-cloud-spanner</a></h3>\n\n<h4
+  id=\"3420_2024-01-30\"><a href=\"https://github.com/googleapis/python-spanner/compare/v3.41.0...v3.42.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3.42.0</a> (2024-01-30)</h4>\n\n<h5
+  id=\"features_9\">Features</h5>\n\n<ul>\n<li>Add FLOAT32 enum to TypeCode  (<a href=\"https://github.com/googleapis/python-spanner/commit/5b94dac507cebde2025d412da0a82373afdbdaf5\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">5b94dac</a>)</li>\n<li>Add
+  max_commit_delay API (<a href=\"https://github.com/googleapis/python-spanner/issues/1078\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1078</a>) (<a
+  href=\"https://github.com/googleapis/python-spanner/commit/ec87c082570259d6e16834326859a73f6ee8286a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">ec87c08</a>)</li>\n<li>Add
+  proto descriptors for proto and enum types in create/update/get database ddl requests
+  (<a href=\"https://github.com/googleapis/python-spanner/commit/5b94dac507cebde2025d412da0a82373afdbdaf5\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">5b94dac</a>)</li>\n<li>Fixing
+  and refactoring transaction retry logic in dbapi. Also adding interceptors support
+  for testing (<a href=\"https://github.com/googleapis/python-spanner/issues/1056\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1056</a>) (<a
+  href=\"https://github.com/googleapis/python-spanner/commit/6640888b7845b7e273758ed9a6de3044e281f555\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6640888</a>)</li>\n<li>Implementation
+  of run partition query (<a href=\"https://github.com/googleapis/python-spanner/issues/1080\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1080</a>) (<a
+  href=\"https://github.com/googleapis/python-spanner/commit/f3b23b268766b6ff2704da18945a1b607a6c8909\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f3b23b2</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_7\">Bug Fixes</h5>\n\n<ul>\n<li>Few fixes in DBAPI (<a href=\"https://github.com/googleapis/python-spanner/issues/1085\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1085</a>) (<a
+  href=\"https://github.com/googleapis/python-spanner/commit/1ed5a47ce9cfe7be0805a2961b24d7b682cda2f3\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1ed5a47</a>)</li>\n<li>Small
+  fix in description when metadata is not present in cursor&#39;s _result_set (<a
+  href=\"https://github.com/googleapis/python-spanner/issues/1088\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1088</a>) (<a href=\"https://github.com/googleapis/python-spanner/commit/57643e66a64d9befeb27fbbad360613ff69bd48c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">57643e6</a>)</li>\n<li><strong>spanner:</strong>
+  Add SpannerAsyncClient import to spanner_v1 package (<a href=\"https://github.com/googleapis/python-spanner/issues/1086\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1086</a>) (<a
+  href=\"https://github.com/googleapis/python-spanner/commit/2d98b5478ee201d9fbb2775975f836def2817e33\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2d98b54</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation_5\">Documentation</h5>\n\n<ul>\n<li>Samples and tests for auto-generated
+  createDatabase and createInstance APIs. (<a href=\"https://github.com/googleapis/python-spanner/issues/1065\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1065</a>) (<a
+  href=\"https://github.com/googleapis/python-spanner/commit/16c510eeed947beb87a134c64ca83a37f90b03fb\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">16c510e</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Vertex AI</strong>\n<h3>Feature</h3>\n<p><strong><a
+  href=\"https://cloud.google.com/vertex-ai/docs/vector-search/overview\">Vector Search</a>
+  feature launch</strong></p>\n\n<p><strong>Update streaming index metadata</strong>:
+  With this launch, you can directly update restricts and numeric restricts of data
+  points inside <code>StreamUpdate</code> indexes without the compaction cost of a
+  full update. To learn more, see <a href=\"https://cloud.google.com/vertex-ai/docs/vector-search/update-rebuild-index#update-metadata\">Update
+  dynamic metadata</a>.  </p>\n<strong class=\"release-note-product-title\">reCAPTCHA
+  Enterprise</strong>\n<h3>Changed</h3>\n<p>reCAPTCHA Enterprise Mobile SDK v18.5.0-beta01
+  is now available for iOS.</p>\n\n<p>This version contains the following changes:</p>\n\n<ul>\n<li>The
+  new minimum iOS version is iOS 12.</li>\n<li>New exception type is added for devices
+  without a network connection: NO_NETWORK_FOUND.</li>\n</ul>\n\n    "
+title_type:
+published: &1 2024-02-29 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#February_29_2024
+title: February 29, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

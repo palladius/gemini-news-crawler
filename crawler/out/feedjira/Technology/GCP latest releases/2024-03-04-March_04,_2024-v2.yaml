@@ -1,0 +1,400 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_04_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_04_2024
+content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</strong>\n<h3>Feature</h3>\n<p>You
+  can now use Key Access Justifications when <a href=\"https://cloud.google.com/alloydb/docs/cmek#ekm\">working
+  with external CMEK keys</a>. This lets you view and manage external key access requests.</p>\n<strong
+  class=\"release-note-product-title\">Anthos Service Mesh</strong>\n<h3>Announcement</h3>\n<p>Managed
+  Anthos Service Mesh 1.18 has completed its rollout in the rapid channel. See <a
+  href=\"https://cloud.google.com/service-mesh/docs/managed/select-a-release-channel\">Managed
+  Anthos Service Mesh release channels</a> for more information.</p>\n<strong class=\"release-note-product-title\">Anti
+  Money Laundering AI</strong>\n<h3>Announcement</h3>\n<p>AML AI has improved handling
+  of supplementary risk indicators included in your datasets. This includes:</p>\n\n<ul>\n<li>Release
+  of new engine versions within both v003 and v004, improving usability of party supplementary
+  data. You can now use letters, numbers, and underscores for the <a href=\"https://cloud.google.com/financial-services/anti-money-laundering/docs/reference/schemas/aml-input-data-model#partysupplementarydata\">party
+  supplementary data ID</a>.</li>\n<li>Addition of new data validations for party
+  supplementary data IDs.</li>\n</ul>\n<h3>Feature</h3>\n<p>Save time and cost when
+  adopting new EngineVersions:</p>\n\n<ul>\n<li>For new engine versions, including
+  versions in v003 and v004, you can now inherit hyperparameters from an existing
+  engine config instead of re-tuning. This leads to quicker creation, and there are
+  no additional costs for tuning.</li>\n<li>All of your existing engine versions can
+  be used as a source for inheriting hyperparameters.</li>\n<li>See <a href=\"https://cloud.google.com/financial-services/anti-money-laundering/docs/configure-engine\">Configure
+  an Engine</a> to find out more about how this works.</li>\n</ul>\n<strong class=\"release-note-product-title\">Apigee
+  Advanced API Security</strong>\n<h3>Announcement</h3>\n<p>On March 4, 2024 we released
+  an updated version of Advanced API Security.</p>\n<h3>Feature</h3>\n<p><strong>New
+  conditions for security actions</strong></p>\n\n<p>You can now create <a href=\"https://cloud.google.com/apigee/docs/api-security/security-actions\">security
+  actions</a> based on the following condition types (in addition to the condition
+  types for Detection rules and IP addresses that were already available):</p>\n\n<ul>\n<li>API
+  keys</li>\n<li>API products</li>\n<li>Access tokens</li>\n<li>Developers</li>\n<li>Developer
+  apps</li>\n<li>User agents</li>\n</ul>\n\n<p><strong>These new conditions are not
+  available with Apigee hybrid at this time.</strong></p>\n\n<p>See <a href=\"https://cloud.google.com/apigee/docs/api-security/security-actions#create-a-security-action\">Create
+  a security action</a> to learn more.</p>\n<strong class=\"release-note-product-title\">BigQuery</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"node.js\">Node.js</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloudbigquery\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/nodejs-bigquery\">@google-cloud/bigquery</a></h3>\n\n<h4
+  id=\"750_2024-02-21\"><a href=\"https://github.com/googleapis/nodejs-bigquery/compare/v7.4.0...v7.5.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7.5.0</a> (2024-02-21)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add support for TPC Universes (<a href=\"https://github.com/googleapis/nodejs-bigquery/issues/1333\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1333</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-bigquery/commit/f67a841c29f1f546187e4b670f5e5a4df50b4926\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f67a841</a>)</li>\n<li>Switch
+  timestamp representation to int64 usec (<a href=\"https://github.com/googleapis/nodejs-bigquery/issues/1332\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1332</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-bigquery/commit/fb10f036234dd5e69052ae724281d0e186f961be\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">fb10f03</a>)</li>\n<li>Update
+  types and generation script (<a href=\"https://github.com/googleapis/nodejs-bigquery/issues/1336\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1336</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-bigquery/commit/496f52c3816d6a11d17d82bceb47bb8a47522e2b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">496f52c</a>)</li>\n</ul></section>\n</div>\n<h3>Feature</h3>\n<p>You
+  can now selectively refresh the metadata cache for BigLake tables by using the\n<a
+  href=\"https://cloud.google.com/bigquery/docs/reference/system-procedures#bqrefresh_external_metadata_cache\"><code>BQ.REFRESH_EXTERNAL_METADATA_CACHE</code>
+  system procedure</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>\n(GA).</p>\n<strong class=\"release-note-product-title\">Cloud SQL
+  for PostgreSQL</strong>\n<h3>Announcement</h3>\n<p>The new maintenance version listed
+  in the <a href=\"https://cloud.google.com/sql/docs/postgres/release-notes#February_07_2024\">February
+  7th</a> entry for PostgreSQL extensions, flags, minor versions, extension versions,
+  and plugin versions is <code>[PostgreSQL version].R20240130.00_05</code>.</p>\n<strong
+  class=\"release-note-product-title\">Dataproc</strong>\n<h3>Changed</h3>\n<p><strong>Dataproc
+  Serverless for Spark</strong>: Extended Spark metrics collected for a batch now
+  include <code>executor:resultSize</code>, <code>executor:shuffleBytesWritten</code>,
+  and <code>executor:shuffleTotalBytesRead</code>. </p>\n<strong class=\"release-note-product-title\">Firestore
+  in Datastore mode</strong>\n<h3>Libraries</h3>\n<p>A weekly digest of client library
+  updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud SDK</a>.</p>\n<div
+  class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3 track-name=\"python\">Python</h3><h3
+  target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-ndb\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-ndb\">google-cloud-ndb</a></h3>\n\n<h4
+  id=\"230_2024-03-01\"><a href=\"https://github.com/googleapis/python-ndb/compare/v2.2.2...v2.3.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.3.0</a> (2024-03-01)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add field information when raising validation
+  errors. (<a href=\"https://github.com/googleapis/python-ndb/issues/956\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#956</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/17caf0b5f7d0c4d18522f676c8af990b8ff8462d\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">17caf0b</a>)</li>\n<li>Add
+  Python 3.12 (<a href=\"https://github.com/googleapis/python-ndb/issues/949\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#949</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/b5c847783b80071c2dd9e9a3dbf899230c99e64a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">b5c8477</a>)</li>\n<li>Add
+  support for google.cloud.ndb.<strong>version</strong> (<a href=\"https://github.com/googleapis/python-ndb/issues/929\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#929</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/42b3f0137caed25ac3242435b571155d2d84c78e\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">42b3f01</a>)</li>\n<li>Add
+  support for server side NOT_IN filter. (<a href=\"https://github.com/googleapis/python-ndb/issues/957\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#957</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/f0b0724d7e364cc3f3574e77076465657089b09c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f0b0724</a>)</li>\n<li>Allow
+  queries using server side IN. (<a href=\"https://github.com/googleapis/python-ndb/issues/954\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#954</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/2646cef3e2687461174a11c45f29de7b84d1fcdb\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2646cef</a>)</li>\n<li>Introduce
+  compatibility with native namespace packages (<a href=\"https://github.com/googleapis/python-ndb/issues/933\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#933</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/ccae387720a28db2686e69dfe23a2599fc4908f0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">ccae387</a>)</li>\n<li>Use
+  server side != for queries. (<a href=\"https://github.com/googleapis/python-ndb/issues/950\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#950</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/106772f031f6c37500a0d463698e59008f9bf19a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">106772f</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li>Compressed repeated to uncompressed
+  property (<a href=\"https://github.com/googleapis/python-ndb/issues/772\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#772</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/dab9edf0fc161051eb13c296cbe973b3a16b502d\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">dab9edf</a>)</li>\n<li>Repeated
+  structured property containing blob property with legacy_data (<a href=\"https://github.com/googleapis/python-ndb/issues/817\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#817</a>) (<a href=\"https://github.com/googleapis/python-ndb/issues/946\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#946</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/455f860343ff1b71232dad98cf91415492a899ca\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">455f860</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation\">Documentation</h5>\n\n<ul>\n<li><strong><strong>init</strong>:</strong>
+  Note that Firestore in Datastore Mode is supported (<a href=\"https://github.com/googleapis/python-ndb/issues/919\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#919</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/0fa75e71dfc6d56d2c0eaf214a48774b99bb959f\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">0fa75e7</a>)</li>\n<li>Correct
+  read_consistency docs. (<a href=\"https://github.com/googleapis/python-ndb/issues/948\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#948</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/7e8481db84a6d0b96cf09c38e90f47d6b7847a0b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7e8481d</a>)</li>\n<li>Fix
+  a mistaken ID description (<a href=\"https://github.com/googleapis/python-ndb/issues/943\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#943</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/51038139e45807b3a14346ded702fbe202dcfdf2\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">5103813</a>)</li>\n<li>Show
+  how to use named databases (<a href=\"https://github.com/googleapis/python-ndb/issues/932\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#932</a>) (<a href=\"https://github.com/googleapis/python-ndb/commit/182fe4e2d295768aaf016f94cb43b6b1e5572ebd\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">182fe4e</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Google Cloud Architecture Center</strong>\n<h3>Changed</h3>\n<p><a
+  href=\"https://cloud.google.com/architecture/disaster-recovery\">Architecting disaster
+  recovery for cloud infrastructure outages</a>: Added information about zonal and
+  regional resilience of <a href=\"https://cloud.google.com/architecture/disaster-recovery#speech_to_text\">Speech-to-Text</a>,
+  <a href=\"https://cloud.google.com/architecture/disaster-recovery#looker_core\">Looker</a>,
+  and <a href=\"https://cloud.google.com/architecture/disaster-recovery#cloud-ids\">Cloud
+  Intrusion Detection System</a>.</p>\n<strong class=\"release-note-product-title\">Google
+  Cloud Deploy</strong>\n<h3>Announcement</h3>\n<p>Cloud Deploy support for <a href=\"https://cloud.google.com/deploy/docs/custom-targets\">custom
+  targets</a> is now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally
+  available</a>.</p>\n<strong class=\"release-note-product-title\">Google Cloud Marketplace
+  Partners</strong>\n<h3>Changed</h3>\n<p>When you create a new private offer, or
+  replace an existing private offer, you select a payment frequency for how your customer
+  is charged. This can be monthly, quarterly, annually, or custom. For more information,
+  visit <a href=\"https://cloud.google.com/marketplace/docs/partners/offers/select-payment-schedule\">Payment
+  frequency for private offers</a>.</p>\n<strong class=\"release-note-product-title\">Google
+  Distributed Cloud Virtual for Bare Metal</strong>\n<h3>Announcement</h3>\n<h3 id=\"release_128200-gke118\">Release
+  1.28.200-gke.118</h3>\n\n<p>GKE on Bare Metal 1.28.200-gke.118 is now available
+  for <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.28/downloads\">download</a>.
+  To upgrade, see <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.28/how-to/upgrade\">Upgrade
+  clusters</a>. GKE on Bare Metal 1.28.200-gke.118 runs on Kubernetes 1.28.</p>\n\n<p>If
+  you use a third-party storage vendor, check the <a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a> document to make sure the storage vendor has already
+  passed the qualification for this release of GKE on Bare Metal. </p>\n<h3>Fixed</h3>\n<p><strong>Fixes:</strong></p>\n\n<ul>\n<li>Fixed
+  an issue where upgrades are blocked because <code>cluster-operator</code> can&#39;t\ndelete
+  stale, failing preflight check resources.</li>\n</ul>\n<h3>Fixed</h3>\n<p><strong>Fixes:</strong></p>\n\n<p>The
+  following container image security vulnerabilities have been fixed in 1.28.200-gke.118:
+  </p>\n\n<ul>\n<li><p>Critical container vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25775\">CVE-2023-25775</a></li>\n</ul></li>\n<li><p>High-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5717\">CVE-2023-5717</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6931\">CVE-2023-6931</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6932\">CVE-2023-6932</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-35827\">CVE-2023-35827</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51780\">CVE-2023-51780</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51781\">CVE-2023-51781</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51782\">CVE-2023-51782</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21626\">CVE-2024-21626</a></p></li>\n</ul></li>\n<li><p>Medium-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6004\">CVE-2023-6004</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6121\">CVE-2023-6121</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6918\">CVE-2023-6918</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44879\">CVE-2021-44879</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34324\">CVE-2023-34324</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45863\">CVE-2023-45863</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46343\">CVE-2023-46343</a></p></li>\n</ul></li>\n<li><p>Low-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5178\">CVE-2023-5178</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5197\">CVE-2023-5197</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6531\">CVE-2023-6531</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6817\">CVE-2023-6817</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46813\">CVE-2023-46813</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46862\">CVE-2023-46862</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0193\">CVE-2024-0193</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0641\">CVE-2024-0641</a></p></li>\n</ul></li>\n</ul>\n<h3>Issue</h3>\n<p><strong>Known
+  issues:</strong></p>\n\n<p>For information about the latest known issues, see <a
+  href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.28/troubleshooting/known-issues\">GKE
+  on Bare Metal known issues</a> in the Troubleshooting section.</p>\n<h3>Announcement</h3>\n<h3
+  id=\"release_11510\">Release 1.15.10</h3>\n\n<p>GKE on Bare Metal 1.15.10 is now
+  available for <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.15/downloads\">download</a>.
+  To upgrade, see <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.15/how-to/upgrade\">Upgrade
+  clusters</a>. GKE on Bare Metal 1.15.10 runs on Kubernetes 1.26.</p>\n\n<p>If you
+  use a third-party storage vendor, check the <a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a> document to make sure the storage vendor has already
+  passed the qualification for this release of GKE on Bare Metal.</p>\n<h3>Feature</h3>\n<p>GKE
+  on Bare Metal version 1.15.10 and later has been qualified on and supports Red Hat
+  Enterprise Linux (RHEL) version 8.9.</p>\n<h3>Fixed</h3>\n<p><strong>Fixes:</strong></p>\n\n<p>The
+  following container image security vulnerabilities have been fixed in 1.15.10: </p>\n\n<ul>\n<li><p>High-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499\">CVE-2023-29499</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21626\">CVE-2024-21626</a></p></li>\n</ul></li>\n<li><p>Medium-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6004\">CVE-2023-6004</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6918\">CVE-2023-6918</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32611\">CVE-2023-32611</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32665\">CVE-2023-32665</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0553\">CVE-2024-0553</a></p></li>\n</ul></li>\n</ul>\n<h3>Issue</h3>\n<p><strong>Known
+  issues:</strong></p>\n\n<p>For information about the latest known issues, see <a
+  href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.15/troubleshooting/known-issues\">GKE
+  on Bare Metal known issues</a> in the Troubleshooting section.</p>\n<strong class=\"release-note-product-title\">Google
+  Kubernetes Engine</strong>\n<h3>Feature</h3>\n<p>NVIDIA H100 (80&nbsp;GB) GPUs are
+  <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/autopilot-gpus\">now
+  available</a> in GKE Autopilot mode in versions 1.28.6-gke.1369000 or later, and
+  1.29.1-gke.1575000 or later.</p>\n<h3>Feature</h3>\n<p>GPU workloads running in
+  Autopilot mode can now be configured using the <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/autopilot-gpus\">Accelerator
+  Compute Class</a>. This configuration supports resource reservations, Compute Engine
+  committed use discounts, and a new pricing model in GKE versions 1.28.6-gke.1095000
+  and later, and 1.29.1-gke.1143000 and later.</p>\n<h3>Changed</h3>\n<p><strong>(2024-R06)
+  Version updates</strong></p>\n\n<p>GKE cluster versions have been updated.</p>\n\n<p><strong>New
+  versions available for upgrades and new clusters.</strong></p>\n\n<p>The following
+  Kubernetes versions are now available for new clusters and for\nopt-in control plane
+  upgrades and node upgrades for existing clusters. For more\ninformation on versioning
+  and upgrades, see <a href=\"https://cloud.google.com/kubernetes-engine/versioning\">GKE
+  versioning and support</a>\nand <a href=\"https://cloud.google.com/kubernetes-engine/upgrades\">Upgrades</a>.</p>\n<div
+  class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3>No channel</h3><aside
+  class=\"note\"><strong>Note:</strong><span> Your clusters might not have these versions
+  available. Rollouts are already in progress\nwhen we publish the release notes,
+  and can take multiple days to complete across all Google Cloud\nzones.</span></aside>\n<ul>\n<li>The
+  following control plane and node versions are now available:\n<ul>\n<li><a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516\">1.25.16-gke.1570000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614\">1.26.14-gke.1044000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1062000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287\">1.28.7-gke.1026000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1292\">1.29.2-gke.1060000</a></li>\n</ul></li>\n<li>The
+  following versions are no longer available:\n<ul>\n<li>1.27.10-gke.1207000</li>\n<li>1.28.6-gke.1369000</li>\n<li>1.29.1-gke.1575000</li>\n</ul></li>\n</ul></section>\n<section><h3>Stable
+  channel</h3><aside class=\"note\"><strong>Note:</strong><span> Your clusters might
+  not have these versions available. Rollouts are already in progress\nwhen we publish
+  the release notes, and can take multiple days to complete across all Google Cloud\nzones.</span></aside>\n<ul>\n<li>Version
+  <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v1278\">1.27.8-gke.1067004</a>
+  is now the default version in the Stable channel.</li>\n</ul></section>\n<section><h3>Regular
+  channel</h3><aside class=\"note\"><strong>Note:</strong><span> Your clusters might
+  not have these versions available. Rollouts are already in progress\nwhen we publish
+  the release notes, and can take multiple days to complete across all Google Cloud\nzones.</span></aside>\n<ul>\n<li>There
+  are no new releases in the Regular release channel.</li>\n</ul></section>\n<section><h3>Rapid
+  channel</h3><aside class=\"note\"><strong>Note:</strong><span> Your clusters might
+  not have these versions available. Rollouts are already in progress\nwhen we publish
+  the release notes, and can take multiple days to complete across all Google Cloud\nzones.</span></aside>\n<ul>\n<li>The
+  following versions are now available in the Rapid channel:\n<ul>\n<li><a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516\">1.25.16-gke.1570000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614\">1.26.14-gke.1044000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1062000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287\">1.28.7-gke.1026000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1292\">1.29.2-gke.1060000</a></li>\n</ul></li>\n<li>The
+  following versions are no longer available in the Rapid channel:\n<ul>\n<li>1.25.16-gke.1460000</li>\n<li>1.26.13-gke.1144000</li>\n<li>1.27.10-gke.1207000</li>\n<li>1.28.6-gke.1369000</li>\n<li>1.29.1-gke.1575000</li>\n</ul></li>\n<li>Control
+  planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded
+  from version 1.24 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516\">1.25.16-gke.1537000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.25 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614\">1.26.14-gke.1006000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.26 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1018000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.27 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1018000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.29 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1291\">1.29.1-gke.1589000</a>
+  with this release.</li>\n</ul></section>\n</div>\n<h3>Changed</h3>\n<p><strong>(2024-R06)
+  Version updates</strong></p>\n<aside class=\"note\"><strong>Note:</strong><span>
+  Your clusters might not have these versions available. Rollouts are already in progress\n
+  \ when we publish the release notes, and can take multiple days to complete across
+  all Google Cloud\n  zones.</span></aside>\n<ul>\n<li>The following versions are
+  now available in the Rapid channel:\n<ul>\n<li><a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516\">1.25.16-gke.1570000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614\">1.26.14-gke.1044000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1062000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287\">1.28.7-gke.1026000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1292\">1.29.2-gke.1060000</a></li>\n</ul></li>\n<li>The
+  following versions are no longer available in the Rapid channel:\n<ul>\n<li>1.25.16-gke.1460000</li>\n<li>1.26.13-gke.1144000</li>\n<li>1.27.10-gke.1207000</li>\n<li>1.28.6-gke.1369000</li>\n<li>1.29.1-gke.1575000</li>\n</ul></li>\n<li>Control
+  planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded
+  from version 1.24 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516\">1.25.16-gke.1537000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.25 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614\">1.26.14-gke.1006000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.26 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1018000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.27 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1018000</a>
+  with this release.</li>\n<li>Control planes and nodes with auto-upgrade enabled
+  in the Rapid channel will be upgraded from version 1.29 to version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1291\">1.29.1-gke.1589000</a>
+  with this release.</li>\n</ul>\n<h3>Changed</h3>\n<p><strong>(2024-R06) Version
+  updates</strong></p>\n<aside class=\"note\"><strong>Note:</strong><span> Your clusters
+  might not have these versions available. Rollouts are already in progress\nwhen
+  we publish the release notes, and can take multiple days to complete across all
+  Google Cloud\nzones.</span></aside>\n<ul>\n<li>Version <a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v1278\">1.27.8-gke.1067004</a>
+  is now the default version in the Stable channel.</li>\n</ul>\n<h3>Changed</h3>\n<p><strong>(2024-R06)
+  Version updates</strong></p>\n<aside class=\"note\"><strong>Note:</strong><span>
+  Your clusters might not have these versions available. Rollouts are already in progress\nwhen
+  we publish the release notes, and can take multiple days to complete across all
+  Google Cloud\nzones.</span></aside>\n<ul>\n<li>The following control plane and node
+  versions are now available:\n<ul>\n<li><a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516\">1.25.16-gke.1570000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614\">1.26.14-gke.1044000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711\">1.27.11-gke.1062000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287\">1.28.7-gke.1026000</a></li>\n<li><a
+  href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1292\">1.29.2-gke.1060000</a></li>\n</ul></li>\n<li>The
+  following versions are no longer available:\n<ul>\n<li>1.27.10-gke.1207000</li>\n<li>1.28.6-gke.1369000</li>\n<li>1.29.1-gke.1575000</li>\n</ul></li>\n</ul>\n<h3>Changed</h3>\n<p><strong>(2024-R06)
+  Version updates</strong></p>\n<aside class=\"note\"><strong>Note:</strong><span>
+  Your clusters might not have these versions available. Rollouts are already in progress
+  when we publish the release notes, and can take multiple days to complete across
+  all Google Cloud zones.</span></aside>\n<ul>\n<li>There are no new releases in the
+  Regular release channel.</li>\n</ul>\n<strong class=\"release-note-product-title\">Migrate
+  to Virtual Machines</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/products/#product-launch-stages\"><strong>Preview:</strong></a>
+  Migrate to Virtual Machines lets you <a href=\"https://cloud.google.com/migrate/virtual-machines/docs/5.0/migrate/image_import\">import
+  a virtual disk image to a Compute Engine image</a>. If you have virtual disk images
+  with software and configurations that you need, you can save time by importing these
+  virtual disk images to <a href=\"https://cloud.google.com/compute/docs/images\">Compute
+  Engine images</a>, and use this image to create virtual machine instances or persistent
+  disks.</p>\n<h3>Feature</h3>\n<p><strong>Generally available:</strong> You can now
+  use <a href=\"https://cloud.google.com/migrate/virtual-machines/docs/5.0/migrate/cmek\">Customer-Managed
+  Encryption Keys (CMEK) in Migrate to Virtual Machines</a> to do the following:</p>\n\n<ul>\n<li>Protect
+  data stored by Migrate to Virtual Machines during the migration process.</li>\n<li>Protect
+  data of the migrated VMs created by clone and cut-over operations for all sources
+  - <a href=\"https://cloud.google.com/migrate/virtual-machines/docs/5.0/how-to/create-an-aws-source#create_an_aws_source\">AWS</a>,
+  <a href=\"https://cloud.google.com/migrate/virtual-machines/docs/5.0/how-to/create-an-azure-source#create-an-azure-source\">Azure</a>,
+  and <a href=\"https://cloud.google.com/migrate/virtual-machines/docs/5.0/how-to/migrate-connector#register\">VMware</a>.</li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Network Intelligence Center</strong>\n<h3>Feature</h3>\n<p>Network
+  Analyzer now includes an insight that gives a summary of the IP address utilization
+  of all the <a href=\"https://cloud.google.com/vpc/docs/private-services-access\">Private
+  Service Access</a> ranges. This insight is also available in Recommender API. For
+  more information, see <a href=\"https://cloud.google.com/network-intelligence-center/docs/network-analyzer/insights/vpc-network/ip-utilization#psa-ip-allocation-ratio-summary\">PSA
+  IP address utilization summary</a>.</p>\n<strong class=\"release-note-product-title\">Pub/Sub</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"go\">Go</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_pubsubapiv1\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/google-cloud-go/tree/main/pubsub/apiv1\">pubsub/apiv1</a></h3>\n\n<h4
+  id=\"1362_2024-02-28\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/pubsub/v1.36.1...pubsub/v1.36.2\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.36.2</a> (2024-02-28)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li><strong>pubsub:</strong> Fix out of
+  order issue when exactly once is enabled (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9472\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9472</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/e89fd6cc3b4489537c71cca1e40547313c24924b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e89fd6c</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation\">Documentation</h5>\n\n<ul>\n<li><strong>pubsub:</strong> Small
+  fix in Pub/Sub ingestion comments (<a href=\"https://github.com/googleapis/google-cloud-go/commit/a86aa8e962b77d152ee6cdd433ad94967150ef21\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a86aa8e</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-pubsub\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-pubsub\">google-cloud-pubsub</a></h3>\n\n<h4
+  id=\"11270_2024-02-28\"><a href=\"https://github.com/googleapis/java-pubsub/compare/v1.126.6...v1.127.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.127.0</a> (2024-02-28)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add an API method for reordering firewall
+  policies (<a href=\"https://github.com/googleapis/java-pubsub/issues/1868\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1868</a>) (<a href=\"https://github.com/googleapis/java-pubsub/commit/2039f7e9bee9db1991fae1118e4a6b8ad88ea30c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2039f7e</a>)</li>\n<li>Add
+  universe domain support for Java (<a href=\"https://github.com/googleapis/java-pubsub/issues/1904\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1904</a>) (<a
+  href=\"https://github.com/googleapis/java-pubsub/commit/1e316d33d2b7c87f6b76580cd9f905fe90a664c7\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1e316d3</a>)</li>\n<li>Next
+  release from main branch is 1.126.0 (<a href=\"https://github.com/googleapis/java-pubsub/issues/1933\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1933</a>) (<a
+  href=\"https://github.com/googleapis/java-pubsub/commit/255d8bca3509e9a9dc2d82c95fabb32590423565\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">255d8bc</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:google-cloud-bigquery
+  to v2.37.2 (<a href=\"https://github.com/googleapis/java-pubsub/issues/1918\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1918</a>) (<a href=\"https://github.com/googleapis/java-pubsub/commit/b8846f9dbf71854af1379c40669e017dd4e005d1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">b8846f9</a>)</li>\n<li>Update
+  dependency com.google.cloud:google-cloud-storage to v2.34.0 (<a href=\"https://github.com/googleapis/java-pubsub/issues/1917\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1917</a>) (<a
+  href=\"https://github.com/googleapis/java-pubsub/commit/4a7d6b971f0d16d867c56679d1e7bfbba4e4a67a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">4a7d6b9</a>)</li>\n<li>Update
+  dependency com.google.protobuf:protobuf-java-util to v3.25.3 (<a href=\"https://github.com/googleapis/java-pubsub/issues/1919\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1919</a>) (<a
+  href=\"https://github.com/googleapis/java-pubsub/commit/4bf13bb5f346a53ecf8e1e73e5f3b6d1c99ddf93\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">4bf13bb</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:native-maven-plugin to v0.10.1 (<a href=\"https://github.com/googleapis/java-pubsub/issues/1923\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1923</a>) (<a
+  href=\"https://github.com/googleapis/java-pubsub/commit/cd704bd57b2596d82f2f791476a109a771995b4d\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">cd704bd</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"python\">Python</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloud-pubsub_2\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-pubsub\">google-cloud-pubsub</a></h3>\n\n<h4
+  id=\"2197_2024-02-24\"><a href=\"https://github.com/googleapis/python-pubsub/compare/v2.19.6...v2.19.7\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.19.7</a> (2024-02-24)</h4>\n\n<h5
+  id=\"bug_fixes_2\">Bug Fixes</h5>\n\n<ul>\n<li><strong>deps:</strong> Require <code>google-api-core&amp;gt;=1.34.1</code>
+  (<a href=\"https://github.com/googleapis/python-pubsub/issues/1080\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1080</a>) (<a href=\"https://github.com/googleapis/python-pubsub/commit/1a5a1342de8736c6a2b1ac63476667f8a02b5bb8\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1a5a134</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Sensitive Data Protection</strong>\n<h3>Changed</h3>\n<p>A
+  new detection model is available for the <code>LOCATION</code> <a href=\"https://cloud.google.com/sensitive-data-protection/docs/infotypes-reference\">infoType</a>
+  detector. The new model offers improved detection quality. You can try it out by
+  setting <a href=\"https://cloud.google.com/sensitive-data-protection/docs/reference/rest/v2/InfoType\"><code>InfoType.version</code></a>
+  to <code>latest</code> when including the <code>LOCATION</code> infoType in your
+  <a href=\"https://cloud.google.com/sensitive-data-protection/docs/reference/rest/v2/InspectConfig\"><code>InspectConfig</code></a>.</p>\n\n<p>You
+  can still use the old model by setting <a href=\"https://cloud.google.com/sensitive-data-protection/docs/reference/rest/v2/InfoType\"><code>InfoType.version</code></a>
+  to <code>stable</code> or leaving it unset when using the <code>LOCATION</code>
+  infoType. In 30 days, the new model will be promoted to <code>stable</code>.</p>\n<strong
+  class=\"release-note-product-title\">Spanner</strong>\n<h3>Feature</h3>\n<p>Spanner
+  now supports a new client library interface. The new interface leverages auto-generated
+  admin clients instead of hand-written admin clients for improved efficiency and
+  maintainability. While the older client library interface remains supported, all
+  new Spanner admin features released after March 1, 2024 will be available exclusively
+  through the new client library interface. All code samples in the <a href=\"https://cloud.google.com/spanner/docs/reference/libraries#use_the_client_library_for_administrator_operations\">Spanner
+  documentation</a> are updated to use the new client library interface. The older
+  client interface code samples are archived in GitHub for <a href=\"https://github.com/googleapis/java-spanner/tree/main/samples/snippets/src/main/java/com/example/spanner/admin/archived\">Java</a>,
+  <a href=\"https://github.com/googleapis/nodejs-spanner/tree/main/samples/archivedhttps://github.com/googleapis/nodejs-spanner/tree/main/samples/archived\">Node.js</a>,
+  <a href=\"https://github.com/googleapis/python-spanner/tree/main/samples/samples/archived\">Python</a>,
+  and <a href=\"https://github.com/GoogleCloudPlatform/php-docs-samples/tree/main/spanner/src/admin/archived\">PHP</a>.</p>\n<strong
+  class=\"release-note-product-title\">Vertex AI</strong>\n<h3>Feature</h3>\n<p><strong>Vertex
+  AI Prediction</strong></p>\n\n<p>You can now use <a href=\"https://cloud.google.com/vertex-ai/docs/predictions/configure-compute#machine-types\">A3
+  machine types</a> to serve predictions.</p>\n<strong class=\"release-note-product-title\">Workflows</strong>\n<h3>Fixed</h3>\n<p>An
+  issue that allowed <a href=\"https://cloud.google.com/workflows/docs/reference/syntax/jumps\">jumps</a>
+  in or out of parallel branches, parallel loops, and <code>for</code> loops is resolved.
+  Only these jumps are allowed:</p>\n\n<ul>\n<li>To steps within the same <a href=\"https://cloud.google.com/workflows/docs/reference/syntax/parallel-steps#jumps\">parallel
+  branch or loop</a></li>\n<li>Between steps belonging to the same <a href=\"https://cloud.google.com/workflows/docs/reference/syntax/iteration#jump-in-loop\">for
+  loop</a></li>\n</ul>\n\n    "
+title_type:
+published: &1 2024-03-04 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_04_2024
+title: March 04, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

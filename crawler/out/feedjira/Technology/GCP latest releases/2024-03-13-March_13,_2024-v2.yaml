@@ -1,0 +1,205 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_13_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_13_2024
+content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</strong>\n<h3>Feature</h3>\n<p>AlloyDB
+  now supports continuous backup and recovery, and scheduled backups on secondary
+  clusters. When you create a secondary cluster, any backup plans on the primary cluster
+  are automatically copied to the new secondary cluster. For more information, see
+  <a href=\"https://cloud.google.com/alloydb/docs/cross-region-replication/about-cross-region-replication\">About
+  cross-region replication</a>.</p>\n<strong class=\"release-note-product-title\">Anti
+  Money Laundering AI</strong>\n<h3>Announcement</h3>\n<p>Released a new v4 <a href=\"https://cloud.google.com/financial-services/anti-money-laundering/docs/reference/engine-versions\">engine
+  versions</a> for the commercial line of business, with more reliable tuning performance,
+  in particular for small datasets.</p>\n<strong class=\"release-note-product-title\">Apigee
+  X</strong>\n<h3>Announcement</h3>\n<p>As of March 13, 2024, the conversion of Apigee
+  API Management organizations with Pay-as-you-go pricing provisioned <strong>before</strong>
+  October 1, 2023, to <a href=\"https://cloud.google.com/apigee/docs/api-platform/reference/pay-as-you-go-updated-overview\">Pay-as-you-go
+  organizations that use updated attributes</a>  for pricing is complete, with the
+  exception of one organization that requires customer action.</p>\n\n<p>The <a href=\"https://cloud.google.com/apigee/docs/api-platform/reference/manage-analytics-add-on\">Apigee
+  API Analytics add-on</a> is enabled in converted organizations.The Analytics add-on
+  can be <a href=\"https://cloud.google.com/apigee/docs/api-platform/reference/manage-analytics-add-on#disable-the-apigee-api-analytics-add-on\">disabled</a>
+  if it is not required. In addition, you can <a href=\"https://cloud.google.com/apigee/docs/api-platform/reference/update-environment-types#update-your-environment-type-using-the-api\">update
+  your Pay-as-you-go environment types using the API</a>.</p>\n\n<p>For more information
+  on the updated pricing and enhanced features now available for these organizations,
+  see <a href=\"https://cloud.google.com/apigee/docs/api-platform/reference/pay-as-you-go-updated-overview\">Pay-as-you-go
+  (updated attributes) overview</a>.</p>\n\n<p>Updated pricing attributes will be
+  reflected in March invoices. For billing questions related to this change, contact
+  <a href=\"https://cloud.google.com/support/billing/\">Google Cloud Billing support</a>.</p>\n<strong
+  class=\"release-note-product-title\">Chronicle SOAR</strong>\n<h3>Announcement</h3>\n<p>Release
+  6.2.51 is currently in Preview. </p>\n<h3>Feature</h3>\n<p><strong>Jobs Enhancement</strong></p>\n\n<p>When
+  updating an integration, the jobs will now be updated automatically.\nThis does
+  not apply to any legacy  jobs that were created before October 2023.</p>\n\n<p>The
+  Marketplace integration will clearly identify the legacy jobs that are affected
+  and provide instructions on how to proceed. </p>\n\n<p>In addition, legacy jobs
+  are now marked as such in the Jobs Scheduler page so that you can take action and
+  resolve issues beforehand. </p>\n<h3>Changed</h3>\n<p><strong>APIs now documented</strong></p>\n\n<p>The
+  following APIs are not new, but with this Release are now formally documented in
+  Swagger:</p>\n\n<p><strong>AddOrUpdateEnvironmentRecords</strong></p>\n\n<p><strong>RemoveEnvironmentRecords</strong></p>\n<h3>Fixed</h3>\n<p>Searching
+  for cases from the last week doesn&#39;t produce results (ID #00269819)</p>\n<h3>Fixed</h3>\n<p>Email
+  HTML Templates &gt; Show Email Template not rendering styles (ID #00249556)</p>\n<h3>Fixed</h3>\n<p>SDK
+  call for create entity failure displays the wrong error message (ID #48950075)</p>\n<strong
+  class=\"release-note-product-title\">Cloud Billing</strong>\n<h3>Feature</h3>\n<p><strong>You
+  can now view granular Bigtable usage in the Cloud Billing Detailed export to BigQuery</strong></p>\n\n<p>You
+  can now view granular Bigtable instance cost data in the Google Cloud Billing detailed
+  export. Use the <code>resource.global_name</code> field in the export to view and
+  filter your detailed Bigtable instance usage.</p>\n\n<p><a href=\"https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables/detailed-usage\">Review
+  the schema of the Detailed cost data export</a>.</p>\n<h3>Feature</h3>\n<p><strong>You
+  can now view granular Memorystore for Redis usage in the Cloud Billing Detailed
+  export to BigQuery</strong></p>\n\n<p>You can now view granular Memorystore for
+  Redis cost data in the Google Cloud Billing detailed export. Use the <code>resource.global_name</code>
+  and <code>resource.name</code> fields in the export to view and filter your detailed
+  Memorystore for Redis usage.</p>\n\n<p><a href=\"https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables/detailed-usage\">Review
+  the schema of the Detailed cost data export</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Composer</strong>\n<h3>Deprecated</h3>\n<p>All preview versions of Cloud Composer
+  2 are past their security notifications end date and are not supported. If your
+  environment uses a preview version of Cloud Composer 2, then please upgrade this
+  environment to a supported version or re-create it using the latest version of Cloud
+  Composer 2.</p>\n<h3>Issue</h3>\n<p>If you see frequent scheduler restarts in your
+  Airflow 2.6.3 environment and the <code>[scheduler]job_heartbeat_sec</code> Airflow
+  configuration option is set to a non-default value, you can fix this issue either
+  by upgrading to Cloud Composer version 2.6.4 or by removing this option&#39;s override,
+  so that it uses the default value.</p>\n<strong class=\"release-note-product-title\">Cloud
+  SQL for SQL Server</strong>\n<h3>Feature</h3>\n<p>Cloud SQL now supports SQL Server
+  Reporting Services (SSRS) on your instances. For more information, see <a href=\"https://cloud.google.com/sql/docs/sqlserver/ssrs\">Use
+  SSRS for creating reports</a>.</p>\n<strong class=\"release-note-product-title\">Compute
+  Engine</strong>\n<h3>Feature</h3>\n<p><strong>Generally available</strong>: You
+  can use SSH-in-browser to connect to TPU VMs. For more information, see <a href=\"https://cloud.google.com/tpu/docs/managing-tpus-tpu-vm#tpu-connect\">Connecting
+  to a Cloud TPU</a>.</p>\n<strong class=\"release-note-product-title\">Dataform</strong>\n<h3>Announcement</h3>\n<p>The
+  3.0.0-beta.0 version of the open-source Dataform framework is available. This update
+  introduces significant changes, including, but not limited to, the following:</p>\n\n<ul>\n<li>Deprecation
+  of <code>dataform.json</code> in favor of <code>workflow_settings.yaml</code></li>\n<li>Stateless
+  package installation by <code>@dataform/cli</code></li>\n<li>Warehouse-agnostic
+  compilation output</li>\n</ul>\n\n<p>You don&#39;t need to take immediate action
+  to update your Dataform code.</p>\n\n<p>For more information, see the <a href=\"https://github.com/dataform-co/dataform/releases/tag/3.0.0-beta.0\">3.0.0-beta.0
+  release on GitHub</a>.</p>\n<strong class=\"release-note-product-title\">Looker</strong>\n<h3>Announcement</h3>\n<p><strong>Looker
+  24.4</strong> includes the following changes, features, and fixes.</p>\n\n<p>Expected
+  Looker (original) deployment start: <strong>Monday, March 18, 2024</strong></p>\n\n<p>Expected
+  Looker (original) final deployment and download available: <strong>Thursday, March
+  28, 2024</strong></p>\n\n<p>Expected Looker (Google Cloud core) deployment start:
+  <strong>Monday, March 18, 2024</strong></p>\n\n<p>Expected Looker (Google Cloud
+  core) final deployment: <strong>Monday, April 1, 2024</strong></p>\n<h3>Breaking</h3>\n<p>Query
+  IDs can no longer be used to <a href=\"https://cloud.google.com/looker/docs/reference/looker-api/latest/methods/Query/query\">fetch
+  queries</a> or <a href=\"https://cloud.google.com/looker/docs/reference/looker-api/latest/methods/RenderTask/create_query_render_task\">create
+  render tasks</a> through the API. The <a href=\"https://cloud.google.com/looker/docs/reference/looker-api/latest/methods/Query/all_running_queries\">Get
+  All Running Queries</a> API endpoint is now restricted to admins only. Query slugs
+  that are generated by Looker will be 32 characters instead of 7.</p>\n<h3>Breaking</h3>\n<p>Chrome
+  is starting to <a href=\"https://blog.google/products/chrome/privacy-sandbox-tracking-protection/\">deprecate
+  third-party cookies</a> as of January 2024. Because of Looker&#39;s dependency on
+  third-party cookies to establish <a href=\"https://cloud.google.com/looker/docs/signed-embedding\">embed</a>
+  user sessions, this may impact your embed use case. For more information, see the
+  <a href=\"https://cloud.google.com/looker/docs/best-practices/chrome-third-party-cookie-deprecation\">Chrome
+  is deprecating third-party cookies</a> notice.</p>\n<h3>Breaking</h3>\n<p>Previously,
+  custom visualizations would not call the <code>updateAsync</code> function after
+  the vis config is updated via the custom visualization API. Now, the function will
+  be called. If a custom visualization is set up to update the vis config every time
+  <code>updateAsync</code> is called, it could cause excessive refreshes.</p>\n\n<p>If
+  your custom visualization is fails to load after this update, double check your
+  custom visualization code for unnecessary vis config updates. If you have a Looker
+  (original) instance, you can also enable the <a href=\"https://cloud.google.com/looker/docs/admin-panel-general-labs#custom_vis_reliable_render\">Custom
+  Vis Reliable Render</a> Labs feature which causes Looker to suppress excess refresh
+  behavior in custom visualizations.</p>\n<h3>Feature</h3>\n<p>The Performant Field
+  Picker feature is now generally available.</p>\n<h3>Feature</h3>\n<p>When an instance
+  has no projects, Looker will more prominently prompt users to create a model.</p>\n<h3>Feature</h3>\n<p>In
+  the Create a model wizard, your selections are now saved even if you close steps
+  without having completed the model creation process.</p>\n<h3>Feature</h3>\n<p>Adding
+  a query slug to source queries in the merge query API response <code>GET merge_queries/&lt;merge_query_id&gt;</code>
+  returns the query slug in addition to the ID.</p>\n<h3>Feature</h3>\n<p>The <code>save_content</code>
+  permission now has two child permissions, <a href=\"https://cloud.google.com/looker/docs/admin-panel-users-roles#save_dashboards\">save_dashboards</a>
+  and <a href=\"https://cloud.google.com/looker/docs/admin-panel-users-roles#save_looks\">save_looks</a>.
+  These permissions let Looker admins exert finer control over the kinds of content
+  that users can save.</p>\n<h3>Fixed</h3>\n<p>Only users who have access to dashboard
+  extensions will be shown the Add Extension tile.</p>\n<h3>Fixed</h3>\n<p>Subtotals
+  have been fixed for queries with <code>order_by_field</code> references in query
+  streaming pathways. This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>An
+  issue where embed secrets might have been visible to non-admin users has been fixed.
+  This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>Looker now ignores
+  all blank filter strings, including <code>IS NOT</code>.</p>\n<h3>Fixed</h3>\n<p>An
+  issue has been fixed that caused small decimals to be displayed in scientific notation
+  even when formatting was disabled. This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>An
+  issue has been fixed where the PDT Context Override toggle was improperly reflecting
+  the ON state when it had been cleared prior. This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>Performant
+  field picker sorting behavior has been fixed. This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>Downloading
+  results from SQL Runner now only downloads the file and does not open the file in
+  a new browser tab.</p>\n<h3>Fixed</h3>\n<p>Filter expressions including user attributes
+  and OR logical conditions were being incorrectly populated when generating SQL.
+  This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>A change in the Snowflake
+  dialect was ported to Kotlin to maintain parity. Snowflake column names with mixed
+  cases are now properly quoted.</p>\n<h3>Fixed</h3>\n<p>Filter suggestion requests
+  have been reduced while the user is typing. Because normal typing will invoke fewer
+  requests, the load on the server will be reduced.</p>\n<h3>Fixed</h3>\n<p>An issue
+  that caused single value change indicators to not render in Safari when dashboards
+  scrolled has been fixed. This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>The
+  LookML Validator no longer hangs on a connection that references a deleted or malformed
+  user attribute. The Validator also surfaces a detailed error when the user tests
+  the connection.</p>\n<h3>Fixed</h3>\n<p>An issue has been fixed where extension
+  documents would appear when hiding Looker document links was disabled. This feature
+  now performs as expected.</p>\n<h3>Fixed</h3>\n<p>Content Validator has added support
+  for field replacement within custom measure filters (across Looks, dashboard elements,
+  and merge queries).</p>\n<h3>Fixed</h3>\n<p>Queries with <code>order_by_field</code>
+  references and subtotals should render correctly in downloads / <code>run_query</code>
+  APIs.</p>\n<h3>Fixed</h3>\n<p>Looker should now correctly handle cases where the
+  sorts query had an empty string or was entirely empty.</p>\n<h3>Fixed</h3>\n<p>Previously,
+  the All Results option was unavailable for schedules on Looks. This feature now
+  performs as expected.</p>\n<h3>Fixed</h3>\n<p>On the new Admin - Users page, Looker
+  Support users were shown as having never logged in even for currently logged-in
+  users. This issue has been fixed and this feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>LookML-defined
+  fields that are used in field filters will not be rejected from a set when the field
+  requiring them is rejected from that set. This feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>Previously,
+  the Errors and  Broken Content dashboard appeared twice in the admin panel. This
+  feature now performs as expected.</p>\n<h3>Fixed</h3>\n<p>A data validation message
+  is now returned for waterfall charts when there are multiple measures and a hidden
+  dimension.</p>\n<h3>Fixed</h3>\n<p>Looker now shows a clearer warning message when
+  a user attempts to download a query with <a href=\"https://cloud.google.com/looker/docs/reference/param-field-allow-fill#definition\">dimension
+  fill</a> and <a href=\"https://cloud.google.com/looker/docs/downloading#all_results\">All
+  Results</a> enabled.</p>\n<h3>Fixed</h3>\n<p>Looker no longer imposes the Explore
+  row limit of 5,000 on queries that are run using the <a href=\"https://cloud.google.com/looker/docs/reference/looker-api/latest/methods/Query/run_inline_query\">run
+  inline query</a>  API endpoint.</p>\n<h3>Fixed</h3>\n<p>Previously, the <a href=\"https://cloud.google.com/looker/docs/reference/looker-api/latest/methods/LookmlModel/lookml_model_explore\">lookml_model_explore</a>
+  API endpoint would return a 500 error in certain cases. This feature now performs
+  as expected.</p>\n<h3>Fixed</h3>\n<p>Errors about UI downloads are now more descriptive,
+  similar to descriptive API error messages.</p>\n<h3>Fixed</h3>\n<p>Internal encryption
+  has been migrated from  AES-128 to AES-GCM-256 encryption.</p>\n<h3>Feature</h3>\n<p>The
+  Disallow Numeric Query IDs <a href=\"https://cloud.google.com/looker/docs/legacy-feature-schedule\">legacy
+  feature</a> has been added to let users opt in to or out of query API changes.</p>\n<h3>Feature</h3>\n<p>The
+  <a href=\"https://cloud.google.com/looker/docs/admin-panel-general-labs#advanced_features_for_new_schedules_page\">Advanced
+  Features for New Schedules Page</a> Labs feature is now available. This lets you
+  sort and filter the list of scheduled plans on the Admin - Schedules page.</p>\n<h3>Fixed</h3>\n<p>Previously,
+  when a dashboard was scheduled using <a href=\"https://cloud.google.com/looker/docs/best-practices/rendered-format-options-downloading-delivering-dashboards#pngs\">PNG
+  format</a> and one of the tiles contained an empty <a href=\"https://cloud.google.com/looker/docs/editing-user-defined-dashboards#adding_a_tile_note\">note</a>,
+  the schedule would fail. This feature now works as expected.</p>\n<h3>Fixed</h3>\n<p>The
+  Export function has been re-enabled, which lets Looker admins export data from a
+  Looker (original) instance for import into a Looker (Google Cloud core) instance.</p>\n<h3>Fixed</h3>\n<p>Incorrect
+  quoting in Snowflake views has been fixed.</p>\n<h3>Fixed</h3>\n<p>IAM checks for
+  ephemeral users were disabled as a result of rendering issues for users who were
+  logged in with SAML in Looker (Google Cloud core).</p>\n<strong class=\"release-note-product-title\">Resource
+  Manager</strong>\n<h3>Feature</h3>\n<p>You can add tags at the time of creating
+  folders and projects. These tags can be added as key-value pairs. For more information,
+  see <a href=\"https://cloud.google.com/resource-manager/docs/creating-managing-folders#add_tags_during_folder_creation\">Add
+  tags during folder creation</a> and <a href=\"https://cloud.google.com/resource-manager/docs/creating-managing-projects#add_tags_during_project_creation\">Add
+  tags during project creation</a>. This feature is currently in preview. </p>\n<strong
+  class=\"release-note-product-title\">Storage Transfer Service</strong>\n<h3>Feature</h3>\n<p>Support
+  for transfers from cloud and on-premises Hadoop Distributed File System (HDFS) sources
+  is now generally available (<a href=\"https://cloud.google.com/products/#product-launch-stages\">GA</a>).
+  </p>\n\n<p>HDFS support allows for use cases such as migrating from on-premises
+  storage to Cloud Storage, archiving data to free up on-premises storage space, replicating
+  data to Google Cloud for business continuity, or transferring data to Google Cloud
+  for analysis and processing.</p>\n\n<p>See <a href=\"https://cloud.google.com/storage-transfer/docs/create-transfers/agent-based/hdfs\">Transfer
+  from HDFS to Cloud Storage</a> for details.</p>\n\n    "
+title_type:
+published: &1 2024-03-13 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_13_2024
+title: March 13, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

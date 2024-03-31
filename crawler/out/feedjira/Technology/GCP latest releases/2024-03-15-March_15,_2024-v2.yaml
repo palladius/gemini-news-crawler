@@ -1,0 +1,94 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_15_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_15_2024
+content: "<strong class=\"release-note-product-title\">Access Approval</strong>\n<h3>Feature</h3>\n<p>Access
+  Approval supports Google Distributed Cloud Edge in the GA stage.</p>\n<strong class=\"release-note-product-title\">AlloyDB
+  for PostgreSQL</strong>\n<h3>Changed</h3>\n<p>The <a href=\"https://cloud.google.com/alloydb/docs/omni/backup-overview\">Back
+  up and restore AlloyDB Omni</a> documentation is updated to include pgBackRest,
+  an open-source solution included with the AlloyDB Omni Docker container.</p>\n<strong
+  class=\"release-note-product-title\">Anthos Service Mesh</strong>\n<h3>Announcement</h3>\n<p>The
+  rollout of managed Anthos Service Mesh version 1.17 to the stable channel <strong>has
+  completed</strong>.</p>\n<strong class=\"release-note-product-title\">Anti Money
+  Laundering AI</strong>\n<h3>Announcement</h3>\n<p>Improved the party de-registration
+  process. You can now remove parties without prediction intent (that is, those parties
+  not included in a <a href=\"https://cloud.google.com/financial-services/anti-money-laundering/docs/create-and-manage-prediction-results\">create
+  prediction results request</a>) within a 45-day window following registration.</p>\n<strong
+  class=\"release-note-product-title\">Artifact Registry</strong>\n<h3>Feature</h3>\n<p>Artifact
+  Registry remote repositories support basic authentication to user-defined and preset
+  upstream sources for Docker, Maven, npm, and Python formats.</p>\n\n<p>To create
+  a remote repository using a preset or user-defined upstream source, see <a href=\"https://cloud.google.com/artifact-registry/docs/repositories/remote-repo\">Create
+  remote repositories</a>. For more information on remote repository authentication,
+  see <a href=\"https://cloud.google.com/artifact-registry/docs/repositories/configure-remote-authentication\">Configure
+  authentication to remote repositories</a>.</p>\n<h3>Issue</h3>\n<p>Images copied
+  to Artifact Registry from Container Registry with the <a href=\"https://cloud.google.com/artifact-registry/docs/transition/auto-migrate-gcr-ar\">automatic
+  migration\ntool</a> are failing to propagate their upload time to Artifact Registry,
+  and instead have their upload time value set to zero, resulting in an upload time
+  of early 1970. If you have cleanup policies that delete images based on upload time,
+  this might mean all your copied images are deleted. We are actively working on a
+  fix for this issue. </p>\n<strong class=\"release-note-product-title\">Carbon Footprint</strong>\n<h3>Changed</h3>\n<p>Emissions
+  reported for Google Kubernetes Engine (GKE) declined starting in February 2024.
+  This change is a result of an update to Google&#39;s internal cost allocation, which
+  determines how shared infrastructure costs are attributed to individual services.
+  According to our methodology (<a href=\"https://cloud.google.com/carbon-footprint/docs/methodology#details-electricity\">Technical
+  details - Electricity use</a>), these internal costs are used to apportion electricity
+  consumption and carbon emissions to services, so changes in cost apportionment result
+  in corresponding changes to carbon apportionment and reporting for that service.</p>\n<strong
+  class=\"release-note-product-title\">Chronicle</strong>\n<h3>Feature</h3>\n<p>Chronicle
+  has expanded <a href=\"https://cloud.google.com/chronicle/docs/detection/cloud-threats-category\">Cloud
+  Threat Detections</a> to create a detection when findings from  Security Command
+  Center <a href=\"https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview\">Event
+  Threat Detections</a>, <a href=\"https://cloud.google.com/armor/docs/cscc-findings\">Cloud
+  Armor</a>, <a href=\"https://cloud.google.com/security-command-center/docs/concepts-sensitive-actions-overview\">Sensitive
+  Actions Service</a>, and <a href=\"https://cloud.google.com/security-command-center/docs/custom-modules-etd-overview\">Custom
+  modules for Event Threat Detection</a> are identified. These detections are available
+  through the following rule sets: CDIR SCC Cloud IDS, CDIR SCC Cloud Armor, CDIR
+  SCC Impact, CDIR SCC Enhanced Persistence, CDIR SCC Enhanced Defense Evasion, and
+  CDIR SCC Custom Module.</p>\n<strong class=\"release-note-product-title\">Chronicle
+  SOAR</strong>\n<h3>Announcement</h3>\n<p>Release 6.2.5.0 is now in General Availability.
+  </p>\n<strong class=\"release-note-product-title\">Dataflow</strong>\n<h3>Feature</h3>\n<p>You
+  can now use worker utilization hints to <a href=\"https://cloud.google.com/dataflow/docs/guides/tune-horizontal-autoscaling\">tune
+  horizontal autoscaling for streaming pipelines</a>. </p>\n<h3>Feature</h3>\n<p>Added
+  new <a href=\"https://cloud.google.com/dataflow/docs/guides/autoscaling-metrics\">autoscaling
+  metrics</a>:</p>\n\n<ul>\n<li><strong>Autoscaling rationale chart</strong>: explains
+  the factors driving autoscaling decisions</li>\n<li><strong>Worker CPU utilization
+  chart</strong>: shows current user worker CPU utilization and customer autoscaling
+  hint value</li>\n<li><strong>Timer backlog per stage</strong>: shows an estimate
+  of time needed to materialize the output for windows whose timer has expired</li>\n<li><strong>Parallel
+  processing</strong>: the number of keys available for parallel processing</li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Datastream</strong>\n<h3>Feature</h3>\n<p>Datastream
+  now supports SQL Server as a source. The feature is in <strong>Preview</strong>.
+  For more information, see <a href=\"https://cloud.google.com/blog/products/databases/datastream-supports-sql-server-sources\">Streamlining
+  data integration with SQL Server source support in Datastream</a> and the <a href=\"https://cloud.google.com/datastream/docs/sources-sqlserver\">Datastream
+  documentation</a>.</p>\n<strong class=\"release-note-product-title\">Google Kubernetes
+  Engine</strong>\n<h3>Security</h3>\n<p>The following vulnerabilities were discovered
+  in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2024-1085</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-018\">GCP-2024-018
+  security bulletin</a>.</p>\n<strong class=\"release-note-product-title\">Identity
+  and Access Management</strong>\n<h3>Changed</h3>\n<p>You can use the <a href=\"https://cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable-exposed-keys\"><code>iam.serviceAccountKeyExposure</code>
+  organization policy\nconstraint</a> to help manage leaked service account credentials.</p>\n<strong
+  class=\"release-note-product-title\">Vertex AI Search and Conversation</strong>\n<h3>Feature</h3>\n<p><strong>Vertex
+  AI Search: Sync from Google Drive (Preview with allowlist)</strong> </p>\n\n<p>Connecting
+  to Google Drive as a data source for Vertex AI Search is available as a Preview
+  with allowlist feature. For more information, see <a href=\"https://cloud.google.com/generative-ai-app-builder/docs/create-data-store-es#google-drive\">Sync
+  from Google Drive</a>.</p>\n\n    "
+title_type:
+published: &1 2024-03-15 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_15_2024
+title: March 15, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

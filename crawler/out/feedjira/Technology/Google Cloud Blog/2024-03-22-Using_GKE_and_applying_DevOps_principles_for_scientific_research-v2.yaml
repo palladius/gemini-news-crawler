@@ -1,0 +1,192 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Using GKE and applying DevOps principles for scientific research at Stanford
+url: https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/
+summary: "<div class=\"block-paragraph_advanced\"><p><strong style=\"font-style: italic;
+  vertical-align: baseline;\">Editor’s note:</strong><span style=\"font-style: italic;
+  vertical-align: baseline;\"> Stanford University Assistant Professor Paul Nuyujukian
+  and his team at the Brain Inferencing Laboratory explore motor systems neuroscience
+  and neuroengineering applications as part of an effort to create brain-machine interfaces
+  for medical conditions such as stroke and epilepsy. This blog explores how the team
+  is using Google Cloud data storage, computing and analytics capabilities to streamline
+  the collection, processing, and sharing of that scientific data, for the betterment
+  of science and to adhere to funding agency regulations. </span></p>\n<p><span style=\"vertical-align:
+  baseline;\">Scientific discovery, now more than ever, depends on large quantities
+  of high-quality data and sophisticated analyses performed on those data. In turn,
+  the ability to reliably capture and store data from experiments and process them
+  in a scalable and secure fashion is becoming increasingly important for researchers.
+  Furthermore, collaboration and peer-review are critical components of the processes
+  aimed at making discoveries accessible and useful across a broad range of audiences. </span></p>\n<p><span
+  style=\"vertical-align: baseline;\">The cornerstones of scientific research are
+  rigor, reproducibility, and transparency — critical elements that ensure scientific
+  findings can be trusted and built upon [</span><a href=\"https://grants.nih.gov/policy/reproducibility/index.htm\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">1</span></a><span style=\"vertical-align: baseline;\">]. Recently, US
+  Federal funding agencies have adopted strict guidelines around the availability
+  of research data, and so not only is leveraging data best practices practical and
+  beneficial for science, it is now compulsory [</span><a href=\"https://www.nature.com/articles/d41586-022-00402-1\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">2</span></a><span style=\"vertical-align: baseline;\">, </span><a href=\"https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">3</span></a><span style=\"vertical-align: baseline;\">, </span><a href=\"https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">4</span></a><span style=\"vertical-align: baseline;\">, </span><a href=\"https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">5</span></a><span style=\"vertical-align: baseline;\">]. Fortunately,
+  Google Cloud provides a wealth of data storage, computing and analytics capabilities
+  that can be used to streamline the collection, processing, and sharing of scientific
+  data. </span></p>\n<p><span style=\"vertical-align: baseline;\">Prof. Paul Nuyujukian
+  and his </span><a href=\"https://bil.stanford.edu\" rel=\"noopener\" target=\"_blank\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">research team</span></a><span
+  style=\"vertical-align: baseline;\"> at Stanford’s Brain Inferencing Laboratory
+  explore motor systems neuroscience and neuroengineering applications. Their work
+  involves studying how the brain controls movement, recovers from injury, and work
+  to establish brain-machine interfaces as a platform technology for a variety of
+  brain-related medical conditions, particularly stroke and epilepsy. The relevant
+  data is obtained from experiments on preclinical models and human clinical studies.
+  The raw experimental data collected in these experiments is extremely valuable and
+  virtually impossible to reproduce exactly (not to mention the potential costs involved).</span></p></div>\n<div
+  class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module
+  h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--large\n
+  \     \n      \n        h-c-grid__col\n        h-c-grid__col--6 h-c-grid__col--offset-3\n
+  \       \n        \n      \"\n      >\n\n      \n      \n        \n        <img\n
+  \           src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/stanford-gitlab-post-figure-1.max-1000x1000.jpg\"\n
+  \       \n          alt=\"stanford-gitlab-post-figure-1\">\n        \n        </a>\n
+  \     \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"4dq7h\">Fig.
+  1: Schematic representation of a scientific computation workflow</p></figcaption>\n
+  \     \n    </figure>\n\n  \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div
+  class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">To
+  address the challenges outlined above, Prof. Nuyujukian has developed a sophisticated
+  data collection and analysis platform that is in large part inspired by the practices
+  that make up the </span><a href=\"https://en.wikipedia.org/wiki/DevOps\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">DevOps
+  approach</span></a><span style=\"vertical-align: baseline;\"> common in software
+  development [</span><a href=\"https://doi.org/10.48550/arXiv.2310.08247\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">6</span></a><span
+  style=\"vertical-align: baseline;\">, Fig. 2]. Keys to the success of this system
+  are standardization, automation, repeatability and scalability. The platform allows
+  for both standardized analyses and “one-off” or ad-hoc analyses in a heterogeneous
+  computing environment. The critical components of the system are containers, Git,
+  CI/CD (leveraging </span><a href=\"https://docs.gitlab.com/runner/\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">GitLab
+  Runners</span></a><span style=\"vertical-align: baseline;\">), and high-performance
+  compute clusters, both on-premises and in cloud environments such as Google Cloud,
+  in particular </span><a href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Google Kubernetes
+  Engine</span></a><span style=\"vertical-align: baseline;\"> (GKE) running in </span><a
+  href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">Autopilot</span></a><span
+  style=\"vertical-align: baseline;\"> mode.</span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/stanford-gitlab-post-figure-2.max-1000x1000.png\"\n
+  \       \n          alt=\"stanford-gitlab-post-figure-2\">\n        \n        </a>\n
+  \     \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"c5vlt\">Fig.
+  2: Leveraging DevOps for Scientific Computing</p></figcaption>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">Google Cloud provides a secure, scalable, and
+  highly interoperable framework for the various analyses that need to be run on the
+  data collected from scientific experiments (spanning basic science and clinical
+  studies). </span><a href=\"https://docs.gitlab.com/ee/ci/pipelines/\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">GitLab
+  Pipelines</span></a><span style=\"vertical-align: baseline;\"> specify the transformations
+  and analyses that need to be applied to the various datasets. GitLab Runner instances
+  running on GKE (or other on-premises cluster/high-performance computing environments)
+  are used to execute these pipelines in a scalable and cost-effective manner. Autopilot
+  environments in particular provide substantial advantages to researchers since they
+  are fully managed and require only minimal customization or ongoing “manual” maintenance.
+  Furthermore, they instantly scale with the demand for analyses that need to be run,
+  even with </span><a href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/spot-vms\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">spot VM pricing</span></a><span
+  style=\"vertical-align: baseline;\">, allowing for cost-effective computation. Then,
+  they scale down to near-zero when idle, and scale up as demand increases again –
+  all without intervention by the researcher.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">GitLab pipelines have a clear and well-organized structure defined in
+  YAML files. Data transformations are often multi-stage and GitLab’s framework explicitly
+  supports such an approach. Defaults can be set for an entire pipeline, such as the
+  various data transformation stages, and can be overwritten for particular stages
+  where necessary. Since the exact steps of a data transformation pipeline can be
+  context- or case-dependent, conditional logic is supported along with dynamic definition
+  of pipelines, e.g., definitions depending on the outcome of previous analysis steps.
+  Critically, different stages of a GitLab pipeline can be executed by different runners,
+  facilitating the execution of pipelines across heterogeneous environments, for example
+  transferring data from experimental acquisition systems and processing them in cloud
+  or on-premises computing spaces [Fig. 3].</span></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/stanford-gitlab-post-figure-3.max-1000x1000.png\"\n
+  \       \n          alt=\"stanford-gitlab-post-figure-3\">\n        \n        </a>\n
+  \     \n        <figcaption class=\"article-image__caption \"><p data-block-key=\"wni3p\">Fig.
+  3: Architecture of the Google Cloud based scientific computation workflow via GitLab
+  Runners hosted on Google Kubernetes Engine</p></figcaption>\n      \n    </figure>\n\n
+  \ \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">Cloud computing resources can provide exceptional
+  scalability, while pipelines allow for parallel execution of stages to take advantage
+  of this scalability, allowing researchers to execute transformations at scale and
+  substantially speed up data processing and analysis. Parametrization of pipelines
+  allows researchers to automate the validation of processing protocols across many
+  acquired datasets or analytical variations, yielding robust, reproducible, and sustainable
+  data analysis workflows.</span></p>\n<p><span style=\"vertical-align: baseline;\">Collaboration
+  and data sharing is another critical, and now mandatory, aspect of scientific discovery.
+  Multiple generations of researchers, from the same lab or different labs, may interact
+  with particular datasets and analysis workflows over a long period of time. Standardized
+  pipelines like the ones described above can play a central role in providing transparency
+  on how data is collected and how it is processed, since they are essentially self-documenting.
+  That, in turn, allows for scalable and repeatable discovery. Data provenance, for
+  example, is explicitly supported by this framework. Through the extensive use of
+  containers, workflows are also well encapsulated and no longer depend on specifically
+  tuned local computing environments. This consequently leads to increased rigor,
+  reproducibility and transparency, enabling a large audience to interact productively
+  with datasets and data transformation workflows.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">In conclusion, by using the computing, data storage, and transformation
+  technologies available from Google Cloud along with workflow capabilities of CI/CD
+  engines like GitLab, researchers can build highly capable and cost-effective scientific
+  data-analysis environments that aid efforts to increase rigor, reproducibility,
+  and transparency, while also achieving compliance with relevant government regulations.</span></p>\n<p><span
+  style=\"vertical-align: baseline;\">References:</span></p>\n<ol>\n<li aria-level=\"1\"
+  style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><a
+  href=\"https://grants.nih.gov/policy/reproducibility/index.htm\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Enhancing
+  Reproducibility through Rigor and Transparency</span></a></p>\n</li>\n<li aria-level=\"1\"
+  style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><a
+  href=\"https://www.nature.com/articles/d41586-022-00402-1\" rel=\"noopener\" target=\"_blank\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">NIH issues a seismic
+  mandate: share data publicly</span></a></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><a href=\"https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">Final NIH Policy for Data Management and Sharing</span></a></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><a href=\"https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">FACT SHEET: Biden-⁠Harris Administration Announces New Actions to Advance
+  Open and Equitable Research</span></a></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  decimal; vertical-align: baseline;\">\n<p role=\"presentation\"><a href=\"https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES</span></a></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: decimal; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><a href=\"https://doi.org/10.48550/arXiv.2310.08247\" rel=\"noopener\"
+  target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Leveraging
+  DevOps for Scientific Computing</span></a></p>\n</li>\n</ol></div>"
+author: Paul Nuyujukian
+categories:
+- DevOps & SRE
+- Containers & Kubernetes
+published: 2024-03-22 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

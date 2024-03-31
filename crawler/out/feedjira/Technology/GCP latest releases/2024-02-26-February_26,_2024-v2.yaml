@@ -1,0 +1,348 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#February_26_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#February_26_2024
+content: "<strong class=\"release-note-product-title\">Anthos clusters on AWS</strong>\n<h3>Security</h3>\n<p>The
+  following vulnerabilities were discovered in the Linux kernel that can lead to a
+  privilege escalation on Container-Optimized OS and Ubuntu nodes:</p>\n\n<ul>\n<li><p>CVE-2023-3776</p>\n\n<p>For
+  more information, see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-014\">GCP-2024-014
+  security bulletin</a>.</p></li>\n</ul>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2024-0193</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-013\">GCP-2024-013
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2023-6932</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-011\">GCP-2024-011
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead\nto a privilege escalation on
+  Container-Optimized OS and Ubuntu nodes.</p>\n\n<ul>\n<li>CVE-2023-6931</li>\n</ul>\n\n<p>For
+  more information, see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-010\">GCP-2024-010
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes.</p>\n\n<ul>\n<li>CVE-2023-6817</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-004\">GCP-2024-004
+  security bulletin</a>.</p>\n<strong class=\"release-note-product-title\">Anthos
+  clusters on Azure</strong>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li><p>CVE-2023-3776</p>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-014\">GCP-2024-014
+  security bulletin</a>.</p></li>\n</ul>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2024-0193</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-013\">GCP-2024-013
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2023-6932</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-011\">GCP-2024-011
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead\nto a privilege escalation on
+  Container-Optimized OS and Ubuntu nodes.</p>\n\n<ul>\n<li>CVE-2023-6931</li>\n</ul>\n\n<p>For
+  more information, see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-010\">GCP-2024-010
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes.</p>\n\n<ul>\n<li>CVE-2023-6817</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-004\">GCP-2024-004
+  security bulletin</a>.</p>\n<strong class=\"release-note-product-title\">App Engine
+  flexible environment Go</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/appengine/docs/flexible/go/runtime\">Go
+  1.22</a> is now available in <a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.
+  </p>\n<strong class=\"release-note-product-title\">App Engine flexible environment
+  Java</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/appengine/docs/flexible/java/runtime\">Java
+  21</a> is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>.</p>\n<strong class=\"release-note-product-title\">App Engine flexible
+  environment PHP</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/appengine/docs/flexible/php/runtime\">PHP
+  8.3</a> is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">
+  generally available</a>.</p>\n<strong class=\"release-note-product-title\">App Engine
+  standard environment Go</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/appengine/docs/standard/go/runtime\">Go
+  1.22</a> is now available <a href=\"https://cloud.google.com/products/#product-launch-stages\">in
+  preview</a>.</p>\n<strong class=\"release-note-product-title\">App Engine standard
+  environment Java</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/appengine/docs/standard/java-gen2/runtime\">Java
+  21</a> is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>.</p>\n<strong class=\"release-note-product-title\">App Engine standard
+  environment PHP</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/appengine/docs/standard/php-gen2/runtime\">PHP
+  8.3</a> is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>.</p>\n<strong class=\"release-note-product-title\">BigQuery</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-bigquery\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-bigquery\">google-cloud-bigquery</a></h3>\n\n<h4
+  id=\"2380_2024-02-22\"><a href=\"https://github.com/googleapis/java-bigquery/compare/v2.37.2...v2.38.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.38.0</a> (2024-02-22)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add MetadataCacheStatistics to Job QueryStatistics
+  (<a href=\"https://github.com/googleapis/java-bigquery/issues/3133\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#3133</a>) (<a href=\"https://github.com/googleapis/java-bigquery/commit/f3f387b2265d527f3b5bf567c1eaf7ecdad6e096\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f3f387b</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.apis:google-api-services-bigquery
+  to v2-rev20240211-2.0.0 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3152\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3152</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/e5d688872e4c125a68ed6f666bffd0a41efc3f30\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e5d6888</a>)</li>\n<li>Update
+  github/codeql-action action to v2.24.3 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3148\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3148</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/a0a7b0186ae47fcfcf75fe4f35cce50044c6926c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a0a7b01</a>)</li>\n<li>Update
+  github/codeql-action action to v2.24.3 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3150\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3150</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/042fcf0aca46d349103211c3d04ae4b49868933c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">042fcf0</a>)</li>\n<li>Update
+  github/codeql-action action to v2.24.4 (<a href=\"https://github.com/googleapis/java-bigquery/issues/3161\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#3161</a>) (<a
+  href=\"https://github.com/googleapis/java-bigquery/commit/531b1a0b93ee19a7479a006207c30f7399869773\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">531b1a0</a>)</li>\n</ul></section>\n</div>\n<h3>Feature</h3>\n<p>The
+  BigQuery Data Transfer Service can now transfer data from the following data sources:</p>\n\n<ul>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/facebook-ads-transfer\">Facebook Ads</a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/oracle-transfer\">Oracle</a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/salesforce-transfer\">Salesforce</a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/sfmc-transfer\">Salesforce Marketing
+  Cloud</a></li>\n<li><a href=\"https://cloud.google.com/bigquery/docs/servicenow-transfer\">ServiceNow</a></li>\n</ul>\n\n<p>Transfers
+  from these data sources are supported in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n<h3>Feature</h3>\n<p>The
+  following SQL features are now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally
+  available</a> (GA):</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#group_by_grouping_sets\"><code>GROUP
+  BY GROUPING SETS</code> clause</a>: Produces aggregated data for one or more grouping
+  sets.</li>\n<li><a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#group_by_cube\"><code>GROUP
+  BY CUBE</code> clause</a>: Produces aggregated data for all grouping set permutations.</li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#grouping\"><code>GROUPING</code>
+  function</a>: Checks if a groupable value in the <code>GROUP BY</code> clause is
+  aggregated.</li>\n</ul>\n<h3>Feature</h3>\n<p>The  <a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#group_by_all\"><code>GROUP
+  BY ALL</code> clause</a>, which groups rows by inferring grouping keys from the
+  <code>SELECT</code> items, is now in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>\n<strong
+  class=\"release-note-product-title\">Bigtable</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-bigtable\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-bigtable\">google-cloud-bigtable</a></h3>\n\n<h4
+  id=\"2340_2024-02-21\"><a href=\"https://github.com/googleapis/java-bigtable/compare/v2.33.0...v2.34.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.34.0</a> (2024-02-21)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add the export logic for per-connection
+  error rate metric (<a href=\"https://github.com/googleapis/java-bigtable/issues/2121\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2121</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/d053f2dc98eb8576f33471d728c6fbf32d537ece\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">d053f2d</a>)</li>\n<li>Create
+  the backbone of counting errors per connection each minute. (<a href=\"https://github.com/googleapis/java-bigtable/issues/2094\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2094</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/7d27816b959a06412f59f49023611f0bca8e3536\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7d27816</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update actions/setup-java action
+  to v4 (<a href=\"https://github.com/googleapis/java-bigtable/issues/2106\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2106</a>) (<a href=\"https://github.com/googleapis/java-bigtable/commit/a694296a76faefe31585aabc9dce0adcf4a342bf\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a694296</a>)</li>\n<li>Update
+  dependency com.google.cloud:gapic-libraries-bom to v1.30.0 (<a href=\"https://github.com/googleapis/java-bigtable/issues/2126\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2126</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/f613bd0dd449d218a0d8b6d20344155f9762cfb1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f613bd0</a>)</li>\n<li>Update
+  dependency com.google.cloud:sdk-platform-java-config to v3.25.0 (<a href=\"https://github.com/googleapis/java-bigtable/issues/2113\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2113</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/ba1973e20c4cbb9be778840cc202eb7e4daf04f4\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">ba1973e</a>)</li>\n<li>Update
+  dependency com.google.truth.extensions:truth-proto-extension to v1.4.1 (<a href=\"https://github.com/googleapis/java-bigtable/issues/2119\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2119</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/0a7ad66fa9e2c1858f51c25d1ea01b26da0b944f\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">0a7ad66</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:junit-platform-native to v0.10.1 (<a href=\"https://github.com/googleapis/java-bigtable/issues/2122\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2122</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/99ec28425c2caac6a992cb7edd83f2029cce92ec\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">99ec284</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:native-maven-plugin to v0.10.1 (<a href=\"https://github.com/googleapis/java-bigtable/issues/2123\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2123</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/12d961aad5d15feb27a7996de8b9a626fcdfbc5b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">12d961a</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Buildpacks</strong>\n<h3>Feature</h3>\n<p>Starting
+  \ in Go version 1.22 and later, you can no longer use <code>GOPATH</code> for installing
+  dependencies. To manage dependencies, you use a <a href=\"https://cs.opensource.google/go/go/+/refs/tags/go1.22.0:src/go.mod\"><code>go.mod</code></a>
+  file. For more information about Go versions, and managing dependencies for vendor
+  directories, see <a href=\"https://pkg.go.dev/cmd/go#hdr-GOPATH_and_Modules\">GOPATH
+  and Modules</a> in Go documentation.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Asset Inventory</strong>\n<h3>Feature</h3>\n<p>The following resource types are
+  now publicly available through the <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/exportAssets\">ExportAssets</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/listing-assets\">ListAssets</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/batchGetAssetsHistory\">BatchGetAssetsHistory</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/queryAssets\">QueryAssets</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/feeds\">Feed</a>,
+  and Search (<a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/searchAllResources\">SearchAllResources</a>,
+  <a href=\"https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/searchAllIamPolicies\">SearchAllIamPolicies</a>)
+  APIs.</p>\n\n<ul>\n<li>GKE Hub\n<ul>\n<li><code>gkehub.googleapis.com/Fleet</code></li>\n<li><code>gkehub.googleapis.com/Scope</code></li>\n<li><code>gkehub.googleapis.com/Namespace</code></li>\n<li><code>gkehub.googleapis.com/MembershipBinding</code></li>\n<li><code>gkehub.googleapis.com/RBACRoleBinding</code></li>\n</ul></li>\n<li>AI
+  Platform\n<ul>\n<li><code>aiplatform.googleapis.com/NotebookRuntime</code></li>\n<li><code>aiplatform.googleapis.com/NotebookRuntimeTemplate</code></li>\n</ul></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Cloud Composer</strong>\n<h3>Changed</h3>\n<p>Starting
+  February 27, 2024, in the us-central1, europe-west1, europe-west2, europe-west3,
+  europe-west6, us-east1, and us-east4 regions it is <strong>possible to create new
+  Cloud Composer 1 environments only in projects that already have Cloud Composer
+  1 environments</strong>.</p>\n\n<p>In all other existing or newly created projects
+  in these regions, it is possible to create only Cloud Composer 2 environments. This
+  change is a part of the preparation for Cloud Composer 1 end of support, as communicated
+  earlier and described in the <a href=\"https://cloud.google.com/composer/docs/composer-versioning-overview#version-support-for-composer-1\">Versioning
+  overview</a>.</p>\n<strong class=\"release-note-product-title\">Cloud Functions</strong>\n<h3>Feature</h3>\n<p>Cloud
+  Functions now supports the PHP 8.3 and Java 21 runtimes at the <a href=\"https://cloud.google.com/products/#product-launch-stages\">General
+  Availability release level</a> for 2nd gen functions.</p>\n<h3>Feature</h3>\n<p>Cloud
+  Functions now supports the Go 1.22 runtime at the <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview
+  release level</a>.</p>\n<strong class=\"release-note-product-title\">Cloud Logging</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-logging\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-logging\">google-cloud-logging</a></h3>\n\n<h4
+  id=\"3160_2024-02-20\"><a href=\"https://github.com/googleapis/java-logging/compare/v3.15.17...v3.16.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3.16.0</a> (2024-02-20)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add an API method for reordering firewall
+  policies (<a href=\"https://github.com/googleapis/java-logging/issues/1538\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1538</a>) (<a href=\"https://github.com/googleapis/java-logging/commit/9cd6b96d9946828c02ccff2ff846a06cc6fff329\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">9cd6b96</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.cloud:sdk-platform-java-config
+  to v3.25.0 (<a href=\"https://github.com/googleapis/java-logging/issues/1535\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1535</a>) (<a href=\"https://github.com/googleapis/java-logging/commit/7fde7795f03ac96353912829b42adc0035a41d26\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7fde779</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:junit-platform-native to v0.10.0 (<a href=\"https://github.com/googleapis/java-logging/issues/1528\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1528</a>) (<a
+  href=\"https://github.com/googleapis/java-logging/commit/b3e4f9b77bffc49a4f9569d4b7a9318a0d5ea5c0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">b3e4f9b</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:native-maven-plugin to v0.10.0 (<a href=\"https://github.com/googleapis/java-logging/issues/1456\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1456</a>) (<a
+  href=\"https://github.com/googleapis/java-logging/commit/f27713ed55159754715cca5ff205364e315a7c05\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">f27713e</a>)</li>\n<li>Update
+  dependency org.graalvm.buildtools:native-maven-plugin to v0.10.1 (<a href=\"https://github.com/googleapis/java-logging/issues/1542\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1542</a>) (<a
+  href=\"https://github.com/googleapis/java-logging/commit/af784bce7c5272a346ce5016464c87af7d69b442\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">af784bc</a>)</li>\n<li>Update
+  dependency org.junit.vintage:junit-vintage-engine to v5.10.2 (<a href=\"https://github.com/googleapis/java-logging/issues/1530\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1530</a>) (<a
+  href=\"https://github.com/googleapis/java-logging/commit/20981dc90ca1b73b74d9f5a0c7f0dfa4d9960ab9\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">20981dc</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Confidential VM</strong>\n<h3>Feature</h3>\n<p><a
+  href=\"https://cloud.google.com/confidential-computing/confidential-vm/docs/troubleshoot-live-migration\">Live
+  migration</a> is now available on new Confidential VM instances that meet the following
+  configuration criteria:</p>\n\n<ul>\n<li><p>An N2D machine type with AMD EPYC Milan
+  CPU platform</p></li>\n<li><p>AMD SEV Confidential Computing technology</p></li>\n<li><p>An
+  operating system image that supports live migration</p></li>\n</ul>\n<strong class=\"release-note-product-title\">Dataform</strong>\n<h3>Announcement</h3>\n<p>Dataform
+  is available in the us-south1 region.\nFor more information, see <a href=\"https://cloud.google.com/dataform/docs/locations\">Locations</a>.</p>\n<strong
+  class=\"release-note-product-title\">Eventarc</strong>\n<h3>Changed</h3>\n<p>Eventarc
+  is available in the <code>us-west8</code> (Phoenix, Arizona, North America) <a href=\"https://cloud.google.com/eventarc/docs/locations\">region</a>.</p>\n<strong
+  class=\"release-note-product-title\">Google Distributed Cloud Virtual for VMware</strong>\n<h3>Announcement</h3>\n<p>GKE
+  on VMware 1.28.200-gke.111 is now available. To upgrade, see\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/how-to/upgrading\">Upgrading
+  Anthos clusters on VMware</a>.\nGKE on VMware 1.28.200-gke.111 runs on Kubernetes
+  v1.28.4-gke.1400. </p>\n\n<p>If you are using a third-party storage vendor, check
+  the\n<a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a>\ndocument to make sure the storage vendor has already
+  passed the qualification\nfor this release of GKE on VMware.  </p>\n<h3>Fixed</h3>\n<p>The
+  following issues are fixed in 1.28.200-gke.111:</p>\n\n<ul>\n<li>Fixed the \n<a
+  href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#preflight-check-fails-when-the-hostname-isnt-in-the-ip-block-file.\">known
+  issue</a>\nthat caused a preflight check to fail when the hostname isn&#39;t in
+  the IP\nblock file.</li>\n<li>Fixed the\n<a href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#storage-policy-field-is-missing-in-the-admin-cluster-configuration-template\">known
+  issue</a>\nwhere the storage policy field is missing in the admin cluster\nconfiguration
+  template.</li>\n<li>Fixed the manual load balancer issue where the IngressIP is
+  overwritten\nwith the Spec.LoadBalancerIP even if it is empty.</li>\n<li>Fixed the
+  issue that preflight jobs might be stuck in the pending state.</li>\n<li>Fixed the\n<a
+  href=\"https://cloud.google.com/anthos/clusters/docs/on-prem/latest/troubleshooting/known-issues#nfs-common-is-missing-from-ubuntu-os-image\">known
+  issue</a>\nwhere nfs-common is missing from the Ubuntu OS image.</li>\n</ul>\n\n<p>The
+  following vulnerabilities are fixed in 1.28.200-gke.111:</p>\n\n<ul>\n<li><p>Critical
+  container vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1996\">CVE-2022-1996</a></li>\n</ul></li>\n<li><p>High-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2253\">CVE-2023-2253
+  </a></li>\n</ul></li>\n<li><p>Container-optimized OS vulnerabilities:</p>\n\n<ul>\n<li><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6531\">CVE-2023-6531
+  </a></li>\n</ul></li>\n<li><p>Ubuntu vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6040\">CVE-2023-6040</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6606\">CVE-2023-6606
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6817\">CVE-2023-6817
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6931\">CVE-2023-6931
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6932\">CVE-2023-6932</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0193\">CVE-2024-0193
+  </a></p></li>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23583\">CVE-2023-23583</a></p></li>\n</ul></li>\n</ul>\n<strong
+  class=\"release-note-product-title\">Google Kubernetes Engine</strong>\n<h3>Changed</h3>\n<p>This
+  note was updated on March 20, 2024. The links to the security bulletins related
+  to CVE-2024-0193 and CVE-2023-3610 have been updated.</p>\n<h3>Security</h3>\n<p>The
+  following vulnerabilities were discovered in the Linux kernel that can lead to a
+  privilege escalation on Container-Optimized OS and Ubuntu nodes:</p>\n\n<ul>\n<li><p>CVE-2023-3776</p>\n\n<p>For
+  more information, see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-014\">GCP-2024-014
+  security bulletin</a>.</p></li>\n</ul>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2024-0193</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-012\">GCP-2024-012
+  security bulletin</a>.</p>\n<h3>Security</h3>\n<p>The following vulnerabilities
+  were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized
+  OS and Ubuntu nodes:</p>\n\n<ul>\n<li>CVE-2023-3610</li>\n</ul>\n\n<p>For more information,
+  see the <a href=\"https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-013\">GCP-2024-013
+  security bulletin</a>.</p>\n<h3>Feature</h3>\n<p>GKE now supports Gemma (2B, 7B),
+  Google&#39;s new state-of-the-art open models. To learn more, refer to the following
+  guides:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-tgi\">Serve
+  Gemma on GKE with GPUs using Hugging Face TGI</a></li>\n<li><a href=\"https://cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-vllm\">Serve
+  Gemma on GKE with GPUs using vLLM</a></li>\n<li><a href=\"https://cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-tensortllm\">Serve
+  Gemma on GKE with GPUs using TensorRT-LLM</a></li>\n<li><a href=\"https://cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-tpu-saxml\">Serve
+  Gemma on GKE with TPUs using SaxML</a></li>\n</ul>\n\n<p>Deployment to GKE is also
+  supported via Vertex AI Model Garden as part of our Hugging Face, Vertex AI, and
+  GKE integration.</p>\n<strong class=\"release-note-product-title\">Migrate to Virtual
+  Machines</strong>\n<h3>Feature</h3>\n<p><strong>Generally available:</strong> Migrate
+  to Virtual Machines lets you <a href=\"https://cloud.google.com/migrate/virtual-machines/docs/5.0/migrate/migrating-disks\">migrate
+  virtual machine (VM) disks to Persistent Disk volumes on Google Cloud</a>. The migrated
+  disks can be attached to a new VM during the migration process, or an existing VM
+  after the migration is complete.</p>\n<strong class=\"release-note-product-title\">Policy
+  Intelligence</strong>\n<h3>Feature</h3>\n<p>The IAM recommender offers <a href=\"https://cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets\">role
+  recommendations for BigQuery datasets</a>. Role recommendations help you reduce
+  excess permissions by suggesting role changes based on actual permission usage.
+  This feature is available in Preview.</p>\n<strong class=\"release-note-product-title\">Pub/Sub</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"python\">Python</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloud-pubsub\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-pubsub\">google-cloud-pubsub</a></h3>\n\n<h4
+  id=\"2196_2024-02-23\"><a href=\"https://github.com/googleapis/python-pubsub/compare/v2.19.5...v2.19.6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.19.6</a> (2024-02-23)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li>Remove LOGGER.exception() line (<a
+  href=\"https://github.com/googleapis/python-pubsub/issues/1087\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1087</a>) (<a href=\"https://github.com/googleapis/python-pubsub/commit/a395d26ed0fffaee8662f988da97dd35c480af4f\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">a395d26</a>)</li>\n</ul>\n\n<h4
+  id=\"2195_2024-02-22\"><a href=\"https://github.com/googleapis/python-pubsub/compare/v2.19.4...v2.19.5\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.19.5</a> (2024-02-22)</h4>\n\n<h5
+  id=\"bug_fixes_2\">Bug Fixes</h5>\n\n<ul>\n<li>Update system_test_python_versions
+  (<a href=\"https://github.com/googleapis/python-pubsub/issues/1096\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#1096</a>) (<a href=\"https://github.com/googleapis/python-pubsub/commit/c659ac777f177e54d7272a8de93fa9f554b15d46\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">c659ac7</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Spanner</strong>\n<h3>Feature</h3>\n<p>The
+  following GoogleSQL JSON functions are now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally
+  available</a> (GA):</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#lax_bool\"><code>LAX_BOOL</code></a>:
+  Attempts to convert a JSON value to a SQL <code>BOOL</code> value.</li>\n<li><a
+  href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#lax_double\"><code>LAX_FLOAT64</code></a>:
+  Attempts to convert a JSON value to a\nSQL <code>FLOAT64</code> value.</li>\n<li><a
+  href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#lax_int64\"><code>LAX_INT64</code></a>:
+  Attempts to convert a JSON value to a SQL <code>INT64</code> value.</li>\n<li><a
+  href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#lax_string\"><code>LAX_STRING</code></a>:
+  Attempts to convert a JSON value to a SQL <code>STRING</code> value.</li>\n<li><a
+  href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#bool_for_json\"><code>BOOL</code></a>:
+  Converts a JSON boolean to a SQL <code>BOOL</code> value.</li>\n<li><a href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#double_for_json\"><code>FLOAT64</code></a>:
+  Converts a JSON number to a SQL\n<code>FLOAT64</code> value.</li>\n<li><a href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#int64_for_json\"><code>INT64</code></a>:
+  Converts a JSON number to a SQL <code>INT64</code> value.</li>\n<li><a href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#string_for_json\"><code>STRING</code></a>:
+  Converts a JSON string to a SQL <code>STRING</code> value.</li>\n<li><a href=\"https://cloud.google.com/spanner/docs/reference/standard-sql/json_functions#json_type\"><code>JSON_TYPE</code></a>:
+  Gets the JSON type of the outermost JSON value and converts the name of\nthis type
+  to a SQL <code>STRING</code> value.</li>\n</ul>\n<strong class=\"release-note-product-title\">Text-to-Speech</strong>\n<h3>Announcement</h3>\n<p><a
+  href=\"https://cloud.google.com/text-to-speech/docs/voice-types#studio_voices_preview\">Studio</a>
+  voices are now GA. </p>\n<h3>Announcement</h3>\n<p><a href=\"https://cloud.google.com/text-to-speech/docs/voice-types#casual_voices_preview\">Casual</a>
+  voices are now in preview. </p>\n<strong class=\"release-note-product-title\">Vertex
+  AI</strong>\n<h3>Feature</h3>\n<p><strong>Ground Multimodal Models</strong></p>\n\n<p><p>Model
+  grounding for <code>gemini-pro</code> is available in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.
+  Use grounding to\nconnect the <code>gemini-pro</code> model to unstructured text
+  data stores in Vertex AI Search. Grounding lets models access and use the information
+  in the data repositories to generate more enhanced and nuanced responses.\nFor more
+  information, see <a href=\"https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/ground-gemini.md\">Ground
+  multimodal models</a>.</p>\n<strong class=\"release-note-product-title\">Vertex
+  AI Search and Conversation</strong>\n<h3>Feature</h3>\n<p><strong>Vertex AI Search:
+  Use Terraform to create search apps</strong></p>\n\n<p>You can use Terraform to
+  create search apps for your Vertex AI Search. </p>\n\n<p>For information, see <a
+  href=\"https://cloud.google.com/generative-ai-app-builder/docs/create-engine-es\">Create
+  a search app</a>.</p>\n<strong class=\"release-note-product-title\">Virtual Private
+  Cloud</strong>\n<h3>Changed</h3>\n<p>The VPC documentation has been updated with
+  a new page that describes which services in Google Cloud include support for IPv6.
+  For more information, see <a href=\"https://cloud.google.com/vpc/docs/ipv6-support\">IPv6
+  support in Google Cloud</a>.</p>\n\n    "
+title_type:
+published: &1 2024-02-26 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#February_26_2024
+title: February 26, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

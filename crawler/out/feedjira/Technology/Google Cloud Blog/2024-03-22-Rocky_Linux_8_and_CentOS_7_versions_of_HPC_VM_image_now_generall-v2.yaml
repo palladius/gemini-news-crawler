@@ -1,0 +1,231 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/topics/hpc/ga-rocky-linux-8-and-centos-7-versions-of-hpc-vm-image/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Rocky Linux 8 and CentOS 7 versions of HPC VM image now generally available
+url: https://cloud.google.com/blog/topics/hpc/ga-rocky-linux-8-and-centos-7-versions-of-hpc-vm-image/
+summary: "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align:
+  baseline;\">Today we’re excited to announce the general availability of Rocky Linux
+  8-based and CentOS 7-based HPC Virtual Machine (VM) images for high-performance
+  computing (HPC) workloads, with a focus on tightly-coupled workloads, such as weather
+  forecasting, fluid dynamics, and molecular modeling.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">With the </span><a href=\"https://cloud.google.com/compute/docs/instances/create-hpc-vm\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">HPC VM image</span></a><span
+  style=\"vertical-align: baseline;\">, we have made it easy to build an HPC-ready
+  VM instance, incorporating our </span><a href=\"https://cloud.google.com/solutions/hpc?hl=en#section-7\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">best practices running
+  HPC on Google Cloud</span></a><span style=\"vertical-align: baseline;\">, including:</span></p>\n<ul>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><strong style=\"vertical-align: baseline;\">VMs ready for
+  HPC out-of-the-box</strong><span style=\"vertical-align: baseline;\"> - No need
+  to manually tune performance, manage VM reboots, or stay up to date with the latest
+  Google Cloud updates for tightly-coupled HPC workloads, especially with our regular
+  HPC VM image releases. Reboots will be automatically triggered when tunings require
+  them and this process will be managed for you by the HPC VM image. </span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><strong style=\"vertical-align: baseline;\">Networking optimizations
+  for tightly-coupled workloads</strong><span style=\"vertical-align: baseline;\">
+  - Optimizations that reduce latency for small messages are included, which benefits
+  applications that are heavily dependent on point-to-point and collective communications.</span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><strong style=\"vertical-align: baseline;\">Compute optimizations
+  </strong><span style=\"vertical-align: baseline;\">- Optimizations that reduce system
+  jitter are included, which makes single-node performance consistent, important to
+  improving scalability.</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><strong style=\"vertical-align:
+  baseline;\">Improved application compatibility</strong><span style=\"vertical-align:
+  baseline;\"> - Alignment with the node-level requirements of the Intel HPC platform
+  specification enables a high degree of interoperability between systems.</span></p>\n</li>\n</ul>\n<h3><strong
+  style=\"vertical-align: baseline;\">Performance measurement using HPC benchmarks</strong></h3>\n<p><span
+  style=\"vertical-align: baseline;\">We have compared the performance of the HPC
+  VM images against the default CentOS 7 and GCP-optimized Rocky Linux 8 images across
+  Intel MPI Benchmarks (IMB).</span></p>\n<p><span style=\"vertical-align: baseline;\">The
+  benchmarks were run against the following images.</span></p>\n<p><strong style=\"vertical-align:
+  baseline;\">HPC Rocky Linux 8</strong></p>\n<ul>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">Image name: hpc-rocky-linux-8-v20240126</span></p>\n</li>\n<li aria-level=\"1\"
+  style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span
+  style=\"vertical-align: baseline;\">Image project: cloud-hpc-image-public</span></p>\n</li>\n</ul>\n<p><strong
+  style=\"vertical-align: baseline;\">Default GCP Rocky Linux 8</strong></p>\n<ul>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">Image name: rocky-linux-8-optimized-gcp-v20240111</span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">Image project: rocky-linux-cloud</span></p>\n</li>\n</ul>\n<p><span
+  style=\"vertical-align: baseline;\">Each cluster of machines was deployed with compact
+  placement with </span><code style=\"vertical-align: baseline;\">max_distance=1</code><span
+  style=\"vertical-align: baseline;\">, meaning all VMs were placed on hardware that
+  were physically on the same rack to minimize network latency.</span></p>\n<h3><span
+  style=\"vertical-align: baseline;\">Intel MPI Benchmark (IMB) Ping-Pong</span></h3>\n<p><span
+  style=\"vertical-align: baseline;\">IMB Ping-Pong measures the latency when transferring
+  a fixed-sized message between two ranks on different VMs. We saw up to a 15% improvement
+  when using the HPC Rocky Linux 8 image compared to the default GCP Rocky Linux 8
+  image.</span></p>\n<p><strong><span style=\"vertical-align: baseline;\">Benchmark
+  setup</span></strong></p>\n<ul>\n<li aria-level=\"1\" style=\"list-style-type: disc;
+  vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">2 x h3-standard-88</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">MPI library: Intel OneAPI MPI library 2021.11.0</span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">MPI benchmarks application:
+  Intel MPI Benchmarks 2019 Update 6</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">MPI environment variables:</span></p>\n</li>\n<ul>\n<li aria-level=\"2\"
+  style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span
+  style=\"vertical-align: baseline;\">I_MPI_PIN_PROCESSOR_LIST=0</span></p>\n</li>\n<li
+  aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">I_MPI_FABRICS=shm:ofi</span></p>\n</li>\n<li
+  aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">FI_PROVIDER=tcp</span></p>\n</li>\n</ul>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">Command line: mpirun
+  -n 2 -ppn 1 -bind-to core -hostfile &lt;hostfile&gt; IMB-MPI1 Pingpong -msglog 0:16
+  -iter 50000</span></p>\n</li>\n</ul>\n<p><strong><span style=\"vertical-align: baseline;\">Results</span></strong></p></div>\n<div
+  class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module
+  h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--large\n
+  \     \n      \n        h-c-grid__col\n        h-c-grid__col--6 h-c-grid__col--offset-3\n
+  \       \n        \n      \"\n      >\n\n      \n      \n        \n        <img\n
+  \           src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/1_X6ust7I.max-1000x1000.png\"\n
+  \       \n          alt=\"1\">\n        \n        </a>\n      \n        <figcaption
+  class=\"article-image__caption \"><p data-block-key=\"usmts\">Pingpong 1 PPN - Rocky
+  Linux 8 (lower is better)</p></figcaption>\n      \n    </figure>\n\n  \n      </div>\n
+  \   </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><h3><span
+  style=\"vertical-align: baseline;\">Intel MPI Benchmark (IMB) AllReduce - 1 process
+  per node</span></h3>\n<p><span style=\"vertical-align: baseline;\">The IMB AllReduce
+  benchmark measures the collective latency among multiple ranks across VMs. It reduces
+  a vector of a fixed length with the MPI_SUM operation.</span></p>\n<p><span style=\"vertical-align:
+  baseline;\">To isolate networking performance, we initially show 1 PPN (process-per-node)
+  results (1 MPI rank) on 8 VMs.</span></p>\n<p><span style=\"vertical-align: baseline;\">We
+  saw an improvement of up to 35% when comparing the HPC Rocky Linux 8 image to the
+  default GCP Rocky Linux 8 image.</span></p>\n<p><strong><span style=\"vertical-align:
+  baseline;\">Benchmark setup</span></strong></p>\n<ul>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">8 x h3-standard-88</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">1 process per node</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">MPI library: Intel OneAPI MPI library 2021.11.0</span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">MPI benchmarks application:
+  Intel MPI Benchmarks 2019 Update 6</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">MPI environment variables:</span></p>\n</li>\n<ul>\n<li aria-level=\"2\"
+  style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span
+  style=\"vertical-align: baseline;\">I_MPI_FABRICS=shm:ofi</span></p>\n</li>\n<li
+  aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">FI_PROVIDER=tcp</span></p>\n</li>\n<li
+  aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">I_MPI_ADJUST_ALLREDUCE=11</span></p>\n</li>\n</ul>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">Command line: mpirun
+  -n 008 -ppn 01 -bind-to core -hostfile &lt;hostfile&gt; IMB-MPI1 Allreduce -msglog
+  0:16 -iter 50000 -npmin 008</span></p>\n</li>\n</ul>\n<p><strong><span style=\"vertical-align:
+  baseline;\">Results</span></strong></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/2_b9MR5jY.max-1000x1000.png\"\n
+  \       \n          alt=\"2\">\n        \n        </a>\n      \n        <figcaption
+  class=\"article-image__caption \"><p data-block-key=\"usmts\">Allreduce 1 PPN -
+  Rocky Linux 8 (lower is better)</p></figcaption>\n      \n    </figure>\n\n  \n
+  \     </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><h3><span
+  style=\"vertical-align: baseline;\">Intel MPI Benchmark (IMB) AllReduce - 1 process
+  per core (88 processes per node)</span></h3>\n<p><span style=\"vertical-align: baseline;\">We
+  show 88 PPN results where there are 88 MPI ranks/node and 1 thread/rank (704 ranks).</span></p>\n<p><span
+  style=\"vertical-align: baseline;\">For this test, we saw an improvement of up to
+  25% when comparing the HPC Rocky Linux 8 image to the default GCP Rocky Linux 8
+  image.</span></p>\n<p><strong><span style=\"vertical-align: baseline;\">Benchmark
+  setup</span></strong></p>\n<ul>\n<li aria-level=\"1\" style=\"list-style-type: disc;
+  vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">8 x h3-standard-88</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">1 process per core (88 processes per node)</span></p>\n</li>\n<li aria-level=\"1\"
+  style=\"list-style-type: disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span
+  style=\"vertical-align: baseline;\">MPI library: Intel OneAPI MPI library 2021.11.0</span></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">MPI benchmarks application:
+  Intel MPI Benchmarks 2019 Update 6</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><span style=\"vertical-align:
+  baseline;\">MPI environment variables:</span></p>\n</li>\n<ul>\n<li aria-level=\"2\"
+  style=\"list-style-type: circle; vertical-align: baseline;\">\n<p role=\"presentation\"><span
+  style=\"vertical-align: baseline;\">I_MPI_FABRICS=shm:ofi</span></p>\n</li>\n<li
+  aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">FI_PROVIDER=tcp</span></p>\n</li>\n<li
+  aria-level=\"2\" style=\"list-style-type: circle; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">I_MPI_ADJUST_ALLREDUCE=11</span></p>\n</li>\n</ul>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><span style=\"vertical-align: baseline;\">Command line: mpirun
+  -n 704 -ppn 88 -bind-to core -hostfile &lt;hostfile&gt; IMB-MPI1 Allreduce -msglog
+  0:16 -iter 50000 -npmin 704</span></p>\n</li>\n</ul>\n<p><strong><span style=\"vertical-align:
+  baseline;\">Results</span></strong></p></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n
+  \ \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n
+  \ \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n
+  \       h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \"\n
+  \     >\n\n      \n      \n        \n        <img\n            src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/3_IOxuhIk.max-1000x1000.png\"\n
+  \       \n          alt=\"3\">\n        \n        </a>\n      \n        <figcaption
+  class=\"article-image__caption \"><p data-block-key=\"usmts\">Allreduce 88 PPN -
+  Rocky Linux 8 (lower is better)</p></figcaption>\n      \n    </figure>\n\n  \n
+  \     </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><p><span
+  style=\"vertical-align: baseline;\">The latency, bandwidth, and jitter improvements
+  in the HPC VM Image have resulted in </span><a href=\"https://cloud.google.com/blog/topics/hpc/introducing-hpc-vm-images\"><span
+  style=\"text-decoration: underline; vertical-align: baseline;\">historically higher
+  MPI workload performance</span></a><span style=\"vertical-align: baseline;\">. We
+  plan to update this blog as more performance results become available.</span></p>\n<h3><strong
+  style=\"vertical-align: baseline;\">Cloud HPC Toolkit and the HPC VM image</strong></h3>\n<p><span
+  style=\"vertical-align: baseline;\">You can use the HPC VM image through the </span><a
+  href=\"https://cloud.google.com/hpc-toolkit/docs/overview\"><span style=\"text-decoration:
+  underline; vertical-align: baseline;\">Cloud HPC Toolkit</span></a><span style=\"vertical-align:
+  baseline;\">, an open-source tool that simplifies the process of deploying environments
+  for a variety of workloads, including HPC, AI, and machine learning. In fact, the
+  Toolkit blueprints and Slurm images based on Rocky Linux 8 and CentOS 7 use the
+  HPC VM image by default. Using the Cloud HPC Toolkit, you can add customization
+  on top of the HPC VM image, including installing new software and changing configurations,
+  making it even more useful. </span></p>\n<p><span style=\"vertical-align: baseline;\">By
+  using the Cloud HPC Toolkit to customize images based on the HPC VM Image, it is
+  possible to create and share blueprints for producing optimized and specialized
+  images, improving reproducibility while reducing setup time and effort.</span></p>\n<h3><strong
+  style=\"vertical-align: baseline;\">How to get started</strong></h3>\n<p><span style=\"vertical-align:
+  baseline;\">You can create an HPC-ready VM by using the following options:</span></p>\n<ul>\n<li
+  role=\"presentation\"><a href=\"https://cloud.google.com/hpc-toolkit/docs/overview#:~:text=Cloud%20HPC%20Toolkit%20is%20open,performance%20computing%20(HPC)%20environments.\"><strong
+  style=\"text-decoration: underline; vertical-align: baseline;\">Cloud HPC Toolkit</strong></a></li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><a href=\"https://cloud.google.com/compute/docs/gcloud-compute\"><strong
+  style=\"text-decoration: underline; vertical-align: baseline;\">Google Cloud CLI</strong></a></p>\n</li>\n<li
+  aria-level=\"1\" style=\"list-style-type: disc; vertical-align: baseline;\">\n<p
+  role=\"presentation\"><a href=\"https://console.cloud.google.com\"><strong style=\"text-decoration:
+  underline; vertical-align: baseline;\">Google Cloud console</strong></a><span style=\"vertical-align:
+  baseline;\"> - Note: the image is available through </span><a href=\"https://pantheon.corp.google.com/marketplace/product/click-to-deploy-images/hpc-vm-image-rocky-linux-8\"
+  rel=\"noopener\" target=\"_blank\"><strong style=\"text-decoration: underline; vertical-align:
+  baseline;\">Cloud Marketplace</strong></a><span style=\"vertical-align: baseline;\">
+  in the console.</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type:
+  disc; vertical-align: baseline;\">\n<p role=\"presentation\"><a href=\"https://cloud.google.com/blog/topics/hpc/introducing-the-latest-slurm-on-gcp-scripts\"><strong
+  style=\"text-decoration: underline; vertical-align: baseline;\">SchedMD's Slurm
+  workload manager</strong></a><span style=\"vertical-align: baseline;\">, which uses
+  the HPC VM image by default. For more information, see </span><a href=\"https://pantheon.corp.google.com/marketplace/product/click-to-deploy-images/hpc-vm-image-rocky-linux-8?mods=logs_tg_prod&amp;project=cloud-hpc-image-devel\"
+  rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align:
+  baseline;\">Creating Intel Select Solution verified clusters</span></a><span style=\"vertical-align:
+  baseline;\">.</span></p>\n</li>\n<li aria-level=\"1\" style=\"list-style-type: disc;
+  vertical-align: baseline;\">\n<p role=\"presentation\"><a href=\"https://gcp.cloudycluster.com/\"
+  rel=\"noopener\" style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe
+  UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"
+  target=\"_blank\"><strong style=\"text-decoration: underline; vertical-align: baseline;\">Omnibond
+  CloudyCluster</strong></a><span style=\"vertical-align: baseline;\">, which uses
+  the HPC VM image by default.</span></p>\n</li>\n</ul></div>"
+author: Rohit Ramu
+categories:
+- Compute
+- HPC
+published: 2024-03-22 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/topics/hpc/ga-rocky-linux-8-and-centos-7-versions-of-hpc-vm-image/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

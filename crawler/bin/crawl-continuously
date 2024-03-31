@@ -1,0 +1,37 @@
+#!/bin/bash
+
+set -euo pipefail
+
+VER='0.1'
+
+MAX_ARTICLE_SIZE="${MAX_ARTICLE_SIZE:-1042}"
+MAX_WEBSITES="${MAX_WEBSITES:-142}"
+SLEEP_FOR_SECONDS="${SLEEP_FOR_SECONDS:-1}"
+i=0
+MAX_ITERATIONS=todo
+
+# crawl-a-REAL-lot:
+# 	echo Crawling as much as I have basically
+# 	MAX_ARTICLE_SIZE=1000 MAX_WEBSITES=5000 ./crawl.rb
+# crawl-a-few:
+# 	echo Crawling just a few when testing new functionalities
+# 	MAX_ARTICLE_SIZE=2 MAX_WEBSITES=5 ./crawl.rb
+
+# crawl-continuously:
+# 	MAX_ARTICLE_SIZE=1000 MAX_WEBSITES=5000 bin/crawl-continuously
+
+
+while true ; do
+    ((i+=1))
+    echo
+    echo "-------------------------------------------------"
+    echo "$0 v.$VER"
+    echo "Iteration number: $i / MAX_ITERATIONS: $MAX_ITERATIONS"
+    echo "-------------------------------------------------"
+
+    # Real execution
+    MAX_ARTICLE_SIZE=$MAX_ARTICLE_SIZE MAX_WEBSITES=$MAX_WEBSITES ./crawl.rb
+
+    #sleep
+    sleep "$SLEEP_FOR_SECONDS"
+done

@@ -1,0 +1,67 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_08_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_08_2024
+content: "<strong class=\"release-note-product-title\">Chronicle SOAR</strong>\n<h3>Announcement</h3>\n<p>Release
+  6.2.49 is now in General Availability. </p>\n<strong class=\"release-note-product-title\">Dataflow</strong>\n<h3>Changed</h3>\n<p>Streaming
+  jobs created after March 7, 2024 automatically encrypt all user data with <a href=\"https://cloud.google.com/dataflow/docs/guides/customer-managed-encryption-keys\">customer-managed
+  encryption keys (CMEK)</a>. To enable this encryption for jobs created before March
+  7, 2024, <a href=\"https://cloud.google.com/dataflow/docs/guides/stopping-a-pipeline\">drain
+  or cancel the job</a>, and then restart it.</p>\n<strong class=\"release-note-product-title\">Dataproc
+  Metastore</strong>\n<h3>Feature</h3>\n<p>Dataproc Metastore now supports <a href=\"https://cloud.google.com/dataproc-metastore/docs/backup-metadata\">scheduled
+  backups</a>. Backups can be scheduled to run at user-specified cron job intervals,
+  including running daily, weekly, or monthly. </p>\n<strong class=\"release-note-product-title\">Google
+  Kubernetes Engine</strong>\n<h3>Fixed</h3>\n<p>For GKE versions later than 1.29.1-gke.1760000,
+  the NEG, Ingress, L4 internal load balancer with <a href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/service-load-balancer#subsetting\">subsetting</a>,
+  and <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/external-svc-lb-rbs#backend_service-based\">L4
+  RBS controllers</a> will skip processing the nodes missing the <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/gke-zonal-topology#zonal-placement-methods\"><code>topology.kubernetes.io/zone</code></a>
+  label until the zone information is ready. The load balancer controllers will no
+  longer block sync operations when a node is introduced without the label.</p>\n<h3>Fixed</h3>\n<p>Managed
+  ASM installation and node scaling fails on GKE Autopilot clusters on versions between
+  1.28.6-gke.1095000 and 1.28.7-gke.1025000 and on versions between 1.29.1-gke.1016000
+  and 1.29.1-gke.1781000. To mitigate this issue, <a href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades-autopilot#manual-upgrade\">upgrade
+  the cluster</a> to version 1.28.7-gke.1026000 or later, or 1.29.2-gke.1060000 or
+  later.</p>\n\n<p>With 2024-R07, clusters created in the Rapid channel are defaulting
+  to an affected version. To avoid creating a cluster on an affected version, <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/creating-an-autopilot-cluster#set-version\">manually
+  specify</a> version 1.28.7-gke.1026000 or later, or 1.29.2-gke.1060000 or later
+  when creating clusters in the Rapid channel.</p>\n<strong class=\"release-note-product-title\">Recommender</strong>\n<h3>Feature</h3>\n<p><a
+  href=\"https://console.cloud.google.com/home/recommendations\">Recommendation Hub</a>
+  is a centralized page on Google Cloud that helps you view all of your recommendations
+  in one place. We recently made improvements to the page, including enabling organization
+  and folder-view of recommendations, custom sorting and filtering of recommendations,
+  and more. For more information, see <a href=\"https://cloud.google.com/recommender/docs/quickstart-recommendation-hub\">documentation</a></p>\n<strong
+  class=\"release-note-product-title\">Vertex AI</strong>\n<h3>Feature</h3>\n<p><strong>Vertex
+  AI Feature Store</strong></p>\n\n<p>The following features of Vertex AI Feature
+  Store are now available in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>:</p>\n\n<ul>\n<li><p><strong>Integration
+  of Vertex AI Feature Store with Dataplex:</strong>  Online store instances, feature
+  views, and feature groups are now automatically registered as data assets in Data
+  Catalog, a Dataplex feature that catalogs metadata from these resources. You can
+  use the metadata search capability of Dataplex to search for and view the metadata
+  of these resources. For more information, see <a href=\"https://cloud.google.com/vertex-ai/docs/featurestore/latest/search-feature-metadata\">Search
+  for resource metadata in Data Catalog</a>.</p></li>\n<li><p>**Service account configuration
+  for feature views: **You can configure a feature view to use a dedicated service
+  account. By default, every feature view uses the service account configured for
+  your project. For more information, see <a href=\"https://cloud.google.com/vertex-ai/docs/featurestore/latest/create-featureview#serviceaccount\">Configure
+  the service account for a feature view</a>.</p></li>\n<li><p><strong>Multiple entity
+  IDs for a feature view:</strong> While creating or updating a feature view, you
+  can specify multiple entity ID columns. For more information, see <a href=\"https://cloud.google.com/vertex-ai/docs/featurestore/latest/create-featureview#create_featureview_bq_embedding\">Create
+  a feature view</a>.</p></li>\n</ul>\n\n    "
+title_type:
+published: &1 2024-03-08 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_08_2024
+title: March 08, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

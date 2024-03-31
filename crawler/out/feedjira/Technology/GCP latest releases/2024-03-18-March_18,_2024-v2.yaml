@@ -1,0 +1,263 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#March_18_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#March_18_2024
+content: "<strong class=\"release-note-product-title\">BigQuery</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"node.js\">Node.js</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloudbigquery\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/nodejs-bigquery\">@google-cloud/bigquery</a></h3>\n\n<h4
+  id=\"751_2024-03-14\"><a href=\"https://github.com/googleapis/nodejs-bigquery/compare/v7.5.0...v7.5.1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7.5.1</a> (2024-03-14)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li>Add better documentation around usage
+  of BigQueryTimestamp class and .timestamp method. (<a href=\"https://github.com/googleapis/nodejs-bigquery/commit/2b2c3e0b8e9c13d23aa54e7a85a861c61410bd4b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2b2c3e0</a>)</li>\n<li>BigQueryTimestamp
+  should keep accepting floats <a href=\"https://github.com/googleapis/nodejs-bigquery/issues/1339\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1339</a> (<a href=\"https://github.com/googleapis/nodejs-bigquery/commit/2b2c3e0b8e9c13d23aa54e7a85a861c61410bd4b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2b2c3e0</a>)</li>\n<li>Restores
+  BigQueryTimestamp behavior to accept a numeric value in the constructor representing
+  epoch-seconds. The affected 7.5.0 version would parse a numeric value as epoch-microseconds.
+  (<a href=\"https://github.com/googleapis/nodejs-bigquery/commit/2b2c3e0b8e9c13d23aa54e7a85a861c61410bd4b\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2b2c3e0</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"python\">Python</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloud-bigquery\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-bigquery\">google-cloud-bigquery</a></h3>\n\n<h4
+  id=\"3190_2024-03-11\"><a href=\"https://github.com/googleapis/python-bigquery/compare/v3.18.0...v3.19.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3.19.0</a> (2024-03-11)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Support RANGE query parameters (<a href=\"https://github.com/googleapis/python-bigquery/issues/1827\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1827</a>) (<a
+  href=\"https://github.com/googleapis/python-bigquery/commit/b359a9a55936a759a36aa69c5e5b014685e1fca6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">b359a9a</a>)</li>\n<li>Support
+  range sql (<a href=\"https://github.com/googleapis/python-bigquery/issues/1807\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1807</a>) (<a
+  href=\"https://github.com/googleapis/python-bigquery/commit/86a45c989836b34dca456bac014352e55d6f86c0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">86a45c9</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_2\">Bug Fixes</h5>\n\n<ul>\n<li>Add google-auth as a direct dependency
+  (<a href=\"https://github.com/googleapis/python-bigquery/commit/713ce2c2f6ce9931f67cbbcd63ad436ad336ad26\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">713ce2c</a>)</li>\n<li>Augment
+  universe_domain handling (<a href=\"https://github.com/googleapis/python-bigquery/issues/1837\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1837</a>) (<a
+  href=\"https://github.com/googleapis/python-bigquery/commit/53c2cbf98d2961f553747514de273bcd5c117f0e\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">53c2cbf</a>)</li>\n<li><strong>deps:</strong>
+  Require google-api-core&gt;=1.34.1, &gt;=2.11.0 (<a href=\"https://github.com/googleapis/python-bigquery/commit/713ce2c2f6ce9931f67cbbcd63ad436ad336ad26\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">713ce2c</a>)</li>\n<li>Supplementary
+  fix to env-based universe resolution (<a href=\"https://github.com/googleapis/python-bigquery/issues/1844\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1844</a>) (<a
+  href=\"https://github.com/googleapis/python-bigquery/commit/b8189929b6008f7780214822062f8ed05d8d2a01\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">b818992</a>)</li>\n<li>Supplementary
+  fix to env-based universe resolution (<a href=\"https://github.com/googleapis/python-bigquery/issues/1847\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1847</a>) (<a
+  href=\"https://github.com/googleapis/python-bigquery/commit/6dff50f4fbc5aeb644383a4050dd5ffc05015ffe\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">6dff50f</a>)</li>\n</ul></section>\n</div>\n<h3>Feature</h3>\n<p>You
+  can now <a href=\"https://cloud.google.com/bigquery/docs/managing-datasets#undelete_datasets\">undelete
+  a dataset</a> that is within your time travel window to recover it to the state
+  that it was in when it was deleted. This feature is in <a href=\"https://cloud.google.com/products/#product-launch-stages\">preview</a>.</p>\n<h3>Feature</h3>\n<p>These
+  BigQuery features are now\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>\n(GA):</p>\n\n<p><a href=\"https://cloud.google.com/bigquery/docs/text-analysis-search\">Text
+  analysis configuration options</a>\nfor the following:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_search_index_statement\"><code>CREATE
+  SEARCH INDEX</code>  DDL</a></li>\n<li>Existing\n<a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/text-analysis#log_analyzer\"><code>LOG_ANALYZER</code></a>\nand
+  new\n<a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/text-analysis#pattern_analyzer\"><code>PATTERN_ANALYZER</code></a>\nanalyzers,
+  which are used in various functions, including\n<a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#search\"><code>SEARCH</code></a></li>\n<li>The\n<a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/text-analysis-functions.md#text_analyze\"><code>TEXT_ANALYZE</code></a>\nfunction</li>\n</ul>\n\n<p>The
+  following advanced processing functions:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-bag-of-words\"><code>ML.BAG_OF_WORDS</code></a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-tf-idf\"><code>ML.TF_IDF</code></a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/text-analysis-functions#bag_of_words\"><code>BAG_OF_WORDS</code></a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/text-analysis-functions#tf_idf\"><code>TF_IDF</code></a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/mathematical_functions#cosine_distance\"><code>COSINE_DISTANCE</code></a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/mathematical_functions#euclidean_distance\"><code>EUCLIDEAN_DISTANCE</code></a></li>\n<li><a
+  href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions#edit_distance\"><code>EDIT_DISTANCE</code></a></li>\n</ul>\n<h3>Feature</h3>\n<p>You
+  can now perform hierarchical forecasts in BigQuery ML\n<a href=\"https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-time-series#hierarchical_time_series_cols\">time
+  series models</a>,\nwhich let you aggregate and roll up values for all time series
+  in the model.\nThis feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally
+  available</a>\n(GA).</p>\n<strong class=\"release-note-product-title\">Bigtable</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-bigtable\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-bigtable\">google-cloud-bigtable</a></h3>\n\n<h4
+  id=\"2360_2024-03-13\"><a href=\"https://github.com/googleapis/java-bigtable/compare/v2.35.1...v2.36.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.36.0</a> (2024-03-13)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add models for type APIs (<a href=\"https://github.com/googleapis/java-bigtable/issues/2160\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2160</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/8277ea828491d39b9c3c2e67c1a03927e2a744d9\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">8277ea8</a>)</li>\n<li>Publish
+  new bigtable APIs for types and aggregates (<a href=\"https://github.com/googleapis/java-bigtable/issues/2158\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2158</a>) (<a
+  href=\"https://github.com/googleapis/java-bigtable/commit/430dffe0ff5916d9c3d7cfd7d35ca13514fd8934\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">430dffe</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Cloud Logging</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"python\">Python</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloud-logging\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-logging\">google-cloud-logging</a></h3>\n\n<h4
+  id=\"3100_2024-03-13\"><a href=\"https://github.com/googleapis/python-logging/compare/v3.9.0...v3.10.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3.10.0</a> (2024-03-13)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Allow users to explicitly configure universe
+  domain (<a href=\"https://github.com/googleapis/python-logging/issues/846\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#846</a>) (<a href=\"https://github.com/googleapis/python-logging/commit/e998a219740cf8b2373e462867244a6860b0c88c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">e998a21</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li>Added placeholder kwargs to StructuredLogHandler
+  (<a href=\"https://github.com/googleapis/python-logging/issues/845\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#845</a>) (<a href=\"https://github.com/googleapis/python-logging/commit/9bc0a37d910340d828db8bab33d67785f184f00c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">9bc0a37</a>)</li>\n<li>Allowed
+  for a partial override of loggers that get excluded from setup_client (<a href=\"https://github.com/googleapis/python-logging/issues/831\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#831</a>) (<a href=\"https://github.com/googleapis/python-logging/commit/870c9403e03d31a0f22dddc257cd5fb2b4fc5ee3\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">870c940</a>)</li>\n<li>Remove
+  usage in including_default_value_fields to prepare for protobuf 5.x (<a href=\"https://github.com/googleapis/python-logging/issues/866\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#866</a>) (<a href=\"https://github.com/googleapis/python-logging/commit/66a534d1b83d7c63f5c7b013bf27ed54dd2786c3\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">66a534d</a>)</li>\n<li>Use
+  value of cluster-location in GKE for tagging location (<a href=\"https://github.com/googleapis/python-logging/issues/830\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#830</a>) (<a href=\"https://github.com/googleapis/python-logging/commit/c15847c215c18ad3970efba12f5d337e6d499883\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">c15847c</a>)</li>\n</ul>\n\n<h5
+  id=\"documentation\">Documentation</h5>\n\n<ul>\n<li>Added documentation for Django/Flask
+  integrations and dictConfig (<a href=\"https://github.com/googleapis/python-logging/issues/848\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#848</a>) (<a href=\"https://github.com/googleapis/python-logging/commit/c65ec92bf348e2bcdd8f4c5bacc152cfb4737eb1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">c65ec92</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Cloud Monitoring</strong>\n<h3>Changed</h3>\n<p>You
+  can now use Duet AI for Developers to help you create a synthetic monitor. This
+  feature is in Public Preview. For more information, see  <a href=\"https://cloud.google.com/monitoring/synthetic-monitors/create\">Create
+  a synthetic monitor</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Storage</strong>\n<h3>Feature</h3>\n<p>You can now use the GCS FUSE file cache feature,
+  a client-based read cache that lets repeat file reads to be served from a faster
+  cache storage of your choice. To learn more about caching, see <a href=\"https://cloud.google.com/storage/docs/gcsfuse-cache\">GCS
+  FUSE caching documentation</a>.</p>\n<h3>Libraries</h3>\n<p>A weekly digest of client
+  library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud SDK</a>.</p>\n\n<div
+  class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3 track-name=\"go\">Go</h3><h3
+  target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_storageinternalapiv2\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/google-cloud-go/tree/main/storage/internal/apiv2\">storage/internal/apiv2</a></h3>\n\n<h4
+  id=\"1391_2024-03-11\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/storage/v1.39.0...storage/v1.39.1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.39.1</a> (2024-03-11)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li><strong>storage:</strong> Add object
+  validation case and test (<a href=\"https://github.com/googleapis/google-cloud-go/issues/9521\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#9521</a>) (<a
+  href=\"https://github.com/googleapis/google-cloud-go/commit/386bef319b4678beaa926ddfe4edef190f11b68d\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">386bef3</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-storage\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-storage\">google-cloud-storage</a></h3>\n\n<h4
+  id=\"2360_2024-03-15\"><a href=\"https://github.com/googleapis/java-storage/compare/v2.35.0...v2.36.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.36.0</a> (2024-03-15)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add Custom Part Metadata Decorator to
+  ParallelCompositeUploadConfig (<a href=\"https://github.com/googleapis/java-storage/issues/2434\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2434</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/43b800645ba3622e5de635825e1d082c6d26c2eb\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">43b8006</a>)</li>\n<li>Add
+  hierarchical namespace and folders features (<a href=\"https://github.com/googleapis/java-storage/issues/2445\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2445</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/8074fffed5208a8578e5afe694fdd3d8df627b8c\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">8074fff</a>)</li>\n<li>Add
+  soft delete feature (<a href=\"https://github.com/googleapis/java-storage/issues/2403\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2403</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/989f36fbb206832a6a3584c77546d3d560ac0df8\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">989f36f</a>)</li>\n</ul>\n\n<h5
+  id=\"bug_fixes_2\">Bug Fixes</h5>\n\n<ul>\n<li>Fix name digest for noprefix (<a
+  href=\"https://github.com/googleapis/java-storage/issues/2448\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2448</a>) (<a href=\"https://github.com/googleapis/java-storage/commit/12c9db8935f25a5f9e4633af85ea96acaa914d23\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">12c9db8</a>)</li>\n<li>Missing
+  serialVersionUID of serializable classes (<a href=\"https://github.com/googleapis/java-storage/issues/2344\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2344</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/736865b4b97aa3940e1eab6a582d0ef38db31bba\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">736865b</a>)</li>\n</ul>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.apis:google-api-services-storage
+  to v1-rev20240307-2.0.0 (<a href=\"https://github.com/googleapis/java-storage/issues/2442\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2442</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/1352203859c3798423ef78823ed10577b93eebef\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1352203</a>)</li>\n<li>Update
+  dependency net.jqwik:jqwik to v1.8.4 (<a href=\"https://github.com/googleapis/java-storage/issues/2447\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2447</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/110b80cdde24da4868e46c3909020db7b02d5491\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">110b80c</a>)</li>\n<li>Update
+  gcr.io/cloud-devrel-public-resources/storage-testbench docker tag to v0.42.0 (<a
+  href=\"https://github.com/googleapis/java-storage/issues/2441\" target=\"_blank\"
+  rel=\"noreferrer noopener\" class=\"external\">#2441</a>) (<a href=\"https://github.com/googleapis/java-storage/commit/80745d415810353b3466a3eda12f6ca50a2c71b0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">80745d4</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Cloud Tasks</strong>\n<h3>Announcement</h3>\n<p>The
+  <a href=\"https://cloud.google.com/tasks/docs/creating-http-target-tasks#buffertask_method\"><code>BufferTask</code></a>
+  method for creating tasks is now at General Availability (GA).</p>\n<h3>Announcement</h3>\n<p>For
+  tasks that have HTTP targets (as opposed to App Engine targets), the option to set
+  routing for tasks at the queue level is now at General Availability (GA). If you
+  set routing at the queue level, you do not have to set routing for each individual
+  task. To learn more, see <a href=\"https://cloud.google.com/tasks/docs/configuring-queues#routing\">Configure
+  routing</a>. </p>\n<strong class=\"release-note-product-title\">Compute Engine</strong>\n<h3>Announcement</h3>\n<p><strong>Generally
+  available</strong>: The organization-wide <a href=\"https://cloud.google.com/compute/docs/os-patch-management/view-patch-summary\">patch
+  status dashboard</a> and organization-wide <a href=\"https://cloud.google.com/compute/docs/os-configuration-management/view-compliance#policy-summary\">OS
+  policy compliance reports</a> in VM Manager are now generally available.</p>\n<strong
+  class=\"release-note-product-title\">Config Controller</strong>\n<h3>Changed</h3>\n<p>Config
+  Controller now uses the following versions of its included products:</p>\n\n<ul>\n<li>Config
+  Connector v1.113.0, <a href=\"https://cloud.google.com/config-connector/docs/release-notes#February_14_2024\">release
+  notes</a></li>\n<li>Anthos Config Management v1.17.2, <a href=\"https://cloud.google.com/anthos-config-management/docs/release-notes#February_22_2024\">release
+  notes</a></li>\n</ul>\n<strong class=\"release-note-product-title\">Container Registry</strong>\n<h3>Deprecated</h3>\n<p>Container
+  Registry is scheduled to be shut down and superseded by <a href=\"https://cloud.google.com/artifact-registry/docs/\">Artifact
+  Registry</a> on March 18, 2025. For more information and transition options, see
+  <a href=\"https://cloud.google.com/container-registry/docs/deprecations/container-registry-deprecation\">Deprecations</a>.</p>\n<strong
+  class=\"release-note-product-title\">Dataflow</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"go\">Go</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_dataflowapiv1beta3\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/google-cloud-go/tree/main/dataflow/apiv1beta3\">dataflow/apiv1beta3</a></h3>\n\n<h4
+  id=\"096_2024-03-14\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/dataflow/v0.9.5...dataflow/v0.9.6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">0.9.6</a> (2024-03-14)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li><strong>dataflow:</strong> Update protobuf
+  dep to v1.33.0 (<a href=\"https://github.com/googleapis/google-cloud-go/commit/30b038d8cac0b8cd5dd4761c87f3f298760dd33a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">30b038d</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Deep Learning Containers</strong>\n<h3>Feature</h3>\n<p><strong>M118
+  release</strong></p>\n\n<ul>\n<li>Pytorch 2.1.0 with CUDA 12.1 and Python 3.10 container
+  images are now available.</li>\n<li>Pytorch 2.2.0 with CUDA 12.1 and Python 3.10
+  container images are now available.</li>\n</ul>\n<strong class=\"release-note-product-title\">Deep
+  Learning VM Images</strong>\n<h3>Feature</h3>\n<p><strong>M118 release</strong></p>\n\n<ul>\n<li>Restored
+  legacy gpu image families for TensorFlow 2.12 through 2.14, and for PyTorch 2.0.</li>\n<li>Pytorch
+  2.1.0 with CUDA 12.1 and Python 3.10 VM images are now available.</li>\n<li>Pytorch
+  2.2.0 with CUDA 12.1 and Python 3.10 VM images are now available.</li>\n<li>R images
+  (Experimental) updated to R 4.3.3.</li>\n<li>Updated Nvidia drivers of older Deep
+  Learning VM images to R535.</li>\n</ul>\n<strong class=\"release-note-product-title\">Dialogflow</strong>\n<h3>Changed</h3>\n<p>The
+  Dialogflow ES and Dialogflow CX <code>us-dialogflow.googleapis.com</code> endpoint
+  and <code>locations/us</code> resource location,\nwhich served as aliases for global
+  resources, will be discontinued on April 16, 2024. For more information, see the
+  <a href=\"https://cloud.google.com/dialogflow/docs/data/us-deprecation.pdf\">email
+  announcement</a>.</p>\n<h3>Feature</h3>\n<p>The following prebuilt components have
+  been added to Dialogflow CX:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/prebuilt-component/fraud-and-dispute-retail\">Retail
+  fraud and dispute</a></li>\n<li><a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/prebuilt-component/cancel-order\">Cancel
+  order</a></li>\n<li><a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/prebuilt-component/return-and-refund\">Return
+  and refund</a></li>\n<li><a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/prebuilt-component/exchange-order\">Exchange
+  order</a></li>\n</ul>\n<strong class=\"release-note-product-title\">Secret Manager</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"go\">Go</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_secretmanagerapiv1\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/google-cloud-go/tree/main/secretmanager/apiv1\">secretmanager/apiv1</a></h3>\n\n<h4
+  id=\"1116_2024-03-14\"><a href=\"https://github.com/googleapis/google-cloud-go/compare/secretmanager/v1.11.5...secretmanager/v1.11.6\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">1.11.6</a> (2024-03-14)</h4>\n\n<h5
+  id=\"bug_fixes\">Bug Fixes</h5>\n\n<ul>\n<li><strong>secretmanager:</strong> Update
+  protobuf dep to v1.33.0 (<a href=\"https://github.com/googleapis/google-cloud-go/commit/30b038d8cac0b8cd5dd4761c87f3f298760dd33a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">30b038d</a>)</li>\n</ul></section>\n</div>\n<strong
+  class=\"release-note-product-title\">Vertex AI</strong>\n<h3>Changed</h3>\n<p><strong><a
+  href=\"https://cloud.google.com/vertex-ai/docs/vector-search/overview\">Vector Search</a>
+  heuristics-based compaction</strong></p>\n\n<p>Vector Search uses heuristics-based
+  metrics assess whether to trigger compaction. This prevents unnecessary compaction,
+  and thus reduces cost. For general information about compaction, see <a href=\"https://cloud.google.com/vertex-ai/docs/vector-search/update-rebuild-index#index-compaction\">Compaction</a>.</p>\n<strong
+  class=\"release-note-product-title\">Vertex AI Workbench</strong>\n<h3>Feature</h3>\n<p><strong>M118
+  release</strong></p>\n\n<p>The M118 release of Vertex AI Workbench user-managed
+  notebooks includes the following:</p>\n\n<ul>\n<li>Pytorch 2.1.0 with CUDA 12.1
+  and Python 3.10 user-managed notebooks instances are now available.</li>\n<li>Pytorch
+  2.2.0 with CUDA 12.1 and Python 3.10 user-managed notebooks instances are now available.</li>\n<li>Updated
+  Nvidia drivers of older user-managed notebooks images to R535.</li>\n</ul>\n<h3>Feature</h3>\n<p>The
+  M118 release of Vertex AI Workbench managed notebooks includes the following:</p>\n\n<ul>\n<li>Updated
+  Nvidia drivers to R535, which fixed a bug where the latest PyTorch 2.0 kernel didn&#39;t
+  work due to outdated drivers.</li>\n</ul>\n<h3>Feature</h3>\n<p><strong>M118 release</strong></p>\n\n<p>The
+  M118 release of Vertex AI Workbench instances includes the following:</p>\n\n<ul>\n<li>Updated
+  Nvidia drivers to R535.</li>\n</ul>\n\n    "
+title_type:
+published: &1 2024-03-18 07:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#March_18_2024
+title: March 18, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title

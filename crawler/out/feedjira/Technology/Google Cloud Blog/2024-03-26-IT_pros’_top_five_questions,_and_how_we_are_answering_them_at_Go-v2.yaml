@@ -1,0 +1,75 @@
+# [NewsFiler v2] NewsPaper: Google Cloud Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://cloud.google.com/blog/products/compute/breakout-sessions-for-it-pros-at-next24/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: IT pros’ top five questions, and how we are answering them at Google Cloud
+  Next
+url: https://cloud.google.com/blog/products/compute/breakout-sessions-for-it-pros-at-next24/
+summary: |-
+  <div class="block-paragraph_advanced"><p><span style="vertical-align: baseline;">As IT admins or architects, you have your work cut out for you. You need infrastructure that's fast, secure, cost-effective, and ready for everything from AI to analytics to large enterprise apps. And that’s just your day job. You also face a constantly evolving IT environment where emerging technologies like generative AI force you to adapt and learn to stay ahead of the curve.</span></p>
+  <p><span style="vertical-align: baseline;">If this sounds familiar, Google Cloud Next '24 is exactly what you need to learn about the latest cloud secrets, systems and silicon. </span></p>
+  <p><span style="font-style: italic; vertical-align: baseline;">“Really?” </span><span style="vertical-align: baseline;">you ask in a discernibly weary, sarcastic tone.</span></p>
+  <p><strong style="vertical-align: baseline;">Really</strong><span style="vertical-align: baseline;">. This year the event is in Las Vegas on April 9-11, with a broad agenda including keynotes, ‘how-to’ deep-dives, panels, demos and labs. You can view the entire </span><a href="https://cloud.withgoogle.com/next/session-library?filters=track-infrastructure-architects-admins#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">session library</span></a><span style="vertical-align: baseline;"> here, but if you’re still on the fence, let’s power through five questions that might be on your mind right now, and how you can get answers to them at Next ‘24.</span></p>
+  <p role="presentation"><strong style="vertical-align: baseline;">1. How can I reduce costs and evaluate the reliability of cloud providers? </strong></p>
+  <p><span style="vertical-align: baseline;">Moving and grooving on the cloud doesn’t need to be a headache. And not all providers are the same. You can save big with easy-to-use strategies, tools and flexible infrastructure. Here are a few sessions to explore:</span></p>
+  <ul>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC103#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">The reality of reliability: Big differences between hyperscalers, explained</span></a><span style="vertical-align: baseline;"> - </span><span style="vertical-align: baseline;">Get an objective assessment of outage/incident data from three major cloud providers, then learn how you can improve your operational reliability.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC304#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Apps take flight: Migrating to Google Cloud</span></a><span style="vertical-align: baseline;"> - Learn modern migration strategies and how Google simplifies the transition from on-prem or other clouds.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC224#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Optimize costs and efficiency with new compute operations solutions</span></a><span style="vertical-align: baseline;"> - Discover features and automations that streamline workload management; hear the latest product announcements and roadmap.</span></li>
+  </ul>
+  <p role="presentation"><strong style="vertical-align: baseline;">2. What are the opportunities, risks, and best practices when modernizing enterprise apps like VMware and SAP?</strong></p>
+  <p><span style="vertical-align: baseline;">Cloud-native workloads are great and all, but enterprise workloads are the lifeblood of most organizations. </span><span style="vertical-align: baseline;">Deciding if, when, and how to modernize them is challenging. A</span><span style="vertical-align: baseline;">t Next ‘24, we will share a ton of ideas and help you and assess the trade-offs for yourself: </span></p>
+  <ul>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC228#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Transform your VMware estate in the cloud without re-factoring or re-skilling</span></a><span style="vertical-align: baseline;"> - Explore how Google Cloud VMware Engine makes modernizing existing VMware setups fast and smooth.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC231#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Storage solutions optimized for modern and enterprise workloads</span></a><span style="vertical-align: baseline;"> - Find the perfect cloud-based file storage to balance your workload's performance, availability, and cost needs.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC226#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Transform your SAP workload with Google Cloud</span></a><span style="vertical-align: baseline;"> - Optimize SAP with Google Cloud's reliable infrastructure, tools, and best practices).</span></li>
+  </ul>
+  <p role="presentation"><strong style="vertical-align: baseline;">3. How should I architect my infrastructure for AI?</strong></p>
+  <p><span style="vertical-align: baseline;">Tackling AI projects requires performance, scalability and know-how. Google Cloud's </span><a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5p-and-ai-hypercomputer"><span style="text-decoration: underline; vertical-align: baseline;">AI Hypercomputer</span></a><span style="vertical-align: baseline;">, the culmination of a decade of pioneering AI infrastructure advancements, helps businesses with performance-optimized hardware, open software, leading ML frameworks, and flexible consumption models. In fact, we were just named </span><span style="vertical-align: baseline;">a Leader in </span><a href="https://cloud.google.com/blog/products/infrastructure-modernization/google-named-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q1-2024?e=48754805"><span style="text-decoration: underline; vertical-align: baseline;">The Forrester Wave™: AI Infrastructure Solutions, Q1 2024,</span></a><span style="vertical-align: baseline;"> with the highest scores of any vendor evaluated in both the Current Offering and Strategy categories.</span><span style="vertical-align: baseline;"> </span></p>
+  <p><span style="vertical-align: baseline;">Here are a few sessions where you can learn about our AI infrastructure during Next ‘24: </span></p>
+  <ul>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=solution-infrastructure-modernization,session-type-spotlight&amp;session=SPTL205#day_1" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Workload-optimized and AI-powered infrastructure</span></a><span style="vertical-align: baseline;"> - Hear the latest product announcements from VP/GM Compute &amp; ML, Mark Lohmeyer.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=solution-infrastructure-modernization&amp;session=ARC108#day_1" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Increase AI productivity with Google Cloud's AI Hypercomputer</span></a><span style="vertical-align: baseline;"> - A 101 on our AI supercomputing architecture.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=solution-infrastructure-modernization,session-type-breakout,interest-ai&amp;session=ARC222#day_1" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">How to get easy and affordable access to GPUs for AI/ML workloads</span></a><span style="vertical-align: baseline;"> - Get tips on making the most of GPU access for your AI/ML projects.</span></li>
+  </ul>
+  <p role="presentation"><strong style="vertical-align: baseline;">4. What’s the best way to build and run container-based apps?</strong></p>
+  <p><span style="vertical-align: baseline;">Using managed services and choosing the right database will help you secure, scalable container-based applications. Google Cloud’s container offerings are developer favorites</span><span style="vertical-align: baseline;">, packaging more than a </span><a href="https://cloud.google.com/containers"><span style="text-decoration: underline; vertical-align: baseline;">decade’s worth of experience</span></a><span style="vertical-align: baseline;"> launching several billion containers per week. Here are a few sessions you should check out during Next ‘24: </span></p>
+  <ul>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?filters=session-type-breakout,track-infrastructure-architects-admins&amp;session=ARC104#day_1" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">The ultimate hybrid example: A fireside chat about how Google Cloud powers (part of) Alphabet</span></a><span style="vertical-align: baseline;"> - See how Google itself uses GKE, Cloud Run, and more to power its own services!</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC210#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">A primer on data on Kubernetes</span></a><span style="vertical-align: baseline;"> - Explore the rise of Kubernetes for data management, including AI/ML and storage best practices.</span></li>
+  </ul>
+  <p role="presentation"><strong style="vertical-align: baseline;">5. Can you meet my sovereignty, scalability and control requirements?</strong></p>
+  <p><span style="vertical-align: baseline;">Many customers face challenges in adopting public cloud services due to policies and regulations that affect connectivity, reliability, data volumes, and security. Google Distributed Cloud offers solutions for government, regulated industries, telecom, manufacturing or retail (check out </span><a href="https://www.prnewswire.com/news-releases/mcdonalds-and-google-cloud-announce-strategic-partnership-to-connect-latest-cloud-technology-and-apply-generative-ai-solutions-across-its-restaurants-worldwide-302006915.html" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">McDonald</span></a><span style="vertical-align: baseline;">’s recent experience). Here are a few sessions where you can learn more:</span></p>
+  <ul>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC202#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Google Distributed Cloud's 2024 Roadmap</span></a><span style="vertical-align: baseline;"> - Learn the basics and get a summary of new features, plus our roadmap.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC105#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">How to build on-premises compliance controls for AI in regulated industries</span></a><span style="vertical-align: baseline;"> - Explore solutions to meet your toughest data sovereignty, security, and compliance requirements.</span></li>
+  <li role="presentation"><a href="https://cloud.withgoogle.com/next/session-library?session=ARC211#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Deliver modern AI-enabled retail experiences for one or thousands of locations</span></a><span style="vertical-align: baseline;"> - Learn how to simplify edge configuration management at the edge, enabling store analytics, fast check-out, and predictive analytics, and more.</span></li>
+  </ul>
+  <p role="presentation"><strong style="vertical-align: baseline;">6. I just want to see something cool. What’s the one session I should attend?</strong></p>
+  <p><span style="vertical-align: baseline;">You probably want to know how we’re embedding generative AI into Google Cloud solutions. We can’t reveal much yet, but make sure you add this session to your schedule: </span><a href="https://cloud.withgoogle.com/next/session-library?session=ARC225#all" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Transform your cloud operations and design capability with Duet AI for Google Cloud</span></a></p>
+  <p><span style="vertical-align: baseline;">Any of those questions ring a bell?  We've got lots of answers, and we're ready to share them at Next ‘24 starting on April 9th. </span></p>
+  <p><a href="https://cloud.withgoogle.com/next?utm_source=cgc-blog&amp;utm_medium=blog&amp;utm_campaign=%20FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;utm_content=post-event-blog&amp;utm_term=-" rel="noopener" target="_blank"><span style="text-decoration: underline; vertical-align: baseline;">Not registered yet? Don’t delay!</span></a><span style="vertical-align: baseline;"> Space is limited.</span></p></div>
+author: Jarrad Swain
+categories:
+- Containers & Kubernetes
+- Databases
+- DevOps & SRE
+- Google Cloud Next
+- Compute
+published: 2024-03-26 16:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://cloud.google.com/blog/products/compute/breakout-sessions-for-it-pros-at-next24/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google Cloud Blog
+  macro_region: Technology
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_w.max-600x600.jpg

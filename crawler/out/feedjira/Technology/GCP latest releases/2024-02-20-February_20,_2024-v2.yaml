@@ -1,0 +1,167 @@
+# [NewsFiler v2] NewsPaper: GCP latest releases (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:google.com,2016:gcp-release-notes#February_20_2024
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "title_type", "published", "updated", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:google.com,2016:gcp-release-notes#February_20_2024
+content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</strong>\n<h3>Feature</h3>\n<p>You
+  can now <a href=\"https://cloud.google.com/alloydb/docs/instance-read-pool-scale?tab=gcloud#scale_an_instances_machine_type\">configure
+  instances</a> to use 128 vCPUs and 864 GB of RAM per node.</p>\n<strong class=\"release-note-product-title\">Chronicle</strong>\n<h3>Feature</h3>\n<p>Google
+  has added Tokyo (Japan) as a new region for Chronicle customers. Chronicle can now
+  store customer data in this region. This also adds a new regional endpoint for Chronicle
+  APIs at <code>https://asia-northeast1-backstory.googleapis.com</code>.</p>\n<strong
+  class=\"release-note-product-title\">Cloud Billing</strong>\n<h3>Changed</h3>\n<p><strong>US-based
+  billing accounts only</strong>: In August 2023, Google Cloud Marketplace transitioned
+  to the Agency model for marketplace services for US partners and US customers. As
+  part of this change, the remittance information has changed on your Google Cloud
+  invoices and in the Google Cloud console.</p>\n\n<p>As part of this change, you
+  can see the following information in your Cloud Billing tools:</p>\n\n<ul>\n<li><a
+  href=\"https://cloud.google.com/billing/docs/how-to/cost-table\">In the Cost Table
+  report, use the <strong>Seller Name</strong> and <strong>Transaction type</strong>
+  columns</a>.</li>\n<li><a href=\"https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables/standard-usage#:%7E:text=June%2029%2C%202023.-,transaction_type,-String\">In
+  the Standard data export to BigQuery, use the <code>seller_name</code> and <code>transaction_type</code>
+  columns</a>.</li>\n</ul>\n<strong class=\"release-note-product-title\">Cloud Logging</strong>\n<h3>Feature</h3>\n<p>You
+  can now configure and save a Log Analytics chart directly in Monitoring. For more
+  information, see <a href=\"https://cloud.google.com/monitoring/charts/view-logs#add-sql-chart\">Add
+  charts generated from a Log Analytics query</a>.</p>\n<h3>Changed</h3>\n<p>For information
+  and recommendations about how to instrument your applications to collect metrics,
+  logs, and traces, see the following documents:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/overview\">Instrumentation
+  and observability overview</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/choose-approach\">Choose
+  an instrumentation approach</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/setup/go\">Go
+  instrumentation example</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/setup/java\">Java
+  \ instrumentation example</a></li>\n</ul>\n<strong class=\"release-note-product-title\">Cloud
+  Monitoring</strong>\n<h3>Changed</h3>\n<p>For information and recommendations about
+  how to instrument your applications to collect metrics, logs, and traces, see the
+  following documents:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/overview\">Instrumentation
+  and observability overview</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/choose-approach\">Choose
+  an instrumentation approach</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/setup/go\">Go
+  instrumentation example</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/setup/java\">Java
+  \ instrumentation example</a></li>\n</ul>\n<strong class=\"release-note-product-title\">Cloud
+  SQL for PostgreSQL</strong>\n<h3>Feature</h3>\n<p>Cloud SQL Enterprise Plus edition
+  now supports versions 12 and 13 of PostgreSQL. For more information, see <a href=\"https://cloud.google.com/sql/docs/editions-intro\">Introduction
+  to Cloud SQL editions</a>.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Trace</strong>\n<h3>Changed</h3>\n<p>For information and recommendations about how
+  to instrument your applications to collect metrics, logs, and traces, see the following
+  documents:</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/overview\">Instrumentation
+  and observability overview</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/choose-approach\">Choose
+  an instrumentation approach</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/setup/go\">Go
+  instrumentation example</a></li>\n<li><a href=\"https://cloud.google.com/stackdriver/docs/instrumentation/setup/java\">Java
+  \ instrumentation example</a></li>\n</ul>\n<strong class=\"release-note-product-title\">Container
+  Optimized OS</strong>\n<h3>Changed</h3>\n<h3 id=\"cos-105-17412-294-29_\">cos-105-17412-294-29
+  <a id=\"cos-arm64-105-17412-294-29\"/></h3>\n\n<table class=pkg>\n  <tr>\n    <td>Kernel</td>\n
+  \   <td>Docker</td>\n    <td>Containerd</td>\n    <td>GPU Drivers</td>\n  </tr>\n
+  \ <tr>\n    <td><a href=\"https://cos.googlesource.com/third_party/kernel/+/81668026811f1248b6eaa73f8f60a949614ea3d1\n\">COS-5.15.146</a></td>\n
+  \   <td>v23.0.3</td>\n    <td>v1.7.10</td>\n    <td>v470.223.02\n(default),v535.154.05(latest),v470.223.02(R470
+  for compatibility with K80 GPUs)</td>\n  </tr>\n</table>\n<h3>Security</h3>\n<p>Fixed
+  CVE-2024-24557 in app-emulation/docker.</p>\n<h3>Security</h3>\n<p>Upgraded net-misc/curl
+  to v8.6.0. This fixes CVE-2024-0853.</p>\n<h3>Security</h3>\n<p>Updated dev-libs/libxml2
+  to v2.11.7. This fixes CVE-2024-25062.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2022-3566
+  in the Linux kernel.</p>\n<h3>Security</h3>\n<p>Fixed CVE-2022-3567 in the Linux
+  kernel.</p>\n<h3>Changed</h3>\n<h3 id=\"cos-109-17800-147-15_\">cos-109-17800-147-15
+  <a id=\"cos-arm64-109-17800-147-15\"/></h3>\n\n<table class=pkg>\n  <tr>\n    <td>Kernel</td>\n
+  \   <td>Docker</td>\n    <td>Containerd</td>\n    <td>GPU Drivers</td>\n  </tr>\n
+  \ <tr>\n    <td><a href=\"https://cos.googlesource.com/third_party/kernel/+/f2325b62460b827790918512e220f6432411b9b1\n\">COS-6.1.75</a></td>\n
+  \   <td>v24.0.5</td>\n    <td>v1.7.13</td>\n    <td>v535.154.05\n(default),v535.154.05(latest),v470.223.02(R470
+  for compatibility with K80 GPUs)</td>\n  </tr>\n</table>\n<h3>Changed</h3>\n<p>Updated
+  app-containers/containerd to v1.7.13.</p>\n<h3>Security</h3>\n<p>Upgraded net-misc/curl
+  to v8.6.0. This fixes CVE-2024-0853.</p>\n<h3>Security</h3>\n<p>Updated dev-libs/libxml2
+  to v2.11.7. This fixes CVE-2024-25062.</p>\n<strong class=\"release-note-product-title\">Deep
+  Learning Containers</strong>\n<h3>Feature</h3>\n<p><strong>M117 release</strong></p>\n\n<ul>\n<li>Fixed
+  an issue wherein the <code>latest</code> container had a <code>deprecation-public-image</code>
+  tag. In this release and future releases, this tag will only be on the deprecated
+  containers.</li>\n<li>Fixed a problem wherein the user couldn&#39;t access the vulnerabilities
+  result of each container.</li>\n</ul>\n<strong class=\"release-note-product-title\">Dialogflow</strong>\n<h3>Changed</h3>\n<p>The
+  <a href=\"https://cloud.google.com/dialogflow/docs/release-notes#January_12_2024\">previously
+  announced</a> migration from Standard NLU to Advanced NLU will no longer occur on
+  March 1, 2024. For more information, see the <a href=\"https://cloud.google.com/dialogflow/cx/docs/data/standard-nlu.pdf\">email
+  announcement</a></p>\n<h3>Changed</h3>\n<p>Dialogflow CX agents now default to <a
+  href=\"https://cloud.google.com/dialogflow/cx/docs/concept/agent#nlu-type\">advanced
+  NLU</a>.</p>\n<h3>Feature</h3>\n<p>You can now <a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/entity-custom\">import
+  and export Dialogflow CX custom entities</a>.</p>\n<h3>Feature</h3>\n<p>Dialogflow
+  CX <a href=\"https://cloud.google.com/dialogflow/cx/docs/concept/fulfillment#channel-specific\">channel-specific
+  response messages</a> are now available for the following integrations: Google Chat,
+  LINE, Messenger from Meta, Workplace from Meta, Slack. See the integration documentation
+  for details.</p>\n<strong class=\"release-note-product-title\">Google Distributed
+  Cloud Virtual for Bare Metal</strong>\n<h3>Feature</h3>\n<h3 id=\"release_1166\">Release
+  1.16.6</h3>\n\n<p>GKE on Bare Metal 1.16.6 is now available for <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.16/downloads\">download</a>.
+  To upgrade, see <a href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.16/how-to/upgrade\">Upgrade
+  clusters</a>. GKE on Bare Metal 1.16.6 runs on Kubernetes 1.27.</p>\n\n<p>If you
+  use a third-party storage vendor, check the <a href=\"https://cloud.google.com/anthos/docs/resources/partner-storage\">GDCV
+  Ready storage partners</a> document to make sure the storage vendor has already
+  passed the qualification for this release of GKE on Bare Metal. </p>\n<h3>Fixed</h3>\n<p><strong>Fixes:</strong></p>\n\n<ul>\n<li><p>Fixed
+  an issue where upgrades are blocked because <code>cluster-operator</code> can&#39;t\ndelete
+  stale, failing preflight check resources.</p></li>\n<li><p>Cleaned up stale <code>etcd-events</code>
+  membership to enhance control plane initialization reliability in the event of a
+  node join failure.</p></li>\n</ul>\n<h3>Fixed</h3>\n<p><strong>Fixes:</strong></p>\n\n<p>The
+  following container image security vulnerabilities have been fixed in 1.16.6: </p>\n\n<ul>\n<li><p>High-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21626\">CVE-2024-21626</a></li>\n</ul></li>\n<li><p>Medium-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446\">CVE-2023-3446</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817\">CVE-2023-3817</a></p></li>\n</ul></li>\n<li><p>Low-severity
+  container vulnerabilities:</p>\n\n<ul>\n<li><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975\">CVE-2023-2975</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527\">CVE-2023-4527</a></p></li>\n<li><p><a
+  href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911\">CVE-2023-4911</a></p></li>\n</ul></li>\n</ul>\n<h3>Issue</h3>\n<p><strong>Known
+  issues:</strong></p>\n\n<p>For information about the latest known issues, see <a
+  href=\"https://cloud.google.com/anthos/clusters/docs/bare-metal/1.16/troubleshooting/known-issues\">GKE
+  on Bare Metal known issues</a> in the Troubleshooting section.</p>\n<strong class=\"release-note-product-title\">Google
+  Kubernetes Engine</strong>\n<h3>Feature</h3>\n<p>You can now use the GKE API to
+  apply Resource Manager tags to your GKE nodes. GKE attaches these tags to the underlying
+  Compute Engine VMs. You can use these tags to <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/tags-firewall-policies\">selectively
+  enforce Cloud Firewall network firewall policies</a>. This feature is generally
+  available in GKE version 1.28 and later.</p>\n<h3>Feature</h3>\n<p>Kubernetes Engine
+  best practice observability packages, including <a href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/about-logs#control-plane-logs\">control
+  plane logs</a>, <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/configure-metrics#control-plane-metrics\">control
+  plane metrics</a>, and <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/configure-metrics#ksm-package\">kube
+  state metrics</a> are now enabled by default for new <a href=\"https://cloud.google.com/anthos/docs/setup/overview#requirements\">managed
+  GKE Enterprise clusters</a> to ensure availability of necessary data when it&#39;s
+  needed for troubleshooting or optimization. Control plane metrics and kube state
+  metrics are <a href=\"https://cloud.google.com/kubernetes-engine/docs/concepts/gke-editions#edition_features\">included</a>
+  in GKE <a href=\"https://cloud.google.com/kubernetes-engine/pricing#enterprise_edition\">Enterprise
+  Edition</a> at <a href=\"https://cloud.google.com/stackdriver/pricing#anthos-costs\">no
+  additional charge</a>.</p>\n<h3>Feature</h3>\n<p>GKE now delivers insights and recommendations
+  if your cluster&#39;s <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/credential-rotation\">Certificate
+  Authority (CA)</a> is expired or will expire in the next 180 days. To learn more,
+  see <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/credential-rotation#gke-notification-for-expiring\">Find
+  clusters with expiring or expired credentials</a>.</p>\n<h3>Issue</h3>\n<p>A bug
+  in the image streaming feature might cause containers to fail because of a missing
+  file or files.</p>\n\n<p>Containers running on a node with image streaming enabled
+  on the following versions might fail to start or run with errors informing that
+  certain files don&#39;t exist. The following are examples of such errors:</p>\n\n<ul>\n<li><code>No
+  such file or directory</code></li>\n<li><code>Executable file not found in $PATH</code></li>\n</ul>\n\n<p>The
+  following GKE versions are impacted:</p>\n\n<ul>\n<li>For 1.27: 1.27.10-gke.1077000
+  and later</li>\n<li>For 1.28: All 1.28 versions</li>\n<li>For 1.29: All 1.29 versions</li>\n</ul>\n\n<p>GKE
+  is working on fixing the issue. In the meantime, if you are impacted by this issue,
+  please <a href=\"https://cloud.google.com/kubernetes-engine/docs/how-to/image-streaming#disable\">disable
+  image streaming</a>.</p>\n<strong class=\"release-note-product-title\">Security
+  Command Center</strong>\n<h3>Deprecated</h3>\n<p><strong>Manual control of finding
+  state deprecated for vulnerabilities and misconfigurations</strong></p>\n\n<p>Starting
+  October 21, 2024, you will no longer be able to manually update the state of vulnerability
+  or misconfiguration findings that are issued by Security Health Analytics or VM
+  Manager. Security Command Center will return an error message on manual attempts
+  to change the values of the state. Security Command Center will also begin preventing
+  the manual creation of findings under the exact same name as a source that is automatically
+  managed by Security Command Center in order to prevent the creation of findings
+  that can never be resolved.</p>\n\n<p>For more information, see <a href=\"https://cloud.google.com/security-command-center/docs/finding-states\">Finding
+  states</a>.</p>\n<h3>Feature</h3>\n<p><strong>Pane on Overview page that supports
+  postures for Vertex AI released to Preview</strong></p>\n\n<p>A pane on the <strong>Overview</strong>
+  page lets you monitor for vulnerabilities that were found by the Security Health
+  Analytics custom modules that apply to Vertex AI, and lets you view any drift from
+  the Vertex AI organization policies that are defined in a posture.</p>\n\n<p>For
+  more information, see <a href=\"https://cloud.google.com/security-command-center/docs/how-to-use-security-posture#monitor-posture\">Monitor
+  posture drift</a>.</p>\n\n    "
+title_type:
+published: &1 2024-02-20 08:00:00.000000000 Z
+updated: *1
+links:
+- https://cloud.google.com/release-notes#February_20_2024
+title: February 20, 2024
+carlessian_info:
+  news_filer_version: 2
+  newspaper: GCP latest releases
+  macro_region: Technology
+rss_fields:
+- entry_id
+- content
+- title_type
+- published
+- updated
+- links
+- title
