@@ -76,12 +76,14 @@ if hostname | egrep 'ricc-macbookpro|derek' ; then
   export APP_NAME='gemini-news-crawler-manhouse'
 fi
 
+echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnager 2. make the SA able to access SM and 3. call it properly.'
+
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
     beta run deploy "${APP_NAME}-prod" \
-      --image    "$UPLOADED_IMAGE_WITH_VER" \
+      --image  "$UPLOADED_IMAGE_WITH_VER" \
       --platform managed \
       --memory "2048Mi" \
-      --region   "$GCLOUD_REGION" \
+      --region "$GCLOUD_REGION" \
       --set-env-vars='description=created-from-bin-slash-cb-push-to-cloudrun-sh' \
       --set-env-vars='fav_color=purple' \
       --set-env-vars="GIT_STATE=$GIT_STATE" \
