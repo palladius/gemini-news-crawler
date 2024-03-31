@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'pages/stats'
+  get 'pages/about'
+  get 'pages/search'
+  get 'controller_name/stats'
+  get 'controller_name/about'
+  get 'controller_name/search'
   resources :articles
   resources :categories
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

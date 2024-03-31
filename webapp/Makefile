@@ -21,6 +21,9 @@ regenerate-DANGEROUS-DO-NOT-DO-IT:
 # summary = description
 	echo TODO ricc make it recreate it if you forget something..
 	echo Article has now a 4th migration so i wouldnt suggest to redo it.
+
+	rails g controller pages stats about search
+
 	# rails generate scaffold Article \
 	# 	title:string summary:text content:text \
 	# 	author:string \
