@@ -1,0 +1,47 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2024:50-677489
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2024:50-677489
+content: |-
+  <p><em>Editor&rsquo;s Note:</em> Washington Week with The Atlantic <em>is a partnership between NewsHour Productions, WETA, and </em>The Atlantic<em> airing every Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.</em> <br /></p><p dir="ltr">A New York judge has set March 25 as the start date in Donald Trump’s hush-money case, making it the first criminal trial against a former American president in U.S. history. A hearing that could derail Trump’s Georgia election-interference case is also under way, as a judge considers whether Fulton County District Attorney Fani Willis should be removed from the case.</p><p dir="ltr">Meanwhile, the annual Munich Security Conference kicks off Friday as U.S. aid for Ukraine continues to stall amid chaos in Congress, and just days after President Joe Biden criticized Trump’s comments about encouraging Russia to attack NATO allies.  </p><p dir="ltr">Joining the guest moderator and a staff writer at <em>The Atlantic</em>, Franklin Foer, to discuss this and more are Laura Barrón-López, the White House correspondent at <em>PBS Newshour</em>; Perry Stein, a Justice Department reporter for <em>The Washington Post</em>; Nancy Youssef, a national-security correspondent at <em>The</em> <em>Wall Street Journal</em>; and Carl Hulse, the chief Washington correspondent for <em>The New York Times</em> and the managing editor of First Draft.</p><div class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://www.youtube.com/watch?v=Dj9gS1lQofE&amp;ab_channel=WashingtonWeekPBS">
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224">Watch the full episode and read the transcript <a href="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-21624">here</a>.</div>
+
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224"></div>
+
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224">
+  <div class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://www.youtube.com/watch?v=1kJ8GDMu3IA&amp;ab_channel=WashingtonWeekPBS"><iframe allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true" class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F1kJ8GDMu3IA%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1kJ8GDMu3IA&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F1kJ8GDMu3IA%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube" title="YouTube embed" width="854"></iframe></div>
+  </div>
+
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224">
+  <p></p>
+  </div>
+  </div>
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/Co-qY4z57_eW0In5Soad0oOBAW0=/media/img/mt/2024/02/still2-1/original.jpg
+title_type: html
+raw_title: Trump’s Legal and Political Strategies
+published: 2024-02-17 16:11:20.000000000 Z
+updated: 2024-02-17 16:11:20.000000000 Z
+summary: Digging into the GOP front-runner’s claims on the stump and in legal filings
+url: https://www.theatlantic.com/national/archive/2024/02/navalny-trump-nato-washington-week/677489/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2024/02/navalny-trump-nato-washington-week/677489/?utm_source=feed
+title: Trump’s Legal and Political Strategies
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

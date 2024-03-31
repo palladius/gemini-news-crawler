@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general1 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://abcnews.go.com/US/wireStory/powerball-drawing-nears-935-million-jackpot-growing-months-108677455
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: " Powerball drawing nears $935 million jackpot that has been growing for months"
+url: https://abcnews.go.com/US/wireStory/powerball-drawing-nears-935-million-jackpot-growing-months-108677455
+summary: Lottery players will have another shot at a $935 million Powerball jackpot
+  that has been growing larger and larger since the last winner nearly three months
+  ago
+categories:
+- US
+published: 2024-03-30 12:06:17.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://abcnews.go.com/US/wireStory/powerball-drawing-nears-935-million-jackpot-growing-months-108677455
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general1
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- image
+image: https://s.abcnews.com/images/US/wirestory_5399a55f9d513f88b51e227337cf6921_4x3_384.jpg

@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/2024/03/30/foreign-diplomats-in-russia-pay-tribute-to-crocus-city-hall-victims
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Foreign diplomats in Russia pay tribute to Crocus City Hall victims
+url: https://www.euronews.com/2024/03/30/foreign-diplomats-in-russia-pay-tribute-to-crocus-city-hall-victims
+summary: The ambassadors laid flowers at the site of last week's attack on a Moscow
+  concert hall where at least 144 people were killed by a group of gunmen
+published: 2024-03-30 15:49:47.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/2024/03/30/foreign-diplomats-in-russia-pay-tribute-to-crocus-city-hall-victims
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

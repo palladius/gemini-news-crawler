@@ -1,0 +1,61 @@
+# [NewsFiler v2] NewsPaper: Politico EU (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.politico.eu/?post_type=article&p=4519818
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Russian journalist who covered Navalny’s trial is arrested for extremism
+url: https://www.politico.eu/article/russian-journalist-who-covered-navalnys-trial-arrested-for-extremism/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication
+summary: Moscow court charged Antonina Favorskaya with participating in the activities
+  of late Kremlin critic Aleksei Navalny's Anti-Corruption Foundation.
+author: Jones Hayden
+categories:
+- Aid and development
+- Courts
+- European politics
+- Extremism
+- Media
+- Russian politics
+- Social Media
+published: 2024-03-30 14:57:36.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.politico.eu/?post_type=article&p=4519818
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Politico EU
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+content: |2
+
+  <p>Russian journalist Antonina Favorskaya was charged with extremism on Friday and remanded in custody for two months, according to media reports.</p>
+
+
+
+  <p>A Moscow court <a href="https://www.rferl.org/a/russia-charges-journalist-who-covered-navalny-trials/32883609.html" data-type="link" data-id="https://www.rferl.org/a/russia-charges-journalist-who-covered-navalny-trials/32883609.html" target="_blank">formally charged</a> Favorskaya with participating in the activities of late opposition leader Alexei Navalny&#8217;s Anti-Corruption Foundation, which was labeled as extremist in 2021, according to <a href="https://news.sky.com/video/russia-journalist-who-covered-alexei-navalnys-trial-arrested-for-extremism-13104135" data-type="link" data-id="https://news.sky.com/video/russia-journalist-who-covered-alexei-navalnys-trial-arrested-for-extremism-13104135" target="_blank">the reports</a>. The journalist <a href="https://t.me/moscowcourts/2823" data-type="link" data-id="https://t.me/moscowcourts/2823" target="_blank">faces up to six years</a> in prison.</p>
+
+
+
+  <p>Favorskaya on Feb. 15 recorded <a href="https://news.sky.com/video/russia-journalist-who-covered-alexei-navalnys-trial-arrested-for-extremism-13104135" data-type="link" data-id="https://news.sky.com/video/russia-journalist-who-covered-alexei-navalnys-trial-arrested-for-extremism-13104135" target="_blank">the last video of Navalny</a> at a court hearing he was taking part in via video-link from an Arctic prison. The next day, Navalny suddenly died in the prison.</p>
+
+
+
+  <p>Favorskaya, a correspondent for independent broadcaster Sotavision, was<a href="https://t.me/sotavisionmedia/28588" target="_blank">&nbsp;detained</a>&nbsp;for a <a href="https://t.me/moscowcourts/2823" data-type="link" data-id="https://t.me/moscowcourts/2823" target="_blank">second time on Wednesday</a> after initially serving a 10-day administrative sentence in the Moscow region on charges of disobeying police orders, Sotavision said in a <a href="https://t.me/sotavisionmedia/28588" data-type="link" data-id="https://t.me/sotavisionmedia/28588" target="_blank">post on Telegram</a>.</p>
+
+
+
+  <p>She had also extensively covered Navalny&#8217;s funeral in Moscow before she was detained at a cafe on an anonymous tip, the <a href="https://www.themoscowtimes.com/2024/03/28/2-russian-journalists-detained-in-navalny-extremism-case-a84663" data-type="link" data-id="https://www.themoscowtimes.com/2024/03/28/2-russian-journalists-detained-in-navalny-extremism-case-a84663" target="_blank">Moscow Times</a> reported. Colleagues of Favorskaya were also detained; the charges against those individuals remain unclear, the newspaper said.</p>
+
+
+
+  <p>Prosecutors say Favorskaya posted materials on social media that are <a href="https://sg.news.yahoo.com/russian-court-orders-journalist-navalny-145512645.html" data-type="link" data-id="https://sg.news.yahoo.com/russian-court-orders-journalist-navalny-145512645.html" target="_blank">banned in Russia</a>, AFP reported. In court on Friday, she said the case was retribution for an article she wrote about how Navalny was &#8220;tortured&#8221; in prison, according to the report.</p>
+
+
+
+  <p>Navalny&#8217;s team has <a href="https://sg.news.yahoo.com/russian-court-orders-journalist-navalny-145512645.html" data-type="link" data-id="https://sg.news.yahoo.com/russian-court-orders-journalist-navalny-145512645.html" target="_blank">condemned the case</a> and said the Russian regime was trying to create a &#8220;new wave of fear&#8221; among its critics.</p>

@@ -1,0 +1,71 @@
+# [NewsFiler v2] NewsPaper: Politico EU (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.politico.eu/?post_type=article&p=4519707
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Zelenskyy fires senior aide in continuing reshuffle
+url: https://www.politico.eu/article/zelenskyy-fires-senior-aide-sacks-fires-shefir-ukraine-war-reshuffle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication
+summary: Ukrainian president also dismisses three advisers and two other officials.
+author: Jones Hayden
+categories:
+- Aid and development
+- Defense
+- Drones
+- Electricity
+- Energy
+- Energy infrastructure
+- Infrastructure
+- Intelligence
+- Intelligence services
+- Loss and damage
+- Media
+- Missiles
+- Regions/Cohesion
+- Rights
+- Security
+- Services
+- Social Media
+- War in Ukraine
+published: 2024-03-30 13:20:58.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.politico.eu/?post_type=article&p=4519707
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Politico EU
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+content: |2
+
+  <p>Ukrainian President Volodymyr Zelenskyy dismissed a longtime aide and several advisers on Saturday in a continuing reshuffle of the top ranks in Kyiv.</p>
+
+
+
+  <p>Zelenskyy dismissed top aide Serhiy Shefir from his post of first assistant, where he had served since 2019, according to a <a href="https://www.president.gov.ua/documents/2072024-50289" data-type="link" data-id="https://www.president.gov.ua/documents/2072024-50289" target="_blank">brief statement</a> issued on Saturday. The Ukrainian president also <a href="https://apnews.com/article/russia-ukraine-war-zelenskyy-reshuffle-143897f01e56fec1303c63766c0cc5f1" data-type="link" data-id="https://apnews.com/article/russia-ukraine-war-zelenskyy-reshuffle-143897f01e56fec1303c63766c0cc5f1" target="_blank">let go three advisers</a>, as well as two presidential representatives overseeing volunteer activities and soldiers’ rights, according to <a href="https://au.news.yahoo.com/ukrainian-president-dismisses-longtime-friend-105100732.html" data-type="link" data-id="https://au.news.yahoo.com/ukrainian-president-dismisses-longtime-friend-105100732.html" target="_blank">media reports</a>.</p>
+
+
+
+  <p>No explanation was given for the latest changes in a wide-reaching personnel shakeup over recent months. Saturday&#8217;s moves follow the <a href="https://www.politico.eu/article/zelenskyy-yanks-outspoken-security-council-boss-appoints-spy-chief-in-his-stead/" data-type="link" data-id="https://www.politico.eu/article/zelenskyy-yanks-outspoken-security-council-boss-appoints-spy-chief-in-his-stead/">dismissal on Tuesday of Oleksii Danilov</a>, who served as secretary of the National Security and Defense Council. Danilov is being replaced by Oleksandr Lytvynenko, head of Ukraine’s foreign intelligence service.</p>
+
+
+
+  <p>Last month, Zelenskyy removed Valerii Zaluzhnyi as head of the armed forces. He was appointed Ukraine’s&nbsp;ambassador to the United Kingdom&nbsp;earlier this month.</p>
+
+
+
+  <p>Meanwhile, <a href="https://t.me/s/kpszsu" data-type="link" data-id="https://t.me/s/kpszsu" target="_blank">Ukraine’s air force said</a> on Saturday that Russia launched 12 Shahed drones overnight, nine of which were shot down, and fired four missiles into eastern Ukraine. Russia has <a href="https://apnews.com/article/russia-ukraine-war-zelenskyy-reshuffle-143897f01e56fec1303c63766c0cc5f1" data-type="link" data-id="https://apnews.com/article/russia-ukraine-war-zelenskyy-reshuffle-143897f01e56fec1303c63766c0cc5f1" target="_blank">unleashed a barrage</a> of 38 missiles, 75 airstrikes and 98 attacks from multiple rocket launchers over the last 24 hours, Ukraine’s armed forces said in social media posts.</p>
+
+
+
+  <p>Ukrainian energy company Centrenergo announced on Saturday that the Zmiiv Thermal Power Plant, one of the largest thermal power plants in the eastern Kharkiv region, was destroyed following Russian shelling last week. Power outage schedules were still in place for around 120,000 people in the region, where 700,000 people had lost electricity after the plant was hit on March 22, the <a href="https://apnews.com/article/russia-ukraine-war-zelenskyy-reshuffle-143897f01e56fec1303c63766c0cc5f1" data-type="link" data-id="https://apnews.com/article/russia-ukraine-war-zelenskyy-reshuffle-143897f01e56fec1303c63766c0cc5f1" target="_blank">Associated Press reported</a>.</p>
+
+
+
+  <p>Russia has escalated its&nbsp;attacks on Ukrainian energy infrastructure recently, causing significant damage in several regions. Officials in the Poltava region said Saturday there had been “several hits” to an infrastructure facility, without specifying whether it was an energy facility.</p>

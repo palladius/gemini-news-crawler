@@ -1,0 +1,46 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/commentisfree/2024/mar/30/playground-politics-bullies-competition
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: From the playground to politics, it’s the bullies who rule. But it doesn’t
+  have to be this way | George Monbiot
+url: https://www.theguardian.com/commentisfree/2024/mar/30/playground-politics-bullies-competition
+summary: <p>At every stage of our lives we are forced into destructive competition.
+  It’s not natural, and it holds the best people back</p><p>A <a href="https://www.iser.essex.ac.uk/wp-content/uploads/files/working-papers/iser/2024-01.pdf">large
+  and impressive study</a> of children’s progress into adulthood found that those
+  who display bullying and aggressive behaviour at school are more likely to prosper
+  at work. They land better jobs and earn more. The researchers claim to be surprised
+  by their findings, but is it really so remarkable? The association of senior positions
+  with bullying and dominance behaviour will doubtless come as a shock to many.</p><p>This
+  is not to suggest that all people with good jobs or who run organisations are bullies.
+  Far from it. It’s not hard to think of good people in powerful positions. What this
+  tells us is that we don’t need aggressive people to organise our lives for us. Neither
+  good leadership, nor organisational success, nor innovation, insight or foresight,
+  require a dominance mindset. In fact, all can be inhibited by someone throwing their
+  weight around.</p><p>George Monbiot is a Guardian columnist</p> <a href="https://www.theguardian.com/commentisfree/2024/mar/30/playground-politics-bullies-competition">Continue
+  reading...</a>
+author: George Monbiot
+categories:
+- Bullying
+- Society
+- Mental health
+- Health
+- Work & careers
+- Politics
+published: 2024-03-30 07:00:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/commentisfree/2024/mar/30/playground-politics-bullies-competition
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/bcc3d2eedd21b70f93695e35ad474ec0f9d74eeb/0_0_2560_1536/master/2560.jpg?width=140&quality=85&auto=format&fit=max&s=5904088bdd236755fe6208676e22a3f4

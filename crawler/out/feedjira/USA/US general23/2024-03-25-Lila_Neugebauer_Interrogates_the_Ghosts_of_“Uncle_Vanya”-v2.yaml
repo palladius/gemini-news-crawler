@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 65fafc4f1ef920b9b63f5800
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Lila Neugebauer Interrogates the Ghosts of “Uncle Vanya”
+url: https://www.newyorker.com/magazine/2024/04/01/lila-neugebauer-profile-theatre
+summary: A director of the modern uncanny steers the first Broadway production of
+  Chekhov’s masterpiece in twenty years.
+author: Helen Shaw
+categories:
+- Magazine / Profiles
+published: 2024-03-25 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65fafc4f1ef920b9b63f5800
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/65fb1a2b571f31e5620b9706/master/pass/r43989.jpg

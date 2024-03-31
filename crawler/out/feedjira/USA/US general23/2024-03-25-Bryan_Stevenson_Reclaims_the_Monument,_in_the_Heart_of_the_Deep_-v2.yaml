@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 65fafc814c8cc5916945ed0f
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Bryan Stevenson Reclaims the Monument, in the Heart of the Deep South
+url: https://www.newyorker.com/magazine/2024/04/01/bryan-stevenson-reclaims-the-monument-in-the-heart-of-the-deep-south
+summary: The civil-rights attorney has created a museum, a memorial, and, now, a sculpture
+  park, indicting the city of Montgomery—a former capital of the domestic slave trade
+  and the cradle of the Confederacy.
+author: Doreen St. Félix
+categories:
+- Magazine / Letter from Montgomery
+published: 2024-03-25 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65fafc814c8cc5916945ed0f
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/65f9b500f80a4ecc4849fc87/master/pass/r44018.jpg

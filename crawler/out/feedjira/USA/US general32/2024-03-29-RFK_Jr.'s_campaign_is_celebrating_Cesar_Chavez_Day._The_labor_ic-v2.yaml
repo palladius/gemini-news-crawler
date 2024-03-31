@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: US general32 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/politics/story/2024-03-29/cesar-chavez-robert-f-kennedy-jr-rk-campaign
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: RFK Jr.'s campaign is celebrating Cesar Chavez Day. The labor icon's family
+  is not having it
+url: https://www.latimes.com/politics/story/2024-03-29/cesar-chavez-robert-f-kennedy-jr-rk-campaign
+summary: "<p>Relatives of Cesar Chavez decry the Kennedy campaign's use of the late
+  labor icon's image. The candidate's father, RFK, was an ally of the farmworkers
+  union Chavez co-founded.</p>"
+author: Benjamin Oreskes
+published: 2024-03-29 10:00:28.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/politics/story/2024-03-29/cesar-chavez-robert-f-kennedy-jr-rk-campaign
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general32
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+- image
+content: "<p>Relatives of Cesar Chavez decry the Kennedy campaign's use of the late
+  labor icon's image. The candidate's father, RFK, was an ally of the farmworkers
+  union Chavez co-founded.</p>"
+image: https://ca-times.brightspotcdn.com/dims4/default/00e14f4/2147483647/strip/false/crop/5570x3715+0+0/resize/1500x1000!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fca%2F37%2F41af5be04c5286d249aef37401ef%2F1405450-me-0201-black-history-month-kennedy-018.jpg

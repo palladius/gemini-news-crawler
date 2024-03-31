@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general31 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'People in Gaza are starving. Why is it so hard to get aid to them? '
+url: https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+summary: "<p>With warnings of 'imminent' famine in Gaza, there is a global push to
+  get more aid to Palestinians amid the Israel-Hamas war. What are the roadblocks?</p>"
+author: Nabih Bulos
+published: 2024-03-30 10:00:01.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.latimes.com/world-nation/story/2024-03-30/man-made-famine-gaza-aid-explainer
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general31
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- content
+content: "<p>With warnings of 'imminent' famine in Gaza, there is a global push to
+  get more aid to Palestinians amid the Israel-Hamas war. What are the roadblocks?</p>"

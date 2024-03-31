@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/pop-culture/pop-culture-news/snl-cold-open-revels-politics-ramy-youssef-prays-palestinians-hostages-rcna145759
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "'SNL' cold open revels in politics; Ramy Youssef prays for Palestinians and
+  hostages"
+url: https://www.nbcnews.com/pop-culture/pop-culture-news/snl-cold-open-revels-politics-ramy-youssef-prays-palestinians-hostages-rcna145759
+summary: Amid an election year with promises of divergent visions of America, "Saturday
+  Night Live" dove in to the politics of 2024 to find punchlines.
+author: Dennis Romero
+published: 2024-03-31 06:05:07.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/pop-culture/pop-culture-news/snl-cold-open-revels-politics-ramy-youssef-prays-palestinians-hostages-rcna145759
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240331-snl-trump-bible-cc-1251a-33ea97.png

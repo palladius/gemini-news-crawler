@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/video/2024/03/30/watch-sand-artists-recreate-the-passion-of-christ-in-the-bolivian-andes
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'WATCH:  Sand artists recreate the Passion of Christ in the Bolivian Andes'
+url: https://www.euronews.com/video/2024/03/30/watch-sand-artists-recreate-the-passion-of-christ-in-the-bolivian-andes
+summary: Artists from Bolivia and Argentina gathered in a desert area of the Bolivian
+  Andes to recreate the Passion of Christ and images from the Old Testament of the
+  Bible.
+published: 2024-03-30 16:19:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/video/2024/03/30/watch-sand-artists-recreate-the-passion-of-christ-in-the-bolivian-andes
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

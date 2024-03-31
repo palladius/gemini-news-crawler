@@ -1,0 +1,65 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/us/pro-palestinian-protesters-interrupt-easter-vigil-service-st-patricks-cathedral-nyc
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Pro-Palestinian protesters interrupt Easter Vigil service at St. Patrick's
+  Cathedral in NYC
+url: https://www.foxnews.com/us/pro-palestinian-protesters-interrupt-easter-vigil-service-st-patricks-cathedral-nyc
+summary: Easter Vigil Mass at St. Patrick&apos;s Cathedral in New York City interrupted
+  by Pro-Palestinian protesters.
+categories:
+- 13c09896-f283-5b17-bda9-db3dc87ffa7c
+- fnc
+- Fox News
+- fox-news/us/new-york-city
+- fox-news/faith-values/lent-and-life
+- fox-news/us/religion/roman-catholic
+- fox-news/us
+- fox-news/us
+- article
+published: 2024-03-31 02:09:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/us/pro-palestinian-protesters-interrupt-easter-vigil-service-st-patricks-cathedral-nyc
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>As thousands of Pro-Palestinian protesters gathered in Times Square earlier
+  in the day for "Palestinian Land Day," they took their protest to the Easter Vigil
+  service <a href="https://www.foxnews.com/category/us/new-york-city" target="_blank"
+  rel="noopener">at St. Patrick''s cathedral in New York City</a> on Saturday evening.</p><p><a
+  href="https://www.foxnews.com/category/us/religion/roman-catholic" target="_blank"
+  rel="noopener">During the second reading,</a> chants of "Free, free Palestine" could
+  be heard ringing out during the service. </p><p>The protesters were quickly taken
+  out of the service moments after, as many in attendance did not acknowledge the
+  outburst. </p><p><a href="https://www.foxnews.com/category/us/religion/roman-catholic"
+  target="_blank" rel="noopener">The mass was led by Cardinal Timothy Dolan,</a> archbishop
+  of New York.</p><p><a href="https://www.foxnews.com/politics/trump-demands-biden-issue-apology-over-blasphemous-trans-visibility-day-easter-sunday-appalling"
+  target="_blank" rel="noopener"><strong>TRUMP DEMANDS BIDEN TO ISSUE APOLOGY OVER
+  ''BLASPHEMOUS'' TRANS VISIBILITY DAY ON EASTER SUNDAY: ''APPALLING''</strong></a></p><p>All
+  over the world, millions gathered Saturday to protest the Israel-Hamas war in Gaza.</p><p>The
+  United States Conference of Catholic Bishops (USCCB) issued a call for prayer for
+  peace in the Middle East and an end to the Israel-Hamas war in a statement before
+  the start of Holy Week. </p><p><a href="https://www.foxnews.com/lifestyle/us-catholic-bishops-request-prayers-peace-israel-ahead-holy-week"
+  target="_blank" rel="noopener"><strong>US CATHOLIC BISHOPS REQUEST PRAYERS FOR PEACE
+  IN ISRAEL AHEAD OF HOLY WEEK</strong></a></p><p>"<a href="https://www.foxnews.com/category/faith-values/lent-and-life"
+  target="_blank" rel="noopener">As the Church enters Holy Week</a> and Christ’s suffering
+  on the cross and his resurrection are made present to us so vividly, we are connected
+  to the very source of hope," the statement said.</p><p>Since the start of the war
+  in Israel, the USCCB has consistently issued calls for peace, prayer, fasting and
+  the release of hostages captured by Hamas. The conference has also decried the deaths
+  of civilians. </p><p>"Thousands of innocent people have died in this conflict, and
+  thousands more have been displaced and face tremendous suffering," the bishops said.
+  "This must stop." </p><p><i>Fox News Digital''s Christine Rousselle contributed
+  to this report. </i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/11/931/523/GettyImages-1405908282.jpg?ve=1&tl=1

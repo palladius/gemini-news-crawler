@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMifmh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY3JvbmFjYS9hbG1hbmFjY28tZGVsLWdpb3Juby8yMDI0LzAzLzMxL25ld3MvYXVndXJpX2J1b25hX3Bhc3F1YV9wYXNxdWV0dGFfZnJhc2lfaW1tYWdpbmktNDIyNDAyMTgwL9IBggFodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2Nyb25hY2EvYWxtYW5hY2NvLWRlbC1naW9ybm8vMjAyNC8wMy8zMS9uZXdzL2F1Z3VyaV9idW9uYV9wYXNxdWFfcGFzcXVldHRhX2ZyYXNpX2ltbWFnaW5pLTQyMjQwMjE4MC9hbXAv
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Auguri Buona Pasqua e Pasquetta: Frasi e immagini da dedicare - la Repubblica'
+url: https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY3JvbmFjYS9hbG1hbmFjY28tZGVsLWdpb3Juby8yMDI0LzAzLzMxL25ld3MvYXVndXJpX2J1b25hX3Bhc3F1YV9wYXNxdWV0dGFfZnJhc2lfaW1tYWdpbmktNDIyNDAyMTgwL9IBggFodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2Nyb25hY2EvYWxtYW5hY2NvLWRlbC1naW9ybm8vMjAyNC8wMy8zMS9uZXdzL2F1Z3VyaV9idW9uYV9wYXNxdWFfcGFzcXVldHRhX2ZyYXNpX2ltbWFnaW5pLTQyMjQwMjE4MC9hbXAv?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY3JvbmFjYS9hbG1hbmFjY28tZGVsLWdpb3Juby8yMDI0LzAzLzMxL25ld3MvYXVndXJpX2J1b25hX3Bhc3F1YV9wYXNxdWV0dGFfZnJhc2lfaW1tYWdpbmktNDIyNDAyMTgwL9IBggFodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2Nyb25hY2EvYWxtYW5hY2NvLWRlbC1naW9ybm8vMjAyNC8wMy8zMS9uZXdzL2F1Z3VyaV9idW9uYV9wYXNxdWFfcGFzcXVldHRhX2ZyYXNpX2ltbWFnaW5pLTQyMjQwMjE4MC9hbXAv?oc=5"
+  target="_blank">Auguri Buona Pasqua e Pasquetta: Frasi e immagini da dedicare</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">la Repubblica</font></li><li><a href="https://news.google.com/rss/articles/CBMitgFodHRwczovL3d3dy5pbG1lc3NhZ2dlcm8uaXQvc2NoZWRlL2F1Z3VyaV9idW9uYV9wYXNxdWFfZnJhc2lfY29zYV9zY3JpdmVyZV9zdV9iaWdsaWV0dGlfbWVzc2FnZ2lfaW5zdGFncmFtX2NhbnpvbmlfcmVsaWdpb3NlX3NpbXBhdGljaGVfYmFtYmluaV9wYXNxdWV0dGFfdWx0aW1lX25vdGl6eGllLTgwMjUzNjUuaHRtbNIBAA?oc=5"
+  target="_blank">Auguri Buona Pasqua, cosa scrivere su biglietti e messaggi: dalle
+  frasi per amici e parenti ai post più originali per i social</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">ilmessaggero.it</font></li><li><a href="https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmZhbnBhZ2UuaXQvaW5ub3ZhemlvbmUvdGVjbm9sb2dpYS9idW9uYS1wYXNxdWEtMjAyNC1sZS1pbW1hZ2luaS1lLWdpZi1ncmF0aXMtcGl1LWJlbGxlLXBlci1nbGktYXVndXJpLWRlbC0zMS1tYXJ6by_SAQA?oc=5"
+  target="_blank">Buona Pasqua 2024, le immagini e GIF gratis più belle per gli auguri
+  del 31 marzo</a>&nbsp;&nbsp;<font color="#6f6f6f">Fanpage.it</font></li><li><a href="https://news.google.com/rss/articles/CBMieGh0dHBzOi8vd3d3LmlvZG9ubmEuaXQvYXR0dWFsaXRhL2V2ZW50aS1lLW1vc3RyZS8yMDI0LzAzLzI5L2J1b25hLXBhc3F1YS0xMC1mcmFzaS10cmF0dGUtZGEtcG9lc2llLXBlci1mYXJzaS1nbGktYXVndXJpL9IBAA?oc=5"
+  target="_blank">Buona Pasqua! 10 frasi tratte da poesie per farsi gli auguri - iODonna</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Io Donna</font></li><li><a href="https://news.google.com/rss/articles/CBMiUWh0dHBzOi8vd3d3Lm1ldGVvd2ViLmV1LzIwMjQvMDMvYXVndXJpLWJ1b25hLXBhc3F1ZXR0YS1pbW1hZ2luaS1mcmFzaS8xMDAxMzk0NjgxL9IBV2h0dHBzOi8vd3d3Lm1ldGVvd2ViLmV1LzIwMjQvMDMvYXVndXJpLWJ1b25hLXBhc3F1ZXR0YS1pbW1hZ2luaS1mcmFzaS8xMDAxMzk0NjgxLz9hbXA9MQ?oc=5"
+  target="_blank">Auguri di Buona Pasquetta 2024! Immagini nuove e frasi originali</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">MeteoWeb</font></li></ol>'
+published: 2024-03-31 07:26:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMifmh0dHBzOi8vd3d3LnJlcHViYmxpY2EuaXQvY3JvbmFjYS9hbG1hbmFjY28tZGVsLWdpb3Juby8yMDI0LzAzLzMxL25ld3MvYXVndXJpX2J1b25hX3Bhc3F1YV9wYXNxdWV0dGFfZnJhc2lfaW1tYWdpbmktNDIyNDAyMTgwL9IBggFodHRwczovL3d3dy5yZXB1YmJsaWNhLml0L2Nyb25hY2EvYWxtYW5hY2NvLWRlbC1naW9ybm8vMjAyNC8wMy8zMS9uZXdzL2F1Z3VyaV9idW9uYV9wYXNxdWFfcGFzcXVldHRhX2ZyYXNpX2ltbWFnaW5pLTQyMjQwMjE4MC9hbXAv
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

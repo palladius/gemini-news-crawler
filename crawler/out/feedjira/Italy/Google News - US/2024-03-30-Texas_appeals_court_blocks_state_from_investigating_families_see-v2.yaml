@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiXmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMC91cy90ZXhhcy1nZW5kZXItYWZmaXJtaW5nLWNhcmUtaW52ZXN0aWdhdGlvbi1ibG9ja2VkL2luZGV4Lmh0bWzSAVdodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMwL3VzL3RleGFzLWdlbmRlci1hZmZpcm1pbmctY2FyZS1pbnZlc3RpZ2F0aW9uLWJsb2NrZWQ
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Texas appeals court blocks state from investigating families seeking gender-affirming
+  care for trans youth - CNN
+url: https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMC91cy90ZXhhcy1nZW5kZXItYWZmaXJtaW5nLWNhcmUtaW52ZXN0aWdhdGlvbi1ibG9ja2VkL2luZGV4Lmh0bWzSAVdodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMwL3VzL3RleGFzLWdlbmRlci1hZmZpcm1pbmctY2FyZS1pbnZlc3RpZ2F0aW9uLWJsb2NrZWQ?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMC91cy90ZXhhcy1nZW5kZXItYWZmaXJtaW5nLWNhcmUtaW52ZXN0aWdhdGlvbi1ibG9ja2VkL2luZGV4Lmh0bWzSAVdodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMwL3VzL3RleGFzLWdlbmRlci1hZmZpcm1pbmctY2FyZS1pbnZlc3RpZ2F0aW9uLWJsb2NrZWQ?oc=5"
+  target="_blank">Texas appeals court blocks state from investigating families seeking
+  gender-affirming care for trans youth</a>&nbsp;&nbsp;<font color="#6f6f6f">CNN</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy90ZXhhcy1hcHBlYWxzLWNvdXJ0LWJsb2Nrcy1zdGF0ZS1pbnZlc3RpZ2F0aW5nLXBhcmVudHMtcHJvdmlkaW5nLWNoaWxkcmVuLXRyYW5zZ2VuZGVyLXRyZWF0bWVudNIBhAFodHRwczovL3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy90ZXhhcy1hcHBlYWxzLWNvdXJ0LWJsb2Nrcy1zdGF0ZS1pbnZlc3RpZ2F0aW5nLXBhcmVudHMtcHJvdmlkaW5nLWNoaWxkcmVuLXRyYW5zZ2VuZGVyLXRyZWF0bWVudC5hbXA?oc=5"
+  target="_blank">Texas appeals court blocks state from investigating parents providing
+  children with transgender treatment</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox News</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMihwFodHRwczovL3d3dy5reGFuLmNvbS9sZ2J0cS90ZXhhcy1hcHBlYWxzLWNvdXJ0LXVwaG9sZHMtMi1pbmp1bmN0aW9ucy1ibG9ja3Mtc3RhdGUtZnJvbS1pbnZlc3RpZ2F0aW9uLW9uLXRyYW5zLXlvdXRoLWFuZC10aGVpci1mYW1pbGllcy_SAYsBaHR0cHM6Ly93d3cua3hhbi5jb20vbGdidHEvdGV4YXMtYXBwZWFscy1jb3VydC11cGhvbGRzLTItaW5qdW5jdGlvbnMtYmxvY2tzLXN0YXRlLWZyb20taW52ZXN0aWdhdGlvbi1vbi10cmFucy15b3V0aC1hbmQtdGhlaXItZmFtaWxpZXMvYW1wLw?oc=5"
+  target="_blank">Texas appeals court upholds 2 injunctions, blocks state from investigation
+  on trans youth and their families</a>&nbsp;&nbsp;<font color="#6f6f6f">KXAN.com</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiemh0dHBzOi8vd3d3LmRhbGxhc25ld3MuY29tL25ld3MvMjAyNC8wMy8yOS90ZXhhcy1jb3VydC1ibG9ja3MtY2hpbGQtYWJ1c2UtaW52ZXN0aWdhdGlvbnMtaW50by1wYXJlbnRzLW9mLXRyYW5zZ2VuZGVyLWtpZHMv0gGJAWh0dHBzOi8vd3d3LmRhbGxhc25ld3MuY29tL25ld3MvMjAyNC8wMy8yOS90ZXhhcy1jb3VydC1ibG9ja3MtY2hpbGQtYWJ1c2UtaW52ZXN0aWdhdGlvbnMtaW50by1wYXJlbnRzLW9mLXRyYW5zZ2VuZGVyLWtpZHMvP291dHB1dFR5cGU9YW1w?oc=5"
+  target="_blank">Texas court blocks child abuse investigations into parents of transgender
+  kids</a>&nbsp;&nbsp;<font color="#6f6f6f">The Dallas Morning News</font></li></ol>
+published: 2024-03-30 22:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiXmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wMy8zMC91cy90ZXhhcy1nZW5kZXItYWZmaXJtaW5nLWNhcmUtaW52ZXN0aWdhdGlvbi1ibG9ja2VkL2luZGV4Lmh0bWzSAVdodHRwczovL2FtcC5jbm4uY29tL2Nubi8yMDI0LzAzLzMwL3VzL3RleGFzLWdlbmRlci1hZmZpcm1pbmctY2FyZS1pbnZlc3RpZ2F0aW9uLWJsb2NrZWQ
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

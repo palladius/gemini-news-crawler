@@ -1,0 +1,50 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7496095
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Anche Djokovic ha affrontato una ‘disabilità’: ognuno di noi deve porre attenzione
+  a se stesso'
+url: https://www.ilfattoquotidiano.it/2024/03/31/anche-djokovic-ha-affrontato-una-disabilita-ognuno-di-noi-deve-porre-attenzione-a-se-stesso/7496095/
+summary: |
+  <p>di Marco Pozzi Il 27 gennaio 2010, durante un incontro all’Australian Open, Novak Djokovic ha un crollo: “Cercai di aprire il torace ma avvertii un senso di costrizione al petto. Invece della racchetta, mi sembra di reggere in mano il martello di Thor. Il mio corpo era a pezzi”. Non è la prima volta che [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/anche-djokovic-ha-affrontato-una-disabilita-ognuno-di-noi-deve-porre-attenzione-a-se-stesso/7496095/">Anche Djokovic ha affrontato una &#8216;disabilità&#8217;: ognuno di noi deve porre attenzione a se stesso</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Speaker's corner
+categories:
+- Blog
+- Società
+- Djokovic
+published: 2024-03-31 07:26:26.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7496095
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/anche-djokovic-ha-affrontato-una-disabilita-ognuno-di-noi-deve-porre-attenzione-a-se-stesso/7496095/#respond
+content: |
+  <p><strong>di Marco Pozzi</strong></p>
+  <p>Il 27 gennaio 2010, durante un incontro all’Australian Open, <strong>Novak Djokovic</strong> ha un crollo: “Cercai di aprire il torace ma avvertii un senso di costrizione al petto. Invece della racchetta, mi sembra di reggere in mano il martello di Thor. Il mio corpo era a pezzi”. Non è la prima volta che gli capita; cedimenti fisici e mentali che gli impediscono di giocare.</p>
+  <p>Quella partita per caso è vista in televisione dal dottor <strong>Igor Cetojevic</strong>, un nutrizionista serbo, il quale capisce che il crollo ha a che vedere col cibo. Tramite amici comuni pochi mesi dopo organizza un incontro con Djokovic, mentre sta partecipando alla <strong>Coppa Davis</strong>. Igor Cetojevic gli chiede di posare la mano sinistra sullo stomaco e distendere in fuori il braccio destro, su cui esercita una pressione; poi gli chiede di poggiare una fetta di pane sullo stomaco, facendogli compiere lo stesso gesto: la forza esercitata da Djokovic è indubitabilmente minore. Così, nel libro “Il punto vincente”, pubblicato in Italia nel 2016 da Sperling&amp;Kupfer, Novak Djokovic racconta la scoperta dell<strong>’intolleranza al glutine</strong>, e in seguito ai <strong>latticini</strong>. Dopo aver cambiato alimentazione a luglio 2011 vince Wimbledon e diventa numero 1 al mondo; dimagrito di cinque chili, “più veloce e più flessibile [&#8230;] forte e perfettamente concentrato”, in quell’anno conquista dieci titoli, tre tornei del Grande Slam con 43 vittorie consecutive.</p>
+
+  <p>Anche Novak Djokovic si è trovato ad affrontare una “disabilità”. Associare un fenomeno come Djokovic alla <strong>disabilità</strong> può apparire un tantino azzardato. Tuttavia permette di considerare come molti fattori influenzino le nostre azioni e la nostra volontà, fattori non sempre controllabili, che ci creano un limite col quale occorre misurarsi. Col quale non si può non misurarsi. “Quella forza misteriosa che mi <strong>prosciugava</strong> le forze senza preavviso si era nuovamente abbattuta su di me”; “sentire le gambe di pietra e faticavo a respirare”. Non era sufficiente “aumentare il ritmo di allenamento”, “tutte le mattine e tutti i pomeriggi”; “ogni santo giorno sollevavo pesi, andavo in bicicletta e correvo per ore”; “cominciai a praticare la <strong>meditazione</strong> e poi lo <strong>yoga</strong> [&#8230;] iniziai ad allenarmi in maniera ossessiva, 14 ora al giorno tutti i giorni”.<br />
+  Il corpo e la mente però <strong>non rispondevano</strong>.</p>
+  <p>Corpo e mente sono un’unica cosa, che s’influenzano reciprocamente, in modo indissolubile. Comunemente si pensa che le doti fisiche siano <strong>sufficienti</strong> a raggiungere livelli sportivi d’eccellenza; senz’altro aiuta, ma l’esperienza di Djokovic dimostra come l’allenamento <strong>mentale</strong> sia altrettanto importante. È importante per prendere consapevolezza di sé, e gestire il proprio rapporto con l’avversario, con la competizione, col pubblico: in generale col mondo esterno.</p>
+  <p>Un atleta deve misurarsi anche con infortuni, che d’un tratto potrebbero cambiare per sempre la consapevolezza e la possibilità del proprio corpo. Per chi si dedica tanto a fondo in uno sport, con allenamenti e competizioni ad occupare buona parte della vita, <strong>lo sport diventa un’identità</strong>. La modifica di un ruolo in quel contesto va a toccare l’identità stessa, che all’essere-umano sovrappone l’essere-atleta. E in questo senso passaggio epocale, potenzialmente <strong>traumatico</strong>, è il ritiro dall’attività agonistica, con la necessità di ricalibrare tutti i meccanismi esistenziali della persona (tanti racconti si possono ascoltare nel bel podcast <a href="https://open.spotify.com/show/0YnOORIVDPbayRTbg26567" target="_blank" rel="noopener">&#8220;Gulliver &#8211; storie di atlete alla ricerca del proprio posto nel mondo&#8221;</a>).</p>
+  <p>Novak Djokovic, come altri grandi campioni, affronta le stesse paure e incertezze di tutti, e un successo così duraturo non è certo frutto del <strong>caso</strong> o del mero talento innato. Perciò nel libro suggerisce a tutti di curare l’alimentazione e l’equilibrio della mente: “ciascuno di noi è unico, ma la cosa più importante che tutto possiamo fare è metterci in ascolto”, per cogliere i segnali che ci invia; con la <strong>mindfulness</strong>, “anziché mettere a tacere i pensieri e di trovare la pace interiore, accogliamo i pensieri così come si presentano alla mente”; circondarsi di amici, perché “rappresentano una forza che mi spinge in una direzione positiva”.</p>
+
+  <p>Possono sembrare banalità, dette da chi è in cima al mondo ricoperto di soldi. Ricordano però che la stessa attenzione a se stessi è necessaria per ognuno, non soltanto per i grandi atleti al massimo livello di <strong>competizione</strong>. Nel libro Djokovic analizza e spiega il suo percorso personale, ma sovente aggiunge come tale approccio sia applicabile nella vita quotidiana di ciascuno, per aumentare il proprio benessere nel mondo: “se anche voi riuscirete a introdurre nella vostra vita i cambiamenti che abbiano anche solo la metà dell’effetto che hanno avuto sulla mia, sarete sicuramente <strong>molto più felici</strong>, e io lo sarò per voi”.</p>
+  <p>Il rapporto col corpo aiuta a conoscere le proprie abilità e disabilità, e trarne il maggior valore possibile, superando le disabilità e potenziando le abilità. In equilibrio fra limiti e spazio aperto si gioca la possibilità d’espressione di ciascuno, che sia Wimbledon o la riunione in ufficio.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/anche-djokovic-ha-affrontato-una-disabilita-ognuno-di-noi-deve-porre-attenzione-a-se-stesso/7496095/">Anche Djokovic ha affrontato una &#8216;disabilità&#8217;: ognuno di noi deve porre attenzione a se stesso</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2023/11/30/novak-djokovic-doping-1050x551.jpg

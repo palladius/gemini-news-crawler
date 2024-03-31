@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general7 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 409e5b8a95f01b393a361710def5acf0
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Tyre Nichols’ death sparked policing reforms. Why state legislators reversed
+  them.
+url: https://www.csmonitor.com/USA/Politics/2024/0329/Tyre-Nichols-death-sparked-policing-reforms.-Why-state-legislators-reversed-them?icid=rss
+author: Jonathan Mattise
+published: 2024-03-29 15:23:11.000000000 Z
+summary: After the fatal January 2023 beating of Tyre Nichols, the city of Memphis
+  outlawed pretextual traffic stops and implemented other reforms. But Republicans
+  in the state legislature pushed to overturn them over the Nichols family’s objections.
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 409e5b8a95f01b393a361710def5acf0
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general7
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- published
+- summary
+- entry_id

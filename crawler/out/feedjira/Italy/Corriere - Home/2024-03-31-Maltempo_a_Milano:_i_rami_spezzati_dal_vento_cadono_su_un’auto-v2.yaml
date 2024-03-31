@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://video.corriere.it/cronaca/maltempo-milano-rami-spezzati-vento-cadono-un-auto/19c78960-ef32-11ee-bf07-6534603970e5
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Maltempo a Milano: i rami spezzati dal vento cadono su un’auto'
+url: https://video.corriere.it/cronaca/maltempo-milano-rami-spezzati-vento-cadono-un-auto/19c78960-ef32-11ee-bf07-6534603970e5
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/Video/2024/03/31/Interni/Foto%20Interni%20-%20Trattate/albero-def-kk0B--656x492@Corriere-Web-Nazionale.jpg"
+  title="Maltempo a Milano: i rami spezzati dal vento cadono su un’auto" alt="Maltempo
+  a Milano: i rami spezzati dal vento cadono su un’auto" /><p>Una ventina gli interventi
+  dei vigili del fuoco dopo la bomba d’acqua </p>'
+categories:
+- CorriereTV
+published: 2024-03-31 08:45:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://video.corriere.it/cronaca/maltempo-milano-rami-spezzati-vento-cadono-un-auto/19c78960-ef32-11ee-bf07-6534603970e5
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id

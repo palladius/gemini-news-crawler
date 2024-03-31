@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiwgFodHRwczovL3d3dy4zYm1ldGVvLmNvbS9naW9ybmFsZS1tZXRlby9jcm9uYWNhLW1ldGVvLS0tbGEtcGVydHVyYmF6aW9uZS1kaS1wYXNxdWEtcG9ydGEtbnVvdmEtcGlvZ2dpYS1lLXRlbXBvcmFsaS1hbmNoZS1pbnRlbnNpLWNvbi1yaXNjaGlvLW51YmlmcmFnaS0tc2l0dWF6aW9uZS1lLXByZXZpc2lvbmUtcHJvc3NpbWUtb3JlLTcxODYzMdIBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Cronaca Meteo - La perturbazione di Pasqua porta nuova pioggia e temporali
+  anche intensi con rischio nubifragi. Situazione e previsione prossime ore - 3bmeteo
+url: https://news.google.com/rss/articles/CBMiwgFodHRwczovL3d3dy4zYm1ldGVvLmNvbS9naW9ybmFsZS1tZXRlby9jcm9uYWNhLW1ldGVvLS0tbGEtcGVydHVyYmF6aW9uZS1kaS1wYXNxdWEtcG9ydGEtbnVvdmEtcGlvZ2dpYS1lLXRlbXBvcmFsaS1hbmNoZS1pbnRlbnNpLWNvbi1yaXNjaGlvLW51YmlmcmFnaS0tc2l0dWF6aW9uZS1lLXByZXZpc2lvbmUtcHJvc3NpbWUtb3JlLTcxODYzMdIBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiwgFodHRwczovL3d3dy4zYm1ldGVvLmNvbS9naW9ybmFsZS1tZXRlby9jcm9uYWNhLW1ldGVvLS0tbGEtcGVydHVyYmF6aW9uZS1kaS1wYXNxdWEtcG9ydGEtbnVvdmEtcGlvZ2dpYS1lLXRlbXBvcmFsaS1hbmNoZS1pbnRlbnNpLWNvbi1yaXNjaGlvLW51YmlmcmFnaS0tc2l0dWF6aW9uZS1lLXByZXZpc2lvbmUtcHJvc3NpbWUtb3JlLTcxODYzMdIBAA?oc=5"
+  target="_blank">Cronaca Meteo - La perturbazione di Pasqua porta nuova pioggia e
+  temporali anche intensi con rischio nubifragi. Situazione e previsione prossime
+  ore</a>&nbsp;&nbsp;<font color="#6f6f6f">3bmeteo</font></li><li><a href="https://news.google.com/rss/articles/CBMiiwFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9jcm9uYWNoZS8yNF9tYXJ6b18zMC9tZXRlby1uZXZlLW5vcmQtMzAtZ3JhZGktc3VkLWRvcHBpYS1wYXNxdWEtaXRhbGlhbmEtZjQ1ZTU1ZjQtZWVjNC0xMWVlLTk5MGYtZjgxZDVhYjhjZGNiLnNodG1s0gGOAWh0dHBzOi8vd3d3LmNvcnJpZXJlLml0L2Nyb25hY2hlLzI0X21hcnpvXzMwL21ldGVvLW5ldmUtbm9yZC0zMC1ncmFkaS1zdWQtZG9wcGlhLXBhc3F1YS1pdGFsaWFuYS1mNDVlNTVmNC1lZWM0LTExZWUtOTkwZi1mODFkNWFiOGNkY2JfYW1wLmh0bWw?oc=5"
+  target="_blank">Meteo, neve al Nord e 30 gradi al Sud: la doppia Pasqua italiana</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Corriere della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMilQFodHRwczovL3d3dy4zYm1ldGVvLmNvbS9naW9ybmFsZS1tZXRlby9tZXRlby0tLXBhc3F1ZXR0YS1jb24tcGlvZ2dpYS1lLXRlbXBvcmFsaS1hbmNoZS1mb3J0aS0tbWEtcXVhbGNoZS1yZWdpb25lLXNpLXNhbHZlci1hZ3JhdmUtLS1lY2NvLXF1YWxpLTcxODYzMtIBAA?oc=5"
+  target="_blank">Meteo - Pasquetta con pioggia e temporali anche forti, ma qualche
+  regione si salverà, ecco quali</a>&nbsp;&nbsp;<font color="#6f6f6f">3bmeteo</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3Lmxhc3RhbXBhLml0L2N1bmVvLzIwMjQvMDMvMzEvbmV3cy9wYXNxdWFfY29uX2xhX3Bpb2dnaWFfYV9wYXNxdWV0dGFfaWxfcmVnYWxvX2RlbF9zb2xlLTE0MTg3NTkyL9IBAA?oc=5"
+  target="_blank">Pasqua con la pioggia, a Pasquetta il “regalo” del sole</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">La Stampa</font></li></ol>'
+published: 2024-03-31 07:05:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiwgFodHRwczovL3d3dy4zYm1ldGVvLmNvbS9naW9ybmFsZS1tZXRlby9jcm9uYWNhLW1ldGVvLS0tbGEtcGVydHVyYmF6aW9uZS1kaS1wYXNxdWEtcG9ydGEtbnVvdmEtcGlvZ2dpYS1lLXRlbXBvcmFsaS1hbmNoZS1pbnRlbnNpLWNvbi1yaXNjaGlvLW51YmlmcmFnaS0tc2l0dWF6aW9uZS1lLXByZXZpc2lvbmUtcHJvc3NpbWUtb3JlLTcxODYzMdIBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

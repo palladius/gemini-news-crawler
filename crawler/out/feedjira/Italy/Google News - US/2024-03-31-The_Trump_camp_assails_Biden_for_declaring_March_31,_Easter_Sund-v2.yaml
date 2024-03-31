@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiYGh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2JpZGVuLWVhc3Rlci10cmFuc2dlbmRlci10cmFucy10cnVtcC0yYWNjMDUwNTJkMDEyNzJlZDIxYWI4M2YzMmQ5OWE3N9IBAA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The Trump camp assails Biden for declaring March 31, Easter Sunday, as Transgender
+  Day of Visibility - The Associated Press
+url: https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2JpZGVuLWVhc3Rlci10cmFuc2dlbmRlci10cmFucy10cnVtcC0yYWNjMDUwNTJkMDEyNzJlZDIxYWI4M2YzMmQ5OWE3N9IBAA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2JpZGVuLWVhc3Rlci10cmFuc2dlbmRlci10cmFucy10cnVtcC0yYWNjMDUwNTJkMDEyNzJlZDIxYWI4M2YzMmQ5OWE3N9IBAA?oc=5"
+  target="_blank">The Trump camp assails Biden for declaring March 31, Easter Sunday,
+  as Transgender Day of Visibility</a>&nbsp;&nbsp;<font color="#6f6f6f">The Associated
+  Press</font></li><li><a href="https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy90cnVtcC1kZW1hbmRzLWJpZGVuLWlzc3VlLWFwb2xvZ3ktb3Zlci1ibGFzcGhlbW91cy10cmFucy12aXNpYmlsaXR5LWRheS1lYXN0ZXItc3VuZGF5LWFwcGFsbGluZ9IBhAFodHRwczovL3d3dy5mb3huZXdzLmNvbS9wb2xpdGljcy90cnVtcC1kZW1hbmRzLWJpZGVuLWlzc3VlLWFwb2xvZ3ktb3Zlci1ibGFzcGhlbW91cy10cmFucy12aXNpYmlsaXR5LWRheS1lYXN0ZXItc3VuZGF5LWFwcGFsbGluZy5hbXA?oc=5"
+  target="_blank">Trump demands Biden to issue apology over ''blasphemous'' Trans
+  Visibility Day on Easter Sunday: ''Appalling''</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox
+  News</font></li><li><a href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vbmV3cy8yMDI0LzMvMzEvdHJ1bXAtYmlkZW4tY2xhc2gtb3Zlci10cmFuc2dlbmRlci1kYXktb2YtdmlzaWJpbGl0eS1mYWxsaW5nLW9uLWVhc3RlctIBc2h0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vYW1wL25ld3MvMjAyNC8zLzMxL3RydW1wLWJpZGVuLWNsYXNoLW92ZXItdHJhbnNnZW5kZXItZGF5LW9mLXZpc2liaWxpdHktZmFsbGluZy1vbi1lYXN0ZXI?oc=5"
+  target="_blank">Trump, Biden clash over Transgender Day of Visibility falling on
+  Easter</a>&nbsp;&nbsp;<font color="#6f6f6f">Al Jazeera English</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiswFodHRwczovL2xhbmNhc3Rlcm9ubGluZS5jb20vbmV3cy9sb2NhbC95b3UtYXJlLXZpc2libGUtbGFuY2FzdGVyLXJhbGxpZXMtaW4tc3VwcG9ydC1vZi10cmFuc2dlbmRlci1jb21tdW5pdHktY2FsbHMtZm9yLWFjY2VwdGFuY2UvYXJ0aWNsZV85NGU4ZGNlNC1lZWRjLTExZWUtOGY0My1iN2JkY2NlMzVjZjIuaHRtbNIBAA?oc=5"
+  target="_blank">''You are visible'': Lancaster rallies in support of transgender
+  community, calls for acceptance</a>&nbsp;&nbsp;<font color="#6f6f6f">LNP | LancasterOnline</font></li></ol>'
+published: 2024-03-31 02:42:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiYGh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2JpZGVuLWVhc3Rlci10cmFuc2dlbmRlci10cmFucy10cnVtcC0yYWNjMDUwNTJkMDEyNzJlZDIxYWI4M2YzMmQ5OWE3N9IBAA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

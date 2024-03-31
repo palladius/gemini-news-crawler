@@ -1,0 +1,85 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/lifestyle/maine-airport-offers-chance-visit-moon
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Maine airport offers its visitors a rare chance to 'visit' the moon
+url: https://www.foxnews.com/lifestyle/maine-airport-offers-chance-visit-moon
+summary: Travelers to Portland International Jetport, Maine&apos;s largest airport,
+  can now take a trip to &quot;visit&quot; the moon thanks to a new exhibit called
+  &quot;Fly Me to the Moon.&quot;
+categories:
+- 8a590ec8-e30f-54be-8cbc-c11c0b2ff89d
+- fnc
+- Fox News
+- fox-news/science/air-and-space
+- fox-news/science/air-and-space/mars
+- fox-news/science/air-and-space/moon
+- fox-news/lifestyle
+- fox-news/science/planet-earth
+- fox-news/travel/general/museums-exhibits
+- fox-news/odd-news
+- fox-news/us/us-regions/northeast/maine
+- fox-news/lifestyle
+- article
+published: 2024-03-31 01:41:24.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/lifestyle/maine-airport-offers-chance-visit-moon
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>Maine''s largest airport has a new "destination" to offer its travelers:
+  the moon.</p><p>The Portland International Jetport is now home to the second-largest
+  piece of the moon on Earth. </p><p>The piece is part of a <a href="https://www.foxnews.com/category/travel/general/museums-exhibits"
+  target="_blank" rel="noopener">new exhibit</a> titled "Fly Me to the Moon," which
+  opened to the public on March 26.</p><p><a href="https://www.foxnews.com/lifestyle/some-schools-cancel-classes-april-8-solar-eclipse-ensure-safety"
+  target="_blank" rel="noopener"><strong>FOR SOLAR ECLIPSE ON APRIL 8, SOME US SCHOOLS
+  WILL BE CLOSED FOR THE DAY</strong></a></p><p>The piece of the moon is on loan from
+  the Maine Mineral &amp; Gem Museum (MMGM).</p><p>It''s joined by a piece of Mars,
+  representing "samples of the most beautiful extraterrestrial substance yet discovered."
+  The meteorite is "celebrated for its striking resemblance to Edvard Munch''s ‘The
+  Scream,’" said a joint release from the jetport and MMGM. </p><p>"We are thrilled
+  to have ‘Fly Me to the Moon’ at the Jetport," said Paul Bradbury, director of the
+  airport. "We love celebrating unique aspects of Maine, and the MMGM is certainly
+  among them." </p><p>Darryl Pitt, a music executive from New York City who sourced
+  all the meteorites, said he "loved" the Portland International Jetport, and thought
+  it was an excellent location to "provide a peek at MMGM''s treasures." </p><p><a
+  href="https://www.foxnews.com/lifestyle/solar-eclipse-2024-where-how-view-rare-orbit-hitting-us"><strong><u>SOLAR
+  ECLIPSE 2024: WHERE AND HOW TO VIEW THE RARE ORBIT HITTING THE US</u></strong></a></p><p>Pitt
+  told Fox News Digital that the new exhibit is the "<a href="https://www.foxnews.com/lifestyle/solar-eclipse-safety-drivers-should-not-do-road-rare-event"
+  target="_blank" rel="noopener">coolest eclipse</a> add-on" for anyone who is traveling
+  to the state ahead of the April 8 eclipse. </p><p>Maine is one of the states that
+  will experience "totality" during the upcoming eclipse. </p><p>"And by the way,
+  the largest piece of the moon on our planet is also in Maine!" said Pitt.</p><p>"The
+  Maine Mineral &amp; Gem Museum in Bethel has <a href="https://www.foxnews.com/category/science/air-and-space/moon"
+  target="_blank" rel="noopener">more of the moon</a> than all of the natural history museums
+  in the world, combined," he said.</p><p><a href="https://www.foxnews.com/lifestyle/ancient-shipwrecks-artifacts-dating-early-3000-bc-uncovered-underwater-researchers"
+  target="_blank" rel="noopener"><strong>ANCIENT SHIPWRECKS, ARTIFACTS DATING AS EARLY
+  AS 3000 BC UNCOVERED BY UNDERWATER RESEARCHERS</strong></a></p><p>Bethel is located
+  in western Maine, about 70 miles northwest of Portland. </p><p>"Maine is not just
+  about lobsters anymore … It’s where the moon lives," said Pitt. </p><p>The centerpiece
+  of the new exhibit is a meteorite dubbed "The Scream." </p><p>This meteorite "says
+  ‘hello!’ and <a href="https://www.foxnews.com/travel" target="_blank" rel="noopener">lures
+  travelers</a> to come closer and check out one of the more fascinating exhibits
+  you will see in any airport in the world," he said. </p><p><a href="https://www.foxnews.com/newsletters?cmpid=fnfirstnl"><strong>CLICK
+  HERE TO SIGN UP FOR OUR LIFESTYLE NEWSLETTER</strong></a></p><p>Pieces of the moon
+  and Mars are quite rare, Pitt told Fox News Digital. </p><p>Only about 3,000 pounds
+  of <a href="https://www.foxnews.com/lifestyle/inside-moon-mysteries" target="_blank"
+  rel="noopener">the moon</a> is known to exist on Earth, which includes samples brought
+  back during the Apollo missions.</p><p>"All of it would fit in the back of a large
+  SUV," said Pitt.  "And there are only a half ton of samples of the planet Mars <a
+  href="https://www.foxnews.com/category/science/planet-earth" target="_blank" rel="noopener">on
+  Earth.</a>"</p><p>"Fly Me to the Moon" will be on display for the next five years. </p><p><a
+  href="https://www.foxnews.com/lifestyle"><i><strong>For more Lifestyle articles,
+  visit www.foxnews.com/lifestyle</strong></i></a><i><strong>.</strong></i></p>'
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/kWOHSMyA.jpeg?ve=1&tl=1

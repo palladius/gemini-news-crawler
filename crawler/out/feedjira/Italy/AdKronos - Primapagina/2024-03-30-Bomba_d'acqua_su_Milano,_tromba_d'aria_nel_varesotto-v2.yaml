@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Primapagina (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/cronaca/bomba-dacqua-su-milano-tromba-daria-nel-varesotto_4oWRLjByxHt8gSr3ZOWG56
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Bomba d'acqua su Milano, tromba d'aria nel varesotto
+url: https://www.adnkronos.com/cronaca/bomba-dacqua-su-milano-tromba-daria-nel-varesotto_4oWRLjByxHt8gSr3ZOWG56
+summary: "(Adnkronos) - Violentissimo temporale sulla città, alberi pericolanti e
+  cartelloni pubblicitari e insegne caduti a causa del forte vento"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- cronaca
+published: 2024-03-30 22:38:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/cronaca/bomba-dacqua-su-milano-tromba-daria-nel-varesotto_4oWRLjByxHt8gSr3ZOWG56
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Primapagina
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a89437dbbb5-5e76213621ab-1000/format/medium/fulmini_temporale_ftg.jpeg

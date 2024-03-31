@@ -144,7 +144,7 @@ def main
         #puts rss_article.to_s
         break if ix == MaxArticleSize
         puts("📰 [#{ix+1}] Title: #{rss_article.title.colorize(:cyan)}")
-        file_dumper.write_article(newspaper_friendly_name, rss_article)
+        file_dumper.write_article(newspaper_friendly_name, rss_article, macro_region)
         # All verbs but ENTRIES
         RSSVerbs.each do |verb|
           field_counters[verb] ||= 0

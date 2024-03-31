@@ -1,0 +1,70 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/us/georgia-woman-kidnapped-burned-cut-attack-she-leaving-work-family-says
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Georgia woman kidnapped, burned, cut in attack as she was leaving work, family
+  says
+url: https://www.foxnews.com/us/georgia-woman-kidnapped-burned-cut-attack-she-leaving-work-family-says
+summary: A Georgia woman was kidnapped, burned and cut by a suspect as she was attempting
+  to leave work. She was hospitalized after the incident and underwent surgery.
+categories:
+- 7b776898-a9b2-5020-b60e-5c8bef2ebcce
+- fnc
+- Fox News
+- fox-news/us/us-regions/southeast/georgia
+- fox-news/us
+- fox-news/us/crime
+- fox-news/us/crime/police-and-law-enforcement
+- fox-news/us
+- article
+published: 2024-03-31 06:04:59.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/us/georgia-woman-kidnapped-burned-cut-attack-she-leaving-work-family-says
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>A <a href="https://www.foxnews.com/category/us/us-regions/southeast/georgia"
+  target="_blank" rel="noopener">Georgia woman</a> was kidnapped, burned and cut by
+  an assailant as she was attempting to leave work, according to her family.</p><p>The
+  victim's family told DeKalb County Police the woman, who is in her 60s, was leaving
+  work at an accounting firm along Montreal Road in Tucker on Wednesday when she was
+  attacked, WXIA reported. The exact time the incident began is unclear, but the firm
+  closes at around 5:30 p.m. and the victim's family believes it happened shortly
+  after closing.</p><p>The family said a man approached the woman and demanded she
+  let him inside the business. But she refused and the man forced her into her vehicle,
+  made her drive to an ATM and told her to withdraw money.</p><p>During this incident,
+  the man cut the woman across her body, including her face, and at some point he
+  burned her face, the family said.</p><p><a href="https://www.foxnews.com/us/georgia-suspect-who-stole-frontloader-led-police-wild-chase-stopped-by-employee-another-frontloader"
+  target="_blank" rel="noopener"><strong><u>GEORGIA SUSPECT WHO STOLE FRONTLOADER,
+  LED POLICE ON WILD CHASE, STOPPED BY EMPLOYEE WITH ANOTHER FRONTLOADER</u></strong></a></p><p>The
+  man then forced the woman to drive back to her job, where she managed to escape.</p><p>The
+  woman was able to drive a few hundred yards down Montreal Road to DeKalb County
+  Fire Station 22, where Fire Captain Shaneqwa Eafford told reporters only one crew
+  member was awake, according to WXIA. The woman made enough noise in the parking
+  lot to catch the attention of the crew member, who woke up Eafford and the other
+  firefighters.</p><p>The fire station <a href="https://www.foxnews.com/category/us/crime/police-and-law-enforcement"
+  target="_blank" rel="noopener">contacted the police</a>, who were dispatched to
+  the area at around 9 p.m. for the reported kidnapping and assault.</p><p>Eafford
+  said the entire crew was at the station, including their ambulance, when the woman
+  showed up.</p><p><a href="https://www.foxnews.com/us/georgia-mom-found-guilty-murder-after-allegedly-attempting-kill-daughters-alleged-child-molester"
+  target="_blank" rel="noopener"><strong>GEORGIA MOM FOUND GUILTY OF MURDER AFTER
+  ALLEGEDLY ATTEMPTING TO KILL DAUGHTER'S ALLEGED CHILD MOLESTER</strong></a></p><p>"We
+  had a DeKalb Fire Rescue transport unit in the house that was able to take her immediately;
+  no wait at all," Eafford said.</p><p>"It was a blessing for her to be able to come
+  to us and for us to be here as well," she added.</p><p>Police said detectives have
+  been working to find evidence to <a href="https://www.foxnews.com/category/us/crime"
+  target="_blank" rel="noopener">help identify and locate the suspect</a>.</p><p>The
+  victim's family said she remains in the hospital, having undergone at least one
+  surgery since the attack.</p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/12/931/523/Dekalb-County-GA-.jpg?ve=1&tl=1

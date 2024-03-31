@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general14 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.huffpost.com/entry/israel-military-draft-explainer_n_6608d568e4b03e016eb4c651
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "comments", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Israel's High Court Says The Government Must Stop Funding Seminaries. Could
+  That Topple Netanyahu?
+url: https://www.huffpost.com/entry/israel-military-draft-explainer_n_6608d568e4b03e016eb4c651
+summary: A dramatic decision by Israel's Supreme Court on drafting ultra-Orthodox
+  men into the Israeli military could spell political trouble for Prime Minister Benjamin
+  Netanyahu.
+published: 2024-03-31 03:24:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/israel-military-draft-explainer_n_6608d568e4b03e016eb4c651
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general14
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- comments
+- content
+comments: https://www.huffpost.com/entry/israel-military-draft-explainer_n_6608d568e4b03e016eb4c651#comments
+content: "\n        A dramatic decision by Israel's Supreme Court on drafting ultra-Orthodox
+  men into the Israeli military could spell political trouble for Prime Minister Benjamin
+  Netanyahu.\n      "

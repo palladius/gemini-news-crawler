@@ -1,0 +1,105 @@
+# [NewsFiler v2] NewsPaper: US general34 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: v7bnna
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: The Far Right Is Spreading Misinformation Claiming the Lakewood Church Shooter
+  Was Trans
+url: https://www.vice.com/en_us/article/v7bnna/lakewood-church-shooting-houston-far-right-misinformation-claiming-suspect-transgender
+summary: Libs of TikTok and Elon Musk rushed to spread the misinformation as part
+  of the far right’s desperate push to make “trans terrorism” a thing.
+author: Tess Owen
+categories:
+- News
+- lakewood church
+- Joel Osteen
+- gun violence
+- Far right
+- Libsoftiktok
+- Anti-trans
+- elon musk
+- chaya raichik
+published: 2024-02-13 16:10:55.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: v7bnna
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general34
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+- image
+content: '<p>The far-right is desperate to make &#x201C;trans terrorism&#x201D; a
+  thing. So desperate, in fact, that it&#x2019;s willing to push out incorrect or
+  false information just to shore up their baseless narrative that trans people are
+  inherently dangerous.&#xA0;</p> <p>The latest example has played out since Sunday,
+  when a woman, with her 7-year-old son in tow, walked into the Lakewood megachurch
+  in Houston, Texas, and opened fire with an AR-15.&#xA0;</p> <p>The shooter, 36-year-old
+  Genesse Ivonne Moreno, was killed by armed off-duty law enforcement at the church,
+  which is run by celebrity televangelist Joel Osteen. Two people were wounded: A
+  57-year-old man, and the shooter&#x2019;s son, who was critically injured.&#xA0;</p>
+  <p>On Monday, the account Libs of TikTok, which targets LGBTQ people and has been
+  accused of <a href="https://www.vice.com/en/article/bvj5dq/schools-report-bomb-threats-following-libs-of-tiktok-anti-lgbtq-posts"
+  target="_blank">inspiring bomb threats</a> against <a href="https://www.nbcnews.com/tech/internet/libs-tiktok-x-chaya-raichik-bomb-threat-twitter-of-libsoftiktok-rcna102784"
+  target="_blank">dozens of schools</a> nationwide, posted a document online that
+  suggested the shooter had used the name &#x201C;Jeffrey.&#x201D;</p> <p>&#x201C;The
+  Lakewood Church shooter was transgender,&#x201D; Libs of TikTok asserted. &#x201C;Another
+  act of trans terrorism. We need to have a national conversation about the LGBTQ
+  movement turning youth into violent extremists.&#x201D;</p> <p>Chaya Raichik, the
+  far-right activist who runs the account, also asked &#x201C;what kind of hormones
+  and drugs was the trans terrorist who shot up the Texas church taking?&#x201D; Elon
+  Musk also weighed in, suggesting that hormones taken in most gender affirming care
+  regimens &#x201C;could be a major causal factor in violence.&#x201D; There is no
+  evidence for this claim.</p> <p>In a press conference later on Monday, police officials
+  noted that, although the shooter appeared to utilize both male and female names,
+  they found no indication that she ever identified as anything but a cisgender woman.&#xA0;</p>
+  <p>So far, it&#x2019;s unclear why the shooter targeted Osteen&#x2019;s church.
+  According to a social media post <a href="https://www.cnn.com/2024/02/13/us/joel-osteen-lakewood-church-shooting-tuesday/index.html"
+  target="_blank">unearthed by CNN</a>, the shooter donated to the Lakewood Church
+  in March 2020. Police say that they discovered &#x201C;antisemitic writings&#x201D;
+  among her personal items, and her AR-15 was emblazoned with a sticker saying &#x201C;Palestine.&#x201D;
+  Police also said there was some sort of &#x201C;familial dispute&#x201D; that took
+  place between her ex-husband and her ex-husband&#x2019;s family, some of whom are
+  Jewish.&#xA0;</p> <p>The shooter was also being treated for schizophrenia, according
+  to a Facebook post by her ex-mother-in-law, Rabbi Walli Carranza. Carranza described
+  her as a &#x201C;very sweet and loving woman,&#x201D; and railed against the fact
+  that Texas does not have a &#x201C;red flag law&#x201D; in place that would allow
+  concerned family members to remove firearms from people believed to be a danger
+  to themselves or others. The shooter legally purchased her AR-15 in December 2023,
+  police said.&#xA0;</p> <p>&#x201C;[The shooter] had a particular kind of schizophrenia
+  that caused her to become violent,&#x201D; Carranza <a href="https://www.khou.com/article/news/crime/lakewood-church-shooter-family-reaction/285-50f3f2ec-a153-40d7-8bc8-9b74321c1e40"
+  target="_blank">told KHOU, a CNN affiliate</a>. &#x201C;She threatened her husband,
+  my own son, and we still couldn&#x2019;t get intervention.&#x201D;&#xA0;</p> <p>In
+  addition to having an extensive history of mental health troubles, the shooter has
+  a long criminal record which includes, among other things, forgery, theft, assault
+  of a detention officer, and unlawful carrying of a weapon.&#xA0;</p> <p>The far-right
+  has been laser focused on the concept of &#x201C;trans terrorism&#x201D;&#x2014;just
+  one prong of their <a href="https://www.vice.com/en/article/epz4we/far-right-gop-threats-lgbtq-pride"
+  target="_blank">all-out assault on LGBTQ rights</a>&#x2014;ever since a transgender
+  man carried out a <a href="https://www.vice.com/en/article/v7bgwa/nashville-covenant-shooter-identified"
+  target="_blank">mass shooting at a Christian school in Nashville</a> where he was
+  once a student.&#xA0;</p> <p>Following that shooting, <a href="https://www.vice.com/en/article/5d9ppz/nashville-shooting-marjorie-taylor-greene-matt-walsh-anti-trans"
+  target="_blank">which unleashed a fresh wave of transphobia</a> from the right,
+  Donald Trump Jr. falsely claimed that there had been &#x201C;an incredible rise&#x201D;
+  in mass shootings perpetrated by trans people. Fact checkers <a href="https://apnews.com/article/fact-check-transgender-nashville-shooting-misinformation-cd62492d066d41e820c138256570978c"
+  target="_blank">debunked that claim</a>, noting that there had been four shootings
+  perpetrated by transgender people in the space of five years&#x2014;and that mass
+  shootings are overwhelmingly committed by cisgender men.&#xA0;</p> <p>Since the
+  Nashville shooting, in the wake of other mass shootings, far-right accounts like
+  Libs of TikTo typically scramble to uncover a &#x201C;link&#x201D; between the attack
+  and the LGBTQ community.&#xA0;</p> <p>There is no evidence to support claims that
+  transgender people are more prone to violence, and researchers have historically
+  <a href="https://www.scientificamerican.com/article/strange-but-true-testosterone-alone-doesnt-cause-violence/"
+  target="_blank">struggled to identify</a> a correlation between testosterone and
+  violence. There is, however, mountains of evidence showing that transgender people
+  disproportionately experience violence, and that hormonal therapy for trans teens
+  and adults significantly improves mental health and lowers the rate of suicidal
+  ideation.&#xA0;</p>'
+image: http://video-images.vice.com/articles/65cb91af6d81017812291461/lede/1707840583543-gettyimages-1249148414.jpeg

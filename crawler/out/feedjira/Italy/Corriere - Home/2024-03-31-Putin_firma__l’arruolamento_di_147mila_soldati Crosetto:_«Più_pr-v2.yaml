@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.corriere.it/esteri/diretta-live/24_marzo_31/ucraina-russia-notizie-oggi-diretta-zelensky-usa-dateci-missili-atacms-colpire-crimea-licenzia-suo-primo-assistente-altri-funzionari-75e244b8-eeb7-11ee-990f-f81d5ab8cdcb.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Putin firma  l’arruolamento di 147mila soldati Crosetto: «Più prudenza, abbassiamo
+  i toni»'
+url: https://www.corriere.it/esteri/diretta-live/24_marzo_31/ucraina-russia-notizie-oggi-diretta-zelensky-usa-dateci-missili-atacms-colpire-crimea-licenzia-suo-primo-assistente-altri-funzionari-75e244b8-eeb7-11ee-990f-f81d5ab8cdcb.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/30/Esteri/Foto%20Esteri%20-%20Trattate/AFP_34MX6BY-001-kpVG-U34701107072249ZjG-656x492@Corriere-Web-Sezioni.jpg"
+  title="Putin firma  l’arruolamento di 147mila soldati Crosetto: «Più prudenza, abbassiamo
+  i toni»" alt="Putin firma  l’arruolamento di 147mila soldati Crosetto: «Più prudenza,
+  abbassiamo i toni»" /><p>Le notizie di domenica 31 marzo sull’attentato a Mosca
+  e sulla guerra in Ucraina, in diretta. Kiev: da inizio guerra uccisi 537 bambini,
+  feriti altri 1.273</p>'
+author: Redazione Online
+categories:
+- Esteri
+published: 2024-03-31 08:38:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.corriere.it/esteri/diretta-live/24_marzo_31/ucraina-russia-notizie-oggi-diretta-zelensky-usa-dateci-missili-atacms-colpire-crimea-licenzia-suo-primo-assistente-altri-funzionari-75e244b8-eeb7-11ee-990f-f81d5ab8cdcb.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

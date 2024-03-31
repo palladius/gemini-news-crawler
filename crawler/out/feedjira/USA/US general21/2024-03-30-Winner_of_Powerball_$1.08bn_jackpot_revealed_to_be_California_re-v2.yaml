@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/30/powerball-winner-revealed-1-billion-jackpot-california
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Winner of Powerball $1.08bn jackpot revealed to be California resident
+url: https://www.theguardian.com/us-news/2024/mar/30/powerball-winner-revealed-1-billion-jackpot-california
+summary: <p>Yanira Alvarez won lottery’s third-largest prize ever after buying ticket
+  in downtown Los Angeles</p><p>Another <a href="https://www.theguardian.com/us-news/california">California</a>
+  lottery player – another big jackpot winner.</p><p>Officials on Friday identified
+  the Californian who won the $1.08bn Powerball jackpot last year, satisfying a requirement
+  under state law.</p> <a href="https://www.theguardian.com/us-news/2024/mar/30/powerball-winner-revealed-1-billion-jackpot-california">Continue
+  reading...</a>
+author: Maya Yang
+categories:
+- California
+- US news
+published: 2024-03-30 17:45:06.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/30/powerball-winner-revealed-1-billion-jackpot-california
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/b237a5dc598b19b08bff7b712cc901552a33ec19/0_0_6798_4082/master/6798.jpg?width=140&quality=85&auto=format&fit=max&s=1d16aa73f511ae9ddb2bc5caf4faa693

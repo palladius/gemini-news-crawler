@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401658
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Papa Francesco: “Ratzinger nel 2005 era il mio candidato, bloccai la manovra
+  tesa a bruciarlo”'
+url: https://www.repubblica.it/cronaca/2024/03/31/news/papa_francesco_ratzinger_conclave_2005-422401658/
+summary: Il quotidiano spagnolo ABC anticipa un capitolo del nuovo libro-intervista
+  di Bergoglio con il giornalista Javier Martinez-Brocal dedicato a Benedetto XVI.
+  “Era l’unico che in quel momento poteva essere Papa”
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-31 06:25:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401658
+updated: 2024-03-31 06:25:45.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general2 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.cnn.com/2023/04/18/politics/mccarthy-biden-debt-ceiling/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Millions in the US could face massive consequences unless McCarthy can navigate
+  out of a debt trap he set for Biden
+url: https://www.cnn.com/2023/04/18/politics/mccarthy-biden-debt-ceiling/index.html
+summary: "• DeSantis goes to Washington, a place he once despised, looking for support
+  to take on Trump\n• Opinion: For the GOP to win, it must ditch Trump\n• Chris Christie
+  mulling 2024 White House bid\n• Analysis: The fire next time has begun burning in
+  Tennessee "
+published: 2023-04-18 20:34:45.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.cnn.com/2023/04/18/politics/mccarthy-biden-debt-ceiling/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general2
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://cdn.cnn.com/cnnnext/dam/assets/230417222359-mccarthy-biden-debt-ceiling-042023-super-169.jpg

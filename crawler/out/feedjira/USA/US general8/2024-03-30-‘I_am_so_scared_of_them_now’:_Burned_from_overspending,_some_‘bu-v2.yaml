@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/business/personal-finance/buy-now-pay-later-users-warn-others-away-overspending-rcna141944
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "‘I am so scared of them now’: Burned from overspending, some ‘buy now, pay
+  later’ users warn others away"
+url: https://www.nbcnews.com/business/personal-finance/buy-now-pay-later-users-warn-others-away-overspending-rcna141944
+summary: After racking up thousands of dollars in debt, some borrowers are deleting
+  the apps from their phones to avoid getting prodded to spend more.
+author: J.J. McCorvey
+published: 2024-03-30 12:00:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/business/personal-finance/buy-now-pay-later-users-warn-others-away-overspending-rcna141944
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240326-BNPL-main-ksp-a07f89.jpg

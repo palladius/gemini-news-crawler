@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://ricc.rocks/en/posts/travel/202211-raja-ampat/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "\U0001F6A7 Scuba in Raja Ampat"
+url: https://ricc.rocks/en/posts/travel/202211-raja-ampat/
+summary: " TODO find another place where you wrote the article.."
+author: Riccardo
+categories:
+- travel
+- indonesia
+- rajaampat
+- sport
+- scuba
+- travel
+published: 2022-11-05 12:20:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://ricc.rocks/en/posts/travel/202211-raja-ampat/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Blog
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://ricc.rocks//gallery/midjourney/PalladiusPacans_Pixar_style_37b88a84-6c83-452f-9f63-4d250ea4ec3d.png

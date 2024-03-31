@@ -1,0 +1,105 @@
+# [NewsFiler v2] NewsPaper: US general24 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=230989
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "summary", "entry_id", "comments", "content", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Trump and the new politics of honoring war dead
+url: http://www.pbs.org/newshour/rundown/trump-new-politics-honoring-war-dead/
+author: Larisa Epatko
+categories:
+- Donald Trump
+- Military
+- military deaths
+published: 2017-10-18 13:41:27.000000000 Z
+summary: |
+  <div id="attachment_230988" class="wp-caption alignnone" style="width: 689px"><img class="size-large wp-image-230988" src="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTXML49-1024x619.jpg" alt="Coffins of U.S. military personnel are prepared to be offloaded at Dover Air Force Base in Dover, Delaware in this undated photo by a Reuters stringer." width="689" height="416" srcset="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTXML49-1024x619.jpg 1024w, http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTXML49-300x181.jpg 300w" sizes="(max-width: 689px) 100vw, 689px" /><p class="wp-caption-text">Coffins of U.S. military personnel are prepared to be offloaded at Dover Air Force Base in Dover, Delaware in this undated photo by a Reuters stringer.</p></div>
+  <p>WASHINGTON — After her Army son died in an armored vehicle rollover in Syria in May, Sheila Murphy says, she got no call or letter from President Donald Trump, even as she waited months for his condolences, wrote to him to say &#8220;some days I don&#8217;t want to live,&#8221; and still heard nothing.</p>
+  <p>In contrast, Trump called to comfort Eddie and Aldene Lee about 10 days after their Army son was killed in an explosion while on patrol in Iraq in April. &#8220;Lovely young man,&#8221; Trump said, according to Aldene. She thought that was a beautiful word to hear about her boy, &#8220;lovely.&#8221;</p>
+  <p>Like presidents before him, Trump has made personal contact with some families of the fallen, not all. What&#8217;s different is that Trump, alone among them, has picked a political fight over who&#8217;s done better to honor the war dead and their families.</p>
+  <p>He placed himself at the top of this pantheon, boasting Tuesday that &#8220;I think I&#8217;ve called every family of someone who&#8217;s died&#8221; while past presidents didn&#8217;t place such calls.</p>
+  <p>But The Associated Press found relatives of two soldiers who died overseas during Trump&#8217;s presidency who said they never received a call or a letter from him, as well as relatives of a third who did not get a call. And proof is plentiful that Barack Obama and George W. Bush — saddled with far more combat casualties than the roughly two dozen so far under Trump, took painstaking steps to write, call or meet bereaved military families.</p>
+  <p>The subject arose because nearly two weeks passed before Trump called the families of four U.S. soldiers who were killed in Niger nearly two weeks ago. He made the calls Tuesday.</p>
+  <p><a href="http://www.pbs.org/newshour/bb/trump-ignites-furor-claim-past-presidents-didnt-console-military-families-phone/"><strong>READ MORE: Trump ignites furor with claim past presidents didn’t console military families by phone</strong></a></p>
+  <p>Meanwhile, Rep. Frederica Wilson said late Tuesday that Trump told the widow of a slain soldier that he &#8220;knew what he signed up for.&#8221; Early Wednesday, the president called Wilson&#8217;s version of the conversation a fabrication.</p>
+  <p>The Florida Democrat said she was in the car with Myeshia Johnson on the way to Miami International Airport to meet the body of Johnson&#8217;s husband, Sgt. La David Johnson, when Trump called. Wilson says she heard part of the conversation on speakerphone.</p>
+  <p>When asked by Miami station WPLG if she indeed heard Trump say that she answered: &#8220;Yeah, he said that. To me, that is something that you can say in a conversation, but you shouldn&#8217;t say that to a grieving widow.&#8221; She added: &#8220;That&#8217;s so insensitive.&#8221;</p>
+  <p>Trump took strong issue with that recounting early Wednesday.</p>
+  <p>&#8220;Democrat Congresswoman totally fabricated what I said to the wife of a soldier who died in action (and I have proof). Sad!&#8221; he said on Twitter.</p>
+  <p>Sgt. Johnson was among four servicemen killed in the Niger ambush.</p>
+  <p>Wilson said that she didn&#8217;t hear the entire conversation and Myeshia Johnson told her she couldn&#8217;t remember everything that was said.</p>
+  <p>The White House didn&#8217;t immediately comment.</p>
+  <p><a href="http://www.pbs.org/newshour/rundown/trumps-claim-predecessors-fallen-troops-disputed/"><strong>READ MORE: Trump’s claim about predecessors, fallen troops disputed</strong></a></p>
+  <p>Trump&#8217;s delay in publicly discussing the men lost at Niger did not appear to be extraordinary, judging from past examples, but his politicization of the matter is. He went so far Tuesday as to cite the death of chief of staff John Kelly&#8217;s son in Afghanistan to question whether Obama had properly honored the war dead.</p>
+  <p>Kelly was a Marine general under Obama when his Marine son Robert died in 2010. &#8220;You could ask General Kelly, did he get a call from Obama?&#8221; Trump said on Fox News radio.</p>
+  <p>Democrats and some former government officials were livid, accusing Trump of &#8220;inane cruelty&#8221; and a &#8220;sick game.&#8221;</p>
+  <p>Democratic Sen. Tammy Duckworth of Illinois, an Iraq veteran who lost both legs when her helicopter was attacked, said: &#8220;I just wish that this commander in chief would stop using Gold Star families as pawns in whatever sick game he&#8217;s trying to play here.&#8221;</p>
+  <p>For their part, Gold Star families, which have lost members in wartime, told AP of acts of intimate kindness from Obama and Bush when those commanders in chief consoled them.</p>
+  <p>Trump initially claimed that only he among presidents made sure to call families. Obama may have done so on occasion, he said, but &#8220;other presidents did not call.&#8221;</p>
+  <p>He equivocated Tuesday as the record made plain that his characterization was false. &#8220;I don&#8217;t know,&#8221; he said of past calls. But he said his own practice was to call all families of the war dead.</p>
+  <p>But that hasn&#8217;t happened:</p>
+  <p>No White House protocol demands that presidents speak or meet with the families of Americans killed in action — an impossible task in a war&#8217;s bloodiest stages. But they often do.</p>
+  <p>Altogether some 6,900 Americans have been killed in overseas wars since the Sept. 11, 2001, attacks, the overwhelming majority under Bush and Obama.</p>
+  <p>Despite the much heavier toll on his watch — more than 800 dead each year from 2004 through 2007 — Bush wrote to all bereaved military families and met or spoke with hundreds if not thousands, said his spokesman, Freddy Ford.</p>
+  <p>Veterans groups said they had no quarrel with how presidents have recognized the fallen or their families.</p>
+  <p>&#8220;I don&#8217;t think there is any president I know of who hasn&#8217;t called families,&#8221; said Rick Weidman, co-founder and executive director of Vietnam Veterans of America. &#8220;President Obama called often and President Bush called often. They also made regular visits to Walter Reed and Bethesda Medical Center, going in the evenings and on Saturdays.&#8221;</p>
+  <p>___</p>
+  <p><em>Bynum reported from Savannah, Georgia. Jonathan Drew in Raleigh, North Carolina, Kristen de Groot in Philadelphia, Jennifer McDermott in Providence, Rhode Island, Michelle Price in Salt Lake City, and Hope Yen and Robert Burns in Washington contributed to this report.</em></p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/trump-new-politics-honoring-war-dead/">Trump and the new politics of honoring war dead</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=230989
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general24
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- summary
+- entry_id
+- comments
+- content
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/rundown/trump-new-politics-honoring-war-dead/#respond
+content: |
+  <div id="attachment_230988" class="wp-caption alignnone" style="width: 689px"></div>
+  <p>WASHINGTON — After her Army son died in an armored vehicle rollover in Syria in May, Sheila Murphy says, she got no call or letter from President Donald Trump, even as she waited months for his condolences, wrote to him to say &#8220;some days I don&#8217;t want to live,&#8221; and still heard nothing.</p>
+  <p>In contrast, Trump called to comfort Eddie and Aldene Lee about 10 days after their Army son was killed in an explosion while on patrol in Iraq in April. &#8220;Lovely young man,&#8221; Trump said, according to Aldene. She thought that was a beautiful word to hear about her boy, &#8220;lovely.&#8221;</p>
+  <p>Like presidents before him, Trump has made personal contact with some families of the fallen, not all. What&#8217;s different is that Trump, alone among them, has picked a political fight over who&#8217;s done better to honor the war dead and their families.</p>
+  <p>He placed himself at the top of this pantheon, boasting Tuesday that &#8220;I think I&#8217;ve called every family of someone who&#8217;s died&#8221; while past presidents didn&#8217;t place such calls.</p>
+  <p>But The Associated Press found relatives of two soldiers who died overseas during Trump&#8217;s presidency who said they never received a call or a letter from him, as well as relatives of a third who did not get a call. And proof is plentiful that Barack Obama and George W. Bush — saddled with far more combat casualties than the roughly two dozen so far under Trump, took painstaking steps to write, call or meet bereaved military families.</p>
+  <p>The subject arose because nearly two weeks passed before Trump called the families of four U.S. soldiers who were killed in Niger nearly two weeks ago. He made the calls Tuesday.</p>
+  <p><a href="http://www.pbs.org/newshour/bb/trump-ignites-furor-claim-past-presidents-didnt-console-military-families-phone/"><strong>READ MORE: Trump ignites furor with claim past presidents didn’t console military families by phone</strong></a></p>
+  <p>Meanwhile, Rep. Frederica Wilson said late Tuesday that Trump told the widow of a slain soldier that he &#8220;knew what he signed up for.&#8221; Early Wednesday, the president called Wilson&#8217;s version of the conversation a fabrication.</p>
+  <p>The Florida Democrat said she was in the car with Myeshia Johnson on the way to Miami International Airport to meet the body of Johnson&#8217;s husband, Sgt. La David Johnson, when Trump called. Wilson says she heard part of the conversation on speakerphone.</p>
+  <p>When asked by Miami station WPLG if she indeed heard Trump say that she answered: &#8220;Yeah, he said that. To me, that is something that you can say in a conversation, but you shouldn&#8217;t say that to a grieving widow.&#8221; She added: &#8220;That&#8217;s so insensitive.&#8221;</p>
+  <p>Trump took strong issue with that recounting early Wednesday.</p>
+  <p>&#8220;Democrat Congresswoman totally fabricated what I said to the wife of a soldier who died in action (and I have proof). Sad!&#8221; he said on Twitter.</p>
+  <p>Sgt. Johnson was among four servicemen killed in the Niger ambush.</p>
+  <p>Wilson said that she didn&#8217;t hear the entire conversation and Myeshia Johnson told her she couldn&#8217;t remember everything that was said.</p>
+  <p>The White House didn&#8217;t immediately comment.</p>
+  <p><a href="http://www.pbs.org/newshour/rundown/trumps-claim-predecessors-fallen-troops-disputed/"><strong>READ MORE: Trump’s claim about predecessors, fallen troops disputed</strong></a></p>
+  <p>Trump&#8217;s delay in publicly discussing the men lost at Niger did not appear to be extraordinary, judging from past examples, but his politicization of the matter is. He went so far Tuesday as to cite the death of chief of staff John Kelly&#8217;s son in Afghanistan to question whether Obama had properly honored the war dead.</p>
+  <p>Kelly was a Marine general under Obama when his Marine son Robert died in 2010. &#8220;You could ask General Kelly, did he get a call from Obama?&#8221; Trump said on Fox News radio.</p>
+  <p>Democrats and some former government officials were livid, accusing Trump of &#8220;inane cruelty&#8221; and a &#8220;sick game.&#8221;</p>
+  <p>Democratic Sen. Tammy Duckworth of Illinois, an Iraq veteran who lost both legs when her helicopter was attacked, said: &#8220;I just wish that this commander in chief would stop using Gold Star families as pawns in whatever sick game he&#8217;s trying to play here.&#8221;</p>
+  <p>For their part, Gold Star families, which have lost members in wartime, told AP of acts of intimate kindness from Obama and Bush when those commanders in chief consoled them.</p>
+  <p>Trump initially claimed that only he among presidents made sure to call families. Obama may have done so on occasion, he said, but &#8220;other presidents did not call.&#8221;</p>
+  <p>He equivocated Tuesday as the record made plain that his characterization was false. &#8220;I don&#8217;t know,&#8221; he said of past calls. But he said his own practice was to call all families of the war dead.</p>
+  <p>But that hasn&#8217;t happened:</p>
+  <p>No White House protocol demands that presidents speak or meet with the families of Americans killed in action — an impossible task in a war&#8217;s bloodiest stages. But they often do.</p>
+  <p>Altogether some 6,900 Americans have been killed in overseas wars since the Sept. 11, 2001, attacks, the overwhelming majority under Bush and Obama.</p>
+  <p>Despite the much heavier toll on his watch — more than 800 dead each year from 2004 through 2007 — Bush wrote to all bereaved military families and met or spoke with hundreds if not thousands, said his spokesman, Freddy Ford.</p>
+  <p>Veterans groups said they had no quarrel with how presidents have recognized the fallen or their families.</p>
+  <p>&#8220;I don&#8217;t think there is any president I know of who hasn&#8217;t called families,&#8221; said Rick Weidman, co-founder and executive director of Vietnam Veterans of America. &#8220;President Obama called often and President Bush called often. They also made regular visits to Walter Reed and Bethesda Medical Center, going in the evenings and on Saturdays.&#8221;</p>
+  <p>___</p>
+  <p><em>Bynum reported from Savannah, Georgia. Jonathan Drew in Raleigh, North Carolina, Kristen de Groot in Philadelphia, Jennifer McDermott in Providence, Rhode Island, Michelle Price in Salt Lake City, and Hope Yen and Robert Burns in Washington contributed to this report.</em></p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/trump-new-politics-honoring-war-dead/">Trump and the new politics of honoring war dead</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: WASHINGTON — After her Army son died in an armored vehicle rollover
+  in Syria in May, Sheila Murphy says, she got no call or letter from President Donald
+  Trump, even as she waited months for his condolences, wrote to him to say "some
+  days I don't want to live," and still heard nothing.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTXML49-1024x619.jpg

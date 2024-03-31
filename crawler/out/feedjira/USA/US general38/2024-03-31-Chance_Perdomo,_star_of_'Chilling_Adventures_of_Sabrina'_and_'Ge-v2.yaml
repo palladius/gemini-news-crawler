@@ -1,0 +1,87 @@
+# [NewsFiler v2] NewsPaper: US general38 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.foxnews.com/entertainment/chance-perdomo-star-chilling-adventures-sabrina-gen-v-dead-27
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Chance Perdomo, star of 'Chilling Adventures of Sabrina' and 'Gen V', dead
+  at 27
+url: https://www.foxnews.com/entertainment/chance-perdomo-star-chilling-adventures-sabrina-gen-v-dead-27
+summary: "&quot;Chilling Adventures of Sabrina&quot; and &quot;Gen V&quot; star Chancer
+  Perdomo has died at the age of 27 after a motorcycle accident."
+categories:
+- 8e077072-d6db-503e-92f3-ad823fcbba85
+- fnc
+- Fox News
+- fox-news/entertainment/events/departed
+- fox-news/entertainment
+- fox-news/entertainment/tv
+- fox-news/entertainment/movies
+- fox-news/entertainment
+- article
+published: 2024-03-31 04:06:57.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://www.foxnews.com/entertainment/chance-perdomo-star-chilling-adventures-sabrina-gen-v-dead-27
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general38
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>Chance Perdomo, who starred in <a href="https://www.foxnews.com/entertainment/netflix-series-chilling-adventures-of-sabrina-shocks-with-underage-orgy-scene"
+  target="_blank" rel="noopener">"Chilling Adventures of Sabrina"</a> and "Gen V,"
+  has died. He was 27.</p><p>In a statement to Fox News Digital on Saturday, a representative
+  for the actor confirmed that he died in a motorcycle accident.</p><p>"On behalf
+  of the family and his representatives, it is with heavy hearts that we share the
+  news of Chance Perdomo’s untimely passing as a result of a motorcycle accident,"
+  the statement read. </p><p>"Authorities have advised that no other individuals were
+  involved," it continued. </p><p>"His passion for the arts and insatiable appetite
+  for life was felt by all who knew him, and his warmth will carry on in those who
+  he loved dearest. We ask to please respect the family's wish for privacy as they
+  mourn the loss of their beloved son and brother."</p><p>No other details about the
+  accident were immediately available. </p><p>Perdomo most recently played Andre Anderson
+  on the first season of "Gen V," the college-centric spin-off of Amazon Prime’s hit
+  series <a href="https://www.foxnews.com/media/meg-ryan-slams-nepo-baby-label-regarding-her-son-boys-star-jack-quaid-jack-really-talented"
+  target="_blank" rel="noopener">"The Boys," </a>set in a universe where superheroes
+  are celebrities — and behave as badly as the most notorious. </p><p>His character
+  was a student at Godolkin University, founded by the sinisterly omnipresent Vought
+  International corporation, where "supes" train; his power involved the manipulation
+  of metal.</p><p>.<a href="https://www.foxnews.com/entertainment" target="_blank"
+  rel="noopener"><strong><u>LIKE WHAT YOU’RE READING? CLICK HERE FOR MORE ENTERTAINMENT
+  NEWS</u></strong></a></p><p>Perdomo starred alongside Jaz Sinclair, Lizze Broadway,
+  Maddie Phillips, London Thor, Derek Luh, Shelley Conn and Asa Germann in the series,
+  which premiered last September. According to Deadline, production on season two
+  <a href="https://www.foxnews.com/category/entertainment/tv" target="_blank" rel="noopener">of
+  "Gen V" </a>will be postponed following Perdomo's passing.</p><p>In a statement
+  to People Magazine, the producers of "Gen V" said, "We can’t quite wrap our heads
+  around this. For those of us who knew him and worked with him, Chance was always
+  charming and smiling, an enthusiastic force of nature, an incredibly talented performer,
+  and more than anything else, just a very kind, lovely person."</p><p><a href="https://www.foxnews.com/newsletters"
+  target="_blank" rel="noopener"><strong><u>CLICK HERE TO SIGN UP FOR THE ENTERTAINMENT
+  NEWSLETTER</u></strong></a></p><p>"Even writing about him in the past tense doesn’t
+  make sense. We are so sorry for Chance’s family, and we are grieving the loss of
+  our friend and colleague," the continued. "Hug your loved ones tonight."</p><p>Representatives
+  for Amazon MGM Studios and Sony Pictures Television shared a statement to People,
+  writing, "The entire Gen V family is devastated by the sudden passing of Chance
+  Perdomo."</p><p>"Amazon MGM Studios and Sony Pictures Television extend our heartfelt
+  thoughts and support to Chance's family and all who loved him at this difficult
+  time."</p><p>From 2018 to 2020, Perdomo starred as Ambrose Spellman, the cousin
+  and sidekick of series lead Sabrina Spellman (Kiernan Shipka) in the Netflix supernatural
+  horror series "Chilling Adventures of Sabrina." He played Landon in the last three
+  installments of the "After" film series, including "After We Fell," "After Ever
+  Happy" and "After Everything."</p><p>According to Deadline, Perdomo was born in
+  Los Angeles but raised in Southampton, England. Per the outlet, he initially planned
+  to study law but decided to pursue a career in acting instead. Perdomo made his
+  acting debut in a 2017 episode of the hit British children's drama series "Hetty
+  Fetter."</p><p>Perdomo's last project was the upcoming independent movie "Bad Man,"
+  in which he co-starred alongside <a href="https://www.foxnews.com/entertainment/seann-william-scotts-breakout-american-pie-role-only-earned-8000-worked-zoo-after-film"
+  target="_blank" rel="noopener">Seann William Scott,</a> Rob Riggle and Johnny Simmons.
+  According to Deadline, production on the action comedy wrapped in February.</p><p><i>The
+  Associated Press contributed to this report.</i></p>
+image: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/03/931/523/chance.jpg?ve=1&tl=1

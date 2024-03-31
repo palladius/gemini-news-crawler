@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 6606df42b3fbfc980e68b7cb
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'The Trump Stock Bubble: How Long Will It Last?'
+url: https://www.newyorker.com/news/our-columnists/the-trump-stock-bubble-how-long-will-it-last
+summary: On paper, a Wall Street deal to take public the former President’s social-media
+  company has given him a windfall of nearly $4.9 billion. But the stock is grossly
+  overvalued and Trump can’t sell it immediately.
+author: John Cassidy
+categories:
+- News / Our Columnists
+published: 2024-03-29 22:19:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 6606df42b3fbfc980e68b7cb
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/6606df73f3323ebce56da6ef/master/pass/Cassidy-Truth-Social.jpg

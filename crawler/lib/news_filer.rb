@@ -12,19 +12,17 @@ class NewsFiler
     `mkdir -p "#{@output_dir}"`
   end
 
-  def write_article(newspaper, article)
+  def write_article(newspaper, article, macro_region)
     filename = generate_unique_filename(newspaper: newspaper, article: article)
     filepath = File.join(@output_dir, filename)
 
     carlessian_info = {
       'news_filer_version' => VERSION,
       'newspaper' => newspaper.to_s, # if not its a symbol -> ugly
+      'macro_region' => macro_region.to_s,
     }
-    #article.categories << "GNC::Newspapaer::#{newspaper}"
     article['carlessian_info'] = carlessian_info
 
-    #puts article.methods.sort.select{|m| m.match 'set' }.join ','
-    #article.author ||= 'Testing Random author'
 
     File.open(filepath, 'w') do |file|
       #file.write "# Dunno why but its not yamnl..\n"

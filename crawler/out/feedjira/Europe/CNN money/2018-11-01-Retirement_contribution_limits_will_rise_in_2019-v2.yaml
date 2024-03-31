@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: CNN money (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Retirement contribution limits will rise in 2019
+url: http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html?section=money_latest
+summary: 'Good news retirement savers: The Internal Revenue Service announced cost
+  of living increases to the contribution limits for retirement-related plans in 2019.'
+published: 2018-11-01 20:50:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: http://money.cnn.com/2018/11/01/retirement/irs-contributions/index.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: CNN money
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: http://i2.cdn.turner.com/money/dam/assets/170419100856-retirement-gold-120x90.jpg

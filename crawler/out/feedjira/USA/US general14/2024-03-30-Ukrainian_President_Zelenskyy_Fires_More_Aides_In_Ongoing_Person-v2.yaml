@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general14 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "comments", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Ukrainian President Zelenskyy Fires More Aides In Ongoing Personnel Shakeup
+url: https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85
+summary: No explanation was given immediately for the latest changes in a wide-reaching
+  personnel shakeup over recent months.
+published: 2024-03-30 12:33:40.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general14
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- comments
+- content
+comments: https://www.huffpost.com/entry/ukrainian-president-zelenskyy-fires-more-aides-in-ongoing-personnel-shakeup_n_660804a9e4b06d4ea5c61b85#comments
+content: "\n        No explanation was given immediately for the latest changes in
+  a wide-reaching personnel shakeup over recent months.\n      "

@@ -9,11 +9,18 @@ raise "doesnt seem a dir: #{dir}" unless Dir.exist?(dir)
 def parse_feedjira_from_yaml(jira_feed, file)
   o = jira_feed # less characters :)
 
+  unsafe_feed = YAML.unsafe_load(o.to_yaml) # ["carlessian_info"]
+  if unsafe_feed['carlessian_info']
+    puts("🧡 Carlessian info unmarhsalled! WoOOT! #{  unsafe_feed['carlessian_info'] }")
+    newspaper = unsafe_feed['carlessian_info']['newspaper']
+    macro_region = unsafe_feed['carlessian_info']['macro_region']
+  end
+
   Article.create(
     title: o.title,
     categories: o.categories, #   + ['2024-03-31', 'feedjira'],
     summary: o.summary,
-    summary: (o.content rescue '_NoContent_'),
+    content: (o.content rescue '_NoContent_'),
     guid: o.entry_id, # = guid
     author: o.author,
     link: o.url,
@@ -25,6 +32,8 @@ def parse_feedjira_from_yaml(jira_feed, file)
     image_url: o.image,
     ricc_source: 'feedjira::v1',
     hidden_blurb: o.to_yaml,
+    newspaper: newspaper,
+    macro_region: macro_region,
   )
 end
 
@@ -39,13 +48,17 @@ Dir[File.join(File.dirname(__FILE__), FeedJiraSubdir, '**', '*.yaml')].each_with
         Feedjira::Parser::RSSEntry,
         Time,
         Feedjira::Parser::GloballyUniqueIdentifier,
+        Feedjira::Parser::ITunesRSSItem,
     ]
   )
-  if obj.is_a?(Feedjira::Parser::RSSEntry)
-    parse_feedjira_from_yaml(obj, file)
-  else
-    # TODO make this a case/switch when more than 1
-    raise "Unknown/unparsable object: #{obj.class}"
+ # case obj.class
+    #when Feedjira::Parser::RSSEntry
+  if obj.is_a?(Feedjira::Parser::RSSEntry) or obj.is_a?(Feedjira::Parser::ITunesRSSItem)
+      parse_feedjira_from_yaml(obj, file)
+      #break
+    else
+      # TODO make this a case/switch when more than 1
+      raise "Riccardo, Unknown/unparsable object: #{obj.class}"
   end
 
 end

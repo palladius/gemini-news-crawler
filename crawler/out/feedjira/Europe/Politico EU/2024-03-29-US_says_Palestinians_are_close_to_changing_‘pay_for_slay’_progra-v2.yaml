@@ -1,0 +1,144 @@
+# [NewsFiler v2] NewsPaper: Politico EU (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.politico.eu/?post_type=article&p=4519299
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: US says Palestinians are close to changing ‘pay for slay’ program
+url: https://www.politico.com/news/2024/03/29/us-says-palestinians-are-close-to-changing-pay-for-slay-program-00149734?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication
+summary: The Biden administration has some two dozen proposals to reform a much-reviled
+  institution it hopes will run postwar Gaza.
+author: Nahal Toosi
+categories:
+- Americas
+- Corruption
+- Elections
+- Israel-Hamas war
+- Middle East
+- Payments
+- Security
+- Terrorism
+- War
+- Foreign Affairs
+published: 2024-03-29 17:42:14.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.politico.eu/?post_type=article&p=4519299
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Politico EU
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+content: |2
+
+  <p>The U.S. is near a deal with the Palestinian Authority to end its contentious “martyr payments” for people who commit acts of violence against Israel, two Biden administration officials said.</p>
+
+
+
+  <p>That would be a key win for the multifaceted U.S. push to reform the PA — from instituting anti-corruption measures to improving basic services — so that it can take over governance of the Gaza Strip whenever the Israel-Hamas war ends.</p>
+
+
+
+  <p>The PA oversees parts of the West Bank, and it is seen by the Biden administration as the best option for governing Gaza in the future. But the PA is reviled by many Palestinians, as well as Israelis and Arab leaders, who see it as corrupt, inefficient and out of touch.<a rel="noreferrer noopener" href="https://eb2.3lift.com/pass?tl_clickthrough=true&amp;redir=https%3A%2F%2Frtb-us-east.linkedin.com%2Flax%2Fclk%3Ftrk%3DCwEAAAGOi0eLlL1Nahm2WOdHEeVb7C84728IbdT8qKRt6AcK4wnKvUbX2QFwV5GpWaeHgvX4UeacwYAAizDOUGIjwOYaGpWtXnwlbSEUx2VKtgZvhELN7KueHjbCe2_8E0b5_T1wyGj-6uTPbtdPuZnW5DPdTWlpzuYXjEoqkWRx0ju9lo2TI9ZcQJ-3CHdcOLj2dnKSmQrI7ASG0M-WLUevCrohGSRNm3POtRMLaTTm9IR9bDzBVTZR89qkRDpCNiwtSwIkUfMn3OscfrKzKSekHwTiI6Yza1L_KFiqtkl8nVB7r56y0Ht3TvMVFRwTPjg6_6lB5THOKbcD-zS6RknhNCp_qDJgVaodS_h72Ga4bGa2q4EIOLF-rYfdmLWpL0FoPa3xI1yQ5ibdp3lcmQhSV5Dw6vPffxS5UK7QkJ8i8ndOGftXsXMKMb9Wya_c5vEyqFR9iSAkSv5gzUrKeA7qq3U6bYPfB1_BLsMw4z_C3-DT-FO5mwWYlzLz20yaSkXTpaWnZ8E6FvCgiOggbVI5EaB6-oLypeW8ISE42zxO9kIRNWb15mCpq1nKfKyEKHDl90m1LlGMm8GbKtfDSaEg9Ky_b5-UcCqtQf4sMwz4WR3x6hsVm454yvo1CJPgRPTDWIBGrIrSkkbeVYkYsFGQIDlt1NfC_JG2miPMukCuQUxU_cXkb-FwpOC7OC1SjHotFwcVbstNI91iULfY8SdYbE72CXmrc6NKd7P9ZleMV93riCvznMm1dZk5Ov3Jj7D3xgtHIvcx8ZIP6JQ1iw1f0FElQYzor0VKUzT7QthAEHHd777nRwZJF8O2-IKM8j7ZSJBSzLWUI-u3kG3P-jaJrzFc1FnfaC9ptumT9x9PpqDw4O7tp3YxLvJwDnA2TKioa4j-lJdKg5yJIQZQcdC4YCLGTvEn5DsI9Wpvw5M6icCgnYS2TwNHyezo9AboaUzxiwE6BKhLjzZcyKx5pJH7ZS-xPeEqXFyMUzy25GPp7BwhPc27dWIUEr6lFgwfJbSt96kAd1WEe7VjehwDyLq_0YWfH5tScD33hJ4x--Z9GzOm1oindASMLSxa2GfQEhYFkWbp1exlpJdwrKN-9_2uP9EqsnEE9BS07vUa0VWvFamSyXa8d8JskutVgmrYo7sK3Ka1yWCR-BoYhCUtnn0xlNACylYHIh2ZjIkmK_vRilvJ3m4cKcLN6kPtLtoM-5vyg4IBUCoLYvMqtxB2i_E57n3IUmTJv3Y4rDXGNGl5dlB1JojqR0ztWZMf30l3Pg1Ddcbm5dbZeaPtGrTBVl3NMkjNRI5l48OzU7MzHNbu89uvyGH6NYQgdwlDBfhgiHP0ir8P2XLVMkUfp3B28CjAFf_HeapO_-ssO0Nmv1cTw7OqY0Lf39U5sxcxhTVeqKHZAJnl_jzHOSJNHEykd9CeIH_8WQ2pdfiyIIl7WOMBD6XWCxxaXdsd-m5CyM0L1tbB88r1Z9x2bnY-63Y5mlLRbbHJ7ILPOgPnOKOc2Gb3kKWWwm8cNpvZnnQbZnh9aQpdqSGT9sKm1-yDnG0wDk87ifOfKl8QR1RhWpCU9vrkCrDDzjotxO0YMfC8HljdFRR36XUsti1rA7q8gUBn7-q3MDkD-No1_TiB7Sqsri_G6glsT3xNPaHxDLs%26action%3Dclick%26laxrid%3D29a24ba8-cf81-461d-b6d2-17f22a0224cb%26laxbid%3D2%26eid%3D3%26crtype%3Dvid%26laxerid%3D3823221105984736853101-289%26adfmt%3D6%26wp%3D%24%7BTL_AUCTION_PRICE%7D%26urle%3DCwEAAAGOi0eLmQ63fzmVuZ94-xrn4vN1F2tg1f01WYfKMedRpRItX3Qg6xc4wN-ppws_aQxc_jYokKyEgXTqBQokjlD0R6qLOg6zrVlv3n3uZqGOg-XOCGPrcs_2ou6gfzldvOI99fIlJIuF3Q%26urlhash%3D87j6&amp;pr=0.413&amp;bc=1.049&amp;aid=38232211059847368531011&amp;bmid=6250&amp;biid=7777&amp;sid=66552&amp;brid=556676&amp;adid=382733584&amp;crid=232100109&amp;ts=1711733705&amp;bcud=1049&amp;ss=12&amp;cb=14763" target="_blank"></a></p>
+
+
+
+  <p>The “martyr payments” program&nbsp;<a href="https://israelpolicyforum.org/2021/04/02/palestinian-prisoner-and-martyr-payments-explained/" target="_blank" rel="noreferrer noopener">financially supports Palestinians and their families if they are wounded, imprisoned or killed while carrying out acts of violence</a>&nbsp;against Israel. It has long infuriated Israelis who say it incentivizes terrorism and call it “pay for slay.” Many Palestinians say it provides crucial support for people standing up to an oppressive Israeli occupation.</p>
+
+
+
+  <p>Drafts of the PA payments reform plans seen by U.S. officials indicate that Palestinian leaders will replace the current scheme with a general welfare program. Further specifics were not immediately available.</p>
+
+
+
+  <p>“There’s been a great deal of work on this behind the scenes, and the progress is encouraging,” a senior Biden administration official said. Another administration official confirmed changes to the system were expected soon. That said, as with all things involving Israel and the Palestinians, new roadblocks could emerge.</p>
+
+
+
+  <p>The officials, and others in this story, were granted anonymity to discuss sensitive topics candidly.</p>
+
+
+
+  <p>The White House and the State Department declined to comment. A spokesperson for the PA did not respond to a request for comment.</p>
+
+
+
+  <p>The push for specific reforms has been complicated by the question of whether the leadership of the Palestinian Authority is willing or capable of making changes. The PA’s overall leader, 88-year-old President Mahmoud Abbas, seems unwilling to exit the scene and has not held elections in nearly two decades, frustrating many Palestinians.</p>
+
+
+
+  <p>But Abbas is taking some steps that have encouraged U.S. negotiators. He recently tapped a new prime minister, Mohammad Mustafa, partly in response to U.S. demands for fresh leadership.</p>
+
+
+
+  <p>On Thursday, Abbas unveiled a new Cabinet. Most of the incoming names are&nbsp;<a href="https://www.timesofisrael.com/pas-abbas-announces-new-cabinet-with-little-known-figures-taking-key-roles/" target="_blank" rel="noreferrer noopener">little-known figures</a>, though some are believed to have ties to Gaza.</p>
+
+
+
+  <p>The broader U.S. reform plan for the PA consists of roughly two dozen proposals, according to a person familiar with the issue.</p>
+
+
+
+  <p>Some are long-standing requests, such as creating a new anti-corruption mechanism. Others are more mundane but still important, such as changes to how retirees are paid and ways to save money on their health care referral system. The U.S. also intends to help train Palestinian security forces to operate in Gaza as part of a longer-term stabilization effort.</p>
+
+
+
+  <p>Two U.S. officials familiar with the Middle East file confirmed the existence of the broader plan and some of the details. The plan is not static, nor is it a diktat to the Palestinians, the person familiar with the issue said. In many ways, its proposals are the result of years of thinking and conversations.</p>
+
+
+
+  <p>Although in the immediate aftermath of the war, which broke out on Oct. 7, Abbas dismissed the notion of PA rule in Gaza, he appears more open to the idea now. The PA previously governed in Gaza until being pushed out by Hamas militants in 2007.</p>
+
+
+
+  <p>Still, some of Abbas’ decisions so far aren’t bold enough for some American officials.</p>
+
+
+
+  <p>The new prime minister, Mustafa, is U.S.-educated, has worked at the World Bank and is considered a technocrat. But he’s also seen as close to Abbas, and&nbsp;<a href="https://foreignpolicy.com/2015/04/01/palestine-abbas-mohammed-mustfafa-resignation/" target="_blank" rel="noreferrer noopener">there are questions about his role in past alleged PA corruption</a>.</p>
+
+
+
+  <p>Some members of the Biden administration, particularly in the State Department, expressed reservations about the choice, as did some former U.S. officials.</p>
+
+
+
+  <p>“Mohammad Mustafa is not someone who sends a message of reform,” said Dennis Ross, a former U.S. diplomat who spent years negotiating various Middle East peace deals.</p>
+
+
+
+  <p>But others at State, as well as top Middle East hands at the White House National Security Council, said it wasn’t worth having a dust-up with Abbas over Mustafa. They also argued that the U.S. should avoid looking as if it is imposing a leader on the Palestinians.</p>
+
+
+
+  <p>“We do think Mustafa is a serious technocrat. He’s not ideal, but he can be a big upgrade” over the prime minister who recently resigned, Mohammad Shtayyeh, one of the U.S. officials familiar with the Middle East file said.</p>
+
+
+
+  <p>U.S. leverage over the PA is limited, not least because America’s financial support for the institution is far less than it once was.</p>
+
+
+
+  <p>But the war in Gaza has damaged the West Bank’s economy, partly because Israel has tried to curb the PA’s access to funds, and that added weakness may be making the PA more open to Washington’s ideas.</p>
+
+
+
+  <p>Israeli Prime Minister Benjamin Netanyahu opposes a PA role in Gaza, despite U.S. insistence that there’s no other institution that could take on the job if Israel doesn’t want to occupy the densely populated territory.</p>
+
+
+
+  <p>Netanyahu has often said the PA is little different from Hamas, and that it fosters hate against Israelis. But Netanyahu’s own political future is cloudy given Israeli fury over the security failure that allowed Hamas militants to attack Israel on Oct. 7, killing 1,200 people and abducting around 240 others.</p>
+
+
+
+  <p>Another factor Abbas, Mustafa and others in the PA are weighing is the support of Arab states. Many Arab leaders agree with ordinary Palestinians that the PA doesn’t represent the desires of the people it supposedly serves and is poorly run.</p>
+
+
+
+  <p>“The powers that be in the region can’t see themselves engaging in a serious way absent Palestinian Authority reform,” a third U.S. official familiar with Middle East issues said.</p>

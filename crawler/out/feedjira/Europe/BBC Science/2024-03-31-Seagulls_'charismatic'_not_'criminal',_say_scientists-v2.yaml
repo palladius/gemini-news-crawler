@@ -13,6 +13,7 @@ entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
 carlessian_info:
   news_filer_version: 2
   newspaper: BBC Science
+  macro_region: Europe
 rss_fields:
 - title
 - url

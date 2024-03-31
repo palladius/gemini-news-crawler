@@ -1,0 +1,51 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=230911
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "summary", "entry_id", "comments", "content", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'WATCH: Trump and Greek prime minister hold joint news conference'
+url: http://www.pbs.org/newshour/rundown/watch-live-trump-and-greek-prime-minister-hold-joint-press-conference/
+author: Larisa Epatko
+categories:
+- Alexis Tsipras
+- Donald Trump
+- Greece
+published: 2017-10-17 16:28:24.000000000 Z
+summary: |
+  <p><iframe class='youtube-player' type='text/html' width='689' height='418' src='http://www.youtube.com/embed/Jdv4S77uEh0?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe><br />
+  <em>Watch President Donald Trump and the Greek prime minister&#8217;s joint news conference in the player above.</em></p>
+  <p>WASHINGTON — President Donald Trump says the U.S. stands with Greece as they recover from their economic crisis. He is speaking with Prime Minister Alexis Tsipras at the White House in a joint news conference.</p>
+  <p>The U.S. president says the two leaders have discussed defense, energy, commerce and trade.</p>
+  <p>Trump is praising Greece for its defense spending under NATO and is noting a potential sale to Greece to upgrade its F-16 aircraft, which he says would be worth up to $2.4 billion and generate thousands of U.S. jobs.</p>
+  <p>Tsipras says his country has made economic strides and is &#8220;leaving behind the economic model that led to the crisis.&#8221; He says Greece&#8217;s relationship with the U.S. is &#8220;more important than ever.&#8221;</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/watch-live-trump-and-greek-prime-minister-hold-joint-press-conference/">WATCH: Trump and Greek prime minister hold joint news conference</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=230911
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- summary
+- entry_id
+- comments
+- content
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/rundown/watch-live-trump-and-greek-prime-minister-hold-joint-press-conference/#respond
+content: |
+  <p><iframe class='youtube-player' type='text/html' width='689' height='418' src='http://www.youtube.com/embed/Jdv4S77uEh0?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe><br />
+  <em>Watch President Donald Trump and the Greek prime minister&#8217;s joint news conference in the player above.</em></p>
+  <p>WASHINGTON — President Donald Trump says the U.S. stands with Greece as they recover from their economic crisis. He is speaking with Prime Minister Alexis Tsipras at the White House in a joint news conference.</p>
+  <p>The U.S. president says the two leaders have discussed defense, energy, commerce and trade.</p>
+  <p>Trump is praising Greece for its defense spending under NATO and is noting a potential sale to Greece to upgrade its F-16 aircraft, which he says would be worth up to $2.4 billion and generate thousands of U.S. jobs.</p>
+  <p>Tsipras says his country has made economic strides and is &#8220;leaving behind the economic model that led to the crisis.&#8221; He says Greece&#8217;s relationship with the U.S. is &#8220;more important than ever.&#8221;</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/watch-live-trump-and-greek-prime-minister-hold-joint-press-conference/">WATCH: Trump and Greek prime minister hold joint news conference</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: President Donald Trump says the U.S. stands with Greece as they recover
+  from their economic crisis.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS17ORR-1024x683.jpg

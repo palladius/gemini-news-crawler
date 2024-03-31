@@ -1,0 +1,102 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=231043
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Xi Jinping celebrates China’s rising power — and his own
+url: http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/
+author: PBS NewsHour
+categories:
+- china
+- Communist Party of China
+- Xi Jinping
+published: 2017-10-18 22:35:21.000000000 Z
+enclosure_length: '8000000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_XiJinpingcelebrates.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1G5ZZ-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005812297/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_XiJinpingcelebrates.mp3">Listen to the Audio</a></p><p><strong>HARI SREENIVASAN:</strong> President Xi Jinping opened China&#8217;s twice-per-decade Communist Party Congress today with a lengthy list of his achievements during his first five-year term, and his vision of where he hopes to take his nation.</p>
+  <p>But beyond the words, Xi is asserting power like no Chinese leader in decades.</p>
+  <p>William Brangham reports.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> The applause, the music, it was a reception befitting the commanding role that Xi Jinping has taken since being named party leader five years ago.</p>
+  <p>He opened today&#8217;s proceedings by hailing reforms he&#8217;s put in place, and proclaiming a &#8212; quote &#8212; &#8220;new era for China.&#8221;</p>
+  <p><strong>PRESIDENT XI JINPING,</strong> China (through interpreter): The Chinese nation has realized a great leap, from declining in modern history to twisting its fate fundamentally and continuously moving to prosperity.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Over 3.5 hours, Xi laid out his vision to shape the nation of 1.4 billion people into what he called a &#8212; quote &#8212; &#8220;great modern socialist country&#8221; over the next three decades.</p>
+  <p><strong>PRESIDENT XI JINPING</strong> (through interpreter): Achieving the great rejuvenation of the Chinese nation will be no walk in the park, and it will take more than drumbeating and gong-clanging to get there. The whole party must be prepared to make more arduous, strenuous efforts.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Susan Shirk is chair of the 21st Century China Center at the University of California, San Diego.</p>
+  <p><strong>SUSAN SHIRK,</strong> University of California, San Diego: Xi Jinping has a vision of China&#8217;s role in the world that is much more ambitious than anything we have seen before, talking about China kind of moving toward the center of the world and having a lot more influence than it did before.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> In his address, Xi largely ignored the question of political reforms in China, and he didn&#8217;t mention President Trump or North Korea&#8217;s nuclear weapons program.</p>
+  <p>But in a rare move, he did acknowledge that with global demand weakening, there were challenges facing China&#8217;s export-driven economy.</p>
+  <p><strong>PRESIDENT XI JINPING</strong> (through interpreter):  While China&#8217;s overall productive forces have significantly improved and in many areas our production capacity leads the world, the more prominent problem is that our development is unbalanced and inadequate.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Xi was one of the first foreign leaders to meet with President Trump.</p>
+  <p><strong>PRESIDENT DONALD TRUMP:</strong> The relationship developed by President Xi and myself, I think, is outstanding.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> That was decidedly warmer than Mr. Trump&#8217;s past criticism of China and its economic and trade policies.</p>
+  <p>But other U.S. officials are more critical of Beijing&#8217;s actions.</p>
+  <p><strong>REX TILLERSON,</strong> Secretary of State: China, while rising alongside India, has done so less responsibly.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Secretary of State Rex Tillerson today criticized China&#8217;s aggressive displays of economic and military power, particularly its expansion on man-made islands in the South China Sea.</p>
+  <p><strong>REX TILLERSON:</strong> We will not shrink from China&#8217;s challenges to the rules-based order, and where China subverts the sovereignty of neighboring countries and disadvantages the U.S. and our friends.</p>
+  <p><strong>SUSAN SHIRK:</strong> I think there are things to worry about in Chinese foreign policy that are mostly related to these maritime sovereignty issues and to a kind of bullying in Asia, but the global ambition could turn out to be positive.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Susan Shirk says China has filled a vacuum left by the United States&#8217; withdrawal from global agreements like the Trans-Pacific Partnership and the Paris climate accords.</p>
+  <p>Perhaps the most important thing to watch for in the next few days is who Xi establishes as his likely successor.</p>
+  <p><strong>SUSAN SHIRK:</strong> That is why there is a lot of speculation now that he may be trying, much like Putin, to stay on beyond his normal term or to rule behind the scenes even after he retires.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> President Trump will be traveling to Beijing to meet Xi next month.</p>
+  <p>For the PBS NewsHour, I&#8217;m William Brangham.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/">Xi Jinping celebrates China&#8217;s rising power &#8212; and his own</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=231043
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005812297/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>HARI SREENIVASAN:</strong> President Xi Jinping opened China&#8217;s twice-per-decade Communist Party Congress today with a lengthy list of his achievements during his first five-year term, and his vision of where he hopes to take his nation.</p>
+  <p>But beyond the words, Xi is asserting power like no Chinese leader in decades.</p>
+  <p>William Brangham reports.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> The applause, the music, it was a reception befitting the commanding role that Xi Jinping has taken since being named party leader five years ago.</p>
+  <p>He opened today&#8217;s proceedings by hailing reforms he&#8217;s put in place, and proclaiming a &#8212; quote &#8212; &#8220;new era for China.&#8221;</p>
+  <p><strong>PRESIDENT XI JINPING,</strong> China (through interpreter): The Chinese nation has realized a great leap, from declining in modern history to twisting its fate fundamentally and continuously moving to prosperity.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Over 3.5 hours, Xi laid out his vision to shape the nation of 1.4 billion people into what he called a &#8212; quote &#8212; &#8220;great modern socialist country&#8221; over the next three decades.</p>
+  <p><strong>PRESIDENT XI JINPING</strong> (through interpreter): Achieving the great rejuvenation of the Chinese nation will be no walk in the park, and it will take more than drumbeating and gong-clanging to get there. The whole party must be prepared to make more arduous, strenuous efforts.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Susan Shirk is chair of the 21st Century China Center at the University of California, San Diego.</p>
+  <p><strong>SUSAN SHIRK,</strong> University of California, San Diego: Xi Jinping has a vision of China&#8217;s role in the world that is much more ambitious than anything we have seen before, talking about China kind of moving toward the center of the world and having a lot more influence than it did before.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> In his address, Xi largely ignored the question of political reforms in China, and he didn&#8217;t mention President Trump or North Korea&#8217;s nuclear weapons program.</p>
+  <p>But in a rare move, he did acknowledge that with global demand weakening, there were challenges facing China&#8217;s export-driven economy.</p>
+  <p><strong>PRESIDENT XI JINPING</strong> (through interpreter):  While China&#8217;s overall productive forces have significantly improved and in many areas our production capacity leads the world, the more prominent problem is that our development is unbalanced and inadequate.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Xi was one of the first foreign leaders to meet with President Trump.</p>
+  <p><strong>PRESIDENT DONALD TRUMP:</strong> The relationship developed by President Xi and myself, I think, is outstanding.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> That was decidedly warmer than Mr. Trump&#8217;s past criticism of China and its economic and trade policies.</p>
+  <p>But other U.S. officials are more critical of Beijing&#8217;s actions.</p>
+  <p><strong>REX TILLERSON,</strong> Secretary of State: China, while rising alongside India, has done so less responsibly.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Secretary of State Rex Tillerson today criticized China&#8217;s aggressive displays of economic and military power, particularly its expansion on man-made islands in the South China Sea.</p>
+  <p><strong>REX TILLERSON:</strong> We will not shrink from China&#8217;s challenges to the rules-based order, and where China subverts the sovereignty of neighboring countries and disadvantages the U.S. and our friends.</p>
+  <p><strong>SUSAN SHIRK:</strong> I think there are things to worry about in Chinese foreign policy that are mostly related to these maritime sovereignty issues and to a kind of bullying in Asia, but the global ambition could turn out to be positive.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> Susan Shirk says China has filled a vacuum left by the United States&#8217; withdrawal from global agreements like the Trans-Pacific Partnership and the Paris climate accords.</p>
+  <p>Perhaps the most important thing to watch for in the next few days is who Xi establishes as his likely successor.</p>
+  <p><strong>SUSAN SHIRK:</strong> That is why there is a lot of speculation now that he may be trying, much like Putin, to stay on beyond his normal term or to rule behind the scenes even after he retires.</p>
+  <p><strong>WILLIAM BRANGHAM:</strong> President Trump will be traveling to Beijing to meet Xi next month.</p>
+  <p>For the PBS NewsHour, I&#8217;m William Brangham.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/xi-jinping-celebrates-chinas-rising-power/">Xi Jinping celebrates China&#8217;s rising power &#8212; and his own</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '4:06'
+itunes_summary: 'President Xi Jinping opened China’s twice-per decade Communist Party
+  Congress on Wednesday hailing the reforms he put in place during his first five-year
+  term and sharing his vision for where he hopes to take the nation. William Brangham
+  reports on the congress as it prepares to announce Xi’s successor and how new leadership
+  may transform China’s role as a global economic partner. '
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1G5ZZ-1024x686.jpg

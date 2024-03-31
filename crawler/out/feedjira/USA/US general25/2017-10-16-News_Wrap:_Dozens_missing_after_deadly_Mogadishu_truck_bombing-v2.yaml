@@ -1,0 +1,85 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=230848
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'News Wrap: Dozens missing after deadly Mogadishu truck bombing'
+url: http://www.pbs.org/newshour/bb/news-wrap-dozens-missing-deadly-mogadishu-truck-bombing/
+author: PBS NewsHour
+categories:
+- al-Shabab
+- Austria
+- Mogadishu
+- Sebastian Kurz
+published: 2017-10-16 22:45:17.000000000 Z
+enclosure_length: '9000000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171016_NewsWrap.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GGFV-1-e1508197063365-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005716050/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171016_NewsWrap.mp3">Listen to the Audio</a></p><p><strong>JUDY WOODRUFF:</strong> And in the day&#8217;s other news: More than 300 people are now confirmed dead after Saturday&#8217;s massive truck bombing in Somalia, one of the world&#8217;s worst attacks in years.</p>
+  <p>Nearly 400 more were wounded. The government blamed the al-Qaida-linked Al-Shabaab group. Rescue crews today searched for survivors at the scene of the bombing, a crowded street in the capital, Mogadishu. With dozens still missing, officials say they expect the death toll to rise.</p>
+  <p><strong>OSMAN LIBAH IBRAHIM,</strong> Deputy Minister for Natural Resources, Somalia (through interpreter): More bodies are gradually being found and removed from the rubble. There are other people who are under the rubble. We have heard them as they scream for help. My biggest worry is that even the wounded are succumbing to their injuries.</p>
+  <p><strong>JUDY WOODRUFF:</strong> The attack happened two days after Somalia&#8217;s defense minister and army chief resigned for undisclosed reasons.</p>
+  <p>There&#8217;s been yet another shift to the right in European politics; 31-year-old conservative Sebastian Kurz, Austria&#8217;s foreign minister, is set to become that country&#8217;s next leader. But he&#8217;s short of a majority in Parliament and will likely form a coalition with the far-right Freedom Party. It was founded by ex-Nazis in the 1950s.</p>
+  <p>Kurz has called for the European Union to focus more on internal trade and securing borders. He celebrated in Vienna.</p>
+  <p><strong>SEBASTIAN KURZ,</strong> Austrian People&#8217;s Party (through interpreter): I have a big request for you. Use today to celebrate. You all have earned it through hard work and dedication. At the same time, I need to tell you that tomorrow the work starts. We didn&#8217;t just run to win the elections. We did so to bring Austria back to the top. We ran in this election to achieve real change.</p>
+  <p><strong>JUDY WOODRUFF:</strong> A final result in the election is likely to be decided on Thursday.</p>
+  <p>Wildfires that broke out over the weekend in Portugal have killed at least 35 people, including a one-month-old infant. Today, more than 5,300 firefighters with some 1,600 vehicles were battling the fires, some of which officials say were started by arsonists. Wildfires have also left at least four people dead in neighboring Spain.</p>
+  <p>Army Sergeant Bowe Bergdahl pleaded guilty today to desertion and misbehavior before the enemy. He was captured by the Taliban in 2009, after leaving his post in Afghanistan. It prompted an intense search and a prisoner swap. Bergdahl appeared before a military judge in Fort Bragg, North Carolina, today. The 31-year-old could be sentenced to life in prison. He said his actions were very inexcusable, adding he didn&#8217;t &#8212; quote &#8212; &#8220;think there&#8217;d be any reason to pull off a crucial mission to look for one guy.&#8221;</p>
+  <p>The truck driver in deadly immigrant smuggling run has pleaded guilty in court. San Antonio police found at least 39 immigrants, 10 of whom died, packed into a sweltering semi-trailer last year and died. The driver, James Matthew Bradley Jr., pleaded to conspiracy and transporting immigrants, resulting in death. He faces now up to life in prison.</p>
+  <p>A New Jersey man has been convicted of planting two pressure-cooker bombs on New York City streets last year. Ahmed Khan Rahimi faces a maximum sentence of life in prison for charges including using a weapon of mass destruction. One of the bombs exploded in Manhattan&#8217;s Chelsea neighborhood, wounding 30. The second didn&#8217;t detonate. Officials said Rahimi was inspired by ISIS and al-Qaida.</p>
+  <p><strong>JOHN MILLER,</strong> Deputy Commissioner, NYPD Intelligence &amp; Counterterrorism: Ahmed Khan Rahimi learned a lesson which we keep reminding people of. This is the wrong place to try and carry out an act of terrorism. Witnesses will come forward, evidence will be developed, arrests will be made, prosecutions will be brought forth, and they will be successful.</p>
+  <p><strong>JUDY WOODRUFF:</strong> Prosecutors said Rahimi also planted a pipe bomb in Seaside Heights, New Jersey, but no one was injured.</p>
+  <p>Colin Kaepernick has filed a grievance against the national football league. The former San Francisco 49ers quarterback says that he remains unsigned due to collusion by team owners over his national anthem protests. Kaepernick sparked a debate when he kneeled during the anthem last year, protesting police mistreatment of African-Americans.</p>
+  <p>On Wall Street today, the Dow Jones industrial average gained 85 points to close at 22957. The Nasdaq rose 18. And the S&amp;P 500 added four.</p>
+  <p>It was a milestone day in the world of astronomy. For the first time, researchers say they have detected gravitational waves with a flash of light from the same cosmic event. The dual observation supports Albert Einstein&#8217;s general theory of relativity. The ripples in space and the light burst were caused by the collision of two neutron stars. They were first detected in August.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/news-wrap-dozens-missing-deadly-mogadishu-truck-bombing/">News Wrap: Dozens missing after deadly Mogadishu truck bombing</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=230848
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/news-wrap-dozens-missing-deadly-mogadishu-truck-bombing/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005716050/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>JUDY WOODRUFF:</strong> And in the day&#8217;s other news: More than 300 people are now confirmed dead after Saturday&#8217;s massive truck bombing in Somalia, one of the world&#8217;s worst attacks in years.</p>
+  <p>Nearly 400 more were wounded. The government blamed the al-Qaida-linked Al-Shabaab group. Rescue crews today searched for survivors at the scene of the bombing, a crowded street in the capital, Mogadishu. With dozens still missing, officials say they expect the death toll to rise.</p>
+  <p><strong>OSMAN LIBAH IBRAHIM,</strong> Deputy Minister for Natural Resources, Somalia (through interpreter): More bodies are gradually being found and removed from the rubble. There are other people who are under the rubble. We have heard them as they scream for help. My biggest worry is that even the wounded are succumbing to their injuries.</p>
+  <p><strong>JUDY WOODRUFF:</strong> The attack happened two days after Somalia&#8217;s defense minister and army chief resigned for undisclosed reasons.</p>
+  <p>There&#8217;s been yet another shift to the right in European politics; 31-year-old conservative Sebastian Kurz, Austria&#8217;s foreign minister, is set to become that country&#8217;s next leader. But he&#8217;s short of a majority in Parliament and will likely form a coalition with the far-right Freedom Party. It was founded by ex-Nazis in the 1950s.</p>
+  <p>Kurz has called for the European Union to focus more on internal trade and securing borders. He celebrated in Vienna.</p>
+  <p><strong>SEBASTIAN KURZ,</strong> Austrian People&#8217;s Party (through interpreter): I have a big request for you. Use today to celebrate. You all have earned it through hard work and dedication. At the same time, I need to tell you that tomorrow the work starts. We didn&#8217;t just run to win the elections. We did so to bring Austria back to the top. We ran in this election to achieve real change.</p>
+  <p><strong>JUDY WOODRUFF:</strong> A final result in the election is likely to be decided on Thursday.</p>
+  <p>Wildfires that broke out over the weekend in Portugal have killed at least 35 people, including a one-month-old infant. Today, more than 5,300 firefighters with some 1,600 vehicles were battling the fires, some of which officials say were started by arsonists. Wildfires have also left at least four people dead in neighboring Spain.</p>
+  <p>Army Sergeant Bowe Bergdahl pleaded guilty today to desertion and misbehavior before the enemy. He was captured by the Taliban in 2009, after leaving his post in Afghanistan. It prompted an intense search and a prisoner swap. Bergdahl appeared before a military judge in Fort Bragg, North Carolina, today. The 31-year-old could be sentenced to life in prison. He said his actions were very inexcusable, adding he didn&#8217;t &#8212; quote &#8212; &#8220;think there&#8217;d be any reason to pull off a crucial mission to look for one guy.&#8221;</p>
+  <p>The truck driver in deadly immigrant smuggling run has pleaded guilty in court. San Antonio police found at least 39 immigrants, 10 of whom died, packed into a sweltering semi-trailer last year and died. The driver, James Matthew Bradley Jr., pleaded to conspiracy and transporting immigrants, resulting in death. He faces now up to life in prison.</p>
+  <p>A New Jersey man has been convicted of planting two pressure-cooker bombs on New York City streets last year. Ahmed Khan Rahimi faces a maximum sentence of life in prison for charges including using a weapon of mass destruction. One of the bombs exploded in Manhattan&#8217;s Chelsea neighborhood, wounding 30. The second didn&#8217;t detonate. Officials said Rahimi was inspired by ISIS and al-Qaida.</p>
+  <p><strong>JOHN MILLER,</strong> Deputy Commissioner, NYPD Intelligence &amp; Counterterrorism: Ahmed Khan Rahimi learned a lesson which we keep reminding people of. This is the wrong place to try and carry out an act of terrorism. Witnesses will come forward, evidence will be developed, arrests will be made, prosecutions will be brought forth, and they will be successful.</p>
+  <p><strong>JUDY WOODRUFF:</strong> Prosecutors said Rahimi also planted a pipe bomb in Seaside Heights, New Jersey, but no one was injured.</p>
+  <p>Colin Kaepernick has filed a grievance against the national football league. The former San Francisco 49ers quarterback says that he remains unsigned due to collusion by team owners over his national anthem protests. Kaepernick sparked a debate when he kneeled during the anthem last year, protesting police mistreatment of African-Americans.</p>
+  <p>On Wall Street today, the Dow Jones industrial average gained 85 points to close at 22957. The Nasdaq rose 18. And the S&amp;P 500 added four.</p>
+  <p>It was a milestone day in the world of astronomy. For the first time, researchers say they have detected gravitational waves with a flash of light from the same cosmic event. The dual observation supports Albert Einstein&#8217;s general theory of relativity. The ripples in space and the light burst were caused by the collision of two neutron stars. They were first detected in August.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/news-wrap-dozens-missing-deadly-mogadishu-truck-bombing/">News Wrap: Dozens missing after deadly Mogadishu truck bombing</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '4:57'
+itunes_summary: In our news wrap Monday, more than 300 people are confirmed dead and
+  nearly 400 wounded after Saturday’s massive truck bombing in Somalia’s capital Mogadishu.
+  The government blamed the al-Qaida-linked group al-Shabab. Also, 31-year-old conservative
+  Sebastian Kurz is set to become the Austria’s next leader in another shift to the
+  right in European politics.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GGFV-1-1024x652.jpg

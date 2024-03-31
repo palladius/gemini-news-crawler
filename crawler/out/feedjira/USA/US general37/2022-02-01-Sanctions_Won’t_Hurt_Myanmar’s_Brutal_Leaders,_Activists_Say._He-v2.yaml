@@ -1,0 +1,117 @@
+# [NewsFiler v2] NewsPaper: US general37 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://time.com/?p=6143904
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Sanctions Won’t Hurt Myanmar’s Brutal Leaders, Activists Say. Here’s What Could
+url: https://time.com/6143904/myanmar-coup-sanctions-tatmadaw/
+summary: Activists and Myanmar watchers say that targeted sanctions will do little
+  to deter the brutal military junta, or stop its violent repression.
+author: Chad de Guzman
+categories:
+- Uncategorized
+- myanmar
+- News
+- overnight
+- Second click
+published: 2022-02-01 12:22:25.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://time.com/?p=6143904
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general37
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+content: "\n<aside class=\"right-rail__container right-rail__container--ad\"><div
+  class=\"right-rail__ad__wrapper right-rail__module\"><div class=\"right-rail__ad\"
+  id=\"right-rail__ad-6143904\"></div></div>\n<div class=\"OUTBRAIN right-rail__outbrain
+  right-rail__module\" data-src=\"https://time.com/6143904/myanmar-coup-sanctions-tatmadaw/\"
+  data-widget-id=\"SB_2\" data-ob-template=\"timemag\"></div></aside>\n\n\t\t\t\t<img
+  decoding=\"async\" class=\"wp-block-gutenberg-custom-blocks-featured-media\" src=\"https://api.time.com/wp-content/uploads/2022/02/yangon-myanmar-protest-coup.jpg\"
+  alt=\"Protests Continue Despite Military Vehicles Presence\"/>\n\t\t\t\t<p>The U.S.
+  imposed new sanctions on senior leaders of Myanmar&#8217;s military junta on Monday&mdash;the
+  eve of the one-year anniversary of their <a href=\"https://time.com/5934896/myanmar-aung-san-suu-kyi-detained-coup/\"
+  >overthrow of the country&#8217;s democratically elected government</a> and imprisonment
+  of its leader, <a href=\"https://time.com/5793717/aung-san-suu-kyi-100-women-of-the-year/\"
+  >Aung San Suu Kyi</a>.</p><p>The U.S., joined by the U.K., and Canada, announced
+  sanctions on officials who helped prosecute Aung San Suu Kyi, the head of the National
+  League for Democracy. The Nobel Peace Prize laureate was arrested in the <a href=\"https://time.com/5934896/myanmar-aung-san-suu-kyi-detained-coup/\"
+  >Feb. 1, 2021 coup</a>. Myanmar courts <a href=\"https://time.com/6125862/myanmar-aung-san-suu-kyi-sentenced/\"
+  >have sentenced her</a> to a total of six years in prison as of Jan. 10&mdash;but
+  she faces additional charges.</p><p>Washington also slapped penalties on the scion
+  of the <a href=\"https://www.nytimes.com/2021/12/24/world/asia/myanmar-coup-military-tatmadaw-kyaw-thaung.html?\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">Kyaw Thaung family</a>, who
+  the New York<i> Times</i> reported has strong ties to the Myanmar military and helped
+  it procure equipment. The sanctions also targeted a Myanmar government agency responsible
+  for procuring arms for the military, which is known locally as the Tatmadaw. </p><p>But
+  activists and Myanmar watchers say that the targeted sanctions will do little to
+  deter a brutal regime that is increasingly isolated from the West and determined
+  to put down resistance to its rule with violent repression. More than 1,500 people
+  <a href=\"https://time.com/5944853/myanmar-military-crackdown-deaths/\" >have been
+  killed in encounters with the junta</a> across the country, according to human rights
+  group Assistance Association of Political Prisoners.</p><p>&ldquo;I think it&rsquo;s
+  fair to say that the West has had little leverage in Myanmar both politically and
+  on the ground since the coup,&rdquo; says John Nielsen, Senior Analyst at Danish
+  Institute for International Studies and former Danish Ambassador to Myanmar. </p><p>Pro-democracy
+  protesters have long called on the international community to find ways to cut off
+  the junta&rsquo;s revenue streams. And since last year&rsquo;s coup, several Western
+  firms&mdash;including energy giants <a href=\"https://totalenergies.com/media/news/press-releases/totalenergies-withdraws-myanmar\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">TotalEnergies</a> of France
+  and <a href=\"https://www.chevron.com/stories/chevrons-view-on-myanmar\"  target=\"_blank\"
+  rel=\"noopener\" target=\"_blank\">Chevron</a> of the U.S.&mdash;have vowed to pull
+  business out of Myanmar due to human rights abuses in the country.</p><p><b>Read
+  more: </b><a href=\"https://time.com/6074482/myanmar-artist-resistance/\" ><i>Myanmar&rsquo;s
+  Artists Are Continuing to Resist from Abroad</i></a></p><p>Junta leader Min Aung
+  Hlaing and other members of the Tatmadaw were already under sanction by the U.S.
+  and other nations. <a href=\"https://www.hrw.org/news/2022/01/25/un-security-council-should-act-myanmar-atrocities\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">Human Rights Watch</a> has
+  urged the United Nations Security Council to impose a legally-binding global arms
+  embargo on Myanmar. </p><p>But in addition to punitive measures, Burmese exiles
+  say the international community must work to protect people suffering under the
+  junta&#8217;s rule. London-based Burmese activist and scholar Maung Zarni says neighboring
+  states should open their borders to Burmese refugees who flee from the Tatmadaw.</p><p>They
+  are also wary of dialogue with the military leaders, which neighboring countries
+  including some members of the Association of Southeast Asian Nations (ASEAN), favor.
+  Nay San Lwin, a co-founder of the Free Rohingya Coalition, a global network of <a
+  href=\"https://time.com/5936604/myanmar-coup-rohingya/\" >Rohingya activists</a>
+  and allies, says many Burmese protesters feel such talks will only serve to cement
+  the coup-leaders&#8217; legitimacy. </p><p><b>Read more: </b><a href=\"https://time.com/5949216/thinzar-shunlei-yi-myanmar-coup-resistance-protest-democracy/\"
+  ><i>&lsquo;Risking Everything.&rsquo; Myanmar Activist Talks About Her Fight</i></a></p><p>But
+  not everyone is shunning the Tatmadaw. Russia has been criticized for warming up
+  to Myanmar post-coup, <a href=\"https://www.reuters.com/world/asia-pacific/russia-myanmar-cooperating-military-equipment-supplies-ifax-2021-07-21/\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">continuing to sell arms</a>
+  and its officials attending <a href=\"https://tass.com/defense/1190657\"  target=\"_blank\"
+  rel=\"noopener\" target=\"_blank\">junta-led events</a>. China also has ongoing
+  dealings with Myanmar, but has taken a more ambivalent stance: It urged <a href=\"http://english.www.gov.cn/statecouncil/wangyi/202108/18/content_WS611d062fc6d0df57f98dea3b.html\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">&rdquo;to restart the democratic
+  process</a>&rdquo; in the Southeast Asian country while engaging with both the Tatmadaw
+  and ethnic armed forces. &ldquo;China&rsquo;s primary objectives in Myanmar is to
+  ensure stability at the borders and get access to the Indian Ocean through an economic
+  corridor from Kunming to Rakhine. They will work with any party in the conflict
+  to accomplish these objectives&mdash;and that is in essence what they are doing,&rdquo;
+  Nielsen says.</p><p>Jason Tower, Director for Myanmar at the United States Institute
+  of Peace, says there must be a regional approach to the crisis, as companies closely
+  aligned with the junta operate in neighboring states. If the U.S. and allies can
+  convince Myanmar&#8217;s neighbors, including Thailand and India, to crack down
+  on these firms, it could have a dramatic effect on the cash flowing to military
+  leaders.</p><p>But the window for such action may be closing. Cambodia has taken
+  over chairmanship of ASEAN in 2022. And Cambodian Prime Minister Hun Sen&mdash;no
+  friend of democracy&mdash;<a href=\"https://www.reuters.com/world/asia-pacific/cambodia-pm-says-myanmar-junta-welcome-asean-if-progress-made-2022-01-25/\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">has given a conditional invitation
+  the Myanmar coup leader</a>. Last year, the nine countries <a href=\"https://www.aljazeera.com/news/2021/10/26/asean-summit-begins-without-myanmar-after-top-generals-exclusion\"
+  \ target=\"_blank\" rel=\"noopener\" target=\"_blank\">barred the Myanmar junta&rsquo;s
+  representative</a> from attending its meetings.</p><p>Increasingly many activists
+  say they cannot rely on the international community to support their cause of restoring
+  a democratic government in Myanmar. They are putting their faith in ethnic minority
+  militias that have long fought the Tatmadaw, and the <a href=\"https://time.com/5951727/myanmar-military-protests-civil-war/\"
+  >People&rsquo;s Defense Force</a>&mdash;an armed group composed of members of Myanmar&rsquo;s
+  exiled shadow government and pro-democracy protesters. &#8220;If we want to be free,
+  we have to fight for ourselves,&#8221; says Zarni.</p>"

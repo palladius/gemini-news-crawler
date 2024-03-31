@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 578d3878-67ce-4dd0-9361-0a013a9f4183
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: How to get access to a live tax professional today through TurboTax
+url: https://www.cbsnews.com/essentials/how-to-get-access-to-a-live-tax-professional-through-turbotax/
+summary: Intuit's TurboTax makes filing taxes easy, but the company's Live Full Service
+  option makes it even easier.
+published: 2024-03-31 04:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 578d3878-67ce-4dd0-9361-0a013a9f4183
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

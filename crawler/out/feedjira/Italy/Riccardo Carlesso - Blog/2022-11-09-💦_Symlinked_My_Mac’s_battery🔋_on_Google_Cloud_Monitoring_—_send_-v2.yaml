@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Riccardo Carlesso - Blog (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://ricc.rocks/en/posts/medium/2022-09-mac-battery/2022-11-09-mac-battery-on-gcp/
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: "\U0001F4A6 Symlinked My Mac’s battery\U0001F50B on Google Cloud Monitoring
+  — send SMS if low \U0001FAAB"
+url: https://ricc.rocks/en/posts/medium/2022-09-mac-battery/2022-11-09-mac-battery-on-gcp/
+summary: "<!-- this works: ![Image Caption](/images/riccardo.jpg \"Use Image Title
+  as Caption aeroporto\") -->\n<p><img src=\"https://ricc.rocks/images/articles/london-airport.jpg\"
+  alt=\"Image Caption\" title=\"Taking a train to City Airport, my fav airport in
+  London\" /></p>\n<p>This article shows how you can easily inject a generic key/value
+  into Google Cloud Monitoring and set up alerts on it. I use it to alert on disk
+  space, and now also low battery!</p>\n<p>This morning I was in London, and I forgot
+  my charger at home. With plenty of time but \U0001FAAB little battery, I thought:
+  hey! I need to have a way to predict when my battery is low! And I need to do it
+  in a totally overkill way!</p>"
+author: Riccardo
+categories:
+- GCP
+- macbook
+- SMS
+- pager
+published: 2022-11-09 10:48:51.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://ricc.rocks/en/posts/medium/2022-09-mac-battery/2022-11-09-mac-battery-on-gcp/
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Riccardo Carlesso - Blog
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

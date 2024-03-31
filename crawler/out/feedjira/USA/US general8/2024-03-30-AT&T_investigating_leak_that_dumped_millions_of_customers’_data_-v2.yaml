@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/us-news/t-investigating-leak-dumped-millions-customers-data-dark-web-rcna145731
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: AT&T investigating leak that dumped millions of customers’ data on dark web
+url: https://www.nbcnews.com/news/us-news/t-investigating-leak-dumped-millions-customers-data-dark-web-rcna145731
+summary: AT&T is investigating a leak earlier this month that dumped millions of customers'
+  data, including personal information such as Social Security numbers, on the dark
+  web.
+author: Minyvonne Burke and Joe Kottke
+published: 2024-03-30 16:48:50.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/us-news/t-investigating-leak-dumped-millions-customers-data-dark-web-rcna145731
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240330-leak-ch-1217-f10c57.jpg

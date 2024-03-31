@@ -1,0 +1,27 @@
+# [NewsFiler v2] NewsPaper: US general14 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.huffpost.com/entry/south-africa-bus-crash_n_6605f230e4b05c3d0729df3c
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "comments", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 45 Dead After Bus Plunges Off Bridge In South Africa, Sole Survivor Is 8-Year-Old
+url: https://www.huffpost.com/entry/south-africa-bus-crash_n_6605f230e4b05c3d0729df3c
+summary: The Limpopo provincial government said the bus veered off the Mmamatlakala
+  bridge and plunged 164 feet into a ravine before busting into flames.
+published: 2024-03-28 22:44:52.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/south-africa-bus-crash_n_6605f230e4b05c3d0729df3c
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general14
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- comments
+- content
+comments: https://www.huffpost.com/entry/south-africa-bus-crash_n_6605f230e4b05c3d0729df3c#comments
+content: "\n        The Limpopo provincial government said the bus veered off the
+  Mmamatlakala bridge and plunged 164 feet into a ravine before busting into flames.\n
+  \     "

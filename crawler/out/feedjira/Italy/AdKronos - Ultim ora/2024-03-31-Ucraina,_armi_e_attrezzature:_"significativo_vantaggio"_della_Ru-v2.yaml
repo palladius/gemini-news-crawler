@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/internazionale/esteri/ucraina-russia-news-guerra-31-marzo-2024_5dj4o5gzEwoegN8naLQCe8
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Ucraina, armi e attrezzature: "significativo vantaggio" della Russia'
+url: https://www.adnkronos.com/internazionale/esteri/ucraina-russia-news-guerra-31-marzo-2024_5dj4o5gzEwoegN8naLQCe8
+summary: (Adnkronos) - Per l'intelligence britannica Mosca starebbe reclutando circa
+  30mila soldati al mese, così riuscirebbe ad "assorbire le perdite e a portare avanti
+  attacchi mirati a logorare le forze di Kiev"
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- internazionale/esteri
+published: 2024-03-31 06:02:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/internazionale/esteri/ucraina-russia-news-guerra-31-marzo-2024_5dj4o5gzEwoegN8naLQCe8
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a89df24d6fa-a2dc8a9b73b6-1000/format/medium/mariupol_soldato_russia_afp.jpeg

@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: US general14 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.huffpost.com/entry/judge-questions-border-patrol-position-that-its-not-required-to-care-for-children-at-migrant-camps_n_66080106e4b06d4ea5c61b52
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "comments", "content"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Judge Questions Border Patrol Position That It's Not Required To Care For Children
+  At Migrant Camps
+url: https://www.huffpost.com/entry/judge-questions-border-patrol-position-that-its-not-required-to-care-for-children-at-migrant-camps_n_66080106e4b06d4ea5c61b52
+summary: U.S. District Judge Dolly Gee said evidence presented by migrant advocacy
+  groups appeared to support the definition of legal custody. “Are they free to leave?”
+  she asked.
+published: 2024-03-30 12:17:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.huffpost.com/entry/judge-questions-border-patrol-position-that-its-not-required-to-care-for-children-at-migrant-camps_n_66080106e4b06d4ea5c61b52
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general14
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- comments
+- content
+comments: https://www.huffpost.com/entry/judge-questions-border-patrol-position-that-its-not-required-to-care-for-children-at-migrant-camps_n_66080106e4b06d4ea5c61b52#comments
+content: "\n        U.S. District Judge Dolly Gee said evidence presented by migrant
+  advocacy groups appeared to support the definition of legal custody. “Are they free
+  to leave?” she asked.\n      "

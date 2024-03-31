@@ -1,0 +1,28 @@
+# [NewsFiler v2] NewsPaper: US general9 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Hundreds of trucks full of aid sit idle near border with Gaza as crisis deepens
+url: https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+summary: RAFAH, Egypt — Hundreds of trucks loaded with food and medical aid sat idle
+  on the roads heading into Gaza recently as a senior humanitarian official accused
+  the Israeli government of blocking lifesaving supplies from reaching the devastated
+  enclave.
+author: Charlene Gubash and Doha Madani and Matthew Mulligan and Bianca Britton and
+  Marin Scott
+published: 2024-03-30 08:48:20.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/gaza-aid-trucks-border-famine-imminent-rcna144830
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general9
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240329-gaza-red-crescent-trucks-se-457p-7cc468.jpg

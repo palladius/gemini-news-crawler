@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMia2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI30gFvaHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Trump is ''inciting political violence'' sharing Biden hog-tied video: Biden
+  campaign - ABC News'
+url: https://news.google.com/rss/articles/CBMia2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI30gFvaHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI3?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMia2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI30gFvaHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI3?oc=5"
+  target="_blank">Trump is ''inciting political violence'' sharing Biden hog-tied
+  video: Biden campaign</a>&nbsp;&nbsp;<font color="#6f6f6f">ABC News</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL3RydW1wLW1lZGlhLXRydXRoLXNvY2lhbC1uYXNkYXEtc3RvY2stMTA2ZDdjNDIzMTc0Y2ExZDdjYzNjYzlhM2YzODk3YTDSAQA?oc=5"
+  target="_blank">Trump''s social media company gains in its first day of trading
+  on Nasdaq</a>&nbsp;&nbsp;<font color="#6f6f6f">The Associated Press</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiRWh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvdXMvcG9saXRpY3MvdHJ1bXAtYmlkZW4taW1hZ2UuaHRtbNIBAA?oc=5"
+  target="_blank">Trump Shares Video Featuring Image of a Hog-Tied Biden</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li><li><a href="https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2RvbmFsZC10cnVtcC1ueXBkLW9mZmljZXIta2lsbGVkLXdha2UtZnVuZXJhbC1lOTE3NDRjNDBjNDUxM2VhZDg4Y2FhMjQ3YWI5OTE2ZdIBAA?oc=5"
+  target="_blank">Donald Trump attends wake of slain NYPD officer</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The Associated Press</font></li></ol>'
+published: 2024-03-31 02:34:02.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMia2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI30gFvaHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3MvdHJ1bXAtaW5jaXRpbmctcG9saXRpY2FsLXZpb2xlbmNlLXNoYXJpbmctYmlkZW4taG9nLXRpZWQvc3Rvcnk_aWQ9MTA4Njg0MTI3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

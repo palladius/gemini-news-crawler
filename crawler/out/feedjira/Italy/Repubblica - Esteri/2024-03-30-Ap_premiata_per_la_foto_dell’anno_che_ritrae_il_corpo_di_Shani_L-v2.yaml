@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/30/news/associated_press_foto_anni_shani_louk_israele_hamas-422399795/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: 'Ap premiata per la foto dell’anno che ritrae il corpo di Shani Louk uccisa
+  da Hamas: critiche social. Ma il padre non le condivide'
+url: https://www.repubblica.it/esteri/2024/03/30/news/associated_press_foto_anni_shani_louk_israele_hamas-422399795/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-30 19:00:00.000000000 Z
+enclosure_length: '39835'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/30/111243218-66684d4a-e9ad-435b-bef6-8da01f19e52a.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/30/news/associated_press_foto_anni_shani_louk_israele_hamas-422399795/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/30/111243218-66684d4a-e9ad-435b-bef6-8da01f19e52a.jpg"
+  width="140" align="left" hspace="10"></a>Lo scatto con al centro la 23enne tedesca-israeliana
+  mentre veniva portata via il 7 ottobre è di un reporter palestinese accusato di
+  essere stato avvisato dai jihadisti</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/30/news/associated_press_foto_anni_shani_louk_israele_hamas-422399795/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

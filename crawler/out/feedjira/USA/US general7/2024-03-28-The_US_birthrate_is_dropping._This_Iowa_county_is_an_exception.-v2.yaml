@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: US general7 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: dd648fcd6b5d14bfc2327c0e7acf0711
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "published", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: The US birthrate is dropping. This Iowa county is an exception.
+url: https://www.csmonitor.com/USA/2024/0328/The-US-birthrate-is-dropping.-This-Iowa-county-is-an-exception?icid=rss
+author: Simon Montlake
+published: 2024-03-28 19:16:00.000000000 Z
+summary: In an era of falling fertility throughout the U.S., Iowa’s Sioux County offers
+  a vision of immigration as a growth engine.
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: dd648fcd6b5d14bfc2327c0e7acf0711
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general7
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- published
+- summary
+- entry_id

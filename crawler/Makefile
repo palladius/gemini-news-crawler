@@ -10,7 +10,7 @@ crawl-a-REAL-lot:
 	MAX_ARTICLE_SIZE=1000 MAX_WEBSITES=5000 ./crawl.rb
 crawl-a-few:
 	echo Crawling just a few when testing new functionalities
-	MAX_ARTICLE_SIZE=2 MAX_WEBSITES=3 ./crawl.rb
+	MAX_ARTICLE_SIZE=2 MAX_WEBSITES=5 ./crawl.rb
 
 # MaxArticleSize = ENV.fetch('MAX_ARTICLE_SIZE', '2').to_i  # 10 # todo 100
 # MaxNewsWebsites = ENV.fetch('MAX_WEBSITES', '3').to_i  # 50 # todo 100

@@ -1,0 +1,117 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517902
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517902
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/RTS10HYU/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"The Shadow of Trump at the
+  Oscars\"\n            >\n        \n        \n    \n\n\n    \n    \n\n</figure>\n\n<p>President
+  Donald Trump was 3,000 miles away from the Academy Awards on Sunday night, but his
+  presence loomed larger in the Dolby Theatre than anyone else in the room. From Jimmy
+  Kimmel’s opening monologue to acceptance speeches to the ads punctuating the ceremony,
+  it felt at times like the Oscars were more focused on delivering an extremely public
+  rebuke to Trump than they were on celebrating the art of filmmaking.</p>\n\n<p>The
+  question is how effective such forms of protest are, in a media environment in which
+  more than half of Americans think <a href=\"http://www.marketwatch.com/story/majority-thinks-press-is-too-tough-on-trump-poll-finds-2017-02-26\">the
+  press is too critical</a> of the current president. Kimmel was one of the few personalities
+  in the room who mentioned Trump; others largely chose to subtweet, <a href=\"https://www.theatlantic.com/entertainment/archive/2017/02/the-power-of-not-saying-his-name/516483/\">without
+  saying his name</a>. While jabs about the president and his Twitter fixation made
+  for easy punchlines, the most cutting and memorable moments of the night were the
+  ones that elected to show, not tell—to reveal how Trump’s policies stand in direct
+  opposition to the spirit of art in general and film in particular.</p>\n\n<aside
+  class=\"callout-placeholder\" data-source=\"curated\"></aside>\n\n<p>Trump was an
+  irresistible target for Kimmel, who laid into the one-time Oscar presenter right
+  from the start. “This broadcast is being watched live by millions of Americans,”
+  he quipped, “and around the world in more than 225 countries that now hate us.”
+  He was briefly earnest, compelling everyone watching to reach out to one person
+  they disagree with and have “a positive, considerate conversation, not as liberals
+  or conservatives”—something that, he affirmed, could truly make America great again.
+  But then it was back to business as usual: thanking Homeland Security for letting
+  the French actress Isabelle Huppert into the country, pointing to Andrew Garfield’s
+  drastic weight loss for a role as proof that Hollywood discriminates not against
+  nationality, but against age and weight. An extended gag lampooning Meryl Streep’s
+  “uninspiring and overrated performances” seemed directly ripped from Trump’s <a
+  href=\"https://twitter.com/realdonaldtrump/status/818419002548568064?lang=en\">own
+  critique</a> of the actress after the Golden Globes.</p>\n\n<p>The second award
+  presented, for makeup and hairstyling, went to Alessandro Bertolazzi, Giorgio Gregorini,
+  and Christopher Nelson for <em>Suicide Squad. </em>“I’m an immigrant. I come from
+  Italy,” Bertolazzi said, accepting the award. “I work around the world and this
+  is for all the immigrants.” His sentiments were echoed in more specific terms by
+  the Iranian filmmaker Asghar Farhadi, who won best foreign-language film for <em>The
+  Salesman</em>, but elected not to attend the ceremony in protest of Trump’s immigration
+  ban on seven majority-Muslim countries. His award was accepted by the Iranian American
+  astronaut Anousheh Ansari, who read Farhadi’s statement aloud. “Dividing the world
+  into the <em>us</em> and <em>our enemies</em> categories creates fears,” she read,
+  with Farhadi calling out the “inhumane” immigration law earlier this year. “Filmmakers
+  can turn their cameras to capture shared human qualities and break stereotypes of
+  various nationalities and religions. They create empathy between us and others.
+  An empathy which we need today more than ever.”</p>\n\n<p>One presenter, too, took
+  the opportunity to put a human face on Trump’s policies. The actor Gael Garcia Bernal,
+  co-presenting the award for best animated feature, slipped in a quick statement,
+  saying, “As a Mexican, as a Latin-American, as a migrant worker, as a human being,
+  I’m against any form of wall that separates us.” And last year’s winner for best
+  supporting actor, Mark Rylance, briefly pondered how actors and filmmakers might
+  work to unite Americans. “Opposition’s great in film and stories, it’s wonderful
+  in sport, it’s really good in society,” he said. “The things these films made me
+  remember and think about was the difficulty—something women seem to be better at
+  than men—of opposing without hatred.”</p>\n\n<p>But Kimmel’s well of Trump jokes
+  never ran dry. The Marvel movie <em>Doctor Strange</em> wasn’t just nominated for
+  visual effects, it was also “named secretary of housing and urban development.”
+  Introducing the Academy’s president, Cheryl Boone Isaacs, Kimmel noted how refreshing
+  it was to have “a president who believes in arts and sciences.” At one point, noting
+  Trump’s Twitter silence during the ceremony, Kimmel had his phone projected onto
+  a screen at the back of the stage, and tweeted, “Hey @RealDonaldTrump u up?” at
+  the president, followed by the hashtag “#merylsayshi.”</p>\n\n<p>This was trolling
+  on an expert level, with its purpose solely to belittle Trump, and to remind him
+  that he’s more in disrepute in Hollywood than ever before. It’s cathartic, perhaps,
+  but it comes from a place of power—there’s not much the president can do that directly
+  threatens the film industry. But he can, for instance, defund the NEA, which has
+  a long history of helping projects (such as the 2012 drama <em>Beasts of the Southern
+  Wild</em>) and artists who later ascend to Academy glory. Pointing out the president’s
+  personal failings will almost certainly lead to <a href=\"https://twitter.com/jimmykimmel/status/836060793783267328\">viral
+  tweets</a>, but pinpointing how his policies damage the arts and entertainment industries
+  might have a more profound impact in the long run.</p>\n\n<p>The most powerful moments
+  of the ceremony, in the end, were the ones that illuminated the people excluded
+  by the president’s policies. Accepting the Oscar for best adapted screenplay for
+  <em>Moonlight, </em>also the best-picture winner, Barry Jenkins had a message for
+  the people the movie was made for. “For all you people out there who feel there
+  is no mirror for you,” he said, “that you feel your life is not reflected, the Academy
+  has your back, the ACLU has your back, we have your back, and for the next four
+  years ... we will not forget you.” In one of the most remarkable Oscar acceptance
+  speeches of all time, Viola Davis explained her mission for making art. “You know,
+  there is one place that all the people with the greatest potential are gathered
+  and that’s the graveyard,” she said. “People ask me all the time—<em>what kind of
+  stories do you want to tell, Viola? </em>And I say exhume those bodies. Exhume those
+  stories—the stories of the people who dreamed big and never saw those dreams to
+  fruition, people who fell in love and lost.”</p>\n\n<p>It’s this kind of message
+  that seems poised to have the most impact over the next four years. For one thing,
+  President Trump—for once—seemed remarkably resistant to all the trolling happening
+  onstage. “Some of you will get to come up here on this stage tonight and give a
+  speech that the president of the United States will tweet about in all caps during
+  his 5 a.m. bowel movement tomorrow,” Kimmel said at one point. As yet, though, there’s
+  been <a href=\"https://twitter.com/realDonaldTrump\">no such response</a>.</p>\n"
+author: Sophie Gilbert
+title_type:
+published: 2017-02-27 16:53:00.000000000 Z
+summary: Despite being 3,000 miles away, the president loomed larger in the Dolby
+  Theatre than the Academy itself.
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/the-shadow-of-trump-at-the-oscars/517902/
+title: The Shadow of Trump at the Oscars
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

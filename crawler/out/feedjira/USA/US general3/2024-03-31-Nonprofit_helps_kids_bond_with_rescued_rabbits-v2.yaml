@@ -1,0 +1,22 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: feb83650-30b4-4dda-821d-77039a2b0e65
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Nonprofit helps kids bond with rescued rabbits
+url: https://www.cbsnews.com/video/nonprofit-helps-kids-bond-with-rescued-rabbits/
+summary: Most rabbits adopted for Easter are given away, but a nonprofit is helping
+  kids bond with the fuzzy animals. Itay Hod reports.
+published: 2024-03-31 01:11:11.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: feb83650-30b4-4dda-821d-77039a2b0e65
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

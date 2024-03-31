@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general16 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: thinking-buying-truth-social-stock-080139083.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Thinking about buying Truth Social stock? Trump's own filing offers these warnings.
+url: https://www.yahoo.com/news/thinking-buying-truth-social-stock-080139083.html
+published: 2024-03-31 08:01:39.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: thinking-buying-truth-social-stock-080139083.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general16
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/usa_today_opinion_532/1bb9c5e118faaa8e3bd573b5ab10df4e

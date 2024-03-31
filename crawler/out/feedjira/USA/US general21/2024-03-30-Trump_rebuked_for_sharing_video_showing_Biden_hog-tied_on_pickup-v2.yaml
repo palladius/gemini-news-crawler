@@ -1,0 +1,39 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/30/trump-rebuked-biden-hog-tied-video
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Trump rebuked for sharing video showing Biden hog-tied on pickup truck
+url: https://www.theguardian.com/us-news/2024/mar/30/trump-rebuked-biden-hog-tied-video
+summary: <p>Biden campaign communications director says image could be construed as
+  suggesting physical harm towards president</p><p><a href="https://www.theguardian.com/us-news/donaldtrump">Donald
+  Trump</a> drew an angry response from the Joe Biden White House as well as other
+  opponents after he posted a video containing the image of the president hog-tied
+  on the tailgate of a passing pickup truck.</p><p>The <a href="https://www.theguardian.com/us-news/joebiden">Biden</a>
+  campaign communications director, Michael Tyler, said the provocative image of the
+  truck festooned with Trump 2024 insignia on Friday night could be construed as suggesting
+  physical harm toward the former president’s political rival.</p> <a href="https://www.theguardian.com/us-news/2024/mar/30/trump-rebuked-biden-hog-tied-video">Continue
+  reading...</a>
+author: Edward Helmore
+categories:
+- Donald Trump
+- Joe Biden
+- US elections 2024
+- US politics
+- US news
+published: 2024-03-30 14:28:44.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/30/trump-rebuked-biden-hog-tied-video
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/2fca10a54718830531165db1d0a162e2c3892ebe/0_546_8192_4918/master/8192.jpg?width=140&quality=85&auto=format&fit=max&s=5db185fa75860ec0297fd682bb5ae33a

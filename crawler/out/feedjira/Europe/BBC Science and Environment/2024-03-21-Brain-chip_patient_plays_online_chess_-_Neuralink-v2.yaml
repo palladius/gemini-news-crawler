@@ -1,0 +1,24 @@
+# [NewsFiler v2] NewsPaper: BBC Science and Environment (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/business-68622781#1
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Brain-chip patient plays online chess - Neuralink
+url: https://www.bbc.co.uk/news/business-68622781
+summary: Noland Arbaugh, who is paralysed below the shoulders, received a chip implant
+  in January.
+published: 2024-03-21 05:59:28.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.bbc.co.uk/news/business-68622781#1
+carlessian_info:
+  news_filer_version: 2
+  newspaper: BBC Science and Environment
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id
+- image
+image: https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/EF0D/production/_132979116_neuralink-index.jpg

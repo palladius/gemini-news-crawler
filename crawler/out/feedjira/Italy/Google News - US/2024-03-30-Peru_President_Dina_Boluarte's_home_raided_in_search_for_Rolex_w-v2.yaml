@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiNWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC1sYXRpbi1hbWVyaWNhLTY4Njk3ODU00gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Peru President Dina Boluarte's home raided in search for Rolex watches - BBC.com
+url: https://news.google.com/rss/articles/CBMiNWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC1sYXRpbi1hbWVyaWNhLTY4Njk3ODU00gEA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMiNWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC1sYXRpbi1hbWVyaWNhLTY4Njk3ODU00gEA?oc=5"
+  target="_blank">Peru President Dina Boluarte's home raided in search for Rolex watches</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">BBC.com</font></li><li><a href="https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3dvcmxkL2FtZXJpY2FzL3Byb3NlY3V0b3JzLXNlYXJjaC1wZXJ1dmlhbi1wcmVzaWRlbnRzLWhvbWUtZ3JhZnQtaW5xdWlyeS0yMDI0LTAzLTMwL9IBAA?oc=5"
+  target="_blank">Peruvian president rules out resignation amid Rolex inquiry</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Reuters Canada</font></li><li><a href="https://news.google.com/rss/articles/CBMiVmh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjQvMDMvMzAvd29ybGQvYW1lcmljYXMvYm9sdWFydGUtcGVydS1wb2xpY2UtcmFpZC1yb2xleC5odG1s0gEA?oc=5"
+  target="_blank">Police Raid Peruvian President's Home, Looking for Rolex Watches</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">The New York Times</font></li><li><a href="https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LmJsb29tYmVyZy5jb20vbmV3cy9hcnRpY2xlcy8yMDI0LTAzLTMwL3BlcnUtYXV0aG9yaXRpZXMtcmFpZGVkLWJvbHVhcnRlLXMtcmVzaWRlbmNlLWFtaWQtcm9sZXgtcHJvYmXSAQA?oc=5"
+  target="_blank">Peru Authorities Raid Boluarte Residence Amid Rolex Scandal</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Bloomberg</font></li></ol>
+published: 2024-03-30 19:47:53.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiNWh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy93b3JsZC1sYXRpbi1hbWVyaWNhLTY4Njk3ODU00gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

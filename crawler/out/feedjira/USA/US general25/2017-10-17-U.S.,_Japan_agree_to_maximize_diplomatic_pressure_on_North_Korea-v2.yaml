@@ -1,0 +1,64 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=rundown&p=230889
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "summary", "entry_id", "comments", "content", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: U.S., Japan agree to maximize diplomatic pressure on North Korea
+url: http://www.pbs.org/newshour/rundown/u-s-japan-agree-maximize-diplomatic-pressure-north-korea/
+author: Larisa Epatko
+categories:
+- japan
+- North Korea
+- north korea nuclear program
+published: 2017-10-17 13:01:05.000000000 Z
+summary: |
+  <div id="attachment_223039" class="wp-caption alignnone" style="width: 689px"><img class="size-large wp-image-223039" src="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3DBA0-1024x695.jpg" alt="Monitor in Tokyo shows news of North Korea firing a ballistic missile on July 4. File photo by Toru Hanai/Reuters" width="689" height="468" srcset="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3DBA0-1024x695.jpg 1024w, http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3DBA0-300x204.jpg 300w" sizes="(max-width: 689px) 100vw, 689px" /><p class="wp-caption-text">Monitor in Tokyo shows news of North Korea firing a ballistic missile on July 4. File photo by Toru Hanai/Reuters</p></div>
+  <p>TOKYO — U.S. and Japanese diplomats agreed Tuesday to maximize pressure on North Korea to resolve tensions over its nuclear program, while citing the need to be prepared for the worst if diplomacy fails.</p>
+  <p>U.S. Deputy Secretary of State John Sullivan, after meeting his Japanese counterpart, Shinsuke Sugiyama, told reporters that the focus at the State Department is still on diplomacy to solve the problem and eventually denuclearize the Korean Peninsula.</p>
+  <p>&#8220;We must, however, with our allies in Japan and South Korea and elsewhere, be prepared for the worst should diplomacy fail,&#8221; he said. The U.S. must be prepared to defend itself and its allies, he said.</p>
+  <p>Sugiyama, briefing reporters separately, reiterated Japan&#8217;s support for President Donald Trump&#8217;s policy of keeping all options open, but stressed the need for a diplomatic solution by bolstering cooperation among Japan, U.S. and South Korea, as well as via cooperation with China and Russia.</p>
+  <p>The two diplomats will join their South Korean counterpart in Seoul for further talks Wednesday on North Korea.</p>
+  <p><a href="http://www.pbs.org/newshour/rundown/rex-tillerson-says-continue-diplomacy-north-korea-first-bomb-drops/"><strong>READ MORE: Rex Tillerson says continue diplomacy with North Korea ‘until first bomb drops’</strong></a></p>
+  <p>The talks come as the U.S. and South Korea hold joint naval drills this week. They regularly conduct joint exercises, though North Korea condemns them as an invasion rehearsal.</p>
+  <p>North Korea&#8217;s deputy U.N. ambassador warned on Monday that the situation on the peninsula &#8220;has reached the touch-and-go point and a nuclear war may break out any moment.&#8221;</p>
+  <p>Kim In Ryong told the U.N. General Assembly&#8217;s disarmament committee that North Korea has been subjected to a direct nuclear threat from the United States and has the right to possess nuclear weapons in self-defense.</p>
+  <p>He pointed to military exercises and what he called a U.S. plan to stage a &#8220;secret operation aimed at the removal of our supreme leadership.&#8221;</p>
+  <p>Kim&#8217;s speech follows increasingly tough U.N. sanctions. Russian President Vladimir Putin said his country is curtailing economic, scientific and other ties with North Korea in line with U.N. sanctions, and the European Union announced new sanctions as well.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/u-s-japan-agree-maximize-diplomatic-pressure-north-korea/">U.S., Japan agree to maximize diplomatic pressure on North Korea</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=rundown&p=230889
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- summary
+- entry_id
+- comments
+- content
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/rundown/u-s-japan-agree-maximize-diplomatic-pressure-north-korea/#respond
+content: |
+  <div id="attachment_223039" class="wp-caption alignnone" style="width: 689px"></div>
+  <p>TOKYO — U.S. and Japanese diplomats agreed Tuesday to maximize pressure on North Korea to resolve tensions over its nuclear program, while citing the need to be prepared for the worst if diplomacy fails.</p>
+  <p>U.S. Deputy Secretary of State John Sullivan, after meeting his Japanese counterpart, Shinsuke Sugiyama, told reporters that the focus at the State Department is still on diplomacy to solve the problem and eventually denuclearize the Korean Peninsula.</p>
+  <p>&#8220;We must, however, with our allies in Japan and South Korea and elsewhere, be prepared for the worst should diplomacy fail,&#8221; he said. The U.S. must be prepared to defend itself and its allies, he said.</p>
+  <p>Sugiyama, briefing reporters separately, reiterated Japan&#8217;s support for President Donald Trump&#8217;s policy of keeping all options open, but stressed the need for a diplomatic solution by bolstering cooperation among Japan, U.S. and South Korea, as well as via cooperation with China and Russia.</p>
+  <p>The two diplomats will join their South Korean counterpart in Seoul for further talks Wednesday on North Korea.</p>
+  <p><a href="http://www.pbs.org/newshour/rundown/rex-tillerson-says-continue-diplomacy-north-korea-first-bomb-drops/"><strong>READ MORE: Rex Tillerson says continue diplomacy with North Korea ‘until first bomb drops’</strong></a></p>
+  <p>The talks come as the U.S. and South Korea hold joint naval drills this week. They regularly conduct joint exercises, though North Korea condemns them as an invasion rehearsal.</p>
+  <p>North Korea&#8217;s deputy U.N. ambassador warned on Monday that the situation on the peninsula &#8220;has reached the touch-and-go point and a nuclear war may break out any moment.&#8221;</p>
+  <p>Kim In Ryong told the U.N. General Assembly&#8217;s disarmament committee that North Korea has been subjected to a direct nuclear threat from the United States and has the right to possess nuclear weapons in self-defense.</p>
+  <p>He pointed to military exercises and what he called a U.S. plan to stage a &#8220;secret operation aimed at the removal of our supreme leadership.&#8221;</p>
+  <p>Kim&#8217;s speech follows increasingly tough U.N. sanctions. Russian President Vladimir Putin said his country is curtailing economic, scientific and other ties with North Korea in line with U.N. sanctions, and the European Union announced new sanctions as well.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/rundown/u-s-japan-agree-maximize-diplomatic-pressure-north-korea/">U.S., Japan agree to maximize diplomatic pressure on North Korea</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_summary: TOKYO — U.S. and Japanese diplomats agreed Tuesday to maximize pressure
+  on North Korea to resolve tensions over its nuclear program, while citing the need
+  to be prepared for the worst if diplomacy fails.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/07/RTX3DBA0-1024x695.jpg

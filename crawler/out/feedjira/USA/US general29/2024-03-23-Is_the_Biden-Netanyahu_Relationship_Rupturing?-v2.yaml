@@ -1,0 +1,57 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2024:50-677826
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2024:50-677826
+content: '<p><em>Editor&rsquo;s Note:</em> Washington Week With The Atlantic <em>is
+  a partnership between NewsHour Productions, WETA, and </em>The Atlantic <em>airing
+  every Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check
+  your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.&nbsp;&nbsp;</em>
+  <br /></p><p>Republicans are on the offensive this week against what they say is
+  Democrats’ lack of support for Israel following Senate Majority Leader Chuck Schumer’s
+  recent criticism of Israel’s prime minister, Benjamin Netanyahu. House Speaker Mike
+  Johnson announced that he will invite Netanyahu to address a joint session of Congress,
+  a move he made without first consulting the Senate leader. This comes after President
+  Joe Biden and Netanyahu spoke for the first time in more than a month, and after
+  Donald Trump, the former president and current Republican presidential nominee,
+  accused Jews who support Democrats of hating Israel and their own religion.</p><p>Joining
+  the editor in chief of <em>The Atlantic</em> and moderator, Jeffrey Goldberg, this
+  week to discuss this and more are Anne Applebaum, a staff writer at <em>The Atlantic</em>;
+  Franklin Foer, a staff writer at <em>The Atlantic</em> and the author of <em>The
+  Last Politician: Inside Joe Biden’s White House and the Struggle for America’s Future</em>;
+  Nikole Killion, a congressional correspondent for CBS News; and Jonathan Karl, the
+  chief Washington correspondent at ABC News and author of <em>Tired of Winning: Donald
+  Trump and the End of the Grand Old Party</em>.</p><p>Watch the full episode <a href="https://www.youtube.com/watch?v=BbiUI11Cn4s&amp;ab_channel=WashingtonWeekPBS">here</a>.</p><div
+  class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://www.youtube.com/watch?v=BbiUI11Cn4s&amp;ab_channel=WashingtonWeekPBS"><iframe
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true"
+  class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FBbiUI11Cn4s%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBbiUI11Cn4s&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBbiUI11Cn4s%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube"
+  title="YouTube embed" width="854"></iframe></div>'
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/fGNL0VAI9S4Tn6bUC1MW4gB3IG8=/media/img/mt/2024/03/still4/original.jpg
+title_type: html
+raw_title: Is the Biden-Netanyahu Relationship Rupturing?
+published: 2024-03-23 14:37:49.000000000 Z
+updated: 2024-03-23 14:38:13.000000000 Z
+summary: "“If you flash back to the rupture during the Obama administration, Joe Biden
+  was always the person who stepped in and tried to find a way to make it better.”"
+url: https://www.theatlantic.com/national/archive/2024/03/biden-netanyahu-israel-hamas-war-washington-week/677826/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2024/03/biden-netanyahu-israel-hamas-war-washington-week/677826/?utm_source=feed
+title: Is the Biden-Netanyahu Relationship Rupturing?
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

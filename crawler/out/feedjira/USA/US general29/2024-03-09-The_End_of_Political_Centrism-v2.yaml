@@ -1,0 +1,38 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2024:50-677688
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2024:50-677688
+content: |-
+  <p><em>Editor&rsquo;s Note:</em> <br />
+  Washington Week With The Atlantic <em>is a partnership between NewsHour Productions, WETA, and </em>The Atlantic <em>airing every Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.&nbsp;&nbsp;</em> <br /></p><p dir="ltr">Between the Super Tuesday results and the president’s State of the Union address, a Joe Biden–Donald Trump face-off—the first presidential rematch since the 1950s—has become all but certain.</p><p dir="ltr">The end of political centrism continues to be a prevailing theme. This week, Trump secured an endorsement from the Senate’s top Republican, Mitch McConnell, who had previously denounced the former president after the January 6 insurrection. Additionally, the decision of independent Senator Kyrsten Sinema of Arizona to not seek reelection signals further bipartisanship decline and likely increased polarization in the Senate.</p><p>Joining the editor in chief of <em>The Atlantic</em> and moderator, Jeffrey Goldberg, this week to discuss this and more are Eugene Daniels, a White House correspondent for <em>Politico</em> and a co-author of Playbook; Asma Khalid, a White House correspondent for NPR<em> </em>and political contributor for ABC News; and Carlos Lozada, a columnist at <em>The New York Times</em> and the author of <em>The Washington Book</em>.</p><p>Watch the full episode and read the transcript <a href="https://www.pbs.org/weta/washingtonweek/video/2024/03/washington-week-with-the-atlantic-full-episode-3124">here</a>.</p><div class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://www.youtube.com/watch?v=68V7EpvCsrk&amp;ab_channel=WashingtonWeekPBS"><iframe allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true" class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F68V7EpvCsrk%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D68V7EpvCsrk&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F68V7EpvCsrk%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube" title="YouTube embed" width="854"></iframe></div>
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/B7WAE8R7MEKtzimF0lJ-i3943CE=/media/img/mt/2024/03/still5-1/original.jpg
+title_type: html
+raw_title: The End of Political Centrism
+published: 2024-03-09 21:33:12.000000000 Z
+updated: 2024-03-09 21:37:20.000000000 Z
+summary: The State of the Union “was the kickoff of a general election campaign and
+  it was a clear contrast from Republicans on everything from abortion to immigration,
+  to the economy.”
+url: https://www.theatlantic.com/national/archive/2024/03/state-of-the-union-super-tuesday-biden-trump-washington-week/677688/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2024/03/state-of-the-union-super-tuesday-biden-trump-washington-week/677688/?utm_source=feed
+title: The End of Political Centrism
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

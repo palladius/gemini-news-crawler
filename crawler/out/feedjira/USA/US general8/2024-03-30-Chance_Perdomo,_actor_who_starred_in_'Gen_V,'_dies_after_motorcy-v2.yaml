@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/pop-culture/tv/chance-perdomo-gen-v-star-dies-motorcycle-accident-27-rcna145747
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Chance Perdomo, actor who starred in 'Gen V,' dies after motorcycle accident
+  at 27
+url: https://www.nbcnews.com/pop-culture/tv/chance-perdomo-gen-v-star-dies-motorcycle-accident-27-rcna145747
+summary: Chance Perdomo, who starred in the television series "Gen V" and "Chilling
+  Adventures of Sabrina," has died as a result of a motorcycle accident.
+author: Variety
+published: 2024-03-30 23:41:16.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/pop-culture/tv/chance-perdomo-gen-v-star-dies-motorcycle-accident-27-rcna145747
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240330-chance-perdomo-wm-426p-60bd65.jpg

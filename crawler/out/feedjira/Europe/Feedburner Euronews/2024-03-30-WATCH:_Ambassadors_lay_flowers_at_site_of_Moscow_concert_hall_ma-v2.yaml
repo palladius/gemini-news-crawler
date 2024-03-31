@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: Feedburner Euronews (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.euronews.com/video/2024/03/30/watch-ambassadors-lay-flowers-at-site-of-moscow-concert-hall-massacre
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'WATCH: Ambassadors lay flowers at site of Moscow concert hall massacre'
+url: https://www.euronews.com/video/2024/03/30/watch-ambassadors-lay-flowers-at-site-of-moscow-concert-hall-massacre
+summary: 'WATCH: Foreign diplomats in Russia lay flowers at the site of last week’s
+  attack on a suburban Moscow concert hall that killed 144 people.'
+published: 2024-03-30 16:33:38.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.euronews.com/video/2024/03/30/watch-ambassadors-lay-flowers-at-site-of-moscow-concert-hall-massacre
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Feedburner Euronews
+  macro_region: Europe
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

@@ -1,0 +1,158 @@
+# [NewsFiler v2] NewsPaper: US general25 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=230975
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Far-right groups gain ground in Sweden and Germany amid migrant influx
+url: http://www.pbs.org/newshour/bb/far-right-groups-gain-ground-sweden-germany-amid-migrant-influx/
+author: Patty Morales
+categories:
+- Austria elections
+- europe
+- Far-Right Politics
+published: 2017-10-17 22:30:37.000000000 Z
+enclosure_length: '17000000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171017_riseoftheright.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GSQT-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005771851/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171017_riseoftheright.mp3">Listen to the Audio</a></p><p><strong>JUDY WOODRUFF:</strong> But first: Sunday&#8217;s elections Austria were the latest ample of a shift to the right Europe&#8217;s politics, as 31-year-old Christian Kurz was elected chancellor on an anti-immigration platform.</p>
+  <p>He may now form a government with a far-right party founded in the 1950s by former Nazis.</p>
+  <p>That follows recent elections in Germany, where a far-right party roiled the race and dealt a blow to returning leader Angela Merkel.</p>
+  <p>In Sweden, too, there is a strong challenge from the right and a neo-Nazi group that looks stand in elections next year.</p>
+  <p>Special correspondent Malcolm Brabant ha been surveying the political landscape in Germany and Sweden, and he begins his report in Scandinavia.</p>
+  <p><strong>MALCOLM BRABANT, </strong>Special Correspondent: In a Gothenburg parking lot, supporters of the Nordic Resistance Movement form up for what they hope will be their biggest-ever march, to propagate an ideology espoused by mother of eight Paulina Forslund.</p>
+  <p><strong>PAULINA FORSLUND,</strong> Nordic Resistance Movement: When white becomes the minority, they will be destroyed. I want my children to have a secure future. I want them not only for them to have a secure Sweden. I want them to have a secure world. And I want other people to fight for the same thing.</p>
+  <p><strong>MALCOLM BRABANT:</strong> When addressing her fellow neo-Nazis, Forslund&#8217;s rhetoric sharpens.</p>
+  <p><strong>PAULINA FORSLUND</strong> (through interpreter): I&#8217;m the welder&#8217;s daughter, the forester&#8217;s grandchild. My line consists of hardworking men and women. It&#8217;s people like them we can thank for the welfare system that our lying politicians are now giving away to imported scum.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Clearly expecting trouble, the movement&#8217;s leaders have a muscular protection detail, marching past a silent protest. The sign reads &#8220;No Nazis on our streets.&#8221;</p>
+  <p>This protester would only give her name as Johanna.</p>
+  <p><strong>JOHANNA,</strong> Anti-Nazi Protester: They are racist people. They are people who think that certain people are better than others, and I will not stand for that. It&#8217;s not something I think has a place in a modern society.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Experts say the resistance movement is recruiting aggressively, and believe this demonstration is emblematic of the rise of the far right.</p>
+  <p>It took place on Yom Kippur, the Jewish day of atonement.</p>
+  <p>Allan Stutzinky is leader of Gothenburg&#8217;s Jewish community.</p>
+  <p><strong>ALLAN STUTZINKY,</strong> Jewish Community Leader (through interpreter): Nazism has returned. The descendants of the murderers are organizing the same marches today, waving the same flags, shouting the same slogans, and have the same racist agenda.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Anna Johansson is a member of the governing Social Democrat Party. It&#8217;s considering outlawing the Nordic Resistance Movement.</p>
+  <p><strong>ANNA JOHANSSON,</strong> Swedish Social Democratic Party: In Sweden and in Denmark, and in other countries, extreme parties are growing, and the hatred is spreading around.</p>
+  <p><strong>MALCOLM BRABANT:</strong> &#8220;Go home to mama,&#8221; he shouts. &#8220;Nazi pigs,&#8221; chant the anti- fascist protesters, as a bottle flies through the air.</p>
+  <p><strong>DAMON,</strong> Nordic Resistance Movement: If someone calls themselves a Nazi, most of us would dissociate with that person. That&#8217;s nothing we stand for ourselves. I never call myself a Nazi. I&#8217;m a national socialist.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Hitler&#8217;s party was also called National Socialist, but Damon, a 40-year-old welder, insists he&#8217;s a nonviolent family man.</p>
+  <p><strong>DAMON:</strong> The demographic landscape of our &#8212; of the whole of Europe is changing, so, basically, it&#8217;s a concern on preserving my heritage for my family and our kin.</p>
+  <p><strong>MALCOLM BRABANT:</strong> This demonstration has been stopped short of its destination. The Nordic Resistance Movement is currently trapped between a line of police and anti-fascist protesters. And it looks as though this demonstration isn&#8217;t going any further.</p>
+  <p>Violence briefly erupts as the resistance movement tries to break through police lines, and several marchers are arrested.</p>
+  <p><strong>PAULINA FORSLUND</strong>: We are not your enemy. We are the government&#8217;s enemy.</p>
+  <p>They say we live in a democracy, but we have never had an election about if we want to take all these people in.</p>
+  <p><strong>MALCOLM BRABANT:</strong> When Europe&#8217;s refugee crisis began in 2015, Sweden copied Germany&#8217;s open-door policy, and 160,000 migrants entered the country. Two years on, Sweden has tighter borders and has begun deporting some of the newcomers.</p>
+  <p>The new atmosphere alarms Floid Gumbo, entertaining an anti-Nazi rally.</p>
+  <p><strong>FLOID GUMBO,</strong> Singer Originally from Zimbabwe: I came to Sweden over 20 years ago. The climate in Sweden, the people were so friendly, and things were completely different, more welcoming. And I feel like things have sort of gradually changed.</p>
+  <p>I&#8217;m very concerned, because I have children, because I&#8217;m thinking what I experienced here is not the same kind of climate, atmosphere that they are going to experience here.</p>
+  <p><strong>ANNA JOHANSSON:</strong> It&#8217;s not so long ago that the Nazis ruined Europe. And that makes me very worried. The German elections were terrifying, I think.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Johansson is referring to last month&#8217;s success of the right-wing Alternative For Germany Party, or AFD, when it entered Parliament for the first time with 13 percent of the vote.</p>
+  <p><strong>HUGH BRONSON,</strong> Alternative For Germany Party: The AFD only came into existence because Merkel deserted the traditional conservative Christian voters. They were looking for a home, and the AFD has offered them a safe place.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Hugh Bronson is deputy leader of the AFD in Berlin.</p>
+  <p>Now his party, the third largest in Parliament, is demanding that Angela Merkel imposes tougher immigration rules.</p>
+  <p>Your opponents claim that you are a party of hate. What&#8217;s your response to that?</p>
+  <p><strong>HUGH BRONSON:</strong> We embrace foreigners who respect our laws, pay their taxes, send their children to school, and go about their normal life. The problem is with people who abuse the system to have a better life, or let others pay for their better lives, or who are criminals.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Outside the opera house in Dresden, former East Germany, singer Luca Bergelt is dismayed by the political landscape shifting to the right.</p>
+  <p><strong>LUCA BERGELT,</strong> Singer: My fear is that they will tear Europe apart. They are going to raise up the walls again. They&#8217;re going to build new walls between the countries, and that Europe will get more close into itself.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Anti-immigrant sentiment is strong in Dresden. The city was the birthplace of a pan-European anti-Islamic movement, and it delivered the largest number of votes for the right-wing party.</p>
+  <p>On a holiday to celebrate German unification after the fall of communism, retired engineer Wilfried Schmidt explained why he sent a message to Angela Merkel.</p>
+  <p><strong>WILFRIED SCHMIDT,</strong> Retired Engineer (through interpretor): Let&#8217;s put it this way. We all need to recognize that Germany is undergoing social changes that are becoming harder to control. For one, there is mass immigration from difficult regions that is increasingly uncontrollable, of people with entirely different concepts of life, from fundamental differently structured societies that are problematic.</p>
+  <p><strong>MALCOLM BRABANT:</strong> About one million migrants poured into Germany in 2015. Chancellor Merkel consistently defended her pro-refugee policies, but now she has been punished by voters who believe she ignored their concerns.</p>
+  <p>Chancellor Merkel has promised to listen to the people who voted for the AFD, and she says she&#8217;s going to try to win them over with what she calls good politics. But she will not countenance having the party in her coalition.</p>
+  <p>But the chancellor needs to find new partners who are prepared to be tough on immigration.</p>
+  <p>As she tries to forge a coalition, the chancellor has agreed to put an annual cap of 200,000 on the number of immigrants, something she previously refused to do. But will it be enough to woo back people who deserted her at the election?</p>
+  <p>A question for Werner Patzelt, a political scientist at Dresden University.</p>
+  <p><strong>WERNER PATZELT,</strong> Dresden University: Since Chancellor Merkel has made so many U-turns in German domestic politics, it wouldn&#8217;t be a surprise if she would try to do a U-turn, also winning back AFD voters.</p>
+  <p>But this is a really hard political task, because so many of them are so much disappointed by the Christian Democratic Union in general, and by Chancellor Merkel in particular, that they will do anything to avoid going back.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Back in Sweden, the governing party is horrified at the concept of conceding ground to right-wingers, and is trying to isolate them.</p>
+  <p><strong>ANNA JOHANSSON:</strong> Experience shows that, when you adopt the ideas from these right-wing parties, they spread. These parties have their agenda implemented by other parties. And I wouldn&#8217;t want to see that happen in Sweden.</p>
+  <p><strong>FLOID GUMBO:</strong> We&#8217;re all human beings. We share this world. We&#8217;re all here. There&#8217;s enough space for us all.</p>
+  <p><strong>MALCOLM BRABANT:</strong> But that&#8217;s an appeal that an increasing number of Swedes are rejecting, as the country and much of Europe go through a crisis of identity.</p>
+  <p>For the PBS NewsHour, I&#8217;m Malcolm Brabant in Gothenburg.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/far-right-groups-gain-ground-sweden-germany-amid-migrant-influx/">Far-right groups gain ground in Sweden and Germany amid migrant influx</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=230975
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general25
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/far-right-groups-gain-ground-sweden-germany-amid-migrant-influx/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005771851/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>JUDY WOODRUFF:</strong> But first: Sunday&#8217;s elections Austria were the latest ample of a shift to the right Europe&#8217;s politics, as 31-year-old Christian Kurz was elected chancellor on an anti-immigration platform.</p>
+  <p>He may now form a government with a far-right party founded in the 1950s by former Nazis.</p>
+  <p>That follows recent elections in Germany, where a far-right party roiled the race and dealt a blow to returning leader Angela Merkel.</p>
+  <p>In Sweden, too, there is a strong challenge from the right and a neo-Nazi group that looks stand in elections next year.</p>
+  <p>Special correspondent Malcolm Brabant ha been surveying the political landscape in Germany and Sweden, and he begins his report in Scandinavia.</p>
+  <p><strong>MALCOLM BRABANT, </strong>Special Correspondent: In a Gothenburg parking lot, supporters of the Nordic Resistance Movement form up for what they hope will be their biggest-ever march, to propagate an ideology espoused by mother of eight Paulina Forslund.</p>
+  <p><strong>PAULINA FORSLUND,</strong> Nordic Resistance Movement: When white becomes the minority, they will be destroyed. I want my children to have a secure future. I want them not only for them to have a secure Sweden. I want them to have a secure world. And I want other people to fight for the same thing.</p>
+  <p><strong>MALCOLM BRABANT:</strong> When addressing her fellow neo-Nazis, Forslund&#8217;s rhetoric sharpens.</p>
+  <p><strong>PAULINA FORSLUND</strong> (through interpreter): I&#8217;m the welder&#8217;s daughter, the forester&#8217;s grandchild. My line consists of hardworking men and women. It&#8217;s people like them we can thank for the welfare system that our lying politicians are now giving away to imported scum.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Clearly expecting trouble, the movement&#8217;s leaders have a muscular protection detail, marching past a silent protest. The sign reads &#8220;No Nazis on our streets.&#8221;</p>
+  <p>This protester would only give her name as Johanna.</p>
+  <p><strong>JOHANNA,</strong> Anti-Nazi Protester: They are racist people. They are people who think that certain people are better than others, and I will not stand for that. It&#8217;s not something I think has a place in a modern society.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Experts say the resistance movement is recruiting aggressively, and believe this demonstration is emblematic of the rise of the far right.</p>
+  <p>It took place on Yom Kippur, the Jewish day of atonement.</p>
+  <p>Allan Stutzinky is leader of Gothenburg&#8217;s Jewish community.</p>
+  <p><strong>ALLAN STUTZINKY,</strong> Jewish Community Leader (through interpreter): Nazism has returned. The descendants of the murderers are organizing the same marches today, waving the same flags, shouting the same slogans, and have the same racist agenda.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Anna Johansson is a member of the governing Social Democrat Party. It&#8217;s considering outlawing the Nordic Resistance Movement.</p>
+  <p><strong>ANNA JOHANSSON,</strong> Swedish Social Democratic Party: In Sweden and in Denmark, and in other countries, extreme parties are growing, and the hatred is spreading around.</p>
+  <p><strong>MALCOLM BRABANT:</strong> &#8220;Go home to mama,&#8221; he shouts. &#8220;Nazi pigs,&#8221; chant the anti- fascist protesters, as a bottle flies through the air.</p>
+  <p><strong>DAMON,</strong> Nordic Resistance Movement: If someone calls themselves a Nazi, most of us would dissociate with that person. That&#8217;s nothing we stand for ourselves. I never call myself a Nazi. I&#8217;m a national socialist.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Hitler&#8217;s party was also called National Socialist, but Damon, a 40-year-old welder, insists he&#8217;s a nonviolent family man.</p>
+  <p><strong>DAMON:</strong> The demographic landscape of our &#8212; of the whole of Europe is changing, so, basically, it&#8217;s a concern on preserving my heritage for my family and our kin.</p>
+  <p><strong>MALCOLM BRABANT:</strong> This demonstration has been stopped short of its destination. The Nordic Resistance Movement is currently trapped between a line of police and anti-fascist protesters. And it looks as though this demonstration isn&#8217;t going any further.</p>
+  <p>Violence briefly erupts as the resistance movement tries to break through police lines, and several marchers are arrested.</p>
+  <p><strong>PAULINA FORSLUND</strong>: We are not your enemy. We are the government&#8217;s enemy.</p>
+  <p>They say we live in a democracy, but we have never had an election about if we want to take all these people in.</p>
+  <p><strong>MALCOLM BRABANT:</strong> When Europe&#8217;s refugee crisis began in 2015, Sweden copied Germany&#8217;s open-door policy, and 160,000 migrants entered the country. Two years on, Sweden has tighter borders and has begun deporting some of the newcomers.</p>
+  <p>The new atmosphere alarms Floid Gumbo, entertaining an anti-Nazi rally.</p>
+  <p><strong>FLOID GUMBO,</strong> Singer Originally from Zimbabwe: I came to Sweden over 20 years ago. The climate in Sweden, the people were so friendly, and things were completely different, more welcoming. And I feel like things have sort of gradually changed.</p>
+  <p>I&#8217;m very concerned, because I have children, because I&#8217;m thinking what I experienced here is not the same kind of climate, atmosphere that they are going to experience here.</p>
+  <p><strong>ANNA JOHANSSON:</strong> It&#8217;s not so long ago that the Nazis ruined Europe. And that makes me very worried. The German elections were terrifying, I think.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Johansson is referring to last month&#8217;s success of the right-wing Alternative For Germany Party, or AFD, when it entered Parliament for the first time with 13 percent of the vote.</p>
+  <p><strong>HUGH BRONSON,</strong> Alternative For Germany Party: The AFD only came into existence because Merkel deserted the traditional conservative Christian voters. They were looking for a home, and the AFD has offered them a safe place.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Hugh Bronson is deputy leader of the AFD in Berlin.</p>
+  <p>Now his party, the third largest in Parliament, is demanding that Angela Merkel imposes tougher immigration rules.</p>
+  <p>Your opponents claim that you are a party of hate. What&#8217;s your response to that?</p>
+  <p><strong>HUGH BRONSON:</strong> We embrace foreigners who respect our laws, pay their taxes, send their children to school, and go about their normal life. The problem is with people who abuse the system to have a better life, or let others pay for their better lives, or who are criminals.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Outside the opera house in Dresden, former East Germany, singer Luca Bergelt is dismayed by the political landscape shifting to the right.</p>
+  <p><strong>LUCA BERGELT,</strong> Singer: My fear is that they will tear Europe apart. They are going to raise up the walls again. They&#8217;re going to build new walls between the countries, and that Europe will get more close into itself.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Anti-immigrant sentiment is strong in Dresden. The city was the birthplace of a pan-European anti-Islamic movement, and it delivered the largest number of votes for the right-wing party.</p>
+  <p>On a holiday to celebrate German unification after the fall of communism, retired engineer Wilfried Schmidt explained why he sent a message to Angela Merkel.</p>
+  <p><strong>WILFRIED SCHMIDT,</strong> Retired Engineer (through interpretor): Let&#8217;s put it this way. We all need to recognize that Germany is undergoing social changes that are becoming harder to control. For one, there is mass immigration from difficult regions that is increasingly uncontrollable, of people with entirely different concepts of life, from fundamental differently structured societies that are problematic.</p>
+  <p><strong>MALCOLM BRABANT:</strong> About one million migrants poured into Germany in 2015. Chancellor Merkel consistently defended her pro-refugee policies, but now she has been punished by voters who believe she ignored their concerns.</p>
+  <p>Chancellor Merkel has promised to listen to the people who voted for the AFD, and she says she&#8217;s going to try to win them over with what she calls good politics. But she will not countenance having the party in her coalition.</p>
+  <p>But the chancellor needs to find new partners who are prepared to be tough on immigration.</p>
+  <p>As she tries to forge a coalition, the chancellor has agreed to put an annual cap of 200,000 on the number of immigrants, something she previously refused to do. But will it be enough to woo back people who deserted her at the election?</p>
+  <p>A question for Werner Patzelt, a political scientist at Dresden University.</p>
+  <p><strong>WERNER PATZELT,</strong> Dresden University: Since Chancellor Merkel has made so many U-turns in German domestic politics, it wouldn&#8217;t be a surprise if she would try to do a U-turn, also winning back AFD voters.</p>
+  <p>But this is a really hard political task, because so many of them are so much disappointed by the Christian Democratic Union in general, and by Chancellor Merkel in particular, that they will do anything to avoid going back.</p>
+  <p><strong>MALCOLM BRABANT:</strong> Back in Sweden, the governing party is horrified at the concept of conceding ground to right-wingers, and is trying to isolate them.</p>
+  <p><strong>ANNA JOHANSSON:</strong> Experience shows that, when you adopt the ideas from these right-wing parties, they spread. These parties have their agenda implemented by other parties. And I wouldn&#8217;t want to see that happen in Sweden.</p>
+  <p><strong>FLOID GUMBO:</strong> We&#8217;re all human beings. We share this world. We&#8217;re all here. There&#8217;s enough space for us all.</p>
+  <p><strong>MALCOLM BRABANT:</strong> But that&#8217;s an appeal that an increasing number of Swedes are rejecting, as the country and much of Europe go through a crisis of identity.</p>
+  <p>For the PBS NewsHour, I&#8217;m Malcolm Brabant in Gothenburg.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/far-right-groups-gain-ground-sweden-germany-amid-migrant-influx/">Far-right groups gain ground in Sweden and Germany amid migrant influx</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '9:12'
+itunes_summary: 'Sunday’s election in Austria brought victory to 31-year-old Sebastian
+  Kurz, who was elected chancellor on an anti-immigrant platform. Earlier, a strengthened
+  far-right party dealt a blow to returning leader Angela Merkel in Germany’s election.
+  As Sweden’s election approaches next year, special correspondent Michael Brabant
+  surveys the changing political landscape in Europe. '
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/RTS1GSQT-1024x659.jpg

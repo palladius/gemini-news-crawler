@@ -1,0 +1,95 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517947
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517947
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/AP_17058201688885/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"What &lt;em&gt;Moonlight&lt;/em&gt;’s
+  Win Says About the Oscars’ Future\"\n            >\n        \n        \n    \n\n\n
+  \   \n    \n\n</figure>\n\n<p>The manner of <em>Moonlight</em>’s Best Picture win
+  at the Oscars may have been <a href=\"https://www.theatlantic.com/liveblogs/2017/02/2017-oscars/517761/\">bizarre
+  and shocking</a>, but in toppling expected favorite <em>La La Land</em>, Barry Jenkins’s
+  film set a number of milestones. It’s the lowest-budgeted film to win the prize
+  since Delbert Mann’s <em>Marty</em> in 1955; if adjusting for inflation, it’s the
+  lowest ever. It’s the first movie centered on an LGBTQ character to be named Best
+  Picture, and the first whose cast is entirely people of color. Beyond that, it’s
+  incredible that <em>Moonlight</em> beat <em>La La Land</em> simply because the latter
+  seemed like a film aimed at Academy voters—a well-made original musical about artistry
+  and Hollywood dreams, shot through with nostalgia for the industry’s Golden Age.</p>\n\n<aside
+  class=\"callout-placeholder\" data-source=\"curated\"></aside>\n\n<p>But maybe it
+  shouldn’t be so surprising that <em>Moonlight </em>took Best Picture. <a href=\"https://www.theatlantic.com/entertainment/archive/2016/10/moonlight-barry-jenkins-review/505409/\">It’s
+  a stunning film</a>, but also in some ways one that fits a mold the Academy has
+  been leaning toward in recent years. For decades, it was very unusual for the movie
+  with the most awards of the night to lose the Best Picture race. But in recent years,
+  that’s been the norm. For decades, splits between Best Picture and Best Director
+  (as happened at last night’s Oscars) were a relative rarity; in the last 20 years,
+  it’s happened 8 times. <em>Moonlight</em> is a unique film, and one that tells the
+  kind of story the Academy Awards have largely ignored through its history—but it’s
+  also the kind of smaller, more intimate tale that voters have started warming to.</p>\n\n<p><em>Moonlight</em>
+  won three Academy Awards this year: Best Picture, Best Supporting Actor (Mahershala
+  Ali), and Best Adapted Screenplay for Jenkins and Tarell Alvin McCraney. Last year’s
+  Best Picture winner <em>Spotlight</em> took only two trophies, and in 2015, <em>Birdman
+  </em>won four. The year before that, <em>12 Years a Slave </em>won three, as did
+  <em>Argo </em>in 2013. In every case, there was another more opulent production
+  that won at least as many trophies, if not more: <em>The Revenant</em>, <em>The
+  Grand Budapest Hotel</em>, <em>Gravity</em>, and <em>Life of Pi</em>, respectively
+  (with all but <em>Budapest </em>winning Best Director but not Best Picture). <em>La
+  La Land</em> seems to belong to this new ticket-splitting norm, where voters chalk
+  up a bunch of technical wins for the glitzy frontrunner, but give Best Picture to
+  the more critically acclaimed, smaller production.</p>\n\n<p>Again, this is not
+  to discount <em>Moonlight</em>’s game-changing triumph. Though movies like <em>Spotlight</em>
+  and <em>Birdman</em> were independent works, they were made on a much bigger budget
+  and distributed by more established indie wings of major studios (<em>Moonlight</em>’s
+  distributor was A24, a company <a href=\"http://www.slate.com/articles/arts/culturebox/2015/09/profile_of_the_independent_film_distributor_a24_the_company_behind_spring.html\">founded
+  only five years ago</a> that has quickly become one of the most respected names
+  in American art cinema). Still, only one major studio has won Best Picture in the
+  last decade—Warner Bros. (for <em>Argo </em>and <em>The Departed</em>). As Hollywood’s
+  major production companies have tilted away from prestige films to focus more heavily
+  on big tentpole franchises, the Best Picture nominations list is mostly filled with
+  indie and “mid-major” companies, (with streaming service Amazon making <a href=\"https://www.theatlantic.com/entertainment/archive/2017/01/how-amazon-got-a-best-picture-oscar-nomination/514325/\">its
+  own breakthrough</a> this year for <em>Manchester by the Sea</em>).</p>\n\n<p>If
+  things had been already edging in this direction, then <em>Moonlight</em> might
+  be the beginning of an even bigger sea change. Of this year’s nine Best Picture
+  nominees, it is the lowest-grossing (having made $22 million in the fourth months
+  since its release, behind the next lowest <em>Hell or High Water</em> with $27 million).
+  The Oscars used to have a certain reverence for perfectly well reviewed films that
+  broke out in a major way. It’s how consensus choices like <em>A Beautiful Mind</em>,
+  <em>Gladiator</em>, <em>Braveheart, </em>and <em>Forrest Gump </em>took the prize
+  over more acclaimed movies. <em>La La Land </em>fits that mold well—but that mold
+  may have been broken.</p>\n\n<p>It helps that <em>Moonlight </em>was universally
+  heralded, getting the kind of rapturous critical raves that come once in a generation,
+  rather than once a year. It was also a beautifully made film on every level, attracting
+  support from a wider swath of Academy branches (it was nominated for its music,
+  cinematography, and editing along with the expected writing, acting, and directing
+  nods). That’s crucial for a Best Picture win, because people from every Academy
+  branch get to vote on the winners, and it’s what had kept smaller, less technically
+  impressive indie movies from winning in the past. Perhaps next year the trophy will
+  go to some big epic that hits at the box office, like Christopher Nolan’s <em>Dunkirk</em>,
+  and this recent pattern will be upended. Either way, <em>Moonlight</em>’s win is
+  shocking enough to be remembered forever. The thing to watch for now is if it’s
+  a magical Oscars anomaly, or a sign of profound change for the Academy.</p>\n"
+author: David Sims
+title_type:
+published: 2017-02-27 17:49:00.000000000 Z
+summary: The stunning film’s unexpected triumph is part of a larger trend toward more
+  small and intimate projects for the Academy.
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/what-moonlights-win-says-about-the-oscars-future/517947/
+title: What <em>Moonlight</em>’s Win Says About the Oscars’ Future
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

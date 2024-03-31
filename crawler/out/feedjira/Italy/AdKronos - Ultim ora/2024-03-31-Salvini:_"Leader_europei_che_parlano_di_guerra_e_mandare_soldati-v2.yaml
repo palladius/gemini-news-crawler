@@ -1,0 +1,29 @@
+# [NewsFiler v2] NewsPaper: AdKronos - Ultim ora (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.adnkronos.com/politica/salvini-leader-europei-che-parlano-di-guerra-e-mandare-soldati-sono-un-pericolo_3T5tyqXQgLZGQKKwelMRgg
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Salvini: "Leader europei che parlano di guerra e mandare soldati sono un pericolo"'
+url: https://www.adnkronos.com/politica/salvini-leader-europei-che-parlano-di-guerra-e-mandare-soldati-sono-un-pericolo_3T5tyqXQgLZGQKKwelMRgg
+summary: '(Adnkronos) - Il videomessaggio per la Pasqua pubblicato sui social: "Non
+  si può accogliere, integrare nessuno se si cancellano le radici più profonde del
+  nostro essere"'
+author: webinfo@adnkronos.com (Web Info)
+categories:
+- politica
+published: 2024-03-31 08:01:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.adnkronos.com/politica/salvini-leader-europei-che-parlano-di-guerra-e-mandare-soldati-sono-un-pericolo_3T5tyqXQgLZGQKKwelMRgg
+carlessian_info:
+  news_filer_version: 2
+  newspaper: AdKronos - Ultim ora
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://www.adnkronos.com/resources/028b-1a8a0e971adf-5be45792880c-1000/format/medium/salvini_video_pasqua.jpeg

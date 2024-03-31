@@ -1,0 +1,41 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7497268
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Putin arruola 147mila soldati con un decreto per la leva obbligatoria. Varsavia
+  alza ancora i caccia nella notte
+url: https://www.ilfattoquotidiano.it/2024/03/31/putin-arruola-147mila-soldati-con-un-decreto-per-la-leva-obbligatoria-varsavia-alza-ancora-i-caccia-nella-notte/7497268/
+summary: |
+  <p>Putin arruola altri 150mila soldati. Il presidente russo ha firmato un decreto per l’arruolamento obbligatorio nelle forze armate entro il 15 luglio. Il provvedimento, scrive l’agenzia Tass, riguarda tutti i cittadini della Federazione russa fra i 18 e i 30 anni ad eccezione di coloro che abbiano giù compiuto 27 anni prima della fine del [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/putin-arruola-147mila-soldati-con-un-decreto-per-la-leva-obbligatoria-varsavia-alza-ancora-i-caccia-nella-notte/7497268/">Putin arruola 147mila soldati con un decreto per la leva obbligatoria. Varsavia alza ancora i caccia nella notte</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: F. Q.
+categories:
+- Mondo
+- Guerra Russia Ucraina
+published: 2024-03-31 07:48:03.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7497268
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/putin-arruola-147mila-soldati-con-un-decreto-per-la-leva-obbligatoria-varsavia-alza-ancora-i-caccia-nella-notte/7497268/#respond
+content: |
+  <p>Putin arruola altri 150mila soldati. Il presidente russo ha firmato un decreto per l’<strong>arruolamento</strong> <strong>obbligatorio</strong> nelle forze armate entro il 15 luglio. Il provvedimento, scrive l<strong>’agenzia Tass</strong>, riguarda tutti i cittadini della Federazione russa <strong>fra i 18 e i 30 anni</strong> ad eccezione di coloro che abbiano giù compiuto 27 anni prima della fine del 2023 e di coloro che hanno 28 o 29 anni o sono in riserva. Si tratta di <strong>147.000 coscritti</strong>, che entro l’estate saranno arruolati e inviati presumibilmente a combattere in Ucraina. Si prevede anche il <strong>congedo</strong> per i militari che abbiano completato il servizio militare. Secondo dati ufficiali, in autunno erano stati arruolati per un anno in <strong>130.000</strong>.</p>
+  <p>Intanto sul campo le forze armate russe affermano di aver abbattuto in appena più di 24 ore <strong>105 droni e missili</strong> lanciati dall’Ucraina, soprattutto missili a lancio multiplo Himars e Vampire. Lo scrive il portavoce del<strong> Gruppo di combattimento meridionale russo</strong>, Serghei Rumyantsev, citato dall’agenzia <em>Tass</em>. Dall&#8217;altro lato fanno sapere che nella notte fra sabato e domenica le forze di difesa aerea ucraina hanno distrutto <strong>18 bersagli aerei russi</strong>, fra missili e droni: nove missili da crociera Kh-101/Kh-555 e nove UAV d’attacco Shahed-136/131. A riferirlo è <strong>Ukrinform</strong>, che cita il comandante dell’Aeronautica di Kiev, Mikola Oleshchuk. I missili sganciati dai bombardieri russi hanno attaccato le regioni occidentali dell’Ucraina.</p>
+  <p>Nella notte di Pasqua, poi, la <strong>Polonia</strong> ha fatto alzare in volo i caccia per proteggere il proprio spazio aereo a seguito di un attacco missilistico russo sull&#8217;Ucraina. &#8220;Gli aerei polacchi e alleati sono in volo, il che potrebbe portare a un aumento del livello di rumore soprattutto nella parte sudorientale del Paese&#8221;, ha comunicato l’esercito polacco sul suo account X dopo aver rilevato &#8220;un’intensa attività dell’aviazione a lungo raggio della Federazione Russa sul territorio dell’Ucraina&#8221;. Varsavia sottolinea quindi che &#8220;sono state avviate tutte le procedure necessarie per garantire la<strong> sicurezza dello spazio aereo</strong> polacco e il Centro per le operazioni aeree monitora costantemente la situazione&#8221;.</p>
+  <p>Pochi giorni fa il viceministro degli Esteri polacco <strong>Andrzej Szejna</strong> aveva detto che il suo governo sta &#8220;valutando la possibilità di abbattere i missili che volano verso il territorio della Nato&#8221;. Il 24 marzo scorso un missile da crociera russo ha violato brevemente i cieli della Polonia. Due giorni prima i jet di Varsavia si erano già alzati in volo a protezione dello spazio aereo polacco a causa degli attacchi russi sull&#8217;Ucraina.</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/putin-arruola-147mila-soldati-con-un-decreto-per-la-leva-obbligatoria-varsavia-alza-ancora-i-caccia-nella-notte/7497268/">Putin arruola 147mila soldati con un decreto per la leva obbligatoria. Varsavia alza ancora i caccia nella notte</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/29/med-1200x630-24-1050x551.jpg

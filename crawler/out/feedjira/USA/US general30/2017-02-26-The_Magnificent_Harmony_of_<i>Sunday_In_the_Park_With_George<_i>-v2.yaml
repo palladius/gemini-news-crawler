@@ -1,0 +1,102 @@
+# [NewsFiler v2] NewsPaper: US general30 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:thewire.com,2017:50-517647
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "title_type", "published", "summary", "links", "title", "categories"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:thewire.com,2017:50-517647
+content: "\n\n \n<figure class=\"lead-image\">\n\n    \n        \n        \n        \n
+  \           \n            <img\n                src=\"http://cdn.thewire.com/media/img/mt/2017/02/Sunday_in_the_Park_with_George_Jake_Gyllenhaal_0965_photo_credit_Matthew_Murphy/lead_large.jpg\"\n
+  \               alt=\"Image \"\n                title=\"The Magnificent Harmony
+  of &lt;i&gt;Sunday In the Park With George&lt;/i&gt;\"\n            >\n        \n
+  \       \n    \n\n\n    \n    \n\n</figure>\n\n<p><em>Sunday In the Park With George</em>,
+  currently playing in a limited run at New York’s Hudson Theatre starring Jake Gyllenhaal,
+  is blissfully free of politics—a two-and-a-half hour respite from contemporary anxieties,
+  a holiday on the banks of the Seine, bathed in sunlight and glorious harmony. And
+  yet, without ever straining to, it makes one of the most persuasive cases imaginable
+  for the power of artists, and how deeply integral their work is to a well-ordered
+  society. Art shows us, as Gyllenhaal’s George demonstrates to his mother in one
+  of the first act’s most moving songs, how life can be beautiful.</p>\n\n<p>But rather
+  than simply celebrating the fruits of creative labor, <em>Sunday In the Park </em>is
+  a testament to the <em>process</em> of making art; a substantial peek inside the
+  mind of someone wrestling with their own genius. When the show—with music and lyrics
+  by Stephen Sondheim and book by James Lapine—debuted in 1984, it was interpreted
+  as one of Sondheim’s most personal expressions, coming on the heels of his critical
+  and financial bomb, <em>Merrily We Roll Along.</em> George, the show’s hero, is
+  obsessed with his paintings, to the detriment of everything else in his life. But
+  as the show unfolds, moving from 19th-century France to 1980s Chicago, it explores
+  the reasoning behind his single-minded fixation, and how George’s role as an observer
+  lets everyone else see the world differently, too.</p>\n\n<aside class=\"callout-placeholder\"
+  data-source=\"curated\"></aside>\n\n<p>That’s largely because this revival, directed
+  by Sarna Lapine (James Lapine’s niece), is so magnificent and so emotionally rich,
+  anchored by performances by Gyllenhaal and Annaleigh Ashford as George’s mistress
+  and artist’s model, Dot. The show is based around Georges Seurat’s 1884 pointillist
+  masterwork, <em>A Sunday Afternoon on the Island of La Grande Jatte, </em>and George
+  is a loose version of Seurat, with his life broadly fictionalized. As he sketches
+  studies of Dot, who grumbles about the discomfort, the heat, and George’s fierce
+  focus on his work, projections of his sketches appear on a backdrop onstage, rendered
+  for the audience to witness in real time. All the while George narrates his thought
+  process: the challenge of bringing order and harmony to a blank canvas.</p>\n\n<p>Gyllenhaal’s
+  gifts as an actor are well-documented by now, so it’s his vocal talents that may
+  come as a surprise (observe, if you haven’t already, Cary Fukunaga’s short <a href=\"http://www.indiewire.com/2017/02/jake-gyllenhaal-sunday-in-the-park-with-george-cary-fukunaga-1201779232/\">video</a>
+  of Gyllenhaal singing George’s “Finishing the Hat” at the Hudson). His voice is
+  rich, measured, and emphatic. But it’s the acting behind it that really cuts deep,
+  in a remarkable fusion of technical accomplishment and intense absorption in a role.
+  When he sings about mapping out a sky, sensing voices outside but being totally
+  lost in focus, “dizzy from the height” of falling back to earth, you’re tempted,
+  like Dot, to forgive him everything.</p>\n\n<p>Ashford, who won a Tony for the 2014
+  revival of the<strong> </strong>daffy comedy <em>You Can’t Take It With You</em>,
+  is George’s perfect foil as Dot: sassy, practical, and infinitely charming. But
+  she also conveys the exquisite pain of loving someone so inaccessible, and her chemistry
+  with Gyllenhaal is pure. Toward the end of the first act, when<strong> </strong>George<strong>
+  </strong>directs the many elements and characters to come together in a synergy
+  of music and visuals, he places Dot<strong> </strong>at the front of the “painting,”
+  as if to keep her close. But the supporting cast, too, are adept at bringing comic
+  relief, and balancing the harmony of the show: Robert Sean Leonard as Jules, an
+  accomplished artist; Penny Fuller as George’s mother, lost in nostalgia; Phillip
+  Boykin as a foulmouthed and obstreperous boatman. The peripheral characters by their
+  nature are fleeting archetypes, included to provide contrast with the more textured
+  portrayals of George and Dot.</p>\n\n<p>The second act of <i>Sunday In the Park</i>,
+  which leaps ahead to 1984—with Gyllenhaal playing another artist named George and
+  Ashford his grandmother, Marie, Dot’s daughter—has often seemed jarring after the
+  perfection of the first act, but Lapine manages to make the two halves more symbiotic
+  by emphasizing how George’s art is tied to his great-grandfather’s. Just as Seurat
+  used pointillism and the science of light to create new colors and impressions,
+  1984 George debuts a light installation called a “chromolume” at the Art Institute
+  of Chicago. The work, created by the scenic designer Beowulf Boritt, looms above
+  the audience in a dazzling display of illuminations, weaving and undulating overhead.
+  Ashford, seamlessly segueing into playing a 90-year-old southern grandmother, spells
+  out George’s isolation and creative frustration in “Children and Art,” a song addressed
+  to her mother in the painting. The cracks in her vocals, and the deliberate weakness
+  of Marie’s voice, make it one of the most moving numbers in the show.</p>\n\n<p>Modern
+  George’s frustrations are different but rooted in the same fears—unlike his great-grandfather,
+  he has to fundraise for his expensive, technologically advanced works, and respond
+  to the criticism it inevitably receives. But in the song “Move On,” it becomes clear
+  that the two are one and the same, straining to make art that counts, and to do
+  something new. The resolution in the show comes from realizing that just doing the
+  work is enough—everything else is out of an artist’s hands. This production, so
+  deftly directed, emphasizes both the value in the struggle, and the timelessness
+  of great art. It’s powerful indeed to have the experience, even briefly, of seeing
+  the world through the eyes of a visionary.</p>\n"
+author: Sophie Gilbert
+title_type:
+published: 2017-02-26 12:00:00.000000000 Z
+summary: The Broadway revival of the Sondheim musical, starring Jake Gyllenhaal, is
+  a glorious tribute to the process of making art.
+links:
+- https://www.theatlantic.com/entertainment/archive/2017/02/sunday-in-the-park-with-george-jake-gyllenhaal-annaleigh-ashford-review/517647/
+title: The Magnificent Harmony of <i>Sunday In the Park With George</i>
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general30
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- title_type
+- published
+- summary
+- links
+- title
+- categories
+categories:
+- Culture

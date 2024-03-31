@@ -1,0 +1,23 @@
+# [NewsFiler v2] NewsPaper: US general3 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: eb3357be-8b35-4e1c-a6c5-bb6e24af56e9
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Vegas landmark Tropicana hotel closing next week
+url: https://www.cbsnews.com/video/vegas-landmark-tropicana-hotel-closing-next-week/
+summary: The Vegas landmark hotel Tropicana, which opened in the 1950s and became
+  a symbol of the city's colorful history, will close its doors next week. Mark Strassmann
+  reports.
+published: 2024-03-31 02:06:12.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: eb3357be-8b35-4e1c-a6c5-bb6e24af56e9
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general3
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

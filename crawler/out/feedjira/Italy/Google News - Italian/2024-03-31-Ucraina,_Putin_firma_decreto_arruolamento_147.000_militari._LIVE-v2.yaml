@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiWmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YdIBXmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YS9hbXA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Ucraina, Putin firma decreto arruolamento 147.000 militari. LIVE - Sky Tg24 '
+url: https://news.google.com/rss/articles/CBMiWmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YdIBXmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YS9hbXA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiWmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YdIBXmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YS9hbXA?oc=5"
+  target="_blank">Ucraina, Putin firma decreto arruolamento 147.000 militari. LIVE</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Sky Tg24 </font></li><li><a href="https://news.google.com/rss/articles/CBMi5wFodHRwczovL3d3dy5jb3JyaWVyZS5pdC9lc3RlcmkvZGlyZXR0YS1saXZlLzI0X21hcnpvXzMxL3VjcmFpbmEtcnVzc2lhLW5vdGl6aWUtb2dnaS1kaXJldHRhLXplbGVuc2t5LXVzYS1kYXRlY2ktbWlzc2lsaS1hdGFjbXMtY29scGlyZS1jcmltZWEtbGljZW56aWEtc3VvLXByaW1vLWFzc2lzdGVudGUtYWx0cmktZnVuemlvbmFyaS03NWUyNDRiOC1lZWI3LTExZWUtOTkwZi1mODFkNWFiOGNkY2Iuc2h0bWzSAeoBaHR0cHM6Ly93d3cuY29ycmllcmUuaXQvZXN0ZXJpL2RpcmV0dGEtbGl2ZS8yNF9tYXJ6b18zMS91Y3JhaW5hLXJ1c3NpYS1ub3RpemllLW9nZ2ktZGlyZXR0YS16ZWxlbnNreS11c2EtZGF0ZWNpLW1pc3NpbGktYXRhY21zLWNvbHBpcmUtY3JpbWVhLWxpY2VuemlhLXN1by1wcmltby1hc3Npc3RlbnRlLWFsdHJpLWZ1bnppb25hcmktNzVlMjQ0YjgtZWViNy0xMWVlLTk5MGYtZjgxZDVhYjhjZGNiX2FtcC5odG1s?oc=5"
+  target="_blank">Ucraina-Russia, le notizie di oggi in diretta | Zelensky agli Usa:
+  «Dateci i missili Atacms per colpire la...</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere
+  della Sera</font></li><li><a href="https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LnRnY29tMjQubWVkaWFzZXQuaXQvbW9uZG8vdWNyYWluYS1ndWVycmEtcnVzc2lhLWdpb3Juby03NjctZGlyZXR0YV83OTkzNzY4OC0yMDI0MDJrLnNodG1s0gE4aHR0cHM6Ly9hbXAudGdjb20yNC5tZWRpYXNldC5pdC90Z2NvbTI0L2FydGljbGUvNzk5Mzc2ODg?oc=5"
+  target="_blank">Ucraina, Putin firma il decreto d''arruolamento di 147mila militari
+  | Zelensky agli Stati Uniti: "Dateci i missili per colpire la Crimea"</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">TGCOM</font></li><li><a href="https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5pbGZhdHRvcXVvdGlkaWFuby5pdC8yMDI0LzAzLzMxL3B1dGluLWFycnVvbGEtMTQ3bWlsYS1zb2xkYXRpLWNvbi11bi1kZWNyZXRvLXBlci1sYS1sZXZhLW9iYmxpZ2F0b3JpYS12YXJzYXZpYS1hbHphLWFuY29yYS1pLWNhY2NpYS1uZWxsYS1ub3R0ZS83NDk3MjY4L9IBqAFodHRwczovL3d3dy5pbGZhdHRvcXVvdGlkaWFuby5pdC8yMDI0LzAzLzMxL3B1dGluLWFycnVvbGEtMTQ3bWlsYS1zb2xkYXRpLWNvbi11bi1kZWNyZXRvLXBlci1sYS1sZXZhLW9iYmxpZ2F0b3JpYS12YXJzYXZpYS1hbHphLWFuY29yYS1pLWNhY2NpYS1uZWxsYS1ub3R0ZS83NDk3MjY4L2FtcC8?oc=5"
+  target="_blank">Putin arruola 147mila soldati con un decreto per la leva obbligatoria</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">Il Fatto Quotidiano</font></li></ol>'
+published: 2024-03-31 07:42:22.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiWmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YdIBXmh0dHBzOi8vdGcyNC5za3kuaXQvbW9uZG8vMjAyNC8wMy8zMS91Y3JhaW5hLXJ1c3NpYS1ndWVycmEtdWx0aW1lLW5vdGl6aWUtMzEtbWFyem8tZGlyZXR0YS9hbXA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

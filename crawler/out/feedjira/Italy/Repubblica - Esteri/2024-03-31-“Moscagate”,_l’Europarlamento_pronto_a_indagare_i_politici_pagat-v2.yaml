@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Esteri (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.repubblica.it/esteri/2024/03/31/news/moscagate_russiagate_strasburgo_europarlamento_inchiesta_sovranisti_meloni_salvini_tremano-422401533/?rss
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: "“Moscagate”, l’Europarlamento pronto a indagare i politici pagati da Mosca:
+  tremano i gruppi sovranisti di Salvini e Meloni"
+url: https://www.repubblica.it/esteri/2024/03/31/news/moscagate_russiagate_strasburgo_europarlamento_inchiesta_sovranisti_meloni_salvini_tremano-422401533/?rss
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- esteri
+published: 2024-03-31 00:00:00.000000000 Z
+enclosure_length: '38373'
+enclosure_type: image/jpeg
+enclosure_url: https://www.repstatic.it/content/nazionale/img/2024/03/30/214856013-6ad44d04-e419-4601-8ad1-1b996ef65cc6.jpg
+summary: <p><a href="https://www.repubblica.it/esteri/2024/03/31/news/moscagate_russiagate_strasburgo_europarlamento_inchiesta_sovranisti_meloni_salvini_tremano-422401533/?rssimage">
+  <img src="https://www.repstatic.it/content/nazionale/img/2024/03/30/214856013-6ad44d04-e419-4601-8ad1-1b996ef65cc6.jpg"
+  width="140" align="left" hspace="10"></a></p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.repubblica.it/esteri/2024/03/31/news/moscagate_russiagate_strasburgo_europarlamento_inchiesta_sovranisti_meloni_salvini_tremano-422401533/?rss
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Esteri
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id

@@ -24,6 +24,7 @@ entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
 carlessian_info:
   news_filer_version: 2
   newspaper: Repubblica - Esteri
+  macro_region: Italy
 rss_fields:
 - title
 - url

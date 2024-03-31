@@ -1,0 +1,21 @@
+# [NewsFiler v2] NewsPaper: US general16 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: colonial-dartmouth-built-1921-sold-080235222.html
+# [NewsFiler v2] entries.keys: ["title", "url", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'A colonial in Dartmouth built in 1921 sold for over $800K: Weekly home sales'
+url: https://finance.yahoo.com/news/colonial-dartmouth-built-1921-sold-080235222.html
+published: 2024-03-31 08:02:35.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: colonial-dartmouth-built-1921-sold-080235222.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general16
+  macro_region: USA
+rss_fields:
+- title
+- url
+- published
+- entry_id
+- image
+image: https://media.zenfs.com/en/the-standard-times/c03f4b857c03fde21b38182a1d8cf789

@@ -1,0 +1,31 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:rep-roma:422401644
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Il folle test del meccanico sulla Mercedes di un cliente, corsa in città a
+  100 km orari: così è morta Reginella, investita a 7 anni'
+url: https://roma.repubblica.it/cronaca/2024/03/31/news/morte_regina_pietra_7_anni_meccanico_corsa_100_km_orari_due_indagati-422401644/
+summary: Si indaga per omicidio stradale aggravato. Sul registro degli indagati sono
+  stati iscritti i conducenti di due delle auto. Il 51enne che viaggiava a velocità
+  folle e la donna alla guida della Lancia Lybra che non ha rispettato lo stop
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-31 06:17:30.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:rep-roma:422401644
+updated: 2024-03-31 06:17:30.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

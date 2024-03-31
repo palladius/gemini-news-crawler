@@ -19,6 +19,7 @@ entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
 carlessian_info:
   news_filer_version: 2
   newspaper: Il Fatto
+  macro_region: Italy
 rss_fields:
 - title
 - url

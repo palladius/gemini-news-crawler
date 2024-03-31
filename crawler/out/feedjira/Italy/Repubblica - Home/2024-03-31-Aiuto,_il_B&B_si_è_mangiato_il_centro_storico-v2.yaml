@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: Repubblica - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: rep-locali:repubblica:422401499
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "updated"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Aiuto, il B&B si è mangiato il centro storico
+url: https://www.repubblica.it/cronaca/2024/03/31/news/affitti_brevi_temporanei_turisti_airbnb_citta_centro_storico-422401499/
+summary: 'I prezzi lievitano, le città si svuotano, pochi risultati dalla legge Santanchè.
+  E dall’estero avanza un nuovo fronte di concorrenza nel mercato abitativo: gli affitti
+  a medio termine per nomadi digitali e fuorisede'
+author: repubblicawww@repubblica.it (Redazione Repubblica.it)
+categories:
+- Cronaca
+published: 2024-03-31 03:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: rep-locali:repubblica:422401499
+updated: 2024-03-31 03:00:00.000000000 Z
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Repubblica - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- updated

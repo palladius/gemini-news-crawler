@@ -12,6 +12,7 @@ entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
 carlessian_info:
   news_filer_version: 2
   newspaper: US general2
+  macro_region: USA
 rss_fields:
 - title
 - url

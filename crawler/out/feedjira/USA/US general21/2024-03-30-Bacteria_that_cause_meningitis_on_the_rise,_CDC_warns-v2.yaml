@@ -1,0 +1,37 @@
+# [NewsFiler v2] NewsPaper: US general21 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.theguardian.com/us-news/2024/mar/30/cdc-bacteria-meningitis-meningococcal-disease
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Bacteria that cause meningitis on the rise, CDC warns
+url: https://www.theguardian.com/us-news/2024/mar/30/cdc-bacteria-meningitis-meningococcal-disease
+summary: <p>US public health agency alert warns of 422 cases reported in the country
+  last year, the highest number since 2014</p><p>An invasive meningococcal <a href="https://www.theguardian.com/science/infectiousdiseases">disease</a>
+  – which can be deadly to infected people – is on the rise, the US Centers for Disease
+  Control and Prevention (CDC) warned.</p><p>In an alert <a href="https://emergency.cdc.gov/han/2024/han00505.asp">issued</a>
+  on Thursday, the CDC warned that there were 422 cases of the disease reported in
+  the US last year, the highest annual number of cases reported since 2014.</p> <a
+  href="https://www.theguardian.com/us-news/2024/mar/30/cdc-bacteria-meningitis-meningococcal-disease">Continue
+  reading...</a>
+author: Maya Yang
+categories:
+- US news
+- Infectious diseases
+- Meningitis
+- Health
+published: 2024-03-30 19:28:42.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.theguardian.com/us-news/2024/mar/30/cdc-bacteria-meningitis-meningococcal-disease
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general21
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://i.guim.co.uk/img/media/c5b4a39ef322770691e3320e3be1995a776ad6d8/0_0_3008_1806/master/3008.jpg?width=140&quality=85&auto=format&fit=max&s=126a0d2de0092da8dd95ce35f830985f

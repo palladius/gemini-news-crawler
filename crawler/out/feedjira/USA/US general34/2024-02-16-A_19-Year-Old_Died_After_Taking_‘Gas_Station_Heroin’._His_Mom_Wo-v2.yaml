@@ -1,0 +1,166 @@
+# [NewsFiler v2] NewsPaper: US general34 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: v7bna3
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'A 19-Year-Old Died After Taking ‘Gas Station Heroin’. His Mom Wonders Why
+  It’s Still Being Sold Legally. '
+url: https://www.vice.com/en_us/article/v7bna3/gas-station-heroin-johnathon-morrison-death
+summary: 'Johnathon Morrison''s mother helped get tianeptine banned in Alabama. But
+  she says it makes her “sick” it is still being sold in stores across the U.S. '
+author: Manisha Krishnan
+categories:
+- News
+- Politics
+- gas station heroin
+- Drugs
+- drug policy
+- tianeptine
+published: 2024-02-16 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: v7bna3
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general34
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- content
+- image
+content: <p>Kristi Terry keeps replaying the last time she saw her son Johnathon Morrison
+  alive.</p> <p>The 19-year-old scholarship student came into her bedroom on the night
+  of Feb. 20, 2019 and asked if it was OK if he cooked some pizza rolls; he didn&apos;t
+  want to hog them from his younger sister, who was a fussy eater.</p> <p>Terry, 41,
+  and her husband found it odd that he was asking permission.</p> <p>&#x201C;We were
+  like &#x2018;you don&#x2019;t have to ask to cook something,&quot; she said. In
+  hindsight, she wishes she&#x2019;d gotten up to see if he was feeling alright. She
+  wonders if he was feeling sick at that point and was trying to settle his stomach
+  with food.</p> <p>The next morning Terry and her 15-year-old daughter found Morrison
+  unresponsive in his bedroom in Trafford, Alabama. Paramedics spent an hour trying
+  to revive him, but they couldn&apos;t. Next to his body was a half-eaten plate of
+  pizza rolls and a nearly empty bottle of tianeptine pills, an unapproved drug known
+  as &#x201C;gas station heroin&#x201D; because of its addictive effects on some users.</p>
+  <p>Morrison&#x2019;s cause of death is asphyxia due to aspiration of gastric contents&#x2014;meaning
+  he choked on his vomit&#x2014;and is considered accidental, according to his autopsy
+  report, which VICE News has obtained. But the high level of tianeptine he had in
+  his system was similar to the level found in another reported tianeptine fatality
+  in which no other drugs were detected, the medical examiner wrote.</p> <div class="article__media"><img
+  src="https://video-images.vice.com/_uncategorized/1708038305876-img4094.jpeg" alt="IMG_4094.jpg"><div
+  class="article__image-caption">Kristi Terry and her son Johnathon Morrison.</div></div>
+  <p>His death is one of the few rare fatal overdoses that&#x2019;s been linked to
+  tianeptine, a drug that is&#xA0; sold at gas stations and convenience stores around
+  the U.S. as well as online, often illegally marketed as a dietary supplement or
+  cognitive booster. Tianeptine is a tricyclic antidepressant that is used as medication
+  in over 60 countries around the world, but it is not approved by the Food and Drug
+  Administration for medical use in the U.S., so the versions sold here are unregulated.
+  While at least a dozen states have banned tianeptine, it remains federally unscheduled.</p>
+  <p>Because it also hits opioid receptors in the brain, it can produce euphoria and
+  pain relief. Many users have told VICE News tianeptine&#x2019;s effects were similar
+  to prescription opioids at first, but were quickly replaced with brutal withdrawal
+  symptoms including insomnia, shakes, nausea, and anxiety. It&#x2019;s also been
+  linked to seizures and hospitalizations.</p> <p>But Morrison, a theater and business
+  student at the University of Alabama at Birmingham, didn&#x2019;t know any of that.</p>
+  <p>He stumbled upon tianeptine by chance when he popped into a gas station in search
+  of medication to relieve his migraine, according to his mom. The gas station didn&#x2019;t
+  have Excedrin, but an employee there offered Morrison a bottle of pills called Tianaa,
+  a popular brand of tianeptine.</p> <p>&#x201C;He had no clue what he was taking,&#x201D;
+  said Terry. &#x201C;They told him that it was all natural, herbal, and that it was
+  like a powerful Tylenol.&#x201D;</p> <div class="article__embed article__embed--vice"
+  data-related-article="true" data-children-count="0"><iframe src="https://www.vice.com/en_us/embed/article/dy3vvq/embed"
+  frameborder="0" style="border:0px none;margin:0px" allowfullscreen></iframe></div>
+  <p>So Morrison took it like Tylenol, popping a couple at a time over the next few
+  hours. In the morning, Terry and her teenage daughter went to check on Morrison
+  after his boss sent a concerned text saying he hadn&#x2019;t turned in a report.
+  They found him lying flat on his bed. While it seemed like he was making a snoring
+  noise, he wasn&#x2019;t breathing.</p> <p>Just three of the 15 tianeptine pills
+  in the bottle remained, Terry said.</p> <p>VICE News has left messages with MT Brands,
+  a Florida-based company that makes Tianaa, but has not yet received a response.</p>
+  <p>The degree to which tianeptine toxicity may have contributed to Morrison&#x2019;s
+  death, &#x201C;either directly due to the toxic effects of the drug or indirectly
+  by potentially reducing his seizure threshold, remains uncertain,&#x201D; the autopsy
+  said. His system had therapeutic amounts of a couple of prescription drugs he was
+  taking for his migraines as well as an anti-seizure medication, though Terry said
+  he&#x2019;d only had two seizures in his life.</p> <p>Dr. Ryan Marino, medical director
+  of toxicology and addiction medicine at University Hospitals in Cleveland, said
+  it&#x2019;s common for people to vomit and aspirate during drug overdoses because
+  they &#x201C;lose higher functioning.&#x201D;</p> <p>&#x201C;A helpful comparison
+  is alcohol,&#x201D; he said. &#x201C;It&#x2019;s pretty hard to die from drinking
+  alcohol in one night or one sitting. But obviously people can throw up and have
+  bad things happen.&#x201D;</p> <p>He said it&#x2019;s not clear that tianeptine
+  causes overdoses by causing people to stop breathing, which is the case for opioids
+  like fentanyl. But he cautioned there&#x2019;s not enough data yet on high levels
+  of tianeptine in humans to draw strong conclusions about its toxicity.</p> <div
+  class="article__embed article__embed--vice" data-related-article="true" data-children-count="0"><iframe
+  src="https://www.vice.com/en_us/embed/article/xgwpd7/embed" frameborder="0" style="border:0px
+  none;margin:0px" allowfullscreen></iframe></div> <p>The FDA, which has issued several
+  consumer <a href="https://www.fda.gov/consumers/health-fraud-scams/tianeptine" target="_blank">alerts</a>
+  about tianeptine in the last few months, said it has received two tianeptine-related
+  death reports since 2015. The agency also said poison control center cases about
+  tianeptine exposure increased from 11 total cases between 2000 and 2013 to 151 cases
+  in 2020 alone. A 2018 <a href="https://pubmed.ncbi.nlm.nih.gov/30149933/" target="_blank">paper</a>
+  analyzing tianeptine deaths worldwide showed that the ones that didn&#x2019;t involve
+  other drugs were tied to respiratory depression or cardiac arrhythmias.</p> <p>Despite
+  the fact that deaths are rare, tianeptine users have still reported adverse health
+  reactions to the drug.</p> <p>Chris Ricks, who lives in Mobile, Alabama, was hospitalized
+  for a week in 2021 after taking four bottles of Zazas, another popular tianeptine
+  brand. He was found &#x201C;urinating and defecating everywhere in the house,&#x201D;
+  according to a hospital report seen by VICE News, before being admitted into an
+  intensive care unit.</p> <p>&#x201C;I just remember being out of it, I don&apos;t
+  know what was going on,&#x201D; he said, noting that in hospital he required benzodiazepines
+  to stop him from ripping out his IV.</p> <p>Ricks has been sober from tianeptine
+  since he was discharged in March 2021. At the height of his addiction, he was taking
+  eight bottles a day, spending $80,000 on them in one year.</p> <p>&#x201C;Within
+  a month of taking those I looked in the mirror and said &#x2018;You&#x2019;re either
+  headed back to rehab or death,&#x2019;&#x201D; he told VICE News.</p> <div class="article__media"><img
+  src="https://video-images.vice.com/_uncategorized/1708038357258-img4092.jpeg" alt="IMG_4092.jpg"><div
+  class="article__image-caption"> Johnathon Morrison at his high school graduation.
+  </div></div> <p>After Morrison died, Terry was determined to get tianeptine banned
+  in Alabama.</p> <p>She testified at a state senate healthcare committee in February
+  2020.</p> <p>&#x201C;He was just the light of my life and he was my best friend,&#x201D;
+  Terry said, showing a photo of her son to the committee, according to an audio recording
+  of the hearing obtained by VICE News.</p> <p>Her friend explained that Terry had
+  been bedridden with post-traumatic stress disorder since finding Morrison.</p> <p>Also
+  at the hearing was James Morrissette, CEO and founder of MT Brands. He said his
+  tianeptine products were promoted as being for stress and anxiety relief, but &#x201C;it
+  has taken a direction where people are beginning to abuse the product&#x201D; or
+  use it as a &#x201C;cessation product for opiates.&#x201D;</p> <p>Morrissette said
+  while Terry&#x2019;s story was heartbreaking, he supported stronger regulation over
+  banning tianeptine, including increased age limits for customers. He has also <a
+  href="https://www.headquest.com/mt-brands-taking-the-high-road/" target="_blank">accused</a>
+  other tianeptine manufacturers of making subpar products.</p> <p>&#x201C;There are
+  other people that are benefiting from this product. And to just turn around and
+  start banning products without having solid meaning behind it, where does it stop?&#x201D;
+  he said at the hearing.</p> <p>A year later, Alabama became the second state to
+  ban tianeptine. Florida, Arkansas, Kentucky, Michigan, Minnesota, Tennessee, Georgia,
+  Ohio, Oklahoma, Mississippi, and Indiana, have also banned it.</p> <p>In January,
+  citing <a href="https://www.vice.com/en/article/dy3vvq/gas-station-heroin-tianeptine-zaza-pills"
+  target="_blank">VICE News&#x2019; previous reporting</a>, a group of five members
+  of Congress <a href="https://www.vice.com/en/article/xgwpd7/gas-station-heroin-fda-congress"
+  target="_blank">wrote a letter to the FDA</a> asking the agency to &#x201C;to take
+  immediate action to research and provide guidance on tianeptine use,&#x201D; including
+  working with the Drug Enforcement Administration to determine if it should be federally
+  scheduled.</p> <p>But bans can have unintended causes, including leading people
+  back to using illicit drugs, especially because there&#x2019;s no <a href="https://www.vice.com/en/article/m7bp5x/people-are-turning-to-reddit-to-get-through-gas-station-heroin-withdrawal"
+  target="_blank">clear-cut detox protocol</a> for coming off of tianeptine. Three
+  former users previously told VICE News their tianeptine use led them back to using
+  street drugs including fentanyl and crack cocaine.</p> <div class="article__embed
+  article__embed--vice" data-related-article="true" data-children-count="0"><iframe
+  src="https://www.vice.com/en_us/embed/article/m7bp5x/embed" frameborder="0" style="border:0px
+  none;margin:0px" allowfullscreen></iframe></div> <p>In an email, an FDA spokesperson
+  told VICE News it urges consumers not to use any tianeptine product and reiterated
+  that it is not approved for any medical use.</p> <p>&#x201C;The FDA will continue
+  to take regulatory actions and alert consumers of safety issues related to tianeptine
+  products,&#x201D; the statement said.</p> <p>Terry said it makes her &#x201C;sick&#x201D;
+  that there are many Americans who can still easily purchase the drug.</p> <p>She
+  said her son, who had the &#x201C;biggest smile and dimples&#x201D; had been saving
+  up for a vintage Mercedes or BMW when he died. Instead, that money paid for his
+  headstone.</p> <p>&#x201C;I do feel like Johnathon&#x2019;s story is what got it
+  banned in Alabama. I really do,&#x201D; she said.&#xA0; &#x201C;The senators and
+  everybody had to look at my son&#x2019;s picture.&#x201D;</p>
+image: http://video-images.vice.com/articles/65ce96c4207da9d6f4bcd7f6/lede/1708038219537-johnathon-morrison.png

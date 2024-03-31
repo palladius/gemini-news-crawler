@@ -1,0 +1,35 @@
+# [NewsFiler v2] NewsPaper: Corriere - Home (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_31/bimbo-in-coma-dopo-aver-mangiato-il-formaggio-il-padre-togliete-il-marchio-al-caseificio-di-coredo-io-pronto-ad-azioni-legali-ce92e8d6-130b-4794-a0ef-1dc6ad876xlk.shtml
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Bimbo in coma dopo aver mangiato il formaggio, il padre: «Togliete il marchio
+  al caseificio di Coredo: io pronto ad azioni legali»'
+url: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_31/bimbo-in-coma-dopo-aver-mangiato-il-formaggio-il-padre-togliete-il-marchio-al-caseificio-di-coredo-io-pronto-ad-azioni-legali-ce92e8d6-130b-4794-a0ef-1dc6ad876xlk.shtml
+summary: '<p><img src="https://images2.corriereobjects.it/methode_image/2024/03/31/Varie/Foto%20Varie%20-%20Trattate/6609096e2847d_ori_crop_MASTER__0x0.jpeg"
+  title="Bimbo in coma dopo aver mangiato il formaggio, il padre: «Togliete il marchio
+  al caseificio di Coredo: io pronto ad azioni legali»" alt="Bimbo in coma dopo aver
+  mangiato il formaggio, il padre: «Togliete il marchio al caseificio di Coredo: io
+  pronto ad azioni legali»" /><p>Il papà di Mattia Maestri: «Viene colpito ogni giorno
+  da 30 crisi epilettiche. Ora togliete il marchio al caseificio di Coredo. Pronto
+  ad azioni legali» I genitori del piccolo Mattia Maestri non si arrendono: «Questa
+  storia sia d''esempio per salvare altre vite»I genitori del piccolo Mattia Maestri
+  non si arrendono: «Questa storia sia d''esempio per salvare altre vite»</p>'
+author: Matteo Sannicolò
+categories:
+- Corriere
+published: 2024-03-31 08:43:39.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'true'
+  guid: https://corrieredeltrentino.corriere.it/notizie/cronaca/24_marzo_31/bimbo-in-coma-dopo-aver-mangiato-il-formaggio-il-padre-togliete-il-marchio-al-caseificio-di-coredo-io-pronto-ad-azioni-legali-ce92e8d6-130b-4794-a0ef-1dc6ad876xlk.shtml
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Corriere - Home
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id

@@ -1,0 +1,20 @@
+# [NewsFiler v2] NewsPaper: Ansa - Mondo News (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/03/31/usa-chiatta-contro-ponte-in-oklahoma-torna-incubo-baltimora_04ce702a-f7e7-415f-a123-8f095bd3da25.html
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Usa: chiatta contro ponte in Oklahoma, torna incubo Baltimora'
+url: https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/03/31/usa-chiatta-contro-ponte-in-oklahoma-torna-incubo-baltimora_04ce702a-f7e7-415f-a123-8f095bd3da25.html
+summary: Non risultano vittime, il traffico chiuso e poi riaperto
+published: 2024-03-31 03:52:12.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/03/31/usa-chiatta-contro-ponte-in-oklahoma-torna-incubo-baltimora_04ce702a-f7e7-415f-a123-8f095bd3da25.html
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Ansa - Mondo News
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

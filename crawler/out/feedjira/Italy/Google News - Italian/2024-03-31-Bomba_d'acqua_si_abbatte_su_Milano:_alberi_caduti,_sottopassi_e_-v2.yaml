@@ -1,0 +1,33 @@
+# [NewsFiler v2] NewsPaper: Google News - Italian (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMiRWh0dHBzOi8vd3d3Lm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbNIBRWh0dHBzOi8vYW1wLm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: 'Bomba d''acqua si abbatte su Milano: alberi caduti, sottopassi e cantine allagate
+  - MilanoToday.it'
+url: https://news.google.com/rss/articles/CBMiRWh0dHBzOi8vd3d3Lm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbNIBRWh0dHBzOi8vYW1wLm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbA?oc=5
+summary: '<ol><li><a href="https://news.google.com/rss/articles/CBMiRWh0dHBzOi8vd3d3Lm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbNIBRWh0dHBzOi8vYW1wLm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbA?oc=5"
+  target="_blank">Bomba d''acqua si abbatte su Milano: alberi caduti, sottopassi e
+  cantine allagate</a>&nbsp;&nbsp;<font color="#6f6f6f">MilanoToday.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiQWh0dHBzOi8vd3d3Lm1pbGFub3RvZGF5Lml0L21vdG9yaS90ZW1wb3JhbGUtMzAtMzEtbWFyem8tMjAyNC5odG1s0gFBaHR0cHM6Ly9hbXAubWlsYW5vdG9kYXkuaXQvbW90b3JpL3RlbXBvcmFsZS0zMC0zMS1tYXJ6by0yMDI0Lmh0bWw?oc=5"
+  target="_blank">Temporali forti e raffiche di vento fino a 70Km/h: a Milano scatta
+  l''allerta meteo</a>&nbsp;&nbsp;<font color="#6f6f6f">MilanoToday.it</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiiwFodHRwczovL3ZpZGVvLmNvcnJpZXJlLml0L2Nyb25hY2EvcGlvZ2dpYS1taWxhbm8tbC1hY3Jib2F6aWEtY2l0dGFkaW5hLWVudHJhcmUtYXV0by1sYS1zdHJhZGEtYWxsYWdhdGEvODliNTM1YWMtZWYzMS0xMWVlLWJmMDctNjUzNDYwMzk3MGU10gGPAWh0dHBzOi8vdmlkZW8uY29ycmllcmUuaXQvY3JvbmFjYS9waW9nZ2lhLW1pbGFuby1sLWFjcmJvYXppYS1jaXR0YWRpbmEtZW50cmFyZS1hdXRvLWxhLXN0cmFkYS1hbGxhZ2F0YS84OWI1MzVhYy1lZjMxLTExZWUtYmYwNy02NTM0NjAzOTcwZTUvYW1w?oc=5"
+  target="_blank">Pioggia a Milano: l’acrboazia della cittadina per entrare in auto
+  con la strada allagata</a>&nbsp;&nbsp;<font color="#6f6f6f">Corriere TV</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMihAFodHRwczovL3d3dy50Z2NvbTI0Lm1lZGlhc2V0Lml0L2Nyb25hY2EvbWFsdGVtcG8tZm9ydGUtdmVudG8tZS1waW9nZ2lhLWEtbWlsYW5vLWUtdHJvbWJhLWQtYXJpYS1uZWwtdmFyZXNvdHRvXzc5OTMzMzkyLTIwMjQwMmsuc2h0bWzSAThodHRwczovL2FtcC50Z2NvbTI0Lm1lZGlhc2V0Lml0L3RnY29tMjQvYXJ0aWNsZS83OTkzMzM5Mg?oc=5"
+  target="_blank">Maltempo, forte vento e pioggia a Milano e tromba d''aria nel Varesotto</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">TGCOM</font></li></ol>'
+published: 2024-03-31 05:36:44.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMiRWh0dHBzOi8vd3d3Lm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbNIBRWh0dHBzOi8vYW1wLm1pbGFub3RvZGF5Lml0L2Nyb25hY2EvZGFubmktdGVtcG9yYWxlLTMwLW1hcnpvLTIwMjQuaHRtbA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - Italian
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

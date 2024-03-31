@@ -1,0 +1,176 @@
+# [NewsFiler v2] NewsPaper: US general24 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: http://www.pbs.org/newshour/?post_type=bb&p=231046
+# [NewsFiler v2] entries.keys: ["title", "url", "author", "categories", "published", "enclosure_length", "enclosure_type", "enclosure_url", "summary", "entry_id", "comments", "content", "itunes_duration", "itunes_summary", "image"]
+--- !ruby/object:Feedjira::Parser::ITunesRSSItem
+title: Escaping Harvey Weinstein was a ‘cat-and-mouse game,’ says Katherine Kendall
+url: http://www.pbs.org/newshour/bb/escaping-harvey-weinstein-cat-mouse-game-says-katherine-kendall/
+author: PBS NewsHour
+categories:
+- harvey weinstein
+- hollywood
+- Katherine Kendall
+- sexual harrasment
+published: 2017-10-18 22:15:13.000000000 Z
+enclosure_length: '15000000'
+enclosure_type: audio/mpeg
+enclosure_url: https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_EscapingHarveyWeinstein.mp3
+summary: |
+  <p><img width="200" height="160" src="http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/abuseofpower2-e1508371736227-200x160.jpg" class="attachment-200x160 size-200x160 wp-post-image" alt="" /></p><p><a href="http://video.pbs.org/video/3005814109/">Watch Video</a> | <a href="https://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/20171018_EscapingHarveyWeinstein.mp3">Listen to the Audio</a></p><p><strong>HARI SREENIVASAN:</strong> Let&#8217;s turn to the continuing fallout and reaction to the Harvey Weinstein story.</p>
+  <p>Yesterday, Weinstein resigned from the board of his production company following numerous revelations of sexual harassment and several allegations of assault.</p>
+  <p>More than three dozen women have said Weinstein harassed them. While Weinstein has admitted to behaving inappropriately, he has said he didn&#8217;t physically assault anyone.</p>
+  <p>One of those women is Katherine Kendall. She was a 23-year-old actress who met Weinstein in 1993. She alleges that he invited her to his apartment in New York, where, she says, he took off his clothes and asked for a massage.</p>
+  <p>As other actresses began coming forward about their painful experiences, she also went public with her own story.</p>
+  <p>She joins me now from Los Angeles.</p>
+  <p>First, thanks for joining us.</p>
+  <p>And I don&#8217;t want to relive something that&#8217;s painful for you, but you are taking a public stance on it.</p>
+  <p>For people who don&#8217;t know your story, what happened?</p>
+  <p><strong>KATHERINE KENDALL,</strong> Actress/ Photographer: Well, I was you know, a young actress, and I had had a formal meeting at the Miramax office earlier that day.</p>
+  <p>And then, at the end of the meeting, which I thought went really well, he invited me to come to screenings. He said: &#8220;Welcome to the Miramax family. You know, come to premieres, screenings, et cetera. In fact, there&#8217;s one this afternoon. Would you like to come?&#8221;</p>
+  <p>And I said, &#8220;Sure.&#8221;</p>
+  <p>And I ended up going to see a movie with him. It ended up just being a movie, not a screening, but the film &#8220;Red Rock West.&#8221; And, you know, that&#8217;s right when I had this sort of sinking feeling that something wasn&#8217;t going right.</p>
+  <p>And then, after the movie, we walked for a few blocks. And he said he needed to go up to his apartment to get something, and would I just come with him real quick? And I sort of said no, and we went back and forth on that for a minute. It was sort of a negotiation with him always, trying to sort of stand my ground, but then be convinced it was OK.</p>
+  <p>I did go into his apartment. Once there, we talked for a long time about art and movies. And I felt like he was treating me like an intellect.</p>
+  <p>And I felt like the meeting was going really well, and sort of continued. I didn&#8217;t feel unsafe once I was in there. And, at one point, then, he got up to go to the bathroom. And he came back in a robe and asked me to give him a massage.</p>
+  <p>And I was extremely uncomfortable. And I was like, oh, God, no, I&#8217;m not comfortable with that. And we went back and forth on that.</p>
+  <p>And then he went back to the bathroom again, and came back this time completely naked. And, you know, that changed it entirely for me, too. It just took it to the next place. It was completely disorienting. And I was scared, you know? I was really scared.</p>
+  <p>And then it became sort of a cat-and-mouse game of, like, how am I going to get out of there?</p>
+  <p>And I&#8217;m &#8212; it&#8217;s hard to make sense of what someone is trying to do to you when they&#8217;re fully naked, and they&#8217;re&#8230;</p>
+  <p><strong>HARI SREENIVASAN:</strong> Yes.</p>
+  <p><strong>KATHERINE KENDALL:</strong> You know, I&#8217;m 105 pounds. He&#8217;s a large man standing between me and the door.</p>
+  <p>And, I mean, I felt very resolute, like, I will definitely get out of here somehow. But I&#8217;m not &#8212; I&#8217;m not sure &#8212; I&#8217;m not sure what&#8217;s going to happen here. You know, a lot was going through my head.</p>
+  <p>And he said, well, if you won&#8217;t give me a massage, will you at least show me your breasts? And it was just &#8212; you know, it was, all in all, an extremely humiliating experience for me.</p>
+  <p>And even though I got away, I felt like something had still &#8212; like something horrible had just happened to me.</p>
+  <p><strong>HARI SREENIVASAN:</strong> You know, in the immediate aftermath, did you tell someone about it? Because you have said before that you felt ashamed&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> I did.</p>
+  <p><strong>HARI SREENIVASAN:</strong> &#8230; even though you were the victim.</p>
+  <p><strong>KATHERINE KENDALL:</strong> I did.</p>
+  <p>It&#8217;s really interesting how that happens. And I think &#8212; you know, I&#8217;m older now, and I have done some work on myself. And I have learned that a lot of people feel that way.</p>
+  <p>It&#8217;s &#8212; it&#8217;s not &#8212; it wasn&#8217;t just me. But the just me feeling that this is my fault, this must have only happened to me, there&#8217;s something wrong with me, is so common when someone perpetrates against you.</p>
+  <p><strong>HARI SREENIVASAN:</strong> What were the&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> And I did. I told my mom.</p>
+  <p>And I told some good friends. But, you know, one of the things that happened was, I didn&#8217;t want them to tell anybody. You know, people wanted to help me, but they didn&#8217;t know how, and I didn&#8217;t want them to try too hard, because I didn&#8217;t want it to backlash.</p>
+  <p>I was scared. And I think that it&#8217;s important to remember that we don&#8217;t really come from a culture that supports women in talking about sexual harassment, in my &#8212; in my experience, that is. And, you know, I just haven&#8217;t felt like it was something I was going to get support on&#8230;</p>
+  <p><strong>HARI SREENIVASAN:</strong> You know, how long&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> &#8230; in the bigger picture.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Yes.</p>
+  <p>How long did this feeling last? Or, I guess, what are the longer-term ripple effects here? Did it shake your confidence in your abilities?</p>
+  <p><strong>KATHERINE KENDALL:</strong> I think it did. I think it did. I think it did.</p>
+  <p>I think it made me feel like, wow, you know, that was a wash. He wasn&#8217;t interested at all in what I had to say, or, you know, he didn&#8217;t see any talent there or intellect there. He was assessing the situation the whole time for something else.</p>
+  <p>And I think that &#8212; that did hurt. You know, I wish it didn&#8217;t.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Yes.</p>
+  <p><strong>KATHERINE KENDALL:</strong> But he had produced so many movies that I thought were wonderful. And it was &#8212; it&#8217;s hard when someone has made art that you love, and how do you stay attached to liking their art, but feeling conflicted about them?</p>
+  <p>And, yes, I think it does have long-term effects. I think you tuck it away. And then, for me, also, I realized that it came back when I would see his name or see him in person. I would start to sort of tremble all over again.</p>
+  <p>I mean, I wouldn&#8217;t think about him on a daily basis or anything for years, and then I would see him, and I would think, oh, I don&#8217;t feel well. I got to get out of here.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Right.</p>
+  <p><strong>KATHERINE KENDALL:</strong> You know, it would bring up so much emotion.</p>
+  <p>And the most recent one was the woman in New York, the Italian model. I felt so, so enraged when I saw what happened there, and that they sort of &#8212; the police had him, and that then he got away. And then she was being dragged through the press as somebody who just, you know, wanted a payout, et cetera.</p>
+  <p><strong>HARI SREENIVASAN:</strong> You know, in the wake of that, there was &#8212; a friend of yours had tweeted, &#8220;At some point, all the women who have been afraid to speak out about Harvey Weinstein are going to have to hold hands and jump.&#8221; This was back in 2015.</p>
+  <p>And from your Twitter account, you said, &#8220;Agreed.&#8221;</p>
+  <p>It seemed like you almost had the opportunity to come forward.</p>
+  <p>What made you want to come forward now? Has this become a turning point in the industry?</p>
+  <p><strong>KATHERINE KENDALL:</strong> This is a turning point. It&#8217;s a turning point.</p>
+  <p>There are so many times when I thought about it, and then felt like &#8212; there were times when I thought about it and said, well, I have nothing to lose, I will just do it. And then I thought, I &#8212; I just didn&#8217;t have the strength or the courage yet.</p>
+  <p>And I think somebody like Jodi Kantor doing the story for The New York Times, the fact that she thought it was a story at all was startling to me and made me feel like, wow, something is going to be done.</p>
+  <p>And I knew she had told me &#8212; I mean, they were looking for women that this had happened to, because they&#8217;d been hearing rumors for so long that it happened to so many people. And she had told me other people were coming out.</p>
+  <p>And I thought, I can&#8217;t &#8212; when I watched Rose McGowan or any of the other actresses come forward, I just &#8212; or Ashley Judd &#8212; I just thought, they look strong to me, and I don&#8217;t want to be the one that stays silent.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Well, Katherine Kendall&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> I want to stand beside them.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Katherine Kendall, thank you very much for speaking with us.</p>
+  <p>And, hopefully, there are other people that are empowered by you coming forward.</p>
+  <p><strong>KATHERINE KENDALL:</strong> I hope so. Thank you.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/escaping-harvey-weinstein-cat-mouse-game-says-katherine-kendall/">Escaping Harvey Weinstein was a ‘cat-and-mouse game,’ says Katherine Kendall</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: http://www.pbs.org/newshour/?post_type=bb&p=231046
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general24
+  macro_region: USA
+rss_fields:
+- title
+- url
+- author
+- categories
+- published
+- enclosure_length
+- enclosure_type
+- enclosure_url
+- summary
+- entry_id
+- comments
+- content
+- itunes_duration
+- itunes_summary
+- image
+comments: http://www.pbs.org/newshour/bb/escaping-harvey-weinstein-cat-mouse-game-says-katherine-kendall/#respond
+content: |
+  <iframe class='partnerPlayer' frameborder='0' marginwidth='0' marginheight='0' scrolling='no' width='100%' height='100%' src='http://player.pbs.org/widget/partnerplayer/3005814109/?start=0&end=0&chapterbar=false&endscreen=false' allowfullscreen></iframe><p><strong>HARI SREENIVASAN:</strong> Let&#8217;s turn to the continuing fallout and reaction to the Harvey Weinstein story.</p>
+  <p>Yesterday, Weinstein resigned from the board of his production company following numerous revelations of sexual harassment and several allegations of assault.</p>
+  <p>More than three dozen women have said Weinstein harassed them. While Weinstein has admitted to behaving inappropriately, he has said he didn&#8217;t physically assault anyone.</p>
+  <p>One of those women is Katherine Kendall. She was a 23-year-old actress who met Weinstein in 1993. She alleges that he invited her to his apartment in New York, where, she says, he took off his clothes and asked for a massage.</p>
+  <p>As other actresses began coming forward about their painful experiences, she also went public with her own story.</p>
+  <p>She joins me now from Los Angeles.</p>
+  <p>First, thanks for joining us.</p>
+  <p>And I don&#8217;t want to relive something that&#8217;s painful for you, but you are taking a public stance on it.</p>
+  <p>For people who don&#8217;t know your story, what happened?</p>
+  <p><strong>KATHERINE KENDALL,</strong> Actress/ Photographer: Well, I was you know, a young actress, and I had had a formal meeting at the Miramax office earlier that day.</p>
+  <p>And then, at the end of the meeting, which I thought went really well, he invited me to come to screenings. He said: &#8220;Welcome to the Miramax family. You know, come to premieres, screenings, et cetera. In fact, there&#8217;s one this afternoon. Would you like to come?&#8221;</p>
+  <p>And I said, &#8220;Sure.&#8221;</p>
+  <p>And I ended up going to see a movie with him. It ended up just being a movie, not a screening, but the film &#8220;Red Rock West.&#8221; And, you know, that&#8217;s right when I had this sort of sinking feeling that something wasn&#8217;t going right.</p>
+  <p>And then, after the movie, we walked for a few blocks. And he said he needed to go up to his apartment to get something, and would I just come with him real quick? And I sort of said no, and we went back and forth on that for a minute. It was sort of a negotiation with him always, trying to sort of stand my ground, but then be convinced it was OK.</p>
+  <p>I did go into his apartment. Once there, we talked for a long time about art and movies. And I felt like he was treating me like an intellect.</p>
+  <p>And I felt like the meeting was going really well, and sort of continued. I didn&#8217;t feel unsafe once I was in there. And, at one point, then, he got up to go to the bathroom. And he came back in a robe and asked me to give him a massage.</p>
+  <p>And I was extremely uncomfortable. And I was like, oh, God, no, I&#8217;m not comfortable with that. And we went back and forth on that.</p>
+  <p>And then he went back to the bathroom again, and came back this time completely naked. And, you know, that changed it entirely for me, too. It just took it to the next place. It was completely disorienting. And I was scared, you know? I was really scared.</p>
+  <p>And then it became sort of a cat-and-mouse game of, like, how am I going to get out of there?</p>
+  <p>And I&#8217;m &#8212; it&#8217;s hard to make sense of what someone is trying to do to you when they&#8217;re fully naked, and they&#8217;re&#8230;</p>
+  <p><strong>HARI SREENIVASAN:</strong> Yes.</p>
+  <p><strong>KATHERINE KENDALL:</strong> You know, I&#8217;m 105 pounds. He&#8217;s a large man standing between me and the door.</p>
+  <p>And, I mean, I felt very resolute, like, I will definitely get out of here somehow. But I&#8217;m not &#8212; I&#8217;m not sure &#8212; I&#8217;m not sure what&#8217;s going to happen here. You know, a lot was going through my head.</p>
+  <p>And he said, well, if you won&#8217;t give me a massage, will you at least show me your breasts? And it was just &#8212; you know, it was, all in all, an extremely humiliating experience for me.</p>
+  <p>And even though I got away, I felt like something had still &#8212; like something horrible had just happened to me.</p>
+  <p><strong>HARI SREENIVASAN:</strong> You know, in the immediate aftermath, did you tell someone about it? Because you have said before that you felt ashamed&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> I did.</p>
+  <p><strong>HARI SREENIVASAN:</strong> &#8230; even though you were the victim.</p>
+  <p><strong>KATHERINE KENDALL:</strong> I did.</p>
+  <p>It&#8217;s really interesting how that happens. And I think &#8212; you know, I&#8217;m older now, and I have done some work on myself. And I have learned that a lot of people feel that way.</p>
+  <p>It&#8217;s &#8212; it&#8217;s not &#8212; it wasn&#8217;t just me. But the just me feeling that this is my fault, this must have only happened to me, there&#8217;s something wrong with me, is so common when someone perpetrates against you.</p>
+  <p><strong>HARI SREENIVASAN:</strong> What were the&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> And I did. I told my mom.</p>
+  <p>And I told some good friends. But, you know, one of the things that happened was, I didn&#8217;t want them to tell anybody. You know, people wanted to help me, but they didn&#8217;t know how, and I didn&#8217;t want them to try too hard, because I didn&#8217;t want it to backlash.</p>
+  <p>I was scared. And I think that it&#8217;s important to remember that we don&#8217;t really come from a culture that supports women in talking about sexual harassment, in my &#8212; in my experience, that is. And, you know, I just haven&#8217;t felt like it was something I was going to get support on&#8230;</p>
+  <p><strong>HARI SREENIVASAN:</strong> You know, how long&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> &#8230; in the bigger picture.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Yes.</p>
+  <p>How long did this feeling last? Or, I guess, what are the longer-term ripple effects here? Did it shake your confidence in your abilities?</p>
+  <p><strong>KATHERINE KENDALL:</strong> I think it did. I think it did. I think it did.</p>
+  <p>I think it made me feel like, wow, you know, that was a wash. He wasn&#8217;t interested at all in what I had to say, or, you know, he didn&#8217;t see any talent there or intellect there. He was assessing the situation the whole time for something else.</p>
+  <p>And I think that &#8212; that did hurt. You know, I wish it didn&#8217;t.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Yes.</p>
+  <p><strong>KATHERINE KENDALL:</strong> But he had produced so many movies that I thought were wonderful. And it was &#8212; it&#8217;s hard when someone has made art that you love, and how do you stay attached to liking their art, but feeling conflicted about them?</p>
+  <p>And, yes, I think it does have long-term effects. I think you tuck it away. And then, for me, also, I realized that it came back when I would see his name or see him in person. I would start to sort of tremble all over again.</p>
+  <p>I mean, I wouldn&#8217;t think about him on a daily basis or anything for years, and then I would see him, and I would think, oh, I don&#8217;t feel well. I got to get out of here.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Right.</p>
+  <p><strong>KATHERINE KENDALL:</strong> You know, it would bring up so much emotion.</p>
+  <p>And the most recent one was the woman in New York, the Italian model. I felt so, so enraged when I saw what happened there, and that they sort of &#8212; the police had him, and that then he got away. And then she was being dragged through the press as somebody who just, you know, wanted a payout, et cetera.</p>
+  <p><strong>HARI SREENIVASAN:</strong> You know, in the wake of that, there was &#8212; a friend of yours had tweeted, &#8220;At some point, all the women who have been afraid to speak out about Harvey Weinstein are going to have to hold hands and jump.&#8221; This was back in 2015.</p>
+  <p>And from your Twitter account, you said, &#8220;Agreed.&#8221;</p>
+  <p>It seemed like you almost had the opportunity to come forward.</p>
+  <p>What made you want to come forward now? Has this become a turning point in the industry?</p>
+  <p><strong>KATHERINE KENDALL:</strong> This is a turning point. It&#8217;s a turning point.</p>
+  <p>There are so many times when I thought about it, and then felt like &#8212; there were times when I thought about it and said, well, I have nothing to lose, I will just do it. And then I thought, I &#8212; I just didn&#8217;t have the strength or the courage yet.</p>
+  <p>And I think somebody like Jodi Kantor doing the story for The New York Times, the fact that she thought it was a story at all was startling to me and made me feel like, wow, something is going to be done.</p>
+  <p>And I knew she had told me &#8212; I mean, they were looking for women that this had happened to, because they&#8217;d been hearing rumors for so long that it happened to so many people. And she had told me other people were coming out.</p>
+  <p>And I thought, I can&#8217;t &#8212; when I watched Rose McGowan or any of the other actresses come forward, I just &#8212; or Ashley Judd &#8212; I just thought, they look strong to me, and I don&#8217;t want to be the one that stays silent.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Well, Katherine Kendall&#8230;</p>
+  <p><strong>KATHERINE KENDALL:</strong> I want to stand beside them.</p>
+  <p><strong>HARI SREENIVASAN:</strong> Katherine Kendall, thank you very much for speaking with us.</p>
+  <p>And, hopefully, there are other people that are empowered by you coming forward.</p>
+  <p><strong>KATHERINE KENDALL:</strong> I hope so. Thank you.</p>
+  <p>The post <a rel="nofollow" href="http://www.pbs.org/newshour/bb/escaping-harvey-weinstein-cat-mouse-game-says-katherine-kendall/">Escaping Harvey Weinstein was a ‘cat-and-mouse game,’ says Katherine Kendall</a> appeared first on <a rel="nofollow" href="http://www.pbs.org/newshour">PBS NewsHour</a>.</p>
+itunes_duration: '8:18'
+itunes_summary: More than three dozen women have now come forward to say Harvey Weinstein
+  harassed or assaulted them. One of those women is Katherine Kendall, who met Weinstein
+  when she was a 23-year-old actress. She recounts her experience in a conversation
+  with Hari Sreenivasan.
+image: http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2017/10/abuseofpower2-e1508371736227-1024x568.jpg

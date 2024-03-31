@@ -1,0 +1,25 @@
+# [NewsFiler v2] NewsPaper: US general9 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/world/hong-kong-art-world-article-23-censorship-rcna145415
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Art world descends on Hong Kong as security laws spur censorship fears
+url: https://www.nbcnews.com/news/world/hong-kong-art-world-article-23-censorship-rcna145415
+summary: A new national security law has deepened fears about self-censorship in the
+  arts in Hong Kong, one of the world’s biggest art markets.
+author: Jennifer Jett
+published: 2024-03-30 11:17:41.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/world/hong-kong-art-world-article-23-censorship-rcna145415
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general9
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240329-art-basel-hong-kong-mb-0933-f808f7.jpg

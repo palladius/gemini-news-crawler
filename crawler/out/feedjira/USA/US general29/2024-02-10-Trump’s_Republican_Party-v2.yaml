@@ -1,0 +1,48 @@
+# [NewsFiler v2] NewsPaper: US general29 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: tag:theatlantic.com,2024:50-677406
+# [NewsFiler v2] entries.keys: ["entry_id", "content", "author", "image", "title_type", "raw_title", "published", "updated", "summary", "url", "links", "title"]
+--- !ruby/object:Feedjira::Parser::AtomEntry
+entry_id: tag:theatlantic.com,2024:50-677406
+content: |-
+  <p><em>Editor&rsquo;s Note:</em> Washington Week with The Atlantic i<em>s a partnership between NewsHour Productions, WETA, and </em>The Atlantic <em>airing every Friday on PBS stations nationwide. <a href="https://www.pbs.org/weta/washingtonweek/tv-listing">Check your local listings</a> or watch full episodes <a href="https://www.pbs.org/weta/washingtonweek/">here</a>.</em> <br /></p><p dir="ltr">The Supreme Court is set to play a pivotal role in the 2024 presidential election, as it weighs former President Donald Trump’s appeal to appear on Colorado’s Republican presidential-primary ballot. Trump is also expected to ask the Supreme Court as early as next week to overturn a federal appeals court’s rejection of his immunity claims.</p><p dir="ltr">Meanwhile, Trump’s influence on the Republican Party was on display this week on Capitol Hill. The House GOP failed to win key votes, and Senate Republicans blocked a bipartisan border-security package that they themselves had demanded from Democrats.</p><p dir="ltr">Joining the editor in chief of <em>The Atlantic</em> and moderator, Jeffrey Goldberg, this week to discuss this and more are James Bennet, a senior editor at <em>The Economist</em>; John Dickerson, the chief political analyst at CBS News and anchor of <em>CBS News Prime Time With John Dickerson</em>; Josh Gerstein, a senior legal-affairs reporter for <em>Politico</em>; and Amna Nawaz, a co-anchor of <em>PBS NewsHour</em>.</p><div class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://www.youtube.com/watch?v=Dj9gS1lQofE&amp;ab_channel=WashingtonWeekPBS">
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224">Watch the full episode and read the transcript <a href="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2924">here</a>.</div>
+
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224"></div>
+
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224">
+  <div class="oembed" data-oembed-name="www.youtube.com" data-oembed-src="https://youtu.be/lDshdE5UDYw?si=Q-lDvDrk7AKfe4Ny"><iframe allow="autoplay; fullscreen; encrypted-media; picture-in-picture;" allowfullscreen="true" class="embedly-embed" frameborder="0" height="480" scrolling="no" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FlDshdE5UDYw&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DlDshdE5UDYw&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FlDshdE5UDYw%2Fhqdefault.jpg&amp;key=e59abcd3fdf14abe95641518e479f5c0&amp;type=text%2Fhtml&amp;schema=youtube" title="YouTube embed" width="854"></iframe></div>
+  </div>
+
+  <div class="oembed" data-oembed-name="www.pbs.org" data-oembed-src="https://www.pbs.org/weta/washingtonweek/video/2024/02/washington-week-with-the-atlantic-full-episode-2224">
+  <p></p>
+  </div>
+  </div>
+author: The Editors
+image: https://cdn.theatlantic.com/thumbor/NIzARDnhrmF3mDi63kYyPcxxH2s=/media/img/mt/2024/02/still4/original.jpg
+title_type: html
+raw_title: Trump’s Republican Party
+published: 2024-02-10 17:09:46.000000000 Z
+updated: 2024-02-10 18:42:39.000000000 Z
+summary: "“The Senate is no longer this cooling saucer for the hot tea that’s boiling
+  in the House.”"
+url: https://www.theatlantic.com/national/archive/2024/02/trump-supreme-court-fourteenth-amendment-washington-week/677406/?utm_source=feed
+links:
+- https://www.theatlantic.com/national/archive/2024/02/trump-supreme-court-fourteenth-amendment-washington-week/677406/?utm_source=feed
+title: Trump’s Republican Party
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general29
+  macro_region: USA
+rss_fields:
+- entry_id
+- content
+- author
+- image
+- title_type
+- raw_title
+- published
+- updated
+- summary
+- url
+- links
+- title

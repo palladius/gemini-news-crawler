@@ -1,0 +1,54 @@
+# [NewsFiler v2] NewsPaper: Il Fatto (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.ilfattoquotidiano.it/?p=7493646
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "comments", "content", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Renata Fonte e Francesco Marcone, due persone di Stato uccise per aver detto
+  no
+url: https://www.ilfattoquotidiano.it/2024/03/31/renata-fonte-e-francesco-marcone-due-persone-di-stato-uccise-per-aver-detto-no/7493646/
+summary: |
+  <p>Se la resurrezione presuppone necessariamente la morte, la morte non conduce altrettanto necessariamente alla resurrezione. Morte e resurrezione si imparentano quando chi muore è riconosciuto da una forza tale che lo strappa ad un destino altrimenti definitivo per definizione. La Pasqua di Gesù questo è stato per i cristiani. C’è un’altra forza che, pur in [&#8230;]</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/renata-fonte-e-francesco-marcone-due-persone-di-stato-uccise-per-aver-detto-no/7493646/">Renata Fonte e Francesco Marcone, due persone di Stato uccise per aver detto no</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+author: Davide Mattiello
+categories:
+- Blog
+- Mafie
+- Puglia
+- Speculazione Edilizia
+- Vittime della Mafia
+published: 2024-03-31 07:26:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: https://www.ilfattoquotidiano.it/?p=7493646
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Il Fatto
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- comments
+- content
+- image
+comments: https://www.ilfattoquotidiano.it/2024/03/31/renata-fonte-e-francesco-marcone-due-persone-di-stato-uccise-per-aver-detto-no/7493646/#respond
+content: |
+  <p>Se la resurrezione presuppone necessariamente la morte, la morte non conduce altrettanto necessariamente alla resurrezione. Morte e resurrezione si imparentano quando chi muore è riconosciuto da una forza tale che lo strappa ad un destino altrimenti definitivo per definizione. La <strong>Pasqua di Gesù</strong> questo è stato per i cristiani. C’è un’altra forza che, pur in modo diverso, può resuscitare i morti: è <strong>la cultura,</strong> fatta di memoria, riflessione e traduzione nell’agire pubblico. La Pasqua cattolica quest’anno coincide con l’anniversario di <strong>due assassinii</strong> che hanno più di un punto in comune.</p>
+  <p>Il 31 marzo del 1984 a <strong>Nardò</strong> veniva uccisa <strong>Renata Fonte</strong>. Il 31 marzo del 1995 veniva ucciso a <strong>Foggia Francesco Marcone.</strong></p>
+  <p>Renata e Francesco erano entrambi sposati ed entrambi avevano due figli (due figlie, Renata, un figlio ed una figlia Francesco), entrambi erano pugliesi ed amavano la propria terra, entrambi ricoprivano <strong>una funzione pubblica</strong> (Renata assessore del Comune di Nardò con deleghe alla istruzione ed alla cultura, Francesco direttore dell’Ufficio del Registro di Foggia), entrambi tradussero l’amore per la propria famiglia e per la propria terra nel rigore professionale con il quale fecero quello che andava fatto, senza guardare in faccia a nessuno e senza confondere una convenienza immediata ma corrotta dal compromesso, con l’interesse generale che solo produce un bene individuale durevole.</p>
+
+  <p>Renata si oppose strenuamente ai tentativi di <strong>speculazione edilizia</strong> legati ad un tratto meraviglioso di costa pugliese, <strong>Porto Selvaggio</strong>. Francesco, denunciò chiaramente e nelle sedi appropriate, le manovre criminali che avvelenavano il boom edilizio foggiano, mettendo nero su bianco nei suoi ultimi giorni di vita: “Per il buon nome dell’Ufficio e per contrastare eventuali tentativi di <strong>truffa</strong>, auspico che quanti vengano a conoscenza di tali azioni indegne sentano il dovere civico di sporgere denuncia all’Ufficio o alla competente Procura della Repubblica”. Entrambi, insomma, adoperarono la propria funzione per rintuzzare <strong>appetiti illeciti</strong> che avrebbero violentato l’ambiente ed il diritto di ciascuno a goderne in sicurezza.</p>
+  <p>Entrambi furono uccisi a colpi di pistola, sparati vigliaccamente, nei pressi dell’abitazione, ad un passo da quel diaframma che ciascuno cerca di mettere tra le preoccupazioni del fuori e il riparo del dentro.</p>
+  <p>La Giustizia ha fatto il proprio corso come ha potuto: quasi per niente nel caso di Francesco Marcone, qualcosa in più in quello di Renata Fonte.<strong> Fu mafia?</strong> Certo e a prescindere dalla patente di mafiosità attribuita dal codice penale. Fu mafia perché è mafia<strong> quel modo criminale di comandare</strong> la vita di molti attraverso l’intimidazione e la violenza: la mafia è crimine di classi dirigenti, diceva<strong> Pio La Torre.</strong></p>
+  <p>L’attualità delle storie di Francesco Marcone e di Renata Fonte non potrebbe essere più stringente in un tornante della storia in cui le percentuali di <strong>astensionismo</strong> <strong>elettorale</strong> sono segno eloquente e drammatico della disaffezione dilagante verso la democrazia, intesa come via all’autonomia, e verso la Repubblica, intesa come bene indivisibile e condiviso.</p>
+  <p>La corruzione nei pubblici uffici è tornata a far notizia e le notizie rischiano di mortificare quel che resta dello spirito costituzionale al punto da pervertire completamente il senso stesso delle Istituzioni, che vengono spesso intese come<strong> strumenti conservativi</strong> di scampoli illusori di privilegi, anziché come fattori inarrestabili di emancipazione dalla paura e dal bisogno. <strong>L’astensionismo</strong> di chi non vota finisce così per avere lo stesso significato del voto espresso da chi vuole uno Stato “manganello&amp;muri”, che nulla ha a che fare con la Costituzione del <strong>1948.</strong> Tornano in mente le parole di don Milani: se in una classe ci sono tre fascisti e trenta indifferenti, il risultato è di avere trentatré fascisti.</p>
+  <p>In questo contesto la sfida non può che essere quella di far “risorgere” Francesco Marcone e Renata Fonte attraverso una cultura politica che, riconoscendo il valore assoluto delle loro scelte, metta, ancora una volta, ancora più autorevolmente, <strong>la questione morale al centro delle proprie azioni.</strong></p>
+  <p>Per provare a dirla con uno slogan: la democrazia ai democratici!</p>
+
+  <p>Non a chi ne abusa, approfittando delle proprie posizioni di potere per avvantaggiarsi ingiustamente: c’è una bella differenza tra l’affrontare una indagine penale da<strong> comune cittadino</strong> oppure da ministro della Repubblica (vedi alla voce Santanchè), tra il partecipare alle gare di appalto da imprenditore onesto oppure avendo gli amici cari nei ministeri giusti (vedi alla voce Verdini jr), tra il mettere in piedi un giornale che risponda soltanto ai propri lettori oppure collezionarne il più possibile dando garanzie a chi di dovere (vedi alla voce Angelucci).</p>
+  <p>Francesco Marcone e Renata Fonte meritano questa “Pasqua” di <strong>democrazia</strong>: quella che vale per credenti e non credenti, quella dei “credibili” (vedi alla voce Rosario Livatino).</p>
+  <p>L'articolo <a rel="nofollow" href="https://www.ilfattoquotidiano.it/2024/03/31/renata-fonte-e-francesco-marcone-due-persone-di-stato-uccise-per-aver-detto-no/7493646/">Renata Fonte e Francesco Marcone, due persone di Stato uccise per aver detto no</a> proviene da <a rel="nofollow" href="https://www.ilfattoquotidiano.it">Il Fatto Quotidiano</a>.</p>
+image: https://st.ilfattoquotidiano.it/wp-content/uploads/2024/03/27/Renata-Fonte-e-Francesco-Marcone-1200-1050x551.jpg

@@ -1,0 +1,30 @@
+# [NewsFiler v2] NewsPaper: US general23 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: 65fafc8e9e290cf9f59342c0
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "categories", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: What Have Fourteen Years of Conservative Rule Done to Britain?
+url: https://www.newyorker.com/magazine/2024/04/01/what-have-fourteen-years-of-conservative-rule-done-to-britain
+summary: Living standards have fallen. The country is exhausted by constant drama.
+  But the U.K. can’t move on from the Tories without facing up to the damage that
+  has occurred.
+author: Sam Knight
+categories:
+- Magazine / A Reporter at Large
+published: 2024-03-25 10:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: 65fafc8e9e290cf9f59342c0
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general23
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- categories
+- published
+- entry_id
+- image
+image: https://media.newyorker.com/photos/65f9b64c36c5329a80ff914d/master/pass/r43992.jpg

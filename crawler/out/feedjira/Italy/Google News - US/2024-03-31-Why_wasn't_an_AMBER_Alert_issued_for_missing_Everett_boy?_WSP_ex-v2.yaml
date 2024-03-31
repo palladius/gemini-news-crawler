@@ -1,0 +1,32 @@
+# [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: CBMinQFodHRwczovL3d3dy5raW5nNS5jb20vYXJ0aWNsZS9uZXdzL2xvY2FsL3dhc2hpbmd0b24tc3RhdGUtcGF0cm9sLWV4cGxhaW5zLXdoeS1hbWJlci1hbGVydC13YXMtbm90LWlzc3VlZC1taXNzaW5nLWJveS8yODEtMWNmNmQxZGYtNzk5Ni00ZDE1LThlMWYtMWYwYjY3MGU5NmJm0gEA
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: Why wasn't an AMBER Alert issued for missing Everett boy? WSP explains - KING5.com
+url: https://news.google.com/rss/articles/CBMinQFodHRwczovL3d3dy5raW5nNS5jb20vYXJ0aWNsZS9uZXdzL2xvY2FsL3dhc2hpbmd0b24tc3RhdGUtcGF0cm9sLWV4cGxhaW5zLXdoeS1hbWJlci1hbGVydC13YXMtbm90LWlzc3VlZC1taXNzaW5nLWJveS8yODEtMWNmNmQxZGYtNzk5Ni00ZDE1LThlMWYtMWYwYjY3MGU5NmJm0gEA?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMinQFodHRwczovL3d3dy5raW5nNS5jb20vYXJ0aWNsZS9uZXdzL2xvY2FsL3dhc2hpbmd0b24tc3RhdGUtcGF0cm9sLWV4cGxhaW5zLXdoeS1hbWJlci1hbGVydC13YXMtbm90LWlzc3VlZC1taXNzaW5nLWJveS8yODEtMWNmNmQxZGYtNzk5Ni00ZDE1LThlMWYtMWYwYjY3MGU5NmJm0gEA?oc=5"
+  target="_blank">Why wasn't an AMBER Alert issued for missing Everett boy? WSP explains</a>&nbsp;&nbsp;<font
+  color="#6f6f6f">KING5.com</font></li><li><a href="https://news.google.com/rss/articles/CBMiYmh0dHBzOi8vd3d3LmtwdHYuY29tLzIwMjQvMDMvMzAvbW9tLWFycmVzdGVkLXZhbmNvdXZlci1jaGFyZ2VkLXdpdGgtbXVyZGVyLTQteWVhci1vbGQtYm95LWV2ZXJldHQv0gFxaHR0cHM6Ly93d3cua3B0di5jb20vMjAyNC8wMy8zMC9tb20tYXJyZXN0ZWQtdmFuY291dmVyLWNoYXJnZWQtd2l0aC1tdXJkZXItNC15ZWFyLW9sZC1ib3ktZXZlcmV0dC8_b3V0cHV0VHlwZT1hbXA?oc=5"
+  target="_blank">Mom charged with murder of 4-year-old boy found dead along I-5;
+  Arrested in Clark Co.</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox 12 Oregon</font></li><li><a
+  href="https://news.google.com/rss/articles/CBMiigFodHRwczovL2thdHUuY29tL25ld3MvbG9jYWwvZXZlcmV0dC1wb2xpY2UtYXJyZXN0LW1vdGhlci1qYW5ldC1nYXJjaWEtaW4tdmFuY291dmVyLWFjY3VzaW5nLWhlci1vZi1raWxsaW5nLWhlci00LXllYXItb2xkLXNvbi1hcmllbC1nYXJjaWHSAY4BaHR0cHM6Ly9rYXR1LmNvbS9hbXAvbmV3cy9sb2NhbC9ldmVyZXR0LXBvbGljZS1hcnJlc3QtbW90aGVyLWphbmV0LWdhcmNpYS1pbi12YW5jb3V2ZXItYWNjdXNpbmctaGVyLW9mLWtpbGxpbmctaGVyLTQteWVhci1vbGQtc29uLWFyaWVsLWdhcmNpYQ?oc=5"
+  target="_blank">Everett police arrest mother in Vancouver, accusing her of killing
+  her 4-year-old son</a>&nbsp;&nbsp;<font color="#6f6f6f">KATU</font></li><li><a href="https://news.google.com/rss/articles/CBMib2h0dHBzOi8va29tb25ld3MuY29tL25ld3MvbG9jYWwvcmlkZ2VmaWVsZC1zdXJ2ZWlsbGFuY2UtdmlkZW8tc2hvd3MtY2FyLW9mLWludGVyZXN0LWluLWV2ZXJldHQtbWlzc2luZy1ib3ktY2FzZdIBc2h0dHBzOi8va29tb25ld3MuY29tL2FtcC9uZXdzL2xvY2FsL3JpZGdlZmllbGQtc3VydmVpbGxhbmNlLXZpZGVvLXNob3dzLWNhci1vZi1pbnRlcmVzdC1pbi1ldmVyZXR0LW1pc3NpbmctYm95LWNhc2U?oc=5"
+  target="_blank">Ridgefield surveillance video shows car of interest in Everett missing
+  boy case</a>&nbsp;&nbsp;<font color="#6f6f6f">KOMO News</font></li><li><a href="https://news.google.com/rss/articles/CBMimwFodHRwczovL3d3dy5rZ3cuY29tL2FydGljbGUvbmV3cy9jcmltZS9taXNzaW5nLTQteWVhci1vbGQtZXZlcmV0dC1ib3ktYXJpZWwtZ2FyY2lhLW1vdGhlci1jbGFyay1jb3VudHktZGVhZC1hcnJlc3QvMjgzLTA4N2Q4YzVlLTYyNGEtNDc4NS1iOTE1LTYzMWMyMzhkMjBmYdIBAA?oc=5"
+  target="_blank">Mother arrested for murder in Vancouver after missing 4-year-old
+  son found dead</a>&nbsp;&nbsp;<font color="#6f6f6f">KGW.com</font></li></ol>
+published: 2024-03-31 01:40:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  is_perma_link: 'false'
+  guid: CBMinQFodHRwczovL3d3dy5raW5nNS5jb20vYXJ0aWNsZS9uZXdzL2xvY2FsL3dhc2hpbmd0b24tc3RhdGUtcGF0cm9sLWV4cGxhaW5zLXdoeS1hbWJlci1hbGVydC13YXMtbm90LWlzc3VlZC1taXNzaW5nLWJveS8yODEtMWNmNmQxZGYtNzk5Ni00ZDE1LThlMWYtMWYwYjY3MGU5NmJm0gEA
+carlessian_info:
+  news_filer_version: 2
+  newspaper: Google News - US
+  macro_region: Italy
+rss_fields:
+- title
+- url
+- summary
+- published
+- entry_id

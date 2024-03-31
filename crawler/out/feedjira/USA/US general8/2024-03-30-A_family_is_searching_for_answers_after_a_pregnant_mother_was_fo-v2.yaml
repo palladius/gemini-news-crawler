@@ -1,0 +1,26 @@
+# [NewsFiler v2] NewsPaper: US general8 (this should go in the Entries as of v2)
+# [NewsFiler v2] GUID: https://www.nbcnews.com/news/family-wants-answers-pregnant-mother-found-dead-kansas-city-park-rcna145684
+# [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "image"]
+--- !ruby/object:Feedjira::Parser::RSSEntry
+title: A family is searching for answers after a pregnant mother was found dead in
+  a Kansas City park
+url: https://www.nbcnews.com/news/family-wants-answers-pregnant-mother-found-dead-kansas-city-park-rcna145684
+summary: The family of Elaysha Gilliam, a pregnant mother of four found dead in Kansas
+  City, Missouri, wants to know why the police investigation has stalled.
+author: Deon J. Hampton
+published: 2024-03-30 12:00:00.000000000 Z
+entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
+  guid: https://www.nbcnews.com/news/family-wants-answers-pregnant-mother-found-dead-kansas-city-park-rcna145684
+carlessian_info:
+  news_filer_version: 2
+  newspaper: US general8
+  macro_region: USA
+rss_fields:
+- title
+- url
+- summary
+- author
+- published
+- entry_id
+- image
+image: https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2024-03/240329-3x2-Elaysha-Gilliam-murder-victim-ac-437p-ae00d9.jpg
