@@ -12,6 +12,9 @@
 # Note: to enable CB access to SecretManager, you need to click on SA permissions. Note
 #       that enablibng Cloud Run required some magical additional access which Im not sure
 #       how to reproduce in IAC. See https://screenshot.googleplex.com/4wEvj93LprtUdgU
+#
+# We do steps 1,2,3
+# Then all the other steps are executed immediately and in parallel.
 ###############################################################################
 
 timeout: 1200s # 20min
@@ -65,7 +68,8 @@ steps:
   dir: webapp
 
 - name: 'gcr.io/cloud-builders/docker'
-  id: Tag from SHA to VERSION - proviamo con Docker
+  name: 3. Tag from SHA to VERSION - proviamo con Docker
+  id: step3 # The last we need before parallelizing everything
   entrypoint: bash
   args:
   - bin/autotag.sh
@@ -83,6 +87,7 @@ steps:
   - dev
   allowFailure: true
   dir: webapp
+  waitFor: [ 'step3' ]
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
@@ -92,11 +97,13 @@ steps:
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
+  waitFor: [ 'step3' ]
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - prod
   allowFailure: true
+  waitFor: ['-']
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -107,6 +114,7 @@ steps:
 # This does NOT work
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud run from POOR Env with DB stuff..
+  waitFor: [ 'step3' ]
   entrypoint: bash
   args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
   dir: webapp
@@ -119,6 +127,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud run from POOR Env with DB stuff..
+  waitFor: [ 'step3' ]
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
@@ -130,6 +139,4 @@ steps:
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
-
-
 
