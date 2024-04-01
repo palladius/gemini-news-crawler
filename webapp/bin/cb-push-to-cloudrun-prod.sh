@@ -95,7 +95,7 @@ echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnag
 ##########
 
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
-    beta run deploy "${APP_NAME}-prod" \
+    beta run deploy "${APP_NAME}-prodold" \
       --image  "$UPLOADED_IMAGE_WITH_VER" \
       --platform managed \
       --memory "2048Mi" \

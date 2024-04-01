@@ -18,10 +18,10 @@
 # * Then all the other steps are executed immediately and in parallel.
 ###############################################################################
 
-timeout: 1200s # 20min
+timeout: 1800s # 20min
 options:
   # supported machine types: https://cloud.google.com/build/docs/api/reference/rest/v1/projects.builds#machinetype
-  #machineType: 'E2_HIGHCPU_32'
+  machineType: 'E2_HIGHCPU_32'
   # Cheap project
   #machineType: 'N1_HIGHCPU_32'
   substitution_option: 'ALLOW_LOOSE'
@@ -31,7 +31,9 @@ substitutions:
   _PROJECT_ID: palladius-genai
   _APP_NAME: gemini-news-crawler
   _SKAFFOLD_DEFAULT_REPO: 'europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler'
-  # _MESSAGGIO_OCCASIONALE: on cloud build!
+  _MESSAGGIO_OCCASIONALE: |
+    Ho provato a mettere le E2 per buildare piu veloce vediamo se va.
+    Voglio anche provare a mettere dipendenze tra 4,6 e 5,7
 images:
 - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest"
 - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:sha-$SHORT_SHA"
