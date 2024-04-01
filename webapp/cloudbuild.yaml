@@ -69,8 +69,8 @@ steps:
   dir: webapp
 
 - name: 'gcr.io/cloud-builders/docker'
-  name: 3. Tag from SHA to VERSION - proviamo con Docker
-  id: step3 # The last we need before parallelizing everything
+  #name: 3. Tag from SHA to VERSION - proviamo con Docker
+  id: 'step3 tag SHA and VERSION' # The last we need before parallelizing everything
   entrypoint: bash
   args:
   - bin/autotag.sh
@@ -88,7 +88,7 @@ steps:
   - dev
   allowFailure: true
   dir: webapp
-  waitFor: [ 'step3' ]
+  waitFor: [ 'step3 tag SHA and VERSION' ]
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
@@ -98,7 +98,7 @@ steps:
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
-  waitFor: [ 'step3' ]
+  waitFor: [ 'step3 tag SHA and VERSION' ]
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-magic.sh
@@ -115,7 +115,7 @@ steps:
 # This does NOT work
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud run from POOR Env with DB stuff..
-  waitFor: [ 'step3' ]
+  waitFor: [ 'step3 tag SHA and VERSION' ]
   entrypoint: bash
   args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
   dir: webapp
@@ -128,7 +128,7 @@ steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud run from POOR Env with DB stuff..
-  waitFor: [ 'step3' ]
+  waitFor: [ 'step3 tag SHA and VERSION' ]
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
