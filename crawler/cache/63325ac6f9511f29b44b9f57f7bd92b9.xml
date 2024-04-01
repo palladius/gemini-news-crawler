@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Mon, 01 Apr 2024 16:54:04 +0200</lastBuildDate>
-  <pubDate>Mon, 01 Apr 2024 16:54:04 +0200</pubDate>
+  <lastBuildDate>Mon, 01 Apr 2024 19:15:10 +0200</lastBuildDate>
+  <pubDate>Mon, 01 Apr 2024 19:15:10 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,34 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Israeli air strike destroys Iranian consulate in Damascus, killing senior commander, Syria says</title>
+   <link>https://www.euronews.com/2024/04/01/israeli-air-strike-destroys-iranian-consulate-in-damascus-killing-senior-commander-syria-s</link>
+   <guid>https://www.euronews.com/2024/04/01/israeli-air-strike-destroys-iranian-consulate-in-damascus-killing-senior-commander-syria-s</guid>
+   <pubDate>Mon, 01 Apr 2024 19:10:02 +0200</pubDate>
+   <description>The Iranian military adviser Ali Reza Zahdi killed in the air strike led the elite Quds Force in Lebanon and Syria until 2016.</description>
+  </item>
+  <item>
+   <title>First Romania-Bulgaria flight takes place after partial Schengen entry</title>
+   <link>https://www.euronews.com/2024/04/01/first-romania-bulgaria-flight-takes-place-after-partial-schengen-entry</link>
+   <guid>https://www.euronews.com/2024/04/01/first-romania-bulgaria-flight-takes-place-after-partial-schengen-entry</guid>
+   <pubDate>Mon, 01 Apr 2024 18:40:58 +0200</pubDate>
+   <description>The first Schengen zone flight between Romania and Bulgaria took place the day after the countries partially joined Europe’s ID-check-free travel zone.</description>
+  </item>
+  <item>
+   <title>Large fire breaks out at production facility in Russia's Yekaterinburg</title>
+   <link>https://www.euronews.com/2024/04/01/large-fire-breaks-out-at-production-facility-in-russias-yekaterinburg</link>
+   <guid>https://www.euronews.com/2024/04/01/large-fire-breaks-out-at-production-facility-in-russias-yekaterinburg</guid>
+   <pubDate>Mon, 01 Apr 2024 18:01:59 +0200</pubDate>
+   <description>The fire broke out on the roof of the workshop producing electricity transformers.</description>
+  </item>
+  <item>
+   <title>Latest news bulletin | April 1st – Evening</title>
+   <link>https://www.euronews.com/video/2024/04/01/latest-news-bulletin-april-1st-evening</link>
+   <guid>https://www.euronews.com/video/2024/04/01/latest-news-bulletin-april-1st-evening</guid>
+   <pubDate>Mon, 01 Apr 2024 18:00:03 +0200</pubDate>
+   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
+  </item>
   <item>
    <title>'Havana syndrome' possibly linked to Russian intelligence, media report finds</title>
    <link>https://www.euronews.com/2024/04/01/havana-syndrome-possibly-linked-to-russian-intelligence-media-report-finds</link>
@@ -336,34 +364,6 @@
    <guid>https://www.euronews.com/2024/03/29/zelenskyy-tells-mep-delegation-that-eu-solidarity-is-vital-for-morale</guid>
    <pubDate>Fri, 29 Mar 2024 15:28:46 +0100</pubDate>
    <description>The Ukrainian prime minister made the comments to a group of MEPs from the liberal Renew Europe group, of which his own party is a member.</description>
-  </item>
-  <item>
-   <title>Russia barrages Ukraine with 99 drones and missiles</title>
-   <link>https://www.euronews.com/2024/03/29/russia-barrages-ukraine-with-99-drones-and-missiles</link>
-   <guid>https://www.euronews.com/2024/03/29/russia-barrages-ukraine-with-99-drones-and-missiles</guid>
-   <pubDate>Fri, 29 Mar 2024 13:56:21 +0100</pubDate>
-   <description>Kyiv claimed its air defences shot down 84 of them, whilst the energy minister said three power stations were hit.</description>
-  </item>
-  <item>
-   <title>Dogs understand when you talk to them - study</title>
-   <link>https://www.euronews.com/2024/03/29/dogs-understand-when-you-talk-to-them-study</link>
-   <guid>https://www.euronews.com/2024/03/29/dogs-understand-when-you-talk-to-them-study</guid>
-   <pubDate>Fri, 29 Mar 2024 13:29:33 +0100</pubDate>
-   <description>According to researchers in Hungary, dogs understand when they are spoken to and, like humans, are capable of associating a word with an object.</description>
-  </item>
-  <item>
-   <title>Latest news bulletin | March 29th – Midday</title>
-   <link>https://www.euronews.com/video/2024/03/29/latest-news-bulletin-march-29th-midday</link>
-   <guid>https://www.euronews.com/video/2024/03/29/latest-news-bulletin-march-29th-midday</guid>
-   <pubDate>Fri, 29 Mar 2024 12:00:02 +0100</pubDate>
-   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
-  </item>
-  <item>
-   <title>Surrounded by silence: The sole custodian of San Benedetto al Subasio Abbey</title>
-   <link>https://www.euronews.com/2024/03/29/surrounded-by-silence-the-sole-custodian-of-san-benedetto-al-subasio-abbey</link>
-   <guid>https://www.euronews.com/2024/03/29/surrounded-by-silence-the-sole-custodian-of-san-benedetto-al-subasio-abbey</guid>
-   <pubDate>Fri, 29 Mar 2024 11:38:51 +0100</pubDate>
-   <description>A sole custodian watches over the remote St Benedict's Abbey in Assisi.</description>
   </item>
  </channel>
 </rss>

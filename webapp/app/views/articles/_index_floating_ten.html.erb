@@ -1,0 +1,16 @@
+<!--
+
+      @last_ten_articles = Article.order(created_at: :desc).limit(10)
+
+-->
+<% @last_ten_articles = @articles.first(10) %>
+<div class="fixed top-0 right-0 p-4 bg-white rounded shadow-md border border-azure-500">
+    <h2><%= Article.emoji %>Last 10 Articles</h2>
+    <p>Soon in real time update via ActionCable!</p>
+
+    <ul>
+    <% @last_ten_articles.each do |article| %>
+        <li>⌛️  <b><%= link_to article.hhmm, article %></b> <%= link_to article.title, article %></li>
+    <% end %>
+    </ul>
+</div>

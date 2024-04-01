@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Mon, 01 Apr 2024 16:49:55 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 01 Apr 2024 18:04:08 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,22 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.3</generator>
 			<item>
+				<link>https://www.aljazeera.com/news/2024/4/1/where-are-opposition-making-inroads-in-turkey-local-elections?traffic_source=rss</link>
+				<title>Who is Istanbul Mayor Imamoglu who won big in Turkey local elections?</title>
+				<description><![CDATA[Opposition party CHP deals surprise blows to Erdogan as hopes raised for Imamoglu presidency in 2028.]]></description>
+				<pubDate>Mon, 01 Apr 2024 17:49:58 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711950390</guid>
+							</item>
+					<item>
+				<link>https://www.aljazeera.com/news/2024/4/1/several-killed-in-israeli-strike-on-iranian-consulate-in-damascus-reports?traffic_source=rss</link>
+				<title>Several killed in Israeli strike on Iranian consulate in Damascus: Reports</title>
+				<description><![CDATA[Mohammad Reza Zahedi, a senior commander in the IRGC, among at least five killed, Iranian state media reports.]]></description>
+				<pubDate>Mon, 01 Apr 2024 17:35:51 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711985538</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/news/2024/4/1/russian-court-extends-detention-of-journalist-alsu-kurmasheva-until-june?traffic_source=rss</link>
 				<title>Russian court extends detention of journalist Alsu Kurmasheva until June</title>
 				<description><![CDATA[Russian American is accused of failing to register as a ‘foreign agent’ and spreading ‘false information’.]]></description>
@@ -203,23 +219,6 @@
 				<pubDate>Mon, 01 Apr 2024 05:13:30 +0000</pubDate>
 				<category>News</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711944733</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/4/1/why-are-south-asians-going-to-fight-in-ukraine?traffic_source=rss</link>
-				<title>Why are South Asians going to fight in the Russia-Ukraine war?</title>
-				<description><![CDATA[Young men from India, Nepal and Sri Lanka are on the front lines of Russia&#039;s war on Ukraine.
-]]></description>
-				<pubDate>Mon, 01 Apr 2024 04:52:39 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711454532</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/economy/2024/4/1/openai-unveils-voice-cloning-tool-but-deems-it-too-risky-for-public-release?traffic_source=rss</link>
-				<title>OpenAI debuts voice cloning tool, but deems it too risky for public release</title>
-				<description><![CDATA[ChatGPT creator says Voice Engine can replicate a person’s voice based on a 15-second audio sample.]]></description>
-				<pubDate>Mon, 01 Apr 2024 03:26:43 +0000</pubDate>
-				<category>Economy</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711937548</guid>
 							</item>
 			</channel>
 </rss>
