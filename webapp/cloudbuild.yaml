@@ -55,13 +55,15 @@ steps:
 
 # First I build a docker latest version..
 - name: 'gcr.io/cloud-builders/docker'
-  id: 1. Docker Build - to CB_LATEST # might be error prone vs the one create from computer
+  #id: 1. Docker Build - to CB_LATEST # might be error prone vs the one create from computer
+  id:  'step1 docker build' ##1. Docker Build - to CB_LATEST # might be error prone vs the one create from computer
   args: ['build', '-t', "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest", '.']
   dir: webapp
 
 # Then I tag it with another so it survives multiple builds..
 - name: 'gcr.io/cloud-builders/docker'
-  id: 2. Tag latest to vVERSION
+#  id: 2. Tag latest to vVERSION
+  id:  'step2 docker tag'
   args:
     - 'tag'
     - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest"
@@ -88,7 +90,10 @@ steps:
   - dev
   allowFailure: true
   dir: webapp
-  waitFor: [ 'step3 tag SHA and VERSION' ]
+  waitFor:
+  - 'step1 docker build'
+  - 'step2 docker tag'
+  - 'step3 tag SHA and VERSION'
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
@@ -98,7 +103,10 @@ steps:
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
-  waitFor: [ 'step3 tag SHA and VERSION' ]
+  waitFor:
+  - 'step1 docker build'
+  - 'step2 docker tag'
+  - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-magic.sh
@@ -115,7 +123,10 @@ steps:
 # This does NOT work
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud run from POOR Env with DB stuff..
-  waitFor: [ 'step3 tag SHA and VERSION' ]
+  waitFor:
+  - 'step1 docker build'
+  - 'step2 docker tag'
+  - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
   dir: webapp
@@ -128,7 +139,10 @@ steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud run from POOR Env with DB stuff..
-  waitFor: [ 'step3 tag SHA and VERSION' ]
+  waitFor:
+  - 'step1 docker build'
+  - 'step2 docker tag'
+  - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
