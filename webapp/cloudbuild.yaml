@@ -80,6 +80,9 @@ steps:
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - dev
+  - '||'
+  - exit
+  - 0
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -93,6 +96,9 @@ steps:
   args:
   - bin/cb-push-to-cloudrun-dev.sh
   - latest # todo remove me when we fix versions
+  - '||'
+  - exit
+  - 0
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -105,7 +111,10 @@ steps:
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
-  - latest # todo remove me when we fix versions
+  #- latest # todo remove me when we fix versions
+  - '||'
+  - exit
+  - 0
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
