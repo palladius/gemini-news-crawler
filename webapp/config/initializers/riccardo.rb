@@ -2,7 +2,19 @@
 APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 
+Rails.application.configure do
 
+  config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
+  # Enable DNS rebinding protection and other `Host` header attacks.
+  config.hosts = [
+    "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app",     # Allow requests from example.com
+    /gemini-news-crawler.*\.run\.app/
+    # Allow requests from subdomains like `www.example.com`
+  ]
+  # Skip DNS rebinding protection for the default health check endpoint.
+  #config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
+  config.host_authorization = { exclude: ->(request) { request.path == "/statusz" } }
+end
 
 ######### Ciao da Riccardo
 emoji = '🧡'
