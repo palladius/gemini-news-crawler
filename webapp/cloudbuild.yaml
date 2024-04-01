@@ -93,14 +93,9 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud run from POOR Env with DB stuff..
   entrypoint: bash
-  args:
-  - '-c'
-      # 1. todo remove me when we fix versions
-      # 2. https://github.com/GoogleCloudPlatform/cloud-builders/issues/253
-  - |
-    bin/cb-push-to-cloudrun-dev.sh latest ||
-    echo "I will still continue nonetheless. TODO ricc remove latest when it all works"
+  args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
   dir: webapp
+  allowFailure: true
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
@@ -110,6 +105,7 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud run from POOR Env with DB stuff..
   entrypoint: bash
+  allowFailure: true
   args:
   - bin/cb-push-to-cloudrun-prod.sh
   #- latest # todo remove me when we fix versions
@@ -117,6 +113,7 @@ steps:
   - exit
   - "0"
   dir: webapp
+  allowFailure: true
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
