@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 31 Mar 2024 22:04:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Apr 2024 06:18:13 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -23,12 +23,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10BC1/production/_133054586_1kharhivtrafficlightsresume.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Turkish opposition declares victory in main cities]]></title>
-            <description><![CDATA[President Erdogan had made it his goal to win back key cities that he lost five years ago.]]></description>
+            <title><![CDATA[Turkish opposition stuns Erdogan with local elections win]]></title>
+            <description><![CDATA[President Erdogan fails to regain Turkey's big cities that he lost five years ago.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68704375</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68704375#0</guid>
-            <pubDate>Sun, 31 Mar 2024 21:42:03 GMT</pubDate>
+            <pubDate>Mon, 01 Apr 2024 06:17:04 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12917/production/_133055067_02eea955e76f0c8be2d894523013487420bae4a10_566_6000_33751000x563.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Move over beer - Germany decriminalises cannabis]]></title>
+            <description><![CDATA[Campaigners hail the law shift, which comes into force on 1 April - though police are less thrilled.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68674813</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68674813#0</guid>
+            <pubDate>Mon, 01 Apr 2024 00:22:25 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12952/production/_133041167_cannabis-gettyimages-1366397567.jpg"/>
         </item>
         <item>
             <title><![CDATA[Peace is not made with arms, says Pope in Easter plea]]></title>
@@ -66,7 +74,7 @@
             <title><![CDATA[War a real threat and Europe not ready, warns Poland's PM]]></title>
             <description><![CDATA[Donald Tusk warns of a "pre-war era" as Russian attacks leave swathes of Ukraine without power.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68692195</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68692195#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68692195#1</guid>
             <pubDate>Fri, 29 Mar 2024 23:54:12 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6E4A/production/_133043282_gettyimages-2050979582.jpg"/>
         </item>
@@ -101,14 +109,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/68692969#1</guid>
             <pubDate>Fri, 29 Mar 2024 15:28:46 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1D0A/production/_133043470_gettyimages-2084423316.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Russia shuts down UN tracking of N Korea sanctions]]></title>
-            <description><![CDATA[The group was investigating Russia's reported violations in using North Korean weapons in Ukraine.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-68691417</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-68691417#1</guid>
-            <pubDate>Fri, 29 Mar 2024 04:48:37 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12AEC/production/_133042567_kimrussia.png"/>
         </item>
         <item>
             <title><![CDATA[Lost Marvin Gaye music resurfaces in Belgium]]></title>

@@ -2,7 +2,7 @@
 # [NewsFiler v2] GUID: https://www.latimes.com/world-nation/story/2024-03-28/another-casualty-of-rising-tensions-in-the-west-bank-the-olive-harvest
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "author", "published", "entry_id", "content", "image"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
-title: 'Another casualty of escalating clashes in the West Bank: The Palestinian olive
+title: 'Another casualty of escalating clashes in the West Bank: the Palestinian olive
   harvest'
 url: https://www.latimes.com/world-nation/story/2024-03-28/another-casualty-of-rising-tensions-in-the-west-bank-the-olive-harvest
 summary: "<p>As Israeli settlers use the war in Gaza as a pretext for a land grab

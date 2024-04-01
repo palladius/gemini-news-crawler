@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Sun, 31 Mar 2024 23:24:50 +0200</lastBuildDate>
-  <pubDate>Sun, 31 Mar 2024 23:24:50 +0200</pubDate>
+  <lastBuildDate>Mon, 01 Apr 2024 07:12:10 +0200</lastBuildDate>
+  <pubDate>Mon, 01 Apr 2024 07:12:10 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,27 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Latest news bulletin | April 1st – Morning</title>
+   <link>https://www.euronews.com/video/2024/04/01/latest-news-bulletin-april-1st-morning</link>
+   <guid>https://www.euronews.com/video/2024/04/01/latest-news-bulletin-april-1st-morning</guid>
+   <pubDate>Mon, 01 Apr 2024 07:00:03 +0200</pubDate>
+   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
+  </item>
+  <item>
+   <title>Turkey's opposition make huge gains in local elections </title>
+   <link>https://www.euronews.com/2024/04/01/turkeys-opposition-make-huge-gains-in-local-elections</link>
+   <guid>https://www.euronews.com/2024/04/01/turkeys-opposition-make-huge-gains-in-local-elections</guid>
+   <pubDate>Mon, 01 Apr 2024 05:55:31 +0200</pubDate>
+   <description>Erdogan acknowledged the electoral setback in a speech, saying his party had suffered “a loss of altitude” across Turkey.</description>
+  </item>
+  <item>
+   <title>Israel sees largest anti-government protest since Hamas war began</title>
+   <link>https://www.euronews.com/2024/04/01/israel-sees-largest-anti-government-protest-since-hamas-war-began</link>
+   <guid>https://www.euronews.com/2024/04/01/israel-sees-largest-anti-government-protest-since-hamas-war-began</guid>
+   <pubDate>Mon, 01 Apr 2024 05:32:27 +0200</pubDate>
+   <description>Nearly six months of conflict have renewed divisions over the leadership of hard-line Prime Minister Benjamin Netanyahu.</description>
+  </item>
   <item>
    <title>Thrilling finale in Antalya</title>
    <link>https://www.euronews.com/2024/03/31/thrilling-finale-in-antalya</link>
@@ -343,27 +364,6 @@
    <guid>https://www.euronews.com/2024/03/28/middle-east-forum-israel-gutteres-wants-israel-to-lose-but-he-will-fail</guid>
    <pubDate>Thu, 28 Mar 2024 13:05:45 +0100</pubDate>
    <description>Hamas understands that it can not win on the battlefield, so it tries to win in the court of global public opinion. Guterres, unfortunately, appears to be the poster boy for these efforts, Middle East Forum Israel’s Nave Dromi writes.</description>
-  </item>
-  <item>
-   <title>'Disturbing': Rough sleepers and migrants removed from Paris ahead of Olympics</title>
-   <link>https://www.euronews.com/2024/03/28/disturbing-rough-sleepers-and-migrants-removed-from-paris-ahead-of-olympics</link>
-   <guid>https://www.euronews.com/2024/03/28/disturbing-rough-sleepers-and-migrants-removed-from-paris-ahead-of-olympics</guid>
-   <pubDate>Thu, 28 Mar 2024 12:14:30 +0100</pubDate>
-   <description>Hundreds of migrants and rough sleepers have been relocated from Paris to regional France on chartered bus services.</description>
-  </item>
-  <item>
-   <title>Latest news bulletin | March 28th – Midday</title>
-   <link>https://www.euronews.com/video/2024/03/28/latest-news-bulletin-march-28th-midday</link>
-   <guid>https://www.euronews.com/video/2024/03/28/latest-news-bulletin-march-28th-midday</guid>
-   <pubDate>Thu, 28 Mar 2024 12:00:03 +0100</pubDate>
-   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
-  </item>
-  <item>
-   <title>'Just miserable': War's toll on Palestinian children stuns doctors </title>
-   <link>https://www.euronews.com/2024/03/28/just-miserable-wars-toll-on-palestinian-children-stuns-doctors</link>
-   <guid>https://www.euronews.com/2024/03/28/just-miserable-wars-toll-on-palestinian-children-stuns-doctors</guid>
-   <pubDate>Thu, 28 Mar 2024 08:03:37 +0100</pubDate>
-   <description>Gut-wrenching child casualties from Israeli strikes were described to reporters by medics.</description>
   </item>
  </channel>
 </rss>
