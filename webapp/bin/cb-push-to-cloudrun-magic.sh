@@ -3,6 +3,10 @@
 #####################################################################################################
 # Runs both DEV and PROD
 # Usage: $0 <dev|prod>
+#
+#Wrong:
+# expected: Image 'europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler-manhouse/gemini-news-crawler-manhouse:latest' not found.
+#  reality:        europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler/gemini-news-crawler
 #####################################################################################################
 
 export DEPLOY_VERSION='2.0.0alpha'
@@ -27,11 +31,12 @@ if which gcloud ; then
   echo "👒 Parsing secret wich gcloud - wOOOt 2024 news"
   gcloud secrets versions access latest --secret=gemini-news-crawler-envrc > .tmp.gcloud-envrc
   ls -al .tmp.gcloud-envrc
+  grep DESCRIPTION .tmp.gcloud-envrc
   source .tmp.gcloud-envrc
 fi
 
 function _usage() {
-  echo "Usage: $0 [dev|prod]. Failing"
+  echo "Usage: $0 [dev|prod] [latest]"
   exit 142
 }
 
@@ -40,6 +45,8 @@ function _usage() {
 # ENV set
 ################################################
 export APP_NAME='gemini-news-crawler'
+export AR_NAME='gemini-news-crawler'
+export APP_NAME_TO_DEPLOY='gemini-news-crawler'
 export GCLOUD_REGION="${GCLOUD_REGION:-europe-west1}"
 export GIT_STATE="$(git rev-list -1 HEAD --abbrev-commit)"
 export GIT_COMMIT_SHA="$(git rev-parse HEAD)" # big commit
@@ -49,16 +56,20 @@ export APP_VERSION="$(cat VERSION)"
 export MESSAGGIO_OCCASIONALE="${MESSAGGIO_OCCASIONALE:-MsgOcc Non datur}"
 export RAILS_MASTER_KEY="${RAILS_MASTER_KEY:-foobarbaz}"
 export BUCKET="${BUCKET:-bucket-non-datur}"
-
+# Change AppName if deployed from Carlessian computer
+if hostname | egrep 'ricc-macbookpro|derek|penguin' ; then
+  #echo 'I believe this code wont work given how BASH vars suck '
+  export APP_NAME_TO_DEPLOY='gemini-news-crawler-manhouse'
+fi
 
 # Check dev or prod
 case "$1" in
    dev | development )
-    export APP_TO_DEPLOY="${APP_NAME}-dev"
+    export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-dev"
     ;;
 
   prod | production )
-    export APP_TO_DEPLOY="${APP_NAME}-prod"
+    export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-prod"
     ;;
 
   *) # else
@@ -76,15 +87,15 @@ set -euo pipefail
 # Derived info
 CLOUDRUN_PROJECT_ID="$PROJECT_ID"
 # VER non lo posso calcolare da CB vanilla, serve un shell script :/
-UPLOADED_IMAGE_WITH_VER="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:v$APP_VERSION"
-UPLOADED_IMAGE_WITH_LATEST_VERSION="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:latest"
-UPLOADED_IMAGE_WITH_SHA="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:sha-$GIT_SHORT_SHA"
+           UPLOADED_IMAGE_WITH_VER="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${AR_NAME}/${AR_NAME}:v$APP_VERSION"
+UPLOADED_IMAGE_WITH_LATEST_VERSION="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${AR_NAME}/${AR_NAME}:latest"
+           UPLOADED_IMAGE_WITH_SHA="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${AR_NAME}/${AR_NAME}:sha-$GIT_SHORT_SHA"
 
 # $1 can be unbound
-if [ latest = "${1:-sthElse}" ]; then
+if [ latest = "${2:-sthElse}" ]; then
   echo '🗞️ Overriding both SHA/VER to LATEST (or whatever DOLL1 says) since you gave me DOLL1:'
-  export UPLOADED_IMAGE_WITH_SHA="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:latest"
-  export UPLOADED_IMAGE_WITH_VER="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:latest"
+  export UPLOADED_IMAGE_WITH_SHA="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${AR_NAME}/${AR_NAME}:latest"
+  export UPLOADED_IMAGE_WITH_VER="${GCLOUD_REGION}-docker.pkg.dev/${PROJECT_ID}/${AR_NAME}/${AR_NAME}:latest"
 else
   echo You didnt give me any DOLL_1.. continuing
 fi
@@ -106,11 +117,7 @@ echo "---- /DEBUG ----"
 set -x
 
 
-# Change AppName if deployed from Carlessian computer
-if hostname | egrep 'ricc-macbookpro|derek' ; then
-  #echo 'I believe this code wont work given how BASH vars suck '
-  export APP_NAME='gemini-news-crawler-manhouse'
-fi
+
 
 echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnager 2. make the SA able to access SM and 3. call it properly.'
 
@@ -137,10 +144,6 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
-      --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
-      --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
-      --set-env-vars="DATABASE_USER=$DATABASE_USER" \
-      --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
       --set-env-vars="BUCKET=$BUCKET" \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
@@ -149,6 +152,10 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
 # ILLEGAL       --set-env-vars="PORT=8080" \
 #      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
 #      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
+      # --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
+      # --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
+      # --set-env-vars="DATABASE_USER=$DATABASE_USER" \
+      # --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
 
 
 # make sure we exit 0 with a string (set -e guarantees this)
