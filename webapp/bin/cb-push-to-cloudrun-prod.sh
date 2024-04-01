@@ -4,9 +4,12 @@
 # Since CB doesnt have access to a number of vars, I'm trying to add them as secret
 # AND THEN retrieve them from CB. If it works locally, it should hopefully also work remotely
 # As long as CB has access to those secrets (CB SA was enabled to read secrets).
+#
+# 2024-04-01 v1.0.3 Removed PORT, turns out its illegal
+#
 #####################################################################################################
 
-export DEPLOY_VERSION='1.0.2b'
+export DEPLOY_VERSION='1.0.3'
 #direnv allow "$(git rev-parse --show-toplevel)"
 # if it fails no probs... yet
 
@@ -106,7 +109,6 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="RAILS_SERVE_STATIC_FILES=true" \
       --set-env-vars="MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
-      --set-env-vars="PORT=8080" \
       --set-env-vars="DATABASE_URL_PROD=$DATABASE_URL_PROD" \
       --set-env-vars="BUCKET=$BUCKET" \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
@@ -119,7 +121,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
 
 #      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
 #      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
-
+# illegal --set-env-vars="PORT=8080" \
 
 # make sure we exit 0 with a string (set -e guarantees this)
 echo All is Done.
