@@ -1,7 +1,12 @@
-<div class="w-full">
+<!-- <div class="w-full w-2/3"> -->
+<div class="w-2/3">
     <% if notice.present? %>
-      <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+      <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice">
+        <%= notice %>
+      </p>
     <% end %>
+
+
 
     <div class="flex justify-between items-center">
       <h1 class="font-bold text-4xl"><%= Article.emoji %><%= @articles.count %> latest Articles (of <%= @article_total_count %>)</h1>
@@ -9,11 +14,16 @@
     </div>
 
     <div id="articles" class="min-w-full">
+
+      <%#= render partial: 'articles/index_floating_ten' %>
+
       <%#= render @articles %>
       <%#= render partial: "article_sober", collection: @articles %>
       <% @articles.each do |article| %>
           <%= render "article_sober", article: article %>
       <% end %>
 
-        </div>
+    </div>
+
+
 </div>

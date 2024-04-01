@@ -4,8 +4,14 @@
 
 -->
 <% @last_ten_articles = @articles.first(10) %>
-<div class="fixed top-0 right-0 p-4 bg-white rounded shadow-md border border-azure-500">
-    <h2><%= Article.emoji %>Last 10 Articles</h2>
+<!--
+    <div class="fixed top-0 right-0 p-4 bg-white rounded shadow-md border border-azure-500">
+<div class="fixed top-0 right-0 p-4 bg-light-azure-200 rounded shadow-md border border-purple-600 z-index-50">
+    <div class="fixed top-50 right-50 p-4 bg-light-azure-200 rounded shadow-md border border-purple-600">
+-->
+<div class="fixed top-20 right-0 p-4 bg-light-azure-200 rounded shadow-md border border-purple-600 z-index-50 mb-4 w-1/3">
+
+    <h1><%= Article.emoji %>Last 10 Articles</h1>
     <p>Soon in real time update via ActionCable!</p>
 
     <ul>
