@@ -39,10 +39,6 @@ export APP_VERSION="$(cat VERSION)"
 export MESSAGGIO_OCCASIONALE="${MESSAGGIO_OCCASIONALE:-MsgOcc Non datur}"
 export RAILS_MASTER_KEY="${RAILS_MASTER_KEY:-foobarbaz}"
 export BUCKET="${BUCKET:-bucket-non-datur}"
-#- "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${APP_NAME}/${APP_NAME}:sha-$SHORT_SHA"
-
-# get from secret manager
-#SECRET_REGION=$(gcloud secrets versions access latest --secret=gemini-news-crawler_REGION)
 
 # Derived info
 CLOUDRUN_PROJECT_ID="$PROJECT_ID"
@@ -91,7 +87,7 @@ echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnag
 
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
     beta run deploy "${APP_NAME}-dev" \
-      --image  "$UPLOADED_IMAGE_WITH_VER" \
+      --image "$UPLOADED_IMAGE_WITH_VER" \
       --platform managed \
       --memory "2048Mi" \
       --region "$GCLOUD_REGION" \

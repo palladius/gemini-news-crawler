@@ -63,8 +63,6 @@ steps:
     - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest"
     - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:sha-$SHORT_SHA"
   dir: webapp
-  #env:
-  #- 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
 
 - name: 'gcr.io/cloud-builders/docker'
   id: Tag from SHA to VERSION - proviamo con Docker
@@ -74,8 +72,6 @@ steps:
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   dir: webapp
-
-
 
 
 - name: 'gcr.io/cloud-builders/gcloud'
@@ -96,14 +92,11 @@ steps:
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-dev.sh
+  - latest # todo remove me when we fix versions
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  # - 'DATABASE_HOST=$_DATABASE_HOST'
-  # - 'DATABASE_NAME=$_DATABASE_NAME'
-  # - 'DATABASE_USER=$_DATABASE_USER'
-  # - 'DATABASE_PASS=$_DATABASE_PASS'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
@@ -112,16 +105,16 @@ steps:
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
+  - latest # todo remove me when we fix versions
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  - 'DATABASE_HOST=$_DATABASE_HOST'
-  - 'DATABASE_NAME=$_DATABASE_NAME'
-  - 'DATABASE_USER=$_DATABASE_USER'
-  - 'DATABASE_PASS=$_DATABASE_PASS'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
-  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+  # - 'DATABASE_HOST=$_DATABASE_HOST'
+  # - 'DATABASE_NAME=$_DATABASE_NAME'
+  # - 'DATABASE_USER=$_DATABASE_USER'
+  # - 'DATABASE_PASS=$_DATABASE_PASS'
 
 
