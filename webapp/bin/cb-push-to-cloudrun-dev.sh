@@ -61,6 +61,7 @@ else
 fi
 
 echo "---- DEBUG  ----"
+echo "PROJECT_ID: $PROJECT_ID"
 echo "DEPLOY_VERSION: $DEPLOY_VERSION"
 echo "APP_VERSION:    $APP_VERSION"
 echo "GIT_SHORT_SHA:  $GIT_SHORT_SHA"
