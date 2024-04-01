@@ -39,3 +39,4 @@
 
 /config/credentials/environment.key
 .yarn/
+.tmp.gcloud-envrc
