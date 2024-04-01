@@ -17,6 +17,7 @@ else
   echo 'Riccardo NOT LOCAL probably in the Cloud'
 fi
 
+# Found it: see Volumes opn right side of https://console.cloud.google.com/run/detail/europe-west1/gemini-news-crawler-manhouse-dev/revisions?project=palladius-genai
 if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
   echo Looks like youre on Cloud Run mounting an envrc directly form SM. You could be protecteder. # :)
   . /secretenvrc/gemini-news-crawler-envrc
@@ -84,7 +85,7 @@ echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnag
 #########
 
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
-    beta run deploy "${APP_NAME}-dev" \
+    beta run deploy "${APP_NAME}-devold" \
       --image "$UPLOADED_IMAGE_WITH_VER" \
       --platform managed \
       --memory "2048Mi" \
@@ -104,10 +105,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
 
-#       --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
-      # --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
-      # --set-env-vars="DATABASE_USER=$DATABASE_USER" \
-      # --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
+
 # ILLEGAL       --set-env-vars="PORT=8080" \
 #      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
 #      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \

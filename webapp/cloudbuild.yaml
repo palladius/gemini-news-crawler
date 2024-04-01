@@ -92,10 +92,10 @@ steps:
   - dev
   allowFailure: true
   dir: webapp
-  waitFor:
-  - 'step1 docker build'
-  - 'step2 docker tag'
-  - 'step3 tag SHA and VERSION'
+  # waitFor:
+  # - 'step1 docker build'
+  # - 'step2 docker tag'
+  # - 'step3 tag SHA and VERSION'
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
@@ -105,16 +105,15 @@ steps:
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: 5. Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
-  waitFor:
-  - 'step1 docker build'
-  - 'step2 docker tag'
-  - 'step3 tag SHA and VERSION'
+  # waitFor:
+  # - 'step1 docker build'
+  # - 'step2 docker tag'
+  # - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - prod
   allowFailure: true
-  #waitFor: ['-']
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -125,10 +124,10 @@ steps:
 # This does NOT work
 - name: 'gcr.io/cloud-builders/gcloud'
   id: 6. Push DEV to Cloud run from POOR Env with DB stuff..
-  waitFor:
-  - 'step1 docker build'
-  - 'step2 docker tag'
-  - 'step3 tag SHA and VERSION'
+  # waitFor:
+  # - 'step1 docker build'
+  # - 'step2 docker tag'
+  # - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
   dir: webapp
@@ -141,10 +140,10 @@ steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
   id: 7. Push PROD to Cloud run from POOR Env with DB stuff..
-  waitFor:
-  - 'step1 docker build'
-  - 'step2 docker tag'
-  - 'step3 tag SHA and VERSION'
+  # waitFor:
+  # - 'step1 docker build'
+  # - 'step2 docker tag'
+  # - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
