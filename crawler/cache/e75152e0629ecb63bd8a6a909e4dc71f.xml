@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Everyday Rails</title>
+ <link href="https://everydayrails.com/atom.xml" rel="self"/>
+ <link href="https://everydayrails.com/"/>
+ <updated>2024-03-13T21:54:04+00:00</updated>
+ <id>https://everydayrails.com/</id>
+ <author>
+   <name>Aaron Sumner</name>
+   <email>aaron@everydayrails.com</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Notes from migrating from Minitest to RSpec, with help from GitHub Copilot</title>
+   <link href="https://everydayrails.com/2024/03/13/migrate-minitest-to-rspec-copilot.html"/>
+   <updated>2024-03-13T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2024/03/13/migrate-minitest-to-rspec-copilot</id>
+   <content type="html">Artificial intelligence hasn&apos;t replaced us yet, but how does it handle the boring parts of our jobs?</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I’ve started using justfiles in my Rails apps</title>
+   <link href="https://everydayrails.com/2024/02/24/rails-just-commands.html"/>
+   <updated>2024-02-24T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2024/02/24/rails-just-commands</id>
+   <content type="html">Boost your developer experience with consistent command line interfaces. Here&apos;s how.</content>
+ </entry>
+ 
+ <entry>
+   <title>New version of Testing with RSpec book for 2024!</title>
+   <link href="https://everydayrails.com/2024/02/06/rspec-book-announcement-rails-7-1.html"/>
+   <updated>2024-02-06T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2024/02/06/rspec-book-announcement-rails-7-1</id>
+   <content type="html">A new edition is in the works, with coverage on the latest versions of Rails, Ruby, and RSpec, and more.</content>
+ </entry>
+ 
+ <entry>
+   <title>Using devcontainers in GitHub Actions CI workflows</title>
+   <link href="https://everydayrails.com/2024/01/14/github-actions-devcontainer-ci.html"/>
+   <updated>2024-01-14T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2024/01/14/github-actions-devcontainer-ci</id>
+   <content type="html">It&apos;s simpler than ever to wire CI pipelines, thanks to devcontainers. Here&apos;s how I run Rails test suites these days in GitHub workflows.</content>
+ </entry>
+ 
+ <entry>
+   <title>Write resilient tests with matchers that take other matchers</title>
+   <link href="https://everydayrails.com/2023/12/07/rspec-resilient-matchers.html"/>
+   <updated>2023-12-07T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2023/12/07/rspec-resilient-matchers</id>
+   <content type="html">Here&apos;s a short, neat trick to help save time when updating RSpec specs to reflect new test data.</content>
+ </entry>
+ 
+ <entry>
+   <title>A few things I&apos;ve learned to simplify working in dev containers</title>
+   <link href="https://everydayrails.com/2023/09/05/dev-containers-best-practices.html"/>
+   <updated>2023-09-05T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2023/09/05/dev-containers-best-practices</id>
+   <content type="html">I&apos;m still learning as I go, but here are some tidbits I&apos;ve learned so far about using dev containers for most of my software projects these days.</content>
+ </entry>
+ 
+ <entry>
+   <title>Test-driven development in the age of artificial intelligence</title>
+   <link href="https://everydayrails.com/2023/06/26/rails-tdd-copilot-chatgpt.html"/>
+   <updated>2023-06-26T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2023/06/26/rails-tdd-copilot-chatgpt</id>
+   <content type="html">How ChatGPT, GitHub Copilot, and TDD made me a professional Go programmer in less than an hour. Kind of.</content>
+ </entry>
+ 
+ <entry>
+   <title>Deprecating code in a Rails application</title>
+   <link href="https://everydayrails.com/2021/07/31/rails-custom-deprecation-warnings.html"/>
+   <updated>2021-07-31T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2021/07/31/rails-custom-deprecation-warnings</id>
+   <content type="html">Here&apos;s how to add good deprecation warnings to your Rails applications, and why it might be a good idea.</content>
+ </entry>
+ 
+ <entry>
+   <title>Automatic code review with Pronto and GitHub Actions</title>
+   <link href="https://everydayrails.com/2021/05/29/pronto-github-actions-code-quality.html"/>
+   <updated>2021-05-29T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2021/05/29/pronto-github-actions-code-quality</id>
+   <content type="html">Nobody likes to be the one to pick through your pull request for style guide and security violations. Here&apos;s how to ask robots to do the work for you, automatically!</content>
+ </entry>
+ 
+ <entry>
+   <title>Working around the mimemagic issue in my RSpec testing book</title>
+   <link href="https://everydayrails.com/2021/04/05/rspec-tutorial-mimemagic-fix.html"/>
+   <updated>2021-04-05T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2021/04/05/rspec-tutorial-mimemagic-fix</id>
+   <content type="html">The book&apos;s sample source no longer installs due to a dependency change. Here&apos;s how to fix it.</content>
+ </entry>
+ 
+ 
+</feed>

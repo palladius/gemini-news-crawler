@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://rubyonrails.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rubyonrails.org/" rel="alternate" type="text/html" /><updated>2024-03-29T18:10:46+00:00</updated><id>https://rubyonrails.org/feed.xml</id><title type="html">Ruby on Rails</title><subtitle>A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.</subtitle><entry><title type="html">Retry known idempotent SELECT queries, New Active Record configuration option, and more!</title><link href="https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401" rel="alternate" type="text/html" title="Retry known idempotent SELECT queries, New Active Record configuration option, and more!" /><published>2024-03-29T00:00:00+00:00</published><updated>2024-03-29T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401</id><content type="html" xml:base="https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401"><![CDATA[<p>Greetings! I’m <a href="https://twitter.com/siaw23">Emmanuel Hayford</a>, here to bring you your weekly instalment of “This Week In Rails”. Let’s dive straight into it.
+ 
+Two new guides are now open for community review. If you are well versed in Action View, partials, and helpers, please review and submit your feedback here:</p>
+
+<ul>
+  <li><a href="https://github.com/rails/rails/pull/51435">Action View Overview PR</a></li>
+  <li><a href="https://github.com/rails/rails/pull/51432">Action View Helpers PR</a></li>
+</ul>
+
+<p><a href="https://github.com/rails/rails/pull/51349">Add config.active_record.permanent_connection_checkout setting</a>
+This setting determines the action taken when <em>ActiveRecord::Base.connection</em> is accessed: whether it raises an error, emits a deprecation warning, or does nothing.</p>
+
+<p><em>ActiveRecord::Base.connection</em> acquires a database connection from the pool and maintains it until the request or job concludes. However, this behaviour may prove undesirable in environments with more threads or fibers than available connections.</p>
+
+<p>This configuration facilitates the identification and elimination of code utilising <em>ActiveRecord::Base.connection</em>, encouraging migration to <em>ActiveRecord::Base.with_connection</em> instead. The default behaviour remains unaltered.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51447">Make ActiveSupport::BacktraceCleaner copy filters on dup</a>
+Enhance <em>ActiveSupport::BacktraceCleaner</em> to replicate filters and silencers during duplication and cloning.</p>
+
+<p>Previously, duplication still resulted in shared internal silencers and filters arrays, leading to state leakage.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51408">Ensure necessary options are added to association options</a></p>
+
+<p>Noting the typo in <em>:through</em>, take the following code sample as an example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ApplicationRecord</span>
+    <span class="n">has_many</span> <span class="ss">:courses</span>
+    <span class="n">has_many</span> <span class="ss">:assignments</span><span class="p">,</span> <span class="ss">trough: :courses</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>You’d get a misleading error along the lines of</p>
+
+<p>“Unknown key: :trough. Valid keys are: :class_name, :anonymous_class, :primary_key, …, :index_errors (ArgumentError)”,</p>
+
+<p>with this pull request, you’ll now get a clearer message, more like:</p>
+
+<p>“Unknown key: :trough. Valid keys are: :class_name, :anonymous_class, :primary_key, …, :index_errors, :through (ArgumentError)”.</p>
+
+<p>Note that in the second error message <em>:through</em> is included in the list of valid options.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51336">Retry known idempotent SELECT queries on connection-related exceptions</a>
+Implements a mechanism to automatically retry <em>SELECT</em> queries that are known to be idempotent in the event of connection-related exceptions.</p>
+
+<p>Queries constructed through Arel tree traversal or based on known model attributes are inherently idempotent and can be safely retried upon encountering a connection error. Previously, certain adapters like <em>TrilogyAdapter</em> would raise <em>ActiveRecord::ConnectionFailed: Trilogy::EOFError</em> when faced with a connection error during a request.</p>
+
+<p>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240322-20240329">22 contributors</a> to the Rails codebase this past week!</p>
+
+<p>Take care.</p>
+
+<p>Your weekly inside scoop of interesting commits, pull requests and more from <a href="https://github.com/rails/rails"><strong>Rails</strong></a>.</p>
+
+<p><i><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</i></p>]]></content><author><name>Emmanuel Hayford</name></author><category term="news" /><summary type="html"><![CDATA[Greetings! I’m Emmanuel Hayford, here to bring you your weekly instalment of “This Week In Rails”. Let’s dive straight into it.   Two new guides are now open for community review. If you are well versed in Action View, partials, and helpers, please review and submit your feedback here:]]></summary></entry><entry><title type="html">Rails guides facelift, two new official gems and more!</title><link href="https://rubyonrails.org/2024/3/22/this-week-in-rails" rel="alternate" type="text/html" title="Rails guides facelift, two new official gems and more!" /><published>2024-03-22T00:00:00+00:00</published><updated>2024-03-22T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/22/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/3/22/this-week-in-rails"><![CDATA[<p>Hey everyone, Happy Weekend!<br />
+<a href="https://www.saeloun.com/team/vipul">Vipul</a> here with the latest updates for This Week in Rails. Let’s dive in.</p>
+
+<p><a href="https://rubyonrails.org/2024/3/20/rails-guides-get-a-facelift">Rails guides gets a facelift</a> <br />
+Rails guides has a received a big design update!<br />
+Check out the <a href="https://edgeguides.rubyonrails.org/">Edge Guides</a> to see these changes.
+If you find a bug or wish to submit a suggestion, you can open a discussion on <a href="https://github.com/rails/rails/discussions">GitHub</a>.</p>
+
+<p><a href="https://twitter.com/dhh/status/1770590629149786189">Two new official gems</a><br />
+<a href="https://github.com/rails/solid_queue">Solid Queue</a>, a DB-based queuing backend for Active Job, has graduated to an official <a href="https://twitter.com/dhh/status/1770590629149786189">Rails gem</a>.</p>
+
+<p><a href="https://twitter.com/dhh/status/1770590866492809229">Same</a> for <a href="https://github.com/rails/mission_control-jobs">Mission Control — Jobs</a>, 
+which provides a Rails-based frontend to Active Job adapters. 
+It currently supports Resque and Solid Queue.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51351">Don’t enqueue jobs to process a preview image if no variant requires it</a><br />
+This PR fixes the issue where previewable attachments that don’t specify any variants, or no variants that require pre-processing, 
+were still attempting to queue a job to process the preview image anyways.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51353">Eliminate remaining uses of lease_connection inside Active Record</a><br />
+As part of moving towards adding a <a href="https://github.com/rails/rails/pull/51349">new <code class="language-plaintext highlighter-rouge">config.active_record.permanent_connection_checkout</code> setting</a>, 
+this change eliminates the remaining uses of <code class="language-plaintext highlighter-rouge">lease_connection</code> inside Active Record API.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51308">Do not build View Watcher until the first updated? check</a><br />
+Currently initialization of every <code class="language-plaintext highlighter-rouge">Rails::Engine</code> leads to the creation of a new View watcher when the engine prepends its paths.
+This contributes to the time it takes to perform the first cold request on a lazy loaded application.
+This change delays the initialization of the View watcher until its first usage to only have one initialization of the watcher.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51345">Allow primary_key: association option to be composite </a><br />
+Association’s <code class="language-plaintext highlighter-rouge">primary_key</code> can be composite when derived from associated class’s <code class="language-plaintext highlighter-rouge">primary_key</code> or <code class="language-plaintext highlighter-rouge">query_constraints</code>. 
+Rails dint allow setting this explicitly even though it was already capable of supporting it.</p>
+
+<p>This commit allows <code class="language-plaintext highlighter-rouge">primary_key</code> association option to be an array to support this behavior.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-03-16%7D...main@%7B2024-03-22%7D">here</a>.</em><br />
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240316-20240322">14 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>vipulnsward</name></author><category term="news" /><summary type="html"><![CDATA[Hey everyone, Happy Weekend! Vipul here with the latest updates for This Week in Rails. Let’s dive in.]]></summary></entry><entry><title type="html">Rails Guides get a facelift</title><link href="https://rubyonrails.org/2024/3/20/rails-guides-get-a-facelift" rel="alternate" type="text/html" title="Rails Guides get a facelift" /><published>2024-03-20T00:00:00+00:00</published><updated>2024-03-20T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/20/rails-guides-get-a-facelift</id><content type="html" xml:base="https://rubyonrails.org/2024/3/20/rails-guides-get-a-facelift"><![CDATA[<p>When <a href="/2021/12/15/Rails-7-fulfilling-a-vision">Rails 7.0</a> landed in December 2021, it came with a fresh new homepage and a new boot screen. The design of the guides, however, has remained largely untouched since 2009 - a point which hasn’t gone unnoticed (we heard your feedback).</p>
+
+<p>With all of the work right now going into removing complexity from the Rails framework and making the <a href="/2024/2/6/documentation-update-work-has-begun">documentation</a> consistent, clear, and up-to-date, it was time to tackle the design of the guides and make them equally modern, simple, and fresh.</p>
+
+<p>We worked with UX designer <a href="https://meticulous.com/">John Athayde</a> to take the look and feel of the homepage and transfer that over to the Rails Guide to make it clean, sleek, and up-to-date.</p>
+
+<p>The layout will remain the same, but from today you will see the following changes reflected in the <a href="https://edgeguides.rubyonrails.org/">Edge Guides</a>:</p>
+
+<ul>
+  <li>Cleaner, less busy design.</li>
+  <li>Fonts, color scheme, and logo more consistent with the home page.</li>
+  <li>Updated iconography.</li>
+  <li>Simplified navigation.</li>
+  <li>Sticky ‘Chapter’ navbar when scrolling.</li>
+</ul>
+
+<p><strong>Before &amp; After</strong></p>
+
+<p><img src="/assets/images/guide-update 1.png" style="width: 50%" /><img src="/assets/images/guide-update 2.png" style="width: 50%" /></p>
+
+<p><img src="/assets/images/guide-update 3.png" style="width: 50%" /><img src="/assets/images/guide-update 4.png" style="width: 50%" /></p>
+
+<p><img src="/assets/images/guide-update 6.png" style="width: 50%" /><img src="/assets/images/guide-update 5.png" style="width: 50%" /></p>
+
+<p>For now, this refresh is still a work in progress, so it is only reflected in the <a href="https://edgeguides.rubyonrails.org/">Edge Guides</a> while we make the final adjustments. Once we are happy with it, we will update the guides for stable Rails 7 versions. This design will then render for all new guides from the next release onwards.</p>
+
+<p><strong>Feedback</strong></p>
+
+<p>If you find a bug or wish to submit a suggestion*, please <a href="https://github.com/rails/rails/discussions/categories/docs">open a discussion on GitHub</a>, and feel free to tag <a href="https://github.com/AmandaPerino">Amanda</a> for visibility.</p>
+
+<p>Hope you like the changes, and we look forward to your feedback!</p>
+
+<p>(* A search bar has already been suggested and we will look into options with the Core team.)</p>]]></content><author><name>Rails Foundation</name></author><category term="news" /><summary type="html"><![CDATA[When Rails 7.0 landed in December 2021, it came with a fresh new homepage and a new boot screen. The design of the guides, however, has remained largely untouched since 2009 - a point which hasn’t gone unnoticed (we heard your feedback).]]></summary></entry><entry><title type="html">Active Record Basics Guide Refresh, Encrypted Attributes Re-Optimization, and more…</title><link href="https://rubyonrails.org/2024/3/15/this-week-in-rails" rel="alternate" type="text/html" title="Active Record Basics Guide Refresh, Encrypted Attributes Re-Optimization, and more…" /><published>2024-03-15T00:00:00+00:00</published><updated>2024-03-15T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/15/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/3/15/this-week-in-rails"><![CDATA[<p>Hi, it’s <a href="https://github.com/zzak">zzak</a>. Let’s explore this week’s changes in the Rails codebase.</p>
+
+<p>The <a href="https://sessionize.com/rails-world/">Rails World CFP</a> will close in just one week on March 21.<br />
+Submit your talk in time!</p>
+
+<p><a href="https://github.com/rails/rails/pull/51226">Active Record Basics Guide</a><br />
+This PR refreshes the guide covering the basics of Active Record.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51325">Do not try to alias on key update when raw SQL is supplied</a><br />
+A bug was found when updating duplicates with raw SQL.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51324">Memoize “key_provider” from “key” or deterministic “key_provider” if any</a><br />
+Previously, this memoization was removed which lead to a performance hit for encrypted attributes.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51317">Updating Astana with a Western Kazakhstan timezone</a><br />
+On March 1, 2024, Kazakhstan (all parts) switched to a single time zone UTC+5.<br />
+Using the latest <a href="https://github.com/tzinfo/tzinfo-data/releases/tag/v1.2024.1">tzinfo-data</a> that updated the Kazakhstan timezones, ActiveSupport still showed the incorrect offset because it was pointing to the <code class="language-plaintext highlighter-rouge">Asia/Dhaka</code> Bangladesh timezone, which will not get the same TZ offset change.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51313">Preserve encoding on “truncate_bytes”</a><br />
+This PR addressed an issue where <code class="language-plaintext highlighter-rouge">String#truncate_bytes</code> can return a string with a different encoding than the one being truncated.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51299">Support custom blob key in ActiveStorage::Blob.compose</a><br />
+Since Rails 6.1, Active Storage has allowed to provide a custom <code class="language-plaintext highlighter-rouge">key</code> when attaching a new file.<br />
+This PR adds support when using the <code class="language-plaintext highlighter-rouge">compose</code> class method to customize the name of the underlying service object.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51286">Fix MySQL adapter for inserts with aliases</a><br />
+This pull request addresses errors that occur when using MySQL 8.0.18 or lower version of MySQL 8.0.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51267">Railties configure sanitizer vendor in 7.1 defaults more robustly</a><br />
+In order to avoid an issue where Rails::HTML::Sanitizer is not yet loaded, which resulted in the sanitizer vendor remaining as <code class="language-plaintext highlighter-rouge">Rails::HTML4</code> and not be set to <code class="language-plaintext highlighter-rouge">Rails::HTML5</code> as intended in Rails 7.1.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-03-08%7D...main@%7B2024-03-15%7D">here</a>.</em>
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240308-20240315">20 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>zzak</name></author><category term="news" /><summary type="html"><![CDATA[Hi, it’s zzak. Let’s explore this week’s changes in the Rails codebase.]]></summary></entry><entry><title type="html">Illustrator file preview, deprecations and more!</title><link href="https://rubyonrails.org/2024/3/8/this-week-in-rails" rel="alternate" type="text/html" title="Illustrator file preview, deprecations and more!" /><published>2024-03-08T00:00:00+00:00</published><updated>2024-03-08T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/8/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/3/8/this-week-in-rails"><![CDATA[<p>Hi, it’s <a href="https://greg.molnar.io">Greg</a>. Let’s explore this week’s changes in the Rails codebase.</p>
+
+<p><a href="https://github.com/rails/rails/issues/51262">Feedback for structuring the Active Record Query Guide</a> <br />
+The Active Record Querying Guide is getting restructured and the team working on it requests feedback from the community.</p>
+
+<p><a href="https://sessionize.com/rails-world">Rails World CFP closes in 2 weeks</a> <br />
+2 more weeks left to submit your talk to Rails World 2024!</p>
+
+<p><a href="https://github.com/rails/rails/pull/51267">Railties: configure sanitizer vendor in 7.1 defaults more robustly</a><br />
+In apps where rails-html-sanitizer was not eagerly loaded, the sanitizer default could end up being <code class="language-plaintext highlighter-rouge">Rails::HTML4::Sanitizer</code> when it should be set to <code class="language-plaintext highlighter-rouge">Rails::HTML5::Sanitizer</code>. This change <code class="language-plaintext highlighter-rouge">require</code>s rails-html-sanitizer immediately before it’s needed, and avoids the possibly-incorrect assumption that <code class="language-plaintext highlighter-rouge">Rails::HTML::Sanitizer</code> is already defined.</p>
+
+<p><a href="https://github.com/rails/rails/p_posts/2024-03-08-this-week-in-rails.markdownull/51235">Illustrator .ai files are previewable as PDFs</a> <br />
+This happened to work with Marcel 1.0.2 and earlier since magic byte sniffing sees that Illustrator files are PDFs internally, causing these files to be treated as <code class="language-plaintext highlighter-rouge">application/pdf</code> despite having a declared content type of <code class="language-plaintext highlighter-rouge">application/illustrator</code> and an <code class="language-plaintext highlighter-rouge">.ai</code> file extension. Marcel 1.0.3 corrected this to the more specific <code class="language-plaintext highlighter-rouge">application/illustrator</code> subtype of <code class="language-plaintext highlighter-rouge">application/pdf</code>, but the MuPDF previewer only accepts the parent <code class="language-plaintext highlighter-rouge">application/pdf</code> type.
+This pull request changes it to accept PDF and any child types allows the previewer to explicitly work with Illustrator files again, which was only a happy accident previously.
+Another pull request made <a href="https://github.com/rails/rails/pull/51236">illustrator files previewable with Poppler as well</a></p>
+
+<p><a href="https://github.com/rails/rails/pull/51230">Deprecate <em>ActiveRecord::Base.connection</em> and <em>ConnectionPool#connection</em></a> <br />
+This pull request deprecates <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.connection</code> and <code class="language-plaintext highlighter-rouge">ActiveRecord::ConnectionAdapters::ConnectionPool#connection</code> in favor of <code class="language-plaintext highlighter-rouge">.lease_connection</code>. The method has been renamed as <code class="language-plaintext highlighter-rouge">lease_connection</code> to better reflect that the returned connection will be held for the duration of the request or job. <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.connection</code>’s deprecation is a soft deprecation, no warnings will be issued and there is no current plan to remove the method.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51204">Add <em>dirties</em> option to <em>Model.uncached</em></a><br />
+This pull request adds a <code class="language-plaintext highlighter-rouge">dirties</code> option to <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.uncached</code> and <code class="language-plaintext highlighter-rouge">ActiveRecord::ConnectionAdapters::ConnectionPool#uncached</code>. When set to <code class="language-plaintext highlighter-rouge">true</code> (the default), writes will clear all query caches belonging to the current thread. When set to <code class="language-plaintext highlighter-rouge">false</code>, writes to the affected connection pool will not clear any query cache.
+This is needed by Solid Cache so that cache writes do not clear query caches.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-03-01%7D...main@%7B2024-03-08%7D">here</a>.</em>
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240301-20240308">16 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>Greg</name></author><category term="news" /><summary type="html"><![CDATA[Hi, it’s Greg. Let’s explore this week’s changes in the Rails codebase.]]></summary></entry><entry><title type="html">Added fixture method and bugfixes</title><link href="https://rubyonrails.org/2024/3/1/this-week-in-rails" rel="alternate" type="text/html" title="Added fixture method and bugfixes" /><published>2024-03-01T00:00:00+00:00</published><updated>2024-03-01T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/1/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/3/1/this-week-in-rails"><![CDATA[<p>Hi, <a href="https://twitter.com/morgoth85">Wojtek</a> from this side. Let’s explore this week’s few changes in the Rails codebase.</p>
+
+<p><a href="https://rubyonrails.org/2024/2/21/Rails-Versions-6-1-7-7-7-0-8-1-and-7-1-3-2-have-been-released">Rails security update releases</a><br />
+Rails Versions 6.1.7.7, 7.0.8.1, and 7.1.3.2 have been released last week which contain fixes for security issues.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51213">Expose a generic “fixture” method in tests</a><br />
+To avoid conflicting methods, in example with Minitest, it is possible now to load fixtures like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">assert_equal</span> <span class="s2">"Ruby on Rails"</span><span class="p">,</span> <span class="n">web_sites</span><span class="p">(</span><span class="ss">:rubyonrails</span><span class="p">).</span><span class="nf">name</span>
+<span class="n">assert_equal</span> <span class="s2">"Ruby on Rails"</span><span class="p">,</span> <span class="n">fixture</span><span class="p">(</span><span class="ss">:web_sites</span><span class="p">,</span> <span class="ss">:rubyonrails</span><span class="p">).</span><span class="nf">name</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/rails/rails/pull/51176">Introduce assert_initializer</a><br />
+Compliments the existing <em>initializer</em> generator action.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51191">Set default_url_options values in development/test environments</a><br />
+ Prior to this commit, new Rails applications would raise <em>ActionView::Template::Error</em> if a mailer included a url built with a <em>*_path</em> helper.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51165">Fix error message for not derived foreign key in Active Record</a><br />
+Using <em>query_constraints</em> method with a single non-primary-key column used to raise as expected, but with an incorrect error message. This has been fixed to raise with a more appropriate error message.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-02-25%7D...main@%7B2024-03-01%7D">here</a>.</em>
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240225-20240301">13 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>Wojtek</name></author><category term="news" /><summary type="html"><![CDATA[Hi, Wojtek from this side. Let’s explore this week’s few changes in the Rails codebase.]]></summary></entry><entry><title type="html">Rails Foundation and Doximity to Sponsor Rails Girls São Paulo 2024</title><link href="https://rubyonrails.org/2024/2/27/rails-foundation-doximity-sponsor-rails-girls-sao-paolo" rel="alternate" type="text/html" title="Rails Foundation and Doximity to Sponsor Rails Girls São Paulo 2024" /><published>2024-02-27T00:00:00+00:00</published><updated>2024-02-27T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/2/27/rails-foundation-doximity-sponsor-rails-girls-sao-paolo</id><content type="html" xml:base="https://rubyonrails.org/2024/2/27/rails-foundation-doximity-sponsor-rails-girls-sao-paolo"><![CDATA[<p>(Portuguese below)</p>
+
+<p>The Rails Foundation and <a href="https://www.doximity.com/">Doximity</a> are teaming up with <a href="https://railsgirls.com.br/">Rails Girls São Paulo</a> and <a href="https://www.tropicalrb.com/en/">Tropical.rb</a> to co-host the return of the Rails Girls São Paulo in 2024.</p>
+
+<p><strong>Name</strong>: Rails Girls São Paulo  <br />
+<strong>Date</strong>: April 6, 2024  <br />
+<strong>Location</strong>: Le Wagon São Paulo  <br /></p>
+
+<p>Scheduled for the weekend following Tropical.rb, Rails Girls São Paulo aims to bring together 30 individuals in teams of 6, each guided by dedicated Portuguese-speaking mentors, for a weekend of learning, coding, and community building.  <br /></p>
+
+<p>Rails Girls took place regularly in São Paulo from 2015 to 2019, introducing nearly 300 local students to Rails in that time. Inspired by the current momentum in the Rails community and the return of Tropical.rb in Brazil, the event is back with a new format targeting women who already have a basic knowledge of Rails and wish to enhance their skills even further to evolve in their careers. The aim is to organize two Rails Girls events per year in Brazil.  <br /></p>
+
+<p>Education is an important part of the Rails Foundation mission, and one way to further that mission is by supporting organizations like Rails Girls São Paulo and Tropical.rb who do fantastic work promoting Rails and introducing Rails to new audiences around the world. <br /></p>
+
+<p>Doximity was the perfect co-host for this event. In addition to being a Core member of the Rails Foundation, they have a strong company culture of mentorship and a team of developers based in Brazil who can stand in as mentors during this edition of Rails Girls.  <br /></p>
+
+<p>For more information about the Rails Girls São Paulo event and to register, please visit <a href="https://railsgirls.com.br/">railsgirls.com.br</a>.  <br /></p>
+
+<p>We can’t wait to meet everyone in São Paulo. See you soon!  <br /></p>
+
+<p><strong>Portuguese:</strong>  <br /></p>
+
+<p>A Rails Foundation e a <a href="https://www.doximity.com/">Doximity</a> estão se unindo ao <a href="https://railsgirls.com.br/">Rails Girls São Paulo</a> e ao <a href="https://www.tropicalrb.com/en/">Tropical.rb</a> para co-organizar a volta do Rails Girls São Paulo em 2024.  <br /></p>
+
+<p><strong>Nome</strong>: Rails Girls São Paulo  <br />
+<strong>Data</strong>: 6 de Abril de 2024  <br />
+<strong>Local</strong>: Le Wagon São Paulo  <br /></p>
+
+<p>No sábado seguinte ao Tropical.rb, o Rails Girls São Paulo visa reunir 30 estudantes em equipes de 6, cada uma orientada por mentores dedicados que falam português, para um fim de semana de aprendizado, programação e fortalecimento da comunidade.  <br /></p>
+
+<p>As edições do Rails Girls São Paulo ocorreram de 2015 à 2019, introduzindo quase 300 estudantes locais ao Rails nesse período. Inspirada pela atual euforia na comunidade Rails e pelo retorno do Tropical.rb no Brasil, o evento está de volta com um novo formato voltado para mulheres que já possuem conhecimento básico em Rails e desejam aprimorar ainda mais suas habilidades e evoluir em suas carreiras. O objetivo é organizar dois eventos Rails Girls por ano no Brasil.  <br /></p>
+
+<p>A educação é uma parte importante da missão da Rails Foundation e uma maneira de promover essa missão é apoiando organizações como o Rails Girls São Paulo e o Tropical.rb, que fazem um trabalho fantástico promovendo o Rails e introduzindo-o à novos públicos ao redor do mundo.  <br /></p>
+
+<p>A Doximity foi a co-anfitriã perfeita para este evento: além de ser membro Core da Rails Foundation, eles têm uma forte cultura empresarial de mentoria e uma equipe de desenvolvedores baseada no Brasil que irá atuar como mentores durante esta edição do Rails Girls.  <br /></p>
+
+<p>Para mais informações sobre Rails Girls São Paulo e para participar de próximas edições, visite: https://railsgirls.com.br.  <br /></p>
+
+<p>Estamos ansiosos para encontrar todos em São Paulo. Até breve!  <br /></p>]]></content><author><name>Rails Foundation</name></author><category term="news" /><summary type="html"><![CDATA[(Portuguese below)]]></summary></entry><entry><title type="html">Enhanced assert_broadcasts, file support for Logger outputs and more!</title><link href="https://rubyonrails.org/2024/2/24/this-week-in-rails-enhanced-assert_broadcasts-file-support-for-logger-outputs-and-more-25a0f981" rel="alternate" type="text/html" title="Enhanced assert_broadcasts, file support for Logger outputs and more!" /><published>2024-02-24T00:00:00+00:00</published><updated>2024-02-24T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/2/24/this-week-in-rails-enhanced-assert_broadcasts-file-support-for-logger-outputs-and-more-25a0f981</id><content type="html" xml:base="https://rubyonrails.org/2024/2/24/this-week-in-rails-enhanced-assert_broadcasts-file-support-for-logger-outputs-and-more-25a0f981"><![CDATA[<p>Hope you’re having a lovely weekend. <a href="https://twitter.com/siaw23">Emmanuel</a> here with yet another batch of Rails updates for you!</p>
+
+<p><a href="https://github.com/rails/rails/pull/47025">assert_broadcasts returns the messages that were broadcast
+</a><br />
+<em>assert_broadcasts</em> now not only confirms the broadcast but also provides access to the messages that were broadcast. This enhancement, similar to what we have in <em>assert_emails</em>, facilitates additional analyses of the transmitted messages.<br />
+Here’s an example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">test_emails_more_thoroughly</span>
+  <span class="n">email</span> <span class="o">=</span> <span class="n">assert_emails</span> <span class="mi">1</span> <span class="k">do</span>
+    <span class="no">ContactMailer</span><span class="p">.</span><span class="nf">welcome</span><span class="p">.</span><span class="nf">deliver_now</span>
+  <span class="k">end</span>
+  <span class="n">assert_email</span> <span class="s1">'Hi there'</span><span class="p">,</span> <span class="n">email</span><span class="p">.</span><span class="nf">subject</span>
+
+  <span class="n">emails</span> <span class="o">=</span> <span class="n">assert_emails</span> <span class="mi">2</span> <span class="k">do</span>
+    <span class="no">ContactMailer</span><span class="p">.</span><span class="nf">welcome</span><span class="p">.</span><span class="nf">deliver_now</span>
+    <span class="no">ContactMailer</span><span class="p">.</span><span class="nf">welcome</span><span class="p">.</span><span class="nf">deliver_later</span>
+  <span class="k">end</span>
+  <span class="n">assert_email</span> <span class="s1">'Hi there'</span><span class="p">,</span> <span class="n">emails</span><span class="p">.</span><span class="nf">first</span><span class="p">.</span><span class="nf">subject</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/rails/rails/pull/50901">Autosaving has_one sets foreign key attribute when unchanged</a><br />
+This pull request corrected an issue where the <em>has_one</em> association would erroneously set the foreign key attribute even when unchanged. This behavior was inconsistent with the autosaving mechanism of <em>belongs_to</em> associations and could lead to unintended side effects, such as triggering an <em>ActiveRecord::ReadOnlyAttributeError</em> when the foreign key attribute is set as read-only.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51078">Fix override existing join types in the query in the where.associated method</a><br />
+The fix now ensures that the association is joined using the correct join type (either INNER JOIN or LEFT OUTER JOIN) based on the existing joins in the scope. This prevents inadvertent overrides of existing join types and guarantees consistency in the resulting SQL queries.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51131">Add parameter filter capability for redirect locations</a><br />
+Here we add a parameter filter capability for redirect locations. This feature utilizes the <em>config.filter_parameters</em> to determine which parameters should be filtered. As a result, redirects will not display filtered parameters, ensuring sensitive information remains protected. A redirect location with filtered parameters will now look like: <em>Redirected to secret.foo.bar?username=roque&amp;password=[FILTERED]</em>.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51125">Support filenames in Logger.logger_outputs_to?</a><br />
+Well, this one is straightforward, we can now do stuff like <em>Logger.logger_outputs_to?(‘/var/log/rails.log’)</em>.</p>
+
+<p>That’s it! We saw <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240216-20240224">43 people contribute</a> to Rails this past week!</p>
+
+<p>Take care :)</p>
+
+<p>Your weekly inside scoop of interesting commits, pull requests and more from <a href="https://github.com/rails/rails"><strong>Rails</strong></a>.</p>
+
+<p><i><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</i></p>]]></content><author><name>Emmanuel Hayford</name></author><category term="news" /><summary type="html"><![CDATA[Hope you’re having a lovely weekend. Emmanuel here with yet another batch of Rails updates for you!]]></summary></entry><entry><title type="html">Rails Versions 6.1.7.7, 7.0.8.1, and 7.1.3.2 have been released!</title><link href="https://rubyonrails.org/2024/2/21/Rails-Versions-6-1-7-7-7-0-8-1-and-7-1-3-2-have-been-released" rel="alternate" type="text/html" title="Rails Versions 6.1.7.7, 7.0.8.1, and 7.1.3.2 have been released!" /><published>2024-02-21T21:27:42+00:00</published><updated>2024-02-21T21:27:42+00:00</updated><id>https://rubyonrails.org/2024/2/21/Rails-Versions-6-1-7-7-7-0-8-1-and-7-1-3-2-have-been-released</id><content type="html" xml:base="https://rubyonrails.org/2024/2/21/Rails-Versions-6-1-7-7-7-0-8-1-and-7-1-3-2-have-been-released"><![CDATA[<p>Hi folks,</p>
+
+<p>Rails versions 6.1.7.7, 7.0.8.1, and 7.1.3.2 have been released!</p>
+
+<p>These are security releases, so please upgrade at your earliest convenience.</p>
+
+<p>The 7.1.3.1 releases contained a small bug, so we released 7.1.3.2 with a bug fix, but it doesn’t contain any other changes.</p>
+
+<p>Here is a list of security issues that these releases address:</p>
+
+<ul>
+  <li><a href="https://discuss.rubyonrails.org/t/possible-xss-vulnerability-in-action-controller/84947">CVE-2024-26143 Possible XSS Vulnerability in Action Controller</a>, fixed in 7.1.3.1, 7.1.3.2, and 7.0.8.1</li>
+  <li><a href="https://discuss.rubyonrails.org/t/possible-redos-vulnerability-in-accept-header-parsing-in-action-dispatch/84946">CVE-2024-26142 Possible ReDoS vulnerability in Accept header parsing in Action Dispatch</a>, fixed in 7.1.3.1 and 7.1.3.2</li>
+  <li><a href="https://discuss.rubyonrails.org/t/possible-sensitive-session-information-leak-in-active-storage/84945">CVE-2024-26144 Possible Sensitive Session Information Leak in Active Storage</a>, fixed in 7.0.8.1 and 6.1.7.7 (does not impact Rails versions &gt;= 7.1.0)</li>
+</ul>
+
+<p>Additionally there have been new releases of Rack to address DoS vulnerabilities.</p>
+
+<p><a href="https://discuss.rubyonrails.org/t/denial-of-service-vulnerability-in-rack-content-type-parsing/84941">CVE-2024-25126 Denial of Service Vulnerability in Rack Content-Type Parsing</a>
+<a href="https://discuss.rubyonrails.org/t/possible-dos-vulnerability-with-range-header-in-rack/84944">CVE-2024-26141 Possible DoS Vulnerability with Range Header in Rack</a>
+<a href="https://discuss.rubyonrails.org/t/possible-denial-of-service-vulnerability-in-rack-header-parsing/84942">CVE-2024-26146 Possible Denial of Service Vulnerability in Rack Header Parsing</a></p>
+
+<p>Here are the shasums for the released gems:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ shasum *
+fde325a53820f30abafc4bb4b347b0736628ea04  actioncable-6.1.7.7.gem
+f6f7cf383f78ed8e08df218c34ddad9ced8d1273  actionmailbox-6.1.7.7.gem
+20a64a0b1fe686e37be5eb9cab76570f2570ee36  actionmailer-6.1.7.7.gem
+cbca1f87e850838155a7206d18813e89756ecaf3  actionpack-6.1.7.7.gem
+256c10f7bb958b3238b421bcc525088eeeac89cb  actiontext-6.1.7.7.gem
+e85974ee48b23a113d081408509e6747ed72827d  actionview-6.1.7.7.gem
+62772d40e9936f2d8a0acc1c62062db0d60c6b16  activejob-6.1.7.7.gem
+c198e520935690894782bce6ffdf12146e989a35  activemodel-6.1.7.7.gem
+d75ec02999c524aac4554d32ad1b2ef5ff0d4a82  activerecord-6.1.7.7.gem
+0d8b7639a9960cad7580753f9e4884e79b9bf29e  activestorage-6.1.7.7.gem
+0425128486718960e4d03e2f77d402bd7128ad72  activesupport-6.1.7.7.gem
+974b54eec71a35bbe54b17d7ba33a2faa36d18cc  rails-6.1.7.7.gem
+309d9712e0fa0ead733d2bac2e19be67af47c70e  railties-6.1.7.7.gem
+
+$ shasum *7.0.8*
+2a750ca4a7fee4911bad13ecc5c278c19b167ba7  actioncable-7.0.8.1.gem
+db5281a00c766de7e9ed8eec25e925f8936c6393  actionmailbox-7.0.8.1.gem
+6120cf7f8e65f0b6a9995dd0b6bf474fde41c7cc  actionmailer-7.0.8.1.gem
+baf14ff44dc1ec750762a623bbeec46b2bd75f96  actionpack-7.0.8.1.gem
+308176ee3b26ae698d322829b5e5eb5793f866fd  actiontext-7.0.8.1.gem
+a45c2cf000e48fa1c82bccd6c539c2c696ec5a88  actionview-7.0.8.1.gem
+b524d5945b26da59fae0a9479f6b91bc3604f1d3  activejob-7.0.8.1.gem
+6e8ac1b56560cd88c99969e90c4cd0a09c2d5e52  activemodel-7.0.8.1.gem
+a6e56da9f79d257c1d177934e71c37330e2299e8  activerecord-7.0.8.1.gem
+cafd8f2b3ab7e3518f31fda5415a2ba8ea950438  activestorage-7.0.8.1.gem
+0ed4714f50af12eec79f4920be0a2904060f91dc  activesupport-7.0.8.1.gem
+4bae873adc4c8f0a55f420cc760dfd6e654b5a5e  rails-7.0.8.1.gem
+311ece40612800ba313297ed48864104f8cea3fc  railties-7.0.8.1.gem
+
+$ shasum *7.1.3*
+48acdf80911e36c28b1a4a41d35e0839b2012e18  actioncable-7.1.3.1.gem
+2d7892180a9f634b5990936ef62bd235929e7aa4  actionmailbox-7.1.3.1.gem
+ac5af97df307e8a2c9e18d25bad5cc0a6ab94601  actionmailer-7.1.3.1.gem
+7acf5030984399294569c9c728f90ccf80605d72  actionpack-7.1.3.1.gem
+cf9ce4ddd5f5dfb39acc4623b83219e6f23e583c  actiontext-7.1.3.1.gem
+516bf01e9b9c6c22d00c638b080f3c7979441590  actionview-7.1.3.1.gem
+87567827a03edc68b526b1c1985b3abd0446fe3d  activejob-7.1.3.1.gem
+2e9e85525a7fcb600be0da047dd2ea2ce9758651  activemodel-7.1.3.1.gem
+63fd22bd16674dfa2c82113faf93eb9edabaae40  activerecord-7.1.3.1.gem
+ac0f3843a89cf2b2abf05e313e91dfac979bdff4  activestorage-7.1.3.1.gem
+d9afe2694fd2f7bf454ef97284d7f4b7714d3ad5  activesupport-7.1.3.1.gem
+915467fae49bf35ce6db031ebf95361548f18fed  rails-7.1.3.1.gem
+b5acf92bf12b7471739d2eb1e77eeaa0dc6c46c0  railties-7.1.3.1.gem
+
+$ shasum *7.1.3.2.gem
+566f20dda50142697624a547661e7d29f773b93d  actioncable-7.1.3.2.gem
+1a18a7e26f035079490943b0568a0bbd5ae0305d  actionmailbox-7.1.3.2.gem
+3700b58d39fa68fd0ccdc8a520466bdda0f36c5e  actionmailer-7.1.3.2.gem
+ab928d52a489011666e6b2803fe8a99010092c13  actionpack-7.1.3.2.gem
+c4a2d6f87ee7d225325b73b81644e83f5cb34f78  actiontext-7.1.3.2.gem
+4d9a3fdf4468a34c91462fbe5c7c82933a81ef59  actionview-7.1.3.2.gem
+fe128d9c989724cb8f9cf3c8d28d4b131c6672cb  activejob-7.1.3.2.gem
+f9d632bb56c8b0408908974ca864b61f3810ae57  activemodel-7.1.3.2.gem
+147c1076781e5b4eb7b14e6665792b84e7e98dbc  activerecord-7.1.3.2.gem
+57a5febb26107eeaccd565b38583050897fe8bce  activestorage-7.1.3.2.gem
+aab6830abe8edc591279c96c4b3dfd02ed2a0de6  activesupport-7.1.3.2.gem
+fa45e799c238f90978870daf632ba5295416ddbb  rails-7.1.3.2.gem
+e03f4d8da3fecc6d659e75bc898bf20c7885b311  railties-7.1.3.2.gem
+</code></pre></div></div>
+
+<p>This is a reminder that the 6.1 series only receives critical security updates.
+Users are encouraged to upgrade as soon as possible.</p>
+
+<p>On a personal note, backporting fixes to Rails versions that old is not fun so please upgrade!</p>
+
+<p>Have a good day!</p>]]></content><author><name>tenderlove</name></author><category term="releases" /><summary type="html"><![CDATA[Hi folks,]]></summary></entry><entry><title type="html">Rails World CFP, ActiveRecord::Base.with_connection, devcontainer and puma-dev support and more!</title><link href="https://rubyonrails.org/2024/2/16/this-week-in-rails" rel="alternate" type="text/html" title="Rails World CFP, ActiveRecord::Base.with_connection, devcontainer and puma-dev support and more!" /><published>2024-02-16T00:00:00+00:00</published><updated>2024-02-16T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/2/16/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/2/16/this-week-in-rails"><![CDATA[<p>Hi! <a href="https://www.saeloun.com/team/vipul">Vipul</a> here with the latest updates for This Week in Rails!</p>
+
+<p><a href="https://rubyonrails.org/2024/2/5/rails-world-2024-cfp-is-open">Rails World CFP</a><br />
+Call for Papers is now open for The Rails World 2024 conference that will be held in Toronto, Canada this year.
+The CFP will remain open until 21st March.
+Head over <a href="https://sessionize.com/rails-world/">here</a> to submit your proposal!</p>
+
+<p><a href="https://github.com/rails/rails/pull/50914">Generate devcontainer files by default</a> <br />
+This change generates a <code class="language-plaintext highlighter-rouge">.devcontainer</code> folder and its contents when creating a new app.
+The <code class="language-plaintext highlighter-rouge">.devcontainer</code> folder includes everything needed to <a href="https://containers.dev/">boot the app and do development in a remote container</a>.
+These files can be skipped using the <code class="language-plaintext highlighter-rouge">--skip-devcontainer</code> option.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51083">Add <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.with_connection</code> as a shortcut for leasing a connection for a short duration</a><br />
+This change adds <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.with_connection</code> as a shortcut for leasing a connection for a short duration.
+The leased connection is yielded, and for the duration of the block, any call to <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.connection</code> will yield that same connection.
+This is useful to perform a few database operations without causing a connection to be leased for the entire duration of the request or job.</p>
+
+<p><a href="https://github.com/rails/rails/pull/50920">Support encrypting binary columns</a><br />
+Previously encrypting binary columns with the <code class="language-plaintext highlighter-rouge">ActiveRecord::Encryption::MessageSerializer</code> incidentally worked for MySQL and SQLite, but not PostgreSQL.
+This change adds proper support now for encrypting binary columns types.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51088">Suggest puma-dev configuration in bin/setup </a> <br />
+Rails now suggest <a href="https://github.com/puma/puma-dev">puma-dev</a> as the golden path for developing multiple Rails applications locally, if you’re not using Docker.
+<code class="language-plaintext highlighter-rouge">bin/setup</code> has now been updated to suggest how to get that setup.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51087">Add .test to default allowed host in development mode</a> <br />
+Continuing on support for <a href="https://github.com/puma/puma-dev">puma-dev</a> this change adds “.test” as a default allowed host in development to ensure a smooth setup.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-02-10%7D...main@%7B2024-02-16%7D">here</a>.</em><br />
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240110-20240116">30 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>vipulnsward</name></author><category term="news" /><summary type="html"><![CDATA[Hi! Vipul here with the latest updates for This Week in Rails!]]></summary></entry></feed>

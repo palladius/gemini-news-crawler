@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>RubyFlow</title>
+    <description>The Ruby and Rails community linklog</description>
+    <link>https://rubyflow.com</link>
+    <item>
+      <title>Clean up Your Messy Legacy Ruby on Rails Codebase With Rubocop</title>
+      <description> Setting up Rubocop on a new Rails application will get you on the path towards a well-maintained codebase. But what if you have an older project? </description>
+      <pubDate>Mon, 01 Apr 2024 13:14:06 +0000</pubDate>
+      <link>https://rubyflow.com/p/21ob7r-clean-up-your-messy-legacy-ruby-on-rails-codebase-with-rubocop</link>
+      <guid>https://rubyflow.com/p/21ob7r-clean-up-your-messy-legacy-ruby-on-rails-codebase-with-rubocop</guid>
+    </item>
+    <item>
+      <title>Super Fast Rails</title>
+      <description> Most of the time, optimizing a Rails application requires repeating the same techniques. For example, at the database layer, it’s about creating the proper indexes, preventing 1+N queries, etc. Could we do that automatically? &lt;a href="https://www.rorvswild.com/blog/2024/super-fast-rails" rel="nofollow"&gt;https://www.rorvswild.com/blog/2024/super-fast-rails&lt;/a&gt; </description>
+      <pubDate>Mon, 01 Apr 2024 07:13:45 +0000</pubDate>
+      <link>https://rubyflow.com/p/zn6enk-super-fast-rails</link>
+      <guid>https://rubyflow.com/p/zn6enk-super-fast-rails</guid>
+    </item>
+    <item>
+      <title>[gem] Redis-based distributed locks with "acquisition queue" capabilities</title>
+      <description> New gem (&lt;a href="https://github.com/0exp/redis_queued_locks" rel="nofollow"&gt;https://github.com/0exp/redis_queued_locks&lt;/a&gt;) [RedisQueuedLocks] that provides distributed redis-based locks with "lock acquisition" ordered queue capabilites and depends on pre-configured RedisClient istance (Reidis infrastracture layer you should provide by yourself) </description>
+      <pubDate>Sun, 31 Mar 2024 22:03:16 +0000</pubDate>
+      <link>https://rubyflow.com/p/n6skip-gem-redis-based-distributed-locks-with-acquisition-queue-capabilities</link>
+      <guid>https://rubyflow.com/p/n6skip-gem-redis-based-distributed-locks-with-acquisition-queue-capabilities</guid>
+    </item>
+    <item>
+      <title>Ruby channel in telegram</title>
+      <description> &lt;a href="https://t.me/railsclub" rel="nofollow"&gt;Channel about Ruby and Ruby on Rails&lt;/a&gt; </description>
+      <pubDate>Sun, 31 Mar 2024 18:38:00 +0000</pubDate>
+      <link>https://rubyflow.com/p/za8arf-ruby-channel-in-telegram</link>
+      <guid>https://rubyflow.com/p/za8arf-ruby-channel-in-telegram</guid>
+    </item>
+    <item>
+      <title>Pick a standard and move on</title>
+      <description> Don’t have &lt;a href="https://remimercier.com/pick-a-standard/" rel="nofollow"&gt;standards and processes for your codebase&lt;/a&gt; and your team? You’re wasting so much cognitive energy! Let me try to convince you to pick one convention - any convention! - and move on to your core work. </description>
+      <pubDate>Thu, 28 Mar 2024 08:27:23 +0000</pubDate>
+      <link>https://rubyflow.com/p/9w45ro-pick-a-standard-and-move-on</link>
+      <guid>https://rubyflow.com/p/9w45ro-pick-a-standard-and-move-on</guid>
+    </item>
+    <item>
+      <title>Speeding Up Rails Assets Precompilation</title>
+      <description> There has been a lot of conversations on social media about the “NoBuild ” approach: using native browser features and plain CSS+JavaScript to avoid a precompilation step for our assets. </description>
+      <pubDate>Wed, 27 Mar 2024 17:41:40 +0000</pubDate>
+      <link>https://rubyflow.com/p/6m98hj-speeding-up-rails-assets-precompilation</link>
+      <guid>https://rubyflow.com/p/6m98hj-speeding-up-rails-assets-precompilation</guid>
+    </item>
+    <item>
+      <title>Micro benchmarking value objects in Ruby: Data.define vs Struct vs OpenStruct</title>
+      <description> I did &lt;a href="https://allaboutcoding.ghinda.com/micro-benchmarking-value-objects-in-ruby-datadefine-vs-struct-vs-openstruct" rel="nofollow"&gt;a series of benchmarks&lt;/a&gt; between Data class, Struct, and OpenStruct testing, creating new objects and accessing attributes. The tests consider keyword arguments and not positional arguments. </description>
+      <pubDate>Wed, 27 Mar 2024 15:57:41 +0000</pubDate>
+      <link>https://rubyflow.com/p/qxn9yf-micro-benchmarking-value-objects-in-ruby-datadefine-vs-struct-vs-openstruct</link>
+      <guid>https://rubyflow.com/p/qxn9yf-micro-benchmarking-value-objects-in-ruby-datadefine-vs-struct-vs-openstruct</guid>
+    </item>
+    <item>
+      <title>Keeping your database migrations strong with strong_migrations gem</title>
+      <description> &lt;a href="https://www.shakacode.com/blog/keeping-your-database-migrations-strong-with-strong_migrations-gem/" rel="nofollow"&gt;https://www.shakacode.com/blog/keeping-your-database-migrations-strong-with-strong_migrations-gem/&lt;/a&gt; </description>
+      <pubDate>Wed, 27 Mar 2024 13:32:25 +0000</pubDate>
+      <link>https://rubyflow.com/p/edjzt8-keeping-your-database-migrations-strong-with-strongmigrations-gem</link>
+      <guid>https://rubyflow.com/p/edjzt8-keeping-your-database-migrations-strong-with-strongmigrations-gem</guid>
+    </item>
+    <item>
+      <title>I just released Kamal Handbook</title>
+      <description> The time has come and I released my new book &lt;strong&gt;Kamal Handbook: The missing manual&lt;/strong&gt;. Kamal is an imperative deployment tool by 37signals and will be a Rails 8 default. </description>
+      <pubDate>Wed, 27 Mar 2024 13:08:03 +0000</pubDate>
+      <link>https://rubyflow.com/p/sl9037-i-just-released-kamal-handbook</link>
+      <guid>https://rubyflow.com/p/sl9037-i-just-released-kamal-handbook</guid>
+    </item>
+    <item>
+      <title>OnStrum::Healthcheck - simple configurable application healthcheck ❤️ rack middleware</title>
+      <description> &lt;b&gt;OnStrum::Healthcheck&lt;/b&gt; allows you to embed healthcheck endpoints into your rack based application to perform healthcheck probes. Make your application compatible with Docker/Kubernetes healthchecks in a seconds: &lt;a href="https://github.com/on-strum/ruby-on-strum-healthcheck" rel="nofollow"&gt;https://github.com/on-strum/ruby-on-strum-healthcheck&lt;/a&gt; </description>
+      <pubDate>Tue, 26 Mar 2024 22:11:02 +0000</pubDate>
+      <link>https://rubyflow.com/p/vx5ta3-onstrumhealthcheck-simple-configurable-application-healthcheck-rack-middleware</link>
+      <guid>https://rubyflow.com/p/vx5ta3-onstrumhealthcheck-simple-configurable-application-healthcheck-rack-middleware</guid>
+    </item>
+    <item>
+      <title>Brute-forcing 2FA codes with Ruby</title>
+      <description> Ruby is a popular choice of scripting language in the infosec world because it makes it possible to write quick scripts to automate something. In this post, I explain how I used a little Ruby to brute-force 2FA codes: </description>
+      <pubDate>Tue, 26 Mar 2024 19:57:05 +0000</pubDate>
+      <link>https://rubyflow.com/p/aqm0ew-brute-forcing-2fa-codes-with-ruby</link>
+      <guid>https://rubyflow.com/p/aqm0ew-brute-forcing-2fa-codes-with-ruby</guid>
+    </item>
+    <item>
+      <title>Secure code review checklist</title>
+      <description> Checklists are really useful to ensure you don’t forget important things, so why not create one for the security aspect your code review process? Here are my recommended checks: </description>
+      <pubDate>Tue, 26 Mar 2024 19:53:59 +0000</pubDate>
+      <link>https://rubyflow.com/p/hnu8r5-secure-code-review-checklist</link>
+      <guid>https://rubyflow.com/p/hnu8r5-secure-code-review-checklist</guid>
+    </item>
+    <item>
+      <title>Gosu Game Jam 6 starts in 3 days!</title>
+      <description> The Gosu Game Library Discord community is hosting its 6th game jam starting on March 29.
+Details on &lt;a href="https://itch.io/jam/gosu-game-jam-6" rel="nofollow"&gt;itch.io&lt;/a&gt; </description>
+      <pubDate>Tue, 26 Mar 2024 19:50:26 +0000</pubDate>
+      <link>https://rubyflow.com/p/9w663m-gosu-game-jam-6-starts-in-3-days</link>
+      <guid>https://rubyflow.com/p/9w663m-gosu-game-jam-6-starts-in-3-days</guid>
+    </item>
+    <item>
+      <title>Customize your Gemfile for development and productivity</title>
+      <description> Stuck because your pals aren’t into adding a gem to your workflow? No worries! Check out this article for tips on making your development smoother without their nod. Happy coding with Ruby! </description>
+      <pubDate>Tue, 26 Mar 2024 16:40:23 +0000</pubDate>
+      <link>https://rubyflow.com/p/njg9ip-customize-your-gemfile-for-development</link>
+      <guid>https://rubyflow.com/p/njg9ip-customize-your-gemfile-for-development</guid>
+    </item>
+    <item>
+      <title>An interactive intro to ruby debugger, in the debugger</title>
+      <description> I think the best way to learn is by doing, so I made an introduction to ruby debug gem where the instructions are in the code that you are moving through with the debugger. You get to use the debugger as you are reading about it. Turtles all the way down: &lt;a href="https://radanskoric.com/articles/ruby-debug-tutorial-intro?utm_source=rubyflow&amp;amp;utm_medium=feed&amp;amp;utm_campaign=ruby-debug-tutorial-intro" rel="nofollow"&gt;An interactive intro to ruby debugger, in the debugger&lt;/a&gt; </description>
+      <pubDate>Tue, 26 Mar 2024 15:47:59 +0000</pubDate>
+      <link>https://rubyflow.com/p/u0y8qr-an-interactive-intro-to-ruby-debugger-in-the-debugger</link>
+      <guid>https://rubyflow.com/p/u0y8qr-an-interactive-intro-to-ruby-debugger-in-the-debugger</guid>
+    </item>
+    <item>
+      <title>HOTWire: Considering Morphing or Turbo Frames</title>
+      <description> With the new morphing features in Turbo 8, you now need to decide on when to use Turbo streams or Turbo frames instead of full page refreshing. Thankfully, all three techniques work together. &lt;a href="https://onrails.blog/2024/03/26/hotwire-considering-morphing-or-turbo-frames/" rel="nofollow"&gt;https://onrails.blog/2024/03/26/hotwire-considering-morphing-or-turbo-frames/&lt;/a&gt; </description>
+      <pubDate>Tue, 26 Mar 2024 14:28:29 +0000</pubDate>
+      <link>https://rubyflow.com/p/q15tg3-hotwire-considering-morphing-or-turbo-frames</link>
+      <guid>https://rubyflow.com/p/q15tg3-hotwire-considering-morphing-or-turbo-frames</guid>
+    </item>
+    <item>
+      <title>What is a Ruby implementation?</title>
+      <description> Wait. There are several Ruby?! 💎 </description>
+      <pubDate>Tue, 26 Mar 2024 07:59:12 +0000</pubDate>
+      <link>https://rubyflow.com/p/dxedng-what-is-a-ruby-implementation</link>
+      <guid>https://rubyflow.com/p/dxedng-what-is-a-ruby-implementation</guid>
+    </item>
+    <item>
+      <title>Supercharge your Rails App with Active Admin</title>
+      <description> &lt;a href="https://www.shakacode.com/blog/supercharge-your-rails-app-with-active-admin/" rel="nofollow"&gt;https://www.shakacode.com/blog/supercharge-your-rails-app-with-active-admin/&lt;/a&gt; </description>
+      <pubDate>Tue, 26 Mar 2024 07:26:51 +0000</pubDate>
+      <link>https://rubyflow.com/p/jwpufo-supercharge-your-rails-app-with-active-admin</link>
+      <guid>https://rubyflow.com/p/jwpufo-supercharge-your-rails-app-with-active-admin</guid>
+    </item>
+    <item>
+      <title>Better Know Block Arguments</title>
+      <description> The third article in the “Argument Trilogy” – “Better Know Block Arguments” is available at &lt;a href="https://noelrappin.com/blog/2024/03/better-know-block-arguments/" rel="nofollow"&gt;https://noelrappin.com/blog/2024/03/better-know-block-arguments/&lt;/a&gt; </description>
+      <pubDate>Mon, 25 Mar 2024 19:58:22 +0000</pubDate>
+      <link>https://rubyflow.com/p/2gh5z8-better-know-block-arguments</link>
+      <guid>https://rubyflow.com/p/2gh5z8-better-know-block-arguments</guid>
+    </item>
+    <item>
+      <title>Rollup vs Esbuild for Rails </title>
+      <description> Despite ESBuild often being used as a default in new Rails apps, I was surprise to find very little experiments about Rollup. </description>
+      <pubDate>Mon, 25 Mar 2024 07:17:07 +0000</pubDate>
+      <link>https://rubyflow.com/p/4m8nna-rollup-vs-esbuild-for-rails-</link>
+      <guid>https://rubyflow.com/p/4m8nna-rollup-vs-esbuild-for-rails-</guid>
+    </item>
+    <item>
+      <title>How to enable reusability for ActiveRecord::Base::normalizes</title>
+      <description> &lt;a href="https://tobiasmaier.info/posts/2024/03/24/reusability-for-active-record-normalize.html" rel="nofollow"&gt;This article&lt;/a&gt; reviews the new &lt;code&gt;normalizes&lt;/code&gt; feature in Ruby on Rails 7.1 and &lt;a href="https://tobiasmaier.info/posts/2024/03/24/reusability-for-active-record-normalize.html" rel="nofollow"&gt;shows how to increase reusability&lt;/a&gt; by creating normalizer modules. I also &lt;a href="https://discuss.rubyonrails.org/t/proposal-activemodel-normalization/85405" rel="nofollow"&gt;opened a feature request&lt;/a&gt; to add support for ActiveModel, since &lt;code&gt;ActiveRecord::Normalization&lt;/code&gt; only supports ActiveRecord, obviously. Please show your support. </description>
+      <pubDate>Sun, 24 Mar 2024 22:45:48 +0000</pubDate>
+      <link>https://rubyflow.com/p/fxg6dg-how-to-enable-reusability-for-activerecordbasenormalizes</link>
+      <guid>https://rubyflow.com/p/fxg6dg-how-to-enable-reusability-for-activerecordbasenormalizes</guid>
+    </item>
+    <item>
+      <title>Event Sourcing with Rails from scratch</title>
+      <description> A tutorial of how to implements event sourcing in Rails application
+&lt;a href="https://www.smily.com/engineering/event-sourcing-with-rails-from-scratch" rel="nofollow"&gt;https://www.smily.com/engineering/event-sourcing-with-rails-from-scratch&lt;/a&gt; </description>
+      <pubDate>Fri, 22 Mar 2024 14:43:40 +0000</pubDate>
+      <link>https://rubyflow.com/p/x4wqaq-event-sourcing-with-rails-from-scratch</link>
+      <guid>https://rubyflow.com/p/x4wqaq-event-sourcing-with-rails-from-scratch</guid>
+    </item>
+    <item>
+      <title>From Sidekiq to Solid Queue with Scheduling</title>
+      <description> &lt;a href="https://visualizer.coffee/updates/from-sidekiq-to-solid-queue-with-scheduling" rel="nofollow"&gt;I wrote a short post&lt;/a&gt; where I share how I migrated Visualizer from Sidekiq to Solid Queue now that the latter supports scheduling. 🥳 </description>
+      <pubDate>Thu, 21 Mar 2024 15:55:15 +0000</pubDate>
+      <link>https://rubyflow.com/p/6zcclu-from-sidekiq-to-solid-queue-with-scheduling</link>
+      <guid>https://rubyflow.com/p/6zcclu-from-sidekiq-to-solid-queue-with-scheduling</guid>
+    </item>
+    <item>
+      <title>Ruby regex guide</title>
+      <description> A beginner friendly guide about Ruby regexes. Even if nowadays, ChatGPT tend to be not-too-bad in this field :) </description>
+      <pubDate>Thu, 21 Mar 2024 07:31:22 +0000</pubDate>
+      <link>https://rubyflow.com/p/3ge3bx-ruby-regex-guide</link>
+      <guid>https://rubyflow.com/p/3ge3bx-ruby-regex-guide</guid>
+    </item>
+    <item>
+      <title>Good Database Migration Practices for Your Ruby on Rails App using Strong Migrations </title>
+      <description> Let’s explore Strong Migrations, a gem that can help you maintain good practices with your database migrations in Ruby on Rails: &lt;a href="https://blog.appsignal.com/2024/03/20/good-database-migration-practices-for-your-ruby-on-rails-app-using-strong-migrations.html" rel="nofollow"&gt;https://blog.appsignal.com/2024/03/20/good-database-migration-practices-for-your-ruby-on-rails-app-using-strong-migrations.html&lt;/a&gt; </description>
+      <pubDate>Wed, 20 Mar 2024 12:22:23 +0000</pubDate>
+      <link>https://rubyflow.com/p/4p8nwr-good-database-migration-practices-for-your-ruby-on-rails-app-using-strong-migrat</link>
+      <guid>https://rubyflow.com/p/4p8nwr-good-database-migration-practices-for-your-ruby-on-rails-app-using-strong-migrat</guid>
+    </item>
+  </channel>
+</rss>

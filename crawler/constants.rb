@@ -98,8 +98,10 @@ NEWS_BY_REGION ={
     'Romin Irani - Medium':       'https://iromin.medium.com/feed',           # .. and this work
     'Guillaume Laforge - Medium':       'https://glaforge.medium.com/feed',           # .. and this work
     'Marc Cohen - Medium':        'https://marcacohen.medium.com/feed',
-    'Laurent Picard - Medium':        'https://PicardParis.medium.com/feed',
-    'Aja Hammerly - Medium':        'https://thagomizer.medium.com/feed',
+# 🕷️ 6  Crawling RSS Feed from: Laurent Picard - Medium # https://PicardParis.medium.com/feed❌ Some issues with parsing https://PicardParis.medium.com/feed:
+# 🕷️ 7  Crawling RSS Feed from: Aja Hammerly - Medium # https://thagomizer.medium.com/feed❌ Some issues with parsing https://thagomizer.medium.com/feed:
+    #'Laurent Picard - Medium':        'https://PicardParis.medium.com/feed',
+    #'Aja Hammerly - Medium':        'https://thagomizer.medium.com/feed',
     'Richard Seroter Blog':       'https://seroter.com/feed/',
     'Google Cloud - Medium':      'https://medium.com/feed/google-cloud',
   },
@@ -110,6 +112,13 @@ NEWS_BY_REGION ={
     'Ruby (English)':  'https://www.ruby-lang.org/en/',
     'Ruby (Italian)':  'https://www.ruby-lang.org/it/',
 
+    # Ruby RSS from https://rss.feedspot.com/ruby_on_rails_rss_feeds/
+    'Ruby on Rails': 'https://rubyonrails.org/feed.xml',
+    'Ruby Flow': 'https://rubyflow.com/rss',
+    'Everyday Rails': 'http://feeds.feedburner.com/EverydayRails',
+    'Drifitng ruby': 'https://www.driftingruby.com/episodes/feed.atom',
+    'Kevin Randles on Medium': 'https://medium.com/feed/@krandles',
+    #/Ruby
   }
 }
 
