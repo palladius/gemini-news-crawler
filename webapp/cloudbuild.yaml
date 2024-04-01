@@ -83,7 +83,7 @@ steps:
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
-  id: Push DEV to Cloud Run via Amazing new script which doesnt need mounting anymore
+  id: 4. Push DEV to Cloud Run via Amazing new script which doesnt need mounting anymore
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-magic.sh
@@ -102,7 +102,7 @@ steps:
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
-  id: Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
+  id: 5. Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
   waitFor:
   - 'step1 docker build'
   - 'step2 docker tag'
@@ -112,7 +112,7 @@ steps:
   - bin/cb-push-to-cloudrun-magic.sh
   - prod
   allowFailure: true
-  waitFor: ['-']
+  #waitFor: ['-']
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -122,7 +122,7 @@ steps:
 
 # This does NOT work
 - name: 'gcr.io/cloud-builders/gcloud'
-  id: Push DEV to Cloud run from POOR Env with DB stuff..
+  id: 6. Push DEV to Cloud run from POOR Env with DB stuff..
   waitFor:
   - 'step1 docker build'
   - 'step2 docker tag'
@@ -138,7 +138,7 @@ steps:
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
 - name: 'gcr.io/cloud-builders/gcloud'
-  id: Push PROD to Cloud run from POOR Env with DB stuff..
+  id: 7. Push PROD to Cloud run from POOR Env with DB stuff..
   waitFor:
   - 'step1 docker build'
   - 'step2 docker tag'
