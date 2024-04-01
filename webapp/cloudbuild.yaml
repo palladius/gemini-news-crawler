@@ -94,11 +94,12 @@ steps:
   id: Push DEV to Cloud run from POOR Env with DB stuff..
   entrypoint: bash
   args:
-  - bin/cb-push-to-cloudrun-dev.sh
-  - latest # todo remove me when we fix versions
-  - '||'
-  - exit
-  - "0"
+  - '-c'
+      # 1. todo remove me when we fix versions
+      # 2. https://github.com/GoogleCloudPlatform/cloud-builders/issues/253
+  - |
+    bin/cb-push-to-cloudrun-dev.sh latest ||
+    echo "I will still continue nonetheless. TODO ricc remove latest when it all works"
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'

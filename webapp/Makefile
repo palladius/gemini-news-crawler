@@ -67,3 +67,7 @@ docker-build:
 docker-run:
 	./entrypoint-8080.sh
 #	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
+
+# Latyest Magic script
+push-latest-to-dev-manhouse:
+	bin/cb-push-to-cloudrun-magic.sh dev latest
