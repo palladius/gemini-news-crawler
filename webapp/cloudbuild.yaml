@@ -80,9 +80,7 @@ steps:
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - dev
-  - '||'
-  - exit
-  - "0"
+  allowFailure: true
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -105,23 +103,16 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push PROD to Cloud run from POOR Env with DB stuff..
   entrypoint: bash
-  allowFailure: true
   args:
   - bin/cb-push-to-cloudrun-prod.sh
   #- latest # todo remove me when we fix versions
-  - '||'
-  - exit
-  - "0"
-  dir: webapp
   allowFailure: true
+  dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
-  # - 'DATABASE_HOST=$_DATABASE_HOST'
-  # - 'DATABASE_NAME=$_DATABASE_NAME'
-  # - 'DATABASE_USER=$_DATABASE_USER'
-  # - 'DATABASE_PASS=$_DATABASE_PASS'
+
 
 
