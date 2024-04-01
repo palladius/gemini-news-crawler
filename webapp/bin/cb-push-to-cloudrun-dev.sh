@@ -63,9 +63,7 @@ echo "APP_VERSION:    $APP_VERSION"
 echo "GIT_SHORT_SHA:  $GIT_SHORT_SHA"
 echo "UPL_IMG_W/_SHA: $UPLOADED_IMAGE_WITH_SHA"
 echo "UPLOADED_IMAGE_WITH_VER: $UPLOADED_IMAGE_WITH_VER"
-# echo "DATABASE_HOST:  $DATABASE_HOST"
-# echo "DATABASE_HOST:  $DATABASE_HOST"
-# echo "DATABASE_NAME:  $DATABASE_NAME"
+
 echo "---- /DEBUG ----"
 
 set -x
@@ -102,15 +100,14 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
-      --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
-      --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
-      --set-env-vars="DATABASE_USER=$DATABASE_USER" \
-      --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
       --set-env-vars="BUCKET=$BUCKET" \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
 
-
+#       --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
+      # --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
+      # --set-env-vars="DATABASE_USER=$DATABASE_USER" \
+      # --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
 # ILLEGAL       --set-env-vars="PORT=8080" \
 #      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
 #      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
