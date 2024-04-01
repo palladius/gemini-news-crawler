@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while true;  do
+    rake db:seed
+    sleep 300
+done

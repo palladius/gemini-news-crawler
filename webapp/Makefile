@@ -47,6 +47,9 @@ drop-and-recreate-db-dev:
 	DESTROY_ALL_BEFORE=YES_WHY_NOT rake db:seed
 #	RAILS_ENV=development rake db:drop db:migrate db:seed
 
+seed-forever:
+	bin/seed-forever
+
 test-cat-article-association:
 	echo  ArticleTag.count | rails c
 	echo  Category.first.articles | rails c
