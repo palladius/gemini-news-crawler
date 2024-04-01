@@ -76,6 +76,37 @@
 <li>Use an allowlist instead of denylist to determine when <code>query_and_wait</code> uses <code>jobs.query</code> API (<a href="https://github.com/googleapis/python-bigquery/issues/1869" target="_blank" rel="noreferrer noopener" class="external">#1869</a>) (<a href="https://github.com/googleapis/python-bigquery/commit/e265db6a6a37d13056dcaac240c2cf3975dfd644" target="_blank" rel="noreferrer noopener" class="external">e265db6</a>)</li>
 </ul></section>
 </div>
+<strong class="release-note-product-title">Cloud Storage</strong>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="go">Go</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_storageinternalapiv2" class="external">Changes for <a href="https://github.com/googleapis/google-cloud-go/tree/main/storage/internal/apiv2">storage/internal/apiv2</a></h3>
+
+<h4 id="1400_2024-03-29"><a href="https://github.com/googleapis/google-cloud-go/compare/storage/v1.39.1...storage/v1.40.0" target="_blank" rel="noreferrer noopener" class="external">1.40.0</a> (2024-03-29)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li><strong>storage:</strong> Implement io.WriterTo in Reader (<a href="https://github.com/googleapis/google-cloud-go/issues/9659" target="_blank" rel="noreferrer noopener" class="external">#9659</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/8264a962d1c21d52e8fca50af064c5535c3708d3" target="_blank" rel="noreferrer noopener" class="external">8264a96</a>)</li>
+<li><strong>storage:</strong> New storage control client (<a href="https://github.com/googleapis/google-cloud-go/issues/9631" target="_blank" rel="noreferrer noopener" class="external">#9631</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/1f4d27957743878976d6b4549cc02a5bb894d330" target="_blank" rel="noreferrer noopener" class="external">1f4d279</a>)</li>
+</ul>
+
+<h5 id="bug_fixes">Bug Fixes</h5>
+
+<ul>
+<li><strong>storage:</strong> Retry errors from last recv on uploads (<a href="https://github.com/googleapis/google-cloud-go/issues/9616" target="_blank" rel="noreferrer noopener" class="external">#9616</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/b6574aa42ebad0532c2749b6ece879b932f95cb9" target="_blank" rel="noreferrer noopener" class="external">b6574aa</a>)</li>
+<li><strong>storage:</strong> Update protobuf dep to v1.33.0 (<a href="https://github.com/googleapis/google-cloud-go/commit/30b038d8cac0b8cd5dd4761c87f3f298760dd33a" target="_blank" rel="noreferrer noopener" class="external">30b038d</a>)</li>
+</ul>
+
+<h5 id="performance_improvements">Performance Improvements</h5>
+
+<ul>
+<li><strong>storage:</strong> Remove protobuf&#39;s copy of data on unmarshalling (<a href="https://github.com/googleapis/google-cloud-go/issues/9526" target="_blank" rel="noreferrer noopener" class="external">#9526</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/81281c04e503fd83301baf88cc352c77f5d476ca" target="_blank" rel="noreferrer noopener" class="external">81281c0</a>)</li>
+</ul></section>
+</div>
+<strong class="release-note-product-title">Virtual Private Cloud</strong>
+<h3>Feature</h3>
+<p>You can use <a href="https://cloud.google.com/vpc/docs/packet-mirroring">Packet Mirroring</a> to collect IPv6 traffic. This feature is available in <strong>General Availability</strong>.</p>
 ]]>
     </content>
   </entry>
@@ -107,6 +138,11 @@
 <strong class="release-note-product-title">Chronicle SOAR</strong>
 <h3>Announcement</h3>
 <p>Release 6.2.52 is now in General Availability.</p>
+<strong class="release-note-product-title">Cloud Storage</strong>
+<h3>Feature</h3>
+<p><a href="https://cloud.google.com/storage/docs/custom-constraints">Custom constraints</a> for Cloud Storage are now available. You can use custom constraints to enforce policies on Cloud Storage resources, such as a policy that enforces all buckets to have Object Versioning enabled.</p>
+<h3>Feature</h3>
+<p>The Storage Control API is now available for use. The Storage Control API lets you perform metadata-specific, control plane, and long-running operations. To learn more about the Storage Control API and operations you can perform, see <a href="https://cloud.google.com/storage/docs/reference/rpc">Storage Control API overview</a>.</p>
 <strong class="release-note-product-title">Dataproc</strong>
 <h3>Breaking</h3>
 <p><strong>Dataproc Serverless for Spark:</strong> <a href="https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions#spark_runtime_version_22">runtime version 2.2</a> will become the default Dataproc Serverless for Spark runtime version on May 3, 2024. </p>
@@ -1306,6 +1342,40 @@ To learn more, see <a href="https://cloud.google.com/artifact-analysis/docs/sbom
 <p>Private Service Connect includes support for <a href="https://cloud.google.com/sql/docs/sqlserver/replication/create-replica#create-read-replica-cloud-sql-instance-psc-enabled">cross-region read replicas</a>. You can also <a href="https://cloud.google.com/sql/docs/sqlserver/configure-ha">choose an availability type</a> (REGIONAL or ZONAL) for Private Service Connect-enabled instances. </p>
 
 <p>All features are in <a href="https://cloud.google.com/products?hl=en#product-launch-stages">GA</a>.</p>
+<strong class="release-note-product-title">Cloud Storage</strong>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="node.js">Node.js</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloudstorage" class="external">Changes for <a href="https://github.com/googleapis/nodejs-storage">@google-cloud/storage</a></h3>
+
+<h4 id="790_2024-03-18"><a href="https://github.com/googleapis/nodejs-storage/compare/v7.8.0...v7.9.0" target="_blank" rel="noreferrer noopener" class="external">7.9.0</a> (2024-03-18)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li>Add ability to configure and utilize soft-delete and restore (<a href="https://github.com/googleapis/nodejs-storage/issues/2425" target="_blank" rel="noreferrer noopener" class="external">#2425</a>) (<a href="https://github.com/googleapis/nodejs-storage/commit/7da5a7da86ad649a8132e3183f4b3e3f9bb2eace" target="_blank" rel="noreferrer noopener" class="external">7da5a7d</a>)</li>
+</ul></section>
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-storage" class="external">Changes for <a href="https://github.com/googleapis/java-storage">google-cloud-storage</a></h3>
+
+<h4 id="2361_2024-03-20"><a href="https://github.com/googleapis/java-storage/compare/v2.36.0...v2.36.1" target="_blank" rel="noreferrer noopener" class="external">2.36.1</a> (2024-03-20)</h4>
+
+<h5 id="dependencies">Dependencies</h5>
+
+<ul>
+<li>Update dependency com.google.apis:google-api-services-storage to v1-rev20240311-2.0.0 (<a href="https://github.com/googleapis/java-storage/issues/2446" target="_blank" rel="noreferrer noopener" class="external">#2446</a>) (<a href="https://github.com/googleapis/java-storage/commit/27b4780ff64ce068555887c1cc4f88489dde0a83" target="_blank" rel="noreferrer noopener" class="external">27b4780</a>)</li>
+<li>Update dependency com.google.cloud:sdk-platform-java-config to v3.28.1 (<a href="https://github.com/googleapis/java-storage/issues/2450" target="_blank" rel="noreferrer noopener" class="external">#2450</a>) (<a href="https://github.com/googleapis/java-storage/commit/bf35a9a041f012b56e4a858d48b018f1270f319d" target="_blank" rel="noreferrer noopener" class="external">bf35a9a</a>)</li>
+</ul></section>
+<section><h3 track-name="python">Python</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-storage_2" class="external">Changes for <a href="https://github.com/googleapis/python-storage">google-cloud-storage</a></h3>
+
+<h4 id="2160_2024-03-18"><a href="https://github.com/googleapis/python-storage/compare/v2.15.0...v2.16.0" target="_blank" rel="noreferrer noopener" class="external">2.16.0</a> (2024-03-18)</h4>
+
+<h5 id="features_2">Features</h5>
+
+<ul>
+<li>Add support for soft delete (<a href="https://github.com/googleapis/python-storage/issues/1229" target="_blank" rel="noreferrer noopener" class="external">#1229</a>) (<a href="https://github.com/googleapis/python-storage/commit/3928aa0680ec03addae1f792c73abb5c9dc8586f" target="_blank" rel="noreferrer noopener" class="external">3928aa0</a>)</li>
+<li>Support includeFoldersAsPrefixes (<a href="https://github.com/googleapis/python-storage/issues/1223" target="_blank" rel="noreferrer noopener" class="external">#1223</a>) (<a href="https://github.com/googleapis/python-storage/commit/7bb806538cf3d7a5e16390db1983620933d5e51a" target="_blank" rel="noreferrer noopener" class="external">7bb8065</a>)</li>
+</ul></section>
+</div>
 <strong class="release-note-product-title">Container Optimized OS</strong>
 <h3>Changed</h3>
 <h3 id="cos-beta-113-18244-1-7_">cos-beta-113-18244-1-7 <a id="cos-arm64-beta-113-18244-1-7"/></h3>
@@ -6246,6 +6316,8 @@ this type to a SQL <code>STRING</code> value.</li>
 <h3>Announcement</h3>
 <p><a href="https://cloud.google.com/text-to-speech/docs/voice-types#casual_voices_preview">Casual</a> voices are now in preview. </p>
 <strong class="release-note-product-title">Vertex AI</strong>
+<h3>Feature</h3>
+<p>Structured logging support for Vertex AI custom training. For details, see <a href="https://cloud.google.com/vertex-ai/docs/training/code-requirements?#write_code_to_return_container_logs">Write code to return container logs</a>.</p>
 <h3>Feature</h3>
 <p><strong>Ground Multimodal Models</strong></p>
 

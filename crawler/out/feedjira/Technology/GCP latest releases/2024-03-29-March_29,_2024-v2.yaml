@@ -11,7 +11,15 @@ content: "<strong class=\"release-note-product-title\">Apigee X</strong>\n<h3>Fe
   to data residency</a>.</p>\n\n<p>For a list of supported geographic locations, see
   <a href=\"https://cloud.google.com/apigee/docs/locations\">Apigee locations</a>.</p>\n<strong
   class=\"release-note-product-title\">Chronicle SOAR</strong>\n<h3>Announcement</h3>\n<p>Release
-  6.2.52 is now in General Availability.</p>\n<strong class=\"release-note-product-title\">Dataproc</strong>\n<h3>Breaking</h3>\n<p><strong>Dataproc
+  6.2.52 is now in General Availability.</p>\n<strong class=\"release-note-product-title\">Cloud
+  Storage</strong>\n<h3>Feature</h3>\n<p><a href=\"https://cloud.google.com/storage/docs/custom-constraints\">Custom
+  constraints</a> for Cloud Storage are now available. You can use custom constraints
+  to enforce policies on Cloud Storage resources, such as a policy that enforces all
+  buckets to have Object Versioning enabled.</p>\n<h3>Feature</h3>\n<p>The Storage
+  Control API is now available for use. The Storage Control API lets you perform metadata-specific,
+  control plane, and long-running operations. To learn more about the Storage Control
+  API and operations you can perform, see <a href=\"https://cloud.google.com/storage/docs/reference/rpc\">Storage
+  Control API overview</a>.</p>\n<strong class=\"release-note-product-title\">Dataproc</strong>\n<h3>Breaking</h3>\n<p><strong>Dataproc
   Serverless for Spark:</strong> <a href=\"https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions#spark_runtime_version_22\">runtime
   version 2.2</a> will become the default Dataproc Serverless for Spark runtime version
   on May 3, 2024. </p>\n<strong class=\"release-note-product-title\">Deep Learning

@@ -312,8 +312,11 @@ content: "<strong class=\"release-note-product-title\">Anthos clusters on AWS</s
   href=\"https://cloud.google.com/text-to-speech/docs/voice-types#studio_voices_preview\">Studio</a>
   voices are now GA. </p>\n<h3>Announcement</h3>\n<p><a href=\"https://cloud.google.com/text-to-speech/docs/voice-types#casual_voices_preview\">Casual</a>
   voices are now in preview. </p>\n<strong class=\"release-note-product-title\">Vertex
-  AI</strong>\n<h3>Feature</h3>\n<p><strong>Ground Multimodal Models</strong></p>\n\n<p><p>Model
-  grounding for <code>gemini-pro</code> is available in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.
+  AI</strong>\n<h3>Feature</h3>\n<p>Structured logging support for Vertex AI custom
+  training. For details, see <a href=\"https://cloud.google.com/vertex-ai/docs/training/code-requirements?#write_code_to_return_container_logs\">Write
+  code to return container logs</a>.</p>\n<h3>Feature</h3>\n<p><strong>Ground Multimodal
+  Models</strong></p>\n\n<p><p>Model grounding for <code>gemini-pro</code> is available
+  in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.
   Use grounding to\nconnect the <code>gemini-pro</code> model to unstructured text
   data stores in Vertex AI Search. Grounding lets models access and use the information
   in the data repositories to generate more enhanced and nuanced responses.\nFor more

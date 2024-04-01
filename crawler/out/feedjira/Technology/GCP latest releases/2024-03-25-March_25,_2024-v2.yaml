@@ -141,6 +141,43 @@ content: "<strong class=\"release-note-product-title\">AlloyDB for PostgreSQL</s
   read replicas</a>. You can also <a href=\"https://cloud.google.com/sql/docs/sqlserver/configure-ha\">choose
   an availability type</a> (REGIONAL or ZONAL) for Private Service Connect-enabled
   instances. </p>\n\n<p>All features are in <a href=\"https://cloud.google.com/products?hl=en#product-launch-stages\">GA</a>.</p>\n<strong
+  class=\"release-note-product-title\">Cloud Storage</strong>\n<h3>Libraries</h3>\n<p>A
+  weekly digest of client library updates from across the <a href=\"https://cloud.google.com/sdk\">Cloud
+  SDK</a>.</p>\n<div class=\"ds-selector-tabs\" data-ds-scope=\"code-sample\">\n<section><h3
+  track-name=\"node.js\">Node.js</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloudstorage\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/nodejs-storage\">@google-cloud/storage</a></h3>\n\n<h4
+  id=\"790_2024-03-18\"><a href=\"https://github.com/googleapis/nodejs-storage/compare/v7.8.0...v7.9.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7.9.0</a> (2024-03-18)</h4>\n\n<h5
+  id=\"features\">Features</h5>\n\n<ul>\n<li>Add ability to configure and utilize
+  soft-delete and restore (<a href=\"https://github.com/googleapis/nodejs-storage/issues/2425\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2425</a>) (<a
+  href=\"https://github.com/googleapis/nodejs-storage/commit/7da5a7da86ad649a8132e3183f4b3e3f9bb2eace\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7da5a7d</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"java\">Java</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\" id=\"changes_for_google-cloud-storage\"
+  class=\"external\">Changes for <a href=\"https://github.com/googleapis/java-storage\">google-cloud-storage</a></h3>\n\n<h4
+  id=\"2361_2024-03-20\"><a href=\"https://github.com/googleapis/java-storage/compare/v2.36.0...v2.36.1\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.36.1</a> (2024-03-20)</h4>\n\n<h5
+  id=\"dependencies\">Dependencies</h5>\n\n<ul>\n<li>Update dependency com.google.apis:google-api-services-storage
+  to v1-rev20240311-2.0.0 (<a href=\"https://github.com/googleapis/java-storage/issues/2446\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2446</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/27b4780ff64ce068555887c1cc4f88489dde0a83\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">27b4780</a>)</li>\n<li>Update
+  dependency com.google.cloud:sdk-platform-java-config to v3.28.1 (<a href=\"https://github.com/googleapis/java-storage/issues/2450\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#2450</a>) (<a
+  href=\"https://github.com/googleapis/java-storage/commit/bf35a9a041f012b56e4a858d48b018f1270f319d\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">bf35a9a</a>)</li>\n</ul></section>\n<section><h3
+  track-name=\"python\">Python</h3><h3 target=\"_blank\" rel=\"noreferrer noopener\"
+  id=\"changes_for_google-cloud-storage_2\" class=\"external\">Changes for <a href=\"https://github.com/googleapis/python-storage\">google-cloud-storage</a></h3>\n\n<h4
+  id=\"2160_2024-03-18\"><a href=\"https://github.com/googleapis/python-storage/compare/v2.15.0...v2.16.0\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">2.16.0</a> (2024-03-18)</h4>\n\n<h5
+  id=\"features_2\">Features</h5>\n\n<ul>\n<li>Add support for soft delete (<a href=\"https://github.com/googleapis/python-storage/issues/1229\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1229</a>) (<a
+  href=\"https://github.com/googleapis/python-storage/commit/3928aa0680ec03addae1f792c73abb5c9dc8586f\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">3928aa0</a>)</li>\n<li>Support
+  includeFoldersAsPrefixes (<a href=\"https://github.com/googleapis/python-storage/issues/1223\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">#1223</a>) (<a
+  href=\"https://github.com/googleapis/python-storage/commit/7bb806538cf3d7a5e16390db1983620933d5e51a\"
+  target=\"_blank\" rel=\"noreferrer noopener\" class=\"external\">7bb8065</a>)</li>\n</ul></section>\n</div>\n<strong
   class=\"release-note-product-title\">Container Optimized OS</strong>\n<h3>Changed</h3>\n<h3
   id=\"cos-beta-113-18244-1-7_\">cos-beta-113-18244-1-7 <a id=\"cos-arm64-beta-113-18244-1-7\"/></h3>\n\n<table
   class=pkg>\n  <tr>\n    <td>Kernel</td>\n    <td>Docker</td>\n    <td>Containerd</td>\n

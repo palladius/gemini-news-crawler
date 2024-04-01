@@ -10,8 +10,13 @@
 
     <ul>
     <% @last_ten_articles.each do |article| %>
-        <li>⌛️  <b><%= link_to article.hhmm, article %></b> <%= link_to article.title, article %>
-        (<%= time_ago_in_words(article.published_date) %> ago ) </li>
+        <li>
+            ⌛️  <b><%= link_to article.hhmm, article %></b> <%= link_to article.title, article %>
+                <% article.categories.each do |c| %>
+                <%=    render_fancy_category(c) %>
+                <% end %>
+                <i>(<%= time_ago_in_words(article.published_date) %> ago )</i>
+        </li>
     <% end %>
     </ul>
 </div>

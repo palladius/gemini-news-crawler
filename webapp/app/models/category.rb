@@ -20,6 +20,16 @@ class Category < ApplicationRecord
       name.gsub(' ', '_')
     end
 
+    # foxnews/bleh/blah -> blah
+    # 3a578ac2-6ecc-54d0-b9af-f6385da34ec6
+    # 8971ddb7-f8b8-5ddf-bd90-af94a16574af
+    # Fox News ugly categories..
+    def cleaned_up
+      uuid_regex = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/
+      return "🦊news💩" if self.name =~ uuid_regex
+      self.name.split("/")[-1] # last after slash
+    end
+
     def emoji
       Category.emoji
     end
