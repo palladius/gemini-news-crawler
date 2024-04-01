@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com/page/2_0006.html"/>
 <description>World News</description>
 <language>en-us</language>
-<pubDate>Mon, 01 Apr 2024 15:48:13 -0400</pubDate>
-<lastBuildDate>Mon, 01 Apr 2024 15:48:13 -0400</lastBuildDate>
+<pubDate>Mon, 01 Apr 2024 16:25:24 -0400</pubDate>
+<lastBuildDate>Mon, 01 Apr 2024 16:25:24 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com/page/2_0006.html</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,66 @@
 <link>http://online.wsj.com/page/2_0006.html</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Florida Supreme Court OK's Abortion Ballot Measure, Teeing Up Major Fight</title>
+<link>https://www.wsj.com/articles/florida-abortion-ballot-measure-supreme-court-a3340feb</link>
+<description><![CDATA[The decision puts abortion front and center in the state in a presidential election year.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 16:24:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675014</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>U.S. News</wsj:articletype>
+</item>
+<item>
+<title>S&amp;P 500 Drops to Start New Quarter</title>
+<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-04-01-2024-c6fecc1d</link>
+<description><![CDATA[Fresh data raise doubts on whether the Fed will cut rates three times this year. The S&amp;P 500 fell 0.2% and the Dow industrials shed 0.6% after both finished last week at records.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 16:19:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675550</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Today's Markets</wsj:articletype>
+</item>
+<item>
+<title>Person Tests Positive for Bird Flu in Texas After Exposure to Cattle</title>
+<link>https://www.wsj.com/articles/bird-flu-human-infection-texas-cattle-885b00be</link>
+<description><![CDATA[It is the second known human case of H5N1 infection in the U.S.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 16:13:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675279</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Health News</wsj:articletype>
+</item>
+<item>
+<title>Russian Court Extends Detention of Radio Free Europe Reporter</title>
+<link>https://www.wsj.com/articles/russian-court-extends-detention-of-radio-free-europe-reporter-06113c9f</link>
+<description><![CDATA[Alsu Kurmasheva, who holds both U.S. and Russian citizenship, is to be held until June 5, a judge ruled, as relations between Moscow and Washington plummet.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 16:10:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675681</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Russia News</wsj:articletype>
+</item>
+<item>
+<title>Trump Media Shares Tumble After Recent Cash Crunch Disclosed</title>
+<link>https://www.wsj.com/articles/trump-media-shares-tumble-after-disclosing-recent-cash-crunch-18e41d2f</link>
+<description><![CDATA[The stock’s plunge erased more than $1 billion from Donald Trump’s approximately 57% stake in the company.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 16:05:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675276</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Stocks</wsj:articletype>
+</item>
+<item>
+<title>If You Think Most Voters Distrust the Media…</title>
+<link>https://www.wsj.com/articles/if-you-think-most-voters-distrust-the-media-34c1047d</link>
+<description><![CDATA[… imagine what the staff of Air Force One thinks of the press.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 15:55:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJO-0000031862</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Best of the Web Today</wsj:articletype>
+</item>
 <item>
 <title>Postal Service Picks UPS to Move Air Cargo, Replacing FedEx</title>
 <link>https://www.wsj.com/articles/fedex-to-let-contract-with-usps-lapse-ups-strikes-deal-dbe44ce4</link>
@@ -97,16 +157,6 @@
 <wsj:articletype>NewsPlus</wsj:articletype>
 </item>
 <item>
-<title>Person Tests Positive for Bird Flu in Texas After Exposure to Cattle</title>
-<link>https://www.wsj.com/articles/bird-flu-human-infection-texas-cattle-885b00be</link>
-<description><![CDATA[It is the second known human case of H5N1 infection in the U.S.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 15:01:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001675279</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Health News</wsj:articletype>
-</item>
-<item>
 <title>All Wound Up (Tuesday Crossword, April 2)</title>
 <link>https://www.wsj.com/articles/all-wound-up-tuesday-crossword-april-2-7b416b96</link>
 <description><![CDATA[]]></description>
@@ -165,56 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001675080</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Private Properties</wsj:articletype>
-</item>
-<item>
-<title>Trump Media Shares Tumble After Recent Cash Crunch Disclosed</title>
-<link>https://www.wsj.com/articles/trump-media-shares-tumble-after-disclosing-recent-cash-crunch-18e41d2f</link>
-<description><![CDATA[The stock’s plunge erased more than $1 billion from Donald Trump’s approximately 57% stake in the company.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 14:18:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001675276</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Stocks</wsj:articletype>
-</item>
-<item>
-<title>America's Mental Health Is Worsening. Special Urgent-Care Clinics Step In.</title>
-<link>https://www.wsj.com/articles/urgent-care-centers-spring-up-to-speed-mental-health-care-78d4b0ab</link>
-<description><![CDATA[The centers try to ease a therapists shortage causing long waits for help.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 13:47:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001619000</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Health News</wsj:articletype>
-</item>
-<item>
-<title>Nuvei Agrees Deal to Be Taken Private</title>
-<link>https://www.wsj.com/articles/nuvei-agrees-deal-to-be-taken-private-1c0d0d58</link>
-<description><![CDATA[The proposed transaction has the support of shareholders Philip Fayer, Nuvei’s founder, chairman and chief executive, Novacap and Caisse de depot et placement du Quebec, who collectively represent roughly 92% of the voting power attached to Nuvei’s shares.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 13:08:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001675072</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Business</wsj:articletype>
-</item>
-<item>
-<title>Google Pledges to Destroy Browsing Data to Settle 'Incognito' Lawsuit</title>
-<link>https://www.wsj.com/articles/google-pledges-to-destroy-browsing-data-to-settle-incognito-lawsuit-1febfde5</link>
-<description><![CDATA[The move is part of a settlement of a lawsuit that alleged the company tracked millions of users without their knowledge. ]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 13:06:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001674845</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Technology</wsj:articletype>
-</item>
-<item>
-<title>Sports Illustrated Owner Sues 5-Hour Energy Founder Over Missed Payments</title>
-<link>https://www.wsj.com/articles/sports-illustrated-owner-sues-5-hour-energy-founder-over-48-8-million-in-missed-payments-a944cb38</link>
-<description><![CDATA[Authentic Brands alleges Manoj Bhargava and the sports magazine’s former publisher “tried to weaponize their obstinance.”]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 13:01:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001675045</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Media &amp; Marketing</wsj:articletype>
 </item>
 </channel>
 </rss>

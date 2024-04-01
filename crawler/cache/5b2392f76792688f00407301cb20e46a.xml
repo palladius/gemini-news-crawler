@@ -14,7 +14,10 @@
     <id>tag:google.com,2016:gcp-release-notes#April_01_2024</id>
     <updated>2024-04-01T00:00:00-07:00</updated>
     <link rel="alternate" href="https://cloud.google.com/release-notes#April_01_2024"/>
-    <content type="html"><![CDATA[<strong class="release-note-product-title">BigQuery</strong>
+    <content type="html"><![CDATA[<strong class="release-note-product-title">Backup and DR</strong>
+<h3>Feature</h3>
+<p>Backup and DR Service added support to <a href="https://cloud.google.com/backup-disaster-recovery/docs/create-plan/dynamic-protection">automatically protect your compute engine instances</a> using Google Cloud tags. The dynamic protection tags feature is supported for backup/recovery appliances running on version 11.0.10.417 or later. You can check the appliance version from <strong>Manage</strong> &gt; <strong>Appliances</strong> page.</p>
+<strong class="release-note-product-title">BigQuery</strong>
 <h3>Libraries</h3>
 <p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
 <div class="ds-selector-tabs" data-ds-scope="code-sample">
@@ -76,6 +79,11 @@
 <li>Use an allowlist instead of denylist to determine when <code>query_and_wait</code> uses <code>jobs.query</code> API (<a href="https://github.com/googleapis/python-bigquery/issues/1869" target="_blank" rel="noreferrer noopener" class="external">#1869</a>) (<a href="https://github.com/googleapis/python-bigquery/commit/e265db6a6a37d13056dcaac240c2cf3975dfd644" target="_blank" rel="noreferrer noopener" class="external">e265db6</a>)</li>
 </ul></section>
 </div>
+<h3>Feature</h3>
+<p>You can now enable, disable, and analyze
+<a href="https://cloud.google.com/bigquery/docs/history-based-optimizations">history-based optimizations for queries</a>. This feature is in <a href="https://cloud.google.com/products/#product-launch-stages">preview</a>.</p>
+<h3>Announcement</h3>
+<p>BigQuery Studio is now available in the <a href="https://cloud.google.com/bigquery/docs/locations#bqstudio-loc">South Carolina (us-east1) region</a> to manage versions of code assets such as notebooks and saved queries.</p>
 <strong class="release-note-product-title">Cloud Storage</strong>
 <h3>Libraries</h3>
 <p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>

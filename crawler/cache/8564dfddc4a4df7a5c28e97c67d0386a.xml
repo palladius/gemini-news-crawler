@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Mon, 01 Apr 2024 14:19:29 -0400</pubDate>
-<lastBuildDate>Mon, 01 Apr 2024 14:19:29 -0400</lastBuildDate>
+<pubDate>Mon, 01 Apr 2024 16:20:57 -0400</pubDate>
+<lastBuildDate>Mon, 01 Apr 2024 16:20:57 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,11 +17,21 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
-<title>Trump Media Shares Tumble After Disclosing Recent Cash Crunch</title>
-<link>https://www.wsj.com/articles/trump-media-shares-tumble-after-disclosing-recent-cash-crunch-18e41d2f?mod=rss_markets_main</link>
-<description><![CDATA[The stock slide erased more than $1 billion from the presidential candidate’s approximately 57% stake in the company.]]></description>
+<title>S&amp;P 500 Drops to Start New Quarter</title>
+<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-04-01-2024-c6fecc1d?mod=rss_markets_main</link>
+<description><![CDATA[Fresh data raise doubts on whether the Fed will cut rates three times this year. The S&amp;P 500 fell 0.2% and the Dow industrials shed 0.6% after both finished last week at records.]]></description>
 <content:encoded/>
-<pubDate>Mon, 01 Apr 2024 14:18:00 -0400</pubDate>
+<pubDate>Mon, 01 Apr 2024 16:19:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675550</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Today's Markets</wsj:articletype>
+</item>
+<item>
+<title>Trump Media Shares Tumble After Recent Cash Crunch Disclosed</title>
+<link>https://www.wsj.com/articles/trump-media-shares-tumble-after-disclosing-recent-cash-crunch-18e41d2f?mod=rss_markets_main</link>
+<description><![CDATA[The stock’s plunge erased more than $1 billion from Donald Trump’s approximately 57% stake in the company.]]></description>
+<content:encoded/>
+<pubDate>Mon, 01 Apr 2024 16:05:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001675276</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Stocks</wsj:articletype>
@@ -205,16 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001670127</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>The Intelligent Investor</wsj:articletype>
-</item>
-<item>
-<title>Life After FTX: Bankman-Fried's Employees Struggle to Move On</title>
-<link>https://www.wsj.com/articles/bankman-fried-employees-crypto-prison-sentence-ed623940?mod=rss_markets_main</link>
-<description><![CDATA[‘What the hell was going on?’ Comprehending their ex-boss’s crimes proves a challenge.]]></description>
-<content:encoded/>
-<pubDate>Fri, 29 Mar 2024 05:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001669561</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Crypto</wsj:articletype>
 </item>
 </channel>
 </rss>
