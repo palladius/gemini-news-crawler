@@ -13,8 +13,9 @@
 #       that enablibng Cloud Run required some magical additional access which Im not sure
 #       how to reproduce in IAC. See https://screenshot.googleplex.com/4wEvj93LprtUdgU
 #
-# We do steps 1,2,3
-# Then all the other steps are executed immediately and in parallel.
+# Step order: https://cloud.google.com/build/docs/configuring-builds/configure-build-step-order
+# * We do steps 1,2,3
+# * Then all the other steps are executed immediately and in parallel.
 ###############################################################################
 
 timeout: 1200s # 20min

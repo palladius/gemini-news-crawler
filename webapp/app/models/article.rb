@@ -63,6 +63,7 @@ class Article < ApplicationRecord
       puts("Article::set_defaults_after (after_save). My id=#{self.id}")
       #self.active ||= true
       #self.author ||= 'Cielcio Conti'
+      @categories_to_be_initialized ||= []
       @categories_to_be_initialized.each do |c|
         at = ArticleTag.find_or_create_by(
             article_id: self.id,
