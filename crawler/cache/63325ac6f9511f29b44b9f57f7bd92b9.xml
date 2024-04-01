@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Mon, 01 Apr 2024 20:37:00 +0200</lastBuildDate>
-  <pubDate>Mon, 01 Apr 2024 20:37:00 +0200</pubDate>
+  <lastBuildDate>Mon, 01 Apr 2024 20:51:03 +0200</lastBuildDate>
+  <pubDate>Mon, 01 Apr 2024 20:51:03 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,13 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Russian security agency says suspects detained in Dagestan linked to Moscow attack</title>
+   <link>https://www.euronews.com/2024/04/01/russian-security-agency-says-suspects-detained-in-dagestan-linked-to-moscow-attack</link>
+   <guid>https://www.euronews.com/2024/04/01/russian-security-agency-says-suspects-detained-in-dagestan-linked-to-moscow-attack</guid>
+   <pubDate>Mon, 01 Apr 2024 20:43:56 +0200</pubDate>
+   <description>The detained are suspected of channelling funds and providing weapons to the gunmen who attacked the concert hall in Moscow.</description>
+  </item>
   <item>
    <title>Eight dead as bus collides with train in Russia </title>
    <link>https://www.euronews.com/2024/04/01/eight-dead-as-bus-collides-with-train-in-russia</link>
@@ -41,7 +48,7 @@
    <link>https://www.euronews.com/2024/04/01/israeli-air-strike-destroys-iranian-consulate-in-damascus-killing-senior-commander-syria-s</link>
    <guid>https://www.euronews.com/2024/04/01/israeli-air-strike-destroys-iranian-consulate-in-damascus-killing-senior-commander-syria-s</guid>
    <pubDate>Mon, 01 Apr 2024 19:10:02 +0200</pubDate>
-   <description>The Iranian military adviser Ali Reza Zahdi killed in the air strike led the elite Quds Force in Lebanon and Syria until 2016.</description>
+   <description>The Iranian military adviser Mohammad Reza Zahedi killed in the air strike led the elite Quds Force in Lebanon and Syria until 2016.</description>
   </item>
   <item>
    <title>First Romania-Bulgaria flight takes place after partial Schengen entry</title>
@@ -357,13 +364,6 @@
    <guid>https://www.euronews.com/2024/03/29/pope-francis-leads-good-friday-mass-in-st-peters-basilica</guid>
    <pubDate>Fri, 29 Mar 2024 20:05:54 +0100</pubDate>
    <description>The humble Easter ceremony evoked the pain of war, immigration and violence against women.</description>
-  </item>
-  <item>
-   <title>WATCH: Aftermath of deadly cyclone Gamane in Madagascar</title>
-   <link>https://www.euronews.com/video/2024/03/29/watch-aftermath-of-deadly-cyclone-gamane-in-madagascar</link>
-   <guid>https://www.euronews.com/video/2024/03/29/watch-aftermath-of-deadly-cyclone-gamane-in-madagascar</guid>
-   <pubDate>Fri, 29 Mar 2024 20:01:14 +0100</pubDate>
-   <description>The storm killed 18 people and left four missing after making landfall on the north of the Indian Ocean island nation earlier this week, authorities said on Friday.</description>
   </item>
  </channel>
 </rss>

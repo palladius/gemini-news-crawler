@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Mon, 01 Apr 2024 19:05:56 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 01 Apr 2024 19:37:11 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,22 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.3</generator>
 			<item>
+				<link>https://www.aljazeera.com/news/2024/4/1/in-washington-dc-celebrating-ramadan-protesting-israels-siege-of-gaza?traffic_source=rss</link>
+				<title>In Washington, DC: Celebrating Ramadan, protesting Israel’s siege of Gaza</title>
+				<description><![CDATA[US protesters say iftar at long-haul demonstration is a chance to connect, show depths of outrage over Gaza war.]]></description>
+				<pubDate>Mon, 01 Apr 2024 19:37:11 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711978058</guid>
+							</item>
+					<item>
+				<link>https://www.aljazeera.com/program/inside-story/2024/4/1/will-narendra-modi-serve-another-term-as-indias-prime-minister?traffic_source=rss</link>
+				<title>Will Narendra Modi serve another term as India’s prime minister?</title>
+				<description><![CDATA[PM credited with economic growth but criticised for Hindu nationalist policies.]]></description>
+				<pubDate>Mon, 01 Apr 2024 19:21:59 +0000</pubDate>
+				<category>TV Shows</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711997955</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/program/newsfeed/2024/4/1/trump-posts-video-with-image-of-biden-bound-and-tied?traffic_source=rss</link>
 				<title>Trump posts video with image of Biden bound and tied</title>
 				<description><![CDATA[Biden’s campaign is condemning an image of the US president shown ‘hog-tied’ on the back of a pickup truck.]]></description>
@@ -203,22 +219,6 @@
 				<pubDate>Mon, 01 Apr 2024 07:01:56 +0000</pubDate>
 				<category>News</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711946261</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/gallery/2024/4/1/tens-of-thousands-rally-against-netanyahu-in-jerusalem?traffic_source=rss</link>
-				<title>Tens of thousands of Israelis rally against PM Netanyahu in Jerusalem</title>
-				<description><![CDATA[The protest in Jerusalem was the largest since Israel launched its war on Gaza in October.]]></description>
-				<pubDate>Mon, 01 Apr 2024 06:15:46 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711948664</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/4/1/russia-ukraine-war-list-of-key-events-day-767?traffic_source=rss</link>
-				<title>Russia-Ukraine war: List of key events, day 767</title>
-				<description><![CDATA[As the war enters its 767th day, these are the main developments.]]></description>
-				<pubDate>Mon, 01 Apr 2024 05:47:28 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711943198</guid>
 							</item>
 			</channel>
 </rss>

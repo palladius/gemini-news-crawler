@@ -46,17 +46,26 @@ NEWS_BY_REGION ={
     'Feedburner Euronews': 'https://feeds.feedburner.com/euronews/en/home/',
     # add more if nice.
   },
-  'USA': {
-    # WOWOWOW    # https://about.fb.com/wp-content/uploads/2016/05/rss-urls-1.pdf
-    'US general1': 'http://feeds.abcnews.com/abcnews/usheadlines',
-    'US general2': 'http://rss.cnn.com/rss/cnn_topstories.rss',
-    'US general3': 'http://www.cbsnews.com/latest/rss/main',
-#    'US general4': 'http://www.nytimes.com/services/xml/rss/nyt/National.xml',
-#    'US general5': 'http://online.wsj.com/xml/rss/3_7085.xml',
-#    'US general6': 'http://content.usatoday.com/marketing/rss/rsstrans.aspx?feedId=news2',
-    'US general7': 'http://rss.csmonitor.com/feeds/usa',
-    'US general8': 'http://feeds.nbcnews.com/feeds/topstories',
-    'US general9': 'http://feeds.nbcnews.com/feeds/worldnews',
+  'USA': {    # WOWOWOW    # https://about.fb.com/wp-content/uploads/2016/05/rss-urls-1.pdf
+    'ABC News: US': 'http://feeds.abcnews.com/abcnews/usheadlines',
+    'CNN.com Top Stories': 'http://rss.cnn.com/rss/cnn_topstories.rss',
+    'CBSNews.com': 'http://www.cbsnews.com/latest/rss/main',
+
+    # NYT RSS: https://www.nytimes.com/rss
+    'NYT - World': 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml',
+    'NYT - Europe': 'https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml',
+    'NYT - Business and Economy': 'https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml',
+    # NYT Jobs: https://rss.nytimes.com/services/xml/rss/nyt/Jobs.xml
+    # /NYT
+
+    # WSJ: https://www.wsj.com/news/rss-news-and-feeds
+    'WallStreetJournal - World': 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',
+    'WallStreetJournal - Markets': 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml',
+    # /WSJ: https://www.wsj.com/news/rss-news-and-feeds
+
+    'The Christian Science Monitor': 'http://rss.csmonitor.com/feeds/usa',
+    'NBC News - Top Stories': 'http://feeds.nbcnews.com/feeds/topstories',
+    'NBC News - World': 'http://feeds.nbcnews.com/feeds/worldnews',
     # 'US general10': 'http://feeds.reuters.com/Reuters/worldNews',
     # 'US general11': 'http://feeds.reuters.com/Reuters/domesticNews',
     # 'US general12': 'http://hosted.ap.org/lineups/USHEADS.rss',
@@ -69,19 +78,19 @@ NEWS_BY_REGION ={
     #  'US general19': 'http://feeds.feedburner.com/thedailybeast/articles',
     #'US general20': 'http://qz.com/feed', # lags
     'US general21': 'http://www.theguardian.com/world/usa/rss',
-#    'US general22': 'http://www.politico.com/rss/politicopicks.xml',
-    'US general23': 'http://www.newyorker.com/feed/news',
-    'US general24': 'http://feeds.feedburner.com/NationPBSNewsHour',
-    'US general25': 'http://feeds.feedburner.com/NewshourWorld',
+    'Politico': 'http://www.politico.com/rss/politicopicks.xml',
+    'The NewYorker': 'http://www.newyorker.com/feed/news',
+    'Nation – PBS NewsHour': 'http://feeds.feedburner.com/NationPBSNewsHour',
+    'World – PBS NewsHour': 'http://feeds.feedburner.com/NewshourWorld',
 #    'US general26': 'http://www.usnews.com/rss/news',
-    'US general29': 'http://feeds.feedburner.com/AtlanticNational',
-    'US general30': 'http://feeds.feedburner.com/TheAtlanticWire',
-    'US general31': 'http://www.latimes.com/nation/rss2.0.xml',
-    'US general32': 'http://www.latimes.com/world/rss2.0.xml',
-    'US general34': 'https://news.vice.com/rss',
-    'US general36': 'http://www.salon.com/category/news/feed/rss/',
-    'US general37': 'http://time.com/newsfeed/feed/',
-    'US general38': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
+#'US general29': 'http://feeds.feedburner.com/AtlanticNational',
+    'US - The Atlantic': 'http://feeds.feedburner.com/TheAtlanticWire',
+    'US - LA Times Nation': 'http://www.latimes.com/nation/rss2.0.xml',
+    'US - LA Times World': 'http://www.latimes.com/world/rss2.0.xml',
+    'US - Vice': 'https://news.vice.com/rss',
+    'US - Salon': 'http://www.salon.com/category/news/feed/rss/',
+    'US - Time': 'http://time.com/newsfeed/feed/',
+    'US - Fox News': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
   },
   'Blogs': {
     'Riccardo Carlesso - Blog':   'https://ricc.rocks/en/index.xml',
@@ -97,8 +106,10 @@ NEWS_BY_REGION ={
   'Technology': {
     'GCP latest releases':        'https://cloud.google.com/feeds/gcp-release-notes.xml',
     'Google Cloud Blog': 'https://cloudblog.withgoogle.com/rss/',
+    'Ruby (EN RSS)':  'https://www.ruby-lang.org/en/feeds/news.rss',
     'Ruby (English)':  'https://www.ruby-lang.org/en/',
     'Ruby (Italian)':  'https://www.ruby-lang.org/it/',
+
   }
 }
 

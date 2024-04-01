@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ruby News</title>
+    <link>https://www.ruby-lang.org/en/feeds/news.rss</link>
+    <language>en-US</language>
+    <ttl>40</ttl>
+    <description>The latest news from ruby-lang.org.</description>
+    
+    <item>
+      <title>CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc</title>
+      <description>&lt;p&gt;We have released the RDoc gem version 6.3.4.1, 6.4.1.1, 6.5.1.1 and 6.6.3.1 that have a security fix for a RCE vulnerability.
+This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2024-27281&quot;&gt;CVE-2024-27281&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;An issue was discovered in RDoc 6.3.3 through 6.6.2, as distributed in Ruby 3.x through 3.3.0.&lt;/p&gt;
+
+&lt;p&gt;When parsing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.rdoc_options&lt;/code&gt; (used for configuration in RDoc) as a YAML file, object injection and resultant remote code execution are possible because there are no restrictions on the classes that can be restored.&lt;/p&gt;
+
+&lt;p&gt;When loading the documentation cache, object injection and resultant remote code execution are also possible if there were a crafted cache.&lt;/p&gt;
+
+&lt;h2&gt;Recommended action&lt;/h2&gt;
+
+&lt;p&gt;We recommend to update the RDoc gem to version 6.6.3.1 or later. In order to ensure compatibility with bundled version in older Ruby series, you may update as follows instead:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For Ruby 3.0 users: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rdoc&lt;/code&gt; 6.3.4.1&lt;/li&gt;
+  &lt;li&gt;For Ruby 3.1 users: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rdoc&lt;/code&gt; 6.4.1.1&lt;/li&gt;
+  &lt;li&gt;For Ruby 3.2 users: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rdoc&lt;/code&gt; 6.5.1.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem update rdoc&lt;/code&gt; to update it. If you are using bundler, please add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;rdoc&quot;, &quot;&amp;gt;= 6.6.3.1&quot;&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note: 6.3.4, 6.4.1, 6.5.1 and 6.6.3 have a incorrect fix. We recommend to upgrade 6.3.4.1, 6.4.1.1, 6.5.1.1 and 6.6.3.1 instead of them.&lt;/p&gt;
+
+&lt;h2&gt;Affected versions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby 3.0.6 or lower&lt;/li&gt;
+  &lt;li&gt;Ruby 3.1.4 or lower&lt;/li&gt;
+  &lt;li&gt;Ruby 3.2.3 or lower&lt;/li&gt;
+  &lt;li&gt;Ruby 3.3.0&lt;/li&gt;
+  &lt;li&gt;RDoc gem 6.3.3 or lower, 6.4.0 through 6.6.2 without the patch versions (6.3.4, 6.4.1, 6.5.1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://hackerone.com/ooooooo_q?type=user&quot;&gt;ooooooo_q&lt;/a&gt; for discovering this issue.&lt;/p&gt;
+
+&lt;h2&gt;History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Originally published at 2024-03-21 4:00:00 (UTC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Posted by hsbt on 21 Mar 2024&lt;/p&gt;</description>
+      <pubDate>Thu, 21 Mar 2024 04:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/</guid>
+      <link>https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/</link>
+    </item>
+    
+    <item>
+      <title>CVE-2024-27280: Buffer overread vulnerability in StringIO</title>
+      <description>&lt;p&gt;We have released the StringIO gem version 3.0.1.1 and 3.0.1.2 that have a security fix for a buffer overread vulnerability.
+This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2024-27280&quot;&gt;CVE-2024-27280&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;An issue was discovered in StringIO 3.0.1, as distributed in Ruby 3.0.x through 3.0.6 and 3.1.x through 3.1.4.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ungetbyte&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ungetc&lt;/code&gt; methods on a StringIO can read past the end of a string, and a subsequent call to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StringIO.gets&lt;/code&gt; may return the memory value.&lt;/p&gt;
+
+&lt;p&gt;This vulnerability is not affected StringIO 3.0.3 and later, and Ruby 3.2.x and later.&lt;/p&gt;
+
+&lt;h2&gt;Recommended action&lt;/h2&gt;
+
+&lt;p&gt;We recommend to update the StringIO gem to version 3.0.3 or later. In order to ensure compatibility with bundled version in older Ruby series, you may update as follows instead:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For Ruby 3.0 users: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stringio&lt;/code&gt; 3.0.1.1&lt;/li&gt;
+  &lt;li&gt;For Ruby 3.1 users: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stringio&lt;/code&gt; 3.0.1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: that StringIO 3.0.1.2 contains not only the fix for this vulnerability but also a bugfix for &lt;a href=&quot;https://github.com/ruby/ruby/commit/1d24a931c458c93463da1d5885f33edef3677cc2&quot;&gt;[Bug #19389]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem update stringio&lt;/code&gt; to update it. If you are using bundler, please add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;stringio&quot;, &quot;&amp;gt;= 3.0.1.2&quot;&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Affected versions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby 3.0.6 or lower&lt;/li&gt;
+  &lt;li&gt;Ruby 3.1.4 or lower&lt;/li&gt;
+  &lt;li&gt;StringIO gem 3.0.2 or lower&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://hackerone.com/david_h1?type=user&quot;&gt;david_h1&lt;/a&gt; for discovering this issue.&lt;/p&gt;
+
+&lt;h2&gt;History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Originally published at 2024-03-21 4:00:00 (UTC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Posted by hsbt on 21 Mar 2024&lt;/p&gt;</description>
+      <pubDate>Thu, 21 Mar 2024 04:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/</guid>
+      <link>https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.2.3 Released</title>
+      <description>&lt;p&gt;Ruby 3.2.3 has been released.&lt;/p&gt;
+
+&lt;p&gt;This release includes many bug-fixes.
+See the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_2_3&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;p&gt;This release also includes the update of uri.gem to 0.12.2 which contains the security fix.
+Please check the topics below for details.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/&quot;&gt;CVE-2023-36617: ReDoS vulnerability in URI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 20577155
+SHA1: 7f553e514cb42751a61c3a560a7e8d727c6931ca
+SHA256: af7f1757d9ddb630345988139211f1fd570ff5ba830def1cc7c468ae9b65c9ba
+SHA512: 75aecd9cf87f1fa66b24ecda8837a53162071b4f8801dcfd79119a24c6e81df3e3e2ba478e1cc48c60103dfaab12a00cfa2039a621f8651298eba8bd8d576360
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15163960
+SHA1: 08e0016c8b96103930aaa3b2323081d8f5756e25
+SHA256: cfb231954b8c241043a538a4c682a1cca0b2016d835fee0b9e4a0be3ceba476b
+SHA512: d2a1897c2f4e801a28acb869322abfee76775115016252cecad90639485ed51deda1446cb16edb387f10a2e188602d646ef9b008b57f27bd745071277c535f3b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 24734275
+SHA1: e305dfe36229c5328d231ea0ac03ae5e05bfaca6
+SHA256: 42aa39f74e5be9e24e4db47e7bfb15dc7e095f7e2295859b355edccf6fab96a2
+SHA512: fd89a0a833df4b5cb1734a7ffc86a8cf7cb3a8e25944331db674d3ad7732f615867e7e214e1fdd61e44e9c9c856b461b46219b340de7c87a758f28f3a99dd172
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by nagachika on 18 Jan 2024&lt;/p&gt;</description>
+      <pubDate>Thu, 18 Jan 2024 09:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2024/01/18/ruby-3-2-3-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2024/01/18/ruby-3-2-3-released/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.3.0 Released</title>
+      <description>
+&lt;p&gt;We are pleased to announce the release of Ruby 3.3.0. Ruby 3.3 adds a new parser named Prism, uses Lrama as a parser generator, adds a new pure-Ruby JIT compiler named RJIT, and many performance improvements especially YJIT.&lt;/p&gt;
+
+&lt;h2&gt;Prism&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced &lt;a href=&quot;https://github.com/ruby/prism&quot;&gt;the Prism parser&lt;/a&gt; as a default gem
+    &lt;ul&gt;
+      &lt;li&gt;Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prism is production ready and actively maintained, you can use it in place of Ripper
+    &lt;ul&gt;
+      &lt;li&gt;There is &lt;a href=&quot;https://ruby.github.io/prism/&quot;&gt;extensive documentation&lt;/a&gt; on how to use Prism&lt;/li&gt;
+      &lt;li&gt;Prism is both a C library that will be used internally by CRuby and a Ruby gem that can be used by any tooling which needs to parse Ruby code&lt;/li&gt;
+      &lt;li&gt;Notable methods in the Prism API are:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse(source)&lt;/code&gt; which returns the AST as part of a parse result object&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse_comments(source)&lt;/code&gt; which returns the comments&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse_success?(source)&lt;/code&gt; which returns true if there are no errors&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can make pull requests or issues directly on &lt;a href=&quot;https://github.com/ruby/prism&quot;&gt;the Prism repository&lt;/a&gt; if you are interested in contributing&lt;/li&gt;
+  &lt;li&gt;You can now use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby --parser=prism&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBYOPT=&quot;--parser=prism&quot;&lt;/code&gt; to experiment with the Prism compiler. Please note that this flag is for debugging only.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Use Lrama instead of Bison&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace Bison with &lt;a href=&quot;https://github.com/ruby/lrama&quot;&gt;Lrama LALR parser generator&lt;/a&gt; &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19637&quot;&gt;[Feature #19637]&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you have interest, please see &lt;a href=&quot;https://rubykaigi.org/2023/presentations/spikeolaf.html&quot;&gt;The future vision of Ruby Parser&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Lrama internal parser is replaced with LR parser generated by Racc for maintainability&lt;/li&gt;
+      &lt;li&gt;Parameterizing Rules &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(?, *, +)&lt;/code&gt; are supported, it will be used in Ruby parse.y&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;YJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Major performance improvements over Ruby 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Support for splat and rest arguments has been improved.&lt;/li&gt;
+      &lt;li&gt;Registers are allocated for stack operations of the virtual machine.&lt;/li&gt;
+      &lt;li&gt;More calls with optional arguments are compiled. Exception handlers are also compiled.&lt;/li&gt;
+      &lt;li&gt;Unsupported call types and megamorphic call sites no longer exit to the interpreter.&lt;/li&gt;
+      &lt;li&gt;Basic methods like Rails &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#blank?&lt;/code&gt; and
+&lt;a href=&quot;https://github.com/rails/rails/pull/49909&quot;&gt;specialized &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#present?&lt;/code&gt;&lt;/a&gt; are inlined.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Integer#*&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Integer#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String#getbyte&lt;/code&gt;,
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#block_given?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#is_a?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#instance_of?&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Module#===&lt;/code&gt;
+are specially optimized.&lt;/li&gt;
+      &lt;li&gt;Compilation speed is now slightly faster than Ruby 3.2.&lt;/li&gt;
+      &lt;li&gt;Now more than 3x faster than the interpreter on Optcarrot!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Significantly improved memory usage over Ruby 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Metadata for compiled code uses a lot less memory.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-call-threshold&lt;/code&gt; is automatically raised from 30 to 120
+when the application has more than 40,000 ISEQs.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-cold-threshold&lt;/code&gt; is added to skip compiling cold ISEQs.&lt;/li&gt;
+      &lt;li&gt;More compact code is generated on Arm64.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code GC is now disabled by default
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-exec-mem-size&lt;/code&gt; is treated as a hard limit where compilation of new code stops.&lt;/li&gt;
+      &lt;li&gt;No sudden drops in performance due to code GC.
+Better copy-on-write behavior on servers reforking with
+&lt;a href=&quot;https://github.com/shopify/pitchfork&quot;&gt;Pitchfork&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;You can still enable code GC if desired with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-code-gc&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RubyVM::YJIT.enable&lt;/code&gt; that can enable YJIT at run-time
+    &lt;ul&gt;
+      &lt;li&gt;You can start YJIT without modifying command-line arguments or environment variables.
+Rails 7.2 will &lt;a href=&quot;https://github.com/rails/rails/pull/49947&quot;&gt;enable YJIT by default&lt;/a&gt;
+using this method.&lt;/li&gt;
+      &lt;li&gt;This can also be used to enable YJIT only once your application is
+done booting. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-disable&lt;/code&gt; can be used if you want to use other
+YJIT options while disabling YJIT at boot.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;More YJIT stats are available by default
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yjit_alloc_size&lt;/code&gt; and several more metadata-related stats are now available by default.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ratio_in_yjit&lt;/code&gt; stat produced by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-stats&lt;/code&gt; is now available in release builds,
+a special stats or dev build is no longer required to access most stats.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add more profiling capabilities
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-perf&lt;/code&gt; is added to facilitate profiling with Linux perf.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-trace-exits&lt;/code&gt; now supports sampling with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-trace-exits-sample-rate=N&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;More thorough testing and multiple bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;RJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
+    &lt;ul&gt;
+      &lt;li&gt;RJIT supports only x86-64 architecture on Unix platforms.&lt;/li&gt;
+      &lt;li&gt;Unlike MJIT, it doesn’t require a C compiler at runtime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RJIT exists only for experimental purposes.
+    &lt;ul&gt;
+      &lt;li&gt;You should keep using YJIT in production.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you are interested in developing JIT for Ruby, please check out &lt;a href=&quot;https://rubykaigi.org/2023/presentations/k0kubun.html#day3&quot;&gt;k0kubun’s presentation on Day 3 of RubyKaigi&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;M:N thread scheduler&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;M:N thread scheduler was introduced. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19842&quot;&gt;[Feature #19842]&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;M Ruby threads are managed by N native threads (OS threads) so the thread creation and management cost are reduced.&lt;/li&gt;
+      &lt;li&gt;It can break C-extension compatibility so that M:N thread scheduler is disabled on the main Ractor by default.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MN_THREADS=1&lt;/code&gt; environment variable enables M:N threads on the main Ractor.&lt;/li&gt;
+          &lt;li&gt;M:N threads are always enabled on non-main Ractors.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MAX_CPU=n&lt;/code&gt; environment variable sets maximum number of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; (maximum number of native threads). The default value is 8.
+        &lt;ul&gt;
+          &lt;li&gt;Since only one Ruby thread per Ractor can run at the same time, the number of native threads will be used, which is the smaller of the number specified in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MAX_CPU&lt;/code&gt; and the number of running Ractors. So that single Ractor applications (most of applications) will only use 1 native thread.&lt;/li&gt;
+          &lt;li&gt;To support blocking operations, more than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; native threads can be used.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Performance improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defined?(@ivar)&lt;/code&gt; is optimized with Object Shapes.&lt;/li&gt;
+  &lt;li&gt;Name resolution such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Socket.getaddrinfo&lt;/code&gt; can now be interrupted (in environments where pthreads are available). &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19965&quot;&gt;[Feature #19965]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Several performance improvements to the Garbage Collector
+    &lt;ul&gt;
+      &lt;li&gt;Young objects referenced by old objects are no longer immediately
+  promoted to the old generation. This significantly reduces the frequency of
+  major GC collections. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19678&quot;&gt;[Feature #19678]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;A new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO&lt;/code&gt; tuning variable was
+  introduced to control the number of unprotected objects cause a major GC
+  collection to trigger. The default is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.01&lt;/code&gt; (1%). This significantly
+  reduces the frequency of major GC collection. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19571&quot;&gt;[Feature #19571]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Write Barriers were implemented for many core types that were missing them,
+  notably &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Time&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enumerator&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MatchData&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Method&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File::Stat&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BigDecimal&lt;/code&gt;
+  and several others. This significantly reduces minor GC collection time and major
+  GC collection frequency.&lt;/li&gt;
+      &lt;li&gt;Most core classes are now using Variable Width Allocation, notably &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hash&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Time&lt;/code&gt;,
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Thread::Backtrace&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Thread::Backtrace::Location&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File::Stat&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Method&lt;/code&gt;.
+  This makes these classes faster to allocate and free, use less memory and reduce
+  heap fragmentation.&lt;/li&gt;
+      &lt;li&gt;Support for weak references has been added to the garbage collector. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19783&quot;&gt;[Feature #19783]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other notable changes since 3.2&lt;/h2&gt;
+
+&lt;h3&gt;IRB&lt;/h3&gt;
+
+&lt;p&gt;IRB has received several enhancements, including but not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Advanced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irb:rdbg&lt;/code&gt; integration that provides an equivalent debugging experience to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pry-byebug&lt;/code&gt; (&lt;a href=&quot;https://github.com/ruby/irb#debugging-with-irb&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Pager support for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_cmds&lt;/code&gt; commands.&lt;/li&gt;
+  &lt;li&gt;More accurate and helpful information provided by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; commands.&lt;/li&gt;
+  &lt;li&gt;Experimental autocompletion using type analysis (&lt;a href=&quot;https://github.com/ruby/irb#type-based-completion&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;It is now possible to change the font color and font style in the completion dialog by a newly introduced class Reline::Face (&lt;a href=&quot;https://github.com/ruby/ruby/blob/master/doc/reline/face.md&quot;&gt;doc&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, IRB has also undergone extensive refactoring and received dozens of bug fixes to facilitate easier future enhancements.&lt;/p&gt;
+
+&lt;p&gt;For more detailed updates, please refer to &lt;a href=&quot;https://railsatscale.com/2023-12-19-irb-for-ruby-3-3/&quot;&gt;Unveiling the big leap in Ruby 3.3’s IRB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Compatibility issues&lt;/h2&gt;
+
+&lt;p&gt;Note: Excluding feature bug fixes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;it&lt;/code&gt; calls without arguments in a block with no ordinary parameters are
+deprecated. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;it&lt;/code&gt; will be a reference to the first block parameter in Ruby 3.4.
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/18980&quot;&gt;[Feature #18980]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Removed environment variables&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated methods are removed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Environment variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_INIT_SLOTS&lt;/code&gt; has been deprecated and is a no-op. Please use environment variables &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_{0,1,2,3,4}_INIT_SLOTS&lt;/code&gt; instead. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19785&quot;&gt;[Feature #19785]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Stdlib compatibility issues&lt;/h2&gt;
+
+&lt;h3&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; is retired&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; that is pure Ruby implementation compatible with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; API. We rely on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; in the future. If you need to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt;, you can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; via rubygems.org with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install readline-ext&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;We no longer need to install libraries like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libreadline&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libedit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Standard library updates&lt;/h2&gt;
+
+&lt;p&gt;RubyGems and Bundler warn if users do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require&lt;/code&gt; the following gems without adding them to Gemfile or gemspec. This is because they will become the bundled gems in the future version of Ruby.&lt;/p&gt;
+
+&lt;p&gt;This warning is suppressed if you use bootsnap gem. We recommend to run your application with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DISABLE_BOOTSNAP=1&lt;/code&gt; environment variable at least once. This is limitation of this version.&lt;/p&gt;
+
+&lt;p&gt;Targeted libraries are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;abbrev&lt;/li&gt;
+  &lt;li&gt;base64&lt;/li&gt;
+  &lt;li&gt;bigdecimal&lt;/li&gt;
+  &lt;li&gt;csv&lt;/li&gt;
+  &lt;li&gt;drb&lt;/li&gt;
+  &lt;li&gt;getoptlong&lt;/li&gt;
+  &lt;li&gt;mutex_m&lt;/li&gt;
+  &lt;li&gt;nkf&lt;/li&gt;
+  &lt;li&gt;observer&lt;/li&gt;
+  &lt;li&gt;racc&lt;/li&gt;
+  &lt;li&gt;resolv-replace&lt;/li&gt;
+  &lt;li&gt;rinda&lt;/li&gt;
+  &lt;li&gt;syslog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gem is added.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prism 0.19.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RubyGems 3.5.3&lt;/li&gt;
+  &lt;li&gt;abbrev 0.1.2&lt;/li&gt;
+  &lt;li&gt;base64 0.2.0&lt;/li&gt;
+  &lt;li&gt;benchmark 0.3.0&lt;/li&gt;
+  &lt;li&gt;bigdecimal 3.1.5&lt;/li&gt;
+  &lt;li&gt;bundler 2.5.3&lt;/li&gt;
+  &lt;li&gt;cgi 0.4.1&lt;/li&gt;
+  &lt;li&gt;csv 3.2.8&lt;/li&gt;
+  &lt;li&gt;date 3.3.4&lt;/li&gt;
+  &lt;li&gt;delegate 0.3.1&lt;/li&gt;
+  &lt;li&gt;drb 2.2.0&lt;/li&gt;
+  &lt;li&gt;english 0.8.0&lt;/li&gt;
+  &lt;li&gt;erb 4.0.3&lt;/li&gt;
+  &lt;li&gt;error_highlight 0.6.0&lt;/li&gt;
+  &lt;li&gt;etc 1.4.3&lt;/li&gt;
+  &lt;li&gt;fcntl 1.1.0&lt;/li&gt;
+  &lt;li&gt;fiddle 1.1.2&lt;/li&gt;
+  &lt;li&gt;fileutils 1.7.2&lt;/li&gt;
+  &lt;li&gt;find 0.2.0&lt;/li&gt;
+  &lt;li&gt;getoptlong 0.2.1&lt;/li&gt;
+  &lt;li&gt;io-console 0.7.1&lt;/li&gt;
+  &lt;li&gt;io-nonblock 0.3.0&lt;/li&gt;
+  &lt;li&gt;io-wait 0.3.1&lt;/li&gt;
+  &lt;li&gt;ipaddr 1.2.6&lt;/li&gt;
+  &lt;li&gt;irb 1.11.0&lt;/li&gt;
+  &lt;li&gt;json 2.7.1&lt;/li&gt;
+  &lt;li&gt;logger 1.6.0&lt;/li&gt;
+  &lt;li&gt;mutex_m 0.2.0&lt;/li&gt;
+  &lt;li&gt;net-http 0.4.0&lt;/li&gt;
+  &lt;li&gt;net-protocol 0.2.2&lt;/li&gt;
+  &lt;li&gt;nkf 0.1.3&lt;/li&gt;
+  &lt;li&gt;observer 0.1.2&lt;/li&gt;
+  &lt;li&gt;open-uri 0.4.1&lt;/li&gt;
+  &lt;li&gt;open3 0.2.1&lt;/li&gt;
+  &lt;li&gt;openssl 3.2.0&lt;/li&gt;
+  &lt;li&gt;optparse 0.4.0&lt;/li&gt;
+  &lt;li&gt;ostruct 0.6.0&lt;/li&gt;
+  &lt;li&gt;pathname 0.3.0&lt;/li&gt;
+  &lt;li&gt;pp 0.5.0&lt;/li&gt;
+  &lt;li&gt;prettyprint 0.2.0&lt;/li&gt;
+  &lt;li&gt;pstore 0.1.3&lt;/li&gt;
+  &lt;li&gt;psych 5.1.2&lt;/li&gt;
+  &lt;li&gt;rdoc 6.6.2&lt;/li&gt;
+  &lt;li&gt;readline 0.0.4&lt;/li&gt;
+  &lt;li&gt;reline 0.4.1&lt;/li&gt;
+  &lt;li&gt;resolv 0.3.0&lt;/li&gt;
+  &lt;li&gt;rinda 0.2.0&lt;/li&gt;
+  &lt;li&gt;securerandom 0.3.1&lt;/li&gt;
+  &lt;li&gt;set 1.1.0&lt;/li&gt;
+  &lt;li&gt;shellwords 0.2.0&lt;/li&gt;
+  &lt;li&gt;singleton 0.2.0&lt;/li&gt;
+  &lt;li&gt;stringio 3.1.0&lt;/li&gt;
+  &lt;li&gt;strscan 3.0.7&lt;/li&gt;
+  &lt;li&gt;syntax_suggest 2.0.0&lt;/li&gt;
+  &lt;li&gt;syslog 0.1.2&lt;/li&gt;
+  &lt;li&gt;tempfile 0.2.1&lt;/li&gt;
+  &lt;li&gt;time 0.3.0&lt;/li&gt;
+  &lt;li&gt;timeout 0.4.1&lt;/li&gt;
+  &lt;li&gt;tmpdir 0.2.0&lt;/li&gt;
+  &lt;li&gt;tsort 0.2.0&lt;/li&gt;
+  &lt;li&gt;un 0.3.0&lt;/li&gt;
+  &lt;li&gt;uri 0.13.0&lt;/li&gt;
+  &lt;li&gt;weakref 0.1.3&lt;/li&gt;
+  &lt;li&gt;win32ole 1.8.10&lt;/li&gt;
+  &lt;li&gt;yaml 0.3.0&lt;/li&gt;
+  &lt;li&gt;zlib 3.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gem is promoted from default gems.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;racc 1.7.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;minitest 5.20.0&lt;/li&gt;
+  &lt;li&gt;rake 13.1.0&lt;/li&gt;
+  &lt;li&gt;test-unit 3.6.1&lt;/li&gt;
+  &lt;li&gt;rexml 3.2.6&lt;/li&gt;
+  &lt;li&gt;rss 0.3.0&lt;/li&gt;
+  &lt;li&gt;net-ftp 0.3.3&lt;/li&gt;
+  &lt;li&gt;net-imap 0.4.9&lt;/li&gt;
+  &lt;li&gt;net-smtp 0.4.0&lt;/li&gt;
+  &lt;li&gt;rbs 3.4.0&lt;/li&gt;
+  &lt;li&gt;typeprof 0.21.9&lt;/li&gt;
+  &lt;li&gt;debug 1.9.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See GitHub releases like &lt;a href=&quot;https://github.com/ruby/logger/releases&quot;&gt;Logger&lt;/a&gt; or
+changelog for details of the default gems or bundled gems.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://github.com/ruby/ruby/blob/v3_3_0/NEWS.md&quot;&gt;NEWS&lt;/a&gt;
+or &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0&quot;&gt;commit logs&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;With those changes, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0#file_bucket&quot;&gt;5532 files changed, 326851 insertions(+), 185793 deletions(-)&lt;/a&gt;
+since Ruby 3.2.0!&lt;/p&gt;
+
+&lt;p&gt;Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.3!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 22065999
+SHA1: 1a7e56851bf29bda1183aca99b3b323c58e0187b
+SHA256: 96518814d9832bece92a85415a819d4893b307db5921ae1f0f751a9a89a56b7d
+SHA512: 26074009b501fc793d71a74e419f34a6033c9353433919ca74ba2d24a3de432dbb11fd92c2bc285f0e4d951a6d6c74bf5b69a2ab36200c8c26e871746d6e0fc6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 16345456
+SHA1: c8f68e1b0a114b90460a0b44165a3b2f540fa5b6
+SHA256: 676b65a36e637e90f982b57b059189b3276b9045034dcd186a7e9078847b975b
+SHA512: 7959c5753bfa0bfc4d6d74060869aabbe9815c1c97930659da11b917ee0803ddbbd80e869e00c48b8694b4ba48709c3b6493fd045568e36e902616c35ababf01
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 26935108
+SHA1: a433eef1d7f96daeaf3b4cb842d0ed2dd82e7dc1
+SHA256: 0e6563f679dd3694732eb3addf9de681c67b584602ac574376b60e7a509d2cd8
+SHA512: a94a85937a14b217c1f4b90d24185289ed4aee79239c4f3eecf8034d3fd34e65ee8d66869473857ed153067188adc9b70c0471e4ebe842c9f98ef60c34090450
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What is Ruby&lt;/h2&gt;
+
+&lt;p&gt;Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+and is now developed as Open Source. It runs on multiple platforms
+and is used all over the world especially for web development.&lt;/p&gt;
+
+&lt;p&gt;Posted by naruse on 25 Dec 2023&lt;/p&gt;</description>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/12/25/ruby-3-3-0-released/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.3.0-rc1 Released</title>
+      <description>
+&lt;p&gt;We are pleased to announce the release of Ruby 3.3.0-rc1. Ruby 3.3 adds a new parser named Prism, uses Lrama as a parser generator, adds a new pure-Ruby JIT compiler named RJIT, and many performance improvements especially YJIT.&lt;/p&gt;
+
+&lt;p&gt;After the release of RC1, we will avoid introducing ABI incompatibilities wherever possible. If we need to do, we’ll announce it in the release note.&lt;/p&gt;
+
+&lt;h2&gt;Prism&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced &lt;a href=&quot;https://github.com/ruby/prism&quot;&gt;the Prism parser&lt;/a&gt; as a default gem
+    &lt;ul&gt;
+      &lt;li&gt;Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prism is production ready and actively maintained, you can use it in place of Ripper
+    &lt;ul&gt;
+      &lt;li&gt;There is &lt;a href=&quot;https://ruby.github.io/prism/&quot;&gt;extensive documentation&lt;/a&gt; on how to use Prism&lt;/li&gt;
+      &lt;li&gt;Prism is both a C library that will be used internally by CRuby and a Ruby gem that can be used by any tooling which needs to parse Ruby code&lt;/li&gt;
+      &lt;li&gt;Notable methods in the Prism API are:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse(source)&lt;/code&gt; which returns the AST as part of a ParseResult&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.dump(source)&lt;/code&gt; which returns the serialized AST as a String&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse_comments(source)&lt;/code&gt; which returns the comments&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can make pull requests or issues directly on &lt;a href=&quot;https://github.com/ruby/prism&quot;&gt;the Prism repository&lt;/a&gt; if you are interested in contributing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Use Lrama instead of Bison&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace Bison with &lt;a href=&quot;https://github.com/ruby/lrama&quot;&gt;Lrama LALR parser generator&lt;/a&gt; &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19637&quot;&gt;Feature #19637&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you have interest, please see &lt;a href=&quot;https://rubykaigi.org/2023/presentations/spikeolaf.html&quot;&gt;The future vision of Ruby Parser&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Lrama internal parser is replaced with LR parser generated by Racc for maintainability&lt;/li&gt;
+      &lt;li&gt;Parameterizing Rules &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(?, *, +)&lt;/code&gt; are supported, it will be used in Ruby parse.y&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;RJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
+    &lt;ul&gt;
+      &lt;li&gt;RJIT supports only x86-64 architecture on Unix platforms.&lt;/li&gt;
+      &lt;li&gt;Unlike MJIT, it doesn’t require a C compiler at runtime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RJIT exists only for experimental purposes.
+    &lt;ul&gt;
+      &lt;li&gt;You should keep using YJIT in production.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you are interested in developing JIT for Ruby, please check out &lt;a href=&quot;https://rubykaigi.org/2023/presentations/k0kubun.html#day3&quot;&gt;k0kubun’s presentation on Day 3 of RubyKaigi&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;YJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Major performance improvements over 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Support for splat and rest arguments has been improved.&lt;/li&gt;
+      &lt;li&gt;Registers are allocated for stack operations of the virtual machine.&lt;/li&gt;
+      &lt;li&gt;More calls with optional arguments are compiled.&lt;/li&gt;
+      &lt;li&gt;Exception handlers are also compiled.&lt;/li&gt;
+      &lt;li&gt;Instance variables no longer exit to the interpreter
+with megamorphic object shapes.&lt;/li&gt;
+      &lt;li&gt;Unsupported call types no longer exit to the interpreter.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Integer#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#block_given?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#is_a?&lt;/code&gt;,
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#instance_of?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Module#===&lt;/code&gt; are specially optimized.&lt;/li&gt;
+      &lt;li&gt;Now more than 3x faster than the interpreter on optcarrot!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Significantly improved memory usage over 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Metadata for compiled code uses a lot less memory.&lt;/li&gt;
+      &lt;li&gt;Generate more compact code on ARM64&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Compilation speed is now slightly faster than 3.2.&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RubyVM::YJIT.enable&lt;/code&gt; that can enable YJIT at run-time
+    &lt;ul&gt;
+      &lt;li&gt;You can start YJIT without modifying command-line arguments or environment variables.&lt;/li&gt;
+      &lt;li&gt;This can also be used to enable YJIT only once your application is
+done booting. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-disable&lt;/code&gt; can be used if you want to use other
+YJIT options while disabling YJIT at boot.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code GC is now disabled by default, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-exec-mem-size&lt;/code&gt; is treated
+as a hard limit where compilation of new code stops.
+    &lt;ul&gt;
+      &lt;li&gt;Better copy-on-write behavior on servers using unicorn and forking&lt;/li&gt;
+      &lt;li&gt;No sudden drops in performance due to code GC.&lt;/li&gt;
+      &lt;li&gt;You can still enable code GC if desired with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-code-gc&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ratio_in_yjit&lt;/code&gt; stat produced by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-stats&lt;/code&gt; is now available in release builds,
+a special stats or dev build is no longer required to access most stats.&lt;/li&gt;
+  &lt;li&gt;Exit tracing option now supports sampling
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--trace-exits-sample-rate=N&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-perf&lt;/code&gt; is added to facilitate profiling with Linux perf.&lt;/li&gt;
+  &lt;li&gt;More thorough testing and multiple bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;M:N thread scheduler&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;M:N thread scheduler was introduced. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19842&quot;&gt;[Feature #19842]&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;M Ruby threads are managed by N native threads (OS threads) so the thread creation and management cost are reduced.&lt;/li&gt;
+      &lt;li&gt;It can break C-extension compatibility so that M:N thread scheduler is disabled on the main Ractor by default.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MN_THREADS=1&lt;/code&gt; environment variable enables M:N threads on the main Ractor.&lt;/li&gt;
+          &lt;li&gt;M:N threads are enabled on non-main Ractors.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MAX_CPU=n&lt;/code&gt; environment variable sets maximum number of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; (maximum number of native threads). The default value is 8.
+        &lt;ul&gt;
+          &lt;li&gt;Since only one Ruby thread per Ractor can run at the same time, the number of native threads will be used, which is the smaller of the number specified in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MAX_CPU&lt;/code&gt; and the number of running Ractors. So that single Ractor applications (most of applications) will use 1 native thread.&lt;/li&gt;
+          &lt;li&gt;To support blocking operations, more than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; native threads can be used.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other Notable New Features&lt;/h2&gt;
+
+&lt;h3&gt;Language&lt;/h3&gt;
+
+&lt;h2&gt;Performance improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defined?(@ivar)&lt;/code&gt; is optimized with Object Shapes.&lt;/li&gt;
+  &lt;li&gt;Name resolution such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Socket.getaddrinfo&lt;/code&gt; can now be interrupted (in environments where pthreads are available). &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19965&quot;&gt;Feature #19965&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;For this purpose, a pthread is now created whenever calling getaddrinfo or getnameinfo. This incurs some overhead in name resolution (about 2.5x in our experiments). We do not expect the name resolution overhead to be a problem for most applications, but if you observe such, or if you see unexpected affects that you believe are due to this change, please report them.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Several performance improvements to the Garbage Collector
+    &lt;ul&gt;
+      &lt;li&gt;Young objects referenced by old objects are no longer immediately
+  promoted to the old generation. This significantly reduces the frequency of
+  major GC collections. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19678&quot;&gt;[Feature #19678]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;A new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO&lt;/code&gt; tuning variable was
+  introduced to control the number of unprotected objects cause a major GC
+  collection to trigger. The default is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.01&lt;/code&gt; (1%). This significantly
+  reduces the frequency of major GC collection. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19571&quot;&gt;[Feature #19571]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Write Barriers were implemented for many core types that were missing them,
+  notably &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Time&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enumerator&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MatchData&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Method&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File::Stat&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BigDecimal&lt;/code&gt;
+  and several others. This significantly reduces minor GC collection time and major
+  GC collection frequency.&lt;/li&gt;
+      &lt;li&gt;Most core classes are now using Variable Width Allocation, notably &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hash&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Time&lt;/code&gt;,
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Thread::Backtrace&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Thread::Backtrace::Location&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File::Stat&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Method&lt;/code&gt;.
+  This makes these classes faster to allocate and free, use less memory and reduce
+  heap fragmentation.&lt;/li&gt;
+      &lt;li&gt;Support for weak references has been added to the garbage collector. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19783&quot;&gt;[Feature #19783]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other notable changes since 3.2&lt;/h2&gt;
+
+&lt;h3&gt;IRB&lt;/h3&gt;
+
+&lt;p&gt;IRB has received several enhancements, including but not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Advanced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irb:rdbg&lt;/code&gt; integration that provides an equivalent debugging experience to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pry-byebug&lt;/code&gt; (&lt;a href=&quot;https://github.com/ruby/irb#debugging-with-irb&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Pager support for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_cmds&lt;/code&gt; commands.&lt;/li&gt;
+  &lt;li&gt;More accurate and helpful information provided by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; commands.&lt;/li&gt;
+  &lt;li&gt;Experimental autocompletion using type analysis (&lt;a href=&quot;https://github.com/ruby/irb#type-based-completion&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;It is now possible to change the font color and font style in the completion dialog by a newly introduced class Reline::Face (&lt;a href=&quot;https://github.com/ruby/ruby/blob/master/doc/reline/face.md&quot;&gt;doc&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, IRB has also undergone extensive refactoring and received dozens of bug fixes to facilitate easier future enhancements.&lt;/p&gt;
+
+&lt;h2&gt;Compatibility issues&lt;/h2&gt;
+
+&lt;p&gt;Note: Excluding feature bug fixes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;it&lt;/code&gt; calls without arguments in a block with no ordinary parameters are
+deprecated. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;it&lt;/code&gt; will be a reference to the first block parameter in Ruby 3.4.
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/18980&quot;&gt;Feature #18980&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Removed constants&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated constants are removed.&lt;/p&gt;
+
+&lt;h3&gt;Removed methods&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated methods are removed.&lt;/p&gt;
+
+&lt;h3&gt;Removed environment variables&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated environment variables are removed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Environment variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_INIT_SLOTS&lt;/code&gt; has been deprecated and is a no-op. Please use environment variables &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_{0,1,2,3,4}_INIT_SLOTS&lt;/code&gt; instead. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19785&quot;&gt;Feature #19785&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Stdlib compatibility issues&lt;/h2&gt;
+
+&lt;h3&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; is retired&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; that is pure Ruby implementation compatible with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; API. We rely on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; in the future. If you need to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt;, you can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; via rubygems.org with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install readline-ext&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;We no longer need to install libraries like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libreadline&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libedit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C API updates&lt;/h2&gt;
+
+&lt;h3&gt;Updated C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following APIs are updated.&lt;/p&gt;
+
+&lt;h3&gt;Removed C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated APIs are removed.&lt;/p&gt;
+
+&lt;h2&gt;Standard library updates&lt;/h2&gt;
+
+&lt;p&gt;RubyGems and Bundler warn if users require gem that is scheduled to become the bundled gems in the future version of Ruby.&lt;/p&gt;
+
+&lt;p&gt;Targeted libraries are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;abbrev&lt;/li&gt;
+  &lt;li&gt;base64&lt;/li&gt;
+  &lt;li&gt;bigdecimal&lt;/li&gt;
+  &lt;li&gt;csv&lt;/li&gt;
+  &lt;li&gt;drb&lt;/li&gt;
+  &lt;li&gt;getoptlong&lt;/li&gt;
+  &lt;li&gt;mutex_m&lt;/li&gt;
+  &lt;li&gt;nkf&lt;/li&gt;
+  &lt;li&gt;observer&lt;/li&gt;
+  &lt;li&gt;racc&lt;/li&gt;
+  &lt;li&gt;resolv-replace&lt;/li&gt;
+  &lt;li&gt;rinda&lt;/li&gt;
+  &lt;li&gt;syslog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gem is added.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prism 0.15.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RubyGems 3.5.0.dev&lt;/li&gt;
+  &lt;li&gt;base64 0.2.0&lt;/li&gt;
+  &lt;li&gt;benchmark 0.3.0&lt;/li&gt;
+  &lt;li&gt;bigdecimal 3.1.5&lt;/li&gt;
+  &lt;li&gt;bundler 2.5.0.dev&lt;/li&gt;
+  &lt;li&gt;cgi 0.4.0&lt;/li&gt;
+  &lt;li&gt;csv 3.2.8&lt;/li&gt;
+  &lt;li&gt;date 3.3.4&lt;/li&gt;
+  &lt;li&gt;delegate 0.3.1&lt;/li&gt;
+  &lt;li&gt;drb 2.2.0&lt;/li&gt;
+  &lt;li&gt;english 0.8.0&lt;/li&gt;
+  &lt;li&gt;erb 4.0.3&lt;/li&gt;
+  &lt;li&gt;etc 1.4.3.dev.1&lt;/li&gt;
+  &lt;li&gt;fcntl 1.1.0&lt;/li&gt;
+  &lt;li&gt;fiddle 1.1.2&lt;/li&gt;
+  &lt;li&gt;fileutils 1.7.2&lt;/li&gt;
+  &lt;li&gt;find 0.2.0&lt;/li&gt;
+  &lt;li&gt;getoptlong 0.2.1&lt;/li&gt;
+  &lt;li&gt;io-console 0.6.1.dev&lt;/li&gt;
+  &lt;li&gt;irb 1.8.3&lt;/li&gt;
+  &lt;li&gt;logger 1.6.0&lt;/li&gt;
+  &lt;li&gt;mutex_m 0.2.0&lt;/li&gt;
+  &lt;li&gt;net-http 0.4.0&lt;/li&gt;
+  &lt;li&gt;net-protocol 0.2.2&lt;/li&gt;
+  &lt;li&gt;nkf 0.1.3&lt;/li&gt;
+  &lt;li&gt;observer 0.1.2&lt;/li&gt;
+  &lt;li&gt;open-uri 0.4.0&lt;/li&gt;
+  &lt;li&gt;open3 0.2.0&lt;/li&gt;
+  &lt;li&gt;openssl 3.2.0&lt;/li&gt;
+  &lt;li&gt;optparse 0.4.0&lt;/li&gt;
+  &lt;li&gt;ostruct 0.6.0&lt;/li&gt;
+  &lt;li&gt;pathname 0.3.0&lt;/li&gt;
+  &lt;li&gt;pp 0.5.0&lt;/li&gt;
+  &lt;li&gt;prettyprint 0.2.0&lt;/li&gt;
+  &lt;li&gt;pstore 0.1.3&lt;/li&gt;
+  &lt;li&gt;psych 5.1.1.1&lt;/li&gt;
+  &lt;li&gt;rdoc 6.6.0&lt;/li&gt;
+  &lt;li&gt;reline 0.3.9&lt;/li&gt;
+  &lt;li&gt;rinda 0.2.0&lt;/li&gt;
+  &lt;li&gt;securerandom 0.3.0&lt;/li&gt;
+  &lt;li&gt;shellwords 0.2.0&lt;/li&gt;
+  &lt;li&gt;singleton 0.2.0&lt;/li&gt;
+  &lt;li&gt;stringio 3.0.9&lt;/li&gt;
+  &lt;li&gt;strscan 3.0.7&lt;/li&gt;
+  &lt;li&gt;syntax_suggest 1.1.0&lt;/li&gt;
+  &lt;li&gt;tempfile 0.2.0&lt;/li&gt;
+  &lt;li&gt;time 0.3.0&lt;/li&gt;
+  &lt;li&gt;timeout 0.4.1&lt;/li&gt;
+  &lt;li&gt;tmpdir 0.2.0&lt;/li&gt;
+  &lt;li&gt;tsort 0.2.0&lt;/li&gt;
+  &lt;li&gt;un 0.3.0&lt;/li&gt;
+  &lt;li&gt;uri 0.13.0&lt;/li&gt;
+  &lt;li&gt;weakref 0.1.3&lt;/li&gt;
+  &lt;li&gt;win32ole 1.8.10&lt;/li&gt;
+  &lt;li&gt;yaml 0.3.0&lt;/li&gt;
+  &lt;li&gt;zlib 3.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gem is promoted from default gems.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;racc 1.7.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;minitest 5.20.0&lt;/li&gt;
+  &lt;li&gt;rake 13.1.0&lt;/li&gt;
+  &lt;li&gt;test-unit 3.6.1&lt;/li&gt;
+  &lt;li&gt;rexml 3.2.6&lt;/li&gt;
+  &lt;li&gt;rss 0.3.0&lt;/li&gt;
+  &lt;li&gt;net-imap 0.4.4&lt;/li&gt;
+  &lt;li&gt;net-smtp 0.4.0&lt;/li&gt;
+  &lt;li&gt;rbs 3.2.2&lt;/li&gt;
+  &lt;li&gt;typeprof 0.21.8&lt;/li&gt;
+  &lt;li&gt;debug 1.8.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See GitHub releases like &lt;a href=&quot;https://github.com/ruby/logger/releases&quot;&gt;Logger&lt;/a&gt; or
+changelog for details of the default gems or bundled gems.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://github.com/ruby/ruby/blob/v3_3_0_rc1/NEWS.md&quot;&gt;NEWS&lt;/a&gt;
+or &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_rc1&quot;&gt;commit logs&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;With those changes, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_rc1#file_bucket&quot;&gt;5414 files changed, 306141 insertions(+), 183575 deletions(-)&lt;/a&gt;
+since Ruby 3.2.0!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-rc1.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-rc1.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 21783575
+SHA1: c75a860e06f27b7f69b874757417277c21d1d3f4
+SHA256: c4ff82395a90ef76c7f906b7687026e0ab96b094dcf3a532d9ab97784a073222
+SHA512: 265fb2ffe55af47d8349edffcebe749cc170291227cef55529fe4e67363e4e84b88daa34ffb5364a99c8a0e32110266a34c9a11d62f3bd6f6d47fa76eca641f4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-rc1.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-rc1.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 16163884
+SHA1: 26503f9bdc7d0a05aaa9836f54d3aa9e74a9ead9
+SHA256: 051815637f1fa75a1edf2c54b66d5d5b69563daad777da8dc39543b7754b5290
+SHA512: 82f4acfaad1dc47db27ee3eb952481a95b3474a98059e9e9f5ceb035b690d1faabe99f2ec52371c4089ed1615eb10c395f029088418fec4d26399b65b4f259b9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-rc1.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-rc1.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 26735443
+SHA1: 35583453a7734216b08829ef0ec9ea1bc0d4ae7f
+SHA256: 56dd82e1dd714f2889ca975ae7befbe005675de08839c2cc4a484de2ae65201c
+SHA512: 7fbe414c230aedc9f364512bcbc213038f8f6e4268929a559d2527e2f3e32a140b394e37098ab7e59161236eca8b89cc9e52d73a3be8d7bd44faa91681483f5d
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What is Ruby&lt;/h2&gt;
+
+&lt;p&gt;Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+and is now developed as Open Source. It runs on multiple platforms
+and is used all over the world especially for web development.&lt;/p&gt;
+
+&lt;p&gt;Posted by naruse on 11 Dec 2023&lt;/p&gt;</description>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/12/11/ruby-3-3-0-rc1-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/12/11/ruby-3-3-0-rc1-released/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.3.0-preview3 Released</title>
+      <description>
+&lt;p&gt;We are pleased to announce the release of Ruby 3.3.0-preview3. Ruby 3.3 adds a new parser named Prism, uses Lrama as a parser generator, adds a new pure-Ruby JIT compiler named RJIT, and many performance improvements especially YJIT.&lt;/p&gt;
+
+&lt;h2&gt;Prism&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced &lt;a href=&quot;https://github.com/ruby/prism&quot;&gt;the Prism parser&lt;/a&gt; as a default gem
+    &lt;ul&gt;
+      &lt;li&gt;Prism is a portable, error tolerant, and maintainable recursive descent parser for the Ruby language&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prism is production ready and actively maintained, you can use it in place of Ripper
+    &lt;ul&gt;
+      &lt;li&gt;There is &lt;a href=&quot;https://ruby.github.io/prism/&quot;&gt;extensive documentation&lt;/a&gt; on how to use Prism&lt;/li&gt;
+      &lt;li&gt;Prism is both a C library that will be used internally by CRuby and a Ruby gem that can be used by any tooling which needs to parse Ruby code&lt;/li&gt;
+      &lt;li&gt;Notable methods in the Prism API are:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse(source)&lt;/code&gt; which returns the AST as part of a ParseResult&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.dump(source)&lt;/code&gt; which returns the serialized AST as a String&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prism.parse_comments(source)&lt;/code&gt; which returns the comments&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can make pull requests or issues directly on &lt;a href=&quot;https://github.com/ruby/prism&quot;&gt;the Prism repository&lt;/a&gt; if you are interested in contributing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Use Lrama instead of Bison&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace Bison with &lt;a href=&quot;https://github.com/yui-knk/lrama&quot;&gt;Lrama LALR parser generator&lt;/a&gt; &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19637&quot;&gt;Feature #19637&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you have interest, please see &lt;a href=&quot;https://rubykaigi.org/2023/presentations/spikeolaf.html&quot;&gt;The future vision of Ruby Parser&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Lrama internal parser is replaced with LR parser generated by Racc for maintainability&lt;/li&gt;
+      &lt;li&gt;Parameterizing Rules &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(?, *, +)&lt;/code&gt; are supported, it will be used in Ruby parse.y&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;RJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
+    &lt;ul&gt;
+      &lt;li&gt;RJIT supports only x86-64 architecture on Unix platforms.&lt;/li&gt;
+      &lt;li&gt;Unlike MJIT, it doesn’t require a C compiler at runtime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RJIT exists only for experimental purposes.
+    &lt;ul&gt;
+      &lt;li&gt;You should keep using YJIT in production.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you are interested in developing JIT for Ruby, please check out &lt;a href=&quot;https://rubykaigi.org/2023/presentations/k0kubun.html#day3&quot;&gt;k0kubun’s presentation on Day 3 of RubyKaigi&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;YJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Major performance improvements over 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Support for splat and rest arguments has been improved.&lt;/li&gt;
+      &lt;li&gt;Registers are allocated for stack operations of the virtual machine.&lt;/li&gt;
+      &lt;li&gt;More calls with optional arguments are compiled.&lt;/li&gt;
+      &lt;li&gt;Exception handlers are also compiled.&lt;/li&gt;
+      &lt;li&gt;Instance variables no longer exit to the interpreter
+with megamorphic object shapes.&lt;/li&gt;
+      &lt;li&gt;Unsupported call types no longer exit to the interpreter.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Integer#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#block_given?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#is_a?&lt;/code&gt;,
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#instance_of?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Module#===&lt;/code&gt; are specially optimized.&lt;/li&gt;
+      &lt;li&gt;Now more than 3x faster than the interpreter on optcarrot!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Significantly improved memory usage over 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Metadata for compiled code uses a lot less memory.&lt;/li&gt;
+      &lt;li&gt;Generate more compact code on ARM64&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Compilation speed is now slightly faster than 3.2.&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RubyVM::YJIT.enable&lt;/code&gt; that can enable YJIT at run-time
+    &lt;ul&gt;
+      &lt;li&gt;You can start YJIT without modifying command-line arguments or environment variables.&lt;/li&gt;
+      &lt;li&gt;This can also be used to enable YJIT only once your application is
+done booting. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-disable&lt;/code&gt; can be used if you want to use other
+YJIT options while disabling YJIT at boot.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Option to disable code GC and treat &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-exec-mem-size&lt;/code&gt; as a hard limit
+    &lt;ul&gt;
+      &lt;li&gt;Can produce better copy-on-write behavior on servers using unicorn and forking&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ratio_in_yjit&lt;/code&gt; stat produced by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-stats&lt;/code&gt; is now available in release builds,
+a special stats or dev build is no longer required to access most stats.&lt;/li&gt;
+  &lt;li&gt;Exit tracing option now supports sampling
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--trace-exits-sample-rate=N&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-perf&lt;/code&gt; is added to facilitate profiling with Linux perf.&lt;/li&gt;
+  &lt;li&gt;More thorough testing and multiple bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;M:N thread scheduler&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;M:N thread scheduler was introduced. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19842&quot;&gt;[Feature #19842]&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;M Ruby threads are managed by N native threads (OS threads) so the thread creation and management cost are reduced.&lt;/li&gt;
+      &lt;li&gt;It can break C-extension compatibility so that M:N thread scheduler is disabled on the main Ractor by default.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MN_THREADS=1&lt;/code&gt; environment variable enables M:N threads on the main Ractor.&lt;/li&gt;
+          &lt;li&gt;M:N threads are enabled on non-main Ractors.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MAX_CPU=n&lt;/code&gt; environment variable sets maximum number of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; (maximum number of native threads). The default value is 8.
+        &lt;ul&gt;
+          &lt;li&gt;Since only one Ruby thread per Ractor can run at the same time, the number of native threads will be used, which is the smaller of the number specified in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_MAX_CPU&lt;/code&gt; and the number of running Ractors. So that single Ractor applications (most of applications) will use 1 native thread.&lt;/li&gt;
+          &lt;li&gt;To support blocking operations, more than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; native threads can be used.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other Notable New Features&lt;/h2&gt;
+
+&lt;h3&gt;Language&lt;/h3&gt;
+
+&lt;h2&gt;Performance improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defined?(@ivar)&lt;/code&gt; is optimized with Object Shapes.&lt;/li&gt;
+  &lt;li&gt;Name resolution such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Socket.getaddrinfo&lt;/code&gt; can now be interrupted (in environments where pthreads are available). &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19965&quot;&gt;Feature #19965&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;For this purpose, a pthread is now created whenever calling getaddrinfo or getnameinfo. This incurs some overhead in name resolution (about 2.5x in our experiments). We do not expect the name resolution overhead to be a problem for most applications, but if you observe such, or if you see unexpected affects that you believe are due to this change, please report them.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Environment variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO&lt;/code&gt; has been added. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19571&quot;&gt;Feature #19571&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Children of old objects are no longer immediately promoted to the old generation in the garbage collector. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19678&quot;&gt;Feature #19678&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Support for weak references has been added to the garbage collector. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19783&quot;&gt;Feature #19783&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other notable changes since 3.2&lt;/h2&gt;
+
+&lt;h3&gt;IRB&lt;/h3&gt;
+
+&lt;p&gt;IRB has received several enhancements, including but not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Advanced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irb:rdbg&lt;/code&gt; integration that provides an equivalent debugging experience to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pry-byebug&lt;/code&gt; (&lt;a href=&quot;https://github.com/ruby/irb#debugging-with-irb&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Pager support for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_cmds&lt;/code&gt; commands.&lt;/li&gt;
+  &lt;li&gt;More accurate and helpful information provided by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; commands.&lt;/li&gt;
+  &lt;li&gt;Experimental autocompletion using type analysis (&lt;a href=&quot;https://github.com/ruby/irb#type-based-completion&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;It is now possible to change the font color and font style in the completion dialog by a newly introduced class Reline::Face (&lt;a href=&quot;https://github.com/ruby/ruby/blob/master/doc/reline/face.md&quot;&gt;doc&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, IRB has also undergone extensive refactoring and received dozens of bug fixes to facilitate easier future enhancements.&lt;/p&gt;
+
+&lt;h2&gt;Compatibility issues&lt;/h2&gt;
+
+&lt;p&gt;Note: Excluding feature bug fixes.&lt;/p&gt;
+
+&lt;h3&gt;Removed constants&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated constants are removed.&lt;/p&gt;
+
+&lt;h3&gt;Removed methods&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated methods are removed.&lt;/p&gt;
+
+&lt;h3&gt;Removed environment variables&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated environment variables are removed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Environment variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_INIT_SLOTS&lt;/code&gt; has been deprecated and is a no-op. Please use environment variables &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUBY_GC_HEAP_{0,1,2,3,4}_INIT_SLOTS&lt;/code&gt; instead. &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19785&quot;&gt;Feature #19785&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Stdlib compatibility issues&lt;/h2&gt;
+
+&lt;h3&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; is retired&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; that is pure Ruby implementation compatible with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; API. We rely on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; in the future. If you need to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt;, you can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; via rubygems.org with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install readline-ext&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;We no longer need to install libraries like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libreadline&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libedit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C API updates&lt;/h2&gt;
+
+&lt;h3&gt;Updated C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following APIs are updated.&lt;/p&gt;
+
+&lt;h3&gt;Removed C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated APIs are removed.&lt;/p&gt;
+
+&lt;h2&gt;Standard library updates&lt;/h2&gt;
+
+&lt;p&gt;RubyGems and Bundler warn if users require gem that is scheduled to become the bundled gems in the future version of Ruby.&lt;/p&gt;
+
+&lt;p&gt;Targeted libraries are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;abbrev&lt;/li&gt;
+  &lt;li&gt;base64&lt;/li&gt;
+  &lt;li&gt;bigdecimal&lt;/li&gt;
+  &lt;li&gt;csv&lt;/li&gt;
+  &lt;li&gt;drb&lt;/li&gt;
+  &lt;li&gt;getoptlong&lt;/li&gt;
+  &lt;li&gt;mutex_m&lt;/li&gt;
+  &lt;li&gt;nkf&lt;/li&gt;
+  &lt;li&gt;observer&lt;/li&gt;
+  &lt;li&gt;racc&lt;/li&gt;
+  &lt;li&gt;resolv-replace&lt;/li&gt;
+  &lt;li&gt;rinda&lt;/li&gt;
+  &lt;li&gt;syslog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gem is added.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prism 0.15.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RubyGems 3.5.0.dev&lt;/li&gt;
+  &lt;li&gt;base64 0.2.0&lt;/li&gt;
+  &lt;li&gt;benchmark 0.3.0&lt;/li&gt;
+  &lt;li&gt;bigdecimal 3.1.5&lt;/li&gt;
+  &lt;li&gt;bundler 2.5.0.dev&lt;/li&gt;
+  &lt;li&gt;cgi 0.4.0&lt;/li&gt;
+  &lt;li&gt;csv 3.2.8&lt;/li&gt;
+  &lt;li&gt;date 3.3.4&lt;/li&gt;
+  &lt;li&gt;delegate 0.3.1&lt;/li&gt;
+  &lt;li&gt;drb 2.2.0&lt;/li&gt;
+  &lt;li&gt;english 0.8.0&lt;/li&gt;
+  &lt;li&gt;erb 4.0.3&lt;/li&gt;
+  &lt;li&gt;etc 1.4.3.dev.1&lt;/li&gt;
+  &lt;li&gt;fcntl 1.1.0&lt;/li&gt;
+  &lt;li&gt;fiddle 1.1.2&lt;/li&gt;
+  &lt;li&gt;fileutils 1.7.2&lt;/li&gt;
+  &lt;li&gt;find 0.2.0&lt;/li&gt;
+  &lt;li&gt;getoptlong 0.2.1&lt;/li&gt;
+  &lt;li&gt;io-console 0.6.1.dev&lt;/li&gt;
+  &lt;li&gt;irb 1.8.3&lt;/li&gt;
+  &lt;li&gt;logger 1.6.0&lt;/li&gt;
+  &lt;li&gt;mutex_m 0.2.0&lt;/li&gt;
+  &lt;li&gt;net-http 0.4.0&lt;/li&gt;
+  &lt;li&gt;net-protocol 0.2.2&lt;/li&gt;
+  &lt;li&gt;nkf 0.1.3&lt;/li&gt;
+  &lt;li&gt;observer 0.1.2&lt;/li&gt;
+  &lt;li&gt;open-uri 0.4.0&lt;/li&gt;
+  &lt;li&gt;open3 0.2.0&lt;/li&gt;
+  &lt;li&gt;openssl 3.2.0&lt;/li&gt;
+  &lt;li&gt;optparse 0.4.0&lt;/li&gt;
+  &lt;li&gt;ostruct 0.6.0&lt;/li&gt;
+  &lt;li&gt;pathname 0.3.0&lt;/li&gt;
+  &lt;li&gt;pp 0.5.0&lt;/li&gt;
+  &lt;li&gt;prettyprint 0.2.0&lt;/li&gt;
+  &lt;li&gt;pstore 0.1.3&lt;/li&gt;
+  &lt;li&gt;psych 5.1.1.1&lt;/li&gt;
+  &lt;li&gt;rdoc 6.6.0&lt;/li&gt;
+  &lt;li&gt;reline 0.3.9&lt;/li&gt;
+  &lt;li&gt;rinda 0.2.0&lt;/li&gt;
+  &lt;li&gt;securerandom 0.3.0&lt;/li&gt;
+  &lt;li&gt;shellwords 0.2.0&lt;/li&gt;
+  &lt;li&gt;singleton 0.2.0&lt;/li&gt;
+  &lt;li&gt;stringio 3.0.9&lt;/li&gt;
+  &lt;li&gt;strscan 3.0.7&lt;/li&gt;
+  &lt;li&gt;syntax_suggest 1.1.0&lt;/li&gt;
+  &lt;li&gt;tempfile 0.2.0&lt;/li&gt;
+  &lt;li&gt;time 0.3.0&lt;/li&gt;
+  &lt;li&gt;timeout 0.4.1&lt;/li&gt;
+  &lt;li&gt;tmpdir 0.2.0&lt;/li&gt;
+  &lt;li&gt;tsort 0.2.0&lt;/li&gt;
+  &lt;li&gt;un 0.3.0&lt;/li&gt;
+  &lt;li&gt;uri 0.13.0&lt;/li&gt;
+  &lt;li&gt;weakref 0.1.3&lt;/li&gt;
+  &lt;li&gt;win32ole 1.8.10&lt;/li&gt;
+  &lt;li&gt;yaml 0.3.0&lt;/li&gt;
+  &lt;li&gt;zlib 3.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gem is promoted from default gems.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;racc 1.7.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;minitest 5.20.0&lt;/li&gt;
+  &lt;li&gt;rake 13.1.0&lt;/li&gt;
+  &lt;li&gt;test-unit 3.6.1&lt;/li&gt;
+  &lt;li&gt;rexml 3.2.6&lt;/li&gt;
+  &lt;li&gt;rss 0.3.0&lt;/li&gt;
+  &lt;li&gt;net-imap 0.4.4&lt;/li&gt;
+  &lt;li&gt;net-smtp 0.4.0&lt;/li&gt;
+  &lt;li&gt;rbs 3.2.2&lt;/li&gt;
+  &lt;li&gt;typeprof 0.21.8&lt;/li&gt;
+  &lt;li&gt;debug 1.8.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See GitHub releases like &lt;a href=&quot;https://github.com/ruby/logger/releases&quot;&gt;Logger&lt;/a&gt; or
+changelog for details of the default gems or bundled gems.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://github.com/ruby/ruby/blob/v3_3_0_preview3/NEWS.md&quot;&gt;NEWS&lt;/a&gt;
+or &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_preview3&quot;&gt;commit logs&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;With those changes, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_preview3#file_bucket&quot;&gt;5207 files changed, 284820 insertions(+), 174773 deletions(-)&lt;/a&gt;
+since Ruby 3.2.0!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview3.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview3.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 21550473
+SHA1: 2811f191d66dffee0206771873bd990857ae4ed6
+SHA256: 0969141be92e67e0edb84a8fb354acc98f01bd78e602a23a0f136045c82f4809
+SHA512: 94db07a6958c09809b2e5b597fa55a121074e8bacb3bf588c83cf0d35b07a8b070172035a49d1abf0d8ee364a9ace824f34e677f7327ffe1acdbab0938ac49c4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview3.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview3.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15970144
+SHA1: 496600612605f8ebeb955255e98bac73a4cbc045
+SHA256: f79afcf122dc7d04fe26cfa4436b9c488b21766fc54b0d2dfb2ba41cd0cdd355
+SHA512: d7ab0d703e7884efd31045933409cd68fac1d9941963537ccc8e309ca7c8bee8500a68182135acba22cbdbf4a8ae99f39bf7f0925273eb4fbc3728c0c1ba0c19
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview3.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview3.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 26618303
+SHA1: 6a13e08c7e484d42037c1e2c87c5d0e220f893a0
+SHA256: c35bf637a647c2f60148368ffb374db5c258570911794f46b6dfdb98ebfe95d9
+SHA512: c4ef2cdcdadeb85ad1d42aedc97f9f3d609b3b01eea2319451cf92c81bd31ae8129b7c91fc68571469dd888c01ea0f48f73234b965db17f6a87404ca382f7794
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What is Ruby&lt;/h2&gt;
+
+&lt;p&gt;Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+and is now developed as Open Source. It runs on multiple platforms
+and is used all over the world especially for web development.&lt;/p&gt;
+
+&lt;p&gt;Posted by naruse on 12 Nov 2023&lt;/p&gt;</description>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/11/12/ruby-3-3-0-preview3-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/11/12/ruby-3-3-0-preview3-released/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.3.0-preview2 Released</title>
+      <description>
+&lt;p&gt;We are pleased to announce the release of Ruby 3.3.0-preview2. Ruby 3.3 adds a new pure-Ruby JIT compiler named RJIT, uses Lrama as a parser generator, and many performance improvements especially YJIT.&lt;/p&gt;
+
+&lt;h2&gt;RJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
+    &lt;ul&gt;
+      &lt;li&gt;RJIT supports only x86_64 architecture on Unix platforms.&lt;/li&gt;
+      &lt;li&gt;Unlike MJIT, it doesn’t require a C compiler at runtime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RJIT exists only for experimental purposes.
+    &lt;ul&gt;
+      &lt;li&gt;You should keep using YJIT in production.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you are interested in developing JIT for Ruby, please check out &lt;a href=&quot;https://rubykaigi.org/2023/presentations/k0kubun.html#day3&quot;&gt;k0kubun’s presentation on Day 3 of RubyKaigi&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Use Lrama instead of Bison&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace Bison with &lt;a href=&quot;https://github.com/yui-knk/lrama&quot;&gt;Lrama LALR parser generator&lt;/a&gt; &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19637&quot;&gt;Feature #19637&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you have interest, please see &lt;a href=&quot;https://rubykaigi.org/2023/presentations/spikeolaf.html&quot;&gt;The future vision of Ruby Parser&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;YJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Major performance improvements over 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Support for splat and rest arguments has been improved.&lt;/li&gt;
+      &lt;li&gt;Registers are allocated for stack operations of the virtual machine.&lt;/li&gt;
+      &lt;li&gt;More calls with optional arguments are compiled.&lt;/li&gt;
+      &lt;li&gt;Exception handlers are also compiled.&lt;/li&gt;
+      &lt;li&gt;Instance variables no longer exit to the interpreter
+with megamorphic Object Shapes.&lt;/li&gt;
+      &lt;li&gt;Unsupported call types no longer exit to the interpreter.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Integer#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#block_given?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#is_a?&lt;/code&gt;,
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#instance_of?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Module#===&lt;/code&gt; are specially optimized.&lt;/li&gt;
+      &lt;li&gt;Now more than 3x faster than the interpreter on optcarrot!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Metadata for compiled code uses a lot less memory.&lt;/li&gt;
+  &lt;li&gt;Generate more compact code on ARM64&lt;/li&gt;
+  &lt;li&gt;Option to start YJIT in paused mode and then later enable it manually
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-pause&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RubyVM::YJIT.resume&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;This can be used to enable YJIT only once your application is done booting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ratio_in_yjit&lt;/code&gt; stat produced by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-stats&lt;/code&gt; is now available in release builds,
+a special stats or dev build is no longer required.&lt;/li&gt;
+  &lt;li&gt;Exit tracing option now supports sampling
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--trace-exits-sample-rate=N&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;More thorough testing and multiple bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other Notable New Features&lt;/h2&gt;
+
+&lt;h3&gt;Language&lt;/h3&gt;
+
+&lt;h2&gt;Performance improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defined?(@ivar)&lt;/code&gt; is optimized with Object Shapes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other notable changes since 3.2&lt;/h2&gt;
+
+&lt;h3&gt;IRB&lt;/h3&gt;
+
+&lt;p&gt;IRB has received several enhancements, including but not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Advanced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irb:rdbg&lt;/code&gt; integration that provides an equivalent debugging experience to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pry-byebug&lt;/code&gt; (&lt;a href=&quot;https://github.com/ruby/irb#debugging-with-irb&quot;&gt;doc&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Pager support for commands like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_cmds&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;More accurate and helpful information provided by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_source&lt;/code&gt; commands.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, IRB has also undergone extensive refactoring and received dozens of bug fixes to facilitate easier future enhancements.&lt;/p&gt;
+
+&lt;h2&gt;Compatibility issues&lt;/h2&gt;
+
+&lt;p&gt;Note: Excluding feature bug fixes.&lt;/p&gt;
+
+&lt;h3&gt;Removed constants&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated constants are removed.&lt;/p&gt;
+
+&lt;h3&gt;Removed methods&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated methods are removed.&lt;/p&gt;
+
+&lt;h2&gt;Stdlib compatibility issues&lt;/h2&gt;
+
+&lt;h3&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; is retired&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; that is pure Ruby implementation compatible with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; API. We rely on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; in the future. If you need to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt;, you can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; via rubygems.org with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install readline-ext&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;We no longer need to install libraries like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libreadline&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libedit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C API updates&lt;/h2&gt;
+
+&lt;h3&gt;Updated C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following APIs are updated.&lt;/p&gt;
+
+&lt;h3&gt;Removed C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated APIs are removed.&lt;/p&gt;
+
+&lt;h2&gt;Standard library updates&lt;/h2&gt;
+
+&lt;p&gt;RubyGems and Bundler warn if users require gem that is scheduled to become the bundled gems in the future version of Ruby.&lt;/p&gt;
+
+&lt;p&gt;The following default gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RubyGems 3.5.0.dev&lt;/li&gt;
+  &lt;li&gt;bigdecimal 3.1.4&lt;/li&gt;
+  &lt;li&gt;bundler 2.5.0.dev&lt;/li&gt;
+  &lt;li&gt;csv 3.2.8&lt;/li&gt;
+  &lt;li&gt;erb 4.0.3&lt;/li&gt;
+  &lt;li&gt;fiddle 1.1.2&lt;/li&gt;
+  &lt;li&gt;fileutils 1.7.1&lt;/li&gt;
+  &lt;li&gt;irb 1.7.4&lt;/li&gt;
+  &lt;li&gt;nkf 0.1.3&lt;/li&gt;
+  &lt;li&gt;optparse 0.4.0.pre.1&lt;/li&gt;
+  &lt;li&gt;psych 5.1.0&lt;/li&gt;
+  &lt;li&gt;reline 0.3.8&lt;/li&gt;
+  &lt;li&gt;stringio 3.0.9&lt;/li&gt;
+  &lt;li&gt;strscan 3.0.7&lt;/li&gt;
+  &lt;li&gt;syntax_suggest 1.1.0&lt;/li&gt;
+  &lt;li&gt;time 0.2.2&lt;/li&gt;
+  &lt;li&gt;timeout 0.4.0&lt;/li&gt;
+  &lt;li&gt;uri 0.12.2&lt;/li&gt;
+  &lt;li&gt;yarp 0.9.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;minitest 5.19.0&lt;/li&gt;
+  &lt;li&gt;test-unit 3.6.1&lt;/li&gt;
+  &lt;li&gt;rexml 3.2.6&lt;/li&gt;
+  &lt;li&gt;rss 0.3.0&lt;/li&gt;
+  &lt;li&gt;net-imap 0.3.7&lt;/li&gt;
+  &lt;li&gt;rbs 3.2.1&lt;/li&gt;
+  &lt;li&gt;typeprof 0.21.8&lt;/li&gt;
+  &lt;li&gt;debug 1.8.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following default gem is now bundled.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;racc 1.7.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See GitHub releases like &lt;a href=&quot;https://github.com/ruby/logger/releases&quot;&gt;Logger&lt;/a&gt; or
+changelog for details of the default gems or bundled gems.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://github.com/ruby/ruby/blob/v3_3_0_preview2/NEWS.md&quot;&gt;NEWS&lt;/a&gt;
+or &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_preview2&quot;&gt;commit logs&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;With those changes, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_preview2#file_bucket&quot;&gt;4970 files changed, 239635 insertions(+), 165275 deletions(-)&lt;/a&gt;
+since Ruby 3.2.0!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview2.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview2.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 21074209
+SHA1: cf7329019235dc36b8e3f382a8b8b744922b1163
+SHA256: 30ce8b0fe11b37b5ac088f5a5765744b935eac45bb89a9e381731533144f5991
+SHA512: 1c5a13e519e8487fd40d932b96d14fa729521925c288e7841ab5eada628e506ceca2605bae36eea1aa505d9253383d53cd933b7a4bff96e6de5b1130c7c558e6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview2.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview2.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15600992
+SHA1: 606d6423137a24eef4f6b07d167596b63c7aaa17
+SHA256: 62b1c4f586c70bf1cb58f2d909d0d824506315782e835f9dd3fcc0b659a70fc1
+SHA512: 5ff609a66b7359006df0d87477cf70e6e26c5f40ced81b8254f8154f4fc82c77fed297471b55706c1a4466f2a4257999e933b2ed085f695ace265757ab9500a2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview2.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview2.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 26095651
+SHA1: 4441cd0db23d133e6e2f7dea28f931a68dac6ca5
+SHA256: c9771d24c9b1eab532c04ed076087285601693e4d1c63f131fd078c47c5c0cea
+SHA512: bfeed21d011f891fe22510fe7242992c98f7fd2ce863d8be5740f56a34b726134cb3f5304e8b2dcd468fbc939648f10aae482eee15c1bf6c64b705484ed9e197
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What is Ruby&lt;/h2&gt;
+
+&lt;p&gt;Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+and is now developed as Open Source. It runs on multiple platforms
+and is used all over the world especially for web development.&lt;/p&gt;
+
+&lt;p&gt;Posted by naruse on 14 Sep 2023&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/09/14/ruby-3-3-0-preview2-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/09/14/ruby-3-3-0-preview2-released/</link>
+    </item>
+    
+    <item>
+      <title>CVE-2023-36617: ReDoS vulnerability in URI</title>
+      <description>&lt;p&gt;We have released the uri gem version 0.12.2, 0.10.3 that has a security fix for a ReDoS vulnerability.
+This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2023-36617&quot;&gt;CVE-2023-36617&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;A ReDoS issue was discovered in the URI component through 0.12.1 for Ruby. The URI parser mishandles invalid URLs that have specific characters. There is an increase in execution time for parsing strings to URI objects with rfc2396_parser.rb and rfc3986_parser.rb.&lt;/p&gt;
+
+&lt;p&gt;NOTE: this issue exists because of an incomplete fix for &lt;a href=&quot;https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/&quot;&gt;CVE-2023-28755&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt; gem version 0.12.1 and all versions prior 0.12.1 are vulnerable for this vulnerability.&lt;/p&gt;
+
+&lt;h2&gt;Recommended action&lt;/h2&gt;
+
+&lt;p&gt;We recommend to update the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt; gem to 0.12.2. In order to ensure compatibility with bundled version in older Ruby series, you may update as follows instead:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For Ruby 3.0: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt; 0.10.3&lt;/li&gt;
+  &lt;li&gt;For Ruby 3.1: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt; 0.12.2&lt;/li&gt;
+  &lt;li&gt;For Ruby 3.2: Update to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt; 0.12.2, or update to Ruby 3.2.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem update uri&lt;/code&gt; to update it. If you are using bundler, please add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;uri&quot;, &quot;&amp;gt;= 0.12.2&quot;&lt;/code&gt; (or other version mentioned above) to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Affected versions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;uri gem 0.12.1 or before&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://hackerone.com/ooooooo_q&quot;&gt;ooooooo_q&lt;/a&gt; for discovering this issue.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/nobu&quot;&gt;nobu&lt;/a&gt; for fixing this issue.&lt;/p&gt;
+
+&lt;h2&gt;History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added a new recommended action for Ruby 3.2 at 2024-01-18 12:00:00 (UTC)&lt;/li&gt;
+  &lt;li&gt;Originally published at 2023-06-29 01:00:00 (UTC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Posted by hsbt on 29 Jun 2023&lt;/p&gt;</description>
+      <pubDate>Thu, 29 Jun 2023 01:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.3.0-preview1 Released</title>
+      <description>
+&lt;p&gt;We are pleased to announce the release of Ruby 3.3.0-preview1. Ruby 3.3 adds a new pure-Ruby JIT compiler named RJIT, uses Lrama as a parser generator, and many performance improvements especially YJIT.&lt;/p&gt;
+
+&lt;h2&gt;RJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
+    &lt;ul&gt;
+      &lt;li&gt;RJIT supports only x86_64 architecture on Unix platforms.&lt;/li&gt;
+      &lt;li&gt;Unlike MJIT, it doesn’t require a C compiler at runtime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RJIT exists only for experimental purposes.
+    &lt;ul&gt;
+      &lt;li&gt;You should keep using YJIT in production.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you are interested in developing JIT for Ruby, please check out &lt;a href=&quot;https://rubykaigi.org/2023/presentations/k0kubun.html#day3&quot;&gt;k0kubun’s presentation on Day 3 of RubyKaigi&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Use Lrama instead of Bison&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace Bison with &lt;a href=&quot;https://github.com/yui-knk/lrama&quot;&gt;Lrama LALR parser generator&lt;/a&gt; &lt;a href=&quot;https://bugs.ruby-lang.org/issues/19637&quot;&gt;Feature #19637&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If you have interest, please see &lt;a href=&quot;https://rubykaigi.org/2023/presentations/spikeolaf.html&quot;&gt;The future vision of Ruby Parser&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;YJIT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Significant performance improvements over 3.2
+    &lt;ul&gt;
+      &lt;li&gt;Splat and rest arguments support has been improved.&lt;/li&gt;
+      &lt;li&gt;Registers are allocated for stack operations of the virtual machine.&lt;/li&gt;
+      &lt;li&gt;More calls with optional arguments are compiled.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Integer#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String#!=&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#block_given?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#is_a?&lt;/code&gt;,
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kernel#instance_of?&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Module#===&lt;/code&gt; are specially optimized.&lt;/li&gt;
+      &lt;li&gt;Instance variables no longer exit to the interpreter
+with megamorphic Object Shapes.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Metadata for compiled code uses a lot less memory.&lt;/li&gt;
+  &lt;li&gt;Improved code generation on ARM64&lt;/li&gt;
+  &lt;li&gt;Option to start YJIT in paused mode and then later enable it manually
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--yjit-pause&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RubyVM::YJIT.resume&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;This can be used to enable YJIT only once your application is done booting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Exit tracing option now supports sampling
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--trace-exits-sample-rate=N&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multiple bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other Notable New Features&lt;/h2&gt;
+
+&lt;h3&gt;Language&lt;/h3&gt;
+
+&lt;h2&gt;Performance improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defined?(@ivar)&lt;/code&gt; is optimized with Object Shapes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other notable changes since 3.2&lt;/h2&gt;
+
+&lt;h2&gt;Compatibility issues&lt;/h2&gt;
+
+&lt;p&gt;Note: Excluding feature bug fixes.&lt;/p&gt;
+
+&lt;h3&gt;Removed constants&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated constants are removed.&lt;/p&gt;
+
+&lt;h3&gt;Removed methods&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated methods are removed.&lt;/p&gt;
+
+&lt;h2&gt;Stdlib compatibility issues&lt;/h2&gt;
+
+&lt;h3&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; is retired&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; that is pure Ruby implementation compatible with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; API. We rely on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reline&lt;/code&gt; in the future. If you need to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt;, you can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext/readline&lt;/code&gt; via rubygems.org with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install readline-ext&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;We no longer need to install libraries like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libreadline&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libedit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C API updates&lt;/h2&gt;
+
+&lt;h3&gt;Updated C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following APIs are updated.&lt;/p&gt;
+
+&lt;h3&gt;Removed C APIs&lt;/h3&gt;
+
+&lt;p&gt;The following deprecated APIs are removed.&lt;/p&gt;
+
+&lt;h2&gt;Standard library updates&lt;/h2&gt;
+
+&lt;p&gt;The following default gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RubyGems 3.5.0.dev&lt;/li&gt;
+  &lt;li&gt;bigdecimal 3.1.4&lt;/li&gt;
+  &lt;li&gt;bundler 2.5.0.dev&lt;/li&gt;
+  &lt;li&gt;csv 3.2.7&lt;/li&gt;
+  &lt;li&gt;fiddle 1.1.2&lt;/li&gt;
+  &lt;li&gt;fileutils 1.7.1&lt;/li&gt;
+  &lt;li&gt;irb 1.6.4&lt;/li&gt;
+  &lt;li&gt;optparse 0.4.0.pre.1&lt;/li&gt;
+  &lt;li&gt;psych 5.1.0&lt;/li&gt;
+  &lt;li&gt;reline 0.3.3&lt;/li&gt;
+  &lt;li&gt;stringio 3.0.7&lt;/li&gt;
+  &lt;li&gt;strscan 3.0.7&lt;/li&gt;
+  &lt;li&gt;syntax_suggest 1.0.4&lt;/li&gt;
+  &lt;li&gt;time 0.2.2&lt;/li&gt;
+  &lt;li&gt;timeout 0.3.2&lt;/li&gt;
+  &lt;li&gt;uri 0.12.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following bundled gems are updated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;minitest 5.18.0&lt;/li&gt;
+  &lt;li&gt;rbs 3.1.0&lt;/li&gt;
+  &lt;li&gt;typeprof 0.21.7&lt;/li&gt;
+  &lt;li&gt;debug 1.8.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See GitHub releases like &lt;a href=&quot;https://github.com/ruby/logger/releases&quot;&gt;Logger&lt;/a&gt; or
+changelog for details of the default gems or bundled gems.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://github.com/ruby/ruby/blob/v3_3_0_preview1/NEWS.md&quot;&gt;NEWS&lt;/a&gt;
+or &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_preview1&quot;&gt;commit logs&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;With those changes, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v3_2_0...v3_3_0_preview1#file_bucket&quot;&gt;1922 files changed, 75283 insertions(+), 44896 deletions(-)&lt;/a&gt;
+since Ruby 3.2.0!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview1.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview1.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 20428213
+SHA1: 5445eec1cd9ddb44e03e74568cac94209c91b42d
+SHA256: c3454a911779b8d747ab0ea87041030d002d533edacb2485fe558b7084da25ed
+SHA512: 0f891f140ddc6372aa7c4459f8784126e0c341db7b80e72c51e441c5153c43c2d7b965f7807c076862ac84b9b8b0c6a66bbf66fc341746016151397bb21c782a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview1.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview1.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15074600
+SHA1: 4c22ebca287c87811e1050bf4d59b7d32255b212
+SHA256: ae300b49e06c13087dd163b97eddd38db895dc8e0c9904284119795d75303fbb
+SHA512: 46c1134dba5810847f7f6b4298900a91f5225679d7873548b271f4ef2ad1dc168722562a2e468a2ccf136314176ee613d8c7792fd4411a3f7a44c80b93b417ee
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview1.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.0-preview1.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 24846962
+SHA1: 31774fa653c54107b6afc30adda3a0350d8f41d2
+SHA256: 6ecafecf83f2cacf446b2326012f2b6ee1a0614d8dd29bb1fb3f105c27e2c553
+SHA512: 794bef847fefbbdbbdced85975a00c9289ef6464810408af3f0f2055052d6b5ef5576dbd41e0d87bb73f1ad276d8e27c36018610f8e2b9936828c0e692f611f0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What is Ruby&lt;/h2&gt;
+
+&lt;p&gt;Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+and is now developed as Open Source. It runs on multiple platforms
+and is used all over the world especially for web development.&lt;/p&gt;
+
+&lt;p&gt;Posted by naruse on 12 May 2023&lt;/p&gt;</description>
+      <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/05/12/ruby-3-3-0-preview1-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/05/12/ruby-3-3-0-preview1-released/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 3.2.2 Released</title>
+      <description>&lt;p&gt;Ruby 3.2.2 has been released.&lt;/p&gt;
+
+&lt;p&gt;This release includes security fixes.
+Please check the topics below for details.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2023/03/28/redos-in-uri-cve-2023-28755/&quot;&gt;CVE-2023-28755: ReDoS vulnerability in URI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2023/03/30/redos-in-time-cve-2023-28756/&quot;&gt;CVE-2023-28756: ReDoS vulnerability in Time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;https://github.com/ruby/ruby/releases/tag/v3_2_2&quot;&gt;GitHub releases&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 20467023
+SHA1: 670fce00d83771a1349b116e56a8a3b0ad323769
+SHA256: 96c57558871a6748de5bc9f274e93f4b5aad06cd8f37befa0e8d94e7b8a423bc
+SHA512: bcc68f3f24c1c8987d9c80b57332e5791f25b935ba38daf5addf60dbfe3a05f9dcaf21909681b88e862c67c6ed103150f73259c6e35c564f13a00f432e3c1e46
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 15118856
+SHA1: 087af286b70b0e17f88c9c4469b471eca2010161
+SHA256: 4b352d0f7ec384e332e3e44cdbfdcd5ff2d594af3c8296b5636c710975149e23
+SHA512: a29f24cd80f563f6368952d06d6273f7241a409fa9ab2f60e03dde2ac58ca06bee1750715b6134caebf4c061d3503446dc37a6059e19860bb0010eef34951935
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE: 24615317
+SHA1: a1b6d57019d41dca269b4b16a80784755d34b81d
+SHA256: cc216ecb4f49064d8f44e10ecf9218cfd7b28cf4168bb79ecdf171e321db4af1
+SHA512: 569a68d89cc9a646cd0319d7cb8d57df3a55c0ac2c64f1f61607cc9c06b3aa8415eb8d38f7893ab3dbf072da9e919fbc454a9338e924c20a6a5110a1fa301d52
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;Many committers, developers, and users who provided bug reports helped us make this release.
+Thanks for their contributions.&lt;/p&gt;
+
+&lt;p&gt;Posted by naruse on 30 Mar 2023&lt;/p&gt;</description>
+      <pubDate>Thu, 30 Mar 2023 12:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/</guid>
+      <link>https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-2-2-released/</link>
+    </item>
+    
+  </channel>
+</rss>

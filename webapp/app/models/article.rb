@@ -59,6 +59,11 @@ class Article < ApplicationRecord
 #      self.author ||= 'Cielcio Conti'
     end
 
+    def author_or_newspaper
+      return author if author.to_s.length > 3
+      return newspaper
+    end
+
     def set_defaults_after
       puts("Article::set_defaults_after (after_save). My id=#{self.id}")
       #self.active ||= true
