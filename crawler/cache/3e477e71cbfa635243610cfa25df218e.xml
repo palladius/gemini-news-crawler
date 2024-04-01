@@ -1,5 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link><description>Cloud Blog</description><atom:link href="https://cloudblog.withgoogle.com/blog/rss/" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 29 Mar 2024 19:14:16 +0000</lastBuildDate><image><url>https://cloud.google.com/blog/static/blog/images/google.a51985becaa6.png</url><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link></image><item><title>Dev Connect at Next ‘24: Master AI on Google Cloud with Firebase, Kaggle, Android, and more</title><link>https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Calling all the Firebase fanatics, Android experts, Flutter enthusiasts, Kaggle competitors, machine learning wizards, and anyone deeply involved with open-source Google AI projects! We're excited to unveil &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/innovators-hive#dev_connect" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Dev Connect&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, a new experience built to help you harness the power of Google Cloud and build bridges between developer communities at &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Next ‘24&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link><description>Cloud Blog</description><atom:link href="https://cloudblog.withgoogle.com/blog/rss/" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 01 Apr 2024 16:12:08 +0000</lastBuildDate><image><url>https://cloud.google.com/blog/static/blog/images/google.a51985becaa6.png</url><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link></image><item><title>15 must-attend security sessions at Next '24</title><link>https://cloud.google.com/blog/products/identity-security/15-must-attend-security-sessions-at-next24/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Next&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, our global exhibition of inspiration, innovation, and education, is coming to the Mandalay Bay Convention Center in Las Vegas starting Tuesday, April 9. We’re featuring a packed &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals#all" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Security Professionals track&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;including more than 40 breakout sessions, &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals,solution-security,session-type-showcase-demo" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;demos&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, and &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals,session-type-showcase-lightning-talk" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;lightning talks&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; where you can discover new ways to secure your cloud workloads, get the latest in threat intelligence, and learn how AI is evolving security practices.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Learn from an exciting lineup of speakers, including experts from Google Cloud and leaders from Charles Schwab, L’Oreal, Snap, Fiserv, Spotify, and Electronic Arts. &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Register here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;and get ready to defend your business with the latest in frontline intelligence, intel-driven SecOps, and cloud innovation. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Here are some must-attend session for security professionals:&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Security keynote&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SPTL207#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;What’s next for security professionals&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Organizations need powerful security solutions to protect their most sensitive assets, but the familiar approach of bolting on more security products is unsustainable. Instead, the convergence of key capabilities can reduce complexity, increase productivity, and deliver stronger security outcomes. In this spotlight, leaders from Google and Mandiant will share our insight into the threat landscape and our latest innovations that make Google part of your security team. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Sunil Potti, vice president and general manager, Cloud Security, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Kevin Mandia, CEO Mandiant, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Parisa Tabriz, vice president, Chrome Browser, Google&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Steph Hay, director of User Experience, Cloud Security, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Security breakout sessions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC102#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;How AI can transform your approach to security&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Generative AI from Google Cloud can help seasoned security professionals quickly discover, investigate, and respond to threats, and help newcomers boost their skills to get more things done, faster. Join this session to learn about new features, hear from customers, and gain insights on how to address common security challenges with AI.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Anton Chuvakin, senior staff security consultant, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Bashar Abouseido, senior vice president and CISO, Charles Schwab&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Steph Hay, director of User Experience, Cloud Security, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC302#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Simplified Google Cloud network security: Zero Trust and beyond&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This demo-packed session on how to proactively defend your cloud network with Google Cloud's machine learning-powered Zero Trust architecture reveals the latest Cloud next-generation firewall (NGFW), Secure Web Proxy and Cloud Armor enhancements, partner integrations, and real-world use cases. Learn to neutralize unauthorized access, sensitive data loss, and other cloud attack vectors across public and hybrid cloud environments.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Ashok Narayanan, principal engineer, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Tobias Pischl, director of product management, Broadcom, Inc.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Olivier Richaud, vice president, Platforms, Symphony&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Sid Shibiraj, group product manager, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=SEC120" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Start secure, stay secure: Build a strong security foundation for your cloud&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In this session, you’ll learn how to start secure and stay secure in the cloud using the Security Foundation, which provides recommended controls to common cloud adoption use cases, including infrastructure modernization, AI workloads, data analytics, and application modernization.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;William Bear, cloud architect, Mayo Clinic&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Dhananjay Dalave, strategic cloud engineer, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Marcus Hartwig, product marketing lead, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Stacy Moening, director of product management - IT, Mayo Clinic&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Anil Nandigam, product marketing lead, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC204#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Practical use cases for AI in security operations&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;AI isn’t a future concept: It’s here and available, with early user feedback showing that AI can reduce the time required for common analyst tasks such as triaging complex cases by seven times. In this session, we’ll dive into the real-world applications of AI in security operations with hands-on demonstrations and case studies.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Payal Chakravarty, product manager, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Mark Ruiz, head of Cybersecurity Analytics, Pfizer&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC207#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;A cybersecurity expert's guide to securing AI products with Google SAIF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;AI is rapidly advancing, and it’s important that effective security and privacy strategies evolve along with it. To support this evolution, Google Cloud introduced the Secure AI Framework (SAIF). Join us to learn why SAIF offers a practical approach to addressing the concerns that are top of mind for security and privacy professionals like you, and how to implement it.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Anton Chuvakin, senior staff security consultant, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Shan Rao, group product manager, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC304#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Preventing data exfiltration with Google Cloud’s built-in controls&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Join us to hear from Charles Schwab and Commerzbank on their security journey to mitigate data exfiltration risks and reduce the rising cost of a breach. You’ll also learn more about the Google Cloud platform security technologies, including &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/identity-security/vpc-service-controls-add-a-robust-security-layer"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;VPC Service Controls&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and Organization Restrictions, and how they can be deployed to effectively address different threat vectors. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Sri B, product manager, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Steffen Kreis, senior cloud architect, Commerzbank AG&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Florin Stingaciu, product manager, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Jonathan Wentz, cloud architect, Charles Schwab&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC109#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Go beyond multi-cloud CNAPP security with Security Command Center Enterprise&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Learn how to implement a full life cycle approach to reduce cloud risks with the industry’s first solution that converges best-in-class cloud security and enterprise security operations capabilities. Hear how Verizon security teams assess and mitigate cloud risks, and how your organization can proactively manage threats, posture, data, and identities, and respond to security events across clouds with a single, converged solution operating at Google Cloud scale.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Arshad Aziz, director, Cloud Security, Verizon&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Connor Hammersmith, Security Command Center GTM, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Jess Leroy, director, product management, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC303#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud compromises: Lessons learned from Mandiant investigations in 2023&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This session will draw from real-world experiences and highlight the top threats that emerged in 2023 in relation to cloud security. Participants will gain valuable insights through case studies derived from Mandiant's incident response engagements in 2023, covering numerous threat actors such as Scattered Spider aka UNC3944. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Omar ElAhdan, principal consultant, Mandiant, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Will Silverstone, senior consultant, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC107#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Learn to love IAM: The most important step in securing your cloud infrastructure&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Join this session to learn all things to get started with IAM, including how to structure and set up identities, and access resources with minimal risk to your cloud environment.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Elliott Abraham, cloud security architect, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Michele Chubirka, cloud security advocate, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC200#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Your model. Your data. Your business: A privacy-first approach to generative AI&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Want to learn how to quickly and easily train and fine-tune production AI models? Use your data and own your model? Train in the cloud or on-premises, pain-free? Then this is the session for you!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Todd Moore, vice president, Encryption Solutions, Thales&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Amit Patil, director, Cloud Security Platform and Products, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Nelly Porter, director, product management, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC118#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Secure enterprise browsing: New ways to strengthen endpoint security&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Discover how to leverage Chrome Enterprise to apply built-in security measures, including data-loss prevention and context-aware access controls, plus the latest product announcements. You’ll leave with actionable best practices, and tips to safeguard your corporate data and empower your team.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Mark Berschadski, director, product management, Chrome Browser Enterprise, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Tanisha Rai, Google Cloud Security product manager, Google&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC214#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Using Security Command Center for multi-cloud threat detection and response&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Learn how Google detects threats against Google Cloud to protect multicloud environments and find out how industry-leading Mandiant Threat Intelligence combines with planet-scale data analytics to detect new and persistent threats to cloud environments, cloud identities, and cloud workloads. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Ken Duffy, staff cloud architect, Telus Corporation&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Timothy Peacock, senior product manager, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Jason Sloderbeck, group product manager, Security Command Center, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=track-security-professionals&amp;amp;session=SEC121#all" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;TD shows Google Cloud’s shared fate model in action&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Discover how expecting more from Google Cloud’s shared fate model has helped TD accelerate its transformation with peace of mind. Join this session to learn how TD is building out a generative AI platform designed to expand its business, create a next generation user experience, and enhance the bank’s security posture.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Featured speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Dan Bosman, senior vice president and CIO, TD Securities and TBSM, TD Securities&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Andy Chang, group product manager, Google Cloud&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Sean Leighton, principal architect, Google Cloud&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To explore the full catalog of breakout sessions and labs designed for security professionals, check out the security track in the &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Next ‘24 catalog&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 01 Apr 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/identity-security/15-must-attend-security-sessions-at-next24/</guid><category>Security &amp; Identity</category><media:content height="540" url="https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_w.max-600x600.jpg" width="540"></media:content><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>15 must-attend security sessions at Next '24</title><description></description><image>https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_w.max-600x600.jpg</image><site_name>Google</site_name><url>https://cloud.google.com/blog/products/identity-security/15-must-attend-security-sessions-at-next24/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Ruchika Mishra</name><title>Product Marketing, Google Cloud</title><department></department><company></company></author></item><item><title>Get excited about what's coming for data professionals at Next ‘24</title><link>https://cloud.google.com/blog/products/data-analytics/must-see-database-sessions-at-next24/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Google Cloud Next '24 lands in Las Vegas on April 9, ready to unleash the future of cloud computing! This global event is where inspiration, innovation, and practical knowledge collide.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Data cloud professionals, get ready to harness the power and scalability of Google Cloud operational databases – AlloyDB, Cloud SQL, and Spanner –  and leverage AI to streamline your data management and unlock real-time insights. You’ll learn how to master BigQuery for lightning-fast analytics on massive datasets, visualize your findings with the intuitive power of Looker, and use generative AI to get better insights from your data. With these cutting-edge Google Cloud tools, you’ll have everything you need to drive better, more informed decision-making.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Here are 10 must-attend sessions for data professionals to add to your Google Cloud Next '24 agenda:&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;1. What’s next for Google Cloud databases • SPTL203&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Dive into the world of Google Cloud databases and discover next-generation innovations that will help you modernize your database estate to easily build enterprise generative AI apps, unify your analytical and transactional workloads, and simplify database management with assistive AI. Join us to hear our vision for the future of Google Cloud databases and see how we're pushing the boundaries alongside the AI ecosystem. &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=SPTL203" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;2. What’s next for data analytics in the AI era • SPTL202&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With the surge of new generative AI capabilities, companies and their customers can now interact with systems and data in new ways. To activate AI, organizations require a data foundation with the scale and efficiency to bring business data together with AI models and ground them in customer reality. Join this session to learn the latest innovations for data analytics and business intelligence, and see why tens of thousands of organizations are fueling their journey with BigQuery and Looker.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=SPTL202" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;3. The future of databases and generative AI • DBS104&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Learn how AI has the potential to revolutionize the way applications interact with databases and explore the exciting future of Google Cloud‘s managed databases, including Cloud SQL, AlloyDB, and Spanner. We will also delve into the most intriguing frontiers on the horizon, such as vector search capabilities, natural language processing in databases, and app migration with large language model-powered code migration.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=DBS104" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;4. What's new with BigQuery • ANA112&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Join this session to explore all the latest BigQuery innovations to support all structured or unstructured data, across multiple and open data formats, and cross-clouds; all workloads, whether Cloud SQL, Spark, or Python; and new generative AI use cases with built-in AI to supercharge the work of data teams. Learn how you can take advantage of BigQuery, a single offering that combines data processing, streaming, and governance capabilities to unlock the full power of your data.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=ANA112" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;5. A deep dive into AlloyDB for PostgreSQL • DBS216&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Powered by Google-embedded storage for superior performance with full PostgreSQL compatibility, AlloyDB offers the best of the cloud. With scale-out architecture, a no-nonsense 99.99% availability SLA, intelligent caching, and ML-enabled adaptive systems, it’s got everything you need to simplify database management. In this session, we’ll cover what’s new in AlloyDB, plus take a deep dive into the technology that powers it.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=DBS216" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;6. BigQuery’s multimodal data foundation for the Gemini era • ANA116&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the era of multimodal generative AI, a unified, governance-focused data platform powered by Gemini is now paramount. Join this session to learn how BigQuery fuels your data and AI lifecycle, from training to inference, by unifying all your data — structured or unstructured — while addressing security and governance. &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=ANA116" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;7. Best practices to maximize the availability of your Cloud SQL databases • DBS210&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Customers use Cloud SQL to run their business-critical applications. The session will dive deep into Enterprise Plus edition features, how Cloud SQL achieves near-zero downtime maintenance, and behaviors that affect availability and mitigations — all of which will prepare you to be an expert in configuring and monitoring Cloud SQL for maximum availability.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=DBS210" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;8. Make generative AI work: Best practices from data leaders • ANA122&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Join experts from Databricks, MongoDB, Confluent, and Dataiku for an exclusive executive discussion on harnessing generative AI's transformative potential. We'll explore how generative AI breaks down multicloud data silos to enable informed decision-making and unlock your data's full value. Discover strategies for integrating generative AI, addressing challenges, and building a future-proof, innovation-driven data culture.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=ANA122" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;9. Spanner: Beyond relational? Yahoo! Mail says yes • DBS203&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Imagine running your non-relational workloads at relational consistency and unlimited scale. Yahoo! dared to dream it, and with Google Spanner, it plans to make it a reality. Dive into its modernization plans for the Mail platform, consolidating diverse databases, and unlocking innovation with unprecedented scale. &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=DBS203" rel="noopener" target="_blank"&gt;&lt;strong&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;10. Talk with your business data using generative AI • ANA113&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Getting insights from your business data should be as easy as asking Google. That is the Looker mission – instant insights, timely alerts when it matters most, and faster, more impactful decisions, all powered by the most important information: yours. Join this session to learn how AI is reshaping our relationship with data and how Looker is leading the way.&lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?session=ANA113" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Add to my agenda&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; &amp;lt;&amp;lt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 01 Apr 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/must-see-database-sessions-at-next24/</guid><category>Databases</category><category>Google Cloud Next</category><category>Data Analytics</category><media:content height="540" url="https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_b.max-600x600.jpg" width="540"></media:content><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Get excited about what's coming for data professionals at Next ‘24</title><description></description><image>https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_b.max-600x600.jpg</image><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/must-see-database-sessions-at-next24/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Joey Hernandez</name><title>Product Marketing Manager, Databases</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Derek Downey</name><title>Developer Relations Engineer</title><department></department><company></company></author></item><item><title>Showcase your skills: Discover new ways to skill up with Google Cloud Credentials</title><link>https://cloud.google.com/blog/topics/training-certifications/introducing-the-google-cloud-credential-wallet/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;a href="https://cloud.google.com/learn/training/badges"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud credentials&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, including certifications and skill badges, empower you to validate your expertise in the ever-evolving landscape of cloud technology, and work towards that next promotion or prepare for a new career opportunity in cloud. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Going to &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Next&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; in Las Vegas April 9-11? &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/training-certifications/training-and-certification-for-developers-at-google-cloud-next24"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Check out all the opportunities to lead with learning&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; and earn credentials. It’s still not too late to &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;register&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; for a digital pass&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;According to a &lt;/span&gt;&lt;a href="https://home.pearsonvue.com/voc/2023-report" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;recent study led by PearsonVue&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, 92% of individuals with digital credentials are more confident in their abilities, and 81% have more confidence to explore new job opportunities. Whether you're looking to enhance your career prospects, transition into a new role, or showcase your cloud expertise, Google Cloud credentials offer a great pathway to elevate your career. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We’re excited to introduce new, easy-to-use features that help to showcase your validated skills and demonstrate your expertise with Google Cloud. &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Our credential earners can now manage and share their credentials in one, easy-to-access place with the Google Cloud Credential Wallet, powered by Credly. &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;We invite credential earners to opt-into the &lt;/span&gt;&lt;a href="https://www.credly.com/organizations/google-cloud/directory" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Skills Directory&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, to help you gain visibility to career-relevant cloud opportunities. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Earners can take advantage of &lt;/span&gt;&lt;a href="https://support.credly.com/hc/en-us/articles/360041974091-Video-What-labor-insights-are-available-with-my-badge" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Labor Market Insights&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;discover open job opportunities based on verified skills and credentials, including job titles, locations, employers, and salary insights. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Join us for an &lt;/span&gt;&lt;a href="https://www.youtube.com/watch?v=lhfhGnBFzlQ" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;webinar&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; on April 17 at 8am PT to discover how to make the most of these tools and features to showcase your skills and connect to employment opportunities. And don’t miss &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Next 2024&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; where we have a huge number of opportunities to lean into learning and earning a Google Cloud credential. Check out all the ways to learn at Next &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/training-certifications/training-and-certification-for-developers-at-google-cloud-next24"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Meet Nikiya: A cloud skills success story&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Introducing Nikiya Simpson, a mom of three out of Little Rock Arkansas, who wears many hats: She’s a full stack engineer at a technology-based healthcare company and is pursuing her master’s degree in &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;AI and Human-Computer Interaction at Georgia Tech, all while managing an active household.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Nikiya, an avid learner on &lt;/span&gt;&lt;a href="https://www.cloudskillsboost.google/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Skills Boost&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, tackles cloud challenges at work by utilizing on-demand learning labs during breaks. These labs provide her with hands-on experience with Google Cloud products and concepts related to Kubernetes, data processing, and application development. By acquiring targeted, validated skills with skill badges, Nikiya significantly enhanced her resume and career.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;“I was able to directly apply the skills obtained by earning skill badges in my career as a software engineer. I know more about cloud infrastructure, logging and monitoring, and how to create new solutions in ways that make me a better engineer. I’m also able to help people in my community spin up new projects, as well as explore new project ideas of my own.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Now, Nikiya continues to earn Google Cloud skill badges to advance her skillset, and even achieved the &lt;/span&gt;&lt;a href="https://cloud.google.com/learn/certification/cloud-engineer"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Associate Cloud Engineer certification&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, giving her the industry credibility needed to take on more complex projects at work. She even mentors aspiring cloud developers as an ambassador within the &lt;/span&gt;&lt;a href="https://developers.google.com/womentechmakers" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Women Techmakers program.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Discover how &lt;/span&gt;&lt;a href="https://www.cloudskillsboost.google/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Skills Boost&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and Google Cloud credentials fueled Nikiya's engineering journey. Check out her story here:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-video"&gt;
+
+
+
+&lt;div class="article-module article-video "&gt;
+  &lt;figure&gt;
+    &lt;a class="h-c-video h-c-video--marquee"
+      href="https://youtube.com/watch?v=apAOM8SQowQ"
+      data-glue-modal-trigger="uni-modal-apAOM8SQowQ-"
+      data-glue-modal-disabled-on-mobile="true"&gt;
+
+      
+        &lt;img src="//img.youtube.com/vi/apAOM8SQowQ/maxresdefault.jpg"
+             alt="SUCCESS STORY"/&gt;
+      
+      &lt;svg role="img" class="h-c-video__play h-c-icon h-c-icon--color-white"&gt;
+        &lt;use xlink:href="#mi-youtube-icon"&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+
+    
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div class="h-c-modal--video"
+     data-glue-modal="uni-modal-apAOM8SQowQ-"
+     data-glue-modal-close-label="Close Dialog"&gt;
+   &lt;a class="glue-yt-video"
+      data-glue-yt-video-autoplay="true"
+      data-glue-yt-video-height="99%"
+      data-glue-yt-video-vid="apAOM8SQowQ"
+      data-glue-yt-video-width="100%"
+      href="https://youtube.com/watch?v=apAOM8SQowQ"
+      ng-cloak&gt;
+   &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Start your cloud skilling journey by earning a skill badge today&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Try earning a Google Cloud skill badge today. Whether you’re just getting started with AI, or an experienced technical practitioner, there’s skilling for every level.  &lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;[Introductory] &lt;/span&gt;&lt;a href="https://www.cloudskillsboost.google/course_templates/976" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Prompt Design in Vertex AI &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;[Introductory] &lt;/span&gt;&lt;a href="https://www.cloudskillsboost.google/course_templates/623" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Insights from Data with BigQuery&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;[Intermediate] &lt;/span&gt;&lt;a href="https://www.cloudskillsboost.google/course_templates/684" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Build and Deploy ML Solutions on Vertex AI&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;[Intermediate] &lt;/span&gt;&lt;a href="https://www.cloudskillsboost.google/course_templates/663" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Deploy to Kubernetes in Google Cloud&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;See you at the upcoming &lt;/strong&gt;&lt;a href="https://www.youtube.com/watch?v=lhfhGnBFzlQ" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;webinar&lt;/strong&gt;&lt;/a&gt;&lt;strong style="vertical-align: baseline;"&gt;. In the meantime, make sure to:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Create your &lt;/span&gt;&lt;a href="https://www.credly.com/users/sign_up" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Credly account&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Claim your digital badges.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Access your Credential Wallet to share your badges with your network and to your resume!&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</description><pubDate>Mon, 01 Apr 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/training-certifications/introducing-the-google-cloud-credential-wallet/</guid><category>Google Cloud Next</category><category>Training and Certifications</category><media:content height="540" url="https://storage.googleapis.com/gweb-cloudblog-publish/images/blog-hero-image-with-caption.max-600x600.jpg" width="540"></media:content><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Showcase your skills: Discover new ways to skill up with Google Cloud Credentials</title><description></description><image>https://storage.googleapis.com/gweb-cloudblog-publish/images/blog-hero-image-with-caption.max-600x600.jpg</image><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/training-certifications/introducing-the-google-cloud-credential-wallet/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Magda Jary</name><title>Head of Google Cloud Certification &amp; Credentials</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Mara Soss</name><title>Credentials Benefits &amp; Engagement Lead</title><department></department><company></company></author></item><item><title>Google Cloud Backup and DR upgrade: VM protection made easier</title><link>https://cloud.google.com/blog/products/storage-data-transfer/tags-support-in-backup-and-dr-service-simplifies-vm-protection/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We're excited to announce a major enhancement to &lt;/span&gt;&lt;a href="https://cloud.google.com/backup-disaster-recovery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Backup and DR&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, making it simpler than ever to safeguard your critical Google Compute Engine virtual machines (VMs). You can now leverage the power of &lt;/span&gt;&lt;a href="https://cloud.google.com/resource-manager/docs/tags/tags-overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud tags&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, including inheritance, to  easily configure backup policies for Compute Engine VMs, ensuring consistent protection of &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;your dynamic cloud environments.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The challenge of managing VM backups&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Managing backups for a large number of Compute Engine VMs can be complex, especially when VMs are frequently added, removed, or modified. Manually assigning backup policies to individual VMs is time-consuming and can be error-prone, potentially leaving vital resources unprotected.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The power of tag-based backups&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With our new tag-based backup approach, you can leverage the organizational power of tags to automate the protection of your Compute Engine VMs. Here's how it works:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Assign your tags:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Apply meaningful tags to your organization, folders, projects, or directly to your VMs. These tags might reflect application names, environments (production, development, testing), or criticality levels.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Create tag-based policies:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Within Google Backup and DR, you can create backup policies with your desired backup schedules, retention periods, and recovery regions. After policy creation, you can assign them to specific tags.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Automate protection:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Any VM with a matching tag is automatically assigned the backup policy. New VMs inheriting those tags immediately gain protection.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Benefits of tag-based backups&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Simplified management:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Drastically reduce the administrative overhead of configuring VM backups at scale by updating the policy attached to the tag rather than at an individual VM backup level.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Consistent protection:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Ensure new VMs with inherited tags from the project, folder, or organization are automatically protected without manual intervention.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Flexibility:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Adjust your backup strategies easily by modifying tags or creating new tag-based policies, including support for tags assigned using Terraform&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For example, you can easily tag all production projects with the tag &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;backupdr-dynamicprotect:production&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;. You could then create a backup policy that does the following:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Takes daily snapshots of VMs in those projects that inherit the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;backupdr-dynamicprotect:production&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; tag&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Retains backups for 30 days&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Updates your &lt;/span&gt;&lt;a href="https://cloud.google.com/backup-disaster-recovery/docs/create-plan/dynamic-protection#terraform"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Terraform script&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to include your new protection tag to ensure protection of every new Compute Engine instance that’s created&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Getting started&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Review the &lt;/span&gt;&lt;a href="https://cloud.devsite.corp.google.com/backup-disaster-recovery/docs/create-plan/dynamic-protection.md" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Backup and DR documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; on tag-based backups.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Develop a tagging strategy for your Compute Engine VMs.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Create backup policies that target your chosen tags.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Attend ARC205, &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/session-library?filters=session-type-breakout&amp;amp;session=ARC205" rel="noopener" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Protect your critical workloads and recover your most critical asset - your data&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; at &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Next&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</description><pubDate>Mon, 01 Apr 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/storage-data-transfer/tags-support-in-backup-and-dr-service-simplifies-vm-protection/</guid><category>Developers &amp; Practitioners</category><category>Storage &amp; Data Transfer</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Google Cloud Backup and DR upgrade: VM protection made easier</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/storage-data-transfer/tags-support-in-backup-and-dr-service-simplifies-vm-protection/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Ashika Ganesh</name><title>Product Manager</title><department></department><company></company></author></item><item><title>Dev Connect at Next ‘24: Master AI on Google Cloud with Firebase, Kaggle, Android, and more</title><link>https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Calling all the Firebase fanatics, Android experts, Flutter enthusiasts, Kaggle competitors, machine learning wizards, and anyone deeply involved with open-source Google AI projects! We're excited to unveil &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next/innovators-hive#dev_connect" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Dev Connect&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, a new experience built to help you harness the power of Google Cloud and build bridges between developer communities at &lt;/span&gt;&lt;a href="https://cloud.withgoogle.com/next" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Next ‘24&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Designed for developers not currently utilizing Google Cloud, but eager to explore it for building and deploying applications written in Firebase, Android, Kaggle, Angular, Flutter, and Go, Dev Connect launches at Google Cloud Next '24.&lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Dev Connect: Your Google Cloud launchpad&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Dev Connect at Next ‘24 is your fast-track to building apps and solutions with Google Cloud, no matter your existing technical stack. Get hands-on workshops, expert sessions, an AI competition, and dedicated networking — all designed for developers not already working with Google Cloud technologies. &lt;/span&gt;&lt;/p&gt;
@@ -81,7 +302,7 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This is your chance to supercharge your development journey. Get ready to learn, connect, and be inspired – Dev Connect awaits! Reserve your seat in your favorite sessions today!&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 29 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/</guid><category>Application Development</category><category>Google Cloud Next</category><media:content height="540" url="https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_w.max-600x600.jpg" width="540"></media:content><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Dev Connect at Next ‘24: Master AI on Google Cloud with Firebase, Kaggle, Android, and more</title><description></description><image>https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Next_2024_w.max-600x600.jpg</image><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/google-cloud-next/dev-connect-at-next24/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Cameron Percy</name><title>Head of Developer Marketing, Google Cloud</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Vikas Anand</name><title>Director Product, Firebase</title><department></department><company></company></author></item><item><title>Cloud CISO Perspectives: Get ready for Next ‘24: What you need to know</title><link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-get-ready-for-next-24-what-you-need-to-know/</link><description>&lt;div class="block-paragraph"&gt;&lt;p data-block-key="eucpw"&gt;Welcome to the second Cloud CISO Perspectives for March 2024. Today, Brian Roddy, vice president of security product management, Google Cloud, talks about some of the important cybersecurity hot topics that will be driving our announcements at Google Cloud Next in April.&lt;/p&gt;&lt;p data-block-key="cfbf2"&gt;As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the &lt;a href="https://cloud.google.com/blog/products/identity-security/"&gt;Google Cloud blog&lt;/a&gt;. If you’re reading this on the website and you’d like to receive the email version, you can &lt;a href="https://go.chronicle.security/cloudciso-newsletter-signup" target="_blank"&gt;subscribe here&lt;/a&gt;.&lt;/p&gt;&lt;p data-block-key="79d8j"&gt;&lt;i&gt;--Phil Venables, VP, TI Security &amp;amp; CISO, Google Cloud&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-aside"&gt;&lt;dl&gt;
     &lt;dt&gt;aside_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;title&amp;#x27;, &amp;#x27;Get vital CISO Insights with Google Cloud&amp;#x27;), (&amp;#x27;body&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e240a887850&amp;gt;), (&amp;#x27;btn_text&amp;#x27;, &amp;#x27;Visit the hub&amp;#x27;), (&amp;#x27;href&amp;#x27;, &amp;#x27;https://cloud.google.com/solutions/security/leaders&amp;#x27;), (&amp;#x27;image&amp;#x27;, &amp;lt;GAEImage: GCAT-replacement-logo-A&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;title&amp;#x27;, &amp;#x27;Get vital CISO Insights with Google Cloud&amp;#x27;), (&amp;#x27;body&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e6cf91f25b0&amp;gt;), (&amp;#x27;btn_text&amp;#x27;, &amp;#x27;Visit the hub&amp;#x27;), (&amp;#x27;href&amp;#x27;, &amp;#x27;https://cloud.google.com/solutions/security/leaders&amp;#x27;), (&amp;#x27;image&amp;#x27;, &amp;lt;GAEImage: GCAT-replacement-logo-A&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph"&gt;&lt;h3 data-block-key="hswvv"&gt;&lt;b&gt;Get ready for Next ‘24: What you need to know&lt;/b&gt;&lt;/h3&gt;&lt;p data-block-key="7pue3"&gt;&lt;i&gt;By Brian Roddy, vice president of security product management, Google Cloud&lt;/i&gt;&lt;/p&gt;&lt;p data-block-key="1j1lu"&gt;We have entered the &lt;a href="https://cloud.google.com/blog/topics/systems/the-fifth-epoch-of-distributed-computing"&gt;fifth epoch of distributed computing&lt;/a&gt;, and it promises to revolutionize information technology and how we use it. More than a decade of work at Google has been put into building AI into our products and solutions, and the shift to generative AI represents an industry-wide acknowledgement of its potential.&lt;/p&gt;&lt;p data-block-key="904s9"&gt;Gen AI has the potential to tip the balance of security in favor of defenders, and we plan on revealing the next steps in the evolution of cybersecurity at Google Cloud Next, from April 9-11. &lt;a href="https://cloud.withgoogle.com/next?utm_source=cgc-blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;amp;utm_content=cgc-blog-session-launch-feb&amp;amp;utm_term=-&amp;amp;_ga=2.194274221.-1882690427.1708029791&amp;amp;_gl=1%2anf16ec%2a_ga%2aMTg4MjY5MDQyNy4xNzA4MDI5Nzkx%2a_ga_WH2QY8WWF5%2aMTcwODk2NzA4My4xOC4xLjE3MDg5NjgyODAuMC4wLjA." target="_blank"&gt;Tickets are still available to Next ‘24&lt;/a&gt;, where we’ll present our vision for the future of cloud — and the vital role that security plays within.&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_with_image"&gt;&lt;div class="article-module h-c-page"&gt;
@@ -148,7 +369,7 @@
 &lt;div class="block-paragraph"&gt;&lt;p data-block-key="zp1ti"&gt;Organizations need security partners like Google, who have &lt;a href="https://cloud.google.com/blog/transform/prepare-rsa-cybersecurity-snapshot-numbers"&gt;proven expertise, solutions, and extended support&lt;/a&gt;. Last year, we set out to create a &lt;a href="https://blog.google/technology/ai/why-we-focus-on-ai-and-to-what-end/" target="_blank"&gt;bold and responsible model&lt;/a&gt; for how gen AI could benefit cybersecurity with a positive impact on the security ecosystem. Our vision for AI in security &lt;a href="https://cloud.google.com/blog/transform/why-ai-can-new-tech-help-security-solve-toil-threat-overload-and-talent-gap"&gt;described the possibilities&lt;/a&gt;: How we could automate tasks to reduce toil, up-level talent, and mitigate threats.&lt;/p&gt;&lt;p data-block-key="57ojd"&gt;Our investments in key technologies, including threat intelligence, security operations, and risk management, drove our progress towards making strong security simple and accessible. We announced at the RSA Conference ‘23 in April our plan to &lt;a href="https://cloud.google.com/blog/products/identity-security/rsa-google-cloud-security-ai-workbench-generative-ai"&gt;supercharge security with gen AI&lt;/a&gt;, based on foundational AI research by &lt;a href="https://ai.google/research/" target="_blank"&gt;Google&lt;/a&gt; and &lt;a href="https://www.deepmind.com/research" target="_blank"&gt;DeepMind&lt;/a&gt;, and the deep expertise of our security teams. We built on that promise, and some of our most important announcements revealed our ongoing work towards that goal.&lt;/p&gt;&lt;p data-block-key="7jro6"&gt;At Next ‘23 in August, we shared additional &lt;a href="https://cloud.google.com/blog/products/identity-security/security-ai-next23"&gt;AI innovations in our security products&lt;/a&gt; and also expanded on our holistic approach to securing AI. This included the application of the principles of our &lt;a href="https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/" target="_blank"&gt;Secure AI Framework&lt;/a&gt; (SAIF): We explained why we believe that AI needs to be &lt;a href="https://cloud.google.com/blog/transform/prompt-findings-our-ai-red-teams-first-report-qa"&gt;tested by red teams&lt;/a&gt;, detailed practical considerations for &lt;a href="https://cloud.google.com/blog/transform/prompt-what-think-about-when-youre-thinking-about-securing-ai"&gt;securing AI&lt;/a&gt;, and went deep into the &lt;a href="https://cloud.google.com/blog/transform/from-turnkey-to-custom-tailor-your-ai-risk-governance-to-help-build-confidence"&gt;risk governance principles&lt;/a&gt; that can help steer AI towards a more beneficial future.&lt;/p&gt;&lt;p data-block-key="bqgs6"&gt;We knew that by focusing on building the right foundations, we would be able to provide products that prioritize security by design and are made to help raise the bar on security. Early user feedback showed that gen AI in Security Operations &lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/duet-ai-for-developers-and-in-security-operations-now-ga"&gt;helped reduce the time&lt;/a&gt; that security analysts spent writing, running, and refining searches and triaging complex cases by a factor of seven.&lt;/p&gt;&lt;p data-block-key="6k1qp"&gt;Of course, there’s a lot more work that our security teams did in the past year that I haven’t been able to discuss in depth here that nevertheless plays an important role. These topics include the news that we &lt;a href="https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps"&gt;stopped the largest DDoS attack ever recorded&lt;/a&gt; to date, &lt;a href="https://cloud.google.com/blog/products/identity-security/how-google-cloud-blocked-largest-layer-7-ddos-attack-at-46-million-rps"&gt;again&lt;/a&gt;; that we continue to invest in &lt;a href="https://cloud.google.com/blog/products/identity-security/how-european-organizations-are-innovating-with-google-sovereign-cloud-solutions"&gt;sovereign data and risk management solutions&lt;/a&gt;; and that we talked about why we &lt;a href="https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-why-ISACs-are-valuable-security-partners"&gt;partner with ISACs&lt;/a&gt; to improve communication across the community.&lt;/p&gt;&lt;p data-block-key="6luu7"&gt;Google Cloud’s technology and expertise ties together a trusted cloud foundation, a modern SecOps platform, and frontline intelligence and expertise, all infused with the power of gen AI to help drive the security outcomes you’re looking to achieve. I hope you’ll join us at Next ‘24 so you can get a front-row seat to see what we’ve been planning.&lt;/p&gt;&lt;p data-block-key="4ppbu"&gt;We’re looking forward to seeing you at Next ‘24. If you haven’t yet, you can &lt;a href="https://cloud.withgoogle.com/next?utm_source=cgc-blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=FY24-Q2-global-ENDM33-physicalevent-er-next-2024-mc&amp;amp;utm_content=cgc-blog-session-launch-feb&amp;amp;utm_term=-&amp;amp;_ga=2.194274221.-1882690427.1708029791&amp;amp;_gl=1%2anf16ec%2a_ga%2aMTg4MjY5MDQyNy4xNzA4MDI5Nzkx%2a_ga_WH2QY8WWF5%2aMTcwODk2NzA4My4xOC4xLjE3MDg5NjgyODAuMC4wLjA." target="_blank"&gt;register here&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-aside"&gt;&lt;dl&gt;
     &lt;dt&gt;aside_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;title&amp;#x27;, &amp;#x27;Join the Google Cloud CISO Community&amp;#x27;), (&amp;#x27;body&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e240a887eb0&amp;gt;), (&amp;#x27;btn_text&amp;#x27;, &amp;#x27;Learn more&amp;#x27;), (&amp;#x27;href&amp;#x27;, &amp;#x27;https://rsvp.withgoogle.com/events/ciso-community-interest?utm_source=cgc-blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=2024-cloud-ciso-newsletter-events-ref&amp;amp;utm_content=-&amp;amp;utm_term=-&amp;#x27;), (&amp;#x27;image&amp;#x27;, &amp;lt;GAEImage: GCAT-replacement-logo-A&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;title&amp;#x27;, &amp;#x27;Join the Google Cloud CISO Community&amp;#x27;), (&amp;#x27;body&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e6ce61bd310&amp;gt;), (&amp;#x27;btn_text&amp;#x27;, &amp;#x27;Learn more&amp;#x27;), (&amp;#x27;href&amp;#x27;, &amp;#x27;https://rsvp.withgoogle.com/events/ciso-community-interest?utm_source=cgc-blog&amp;amp;utm_medium=blog&amp;amp;utm_campaign=2024-cloud-ciso-newsletter-events-ref&amp;amp;utm_content=-&amp;amp;utm_term=-&amp;#x27;), (&amp;#x27;image&amp;#x27;, &amp;lt;GAEImage: GCAT-replacement-logo-A&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph"&gt;&lt;h3 data-block-key="4bd61"&gt;&lt;b&gt;In case you missed it&lt;/b&gt;&lt;/h3&gt;&lt;p data-block-key="8hq4u"&gt;Here are the latest updates, products, services, and resources from our security teams so far this month:&lt;/p&gt;&lt;ul&gt;&lt;li data-block-key="8bnup"&gt;&lt;b&gt;Introducing Threat Intelligence news from Google Cloud&lt;/b&gt;: Google Cloud is excited to announce the launch of a new blog channel: Threat Intelligence, featuring in-depth threat research and guidance from Mandiant and Google Cloud experts on the frontlines of the latest cyberattacks. It also features indicators, detections, rules, and more that defenders can use to help proactively protect their organizations. &lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="70i1c"&gt;&lt;b&gt;To securely deploy AI on Google Cloud, follow these best practices&lt;/b&gt;: As part of a new Google Cloud report on securely deploying AI, we’ve put together a checklist to help organizations achieve a strong security posture for their AI deployments. &lt;a href="https://cloud.google.com/blog/transform/to-securely-build-ai-on-google-cloud-follow-these-best-practices-infographic/"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="e01fq"&gt;&lt;b&gt;Leading through change: 5 steps for executives on the cloud transformation path&lt;/b&gt;: Google Cloud experts and our customers say that they become even more successful when cybersecurity becomes everyone’s responsibility. Here’s 5 ways to make that happen. &lt;a href="https://cloud.google.com/transform/leading-through-change-5-steps-for-executives-on-the-cloud-transformation-path/"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="dehca"&gt;&lt;b&gt;Secure by default: How to set compliance controls for your Google Cloud Organization&lt;/b&gt;: Assured Workloads can help you ensure comprehensive data protection and regulatory compliance with folders that support your compliance requirements. Here’s how. &lt;a href="https://cloud.google.com/blog/products/identity-security/how-to-set-compliance-controls-for-your-google-cloud-organization"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="evhln"&gt;&lt;b&gt;Making it easier to protect data in Cloud SQL&lt;/b&gt;: Discover sensitive data and manage risks with Sensitive Data Protection for Cloud SQL. Here’s what’s new. &lt;a href="https://cloud.google.com/blog/products/identity-security/expanding-sensitive-data-protection-to-make-it-easier-to-protect-data-in-cloud-sql"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="2tkle"&gt;&lt;b&gt;Introducing stronger default Org Policies for our customers&lt;/b&gt;: We’ve released an updated and stronger set of security defaults implemented with Organizational Policies. &lt;a href="https://cloud.google.com/blog/products/identity-security/introducing-stronger-default-org-policies-for-our-customers"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="dq73o"&gt;&lt;b&gt;How Commerzbank safeguards its data with VPC Service Controls&lt;/b&gt;: Commerzbank explains how VPC Service Controls have helped them keep their sensitive data secure while using built-in Google Cloud storage and data processing capabilities. &lt;a href="https://cloud.google.com/blog/topics/customers/how-commerzbank-safeguards-its-data-with-vpc-service-controls"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="215mv"&gt;&lt;b&gt;Securing Ray on Google Kubernetes Engine&lt;/b&gt;: Running Ray on GKE takes advantage of existing global Google infrastructure components like Identity-Aware Proxy (IAP), for a more secure deployment. &lt;a href="https://cloud.google.com/blog/products/containers-kubernetes/securing-ray-to-run-on-google-kubernetes-engine"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="9qo9f"&gt;&lt;b&gt;Improving resilience to DDoS attacks with Cloud Armor Advanced rate limiting capabilities&lt;/b&gt;: As the threat landscape evolves, you can use Google Cloud Armor to build a comprehensive DDoS mitigation strategy. Here’s how. &lt;a href="https://cloud.google.com/blog/products/identity-security/how-to-improve-resilience-to-ddos-attacks-with-cloud-armor-advanced-rate-limiting-capabilities"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="e85uo"&gt;&lt;b&gt;How to choose a known, trusted supplier for open source software&lt;/b&gt;: With an increasing focus on managing open-source software supply chain risk, both Citi and Google strive to apply more rigor across risk mitigation. Here’s what we’ve learned. &lt;a href="https://cloud.google.com/blog/products/identity-security/how-to-choose-a-known-trusted-supplier-for-open-source-software"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
 &lt;div class="block-paragraph"&gt;&lt;h3 data-block-key="29tyz"&gt;&lt;b&gt;Threat Intelligence news&lt;/b&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li data-block-key="63li5"&gt;&lt;b&gt;APT29 uses WINELOADER to target German political parties&lt;/b&gt;: In late February, APT29 used a new backdoor variant publicly tracked as WINELOADER to target German political parties, the first time Mandiant has seen this APT29 cluster has done so. This activity presents a broad threat to European and other Western political parties. &lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/apt29-wineloader-german-political-parties"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;li data-block-key="2578l"&gt;&lt;b&gt;Bringing access back — Initial Access Brokers exploit F5 BIG-IP and ScreenConnect&lt;/b&gt;: During the course of an intrusion investigation in late October 2023, Mandiant observed a novel exploitation of a vulnerability affecting F5 BIG-IP Traffic Management User Interface. This February, we observed exploitation of Connectwise ScreenConnect by the same actor. This mix of custom tooling and the SUPERSHELL framework used in these incidents is assessed with moderate confidence to be unique to a People's Republic of China (PRC) threat actor, UNC5174. &lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect"&gt;&lt;b&gt;Read more&lt;/b&gt;&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
@@ -1246,7 +1467,7 @@ Culture=neutral, PublicKeyToken=null" /&amp;gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Lets see this in action:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;with beam.Pipeline() as p:\r\n  output = (p\r\n            | &amp;quot;Read from PubSub&amp;quot; &amp;gt;&amp;gt; beam.io.ReadFromPubSub(subscription=SUBSCRIPTION)\r\n            | &amp;quot;Convert bytes to Row&amp;quot;  &amp;gt;&amp;gt; beam.ParDo(DecodeBytes())\r\n            | &amp;quot;Enrichment&amp;quot; &amp;gt;&amp;gt; Enrichment(bigtable_handler)\r\n            | &amp;quot;Run Inference&amp;quot; &amp;gt;&amp;gt; RunInference(model_handler)\r\n            )&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e2409dc4880&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;with beam.Pipeline() as p:\r\n  output = (p\r\n            | &amp;quot;Read from PubSub&amp;quot; &amp;gt;&amp;gt; beam.io.ReadFromPubSub(subscription=SUBSCRIPTION)\r\n            | &amp;quot;Convert bytes to Row&amp;quot;  &amp;gt;&amp;gt; beam.ParDo(DecodeBytes())\r\n            | &amp;quot;Enrichment&amp;quot; &amp;gt;&amp;gt; Enrichment(bigtable_handler)\r\n            | &amp;quot;Run Inference&amp;quot; &amp;gt;&amp;gt; RunInference(model_handler)\r\n            )&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e6cf632e3a0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The above code runs a Dataflow job that reads from a Pub/Sub subscription and performs data enrichment by doing a key-value lookup with Bigtable cluster. The enriched data is then fed to the machine learning model for RunInference. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The pictures below illustrate how Dataflow and Bigtable work in harmony to scale correctly based on the load. When the job starts, the Dataflow runner starts with one worker while the Bigtable cluster has three nodes and autoscaling enabled for Dataflow and Bigtable. We observe a spike in the input load for Dataflow at around 5:21 PM that leads it to scale to 40 workers.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
@@ -2127,725 +2348,4 @@ Culture=neutral, PublicKeyToken=null" /&amp;gt;
 &lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
 &lt;p role="presentation"&gt;&lt;a href="https://doi.org/10.48550/arXiv.2310.08247" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Leveraging DevOps for Scientific Computing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;</description><pubDate>Fri, 22 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/</guid><category>DevOps &amp; SRE</category><category>Containers &amp; Kubernetes</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Using GKE and applying DevOps principles for scientific research at Stanford</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Paul Nuyujukian</name><title>Departments of Bioengineering, Neurosurgery, and Electrical Engineering, Stanford University</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Volker Eyrich</name><title>Practice Lead, Google Cloud</title><department></department><company></company></author></item><item><title>Introducing Cloud Run volume mounts: connect your app to Cloud Storage or NFS</title><link>https://cloud.google.com/blog/products/serverless/introducing-cloud-run-volume-mounts/</link><description>&lt;div class="block-paragraph"&gt;&lt;p data-block-key="vdaxa"&gt;We’ve built Cloud Run, a fully managed container platform, directly on top of Google’s scalable infrastructure to simplify developers’ lives and make it easier to build cloud-native applications.&lt;/p&gt;&lt;p data-block-key="4g466"&gt;As it stands, each Cloud Run instance has access to its own local file system. But what if you have an existing application that expects to access &lt;b&gt;shared&lt;/b&gt; data stored in a local file system? Without a straightforward way to mount storage systems like file servers or Cloud Storage buckets, developers had to use complex solutions or look to other services. Today, we’re excited to launch a new feature in preview: volume mounts.&lt;/p&gt;&lt;p data-block-key="c3l6u"&gt;With volume mounts, mounting a volume in a Cloud Run service or job is a single command. You can mount a Cloud Storage bucket or an NFS share, like a Cloud Filestore instance. This allows your container to seamlessly access the storage bucket or file server content as if the files were local, utilizing file system semantics for a familiar experience.&lt;/p&gt;&lt;p data-block-key="bnqv2"&gt;You can mount a Cloud Storage bucket by updating your Cloud Run service with the following command (you can find more details and instructions in the Try it out section below):&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gcloud beta run services update [SERVICE_NAME] \\\r\n--execution-environment gen2 \\ \r\n--add-volume=name=v_mount,type=cloud-storage,bucket=[YOUR_BUCKET_NAME]  \\\r\n--add-volume-mount=volume=v_mount,mount-path=[MOUNT_PATH]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e2409cc5d60&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Volume mounts come in handy in a number of situations. &lt;/span&gt;&lt;/p&gt;
-&lt;h3 role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;1. Store app configuration&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Let's consider a scenario where you need to add config files to your service. When applications launch, they often need to gather information about their environment and load initial settings to determine their behavior.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the past, we’ve seen customers use &lt;/span&gt;&lt;a href="https://cloud.google.com/security/products/secret-manager"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Secret Manager&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to store and mount this information, but for configuration data that doesn’t need to be kept secret, Cloud Storage is a more straightforward solution. Simply put all your configuration into a file in your preferred format, upload the file to a Cloud Storage bucket, and mount the bucket in your Cloud Run service or job at the required path. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Since Cloud Run supports pulling public container images from Docker Hub directly, mounting your own config files to customize official images (like Grafana or Nginx) becomes very convenient. There's no need to build, add your config files and host your own container image. Just deploy an official container image from Docker Hub directly, store your config files in a Cloud Storage bucket and mount them where they are expected.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Store_app_configuration.max-1000x1000.png"
-        
-          alt="1 - Store app configuration"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h3 role="presentation"&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;2. &lt;/span&gt;&lt;/strong&gt;&lt;strong style="vertical-align: baseline;"&gt;Event-driven Cloud Storage handlers&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Many applications are built using an event-driven design pattern. A common use case is executing custom code based on a new file being uploaded to a Cloud Storage bucket. &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/eventarc-unified-eventing-experience-google-cloud"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;EventArc&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is a great tool to listen to such events and to trigger a Cloud Run service directly. It forwards all relevant event metadata, including the file name and location — but not the file itself. Until now, to retrieve and process the file, you needed to use the Cloud Storage client SDK to explicitly retrieve it. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With volume mounts you can now mount the relevant bucket directly. This allows you to access the file directly via the filesystem, eliminating the need for custom code to fetch it.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2-_Event-driven_Cloud_Storage_handlers.max-1000x1000.png"
-        
-          alt="2- Event-driven Cloud Storage handlers"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h3 role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;3. Load a vector database file&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If you have your Langchain application deployed on Cloud Run, you may need a vector database, like &lt;/span&gt;&lt;a href="https://www.trychroma.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;ChromaDB&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. Because the indexed documents are constantly changing, mounting an NFS storage is a great way to keep your service stateless and externalize your ChromaDB collection from the container — all while having a dedicated ingestion pipeline for new documents outside your service. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Persisted ChromaDB collections can grow large quickly, so Cloud Filestore is a fast option to access them from all your Cloud Run application instances.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/3_-_Load_a_vector_database.max-1000x1000.png"
-        
-          alt="3 - Load a vector database"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h3 role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;4. Serve a static website&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For simple public-facing file hosting, you could directly use Cloud Storage’s &lt;/span&gt;&lt;a href="https://cloud.google.com/storage/docs/hosting-static-website"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;static website hosting feature&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. However, if you need private networking features or a simple login experience via &lt;/span&gt;&lt;a href="https://cloud.google.com/security/products/iap?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Identity-Aware Proxy (IAP)&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, Cloud Run is an excellent choice. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Previously, you had to copy all the static files into your container image to host and serve them from there. However, that required you to rebuild the image and then redeploy your service every time you changed the static content. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With volume mounts, you can now use a standard NGINX web server and serve your files from a mounted Cloud Storage bucket. Cloud Run accesses your files using standard file system semantics, so you can use the official, publicly hosted NGINX container image from DockerHub directly. You can now modify your static assets or add new ones as needed, with all changes taking effect for your Cloud Run service promptly and without downtime. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This setup provides access to all the valuable ingress features, including IAP, while retaining the flexibility of storing your files in a Cloud Storage bucket.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/4_-_Serve_a_static_website.max-1000x1000.png"
-        
-          alt="4 - Serve a static website"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To run a simple web server that serves files from your Cloud Storage bucket, deploy the official NGINX image from Docker Hub and mount the bucket to the directory where NGINX expects to find static content: '/usr/share/nginx/html'. You can do this with a single command: &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;gcloud beta run deploy --image nginx [SERVICE_NAME] \\\r\n--execution-environment gen2 --port 80 \\\r\n--add-volume=name=html-volume,type=cloud-storage,bucket=[YOUR_BUCKET_NAME],readonly=true \\\r\n--add-volume-mount=volume=html-volume,mount-path=&amp;#x27;/usr/share/nginx/html&amp;#x27;&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e2409cc5c70&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As a last step, be sure to set up content caching, either through &lt;/span&gt;&lt;a href="https://docs.nginx.com/nginx/admin-guide/content-cache/content-caching/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;NGINX content caching&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; or Cloud CDN. Without caching, each request triggers a Cloud Storage get request, which can lead to increased costs as well as unnecessary latency for your users.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Try it out&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can mount a Cloud Storage bucket or any NFS file share by &lt;/span&gt;&lt;a href="https://cloud.google.com/run/docs/configuring/services/cloud-storage-volume-mounts#mount-volume#command-line"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;using a gcloud command&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://cloud.google.com/run/docs/configuring/services/cloud-storage-volume-mounts#yaml"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;updating the Cloud Run YAML resource definition&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; or by deploying via &lt;/span&gt;&lt;a href="https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/cloud_run_v2_service#example-usage---cloudrunv2-service-mount-nfs" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Terraform&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;For example, you can perform a source-based deployment to a new Cloud Run job and mount a Cloud Storage bucket with the following command:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gcloud beta run jobs deploy [SERVICE_NAME] --source \\\r\n--execution-environment gen2 \\\r\n--add-volume=name=[VOLUME_NAME],type=cloud-storage,bucket=[BUCKET_NAME] \\ \r\n--add-volume-mount=volume=[VOLUME_NAME],mount-path=[MOUNT_PATH]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e2409cc55b0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Similarly, you can mount any NFS file share as a volume in Cloud Run. If you don’t already have an NFS server, we recommend using Cloud Filestore, Google Cloud’s fully managed NFS offering. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For more information and to get started, take a look at our documentation:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Mount a Cloud Storage bucket in a &lt;/span&gt;&lt;a href="https://cloud.google.com/run/docs/configuring/services/cloud-storage-volume-mounts"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;service&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; or &lt;/span&gt;&lt;a href="https://cloud.google.com/run/docs/configuring/jobs/cloud-storage-volume-mounts"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;job&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Mount an NFS volume in a &lt;/span&gt;&lt;a href="http://cloud.google.com/run/docs/configuring/services/nfs-volume-mounts"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;service&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; or &lt;/span&gt;&lt;a href="http://cloud.google.com/run/docs/configuring/jobs/nfs-volume-mounts"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;job&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We’re excited about how easy volume mounts in Cloud Run make it to access data, port existing applications, and even to configure some pre-built container images. Try this feature in preview today.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 22 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/serverless/introducing-cloud-run-volume-mounts/</guid><category>Storage &amp; Data Transfer</category><category>Application Modernization</category><category>Serverless</category><media:content height="540" url="https://storage.googleapis.com/gweb-cloudblog-publish/images/multicloud_2022_uvaqaSe.max-600x600.jpg" width="540"></media:content><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Introducing Cloud Run volume mounts: connect your app to Cloud Storage or NFS</title><description></description><image>https://storage.googleapis.com/gweb-cloudblog-publish/images/multicloud_2022_uvaqaSe.max-600x600.jpg</image><site_name>Google</site_name><url>https://cloud.google.com/blog/products/serverless/introducing-cloud-run-volume-mounts/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Christoph Stanger</name><title>Strategic Cloud Engineer</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Karolína Netolická</name><title>Product Manager</title><department></department><company></company></author></item><item><title>Rocky Linux 8 and CentOS 7 versions of HPC VM image now generally available</title><link>https://cloud.google.com/blog/topics/hpc/ga-rocky-linux-8-and-centos-7-versions-of-hpc-vm-image/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Today we’re excited to announce the general availability of Rocky Linux 8-based and CentOS 7-based HPC Virtual Machine (VM) images for high-performance computing (HPC) workloads, with a focus on tightly-coupled workloads, such as weather forecasting, fluid dynamics, and molecular modeling.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With the &lt;/span&gt;&lt;a href="https://cloud.google.com/compute/docs/instances/create-hpc-vm"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;HPC VM image&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, we have made it easy to build an HPC-ready VM instance, incorporating our &lt;/span&gt;&lt;a href="https://cloud.google.com/solutions/hpc?hl=en#section-7"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;best practices running HPC on Google Cloud&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, including:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;VMs ready for HPC out-of-the-box&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; - No need to manually tune performance, manage VM reboots, or stay up to date with the latest Google Cloud updates for tightly-coupled HPC workloads, especially with our regular HPC VM image releases. Reboots will be automatically triggered when tunings require them and this process will be managed for you by the HPC VM image. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Networking optimizations for tightly-coupled workloads&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; - Optimizations that reduce latency for small messages are included, which benefits applications that are heavily dependent on point-to-point and collective communications.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Compute optimizations &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;- Optimizations that reduce system jitter are included, which makes single-node performance consistent, important to improving scalability.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Improved application compatibility&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; - Alignment with the node-level requirements of the Intel HPC platform specification enables a high degree of interoperability between systems.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Performance measurement using HPC benchmarks&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We have compared the performance of the HPC VM images against the default CentOS 7 and GCP-optimized Rocky Linux 8 images across Intel MPI Benchmarks (IMB).&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The benchmarks were run against the following images.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;HPC Rocky Linux 8&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Image name: hpc-rocky-linux-8-v20240126&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Image project: cloud-hpc-image-public&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Default GCP Rocky Linux 8&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Image name: rocky-linux-8-optimized-gcp-v20240111&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Image project: rocky-linux-cloud&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Each cluster of machines was deployed with compact placement with &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;max_distance=1&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt;, meaning all VMs were placed on hardware that were physically on the same rack to minimize network latency.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Intel MPI Benchmark (IMB) Ping-Pong&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;IMB Ping-Pong measures the latency when transferring a fixed-sized message between two ranks on different VMs. We saw up to a 15% improvement when using the HPC Rocky Linux 8 image compared to the default GCP Rocky Linux 8 image.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Benchmark setup&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;2 x h3-standard-88&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI library: Intel OneAPI MPI library 2021.11.0&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI benchmarks application: Intel MPI Benchmarks 2019 Update 6&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI environment variables:&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;ul&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;I_MPI_PIN_PROCESSOR_LIST=0&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;I_MPI_FABRICS=shm:ofi&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;FI_PROVIDER=tcp&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Command line: mpirun -n 2 -ppn 1 -bind-to core -hostfile &amp;lt;hostfile&amp;gt; IMB-MPI1 Pingpong -msglog 0:16 -iter 50000&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Results&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_X6ust7I.max-1000x1000.png"
-        
-          alt="1"&gt;
-        
-        &lt;/a&gt;
-      
-        &lt;figcaption class="article-image__caption "&gt;&lt;p data-block-key="usmts"&gt;Pingpong 1 PPN - Rocky Linux 8 (lower is better)&lt;/p&gt;&lt;/figcaption&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Intel MPI Benchmark (IMB) AllReduce - 1 process per node&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The IMB AllReduce benchmark measures the collective latency among multiple ranks across VMs. It reduces a vector of a fixed length with the MPI_SUM operation.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To isolate networking performance, we initially show 1 PPN (process-per-node) results (1 MPI rank) on 8 VMs.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We saw an improvement of up to 35% when comparing the HPC Rocky Linux 8 image to the default GCP Rocky Linux 8 image.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Benchmark setup&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;8 x h3-standard-88&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;1 process per node&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI library: Intel OneAPI MPI library 2021.11.0&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI benchmarks application: Intel MPI Benchmarks 2019 Update 6&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI environment variables:&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;ul&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;I_MPI_FABRICS=shm:ofi&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;FI_PROVIDER=tcp&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;I_MPI_ADJUST_ALLREDUCE=11&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Command line: mpirun -n 008 -ppn 01 -bind-to core -hostfile &amp;lt;hostfile&amp;gt; IMB-MPI1 Allreduce -msglog 0:16 -iter 50000 -npmin 008&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Results&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2_b9MR5jY.max-1000x1000.png"
-        
-          alt="2"&gt;
-        
-        &lt;/a&gt;
-      
-        &lt;figcaption class="article-image__caption "&gt;&lt;p data-block-key="usmts"&gt;Allreduce 1 PPN - Rocky Linux 8 (lower is better)&lt;/p&gt;&lt;/figcaption&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Intel MPI Benchmark (IMB) AllReduce - 1 process per core (88 processes per node)&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We show 88 PPN results where there are 88 MPI ranks/node and 1 thread/rank (704 ranks).&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For this test, we saw an improvement of up to 25% when comparing the HPC Rocky Linux 8 image to the default GCP Rocky Linux 8 image.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Benchmark setup&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;8 x h3-standard-88&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;1 process per core (88 processes per node)&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI library: Intel OneAPI MPI library 2021.11.0&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI benchmarks application: Intel MPI Benchmarks 2019 Update 6&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;MPI environment variables:&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;ul&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;I_MPI_FABRICS=shm:ofi&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;FI_PROVIDER=tcp&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="2" style="list-style-type: circle; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;I_MPI_ADJUST_ALLREDUCE=11&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Command line: mpirun -n 704 -ppn 88 -bind-to core -hostfile &amp;lt;hostfile&amp;gt; IMB-MPI1 Allreduce -msglog 0:16 -iter 50000 -npmin 704&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Results&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/3_IOxuhIk.max-1000x1000.png"
-        
-          alt="3"&gt;
-        
-        &lt;/a&gt;
-      
-        &lt;figcaption class="article-image__caption "&gt;&lt;p data-block-key="usmts"&gt;Allreduce 88 PPN - Rocky Linux 8 (lower is better)&lt;/p&gt;&lt;/figcaption&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The latency, bandwidth, and jitter improvements in the HPC VM Image have resulted in &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/hpc/introducing-hpc-vm-images"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;historically higher MPI workload performance&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. We plan to update this blog as more performance results become available.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Cloud HPC Toolkit and the HPC VM image&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can use the HPC VM image through the &lt;/span&gt;&lt;a href="https://cloud.google.com/hpc-toolkit/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud HPC Toolkit&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, an open-source tool that simplifies the process of deploying environments for a variety of workloads, including HPC, AI, and machine learning. In fact, the Toolkit blueprints and Slurm images based on Rocky Linux 8 and CentOS 7 use the HPC VM image by default. Using the Cloud HPC Toolkit, you can add customization on top of the HPC VM image, including installing new software and changing configurations, making it even more useful. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By using the Cloud HPC Toolkit to customize images based on the HPC VM Image, it is possible to create and share blueprints for producing optimized and specialized images, improving reproducibility while reducing setup time and effort.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;How to get started&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can create an HPC-ready VM by using the following options:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li role="presentation"&gt;&lt;a href="https://cloud.google.com/hpc-toolkit/docs/overview#:~:text=Cloud%20HPC%20Toolkit%20is%20open,performance%20computing%20(HPC)%20environments."&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud HPC Toolkit&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;a href="https://cloud.google.com/compute/docs/gcloud-compute"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud CLI&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;a href="https://console.cloud.google.com"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud console&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; - Note: the image is available through &lt;/span&gt;&lt;a href="https://pantheon.corp.google.com/marketplace/product/click-to-deploy-images/hpc-vm-image-rocky-linux-8" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud Marketplace&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; in the console.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;a href="https://cloud.google.com/blog/topics/hpc/introducing-the-latest-slurm-on-gcp-scripts"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;SchedMD's Slurm workload manager&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, which uses the HPC VM image by default. For more information, see &lt;/span&gt;&lt;a href="https://pantheon.corp.google.com/marketplace/product/click-to-deploy-images/hpc-vm-image-rocky-linux-8?mods=logs_tg_prod&amp;amp;project=cloud-hpc-image-devel" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Creating Intel Select Solution verified clusters&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;a href="https://gcp.cloudycluster.com/" rel="noopener" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Omnibond CloudyCluster&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, which uses the HPC VM image by default.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><pubDate>Fri, 22 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/hpc/ga-rocky-linux-8-and-centos-7-versions-of-hpc-vm-image/</guid><category>Compute</category><category>HPC</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Rocky Linux 8 and CentOS 7 versions of HPC VM image now generally available</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/hpc/ga-rocky-linux-8-and-centos-7-versions-of-hpc-vm-image/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Rohit Ramu</name><title>Software Engineer, Cloud HPC</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Annie Ma-Weaver</name><title>Group Product Manager, Google Cloud HPC</title><department></department><company></company></author></item><item><title>Unlock cloud savings with new Looker Studio Dashboard and Terraform scripts</title><link>https://cloud.google.com/blog/topics/cost-management/manage-cloud-costs-with-new-oss-recommendations-dashboard/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud spending can be a big concern for financial operations (FinOps) teams. Google Cloud’s &lt;/span&gt;&lt;a href="https://cloud.google.com/solutions/active-assist"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Active Assist&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; tooling can help, generating cost savings recommendations for optimizing Google Cloud resources. Then there are tools like &lt;/span&gt;&lt;a href="https://cloud.google.com/recommender/docs/quickstart-recommendation-hub"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Recommendation Hub&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://cloud.google.com/billing/docs/how-to/finops-hub"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;FinOps Hub&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, which offer consolidated views into recommendations for project owners and billing administrators. These tools are a big step forward in making recommendations more actionable and accessible for teams. However, using them requires granting higher permissions in the console — something that could give more access than security teams are comfortable with. Also, some organizations require more flexibility to tailor the views and reports using information stored in customer-persisted labels or tags. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To make these views easier to develop, we are pleased to announce an OSS Recommendations Dashboard, a Looker Studio dashboard powered by &lt;/span&gt;&lt;a href="https://github.com/GoogleCloudPlatform/active-assist/tree/main/recommendations-dashboard" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;open-source infrastructure scripts&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The main goal of the dashboard is to pinpoint savings opportunities organization-wide, and to enable default dashboards with filters for folders and projects, helping users focus on key savings areas. This setup simplifies team collaboration and allows organizations to take advantage of potential savings. Additionally, these filters let you customize dashboards for your unique organizational requirements.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_vzk5oz0.max-1000x1000.png"
-        
-          alt="1"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This release of the OSS Recommendations Dashboard focuses on four primary features:&lt;/span&gt;&lt;/p&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;1. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Visibility across the organization&lt;br/&gt;&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Understanding the challenge administrators face in overseeing numerous projects, the dashboard offers a comprehensive view that encapsulates all savings opportunities throughout the organization. &lt;/span&gt;&lt;/p&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;2.&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt; Built-in filters for folders and projects&lt;br/&gt;&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;By highlighting the organizational structure, built-in filters facilitate easier interaction with relevant teams, making it easier to identify and act upon savings opportunities.&lt;/span&gt;&lt;/p&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;3. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Looker Studio for extendability&lt;br/&gt;&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Building on Looker Studio delivers  customizable analytics and reporting tools so that administrators can tailor their dashboard to meet their unique needs.&lt;/span&gt;&lt;/p&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;4. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Gamification&lt;br/&gt;&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Gamification elements help to enhance user engagement and motivation, making routine project management a more interactive and rewarding experience.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The OSS Recommendations Dashboard also includes a week-by-week line chart that  showcases projects that have successfully reduced their number of recommendations, and grouping recommendations by projects and folders is another feature that simplifies things for FinOps teams. The tool also ensures easy information access by allowing users to share dashboards and relevant data to a wider audience without having to navigate through excessive permissions.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2_XWIkkf0.max-1000x1000.png"
-        
-          alt="2"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Architecturally, the OSS Recommendations Dashboard is built on Google Cloud and integrated with Active Assist. The solution taps into a mix of tools:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud Scheduler&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud Workflows&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud Asset Inventory&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Active Assist Recommendations&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Looker Studio&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Terraform&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/3_LmDSXUf.max-1000x1000.png"
-        
-          alt="3"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud Asset Inventory and Active Assist Recommendations are the dashboard’s foundational data sources. Cloud Scheduler and Workflows serve as the orchestration mechanisms, ensuring timely and consistent extraction of data into BigQuery. BigQuery manages and processes this data, setting the stage for Looker Studio to present and visualize these insights. To streamline the deployment process, we've encapsulated this design within a convenient Terraform module. For more on deploying this solution, refer to this &lt;/span&gt;&lt;a href="https://github.com/GoogleCloudPlatform/active-assist/tree/main/recommendations-dashboard" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;guide&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Google Cloud's Active Assist can help you optimize your cloud resource operations. Combined with the OSS Recommendations Dashboard can have a profound impact on  your FinOps team. By providing project-level visibility and an organization-wide perspective, the OSS Recommendations Dashboard helps FinOps teams have better control over cloud spending. Moreover, because it’s built on Terraform, you can implement this solution promptly, to start getting visibility into your cloud spending fast.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If you’re eager for more insight into your Google Cloud spending and want to optimize your resources, the OSS Recommendations Dashboard provides not just clarity, but actionable intelligence. &lt;/span&gt;&lt;a href="https://github.com/GoogleCloudPlatform/active-assist/tree/main/recommendations-dashboard" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Dive in&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, explore, and let your organization bask in the newfound savings!&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 22 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/cost-management/manage-cloud-costs-with-new-oss-recommendations-dashboard/</guid><category>Business Intelligence</category><category>Cost Management</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Unlock cloud savings with new Looker Studio Dashboard and Terraform scripts</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/cost-management/manage-cloud-costs-with-new-oss-recommendations-dashboard/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Ben Good</name><title>Solutions Architect</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Garron “Crash” Haun</name><title>Solutions Engineer</title><department></department><company></company></author></item><item><title>Take control of GKE scaling with new quota monitoring</title><link>https://cloud.google.com/blog/products/containers-kubernetes/gke-gets-new-quota-monitoring-feature/</link><description>&lt;div class="block-paragraph"&gt;&lt;p data-block-key="be2h4"&gt;Managing the growth of your Kubernetes clusters within Google Kubernetes Engine (GKE) just got easier. We've recently introduced the ability to directly monitor and set alerts for crucial scalability limits, providing you with deeper insight and control over your Kubernetes environment.&lt;/p&gt;&lt;p data-block-key="2d322"&gt;Effective scalability management is essential for avoiding outages and optimizing resource usage in Kubernetes. These new monitoring features bring you:&lt;/p&gt;&lt;ul&gt;&lt;li data-block-key="16b1c"&gt;&lt;b&gt;Peace of mind&lt;/b&gt;: Potential capacity issues can be proactively addressed before they cause problems, ensuring uninterrupted operations.&lt;/li&gt;&lt;li data-block-key="asb61"&gt;&lt;b&gt;Clearer understanding&lt;/b&gt;: Gain a deeper insight into your clusters’ architectural constraints, allowing for informed decision-making.&lt;/li&gt;&lt;li data-block-key="9t69g"&gt;&lt;b&gt;Optimization opportunities&lt;/b&gt;: Analyze usage trends and identify ways to fine-tune your cluster configurations for optimal resource utilization.&lt;/li&gt;&lt;/ul&gt;&lt;p data-block-key="5r9lq"&gt;Here are the specific limits you can now keep track of:&lt;/p&gt;&lt;ul&gt;&lt;li data-block-key="4bk99"&gt;&lt;b&gt;Etcd database size (GiB)&lt;/b&gt;: Understand how much space your Kubernetes cluster state is consuming.&lt;/li&gt;&lt;li data-block-key="3j7ek"&gt;&lt;b&gt;Nodes per cluster&lt;/b&gt;: Get proactive alerts on your cluster's overall node capacity.&lt;/li&gt;&lt;li data-block-key="9jr79"&gt;&lt;b&gt;Nodes per node pool (all zones)&lt;/b&gt;: Manage node distribution and limits across specific node pools.&lt;/li&gt;&lt;li data-block-key="ba8jk"&gt;&lt;b&gt;Pods per cluster (GKE Standard / GKE Autopilot)&lt;/b&gt;: Ensure you have the pod capacity to support your applications.&lt;/li&gt;&lt;li data-block-key="976cu"&gt;&lt;b&gt;Containers per cluster (GKE Standard / GKE Autopilot)&lt;/b&gt;: Prevent issues by understanding the maximum number of containers your cluster can support.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/screenshot1.max-1000x1000.png"
-        
-          alt="screenshot1"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph"&gt;&lt;h3 data-block-key="be2h4"&gt;&lt;b&gt;Get started&lt;/b&gt;&lt;/h3&gt;&lt;p data-block-key="5jgrd"&gt;You'll find these new quota monitoring and alerting features directly within the Google Cloud console. To get there, you can use the &lt;a href="https://console.cloud.google.com/iam-admin/quotas?service=container.googleapis.com"&gt;link&lt;/a&gt; to a pre-filtered list of GKE quotas or navigate to the Quotas page under the IAM &amp;amp; Admin section in the console and then filter by the Kubernetes Engine API service. To search for a specific quota, use the Filter table. You can filter by the exact quota name, location, cluster name, or node pool (where applicable). You can also create alerts for a specific quota by following the &lt;a href="https://cloud.google.com/docs/quotas/monitor#quota_alerts"&gt;guide&lt;/a&gt;. Alerts can be configured to notify you when a quota is approaching or has exceeded its limit.&lt;/p&gt;&lt;p data-block-key="8p41a"&gt;By using the Cloud Monitoring API and console you can monitor GKE quota usage in greater depth. The API allows you to programmatically access quota metrics and create custom dashboards and alerts. The console provides a graphical interface for monitoring quota usage and creating alerts. Custom dashboards can be created to visualize quota usage over time. Alerts can be configured to notify you when quota usage reaches a certain threshold. This can help you proactively manage your quotas and avoid unexpected outages. See the &lt;a href="https://cloud.google.com/docs/quotas/monitor#cloud-monitoring"&gt;guide&lt;/a&gt; for more details.&lt;/p&gt;&lt;p data-block-key="86heg"&gt;Need more information? Explore the official Google Cloud documentation for more in-depth guidance:&lt;/p&gt;&lt;ul&gt;&lt;li data-block-key="9j4q3"&gt;Understanding GKE Quotas and Limits: &lt;a href="https://cloud.google.com/kubernetes-engine/quotas"&gt;Quotas and limits | Google Kubernetes Engine (GKE)&lt;/a&gt;&lt;/li&gt;&lt;li data-block-key="euc6"&gt;Best practices planning and designing large-size clusters: &lt;a href="https://cloud.google.com/kubernetes-engine/docs/concepts/planning-large-clusters"&gt;Plan for large GKE clusters | Google Kubernetes Engine (GKE)&lt;/a&gt;&lt;/li&gt;&lt;li data-block-key="86gs4"&gt;Setting up a quota alert: &lt;a href="https://cloud.google.com/docs/quotas/monitor#quota_alerts"&gt;Monitor and alert with quota metrics&lt;/a&gt;&lt;/li&gt;&lt;li data-block-key="c73i8"&gt;Using GKE observability metrics: &lt;a href="https://cloud.google.com/kubernetes-engine/docs/how-to/view-observability-metrics"&gt;View observability metrics | Google Kubernetes Engine (GKE)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><pubDate>Fri, 22 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/containers-kubernetes/gke-gets-new-quota-monitoring-feature/</guid><category>Containers &amp; Kubernetes</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Take control of GKE scaling with new quota monitoring</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/containers-kubernetes/gke-gets-new-quota-monitoring-feature/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Artemi Ollin</name><title>GKE Product Manager</title><department></department><company></company></author></item></channel></rss>
+&lt;/ol&gt;&lt;/div&gt;</description><pubDate>Fri, 22 Mar 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/</guid><category>DevOps &amp; SRE</category><category>Containers &amp; Kubernetes</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Using GKE and applying DevOps principles for scientific research at Stanford</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/containers-kubernetes/stanford-team-uses-devops-tools-to-manage-research-data/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Paul Nuyujukian</name><title>Departments of Bioengineering, Neurosurgery, and Electrical Engineering, Stanford University</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Volker Eyrich</name><title>Practice Lead, Google Cloud</title><department></department><company></company></author></item></channel></rss>

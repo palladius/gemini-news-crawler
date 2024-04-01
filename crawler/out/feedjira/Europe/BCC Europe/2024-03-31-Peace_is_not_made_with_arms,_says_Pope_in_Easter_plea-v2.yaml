@@ -1,5 +1,5 @@
 # [NewsFiler v2] NewsPaper: BCC Europe (this should go in the Entries as of v2)
-# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-europe-68702665#0
+# [NewsFiler v2] GUID: https://www.bbc.co.uk/news/world-europe-68702665#1
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id", "image"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: Peace is not made with arms, says Pope in Easter plea
@@ -9,7 +9,7 @@ summary: The 87-year-old pontiff presided over Easter mass despite concerns over
 published: 2024-03-31 11:49:32.000000000 Z
 entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
   is_perma_link: 'false'
-  guid: https://www.bbc.co.uk/news/world-europe-68702665#0
+  guid: https://www.bbc.co.uk/news/world-europe-68702665#1
 carlessian_info:
   news_filer_version: 2
   newspaper: BCC Europe

@@ -63,12 +63,12 @@ content: "<strong class=\"release-note-product-title\">Apigee X</strong>\n<h3>An
   in Security Operations</a></p>\n\n<p>Duet AI in Google Cloud is now Gemini for Google
   Cloud. See our <a href=\"https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/\">blog
   post</a> for more information.</p>\n<strong class=\"release-note-product-title\">Cloud
-  Composer</strong>\n<h3>Announcement</h3>\n<p><strong>Cloud Composer 2.6.6</strong>
-  release started on <strong>March 26, 2024</strong>. Get ready for upcoming changes
-  and features as we roll out the new release to all regions. This release is in progress
-  at the moment. Listed changes and features might not be available in some regions
-  yet.</p>\n<h3>Feature</h3>\n<p>The <a href=\"https://cloud.google.com/composer/docs/composer-2/enable-saving-logs-to-environment-bucket\">Logs
-  in Cloud Logging only</a> feature is available in all regions. </p>\n<h3>Changed</h3>\n<p>In
+  Composer</strong>\n<h3>Feature</h3>\n<p>The <a href=\"https://cloud.google.com/composer/docs/composer-2/enable-saving-logs-to-environment-bucket\">Logs
+  in Cloud Logging only</a> feature is available in all regions:</p>\n\n<ul>\n<li>In
+  newly created Cloud Composer environments, Airflow task logs are now stored only
+  in Cloud Logging by default.</li>\n<li>You can disable this feature for a new or
+  an existing environment. In this case, Airflow task logs are saved both to Cloud
+  Logging and to the environment&#39;s bucket.</li>\n</ul>\n<h3>Changed</h3>\n<p>In
   new environments with Airflow 2.6.3 and 2.7.3 the <strong>default values</strong>
   of the following Airflow configuration options are changed to provide more optimized
   Cloud Composer environments:</p>\n\n<ul>\n<li><code>[scheduler]job_heartbeat_sec</code>

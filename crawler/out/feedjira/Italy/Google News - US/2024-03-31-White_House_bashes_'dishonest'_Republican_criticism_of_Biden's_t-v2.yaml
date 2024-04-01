@@ -1,25 +1,22 @@
 # [NewsFiler v2] NewsPaper: Google News - US (this should go in the Entries as of v2)
-# [NewsFiler v2] GUID: CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gEA
+# [NewsFiler v2] GUID: CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gF7aHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ3
 # [NewsFiler v2] entries.keys: ["title", "url", "summary", "published", "entry_id"]
 --- !ruby/object:Feedjira::Parser::RSSEntry
 title: White House bashes 'dishonest' Republican criticism of Biden's transgender
   proclamation on Easter - ABC News
-url: https://news.google.com/rss/articles/CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gEA?oc=5
-summary: <ol><li><a href="https://news.google.com/rss/articles/CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gEA?oc=5"
+url: https://news.google.com/rss/articles/CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gF7aHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ3?oc=5
+summary: <ol><li><a href="https://news.google.com/rss/articles/CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gF7aHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ3?oc=5"
   target="_blank">White House bashes 'dishonest' Republican criticism of Biden's transgender
   proclamation on Easter</a>&nbsp;&nbsp;<font color="#6f6f6f">ABC News</font></li><li><a
-  href="https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3d3LmZveG5ld3MuY29tL3Nwb3J0cy9tYWdpY3Mtam9uYXRoYW4taXNhYWMtY3JpdGljaXplcy13aGl0ZS1ob3VzZS10cmFuc2dlbmRlci12aXNpYmlsaXR5LWRhedIBamh0dHBzOi8vd3d3LmZveG5ld3MuY29tL3Nwb3J0cy9tYWdpY3Mtam9uYXRoYW4taXNhYWMtY3JpdGljaXplcy13aGl0ZS1ob3VzZS10cmFuc2dlbmRlci12aXNpYmlsaXR5LWRheS5hbXA?oc=5"
-  target="_blank">Magic's Jonathan Isaac criticizes White House over Transgender Day
-  of Visibility</a>&nbsp;&nbsp;<font color="#6f6f6f">Fox News</font></li><li><a href="https://news.google.com/rss/articles/CBMiT2h0dHBzOi8vd3d3Lm55ZGFpbHluZXdzLmNvbS8yMDI0LzAzLzMxL3RyYW5zZ2VuZGVyLWRheS1vZi12aXNpYmlsaXR5LWpvZS1iaWRlbi_SAQA?oc=5"
-  target="_blank">White House defends Transgender Day of Visibility as leading Republicans
-  go on attack</a>&nbsp;&nbsp;<font color="#6f6f6f">New York Daily News</font></li><li><a
-  href="https://news.google.com/rss/articles/CBMiVmh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9wb2xpdGljcy8yMDI0LzAzLzMxL3RydW1wLWJpZGVuLWVhc3Rlci10cmFuc2dlbmRlci1kYXkv0gEA?oc=5"
-  target="_blank">Trump attacks Biden over Easter coinciding with Transgender Day
-  of Visibility</a>&nbsp;&nbsp;<font color="#6f6f6f">The Washington Post</font></li></ol>
-published: 2024-03-31 17:20:31.000000000 Z
+  href="https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9wb2xpdGljcy8yMDI0LzA0LzAxL3RyYW5zLXZpc2liaWxpdHktZGF5LWVhc3Rlci1iaWRlbi10cnVtcC_SAQA?oc=5"
+  target="_blank">Republicans upset as Trans Day of Visibility, Easter fall on same
+  day</a>&nbsp;&nbsp;<font color="#6f6f6f">The Washington Post</font></li><li><a href="https://news.google.com/rss/articles/CBMiNGh0dHBzOi8vYWxiZXJ0bW9obGVyLmNvbS8yMDI0LzA0LzAxL2JyaWVmaW5nLTQtMS0yNC_SAQA?oc=5"
+  target="_blank">Monday, April 1, 2024</a>&nbsp;&nbsp;<font color="#6f6f6f">Albert
+  Mohler</font></li></ol>
+published: 2024-03-31 17:21:23.000000000 Z
 entry_id: !ruby/object:Feedjira::Parser::GloballyUniqueIdentifier
   is_perma_link: 'false'
-  guid: CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gEA
+  guid: CBMid2h0dHBzOi8vYWJjbmV3cy5nby5jb20vUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ30gF7aHR0cHM6Ly9hYmNuZXdzLmdvLmNvbS9hbXAvUG9saXRpY3Mvd2hpdGUtaG91c2UtYmFzaGVzLWRpc2hvbmVzdC1yZXB1YmxpY2FuLWNyaXRpY2lzbS1iaWRlbnMtdHJhbnNnZW5kZXIvc3Rvcnk_aWQ9MTA4Njg3NjQ3
 carlessian_info:
   news_filer_version: 2
   newspaper: Google News - US
