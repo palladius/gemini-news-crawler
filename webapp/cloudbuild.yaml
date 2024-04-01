@@ -77,24 +77,19 @@ steps:
 
 
 
-# # deploys to cloud run: https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
-# - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-#   entrypoint: gcloud
-#   args:
-#   - 'run'
-#   - 'deploy'
-#   - 'myapp-latest'
-#   - '--image'
-#   # TODO(ricc): check in the future whsat works best: tag to latest vs to specific SHA.
-#   # "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler-cb:sha-$SHORT_SHA"
-#   - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler-cb:latest"
-#   - '--region'
-#   - "${_REGION}"
-#   - '--platform'
-#   - 'managed'
-#   - '--allow-unauthenticated'
 
-
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: Push DEV to Cloud Run via Amazing new script which doesnt need mounting anymore
+  entrypoint: bash
+  args:
+  - bin/cb-push-to-cloudrun-magic.sh
+  - dev
+  dir: webapp
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud run from POOR Env with DB stuff..
@@ -105,10 +100,10 @@ steps:
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  - 'DATABASE_HOST=$_DATABASE_HOST'
-  - 'DATABASE_NAME=$_DATABASE_NAME'
-  - 'DATABASE_USER=$_DATABASE_USER'
-  - 'DATABASE_PASS=$_DATABASE_PASS'
+  # - 'DATABASE_HOST=$_DATABASE_HOST'
+  # - 'DATABASE_NAME=$_DATABASE_NAME'
+  # - 'DATABASE_USER=$_DATABASE_USER'
+  # - 'DATABASE_PASS=$_DATABASE_PASS'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
