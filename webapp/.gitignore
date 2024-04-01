@@ -38,3 +38,4 @@
 !/app/assets/builds/.keep
 
 /config/credentials/environment.key
+.yarn/

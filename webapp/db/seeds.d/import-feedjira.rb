@@ -4,7 +4,10 @@ MaxArticlesToParse = 4200
 FeedJiraSubdir =  '/../../../crawler/out/feedjira/' # relative to here: db/seeds.d/HERE
 
 dir = File.dirname(__FILE__) + FeedJiraSubdir
-raise "doesnt seem a dir: #{dir}" unless Dir.exist?(dir)
+unless Dir.exist?(dir)
+  puts "🎯  ERROR - doesnt seem a dir: #{dir}. Since this could be running in docker - Im gonna scoop the CGB way"
+  return
+end
 
 def parse_feedjira_from_yaml(jira_feed, file)
   o = jira_feed # less characters :)

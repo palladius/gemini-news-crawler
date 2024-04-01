@@ -1,4 +1,6 @@
 
+DOCKER_VERSION = $(shell cat VERSION)
+
 # i cant believe it that a new rails install doesnt work but hey here it is
 # https://stackoverflow.com/questions/74904688/esbuild-throwing-error-could-not-resolve-import-statement-while-setting-up
 install:
@@ -57,3 +59,11 @@ cloud-deploy-setup:
 # My MASTER)_KEY is in ENV now.
 credentials-edit:
 	bin/rails credentials:edit -e production
+
+
+build: docker-build
+docker-build:
+	sudo docker build -t geminews:v$(DOCKER_VERSION) .
+docker-run:
+	./entrypoint-8080.sh
+#	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
