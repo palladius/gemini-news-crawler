@@ -1,3 +1,5 @@
+<% @latest_article = Article.last
+# .published_date.localtime %>
 <div>
   <h1 class="font-bold text-4xl">Pages#stats</h1>
   <p>Find me in app/views/pages/stats.html.erb</p>
@@ -23,6 +25,12 @@
   <p>ActiveRecord::Base.configurations.configs_for(env_name: 'development')[0].url:
     <b><%=  ActiveRecord::Base.configurations.configs_for(env_name: 'development')[0].url.to_s.gsub(/\/\/.*\//, '//.../') %></b>
   </p>
+
+  <h2>♦️ Active Model </h2>
+
+  <p>Newest Article (local time): <b><%= @latest_article.published_date.localtime %></b> (
+    <b><%= time_ago_in_words(@latest_article.published_date) %> ago</b>
+  )</p>
 
 
 </div>

@@ -10,7 +10,8 @@
 
     <ul>
     <% @last_ten_articles.each do |article| %>
-        <li>⌛️  <b><%= link_to article.hhmm, article %></b> <%= link_to article.title, article %></li>
+        <li>⌛️  <b><%= link_to article.hhmm, article %></b> <%= link_to article.title, article %>
+        (<%= time_ago_in_words(article.published_date) %> ago ) </li>
     <% end %>
     </ul>
 </div>

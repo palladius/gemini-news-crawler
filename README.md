@@ -1,5 +1,18 @@
 
-## INSTALL
+# About
+
+This is a News Slurper that takes News in real time and - hopefully - feeds an LLM with RAG knowledge.
+
+
+## PROD
+
+Apps are on Cloud Run
+
+* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/stats
+* PROD: TODO
+
+
+## esbuild issues
 
 This didnt work:
 * `rails-ric webapp`
@@ -13,15 +26,5 @@ rails new webapp --database=postgresql --css tailwind
 rm -rf webapp/.git
 git add webapp
 ```
-
-## PROD
-
-Apps are on Cloud Run
-
-* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/stats
-* PROD: TODO
-
-
-## TODOs
 
 * `rails-which-javascript-env ` should say ESBUILD since i installed it with it :)

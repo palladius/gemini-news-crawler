@@ -75,13 +75,13 @@ class Article < ApplicationRecord
     end
 
     def yyyymmdd
-      published_date.to_s[0,10]
+      published_date.localtime.to_s[0,10]
     end
     def yyyymmdd_hhmm
-      published_date.to_s[0,16]
+      published_date.localtime.to_s[0,16]
     end
     def hhmm
-      published_date.to_s[11,5]
+      published_date.localtime.to_s[11,5]
     end
 
     def to_s

@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Mon, 01 Apr 2024 19:15:10 +0200</lastBuildDate>
-  <pubDate>Mon, 01 Apr 2024 19:15:10 +0200</pubDate>
+  <lastBuildDate>Mon, 01 Apr 2024 20:37:00 +0200</lastBuildDate>
+  <pubDate>Mon, 01 Apr 2024 20:37:00 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,27 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Eight dead as bus collides with train in Russia </title>
+   <link>https://www.euronews.com/2024/04/01/eight-dead-as-bus-collides-with-train-in-russia</link>
+   <guid>https://www.euronews.com/2024/04/01/eight-dead-as-bus-collides-with-train-in-russia</guid>
+   <pubDate>Mon, 01 Apr 2024 20:36:56 +0200</pubDate>
+   <description>The Russian Emergency Ministry said all eight passengers on the bus were killed in the village of Berendeyevo in the Yaroslavl region.</description>
+  </item>
+  <item>
+   <title>Israeli forces end raid on Gaza's main hospital, aid ships arrive off the coast</title>
+   <link>https://www.euronews.com/2024/04/01/israeli-forces-end-raid-on-gazas-main-hospital-aid-ships-arrive-off-the-coast</link>
+   <guid>https://www.euronews.com/2024/04/01/israeli-forces-end-raid-on-gazas-main-hospital-aid-ships-arrive-off-the-coast</guid>
+   <pubDate>Mon, 01 Apr 2024 19:50:54 +0200</pubDate>
+   <description>All the latest developments from the Israel- Hamas war.</description>
+  </item>
+  <item>
+   <title>Hot temperatures send Cypriots to the beach on National Day</title>
+   <link>https://www.euronews.com/2024/04/01/hot-temperatures-send-cypriots-to-the-beach-on-national-day</link>
+   <guid>https://www.euronews.com/2024/04/01/hot-temperatures-send-cypriots-to-the-beach-on-national-day</guid>
+   <pubDate>Mon, 01 Apr 2024 19:33:27 +0200</pubDate>
+   <description>Temperatures exceeded 30 degrees Celsius on 1 April sending Cypriots to the beach on Cyprus National Day.</description>
+  </item>
   <item>
    <title>Israeli air strike destroys Iranian consulate in Damascus, killing senior commander, Syria says</title>
    <link>https://www.euronews.com/2024/04/01/israeli-air-strike-destroys-iranian-consulate-in-damascus-killing-senior-commander-syria-s</link>
@@ -343,27 +364,6 @@
    <guid>https://www.euronews.com/video/2024/03/29/watch-aftermath-of-deadly-cyclone-gamane-in-madagascar</guid>
    <pubDate>Fri, 29 Mar 2024 20:01:14 +0100</pubDate>
    <description>The storm killed 18 people and left four missing after making landfall on the north of the Indian Ocean island nation earlier this week, authorities said on Friday.</description>
-  </item>
-  <item>
-   <title>Latest news bulletin | March 29th – Evening</title>
-   <link>https://www.euronews.com/video/2024/03/29/latest-news-bulletin-march-29th-evening</link>
-   <guid>https://www.euronews.com/video/2024/03/29/latest-news-bulletin-march-29th-evening</guid>
-   <pubDate>Fri, 29 Mar 2024 18:00:03 +0100</pubDate>
-   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
-  </item>
-  <item>
-   <title>Israel will return to the table for cease-fire talks with Hamas</title>
-   <link>https://www.euronews.com/2024/03/29/israel-will-return-to-the-table-for-cease-fire-talks-with-hamas</link>
-   <guid>https://www.euronews.com/2024/03/29/israel-will-return-to-the-table-for-cease-fire-talks-with-hamas</guid>
-   <pubDate>Fri, 29 Mar 2024 17:50:39 +0100</pubDate>
-   <description>Israel will return to the table for cease-fire talks with Hamas, says Israeli Prime Minister Benjamin Netanyahu.</description>
-  </item>
-  <item>
-   <title>Zelenskyy tells MEP delegation that EU solidarity is vital for morale</title>
-   <link>https://www.euronews.com/2024/03/29/zelenskyy-tells-mep-delegation-that-eu-solidarity-is-vital-for-morale</link>
-   <guid>https://www.euronews.com/2024/03/29/zelenskyy-tells-mep-delegation-that-eu-solidarity-is-vital-for-morale</guid>
-   <pubDate>Fri, 29 Mar 2024 15:28:46 +0100</pubDate>
-   <description>The Ukrainian prime minister made the comments to a group of MEPs from the liberal Renew Europe group, of which his own party is a member.</description>
   </item>
  </channel>
 </rss>

@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Mon, 01 Apr 2024 18:04:08 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 01 Apr 2024 18:29:44 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,14 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.3</generator>
 			<item>
+				<link>https://www.aljazeera.com/program/newsfeed/2024/4/1/trump-posts-video-with-image-of-biden-bound-and-tied?traffic_source=rss</link>
+				<title>Trump posts video with image of Biden bound and tied</title>
+				<description><![CDATA[Biden’s campaign is condemning an image of the US president shown ‘hog-tied’ on the back of a pickup truck.]]></description>
+				<pubDate>Mon, 01 Apr 2024 18:16:49 +0000</pubDate>
+				<category>Show Types</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711994644</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/news/2024/4/1/where-are-opposition-making-inroads-in-turkey-local-elections?traffic_source=rss</link>
 				<title>Who is Istanbul Mayor Imamoglu who won big in Turkey local elections?</title>
 				<description><![CDATA[Opposition party CHP deals surprise blows to Erdogan as hopes raised for Imamoglu presidency in 2028.]]></description>
@@ -211,14 +219,6 @@
 				<pubDate>Mon, 01 Apr 2024 05:47:28 +0000</pubDate>
 				<category>News</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711943198</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/economy/2024/4/1/south-koreas-yoon-accuses-doctors-of-running-cartel-as-strike-drags-on?traffic_source=rss</link>
-				<title>South Korea’s Yoon accuses doctors of running ‘cartel’ as strike drags on</title>
-				<description><![CDATA[Yoon pledges not to back down on plans to increase medical school admissions.]]></description>
-				<pubDate>Mon, 01 Apr 2024 05:13:30 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1711944733</guid>
 							</item>
 			</channel>
 </rss>
