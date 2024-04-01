@@ -9,7 +9,7 @@
 #  reality:        europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler/gemini-news-crawler
 #####################################################################################################
 
-export DEPLOY_VERSION='2.0.0alpha'
+export DEPLOY_VERSION='2.0.1'
 
 if [ -f .envrc ] ; then
   echo Looks like youre local since I see your envrc.
@@ -29,8 +29,9 @@ fi
 # fi
 
 if which gcloud ; then
-  echo "👒 Parsing secret wich gcloud - wOOOt 2024 news"
-  gcloud secrets versions access latest --secret=gemini-news-crawler-envrc > .tmp.gcloud-envrc
+  echo "👒 [GCLOUD AVAILABLE!] Parsing secret wich gcloud - wOOOt 2024 news"
+  gcloud secrets versions access latest --secret=gemini-news-crawler-envrc > .tmp.gcloud-envrc ||
+    rm .tmp.gcloud-envrc  # remove if failed
   ls -al .tmp.gcloud-envrc
   grep DESCRIPTION .tmp.gcloud-envrc
   source .tmp.gcloud-envrc
@@ -67,10 +68,12 @@ fi
 case "$1" in
    dev | development )
     export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-dev"
+    export RAILS_ENV=development
     ;;
 
   prod | production )
     export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-prod"
+    export RAILS_ENV=production
     ;;
 
   *) # else
@@ -135,28 +138,29 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --memory "2048Mi" \
       --region "$GCLOUD_REGION" \
       --set-env-vars='description=created-from-bin-slash-cb-push-to-cloudrun-sh' \
-      --set-env-vars='fav_color=purple' \
       --set-env-vars="GIT_STATE=$GIT_STATE" \
       --set-env-vars="APP_VERSION=$APP_VERSION" \
-      --set-env-vars="SECRET_KEY_BASE=TODO" \
       --set-env-vars="RAILS_MASTER_KEY=$RAILS_MASTER_KEY" \
-      --set-env-vars="RAILS_ENV=development" \
+      --set-env-vars="RAILS_ENV=$RAILS_ENV" \
       --set-env-vars="RAILS_SERVE_STATIC_FILES=true" \
       --set-env-vars="MESSAGGIO_OCCASIONALE=$MESSAGGIO_OCCASIONALE" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
-      --set-env-vars="BUCKET=$BUCKET" \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
 
 
+# Dubito serva:       --set-env-vars="SECRET_KEY_BASE=TODO" \
+
 # ILLEGAL       --set-env-vars="PORT=8080" \
 #      --update-secrets=gemini-news-crawler_SECRET_KEY=gemini-news-crawler_SECRET_KEY:latest \
 #      --service-account="gemini-news-crawler-docker-runner@$PROJECT_ID.iam.gserviceaccount.com" \
-      # --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
-      # --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
-      # --set-env-vars="DATABASE_USER=$DATABASE_USER" \
-      # --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
+# Useless:
+# --set-env-vars="BUCKET=$BUCKET" \
+# --set-env-vars="DATABASE_HOST=$DATABASE_HOST" \
+# --set-env-vars="DATABASE_NAME=$DATABASE_NAME" \
+# --set-env-vars="DATABASE_USER=$DATABASE_USER" \
+# --set-env-vars="DATABASE_PASS=$DATABASE_PASS" \
 
 
 # make sure we exit 0 with a string (set -e guarantees this)
