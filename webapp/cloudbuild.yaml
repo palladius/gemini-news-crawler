@@ -74,6 +74,7 @@ steps:
   dir: webapp
 
 
+# Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud Run via Amazing new script which doesnt need mounting anymore
   entrypoint: bash
@@ -88,6 +89,22 @@ steps:
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
+# Questo finalmente funge!
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
+  entrypoint: bash
+  args:
+  - bin/cb-push-to-cloudrun-magic.sh
+  - prod
+  allowFailure: true
+  dir: webapp
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+
+# This does NOT work
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Push DEV to Cloud run from POOR Env with DB stuff..
   entrypoint: bash

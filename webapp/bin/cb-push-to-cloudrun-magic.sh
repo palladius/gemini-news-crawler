@@ -18,15 +18,15 @@ else
   echo 'Riccardo NOT LOCAL probably in the Cloud'
 fi
 
-if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
-  echo Looks like youre on Cloud Run mounting an envrc directly form SM. You could be protecteder. # :)
-  . /secretenvrc/gemini-news-crawler-envrc
-else
-  echo 'Riccardo NOT Secret or it doesnt work with this weird path. to be sure, lets check. Lets see the mounts:'
-  #ls -al /
-  #ls -al /secretenvrc
-  mount
-fi
+# if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
+#   echo Looks like youre on Cloud Run mounting an envrc directly form SM. You could be protecteder. # :)
+#   . /secretenvrc/gemini-news-crawler-envrc
+# else
+#   echo 'Riccardo NOT Secret or it doesnt work with this weird path. to be sure, lets check. Lets see the mounts:'
+#   #ls -al /
+#   #ls -al /secretenvrc
+#   mount
+# fi
 
 if which gcloud ; then
   echo "👒 Parsing secret wich gcloud - wOOOt 2024 news"
