@@ -15,6 +15,9 @@ Rails.application.configure do
   #config.host_authorization = { exclude: ->(request) { request.path == "/statusz" } }
 end
 
+
+
+######## Ricc Header
 ######### Ciao da Riccardo
 emoji = '🧡'
 # 🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡

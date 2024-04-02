@@ -13,12 +13,18 @@
 
   <p>
     Rails.application.credentials['ricc-passwords']['fake-pwd'] =
-    <b><%= Rails.application.credentials['ricc-passwords']['fake-pwd'] %></b>
+    <b><%= Rails.application.credentials['ricc-passwords']['fake-pwd']  %></b>
   </p>
   <p>
     Rails.application.credentials['ricc-passwords']['description'] =
     <b><%= Rails.application.credentials['ricc-passwords']['description'] %></b>
   </p>
+  <p>
+    Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'] =
+    <b><%= Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'].first(5) %>..</b>
+  </p>
+
+
 
   <h2>🧪 DB Stuff</h2>
 
@@ -26,11 +32,18 @@
     <b><%=  ActiveRecord::Base.configurations.configs_for(env_name: 'development')[0].url.to_s.gsub(/\/\/.*\//, '//.../') %></b>
   </p>
 
+
   <h2>♦️ Active Model </h2>
 
   <p>Newest Article (local time): <b><%= @latest_article.published_date.localtime %></b> (
     <b><%= time_ago_in_words(@latest_article.published_date) %> ago</b>
   )</p>
+
+  <% [Article,ArticleTag, Category].each do |my_class| %>
+  <p>Number of <b><%=  my_class.to_s.pluralize %></b>: (
+    <b><%= my_class.all.count %></b>
+  )</p>
+  <% end %>
 
 
 </div>

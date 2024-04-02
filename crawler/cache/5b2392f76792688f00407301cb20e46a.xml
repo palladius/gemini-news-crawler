@@ -7,14 +7,57 @@
   <author>
     <name>Google Cloud Platform</name>
   </author>
-  <updated>2024-04-01T00:00:00-07:00</updated>
+  <updated>2024-04-02T00:00:00-07:00</updated>
+
+  <entry>
+    <title>April 02, 2024</title>
+    <id>tag:google.com,2016:gcp-release-notes#April_02_2024</id>
+    <updated>2024-04-02T00:00:00-07:00</updated>
+    <link rel="alternate" href="https://cloud.google.com/release-notes#April_02_2024"/>
+    <content type="html"><![CDATA[<strong class="release-note-product-title">Dataform</strong>
+<h3>Feature</h3>
+<p>You can now use Customer-Managed Encryption Keys (CMEK) to protect repositories in Dataform. CMEK in Dataform is available in <a href="https://cloud.google.com/products#product-launch-stages">preview</a>. For more information, see <a href="https://cloud.google.com/dataform/docs/cmek">Use customer-managed encryption keys</a>.</p>
+]]>
+    </content>
+  </entry>
 
   <entry>
     <title>April 01, 2024</title>
     <id>tag:google.com,2016:gcp-release-notes#April_01_2024</id>
     <updated>2024-04-01T00:00:00-07:00</updated>
     <link rel="alternate" href="https://cloud.google.com/release-notes#April_01_2024"/>
-    <content type="html"><![CDATA[<strong class="release-note-product-title">Backup and DR</strong>
+    <content type="html"><![CDATA[<strong class="release-note-product-title">Apigee X</strong>
+<h3>Announcement</h3>
+<p>On April 1, 2024, we released an updated version of Apigee.</p>
+<h3>Feature</h3>
+<p>With this release, Apigee expanded its support for data residency to additional regions in Canada. Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/apigee/docs/api-platform/get-started/drz-concepts">Introduction to data residency</a>.</p>
+
+<p>For a list of supported geographic locations, see <a href="https://cloud.google.com/apigee/docs/locations">Apigee locations</a>.</p>
+<strong class="release-note-product-title">Assured Workloads</strong>
+<h3>Announcement</h3>
+<p>The following new <a href="https://cloud.google.com/assured-workloads/docs/control-packages">control packages</a> are now available in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>. See <a href="https://cloud.google.com/assured-workloads/docs/supported-products">Supported products</a> to learn about which Google Cloud products are supported for each new control package:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#au-regions">Australia Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#br-regions">Brazil Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#ca-regions">Canada Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#cl-regions">Chile Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#eu-regions">EU Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#in-regions">India Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#id-regions">Indonesia Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#il-regions">Israel Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#sg-regions">Singapore Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#kr-regions">South Korea Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#ch-regions">Switzerland Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#tw-regions">Taiwan Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#uk-regions">UK Regions</a></li>
+<li><a href="https://cloud.google.com/assured-workloads/docs/control-packages#us-regions">US Regions</a></li>
+</ul>
+<h3>Announcement</h3>
+<p>You can now create <a href="https://cloud.google.com/assured-workloads/docs/key-concepts#folders">Assured Workloads folders</a> from Resource Manager&#39;s <strong>Manage resources</strong> page in the Google Cloud console. See <a href="https://cloud.google.com/resource-manager/docs/creating-managing-folders#creating-folders">Creating and managing folders</a> for more information.</p>
+<strong class="release-note-product-title">Backup and DR</strong>
 <h3>Feature</h3>
 <p>Backup and DR Service added support to <a href="https://cloud.google.com/backup-disaster-recovery/docs/create-plan/dynamic-protection">automatically protect your compute engine instances</a> using Google Cloud tags. The dynamic protection tags feature is supported for backup/recovery appliances running on version 11.0.10.417 or later. You can check the appliance version from <strong>Manage</strong> &gt; <strong>Appliances</strong> page.</p>
 <strong class="release-note-product-title">BigQuery</strong>
@@ -84,6 +127,30 @@
 <a href="https://cloud.google.com/bigquery/docs/history-based-optimizations">history-based optimizations for queries</a>. This feature is in <a href="https://cloud.google.com/products/#product-launch-stages">preview</a>.</p>
 <h3>Announcement</h3>
 <p>BigQuery Studio is now available in the <a href="https://cloud.google.com/bigquery/docs/locations#bqstudio-loc">South Carolina (us-east1) region</a> to manage versions of code assets such as notebooks and saved queries.</p>
+<h3>Feature</h3>
+<p>The <a href="https://cloud.google.com/bigquery/docs/search-ads-transfer">BigQuery Data Transfer Service for Search Ads 360</a> now supports the new <a href="https://developers.google.com/search-ads/reporting/overview">Search Ads 360 Reporting API</a>. You can use the Search Ads 360 connector to specify custom Floodlight variables and custom columns when transferring Search Ads 360 data to BigQuery. This feature is now <a href="https://cloud.google.com/products/#product-launch-stages">generally available</a> (GA).</p>
+<strong class="release-note-product-title">Cloud Load Balancing</strong>
+<h3>Feature</h3>
+<p>You can now configure advanced traffic management using <em>flexible pattern matching</em>. This feature allows you to use wildcard syntax anywhere in your path matcher configuration. You can use this feature to customize origin routing for different types of traffic and request and response behaviors. In addition, you can now use results from your pattern matching to rewrite the path that is sent to the origin.</p>
+
+<p>Pattern matching with wildcards is now supported for the following products:</p>
+
+<ul>
+<li>Global external Application Load Balancer (launched previously)</li>
+<li>Regional external Application Load Balancer</li>
+<li>Cross-region internal Application Load Balancer</li>
+<li>Regional internal Application Load Balancer</li>
+<li>Traffic Director</li>
+</ul>
+
+<p>For details, see <a href="https://cloud.google.com/load-balancing/docs/url-map-concepts#wildcards-regx-dynamic-route">URL maps overview: Wildcards and pattern matching operators in path templates for route rules</a>.</p>
+
+<p>This capability is available in <strong>General availability</strong>.</p>
+<strong class="release-note-product-title">Cloud SQL for MySQL</strong>
+<h3>Changed</h3>
+<p>If your Cloud SQL Enterprise edition instance stores the transaction logs used for point-in-time recovery (PITR) on disk, then when you do an in-place upgrade to Cloud SQL Enterprise Plus edition, the storage location for the transaction logs is switched to Cloud Storage. For more information, see <a href="https://cloud.google.com/sql/docs/mysql/upgrade-cloud-sql-instance-to-enterprise-plus-in-place">Upgrade an instance to Cloud SQL Enterprise Plus edition by using in-place upgrade</a>.</p>
+
+<p>To check where your instance stores the transaction logs used for PITR, see <a href="https://cloud.google.com/sql/docs/mysql/backup-recovery/pitr#check-log-storage-location.">Use point-in-time recovery (PITR)</a></p>
 <strong class="release-note-product-title">Cloud Storage</strong>
 <h3>Libraries</h3>
 <p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
@@ -112,21 +179,58 @@
 <li><strong>storage:</strong> Remove protobuf&#39;s copy of data on unmarshalling (<a href="https://github.com/googleapis/google-cloud-go/issues/9526" target="_blank" rel="noreferrer noopener" class="external">#9526</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/81281c04e503fd83301baf88cc352c77f5d476ca" target="_blank" rel="noreferrer noopener" class="external">81281c0</a>)</li>
 </ul></section>
 </div>
+<h3>Feature</h3>
+<p>Google Cloud Storage now offers Dual-region Google Egress Bandwidth quotas per dual-region location. See <a href="https://cloud.google.com/storage/docs/bandwidth-usage">Bandwidth usage in Cloud Storage</a>.</p>
+<strong class="release-note-product-title">Dataproc Metastore</strong>
+<h3>Feature</h3>
+<p>Dataproc Metastore now supports <a href="https://cloud.google.com/dataproc-metastore/docs/managed-migration">managed migrations</a>. </p>
+
+<p>Managed migration is an automated feature that helps you migrate data from a self-managed Hive Metastore to a Dataproc Metastore service, without any sizable down time.</p>
+<h3>Feature</h3>
+<p>Dataproc Metastore now supports <a href="https://cloud.google.com/dataproc-metastore/docs/scaling-factors#autoscaling">autoscaling</a>. Autoscaling automatically increases or decreases the scaling factor required to run your workloads.</p>
+<strong class="release-note-product-title">Firestore in Datastore mode</strong>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="node.js">Node.js</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-clouddatastore" class="external">Changes for <a href="https://github.com/googleapis/nodejs-datastore">@google-cloud/datastore</a></h3>
+
+<h4 id="860_2024-03-25"><a href="https://github.com/googleapis/nodejs-datastore/compare/v8.5.0...v8.6.0" target="_blank" rel="noreferrer noopener" class="external">8.6.0</a> (2024-03-25)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li>Add new types ExplainOptions, ExplainMetrics, PlanSummary, ExecutionStats (<a href="https://github.com/googleapis/nodejs-datastore/issues/1241" target="_blank" rel="noreferrer noopener" class="external">#1241</a>) (<a href="https://github.com/googleapis/nodejs-datastore/commit/6c409d5c922288bd8286917b266cdb553cfd43cf" target="_blank" rel="noreferrer noopener" class="external">6c409d5</a>)</li>
+<li>Nodejs transaction redesign feature branch (<a href="https://github.com/googleapis/nodejs-datastore/issues/1235" target="_blank" rel="noreferrer noopener" class="external">#1235</a>) (<a href="https://github.com/googleapis/nodejs-datastore/commit/1585d4a4e1b4b16d198307a3e97ffcf156d000b1" target="_blank" rel="noreferrer noopener" class="external">1585d4a</a>)</li>
+</ul>
+
+<h5 id="bug_fixes">Bug Fixes</h5>
+
+<ul>
+<li><strong>deps:</strong> Update dependency async-mutex to ^0.5.0 (<a href="https://github.com/googleapis/nodejs-datastore/issues/1240" target="_blank" rel="noreferrer noopener" class="external">#1240</a>) (<a href="https://github.com/googleapis/nodejs-datastore/commit/0ba1281efe16ef0b725937627445c32c36b9f705" target="_blank" rel="noreferrer noopener" class="external">0ba1281</a>)</li>
+</ul></section>
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-datastore" class="external">Changes for <a href="https://github.com/googleapis/java-datastore">google-cloud-datastore</a></h3>
+
+<h4 id="2190_2024-03-25"><a href="https://github.com/googleapis/java-datastore/compare/v2.18.6...v2.19.0" target="_blank" rel="noreferrer noopener" class="external">2.19.0</a> (2024-03-25)</h4>
+
+<h5 id="features_2">Features</h5>
+
+<ul>
+<li>Implement query profile (<a href="https://github.com/googleapis/java-datastore/issues/1365" target="_blank" rel="noreferrer noopener" class="external">#1365</a>) (<a href="https://github.com/googleapis/java-datastore/commit/2515ed6cf733df84069309a3055a21cdd65c9c90" target="_blank" rel="noreferrer noopener" class="external">2515ed6</a>)</li>
+</ul></section>
+</div>
+<strong class="release-note-product-title">Policy Intelligence</strong>
+<h3>Issue</h3>
+<p><a href="https://cloud.google.com/policy-intelligence/docs/troubleshoot-access">Policy Troubleshooter for IAM</a> currently doesn&#39;t fetch tags for regional resources, such as <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/regional-clusters">Google Kubernetes Engine (GKE) clusters</a>. As a result, if you have IAM policies with <a href="https://cloud.google.com/iam/docs/tags-access-control">tag-based conditions</a> and you try to use Policy Troubleshooter to troubleshoot access to regional resources, you might get inaccurate results. Our engineering team is working to resolve this issue.</p>
+<strong class="release-note-product-title">SAP on Google Cloud</strong>
+<h3>Announcement</h3>
+<p><strong>Google Cloud&#39;s Agent for SAP version 3.2</strong></p>
+
+<p>Version 3.2 of Google Cloud&#39;s Agent for SAP is generally available (GA). This version introduces the default collection of Workload Manager evaluation metrics for new agent installations, configuration commands for updating the agent configuration, and enhancements to the Backint, disk snapshot, and Process Monitoring features.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/solutions/sap/docs/agent-for-sap/whats-new">What&#39;s new with Google Cloud&#39;s Agent for SAP</a>.</p>
 <strong class="release-note-product-title">Virtual Private Cloud</strong>
 <h3>Feature</h3>
 <p>You can use <a href="https://cloud.google.com/vpc/docs/packet-mirroring">Packet Mirroring</a> to collect IPv6 traffic. This feature is available in <strong>General Availability</strong>.</p>
-]]>
-    </content>
-  </entry>
-
-  <entry>
-    <title>March 31, 2024</title>
-    <id>tag:google.com,2016:gcp-release-notes#March_31_2024</id>
-    <updated>2024-03-31T00:00:00-07:00</updated>
-    <link rel="alternate" href="https://cloud.google.com/release-notes#March_31_2024"/>
-    <content type="html"><![CDATA[<strong class="release-note-product-title">Confidential Space</strong>
-<h3>Announcement</h3>
-<p>A new Confidential Space image (240300) is now available. This image provides support for automatically resizing the boot disk stateful partition. See <a href="https://cloud.google.com/confidential-computing/confidential-space/docs/create-customize-workloads#disk-memory-limits">disk and memory limits</a> for more information.</p>
 ]]>
     </content>
   </entry>
@@ -137,6 +241,8 @@
     <updated>2024-03-29T00:00:00-07:00</updated>
     <link rel="alternate" href="https://cloud.google.com/release-notes#March_29_2024"/>
     <content type="html"><![CDATA[<strong class="release-note-product-title">Apigee X</strong>
+<h3>Announcement</h3>
+<p>On March 29, 2024, we released an updated version of Apigee.</p>
 <h3>Feature</h3>
 <p>With this release, Apigee expanded its support for data residency to additional regions in the European Union. Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored. </p>
 
@@ -147,8 +253,6 @@
 <h3>Announcement</h3>
 <p>Release 6.2.52 is now in General Availability.</p>
 <strong class="release-note-product-title">Cloud Storage</strong>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/storage/docs/custom-constraints">Custom constraints</a> for Cloud Storage are now available. You can use custom constraints to enforce policies on Cloud Storage resources, such as a policy that enforces all buckets to have Object Versioning enabled.</p>
 <h3>Feature</h3>
 <p>The Storage Control API is now available for use. The Storage Control API lets you perform metadata-specific, control plane, and long-running operations. To learn more about the Storage Control API and operations you can perform, see <a href="https://cloud.google.com/storage/docs/reference/rpc">Storage Control API overview</a>.</p>
 <strong class="release-note-product-title">Dataproc</strong>
@@ -544,6 +648,8 @@
 <strong class="release-note-product-title">Google Cloud Architecture Center</strong>
 <h3>Feature</h3>
 <p>(New guide) <a href="https://cloud.google.com/architecture/partners/model-development-data-labeling-labelbox-google-cloud">Model development and data labeling with Google Cloud and Labelbox</a>: Provides guidance for building a standardized pipeline to help accelerate the development of ML models.</p>
+<h3>Feature</h3>
+<p>(New guide) <a href="https://cloud.google.com/architecture/ai-ml/generative-ai-rag">Jump Start Solution: Generative AI RAG with Cloud SQL</a>:   Deploy a retrieval augmented generation (RAG) application with vector embeddings and Cloud SQL.</p>
 <strong class="release-note-product-title">Looker Studio</strong>
 <h3>Announcement</h3>
 <p><strong>Looker Studio release notes moved to Google Cloud</strong></p>
@@ -613,12 +719,6 @@
 <p>Analytics for media recommendations are GA. You can view analytics for your media recommendations apps in the Google Cloud console.</p>
 
 <p>For more information, see <a href="https://cloud.google.com/generative-ai-app-builder/docs/view-analytics">View analytics</a>.</p>
-<h3>Feature</h3>
-<p><strong>Vertex AI Search: Connect Google Drive to Vertex AI Search (GA)</strong></p>
-
-<p>Syncing Google Drive data to Vertex AI Search is available in GA.</p>
-
-<p>For more information, see <a href="https://cloud.google.com/generative-ai-app-builder/docs/create-data-store-es#google-drive">Sync from Google Drive</a>. </p>
 <strong class="release-note-product-title">Video Stitcher API</strong>
 <h3>Changed</h3>
 <p>Added a new <a href="https://cloud.google.com/video-stitcher/docs/reference/rest/v1/projects.locations.cdnKeys#MediaCdnKey.FIELDS.token_config"><code>tokenConfig</code></a> field to the Media CDN key. Set this field to sign the URL using the Media CDN token.</p>
@@ -4600,7 +4700,7 @@ zones.</span></aside>
 <p>Vertex AI Conversation now supports the <a href="https://cloud.google.com/dialogflow/cx/docs/concept/integration/dialogflow-messenger">Dialogflow CX Messenger integration</a> for preview.</p>
 <strong class="release-note-product-title">Eventarc</strong>
 <h3>Feature</h3>
-<p>Eventarc support for <a href="https://cloud.google.com/eventarc/docs/targets#triggers">creating triggers</a> for direct <a href="https://cloud.google.com/eventarc/docs/reference/supported-events#batch">Batch events</a> is generally available (<a href="https://cloud.google.com/products#product-launch-stages">GA</a>).</p>
+<p>Eventarc support for <a href="https://cloud.google.com/eventarc/docs/targets#triggers">creating triggers</a> for <a href="https://cloud.google.com/eventarc/docs/reference/supported-events#batch">direct events from Batch</a> is generally available (<a href="https://cloud.google.com/products#product-launch-stages">GA</a>).</p>
 <strong class="release-note-product-title">SAP on Google Cloud</strong>
 <h3>Announcement</h3>
 <p><strong>Generally available: Guided Deployment Automation in Workload Manager for SAP</strong></p>
@@ -5843,7 +5943,7 @@ tutorial.</p>
 <p>Dataflow now supports at-least-once streaming mode. You can use this mode to achieve lower latency and reduced costs for workloads that can tolerate duplicate records. This feature is <a href="https://cloud.google.com/products#product-launch-stages">generally available</a> (GA). For more information, see <a href="https://cloud.google.com/dataflow/docs/guides/streaming-modes">Set the pipeline streaming mode</a>. </p>
 <strong class="release-note-product-title">Google Cloud VMware Engine</strong>
 <h3>Feature</h3>
-<p><strong>Generally available:</strong> Purchasing commitments for VMware Engine nodes. For more information, see <a href="https://cloud.google.com/vmware-engine/docs/cud#purchasingcommitmentsfornodetypes">Purchasing commitments for node types</a>.</p>
+<p>Purchasing commitments for node types is now generally available. For more information, see <a href="https://cloud.google.com/vmware-engine/docs/cud#purchasingcommitmentsfornodetypes">Purchasing commitments for node types</a>.</p>
 <strong class="release-note-product-title">Google Distributed Cloud Virtual for VMware</strong>
 <h3>Security</h3>
 <p>The following vulnerabilities were discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized OS and Ubuntu nodes:</p>
