@@ -55,7 +55,8 @@ export GIT_COMMIT_SHA="$(git rev-parse HEAD)" # big commit
 export GIT_SHORT_SHA="${GIT_COMMIT_SHA:0:7}" # first 7 chars: Riccardo reproducing what CB does for me.
 export APP_VERSION="$(cat VERSION)"
 #export APP_VERSION_LATEST="latest"
-export MESSAGGIO_OCCASIONALE="${MESSAGGIO_OCCASIONALE:-MsgOcc Non datur in MAGIC}"
+#export MESSAGGIO_OCCASIONALE="${MESSAGGIO_OCCASIONALE:-MsgOcc Non datur in MAGIC}"
+export MESSAGGIO_OCCASIONALE="MsgOcc Non datur in MAGIC"
 export RAILS_MASTER_KEY="${RAILS_MASTER_KEY:-foobarbaz}"
 export BUCKET="${BUCKET:-bucket-non-datur}"
 # Change AppName if deployed from Carlessian computer
