@@ -3,6 +3,9 @@
 
 This is a News Slurper that takes News in real time and - hopefully - feeds an LLM with RAG knowledge.
 
+* Session: https://sessionize.com/app/speaker/session/621013
+* Slides: TODO
+
 ## Description
 
 How can we get an LLM to be updated to today’s news?
