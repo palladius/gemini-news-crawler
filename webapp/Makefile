@@ -62,6 +62,8 @@ cloud-deploy-setup:
 # My MASTER)_KEY is in ENV now.
 credentials-edit:
 	bin/rails credentials:edit -e production
+credentials-edit-dev:
+	bin/rails credentials:edit -e development
 
 
 build: docker-build
