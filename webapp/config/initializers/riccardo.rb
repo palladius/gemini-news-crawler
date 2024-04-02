@@ -5,16 +5,14 @@ APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 Rails.application.configure do
 
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
-  # Enable DNS rebinding protection and other `Host` header attacks.
-  config.hosts << [
-    "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app",     # Allow requests from example.com
-    /gemini-news-crawler.*\.run\.app/,
-     "localhost:3000",
-    # Allow requests from subdomains like `www.example.com`
-  ]
+  config.hosts << "gemini-news-crawler-manhouse-dev-x42ijqglgq-ew.a.run.app"
+  config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"    # Allow requests from example.com
+  config.hosts << /gemini-news-crawler.*\.run\.app/
+  config.hosts << "localhost:3000"
+  config.hosts << "localhost:8080"
   # Skip DNS rebinding protection for the default health check endpoint.
   #config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
-  config.host_authorization = { exclude: ->(request) { request.path == "/statusz" } }
+  #config.host_authorization = { exclude: ->(request) { request.path == "/statusz" } }
 end
 
 ######### Ciao da Riccardo
