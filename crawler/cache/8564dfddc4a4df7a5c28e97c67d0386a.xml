@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Tue, 02 Apr 2024 10:01:53 -0400</pubDate>
-<lastBuildDate>Tue, 02 Apr 2024 10:01:53 -0400</lastBuildDate>
+<pubDate>Wed, 03 Apr 2024 06:01:30 -0400</pubDate>
+<lastBuildDate>Wed, 03 Apr 2024 06:01:30 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,56 @@
 <link>http://online.wsj.com</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Google Is More Resilient Than Its AI Stumbles Imply</title>
+<link>https://www.wsj.com/articles/google-is-more-resilient-than-its-ai-stumbles-imply-2fefab8b?mod=rss_markets_main</link>
+<description><![CDATA[Google’s stock has lagged behind other tech giants even as its search business proves resilient to AI incursions.]]></description>
+<content:encoded/>
+<pubDate>Wed, 03 Apr 2024 06:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001678019</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Lender Blue Owl Capital Pushes Into Insurance</title>
+<link>https://www.wsj.com/articles/private-lender-blue-owl-pushes-into-insurance-19a5a3f0?mod=rss_markets_main</link>
+<description><![CDATA[One of Wall Street’s fastest-growing firms is buying Kuvare Asset Management in a deal that will boost assets under management by $20 billion.]]></description>
+<content:encoded/>
+<pubDate>Wed, 03 Apr 2024 00:01:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675795</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
+</item>
+<item>
+<title>How to Lower Your Tax Bill With the Charitable-Donation Deduction</title>
+<link>https://www.wsj.com/articles/taxes-deductible-charity-donations-2024-guide-f2aad5e2?mod=rss_markets_main</link>
+<description><![CDATA[Getting a tax break for contributions to charity often requires careful planning.]]></description>
+<content:encoded/>
+<pubDate>Tue, 02 Apr 2024 17:03:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001459020</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
+</item>
+<item>
+<title>Renewed Inflation Fears Drive Stocks Lower</title>
+<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-04-02-2024-41d94c34?mod=rss_markets_main</link>
+<description><![CDATA[Rising commodity prices are clouding the interest-rate outlook.]]></description>
+<content:encoded/>
+<pubDate>Tue, 02 Apr 2024 16:42:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001677868</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Today's Markets</wsj:articletype>
+</item>
+<item>
+<title>Tax Guide 2024: Electric-Vehicle Tax Credits</title>
+<link>https://www.wsj.com/articles/ev-federal-tax-credit-guide-ea2dde01?mod=rss_markets_main</link>
+<description><![CDATA[A guide on the changing rules for federal tax credits for buying electric vehicles and home chargers.]]></description>
+<content:encoded/>
+<pubDate>Tue, 02 Apr 2024 16:17:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001473092</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Personal Finance</wsj:articletype>
+</item>
 <item>
 <title>Medicare Keeps Getting Tougher for Health Insurers</title>
 <link>https://www.wsj.com/articles/medicare-keeps-getting-tougher-for-health-insurers-52f6ad26?mod=rss_markets_main</link>
@@ -67,16 +117,6 @@
 <wsj:articletype>Markets Main</wsj:articletype>
 </item>
 <item>
-<title>Bitcoin Is Soaring This Year. Goldman's Crypto Skeptic Isn't Biting.</title>
-<link>https://www.wsj.com/articles/bitcoin-price-goldman-01189443?mod=rss_markets_main</link>
-<description><![CDATA[Sharmin Mossavar-Rahmani is known for her blunt opinions and bitcoin skepticism.]]></description>
-<content:encoded/>
-<pubDate>Tue, 02 Apr 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001675281</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
-</item>
-<item>
 <title>Regulator Probes BlackRock and Vanguard Over Huge Stakes in U.S. Banks</title>
 <link>https://www.wsj.com/articles/regulator-probes-blackrock-and-vanguard-over-huge-stakes-in-u-s-banks-b9f58619?mod=rss_markets_main</link>
 <description><![CDATA[The FDIC is scrutinizing whether the index-fund giants are sticking to passive roles when it comes to their investments in U.S. banks.]]></description>
@@ -85,6 +125,16 @@
 <guid isPermaLink="false">WP-WSJ-0001676118</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Financial Regulation</wsj:articletype>
+</item>
+<item>
+<title>Bitcoin Is Soaring This Year. Goldman's Crypto Skeptic Isn't Biting.</title>
+<link>https://www.wsj.com/articles/bitcoin-price-goldman-01189443?mod=rss_markets_main</link>
+<description><![CDATA[Sharmin Mossavar-Rahmani is known for her blunt opinions and bitcoin skepticism.]]></description>
+<content:encoded/>
+<pubDate>Tue, 02 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001675281</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
 </item>
 <item>
 <title>Yen Intervention Risk Is Rising, but Effects Could Be Short-Lived</title>
@@ -165,56 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001666743</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Tax Report</wsj:articletype>
-</item>
-<item>
-<title>Baltimore Bridge Collapse Could Fuel Reinsurance Pricing</title>
-<link>https://www.wsj.com/articles/baltimore-bridge-collapse-could-fuel-reinsurance-pricing-e2db34fc?mod=rss_markets_main</link>
-<description><![CDATA[The cost of insuring against extreme risks has been rising, and the complexity of covering Baltimore’s tragedy may further that.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 07:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001672036</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Don't Count Samsung Out in the AI Memory Stakes</title>
-<link>https://www.wsj.com/articles/dont-count-samsung-out-in-the-ai-memory-stakes-5d06cd76?mod=rss_markets_main</link>
-<description><![CDATA[Chip makers SK Hynix and Micron have gained, but Samsung’s financial and tech capacity are ready to shine.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 06:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001668861</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>This Disney War Has Already Paid Off</title>
-<link>https://www.wsj.com/articles/this-disney-war-has-already-paid-off-8105ed5a?mod=rss_markets_main</link>
-<description><![CDATA[The stock price has jumped after many shareholder-friendly changes—without adding rancor to the company’s board.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 06:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001674217</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Inside the Russian Shadow Trade for Weapons Parts, Fueled by Crypto</title>
-<link>https://www.wsj.com/articles/crypto-fuelsrussian-shadow-trade-for-weapons-parts-1bfdc1a1?mod=rss_markets_main</link>
-<description><![CDATA[How Russian middlemen used the cryptocurrency tether to avoid U.S. sanctions and procure parts for drones and high-tech weapons.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 00:08:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001667624</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Crypto</wsj:articletype>
-</item>
-<item>
-<title>The Stock Market's Magnificent Seven Is Now the Fab Four</title>
-<link>https://www.wsj.com/articles/the-stock-markets-magnificent-seven-is-now-the-fab-four-2dff87ac?mod=rss_markets_main</link>
-<description><![CDATA[Some investors say it is a bullish signal that the market is rallying without the likes of Apple and Tesla because it means other groups are taking part.]]></description>
-<content:encoded/>
-<pubDate>Mon, 01 Apr 2024 00:07:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001670595</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
 </item>
 </channel>
 </rss>

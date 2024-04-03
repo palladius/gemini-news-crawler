@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/science_and_environment</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Apr 2024 19:48:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Apr 2024 11:00:33 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -28,7 +28,7 @@
             <link>https://www.bbc.co.uk/news/science-environment-68658875</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68658875#0</guid>
             <pubDate>Fri, 29 Mar 2024 00:48:56 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5E7E/production/_133009142_464592.jpg"/>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3DA0/production/_133067751_464592.jpg"/>
         </item>
         <item>
             <title><![CDATA[E-waste drawers of doom growing, say campaigners]]></title>
@@ -111,12 +111,28 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28A1/production/_132410401_mediaitem132410400.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Solar eclipse spectacle set to grip North America again]]></title>
+            <description><![CDATA[How lucky is that? The US will witness its second total solar eclipse in seven years on 8 April.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68597945</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68597945#2</guid>
+            <pubDate>Fri, 22 Mar 2024 06:09:51 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1759D/production/_132954659_gettyimages-836246380.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Elon Musk's Starship goes 'farther than ever']]></title>
             <description><![CDATA[The world's most powerful rocket makes a huge leap in progress in its third test flight.]]></description>
             <link>https://www.bbc.co.uk/news/science-environment-68547482</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68547482#2</guid>
             <pubDate>Thu, 14 Mar 2024 16:17:23 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C9D8/production/_132927615_f8136fee63b0a6b682ee0ff46156d31b569c26fd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[UK firm's 4K video cameras head to space station]]></title>
+            <description><![CDATA[London company SEN's ultra high-definition cameras intend to stream spectacular views of Earth.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68579681</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68579681#2</guid>
+            <pubDate>Thu, 21 Mar 2024 22:52:47 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10B5B/production/_132934486_namibia.jpg"/>
         </item>
         <item>
             <title><![CDATA[University proud of space station astronaut]]></title>
@@ -133,22 +149,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68406880#2</guid>
             <pubDate>Tue, 27 Feb 2024 00:25:33 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7CFB/production/_109959913_p07wl82h.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Pioneering European satellite burns up over Pacific]]></title>
-            <description><![CDATA[The veteran ERS-2 Earth observation spacecraft dives to destruction 2,000km west of California.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-68318273</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68318273#2</guid>
-            <pubDate>Wed, 21 Feb 2024 20:18:31 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/111D0/production/_132669007_ers_esa.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Moon lander pictured on its side with snapped leg]]></title>
-            <description><![CDATA[The Odysseus robot broke a leg on touchdown but continued to stream data back to Earth]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-68425211</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68425211#2</guid>
-            <pubDate>Wed, 28 Feb 2024 19:23:24 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A0E2/production/_132768114_index1.jpg"/>
         </item>
     </channel>
 </rss>

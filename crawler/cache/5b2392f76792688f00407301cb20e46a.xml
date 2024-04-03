@@ -14,9 +14,189 @@
     <id>tag:google.com,2016:gcp-release-notes#April_02_2024</id>
     <updated>2024-04-02T00:00:00-07:00</updated>
     <link rel="alternate" href="https://cloud.google.com/release-notes#April_02_2024"/>
-    <content type="html"><![CDATA[<strong class="release-note-product-title">Dataform</strong>
+    <content type="html"><![CDATA[<strong class="release-note-product-title">AlloyDB for PostgreSQL</strong>
+<h3>Feature</h3>
+<p>AlloyDB Studio is now generally available (<a href="https://cloud.google.com/products#product-launch-stages">GA</a>). AlloyDB Studio includes an <strong>Explorer</strong> pane that integrates with an enhanced query editor, letting you browse, query, and modify your AlloyDB databases with this single interface. For more information, see <a href="https://cloud.google.com/alloydb/docs/manage-data-using-studio">Manage your data using AlloyDB Studio</a>. </p>
+<strong class="release-note-product-title">Apigee X</strong>
+<h3>Announcement</h3>
+<p>On April 2, 2024, we announced an increase in the rate limits for the <a href="https://cloud.google.com/apigee/docs/api-platform/reference/policies/spike-arrest-policy">Spike Arrest</a> policy.</p>
+
+<p>The limit on the rate you can specify increased from 1,000 requests per second, 60,000 requests per minute to 4,000 requests per second, 240,000 requests per minute.</p>
+
+<p>See the <a href="https://cloud.google.com/apigee/docs/api-platform/reference/limits#spikearrest">Spike Arrest section of the Limits page</a> for information on Spike Arrest limits.</p>
+<strong class="release-note-product-title">Artifact Registry</strong>
+<h3>Feature</h3>
+<p>Artifact Analysis automatic scanning for Ruby, Rust, .NET and PHP vulnerabilities in container images is now <a href="https://cloud.google.com/products/#product-launch-stages">generally available</a>. If the Container Scanning API is enabled, it scans container images pushed to Artifact Registry for Ruby, Rust, .NET and PHP vulnerabilities, in addition to already supported operating system and language package vulnerabilities.</p>
+
+<p>Artifact Analysis returns Ruby, Rust, .NET and PHP vulnerability results for images that have a <a href="https://cloud.google.com/artifact-analysis/docs/container-scanning-overview#feature-support">supported</a> or unsupported operating system. When you push new versions of images to the registry, you might see more successful vulnerability scans against images without a supported operating system.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/artifact-analysis/docs/container-scanning-overview">Container scanning overview</a>.</p>
+<strong class="release-note-product-title">BigQuery</strong>
+<h3>Feature</h3>
+<p>The following BigQuery ML features are now in
+<a href="https://cloud.google.com/products/#product-launch-stages">preview</a>:</p>
+
+<ul>
+<li>Performing
+<a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-remote-model#supervised_tuning">supervised tuning</a>
+on a remote model based on a
+<a href="https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#palm-models">Vertex AI <code>text-bison</code> large language model (LLM)</a>.</li>
+<li>Evaluate a Vertex AI LLM using the
+<a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-evaluate"><code>ML.EVALUATE</code> function</a>.
+Pre-trained
+<a href="https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models"><code>text-bison</code>, <code>text unicorn</code>, or <code>gemini-pro</code></a>
+models and tuned <code>text-bison</code> models are supported for evaluation.</li>
+</ul>
+
+<p>Try tuning and evaluating an LLM with the
+<a href="https://cloud.google.com/bigquery/docs/generate-text-tuning">Customize an LLM by using supervised fine tuning</a>
+how-to topic.</p>
+<strong class="release-note-product-title">Cloud SQL for MySQL</strong>
+<h3>Feature</h3>
+<p>You can now scale up the compute size (vCPU, memory) of a <a href="https://cloud.google.com/sql/docs/mysql/editions-intro">Cloud SQL Enterprise Plus edition</a> primary instance with near-zero downtime.</p>
+<strong class="release-note-product-title">Cloud SQL for PostgreSQL</strong>
+<h3>Changed</h3>
+<p>Version 0.6.0 of the <code>pgvector</code> extension that&#39;s listed in the <a href="https://cloud.google.com/sql/docs/postgres/release-notes#March_27_2024">March 27</a> release note isn&#39;t available yet. Use version 0.5.1 of this extension.</p>
+<h3>Feature</h3>
+<p>You can now scale up the compute size (vCPU, memory) of a <a href="https://cloud.google.com/sql/docs/postgres/editions-intro">Cloud SQL Enterprise Plus edition</a> primary instance with near-zero downtime.</p>
+<strong class="release-note-product-title">Cloud SQL for SQL Server</strong>
+<h3>Feature</h3>
+<p>You can now use SSL mode instead of the legacy <code>require_ssl</code> setting to specify the encryption requirements for connections to your Cloud SQL for SQL Server instances. For more information, see <a href="https://cloud.google.com/sql/docs/sqlserver/configure-ssl-instance#enforcing-ssl">Enforce SSL/TLS encryption</a>.</p>
+<strong class="release-note-product-title">Dataform</strong>
 <h3>Feature</h3>
 <p>You can now use Customer-Managed Encryption Keys (CMEK) to protect repositories in Dataform. CMEK in Dataform is available in <a href="https://cloud.google.com/products#product-launch-stages">preview</a>. For more information, see <a href="https://cloud.google.com/dataform/docs/cmek">Use customer-managed encryption keys</a>.</p>
+<strong class="release-note-product-title">Dialogflow</strong>
+<h3>Feature</h3>
+<p>Dialogflow CX: <a href="https://cloud.google.com/dialogflow/cx/docs/concept/call-companion">Call companion</a> is now generally available with new <a href="https://cloud.google.com/dialogflow/cx/docs/concept/call-companion#settings">user interface settings</a>.</p>
+<h3>Feature</h3>
+<p>Dialogflow CX: <a href="https://cloud.google.com/dialogflow/cx/docs/concept/integration/phone-gateway">Dialogflow CX phone gateway</a> is now generally available.</p>
+<h3>Feature</h3>
+<p>Vertex AI Conversation: Data stores now support <a href="https://cloud.google.com/dialogflow/vertex/docs/concept/data-store#parse-chunk">parse and chunk configuration</a>.</p>
+<strong class="release-note-product-title">Document AI</strong>
+<h3>Feature</h3>
+<p>Fine tuning generative AI models within the Custom Extractor is now supported in GA. For more information, see <a href="https://cloud.google.com/document-ai/docs/processors-list#custom_processors">custom processors</a> and <a href="https://cloud.google.com/document-ai/pricing#fine-tuning-charges">fine tuning pricing</a>.</p>
+<strong class="release-note-product-title">Eventarc</strong>
+<h3>Feature</h3>
+<p>Eventarc support for <a href="https://cloud.google.com/eventarc/docs/targets#triggers">creating triggers</a> for <a href="https://cloud.google.com/eventarc/docs/reference/supported-events#cloud-deploy">direct events from Cloud Deploy</a> is generally available (<a href="https://cloud.google.com/products#product-launch-stages">GA</a>).</p>
+<strong class="release-note-product-title">Generative AI on Vertex AI</strong>
+<h3>Feature</h3>
+<p><a href="https://console.cloud.google.com/vertex-ai/model-garden">Model Garden</a> supports all <a href="https://huggingface.co/docs/text-generation-inference/en/index">Text Generation Inference</a> supported models in <a href="https://huggingface.co/">HuggingFace</a>:</p>
+
+<ul>
+<li>Verified deployment settings for about 400 Hugging Face text generation models (including <a href="https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemma-7b-it;action=deploy;hfSource=true">google/gemma-7b-it</a>, <a href="https://console.cloud.google.com/vertex-ai/publishers/meta-llama/model-garden/Llama-2-7b-chat-hf;action=deploy;hfSource=true">meta-llama/Llama-2-7b-chat-hf</a>, and <a href="https://console.cloud.google.com/vertex-ai/publishers/mistralai/model-garden/Mistral-7B-v0.1;action=deploy;hfSource=true">mistralai/Mistral-7B-v0.1</a>).</li>
+<li>Other Hugging Face text generation models have unverified deployment settings that are auto generated.</li>
+</ul>
+<strong class="release-note-product-title">Google Kubernetes Engine</strong>
+<h3>Feature</h3>
+<p>Observability for Google Kubernetes Engine: Added a dashboard for Tensor Processing Unit (TPU) metrics on the Observability tab of both the cluster listing and cluster details pages for GKE clusters. The charts on this dashboard are populated with data only if the cluster <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/tpus">has TPU nodes</a> and <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/configure-metrics#system-metrics">GKE system metrics</a> is enabled. For more information, see <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/view-observability-metrics">View observability metrics</a>.</p>
+<strong class="release-note-product-title">Looker Studio</strong>
+<h3>Breaking</h3>
+<p><strong>Search Ads 360 connector deprecation</strong></p>
+
+<p>After April 30, 2024, you will no longer be able to create new reports from this connector. Please start using the <a href="https://support.google.com/looker-studio/answer/11601902">New Search Ads 360 connector</a>.</p>
+
+<p>To learn more about this change, read the <a href="https://support.google.com/looker-studio/answer/9091956">Connect to Search Ads 360 (deprecated)</a> Help Center article.</p>
+<strong class="release-note-product-title">SAP on Google Cloud</strong>
+<h3>Announcement</h3>
+<p><strong>ABAP SDK for Google Cloud version v1.6</strong></p>
+
+<p>Version 1.6 of the ABAP SDK for Google Cloud is generally available (GA). This version brings in expanded support for more Google Cloud APIs, including support for multi-modal LLMs such as Gemini, SDK feature enhancements, and bug fixes.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/solutions/sap/docs/abap-sdk/whats-new">What&#39;s new with the ABAP SDK for Google Cloud</a>.</p>
+<strong class="release-note-product-title">Security Command Center</strong>
+<h3>Feature</h3>
+<p><strong>Enterprise tier released to General Availability</strong></p>
+
+<p>The Enterprise tier, which transforms Security Command Center into a cloud-native application protection platform (CNAPP) that combines cloud security and enterprise security operations with multicloud support, is released to <a href="https://cloud.google.com/products#product-launch-stages">General Availability</a>.</p>
+
+<p>The following features and capabilities of the Enterprise tier are new to Security Command Center:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview#multicloud_support_secure_your_deployments_on_other_cloud_platforms">Multicloud support</a>: You can now connect Security Command Center to Amazon Web Services for the following capabilities:
+<ul>
+<li>Detect threats and vulnerabilities</li>
+<li>Assess the risk exposure of your high-value AWS resources</li>
+<li>Assess compliance with <a href="https://cloud.google.com/security-command-center/docs/compliance-management#security-standards-supported-on-aws">security standards</a></li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/scce-consoles-overview#secops-console">A new Security Operations console</a> for global security operations tasks</li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview#enterprise_tier_functions_and_services_summary">SIEM and SOAR capabilities for security operations</a>
+<ul>
+<li>Security investigation and event management (SIEM) capabilities:
+<ul>
+<li>Ingest and normalize logs from Google Cloud, AWS, Security Command Center findings, and resource metadata from multiple sources</li>
+<li>Detect the most important cloud threats with curated threat detection</li>
+<li>Search across consolidated SIEM data</li>
+</ul></li>
+<li>Security operations and response (SOAR) capabilities:
+<ul>
+<li>Manage detections, investigations, and responses with cases</li>
+<li>Automate response workflows with playbooks</li>
+<li>Focus on posture and threat findings with dedicated views in the Security Operations console</li>
+<li>Integrate with IT service management products, such as Jira and ServiceNow, for posture management</li>
+<li>Search across consolidated SOAR data</li>
+</ul></li>
+</ul></li>
+<li>The following attack exposure scoring features are in General Availability:
+<ul>
+<li><a href="https://cloud.google.com/security-command-center/docs/attack-exposure-learn#resources_that_receive_attack_exposure_scores">Attack exposure scores now calculated for high-value resources</a></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/finding-severity-classifications#variable-severities-by-risk-score">Severities of vulnerability findings can vary to align with attack exposure scores</a></li>
+<li>Optional <a href="https://cloud.google.com/security-command-center/docs/attack-exposure-learn#priority-values-auto-by-data-sensitivity">automated assignment of resource values with Sensitive Data Protection</a></li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview#manage-vulnerabilities">Vulnerability and misconfiguration detections</a>
+<ul>
+<li>Security Health Analytics includes the following enhancements:
+<ul>
+<li>New misconfiguration detectors for AWS resources</li>
+<li>Detectors are mapped to new security standards</li>
+</ul></li>
+<li>You can now manage the remediation of critical and high severity vulnerability and misconfiguration findings using cases that are automatically opened for you.</li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview#manage-threats">Threat detection and investigation</a>
+<ul>
+<li>Detect threats in your AWS deployments</li>
+<li>Investigate and respond to incidents with SIEM-like capabilities across 90 days of cloud logs</li>
+<li>Manage the investigation of and response to threats by using cases</li>
+<li>Define response workflows and automated actions in response to threats by using playbooks</li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-sources#mandiant-asm">Mandiant Attack Surface Management integration</a>
+<ul>
+<li>Mandiant Attack Surface Management scans your external attack surfaces to identify  vulnerability and misconfiguration findings</li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-sources#dlp">Sensitive Data Protection integration</a>
+<ul>
+<li>The <strong>Risk overview</strong> page of Security Command Center in the Google Cloud console now shows data security findings from the Sensitive Data Protection discovery service</li>
+<li>Findings from Sensitive Data Protection that indicate the sensitivity and data risk levels of your data can inform the automated assignment of resource values for the attack path simulation feature</li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview#ai-features">Gemini artificial intelligence features</a>
+<ul>
+<li>Natural language search for threat findings    </li>
+<li>AI investigation widget for cases</li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/compliance-management">Compliance, security standards</a>
+<ul>
+<li>Support for AWS security standards</li>
+</ul></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/validate-iac">Validate infrastructure as code (IaC)</a> against organization policies and Security Health Analytics detectors.
+The IaC validation feature lets you determine whether your new or modified resource definitions violate the existing policies that are applied to your Google Cloud resources.</li>
+<li><a href="https://cloud.google.com/security-command-center/docs/integrate-aoss-with-scc">Integration with Assured Open Source Software</a>
+The paid tier of Assured OSS is included with your Enterprise tier license, so that you can enhance your code security by using the open source software packages that Google uses for its own developer workflows.</li>
+</ul>
+<h3>Breaking</h3>
+<p><strong>With the Enterprise tier, severity levels of certain findings are now variable</strong></p>
+
+<p>In the Enterprise tier of Security Command Center, the default severity level of an active vulnerability or misconfiguration finding can change if the finding&#39;s attack exposure score changes. If you are a user of the Premium tier and you upgrade to the Enterprise tier, check any automated or manual procedures that rely on the value of the <code>severity</code> property to ensure that they can support a variable severity value.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/security-command-center/docs/finding-severity-classifications#variable-severities-by-risk-score">Severities that vary based on attack exposure score</a>.</p>
+<strong class="release-note-product-title">Sensitive Data Protection</strong>
+<h3>Announcement</h3>
+<p>If you opted to publish your data profiles to Security Command Center, you can configure Security Command Center to prioritize resources automatically according to the sensitivity of the data that the resources contain. For more information, see <a href="https://cloud.google.com/security-command-center/docs/attack-exposure-learn#priority-values-auto-by-data-sensitivity">Set resource priority values automatically by data sensitivity</a>.</p>
+
+<p>If your discovery scan configuration isn&#39;t set to publish data profiles to Security Command Center, see <a href="https://cloud.google.com/sensitive-data-protection/docs/send-profiles-to-scc#edit-config">Enable publishing to Security Command Center in an existing configuration</a>.</p>
+<strong class="release-note-product-title">Service Extensions</strong>
+<h3>Announcement</h3>
+<p>Service Extensions is <strong>Generally Available</strong> for callout extensions for <a href="https://cloud.google.com/service-extensions/docs/callouts-overview#supported-lbs">most Google Cloud Application Load Balancers</a>.</p>
+
+<p>You can also <a href="https://cloud.google.com/service-extensions/docs/configure-callout">configure Cloud Load Balancing callout extensions</a> by using the Console.</p>
 ]]>
     </content>
   </entry>
@@ -129,6 +309,45 @@
 <p>BigQuery Studio is now available in the <a href="https://cloud.google.com/bigquery/docs/locations#bqstudio-loc">South Carolina (us-east1) region</a> to manage versions of code assets such as notebooks and saved queries.</p>
 <h3>Feature</h3>
 <p>The <a href="https://cloud.google.com/bigquery/docs/search-ads-transfer">BigQuery Data Transfer Service for Search Ads 360</a> now supports the new <a href="https://developers.google.com/search-ads/reporting/overview">Search Ads 360 Reporting API</a>. You can use the Search Ads 360 connector to specify custom Floodlight variables and custom columns when transferring Search Ads 360 data to BigQuery. This feature is now <a href="https://cloud.google.com/products/#product-launch-stages">generally available</a> (GA).</p>
+<strong class="release-note-product-title">Bigtable</strong>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-bigtable" class="external">Changes for <a href="https://github.com/googleapis/java-bigtable">google-cloud-bigtable</a></h3>
+
+<h4 id="2370_2024-03-27"><a href="https://github.com/googleapis/java-bigtable/compare/v2.36.0...v2.37.0" target="_blank" rel="noreferrer noopener" class="external">2.37.0</a> (2024-03-27)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li>Add admin APIs for AuthorizedView (<a href="https://github.com/googleapis/java-bigtable/issues/2175" target="_blank" rel="noreferrer noopener" class="external">#2175</a>) (<a href="https://github.com/googleapis/java-bigtable/commit/13d1df3910e3041b57485a09317f717932b21727" target="_blank" rel="noreferrer noopener" class="external">13d1df3</a>)</li>
+<li>Support AuthorizedView in bigtable data client  (<a href="https://github.com/googleapis/java-bigtable/issues/2177" target="_blank" rel="noreferrer noopener" class="external">#2177</a>) (<a href="https://github.com/googleapis/java-bigtable/commit/4b255d0160b0ea30a4ab6453ccae278f40d32ee2" target="_blank" rel="noreferrer noopener" class="external">4b255d0</a>)</li>
+</ul>
+
+<h5 id="bug_fixes">Bug Fixes</h5>
+
+<ul>
+<li>Update the accounting of partial batch mutations (<a href="https://github.com/googleapis/java-bigtable/issues/2149" target="_blank" rel="noreferrer noopener" class="external">#2149</a>) (<a href="https://github.com/googleapis/java-bigtable/commit/4158094c34c85b1540197256f98e8880962fb13d" target="_blank" rel="noreferrer noopener" class="external">4158094</a>)</li>
+</ul>
+
+<h5 id="dependencies">Dependencies</h5>
+
+<ul>
+<li>Update shared dependencies (<a href="https://github.com/googleapis/java-bigtable/issues/2174" target="_blank" rel="noreferrer noopener" class="external">#2174</a>) (<a href="https://github.com/googleapis/java-bigtable/commit/f313f1410f28df15438d83acaa74b715c752abdd" target="_blank" rel="noreferrer noopener" class="external">f313f14</a>)</li>
+</ul></section>
+</div>
+<strong class="release-note-product-title">Carbon Footprint</strong>
+<h3>Feature</h3>
+<p>Scope 2 market-based emissions data is now launched in Preview. This metric represents purchased electricity, incorporating Google&#39;s annual renewable energy purchases. Scope 2 emissions on this page are estimated using annual emissions factors from government sources (IEA, EPA &amp; AIB). You can <a href="https://cloud.google.com/carbon-footprint/docs/methodology#market-based-allocation">learn more here</a> about the methodology and the difference between location-based and market-based emission metrics.</p>
+
+<p>Scope 2 market-based emissions data is available only from January 2023 onwards and can be accessed in:</p>
+
+<ul>
+<li><p>The <a href="https://console.cloud.google.com/carbon">console Dashboard</a> on the <strong>Market-based emissions</strong> <a href="https://cloud.google.com/carbon-footprint/docs/view-carbon-data#market-based-location-based">tab</a>, and</p></li>
+<li><p>The <a href="https://cloud.google.com/carbon-footprint/docs/export">BigQuery export</a> as field <code>carbon_footprint_kgCO2e.scope2.market_based</code> in the <a href="https://cloud.google.com/carbon-footprint/docs/data-schema">export data schema</a>. </p></li>
+</ul>
+
+<p>Please note that data already <a href="https://cloud.google.com/carbon-footprint/docs/export">exported to BigQuery</a> for previous months will still have Scope 2 market-based emissions data as NULL in your exported tables. To see the newly-released market-based data, <a href="https://cloud.google.com/bigquery/docs/working-with-transfers#manually_trigger_a_transfer_or_backfill">schedule a manual data backfill</a> for the desired time period. Note that there is a half-month lag of our data release. For example, to backfill January and February 2023 data, run the backfill for February 15, 2023 and March 15, 2023, which will update the data for January and February 2023 in your BigQuery table.</p>
 <strong class="release-note-product-title">Cloud Load Balancing</strong>
 <h3>Feature</h3>
 <p>You can now configure advanced traffic management using <em>flexible pattern matching</em>. This feature allows you to use wildcard syntax anywhere in your path matcher configuration. You can use this feature to customize origin routing for different types of traffic and request and response behaviors. In addition, you can now use results from your pattern matching to rewrite the path that is sent to the origin.</p>
@@ -181,6 +400,157 @@
 </div>
 <h3>Feature</h3>
 <p>Google Cloud Storage now offers Dual-region Google Egress Bandwidth quotas per dual-region location. See <a href="https://cloud.google.com/storage/docs/bandwidth-usage">Bandwidth usage in Cloud Storage</a>.</p>
+<strong class="release-note-product-title">Container Optimized OS</strong>
+<h3>Changed</h3>
+<h3 id="cos-dev-117-18342-0-0_">cos-dev-117-18342-0-0 <a id="cos-arm64-dev-117-18342-0-0"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/d73be6b341a42c313a617f487dbaeeea9aece079
+">COS-6.1.83</a></td>
+    <td>v24.0.9</td>
+    <td>v1.7.10</td>
+    <td>v535.161.07(default),v550.54.14(latest),v470.239.06(R470 for compatibility with K80 GPUs)</td>
+  </tr>
+</table>
+<h3>Changed</h3>
+<p>Upgraded app-admin/google-guest-configs to v20240307.00.</p>
+<h3>Changed</h3>
+<p>Upgraded localtoast to v1.1.7 and opted out of
+logging-service-running benchmark by default for cis-level2.</p>
+<h3>Changed</h3>
+<p>Upgraded app-containers/cni-plugins to v1.4.1.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/node-problem-detector to v0.8.17.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/google-osconfig-agent to v20240320.00.</p>
+<h3>Changed</h3>
+<p>Upgraded app-containers/docker, app-containers/docker-test and app-containers/docker-cli to v24.0.9.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/google-guest-agent to v20240314.00.</p>
+<h3>Changed</h3>
+<p>Update app-containers/nvidia-container-toolkit to v1.14.6.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/debugd-client to v0.0.1-r2662.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/vm_protos to v0.0.1-r563.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/chromeos-common-script to v0.0.1-r613.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/power_manager-client to v0.0.1-r2889.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/shill-client to v0.0.1-r4408.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/update_engine-client to v0.0.1-r2404.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/session_manager-client to v0.0.1-r2753.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/hiberman-client to v0.0.1-r470.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/chromeos-dbus-bindings to v0.0.1-r2788.</p>
+<h3>Changed</h3>
+<p>Upgraded chromeos-base/chromeos-common-script to v0.0.1-r610.</p>
+<h3>Changed</h3>
+<p>Upgraded app-benchmarks/bootchart to v0.9.2-r5.</p>
+<h3>Changed</h3>
+<p>Updated the Linux kernel to v6.1.83.</p>
+<h3>Feature</h3>
+<p>Added NVIDIA GPU drivers R550 branch and update latest to
+550.54.14.</p>
+<h3>Fixed</h3>
+<p>Fixed a bug in google-guest-agent service enablement.</p>
+<h3>Changed</h3>
+<p>Downgraded app-misc/ca-certificates to v20230311.3.96.1.</p>
+<h3>Changed</h3>
+<h3 id="cos-109-17800-147-54_">cos-109-17800-147-54 <a id="cos-arm64-109-17800-147-54"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/769c8003ee85ac5fd89aea375db5f7b58a1ebce2
+">COS-6.1.75</a></td>
+    <td>v24.0.9</td>
+    <td>v1.7.13</td>
+    <td>v535.161.07(default),v550.54.14(latest),v470.239.06(R470 for compatibility with K80 GPUs)</td>
+  </tr>
+</table>
+<h3>Changed</h3>
+<p>Updated app-containers/nvidia-container-toolkit to v1.14.6.</p>
+<h3>Changed</h3>
+<p>Upgraded localtoast to v1.1.7 and opted out of
+logging-service-running benchmark by default for cis-level2.</p>
+<h3>Changed</h3>
+<p>Upgraded sys-apps/makedumpfile to v1.7.4.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/fluent-bit to v1.9.10.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/node-problem-detector to v0.8.17.</p>
+<h3>Changed</h3>
+<p>Upgraded net-misc/chrony to v4.5.</p>
+<h3>Feature</h3>
+<p>Added NVIDIA GPU drivers R550 branch and update latest to
+550.54.14.</p>
+<h3>Fixed</h3>
+<p>Fixed a bug in google-guest-agent service enablement.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26584 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26585 in the Linux kernel.</p>
+<h3>Changed</h3>
+<h3 id="cos-beta-113-18244-1-33_">cos-beta-113-18244-1-33 <a id="cos-arm64-beta-113-18244-1-33"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/2e207237ed731b20c6088fcf976a275d26a68754
+">COS-6.1.77</a></td>
+    <td>v24.0.9</td>
+    <td>v1.7.10</td>
+    <td>v535.161.07(default),v550.54.14(latest),v470.239.06(R470 for compatibility with K80 GPUs)</td>
+  </tr>
+</table>
+<h3>Changed</h3>
+<p>Update app-containers/nvidia-container-toolkit to v1.14.6.</p>
+<h3>Feature</h3>
+<p>Added NVIDIA GPU drivers R550 branch and update latest to
+550.54.14.</p>
+<h3>Changed</h3>
+<h3 id="cos-101-17162-386-59_">cos-101-17162-386-59 <a id="cos-arm64-101-17162-386-59"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/12a5314829cc84c90720b6f3223ff660a218ce95
+">COS-5.15.146</a></td>
+    <td>v20.10.24</td>
+    <td>v1.6.28</td>
+    <td>v470.239.06(default),v550.54.14(latest)</td>
+  </tr>
+</table>
+<h3>Feature</h3>
+<p>Added NVIDIA GPU drivers R550 branch and update latest to
+550.54.14.</p>
 <strong class="release-note-product-title">Dataproc Metastore</strong>
 <h3>Feature</h3>
 <p>Dataproc Metastore now supports <a href="https://cloud.google.com/dataproc-metastore/docs/managed-migration">managed migrations</a>. </p>
@@ -242,13 +612,70 @@
     <link rel="alternate" href="https://cloud.google.com/release-notes#March_29_2024"/>
     <content type="html"><![CDATA[<strong class="release-note-product-title">Apigee X</strong>
 <h3>Announcement</h3>
-<p>On March 29, 2024, we released an updated version of Apigee.</p>
+<p>On March 29, 2024, we released an updated version of Apigee (1-12-0-apigee-2).</p>
+<aside class="note"><strong>Note:</strong><span>  Rollouts of this release to production instances will begin within two business days and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.</span></aside>
 <h3>Feature</h3>
 <p>With this release, Apigee expanded its support for data residency to additional regions in the European Union. Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored. </p>
 
 <p>For more information, see <a href="https://cloud.google.com/apigee/docs/api-platform/get-started/drz-concepts">Introduction to data residency</a>.</p>
 
 <p>For a list of supported geographic locations, see <a href="https://cloud.google.com/apigee/docs/locations">Apigee locations</a>.</p>
+<h3>Feature</h3>
+<p><strong>New Apigee API Monitoring Metrics</strong></p>
+
+<p>An new suite of metrics for monitoring Apigee proxies and target endpoints is now available. With improved scalability and accuracy, the new suite can support large workloads and withstand underlying infrastructure changes. </p>
+
+<p>Apigee&#39;s <a href="https://cloud.google.com/apigee/docs/api-monitoring">API Monitoring</a> tables and dashboards have been updated to include the following new metrics, which can be used to <a href="https://cloud.google.com/apigee/docs/api-monitoring/alerts-notifications#metrics-and-filters">configure alerts</a> and <a href="https://cloud.google.com/monitoring/charts/dashboards#create-custom-dashboard">create custom dashboards</a>:</p>
+<pre class="prettyprint"><code>proxy/request_count
+proxy/response_count
+proxy/latencies
+target/request_count
+target/response_count
+target/latencies
+</code></pre>
+<h3>Fixed</h3>
+<table>
+<thead>
+<tr>
+<th>Bug ID</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>322843888</strong></td>
+<td><strong>Fixed issue with incorrect proxy routing when using base paths in proxy chaining.</strong></td>
+</tr>
+<tr>
+<td><strong>293933387</strong></td>
+<td><strong>KVM <code>list</code> operation now permits entries with <code>null</code> or empty values.</strong></td>
+</tr>
+<tr>
+<td><strong>239523766</strong></td>
+<td><strong>Removed <code>Unable to evaluate jsonVariable, returning null</code> error string from ExtractVariable Policy logging.</strong></td>
+</tr>
+<tr>
+<td><strong>285592278</strong></td>
+<td><strong>Fixed issue with deduction of recurring fees from prepaid balances.</strong></td>
+</tr>
+<tr>
+<td><strong>237656263</strong></td>
+<td><strong>Resolved issue with async mode in the ServiceCallout policy when the <code>&lt;Response&gt;</code> element is removed.</strong></td>
+</tr>
+<tr>
+<td><strong>321744310</strong></td>
+<td><strong>Added support for caching JSON results retrieved from the ExtractVariables policy.</strong></td>
+</tr>
+<tr>
+<td><strong>295341973</strong></td>
+<td><strong>Resolved issue causing delay in updating southbound SSL certificates in truststore and keystore references.</strong></td>
+</tr>
+</tbody>
+</table>
+<strong class="release-note-product-title">Chronicle</strong>
+<h3>Feature</h3>
+<p>Chronicle now supports <a href="https://cloud.google.com/chronicle/docs/ingestion/cloud/ingest-gcp-logs">direct ingestion</a> and parsing of <a href="https://cloud.google.com/firewall/docs/about-firewalls#firewall-plus">Google Cloud Next Generation Firewall (NGFW) Enterprise</a> logs.</p>
 <strong class="release-note-product-title">Chronicle SOAR</strong>
 <h3>Announcement</h3>
 <p>Release 6.2.52 is now in General Availability.</p>
@@ -277,6 +704,10 @@
 <p>Starting on April 17, 2024, the Dialogflow CX and Dialogflow ES traffic with audio will gradually route away from the classic <code>phone_call</code> speech model to the new conformer-based speech models for the following language tags: <code>en-au</code>, <code>en-gb</code>, <code>de</code>, <code>de-de</code>, <code>es</code>, <code>es-es</code>, <code>es-us</code>, <code>fr</code>, <code>fr-ca</code>, <code>fr-fr</code>, <code>it</code>, <code>it-it</code>, <code>ja</code>, <code>pt-br</code>. For more information, see <a href="https://cloud.google.com/dialogflow/es/docs/speech-model-migration-q2-2024">Dialogflow ES migration documentation</a> and <a href="https://cloud.google.com/dialogflow/cx/docs/concept/speech-model-migration-q2-2024">Dialogflow CX migration documentation</a>.</p>
 <h3>Feature</h3>
 <p>Dialogflow CX: You can now enable <a href="https://cloud.google.com/dialogflow/cx/docs/concept/agent#smart-endpointing">smart endpointing</a>.</p>
+<strong class="release-note-product-title">Generative AI on Vertex AI</strong>
+<h3>Changed</h3>
+<p>The MedLM-large model infrastructure has been upgraded to improve
+latency and stability. Responses from the model might be slightly different.</p>
 <strong class="release-note-product-title">Retail API</strong>
 <h3>Feature</h3>
 <p><strong>Vertex AI Retail Search: Search analytics v2 improvements</strong></p>
@@ -643,6 +1074,8 @@
 <li>2.2.11-debian12, 2.2.11-rocky9, 2.2.11-ubuntu22</li>
 </ul></li>
 </ul>
+
+<p><strong>Note: the above subminor image versions were rolled back on <a href="https://cloud.google.com/dataproc/docs/release-notes#April_02_2024">April 2, 2024</a></strong></p>
 <h3>Feature</h3>
 <p><strong>Dataproc on Compute Engine:</strong> New <a href="https://cloud.google.com/dataproc/docs/guides/hadoop-google-secret-manager-credential-provider">Hadoop Google Secret Manager Credential Provider</a> feature introduced in latest Dataproc on Compute Engine <a href="">2.0 image versions</a>.</p>
 <strong class="release-note-product-title">Google Cloud Architecture Center</strong>
@@ -1090,7 +1523,8 @@ for this release of GKE on VMware.</p>
     <content type="html"><![CDATA[<strong class="release-note-product-title">Apigee X</strong>
 <h3>Announcement</h3>
 <p>On March 26, 2024, we released an updated version of Apigee (1-12-0-apigee-1).</p>
-<aside class="note"><strong>Note:</strong><span>  Rollouts of this release to production instances will begin within two business days and may take four or more business days to be completed across all Google Cloud zones. Your instances may not have the features and fixes available until the rollout is complete.</span></aside>
+<aside class="note"><strong>Note:</strong><span> This release was rolled back to address an issue.
+See entry for <a href="https://cloud.google.com/apigee/docs/release-notes#March_29_2024">March 29, 2024</a> for the updated version number and payload.</span></aside>
 <h3>Feature</h3>
 <p><strong>New Apigee API Monitoring Metrics</strong></p>
 
@@ -2270,6 +2704,11 @@ CVE-2024-0727 and CVE-2023-6129.</p>
 <strong class="release-note-product-title">Bigtable</strong>
 <h3>Feature</h3>
 <p>You can now view Bigtable cost data with instance granularity in the Google Cloud Billing detailed export to BigQuery. For more information, see <a href="https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables/detailed-usage">Structure of detailed cost data export</a>.</p>
+<strong class="release-note-product-title">Cloud Healthcare API</strong>
+<h3>Announcement</h3>
+<p>A new release is available. This release may include some or all of the
+following: general performance improvements, bug fixes, and updates to the
+API reference documentation.</p>
 <strong class="release-note-product-title">Compute Engine</strong>
 <h3>Feature</h3>
 <p><strong>Generally available</strong>: In a managed instance group (MIG), you can set metadata and labels for all VMs in the group without the need to create a new instance template. For more information, see <a href="https://cloud.google.com/compute/docs/instance-groups/set-mig-aic">Override instance template properties with an all-instances configuration</a>.</p>
@@ -2925,6 +3364,8 @@ zones.</span></aside>
 </ul>
 <h3>Deprecated</h3>
 <p>Cloud Composer versions 2.1.10, 2.1.9, 1.20.10, and 1.20.9 have reached their <a href="https://cloud.google.com/composer/docs/concepts/versioning/composer-versioning-overview#version-deprecation-and-support">end of full support period</a>.</p>
+<h3>Changed</h3>
+<p>Cloud Composer 2.6.5 is a version with an extended upgrade timeline.</p>
 <strong class="release-note-product-title">Cloud Run</strong>
 <h3>Feature</h3>
 <p>You can now mount an NFS file share as a volume for Cloud Run <a href="https://cloud.google.com/run/docs/configuring/services/nfs-volume-mounts">services</a> and <a href="https://cloud.google.com/run/docs/configuring/jobs/nfs-volume-mounts">jobs</a>. (In Preview)</p>
@@ -3333,7 +3774,7 @@ tool</a> are failing to propagate their upload time to Artifact Registry, and in
 <p>For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-018">GCP-2024-018 security bulletin</a>.</p>
 <strong class="release-note-product-title">Identity and Access Management</strong>
 <h3>Changed</h3>
-<p>You can use the <a href="https://cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable-exposed-keys"><code>iam.serviceAccountKeyExposure</code> organization policy
+<p>You can use the <a href="https://cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable-exposed-keys"><code>iam.serviceAccountKeyExposureResponse</code> organization policy
 constraint</a> to help manage leaked service account credentials.</p>
 <strong class="release-note-product-title">Vertex AI Search and Conversation</strong>
 <h3>Feature</h3>

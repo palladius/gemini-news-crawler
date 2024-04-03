@@ -9,18 +9,58 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Apr 2024 19:48:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Apr 2024 11:00:25 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Child held after pupil shot dead at Finnish school]]></title>
-            <description><![CDATA[A shooting north of Helsinki leaves one child dead and a suspect aged 12 in custody, say police.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68712104</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68712104#0</guid>
-            <pubDate>Tue, 02 Apr 2024 14:48:42 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10FE6/production/_133060696_0f3143355a1447c7d93a12ec8fb1351cf3e250450_392_5120_28821000x563.jpg"/>
+            <title><![CDATA[Ukraine lowers combat call-up age to boost numbers]]></title>
+            <description><![CDATA[The move will allow Ukraine to call up more people after facing a reduction in volunteer fighters.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68719473</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68719473#0</guid>
+            <pubDate>Wed, 03 Apr 2024 06:51:22 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10672/production/_133068176_ukraine-gettyimages-1243729890.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jockey Cherchi, 23, dies two weeks after fall]]></title>
+            <description><![CDATA[Jockey Stefano Cherchi dies aged 23 two weeks after suffering a head injury in a fall at Canberra in Australia.]]></description>
+            <link>https://www.bbc.co.uk/sport/horse-racing/68721456</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/horse-racing/68721456#0</guid>
+            <pubDate>Wed, 03 Apr 2024 10:15:16 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/129FE/production/_133068267_gettyimages-1690933683.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[France's unique orphanage for police children]]></title>
+            <description><![CDATA[Orpheopolis cares for the children of officers who have died in the line of duty or by suicide.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68659026</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68659026#0</guid>
+            <pubDate>Tue, 02 Apr 2024 23:20:25 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11243/production/_133011207_archive1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Dunst: 'I didn't even think to ask for equal pay']]></title>
+            <description><![CDATA[Now starring in Alex Garland film Civil War, she says she experienced "major pay disparity" as a young star.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-68693973</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68693973#0</guid>
+            <pubDate>Wed, 03 Apr 2024 00:27:59 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12D62/production/_133045177_gettyimages-1491756021.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Botswana threatens to send 20,000 elephants to Germany]]></title>
+            <description><![CDATA[Germany wants tougher limits on hunting the animals, but Botswana says it has too many of them.]]></description>
+            <link>https://www.bbc.co.uk/news/world-68715164</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-68715164#0</guid>
+            <pubDate>Wed, 03 Apr 2024 09:43:17 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D3FA/production/_133066245_gettyimages-1760556586.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Finland mourns after boy killed in school shooting]]></title>
+            <description><![CDATA[A shooting north of Helsinki left a boy dead and two girls wounded. A suspect aged 12 is in custody.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68720973</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68720973#0</guid>
+            <pubDate>Wed, 03 Apr 2024 10:33:55 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/FFCE/production/_133068456_07671c1affd4cac0391c2026ab81dcab89e81bf50_0_5120_34131000x667.jpg"/>
         </item>
         <item>
             <title><![CDATA[Dozens dead in Istanbul nightclub fire]]></title>
@@ -31,22 +71,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/CE00/production/_133063725_bfbb700ee3e33a7c69913d87ed6559ae9cf8ab510_453_6000_33751000x563.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Deepest Ukraine drone attack into Russia injures 12]]></title>
-            <description><![CDATA[Tatarstan region authorities say drones hit the town of Yelabuga and an oil refinery in Nizhnekamsk.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68712158</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68712158#0</guid>
-            <pubDate>Tue, 02 Apr 2024 10:09:09 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8F08/production/_133061663_tatarerstan.png"/>
-        </item>
-        <item>
-            <title><![CDATA['Alternative Nobel Prize' winner Maryse Condé dies]]></title>
-            <description><![CDATA[The acclaimed author won an award set up in place of the scandal-hit Nobel Literature Prize in 2018.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-68712276</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68712276#0</guid>
-            <pubDate>Tue, 02 Apr 2024 11:42:22 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11FF4/production/_133061737_gettyimages-1345275628.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Clothes found near toddler's remains in French Alps]]></title>
             <description><![CDATA[Police find a T-shirt, shoes and shorts, three days after some of Emile Soleil's bones were recovered.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68716807</link>
@@ -55,10 +79,26 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B7E3/production/_133057074_cb8485b9-dc3e-47ce-b4ad-6946349478ea.jpg"/>
         </item>
         <item>
+            <title><![CDATA['Alternative Nobel Prize' winner Maryse Condé dies]]></title>
+            <description><![CDATA[The acclaimed author won an award set up in place of the scandal-hit Nobel Literature Prize in 2018.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-68712276</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68712276#1</guid>
+            <pubDate>Tue, 02 Apr 2024 11:42:22 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11FF4/production/_133061737_gettyimages-1345275628.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Deepest Ukraine drone attack into Russia injures 12]]></title>
+            <description><![CDATA[Tatarstan region authorities say drones hit the town of Yelabuga and an oil refinery in Nizhnekamsk.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68712158</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68712158#1</guid>
+            <pubDate>Tue, 02 Apr 2024 10:09:09 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8F08/production/_133061663_tatarerstan.png"/>
+        </item>
+        <item>
             <title><![CDATA[Investigation links 'Havana Syndrome' to Russia]]></title>
             <description><![CDATA[Media reports further fuel the view that US diplomats may have been targeted with sonic weapons.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68706317</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68706317#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68706317#1</guid>
             <pubDate>Mon, 01 Apr 2024 17:14:37 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34FD/production/_133056531_gettyimages-1238875512.jpg"/>
         </item>
@@ -66,7 +106,7 @@
             <title><![CDATA[Barrage of Russian attacks aims to cut Ukraine's lights]]></title>
             <description><![CDATA[Russia has launched a wave of additional strikes across the country targeting the energy supply.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68703356</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68703356#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68703356#1</guid>
             <pubDate>Sun, 31 Mar 2024 17:06:39 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10BC1/production/_133054586_1kharhivtrafficlightsresume.jpg"/>
         </item>
@@ -79,36 +119,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7E96/production/_133060423_profile_player-960x540.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Turkish opposition stuns Erdogan with local elections win]]></title>
-            <description><![CDATA[President Erdogan fails to regain Turkey's big cities that he lost five years ago.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68704375</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68704375#1</guid>
-            <pubDate>Mon, 01 Apr 2024 08:50:09 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12917/production/_133055067_02eea955e76f0c8be2d894523013487420bae4a10_566_6000_33751000x563.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Russia ends efforts to rescue trapped gold miners]]></title>
-            <description><![CDATA[The miners are presumed dead after a landslide two weeks ago at the far eastern facility.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68707459</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68707459#1</guid>
-            <pubDate>Mon, 01 Apr 2024 11:41:24 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2823/production/_133057201_mediaitem133057196.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA['Fuel tourism' to NI could follow Irish duty move]]></title>
-            <description><![CDATA[Petrol increased by four cent per litre while diesel was raised by three cent per litre on Monday.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68707778</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68707778#1</guid>
-            <pubDate>Mon, 01 Apr 2024 12:38:27 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4F97/production/_133057302_capture.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Will legalising cannabis unleash chaos in Germany?]]></title>
             <description><![CDATA[Campaigners hail the law shift, which comes into force on 1 April - though police are less thrilled.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68674813</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68674813#1</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68674813#2</guid>
             <pubDate>Mon, 01 Apr 2024 00:22:25 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B1FD/production/_133056554_d7c9232768753fd25f7df8b61f588389c6e08b930_0_5620_34651000x617.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Turkish opposition stuns Erdogan with local elections win]]></title>
+            <description><![CDATA[President Erdogan fails to regain Turkey's big cities that he lost five years ago.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68704375</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68704375#2</guid>
+            <pubDate>Mon, 01 Apr 2024 08:50:09 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12917/production/_133055067_02eea955e76f0c8be2d894523013487420bae4a10_566_6000_33751000x563.jpg"/>
         </item>
         <item>
             <title><![CDATA[The FSB bicycle assassin Putin wants back in Russia]]></title>
@@ -141,38 +165,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68679483#2</guid>
             <pubDate>Fri, 29 Mar 2024 00:58:20 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/163C1/production/_133037019_reutersoctober20232.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Moscow concert massacre and the Tajik connection]]></title>
-            <description><![CDATA[The Moscow attack suspects are all from Tajikistan, where many young people have been radicalised.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68682836</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68682836#2</guid>
-            <pubDate>Fri, 29 Mar 2024 12:58:33 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78D6/production/_133043903_gettyimages-2102846723-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Battle to run Istanbul becomes key to Turkey's future]]></title>
-            <description><![CDATA[Millions of Turks have voted, and President Erdogan hopes to regain control of Turkey's biggest city.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68663417</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68663417#2</guid>
-            <pubDate>Sun, 31 Mar 2024 06:41:29 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13F3B/production/_133032718_istanbul-index-epa.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Relatives of Moscow attack missing seek answers]]></title>
-            <description><![CDATA[Dozens of people are still unaccounted for, with relatives attempting to track down their loved ones.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68685597</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68685597#2</guid>
-            <pubDate>Thu, 28 Mar 2024 13:32:58 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12F05/production/_133037577_df6354acbb37440f557a4454d322e014aac49029.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[After Moscow attack, migrants from Central Asia hit by backlash]]></title>
-            <description><![CDATA[Migrants in Russia reported an uptick in xenophobia after Moscow said Tajiks were behind last week's attacks.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68665896</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68665896#2</guid>
-            <pubDate>Wed, 27 Mar 2024 13:42:47 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C726/production/_133028905_migrant-top.jpg"/>
         </item>
         <item>
             <title><![CDATA[Video appears to show Ukraine drone attack in Russia]]></title>

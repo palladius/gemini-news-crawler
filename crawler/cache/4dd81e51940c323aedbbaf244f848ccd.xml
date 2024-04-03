@@ -5,6 +5,27 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>Outgrowing Heroku: An AWS Migration Story</title>
+      <description> Facing Heroku’s limitations during their Black Friday frenzy, TeePublic moved their Rails monolith to Amazon ECS. This story &lt;a href="https://judoscale.com/blog/heroku-to-aws-migration" rel="nofollow"&gt;details their journey&lt;/a&gt;, including the why, how, and impressive results of the migration. (Spoiler: it was a game-changer) </description>
+      <pubDate>Tue, 02 Apr 2024 17:33:02 +0000</pubDate>
+      <link>https://rubyflow.com/p/uzyq7h-outgrowing-heroku-an-aws-migration-story</link>
+      <guid>https://rubyflow.com/p/uzyq7h-outgrowing-heroku-an-aws-migration-story</guid>
+    </item>
+    <item>
+      <title>Happy 4th Birthday, Bridgetown!</title>
+      <description> Four years ago today, &lt;a href="https://www.bridgetownrb.com/news/happy-birthday-bridgetown/" rel="nofollow"&gt;the Bridgetown publishing framework was born&lt;/a&gt;, the first public website launch and release of Bridgetown 0.10 happened a few weeks later, and the rest as they say is history. As always, a &lt;strong&gt;hearty thank you&lt;/strong&gt; to all our sponsors and 70+ contributors who have helped this open source project flourish in ways I never could have imagined. </description>
+      <pubDate>Tue, 02 Apr 2024 16:20:11 +0000</pubDate>
+      <link>https://rubyflow.com/p/wtk32j-happy-4th-birthday-bridgetown</link>
+      <guid>https://rubyflow.com/p/wtk32j-happy-4th-birthday-bridgetown</guid>
+    </item>
+    <item>
+      <title>Series of Interviewing blog posts</title>
+      <description> My fellow Rubyists, I know this isn’t the most Ruby of all posts (except for the FizzBuzz example) but I’ve seen many people make simple mistakes during hiring processes. And I want to help fix that, so I’ve written a series of posts geared towards programmers about interviewing that I hope y’all will find helpful! </description>
+      <pubDate>Tue, 02 Apr 2024 14:03:13 +0000</pubDate>
+      <link>https://rubyflow.com/p/usrcxd-series-of-interviewing-blog-posts</link>
+      <guid>https://rubyflow.com/p/usrcxd-series-of-interviewing-blog-posts</guid>
+    </item>
+    <item>
       <title>Rails on AWS book</title>
       <description> Do you feel discomfort when connecting an AWS service with a Rails application because of unclear pricing rules, complex permissions, or advanced networking configuration? I felt this way for a long time until I dedicated myself entirely to learning AWS. With this book, you can master AWS in a short amount of time without spending months getting certified - &lt;a href="https://mastermind.dev/books/rails-on-aws" rel="nofollow"&gt;Get the book now&lt;/a&gt; </description>
       <pubDate>Tue, 02 Apr 2024 13:20:27 +0000</pubDate>
@@ -159,28 +180,6 @@ Details on &lt;a href="https://itch.io/jam/gosu-game-jam-6" rel="nofollow"&gt;it
       <pubDate>Mon, 25 Mar 2024 19:58:22 +0000</pubDate>
       <link>https://rubyflow.com/p/2gh5z8-better-know-block-arguments</link>
       <guid>https://rubyflow.com/p/2gh5z8-better-know-block-arguments</guid>
-    </item>
-    <item>
-      <title>Rollup vs Esbuild for Rails </title>
-      <description> Despite ESBuild often being used as a default in new Rails apps, I was surprise to find very little experiments about Rollup. </description>
-      <pubDate>Mon, 25 Mar 2024 07:17:07 +0000</pubDate>
-      <link>https://rubyflow.com/p/4m8nna-rollup-vs-esbuild-for-rails-</link>
-      <guid>https://rubyflow.com/p/4m8nna-rollup-vs-esbuild-for-rails-</guid>
-    </item>
-    <item>
-      <title>How to enable reusability for ActiveRecord::Base::normalizes</title>
-      <description> &lt;a href="https://tobiasmaier.info/posts/2024/03/24/reusability-for-active-record-normalize.html" rel="nofollow"&gt;This article&lt;/a&gt; reviews the new &lt;code&gt;normalizes&lt;/code&gt; feature in Ruby on Rails 7.1 and &lt;a href="https://tobiasmaier.info/posts/2024/03/24/reusability-for-active-record-normalize.html" rel="nofollow"&gt;shows how to increase reusability&lt;/a&gt; by creating normalizer modules. I also &lt;a href="https://discuss.rubyonrails.org/t/proposal-activemodel-normalization/85405" rel="nofollow"&gt;opened a feature request&lt;/a&gt; to add support for ActiveModel, since &lt;code&gt;ActiveRecord::Normalization&lt;/code&gt; only supports ActiveRecord, obviously. Please show your support. </description>
-      <pubDate>Sun, 24 Mar 2024 22:45:48 +0000</pubDate>
-      <link>https://rubyflow.com/p/fxg6dg-how-to-enable-reusability-for-activerecordbasenormalizes</link>
-      <guid>https://rubyflow.com/p/fxg6dg-how-to-enable-reusability-for-activerecordbasenormalizes</guid>
-    </item>
-    <item>
-      <title>Event Sourcing with Rails from scratch</title>
-      <description> A tutorial of how to implements event sourcing in Rails application
-&lt;a href="https://www.smily.com/engineering/event-sourcing-with-rails-from-scratch" rel="nofollow"&gt;https://www.smily.com/engineering/event-sourcing-with-rails-from-scratch&lt;/a&gt; </description>
-      <pubDate>Fri, 22 Mar 2024 14:43:40 +0000</pubDate>
-      <link>https://rubyflow.com/p/x4wqaq-event-sourcing-with-rails-from-scratch</link>
-      <guid>https://rubyflow.com/p/x4wqaq-event-sourcing-with-rails-from-scratch</guid>
     </item>
   </channel>
 </rss>
