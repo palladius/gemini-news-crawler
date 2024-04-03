@@ -10,6 +10,8 @@ install:
 #	yarn upgrade
 
 dev: run
+
+# ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean
 run:
 	rails assets:precompile
 	rails s
