@@ -90,35 +90,27 @@ steps:
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - dev
-  allowFailure: true
+  #allowFailure: true
   dir: webapp
-  # waitFor:
-  # - 'step1 docker build'
-  # - 'step2 docker tag'
-  # - 'step3 tag SHA and VERSION'
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
-  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+#  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: 5. Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore
-  # waitFor:
-  # - 'step1 docker build'
-  # - 'step2 docker tag'
-  # - 'step3 tag SHA and VERSION'
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - prod
-  allowFailure: true
+  #allowFailure: true
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+ # - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
 # This does NOT work

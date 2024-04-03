@@ -1,3 +1,5 @@
+2024-04-03 v0.26 restored stricter cloud build
+...
 2024-04-02 v0.23 Added latest freshest news to HEADER - wOOOt
 2024-04-02 v0.24 Fixed hosts
 2024-04-01 v0.23 Restored CB linear - all steps yessir
