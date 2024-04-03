@@ -1,4 +1,5 @@
-2024-04-03 v0.26 fixing generic script for PROD. I wasnt setting the DB PROD url.
+2024-04-03 v0.28 testing cache for latest article
+2024-04-03 v0.27 fixing generic script for PROD. I wasnt setting the DB PROD url.
 2024-04-03 v0.26 restored stricter cloud build [San Riccardo!]
 ...
 2024-04-02 v0.23 Added latest freshest news to HEADER - wOOOt

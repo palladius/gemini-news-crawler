@@ -23,6 +23,8 @@ development:
   <<: *default
   #adapter: postgresql
   #encoding: unicode
+  # https://www.shakacode.com/blog/rails-make-active-records-query-cache-an-lru/
+  query_cache: 500
   url: <%= ENV["DATABASE_URL_DEV"] %>
 
 # default: &default
