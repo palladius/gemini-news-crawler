@@ -21,6 +21,10 @@ class ApplicationController < ActionController::Base
         Article.select(&:published_date).sort_by(&:published_date).last(10).reverse # DESC
       end
 
+    @article_regions = Rails.cache.fetch("article_regions", expires_in: 60.minute) do
+      Article.all.map{|x|x.macro_region}.sort.uniq
+    end
+
   end
 
 end

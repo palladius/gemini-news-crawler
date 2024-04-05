@@ -1,0 +1,3 @@
+<span>latest: <%= link_to(@freshest_article.to_s.first(64),@freshest_article) rescue '?!?' %>..
+    (<b><%= time_ago_in_words(@freshest_article.published_date) rescue '?!?' %> ago</b>)
+</span>

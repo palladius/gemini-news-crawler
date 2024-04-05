@@ -1,3 +1,4 @@
+2024-04-05 v0.30 [DEV] Started button above. Will fix on the plane.
 2024-04-05 v0.29 [DEV] Caching articles in DEV. Its so fast now!!
 2024-04-03 v0.28 [DEV] testing cache for latest article
 2024-04-03 v0.27 [OPS] fixing generic script for PROD. I wasnt setting the DB PROD url.
