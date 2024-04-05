@@ -9,6 +9,10 @@ install:
 	rails stimulus:install
 #	yarn upgrade
 
+# To fix dev for derek, I had to remove application.CSS and application.js from app/builds. Weird
+fix-derek:
+	rm app/builds/application.js app/builds/application.css
+
 dev: run
 
 # ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean

@@ -7,7 +7,221 @@
   <author>
     <name>Google Cloud Platform</name>
   </author>
-  <updated>2024-04-02T00:00:00-07:00</updated>
+  <updated>2024-04-04T00:00:00-07:00</updated>
+
+  <entry>
+    <title>April 04, 2024</title>
+    <id>tag:google.com,2016:gcp-release-notes#April_04_2024</id>
+    <updated>2024-04-04T00:00:00-07:00</updated>
+    <link rel="alternate" href="https://cloud.google.com/release-notes#April_04_2024"/>
+    <content type="html"><![CDATA[<strong class="release-note-product-title">Anthos clusters on AWS</strong>
+<h3>Announcement</h3>
+<p>You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/reference/supported-versions#1287-gke1700">1.28.7-gke.1700</a></li>
+<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/reference/supported-versions#12711-gke1600">1.27.11-gke.1600</a></li>
+<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/reference/supported-versions#12614-gke1500">1.26.14-gke.1500</a></li>
+</ul>
+<strong class="release-note-product-title">Anthos clusters on Azure</strong>
+<h3>Announcement</h3>
+<p>You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/azure/reference/supported-versions#1287-gke1700">1.28.7-gke.1700</a></li>
+<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/azure/reference/supported-versions#12711-gke1600">1.27.11-gke.1600</a></li>
+<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/azure/reference/supported-versions#12614-gke1500">1.26.14-gke.1500</a></li>
+</ul>
+<strong class="release-note-product-title">BigQuery</strong>
+<h3>Feature</h3>
+<p>The <a href="https://cloud.google.com/bigquery/docs/materialized-views-create#non-incremental"><code>allow_non_incremental_definition</code> option</a> and <a href="https://cloud.google.com/bigquery/docs/materialized-views-create#max_staleness"><code>max_staleness</code> option</a> for materialized views are now <a href="https://cloud.google.com/products/#product-launch-stages">generally available (GA)</a>.  The <code>allow_non_incremental_definition</code> option supports an expanded range of SQL queries to create materialized views, and the <code>max_staleness</code> option provides consistently high performance with controlled costs when processing large, frequently changing datasets.</p>
+<h3>Feature</h3>
+<p>You can now perform
+<a href="https://cloud.google.com/bigquery/docs/model-monitoring-overview">model monitoring</a> in BigQuery ML. The following model monitoring functions are now in
+<a href="https://cloud.google.com/products/#product-launch-stages">preview</a>:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-describe-data"><code>ML.DESCRIBE_DATA</code></a>:
+compute descriptive statistics for a set of training or serving data.</li>
+<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-validate-data-skew"><code>ML.VALIDATE_DATA_SKEW</code></a>:
+compute the statistics for a set of serving data, and then compare them to
+the statistics for the data used to train a BigQuery ML model in order to
+identify anomalous differences between the two data sets.</li>
+<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-validate-data-drift"><code>ML.VALIDATE_DATA_DRIFT</code></a>:
+compute and compare the statistics for two sets of serving data in order to
+identify anomalous differences between the two data sets.</li>
+<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-tfdv-describe"><code>ML.TFDV_DESCRIBE</code></a>:
+compute fine-grained descriptive statistics for a set of training or
+serving data. This function provides the same behavior as the
+<a href="https://www.tensorflow.org/tfx/data_validation/api_docs/python/tfdv/generate_statistics_from_csv">TensorFlow <code>tfdv.generate_statistics_from_csv</code> API</a>.</li>
+<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-tfdv-validate"><code>ML.TFDV_VALIDATE</code></a>:
+compute and compare the statistics for training and serving data, or two
+sets of serving data, in order to identify anomalous differences between
+the two data sets. This function provides the same behavior as the
+<a href="https://www.tensorflow.org/tfx/data_validation/api_docs/python/tfdv/validate_statistics">TensorFlow <code>validate_statistics</code> API</a>.</li>
+</ul>
+<h3>Feature</h3>
+<p><a href="https://cloud.google.com/bigquery/docs/data-clean-rooms">BigQuery data clean rooms</a> with analysis rules and enhanced usage metrics are now <a href="https://cloud.google.com/products/#product-launch-stages">generally available (GA)</a>. Data clean rooms provide a security-enhanced and privacy-preserving environment for multiple parties to share and augment data without moving or revealing the underlying data. </p>
+<h3>Feature</h3>
+<p><a href="https://cloud.google.com/bigquery/docs/analysis-rules#join_restriction_rules">Join restrictions</a>, <a href="https://cloud.google.com/bigquery/docs/analysis-rules#list_overlap_rules">list overlap</a>, <a href="https://cloud.google.com/bigquery/docs/analysis-rules#dp_analysis_rules">differential privacy with privacy budgeting</a>, and <a href="https://cloud.google.com/bigquery/docs/analysis-rules#agg_analysis_rules">aggregation thresholding</a> are now <a href="https://cloud.google.com/products/#product-launch-stages">generally available (GA)</a> and enforceable in BigQuery data clean rooms using analysis rules.</p>
+<strong class="release-note-product-title">Cloud Data Fusion</strong>
+<h3>Changed</h3>
+<p>Cloud Data Fusion is available in the <code>africa-south1</code> region. For more information, see <a href="https://cloud.google.com/data-fusion/pricing">Pricing</a>.</p>
+<strong class="release-note-product-title">Compute Engine</strong>
+<h3>Feature</h3>
+<p><strong>Generally available</strong>: Simplify block storage management for Compute Engine instances with Hyperdisk Storage Pools. A Hyperdisk Storage Pool is a pre-purchased collection of disk capacity, throughput, and IOPS which you can then provision to your applications as needed. By managing disks in aggregate, you can save costs while achieving expected capacity and performance growth. For more information, see <a href="https://cloud.google.com/compute/docs/disks/storage-pools">About Hyperdisk Storage Pools</a>.</p>
+<strong class="release-note-product-title">Dialogflow</strong>
+<h3>Feature</h3>
+<p>Vertex AI Conversation: You can now create a <a href="https://cloud.google.com/dialogflow/vertex/docs/concept/data-store#languages">data store in one language</a> that is connected to an agent that uses different languages.</p>
+<strong class="release-note-product-title">Google Kubernetes Engine</strong>
+<h3>Security</h3>
+<p>A Denial-of-Service (DoS) vulnerability (CVE-2023-45288) was recently discovered in multiple implementations of the HTTP/2 protocol, including the golang HTTP server used by Kubernetes. The vulnerability could lead to a DoS of the Google Kubernetes Engine (GKE) control plane.</p>
+
+<p>For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-022">GCP-2024-022 security bulletin</a>.</p>
+]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>April 03, 2024</title>
+    <id>tag:google.com,2016:gcp-release-notes#April_03_2024</id>
+    <updated>2024-04-03T00:00:00-07:00</updated>
+    <link rel="alternate" href="https://cloud.google.com/release-notes#April_03_2024"/>
+    <content type="html"><![CDATA[<strong class="release-note-product-title">Anthos clusters on AWS</strong>
+<h3>Security</h3>
+<p>A Denial-of-Service (DoS) vulnerability (CVE-2023-45288) was recently discovered in multiple implementations of the HTTP/2 protocol, including the golang HTTP server used by Kubernetes. The vulnerability could lead to a DoS of the Google Kubernetes Engine (GKE) control plane.
+For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-022">GCP-2024-022 security bulletin</a>.</p>
+<strong class="release-note-product-title">Anthos clusters on Azure</strong>
+<h3>Security</h3>
+<p>A Denial-of-Service (DoS) vulnerability (CVE-2023-45288) was recently discovered in multiple implementations of the HTTP/2 protocol, including the golang HTTP server used by Kubernetes. The vulnerability could lead to a DoS of the Google Kubernetes Engine (GKE) control plane.
+For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-022">GCP-2024-022 security bulletin</a>.</p>
+<strong class="release-note-product-title">Apigee X</strong>
+<h3>Announcement</h3>
+<p>On April 3, 2024, we released an updated version of Apigee.</p>
+<h3>Feature</h3>
+<p>With this release, Apigee expanded its support for data residency to additional regions in Asia-Pacific and the Middle East. Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/apigee/docs/api-platform/get-started/drz-concepts">Introduction to data residency</a>.</p>
+
+<p>For a list of supported geographic locations, see <a href="https://cloud.google.com/apigee/docs/locations">Apigee locations</a>.</p>
+<strong class="release-note-product-title">Batch</strong>
+<h3>Feature</h3>
+<p>You can set maximum time limits for tasks and runnables. For more information, see <a href="https://cloud.google.com/batch/docs/set-timeouts">Limit run times for tasks and runnables using timeouts</a>. </p>
+<h3>Issue</h3>
+<p>When a job fails due to exceeding a timeout, the job&#39;s logs don&#39;t indicate whether the failure was caused by the relevant task&#39;s timeout or the relevant runnable&#39;s timeout. For more information, including a workaround, see <a href="https://cloud.google.com/batch/docs/known-issues#timeout">Known issues</a>.</p>
+<strong class="release-note-product-title">BigQuery</strong>
+<h3>Feature</h3>
+<p><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/collation-concepts">Collation</a> now supports the following <a href="https://cloud.google.com/products/#product-launch-stages">generally available</a> (GA) features:</p>
+
+<ul>
+<li>The underscore in the <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/operators#like_operator"><code>LIKE</code> operator</a>.</li>
+<li>Comparison support for the <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/collation-concepts#collate_data_types"><code>STRUCT</code> data type</a> with the following operators and conditional expressions:  <code>=</code>, <code>!=</code>, <code>IN</code> and <code>CASE</code>.</li>
+</ul>
+<h3>Feature</h3>
+<p>You can now configure materialized views with tables enabled for <a href="https://cloud.google.com/bigquery/docs/change-data-capture">change data capture (CDC)</a> streaming update and delete operations.</p>
+<strong class="release-note-product-title">Cloud Load Balancing</strong>
+<h3>Feature</h3>
+<p>The cross-region internal Application Load Balancer supports backends in multiple regions, provides seamless cross-region failover using Cloud DNS routing policies, and is globally accessible by clients from any Google Cloud region, on premise, or other clouds. Supports Google-managed certificates using Cloud Certificate Manager and Certificate Authority Service.</p>
+
+<p>For details, see the <a href="https://cloud.google.com/load-balancing/docs/l7-internal">Internal Application Load Balancer overview</a>.</p>
+
+<p>To set up a cross-region internal Application Load Balancer, see the following pages:</p>
+
+<ul>
+<li><p><a href="https://cloud.google.com/load-balancing/docs/l7-internal/setting-up-l7-cross-reg-internal">Instance group backends</a></p></li>
+<li><p><a href="https://cloud.google.com/load-balancing/docs/l7-internal/setting-up-l7-cross-reg-hybrid">Mixed zonal and hybrid connectivity NEG backends</a></p></li>
+<li><p><a href="https://cloud.google.com//load-balancing/docs/l7-internal/setting-up-l7-cross-reg-serverless">Cloud Run backends</a></p></li>
+</ul>
+
+<p>This capability is in <strong>General Availability</strong>.</p>
+<h3>Feature</h3>
+<p>The cross-region internal proxy Network Load Balancer supports backends in multiple regions, provides seamless cross-region failover, and is globally accessible by clients from any Google Cloud region, on premise, or other clouds. </p>
+
+<p>For details, see the <a href="https://cloud.google.com/load-balancing/docs/tcp/internal-proxy">Internal proxy Network Load Balancer overview</a>.</p>
+
+<p>To set up a cross-region internal proxy Network Load Balancer, see the following pages:</p>
+
+<ul>
+<li><p><a href="https://cloud.google.com/load-balancing/docs/tcp/setup-cross-reg-proxy-migs">Instance group backends</a></p></li>
+<li><p><a href="https://cloud.google.com/load-balancing/docs/tcp/setup-cross-reg-proxy-hybrid">Mixed zonal and hybrid connectivity NEG backends</a></p></li>
+</ul>
+
+<p>This capability is in <strong>General Availability</strong>.</p>
+<strong class="release-note-product-title">Cloud Logging</strong>
+<h3>Feature</h3>
+<p>The Logging query language now supports the <code>cast</code> and <code>regexp_extract</code> functions. For more information, see the <a href="https://cloud.google.com/logging/docs/view/logging-query-language">Logging query language</a> documentation.</p>
+<strong class="release-note-product-title">Cloud SQL for MySQL</strong>
+<h3>Feature</h3>
+<p>You can now migrate your external MySQL 5.7 and 8.0 databases into Cloud SQL for MySQL by using Percona XtraBackup physical files. This feature is in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/sql/docs/mysql/migrate-xtrabackup-physical-file">Migrate to Cloud SQL from an XtraBackup physical file</a>.</p>
+<strong class="release-note-product-title">Cloud SQL for PostgreSQL</strong>
+<h3>Feature</h3>
+<p>You can now <a href="https://cloud.google.com/sql/docs/postgres/replication/managed-import-replication-from-external">migrate data in the tables of your database in parallel</a>. There&#39;s a performance improvement because Cloud SQL can transfer the data with parallel processes within a database. You can set the speed that Cloud SQL transfers this data to <code>min</code>, <code>optimal</code>, or <code>max</code>.</p>
+<strong class="release-note-product-title">Cloud Storage</strong>
+<h3>Feature</h3>
+<p>Managed folders are now available in the Google Cloud Console.</p>
+
+<p>You can now use managed folders in your Cloud Storage buckets using the Cloud Console. You can create, list, move, and delete your managed folders in the Console, as well as set IAM policies. To learn more, see <a href="https://cloud.google.com/storage/docs/creating-managing-managed-folders">Create and manage managed folders</a>.</p>
+<strong class="release-note-product-title">Compute Engine</strong>
+<h3>Security</h3>
+<p>Compute Engine is not affected by CVE-2024-3094. For more information, see the  the <a href="https://cloud.google.com/compute/docs/security-bulletins#gcp-2024-021">GCP-2024-021 security bulletin</a>.</p>
+<strong class="release-note-product-title">Config Connector</strong>
+<h3>Announcement</h3>
+<p>Config Connector version 1.115.0 is now available.</p>
+<h3>Feature</h3>
+<p>Improved support for AlloyDB, by adding new fields to AlloyDBCluster and AlloyDBInstance.</p>
+<h3>Changed</h3>
+<p>AlloyDBCluster</p>
+
+<ul>
+<li><p>Added <code>spec.clusterType</code> field.</p></li>
+<li><p>Added <code>spec.deletionPolicy</code> field.</p></li>
+<li><p>Added <code>spec.secondaryConfig</code> field.</p></li>
+</ul>
+<h3>Changed</h3>
+<p>AlloyDBInstance</p>
+
+<ul>
+<li>Added <code>spec.instanceTypeRef</code> field.</li>
+</ul>
+<strong class="release-note-product-title">Dialogflow</strong>
+<h3>Feature</h3>
+<p>Dialogflow CX: <a href="https://cloud.google.com/dialogflow/cx/docs/concept/agent-multilingual#lang-detect">Language auto detect</a> is now available for <strong>chat conversations</strong>. You can configure Dialogflow CX to detect an end-user&#39;s language and automatically respond in that same language. See the <a href="https://cloud.google.com/dialogflow/cx/docs/reference/language">language reference page</a> for a list of languages available for this feature.</p>
+<strong class="release-note-product-title">Firestore</strong>
+<h3>Feature</h3>
+<p>You can now use Firestore to perform <a href="https://cloud.google.com/firestore/docs/vector-search">K-nearest neighbor (KNN) vector searches</a>. This feature is in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>.</p>
+<strong class="release-note-product-title">Google Cloud Architecture Center</strong>
+<h3>Feature</h3>
+<p>(New guide) <a href="https://cloud.google.com/architecture/rag-capable-gen-ai-app-using-gke">Infrastructure for a RAG-capable generative AI application using GKE</a>: Design the infrastructure to run a generative AI application with retrieval-augmented generation (RAG) using GKE, Cloud SQL, and open source tools like Ray, Hugging Face, and LangChain.</p>
+<strong class="release-note-product-title">Google Cloud Armor</strong>
+<h3>Changed</h3>
+<p>The Cloud Armor premium service tier &quot;Cloud Armor Managed Protection Plus&quot; has been renamed to &quot;Cloud Armor Enterprise.&quot; This change is being made to reflect the evolution of Cloud Armor&#39;s enterprise features. SKU IDs and pricing are unchanged. The name change does not impact the enrollment status of existing projects, or any features that were part of Managed Protection Plus. Learn more about <a href="https://cloud.google.com/armor/docs/armor-enterprise-overview">Cloud Armor Enterprise</a>.</p>
+<h3>Feature</h3>
+<p>Cloud Armor Enterprise Paygo (formerly Managed Protection Plus Paygo) is now Generally Available. Learn more about <a href="https://cloud.google.com/armor/docs/armor-enterprise-overview#standard_versus">Cloud Armor Enterprise service tiers</a>.</p>
+<strong class="release-note-product-title">Google Distributed Cloud Virtual for Bare Metal</strong>
+<h3>Security</h3>
+<p>A Denial-of-Service (DoS) vulnerability (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288">CVE-2023-45288</a>) was recently discovered in multiple implementations of the HTTP/2 protocol, including the golang HTTP server used by Kubernetes. The vulnerability could lead to a DoS of the Google Kubernetes Engine (GKE) control plane.
+For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-022">GCP-2024-022 security bulletin</a>.</p>
+<strong class="release-note-product-title">Google Distributed Cloud Virtual for VMware</strong>
+<h3>Security</h3>
+<p>A Denial-of-Service (DoS) vulnerability (CVE-2023-45288) was recently discovered in multiple implementations of the HTTP/2 protocol, including the golang HTTP server used by Kubernetes. The vulnerability could lead to a DoS of the Google Kubernetes Engine (GKE) control plane.
+For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-022">GCP-2024-022 security bulletin</a>.</p>
+<strong class="release-note-product-title">Google Kubernetes Engine</strong>
+<h3>Feature</h3>
+<p>The GKE compliance dashboard now offers compliance evaluation for CIS Kubernetes Benchmark 1.5, Pod Security Standards (PSS) Baseline, and PSS Restricted standards in Preview. To learn more, see <a href="https://cloud.google.com/anthos/fleet-management/docs/about-compliance-dashboard">About the compliance dashboard</a>.</p>
+<h3>Feature</h3>
+<p>GKE threat detection is now available in Preview. Threats against the Kubernetes control plane impacting your GKE Enterprise clusters are now visible in the GKE security posture dashboard. To learn more, see <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/about-gke-threat-detection">About GKE threat detection</a>.</p>
+<strong class="release-note-product-title">SAP on Google Cloud</strong>
+<h3>Announcement</h3>
+<p><strong>BigQuery Connector for SAP version v2.6</strong></p>
+
+<p>Version 2.6 of the BigQuery Connector for SAP is generally available (GA). This version offers several enhancements and bug fixes, including the addition of the Create Table tool, the Mass Field Conversion tool, a custom transaction designed to only display the BigQuery Connector for SAP settings, and support for replicating cluster tables to BigQuery.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/solutions/sap/docs/bq-connector/whats-new">What&#39;s new with BigQuery Connector for SAP</a>.</p>
+]]>
+    </content>
+  </entry>
 
   <entry>
     <title>April 02, 2024</title>
@@ -51,6 +265,16 @@ models and tuned <code>text-bison</code> models are supported for evaluation.</l
 <p>Try tuning and evaluating an LLM with the
 <a href="https://cloud.google.com/bigquery/docs/generate-text-tuning">Customize an LLM by using supervised fine tuning</a>
 how-to topic.</p>
+<strong class="release-note-product-title">Cloud Data Fusion</strong>
+<h3>Changed</h3>
+<p>The <a href="https://cdap.atlassian.net/wiki/spaces/DOCS/pages/763265042/Google+Sheets+Batch+Source">Google Sheets plugin</a> version 1.4.2 (bundled with the Google Drive plugins) is available in all Cloud Data Fusion versions. The release includes the following changes:</p>
+
+<ul>
+<li>Macros are supported for the following OAuth fields: <strong>Client ID</strong>, <strong>Client secret</strong>, and <strong>Refresh token</strong> (<a href="https://cdap.atlassian.net/browse/PLUGIN-1762">PLUGIN-1762</a>).</li>
+<li>You can specify a single file ID in the <strong>File identifier</strong> field (<a href="https://cdap.atlassian.net/browse/PLUGIN-1763">PLUGIN-1763</a>).</li>
+<li>Added an <strong>Access token</strong> field, which supports macros (<a href="https://cdap.atlassian.net/browse/PLUGIN-1764">PLUGIN-1764</a>).</li>
+<li>You can turn on auto detection for the number of rows and columns (<a href="https://cdap.atlassian.net/browse/PLUGIN-1766">PLUGIN-1766</a>).</li>
+</ul>
 <strong class="release-note-product-title">Cloud SQL for MySQL</strong>
 <h3>Feature</h3>
 <p>You can now scale up the compute size (vCPU, memory) of a <a href="https://cloud.google.com/sql/docs/mysql/editions-intro">Cloud SQL Enterprise Plus edition</a> primary instance with near-zero downtime.</p>
@@ -65,6 +289,15 @@ how-to topic.</p>
 <strong class="release-note-product-title">Dataform</strong>
 <h3>Feature</h3>
 <p>You can now use Customer-Managed Encryption Keys (CMEK) to protect repositories in Dataform. CMEK in Dataform is available in <a href="https://cloud.google.com/products#product-launch-stages">preview</a>. For more information, see <a href="https://cloud.google.com/dataform/docs/cmek">Use customer-managed encryption keys</a>.</p>
+<strong class="release-note-product-title">Dataproc</strong>
+<h3>Announcement</h3>
+<p>The following <a href="https://cloud.google.com/dataproc/docs/release-notes#March_28_2024">previously released sub-minor versions</a> of <strong>Dataproc on Compute Engine</strong> images have been rolled back and can only be used when updating existing clusters that already use them:</p>
+
+<ul>
+<li>2.0.97-debian10, 2.0.97-rocky8, 2.0.97-ubuntu18</li>
+<li>2.1.45-debian11, 2.1.45-rocky8, 2.1.45-ubuntu20, 2.1.45-ubuntu20-arm</li>
+<li>2.2.11-debian12, 2.2.11-rocky9, 2.2.11-ubuntu22</li>
+</ul>
 <strong class="release-note-product-title">Dialogflow</strong>
 <h3>Feature</h3>
 <p>Dialogflow CX: <a href="https://cloud.google.com/dialogflow/cx/docs/concept/call-companion">Call companion</a> is now generally available with new <a href="https://cloud.google.com/dialogflow/cx/docs/concept/call-companion#settings">user interface settings</a>.</p>
@@ -103,6 +336,10 @@ how-to topic.</p>
 <p>Version 1.6 of the ABAP SDK for Google Cloud is generally available (GA). This version brings in expanded support for more Google Cloud APIs, including support for multi-modal LLMs such as Gemini, SDK feature enhancements, and bug fixes.</p>
 
 <p>For more information, see <a href="https://cloud.google.com/solutions/sap/docs/abap-sdk/whats-new">What&#39;s new with the ABAP SDK for Google Cloud</a>.</p>
+<strong class="release-note-product-title">Secret Manager</strong>
+<h3>Feature</h3>
+<aside class="preview"><strong>Preview:</strong><span> Delayed destruction of secret versions is now available in Preview. By default, secret versions are destroyed immediately upon request. You can enable delayed destruction at the secret level and provide a destruction delay duration such that when a version belonging to this secret is destroyed, the destruction is not immediate. Instead, the secret version is disabled for use and remains scheduled for destruction for the configured delay duration. When the destruction delay duration expires, the version is destroyed. The Secret Manager Admin can restore a secret version that is scheduled for destruction by enabling or disabling the version. </span></aside>
+<p>To learn more, see <a href="https://cloud.google.com/secret-manager/docs/delay-destruction-of-secret-versions">Delay destruction of secret versions</a>. </p>
 <strong class="release-note-product-title">Security Command Center</strong>
 <h3>Feature</h3>
 <p><strong>Enterprise tier released to General Availability</strong></p>
@@ -598,6 +835,21 @@ logging-service-running benchmark by default for cis-level2.</p>
 <p>Version 3.2 of Google Cloud&#39;s Agent for SAP is generally available (GA). This version introduces the default collection of Workload Manager evaluation metrics for new agent installations, configuration commands for updating the agent configuration, and enhancements to the Backint, disk snapshot, and Process Monitoring features.</p>
 
 <p>For more information, see <a href="https://cloud.google.com/solutions/sap/docs/agent-for-sap/whats-new">What&#39;s new with Google Cloud&#39;s Agent for SAP</a>.</p>
+<strong class="release-note-product-title">Security Command Center</strong>
+<h3>Fixed</h3>
+<p><strong>The following Security Health Analytics misconfiguration detectors have changed to check for overly restrictive flag values that might prevent error messages from being written to the logs:</strong></p>
+
+<ul>
+<li><code>SQL_LOG_ERROR_VERBOSITY</code></li>
+<li><code>SQL_LOG_MIN_ERROR_STATEMENT_SEVERITY</code></li>
+</ul>
+
+<p>For the flag values that the detectors check for, see:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-vulnerabilities-findings#sql_log_error_verbosity">SQL log error verbosity</a></li>
+<li><a href="https://cloud.google.com/security-command-center/docs/concepts-vulnerabilities-findings#sql_log_min_error_statement_severity">SQL log min error statement severity</a></li>
+</ul>
 <strong class="release-note-product-title">Virtual Private Cloud</strong>
 <h3>Feature</h3>
 <p>You can use <a href="https://cloud.google.com/vpc/docs/packet-mirroring">Packet Mirroring</a> to collect IPv6 traffic. This feature is available in <strong>General Availability</strong>.</p>
@@ -679,6 +931,11 @@ target/latencies
 <strong class="release-note-product-title">Chronicle SOAR</strong>
 <h3>Announcement</h3>
 <p>Release 6.2.52 is now in General Availability.</p>
+<strong class="release-note-product-title">Cloud Database Migration Service</strong>
+<h3>Feature</h3>
+<p>Database Migration Service now supports faster migrations of large PostgreSQL databases to AlloyDB for PostgreSQL.</p>
+
+<p>For information about creating migration jobs using the high-performance parallelism settings, see <a href="https://cloud.google.com/database-migration/docs/postgresql-to-alloydb/create-migration-job#specify-source-connection-profile-info">Create a migration job to a new destination instance</a> and <a href="https://cloud.google.com/database-migration/docs/postgresql-to-alloydb/create-migration-job-existing-instance#specify-source-connection-profile-info">Create a migration job to an existing destination instance</a>.</p>
 <strong class="release-note-product-title">Cloud Storage</strong>
 <h3>Feature</h3>
 <p>The Storage Control API is now available for use. The Storage Control API lets you perform metadata-specific, control plane, and long-running operations. To learn more about the Storage Control API and operations you can perform, see <a href="https://cloud.google.com/storage/docs/reference/rpc">Storage Control API overview</a>.</p>
@@ -1078,6 +1335,9 @@ latency and stability. Responses from the model might be slightly different.</p>
 <p><strong>Note: the above subminor image versions were rolled back on <a href="https://cloud.google.com/dataproc/docs/release-notes#April_02_2024">April 2, 2024</a></strong></p>
 <h3>Feature</h3>
 <p><strong>Dataproc on Compute Engine:</strong> New <a href="https://cloud.google.com/dataproc/docs/guides/hadoop-google-secret-manager-credential-provider">Hadoop Google Secret Manager Credential Provider</a> feature introduced in latest Dataproc on Compute Engine <a href="">2.0 image versions</a>.</p>
+<strong class="release-note-product-title">Filestore</strong>
+<h3>Changed</h3>
+<p>You can use <a href="https://cloud.google.com/filestore/docs/cmek-organization-policy">CMEK organization policies</a> to manage key usage with your new Filestore resources. This feature is now <a href="https://cloud.google.com/products#product-launch-stages">generally available</a>.</p>
 <strong class="release-note-product-title">Google Cloud Architecture Center</strong>
 <h3>Feature</h3>
 <p>(New guide) <a href="https://cloud.google.com/architecture/partners/model-development-data-labeling-labelbox-google-cloud">Model development and data labeling with Google Cloud and Labelbox</a>: Provides guidance for building a standardized pipeline to help accelerate the development of ML models.</p>
@@ -1854,6 +2114,8 @@ To learn more, see <a href="https://cloud.google.com/artifact-analysis/docs/sbom
 </ul></li>
 </ul>
 <strong class="release-note-product-title">Cloud Composer</strong>
+<h3>Announcement</h3>
+<p>Cloud Composer 1 entered the post-maintenance mode. Google <strong>will not release any further updates to Cloud Composer 1</strong>, including new versions of Airflow, bugfixes, and security updates. We recommend planning <a href="https://cloud.google.com/composer/docs/migrate-composer-2-snapshots-af-2">migration to Cloud Composer 2</a>.</p>
 <h3>Issue</h3>
 <p>In Cloud Composer versions from 2.1.0 to 2.6.4, task instances that succeeded in the past can be marked as FAILED in some cases. We recommend to upgrade to <a href="https://cloud.google.com/composer/docs/release-notes#March_19_2024">Cloud Composer version 2.6.5</a> or later where this issue is fixed. For more information, see the related <a href="https://cloud.google.com/composer/docs/composer-2/known-issues#tasks-marked-failed">known issue</a>.</p>
 <strong class="release-note-product-title">Cloud Logging</strong>
@@ -4636,6 +4898,18 @@ To learn about using Tags in your cost data exported to BigQuery, see more <a hr
 <p>Secret Manager add-on for GKE is now available.  With the add-on, you can access the secrets stored in Secret Manager as volumes mounted in Kubernetes Pods.  The add-on is supported on Standard and Autopilot clusters versioned 1.29 and later.  For more info, see <a href="https://cloud.google.com/secret-manager/docs/secret-manager-managed-csi-component">Use Secret Manager add-on with GKE</a>.</p>
 <h3>Feature</h3>
 <p>Opportunistic bursting and lower Pod minimums are now available on newly created GKE Autopilot clusters at version 1.29.2-gke.1060000 or later, and on existing clusters created at 1.26 or later that have been fully upgraded (including all nodes) to 1.29.2-gke.1060000 or later. To learn more, see <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/pod-bursting-gke">Configure Pod bursting on GKE</a>.</p>
+<strong class="release-note-product-title">SAP on Google Cloud</strong>
+<h3>Announcement</h3>
+<p><strong>New SAP HANA certification: Hyperdisk Balanced usage with C3 machine types</strong></p>
+
+<p>For use with SAP HANA on Google Cloud, SAP has certified using Hyperdisk Balanced with <code>c3-standard-44</code>, and <code>c3-highmem</code> machine types with 44 vCPUs or more.</p>
+
+<p>For more information, see:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/solutions/sap/docs/sap-hana-planning-guide#certified-vms">Certified Compute Engine VMs for SAP HANA</a></li>
+<li>The &quot;Hyperdisk Balanced&quot; tab in <a href="https://cloud.google.com/solutions/sap/docs/sap-hana-planning-guide#hana-minimum-pd-sizes-ssd-balanced">Minimum sizes for SSD-based Persistent Disk and Hyperdisk volumes</a></li>
+</ul>
 <strong class="release-note-product-title">Spanner</strong>
 <h3>Feature</h3>
 <p>Table renaming is now generally available. This feature lets you rename tables in place or safely swap names using synonyms. For more information, see <a href="https://cloud.google.com/spanner/docs/table-name-synonym">Manage table names</a>.</p>
@@ -7111,383 +7385,6 @@ zones.</span></aside>
 <strong class="release-note-product-title">Transcoder API</strong>
 <h3>Feature</h3>
 <p>You can now set an exact frame rate on the output video. For more information,  see <a href="https://cloud.google.com/transcoder/docs/concepts/frame-rate#conversion-strategies">Frame rate conversion strategies</a>.</p>
-]]>
-    </content>
-  </entry>
-
-  <entry>
-    <title>February 22, 2024</title>
-    <id>tag:google.com,2016:gcp-release-notes#February_22_2024</id>
-    <updated>2024-02-22T00:00:00-08:00</updated>
-    <link rel="alternate" href="https://cloud.google.com/release-notes#February_22_2024"/>
-    <content type="html"><![CDATA[<strong class="release-note-product-title">Anthos Config Management</strong>
-<h3>Feature</h3>
-<p>The constraint template library includes a new template: <code>K8sRestrictAdmissionController</code>. For reference, see the <a href="https://cloud.google.com/anthos-config-management/docs/latest/reference/constraint-template-library">Constraint template library</a>.</p>
-<h3>Feature</h3>
-<p>The constraint template library includes a new template: <code>K8sCronJobAllowedRepos</code>. For reference, see the <a href="https://cloud.google.com/anthos-config-management/docs/latest/reference/constraint-template-library">Constraint template library</a>.</p>
-<h3>Feature</h3>
-<p>Added the authentication type <code>k8sserviceaccount</code> for syncing from OCI images and Helm charts hosted in Artifact Registry. For more details, see <a href="https://cloud.google.com/anthos-config-management/docs/how-to/installing-config-sync#oci-access">Grant Config Sync read-only access to OCI</a> and <a href="https://cloud.google.com/anthos-config-management/docs/how-to/installing-config-sync#helm-access">Grant Config Sync read-only access to Helm</a>.</p>
-<h3>Feature</h3>
-<p>Simplified the steps to export metrics to Cloud Monitoring. For more details, see <a href="https://cloud.google.com/anthos-config-management/docs/how-to/monitor-config-sync-cloud-monitoring#custom-monitoring">Configure Cloud Monitoring with Workload Identity</a>.</p>
-<h3>Fixed</h3>
-<p>Fixed the unrecognized label error in the <code>otel-collector</code> configuration that caused kustomize metrics to be rejected.</p>
-<strong class="release-note-product-title">Batch</strong>
-<h3>Changed</h3>
-<p>In the Google Cloud console, the <strong>Job list</strong> page has been updated to reduce latency. Although the console no longer summarizes the statuses of your jobs, you can filter based on job state when you <a href="https://cloud.google.com/batch/docs/view-jobs-tasks#list-jobs">view a list of your jobs</a>. </p>
-<h3>Fixed</h3>
-<p>Fixed the issue causing latency when listing jobs in projects that contain more than 10,000 jobs.</p>
-<strong class="release-note-product-title">BigQuery</strong>
-<h3>Feature</h3>
-<p>The following BigQuery text embedding features are now
-<a href="https://cloud.google.com/products/#product-launch-stages">generally available</a>
-(GA):</p>
-
-<ul>
-<li>Creating a BigQuery ML remote model that references a Vertex AI
-<code>textembedding-gecko*</code> text embedding model.</li>
-<li>Using the <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-generate-embedding"><code>ML.GENERATE_EMBEDDING</code> function</a>
-with the remote model to
-<a href="https://cloud.google.com/bigquery/docs/generate-text-embedding">embed text stored in BigQuery</a>.</li>
-<li>Generating text embeddings with the
-<a href="https://cloud.google.com/bigquery/docs/generate-embedding-with-tensorflow-models">NNLM, SWIVEL, and BERT TensorFlow models</a>.</li>
-</ul>
-<strong class="release-note-product-title">Certificate Manager</strong>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/certificate-manager/docs">Certificate Manager</a> supports the management of certificates independently in each project with separate authorization. You can also issue regional managed certificates with Certificate Manager. This is a <a href="https://cloud.google.com/products/#product-launch-stages">public preview feature</a>. For more information, see <a href="https://cloud.google.com/certificate-manager/docs/overview">Certificate Manager overview</a>.</p>
-<strong class="release-note-product-title">Chronicle SOAR</strong>
-<h3>Announcement</h3>
-<p>Release 6.2.49 is currently in Preview.</p>
-<h3>Fixed</h3>
-<p>In the IDE, using <strong>CrowdStrikeFalcon - Execute</strong> command and selecting scope as internal hosts and external hosts does not work (ID #00250316)</p>
-<h3>Deprecated</h3>
-<p>The following APIs have been deprecated and will be deleted in 6 months.</p>
-
-<ul>
-<li>GET <code>/api/external/v1/connectors/GetConnectorsData</code></li>
-<li>POST <code>/api/external/v1/connectors/DeleteConnector</code></li>
-<li>POST <code>/api/external/v1/connectors/AddOrUpdateConnector</code></li>
-<li>POST <code>/api/external/v1/connectors/UpdateConnectorFromIde</code></li>
-<li>POST <code>/api/external/v1/connectors/GetConnectorStatus</code></li>
-</ul>
-
-<p>For each API above, there are one or more alternative endpoints that you can use as shown below:</p>
-
-<p>Instead of <br>
-GET <code>/api/external/v1/connectors/GetConnectorsData</code><br></p>
-
-<p>Use one of the following:</p>
-
-<ul>
-<li><p><code>GET /api/external/v1/connectors/template-cards</code> <br>
-Provides basic information per each accessible connector definition.</p></li>
-<li><p><code>POST /api/external/v1/connectors/template</code><br>
-Retrieves detailed information regarding a specific connector definition.</p></li>
-<li><p><code>GET  /api/external/v1/connectors/cards</code> <br>
-Provides basic information per each accessible connector.</p></li>
-<li><p><code>GET  /api/external/v1/connectors/{identifier}</code> <br>
-Retrieves detailed information regarding a specific connector instance.</p></li>
-</ul>
-
-<p>Instead of <br>
-POST <code>/api/external/v1/connectors/DeleteConnector</code><br> 
-Use <br>
-DELETE <code>/api/external/v1/connectors/{identifier}</code></p>
-
-<p>Instead of <br>
-POST <code>/api/external/v1/connectors/AddOrUpdateConnector</code> <br> 
-Use <br>
-<code>POST /api/external/v1/connectors</code></p>
-
-<p>Instead of <br>
-POST <code>/api/external/v1/connectors/UpdateConnectorFromIde</code><br> 
-Use <br>
-POST <code>/api/external/v1/connectors/update-from-ide</code></p>
-
-<p>Instead of <br> 
-POST <code>/api/external/v1/connectors/GetConnectorStatus</code> <br> 
-Use <br>
-GET <code>/api/external/v1/connectors/{identifier}/statistics</code></p>
-<strong class="release-note-product-title">Cloud Billing</strong>
-<h3>Changed</h3>
-<p>Between <strong>February 13, 2024</strong> and <strong>February 22, 2024</strong>, some SKU IDs for your support subscriptions have changed. Use the following table to check whether you&#39;re affected by this change. If you have reports or BigQuery queries that depend on these IDs, edit them to use the new SKU IDs.</p>
-
-<aside class="note">
-<strong>Notes</strong>:
-<ul>
-<li>The SKU descriptions remain unchanged.</li>
-<li>There's no change to billing or invoicing.</li>
-</ul>
-</aside>
-
-<table>
-  <tr>
-   <th>Subscription 
-   </th>
-   <th>Legacy SKU IDs
-   </th>
-   <th>New SKU IDs
-   </th>
-  </tr>
-  <tr>
-   <td>Premium
-   </td>
-   <td>Base Tier 1: F08D-670F-E528
-<p>
-Base Tier 2: 3ADC-4232-8F2F
-<p>
-Base Tier 3: 768B-9B76-8BFA
-<p>
-Variable: E4F5-0256-E0EE
-   </td>
-   <td>Base Tier 1: 5D14-41DF-B7BF
-<p>
-Base Tier 2: A73A-2FBD-A226
-<p>
-Base Tier 3: 7EFE-705D-1818
-<p>
-Variable: 5467-9D2D-5B98
-   </td>
-  </tr>
-  <tr>
-   <td>TAM
-   </td>
-   <td>Additional Coverage:
-<p>
-Included: 39DA-470F-1873
-<p>
-Additional Coverage:
-<p>
-Tier 1: 1D0C-C18F-A3E9
-<p>
-Tier 2: A4ED-26C4-BE0A
-<p>
-Tier 3: 7625-C72D-58B1
-   </td>
-   <td>Additional Coverage:
-<p>
-Included: FECC-20EE-2595
-<p>
-Additional Coverage:
-<p>
-Tier 1: 164C-4F75-934A
-<p>
-Tier 2: C9E4-CC90-085B
-<p>
-Tier 3: 0401-A11E-7A40
-   </td>
-  </tr>
-<tr>
- <td>Enhanced</td>
- <td>
- <p>Base: D61B-E147-B8A6
- </p>
- <p>Variable: 8D85-10F1-28B3
- </p>
- </td>
- <td>
-  <p>Base: 7F2E-344B-FBDD</p>
-  <p>Variable: 0D7A-4FBF-FA55</p>
-</td>
-</tr>
-<tr>
- <td>Gold</td>
- <td>
- <p>Base: 118A-4BF5-51E1
- </p>
- </td>
- <td>
-  <p>Base: 0AD0-476B-879E</p>
-</td>
-</tr>
-<tr>
- <td>Silver</td>
- <td>
- <p>Base: 5D8F-0D17-AAA2
- </p>
- </td>
- <td>
-  <p>Base: F5D2-4995-B3D7</p>
-</td>
-</tr>
-
-</table>
-
-<p><a href="https://cloud.google.com/billing/docs/reports">Learn about reports that you can use to analyze your costs</a>.</p>
-<strong class="release-note-product-title">Cloud Composer</strong>
-<h3>Fixed</h3>
-<p>Fixed a problem where one DAG run could potentially delete task instances from other DAG runs if run_id was the same (backported  <a href="https://github.com/apache/airflow/pull/32684">#32684</a> from a later Airflow version).</p>
-<h3>Changed</h3>
-<p><strong>Cloud Composer 2.6.2</strong> <a href="https://cloud.google.com/composer/docs/concepts/versioning/composer-versions">images</a> are available:</p>
-
-<ul>
-<li>composer-2.6.2-airflow-2.6.3 (default)</li>
-<li>composer-2.6.2-airflow-2.5.3</li>
-</ul>
-<strong class="release-note-product-title">Cloud Workstations</strong>
-<h3>Feature</h3>
-<p>Cloud Workstations supports <a href="https://cloud.google.com/workstations/docs/architecture#image-streaming">Image Streaming</a>, which provides faster workstations startup by reducing image pull time.</p>
-<strong class="release-note-product-title">Dataproc</strong>
-<h3>Announcement</h3>
-<p>New <a href="https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions">Dataproc Serverless for Spark runtime versions</a>:</p>
-
-<ul>
-<li>1.1.51</li>
-<li>2.0.59</li>
-<li>2.1.38</li>
-<li>2.2.0-RC11</li>
-</ul>
-<strong class="release-note-product-title">Filestore</strong>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/filestore/docs/protocols">NFSv4.1 protocol support</a>, integrated with <a href="https://cloud.google.com/managed-microsoft-ad/docs/overview">Managed Service for Microsoft Active Directory</a>, is now available in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a> for Filestore <a href="https://cloud.google.com/filestore/docs/service-tiers">enterprise and zonal</a> instances.</p>
-<strong class="release-note-product-title">Looker Studio</strong>
-<h3>Feature</h3>
-<p><strong>Show field descriptions in table chart headers</strong> </p>
-
-<p>You can now let report viewers access field descriptions in tooltips  when the <strong>Show field descriptions</strong> option is enabled for table charts. <strong>Show field descriptions</strong> is automatically enabled for charts that are connected to a <a href="https://support.google.com/looker-studio/answer/12388266">Looker</a> or <a href="https://support.google.com/looker-studio/answer/9091956">Search Ads 360</a> data source. 
-Field descriptions are sourced from the <a href="https://support.google.com/looker-studio/answer/7178497#data-source-editor-interface">Description column</a> in the data source.​ </p>
-
-<p>Learn more about <a href="https://support.google.com/looker-studio/answer/7189044#table-header-style-options">table chart header options</a>. </p>
-<h3>Announcement</h3>
-<p><strong>Looker Studio release notes moving to Google Cloud</strong></p>
-
-<p>We&#39;re changing how we deliver product release notes. Beginning in a few weeks, Looker Studio release notes will  be available solely on the Google Cloud release notes platform. </p>
-
-<p>Cloud release notes offer enhanced features, such as RSS feed support and programmatic access using BigQuery. These features make it easier for customers to stay informed about feature updates. Additionally, Google Cloud customers will have the convenience of accessing updates for related products like Looker and BigQuery in a centralized location.</p>
-
-<p>Release notes prior to this change are preserved in the  <a href="http://support.google.com/looker-studio/answer/14605875">historical release notes</a>  page.</p>
-
-<p><a href="https://cloud.google.com/looker-studio/docs/release-notes">Visit the Cloud Looker Studio release notes now</a>.</p>
-<strong class="release-note-product-title">Pub/Sub</strong>
-<h3>Feature</h3>
-<p>If you have filtering enabled, the backlog metrics only include data from messages that match the filter. To learn more, see <a href="https://cloud.google.com/pubsub/docs/subscription-message-filter#filters-metrics">How filters affect backlog metrics</a>.</p>
-<strong class="release-note-product-title">Storage Transfer Service</strong>
-<h3>Feature</h3>
-<p>Storage Transfer Service has added <a href="https://cloud.google.com/products/#product-launch-stages">preview support</a> for transferring managed folders between Cloud Storage buckets. Permissions on managed folders are copied between buckets when using this option.</p>
-
-<p>See <a href="https://cloud.google.com/storage-transfer/docs/managed-folders">Transfer Cloud Storage managed folders</a> for details.</p>
-]]>
-    </content>
-  </entry>
-
-  <entry>
-    <title>February 21, 2024</title>
-    <id>tag:google.com,2016:gcp-release-notes#February_21_2024</id>
-    <updated>2024-02-21T00:00:00-08:00</updated>
-    <link rel="alternate" href="https://cloud.google.com/release-notes#February_21_2024"/>
-    <content type="html"><![CDATA[<strong class="release-note-product-title">Chronicle</strong>
-<h3>Fixed</h3>
-<p>Fixed an issue that prevents you from using the <a href="https://cloud.google.com/looker/docs/reference/param-measure-types#list">list</a>, <a href="https://cloud.google.com/looker/docs/reference/param-measure-types#percentile">percentile</a>, and <a href="https://cloud.google.com/looker/docs/reference/param-measure-types#percentile_distinct">percentile_distinct</a> functions when you create a custom measure in your dashboard.</p>
-<strong class="release-note-product-title">Chronicle SOAR</strong>
-<h3>Announcement</h3>
-<p>Remote Agents Release 1.4.9 is currently in Preview.</p>
-<h3>Changed</h3>
-<p>The Docker image to pull for this release is 1.4.9.2</p>
-<h3>Fixed</h3>
-<p>Upgrade agents from 1.3.8 on RHEL not working as expected (ID #00243884)</p>
-<h3>Fixed</h3>
-<p>Publisher memory usage issue (ID #00273756)</p>
-<strong class="release-note-product-title">Compute Engine</strong>
-<h3>Feature</h3>
-<p><strong>Preview</strong>: With managed workload identities for Compute Engine, you can implement mutually authenticated and encrypted communications between any two Compute Engine VMs. Workload applications running on the configured VMs can use the X.509 credentials for per-VM mTLS. These mTLS certificates are automatically rotated and managed for you by Certificate Authority Service.</p>
-
-<p>For more information, see <a href="https://cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls">Authenticate workloads to other workloads over mTLS</a>.</p>
-<strong class="release-note-product-title">Contact Center AI Platform</strong>
-<h3>Announcement</h3>
-<p><strong>Version 3.11 is released</strong></p>
-
-<p>All release notes published on this date are part of version 3.11.</p>
-<h3>Feature</h3>
-<p><strong>Cold chat transfer</strong></p>
-
-<p>Agents can do a &quot;cold transfer&quot; for a chat. With a cold chat transfer, the agent assigns a chat session to a new agent or a queue, and then immediately leaves the chat without waiting for the new agent to join. This helps agents efficiently transfer chats without being bound to them. For more information, see <a href="https://cloud.google.com/contact-center/ccai-platform/docs/Transfer_for_Chat">Transfer a Chat</a>.</p>
-<h3>Feature</h3>
-<p><strong>Support for partial response in Dialogflow</strong></p>
-
-<p>CCAI Platform supports the partial response option in Dialogflow. This is particularly useful when the virtual agent needs to call a webhook that will likely take a while to run. With partial response enabled, Dialogflow can immediately send an initial fulfillment message to the end-user, such as, &quot;One moment while I look that up.&quot; This way, while the webhook runs and the final fulfillment message is generated, the end-user expects a short wait instead of assuming that there is a problem. For information about configuring this capability in Dialogflow,  see <a href="https://cloud.google.com/dialogflow/cx/docs/concept/fulfillment#partial-response">Partial response for streaming API</a>.</p>
-<h3>Feature</h3>
-<p>Added new response fields for indicating agent availability to the <code>manager/api/v1/agents/current_status</code> and <code>apps/api/v1/wait_times</code> APIs. These indicate the number of assigned agents, logged-in agents, available agents, and breakthrough agents.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue that prevented copying an IVR menu structure.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue where the automatic redirect to a PSTN number used a direct PSTN dial instead of the configured BYOC SIP dial settings.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue where the account ID in search results did not refresh after removing search input.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue preventing the editing of user permissions for Microsoft Teams users.</p>
-<h3>Fixed</h3>
-<p>Updated virtual task assistants to support an unlimited number of data parameters.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue where the Contact Name displayed &#39;Chat User&#39; instead of the end-user&#39;s name.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue where the <strong>Agent</strong> and <strong>Supervisor</strong> filters on the <strong>Agents</strong> page displayed as <strong>All undefined</strong>.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue where the file name was not visible when the user held the pointer over the compose-email pane.</p>
-<h3>Fixed</h3>
-<p>Fixed the error message that displays when an administrator disables an email queue with an invalid IMAP connection.</p>
-<h3>Fixed</h3>
-<p>Fixed an issue where holiday-hours messages didn&#39;t play when the support center or queues were outside of their hours of operation.</p>
-<strong class="release-note-product-title">Dataflow</strong>
-<h3>Feature</h3>
-<p>You can now use Gemma models in your Apache Beam inference pipelines. For more information, see <a href="https://cloud.google.com/dataflow/docs/machine-learning/gemma">Use Gemma open models with Dataflow</a>.</p>
-<strong class="release-note-product-title">Dataform</strong>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/dataform/docs/vpc-service-controls">Support for VPC Service Controls</a> is generally available (<a href="https://cloud.google.com/products#product-launch-stages">GA</a>).</p>
-<strong class="release-note-product-title">Google Kubernetes Engine</strong>
-<h3>Feature</h3>
-<p>The <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/stateful-ha">GKE Stateful HA Operator</a> is now available in GA starting in GKE versions 1.28.5-gke.1113000 and later, or 1.29.0-gke.1272000 and later.  The GKE Stateful HA Operator is enabled in new Autopilot clusters and opt-in for new Standard clusters.</p>
-<strong class="release-note-product-title">Immersive Stream for XR</strong>
-<h3>Changed</h3>
-<p>Upgrade to Unreal Engine 5.3.</p>
-
-<ul>
-<li>Cloud builder in ISXR Content now uses Unreal Engine version 5.3.2.</li>
-<li>Only the latest version of the <a href="https://github.com/GoogleCloudPlatform/immersive-stream-for-xr-templates">Template Project</a> (3.0.0) is compatible with the latest builder in the Content.</li>
-</ul>
-<h3>Changed</h3>
-<p>Optimized the <a href="https://github.com/GoogleCloudPlatform/immersive-stream-for-xr-templates">Unreal Template Project</a>.</p>
-
-<ul>
-<li>Simplified logic in blueprints.</li>
-<li>Easier to use events for mode switching.</li>
-<li>New demos for Session ID and AR Virtual Background.</li>
-<li>Now you can integrate files from the template directly into your existing Unreal projects to work on Immersive Stream for XR in both 3D and AR modes.</li>
-</ul>
-<strong class="release-note-product-title">Spanner</strong>
-<h3>Feature</h3>
-<p><a href="https://opentelemetry.io/blog/2023/sunsetting-opencensus/">The OpenCensus libraries are archived</a>. Spanner now supports OpenTelemetry, and we recommend all OpenCensus users to migrate to OpenTelemetry for your observability needs. For more information, see <a href="https://cloud.google.com/spanner/docs/capture-visualize-latency">Examine latency in a Spanner component with OpenTelemetry</a>.</p>
-<strong class="release-note-product-title">VPC Service Controls</strong>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/products#product-launch-stages">General availability</a> support for the following integration:</p>
-
-<ul>
-<li><a href="https://cloud.google.com/dataform/docs/vpc-service-controls">Dataform</a></li>
-</ul>
-<strong class="release-note-product-title">Vertex AI</strong>
-<h3>Feature</h3>
-<p><strong>Gemma open models are available</strong></p>
-
-<p>Gemma models, a family of lightweight, open models built from the same research and technology used to create the Gemini models, are available to run on your hardware, mobile devices, or hosted services. To learn more, see <a href="https://cloud.google.com/vertex-ai/docs/generative-ai/open-models/use-gemma">Use Gemma open models</a> and the <a href="https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335">Gemma Model Garden card</a>.</p>
-<strong class="release-note-product-title">reCAPTCHA Enterprise</strong>
-<h3>Changed</h3>
-<p>reCAPTCHA Enterprise Mobile SDK v18.4.2 is now available for iOS.</p>
-
-<p>This version contains fixes for the following stability issues:</p>
-
-<ul>
-<li><a href="https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk/issues/88">Issue 1</a></li>
-<li><a href="https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk/issues/89">Issue 2</a></li>
-<li><a href="https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk/issues/90">Issue 3</a></li>
-</ul>
-<h3>Changed</h3>
-<p>reCAPTCHA Enterprise Mobile SDK v18.5.0-beta01 is now available for Android.</p>
-
-<p>This version contains the following changes:</p>
-
-<ul>
-<li>Support for Android API 19 is removed.</li>
-<li>Dependency on OkHttp 4.11.0 is added.</li>
-<li>New exception type is added for devices without a network connection: <code>NO_NETWORK_FOUND</code>.</li>
-</ul>
 ]]>
     </content>
   </entry>

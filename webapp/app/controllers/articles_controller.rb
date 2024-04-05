@@ -4,7 +4,8 @@ class ArticlesController < ApplicationController
   # GET /articles or /articles.json
   def index
  #   @articles = Article.all.sort_by(&:published_date) # .reverse # DESC
-    @articles = Article.select(&:published_date).sort_by(&:published_date).last(50).reverse # DESC
+    #@articles = Article.select(&:published_date).sort_by(&:published_date).last(50).reverse # DESC
+    @articles = @cached_latest_n_articles
     @article_total_count = Article.all.count
   end
 

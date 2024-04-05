@@ -3,7 +3,7 @@
       @last_ten_articles = Article.order(created_at: :desc).limit(10)
 
 -->
-<% @last_ten_articles = @articles.first(10) %>
+<% @last_ten_articles =@cached_latest_few_articles # @articles.first(10) %>
 <!--
     <div class="fixed top-0 right-0 p-4 bg-white rounded shadow-md border border-azure-500">
 <div class="fixed top-0 right-0 p-4 bg-light-azure-200 rounded shadow-md border border-purple-600 z-index-50">

@@ -2,9 +2,9 @@
 <footer class="flex justify-between px-4 py-2 bg-gray-800 text-gray-100 text-sm">
   <span>&copy; <%= APP_NAME %> v<%= APP_VERSION %></span>
 
-  <span>latest: <%= link_to(@freshest_article.to_s.first(64),@freshest_article) rescue '?!?' %>..
-  (<b><%= time_ago_in_words(@freshest_article.published_date) rescue '?!?' %> ago</b>)
-  </span>
+  <%= render partial: 'layouts/latest_article_info' rescue "LatestArticleInfoError('#{$!}')" %>
+  <%#= render partial: 'layouts/latest_article_info' %>
+
 
   <span>Env: <b><%= Rails.env %></b></span>
 </footer>

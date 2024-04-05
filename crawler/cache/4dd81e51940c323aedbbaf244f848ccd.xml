@@ -5,6 +5,34 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>RedisQueuedLocks [major 1.1.0 release] </title>
+      <description> &lt;a href="https://github.com/0exp/redis_queued_locks" rel="nofollow"&gt;https://github.com/0exp/redis_queued_locks&lt;/a&gt; </description>
+      <pubDate>Thu, 04 Apr 2024 08:30:00 +0000</pubDate>
+      <link>https://rubyflow.com/p/n9mhiw-redisqueuedlocks-major-release-</link>
+      <guid>https://rubyflow.com/p/n9mhiw-redisqueuedlocks-major-release-</guid>
+    </item>
+    <item>
+      <title>AnyCable v1.5: simplified pub/sub, whispering and more</title>
+      <description> &lt;a href="https://docs.anycable.io/release_notes?id=_150" rel="nofollow"&gt;This release&lt;/a&gt;’s major highlight is singed (and public) streams: skip channel classes and connect to your data streams directly (and securely), progressively enhance your application with bi-directional realtime features only when necessary (not so often). </description>
+      <pubDate>Wed, 03 Apr 2024 23:54:57 +0000</pubDate>
+      <link>https://rubyflow.com/p/zw6btc-anycable-v15-simplified-pubsub-whispering-and-more</link>
+      <guid>https://rubyflow.com/p/zw6btc-anycable-v15-simplified-pubsub-whispering-and-more</guid>
+    </item>
+    <item>
+      <title>Streamlined Syntax - Unveiling the Power of Slim Template Language</title>
+      <description> &lt;a href="https://www.shakacode.com/blog/streamlined-syntax-unveiling-the-power-of-slim-template-language/" rel="nofollow"&gt;https://www.shakacode.com/blog/streamlined-syntax-unveiling-the-power-of-slim-template-language/&lt;/a&gt; </description>
+      <pubDate>Wed, 03 Apr 2024 17:47:03 +0000</pubDate>
+      <link>https://rubyflow.com/p/c9d6jg-streamlined-syntax-unveiling-the-power-of-slim-template-language</link>
+      <guid>https://rubyflow.com/p/c9d6jg-streamlined-syntax-unveiling-the-power-of-slim-template-language</guid>
+    </item>
+    <item>
+      <title>Live reload a Rails 7 application, an unsatisfaying attempt</title>
+      <description> Livereload a Rails app on your local machine is still not available natively. Maybe in next version of Rails, but not yet. </description>
+      <pubDate>Wed, 03 Apr 2024 06:18:50 +0000</pubDate>
+      <link>https://rubyflow.com/p/rrwzsa-live-reload-a-rails-7-application-an-unsatisfaying-attempt</link>
+      <guid>https://rubyflow.com/p/rrwzsa-live-reload-a-rails-7-application-an-unsatisfaying-attempt</guid>
+    </item>
+    <item>
       <title>Outgrowing Heroku: An AWS Migration Story</title>
       <description> Facing Heroku’s limitations during their Black Friday frenzy, TeePublic moved their Rails monolith to Amazon ECS. This story &lt;a href="https://judoscale.com/blog/heroku-to-aws-migration" rel="nofollow"&gt;details their journey&lt;/a&gt;, including the why, how, and impressive results of the migration. (Spoiler: it was a game-changer) </description>
       <pubDate>Tue, 02 Apr 2024 17:33:02 +0000</pubDate>
@@ -152,34 +180,6 @@ Details on &lt;a href="https://itch.io/jam/gosu-game-jam-6" rel="nofollow"&gt;it
       <pubDate>Tue, 26 Mar 2024 15:47:59 +0000</pubDate>
       <link>https://rubyflow.com/p/u0y8qr-an-interactive-intro-to-ruby-debugger-in-the-debugger</link>
       <guid>https://rubyflow.com/p/u0y8qr-an-interactive-intro-to-ruby-debugger-in-the-debugger</guid>
-    </item>
-    <item>
-      <title>HOTWire: Considering Morphing or Turbo Frames</title>
-      <description> With the new morphing features in Turbo 8, you now need to decide on when to use Turbo streams or Turbo frames instead of full page refreshing. Thankfully, all three techniques work together. &lt;a href="https://onrails.blog/2024/03/26/hotwire-considering-morphing-or-turbo-frames/" rel="nofollow"&gt;https://onrails.blog/2024/03/26/hotwire-considering-morphing-or-turbo-frames/&lt;/a&gt; </description>
-      <pubDate>Tue, 26 Mar 2024 14:28:29 +0000</pubDate>
-      <link>https://rubyflow.com/p/q15tg3-hotwire-considering-morphing-or-turbo-frames</link>
-      <guid>https://rubyflow.com/p/q15tg3-hotwire-considering-morphing-or-turbo-frames</guid>
-    </item>
-    <item>
-      <title>What is a Ruby implementation?</title>
-      <description> Wait. There are several Ruby?! 💎 </description>
-      <pubDate>Tue, 26 Mar 2024 07:59:12 +0000</pubDate>
-      <link>https://rubyflow.com/p/dxedng-what-is-a-ruby-implementation</link>
-      <guid>https://rubyflow.com/p/dxedng-what-is-a-ruby-implementation</guid>
-    </item>
-    <item>
-      <title>Supercharge your Rails App with Active Admin</title>
-      <description> &lt;a href="https://www.shakacode.com/blog/supercharge-your-rails-app-with-active-admin/" rel="nofollow"&gt;https://www.shakacode.com/blog/supercharge-your-rails-app-with-active-admin/&lt;/a&gt; </description>
-      <pubDate>Tue, 26 Mar 2024 07:26:51 +0000</pubDate>
-      <link>https://rubyflow.com/p/jwpufo-supercharge-your-rails-app-with-active-admin</link>
-      <guid>https://rubyflow.com/p/jwpufo-supercharge-your-rails-app-with-active-admin</guid>
-    </item>
-    <item>
-      <title>Better Know Block Arguments</title>
-      <description> The third article in the “Argument Trilogy” – “Better Know Block Arguments” is available at &lt;a href="https://noelrappin.com/blog/2024/03/better-know-block-arguments/" rel="nofollow"&gt;https://noelrappin.com/blog/2024/03/better-know-block-arguments/&lt;/a&gt; </description>
-      <pubDate>Mon, 25 Mar 2024 19:58:22 +0000</pubDate>
-      <link>https://rubyflow.com/p/2gh5z8-better-know-block-arguments</link>
-      <guid>https://rubyflow.com/p/2gh5z8-better-know-block-arguments</guid>
     </item>
   </channel>
 </rss>

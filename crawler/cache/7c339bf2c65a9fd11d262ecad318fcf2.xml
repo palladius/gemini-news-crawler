@@ -7,13 +7,72 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Wed, 03 Apr 2024 10:58:55 +0000</lastBuildDate>
-    <pubDate>Wed, 03 Apr 2024 03:11:22 +0000</pubDate>
+    <lastBuildDate>Fri, 05 Apr 2024 07:21:10 +0000</lastBuildDate>
+    <pubDate>Fri, 05 Apr 2024 02:19:06 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
+    <item>
+      <title>Kate Shindle on Why She’s Stepping Down as Actors’ Equity President</title>
+      <link>https://www.nytimes.com/2024/04/04/theater/kate-shindle-actors-equity.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/theater/kate-shindle-actors-equity.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/theater/kate-shindle-actors-equity.html" rel="standout"></atom:link>
+      <description>After nine years in the role, she has decided not to seek re-election in May. Her departure comes amid significant turnover in the theater industry.</description>
+      <dc:creator>Michael Paulson</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 19:00:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Actors Equity Assn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shindle, Kate</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/arts/shindle/shindle-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit> Sarah Reingewirtz/MediaNews Group, via Getty Images</media:credit>
+      <media:description>Kate Shindle spoke in California in 2022 to encourage that state’s leadership to support nonprofit performing arts organizations. </media:description>
+    </item>
+    <item>
+      <title>As Wildfires Grow Fiercer, Some Companies Look to Rebuild the Tree Supply Chain</title>
+      <link>https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html" rel="standout"></atom:link>
+      <description>As forests succumb to ever-fiercer wildfires, the federal government and some adventurous private companies are trying to resuscitate an industry.</description>
+      <dc:creator>Lydia DePillis</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 09:00:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-open-access</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Forests and Forestry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wildfires</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trees and Shrubs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Agriculture and Farming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conservation of Resources</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Carbon Caps and Emissions Trading Programs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Land Use Policies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Aid (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Carbon Capture and Sequestration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Western States (US)</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/03/14/multimedia/00hw-reforestation-jpkb/00hw-reforestation-jpkb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Ian Allen for The New York Times</media:credit>
+      <media:description>Saplings, grown at Mast’s Washington state nursery, are destined for replanting in the wild. </media:description>
+    </item>
+    <item>
+      <title>Fed Chair Powell Wants Inflation to Cool More</title>
+      <link>https://www.nytimes.com/2024/04/03/business/economy/fed-chair-awaits-more-inflation-cooling-as-path-proves-bumpy.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/business/economy/fed-chair-awaits-more-inflation-cooling-as-path-proves-bumpy.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/03/business/economy/fed-chair-awaits-more-inflation-cooling-as-path-proves-bumpy.html" rel="standout"></atom:link>
+      <description>Jerome H. Powell, the Federal Reserve chair, said officials can take their time cutting rates. He also underscored the Fed’s independence as election season heats up.</description>
+      <dc:creator>Jeanna Smialek and Santul Nerkar</dc:creator>
+      <pubDate>Wed, 03 Apr 2024 20:22:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/03dc-powell-bzgj/03dc-powell-bzgj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Kenny Holston/The New York Times</media:credit>
+      <media:description>Jerome H. Powell, the Federal Reserve chair, said on Wednesday that “we have time to let the incoming data guide our decisions on policy.”</media:description>
+    </item>
     <item>
       <title>Poor Nations Are Writing a New Handbook for Getting Rich</title>
       <link>https://www.nytimes.com/2024/04/02/business/economy/global-economic-growth.html</link>
@@ -22,24 +81,25 @@
       <description>Economies focused on exports have lifted millions out of poverty, but epochal changes in trade, supply chains and technology are making it a lot harder.</description>
       <dc:creator>Patricia Cohen</dc:creator>
       <pubDate>Wed, 03 Apr 2024 03:10:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Developing Countries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supply Chain</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Income Inequality</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supply Chain</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Investments</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bangladesh</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Africa</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Asia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Far East, South and Southeast Asia and Pacific Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/00global-econ-01-kgbz/00global-econ-01-kgbz-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Atul Loke for The New York Times</media:credit>
       <media:description>Garment factory workers after their shift in Dhaka, Bangladesh. The country built its success on turning farmers into textile workers.</media:description>
@@ -406,80 +466,6 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sabah (Malaysia)</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/03/18/multimedia/00malaysia-palmoil-05-bzft/00malaysia-palmoil-05-bzft-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
       <media:description>A palm tree plantation inside the Kinabatangan wildlife sanctuary. Malaysia and Indonesia supply 85 percent of the world’s palm oil.</media:description>
-    </item>
-    <item>
-      <title>Biden Budget Lays Out Battle Lines Against Trump</title>
-      <link>https://www.nytimes.com/2024/03/12/us/politics/biden-budget-trump.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/03/12/us/politics/biden-budget-trump.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/03/12/us/politics/biden-budget-trump.html" rel="standout"></atom:link>
-      <description>President Biden and former President Donald J. Trump offer vastly different policy paths on almost every aspect of the economy.</description>
-      <dc:creator>Alan Rappeport</dc:creator>
-      <pubDate>Tue, 12 Mar 2024 16:59:05 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">American Jobs Plan (2021)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alternative and Renewable Energy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tax Cuts and Jobs Act (2017)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tax Credits, Deductions and Exemptions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supply Chain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Solar Energy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income Tax</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicare</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Security (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corporate Taxes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">High Net Worth Individuals</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation Reduction Act of 2022</category>
-      <media:content height="1186" medium="image" url="https://static01.nyt.com/images/2024/03/12/business/12dc-divisions/12dc-divisions-mediumSquareAt3X.png" width="1185"></media:content>
-      <media:credit>Left, Maansi Srivastava/The New York Times; Nicole Craine for The New York Times</media:credit>
-      <media:description>President Biden and former President Donald J. Trump have divergent priorities on retirement programs, taxes, trade and energy policy.</media:description>
-    </item>
-    <item>
-      <title>U.S. Judge Blocks Rule Extending Reach of Labor Law to Franchisers</title>
-      <link>https://www.nytimes.com/2024/03/11/business/economy/nlrb-joint-employer-court-ruling.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/03/11/business/economy/nlrb-joint-employer-court-ruling.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/03/11/business/economy/nlrb-joint-employer-court-ruling.html" rel="standout"></atom:link>
-      <description>The ruling upends the National Labor Relations Board’s move to broaden the standard for determining when a company is liable for labor law violations.</description>
-      <dc:creator>J. Edward Moreno</dc:creator>
-      <pubDate>Mon, 11 Mar 2024 20:27:39 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lobbying and Lobbyists</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Hazards and Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Franchises</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Barker, J Campbell</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Labor Relations Board</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Chamber of Commerce</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/03/11/business/11joint-employers/11joint-employers-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Spencer Platt/Getty Images</media:credit>
-      <media:description>A revision to a federal labor rule would make big franchisers like McDonald’s responsible for the conditions of workers they have not directly hired.</media:description>
-    </item>
-    <item>
-      <title>Biden’s $7.3 Trillion Budget Proposal Highlights Divide With Trump and GOP</title>
-      <link>https://www.nytimes.com/2024/03/11/us/politics/biden-budget-republicans-trump.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/03/11/us/politics/biden-budget-republicans-trump.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/03/11/us/politics/biden-budget-republicans-trump.html" rel="standout"></atom:link>
-      <description>The president’s $7.3 trillion budget proposal for the next fiscal year includes about $3 trillion in deficit reduction over a decade, largely from raising taxes on high earners and corporations.</description>
-      <dc:creator>Jim Tankersley</dc:creator>
-      <pubDate>Mon, 11 Mar 2024 20:35:29 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Taxation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">National Debt (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/03/11/multimedia/11vid-biden-budget-nh-COVER-qpht/11vid-biden-budget-nh-COVER-qpht-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Josh Reynolds/Associated Press</media:credit>
     </item>
   </channel>
 </rss>

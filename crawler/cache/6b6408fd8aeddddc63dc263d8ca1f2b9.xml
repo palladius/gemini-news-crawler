@@ -7,43 +7,258 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Wed, 03 Apr 2024 10:59:45 +0000</lastBuildDate>
-    <pubDate>Wed, 03 Apr 2024 10:51:42 +0000</pubDate>
+    <lastBuildDate>Fri, 05 Apr 2024 07:22:07 +0000</lastBuildDate>
+    <pubDate>Fri, 05 Apr 2024 07:00:45 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
     <item>
+      <title>Friday Briefing</title>
+      <link>https://www.nytimes.com/2024/04/05/briefing/israel-hamas-war-iran-attack.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/briefing/israel-hamas-war-iran-attack.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/05/briefing/israel-hamas-war-iran-attack.html" rel="standout"></atom:link>
+      <description>The Times’s Jerusalem bureau chief on six months of war between Israel and Hamas.</description>
+      <dc:creator>Daniel E. Slotnik</dc:creator>
+      <pubDate>Fri, 05 Apr 2024 04:02:04 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/05ambriefing-europe-mideast-crisis-promo/04mideast-crisis-carousel-kqwb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Fatima Shbair/Associated Press</media:credit>
+      <media:description>Mourning relatives killed during strikes in Rafah.</media:description>
+    </item>
+    <item>
+      <title>NATO Wants to Show Support for Ukraine, but Only So Much</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/ukraine-nato-stoltenberg-russia.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/ukraine-nato-stoltenberg-russia.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/ukraine-nato-stoltenberg-russia.html" rel="standout"></atom:link>
+      <description>Admitting Kyiv is a nonstarter as long as the war with Russia is raging. But the member nations want to show they are supporting Ukraine “for the long haul.”</description>
+      <dc:creator>Lara Jakes</dc:creator>
+      <pubDate>Fri, 05 Apr 2024 05:08:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kuleba, Dmytro</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stoltenberg, Jens</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04ukraine-nato-01-fmlc/04ukraine-nato-01-fmlc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nicole Tung for The New York Times</media:credit>
+      <media:description>Soldiers of the 32nd Mechanized Brigade in the Kharkiv region of Ukraine on Monday. Ukraine hopes for a formal invitation to join NATO.</media:description>
+    </item>
+    <item>
+      <title>Finland School Shooting’s Motive Was Bullying, Police Say</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/finland-school-shootings-motive-bullying.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/finland-school-shootings-motive-bullying.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/finland-school-shootings-motive-bullying.html" rel="standout"></atom:link>
+      <description>The police said the motive emerged during interviews with the student, who after the shooting also threatened students heading to another school.</description>
+      <dc:creator>Johanna Lemola and Emma Bubola</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 17:55:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gun Control</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bullies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">School Shootings and Armed Attacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mass Shootings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Finland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/04/multimedia/04finland-shooting-bjzf/04finland-shooting-bjzf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jussi Nukari/Lehtikuva, via Agence France-Presse — Getty Images</media:credit>
+      <media:description>A flag at half-staff on the grounds of the school in Vantaa, Finland, on Wednesday.</media:description>
+    </item>
+    <item>
+      <title>How an Editor’s Note on Kate Middleton’s Video Fueled Conspiracy Theories</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/kate-middleton-video-getty-conspiracy.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/kate-middleton-video-getty-conspiracy.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/kate-middleton-video-getty-conspiracy.html" rel="standout"></atom:link>
+      <description>A routine Getty Images caption beside the Princess of Wales’s cancer announcement has fanned disinformation about her. Researchers say there is no evidence that the video is fake.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 17:53:32 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Getty Images</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Catherine, Princess of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">British Broadcasting Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Associated Press</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04xp-katevideo-fhbz/04xp-katevideo-fhbz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>BBC Studios/Handout, via Reuters</media:credit>
+      <media:description>In a prerecorded video released on March 22 by the palace, Catherine, Princess of Wales, announced she had cancer. </media:description>
+    </item>
+    <item>
+      <title>Denmark Closes Shipping Lane Over Risk of Accidental Missile Launch</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/denmark-shipping-lane-missile-malfunction.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/denmark-shipping-lane-missile-malfunction.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/denmark-shipping-lane-missile-malfunction.html" rel="standout"></atom:link>
+      <description>The military said the missile malfunctioned during a test aboard a warship, and there was a possibility it could fly a short distance, but no risk of the warhead exploding.</description>
+      <dc:creator>Claire Moses and Maya Tekeli</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 16:26:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Denmark</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Baltic Sea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ships and Shipping</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04denmark-military/04denmark-military-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Lars Laursen/Ritzau Scanpix, via Agence France-Presse — Getty Images</media:credit>
+      <media:description>The Great Belt Bridge in Denmark on July 2022.</media:description>
+    </item>
+    <item>
+      <title>Venice to Charge Day Trippers an Entry Fee to Discourage Overcrowding</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/venice-entry-fee.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/venice-entry-fee.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/venice-entry-fee.html" rel="standout"></atom:link>
+      <description>Starting this month, tourists intending to visit the city on busy dates will be required to register on a website, and those coming for a single day will have to pay a little over $5.</description>
+      <dc:creator>Elisabetta Povoledo</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 15:26:21 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venice (Italy)</category>
+      <media:content height="1798" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04Venice-01-chpt/04Venice-01-chpt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Laetitia Vancon for The New York Times</media:credit>
+      <media:description>The Rialto Bridge in central Venice in 2022.</media:description>
+    </item>
+    <item>
+      <title>For Sale: One Huge Drawing, Maybe by Michelangelo</title>
+      <link>https://www.nytimes.com/2024/04/04/arts/design/michelangelo-villa-drawing-for-sale.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/arts/design/michelangelo-villa-drawing-for-sale.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/arts/design/michelangelo-villa-drawing-for-sale.html" rel="standout"></atom:link>
+      <description>Former owners of the Renaissance artist’s villa want to sell a sketch once on a kitchen wall. But scholars are divided over whether Michelangelo actually drew it.</description>
+      <dc:creator>Elisabetta Povoledo</dc:creator>
+      <pubDate>Fri, 05 Apr 2024 07:00:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Historic Buildings and Sites</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Metropolitan Museum of Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Opificio delle Pietre Dure</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Buonarroti, Michelangelo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bambach, Carmen C</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vasari, Giorgio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florence (Italy)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04michelangelo-jgwc/04michaelangelo-jgwc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Stephanie Gengotti for The New York Times</media:credit>
+      <media:description>Ilaria Sernesi, far right, and her sister, Donata, viewing a drawing from Michelangelo’s villa, which is stored in a secure crate in a warehouse on the outskirts of Florence.</media:description>
+    </item>
+    <item>
+      <title>In Moscow Attack, a Handful of Suspects but a Million Tajiks Under Suspicion</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/russia-tajiks-terrorist-attack.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/russia-tajiks-terrorist-attack.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/russia-tajiks-terrorist-attack.html" rel="standout"></atom:link>
+      <description>The main suspects in a deadly assault near Moscow were from Tajikistan. Now many other Tajiks, who fill jobs in Russia’s wartime economy, are being deported and harassed.</description>
+      <dc:creator>Anatoly Kurmanaev, Valeriya Safronova and Valerie Hopkins</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 16:37:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tajiks (Ethnic Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/00russia-tajiks-01-ctwv/00russia-tajiks-01-ctwv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nanna Heitmann for The New York Times</media:credit>
+      <media:description>A market in the suburbs of Moscow, where many people from Central Asian countries, such as Tajikistan, work.</media:description>
+    </item>
+    <item>
+      <title>Bologna Looks to the Leaning Tower of Pisa for Tips to Stop Garisenda’s Tilt</title>
+      <link>https://www.nytimes.com/2024/04/04/world/europe/bologna-pisa-leaning-tower-italy.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/bologna-pisa-leaning-tower-italy.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/bologna-pisa-leaning-tower-italy.html" rel="standout"></atom:link>
+      <description>Bologna is looking to Pisa, home of the most famous leaning tower, for help keeping its own tipping tower upright.</description>
+      <dc:creator>Elisabetta Povoledo</dc:creator>
+      <pubDate>Fri, 05 Apr 2024 02:46:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Historic Buildings and Sites</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Garisenda Tower (Bologna, Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bologna (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pisa (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="">Leaning Tower of Pisa</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/01/multimedia/00bologna-tower-jlwg/00bologna-tower-jlwg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Susan Wright for The New York Times</media:credit>
+      <media:description>Mayor Matteo Lepore of Bologna, Italy, announced that the city would adopt a system successfully used to save the Tower of Pisa for the Garisenda Tower, to the left of the taller structure.</media:description>
+    </item>
+    <item>
+      <title>Thursday Briefing</title>
+      <link>https://www.nytimes.com/2024/04/04/briefing/ukraine-draft-taiwan-earthquake-gaza.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/briefing/ukraine-draft-taiwan-earthquake-gaza.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/briefing/ukraine-draft-taiwan-earthquake-gaza.html" rel="standout"></atom:link>
+      <description>Ukraine expands its draft.</description>
+      <dc:creator>Daniel E. Slotnik</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 04:29:22 +0000</pubDate>
+      <media:content height="1548" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/04ambriefing-europe-ukraine-mobilization-promo/03ukraine-mobilization-02-gjql-mediumSquareAt3X-v2.jpg" width="1547"></media:content>
+      <media:credit>Nicole Tung for The New York Times</media:credit>
+      <media:description>Ukrainian soldiers training in the country’s Donetsk region on Monday.</media:description>
+    </item>
+    <item>
+      <title>How a Violin Maker’s Dreams Came True in Cremona, Italy</title>
+      <link>https://www.nytimes.com/2024/04/04/arts/violin-italy-antonio-stradivari-ayoung-an.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/arts/violin-italy-antonio-stradivari-ayoung-an.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/04/arts/violin-italy-antonio-stradivari-ayoung-an.html" rel="standout"></atom:link>
+      <description>As a teenager in South Korea, Ayoung An decided to become a violin maker. Her journey eventually took her to Cremona, Italy, a famed hub for masters like Antonio Stradivari.</description>
+      <dc:creator>Valeriya Safronova and Sasha Arutyunova</dc:creator>
+      <pubDate>Thu, 04 Apr 2024 19:52:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Violins and Violas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Handicrafts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">An, Ayoung</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cremona (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stradivari, Antonio</category>
+      <category domain="">artofcraft</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04ArtofCraft-Violin-13-pmtw/04ArtofCraft-Violin-13-pmtw-mediumSquareAt3X-v3.jpg" width="1800"></media:content>
+      <media:credit>Sasha Arutyunova for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>NATO Weighs Taking Over Ukraine Defense Contact Group</title>
+      <link>https://www.nytimes.com/2024/04/03/world/europe/nato-ukraine-funding.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/europe/nato-ukraine-funding.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/03/world/europe/nato-ukraine-funding.html" rel="standout"></atom:link>
+      <description>The proposal faces several obstacles, including whether all members would agree to the changes. But the alliance is worried about wavering American support for Kyiv.</description>
+      <dc:creator>Lara Jakes</dc:creator>
+      <pubDate>Wed, 03 Apr 2024 16:38:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/03ukraine-nato-01-gbwq/03ukraine-nato-01-gbwq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nicole Tung for The New York Times</media:credit>
+      <media:description>Ukrainian soldiers prepared to move a howitzer in the Kharkiv region of the country this week.</media:description>
+    </item>
+    <item>
       <title>Zelensky Lowers Draft Age for Ukraine’s Depleted Army</title>
       <link>https://www.nytimes.com/2024/04/03/world/europe/zelensky-ukraine-military-draft-age.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/europe/zelensky-ukraine-military-draft-age.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/03/world/europe/zelensky-ukraine-military-draft-age.html" rel="standout"></atom:link>
-      <description>The idea of requiring more men to join the fight against Russia’s invasion has become toxic politically, but Russia is not relenting in its assault.</description>
+      <description>The idea of requiring more men to join the fight against Russia’s invasion has become toxic, but Russia is not relenting in its assault.</description>
       <dc:creator>Andrew E. Kramer</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 10:51:42 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Draft and Recruitment (Military)</category>
+      <pubDate>Wed, 03 Apr 2024 15:06:42 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Draft and Recruitment (Military)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Age, Chronological</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Aid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Trade</category>
       <media:content height="1548" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/03ukraine-mobilization-02-gjql/03ukraine-mobilization-02-gjql-mediumSquareAt3X-v2.jpg" width="1547"></media:content>
       <media:credit>Nicole Tung for The New York Times</media:credit>
       <media:description>Ukrainian soldiers training in the country’s Donetsk region on Monday.</media:description>
     </item>
     <item>
-      <title>How European Soccer Made Peace With Fasting During Ramadan</title>
+      <title>How Soccer Learned to Embrace Ramadan: From Faked Injuries to Bespoke Diets</title>
       <link>https://www.nytimes.com/2024/04/03/world/europe/premier-league-ramadan.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/europe/premier-league-ramadan.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/03/world/europe/premier-league-ramadan.html" rel="standout"></atom:link>
       <description>In competitions like the Premier League, Muslim pros who once faced pressure to avoid daily fasts during the monthlong holiday now benefit from custom diets and in-game breaks.</description>
       <dc:creator>Tariq Panja</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 09:03:11 +0000</pubDate>
+      <pubDate>Wed, 03 Apr 2024 17:51:55 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ramadan</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">English Premier League</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Salah, Mohamed (1992- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ramadan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fasting</category>
       <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/03/world/03soccer-ramadan/03soccer-ramadan-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>George Wood/Getty Images</media:credit>
       <media:description>Everton’s Muslim players broke their fast during a prearranged pause in their Premier League match at Newcastle on Tuesday.</media:description>
@@ -61,33 +276,13 @@
       <media:description>A car used by World Central Kitchen was hit by an Israeli strike in Deir al Balah, Gaza.</media:description>
     </item>
     <item>
-      <title>Inside an English Village Scarred by A High-Speed Railway, HS2</title>
-      <link>https://www.nytimes.com/2024/04/03/world/europe/hs2-uk-village.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/europe/hs2-uk-village.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/03/world/europe/hs2-uk-village.html" rel="standout"></atom:link>
-      <description>When Britain cut back a planned high-speed rail line, some residents on the route were pleased. They’re less delighted with what happened next.</description>
-      <dc:creator>Stephen Castle</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 04:01:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">High Speed 2 Ltd</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transit Systems</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Railroads</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Area Planning and Renewal</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Eminent Domain</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/01/multimedia/00uk-ghostvillage-qtjz/00uk-ghostvillage-qtjz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Andrew Testa for The New York Times</media:credit>
-      <media:description>More than 50 homes in the area have stood empty for two years or more, campaigners say — years during which HS2’s ambitions shrank markedly.</media:description>
-    </item>
-    <item>
       <title>‘The Russian Language Is Everywhere Again’: Exiles Cause Unease in Lithuania</title>
       <link>https://www.nytimes.com/2024/04/03/world/europe/lithuania-russian-diaspora.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/europe/lithuania-russian-diaspora.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/03/world/europe/lithuania-russian-diaspora.html" rel="standout"></atom:link>
       <description>An influx of exiled Russian activists and refugees from Ukraine and Belarus is stirring fears in a country that fought to preserve its language and culture under Soviet occupation.</description>
       <dc:creator>Anatoly Kurmanaev, Alina Lobzina and Tomas Dapkus</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 04:01:22 +0000</pubDate>
+      <pubDate>Wed, 03 Apr 2024 15:55:12 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Language</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
@@ -106,26 +301,69 @@
       <media:description>Vilnius has become a center of the Russian political opposition. </media:description>
     </item>
     <item>
+      <title>Inside an English Village Scarred by a High-Speed Railway, HS2</title>
+      <link>https://www.nytimes.com/2024/04/03/world/europe/hs2-uk-village.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/europe/hs2-uk-village.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/03/world/europe/hs2-uk-village.html" rel="standout"></atom:link>
+      <description>When Britain cut back a planned high-speed rail line, some residents on the route were pleased. They’re less delighted with what happened next.</description>
+      <dc:creator>Stephen Castle</dc:creator>
+      <pubDate>Wed, 03 Apr 2024 18:10:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">High Speed 2 Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transit Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Railroads</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Area Planning and Renewal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Eminent Domain</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/01/multimedia/00uk-ghostvillage-qtjz/00uk-ghostvillage-qtjz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Andrew Testa for The New York Times</media:credit>
+      <media:description>More than 50 homes in the area have stood empty for two years or more, campaigners say — years during which HS2’s ambitions shrank markedly.</media:description>
+    </item>
+    <item>
+      <title>U.S. Intelligence Warning to Moscow Named Specific Target of Attack</title>
+      <link>https://www.nytimes.com/2024/04/02/us/politics/moscow-attack-us-warning.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/us/politics/moscow-attack-us-warning.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/02/us/politics/moscow-attack-us-warning.html" rel="standout"></atom:link>
+      <description>The C.I.A. told Russia that Islamic State terrorists were plotting an attack on Crocus City Hall, a concert venue.</description>
+      <dc:creator>Julian E. Barnes</dc:creator>
+      <pubDate>Wed, 03 Apr 2024 01:25:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State Khorasan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Foreign Intelligence Service (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/03/28/multimedia/02dc-russia/02dc-russia-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nanna Heitmann for The New York Times</media:credit>
+      <media:description>Some Western officials have said that when an attack failed to materialize immediately after a U.S. warning, Russia appeared to have lowered its guard.</media:description>
+    </item>
+    <item>
       <title>Maryse Condé, ‘Grande Dame’ of Francophone Literature, Dies at 90</title>
       <link>https://www.nytimes.com/2024/04/02/books/maryse-conde-dead.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/books/maryse-conde-dead.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/02/books/maryse-conde-dead.html" rel="standout"></atom:link>
       <description>She explored the history and culture of Africa, the West Indies and Europe in work that made her a perennial favorite for the Nobel Prize.</description>
       <dc:creator>Clay Risen</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 23:13:11 +0000</pubDate>
+      <pubDate>Thu, 04 Apr 2024 16:12:45 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Conde, Maryse</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guadeloupe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Black People</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Heremakhonon (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guadeloupe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Africa</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Segu (Book)</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02Conde--01-cbpf/02Conde--01-cbpf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Heremakhonon (Book)</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/02Conde--01-cbpf-print1/02Conde--01-cbpf-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Violette Franchi for The New York Times</media:credit>
-      <media:description>Maryse Condé in 2023, when, at 89, she was shortlisted for the International Booker Prize.</media:description>
+      <media:description>Maryse Condé in 2023. That year, at 89, she was shortlisted for the International Booker Prize.</media:description>
     </item>
     <item>
       <title>Israel bombed an Iranian Embassy complex. Is that allowed?</title>
@@ -134,7 +372,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/02/world/europe/interpreter-israel-syria-embassy.html" rel="standout"></atom:link>
       <description>Israel can likely argue that its actions did not violate international law’s protections for diplomatic missions, experts say.</description>
       <dc:creator>Amanda Taub</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 09:09:49 +0000</pubDate>
+      <pubDate>Wed, 03 Apr 2024 13:13:48 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Diplomatic Service, Embassies and Consulates</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
@@ -153,254 +391,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02InterpreterNL-Embassy-ktzw/02InterpreterNL-Embassy-ktzw-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Louai Beshara/Agence France-Presse — Getty Images</media:credit>
       <media:description>The aftermath of the strike on the Iranian Embassy complex on Tuesday in Damascus, Syria.</media:description>
-    </item>
-    <item>
-      <title>Rome’s Future Is a Walk Through Its Past</title>
-      <link>https://www.nytimes.com/2024/04/02/world/europe/rome-future-past-downtown.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/world/europe/rome-future-past-downtown.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/world/europe/rome-future-past-downtown.html" rel="standout"></atom:link>
-      <description>City officials kicked off a new project to create a monumental, pedestrian-friendly, archaeological area downtown, but some critics worry the plans puts tourists before residents.</description>
-      <dc:creator>Elisabetta Povoledo</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 07:10:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Archaeology and Anthropology</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Walking</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Area Planning and Renewal</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colosseum (Rome)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/world/02rome/02rome-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Emanuele Cremaschi/Getty Images</media:credit>
-      <media:description>Tourists outside of the Colosseum in Rome on Saturday. City leaders have proposed a new, pedestrian-friendly area in the center of the city, which supporters say would promote ancient Roman history.</media:description>
-    </item>
-    <item>
-      <title>Fire at Masquerade Nightclub in Istanbul Kills 29</title>
-      <link>https://www.nytimes.com/2024/04/02/world/europe/istanbul-nightclub-fire.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/world/europe/istanbul-nightclub-fire.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/world/europe/istanbul-nightclub-fire.html" rel="standout"></atom:link>
-      <description>The fire took place at Masquerade, a popular club that was closed to the public and undergoing renovations. Six people were arrested.</description>
-      <dc:creator>Safak Timur</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 18:51:12 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fires and Firefighters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bars and Nightclubs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Istanbul (Turkey)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02istanbul-fire-gzlj/02istanbul-fire-gzlj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Erdem Sahin/EPA, via Shutterstock</media:credit>
-      <media:description>Emergency workers at the scene of a fire in a nightclub on Tuesday in Istanbul.</media:description>
-    </item>
-    <item>
-      <title>Ukraine Drones Hit Oil Refinery and Factory Deep in Russia</title>
-      <link>https://www.nytimes.com/2024/04/02/world/europe/russia-ukraine-drone-strike.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/world/europe/russia-ukraine-drone-strike.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/world/europe/russia-ukraine-drone-strike.html" rel="standout"></atom:link>
-      <description>Ukrainian media and analysts, and Russian officials, said Ukraine had carried out the attack some 700 miles from the land it controls. Ukraine’s military and intelligence forces declined to comment.</description>
-      <dc:creator>Maria Varenikova</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 19:59:31 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drones (Pilotless Planes)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="960" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02ukraine-drone-1-wzqp/02ukraine-drone-1-wzqp-mediumSquareAt3X.jpg" width="960"></media:content>
-      <media:credit>Ostorozhno Novosti, via Reuters</media:credit>
-    </item>
-    <item>
-      <title>Adidas Stops Customization of Germany Jersey for Fear of Nazi Symbolism</title>
-      <link>https://www.nytimes.com/2024/04/02/world/europe/germany-jersey-customize-nazi-symbol.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/world/europe/germany-jersey-customize-nazi-symbol.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/world/europe/germany-jersey-customize-nazi-symbol.html" rel="standout"></atom:link>
-      <description>The apparel giant moved quickly to block the sale of shirts bearing the No. 44, which resembled a banned Nazi logo in the uniform’s new lettering.</description>
-      <dc:creator>Christopher F. Schuetze</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 15:43:48 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Uniforms</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Symbols</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Neo Nazi Groups</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">adidas AG</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">German Football Assn</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02germany-jerseys-qzlc/02germany-jerseys-qzlc-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Franck Fife/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Jonathan Tah, a German player wearing No. 4, in a match against France last month. The team is required to assign the Nos. 4 and 14 in major tournaments. </media:description>
-    </item>
-    <item>
-      <title>Biden Talks to Xi About Conflicts, From Ukraine to the Pacific</title>
-      <link>https://www.nytimes.com/2024/04/02/us/politics/biden-xi-call.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/us/politics/biden-xi-call.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/us/politics/biden-xi-call.html" rel="standout"></atom:link>
-      <description>President Biden aimed to keep relations stable in a call with Xi Jinping of China, but also raised concerns over Beijing’s activities around Taiwan, the South China Sea and Russia.</description>
-      <dc:creator>Edward Wong and Erica L. Green</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 23:34:09 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Territorial Disputes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drug Abuse and Traffic</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Houthis</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yellen, Janet L</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Middle East</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02dc-prexy-hltp/02dc-prexy-hltp-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Bonnie Cash for The New York Times</media:credit>
-      <media:description>The call was part of the Biden administration’s efforts toward the modest goals of managing competition “responsibly,” an administration official said.</media:description>
-    </item>
-    <item>
-      <title>A Timeline of Iran and Israel’s Shadow War Across the Middle East</title>
-      <link>https://www.nytimes.com/2024/04/02/world/middleeast/iran-israel-attacks-shadow-war.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/world/middleeast/iran-israel-attacks-shadow-war.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/world/middleeast/iran-israel-attacks-shadow-war.html" rel="standout"></atom:link>
-      <description>The regional rivals have for decades targeted each other’s interests, including with a recent strike in Syria that killed three Iranian commanders. Here are some other notable flash points.</description>
-      <dc:creator>Cassandra Vinograd</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 14:17:17 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Assassinations and Attempted Assassinations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">War and Armed Conflicts</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Targeted Killings</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diplomatic Service, Embassies and Consulates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hezbollah</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic Revolutionary Guards Corps</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Houthis</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Suleimani, Qassim</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Arouri, Saleh al- (1966-2024)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khodayee, Sayad</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02iran-israel-timeline-qzwj/02iran-israel-timeline-qzwj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Louai Beshara/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Outside the Iranian Embassy complex in Damascus, Syria, on Monday.</media:description>
-    </item>
-    <item>
-      <title>Finland School Shooting: 12-Year-Old Suspect Detained After 1 Dead and 2 Injured</title>
-      <link>https://www.nytimes.com/2024/04/02/world/europe/finland-school-shooting.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/world/europe/finland-school-shooting.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/world/europe/finland-school-shooting.html" rel="standout"></atom:link>
-      <description>Another 12-year-old was killed and two other students were wounded in a country with one of the highest rates of gun ownership in Europe.</description>
-      <dc:creator>Johanna Lemola and Emma Bubola</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 15:33:39 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">School Shootings and Armed Attacks</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gun Control</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Finland</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Firearms</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02finland-shooting-cltv/02finland-shooting-cltv-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Markku Ulander/Lehtikuva, via Reuters</media:credit>
-      <media:description>Police officers outside the school in Vantaa, Finland, after the shooting on Tuesday.</media:description>
-    </item>
-    <item>
-      <title>An Airline Course Looks to Overcome Fear in the Skies</title>
-      <link>https://www.nytimes.com/2024/04/02/travel/fear-of-flying-course-british-airways.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/travel/fear-of-flying-course-british-airways.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/travel/fear-of-flying-course-british-airways.html" rel="standout"></atom:link>
-      <description>Anxiety when flying might not seem so unreasonable these days, but a British Airways program seeks to reassure the lightly nervous and the abjectly terrified alike.</description>
-      <dc:creator>Sarah Lyall</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 09:00:08 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airlines and Airplanes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Aviation Accidents, Safety and Disasters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pilots</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Phobias</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">British Airways PLC</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/02/28/multimedia/00british-airways-fear-of-flying-02-jfvm/00british-airways-fear-of-flying-02-jfvm-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Jeremie Souteyrat for The New York Times</media:credit>
-      <media:description>Capt. Steve Allright (yes, that’s his real name) leads a session for nervous fliers for British Airways.</media:description>
-    </item>
-    <item>
-      <title>Tuesday Briefing</title>
-      <link>https://www.nytimes.com/2024/04/02/briefing/iran-israel-general-ukraine-aid.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/02/briefing/iran-israel-general-ukraine-aid.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/02/briefing/iran-israel-general-ukraine-aid.html" rel="standout"></atom:link>
-      <description>Iran says Israel struck its generals in Syria.</description>
-      <dc:creator>Daniel E. Slotnik</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 04:25:36 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02ambriefing-europe-nl-promo/02ambriefing-europe-nl-strike-thzq-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Louai Beshara/Agence France-Presse — Getty Images</media:credit>
-      <media:description>The aftermath of an Israeli strike on a building close to the Iranian Consulate in Damascus, Syria, on Monday.</media:description>
-    </item>
-    <item>
-      <title>Rishi Sunak Backs J.K. Rowling in Criticism of New Scottish Hate Crime Law</title>
-      <link>https://www.nytimes.com/2024/04/01/world/europe/scotland-hate-crime-law.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/01/world/europe/scotland-hate-crime-law.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/01/world/europe/scotland-hate-crime-law.html" rel="standout"></atom:link>
-      <description>The legislation expands protections and creates a new charge of “stirring up hatred.” Critics, including J.K. Rowling, said the law was “wide open to abuse.”</description>
-      <dc:creator>Sopan Deb</dc:creator>
-      <pubDate>Tue, 02 Apr 2024 16:05:10 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Scotland</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hate Crimes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hate Speech</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rowling, J K</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of Speech and Expression</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yousaf, Humza (1985- )</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/01/arts/01xp-scotland/01xp-scotland-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Jane Barlow/Press Association, via Getty Images</media:credit>
-      <media:description>Edinburgh, Scotland. A conviction under the country’s new hate crime law could lead to a fine and a prison sentence of up to seven years.</media:description>
-    </item>
-    <item>
-      <title>Johnson Outlines Plan for Ukraine Aid; House Could Act Within Weeks</title>
-      <link>https://www.nytimes.com/2024/04/01/us/politics/mike-johnson-ukraine-aid.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/01/us/politics/mike-johnson-ukraine-aid.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/01/us/politics/mike-johnson-ukraine-aid.html" rel="standout"></atom:link>
-      <description>The G.O.P. speaker’s proposed conditions for sending a fresh infusion of military assistance to Kyiv are the strongest sign to date that he plans to defy critics in his own party and push through the aid package.</description>
-      <dc:creator>Catie Edmondson</dc:creator>
-      <pubDate>Mon, 01 Apr 2024 19:15:51 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Aid</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Mike (1972- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Natural Gas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Assets, Frozen</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/01/multimedia/01dc-ukraineaid-01-fzhc/01dc-ukraineaid-01-fzhc-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Kent Nishimura for The New York Times</media:credit>
-      <media:description>Speaker Mike Johnson has been searching for a path forward on Ukraine that would provoke the least political backlash from his party.</media:description>
-    </item>
-    <item>
-      <title>Handmade Umbrellas From Italy</title>
-      <link>https://www.nytimes.com/2024/04/01/fashion/craft-handmade-umbrella-italy.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/01/fashion/craft-handmade-umbrella-italy.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/01/fashion/craft-handmade-umbrella-italy.html" rel="standout"></atom:link>
-      <description>A handmade, bespoke umbrella is “a bit like a business card” for its owner, according to Carlo Suino.</description>
-      <dc:creator>Felicia Craddock</dc:creator>
-      <pubDate>Mon, 01 Apr 2024 09:01:20 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Umbrellas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Collectors and Collections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turin (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
-      <media:content height="1667" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02sp-crafts-umbrella-inyt-08-cmvhsub-vbwg/02sp-crafts-umbrella-inyt-08-cmvhsub-vbwg-mediumSquareAt3X.jpg" width="1667"></media:content>
-      <media:credit>Camilla Ferrari for The New York Times</media:credit>
-      <media:description>Carlo Suino working on the frame of an umbrella in his workshop. The main objective, he said, is “to have a product that is always better than the one made previously.”</media:description>
-    </item>
-    <item>
-      <title>The Craft of Making Portuguese Azulejo Tiles</title>
-      <link>https://www.nytimes.com/2024/04/01/fashion/azulejo-tiles-portugal.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/01/fashion/azulejo-tiles-portugal.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/01/fashion/azulejo-tiles-portugal.html" rel="standout"></atom:link>
-      <description>A tradition dating back centuries survives in Portugal as artists and companies fill private and public commissions for the celebrated designs.</description>
-      <dc:creator>Kathleen Beckett</dc:creator>
-      <pubDate>Mon, 01 Apr 2024 09:01:20 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ceramics and Pottery</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lisbon (Portugal)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sintra (Portugal)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Portugal</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brick and Tile</category>
-      <category domain="">azulejo</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alexandre Pais</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Museu Nacional do Azulejo (Lisbon, Portugal)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-fashion</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/multimedia/02sp-crafts-tiles-inyt-03-wvgj/02sp-crafts-tiles-inyt-03-wvgj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Daniel Rodrigues for The New York Times</media:credit>
-      <media:description>Azulejos can be seen all over the Portuguese capital of Lisbon, in houses, hotels, squares, train stations, and at scenic views of the seafront.</media:description>
     </item>
   </channel>
 </rss>

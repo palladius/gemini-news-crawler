@@ -9,66 +9,154 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Apr 2024 11:00:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Apr 2024 07:22:33 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
+            <title><![CDATA[Tory admits giving MP numbers to dating app contact - report]]></title>
+            <description><![CDATA[MP William Wragg tells The Times: "I'm so sorry my weakness has caused other people hurt".]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68731683</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68731683#0</guid>
+            <pubDate>Fri, 05 Apr 2024 02:28:53 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16970/production/_133082529_william_wragg_uk_parliament.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[No boots on the ground in Ukraine, says Cameron]]></title>
+            <description><![CDATA[The UK foreign secretary tells the BBC's Ukrainecast the war will be lost if Western allies don't step up.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68730246</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68730246#0</guid>
+            <pubDate>Thu, 04 Apr 2024 14:21:38 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57B9/production/_133075422_cameron.jpg.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Aid worker's family criticises selling Israel arms]]></title>
+            <description><![CDATA[The family of James Henderson say weapons sold to Israel "may in turn be used to kill our fellow citizens."]]></description>
+            <link>https://www.bbc.co.uk/news/uk-68729302</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-68729302#0</guid>
+            <pubDate>Fri, 05 Apr 2024 00:51:57 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A8F9/production/_133075234_israelsoldier-index-reuters.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Truss among Tory MPs at Farage's birthday party]]></title>
+            <description><![CDATA[A video message from former US President Donald Trump was also played at the event in London.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68731273</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68731273#0</guid>
+            <pubDate>Thu, 04 Apr 2024 10:37:28 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9A2B/production/_133076493_gettyimages-2087371788.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Greens demand more affordable homes at local launch]]></title>
+            <description><![CDATA[The Green Party of England and Wales is aiming to build on its best ever set of local election results on 2 May.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68732007</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68732007#0</guid>
+            <pubDate>Thu, 04 Apr 2024 12:42:16 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14C4B/production/_133076058_carladenyer.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Food price fears as Brexit import charges revealed]]></title>
+            <description><![CDATA[Fees of up £145 will be levied on imports of fish, salami, sausage, cheese and yoghurt, the government says.]]></description>
+            <link>https://www.bbc.co.uk/news/business-68726852</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68726852#0</guid>
+            <pubDate>Wed, 03 Apr 2024 20:05:10 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/156AF/production/_133072778_mediaitem133072774.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Watchdog official resigns after Tory abuse row]]></title>
+            <description><![CDATA[Sinead Cook steps down following a row over anti-Conservative comments posted on social media.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-wales-68734410</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-wales-68734410#0</guid>
+            <pubDate>Thu, 04 Apr 2024 16:05:38 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DD8D/production/_133071765_gettyimages-506944982.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Election poll tracker: How do the parties compare?]]></title>
+            <description><![CDATA[How do people say they will vote in the UK general election? Our poll tracker measures the trends.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68079726</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68079726#1</guid>
+            <pubDate>Wed, 03 Apr 2024 08:13:27 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3607/production/_132413831_polltracker_index_promo-2-nc.png"/>
+        </item>
+        <item>
+            <title><![CDATA[DUP focus unchanged after ‘difficult’ week]]></title>
+            <description><![CDATA[DUP MP Gavin Robinson took on the role of interim leader after Sir Jeffrey Donaldson stood down.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68731499</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68731499#1</guid>
+            <pubDate>Thu, 04 Apr 2024 18:16:21 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11343/production/_133076407_gavinrobinson.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Leeds Pride drops Tory donor after alleged racism]]></title>
+            <description><![CDATA[The event cuts ties with Frank Hester's company TPP over his alleged comments about MP Diane Abbott.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-leeds-68726109</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-leeds-68726109#1</guid>
+            <pubDate>Thu, 04 Apr 2024 12:48:30 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E2A4/production/_132902085_hester.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Burnham launches mayoral re-election campaign]]></title>
+            <description><![CDATA[Andy Burnham asks voters to examine his track record as he seeks a third term as Greater Manchester mayor.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-manchester-68724818</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-manchester-68724818#1</guid>
+            <pubDate>Wed, 03 Apr 2024 15:40:33 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17E19/production/_133071879_andyburnham.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Labour commits to Tory childcare expansion plan]]></title>
+            <description><![CDATA[From this week, working parents with two-year-olds will be eligible for 15 hours of free childcare.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68723552</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68723552#1</guid>
+            <pubDate>Wed, 03 Apr 2024 13:10:36 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B3F8/production/_133027064_gettyimages-1346505349.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Mercer challenging order to give names to inquiry]]></title>
             <description><![CDATA[The minister has refused to reveal who told him about alleged war crimes by British forces in Afghanistan.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68721382</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68721382#0</guid>
-            <pubDate>Wed, 03 Apr 2024 08:43:00 GMT</pubDate>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68721382#1</guid>
+            <pubDate>Wed, 03 Apr 2024 16:14:50 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/056A/production/_133068310_gettyimages-2055898923.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Council power share continues after mass quitting]]></title>
+            <description><![CDATA[The Lib Dems on Pendle Council say they still work with 20 councillors who have quit Labour]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-lancashire-68715748</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-lancashire-68715748#1</guid>
+            <pubDate>Tue, 02 Apr 2024 17:40:04 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/036B/production/_133057800_pen2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Watchdog official suspended over online Tory abuse]]></title>
+            <description><![CDATA[Sinead Cook is reported to have written expletive-filled online messages aimed at the Conservatives.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-wales-68728229</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-wales-68728229#1</guid>
+            <pubDate>Wed, 03 Apr 2024 19:06:53 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DD8D/production/_133071765_gettyimages-506944982.jpg"/>
         </item>
         <item>
             <title><![CDATA[People should not be arrested for smelling - minister]]></title>
             <description><![CDATA[Legislation could criminalise rough sleepers if they cause a nuisance, including "excessive" smells.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68713436</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68713436#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68713436#1</guid>
             <pubDate>Tue, 02 Apr 2024 11:52:22 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12D46/production/_133062177_gettyimages-1965851464.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Sunak defends rollout of free childcare hours]]></title>
-            <description><![CDATA[Rishi Sunak says it is a "positive and exciting moment" after Labour called the system a "total mess".]]></description>
-            <link>https://www.bbc.co.uk/news/education-68712384</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/education-68712384#0</guid>
-            <pubDate>Tue, 02 Apr 2024 11:07:29 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14132/production/_133062228_6fb8fd8f8d2929c2d4626872836f9ace009521a8.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[PM backs JK Rowling's views on new hate crime law]]></title>
-            <description><![CDATA[The author hit out at the Hate Crime and Public Order (Scotland) Act that came into effect on Monday.]]></description>
-            <link>https://www.bbc.com/news/articles/cmmqq4qv81qo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cmmqq4qv81qo#0</guid>
-            <pubDate>Tue, 02 Apr 2024 11:36:04 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/44cb/live/b3a90fe0-f0cc-11ee-88b9-930129263350.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Sunak says government will support Stormont]]></title>
-            <description><![CDATA[The executive will have the government's "full support" to maintain stability, the prime minister says.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68714246</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68714246#0</guid>
-            <pubDate>Tue, 02 Apr 2024 11:19:33 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13192/production/_133062287_gettyimages-2092426110.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Twenty councillors quit Labour Party in protest]]></title>
-            <description><![CDATA[They have claimed the national Labour Party wants to control who stands where and when.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-lancashire-68707225</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-lancashire-68707225#0</guid>
-            <pubDate>Mon, 01 Apr 2024 15:55:27 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/036B/production/_133057800_pen2.jpg"/>
         </item>
         <item>
             <title><![CDATA[Millions get a pay rise as minimum wage increases]]></title>
             <description><![CDATA[Above inflation wage-hikes are set to benefit 2.7 million low-paid workers and apprentices.]]></description>
             <link>https://www.bbc.co.uk/news/business-68678814</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68678814#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68678814#1</guid>
             <pubDate>Sun, 31 Mar 2024 23:00:28 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BDD5/production/_131779584_gettyimages-1355237717-2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sunak says government will support Stormont]]></title>
+            <description><![CDATA[The executive will have the government's "full support" to maintain stability, the prime minister says.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68714246</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68714246#1</guid>
+            <pubDate>Tue, 02 Apr 2024 11:19:33 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13192/production/_133062287_gettyimages-2092426110.jpg"/>
         </item>
         <item>
             <title><![CDATA[Publish migrant crime data - ex-minister Jenrick]]></title>
@@ -87,92 +175,12 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15305/production/_132598768_f850b794-cfb9-42b0-875d-03c356d78667.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Labour will level up better than Tories - Starmer]]></title>
-            <description><![CDATA[Keir Starmer says his party would do a better job of reducing regional inequality across Britain.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68683454</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68683454#1</guid>
-            <pubDate>Thu, 28 Mar 2024 15:18:19 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A9C7/production/_133036434_starmerpamedia.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Angela Rayner insists she has done nothing wrong]]></title>
-            <description><![CDATA[Labour's deputy leader is under fresh scrutiny over her tax affairs and the sale of her council house.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68684792</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68684792#1</guid>
-            <pubDate>Thu, 28 Mar 2024 13:46:21 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16BE1/production/_133035139_rayner-index-reuters.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Humza Yousaf questioned over new hate crime laws]]></title>
-            <description><![CDATA[The first minister faces questions from opposition party leaders and backbench MSPs at Holyrood.]]></description>
-            <link>https://www.bbc.co.uk/news/live/uk-scotland-68675721</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/live/uk-scotland-68675721#1</guid>
-            <pubDate>Thu, 28 Mar 2024 09:59:54 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D583/production/_131595645_gettyimages-1745651763-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Post-Brexit tax to hit UK car exports to Canada]]></title>
-            <description><![CDATA[A post-Brexit deal has expired with no new agreement, which leaving UK exports to Canada subject to new tariffs.]]></description>
-            <link>https://www.bbc.co.uk/news/business-68688486</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68688486#1</guid>
-            <pubDate>Thu, 28 Mar 2024 18:01:21 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B8C8/production/_133040374_cars.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Could assisted dying be coming to Scotland?]]></title>
-            <description><![CDATA[MSPs will get the chance to make Scotland the first part of the UK to let people legally end their lives.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-scotland-68674769</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-scotland-68674769#1</guid>
-            <pubDate>Thu, 28 Mar 2024 12:13:33 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3857/production/_133032441_5303b5b66fd3a8313bdbc5708e8a62046f3fd06a-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Housing fleeceholds the next big scandal, peer warns]]></title>
-            <description><![CDATA[Lords debate the plight of homeowners locked into private maintenance contracts for communal areas.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68673216</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68673216#1</guid>
-            <pubDate>Wed, 27 Mar 2024 18:34:28 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2989/production/_133033601_gettyimages-1866418099.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[CPS apologises over acid threat inaccuracy]]></title>
-            <description><![CDATA[The Crown Prosecution Service (CPS) failed to update a press release about MP Claudia Webbe.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-leicestershire-68670348</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-leicestershire-68670348#1</guid>
-            <pubDate>Wed, 27 Mar 2024 21:20:11 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7E9D/production/_133031423_claudiawebbe-pamedia-edit.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Council spending on special needs transport doubles]]></title>
-            <description><![CDATA[The rising cost of getting children to school is a key driver of current pressure on council budgets.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68665303</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68665303#1</guid>
-            <pubDate>Wed, 27 Mar 2024 05:55:20 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1025E/production/_133024166_pic2.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Record numbers of migrants cross Channel in 2024]]></title>
-            <description><![CDATA[The number of migrants arriving in the UK in 2024 after crossing the Channel has hit a record high.]]></description>
-            <link>https://www.bbc.com/news/articles/c4nq66lm57zo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/c4nq66lm57zo#1</guid>
-            <pubDate>Wed, 27 Mar 2024 14:53:02 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/06ef/live/bf33ae30-ec2e-11ee-9d23-3be38fc3d32e.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Labour starts review of government childcare plan]]></title>
-            <description><![CDATA[Bridget Phillipson tells the BBC the £4bn plan is a "mess" and calls for wider reform of provision.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68671351</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68671351#1</guid>
-            <pubDate>Tue, 26 Mar 2024 22:33:59 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5CDC/production/_133027732_baby_getty.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Peers to get up to £100 a night for hotel stays]]></title>
-            <description><![CDATA[Members who live outside London will be able to claim for accommodation when they attend the Lords.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68677341</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68677341#1</guid>
-            <pubDate>Wed, 27 Mar 2024 14:26:12 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12414/production/_133027747_4c6f13417497320d057facd4e363cf1908377798115_361_2975_16741000x563.jpg"/>
+            <title><![CDATA[Greens promise council powers to 'tame' private rents]]></title>
+            <description><![CDATA[The Green Party launch their local election campaign with a demand for more affordable homes.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68734551</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68734551#2</guid>
+            <pubDate>Thu, 04 Apr 2024 15:06:16 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17243/production/_133078749_p0hntfxr.jpg"/>
         </item>
         <item>
             <title><![CDATA['Are you part of the deep state, prime minister?']]></title>
@@ -199,20 +207,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B13A/production/_133007354_p0hlrsk1.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Watch: Tories will keep 'triple lock' on pensions - chancellor]]></title>
-            <description><![CDATA[The chancellor says the Conservatives would commit to keeping the so-called "triple lock" system.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68649610</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68649610#2</guid>
-            <pubDate>Sun, 24 Mar 2024 10:09:15 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5CF8/production/_133000832_p0hllgs9.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[New youngest peer wants to scrap the House of Lords]]></title>
             <description><![CDATA[At 28 years old, Plaid Cymru's Carmen Smith becomes the youngest member of the House of Lords.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68627896</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68627896#2</guid>
             <pubDate>Thu, 21 Mar 2024 13:56:44 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F3DC/production/_132982426_p0hl12l4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Watch: Tories will keep 'triple lock' on pensions - chancellor]]></title>
+            <description><![CDATA[The chancellor says the Conservatives would commit to keeping the so-called "triple lock" system.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68649610</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68649610#2</guid>
+            <pubDate>Sun, 24 Mar 2024 10:09:15 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5CF8/production/_133000832_p0hllgs9.jpg"/>
         </item>
         <item>
             <title><![CDATA[Starmer: Why is PM too scared to call an election?]]></title>
@@ -245,14 +253,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68615798#2</guid>
             <pubDate>Wed, 20 Mar 2024 11:16:14 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16AF5/production/_132971929_p0hkr8yg.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Election poll tracker: How do the parties compare?]]></title>
-            <description><![CDATA[How do people say they will vote in the UK general election? Our poll tracker measures the trends.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68079726</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68079726#3</guid>
-            <pubDate>Wed, 03 Apr 2024 08:13:27 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3607/production/_132413831_polltracker_index_promo-2-nc.png"/>
         </item>
         <item>
             <title><![CDATA[Local elections 2024: Is there an election in my area?]]></title>
