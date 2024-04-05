@@ -1,5 +1,6 @@
 
 APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
+EmojiAppName = "♊️ GemiNews 🗞️"
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 
 Rails.application.configure do

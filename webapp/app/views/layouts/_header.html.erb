@@ -1,6 +1,6 @@
 <header class="bg-gray-800 text-white px-4 py-2 flex justify-between items-center">
   <h1 class="text-xl font-bold">
-    ♊️ GemiNews 🗞️
+    ♊️ GemiNews 🗞️ <%= Rails.env == 'production' ? '' : "(#{Rails.env.to_s[0..2]})" %>
   </h1>
     <nav class="space-x-4">
       <a href="/articles" class="text-gray-300 hover:text-white">📰 Articles</a>
