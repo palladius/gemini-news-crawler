@@ -31,10 +31,12 @@ require_relative '../_env_gaic.rb'
 require_relative './constants.rb'
 require_relative 'lib/news_cacher.rb'
 require_relative 'lib/news_filer.rb'
+require 'tempfile'
 
 MaxArticleSize = ENV.fetch('MAX_ARTICLE_SIZE', '2').to_i  # 10 # todo 100
 MaxNewsWebsites = ENV.fetch('MAX_WEBSITES', '3').to_i  # 50 # todo 100
 RssCacheInvalidationMinutes = ENV.fetch('RSS_CACHE_INVALIDATION_MINUTES', '15').to_i  # 15 # 15 minutes
+SkipCrawling = ENV.fetch('SKIP_CRAWLING', 'false').downcase.to_s == 'true'
 
 
 Useless = %w{ enclosure category guid language lastmod loc pubDate description link publication_date pub_date elevation dcterms
@@ -96,7 +98,8 @@ def store_data(data)
 end
 
 # Example usage with RSS feed URLs
-#crawl_rss_feed("https://www.repubblica.it/rss/homepage/rss2.xml")
+#crawl_rss_feed("https://www.repubblica.it/rss/homepage/rss2.xml")require 'google/cloud/storage'
+
 #crawl_rss_feed("https://www.fattoquotidiano.it/feed/")
 # ... add URLs for other news website RSS feeds
 
@@ -104,6 +107,100 @@ end
 #   # Option 1: Using guid (if available)
 #   article_data[:guid] ? "cache/#{feed_url}-#{article_data[:guid]}.json" : "cache/#{feed_url}-#{Digest::MD5.hexdigest(article_data.to_json)}.json"
 # end
+
+# https://stackoverflow.com/questions/60391815/how-to-create-file-with-google-cloud-storage
+# def create_file(file, path = nil, acl: nil, cache_control: nil,
+#   content_disposition: nil, content_encoding: nil,
+#   content_language: nil, content_type: nil,
+#   crc32c: nil, md5: nil, metadata: nil,
+#   encryption_key: nil, encryption_key_sha256: nil)
+
+#   #ensure_service!
+#   options = { acl: File::Acl.predefined_rule_for(acl), md5: md5,
+#   cache_control: cache_control, content_type: content_type,
+#   content_disposition: content_disposition, crc32c: crc32c,
+#   content_encoding: content_encoding,
+#   content_language: content_language, metadata: metadata,
+#   key: encryption_key, key_sha256: encryption_key_sha256 }
+#   ensure_file_exists! file
+
+#   path ||= Pathname(file).to_path
+#   gapi = service.insert_file name, file, path, options
+#   File.from_gapi gapi, service
+# end
+
+def copy_stuff_to_gcs(gcs_environment: , bucket_name:)
+  require 'google/cloud/storage'
+
+  relative_path_to_key = ENV['GCP_KEY_PATH'] # but need to add ../
+  raise "ENV[GCP_KEY_PATH] is not set! " if relative_path_to_key.nil?
+  project_id = ENV['PROJECT_ID']
+  raise "ENV[PROJECT_ID] is not set! " if project_id.nil?
+
+  path_to_key = "../#{relative_path_to_key}"
+
+  puts("path_to_key: #{path_to_key}")
+  raise "File not found: #{path_to_key}" unless File.exist?(path_to_key)
+
+  export_version = "1.0"
+  storage = Google::Cloud::Storage.new(
+    project_id: project_id,
+    credentials: path_to_key, # 'path/to/your/credentials.json'
+  )
+
+  bucket = storage.bucket(bucket_name)
+  puts("Listing bucket content")
+  bucket.files.each do |file|
+    puts "- #{file.name}"
+  end
+
+  manifest_local_file = Tempfile.new('local_manifest')
+
+  `echo provaric > t`
+  manifest = {
+    "hostname": Socket.gethostname,
+    "now": Time.now,
+    "manifest_version": export_version,
+  } # cobnvert kets from sym to string or yaml is ugly! ;)
+  manifest_local_file.write(manifest.to_yaml())
+  # => yaml
+  #puts manifest_local_file.path
+  #puts manifest.to_yaml()
+  # not doable
+
+  ########################################
+  full_folder = "gs://#{bucket_name}/geminews-v#{export_version}/#{gcs_environment}/"
+  folder = "geminews-v#{export_version}/#{gcs_environment}"
+  manifest_path = "#{folder}/manifest.yaml"
+  puts("🟡 Uploading manifest: #{manifest}")
+  puts("  - manifest_path: #{manifest_path}")
+  bucket.create_file(manifest_local_file.path, manifest_path) # local, remote
+
+
+  puts("🟡 Checking content folder: #{folder}")
+  # https://cloud.google.com/storage/docs/listing-objects#storage-list-objects-ruby
+  bucket.files(prefix: folder).each do |file| #  bucket.files prefix: prefix, delimiter: delimiter
+    puts "[F] - #{file.name}"
+  end
+  puts("🟡 Pulling Manifest file: #{manifest_path}")
+  puts("🟡 Copy cache/ to folder: #{manifest_path}")
+  puts :TODO
+  #bucket_name = 'bucket'
+  folder_path = 'delete/me'
+  local_dir = 'cache/'
+
+
+  Dir.glob(File.join(local_dir, '**/*')) do |local_file|
+    next if File.directory?(local_file) # Skip directories
+
+    file_path = File.join(folder_path, local_file.sub(local_dir, ''))
+    puts "Uploading #{local_file} to #{file_path}"
+
+    file = bucket.create_file(file_path)
+    file.upload_from_file(local_file)
+  end
+
+end
 
 
 def main
@@ -119,6 +216,9 @@ def main
   #print NEWS[:italy]
   #url = NEWS[:italy].first
 
+  if SkipCrawling
+    puts("Bummer: I wont crawl as SkipCrawling has been set to true")
+  else
   NEWS_BY_REGION.each do |macro_region, blurb|
     puts("🌎🌎🌎 MACRO REGION: #{macro_region} 🌎🌎🌎")
     #NEWS[:italy].each do |newspaper_friendly_name, newspaper_feed|
@@ -170,10 +270,6 @@ def main
 
   puts 'Done with the super duper hyper-loop.'
 
-
-
-
-
   print("field_counters: ", field_counters)
   field_counters.map{|x,y| [x,y]}.sort_by{|x,y|-y}.each do |article_field, cardinality|
     puts("📚 #{article_field}:\t#{cardinality}")
@@ -181,6 +277,21 @@ def main
   #print("entries4all: ", entries4all)
   entries4all.sort.each do |k, entries|
     puts("📚 #{k}:\t#{entries}")
+  end
+
+end # SkipCrawling
+
+
+###################
+# do the GCP stuff
+###################
+
+  if ENV['ENABLE_GCP'].to_s == 'true'
+    gcs_environment = ENV.fetch 'GCS_ENV', 'development'
+    bucket_name = ENV.fetch 'BUCKET_NAME'
+    raise "BUCKET_NAME not given! " if bucket_name.nil?
+    puts("☁️ Nuclear GCP launch detected! (ENABLE_GCP=true)")
+    copy_stuff_to_gcs(gcs_environment: gcs_environment, bucket_name: bucket_name ) # puts("☁️ Nuclear GCP launch detected! (ENABLE_GCP=true)")
   end
 end
 

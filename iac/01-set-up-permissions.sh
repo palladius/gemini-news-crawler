@@ -22,8 +22,30 @@ set -u # fails at first undefined VAR (!!)
 ########################
 
 
+# GCS bucket key
+SA_NAME="geminews-gcs-readwriter"
+# its importahnt this key is shared across the project - in a private, .gitignored fashion!
+KEY_DIR="../private/"
 
+gcloud iam service-accounts create ${SA_NAME} \
+  --display-name "[GemiNews] GCS Bucket Access Account" ||
+        echo Already exists
 
+mkdir -p $KEY_DIR/
+
+if [ ! -f $KEY_DIR/${SA_NAME}-key.json ] ; then
+    echo "Creating key once:"
+    gcloud iam service-accounts keys create $KEY_DIR/${SA_NAME}-key.json  \
+        --iam-account=$SA_NAME@$PROJECT_ID.iam.gserviceaccount.com
+fi
+
+# gsutil iam ch \
+#     serviceAccount:${SA_NAME}@${PROJECT_ID}.iam.gserviceaccount.com \
+#         roles/storage.objectAdmin \
+#             "gs://${BUCKET_NAME}"
+gsutil iam ch serviceAccount:$SA_NAME@$PROJECT_ID.iam.gserviceaccount.com:objectAdmin gs://$BUCKET_NAME
+
+#gsutil iam ch serviceAccount:my-service-account@project.iam.gserviceaccount.com:objectAdmin gs://my-project/my-bucket
 
 
 

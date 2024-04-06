@@ -9,56 +9,88 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 05 Apr 2024 07:22:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Apr 2024 10:49:07 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Man sentenced to 30 years for aiding France attacker]]></title>
-            <description><![CDATA[Audrey Mondjehi was convicted of obtaining a gun used in a 2018 attack on a Strasbourg Christmas market.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68737669</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68737669#0</guid>
-            <pubDate>Thu, 04 Apr 2024 21:48:34 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31B7/production/_132772721_gettyimages-1072153550.jpg"/>
+            <title><![CDATA[Russian drone strikes on Kharkiv kill six - officials]]></title>
+            <description><![CDATA[Attacks on the closest big city to the Russian border have been intensifying in recent weeks.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68747752</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68747752#0</guid>
+            <pubDate>Sat, 06 Apr 2024 09:12:45 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A35B/production/_133091814_9778f9b7-de3d-49c5-aa42-41489233a84e.png"/>
         </item>
         <item>
-            <title><![CDATA[Two brothers, one club and a 40-year wait]]></title>
-            <description><![CDATA[Inaki and Nico Williams' parents travelled to Bilbao from Ghana hoping the city would change their sons' lives. Their sons, in turn, have changed the city.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/68717176</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/68717176#0</guid>
-            <pubDate>Thu, 04 Apr 2024 23:04:50 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/970B/production/_133076683_gettyimages-2049034205.jpg"/>
+            <title><![CDATA[Ibiza locals living in cars as party island sees rents soar]]></title>
+            <description><![CDATA["All the work you could want, but there isn't anywhere to live," say those struggling on the island.]]></description>
+            <link>https://www.bbc.co.uk/news/business-68730891</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68730891#0</guid>
+            <pubDate>Sat, 06 Apr 2024 00:39:13 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30B3/production/_133076421_car1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Serbia police search for two-year-old girl's body]]></title>
+            <description><![CDATA[Two men hit the girl named Danka with their car and then took her body to a landfill site, say police.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68743220</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68743220#0</guid>
+            <pubDate>Fri, 05 Apr 2024 20:25:29 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17B5F/production/_133091179_de27-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Thousands evacuated after Russian dam breached]]></title>
+            <description><![CDATA[Authorities say they are working to stem flooding in Orsk, about 1,800km east of Moscow.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68746276</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68746276#0</guid>
+            <pubDate>Fri, 05 Apr 2024 22:49:24 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F4FF/production/_133091726_gettyimages-2133949602.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Six Russian planes destroyed by drones - Ukraine]]></title>
+            <description><![CDATA[Security sources tell the BBC another eight bombers were badly damaged in the attack.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68740094</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68740094#0</guid>
+            <pubDate>Sat, 06 Apr 2024 00:11:10 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10AB6/production/_133087286_gettyimages-478823817.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[French pupil dies after being beaten near school]]></title>
+            <description><![CDATA[The 15-year-old boy was attacked by several youths and suffered a cardiac arrest, say police.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68744255</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68744255#0</guid>
+            <pubDate>Fri, 05 Apr 2024 17:55:36 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E78E/production/_133087295_gettyimages-2133932932.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Police seize luxury goods in fraud raids across EU]]></title>
+            <description><![CDATA[A criminal network is suspected of embezzling millions from an EU post-Covid recovery scheme.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68742209</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68742209#0</guid>
+            <pubDate>Fri, 05 Apr 2024 15:50:36 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8FAA/production/_133087763_watches20240404venice2pic-1.jpg"/>
         </item>
         <item>
             <title><![CDATA[Moment diver slips during Olympic pool inauguration]]></title>
             <description><![CDATA[Alexis Jandard laughs off the incident on social media, posting, “My back is fine, but my ego…”.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68738072</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68738072#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68738072#1</guid>
             <pubDate>Fri, 05 Apr 2024 03:01:18 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6610/production/_133082162_diverre.jpg"/>
         </item>
         <item>
-            <title><![CDATA[No boots on the ground in Ukraine, says Cameron]]></title>
-            <description><![CDATA[The UK foreign secretary tells the BBC's Ukrainecast the war will be lost if Western allies don't step up.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68730246</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68730246#0</guid>
-            <pubDate>Thu, 04 Apr 2024 14:21:38 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57B9/production/_133075422_cameron.jpg.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Vingegaard suffers broken collarbone & ribs in crash]]></title>
-            <description><![CDATA[Reigning Tour de France champion Jonas Vingegaard suffers a broken collarbone and several broken ribs in a crash at the Itzulia Basque Country stage race.]]></description>
-            <link>https://www.bbc.co.uk/sport/cycling/68729075</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/sport/cycling/68729075#0</guid>
-            <pubDate>Thu, 04 Apr 2024 19:10:41 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88B5/production/_133079943_gettyimages-2132813290.jpg"/>
+            <title><![CDATA[Man sentenced to 30 years for aiding France attacker]]></title>
+            <description><![CDATA[Audrey Mondjehi was convicted of obtaining a gun used in a 2018 attack on a Strasbourg Christmas market.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68737669</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68737669#1</guid>
+            <pubDate>Thu, 04 Apr 2024 21:48:34 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31B7/production/_132772721_gettyimages-1072153550.jpg"/>
         </item>
         <item>
             <title><![CDATA[Europe and US need each other, Nato chief says]]></title>
             <description><![CDATA[Jens Stoltenberg says member states must come up with a plan to fund Ukraine for many years to come.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68730428</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68730428#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68730428#1</guid>
             <pubDate>Thu, 04 Apr 2024 20:19:18 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C20D/production/_133077694_01b2eedadf8ec9884c028373b659aeaac793793c0_275_3440_19343440x1934.jpg"/>
         </item>
@@ -66,65 +98,17 @@
             <title><![CDATA[Denmark shuts shipping strait over missile failure]]></title>
             <description><![CDATA[The busy Great Belt strait was closed to ships on Thursday afternoon but has since reopened.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68730431</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68730431#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68730431#1</guid>
             <pubDate>Thu, 04 Apr 2024 19:56:49 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D739/production/_133079055_gettyimages-525387450.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Russia trying to undermine Paris Olympics, says Macron]]></title>
-            <description><![CDATA[The French President claims Russia is running a disinformation campaign to damage this summer's games.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68733267</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68733267#1</guid>
-            <pubDate>Thu, 04 Apr 2024 15:33:20 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2D4D/production/_133079511_38c13c04a6b7a211ff3c06019053a26b64786265443_507_4967_27941000x563.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Turkey reinstates vote winner after days of unrest]]></title>
-            <description><![CDATA[Turkey's election authority scrapped a decision to annul a pro-Kurdish candidate's election victory.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68730330</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68730330#1</guid>
-            <pubDate>Thu, 04 Apr 2024 12:52:44 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14F75/production/_133077858_72cbcb04e05efbea13d51c3e945b27ee416404cf372_562_1922_10811000x563.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Italian island offers rampant goats up for adoption]]></title>
-            <description><![CDATA[A remote Italian island where goats outnumber humans six to one is trying to give them away.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68731003</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68731003#1</guid>
-            <pubDate>Thu, 04 Apr 2024 11:33:45 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37C5/production/_133077241_gettyimages-1805926467.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Air passengers face extra year of 100ml liquid rule]]></title>
-            <description><![CDATA[Major airports will not have new scanners at all security lanes by the summer, the BBC understands.]]></description>
-            <link>https://www.bbc.co.uk/news/business-68723697</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68723697#1</guid>
-            <pubDate>Thu, 04 Apr 2024 09:12:41 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BFF1/production/_133073194_gettyimages-1417609701.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[United Ireland 'would cost €8bn to €20bn a year']]></title>
-            <description><![CDATA[The author of a new report said absorbing Northern Ireland would involve "huge financial pressure".]]></description>
-            <link>https://www.bbc.co.uk/news/uk-northern-ireland-68723508</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-68723508#1</guid>
-            <pubDate>Thu, 04 Apr 2024 17:40:56 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/181EC/production/_133069789_gettyimages-1126962340.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Finnish school shooting motivated by bullying - police]]></title>
-            <description><![CDATA[The suspect is accused of killing a boy aged 12 and wounding two girls in Vantaa.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68720973</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68720973#1</guid>
-            <pubDate>Wed, 03 Apr 2024 12:33:37 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BE43/production/_133070784_8e7e67b6d2324b9512823cf0f1335b1dd67041861319_17_3801_21391000x563.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Ukrainians risking air strikes to see a dentist]]></title>
-            <description><![CDATA[Natalia Nehriba returned to Ukraine despite the ongoing war after being left in "excruciating" pain.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-wiltshire-68683444</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-wiltshire-68683444#1</guid>
-            <pubDate>Thu, 04 Apr 2024 05:14:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DAC7/production/_133070065_capture.jpg"/>
+            <title><![CDATA[Vingegaard suffers broken collarbone & ribs in crash]]></title>
+            <description><![CDATA[Reigning Tour de France champion Jonas Vingegaard suffers a broken collarbone and several broken ribs in a crash at the Itzulia Basque Country stage race.]]></description>
+            <link>https://www.bbc.co.uk/sport/cycling/68729075</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/cycling/68729075#1</guid>
+            <pubDate>Thu, 04 Apr 2024 19:10:41 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88B5/production/_133079943_gettyimages-2132813290.jpg"/>
         </item>
         <item>
             <title><![CDATA[Russia’s neighbours urge Nato allies to bring back military service]]></title>
