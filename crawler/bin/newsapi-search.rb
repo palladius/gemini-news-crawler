@@ -36,10 +36,14 @@ puts("♦️ Riccardo, they search string is: '#{SearchString}'")
 puts '♦️' * 70
 puts ''
 
-def print_nicely_formatted_results(description: , headlines:, max: 3)
+raise "KEY non datur: mihi date clavem!" if KEY.to_s.empty?
+raise "SearchString non datur: mihi date quidam ARGVem!" if SearchString.to_s.empty?
+
+
+def print_nicely_formatted_results(description: , headlines:, max: 5)
   puts("== #{description} ==")
   headlines.each_with_index do |a, ix|
-    return if ix > max
+    return if ix >= max
     # if ix==0
     #   puts '----'
     #   #puts a.class
@@ -63,8 +67,9 @@ ret1 = n.get_everything(
   from: "2024-03-15&to=2024-04-06",
   sortBy: "popularity")
 
-print_nicely_formatted_results(description: "🕵️‍♂️ Search for '#{SearchString}'", headlines: ret1)
 
 headlines = n.get_top_headlines(sources: "bbc-news")
 
 print_nicely_formatted_results(description: '🇬🇧 Top headlines from BBC', headlines: headlines)
+
+print_nicely_formatted_results(description: "🕵️‍♂️ Search for '#{SearchString}'", headlines: ret1)

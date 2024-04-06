@@ -20,13 +20,17 @@ require "net/http"
 KEY =  ENV['NEWSCATCHER_API']
 SearchString = ARGV.join(' ')
 Lang = 'it'
-uri = "https://v3-api.newscatcherapi.com/api/search/?q=\"#{SearchString}\"&lang=it,en&countries=US,IT,CH" # CA
+uri = "https://v3-api.newscatcherapi.com/api/search/?q=\"#{SearchString}\"&lang=it,en,en&countries=US,IT,CH" # CA
 puts '♦️' * 70
 puts("♦️ Riccardo, they key is: #{KEY}")
 puts("♦️ Riccardo, they search string is: '#{SearchString}'")
 puts '♦️' * 70
 puts ''
 url = URI(uri)
+
+raise "KEY non datur: mihi date clavem!" if KEY.to_s.empty?
+raise "SearchString non datur: mihi date quidam ARGVem!" if SearchString.to_s.empty?
+
 
 https = Net::HTTP.new(url.host, url.port)
 https.use_ssl = true
