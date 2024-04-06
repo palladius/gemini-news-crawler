@@ -227,18 +227,30 @@ def copy_stuff_to_gcs(gcs_environment: , bucket_name:)
   remote_folder_path = full_folder + '/cache'
   local_dir = 'cache/'
 
+  ####################################################################################
+  # Copy all files from local `cache/...` to gs://BUCKET_NAME/gemoinews-v1.0/development/cache/...
+  ####################################################################################
 
   file_counter = 1
   Dir.glob(File.join(local_dir, '**/*')) do |local_file|
     next if File.directory?(local_file) # Skip directories
-    break if file_counter == 5
-    if file_counter % 9 == 0
-      puts("💤 skeeping 1 sec")
-      sleep(1)
-    end
+    #break if file_counter == 5
+    # if file_counter % 9 == 0
+    #   puts("💤 skeeping 1 sec")
+    #   sleep(1)
+    # end
     remote_file_path = File.join(remote_folder_path, local_file.sub(local_dir, ''))
     puts " ⬆️ #{file_counter} Uploading local '#{local_file}' -> remote '#{remote_file_path}'" # 🛗
-    bucket.create_file(manifest_local_file.path, folder) # local, remote
+    #puts(`ls -al '#{local_file}'`)
+    if File.size?(local_file) == 0
+      puts("0️⃣ Skipping '#{local_file}' as zero size..")
+    else
+        bucket.create_file(
+        local_file,
+        folder + '/' + local_file,
+        #folder
+        ) # local, remote
+    end
     file_counter += 1
   end
   puts('Done!')
