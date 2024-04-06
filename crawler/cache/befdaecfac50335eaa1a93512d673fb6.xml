@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sat, 06 Apr 2024 10:49:18 +0000</lastBuildDate>
-    <pubDate>Sat, 06 Apr 2024 10:46:22 +0000</pubDate>
+    <lastBuildDate>Sat, 06 Apr 2024 19:41:49 +0000</lastBuildDate>
+    <pubDate>Sat, 06 Apr 2024 19:38:37 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -40,7 +40,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/russia-convicts-war-murder.html" rel="standout"></atom:link>
       <description>Recruiting convicts for its army has given Russia a manpower advantage. But it is backfiring in tragic ways when former inmates are pardoned and return home to commit new crimes.</description>
       <dc:creator>Neil MacFarquhar and Milana Mazaeva</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 09:02:12 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 09:02:13 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Amnesties, Commutations and Pardons</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Mercenaries and Private Military Contractors</category>
@@ -58,25 +58,81 @@
       <media:description>A Russian military recruitment billboard saying, “Heroes are not born, they are made,” last year in Ulan-Ude, Russia. Veterans who survive the front line return to Russia as heroes with an elevated status in society.</media:description>
     </item>
     <item>
-      <title>Mexico Breaks Diplomatic Ties With Ecuador After Embassy Arrest</title>
+      <title>Mexico Breaks Diplomatic Ties With Ecuador After Jorge Glas Arrest</title>
       <link>https://www.nytimes.com/2024/04/06/world/americas/ecuador-mexico-arrest-embassy.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/americas/ecuador-mexico-arrest-embassy.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/06/world/americas/ecuador-mexico-arrest-embassy.html" rel="standout"></atom:link>
       <description>Jorge Glas, a former vice president, had taken refuge at the Mexican Embassy in Ecuador’s capital. Mexico’s president called his arrest a violation of international law.</description>
-      <dc:creator>John Yoon</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 10:27:37 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <dc:creator>John Yoon, Isabella Kwai and Julie Turkewitz</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 19:38:37 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ecuador</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Glas, Jorge (1969- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fugitives</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Asylum, Right of</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lopez Obrador, Andres Manuel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Diplomatic Service, Embassies and Consulates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fugitives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Glas, Jorge (1969- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lopez Obrador, Andres Manuel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Asylum, Right of</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Quito (Ecuador)</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06xp-ecuador-kjzh/06xp-ecuador-kjzh-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Dolores Ochoa/Associated Press</media:credit>
-      <media:description>Ecuadorean police officers entered the Mexican embassy in Quito on Friday night to arrest Ecuador’s former vice president.</media:description>
+      <media:description>Ecuadorean police officers entered the Mexican Embassy in Quito on Friday night to arrest Ecuador’s former vice president.</media:description>
+    </item>
+    <item>
+      <title>Who Is Jorge Glas, an Ecuadorean Politician Arrested at Mexico’s Embassy?</title>
+      <link>https://www.nytimes.com/2024/04/06/world/americas/jorge-glas-ecuador-mexico.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/americas/jorge-glas-ecuador-mexico.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/americas/jorge-glas-ecuador-mexico.html" rel="standout"></atom:link>
+      <description>A former vice president of Ecuador, Jorge Glas had been convicted of bribery in two separate cases. He had fled to the Mexican Embassy in Quito after facing more embezzlement charges.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 19:33:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bribery and Kickbacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diplomatic Service, Embassies and Consulates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Glas, Jorge (1969- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Correa, Rafael</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ecuador</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06ecuador-glas-01-czhm/06ecuador-glas-01-czhm-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Cristina Vega/Reuters</media:credit>
+      <media:description>Ecuador’s former vice president, Jorge Glas, after his release from prison in Quito, Ecuador, in 2022.</media:description>
+    </item>
+    <item>
+      <title>Slovakia 2024 Presidential Election: What to Know</title>
+      <link>https://www.nytimes.com/2024/03/23/world/europe/slovakia-presidential-election-korcok-pellegrini.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/03/23/world/europe/slovakia-presidential-election-korcok-pellegrini.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/03/23/world/europe/slovakia-presidential-election-korcok-pellegrini.html" rel="standout"></atom:link>
+      <description>Ivan Korcok, a veteran diplomat hostile to the Kremlin, and Peter Pellegrini, a Russia-friendly politician allied with Slovakia’s populist prime minister, will face each other in a runoff.</description>
+      <dc:creator>Andrew Higgins</dc:creator>
+      <pubDate>Fri, 05 Apr 2024 17:01:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Slovakia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Korcok, Ivan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pellegrini, Peter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fico, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harabin, Stefan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Caputova, Zuzana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+    </item>
+    <item>
+      <title>Russian Missiles Hit Kharkiv, Killing at Least 6</title>
+      <link>https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html" rel="standout"></atom:link>
+      <description>The latest assault on the eastern city killed at least six people, local authorities said. As Kyiv waits on American aid, Moscow has stepped up bombardments, including using modified “glide bombs.”</description>
+      <dc:creator>Marc Santora</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 11:48:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drones (Pilotless Planes)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bombs and Explosives</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06ukraine-kharkiv-01-pbzk/06ukraine-kharkiv-01-pbzk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Sergey Kozlov/EPA, via Shutterstock</media:credit>
+      <media:description>A bomb crater at the scene of an overnight attack in Kharkiv, eastern Ukraine, on Saturday.</media:description>
     </item>
     <item>
       <title>U.S. Seeks ‘Results’ After Israel Promises More Gaza Aid Routes</title>
@@ -86,18 +142,20 @@
       <description>World leaders welcomed the shift by an Israel facing increasing pressure, but they stressed that the measure of success would be whether enough trucks get in to ease the humanitarian crisis.</description>
       <dc:creator>Cassandra Vinograd, Raja Abdulrahim and Michael Levenson</dc:creator>
       <pubDate>Fri, 05 Apr 2024 21:21:31 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Security Council (UN)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Central Kitchen</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations Human Rights Council</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Security Council (UN)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05mideast-1-ljkz/05mideast-1-ljkz-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Mohammed Abed/Agence France-Presse — Getty Images</media:credit>
       <media:description>A makeshift tent camp for displaced people in Rafah in the southern Gaza Strip on Thursday.</media:description>
@@ -137,32 +195,13 @@
       <media:description>A bus carrying prisoners exiting Insein prison in Yangon, Myanmar, in January. The junta has said it will release thousands of prisoners, but rights groups warn that any freedom is likely to be temporary.</media:description>
     </item>
     <item>
-      <title>Slovakia 2024 Presidential Election: What to Know</title>
-      <link>https://www.nytimes.com/2024/03/23/world/europe/slovakia-presidential-election-korcok-pellegrini.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/03/23/world/europe/slovakia-presidential-election-korcok-pellegrini.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/03/23/world/europe/slovakia-presidential-election-korcok-pellegrini.html" rel="standout"></atom:link>
-      <description>Ivan Korcok, a veteran diplomat hostile to the Kremlin, and Peter Pellegrini, a Russia-friendly politician allied with Slovakia’s populist prime minister, will face each other in a runoff.</description>
-      <dc:creator>Andrew Higgins</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 17:01:26 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Slovakia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Korcok, Ivan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pellegrini, Peter</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fico, Robert</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harabin, Stefan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Caputova, Zuzana</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-    </item>
-    <item>
       <title>Iran Vows Revenge at Funeral for Commanders Killed in Israeli Airstrike</title>
       <link>https://www.nytimes.com/2024/04/05/world/middleeast/iran-airstrike-syria-funeral.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/world/middleeast/iran-airstrike-syria-funeral.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/05/world/middleeast/iran-airstrike-syria-funeral.html" rel="standout"></atom:link>
       <description>The Israeli airstrike this week in Damascus that killed seven Iranian commanders was an unusually harsh blow, and officials say Iran is determined to respond, raising fears of a war.</description>
       <dc:creator>Farnaz Fassihi, Eric Schmitt and Ronen Bergman</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 07:14:10 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 14:38:39 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Funerals and Memorials</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Damascus (Va)</category>
@@ -204,64 +243,19 @@
       <dc:creator>Andrew E. Kramer</dc:creator>
       <pubDate>Fri, 05 Apr 2024 09:02:30 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Trade</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Cluster Munitions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Mike (1972- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sumy (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/07/multimedia/07ukraine-ammo-01-whmf/07ukraine-ammo-01-whmf-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Nicole Tung for The New York Times</media:credit>
       <media:description>Ukrainian soldiers firing a howitzer toward Russian forces in the Donetsk region of Ukraine last month.</media:description>
-    </item>
-    <item>
-      <title>After 6 Months of War, Some Israelis Ask: Is Netanyahu Dragging It Out?</title>
-      <link>https://www.nytimes.com/2024/04/05/world/middleeast/netanyahu-israel-war-gaza.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/world/middleeast/netanyahu-israel-war-gaza.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/05/world/middleeast/netanyahu-israel-war-gaza.html" rel="standout"></atom:link>
-      <description>Despite growing pressure from President Biden, the Israeli prime minister appears in no rush to end the war in Gaza. Some think he has political reasons for extending the stasis.</description>
-      <dc:creator>Patrick Kingsley</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 12:16:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05israel-netanyahu-wblz/05israel-netanyahu-wblz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Ohad Zwigenberg</media:credit>
-      <media:description>Prime Minister Benjamin Netanyahu, center, at a cabinet meeting in December. Some in Israel accuse him of keeping the war going to prevent a collapse of his fragile coalition government.</media:description>
-    </item>
-    <item>
-      <title>In Threatening Israel, Biden Hopes to Avoid a Rupture</title>
-      <link>https://www.nytimes.com/2024/04/05/us/politics/biden-netanyahu-israel-gaza.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/us/politics/biden-netanyahu-israel-gaza.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/05/us/politics/biden-netanyahu-israel-gaza.html" rel="standout"></atom:link>
-      <description>The president has put Israel’s leader “on probation,” as a veteran diplomat put it. The threat is not idle, aides said, but he wants to force a course correction rather than follow through.</description>
-      <dc:creator>Peter Baker</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 02:56:09 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05dc-assess1-lmjc/05dc-assess1-lmjc-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Mohammed Salem, via Reuters</media:credit>
-      <media:description>Palestinians gathering in southern Gaza to collect airdropped aid in February. Israel authorized the opening of new points for aid delivery shortly after President Biden’s threat. </media:description>
     </item>
     <item>
       <title>Senior Tory MP William Wragg Admits Sharing Colleagues’ Private Data on Grindr </title>
@@ -287,18 +281,69 @@
       <media:description>An undated photo released by the British Parliament of William Wragg, a conservative lawmaker, who admitted that he had given the phone numbers of fellow members of Parliament to someone he met on Grindr.</media:description>
     </item>
     <item>
+      <title>New England Journal of Medicine Ignored Nazi Atrocities, Historians Find</title>
+      <link>https://www.nytimes.com/2024/04/06/science/nazi-science-new-england-journal-medicine.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/science/nazi-science-new-england-journal-medicine.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/science/nazi-science-new-england-journal-medicine.html" rel="standout"></atom:link>
+      <description>The New England Journal of Medicine published an article condemning its own record during World War II.</description>
+      <dc:creator>Alexander Nazaryan</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 14:42:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World War II (1939-45)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jews and Judaism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anti-Semitism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Academic and Scientific Journals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New England Journal of Medicine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <media:content height="1627" medium="image" url="https://static01.nyt.com/images/2024/04/07/science/07nazi-medicine-02/07nazi-medicine-02-mediumSquareAt3X.jpg" width="1628"></media:content>
+      <media:credit>Fox Photos Ltd./Sydney Morning Herald, via Alamy</media:credit>
+      <media:description>Nazi doctors and scientists on trial at Nuremberg in 1947 for human experiments, murders and other atrocities during the Holocaust.</media:description>
+    </item>
+    <item>
+      <title>Israel Says It Recovered Body of Elad Katzir, an Oct. 7 Hostage</title>
+      <link>https://www.nytimes.com/2024/04/06/world/middleeast/israel-hostage-elad-katzir.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/middleeast/israel-hostage-elad-katzir.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/middleeast/israel-hostage-elad-katzir.html" rel="standout"></atom:link>
+      <description>Elad Katzir lived near the border with the Gaza Strip. His sister said Israel’s government should have done more to get him back alive.</description>
+      <dc:creator>Aaron Boxerman</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 19:30:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06mideast-crisis-hostage-1-hlvf/06mideast-crisis-hostage-1-hlvf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Ahmad Gharabli/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Supporters held posters of Elad Katzir during a protest in Tel Aviv in February.</media:description>
+    </item>
+    <item>
       <title>Eclipse Mania</title>
       <link>https://www.nytimes.com/2024/04/06/briefing/eclipse-mania.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/briefing/eclipse-mania.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/06/briefing/eclipse-mania.html" rel="standout"></atom:link>
       <description>There’s still reason to get excited, even if you’re not convinced by the hype.</description>
       <dc:creator>Melissa Kirsch</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 10:46:22 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 13:35:31 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-storyline-no</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Eclipses</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+    </item>
+    <item>
+      <title>Iran vows revenge at a funeral for commanders killed in an Israeli airstrike.</title>
+      <link>https://www.nytimes.com/2024/04/06/world/middleeast/iran-vows-revenge-at-a-funeral-for-commanders-killed-in-an-israeli-airstrike.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/middleeast/iran-vows-revenge-at-a-funeral-for-commanders-killed-in-an-israeli-airstrike.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/middleeast/iran-vows-revenge-at-a-funeral-for-commanders-killed-in-an-israeli-airstrike.html" rel="standout"></atom:link>
+      <description></description>
+      <dc:creator>Farnaz Fassihi, Eric Schmitt and Ronen Bergman</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 10:13:38 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06mideast-crisis-iran-VERSION-1-wcqh/06mideast-crisis-iran-VERSION-1-wcqh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Arash Khamooshi for The New York Times</media:credit>
+      <media:description>Trucks carrying the coffins of seven Iranian commanders killed in an Israeli airstrike in Syria passed by mourners in Tehran on Friday.</media:description>
     </item>
     <item>
       <title>Trudeau Gives Preview of Canada’s Federal Budget, Breaking Tradition</title>
@@ -307,7 +352,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/06/world/americas/canadas-federal-budget.html" rel="standout"></atom:link>
       <description>Breaking with Canadian tradition, Prime Minister Justin Trudeau has been crisscrossing the country announcing measures from the April 16 budget in advance.</description>
       <dc:creator>Ian Austen</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 10:00:01 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 10:00:02 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trudeau, Justin</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06canadaletter-trudeau-twjc/06canadaletter-trudeau-twjc-mediumSquareAt3X.jpg" width="1800"></media:content>
@@ -321,10 +366,11 @@
       <atom:link href="https://www.nytimes.com/2024/04/05/health/bird-flu-vaccines-treatments.html" rel="standout"></atom:link>
       <description>Unlike the coronavirus, the H5N1 virus has been studied for years. Vaccines and treatments are available should they ever become necessary.</description>
       <dc:creator>Apoorva Mandavilli</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 17:23:56 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 11:12:27 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Avian Influenza</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Influenza</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Disease Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/00birdflu-02-kbvm/00birdflu-02-kbvm-mediumSquareAt3X.jpg" width="1799"></media:content>
       <media:credit>Rachel Bujalski for The New York Times</media:credit>
       <media:description>Avian influenza, which is often fatal in birds, surprised officials when it was found in dairy cows in multiple states.</media:description>
@@ -456,10 +502,16 @@
       <dc:creator>Aaron Boxerman and Adam Rasgon</dc:creator>
       <pubDate>Fri, 05 Apr 2024 23:17:44 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Central Kitchen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05israel-wck-01-tmvj/05israel-wck-01-tmvj-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Agence France-Presse — Getty Images</media:credit>
       <media:description>United Nations staff members inspecting a car used by World Central Kitchen workers that was hit by an Israeli airstrike in Gaza this week.</media:description>
@@ -484,6 +536,28 @@
       <media:description>The port of Ashdod in Israel on Friday.</media:description>
     </item>
     <item>
+      <title>After 6 Months of War, Some Israelis Ask: Is Netanyahu Dragging It Out?</title>
+      <link>https://www.nytimes.com/2024/04/05/world/middleeast/netanyahu-israel-war-gaza.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/world/middleeast/netanyahu-israel-war-gaza.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/05/world/middleeast/netanyahu-israel-war-gaza.html" rel="standout"></atom:link>
+      <description>Despite growing pressure from President Biden, the Israeli prime minister appears in no rush to end the war in Gaza. Some think he has political reasons for extending the stasis.</description>
+      <dc:creator>Patrick Kingsley</dc:creator>
+      <pubDate>Fri, 05 Apr 2024 12:16:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05israel-netanyahu-wblz/05israel-netanyahu-wblz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pool photo by Ohad Zwigenberg</media:credit>
+      <media:description>Prime Minister Benjamin Netanyahu, center, at a cabinet meeting in December. Some in Israel accuse him of keeping the war going to prevent a collapse of his fragile coalition government.</media:description>
+    </item>
+    <item>
       <title>There’s an Explosion of Plastic Waste. Big Companies Say ‘We’ve Got This.’</title>
       <link>https://www.nytimes.com/2024/04/05/climate/plastic-recycling.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/climate/plastic-recycling.html</guid>
@@ -491,21 +565,18 @@
       <description>Big brands like Procter &amp; Gamble and Nestlé say a new generation of plants will help them meet environmental goals, but the technology is struggling to deliver.</description>
       <dc:creator>Hiroko Tabuchi</dc:creator>
       <pubDate>Fri, 05 Apr 2024 13:13:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Recycling of Waste Materials</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Plastics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Recycling of Waste Materials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Containers and Packaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Procter &amp; Gamble Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Nestle SA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">L&#39;Oreal SA</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hazardous and Toxic Substances</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Environment</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Chemicals</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Short Selling</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Hazards and Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Containers and Packaging</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">L&#39;Oreal SA</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Nestle SA</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Procter &amp; Gamble Co</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ironton (Ohio)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/03/29/climate/00CLI-PLASTIC-01-pcvf/00CLI-PLASTIC-01-pcvf-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Maddie McGarvey for The New York Times</media:credit>
       <media:description>Recycled polypropylene pellets at a PureCycle Technologies plant in Ironton, Ohio.</media:description>
@@ -934,13 +1005,14 @@
       <description>The main suspects in a deadly assault near Moscow were from Tajikistan. Now many other Tajiks, who fill jobs in Russia’s wartime economy, are being deported and harassed.</description>
       <dc:creator>Anatoly Kurmanaev, Valeriya Safronova and Valerie Hopkins</dc:creator>
       <pubDate>Fri, 05 Apr 2024 16:50:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Tajiks (Ethnic Group)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Workers</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/00russia-tajiks-01-ctwv/00russia-tajiks-01-ctwv-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Nanna Heitmann for The New York Times</media:credit>
       <media:description>A market in the suburbs of Moscow, where many people from Central Asian countries, such as Tajikistan, work.</media:description>
@@ -1045,89 +1117,6 @@
       <media:content height="1548" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/04ambriefing-europe-ukraine-mobilization-promo/03ukraine-mobilization-02-gjql-mediumSquareAt3X-v2.jpg" width="1547"></media:content>
       <media:credit>Nicole Tung for The New York Times</media:credit>
       <media:description>Ukrainian soldiers training in the country’s Donetsk region on Monday.</media:description>
-    </item>
-    <item>
-      <title>South Korea’s Doctors’ Walkout Spurs Thousands of Complaints</title>
-      <link>https://www.nytimes.com/2024/04/04/world/asia/south-korea-doctors-complaints.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/asia/south-korea-doctors-complaints.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/world/asia/south-korea-doctors-complaints.html" rel="standout"></atom:link>
-      <description>Thousands of interns and residents who stopped working in February are testing the public’s high regard for physicians. But there is also anger at the government.</description>
-      <dc:creator>Jin Yu Young</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 04:01:15 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doctors</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Seoul (South Korea)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Strikes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yoon Suk-yeol</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medical Schools</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/01/multimedia/00skorea-doctors-01-whjp/00skorea-doctors-01-whjp-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Anthony Wallace/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Many young doctors at South Korean hospitals stopped working weeks ago, to protest the government’s plan to enroll more students in medical schools.</media:description>
-    </item>
-    <item>
-      <title>How a Violin Maker’s Dreams Came True in Cremona, Italy</title>
-      <link>https://www.nytimes.com/2024/04/04/arts/violin-italy-antonio-stradivari-ayoung-an.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/arts/violin-italy-antonio-stradivari-ayoung-an.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/arts/violin-italy-antonio-stradivari-ayoung-an.html" rel="standout"></atom:link>
-      <description>As a teenager in South Korea, Ayoung An decided to become a violin maker. Her journey eventually took her to Cremona, Italy, a famed hub for masters like Antonio Stradivari.</description>
-      <dc:creator>Valeriya Safronova and Sasha Arutyunova</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 19:52:18 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Violins and Violas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Handicrafts</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">An, Ayoung</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cremona (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stradivari, Antonio</category>
-      <category domain="">artofcraft</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04ArtofCraft-Violin-13-pmtw/04ArtofCraft-Violin-13-pmtw-mediumSquareAt3X-v3.jpg" width="1800"></media:content>
-      <media:credit>Sasha Arutyunova for The New York Times</media:credit>
-    </item>
-    <item>
-      <title>Israeli Strikes in Damascus and Gaza Show Strengths and Limits of Accuracy</title>
-      <link>https://www.nytimes.com/2024/04/04/world/middleeast/israel-wck-gaza-iran-embassy.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/middleeast/israel-wck-gaza-iran-embassy.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/world/middleeast/israel-wck-gaza-iran-embassy.html" rel="standout"></atom:link>
-      <description>In an airstrike on Monday in Damascus, Israel’s military displayed pinpoint precision. Hours later in Gaza, that same military killed seven aid workers.</description>
-      <dc:creator>Mark Landler and Adam Rasgon</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 06:44:40 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Damascus (Syria)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andres, Jose (1969- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Halevi, Herzl</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic Revolutionary Guards Corps</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Central Kitchen</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04Israel-Military-blpv/04Israel-Military-blpv-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Louai Beshara/Agence France-Presse — Getty Images</media:credit>
-      <media:description>An airstrike by the Israeli military on an Iranian embassy complex in Damascus killed Iranian intelligence officers and Palestinian militants but not a single civilian, Iranian officials said.</media:description>
-    </item>
-    <item>
-      <title>Canadian Politicians Were Targeted by China in 2021, Report Says</title>
-      <link>https://www.nytimes.com/2024/04/03/world/americas/canada-china-2021-election.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/world/americas/canada-china-2021-election.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/03/world/americas/canada-china-2021-election.html" rel="standout"></atom:link>
-      <description>Lawmakers testified at a public hearing on foreign interference that they had been caught in China’s cross hairs after criticizing it over human rights.</description>
-      <dc:creator>Norimitsu Onishi</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 00:13:39 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Canadian Federal Election (2019)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Conservative Party (Canada)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Liberal Party (Canada)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">O&#39;Toole, Erin (1973- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/03canada-interference-qvfj/03canada-interference-qvfj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Tingshu Wang/Reuters</media:credit>
-      <media:description>Since President Xi Jinping’s rise to power, China has stepped up efforts to sway elections in Canada and other countries, according to intelligence officials, academics and members of the diaspora.</media:description>
     </item>
   </channel>
 </rss>

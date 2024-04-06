@@ -7,13 +7,31 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sat, 06 Apr 2024 10:46:03 +0000</lastBuildDate>
-    <pubDate>Sat, 06 Apr 2024 09:02:12 +0000</pubDate>
+    <lastBuildDate>Sat, 06 Apr 2024 19:41:34 +0000</lastBuildDate>
+    <pubDate>Sat, 06 Apr 2024 19:35:51 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
+    <item>
+      <title>Russian Missiles Hit Kharkiv, Killing at Least 6</title>
+      <link>https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html" rel="standout"></atom:link>
+      <description>The latest assault on the eastern city killed at least six people, local authorities said. As Kyiv waits on American aid, Moscow has stepped up bombardments, including using modified “glide bombs.”</description>
+      <dc:creator>Marc Santora</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 11:48:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drones (Pilotless Planes)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bombs and Explosives</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06ukraine-kharkiv-01-pbzk/06ukraine-kharkiv-01-pbzk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Sergey Kozlov/EPA, via Shutterstock</media:credit>
+      <media:description>A bomb crater at the scene of an overnight attack in Kharkiv, eastern Ukraine, on Saturday.</media:description>
+    </item>
     <item>
       <title>Pardoned for Serving in Ukraine, They Return to Russia to Kill Again</title>
       <link>https://www.nytimes.com/2024/04/06/world/europe/russia-convicts-war-murder.html</link>
@@ -21,7 +39,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/russia-convicts-war-murder.html" rel="standout"></atom:link>
       <description>Recruiting convicts for its army has given Russia a manpower advantage. But it is backfiring in tragic ways when former inmates are pardoned and return home to commit new crimes.</description>
       <dc:creator>Neil MacFarquhar and Milana Mazaeva</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 09:02:12 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 09:02:13 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Amnesties, Commutations and Pardons</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Mercenaries and Private Military Contractors</category>
@@ -39,37 +57,13 @@
       <media:description>A Russian military recruitment billboard saying, “Heroes are not born, they are made,” last year in Ulan-Ude, Russia. Veterans who survive the front line return to Russia as heroes with an elevated status in society.</media:description>
     </item>
     <item>
-      <title>Sickened by U.S. Nuclear Program, Communities Turn to Congress for Aid</title>
-      <link>https://www.nytimes.com/2024/04/06/us/politics/nuclear-waste-cancer-st-louis-congress.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/us/politics/nuclear-waste-cancer-st-louis-congress.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/06/us/politics/nuclear-waste-cancer-st-louis-congress.html" rel="standout"></atom:link>
-      <description>In St. Louis and around the country, people harmed by the drive for an atomic bomb have been shut out of a federal law enacted to help such victims.</description>
-      <dc:creator>Catie Edmondson</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 09:00:59 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Wastes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Water Pollution</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cancer</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Hazards and Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Manhattan Project</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mallinckrodt Pharmaceuticals</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hawley, Josh D (1979- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">St Louis (Mo)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05dc-radiation-scenes-01-fjkp/05dc-radiation-scenes-01-fjkp-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Bryan Birks for The New York Times</media:credit>
-      <media:description>Hundreds of thousands of tons of nuclear waste from a St. Louis factory were dumped over decades, seeping into the soil and nearby Coldwater Creek.</media:description>
-    </item>
-    <item>
       <title>The Eclipse That Ended a War and Shook the Gods Forever</title>
       <link>https://www.nytimes.com/2024/04/06/science/eclipse-prediction-ancient-greece-thales.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/science/eclipse-prediction-ancient-greece-thales.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/06/science/eclipse-prediction-ancient-greece-thales.html" rel="standout"></atom:link>
       <description>Thales, a Greek philosopher 2,600 years ago, is celebrated for predicting a famous solar eclipse and founding what came to be known as science.</description>
       <dc:creator>William J. Broad</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 09:00:48 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 09:00:49 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Thales of Miletus</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Eclipses</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Greek Civilization</category>
@@ -105,7 +99,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/05/books/lynne-reid-banks-dead.html" rel="standout"></atom:link>
       <description>She explored the struggles of young women in the novel “The L-Shaped Room” but found her biggest success with a children’s book about a magical cupboard.</description>
       <dc:creator>Rebecca Chace</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 22:36:08 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 12:29:53 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Reid Banks, Lynne (1929-2024)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
@@ -189,17 +183,15 @@
       <dc:creator>Andrew E. Kramer</dc:creator>
       <pubDate>Fri, 05 Apr 2024 09:02:30 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Trade</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Cluster Munitions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">North Atlantic Treaty Organization</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Mike (1972- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sumy (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/07/multimedia/07ukraine-ammo-01-whmf/07ukraine-ammo-01-whmf-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Nicole Tung for The New York Times</media:credit>
@@ -355,13 +347,14 @@
       <description>The main suspects in a deadly assault near Moscow were from Tajikistan. Now many other Tajiks, who fill jobs in Russia’s wartime economy, are being deported and harassed.</description>
       <dc:creator>Anatoly Kurmanaev, Valeriya Safronova and Valerie Hopkins</dc:creator>
       <pubDate>Fri, 05 Apr 2024 16:50:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Tajiks (Ethnic Group)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Workers</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/00russia-tajiks-01-ctwv/00russia-tajiks-01-ctwv-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Nanna Heitmann for The New York Times</media:credit>
       <media:description>A market in the suburbs of Moscow, where many people from Central Asian countries, such as Tajikistan, work.</media:description>

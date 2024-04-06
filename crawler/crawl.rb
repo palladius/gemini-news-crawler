@@ -31,6 +31,7 @@ require_relative '../_env_gaic.rb'
 require_relative './constants.rb'
 require_relative 'lib/news_cacher.rb'
 require_relative 'lib/news_filer.rb'
+require_relative 'lib/gcp.rb'
 require 'tempfile'
 
 MaxArticleSize = ENV.fetch('MAX_ARTICLE_SIZE', '2').to_i  # 10 # todo 100
@@ -146,59 +147,101 @@ def copy_stuff_to_gcs(gcs_environment: , bucket_name:)
   storage = Google::Cloud::Storage.new(
     project_id: project_id,
     credentials: path_to_key, # 'path/to/your/credentials.json'
+    # retry https://cloud.google.com/storage/docs/retry-strategy?utm_source=devrel&utm_medium=api_error&utm_campaign=gcs429#ruby_1
+    retries: 5,
+    max_elapsed_time: 500,
+    base_interval: 1,
+    max_interval: 45,
+    multiplier: 1.2,
   )
 
   bucket = storage.bucket(bucket_name)
-  puts("Listing bucket content")
-  bucket.files.each do |file|
-    puts "- #{file.name}"
+  puts(" 🪣 Listing bucket content: #{bucket_name}")
+  files = bucket.files
+  # separating as in this doc: https://github.com/googleapis/google-cloud-ruby/blob/main/google-cloud-storage/lib/google/cloud/storage/file/list.rb
+  files.all(request_limit: 5).each do |file|
+    puts "🗄️  #{file.name}"
   end
 
+  # GCS variables
   manifest_local_file = Tempfile.new('local_manifest')
+  folder = "geminews-v#{export_version}/#{gcs_environment}" # relative
+  full_folder = "gs://#{bucket_name}/#{folder}"
+  manifest_path = "#{folder}/manifest.yaml"
 
-  `echo provaric > t`
+  n_files_in_cache = Dir.glob('cache/**').count
+  n_files_in_output = Dir.glob('out/feedjira/**/*').count
+  # https://stackoverflow.com/questions/4823507/ruby-finding-most-recently-modified-file
+  freshest_file_in_output = Dir.glob('out/feedjira/**/*').max_by {|f| File.mtime(f)}
+  stalest_file_in_output = Dir.glob('out/feedjira/**/*').min_by {|f| File.mtime(f)}
+
+
+  freshest_file_in_cache = Dir.glob('cache/**').max_by {|f| File.mtime(f)}
+
+  puts("🟡 Pulling Manifest file: #{manifest_path}")
+  puts('todo')
+
   manifest = {
-    "hostname": Socket.gethostname,
-    "now": Time.now,
-    "manifest_version": export_version,
-  } # cobnvert kets from sym to string or yaml is ugly! ;)
+    "hostname" => Socket.gethostname,
+    "now" => Time.now,
+    "manifest_version" => export_version,
+    "folders" => {
+      "output" => {
+        'freshest_file' => freshest_file_in_output,
+        'freshest_mtime' => File.mtime(freshest_file_in_output),
+        'newest_file_freshness' => (Time.now - File.mtime(freshest_file_in_output)).to_i, # seconds
+        'newest_file_freshness_hours' => ((Time.now - File.mtime(freshest_file_in_output))/3600), # seconds
+        'stalest_file_freshness' => (Time.now - File.mtime(stalest_file_in_output)).to_i, # seconds
+        "n_files" => n_files_in_output,
+      },
+      "cache" => {
+        'freshest_file' => freshest_file_in_cache,
+        'freshest_mtime' => File.mtime(freshest_file_in_cache),
+        'freshest_deltatime' => Time.now - File.mtime(freshest_file_in_cache), # seconds
+        "n_files" => n_files_in_cache,
+      },
+    },
+  } # convert kets from sym to string or yaml is ugly! ;)
   manifest_local_file.write(manifest.to_yaml())
   # => yaml
-  #puts manifest_local_file.path
-  #puts manifest.to_yaml()
-  # not doable
 
   ########################################
-  full_folder = "gs://#{bucket_name}/geminews-v#{export_version}/#{gcs_environment}/"
-  folder = "geminews-v#{export_version}/#{gcs_environment}"
-  manifest_path = "#{folder}/manifest.yaml"
   puts("🟡 Uploading manifest: #{manifest}")
   puts("  - manifest_path: #{manifest_path}")
-  bucket.create_file(manifest_local_file.path, manifest_path) # local, remote
-
+  puts("Writing file '#{manifest_local_file.path}' to #{manifest_path}")
+  #bucket.create_file(manifest_local_file.path, manifest_path) # local, remote
+  gcs_upload_file_from_memory \
+    storage: storage,
+    bucket_name: bucket_name,
+    file_name: manifest_path,
+    file_content: manifest.to_yaml()
+  # file = bucket.create_file StringIO.new(file_content), file_name
 
   puts("🟡 Checking content folder: #{folder}")
   # https://cloud.google.com/storage/docs/listing-objects#storage-list-objects-ruby
   bucket.files(prefix: folder).each do |file| #  bucket.files prefix: prefix, delimiter: delimiter
     puts "[F] - #{file.name}"
   end
-  puts("🟡 Pulling Manifest file: #{manifest_path}")
   puts("🟡 Copy cache/ to folder: #{manifest_path}")
-  puts :TODO
   #bucket_name = 'bucket'
-  folder_path = 'delete/me'
+  remote_folder_path = full_folder + '/cache'
   local_dir = 'cache/'
 
 
+  file_counter = 1
   Dir.glob(File.join(local_dir, '**/*')) do |local_file|
     next if File.directory?(local_file) # Skip directories
-
-    file_path = File.join(folder_path, local_file.sub(local_dir, ''))
-    puts "Uploading #{local_file} to #{file_path}"
-
-    file = bucket.create_file(file_path)
-    file.upload_from_file(local_file)
+    break if file_counter == 5
+    if file_counter % 9 == 0
+      puts("💤 skeeping 1 sec")
+      sleep(1)
+    end
+    remote_file_path = File.join(remote_folder_path, local_file.sub(local_dir, ''))
+    puts " ⬆️ #{file_counter} Uploading local '#{local_file}' -> remote '#{remote_file_path}'" # 🛗
+    bucket.create_file(manifest_local_file.path, folder) # local, remote
+    file_counter += 1
   end
+  puts('Done!')
 
 end
 
