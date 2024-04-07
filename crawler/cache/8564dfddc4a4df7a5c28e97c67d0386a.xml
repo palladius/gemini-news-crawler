@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Sat, 06 Apr 2024 21:01:18 -0400</pubDate>
-<lastBuildDate>Sat, 06 Apr 2024 21:01:18 -0400</lastBuildDate>
+<pubDate>Sun, 07 Apr 2024 10:01:25 -0400</pubDate>
+<lastBuildDate>Sun, 07 Apr 2024 10:01:25 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,46 @@
 <link>http://online.wsj.com</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Stock Funds Zoom to 9.1% Gain in First Quarter</title>
+<link>https://www.wsj.com/articles/stock-funds-9-1-gain-first-quarter-b0fc373f?mod=rss_markets_main</link>
+<description><![CDATA[Start to year was even better than hoped. Also: A flashback to the 30th anniversary of the Kidder Peabody bond scandal.]]></description>
+<content:encoded/>
+<pubDate>Sun, 07 Apr 2024 10:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001680466</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Journal Reports: Investing Monthly</wsj:articletype>
+</item>
+<item>
+<title>Do Kwon Lost to the SEC. The U.S. Is Piling Up Other Crypto Wins, Too.</title>
+<link>https://www.wsj.com/articles/do-kwon-lost-to-the-sec-the-u-s-is-piling-up-other-crypto-wins-too-6c12bdde?mod=rss_markets_main</link>
+<description><![CDATA[The decision was the latest in a series of federal court wins bolstering regulators’ efforts to force the freewheeling industry to comply with the same laws that govern the stock and bond markets.]]></description>
+<content:encoded/>
+<pubDate>Sun, 07 Apr 2024 10:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001686897</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Crypto</wsj:articletype>
+</item>
+<item>
+<title>Big Tech Has a Big Cash Problem</title>
+<link>https://www.wsj.com/articles/big-tech-has-a-big-cash-problem-eb00240d?mod=rss_markets_main</link>
+<description><![CDATA[Any acquisitions companies such as Apple, Amazon or Microsoft attempt will bring scrutiny and delays.]]></description>
+<content:encoded/>
+<pubDate>Sun, 07 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001686232</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>The Surprising Top Mutual Fund in the First Quarter</title>
+<link>https://www.wsj.com/articles/the-surprising-top-mutual-fund-in-the-first-quarter-215bf2cb?mod=rss_markets_main</link>
+<description><![CDATA[Hennessy Cornerstone Growth claims the No. 1 spot over the past year as small-to-midcap funds start to supplant the dominant large-cap growth funds.]]></description>
+<content:encoded/>
+<pubDate>Sun, 07 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001669953</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Journal Reports: Investing Monthly</wsj:articletype>
+</item>
 <item>
 <title>Hash Out the Inheritance Now, or Fight Your Family Later</title>
 <link>https://www.wsj.com/articles/hash-out-the-inheritance-now-or-fight-your-family-later-5fd836b9?mod=rss_markets_main</link>
@@ -175,46 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001683647</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Crypto</wsj:articletype>
-</item>
-<item>
-<title>Japan Government Watching Currency Movements Closely</title>
-<link>https://www.wsj.com/articles/japanese-government-watching-currency-movements-closely-prime-minister-says-121c5d85?mod=rss_markets_main</link>
-<description><![CDATA[Japanese Prime Minister Fumio Kishida said his government wouldn’t rule out any measures in dealing with foreign-exchange rates.]]></description>
-<content:encoded/>
-<pubDate>Fri, 05 Apr 2024 03:12:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001684552</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Markets Main</wsj:articletype>
-</item>
-<item>
-<title>The Costco Shoppers Putting $2,000 Gold Bars in Their Carts</title>
-<link>https://www.wsj.com/articles/the-costco-shoppers-putting-2-000-gold-bars-in-their-carts-d4e8aeb5?mod=rss_markets_main</link>
-<description><![CDATA[Young investors say the old-school store of value is a hedge against inflation and catastrophe.]]></description>
-<content:encoded/>
-<pubDate>Thu, 04 Apr 2024 21:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001683163</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Personal Finance</wsj:articletype>
-</item>
-<item>
-<title>Oil Is Hitting Its Highest Level in Months---Just in Time for Summer Driving Season</title>
-<link>https://www.wsj.com/articles/oil-is-hitting-its-highest-level-in-monthsjust-in-time-for-summer-driving-season-3370fbf7?mod=rss_markets_main</link>
-<description><![CDATA[Brent crude futures, the benchmark, have climbed 18% in 2024 to exceed $90 a barrel for the first time since October.]]></description>
-<content:encoded/>
-<pubDate>Thu, 04 Apr 2024 17:29:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001682907</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Gas Markets</wsj:articletype>
-</item>
-<item>
-<title>This Small-Cap Stock Index Has Some Jumbo-Size Tenants</title>
-<link>https://www.wsj.com/articles/this-small-cap-stock-index-has-some-jumbo-size-tenants-f98714b3?mod=rss_markets_main</link>
-<description><![CDATA[The combined market value of Super Micro Computer and MicroStrategy—the two largest stocks in the Russell 2000—has swelled to $84 billion.]]></description>
-<content:encoded/>
-<pubDate>Thu, 04 Apr 2024 17:15:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001679800</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Stocks</wsj:articletype>
 </item>
 </channel>
 </rss>

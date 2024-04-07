@@ -7,13 +7,29 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 08:17:24 +0000</lastBuildDate>
-    <pubDate>Sun, 07 Apr 2024 02:59:22 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Apr 2024 16:06:21 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Apr 2024 09:04:10 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
+    <item>
+      <title>Why a Second Trump Term Could Be Bad for Corporate America</title>
+      <link>https://www.nytimes.com/2024/04/07/magazine/trump-corporate-business.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/magazine/trump-corporate-business.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/07/magazine/trump-corporate-business.html" rel="standout"></atom:link>
+      <description>Despite his populist promises, many bigwigs are keeping the faith that it couldn’t really happen here.</description>
+      <dc:creator>Jonathan Mahler</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 09:04:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dimon, James</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orban, Viktor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+    </item>
     <item>
       <title>Consumers Hate ‘Price Discrimination,’ but They Sure Love a Discount</title>
       <link>https://www.nytimes.com/2024/04/06/business/economy/wendys-company-price-discrimination.html</link>
@@ -420,28 +436,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/03/22/world/22germany-strikes/22germany-strikes-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Ingmar Nolting for The New York Times</media:credit>
       <media:description>Striking workers added wood to a fire to stay warm during evening shifts in front of a recycling plant owned by the company SRW in Rötha, Germany, on Wednesday.</media:description>
-    </item>
-    <item>
-      <title>What Comes Next for the Housing Market?</title>
-      <link>https://www.nytimes.com/2024/03/21/business/economy/housing-market-changes.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/03/21/business/economy/housing-market-changes.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/03/21/business/economy/housing-market-changes.html" rel="standout"></atom:link>
-      <description>The Federal Reserve still expects to cut rates this year, and a change in selling practices could shake up home shopping. Here’s the outlook.</description>
-      <dc:creator>Jeanna Smialek and Jim Tankersley</dc:creator>
-      <pubDate>Tue, 26 Mar 2024 19:16:11 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mortgages</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Renting and Leasing (Real Estate)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate Brokers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Assn of Realtors</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/03/21/multimedia/21dc-fedhousing-vthp/21dc-fedhousing-vthp-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Elizabeth Bick for The New York Times</media:credit>
-      <media:description>Cheaper borrowing costs could have big effects on the U.S. housing market.</media:description>
     </item>
   </channel>
 </rss>

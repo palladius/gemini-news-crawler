@@ -7,13 +7,36 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 08:04:16 +0000</lastBuildDate>
-    <pubDate>Sun, 07 Apr 2024 08:02:00 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Apr 2024 15:55:45 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Apr 2024 15:47:55 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world</link>
     </image>
+    <item>
+      <title>Rwanda Marks Anniversary of 1994 Genocide</title>
+      <link>https://www.nytimes.com/2024/04/07/world/africa/rwanda-genocide-thirty-years.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/world/africa/rwanda-genocide-thirty-years.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/07/world/africa/rwanda-genocide-thirty-years.html" rel="standout"></atom:link>
+      <description>The Central African country is marking the anniversary of a monthslong rampage by militiamen that killed some 800,000 people.</description>
+      <dc:creator>Abdi Latif Dahir</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 15:10:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rwanda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kigali (Rwanda)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kagame, Paul</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hutu Tribe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tutsi Tribe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Rwandan Patriotic Front (RPF)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Bill</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Africa</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/07/multimedia/07rwanda-genocide-01-phbq/07rwanda-genocide-01-phbq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Luis Tato/Agence France-Presse — Getty Images</media:credit>
+      <media:description>President Paul Kagame of Rwanda and his wife, Jeannette Kagame, lighting a remembrance flame on Sunday in Kigali as part of commemorations of the 30th anniversary of the 1994 Rwandan genocide.</media:description>
+    </item>
     <item>
       <title>Japan and US Seek to Strengthen Ties as Kishida Visits</title>
       <link>https://www.nytimes.com/2024/04/07/world/asia/biden-kishida-state-visit.html</link>
@@ -45,20 +68,20 @@
       <description>Despite rulings in European courts saying the Baltic country was home to a secret prison, the issue has been shrouded in official secrecy in a nation closely allied with the United States.</description>
       <dc:creator>Andrew Higgins</dc:creator>
       <pubDate>Sun, 07 Apr 2024 04:44:34 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Antaviliai, Lithuania</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lithuania</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Detainees</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Detainees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Torture</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">September 11 (2001)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Court of Human Rights</category>
+      <category domain=""></category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lithuania</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/00lithuania-cia-01-qbfm/00lithuania-cia-01-qbfm-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Andrej Vasilenko for The New York Times</media:credit>
       <media:description>The former C.I.A. site, code-named Site Violet, in Antaviliai, Lithuania. </media:description>
@@ -84,13 +107,32 @@
       <media:description>Selling khobeza leaves in Rafah, in southern Gaza, in February. The plant is making up an outsize portion of many Gazans’ diets by providing a lower-cost way to blunt hunger.</media:description>
     </item>
     <item>
+      <title>30 Years After Rwandan Genocide, Ruler Holds Tight Grip</title>
+      <link>https://www.nytimes.com/2024/04/06/world/africa/rwanda-genocide-anniversary.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/africa/rwanda-genocide-anniversary.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/africa/rwanda-genocide-anniversary.html" rel="standout"></atom:link>
+      <description>Thirty years after a devastating genocide, Rwanda has made impressive gains. But ethnic divisions persist under an iron-fisted president who has ruled for just as long.</description>
+      <dc:creator>Declan Walsh</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 15:20:40 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rwanda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tutsi Tribe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hutu Tribe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kagame, Paul</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06rwanda-kagame-2-zflk/06rwanda-kagame-2-zflk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Simon Wohlfahrt/Agence France-Presse — Getty Images</media:credit>
+      <media:description>President Paul Kagame of Rwanda in 2021. The architect of the country’s stunning transformation, he achieved it with harsh methods that would normally attract international condemnation.</media:description>
+    </item>
+    <item>
       <title>South Korea’s Election Is About ‘Gladiator Politics’</title>
       <link>https://www.nytimes.com/2024/04/07/world/asia/south-korea-election-yoon.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/world/asia/south-korea-election-yoon.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/07/world/asia/south-korea-election-yoon.html" rel="standout"></atom:link>
       <description>This week’s parliamentary elections are widely seen as a referendum on both President Yoon Suk Yeol and his archrival, Lee Jae-myung, the opposition leader.</description>
       <dc:creator>Choe Sang-Hun</dc:creator>
-      <pubDate>Sun, 07 Apr 2024 04:01:14 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 10:59:44 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
@@ -102,16 +144,15 @@
       <media:description>Lee Jae-myung of the Democratic Party and Yoon Suk Yeol of the People Power Party during the presidential election campaign in Seoul in 2022.</media:description>
     </item>
     <item>
-      <title>Middle East Crisis: Gaza Cease-Fire Talks to Resume in Cairo</title>
+      <title>Middle East Crisis: Six Months Into Gaza War, No End in Sight</title>
       <link>https://www.nytimes.com/live/2024/04/07/world/israel-hamas-war-gaza-news</link>
       <guid isPermaLink="true">https://www.nytimes.com/live/2024/04/07/world/israel-hamas-war-gaza-news</guid>
       <atom:link href="https://www.nytimes.com/live/2024/04/07/world/israel-hamas-war-gaza-news" rel="standout"></atom:link>
-      <description>Negotiators were expected to discuss potential terms of a temporary cease-fire and the release of Israeli hostages. More protests were planned in Israel.</description>
+      <description>Israel’s war with Hamas appears to have reached an impasse, at a time when the Israeli government is under mounting pressure to strike a deal for the release of hostages held in the enclave.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sun, 07 Apr 2024 08:02:00 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/07/multimedia/07mideast-crisis-tqkz/07mideast-crisis-tqkz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <pubDate>Sun, 07 Apr 2024 15:47:55 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/07/multimedia/07mideast-briefing-promo-10am2-hpjv/07mideast-briefing-promo-10am2-hpjv-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Sergey Ponomarev for The New York Times</media:credit>
-      <media:description>People lighting candles during a protest against Prime Minister Benjamin Netanyahu’s government, and calling for the release of hostages, in Tel Aviv on Saturday.</media:description>
     </item>
     <item>
       <title>Homecoming</title>
@@ -119,7 +160,10 @@
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/world/asia/homecoming.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/07/world/asia/homecoming.html" rel="standout"></atom:link>
       <description>A single photo captures a moment of setback for families who had tried for a better life.</description>
-      <pubDate>Sun, 07 Apr 2024 04:01:15 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 04:01:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pakistan</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/01/world/afghan-one-image-promo/afghan-one-image-promo-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Elise Blanchard for The New York Times</media:credit>
@@ -143,25 +187,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06slovakia-election-Pellegrini-hfjw/06slovakia-election-Pellegrini-hfjw-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Petr David Josek/Associated Press</media:credit>
       <media:description>Peter Pellegrini casting his ballot in Bratislava in the first round of Slovakia’s presidential election in March.</media:description>
-    </item>
-    <item>
-      <title>30 Years After Rwandan Genocide, Ruler Holds Tight Grip</title>
-      <link>https://www.nytimes.com/2024/04/06/world/africa/rwanda-genocide-anniversary.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/africa/rwanda-genocide-anniversary.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/06/world/africa/rwanda-genocide-anniversary.html" rel="standout"></atom:link>
-      <description>Thirty years after a devastating genocide, Rwanda has made impressive gains. But ethnic divisions persist under an iron-fisted president who has ruled for just as long.</description>
-      <dc:creator>Declan Walsh</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 07:22:50 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rwanda</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tutsi Tribe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hutu Tribe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kagame, Paul</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06rwanda-kagame-2-zflk/06rwanda-kagame-2-zflk-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Simon Wohlfahrt/Agence France-Presse — Getty Images</media:credit>
-      <media:description>President Paul Kagame of Rwanda in 2021. The architect of the country’s stunning transformation, he achieved it with harsh methods that would normally attract international condemnation.</media:description>
     </item>
     <item>
       <title>Pardoned for Serving in Ukraine, They Return to Russia to Kill Again</title>
@@ -248,24 +273,47 @@
       <media:description>Teenagers gathering to watch the sun set in Nolhivaranfaru, a remote island in the Maldives.</media:description>
     </item>
     <item>
-      <title>More Myanmar Political Prisoners Are Dying in Military Prisons</title>
-      <link>https://www.nytimes.com/2024/04/06/world/asia/myanmar-junta-prisoners-death.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/asia/myanmar-junta-prisoners-death.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/06/world/asia/myanmar-junta-prisoners-death.html" rel="standout"></atom:link>
-      <description>The country’s military rulers have signaled a new wave of detentions and, rights groups say, conditions for existing prisoners have deteriorated.</description>
-      <dc:creator>Caleb Quinley</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 04:01:06 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+      <title>Israel Withdraws a Division of Troops From Southern Gaza</title>
+      <link>https://www.nytimes.com/2024/04/07/world/middleeast/israel-troops-southern-gaza.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/world/middleeast/israel-troops-southern-gaza.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/07/world/middleeast/israel-troops-southern-gaza.html" rel="standout"></atom:link>
+      <description>Israeli news media reported that the departure of the 98th Division meant there were no Israeli troops actively maneuvering in the southern Strip.</description>
+      <dc:creator>Adam Rasgon</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 15:47:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Khan Younis (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/07/multimedia/07mideast-crisis-southern-gaza-2-flhk/07mideast-crisis-southern-gaza-2-flhk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mohammed Abed/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Palestinians who had taken refuge in Rafah in the Gaza Strip leave to return to Khan Younis after Israel said it had pulled a division of soldiers out of that city.</media:description>
+    </item>
+    <item>
+      <title>Princess Reema, Saudi Ambassador, Navigates Rough Waters in Washington</title>
+      <link>https://www.nytimes.com/2024/04/07/us/politics/saudi-arabia-reema-israel-washington.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/us/politics/saudi-arabia-reema-israel-washington.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/07/us/politics/saudi-arabia-reema-israel-washington.html" rel="standout"></atom:link>
+      <description>The Saudi ambassador to the United States, the daughter of a storied figure in the kingdom’s diplomacy, is trying to steer relations at a difficult time.</description>
+      <dc:creator>Kate Kelly</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 14:56:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Reema bint Bandar bin Sultan, Princess of Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khashoggi, Jamal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lobbying and Lobbyists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Assistance Assn for Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Torture</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tatmadaw (Myanmar)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/03/07/multimedia/00myanmar-prisoners-kqpg/00myanmar-prisoners-kqpg-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Nyein Chan Naing/EPA, via Shutterstock</media:credit>
-      <media:description>A bus carrying prisoners exiting Insein prison in Yangon, Myanmar, in January. The junta has said it will release thousands of prisoners, but rights groups warn that any freedom is likely to be temporary.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Boeing Company</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yemen</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/03/19/multimedia/00dc-reema-01-ltwj/00dc-reema-01-ltwj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mandel Ngan/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Princess Reema Bandar al-Saud is the daughter of Prince Bandar bin Sultan, who was one of the most powerful diplomats in Washington. She has taken up his old role at a critical time.</media:description>
     </item>
     <item>
       <title>Who Is Jorge Glas, an Ecuadorean Politician Arrested at Mexico’s Embassy?</title>
@@ -402,7 +450,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/06/us/politics/israel-us-weapons.html" rel="standout"></atom:link>
       <description>President Biden sends arms to Israel under an Obama-era $38 billion aid agreement that runs until 2026. Israel’s purchases include the types of bombs dropped in Gaza.</description>
       <dc:creator>Michael Crowley and Edward Wong</dc:creator>
-      <pubDate>Sun, 07 Apr 2024 02:12:27 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 13:19:02 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
@@ -418,6 +466,26 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05dc-weapons1-fglk/05dc-weapons1-fglk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Amir Cohen/Reuters</media:credit>
       <media:description>An Israeli Blackhawk, an American-made helicopter, during a drill in northern Israel in February.</media:description>
+    </item>
+    <item>
+      <title>More Myanmar Political Prisoners Are Dying in Military Prisons</title>
+      <link>https://www.nytimes.com/2024/04/06/world/asia/myanmar-junta-prisoners-death.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/asia/myanmar-junta-prisoners-death.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/asia/myanmar-junta-prisoners-death.html" rel="standout"></atom:link>
+      <description>The country’s military rulers have signaled a new wave of detentions and, rights groups say, conditions for existing prisoners have deteriorated.</description>
+      <dc:creator>Caleb Quinley</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 04:01:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Assistance Assn for Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Torture</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tatmadaw (Myanmar)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/03/07/multimedia/00myanmar-prisoners-kqpg/00myanmar-prisoners-kqpg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nyein Chan Naing/EPA, via Shutterstock</media:credit>
+      <media:description>A bus carrying prisoners exiting Insein prison in Yangon, Myanmar, in January. The junta has said it will release thousands of prisoners, but rights groups warn that any freedom is likely to be temporary.</media:description>
     </item>
     <item>
       <title>U.S. Seeks ‘Results’ After Israel Promises More Gaza Aid Routes</title>
@@ -458,10 +526,10 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Apologies</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Dating</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Instant Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sexting</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wragg, William</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Conservative Party (Great Britain)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Commons (Great Britain)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">WhatsApp Inc</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Grindr.com</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
       <media:content height="1306" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05uk-sexting-1-gwjm/05uk-sexting-1-gwjm-mediumSquareAt3X.jpg" width="1306"></media:content>
@@ -896,7 +964,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/04/us/politics/richard-benedick-dead.html" rel="standout"></atom:link>
       <description>He played a key role in securing the Montreal Protocol, an international environmental pact to protect the ozone layer by reducing the use of certain chemicals.</description>
       <dc:creator>Trip Gabriel</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 13:20:43 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 14:37:11 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Benedick, Richard E</category>
       <category domain="">Montreal Protocol</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
@@ -1096,61 +1164,6 @@
       <media:content height="1798" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04Venice-01-chpt/04Venice-01-chpt-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Laetitia Vancon for The New York Times</media:credit>
       <media:description>The Rialto Bridge in central Venice in 2022.</media:description>
-    </item>
-    <item>
-      <title>A Tantalizing ‘Hint’ That Astronomers Got Dark Energy All Wrong</title>
-      <link>https://www.nytimes.com/2024/04/04/science/space/astronomy-universe-dark-energy.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/science/space/astronomy-universe-dark-energy.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/science/space/astronomy-universe-dark-energy.html" rel="standout"></atom:link>
-      <description>Scientists may have discovered a major flaw in their understanding of that mysterious cosmic force. That could be good news for the fate of the universe.</description>
-      <dc:creator>Dennis Overbye</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 22:27:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dark Energy (Astronomy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Physics</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Telescopes and Observatories</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stars and Galaxies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">American Physical Society</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lawrence Berkeley National Laboratory</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
-    </item>
-    <item>
-      <title>Why Taiwan Was So Prepared for a Powerful Earthquake</title>
-      <link>https://www.nytimes.com/2024/04/04/world/asia/taiwan-hualien-earthquake-prepared.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/asia/taiwan-hualien-earthquake-prepared.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/world/asia/taiwan-hualien-earthquake-prepared.html" rel="standout"></atom:link>
-      <description>Decades of learning from disasters, tightening building codes and increasing public awareness may have helped its people better weather strong quakes.</description>
-      <dc:creator>Chris Buckley, Meaghan Tobin, Siyi Zhao and Lam Yik Fei</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 13:35:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Taiwan Earthquake (April 3, 2024)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Landslides and Mudslides</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Buildings (Structures)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rescues</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hualien (Taiwan)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04taiwan-quake-01-pmvj-promo/04taiwan-quake-01-pmvj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Lam Yik Fei for The New York Times</media:credit>
-    </item>
-    <item>
-      <title>World Central Kitchen Demands an Independent Investigation Into Israeli Strike</title>
-      <link>https://www.nytimes.com/2024/04/04/world/middleeast/world-central-kitchen-investigation-israel.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/middleeast/world-central-kitchen-investigation-israel.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/world/middleeast/world-central-kitchen-investigation-israel.html" rel="standout"></atom:link>
-      <description>The Israeli military, which has accepted responsibility for the strike, has started looking into the killings of seven aid workers. But the disaster relief organization said that was not enough.</description>
-      <dc:creator>Matthew Mpoke Bigg</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 18:25:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andres, Jose (1969- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Halevi, Herzl</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Central Kitchen</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04mideast-crisis-WCK-investigation-fptz/04mideast-crisis-WCK-investigation-fptz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Agence France-Presse — Getty Images</media:credit>
-      <media:description>United Nations staff members inspecting one of the destroyed vehicles used by World Central Kitchen.</media:description>
     </item>
   </channel>
 </rss>

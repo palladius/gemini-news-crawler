@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 08:03:16 +0000</lastBuildDate>
-    <pubDate>Sun, 07 Apr 2024 06:04:10 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Apr 2024 15:54:19 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Apr 2024 15:28:29 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -22,20 +22,20 @@
       <description>Despite rulings in European courts saying the Baltic country was home to a secret prison, the issue has been shrouded in official secrecy in a nation closely allied with the United States.</description>
       <dc:creator>Andrew Higgins</dc:creator>
       <pubDate>Sun, 07 Apr 2024 04:44:34 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Antaviliai, Lithuania</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lithuania</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Detainees</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Detainees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Torture</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">September 11 (2001)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Court of Human Rights</category>
+      <category domain=""></category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lithuania</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/00lithuania-cia-01-qbfm/00lithuania-cia-01-qbfm-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Andrej Vasilenko for The New York Times</media:credit>
       <media:description>The former C.I.A. site, code-named Site Violet, in Antaviliai, Lithuania. </media:description>
@@ -134,7 +134,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/06/science/eclipse-prediction-ancient-greece-thales.html" rel="standout"></atom:link>
       <description>Thales, a Greek philosopher 2,600 years ago, is celebrated for predicting a famous solar eclipse and founding what came to be known as science.</description>
       <dc:creator>William J. Broad</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 09:00:49 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 15:00:17 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Thales of Miletus</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Eclipses</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Greek Civilization</category>
@@ -152,9 +152,9 @@
       <link>https://www.nytimes.com/2024/04/05/arts/music/margaret-tynes-dead.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/arts/music/margaret-tynes-dead.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/05/arts/music/margaret-tynes-dead.html" rel="standout"></atom:link>
-      <description>Because there were few opportunities for Black singers in the U.S., she became a powerhouse in Europe, performing in operas like “Tosca” and “Carmen.”</description>
+      <description>Because there were few opportunities for Black singers in the U.S., she began performing in Europe, where she was praised for her work in “Tosca,” “Carmen” and other operas.</description>
       <dc:creator>Adam Nossiter</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 21:43:03 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 15:28:29 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tynes, Margaret (1919-2024)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
@@ -196,10 +196,10 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Apologies</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Dating</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Instant Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sexting</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wragg, William</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Conservative Party (Great Britain)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Commons (Great Britain)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">WhatsApp Inc</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Grindr.com</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
       <media:content height="1306" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05uk-sexting-1-gwjm/05uk-sexting-1-gwjm-mediumSquareAt3X.jpg" width="1306"></media:content>
