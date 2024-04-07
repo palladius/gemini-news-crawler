@@ -1,3 +1,4 @@
+2024-04-07 v0.34 [DEV] GCP Envs in encrypted master key stuff. Both prod and dev.
 2024-04-07 v0.33 [DEV] First GCP working stuff. It will give me plenty of deployment headaches, I know already
 2024-04-07 v0.32 [DEV] (before Vegas) Added GCP page, and /statusz endpoint. Also started IAP work for the future. Added cute logo.
 2024-04-05 v0.31 [DEV] Fixed appname
