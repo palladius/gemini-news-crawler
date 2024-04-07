@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Sun, 07 Apr 2024 07:12:08 +0200</lastBuildDate>
-  <pubDate>Sun, 07 Apr 2024 07:12:08 +0200</pubDate>
+  <lastBuildDate>Sun, 07 Apr 2024 09:44:44 +0200</lastBuildDate>
+  <pubDate>Sun, 07 Apr 2024 09:44:44 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,20 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Greta Thunberg detained at climate change protest in The Hague</title>
+   <link>https://www.euronews.com/2024/04/07/greta-thunberg-detained-at-climate-change-protest-in-the-hague</link>
+   <guid>https://www.euronews.com/2024/04/07/greta-thunberg-detained-at-climate-change-protest-in-the-hague</guid>
+   <pubDate>Sun, 07 Apr 2024 09:03:16 +0200</pubDate>
+   <description>Police have detained Swedish climate activist Greta Thunberg and dozens of others during what they said was a banned protest in The Hague.</description>
+  </item>
+  <item>
+   <title>Fresh round of ceasefire talks expected in Cairo</title>
+   <link>https://www.euronews.com/2024/04/07/fresh-round-of-ceasefire-talks-expected-in-cairo</link>
+   <guid>https://www.euronews.com/2024/04/07/fresh-round-of-ceasefire-talks-expected-in-cairo</guid>
+   <pubDate>Sun, 07 Apr 2024 08:57:40 +0200</pubDate>
+   <description>Negotiators prepare for another round of talks on brokering a ceasefire and securing the release of remaining hostages.</description>
+  </item>
   <item>
    <title>Latest news bulletin | April 7th – Morning</title>
    <link>https://www.euronews.com/video/2024/04/07/latest-news-bulletin-april-7th-morning</link>
@@ -30,11 +44,11 @@
    <description>The Netherlands' Sophie IN ‘T Veld and Germany's Damian Boeselager were chosen by Volt in Brussels as lead candidates for the European Parliament election.</description>
   </item>
   <item>
-   <title>Slovakia holds second presidential vote amid division over Ukraine</title>
+   <title>Peter Pellegrini to become next Slovakian president</title>
    <link>https://www.euronews.com/2024/04/06/slovakia-holds-second-presidential-vote-amid-division-over-ukraine</link>
    <guid>https://www.euronews.com/2024/04/06/slovakia-holds-second-presidential-vote-amid-division-over-ukraine</guid>
    <pubDate>Sat, 06 Apr 2024 18:23:56 +0200</pubDate>
-   <description>Slovakia holds second presidential vote amid controversy and division over Ukraine war.</description>
+   <description>Peter Pellegrini is to become the next president of Slovakia amid divide in support for Ukraine war.</description>
   </item>
   <item>
    <title>Latest news bulletin | April 6th – Evening</title>
@@ -350,20 +364,6 @@
    <guid>https://www.euronews.com/video/2024/04/04/taiwanese-tv-presenter-reports-an-earthquake-live-as-it-shakes-her-studio</guid>
    <pubDate>Thu, 04 Apr 2024 11:45:49 +0200</pubDate>
    <description>Taiwan’s SETTV captured the moment a 7.2-magnitude earthquake hit on Wednesday morning live as anchorwomen described strong shaking while trying to keep their balance.</description>
-  </item>
-  <item>
-   <title>Landmines are being used again. Bold UN action must help their post-conflict victims </title>
-   <link>https://www.euronews.com/2024/04/04/landmines-are-being-used-again-bold-un-action-must-help-their-post-conflict-victims</link>
-   <guid>https://www.euronews.com/2024/04/04/landmines-are-being-used-again-bold-un-action-must-help-their-post-conflict-victims</guid>
-   <pubDate>Thu, 04 Apr 2024 11:06:02 +0200</pubDate>
-   <description>A generation after the Ottawa mine ban treaty, a new conflict sees the use of land mines rise again. The new UN Human Rights Council action could be used to hold states accountable in post-war decontamination and support for victims, six notable human rights advocates write.</description>
-  </item>
-  <item>
-   <title>Croatian retailers raise the alarm over effects of Sunday trading law</title>
-   <link>https://www.euronews.com/2024/04/04/croatian-retailers-raise-the-alarm-over-effects-of-sunday-trading-law</link>
-   <guid>https://www.euronews.com/2024/04/04/croatian-retailers-raise-the-alarm-over-effects-of-sunday-trading-law</guid>
-   <pubDate>Thu, 04 Apr 2024 10:59:50 +0200</pubDate>
-   <description>The summer's tourism season promises will test how much the country's economy relies on shops staying open all week.</description>
   </item>
  </channel>
 </rss>

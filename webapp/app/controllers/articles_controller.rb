@@ -5,8 +5,18 @@ class ArticlesController < ApplicationController
   def index
  #   @articles = Article.all.sort_by(&:published_date) # .reverse # DESC
     #@articles = Article.select(&:published_date).sort_by(&:published_date).last(50).reverse # DESC
-    @articles = @cached_latest_n_articles
-    @article_total_count = Article.all.count
+    if params['macro_region']
+      @region = params['macro_region']
+      @articles = Rails.cache.fetch("latest_n_articles_cached_{ @region }", expires_in: 10.minute) {
+        Article.where(macro_region: @region).select(&:published_date).sort_by(&:published_date).last(50).reverse # DESC
+      }
+      @article_total_count = Rails.cache.fetch("total_count_for_{ @region }", expires_in: 10.minute) {
+        Article.where(macro_region: @region).all.count
+      }
+    else
+      @articles = @cached_latest_n_articles
+      @article_total_count = Article.all.count
+    end
   end
 
   # GET /articles/1 or /articles/1.json

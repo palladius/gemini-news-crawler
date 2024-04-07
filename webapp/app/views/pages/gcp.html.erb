@@ -1,20 +1,47 @@
+<%
+  gac = ENV.fetch('GOOGLE_APPLICATION_CREDENTIALS', nil)
+  bucket = ENV.fetch 'BUCKET_NAME', nil
+  listing = gcp_bucket_listing(bucket) if (gac and bucket)
+%>
 <div>
-  <h1 class="font-bold text-4xl">GCP side</h1>
+  <h1 class="font-bold text-4xl">☁️ GCP side</h1>
 
   <%#= image_tag 'geminews_mascotte.png', width: '300' %>
 
 <h1>Some GCP stuff</h1>
 
 <p>
-  GOOGLE_APPLICATION_CREDENTIALS: <%= ENV.fetch('GOOGLE_APPLICATION_CREDENTIALS', '🤷 not found' )%>
-</p>aaa
+  ☁️ GOOGLE_APPLICATION_CREDENTIALS: <%= gac or '🤷 not found' %>
+</p
 <p>
-  How can we get an LLM to be updated to today’s news?
+  ☁️ Can i read the file? If so this is the byte size:
+    <b>
+      <%= File.exist?(gac) ? File.size(gac) : 'File doesnt exist' %>
+    </b>
+</p>
+<p>
+  ☁️ BUCKET_NAME: gs://<%= ENV.fetch 'BUCKET_NAME', '🤷 not found' %>
 </p>
 
-<h1>TODOs</h1>
+<h2>TODOs</h2>
 <ul>
-  <li>Add Cloud Run IAP</li>
+  <li>☁️ Add Cloud Run IAP</li>
 </ul>
+
+<% if bucket and gac %>
+<h2>🧪 GcLoud experiments!</h2>
+
+<p>
+  ☁️ Since we both have GAC and a bucket, lets read the bucket!
+</p>
+<p>
+  ☁️ TODO listing for 🪣 <%= bucket %><br/>
+  <% listing.each do |file| %>
+    💾 <tt><%= file %></tt><br/>
+  <% end if listing.is_a? Array %>
+</p>
+<% end %>
+
+<p>Content of Latest Manifest: TODO</p>
 
 </div>
