@@ -9,11 +9,27 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Apr 2024 19:42:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Apr 2024 07:35:24 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[PM marks six months since start of Israel-Gaza war]]></title>
+            <description><![CDATA[Rishi Sunak says Israel has the right to defend itself but he is "shocked by the bloodshed" in Gaza.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-68751550</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-68751550#0</guid>
+            <pubDate>Sun, 07 Apr 2024 02:48:15 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17669/production/_133094859_ba1c5ccf35b69dac224cc3e6a3e5ad43b2d123fb0_213_5500_30941000x563.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Government delays decision on incinerator opposed by Steve Barclay]]></title>
+            <description><![CDATA[Permits for new incinerators are temporarily banned, including one the environment secretary opposes.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68754274</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68754274#0</guid>
+            <pubDate>Sun, 07 Apr 2024 02:00:44 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15733/production/_133095878_gettyimages-1937072659.jpg"/>
+        </item>
         <item>
             <title><![CDATA[West faces 'authoritarian' alliance, says Nato head]]></title>
             <description><![CDATA[Nato head Jens Stoltenberg tells Laura Kuenssberg authoritarian powers are becoming more aligned.]]></description>
@@ -21,14 +37,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68743805#0</guid>
             <pubDate>Sat, 06 Apr 2024 13:19:51 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17884/production/_133088369_laura_nato.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Shameful to call for UK to end arms sales to Israel, says Johnson]]></title>
-            <description><![CDATA[Some MPs have urged the UK to reassess how it supports Israel after aid workers were killed in air strikes this week.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68748251</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68748251#0</guid>
-            <pubDate>Sat, 06 Apr 2024 11:49:09 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B8E1/production/_133092374_d6f861db762dfe6445bd8c7756b0933a8520756e0_0_3000_20001000x667.jpg"/>
         </item>
         <item>
             <title><![CDATA[I reported explicit messages to police, says MP]]></title>
@@ -66,7 +74,7 @@
             <title><![CDATA[Senior doctors end pay dispute with government]]></title>
             <description><![CDATA[Union members vote for offer, which sees pay rise of nearly 20% in 2023-24 for some.]]></description>
             <link>https://www.bbc.co.uk/news/health-68735677</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-68735677#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-68735677#1</guid>
             <pubDate>Fri, 05 Apr 2024 11:34:03 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26EE/production/_130366990_resize7e063d1d481445261ec163283de7168a05eeb18c.jpg"/>
         </item>

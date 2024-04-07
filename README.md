@@ -36,6 +36,12 @@ Apps are on Cloud Run
 * DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/stats
 * PROD: TODO
 
+### TODOs
+
+*  add Devise for user mgmt
+*  add Cloud Run IAP: https://blog.cloud66.com/authenticating_users_with_google_iap_in_rails
+
+
 ### esbuild issues
 
 This didnt work:

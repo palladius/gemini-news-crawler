@@ -1,5 +1,8 @@
 class ApplicationController < ActionController::Base
+  #include SetCurrentRequestDetails # Enable IAP once you have devise.
+
   before_action :set_carlessian_variables
+
 
   def set_carlessian_variables
     # I need it in the footer, hence everywhere..

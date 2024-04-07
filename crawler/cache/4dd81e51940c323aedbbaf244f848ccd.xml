@@ -5,6 +5,13 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>Optimized Model Auditing with PaperTrail</title>
+      <description> Learn how to optimize model auditing in your Rails application using the PaperTrail gem by setting up separate audit tables for each model, enhancing performance and organization in the auditing process: &lt;a href="https://danielabaron.me/blog/model-audit-paper-trail/" rel="nofollow"&gt;https://danielabaron.me/blog/model-audit-paper-trail/&lt;/a&gt; </description>
+      <pubDate>Sat, 06 Apr 2024 14:13:47 +0000</pubDate>
+      <link>https://rubyflow.com/p/dagsra-optimized-model-auditing-with-papertrail</link>
+      <guid>https://rubyflow.com/p/dagsra-optimized-model-auditing-with-papertrail</guid>
+    </item>
+    <item>
       <title>RedisQueuedLocks [major 1.1.0 release] </title>
       <description> &lt;a href="https://github.com/0exp/redis_queued_locks" rel="nofollow"&gt;https://github.com/0exp/redis_queued_locks&lt;/a&gt; </description>
       <pubDate>Thu, 04 Apr 2024 08:30:00 +0000</pubDate>
@@ -173,13 +180,6 @@ Details on &lt;a href="https://itch.io/jam/gosu-game-jam-6" rel="nofollow"&gt;it
       <pubDate>Tue, 26 Mar 2024 16:40:23 +0000</pubDate>
       <link>https://rubyflow.com/p/njg9ip-customize-your-gemfile-for-development</link>
       <guid>https://rubyflow.com/p/njg9ip-customize-your-gemfile-for-development</guid>
-    </item>
-    <item>
-      <title>An interactive intro to ruby debugger, in the debugger</title>
-      <description> I think the best way to learn is by doing, so I made an introduction to ruby debug gem where the instructions are in the code that you are moving through with the debugger. You get to use the debugger as you are reading about it. Turtles all the way down: &lt;a href="https://radanskoric.com/articles/ruby-debug-tutorial-intro?utm_source=rubyflow&amp;amp;utm_medium=feed&amp;amp;utm_campaign=ruby-debug-tutorial-intro" rel="nofollow"&gt;An interactive intro to ruby debugger, in the debugger&lt;/a&gt; </description>
-      <pubDate>Tue, 26 Mar 2024 15:47:59 +0000</pubDate>
-      <link>https://rubyflow.com/p/u0y8qr-an-interactive-intro-to-ruby-debugger-in-the-debugger</link>
-      <guid>https://rubyflow.com/p/u0y8qr-an-interactive-intro-to-ruby-debugger-in-the-debugger</guid>
     </item>
   </channel>
 </rss>

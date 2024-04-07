@@ -7,21 +7,92 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sat, 06 Apr 2024 19:41:34 +0000</lastBuildDate>
-    <pubDate>Sat, 06 Apr 2024 19:35:51 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Apr 2024 07:33:13 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Apr 2024 06:04:10 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
     <item>
+      <title>A C.I.A. Black Site Remains a Touchy Subject for Lithuania</title>
+      <link>https://www.nytimes.com/2024/04/07/world/europe/cia-black-site-lithuania.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/world/europe/cia-black-site-lithuania.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/07/world/europe/cia-black-site-lithuania.html" rel="standout"></atom:link>
+      <description>Despite rulings in European courts saying the Baltic country was home to a secret prison, the issue has been shrouded in official secrecy in a nation closely allied with the United States.</description>
+      <dc:creator>Andrew Higgins</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 04:44:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Antaviliai, Lithuania</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lithuania</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Detainees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Central Intelligence Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Torture</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Court of Human Rights</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/00lithuania-cia-01-qbfm/00lithuania-cia-01-qbfm-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Andrej Vasilenko for The New York Times</media:credit>
+      <media:description>The former C.I.A. site, code-named Site Violet, in Antaviliai, Lithuania. </media:description>
+    </item>
+    <item>
+      <title>Peter Pellegrini Wins Slovakia’s Presidential Election</title>
+      <link>https://www.nytimes.com/2024/04/06/world/europe/slovakia-election-president.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/europe/slovakia-election-president.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/slovakia-election-president.html" rel="standout"></atom:link>
+      <description>The victory for Peter Pellegrini, an ally of Slovakia’s populist prime minister, strengthens Central Europe’s ties to Moscow.</description>
+      <dc:creator>Andrew Higgins</dc:creator>
+      <pubDate>Sun, 07 Apr 2024 00:07:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Slovakia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Korcok, Ivan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pellegrini, Peter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fico, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orban, Viktor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06slovakia-election-Pellegrini-hfjw/06slovakia-election-Pellegrini-hfjw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Petr David Josek/Associated Press</media:credit>
+      <media:description>Peter Pellegrini casting his ballot in Bratislava in the first round of Slovakia’s presidential election in March.</media:description>
+    </item>
+    <item>
+      <title>Another Israeli Hostage’s Body Recovered, the Death Angering His Family</title>
+      <link>https://www.nytimes.com/2024/04/06/world/europe/hostages-israel-gaza-protests.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/europe/hostages-israel-gaza-protests.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/hostages-israel-gaza-protests.html" rel="standout"></atom:link>
+      <description>Like the families of other hostages, they are outraged that the Israeli government has yet to reach a deal to halt the fighting and bring home loved ones held in Gaza.</description>
+      <dc:creator>Aaron Boxerman and Anna Betts</dc:creator>
+      <pubDate>Sat, 06 Apr 2024 22:26:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Palestinian Islamic Jihad</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Central Kitchen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cairo (Egypt)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Khan Younis (Gaza Strip)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06mideast-ledeall-1-pjwf/06mideast-ledeall-1-pjwf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Carlos Garcia Rawlins/Reuters</media:credit>
+      <media:description>A March protest in Tel Aviv demanding the release of the Oct. 7 hostages. At center, a woman holds a poster of Elad Katzir, whose body was recovered Friday by the Israeli military. </media:description>
+    </item>
+    <item>
       <title>Russian Missiles Hit Kharkiv, Killing at Least 6</title>
       <link>https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html</guid>
       <atom:link href="https://www.nytimes.com/2024/04/06/world/europe/russia-ukraine-kharkiv-glide-bombs.html" rel="standout"></atom:link>
-      <description>The latest assault on the eastern city killed at least six people, local authorities said. As Kyiv waits on American aid, Moscow has stepped up bombardments, including using modified “glide bombs.”</description>
+      <description>The latest assault on the eastern city killed at least seven people, local authorities said. As Kyiv waits on American aid, Moscow has stepped up bombardments, including using modified “glide bombs.”</description>
       <dc:creator>Marc Santora</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 11:48:57 +0000</pubDate>
+      <pubDate>Sat, 06 Apr 2024 19:50:01 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
@@ -99,7 +170,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/05/books/lynne-reid-banks-dead.html" rel="standout"></atom:link>
       <description>She explored the struggles of young women in the novel “The L-Shaped Room” but found her biggest success with a children’s book about a magical cupboard.</description>
       <dc:creator>Rebecca Chace</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 12:29:53 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2024 01:22:20 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Reid Banks, Lynne (1929-2024)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
@@ -338,57 +409,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/04michelangelo-jgwc/04michaelangelo-jgwc-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Stephanie Gengotti for The New York Times</media:credit>
       <media:description>Ilaria Sernesi, far right, and her sister, Donata, viewing a drawing from Michelangelo’s villa, which is stored in a secure crate in a warehouse on the outskirts of Florence.</media:description>
-    </item>
-    <item>
-      <title>In Moscow Attack, a Handful of Suspects but a Million Tajiks Under Suspicion</title>
-      <link>https://www.nytimes.com/2024/04/04/world/europe/russia-tajiks-terrorist-attack.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/russia-tajiks-terrorist-attack.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/russia-tajiks-terrorist-attack.html" rel="standout"></atom:link>
-      <description>The main suspects in a deadly assault near Moscow were from Tajikistan. Now many other Tajiks, who fill jobs in Russia’s wartime economy, are being deported and harassed.</description>
-      <dc:creator>Anatoly Kurmanaev, Valeriya Safronova and Valerie Hopkins</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 16:50:12 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Moscow Concert Hall Shooting (March 2024)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tajiks (Ethnic Group)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Workers</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/00russia-tajiks-01-ctwv/00russia-tajiks-01-ctwv-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Nanna Heitmann for The New York Times</media:credit>
-      <media:description>A market in the suburbs of Moscow, where many people from Central Asian countries, such as Tajikistan, work.</media:description>
-    </item>
-    <item>
-      <title>Bologna Looks to the Leaning Tower of Pisa for Tips to Stop Garisenda’s Tilt</title>
-      <link>https://www.nytimes.com/2024/04/04/world/europe/bologna-pisa-leaning-tower-italy.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/world/europe/bologna-pisa-leaning-tower-italy.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/world/europe/bologna-pisa-leaning-tower-italy.html" rel="standout"></atom:link>
-      <description>Bologna is looking to Pisa, home of the most famous leaning tower, for help keeping its own tipping tower upright.</description>
-      <dc:creator>Elisabetta Povoledo</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 02:46:10 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Historic Buildings and Sites</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Accidents and Safety</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Garisenda Tower (Bologna, Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bologna (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pisa (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
-      <category domain="">Leaning Tower of Pisa</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/01/multimedia/00bologna-tower-jlwg/00bologna-tower-jlwg-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Susan Wright for The New York Times</media:credit>
-      <media:description>Mayor Matteo Lepore of Bologna, Italy, announced that the city would adopt a system successfully used to save the Tower of Pisa for the Garisenda Tower, to the left of the taller structure.</media:description>
-    </item>
-    <item>
-      <title>Thursday Briefing</title>
-      <link>https://www.nytimes.com/2024/04/04/briefing/ukraine-draft-taiwan-earthquake-gaza.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/briefing/ukraine-draft-taiwan-earthquake-gaza.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/briefing/ukraine-draft-taiwan-earthquake-gaza.html" rel="standout"></atom:link>
-      <description>Ukraine expands its draft.</description>
-      <dc:creator>Daniel E. Slotnik</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 04:29:22 +0000</pubDate>
-      <media:content height="1548" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/04ambriefing-europe-ukraine-mobilization-promo/03ukraine-mobilization-02-gjql-mediumSquareAt3X-v2.jpg" width="1547"></media:content>
-      <media:credit>Nicole Tung for The New York Times</media:credit>
-      <media:description>Ukrainian soldiers training in the country’s Donetsk region on Monday.</media:description>
     </item>
   </channel>
 </rss>

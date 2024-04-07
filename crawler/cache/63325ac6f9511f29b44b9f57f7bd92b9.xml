@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Sat, 06 Apr 2024 21:03:05 +0200</lastBuildDate>
-  <pubDate>Sat, 06 Apr 2024 21:03:05 +0200</pubDate>
+  <lastBuildDate>Sun, 07 Apr 2024 07:12:08 +0200</lastBuildDate>
+  <pubDate>Sun, 07 Apr 2024 07:12:08 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -16,11 +16,18 @@
    <link>https://www.euronews.com</link>
   </image>
   <item>
-   <title>Volt party elects Sophie In ‘T Veld and the German Damian Boeselager</title>
+   <title>Latest news bulletin | April 7th – Morning</title>
+   <link>https://www.euronews.com/video/2024/04/07/latest-news-bulletin-april-7th-morning</link>
+   <guid>https://www.euronews.com/video/2024/04/07/latest-news-bulletin-april-7th-morning</guid>
+   <pubDate>Sun, 07 Apr 2024 07:00:03 +0200</pubDate>
+   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
+  </item>
+  <item>
+   <title>Volt party elects Sophie IN ‘T Veld and the German Damian Boeselager</title>
    <link>https://www.euronews.com/2024/04/06/volt-party-elects-sophie-in-t-veldt-and-the-german-damian-boeselager</link>
    <guid>https://www.euronews.com/2024/04/06/volt-party-elects-sophie-in-t-veldt-and-the-german-damian-boeselager</guid>
    <pubDate>Sat, 06 Apr 2024 18:39:12 +0200</pubDate>
-   <description>The Dutch Sophie In ‘T Veld and the German Damian Boeselager were chosen in Brussels as lead candidates in the European elections for Volt.</description>
+   <description>The Netherlands' Sophie IN ‘T Veld and Germany's Damian Boeselager were chosen by Volt in Brussels as lead candidates for the European Parliament election.</description>
   </item>
   <item>
    <title>Slovakia holds second presidential vote amid division over Ukraine</title>
@@ -357,13 +364,6 @@
    <guid>https://www.euronews.com/2024/04/04/croatian-retailers-raise-the-alarm-over-effects-of-sunday-trading-law</guid>
    <pubDate>Thu, 04 Apr 2024 10:59:50 +0200</pubDate>
    <description>The summer's tourism season promises will test how much the country's economy relies on shops staying open all week.</description>
-  </item>
-  <item>
-   <title>Migrants relocated from Paris ahead of Olympic Games</title>
-   <link>https://www.euronews.com/2024/04/04/migrants-relocated-from-paris-ahead-of-olympic-games</link>
-   <guid>https://www.euronews.com/2024/04/04/migrants-relocated-from-paris-ahead-of-olympic-games</guid>
-   <pubDate>Thu, 04 Apr 2024 09:47:40 +0200</pubDate>
-   <description>Aid groups fear the move, which included mostly women and children, is the beginning of a broader effort by Paris authorities to clear people out by the summer.</description>
   </item>
  </channel>
 </rss>

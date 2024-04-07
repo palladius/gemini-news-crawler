@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/world/us_and_canada</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Apr 2024 19:58:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Apr 2024 07:46:27 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -55,6 +55,14 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/EA7C/production/_133082006_dr.katerussochase2023tsejpeg.jpg"/>
         </item>
         <item>
+            <title><![CDATA[UFC champion Jones summoned over alleged threats to kill]]></title>
+            <description><![CDATA[UFC heavyweight champion Jon Jones is summoned to court following allegations he verbally threatened to kill a female anti-doping officer in Albuquerque.]]></description>
+            <link>https://www.bbc.co.uk/sport/mixed-martial-arts/68752313</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/mixed-martial-arts/68752313#0</guid>
+            <pubDate>Sat, 06 Apr 2024 20:04:09 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A5DB/production/_133095424_jonesindex.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Actor Cole Brings Plenty found dead in Kansas]]></title>
             <description><![CDATA[The US star of popular TV series 1923 was named a suspect in a domestic violence inquiry last week.]]></description>
             <link>https://www.bbc.co.uk/news/entertainment-arts-68749822</link>
@@ -66,7 +74,7 @@
             <title><![CDATA[Path of darkness - scroll every mile of total eclipse]]></title>
             <description><![CDATA[If you are not lucky enough to live along the route in North America, you can still follow its journey here.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68726825</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68726825#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68726825#1</guid>
             <pubDate>Fri, 05 Apr 2024 09:45:07 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15993/production/_133076488_eclipse_promo-976-nc.png"/>
         </item>
@@ -117,14 +125,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68737037#1</guid>
             <pubDate>Thu, 04 Apr 2024 23:14:53 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/CF7E/production/_133081135_0404_wck_flickinger_fam_1-7.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[US: Israel must make changes in Gaza in 'hours and days']]></title>
-            <description><![CDATA[John Kirby addressed what Biden told Netanyahu in their first call after the killing of aid workers in Gaza.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68737229</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68737229#1</guid>
-            <pubDate>Thu, 04 Apr 2024 19:00:57 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14896/production/_133081148_p0hnx9l0.jpg"/>
         </item>
         <item>
             <title><![CDATA[Watch: New York's iconic landmarks shaken by earthquake]]></title>

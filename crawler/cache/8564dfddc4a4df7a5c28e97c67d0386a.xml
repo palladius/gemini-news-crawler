@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Sat, 06 Apr 2024 08:57:45 -0400</pubDate>
-<lastBuildDate>Sat, 06 Apr 2024 08:57:45 -0400</lastBuildDate>
+<pubDate>Sat, 06 Apr 2024 21:01:18 -0400</pubDate>
+<lastBuildDate>Sat, 06 Apr 2024 21:01:18 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,9 +17,19 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
+<title>Hash Out the Inheritance Now, or Fight Your Family Later</title>
+<link>https://www.wsj.com/articles/hash-out-the-inheritance-now-or-fight-your-family-later-5fd836b9?mod=rss_markets_main</link>
+<description><![CDATA[The toughest part of estate planning isn’t writing the will, but talking about it openly with the family.]]></description>
+<content:encoded/>
+<pubDate>Sat, 06 Apr 2024 21:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001628498</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Personal Finance</wsj:articletype>
+</item>
+<item>
 <title>Biotech Executive Who Bet on Rival's Stock Committed Insider Trading, Jury Says</title>
 <link>https://www.wsj.com/articles/biotech-executive-who-bet-on-rivals-stock-committed-insider-trading-jury-says-73a622b1?mod=rss_markets_main</link>
-<description><![CDATA[The SEC wins ‘shadow trading’ case, extending the application of the law.]]></description>
+<description><![CDATA[The SEC won its “shadow trading’” case, extending the application of the law.]]></description>
 <content:encoded/>
 <pubDate>Sat, 06 Apr 2024 08:56:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001686983</guid>
@@ -205,16 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001679800</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Stocks</wsj:articletype>
-</item>
-<item>
-<title>A Tiny Activist Fund Is Trying to Unseat Larry Fink</title>
-<link>https://www.wsj.com/articles/a-tiny-activist-fund-is-trying-to-unseat-larry-fink-8ae01f7c?mod=rss_markets_main</link>
-<description><![CDATA[The proposal from Bluebell Capital to remove the BlackRock CEO as chairman faces long odds.]]></description>
-<content:encoded/>
-<pubDate>Thu, 04 Apr 2024 16:58:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001683656</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
 </item>
 </channel>
 </rss>
