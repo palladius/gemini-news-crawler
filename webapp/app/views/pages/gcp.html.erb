@@ -12,13 +12,15 @@
 
 <p>
   ☁️ GOOGLE_APPLICATION_CREDENTIALS: <%= gac or '🤷 not found' %>
-</p
-<p>
-  ☁️ Can i read the file? If so this is the byte size:
-    <b>
-      <%= File.exist?(gac) ? File.size(gac) : 'File doesnt exist' %>
-    </b>
 </p>
+<% if gac %>
+  <p>
+    ☁️ Can i read the file '<%= gac %>' ? If so this is the byte size:
+      <b>
+        <%=File.exist?(gac) ? File.size(gac) : 'File doesnt exist'  %>
+      </b>
+  </p>
+<% end %>
 <p>
   ☁️ BUCKET_NAME: gs://<%= ENV.fetch 'BUCKET_NAME', '🤷 not found' %>
 </p>
