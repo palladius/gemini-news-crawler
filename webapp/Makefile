@@ -4,6 +4,7 @@ DOCKER_VERSION = $(shell cat VERSION)
 # i cant believe it that a new rails install doesnt work but hey here it is
 # https://stackoverflow.com/questions/74904688/esbuild-throwing-error-could-not-resolve-import-statement-while-setting-up
 install:
+	rbenv install 3.2.2
 	npm i @hotwired/turbo-rails
 	npm i "@hotwired/stimulus"
 	rails stimulus:install
