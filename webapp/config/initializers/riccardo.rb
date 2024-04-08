@@ -1,5 +1,6 @@
 
 APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
+EmojiAppName = "♊️ GemiNews 🗞️"
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 
 Rails.application.configure do
@@ -9,6 +10,8 @@ Rails.application.configure do
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"    # Allow requests from example.com
   config.hosts << /gemini-news-crawler.*\.run\.app/
   config.hosts << "localhost:3000"
+  config.hosts << "localhost"
+  config.hosts << "localhost:3001"
   config.hosts << "localhost:8080"
   # Skip DNS rebinding protection for the default health check endpoint.
   #config.host_authorization = { exclude: ->(request) { request.path == "/up" } }

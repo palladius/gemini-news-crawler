@@ -54,6 +54,15 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+
+
+
+
+
+############
+# Carlessian stuff
+############
 .gcloudconfig.yaml
 _env_gaic.sh
 _env_gaic.rb
@@ -61,3 +70,7 @@ _env_gaic.py
 .ondir.was.here.touch
 .echodo_history
 .git-privatize
+private/
+iac/.exec*
+t
+.DS_Store

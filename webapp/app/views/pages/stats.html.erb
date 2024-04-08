@@ -1,9 +1,10 @@
 <% @latest_article = Article.last
 # .published_date.localtime %>
 <div>
-  <h1 class="font-bold text-4xl">Pages#stats</h1>
+  <h1 class="font-bold text-4xl">Stats</h1>
+  <!--
   <p>Find me in app/views/pages/stats.html.erb</p>
-
+-->
 
   <h2>🌱 ENV</h2>
 
@@ -23,6 +24,10 @@
     Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'] =
     <b><%= Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'].first(5) %>..</b>
   </p>
+
+
+  🌱  ENV-like vars:  <b><%= Rails.application.credentials['env'].keys %></b><br/>
+  🌱  ENV-like PROJECT_ID:  <b><%= Rails.application.credentials['env']['PROJECT_ID'] %></b><br/>
 
 
 
@@ -45,5 +50,8 @@
   )</p>
   <% end %>
 
+  <h2>Cache</h2>
+
+  @freshest_article_cached: <%= link_to @freshest_article_cached,@freshest_article_cached %>
 
 </div>

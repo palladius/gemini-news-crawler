@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://rubyonrails.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rubyonrails.org/" rel="alternate" type="text/html" /><updated>2024-04-02T02:02:34+00:00</updated><id>https://rubyonrails.org/feed.xml</id><title type="html">Ruby on Rails</title><subtitle>A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.</subtitle><entry><title type="html">Retry known idempotent SELECT queries, New Active Record configuration option, and more!</title><link href="https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401" rel="alternate" type="text/html" title="Retry known idempotent SELECT queries, New Active Record configuration option, and more!" /><published>2024-03-29T00:00:00+00:00</published><updated>2024-03-29T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401</id><content type="html" xml:base="https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401"><![CDATA[<p>Greetings! I’m <a href="https://twitter.com/siaw23">Emmanuel Hayford</a>, here to bring you your weekly instalment of “This Week In Rails”. Let’s dive straight into it.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://rubyonrails.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rubyonrails.org/" rel="alternate" type="text/html" /><updated>2024-04-06T06:18:54+00:00</updated><id>https://rubyonrails.org/feed.xml</id><title type="html">Ruby on Rails</title><subtitle>A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.</subtitle><entry><title type="html">Deferring jobs enqueueing to after the transaction commit, queries count in rendering logs and more</title><link href="https://rubyonrails.org/2024/4/5/this-week-in-rails" rel="alternate" type="text/html" title="Deferring jobs enqueueing to after the transaction commit, queries count in rendering logs and more" /><published>2024-04-05T00:00:00+00:00</published><updated>2024-04-05T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/4/5/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/4/5/this-week-in-rails"><![CDATA[<p>Hi, <a href="https://twitter.com/morgoth85">Wojtek</a> here exploring this week’s changes.</p>
+
+<p><a href="https://rubyonrails.org/world/2024">Rails World 2024 edition website is now live</a><br />
+With tickets going on sale in April.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51474">Allow to register transaction callbacks outside of a record</a><br />
+<em>ActiveRecord::Base.transaction</em> now yields an <em>ActiveRecord::Transaction</em> object, which allows to register callbacks on it.</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Article</span><span class="p">.</span><span class="nf">transaction</span> <span class="k">do</span> <span class="o">|</span><span class="n">transaction</span><span class="o">|</span>
+  <span class="n">article</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="ss">published: </span><span class="kp">true</span><span class="p">)</span>
+  <span class="n">transaction</span><span class="p">.</span><span class="nf">after_commit</span> <span class="k">do</span>
+    <span class="no">PublishNotificationMailer</span><span class="p">.</span><span class="nf">with</span><span class="p">(</span><span class="ss">article: </span><span class="n">article</span><span class="p">).</span><span class="nf">deliver_later</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Added <em>ActiveRecord::Base.current_transaction</em> which also allows to register callbacks on it.</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Article</span><span class="p">.</span><span class="nf">current_transaction</span><span class="p">.</span><span class="nf">after_commit</span> <span class="k">do</span>
+  <span class="no">PublishNotificationMailer</span><span class="p">.</span><span class="nf">with</span><span class="p">(</span><span class="ss">article: </span><span class="n">article</span><span class="p">).</span><span class="nf">deliver_later</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Add <em>ActiveRecord.after_all_transactions_commit</em> callback.</p>
+
+<p>Useful for code that may run either inside or outside a transaction and need to perform works after the state changes have been properly peristed.</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">publish_article</span><span class="p">(</span><span class="n">article</span><span class="p">)</span>
+  <span class="n">article</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="ss">published: </span><span class="kp">true</span><span class="p">)</span>
+  <span class="no">ActiveRecord</span><span class="p">.</span><span class="nf">after_all_transactions_commit</span> <span class="k">do</span>
+    <span class="no">PublishNotificationMailer</span><span class="p">.</span><span class="nf">with</span><span class="p">(</span><span class="ss">article: </span><span class="n">article</span><span class="p">).</span><span class="nf">deliver_later</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/rails/rails/pull/51426">Automatically delay Active Job enqueues to after commit</a><br />
+A common mistake with Active Job is to enqueue jobs from inside a transaction, causing them to potentially be picked and ran by another process, before the transaction is committed, which result in various errors.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Topic</span><span class="p">.</span><span class="nf">transaction</span> <span class="k">do</span>
+  <span class="n">topic</span> <span class="o">=</span> <span class="no">Topic</span><span class="p">.</span><span class="nf">create</span>
+  <span class="no">NewTopicNotificationJob</span><span class="p">.</span><span class="nf">perform_later</span><span class="p">(</span><span class="n">topic</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Now Active Job will automatically defer the enqueuing to after the transaction is committed, and drop the job if the transaction is rolled back.</p>
+
+<p>Various queue implementations can choose to disable this behavior, and users can disable it, or force it on a per job basis:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">NewTopicNotificationJob</span> <span class="o">&lt;</span> <span class="no">ApplicationJob</span>
+  <span class="nb">self</span><span class="p">.</span><span class="nf">enqueue_after_transaction_commit</span> <span class="o">=</span> <span class="ss">:never</span> <span class="c1"># or :always or :default</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/rails/rails/pull/51457">Add queries count to template rendering instrumentation</a><br />
+There is often a need to quickly see how many SQL queries the current action produced. For example, to quickly check if N+1 was solved or if the caching is working and so the number of queries reduced etc. This can be done manually by inspecting the logs and counting the number of queries, but for largish actions with tens-hundreds of SQL queries this is not a simple task.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Before
+Completed 200 OK in 3804ms (Views: 41.0ms | ActiveRecord: 33.5ms | Allocations: 112788)
+# After
+Completed 200 OK in 3804ms (Views: 41.0ms | ActiveRecord: 33.5ms (2 queries, 1 cached) | Allocations: 112788)
+</code></pre></div></div>
+
+<p><a href="https://github.com/rails/rails/pull/51453">Add the ability to ignore counter cache columns while they are backfilling</a><br />
+Starting to use counter caches on existing large tables can be troublesome, because the column values must be backfilled separately of the column addition (to not lock the table for too long) and before the use of <em>:counter_cache</em> (otherwise methods like <em>size/any?</em>, which use counter caches internally, can produce incorrect results). People usually use database triggers or callbacks on child associations while backfilling before introducing a counter cache configuration to the association.</p>
+
+<p>Now, to safely backfill the column, while keeping the column updated with child records added/removed, use:</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Comment</span> <span class="o">&lt;</span> <span class="no">ApplicationRecord</span>
+  <span class="n">belongs_to</span> <span class="ss">:post</span><span class="p">,</span> <span class="ss">counter_cache: </span><span class="p">{</span> <span class="ss">active: </span><span class="kp">false</span> <span class="p">}</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>While the counter cache is not “active”, the methods like <em>size/any?</em> will not use it, but get the results directly from the database. After the counter cache column is backfilled, simply remove the <em>{ active: false }</em> part from the counter cache definition, and it will now be used by the mentioned methods.</p>
+
+<p><a href="https://github.com/rails/rails/pull/50941">Retry Actionable Error when running tests</a><br />
+Allow Actionable Errors encountered when running tests to be retried. This feature will only be present on interactive terminals.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51478">Raise named exception when database reports an invalid version</a><br />
+When the MySQL database returns an invalid version string the <em>ActiveRecord::ActiveRecordError</em> error will now be raised.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51447">Make ActiveSupport::BacktraceCleaner copy filters and silencers on dup and clone</a><br />
+ Previously the copy would still share the internal silencers and filters array, causing state to leak.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-03-29%7D...main@%7B2024-04-05%7D">here</a>.</em>
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240329-20240405">16 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>Wojtek</name></author><category term="news" /><summary type="html"><![CDATA[Hi, Wojtek here exploring this week’s changes.]]></summary></entry><entry><title type="html">Retry known idempotent SELECT queries, New Active Record configuration option, and more!</title><link href="https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401" rel="alternate" type="text/html" title="Retry known idempotent SELECT queries, New Active Record configuration option, and more!" /><published>2024-03-29T00:00:00+00:00</published><updated>2024-03-29T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401</id><content type="html" xml:base="https://rubyonrails.org/2024/3/29/this-week-in-rails-retry-known-idempotent-select-queries-new-active-record-configuration-option-and-more-b3dfc401"><![CDATA[<p>Greetings! I’m <a href="https://twitter.com/siaw23">Emmanuel Hayford</a>, here to bring you your weekly instalment of “This Week In Rails”. Let’s dive straight into it.
  
 Two new guides are now open for community review. If you are well versed in Action View, partials, and helpers, please review and submit your feedback here:</p>
 
@@ -378,37 +461,4 @@ Users are encouraged to upgrade as soon as possible.</p>
 
 <p>On a personal note, backporting fixes to Rails versions that old is not fun so please upgrade!</p>
 
-<p>Have a good day!</p>]]></content><author><name>tenderlove</name></author><category term="releases" /><summary type="html"><![CDATA[Hi folks,]]></summary></entry><entry><title type="html">Rails World CFP, ActiveRecord::Base.with_connection, devcontainer and puma-dev support and more!</title><link href="https://rubyonrails.org/2024/2/16/this-week-in-rails" rel="alternate" type="text/html" title="Rails World CFP, ActiveRecord::Base.with_connection, devcontainer and puma-dev support and more!" /><published>2024-02-16T00:00:00+00:00</published><updated>2024-02-16T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/2/16/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/2/16/this-week-in-rails"><![CDATA[<p>Hi! <a href="https://www.saeloun.com/team/vipul">Vipul</a> here with the latest updates for This Week in Rails!</p>
-
-<p><a href="https://rubyonrails.org/2024/2/5/rails-world-2024-cfp-is-open">Rails World CFP</a><br />
-Call for Papers is now open for The Rails World 2024 conference that will be held in Toronto, Canada this year.
-The CFP will remain open until 21st March.
-Head over <a href="https://sessionize.com/rails-world/">here</a> to submit your proposal!</p>
-
-<p><a href="https://github.com/rails/rails/pull/50914">Generate devcontainer files by default</a> <br />
-This change generates a <code class="language-plaintext highlighter-rouge">.devcontainer</code> folder and its contents when creating a new app.
-The <code class="language-plaintext highlighter-rouge">.devcontainer</code> folder includes everything needed to <a href="https://containers.dev/">boot the app and do development in a remote container</a>.
-These files can be skipped using the <code class="language-plaintext highlighter-rouge">--skip-devcontainer</code> option.</p>
-
-<p><a href="https://github.com/rails/rails/pull/51083">Add <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.with_connection</code> as a shortcut for leasing a connection for a short duration</a><br />
-This change adds <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.with_connection</code> as a shortcut for leasing a connection for a short duration.
-The leased connection is yielded, and for the duration of the block, any call to <code class="language-plaintext highlighter-rouge">ActiveRecord::Base.connection</code> will yield that same connection.
-This is useful to perform a few database operations without causing a connection to be leased for the entire duration of the request or job.</p>
-
-<p><a href="https://github.com/rails/rails/pull/50920">Support encrypting binary columns</a><br />
-Previously encrypting binary columns with the <code class="language-plaintext highlighter-rouge">ActiveRecord::Encryption::MessageSerializer</code> incidentally worked for MySQL and SQLite, but not PostgreSQL.
-This change adds proper support now for encrypting binary columns types.</p>
-
-<p><a href="https://github.com/rails/rails/pull/51088">Suggest puma-dev configuration in bin/setup </a> <br />
-Rails now suggest <a href="https://github.com/puma/puma-dev">puma-dev</a> as the golden path for developing multiple Rails applications locally, if you’re not using Docker.
-<code class="language-plaintext highlighter-rouge">bin/setup</code> has now been updated to suggest how to get that setup.</p>
-
-<p><a href="https://github.com/rails/rails/pull/51087">Add .test to default allowed host in development mode</a> <br />
-Continuing on support for <a href="https://github.com/puma/puma-dev">puma-dev</a> this change adds “.test” as a default allowed host in development to ensure a smooth setup.</p>
-
-<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-02-10%7D...main@%7B2024-02-16%7D">here</a>.</em><br />
-<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240110-20240116">30 contributors</a> to the Rails codebase this past week!</em></p>
-
-<p>Until next time!</p>
-
-<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>vipulnsward</name></author><category term="news" /><summary type="html"><![CDATA[Hi! Vipul here with the latest updates for This Week in Rails!]]></summary></entry></feed>
+<p>Have a good day!</p>]]></content><author><name>tenderlove</name></author><category term="releases" /><summary type="html"><![CDATA[Hi folks,]]></summary></entry></feed>

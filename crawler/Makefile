@@ -31,3 +31,6 @@ newsapi-test:
 
 clean-articles:
 	rm -rf out/* out/*/* out/feedjira/
+
+test-gcp-comntinuously:
+	watch SKIP_CRAWLING=true ./crawl.rb

@@ -13,7 +13,7 @@
 	<atom:link href="https://seroter.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://seroter.com</link>
 	<description>Blog Featuring Code, Thoughts, and Experiences with Software and Services</description>
-	<lastBuildDate>Wed, 03 Apr 2024 02:19:14 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 05 Apr 2024 22:57:46 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,9 +29,257 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://seroter.com/osd.xml" title="Richard Seroter&#039;s Architecture Musings" />
 	<atom:link rel='hub' href='https://seroter.com/?pushpress=hub'/>
 	<item>
+		<title>Daily Reading List &#8211; April 5, 2024 (#292)</title>
+		<link>https://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/</link>
+					<comments>https://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/#respond</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Fri, 05 Apr 2024 22:57:46 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16193</guid>
+
+					<description><![CDATA[Today's links look at queuing up your app deployments, how enterprises are spending their budgets on AI, and why Ruby on Rails isn't dead.]]></description>
+										<content:encoded><![CDATA[
+<p>It was a quiet end to a bonkers run-up to <a href="https://cloud.withgoogle.com/next">Google Cloud Next</a>, which starts on Monday in Las Vegas. Most everything is done and ready to roll. I&#8217;m flying out tomorrow and have rehearsals on Sunday. I&#8217;ll plan on posting my reading list each day, but I&#8217;ll warn you ahead of time that it&#8217;ll probably be fairly Google heavy!</p>
+
+
+
+<p>[article]<strong> <a href="https://martinfowler.com/articles/uncovering-mainframe-seams.html#batch-pipeline">Uncovering the Seams in Mainframes for Incremental Modernisation: Batch Pipeline Step Handoff</a></strong>. The article keeps getting extended, and this latest addition looks at &#8220;seams&#8221; in the mainframe app around data processing.</p>
+
+
+
+<p>[blog] <strong><a href="https://glaforge.dev/posts/2024/04/04/calling-gemma-with-ollama-and-testcontainers/">Calling Gemma with Ollama, TestContainers, and LangChain4j</a></strong>. Local development with LLMs has gotten much easier. If you&#8217;re building training labs or just experimenting, you might like this pattern of running Gemma in a testcontainer.</p>
+
+
+
+<p>[blog] <strong><a href="https://redmonk.com/rstephens/2024/04/05/monkigras-1/">2024 Monki Gras Recap, Day 1</a></strong>. &#8220;Prompting craft&#8221; was the theme of this event, and Rachel&#8217;s recap does a great job pulling out some high notes to learn from.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.taylorstacey.ca/posts/deploy-on-fridays">Queuing Deployments with Workflows and Cloud Deploy</a></strong>. You might deploy right away, or you might choose to queue them for specific periods. This post shows one way to schedule deployments for later.</p>
+
+
+
+<p>[aricle] <strong><a href="https://thenewstack.io/platform-engineering-more-teams-now-running-3-or-more-idps/">Platform Engineering: More Teams Now Running 3 or More IDPs</a></strong>. Why? Are these narrowly-scoped IDPs? One internal developer platform per department? Such curious data!</p>
+
+
+
+<p>[blog] <strong><a href="https://www.battery.com/blog/enterprise-tech-survey-q124/">Survey Says: AI and Data Buoy Technology Spend Planning</a></strong>. Very interesting data in this survey. Download to flip through it to see where enterprise buyers are prioritizing their attention.</p>
+
+
+
+<p>[article] <strong><a href="https://www.itpro.com/cloud/cloud-computing/3-reasons-why-you-need-to-pay-attention-to-google-cloud-next-2024">3 reasons why you need to pay attention to Google Cloud Next 2024</a></strong>. I&#8217;ll humbly request that you take this writer&#8217;s advice. It&#8217;s going to be a great week.</p>
+
+
+
+<p>[article] <strong><a href="https://thenewstack.io/ruby-on-rails-is-not-dead-and-may-even-be-ai-panacea-for-devs/">Ruby on Rails Is Not Dead and May Even Be AI Panacea for Devs</a></strong>. You don&#8217;t hear a ton about Ruby in this JavaScript and Python obsessed landscape, but it&#8217;s still fairly popular.</p>
+
+
+
+<p>[blog] <strong><a href="https://bravenewgeek.com/introducing-konfig-gitlab-and-google-cloud-preconfigured-for-startups-and-enterprises/">Introducing Konfig: GitLab and Google Cloud preconfigured for startups and enterprises</a></strong>. The folks at Real Kinetic built something they&#8217;re calling &#8220;platform as code&#8221; to establish core infrastructure for cloud teams. </p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16193" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; April 4, 2024 (#291)</title>
+		<link>https://seroter.com/2024/04/04/daily-reading-list-april-4-2024-291/</link>
+					<comments>https://seroter.com/2024/04/04/daily-reading-list-april-4-2024-291/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Thu, 04 Apr 2024 23:30:16 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16179</guid>
+
+					<description><![CDATA[Today's links look at function calling with LLMs, whether prompt engineering is already tired, and if "platform as product" is back.]]></description>
+										<content:encoded><![CDATA[
+<p>Given the fast evolution of technology right now, I wonder if enterprises are doing strategic planning exercises more often. Annual plans don&#8217;t work in this climate. As I read the items below, I was thinking about how organizations are adapting!</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/using-gemini-function-calling-in-java-for-deterministic-generative-ai-responses-4c86a5ab80a9">Deterministic Generative AI with Gemini Function Calling in Java</a></strong>. Sometimes you have to see something over and over again before it clicks. I&#8217;ve now read enough about function calling in LLMs to &#8220;get&#8221; it. Good post here from Abi.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff">How we built Text-to-SQL at Pinterest</a></strong>. Is natural language about to become the preferred interface into data sources? Maybe, with the help of generative AI. Here&#8217;s what Pinterest built.</p>
+
+
+
+<p>[guide] <strong><a href="https://cloud.google.com/architecture/rag-capable-gen-ai-app-using-gke">Infrastructure for a RAG-capable generative AI application using GKE</a></strong>. So good. Learn how to build an AI platform that makes it possible to deploy contextual apps that know about your domain.</p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/prompt-engineering-AI-LLM-VMware-research/712190/">Is prompt engineering’s party over?</a></strong> That was fast. Will LLMs be better prompts, and are they already better than humans? I wouldn&#8217;t hire a dedicated &#8220;prompt engineer&#8221;, but the tech isn&#8217;t ready for the robots to take this on.</p>
+
+
+
+<p>[article] <strong><a href="https://techcrunch.com/2024/04/04/aerospike-raises-100m-for-its-real-time-database-platform-to-capitalize-on-the-ai-boom/">Aerospike raises $100M for its real-time database platform to capitalize on the AI boom</a></strong>. Done right, a lot of existing data vendors will find new life by legitimately serving AI use cases. Good for Aerospike.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/parsing-invoices-using-gemini-1-5-api-with-google-apps-script-1f32af1678f2">Parsing Invoices using Gemini 1.5 API with Google Apps Script</a></strong>. There are so many creative uses of LLMs, even when applied to &#8220;boring&#8221; scenarios like processing invoices. Fun example here.</p>
+
+
+
+<p>[blog] <strong><a href="https://firebase.blog/posts/2024/04/next-24">Firebase at Cloud Next &#8217;24</a></strong>. This is the most straight-up dev content I&#8217;ve seen at our cloud conference. Learn Flutter and Angular, Go and Android. And go deep on Firebase.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.syntasso.io/post/kubecon-eu-paris-the-re-emergence-of-platform-as-a-product">KubeCon EU Paris: The (Re)Emergence of Platform as a Product</a></strong>. I&#8217;ve been on the &#8220;platform as product&#8221; train for many years now, and modern platform engineering embraces that concept.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/networking/understanding-dns-options-for-gke/?e=48754805">DNS providers for Google Kubernetes Engine explained</a></strong>. Geeky topic, but there are performance and reliability outcomes that stem from your choices here.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16179" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/04/daily-reading-list-april-4-2024-291/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; April 3, 2024 (#290)</title>
+		<link>https://seroter.com/2024/04/03/daily-reading-list-april-3-2024-290/</link>
+					<comments>https://seroter.com/2024/04/03/daily-reading-list-april-3-2024-290/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Wed, 03 Apr 2024 23:43:41 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16163</guid>
+
+					<description><![CDATA[Today's links look at what tech Thoughtworks thinks is hot or not, where to find generative AI design patterns, and how to fix known software vulnerabilities. ]]></description>
+										<content:encoded><![CDATA[
+<p>As you read through today&#8217;s list, you&#8217;ll find advice on which tech you should explore (or skip), how to think about supply chain security, and get some ideas on AI patterns.</p>
+
+
+
+<p>[site] <strong><a href="https://www.thoughtworks.com/radar">Thoughtworks Technology Radar: Volume 30</a></strong>. This is always one of my favorite tech assessments to read. It&#8217;s worth your time to see what hot (and not) in techniques, platforms, tools, and programming languages. <a href="https://www.thoughtworks.com/insights/blog/technology-strategy/macro-trends-tech-industry-april-2024">Blog post on the trends in this report</a>.</p>
+
+
+
+<p>[article] <strong><a href="https://arstechnica.com/security/2024/02/github-besieged-by-millions-of-malicious-repositories-in-ongoing-attack/">GitHub besieged by millions of malicious repositories in ongoing attack</a></strong>. That&#8217;s scary. Be extra diligent when visiting repos to ensure you&#8217;re using the &#8220;real&#8221; ones.</p>
+
+
+
+<p>[blog] <strong><a href="https://jeremydmiller.com/2024/04/01/thoughts-on-modular-monoliths/">Thoughts on “Modular Monoliths.”</a></strong> Jeremy is rightfully skeptical of whether a modular monolith is the same mess with a fancier name.</p>
+
+
+
+<p>[blog] <strong><a href="https://insights.sei.cmu.edu/blog/applying-large-language-models-to-dod-software-acquisition-an-initial-experiment/">Applying Large Language Models to DoD Software Acquisition: An Initial Experiment</a></strong>. Can you use LLMs to make the request for proposal/information process easier? Document summarization seems like a valid use case here.</p>
+
+
+
+<p>[blog] <strong><a href="https://lakshmanok.medium.com/generative-ai-design-patterns-8eb1d937fccc">Generative AI Design Patterns</a></strong>. I wouldn&#8217;t trust much labeled as &#8220;best practice&#8221; when it comes to generative AI. It&#8217;s too early. Instead, Lak is documenting gen AI patterns as they emerge.</p>
+
+
+
+<p>[blog] <strong><a href="https://opensource.googleblog.com/2024/04/osv-and-helping-developers-fix-known-vulnerabilities.html">OSV and helping developers fix known vulnerabilities</a></strong>. Add vulnerability scanning into your CI pipeline, and use this tool to remediate vulnerabilities in your code.</p>
+
+
+
+<p>[article] <strong><a href="https://hbr.org/2024/04/ceos-is-your-business-strategy-bold-enough">CEOs, Is Your Business Strategy Bold Enough?</a></strong> It&#8217;s easy to say &#8220;be bolder&#8221; when you&#8217;re on the outside and don&#8217;t deal with the day-to-day challenges and conflict. That said, be bolder.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot-burstable-workloads/?e=48754805">GKE Autopilot mode gets burstable workloads and smaller Pod sizes</a></strong>. Using GKE in Autopilot mode isn&#8217;t bold; it&#8217;s just smart. Now you can create burstable workloads and have tiny pods for more dense clusters.</p>
+
+
+
+<p>[article] <strong><a href="https://www.linkedin.com/pulse/its-time-my-next-chapter-aaron-skonnard-jcgvc/">It’s Time for My Next Chapter</a></strong>. Job well done, Aaron, building Pluralsight into such a valuable and useful service for so many people.</p>
+
+
+
+<p>[blog] <strong><a href="https://engineering.atspotify.com/2024/04/data-platform-explained/">Data Platform Explained</a></strong>. Here&#8217;s Spotify&#8217;s take on data platforms and how theirs has evolved.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.androidpolice.com/tensorflow-guide/">What is TensorFlow?</a></strong> There are a few different machine learning frameworks that folks should be familiar with, and TensorFlow is one of them.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16163" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/03/daily-reading-list-april-3-2024-290/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Daily Reading List &#8211; April 2, 2024 (#289)</title>
 		<link>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/</link>
-					<comments>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/#respond</comments>
+					<comments>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/#comments</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
 		<pubDate>Wed, 03 Apr 2024 02:19:14 +0000</pubDate>
@@ -100,7 +348,7 @@
 	</div>]]></content:encoded>
 					
 					<wfw:commentRss>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		
@@ -593,262 +841,6 @@
 					
 					<wfw:commentRss>https://seroter.com/2024/03/25/daily-reading-list-march-25-2024-283/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; March 22, 2024 (#282)</title>
-		<link>https://seroter.com/2024/03/22/daily-reading-list-march-22-2024-282/</link>
-					<comments>https://seroter.com/2024/03/22/daily-reading-list-march-22-2024-282/#respond</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Fri, 22 Mar 2024 23:35:10 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16037</guid>
-
-					<description><![CDATA[Today's links look at how people are REALLY using generative AI, how to access Salesforce data from BigQuery, and what to do when you work inside a feature factory.]]></description>
-										<content:encoded><![CDATA[
-<p>I&#8217;m happy to wrapping a long, productive week. I&#8217;m hoping to have a bit of tech play time this weekend, and have a few projects in mind. I hope you find a way to enjoy yourself and do something fun.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/in-place-llm-insights-bigquery-gemini-for-structured-unstructured-data-analytics-fdfac0421626">In-Place LLM Insights: BigQuery &amp; Gemini for Structured &amp; Unstructured Data Analytics</a></strong>. Abi covers a lot of ground in this piece, and shows us both inline model calls, as well as invoking remote functions that call LLMs.</p>
-
-
-
-<p>[blog] <strong><a href="https://thegrowtheq.com/the-benefits-of-craft-work/">In Defense of Craft</a></strong>. Simple, but powerful point here. Most all of work in settings where a job-well-done is based on external factors, but this post talks about the satisfaction we get from doing something that stands on its own.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/serverless/introducing-cloud-run-volume-mounts/">Introducing Cloud Run volume mounts: connect your app to Cloud Storage or NFS</a></strong>. Contorting your architecture to use fully managed compute services while also banking on persistent data storage? Now Cloud Run lets you set up volume mounts to shared data sources.</p>
-
-
-
-<p>[article] <strong><a href="https://hbr.org/2024/03/how-people-are-really-using-genai">How People Are Really Using GenAI</a></strong>. This study surfaced a hundred different ways people are using generative AI technology. There aren&#8217;t a ton of surprises here, but it&#8217;s helpful to see it listed out.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/workload-identity-secured-way-to-access-google-cloud-apis-from-gke-workloads-44882ec5036a">Workload Identity &#8211; Secured Way to Access Google Cloud APIs from GKE Workloads.</a></strong> This has thankfully become a common idea for Kubernetes clusters, so make yourself familiar with it. Workload identity gives you a more secure way to control access from a workload to a given cloud resource (database, etc).</p>
-
-
-
-<p>[article] <strong><a href="https://thenewstack.io/java-22-making-java-more-attractive-for-ai-apps-workloads/">Java 22: Making Java More Attractive for AI Apps/Workloads</a></strong>. It doesn&#8217;t look like any language supporters are willing to cede the AI territory to Python. Lots of languages are beefing up their readiness and applicability for AI workloads.</p>
-
-
-
-<p>[blog] <strong><a href="https://bair.berkeley.edu/blog/2024/03/21/xt/">Modeling Extremely Large Images with xT</a></strong>. The folks at Berkeley are proposing a new framework to understand very large images. Very cool.</p>
-
-
-
-<p>[docs] <strong><a href="https://cloud.google.com/bigquery/docs/salesforce-quickstart">Work with Salesforce Data Cloud data in BigQuery</a></strong>. Wow, this seems like a big deal. Natively query your Salesforce data from BigQuery and do cross-cloud analytics. <a href="https://cloud.google.com/blog/products/data-analytics/salesforce-data-cloud-bidirectional-data-sharing-with-bigquery/">Blog post about it here</a>.</p>
-
-
-
-<p>[blog] <strong><a href="https://cutlefish.substack.com/p/tbm-279-how-to-learn-and-practice">How to Learn and Practice Product Management in a Feature Factory</a></strong>. Stuck in a feature factory that pumps out new capabilities and moves on? Here&#8217;s advice on how to grow as a product manager in that setting.</p>
-
-
-
-<p>[blog] <strong><a href="https://chaos.guru/essays/2024/hostile-environments/">Shipping quality software in hostile environments</a></strong>. This feels related to the above article on feature factories. When you work at places that pile on tech debt because of lack of autonomy and endless shipping, you&#8217;re in trouble!</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="https://seroter.com/?post_type=post&#038;p=16037" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/03/22/daily-reading-list-march-22-2024-282/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; March 21, 2024 (#281)</title>
-		<link>https://seroter.com/2024/03/21/daily-reading-list-march-21-2024-281/</link>
-					<comments>https://seroter.com/2024/03/21/daily-reading-list-march-21-2024-281/#comments</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Thu, 21 Mar 2024 23:58:16 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16021</guid>
-
-					<description><![CDATA[Today's links look at why big context windows are a big deal, how to design storage for AI workloads, and what it looks like to be in a "flow state."]]></description>
-										<content:encoded><![CDATA[
-<p>Are you good about taking a proper lunch hour? I&#8217;m hit or miss. Today was a ten minute lunch and I struggle to remember what I ate. Take care of yourself and eat food. At least I still was able to squeeze in some excellent blogs and articles today!</p>
-
-
-
-<p>[blog] <strong><a href="https://daleonai.com/bigcontextwindows">Big Context Windows Are a Big Deal</a></strong>. Best post of the day, no doubt. Dale writes an inspiring and engaging post about why Gemini&#8217;s context window is such a game changer.</p>
-
-
-
-<p>[article] <strong><a href="https://techcrunch.com/2024/03/21/redis-switches-licenses-acquires-speedb-to-go-beyond-its-core-in-memory-database/">Redis switches licenses, acquires Speedb to go beyond its core in-memory database</a></strong>. Not surprising, but it&#8217;s definitely clear that the OSS landscape has changed! Here&#8217;s more from Redis on <a href="https://redis.com/blog/the-future-of-redis/">their future</a>.</p>
-
-
-
-<p>[article] <strong><a href="https://martinfowler.com/articles/measuring-developer-productivity-humans.html#HowToCaptureQualitativeMetrics">How to capture qualitative metrics</a></strong>. This is a continuation of a previously-shared article and it explores details on actually acquiring data for qualitative studies.</p>
-
-
-
-<p>[blog] <strong><a href="https://www.forrester.com/blogs/unleashing-the-power-of-turingbots-g-researchs-journey-to-transform-software-development-generative-ai-ai/">How G-Research Used TuringBots To Transform Software Development</a></strong>. Quick post from Diego at Forrester, but he&#8217;s been on this AI-assisted dev tool topic for a while now and has good insights.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoworld.com/article/3714763/ai-used-extensively-for-security-but-not-for-coding-jfrog-survey-finds.html">AI used extensively for security but not for coding, JFrog survey finds</a></strong>. Interesting results, likely skewed based on who is asking the questions. But, it&#8217;s good to get insights into the security toolchain story.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/topics/customers/how-commerzbank-safeguards-its-data-with-vpc-service-controls/">How Commerzbank safeguards its data with VPC Service Controls</a></strong>. Surprisingly deep post. However you create isolation perimeters around cloud resources and networks, hopefully you have something like VPC-SC available to you.</p>
-
-
-
-<p>[guide] <strong><a href="https://cloud.google.com/architecture/ai-ml/storage-for-ai-ml">Design storage for AI and ML workloads in Google Cloud</a></strong>. This is an excellent guide for choosing the right type of storage for each stage of an AI/ML workload. Its concepts apply regardless of where you train and run.</p>
-
-
-
-<p>[blog] <strong><a href="https://www.infoq.com/articles/leading-team-software-engineer">Leading tech people or staying a software engineer: What to choose? Panel Discussion</a></strong>. Most techies have this mental argument with themselves at SOME point in their career: stay as an individual contributor, or get into management?</p>
-
-
-
-<p>[article] <strong><a href="https://lifehacker.com/work/how-to-use-the-flow-state">Use the Eight Elements of the ‘Flow State’ to Be More Productive</a></strong>. I think we all know (and crave) that feeling of being in a flow state. In the zone. Here&#8217;s more about that.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/data-analytics/bigquery-sql-gets-time-windowing-and-gap-filling/">Introducing new BigQuery features to simplify time-series data analysis</a></strong>. BigQuery is great at structured data, unstructured data, and everything in between.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="https://seroter.com/?post_type=post&#038;p=16021" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/03/21/daily-reading-list-march-21-2024-281/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; March 20, 2024 (#280)</title>
-		<link>https://seroter.com/2024/03/20/daily-reading-list-march-20-2024-280/</link>
-					<comments>https://seroter.com/2024/03/20/daily-reading-list-march-20-2024-280/#comments</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Wed, 20 Mar 2024 23:12:19 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16004</guid>
-
-					<description><![CDATA[Today's links look at an AI model that understands UIs, what it means to be a "creative" software engineer, and what a "softer" side of Java looks like.]]></description>
-										<content:encoded><![CDATA[
-<p>Another good day in Sunnyvale for a continuation of an offsite, and a couple of presentations to customers. Today&#8217;s reading list has a lot of AI, but also a mix of other topics. Enjoy!</p>
-
-
-
-<p>[blog] <strong><a href="https://blog.research.google/2024/03/screenai-visual-language-model-for-ui.html">ScreenAI: A visual language model for UI and visually-situated language understanding</a></strong>. Very cool research. A model that&#8217;s trained on UI layouts and infographics could really help with converting manual tasks to autonomous ones in the future.</p>
-
-
-
-<p>[blog] <strong><a href="https://blog.jetbrains.com/teamcity/2024/03/meet-teamcity-pipelines/">Make CI/CD Part of Your Development Flow With TeamCity Pipelines</a></strong>. JetBrains offers a mature CI/CD product, and it&#8217;s great that they&#8217;ve introduced a new flavor that looks like an &#8220;easy button&#8221; for deployment pipelines.</p>
-
-
-
-<p>[paper] <strong><a href="https://www.computer.org/csdl/magazine/so/2024/02/10445159/1URb85tSMOA">Developer Productivity for Humans, Part 8: Creativity in Software Engineering</a></strong>. What does it mean to be a creative developer? This research explores that question and finds a few categories to work with.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/containers-kubernetes/the-benefits-of-using-gke-for-running-ray-ai-workloads/">Why GKE for your Ray AI workloads? Portability, scalability, manageability, cost</a></strong>. When folks complain about Kubernetes complexity, the first question should be &#8220;compared to what?&#8221; This post was a good example of where Kubernetes seems to make something simpler.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/containers-kubernetes/using-kuberay-and-kueue-to-orchestrate-ray-applications-in-gke/">Advanced scheduling for AI/ML with Ray and Kueue</a></strong>. Speaking of Ray, if you&#8217;re running it on Kubernetes, you&#8217;re probably using KubeRay. Which means you might be integrating with Kueue. Read about both here.</p>
-
-
-
-<p>[article] <strong><a href="https://hbr.org/2024/03/is-your-ai-first-strategy-causing-more-problems-than-its-solving">Is Your AI-First Strategy Causing More Problems Than It’s Solving?</a></strong> I feel the same way about &#8220;AI first&#8221; as I do about &#8220;every company is a software company.&#8221; Neither are right. Your business goal should be delivering the best, most differentiated product or service. Use AI, don&#8217;t use AI, whatever. AI and software are &#8220;how&#8221;, not &#8220;why&#8221; or even &#8220;what.&#8221;</p>
-
-
-
-<p>[blog] <strong><a href="https://www.telerik.com/blogs/how-does-angular-compare-to-jquery">How Does Angular Compare to jQuery?</a></strong> I found this helpful, specifically for the tutorial-style explanation of the two technologies.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/identity-security/how-to-improve-resilience-to-ddos-attacks-with-cloud-armor-advanced-rate-limiting-capabilities/">How to improve resilience to DDoS attacks with Cloud Armor Advanced rate limiting capabilities</a></strong>. It feels somewhat amazing that you can protect yourself against the absolute worst DDoS attack imaginable by running a single CLI command.</p>
-
-
-
-<p>[article] <strong><a href="https://blog.pragmaticengineer.com/the-ai-developer/">Is the “AI developer”a threat to jobs – or a marketing stunt?</a></strong> Is the recently announced Devin product (see <a href="https://shiftmag.dev/meet-devin-the-ai-software-engineer-2949/">one take here</a>) more about positioning around Copilot than actually doing something new? Gergely takes a look.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoworld.com/article/3714282/getting-cozy-with-javas-new-softer-side.html">Getting cozy with Java&#8217;s new, softer side</a></strong>. These are good updates that make Java feel simpler and easier to use.</p>
-
-
-
-<p>[article] <strong><a href="https://devops.com/jfrog-survey-surfaces-raft-of-devsecops-challenges/">JFrog Survey Surfaces Raft of DevSecOps Challenges</a></strong>. I don&#8217;t know if these numbers are bad because I don&#8217;t know what &#8220;good&#8221; necessarily looks like. But, if this looks like your company, maybe you&#8217;ll feel better?</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="https://seroter.com/?post_type=post&#038;p=16004" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/03/20/daily-reading-list-march-20-2024-280/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 		

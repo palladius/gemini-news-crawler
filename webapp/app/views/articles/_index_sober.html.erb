@@ -5,15 +5,39 @@
         <%= notice %>
       </p>
     <% end %>
+    <!-- ;link which works -->
+    <div class="flex justify-between mb-4">
+      <%= link_to 'All', "/articles",
+        class: "bg-blue-100 text-green-700 px-4 py-2 rounded-md hover:bg-green-200"
+      %>
 
+      <% @article_regions.each do |region| %>
+          <%= link_to region,
+                "/articles?macro_region=#{region}",
+                class: "bg-blue-100 text-green-700 px-4 py-2 rounded-md hover:bg-green-200"
+          %>
+      <% end %>
+    </div>
 
-
+    <!-- button which doesnt work yet, needs AJAX and JS -->
+    <div class="flex justify-between mb-4">
+      <button type="button" class="bg-gray-200 text-gray-700 px-4 py-2 rounded-md active:bg-gray-300"  data-region="all" ><b>All</b></button>
+      <% @article_regions.each do |region| %>
+          <button
+            type="button"
+            class="bg-blue-100 text-blue-700 px-4 py-2 rounded-md hover:bg-blue-200"
+            data-region="<%= region %>"
+          ><%= region %></button>
+      <% end %>
+    </div>
+    <div class="grid grid-cols-auto gap-4">
     <div class="flex justify-between items-center">
-      <h1 class="font-bold text-4xl"><%= Article.emoji %><%= @articles.count %> latest Articles (of <%= @article_total_count %>)</h1>
+      <h1 class="font-bold text-4xl"><%= Article.emoji %><%= @articles.count %> latest cached Articles (of <%= @article_total_count %>)</h1>
       <%#= link_to "New article", new_article_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
     </div>
 
-    <div id="articles" class="min-w-full">
+    <!-- articles-container comes from Gemini who gave me some JS to get this all selected upon button clicking .. -->
+    <div id="articles" class="min-w-full articles-container">
 
       <%#= render partial: 'articles/index_floating_ten' %>
 

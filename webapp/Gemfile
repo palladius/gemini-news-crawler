@@ -8,6 +8,7 @@ ruby "3.2.2"
 gem "sqlite3", "~> 1.4" # just for test
 gem 'feedjira'
 gem 'lolcat' # useless but..
+gem 'google-cloud-storage'
 # brew install postgresql@15
 # /Riccardo end
 ################################
