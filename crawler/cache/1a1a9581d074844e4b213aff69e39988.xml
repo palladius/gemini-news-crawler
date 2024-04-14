@@ -9,48 +9,88 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 07 Apr 2024 15:57:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Apr 2024 12:14:14 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
+            <title><![CDATA[First ever climate change victory in Europe court]]></title>
+            <description><![CDATA["We are not made to sit in a rocking chair and knit," said one of the older Swiss women who won.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68768598</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68768598#0</guid>
+            <pubDate>Tue, 09 Apr 2024 11:31:57 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/AE2E/production/_133109544_mediaitem133108839.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Record hot March sparks 'uncharted territory' fear]]></title>
+            <description><![CDATA[Monthly hot streak continues in March with scientists struggling to explain the scale of recent heating.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68665166</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68665166#0</guid>
+            <pubDate>Tue, 09 Apr 2024 02:00:06 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4A74/production/_133106091_india_1_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[One dead as bridge falls on railway in Russia]]></title>
+            <description><![CDATA[The incident in the western city of Vyazma halts all train traffic, cutting gas supplies to many people.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68766912</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68766912#0</guid>
+            <pubDate>Mon, 08 Apr 2024 22:30:50 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5F28/production/_133106342_russia_bridge.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Vatican stands firm on sex change and surrogacy]]></title>
+            <description><![CDATA[The Vatican remains opposed to concepts like abortion and euthanasia, describing them as "grave violations".]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68761487</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68761487#0</guid>
+            <pubDate>Mon, 08 Apr 2024 16:03:28 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A49C/production/_133104124_9b279147a1d7b5d6ee18927aeae3a612f84b04a00_99_3072_17283072x1728.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why is Russia trying to frame Ukraine for concert massacre?]]></title>
+            <description><![CDATA[Parroting the Kremlin line, Russian media is ignoring IS claims of responsibility for the Crocus City attack.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68759150</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68759150#0</guid>
+            <pubDate>Mon, 08 Apr 2024 14:45:05 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5B2C/production/_133104332_gettyimages-2110565029.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Record floods threaten Russian city as waters rise]]></title>
+            <description><![CDATA[The mayor of Orenburg urges thousands of residents to evacuate as the Ural River continues to swell.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68764865</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68764865#0</guid>
+            <pubDate>Mon, 08 Apr 2024 18:58:00 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BAE0/production/_133104874_gettyimages-2141947960.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ukraine nuclear plant drone strike prompts warning]]></title>
+            <description><![CDATA[The International Atomic Energy Agency warns Russia and Ukraine not to attack nuclear facilities.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68757082</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68757082#1</guid>
+            <pubDate>Mon, 08 Apr 2024 09:57:46 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B797/production/_133099964_3f708d7eb7a49c5d3ed887121ff4c00519313201.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Germany faces genocide case over Israel weapon sales]]></title>
+            <description><![CDATA[Nicaragua accused Berlin of "facilitating" genocide by selling over $300m worth of weapons to Israel.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-68759146</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-68759146#1</guid>
+            <pubDate>Mon, 08 Apr 2024 21:04:41 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/433A/production/_133101271_icj-index-reuters.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Russia-friendly populist elected Slovak president]]></title>
             <description><![CDATA[Peter Pellegrini accused his rival of being a warmonger who would send Slovak soldiers to fight in Ukraine.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68754112</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68754112#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68754112#1</guid>
             <pubDate>Sun, 07 Apr 2024 10:25:06 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F5EF/production/_133095926_0a7915c678057baa3a4844165bf131226c6a5ac90_393_7551_42471000x563.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Athletic beat Mallorca on penalties to win Copa del Rey]]></title>
-            <description><![CDATA[Athletic Bilbao end their run of six successive Copa del Rey final defeats as they earn a dramatic penalty shootout victory over Mallorca to end their 40-year wait for silverware.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/68754075</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/68754075#0</guid>
-            <pubDate>Sat, 06 Apr 2024 23:50:59 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59AF/production/_133095922_gettyimages-2144427136.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA['Worst floods in decades' hit Kazakhstan and Russia]]></title>
-            <description><![CDATA[Tens of thousands are evacuated in northern Kazakhstan, amid warnings that floods are spreading in Russia.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68756041</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68756041#0</guid>
-            <pubDate>Sun, 07 Apr 2024 14:20:22 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10B7F/production/_133097486_gettyimages-2123614069.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Danish hippy commune fights back against drug gangs]]></title>
-            <description><![CDATA[Locals start digging up a Copenhagen street as part of a bid to tackle drug-related crime.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68740282</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68740282#0</guid>
-            <pubDate>Sat, 06 Apr 2024 23:15:37 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9177/production/_133093273_4069ec64-c320-4d18-95eb-9db93f27913c.jpg"/>
         </item>
         <item>
             <title><![CDATA[Greta Thunberg arrested at Dutch climate protest]]></title>
             <description><![CDATA[The activist was placed on a bus with fellow detainees and driven away from a protest at The Hague.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68749936</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68749936#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68749936#1</guid>
             <pubDate>Sat, 06 Apr 2024 16:35:02 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DC77/production/_133093465_d98674f8e6e02b28ab34ef2a4267268ddaa551660_0_2694_15151000x563.jpg"/>
         </item>
@@ -58,57 +98,33 @@
             <title><![CDATA[Russian drone strikes on Kharkiv kill seven - officials]]></title>
             <description><![CDATA[Attacks on the closest big city to the Russian border have been intensifying in recent weeks.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68747752</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68747752#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68747752#1</guid>
             <pubDate>Sat, 06 Apr 2024 14:09:39 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A35B/production/_133091814_9778f9b7-de3d-49c5-aa42-41489233a84e.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Bucha's wounds still raw two years on]]></title>
+            <description><![CDATA[A town known for its brutal Russian occupation is being cleaned up and rebuilt, but for many the emotional scars remain.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68755814</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68755814#2</guid>
+            <pubDate>Mon, 08 Apr 2024 00:13:58 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B58F/production/_133097464_mediaitem133097463.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Danish hippy commune fights back against drug gangs]]></title>
+            <description><![CDATA[Locals start digging up a Copenhagen street as part of a bid to tackle drug-related crime.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68740282</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68740282#2</guid>
+            <pubDate>Sat, 06 Apr 2024 23:15:37 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9177/production/_133093273_4069ec64-c320-4d18-95eb-9db93f27913c.jpg"/>
         </item>
         <item>
             <title><![CDATA[Ibiza locals living in cars as party island sees rents soar]]></title>
             <description><![CDATA["All the work you could want, but there isn't anywhere to live," say those struggling on the island.]]></description>
             <link>https://www.bbc.co.uk/news/business-68730891</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68730891#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68730891#2</guid>
             <pubDate>Sat, 06 Apr 2024 00:39:13 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30B3/production/_133076421_car1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Serbia police search for two-year-old girl's body]]></title>
-            <description><![CDATA[Two men hit the girl named Danka with their car and then took her body to a landfill site, say police.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68743220</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68743220#1</guid>
-            <pubDate>Fri, 05 Apr 2024 20:25:29 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17B5F/production/_133091179_de27-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Six Russian planes destroyed by drones - Ukraine]]></title>
-            <description><![CDATA[Security sources tell the BBC another eight bombers were badly damaged in the attack.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68740094</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68740094#1</guid>
-            <pubDate>Sat, 06 Apr 2024 00:11:10 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10AB6/production/_133087286_gettyimages-478823817.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Police seize luxury goods in fraud raids across EU]]></title>
-            <description><![CDATA[A criminal network is suspected of embezzling millions from an EU post-Covid recovery scheme.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68742209</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68742209#1</guid>
-            <pubDate>Fri, 05 Apr 2024 15:50:36 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8FAA/production/_133087763_watches20240404venice2pic-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[French pupil dies after being beaten near school]]></title>
-            <description><![CDATA[The 15-year-old boy was attacked by several youths and suffered a cardiac arrest, say police.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68744255</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68744255#1</guid>
-            <pubDate>Fri, 05 Apr 2024 17:55:36 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E78E/production/_133087295_gettyimages-2133932932.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Moment diver slips during Olympic pool inauguration]]></title>
-            <description><![CDATA[Alexis Jandard laughs off the incident on social media, posting, “My back is fine, but my ego…”.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68738072</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68738072#1</guid>
-            <pubDate>Fri, 05 Apr 2024 03:01:18 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6610/production/_133082162_diverre.jpg"/>
         </item>
         <item>
             <title><![CDATA[Russia’s neighbours urge Nato allies to bring back military service]]></title>
@@ -125,46 +141,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68724991#2</guid>
             <pubDate>Thu, 04 Apr 2024 01:46:34 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8576/production/_133066143_bb0fc5401707cc6db6be80d832e6b2682e9871450_219_5120_28815120x2881.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[France's unique orphanage for police children]]></title>
-            <description><![CDATA[Orpheopolis cares for the children of officers who have died in the line of duty or by suicide.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68659026</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68659026#2</guid>
-            <pubDate>Tue, 02 Apr 2024 23:20:25 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11243/production/_133011207_archive1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Ukraine gives award to vigilantes for Russia hacks]]></title>
-            <description><![CDATA[The foreign hackers had stolen data from Russian military firms and hacked cameras to spy on troops.]]></description>
-            <link>https://www.bbc.co.uk/news/technology-68722542</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/technology-68722542#2</guid>
-            <pubDate>Wed, 03 Apr 2024 23:07:25 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11298/production/_133069207_0dc66f46-2a9b-49ec-9daf-3f1c14cd5cb3.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Dunst: 'I didn't even think to ask for equal pay']]></title>
-            <description><![CDATA[Now starring in Alex Garland film Civil War, she says she experienced "major pay disparity" as a young star.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-68693973</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68693973#2</guid>
-            <pubDate>Wed, 03 Apr 2024 00:27:59 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12D62/production/_133045177_gettyimages-1491756021.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Will legalising cannabis unleash chaos in Germany?]]></title>
-            <description><![CDATA[Campaigners hail the law shift, which comes into force on 1 April - though police are less thrilled.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68674813</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68674813#2</guid>
-            <pubDate>Mon, 01 Apr 2024 00:22:25 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B1FD/production/_133056554_d7c9232768753fd25f7df8b61f588389c6e08b930_0_5620_34651000x617.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Barrage of Russian attacks aims to cut Ukraine's lights]]></title>
-            <description><![CDATA[Russia has launched a wave of additional strikes across the country targeting the energy supply.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68703356</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68703356#2</guid>
-            <pubDate>Sun, 31 Mar 2024 17:06:39 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10BC1/production/_133054586_1kharhivtrafficlightsresume.jpg"/>
         </item>
         <item>
             <title><![CDATA[Watch: Mount Etna puffs 'smoke rings' in rare display]]></title>

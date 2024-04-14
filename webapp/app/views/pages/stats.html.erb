@@ -26,10 +26,11 @@
   </p>
 
 
-  🌱  ENV-like vars:  <b><%= Rails.application.credentials['env'].keys %></b><br/>
+  🌱  ENV-like keys:  <b><%= Rails.application.credentials['env'].keys %></b><br/>
   🌱  ENV-like PROJECT_ID:  <b><%= Rails.application.credentials['env']['PROJECT_ID'] %></b><br/>
-
-
+  🌱  ENV-like BUCKET_NAME:  <b><%= Rails.application.credentials['env']['BUCKET_NAME'] %></b><br/>
+  🌱🔐 RailsCredEnv:  <b><%= RailsCredEnv.keys %></b><br/>
+  🌱🔐 RailsCredEnv[BUCKET_NAME]:  <b><%= RailsCredEnv['BUCKET_NAME'] rescue 'nada' %></b><br/>
 
   <h2>🧪 DB Stuff</h2>
 

@@ -5,6 +5,34 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>Abstract methods and NotImplementedError in Ruby</title>
+      <description> Ruby’s NotImplementedError exception is often used as a placeholder in abstract classes for methods that should be implemented by subclasses. But did you know that this is not how this exception class was intended to be used? </description>
+      <pubDate>Tue, 09 Apr 2024 04:10:53 +0000</pubDate>
+      <link>https://rubyflow.com/p/mirn05-abstract-methods-and-notimplementederror-in-ruby</link>
+      <guid>https://rubyflow.com/p/mirn05-abstract-methods-and-notimplementederror-in-ruby</guid>
+    </item>
+    <item>
+      <title>Windows and WSL</title>
+      <description> In this episode, we’ll look at setting up a fresh Windows 11 environment for Ruby on Rails development. We’ll be looking at a few different tricks that makes managing a Windows environment much easier. &lt;a href="https://www.driftingruby.com/episodes/windows-and-wsl?utm_medium=social&amp;amp;utm_campaign=weekly_episode&amp;amp;utm_source=rubyflow" rel="nofollow"&gt;https://www.driftingruby.com/episodes/windows-and-wsl&lt;/a&gt; </description>
+      <pubDate>Mon, 08 Apr 2024 11:35:40 +0000</pubDate>
+      <link>https://rubyflow.com/p/gequ8i-windows-and-wsl</link>
+      <guid>https://rubyflow.com/p/gequ8i-windows-and-wsl</guid>
+    </item>
+    <item>
+      <title>How to add or remove a Stimulus controller</title>
+      <description> A quick memo about how to add or remove a Stimulus controller - I recommend to rely on generator this time. </description>
+      <pubDate>Mon, 08 Apr 2024 11:28:32 +0000</pubDate>
+      <link>https://rubyflow.com/p/absg4o-how-to-add-or-remove-a-stimulus-controller</link>
+      <guid>https://rubyflow.com/p/absg4o-how-to-add-or-remove-a-stimulus-controller</guid>
+    </item>
+    <item>
+      <title>Introducing ActiveRecordAnonymizer</title>
+      <description> Excited to share a new Ruby gem I’ve been working on: ActiveRecordAnonymizer! 🚀 </description>
+      <pubDate>Sun, 07 Apr 2024 12:14:55 +0000</pubDate>
+      <link>https://rubyflow.com/p/k6wp9i-introducing-activerecordanonymizer</link>
+      <guid>https://rubyflow.com/p/k6wp9i-introducing-activerecordanonymizer</guid>
+    </item>
+    <item>
       <title>Optimized Model Auditing with PaperTrail</title>
       <description> Learn how to optimize model auditing in your Rails application using the PaperTrail gem by setting up separate audit tables for each model, enhancing performance and organization in the auditing process: &lt;a href="https://danielabaron.me/blog/model-audit-paper-trail/" rel="nofollow"&gt;https://danielabaron.me/blog/model-audit-paper-trail/&lt;/a&gt; </description>
       <pubDate>Sat, 06 Apr 2024 14:13:47 +0000</pubDate>
@@ -151,35 +179,6 @@
       <pubDate>Tue, 26 Mar 2024 22:11:02 +0000</pubDate>
       <link>https://rubyflow.com/p/vx5ta3-onstrumhealthcheck-simple-configurable-application-healthcheck-rack-middleware</link>
       <guid>https://rubyflow.com/p/vx5ta3-onstrumhealthcheck-simple-configurable-application-healthcheck-rack-middleware</guid>
-    </item>
-    <item>
-      <title>Brute-forcing 2FA codes with Ruby</title>
-      <description> Ruby is a popular choice of scripting language in the infosec world because it makes it possible to write quick scripts to automate something. In this post, I explain how I used a little Ruby to brute-force 2FA codes: </description>
-      <pubDate>Tue, 26 Mar 2024 19:57:05 +0000</pubDate>
-      <link>https://rubyflow.com/p/aqm0ew-brute-forcing-2fa-codes-with-ruby</link>
-      <guid>https://rubyflow.com/p/aqm0ew-brute-forcing-2fa-codes-with-ruby</guid>
-    </item>
-    <item>
-      <title>Secure code review checklist</title>
-      <description> Checklists are really useful to ensure you don’t forget important things, so why not create one for the security aspect your code review process? Here are my recommended checks: </description>
-      <pubDate>Tue, 26 Mar 2024 19:53:59 +0000</pubDate>
-      <link>https://rubyflow.com/p/hnu8r5-secure-code-review-checklist</link>
-      <guid>https://rubyflow.com/p/hnu8r5-secure-code-review-checklist</guid>
-    </item>
-    <item>
-      <title>Gosu Game Jam 6 starts in 3 days!</title>
-      <description> The Gosu Game Library Discord community is hosting its 6th game jam starting on March 29.
-Details on &lt;a href="https://itch.io/jam/gosu-game-jam-6" rel="nofollow"&gt;itch.io&lt;/a&gt; </description>
-      <pubDate>Tue, 26 Mar 2024 19:50:26 +0000</pubDate>
-      <link>https://rubyflow.com/p/9w663m-gosu-game-jam-6-starts-in-3-days</link>
-      <guid>https://rubyflow.com/p/9w663m-gosu-game-jam-6-starts-in-3-days</guid>
-    </item>
-    <item>
-      <title>Customize your Gemfile for development and productivity</title>
-      <description> Stuck because your pals aren’t into adding a gem to your workflow? No worries! Check out this article for tips on making your development smoother without their nod. Happy coding with Ruby! </description>
-      <pubDate>Tue, 26 Mar 2024 16:40:23 +0000</pubDate>
-      <link>https://rubyflow.com/p/njg9ip-customize-your-gemfile-for-development</link>
-      <guid>https://rubyflow.com/p/njg9ip-customize-your-gemfile-for-development</guid>
     </item>
   </channel>
 </rss>

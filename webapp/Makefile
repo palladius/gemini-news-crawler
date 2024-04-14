@@ -83,3 +83,6 @@ docker-run:
 # Latyest Magic script
 push-latest-to-dev-manhouse:
 	bin/cb-push-to-cloudrun-magic.sh dev latest
+
+postgres-start-locally-mac:
+	brew services start postgresql

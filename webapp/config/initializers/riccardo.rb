@@ -3,6 +3,8 @@ APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
 EmojiAppName = "♊️ GemiNews 🗞️"
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 
+RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
+
 Rails.application.configure do
 
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"

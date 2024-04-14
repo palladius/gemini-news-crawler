@@ -13,7 +13,7 @@
 	<atom:link href="https://seroter.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://seroter.com</link>
 	<description>Blog Featuring Code, Thoughts, and Experiences with Software and Services</description>
-	<lastBuildDate>Fri, 05 Apr 2024 22:57:46 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 08 Apr 2024 21:17:21 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,6 +29,86 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://seroter.com/osd.xml" title="Richard Seroter&#039;s Architecture Musings" />
 	<atom:link rel='hub' href='https://seroter.com/?pushpress=hub'/>
 	<item>
+		<title>Daily Reading List &#8211; April 8, 2024 (#293)</title>
+		<link>https://seroter.com/2024/04/08/daily-reading-list-april-8-2024-293/</link>
+					<comments>https://seroter.com/2024/04/08/daily-reading-list-april-8-2024-293/#respond</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Mon, 08 Apr 2024 21:17:21 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16210</guid>
+
+					<description><![CDATA[Today's links look at how to fine tune an LLM, what to do about mainframes, and how to make corporate learning less boring.]]></description>
+										<content:encoded><![CDATA[
+<p>It&#8217;s the day before Google Cloud Next starts, so I&#8217;m spending it doing some final prep and hanging out with my team in Las Vegas. Meanwhile, the tech world keeps going &#8217;round, and I read some good items today.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/fine-tuning-large-language-models-how-vertex-ai-takes-llms-to-the-next-level-3c113f4007da">Fine Tuning Large Language Models: How Vertex AI Takes LLMs to the Next Level</a></strong>. Here&#8217;s one of the more approachable articles I&#8217;ve read about fine tuning. Abi does such a great job explaining a use case and the steps that anyone can follow to repeat her exercise.</p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/banks-cloud-mainframe-generative-ai-strategy/712327/">Banking’s mainframe strategies shift as boards push for AI, cloud</a></strong>. Mainframes remain a very important source of data and computing power at many big companies. </p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/ibm-mainframe-sixty-years-anniversary-cloud-skills/712325/">As mainframes turn 60, skill gaps threaten the enterprise workhorse</a></strong>. Two mainframe articles in one day? I gotta keep you guessing. This is a longer-form piece that explores the staffing opportunity and challenge around mainframes.</p>
+
+
+
+<p>[article] <strong><a href="https://thenewstack.io/shifting-left-is-now-mainstream-for-developers-or-is-it/">Shifting Left Is Now Mainstream for Developers, or Is It?</a></strong> This looks primarily at security-related activities (and vendors) that apply early in the dev cycle.</p>
+
+
+
+<p>[blog] <strong><a href="https://newsletter.getdx.com/p/creativity-in-software-engineering">Creativity in Software Engineering</a></strong>. Abi looks at that research paper from Google and pulls out the key takeaways.</p>
+
+
+
+<p>[article] <strong><a href="https://hbr.org/2024/04/corporate-learning-is-boring-but-it-doesnt-have-to-be">Corporate Learning Is Boring — But It Doesn’t Have to Be</a></strong>. We&#8217;re not talking that boring, obligatory training we all have to take. This is about the sort of training we <em>want</em> to take, but it doesn&#8217;t engage us well.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoq.com/articles/architecture-trends-2024/">InfoQ Software Architecture and Design Trends Report &#8211; April 2024</a></strong>. The crew at InfoQ create these reports to show what is mainstream, and what&#8217;s emerging. It&#8217;s useful to do this sort of exercise for your own company to figure out what&#8217;s recommended versus incubated.</p>
+
+
+
+<p>[guide] <strong><a href="https://dora.dev/guides/dora-metrics-four-keys/">DORA’s software delivery metrics: the four keys</a></strong>. Nathen offers up a useful deep dive into the four key indicators of a high performing organization. I like the &#8220;pitfalls&#8221; section.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoq.com/presentations/communication-patterns-resilience/">How Do We Talk to Each Other? How Surfacing Communication Patterns in Organizations Can Help You Understand and Improve Your Resilience</a></strong>. Nora has a great talk about how people talk to each other and work together. She explains the impact on scenarios like incident management.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16210" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/08/daily-reading-list-april-8-2024-293/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Daily Reading List &#8211; April 5, 2024 (#292)</title>
 		<link>https://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/</link>
 					<comments>https://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/#respond</comments>
@@ -757,90 +837,6 @@
 					
 					<wfw:commentRss>https://seroter.com/2024/03/26/daily-reading-list-march-26-2024-284/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; March 25, 2024 (#283)</title>
-		<link>https://seroter.com/2024/03/25/daily-reading-list-march-25-2024-283/</link>
-					<comments>https://seroter.com/2024/03/25/daily-reading-list-march-25-2024-283/#respond</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Tue, 26 Mar 2024 00:07:39 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16065</guid>
-
-					<description><![CDATA[Today's links look at trends from the 900 most popular open source AI tools, choosing between exactly once and at least once streaming architectures, and how to find and address burnout in your team.]]></description>
-										<content:encoded><![CDATA[
-<p>It rained a lot in San Diego this past weekend, which is not part of the agreement. I&#8217;m thinking of asking for a refund on my taxes. But it&#8217;s 60 degrees and sunny today, so all is forgiven. Jump into some good items below!</p>
-
-
-
-<p>[blog] <strong><a href="https://huyenchip.com/2024/03/14/ai-oss.html">What I learned from looking at 900 most popular open source AI tools</a></strong>. Outstanding research that&#8217;s worth your attention. Chip looks at open source AI projects to detect trends and behavior.</p>
-
-
-
-<p>[article] <strong><a href="https://hbr.org/2024/03/the-missing-link-between-strategy-and-innovation">The Missing Link Between Strategy and Innovation</a></strong>. I didn&#8217;t notice anything earth-shattering here, but it was still a good reminder to understand your &#8220;why&#8221; and cascade priorities.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/data-analytics/dataflow-at-least-once-vs-exactly-once-streaming-modes/">At least once Streaming: Save up to 70% for Streaming ETL workloads</a></strong>. Achieving &#8220;exactly once&#8221; processing architectures isn&#8217;t cheap or simple. At-least-once is cheaper and simpler, but comes with tradeoffs. Good post explaining the differences.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoq.com/news/2024/03/discord-cloud-development-env">Transitioning Discord’s Engineering Team to Cloud Development Environments</a></strong>. Read this for some lessons learned about moving from local dev to cloud dev.</p>
-
-
-
-<p>[blog] <strong><a href="https://blog.google/products/maps/google-street-view-kazakhstan/">Street View comes to Kazakhstan</a></strong>. Even if you never leave your hometown, you can still see the world nowadays. How amazing is that? We&#8217;re seeing things now that were impossible to imagine just one generation ago.</p>
-
-
-
-<p>[article] <strong><a href="https://thenewstack.io/tech-works-how-to-identify-and-address-burnout-on-your-team/">Tech Works: How to Identify and Address Burnout on Your Team</a></strong>. Most of Jennifer&#8217;s article is about identifying burnout, but there are also some proposed areas for leaders to address.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/databases/alloydb-and-spanner-databases-for-startups/">Choosing a suitable database for your startup: An overview of AlloyDB and Spanner</a></strong>. So, so many databases out there. We have a handful in Google Cloud, and this post helps you decide the right one for a given use case.</p>
-
-
-
-<p>[blog] <strong><a href="https://bootcamp.uxdesign.cc/corporate-blogs-in-the-age-of-ai-f8b33142fd8a">Corporate blogs in the age of AI</a></strong>. Lak looks at blog post and notices a few changes (AI summaries, generated images) that you may see become more common everywhere.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoworld.com/article/3714784/ensuring-the-open-source-moment-continues.html">Ensuring the open source moment continues</a></strong>. The chatter continues after the decision by Redis last week to change their license. And the <a href="https://www.thestack.technology/battle-of-the-redis-forks-begins/">forks are off and running</a>.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/ai-on-gke-how-to-find-the-right-size-52979107a509">AI on GKE — how to find the right size?</a></strong> Here are some steps for setting up machinery to test out open AI models and their performance on different infrastructure configurations.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="https://seroter.com/?post_type=post&#038;p=16065" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/03/25/daily-reading-list-march-25-2024-283/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 		
