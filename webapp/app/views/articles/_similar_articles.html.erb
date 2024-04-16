@@ -1,0 +1,33 @@
+<!-- Article: <%= article %>
+
+  <table class="table-auto">
+</table>
+<table class="table-auto">
+    </table>
+
+-->
+
+<div class="flex flex-col space-y-4 h-screen">
+    <div class="bg-gray-100 p-4 rounded shadow-md">
+        <h3 class="text-lg font-medium text-gray-900"><%= EmbeddingEmoji %>Semantically Similar Articles [WIP]</h3>
+        <ul class="list-disc space-y-2 pl-4">
+        <% @article.closest_articles.each do |article| %>
+            <li>
+            🗄️ <a href="<%= article_path(article) %>" class="text-gray-700 hover:text-blue-500 underline">
+                <%= article.title %>
+            </a>
+            </li>
+        <% end %>
+        </ul>
+    </div>
+    <div class="prose p-4">
+        <%= @article.content %>
+    </div>
+    <!--
+    <div class="fixed bottom-0 w-full text-center bg-red-100 text-red-700 font-bold p-2 shadow-md">
+        Note: This is not ready yet!
+    </div>
+-->
+</div>
+
+

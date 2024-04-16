@@ -10,7 +10,6 @@
       <%= link_to 'All', "/articles",
         class: "bg-blue-100 text-green-700 px-4 py-2 rounded-md hover:bg-green-200"
       %>
-
       <% @article_regions.each do |region| %>
           <%= link_to region,
                 "/articles?macro_region=#{region}",

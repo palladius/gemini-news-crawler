@@ -46,10 +46,16 @@
   )</p>
 
   <% [Article,ArticleTag, Category].each do |my_class| %>
-  <p>Number of <b><%=  my_class.to_s.pluralize %></b>: (
+  <p>Number of <b><%=  my_class.to_s.pluralize %></b>:
     <b><%= my_class.all.count %></b>
-  )</p>
+  </p>
   <% end %>
+  <p>Number of <%= EmbeddingEmoji %> <b>Articles with Fake Embeddings</b>:
+    <b><%= Article.find_all_with_fake_embeddings.count %></b>
+  </p>
+  <p>Number of <%= EmbeddingEmoji %> <b>Articles with Proper Embeddings</b>:
+    <b><%= Article.find_all_with_proper_embeddings.count %></b>
+  </p>
 
   <h2>Cache</h2>
 

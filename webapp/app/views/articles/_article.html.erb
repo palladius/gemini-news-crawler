@@ -7,6 +7,8 @@
   <% end %>
 </div>
 
+<%= render 'articles/similar_articles', article: article %>
+
 <div id="<%= dom_id article %>">
 
   <p class="my-5">
@@ -38,16 +40,17 @@
 
   <hr/>
   <p class="my-5">
-    <strong class="font-medium mb-1">🗿 Embedding for title_embedding:</strong>
+    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Embedding for title:</strong>
     <%= render_embedding_for(article, :title_embedding) %>
   </p>
   <p class="my-5">
-    <strong class="font-medium mb-1">🗿 Embedding for summary_embedding:</strong>
+    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Embedding for summary:</strong>
     <%= render_embedding_for(article, :summary_embedding) %>
   </p>
 
   <p class="my-5">
-    <strong class="font-medium mb-1">Link:</strong>    <%= article.link %>
+    <strong class="font-medium mb-1">Link:</strong>
+    <%= link_to article.link,article.link %>
   </p>
 
   <p class="my-5">
@@ -57,12 +60,12 @@
 
   <p class="my-5">
     <strong class="block font-medium mb-1">Image url:</strong>
-    <%= article.image_url %>
+    <%= link_to article.image_url,article.image_url %>
   </p>
 
   <p class="my-5">
     <strong class="block font-medium mb-1">Feed url:</strong>
-    <%= article.feed_url %>
+    <%= link_to article.feed_url,article.feed_url %>
   </p>
 
 

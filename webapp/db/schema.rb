@@ -10,9 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_04_15_170000) do
+ActiveRecord::Schema[7.1].define(version: 2024_04_16_182052) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "vector"
 
   create_table "article_tags", force: :cascade do |t|
     t.bigint "article_id", null: false
@@ -45,6 +46,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_15_170000) do
     t.string "macro_region"
     t.float "title_embedding", array: true
     t.float "summary_embedding", array: true
+    t.vector "article_embedding", limit: 768
   end
 
   create_table "categories", force: :cascade do |t|

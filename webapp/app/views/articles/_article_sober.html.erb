@@ -8,6 +8,8 @@
 
     <%= link_to article.yyyymmdd_hhmm, article %>
     <b><%= link_to article.title, article %></b>
+    <% if article.title_embedding %>
+        <%= EmbeddingEmoji %>
+    <% end %>
     <br/>
 </div>
-

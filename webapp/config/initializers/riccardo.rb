@@ -3,6 +3,7 @@ APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
 EmojiAppName = "♊️ GemiNews 🗞️"
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 ENABLE_GCP = (ENV['ENABLE_GCP'].to_s.downcase == 'true')
+EmbeddingEmoji = '🗿'
 
 def gcp?()
   ENABLE_GCP

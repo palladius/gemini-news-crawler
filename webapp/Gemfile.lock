@@ -196,6 +196,8 @@ GEM
     msgpack (1.7.2)
     multi_json (1.15.0)
     mutex_m (0.2.0)
+    neighbor (0.3.2)
+      activerecord (>= 6.1)
     net-http (0.4.1)
       uri
     net-imap (0.4.10)
@@ -351,6 +353,7 @@ DEPENDENCIES
   jbuilder
   lolcat
   matrix
+  neighbor
   pg (~> 1.5, >= 1.5.6)
   puma (>= 5.0)
   rails (~> 7.1.3)

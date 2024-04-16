@@ -1,6 +1,9 @@
 class Article < ApplicationRecord
   include Embeddable
 
+  # https://github.com/ankane/neighbor
+  has_neighbors :article_embedding
+
   validates :title, uniqueness: true, presence: true
   validates :guid, uniqueness: true
 
@@ -96,5 +99,27 @@ class Article < ApplicationRecord
 
     def self.emoji
       '🗞️'
+    end
+
+    # item.nearest_neighbors(:embedding, distance: "euclidean").first(5)
+    # https://github.com/ankane/neighbor
+    def closest_articles(size: 5)
+      self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
+    end
+
+
+    # a.article_embedding =  a.title_embedding
+    # This is a migration script I created to migrate the Title Embedding into the article embedding.
+    # Why?
+    # Because the title/summary embeddings i've created as ARRAYs (thanks Gemini!) and instead I need
+    # to use the VECTOR() construct from pgvector. This, together with the neighbor gem, provides everything
+    # I need for fast computation of nearest neighbor.
+    def self.import_title_embedding_into_article_embedding()
+      Article.all.first(10000).each do |a|
+        if a.article_embedding.nil? and (not a.title_embedding.nil?)
+          a.article_embedding =  a.title_embedding
+          a.save
+        end
+      end
     end
   end

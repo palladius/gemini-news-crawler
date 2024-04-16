@@ -1,3 +1,7 @@
+2024-04-16 v0.1.3 [DEV] Finally vector and embeddings WORK in dev! Woohoo! I just needed to do some manual migration in dev.
+2024-04-16 v0.1.2 [DEV] Adding 5 similar (while Im calculating embedding for 10k DEV articles)
+2024-04-16 v0.1.1 [DEV] Added EmbeddingEmoji
+2024-04-16 v0.1.0 [DEV] Added Embeddings for Title and Summary. Schema change.
 2024-04-07 v0.34 [DEV] GCP Envs in encrypted master key stuff. Both prod and dev.
 2024-04-07 v0.33 [DEV] First GCP working stuff. It will give me plenty of deployment headaches, I know already
 2024-04-07 v0.32 [DEV] (before Vegas) Added GCP page, and /statusz endpoint. Also started IAP work for the future. Added cute logo.

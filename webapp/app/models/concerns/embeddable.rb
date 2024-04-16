@@ -8,13 +8,15 @@ module Embeddable
 
   def compute_embeddings!()
     if (gcp?)
+      # ARRAYs (fake vectors)
       self.title_embedding = self.compute_gcp_embeddings_for(field_to_access: :title)
       self.summary_embedding = self.compute_gcp_embeddings_for(field_to_access: :summary)
-      #TODO self.summary_embedding = compute_gcp_embeddings_for(text: self.summary)
+      # VECTOR (the real deal)
+      self.article_embedding = self.title_embedding if self.article_embedding.nil?
       self.save if self.changed? # cool! https://stackoverflow.com/questions/24412634/rails-save-method-if-no-changes
-    else
-      self.title_embedding = [42,42,42,42,42]
-      self.summary_embedding = [41.0,41.0,41.0,41.0,41.0]
+    # else
+    #   self.title_embedding = [42,42,42,42,42]
+    #   self.summary_embedding = [41.0,41.0,41.0,41.0,41.0]
     end
     return self
   end
@@ -74,7 +76,11 @@ module Embeddable
     #  "outputDimensionality": 256 # 768 is the default
     # }
     }
-    result = client.request('predict',request_hash )
+    result = client.request('predict',request_hash ) rescue nil
+    if result.nil?
+      puts("Some issues with request: #{$!}. Existing")
+      return nil
+    end
     File.write('.tmp.hi.embed_predict.json', result.to_json)
     # Embedding Response
     cleaned_response = result['predictions'][0]['embeddings']['values']
@@ -83,19 +89,50 @@ module Embeddable
     return cleaned_response
   end
 
+  def similar_articles(max_size: 5)
+    Article.all.first(5)
+    #[]
+  end
+
+  # Sistanbce from another Article by title
+  def distance_by_title_from(article) # , field: :title)
+    # Computes the instance
+    # <-> - L2 distance
+    # <=> - cosine distance
+    # <#> - (negative) inner product
+    query = "
+      SELECT
+        id,title, title_embedding
+      FROM Articles
+      ORDER BY title_embedding <=>
+      (
+       SELECT title_embedding FROM Articles WHERE id=3901
+      )
+       LIMIT 5;"
+  end
+
   # Class Methods: https://stackoverflow.com/questions/33326257/what-does-class-methods-do-in-concerns
   class_methods do
-    def find_all_with_embeddings()
+    # EMbeddings which i thought was love instead was a caless...
+    def find_all_with_fake_embeddings()
       #Article.includes(:title_embedding).where.not('title_embedding' => nil).count
       # https://stackoverflow.com/questions/4252349/rails-where-condition-using-not-nil
       self.includes(:title_embedding).where.not('title_embedding' => nil).all # count
     end
 
-    def compute_embeddings_for_all()
+    # Proper EMbeddings which are from VECTOR
+    def find_all_with_proper_embeddings()
+      #Article.includes(:title_embedding).where.not('title_embedding' => nil).count
+      # https://stackoverflow.com/questions/4252349/rails-where-condition-using-not-nil
+      self.includes(:article_embedding).where.not('article_embedding' => nil).all # count
+    end
+    def compute_embeddings_for_all(max_instances: 1000)
       puts("Computing embeddings for ALL. This makes for a great RAKE task!")
-      self.all.first(5).each do |article|
+      self.all.first(max_instances).each do |article|
         puts("Calculating embedding for #{article}..")
         article.compute_embeddings()
+        # or the API will complain
+        sleep(1.0/24.0)
       end
     end
   end
