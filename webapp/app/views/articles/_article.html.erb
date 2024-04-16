@@ -37,8 +37,14 @@
   <% end %>
 
   <hr/>
-
-
+  <p class="my-5">
+    <strong class="font-medium mb-1">🗿 Embedding for title_embedding:</strong>
+    <%= render_embedding_for(article, :title_embedding) %>
+  </p>
+  <p class="my-5">
+    <strong class="font-medium mb-1">🗿 Embedding for summary_embedding:</strong>
+    <%= render_embedding_for(article, :summary_embedding) %>
+  </p>
 
   <p class="my-5">
     <strong class="font-medium mb-1">Link:</strong>    <%= article.link %>

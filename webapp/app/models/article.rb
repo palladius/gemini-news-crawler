@@ -1,4 +1,5 @@
 class Article < ApplicationRecord
+  include Embeddable
 
   validates :title, uniqueness: true, presence: true
   validates :guid, uniqueness: true

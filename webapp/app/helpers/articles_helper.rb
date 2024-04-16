@@ -19,4 +19,11 @@ module ArticlesHelper
     "#{emoji} #{article.newspaper}"
   end
 
+  def render_embedding_for(article, field)
+    embedding = article.send(field)
+    return "🪹 nil" if embedding.nil?
+    embedding_size = embedding.size rescue 0
+    "Embedding[#{embedding_size}]: #{embedding.first(4)}, .."
+  end
+
 end
