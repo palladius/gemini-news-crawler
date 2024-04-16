@@ -23,6 +23,7 @@ class Article < ApplicationRecord
   #after_initialize :set_categories
   before_save :set_categories
   before_save :set_defaults
+  before_save :set_embeddings_best_effort
   after_save :set_defaults_after
 
     # https://stackoverflow.com/questions/5164566/how-to-intercept-assignment-to-attributes
@@ -60,7 +61,6 @@ class Article < ApplicationRecord
     def set_defaults
       puts("Article::set_defaults (before_save). My id=#{self.id}")
       self.active ||= true
-#      self.author ||= 'Cielcio Conti'
     end
 
     def author_or_newspaper
@@ -107,6 +107,10 @@ class Article < ApplicationRecord
       self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
     end
 
+    def set_embeddings_best_effort()
+      puts("Article before_save(): set_embeddings_best_effort()")
+      compute_embeddings rescue nil
+    end
 
     # a.article_embedding =  a.title_embedding
     # This is a migration script I created to migrate the Title Embedding into the article embedding.

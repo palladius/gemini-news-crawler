@@ -126,10 +126,16 @@ module Embeddable
       # https://stackoverflow.com/questions/4252349/rails-where-condition-using-not-nil
       self.includes(:article_embedding).where.not('article_embedding' => nil).all # count
     end
+    def find_all_without_any_embeddings()
+#      self.includes(:article_embedding).where('article_embedding' => nil).all
+      self.where('article_embedding' => nil).all
+    end
     def compute_embeddings_for_all(max_instances: 1000)
-      puts("Computing embeddings for ALL. This makes for a great RAKE task!")
-      self.all.first(max_instances).each do |article|
-        puts("Calculating embedding for #{article}..")
+      # TODO honour the 1000.
+      puts("🗿🗿🗿 Computing embeddings for ALL. This makes for a great RAKE task!")
+      #self.all
+      self.find_all_without_any_embeddings.each do |article|
+        puts("🗿 Calculating embedding for #{article}..")
         article.compute_embeddings()
         # or the API will complain
         sleep(1.0/24.0)

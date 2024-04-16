@@ -44,7 +44,16 @@ Apps are on Cloud Run
 
 ### Autofeed now
 
-1. `cd crawler/ ; $ make crawl-a-lot`
+1. `cd crawler/ ; $ make crawl-a-lot` or `make crawl-continuously`. This populates XML every 15min (or I get kicked out by the robots :P ) and slurps articles from XML. XML I check on git, articles i dont or theyre too many.
+2. `bundle exec make seed-forever` (without bundle wont work). this seeds info from (1) into ActiveRecord, hence DB.
+3. call an async routing to populate - although since v0.1.5 this should happen automatically before save of Article.
+4. This works: `echo Article.compute_embeddings_for_all | rails c`
+
+Issue with keys
+
+* Created secret: `projects/272932496670/secrets/geminews-key`
+* Mounted on Crun as /geminews-key/geminews-key
+* Now the final bit: GCP_KEY_PATH_FROM_WEBAPP = /geminews-key/geminews-key
 
 ### esbuild issues
 

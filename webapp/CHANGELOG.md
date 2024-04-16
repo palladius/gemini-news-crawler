@@ -1,3 +1,5 @@
+2024-04-16 v0.1.5 [DEV] Now calculating embeddings as before_save with `resuce nil` to be safe.
+2024-04-16 v0.1.4 [DEV] Relaxed the need for the JSON key there. So Cloud Build can keep building it.
 2024-04-16 v0.1.3 [DEV] Finally vector and embeddings WORK in dev! Woohoo! I just needed to do some manual migration in dev.
 2024-04-16 v0.1.2 [DEV] Adding 5 similar (while Im calculating embedding for 10k DEV articles)
 2024-04-16 v0.1.1 [DEV] Added EmbeddingEmoji

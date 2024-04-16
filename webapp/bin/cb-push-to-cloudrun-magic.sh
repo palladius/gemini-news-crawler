@@ -59,6 +59,7 @@ export APP_VERSION="$(cat VERSION)"
 export MESSAGGIO_OCCASIONALE="MsgOcc Non datur in MAGIC"
 export RAILS_MASTER_KEY="${RAILS_MASTER_KEY:-foobarbaz}"
 export BUCKET="${BUCKET:-bucket-non-datur}"
+export ENABLE_GCP='false'
 # Change AppName if deployed from Carlessian computer
 if hostname | egrep 'ricc-macbookpro|derek|penguin' ; then
   #echo 'I believe this code wont work given how BASH vars suck '

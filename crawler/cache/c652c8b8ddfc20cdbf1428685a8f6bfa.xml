@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com/page/2_0006.html"/>
 <description>World News</description>
 <language>en-us</language>
-<pubDate>Tue, 16 Apr 2024 15:02:09 -0400</pubDate>
-<lastBuildDate>Tue, 16 Apr 2024 15:02:09 -0400</lastBuildDate>
+<pubDate>Tue, 16 Apr 2024 15:16:41 -0400</pubDate>
+<lastBuildDate>Tue, 16 Apr 2024 15:16:41 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com/page/2_0006.html</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,26 @@
 <link>http://online.wsj.com/page/2_0006.html</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>U.S. Natural Gas Futures Gain in Rebound Off Lows</title>
+<link>https://www.wsj.com/articles/europes-gas-prices-rise-on-escalating-mideast-hostilities-cd3e743f</link>
+<description><![CDATA[U.S. natural gas futures staged a late-session rebound after testing a new May contract low at $1.649/mmBtu.]]></description>
+<content:encoded/>
+<pubDate>Tue, 16 Apr 2024 15:15:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001707372</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>NewsPlus</wsj:articletype>
+</item>
+<item>
+<title>Musk's Starlink Cracks Down on Growing Black Market</title>
+<link>https://www.wsj.com/articles/elon-musk-spacex-starlink-satellite-access-crackdown-e09f3e4e</link>
+<description><![CDATA[Elon Musk’s SpaceX has begun a crackdown on users who are connecting to its Starlink high-speed internet service from countries where it isn’t authorized.]]></description>
+<content:encoded/>
+<pubDate>Tue, 16 Apr 2024 15:12:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001708490</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Technology</wsj:articletype>
+</item>
 <item>
 <title>Canada Inflation Ticks Up in March to 2.9%</title>
 <link>https://www.wsj.com/articles/canada-inflation-ticks-up-in-march-to-2-9-726fcc72</link>
@@ -177,16 +197,6 @@
 <wsj:articletype>Television Review</wsj:articletype>
 </item>
 <item>
-<title>Musk's Starlink Cracks Down on Growing Black Market</title>
-<link>https://www.wsj.com/articles/elon-musk-spacex-starlink-satellite-access-crackdown-e09f3e4e</link>
-<description><![CDATA[Elon Musk’s SpaceX has begun a crackdown on users who are connecting to its Starlink high-speed internet service from countries where it isn’t authorized.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 13:34:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001708490</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Africa News</wsj:articletype>
-</item>
-<item>
 <title>Wait, Caitlin Clark Is Only Getting Paid $76,000?</title>
 <link>https://www.wsj.com/articles/caitlin-clark-salary-wnba-indiana-fever-9881ecdd</link>
 <description><![CDATA[College basketball’s leading scorer became the No. 1 pick in the WNBA draft on Monday night, but her salary is a fraction of what other superstar athletes make.]]></description>
@@ -205,16 +215,6 @@
 <guid isPermaLink="false">SB10559672167498664508004590645293094323502</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Bookshelf</wsj:articletype>
-</item>
-<item>
-<title>Germany's Economic Picture Is Brightening</title>
-<link>https://www.wsj.com/articles/germanys-economic-picture-is-brightening-bd908f01</link>
-<description><![CDATA[German economic expectations are surging, as falling inflation is expected to boost real disposable incomes, Pantheon Macroeconomics economist Melanie Debono writes in a note.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 13:18:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001708546</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Central Banks Research</wsj:articletype>
 </item>
 </channel>
 </rss>

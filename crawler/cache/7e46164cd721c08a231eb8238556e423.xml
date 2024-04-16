@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/world/us_and_canada</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Apr 2024 19:08:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Apr 2024 19:47:37 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -23,12 +23,28 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1032/production/_133164140_gettyimages-2147854393.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Could you be a fair juror for Trump? We asked New Yorkers]]></title>
+            <description><![CDATA[An impartial 12-person jury is needed for his first criminal trial - dozens have already been excused.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68830896</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68830896#0</guid>
+            <pubDate>Tue, 16 Apr 2024 19:04:37 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/329C/production/_133165921_p0hr6hsf.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Supreme Court hears 6 Jan case that may hit Trump trial]]></title>
             <description><![CDATA[The case could undo felony charges for the former president and hundreds of 6 January rioters.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68828004</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68828004#0</guid>
             <pubDate>Tue, 16 Apr 2024 17:10:26 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/121C/production/_133163640_gettyimages-1230733998.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Psychic' conman jailed for swindling 1.3m Americans]]></title>
+            <description><![CDATA[Canadian Patrice Runner made $175m over 20 years in leaflet scam claiming he could make people rich.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68831124</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68831124#0</guid>
+            <pubDate>Tue, 16 Apr 2024 19:22:38 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11C98/production/_133165827_gettyimages-2131940338.jpg"/>
         </item>
         <item>
             <title><![CDATA[Former Marine jailed for bombing abortion clinic]]></title>
@@ -47,14 +63,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15BD6/production/_133164098_capture.png"/>
         </item>
         <item>
-            <title><![CDATA[House could vote on Ukraine aid this week, Speaker says]]></title>
-            <description><![CDATA[Kyiv has grown frustrated with hold-ups to new US support, as Russia makes steady gains in its invasion.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68825646</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68825646#0</guid>
-            <pubDate>Tue, 16 Apr 2024 10:52:35 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/169BE/production/_133160629_gettyimages-2147837493.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Video shows people damaging ancient rock formations]]></title>
             <description><![CDATA[A hiker recorded two men pushing rocks from the ancient formation in a Nevada park.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68822318</link>
@@ -63,10 +71,18 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/AC72/production/_133164144_p0hr5rs0.jpg"/>
         </item>
         <item>
+            <title><![CDATA[House could vote on Ukraine aid this week, Speaker says]]></title>
+            <description><![CDATA[Kyiv has grown frustrated with hold-ups to new US support, as Russia makes steady gains in its invasion.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68825646</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68825646#1</guid>
+            <pubDate>Tue, 16 Apr 2024 10:52:35 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/169BE/production/_133160629_gettyimages-2147837493.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Caitlin Clark picked by Indiana Fever in WNBA draft]]></title>
             <description><![CDATA[The college women's basketball sensation has driven massive interest into the sport.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68823418</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68823418#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68823418#1</guid>
             <pubDate>Tue, 16 Apr 2024 02:41:28 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B987/production/_133159474_caitlinclark.jpg"/>
         </item>
@@ -95,18 +111,10 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55CD/production/_133156912_gettyimages-2117511347.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Dozens of jurors ruled out as historic Trump trial begins]]></title>
-            <description><![CDATA[The selection process continues on Tuesday - with dozens of potential jurors already dismissed on grounds of bias.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68671733</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68671733#1</guid>
-            <pubDate>Tue, 16 Apr 2024 07:11:01 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11492/production/_133120807_gettyimages-2147829687.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[A view from inside court for Trump's blockbuster trial]]></title>
             <description><![CDATA[Monday marked the start of Donald Trump's hush-money trial in New York City. Here's how the day unfolded.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68822834</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68822834#1</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68822834#2</guid>
             <pubDate>Tue, 16 Apr 2024 00:38:21 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57DF/production/_133159422_p0hr12c8.jpg"/>
         </item>
@@ -149,14 +157,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68793085#2</guid>
             <pubDate>Thu, 11 Apr 2024 15:51:45 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62B8/production/_133127252_p0hq8ypc.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Skydivers witness total solar eclipse mid-air]]></title>
-            <description><![CDATA[Dramatic video shows a woman and her father jumping from 14,000ft (4,267m) as the sky begins to darken.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68786361</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68786361#2</guid>
-            <pubDate>Thu, 11 Apr 2024 04:46:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15BBE/production/_133122098_p0hq31br.jpg"/>
         </item>
         <item>
             <title><![CDATA[Wildcard witness and untested legal theory: How strong is first Trump case?]]></title>

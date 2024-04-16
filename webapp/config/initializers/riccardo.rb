@@ -48,7 +48,7 @@ puts "#{emoji} .. which is why I only show the top N chars. Note that Gemini and
 puts "#{emoji}"
 puts "#{emoji} And now the 🌞 PUBLIC stuff:"
 puts "#{emoji} 🌞 Rails.env: #{Rails.env}"
-%w{ APP_NAME SKAFFOLD_DEFAULT_REPO ENABLE_GCP MESSAGGIO_OCCASIONALE RAILS_ENV}.sort.each do |env_key|
+%w{ APP_NAME SKAFFOLD_DEFAULT_REPO ENABLE_GCP MESSAGGIO_OCCASIONALE RAILS_ENV GCP_KEY_PATH_FROM_WEBAPP}.sort.each do |env_key|
   puts "#{emoji} 🌞 ENV[#{env_key}]: #{ ENV.fetch( env_key, '🤷' )}"
 end
 # Now normal variables..
