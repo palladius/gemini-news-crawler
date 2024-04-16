@@ -4,11 +4,11 @@
   <link rel="alternate" type="text/html" href="https://www.driftingruby.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.driftingruby.com/"/>
   <title>Drifting Ruby Screencasts</title>
-  <updated>2024-04-08T03:24:51Z</updated>
+  <updated>2024-04-16T16:45:27Z</updated>
   <entry>
     <id>tag:www.driftingruby.com,2005:Episode/457</id>
     <published>2024-04-07T00:00:00Z</published>
-    <updated>2024-04-08T03:24:51Z</updated>
+    <updated>2024-04-16T16:45:27Z</updated>
     <link rel="alternate" type="text/html" href="https://www.driftingruby.com/episodes/windows-and-wsl"/>
     <title>Windows and WSL</title>
     <content>In this episode, we'll look at setting up a fresh Windows 11 environment for Ruby on Rails development. We'll be looking at a few different tricks that makes managing a Windows environment much easier.</content>

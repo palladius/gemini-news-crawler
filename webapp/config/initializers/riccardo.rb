@@ -9,8 +9,8 @@ def gcp?()
   ENABLE_GCP
 end
 
-GCP_KEY_PATH =  gcp? ? ("../" + ENV['GCP_KEY_PATH']) : nil
-GCP_KEY_PATH_EXISTS = File.exist?(GCP_KEY_PATH)
+GCP_KEY_PATH =  gcp? ? ENV['GCP_KEY_PATH_FROM_WEBAPP'] : nil
+GCP_KEY_PATH_EXISTS = File.exist?(GCP_KEY_PATH) rescue false
 
 RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
@@ -61,6 +61,7 @@ if gcp?
   if GCP_KEY_PATH_EXISTS
     puts "All good, GCP Key exists"
   else
-    raise "I need GCP_KEY_PATH to exist! Maybe a problem in the dockerization? ;) GCP_KEY_PATH=#{GCP_KEY_PATH}"
+    # if I do a raise here - it doesnt even compile. This needs to work at RUNTIME not at every bloody rake command.
+    puts "[WARNING] I need GCP_KEY_PATH to exist - Otherwise set ENABLE_GCP to false! Maybe a problem in the dockerization? ;) GCP_KEY_PATH=#{GCP_KEY_PATH}"
   end
 end

@@ -5,7 +5,7 @@ class Article < ApplicationRecord
   has_neighbors :article_embedding
 
   validates :title, uniqueness: true, presence: true
-  validates :guid, uniqueness: true
+  validates :guid, uniqueness: true, presence: true
 
   has_many :article_tags,
     primary_key: :id,
@@ -103,7 +103,7 @@ class Article < ApplicationRecord
 
     # item.nearest_neighbors(:embedding, distance: "euclidean").first(5)
     # https://github.com/ankane/neighbor
-    def closest_articles(size: 5)
+    def closest_articles(size: 6)
       self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
     end
 

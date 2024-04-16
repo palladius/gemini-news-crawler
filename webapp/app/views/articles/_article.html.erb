@@ -1,13 +1,14 @@
 <h1 class="font-bold text-4xl" ><%= Article.emoji %><%= article.title %></h1>
 
 <div class="rounded-md p-4 mb-4 decoration-zinc-300 underline decoration-2 indent-1.5	">
-
   <% @categories.each do |cat| %>
     <%= render_fancy_category(cat) %>
   <% end %>
 </div>
 
-<%= render 'articles/similar_articles', article: article %>
+<div>
+  <%= render 'articles/similar_articles', article: article %>
+</div>
 
 <div id="<%= dom_id article %>">
 
@@ -39,12 +40,18 @@
   <% end %>
 
   <hr/>
+
   <p class="my-5">
-    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Embedding for title:</strong>
+    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Proper VECTOR Embedding for article:</strong>
+    <%= render_embedding_for(article, :article_embedding) %>
+  </p>
+
+  <p class="my-5">
+    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Fake ARRAY Embedding for title:</strong>
     <%= render_embedding_for(article, :title_embedding) %>
   </p>
   <p class="my-5">
-    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Embedding for summary:</strong>
+    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Fake ARRAY Embedding for summary:</strong>
     <%= render_embedding_for(article, :summary_embedding) %>
   </p>
 
@@ -59,16 +66,9 @@
   </p>
 
   <p class="my-5">
-    <strong class="block font-medium mb-1">Image url:</strong>
-    <%= link_to article.image_url,article.image_url %>
-  </p>
-
-  <p class="my-5">
     <strong class="block font-medium mb-1">Feed url:</strong>
     <%= link_to article.feed_url,article.feed_url %>
   </p>
-
-
 
   <p class="my-5">
     <strong class="block font-medium mb-1">Hidden blurb:</strong>

@@ -5,6 +5,111 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>Create a MacOS desktop application with pure Ruby (Tutorial)</title>
+      <description> This is (for now) a modest step-by-step tutorial about creating a MacOS desktop application with Ruby. </description>
+      <pubDate>Tue, 16 Apr 2024 10:07:15 +0000</pubDate>
+      <link>https://rubyflow.com/p/m447q3-create-a-macos-desktop-application-with-pure-ruby-tutorial</link>
+      <guid>https://rubyflow.com/p/m447q3-create-a-macos-desktop-application-with-pure-ruby-tutorial</guid>
+    </item>
+    <item>
+      <title>FactoryBot: the secret weapon called @overrides</title>
+      <description> &lt;a href="https://dev.to/povilasjurcys/factorybot-the-secret-weapon-called-overrides-n31" rel="nofollow"&gt;https://dev.to/povilasjurcys/factorybot-the-secret-weapon-called-overrides-n31&lt;/a&gt; </description>
+      <pubDate>Tue, 16 Apr 2024 03:37:14 +0000</pubDate>
+      <link>https://rubyflow.com/p/wlkayl-factorybot-the-secret-weapon-called-overrides</link>
+      <guid>https://rubyflow.com/p/wlkayl-factorybot-the-secret-weapon-called-overrides</guid>
+    </item>
+    <item>
+      <title>Automating Rubocop Into Your Rails Development Workflow</title>
+      <description> &lt;a href="https://www.youtube.com/watch?v=zwwn2WzrrHc" rel="nofollow"&gt;This video will show you a couple of ways to run Rubocop early and often&lt;/a&gt; so you and your team can ensure you’re avoiding inconsistencies and bugs while maintaining your code for the long haul. </description>
+      <pubDate>Tue, 16 Apr 2024 02:18:34 +0000</pubDate>
+      <link>https://rubyflow.com/p/3zpqlx-automating-rubocop-into-your-rails-development-workflow</link>
+      <guid>https://rubyflow.com/p/3zpqlx-automating-rubocop-into-your-rails-development-workflow</guid>
+    </item>
+    <item>
+      <title>Forcing a Rails database column to be not null</title>
+      <description> Here is a guide to &lt;a href="https://tosbourn.com/force-null-constraint-rails/" rel="nofollow"&gt;forcing null constraints&lt;/a&gt; in Rails. It explains why, how to do it in different circumstances, and an introduction to &lt;code&gt;change_column_null&lt;/code&gt;. </description>
+      <pubDate>Mon, 15 Apr 2024 09:33:15 +0000</pubDate>
+      <link>https://rubyflow.com/p/bp4h2h-forcing-a-rails-database-column-to-be-not-null</link>
+      <guid>https://rubyflow.com/p/bp4h2h-forcing-a-rails-database-column-to-be-not-null</guid>
+    </item>
+    <item>
+      <title>New release of OnStrum, configurable application healthcheck rack middleware 🚀</title>
+      <description> This gem allows you to embed healthcheck endpoints into your rack based application to perform healthcheck probes. Make your application compatible with Docker/Kubernetes healthchecks in a seconds: &lt;a href="https://github.com/on-strum/ruby-on-strum-healthcheck" rel="nofollow"&gt;https://github.com/on-strum/ruby-on-strum-healthcheck&lt;/a&gt; </description>
+      <pubDate>Mon, 15 Apr 2024 09:21:54 +0000</pubDate>
+      <link>https://rubyflow.com/p/z0e11w-new-release-of-onstrum-configurable-application-healthcheck-rack-middleware-</link>
+      <guid>https://rubyflow.com/p/z0e11w-new-release-of-onstrum-configurable-application-healthcheck-rack-middleware-</guid>
+    </item>
+    <item>
+      <title>Making a (Sidekiq) Batch Recipe</title>
+      <description> &lt;a href="https://kevinjmurphy.com/posts/making-a-sidekiq-batch-recipe/" rel="nofollow"&gt;This post&lt;/a&gt; introduces Sidekiq Pro’s batches feature. It builds some tests that exercise batches to explain how they work. </description>
+      <pubDate>Sun, 14 Apr 2024 16:02:18 +0000</pubDate>
+      <link>https://rubyflow.com/p/ecf458-making-a-sidekiq-batch-recipe</link>
+      <guid>https://rubyflow.com/p/ecf458-making-a-sidekiq-batch-recipe</guid>
+    </item>
+    <item>
+      <title>Hands-off eclipse photography with ruby and gphoto</title>
+      <description> How I automated exposure bracketing to take pictures of the eclipse totality using ruby and gphoto: &lt;a href="https://yboulkaid.com/2024/04/10/eclipse.html" rel="nofollow"&gt;https://yboulkaid.com/2024/04/10/eclipse.html&lt;/a&gt; </description>
+      <pubDate>Thu, 11 Apr 2024 17:49:28 +0000</pubDate>
+      <link>https://rubyflow.com/p/wh9ay3-hands-off-eclipse-photography-with-ruby-and-gphoto</link>
+      <guid>https://rubyflow.com/p/wh9ay3-hands-off-eclipse-photography-with-ruby-and-gphoto</guid>
+    </item>
+    <item>
+      <title>How to Build a Discord Bot in Ruby on Rails</title>
+      <description> In this guide, Fiona walks you through the process of creating a Discord bot using Ruby on Rails. </description>
+      <pubDate>Wed, 10 Apr 2024 15:13:23 +0000</pubDate>
+      <link>https://rubyflow.com/p/jdcz83-how-to-build-a-discord-bot-in-ruby-on-rails</link>
+      <guid>https://rubyflow.com/p/jdcz83-how-to-build-a-discord-bot-in-ruby-on-rails</guid>
+    </item>
+    <item>
+      <title>Super Fast Rails – A promise given is a debt</title>
+      <description> Last week’s article, Super Fast Rails, received many funny reactions. But for some people, that was too much: &lt;a href="https://www.rorvswild.com/blog/2024/super-fast-rails-a-promise-given-is-a-debt" rel="nofollow"&gt;https://www.rorvswild.com/blog/2024/super-fast-rails-a-promise-given-is-a-debt&lt;/a&gt; </description>
+      <pubDate>Wed, 10 Apr 2024 07:47:24 +0000</pubDate>
+      <link>https://rubyflow.com/p/fthwoi-super-fast-rails-a-promise-given-is-a-debt</link>
+      <guid>https://rubyflow.com/p/fthwoi-super-fast-rails-a-promise-given-is-a-debt</guid>
+    </item>
+    <item>
+      <title>Account-based subdomains in Rails</title>
+      <description> Learn how to &lt;a href="https://www.honeybadger.io/blog/rails-account-subdomains/?utm_source=rubyflow&amp;amp;utm_medium=social" rel="nofollow"&gt;isolate data in Rails with multitenancy and customize your user experience with account-based subdomains&lt;/a&gt;. It’s all in our latest article on the Honeybadger Developer Blog. </description>
+      <pubDate>Tue, 09 Apr 2024 17:01:26 +0000</pubDate>
+      <link>https://rubyflow.com/p/dlvq97-account-based-subdomains-in-rails</link>
+      <guid>https://rubyflow.com/p/dlvq97-account-based-subdomains-in-rails</guid>
+    </item>
+    <item>
+      <title>Process management in Ruby 💎</title>
+      <description> Application, process, heap, stack, wow that’s a lot of triggering words. Ever wondered what they are and how they are translated in the Ruby world? 💎 </description>
+      <pubDate>Tue, 09 Apr 2024 14:07:16 +0000</pubDate>
+      <link>https://rubyflow.com/p/l2cdlb-process-management-in-ruby</link>
+      <guid>https://rubyflow.com/p/l2cdlb-process-management-in-ruby</guid>
+    </item>
+    <item>
+      <title>An interactive intro to ruby debugger, part 2</title>
+      <description> I’ve expanded my interactive intro to ruby debugger, inside the debugger itself, with an introduction to using breakpoints: &lt;a href="https://radanskoric.com/articles/ruby-debug-tutorial-intro?utm_source=rubyflow&amp;amp;utm_medium=feed&amp;amp;utm_campaign=ruby-debug-tutorial-intro" rel="nofollow"&gt;An interactive intro to ruby debugger, in the debugger&lt;/a&gt; </description>
+      <pubDate>Tue, 09 Apr 2024 12:22:46 +0000</pubDate>
+      <link>https://rubyflow.com/p/ewerqz-an-interactive-intro-to-ruby-debugger-part-2</link>
+      <guid>https://rubyflow.com/p/ewerqz-an-interactive-intro-to-ruby-debugger-part-2</guid>
+    </item>
+    <item>
+      <title>Maximizing Code Quality with Rails Pre-Commit and Pre-Push Hooks</title>
+      <description> &lt;a href="https://www.shakacode.com/blog/maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks/" rel="nofollow"&gt;https://www.shakacode.com/blog/maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks/&lt;/a&gt; </description>
+      <pubDate>Tue, 09 Apr 2024 10:54:13 +0000</pubDate>
+      <link>https://rubyflow.com/p/9ks8wd-maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks</link>
+      <guid>https://rubyflow.com/p/9ks8wd-maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks</guid>
+    </item>
+    <item>
+      <title>🇺🇸 Ruby / Rails channel in telegram</title>
+      <description> &lt;a href="https://t.me/railsclub" rel="nofollow"&gt;Channel about Ruby and Ruby on Rails&lt;/a&gt; </description>
+      <pubDate>Tue, 09 Apr 2024 10:06:44 +0000</pubDate>
+      <link>https://rubyflow.com/p/8koq67--ruby-rails-channel-in-telegram</link>
+      <guid>https://rubyflow.com/p/8koq67--ruby-rails-channel-in-telegram</guid>
+    </item>
+    <item>
+      <title>Do you still `pbcopy` and `pbpaste`?</title>
+      <description> Nothing’s wrong with that, but the advantage you get with the clipboard gem is that it works on many more platforms than just macOS (including Windows). </description>
+      <pubDate>Tue, 09 Apr 2024 06:24:04 +0000</pubDate>
+      <link>https://rubyflow.com/p/3gjn97-do-you-still-pbcopy-and-pbpaste</link>
+      <guid>https://rubyflow.com/p/3gjn97-do-you-still-pbcopy-and-pbpaste</guid>
+    </item>
+    <item>
       <title>Abstract methods and NotImplementedError in Ruby</title>
       <description> Ruby’s NotImplementedError exception is often used as a placeholder in abstract classes for methods that should be implemented by subclasses. But did you know that this is not how this exception class was intended to be used? </description>
       <pubDate>Tue, 09 Apr 2024 04:10:53 +0000</pubDate>
@@ -73,112 +178,6 @@
       <pubDate>Tue, 02 Apr 2024 17:33:02 +0000</pubDate>
       <link>https://rubyflow.com/p/uzyq7h-outgrowing-heroku-an-aws-migration-story</link>
       <guid>https://rubyflow.com/p/uzyq7h-outgrowing-heroku-an-aws-migration-story</guid>
-    </item>
-    <item>
-      <title>Happy 4th Birthday, Bridgetown!</title>
-      <description> Four years ago today, &lt;a href="https://www.bridgetownrb.com/news/happy-birthday-bridgetown/" rel="nofollow"&gt;the Bridgetown publishing framework was born&lt;/a&gt;, the first public website launch and release of Bridgetown 0.10 happened a few weeks later, and the rest as they say is history. As always, a &lt;strong&gt;hearty thank you&lt;/strong&gt; to all our sponsors and 70+ contributors who have helped this open source project flourish in ways I never could have imagined. </description>
-      <pubDate>Tue, 02 Apr 2024 16:20:11 +0000</pubDate>
-      <link>https://rubyflow.com/p/wtk32j-happy-4th-birthday-bridgetown</link>
-      <guid>https://rubyflow.com/p/wtk32j-happy-4th-birthday-bridgetown</guid>
-    </item>
-    <item>
-      <title>Series of Interviewing blog posts</title>
-      <description> My fellow Rubyists, I know this isn’t the most Ruby of all posts (except for the FizzBuzz example) but I’ve seen many people make simple mistakes during hiring processes. And I want to help fix that, so I’ve written a series of posts geared towards programmers about interviewing that I hope y’all will find helpful! </description>
-      <pubDate>Tue, 02 Apr 2024 14:03:13 +0000</pubDate>
-      <link>https://rubyflow.com/p/usrcxd-series-of-interviewing-blog-posts</link>
-      <guid>https://rubyflow.com/p/usrcxd-series-of-interviewing-blog-posts</guid>
-    </item>
-    <item>
-      <title>Rails on AWS book</title>
-      <description> Do you feel discomfort when connecting an AWS service with a Rails application because of unclear pricing rules, complex permissions, or advanced networking configuration? I felt this way for a long time until I dedicated myself entirely to learning AWS. With this book, you can master AWS in a short amount of time without spending months getting certified - &lt;a href="https://mastermind.dev/books/rails-on-aws" rel="nofollow"&gt;Get the book now&lt;/a&gt; </description>
-      <pubDate>Tue, 02 Apr 2024 13:20:27 +0000</pubDate>
-      <link>https://rubyflow.com/p/ngumln-ruby-on-aws-book</link>
-      <guid>https://rubyflow.com/p/ngumln-ruby-on-aws-book</guid>
-    </item>
-    <item>
-      <title>Level Up Your Ruby Code with Draper Decorators</title>
-      <description> &lt;a href="https://www.shakacode.com/blog/level-up-your-ruby-code-with-draper-decorators/" rel="nofollow"&gt;https://www.shakacode.com/blog/level-up-your-ruby-code-with-draper-decorators/&lt;/a&gt; </description>
-      <pubDate>Tue, 02 Apr 2024 06:01:41 +0000</pubDate>
-      <link>https://rubyflow.com/p/v780kv-level-up-your-ruby-code-with-draper-decorators</link>
-      <guid>https://rubyflow.com/p/v780kv-level-up-your-ruby-code-with-draper-decorators</guid>
-    </item>
-    <item>
-      <title>HOTWire &amp; Turbo Tutorial: Animated Deletions and Insertions</title>
-      <description> With the addition of the new Todo form appearing at the bottom of the Todos, and the delete action removing a Todo, we have a very functional app. It would be nice if those additions and removals had a little animation to emphasize what’s happening on the page. If there was a long list, we might miss the deletion, especially if a network request caused a delay in the removal of the Todo. We can hook into Turbo streams, and run some animations on these actions to make them appear and disappear.
-&lt;a href="https://onrails.blog/2024/04/01/hotwire-turbo-tutorial-animated-deletions-and-insertions/" rel="nofollow"&gt;https://onrails.blog/2024/04/01/hotwire-turbo-tutorial-animated-deletions-and-insertions/&lt;/a&gt; </description>
-      <pubDate>Mon, 01 Apr 2024 23:08:01 +0000</pubDate>
-      <link>https://rubyflow.com/p/j1sol6-hotwire-turbo-tutorial-animated-deletions-and-insertions</link>
-      <guid>https://rubyflow.com/p/j1sol6-hotwire-turbo-tutorial-animated-deletions-and-insertions</guid>
-    </item>
-    <item>
-      <title>Clean up Your Messy Legacy Ruby on Rails Codebase With Rubocop</title>
-      <description> Setting up Rubocop on a new Rails application will get you on the path towards a well-maintained codebase. But what if you have an older project? </description>
-      <pubDate>Mon, 01 Apr 2024 13:14:06 +0000</pubDate>
-      <link>https://rubyflow.com/p/21ob7r-clean-up-your-messy-legacy-ruby-on-rails-codebase-with-rubocop</link>
-      <guid>https://rubyflow.com/p/21ob7r-clean-up-your-messy-legacy-ruby-on-rails-codebase-with-rubocop</guid>
-    </item>
-    <item>
-      <title>Super Fast Rails</title>
-      <description> Most of the time, optimizing a Rails application requires repeating the same techniques. For example, at the database layer, it’s about creating the proper indexes, preventing 1+N queries, etc. Could we do that automatically? &lt;a href="https://www.rorvswild.com/blog/2024/super-fast-rails" rel="nofollow"&gt;https://www.rorvswild.com/blog/2024/super-fast-rails&lt;/a&gt; </description>
-      <pubDate>Mon, 01 Apr 2024 07:13:45 +0000</pubDate>
-      <link>https://rubyflow.com/p/zn6enk-super-fast-rails</link>
-      <guid>https://rubyflow.com/p/zn6enk-super-fast-rails</guid>
-    </item>
-    <item>
-      <title>[gem] Redis-based distributed locks with "acquisition queue" capabilities</title>
-      <description> New gem (&lt;a href="https://github.com/0exp/redis_queued_locks" rel="nofollow"&gt;https://github.com/0exp/redis_queued_locks&lt;/a&gt;) [RedisQueuedLocks] that provides distributed redis-based locks with "lock acquisition" ordered queue capabilites and depends on pre-configured RedisClient istance (Reidis infrastracture layer you should provide by yourself) </description>
-      <pubDate>Sun, 31 Mar 2024 22:03:16 +0000</pubDate>
-      <link>https://rubyflow.com/p/n6skip-gem-redis-based-distributed-locks-with-acquisition-queue-capabilities</link>
-      <guid>https://rubyflow.com/p/n6skip-gem-redis-based-distributed-locks-with-acquisition-queue-capabilities</guid>
-    </item>
-    <item>
-      <title>Ruby channel in telegram</title>
-      <description> &lt;a href="https://t.me/railsclub" rel="nofollow"&gt;Channel about Ruby and Ruby on Rails&lt;/a&gt; </description>
-      <pubDate>Sun, 31 Mar 2024 18:38:00 +0000</pubDate>
-      <link>https://rubyflow.com/p/za8arf-ruby-channel-in-telegram</link>
-      <guid>https://rubyflow.com/p/za8arf-ruby-channel-in-telegram</guid>
-    </item>
-    <item>
-      <title>Pick a standard and move on</title>
-      <description> Don’t have &lt;a href="https://remimercier.com/pick-a-standard/" rel="nofollow"&gt;standards and processes for your codebase&lt;/a&gt; and your team? You’re wasting so much cognitive energy! Let me try to convince you to pick one convention - any convention! - and move on to your core work. </description>
-      <pubDate>Thu, 28 Mar 2024 08:27:23 +0000</pubDate>
-      <link>https://rubyflow.com/p/9w45ro-pick-a-standard-and-move-on</link>
-      <guid>https://rubyflow.com/p/9w45ro-pick-a-standard-and-move-on</guid>
-    </item>
-    <item>
-      <title>Speeding Up Rails Assets Precompilation</title>
-      <description> There has been a lot of conversations on social media about the “NoBuild ” approach: using native browser features and plain CSS+JavaScript to avoid a precompilation step for our assets. </description>
-      <pubDate>Wed, 27 Mar 2024 17:41:40 +0000</pubDate>
-      <link>https://rubyflow.com/p/6m98hj-speeding-up-rails-assets-precompilation</link>
-      <guid>https://rubyflow.com/p/6m98hj-speeding-up-rails-assets-precompilation</guid>
-    </item>
-    <item>
-      <title>Micro benchmarking value objects in Ruby: Data.define vs Struct vs OpenStruct</title>
-      <description> I did &lt;a href="https://allaboutcoding.ghinda.com/micro-benchmarking-value-objects-in-ruby-datadefine-vs-struct-vs-openstruct" rel="nofollow"&gt;a series of benchmarks&lt;/a&gt; between Data class, Struct, and OpenStruct testing, creating new objects and accessing attributes. The tests consider keyword arguments and not positional arguments. </description>
-      <pubDate>Wed, 27 Mar 2024 15:57:41 +0000</pubDate>
-      <link>https://rubyflow.com/p/qxn9yf-micro-benchmarking-value-objects-in-ruby-datadefine-vs-struct-vs-openstruct</link>
-      <guid>https://rubyflow.com/p/qxn9yf-micro-benchmarking-value-objects-in-ruby-datadefine-vs-struct-vs-openstruct</guid>
-    </item>
-    <item>
-      <title>Keeping your database migrations strong with strong_migrations gem</title>
-      <description> &lt;a href="https://www.shakacode.com/blog/keeping-your-database-migrations-strong-with-strong_migrations-gem/" rel="nofollow"&gt;https://www.shakacode.com/blog/keeping-your-database-migrations-strong-with-strong_migrations-gem/&lt;/a&gt; </description>
-      <pubDate>Wed, 27 Mar 2024 13:32:25 +0000</pubDate>
-      <link>https://rubyflow.com/p/edjzt8-keeping-your-database-migrations-strong-with-strongmigrations-gem</link>
-      <guid>https://rubyflow.com/p/edjzt8-keeping-your-database-migrations-strong-with-strongmigrations-gem</guid>
-    </item>
-    <item>
-      <title>I just released Kamal Handbook</title>
-      <description> The time has come and I released my new book &lt;strong&gt;Kamal Handbook: The missing manual&lt;/strong&gt;. Kamal is an imperative deployment tool by 37signals and will be a Rails 8 default. </description>
-      <pubDate>Wed, 27 Mar 2024 13:08:03 +0000</pubDate>
-      <link>https://rubyflow.com/p/sl9037-i-just-released-kamal-handbook</link>
-      <guid>https://rubyflow.com/p/sl9037-i-just-released-kamal-handbook</guid>
-    </item>
-    <item>
-      <title>OnStrum::Healthcheck - simple configurable application healthcheck ❤️ rack middleware</title>
-      <description> &lt;b&gt;OnStrum::Healthcheck&lt;/b&gt; allows you to embed healthcheck endpoints into your rack based application to perform healthcheck probes. Make your application compatible with Docker/Kubernetes healthchecks in a seconds: &lt;a href="https://github.com/on-strum/ruby-on-strum-healthcheck" rel="nofollow"&gt;https://github.com/on-strum/ruby-on-strum-healthcheck&lt;/a&gt; </description>
-      <pubDate>Tue, 26 Mar 2024 22:11:02 +0000</pubDate>
-      <link>https://rubyflow.com/p/vx5ta3-onstrumhealthcheck-simple-configurable-application-healthcheck-rack-middleware</link>
-      <guid>https://rubyflow.com/p/vx5ta3-onstrumhealthcheck-simple-configurable-application-healthcheck-rack-middleware</guid>
     </item>
   </channel>
 </rss>

@@ -30,6 +30,11 @@ RUN bundle install && \
 # Copy application code
 COPY . .
 
+# Carlessian add-on to get the UGLY private stuff in. Note that without this service Account key
+# This will fail for the normal person.
+# RUN mkdir ../private/
+# COPY private/geminews-gcs-readwriter-key.json ../private/
+
 # Precompile bootsnap code for faster boot times
 RUN bundle exec bootsnap precompile app/ lib/
 

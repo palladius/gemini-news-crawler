@@ -40,7 +40,11 @@ Apps are on Cloud Run
 
 *  add Devise for user mgmt
 *  add Cloud Run IAP: https://blog.cloud66.com/authenticating_users_with_google_iap_in_rails
+* Auto feed continuously. Currently
 
+### Autofeed now
+
+1. `cd crawler/ ; $ make crawl-a-lot`
 
 ### esbuild issues
 

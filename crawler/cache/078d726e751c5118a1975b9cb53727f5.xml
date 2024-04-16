@@ -93,7 +93,7 @@ This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https:/
 &lt;ul&gt;
   &lt;li&gt;Ruby 3.0.6 or lower&lt;/li&gt;
   &lt;li&gt;Ruby 3.1.4 or lower&lt;/li&gt;
-  &lt;li&gt;StringIO gem 3.0.2 or lower&lt;/li&gt;
+  &lt;li&gt;StringIO gem 3.0.1 or lower&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;Credits&lt;/h2&gt;
@@ -103,6 +103,7 @@ This vulnerability has been assigned the CVE identifier &lt;a href=&quot;https:/
 &lt;h2&gt;History&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Fixed the affected version of StringIO (3.0.2 -&amp;gt; 3.0.1) at 2024-04-11 12:50:00 (UTC)&lt;/li&gt;
   &lt;li&gt;Originally published at 2024-03-21 4:00:00 (UTC)&lt;/li&gt;
 &lt;/ul&gt;
 
