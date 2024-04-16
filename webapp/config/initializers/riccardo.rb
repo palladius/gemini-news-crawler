@@ -11,6 +11,9 @@ end
 
 GCP_KEY_PATH =  gcp? ? ENV['GCP_KEY_PATH_FROM_WEBAPP'] : nil
 GCP_KEY_PATH_EXISTS = File.exist?(GCP_KEY_PATH) rescue false
+# https://console.cloud.google.com/run/deploy/europe-west1/gemini-news-crawler-dev?project=palladius-genai
+CLOUDRUN_SA_KEY_EXISTS = File.exist?('/geminews-key/geminews-key') # rescue false
+CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # rescue false
 
 RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
@@ -52,7 +55,10 @@ puts "#{emoji} 🌞 Rails.env: #{Rails.env}"
   puts "#{emoji} 🌞 ENV[#{env_key}]: #{ ENV.fetch( env_key, '🤷' )}"
 end
 # Now normal variables..
-puts "#{emoji} 🌞 GCP_KEY_PATH_EXISTS:  #{ GCP_KEY_PATH_EXISTS}"
+puts "#{emoji} 🌞 GCP_KEY_PATH:           #{ GCP_KEY_PATH}"
+puts "#{emoji} 🌞 GCP_KEY_PATH_EXISTS:    #{ GCP_KEY_PATH_EXISTS}"
+puts "#{emoji} 🌞 CLOUDRUN_SA_KEY_EXISTS: #{ CLOUDRUN_SA_KEY_EXISTS}" # should only exist in ricc cloud run. For debug
+puts "#{emoji} 🌞 CLOUDRUN_ENVRC_EXISTS:  #{ CLOUDRUN_ENVRC_EXISTS}"
 puts "#{emoji} #{ emoji * 60}"
 
 
