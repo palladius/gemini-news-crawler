@@ -102,6 +102,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
       --set-env-vars="BUCKET=$BUCKET" \
+      --set-env-vars=APP_NAME='GemiNews CB-DEV OBSOLETE' \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --allow-unauthenticated
 

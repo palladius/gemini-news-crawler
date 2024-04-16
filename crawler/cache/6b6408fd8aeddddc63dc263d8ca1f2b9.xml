@@ -7,13 +7,30 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 19:34:39 +0000</lastBuildDate>
-    <pubDate>Tue, 16 Apr 2024 19:23:34 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2024 20:09:52 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2024 20:07:12 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
+    <item>
+      <title>High Winds Scuttle Burning of Snowman in Zurich, Disappointing the Swiss</title>
+      <link>https://www.nytimes.com/2024/04/16/world/europe/zurich-snowman-switzerland.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/16/world/europe/zurich-snowman-switzerland.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/16/world/europe/zurich-snowman-switzerland.html" rel="standout"></atom:link>
+      <description>The burning of the effigy known as the Böögg is the finale of Sechseläuten, an annual spring festival akin to Groundhog Day. The normally stoic Swiss wallowed in disappointment.</description>
+      <dc:creator>Claire Moses</dc:creator>
+      <pubDate>Tue, 16 Apr 2024 20:06:54 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Zurich (Switzerland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Spring (Season)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parades</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wind</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Festivals</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/04/16/multimedia/00xp-zurich-03-vcfg/00xp-zurich-03-vcfg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Fabrice Coffrini/Agence France-Presse — Getty Images</media:credit>
+      <media:description>The ceremonial burning of a pyre topped with a fake snowman whose head is packed with fireworks is the centerpiece of Sechseläuten, Zurich’s spring festival. On Monday, the burning was called off because of strong winds.</media:description>
+    </item>
     <item>
       <title>U.S. Lays Out Protections for Assange if He Is Extradited</title>
       <link>https://www.nytimes.com/2024/04/16/world/europe/julian-assange-extradition-us-uk.html</link>
@@ -31,7 +48,7 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Extradition</category>
       <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/16/multimedia/16uk-assange-zwgk/16uk-assange-zwgk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Matt Dunham/Associated Press</media:credit>
-      <media:description>Julian Assange, 52, was the head of WikiLeaks in 2010 when it published of tens of thousands of classified military and diplomatic documents leaked by Chelsea Manning, an Army intelligence analyst.</media:description>
+      <media:description>Julian Assange, 52, was the head of WikiLeaks in 2010 when it published tens of thousands of classified military and diplomatic documents leaked by Chelsea Manning, an Army intelligence analyst.</media:description>
     </item>
     <item>
       <title>Mayor Orders Police to Interrupt Conservative Conference in Brussels</title>
@@ -381,25 +398,6 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Sunset Boulevard (Play)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Motive and the Cue (Play)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Picture of Dorian Gray (Play)</category>
-    </item>
-    <item>
-      <title>Prince Harry Hits the Polo Field in Front of Netflix Cameras</title>
-      <link>https://www.nytimes.com/2024/04/14/style/prince-harry-polo-netflix-meghan-markle.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/14/style/prince-harry-polo-netflix-meghan-markle.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/14/style/prince-harry-polo-netflix-meghan-markle.html" rel="standout"></atom:link>
-      <description>The Duke of Sussex competed in a match in South Florida the day after the announcement that he will be working on a new polo-related Netflix project.</description>
-      <dc:creator>Carson Griffith</dc:creator>
-      <pubDate>Sun, 14 Apr 2024 22:20:31 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polo</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Netflix Inc</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harry, Duke of Sussex</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Markle, Meghan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Borwick, Malcolm</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/14/multimedia/14palmbeach-polo-01-jcgh/14palmbeach-polo-01-jcgh-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Marco Bello/Reuters</media:credit>
-      <media:description>Prince Harry competed against polo stars like Nacho Figueras at the Royal Salute Polo Challenge to Benefit Sentebale.</media:description>
     </item>
   </channel>
 </rss>

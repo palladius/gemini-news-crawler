@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 19:31:27 +0000</lastBuildDate>
-    <pubDate>Tue, 16 Apr 2024 19:26:18 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2024 20:06:55 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2024 20:03:08 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -21,7 +21,7 @@
       <atom:link href="https://www.nytimes.com/live/2024/04/16/world/iran-israel-gaza-war-news" rel="standout"></atom:link>
       <description>The Treasury secretary, Janet Yellen, said that new sanctions could be announced within days and would likely focus on limiting Iran’s oil exports.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Tue, 16 Apr 2024 19:26:18 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 20:03:08 +0000</pubDate>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/16/multimedia/16mideast-crisis-promo-1pm-tmhz/16mideast-crisis-promo-1pm-tmhz-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Abedin Taherkenareh/EPA, via Shutterstock</media:credit>
     </item>
@@ -42,7 +42,7 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Extradition</category>
       <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/16/multimedia/16uk-assange-zwgk/16uk-assange-zwgk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Matt Dunham/Associated Press</media:credit>
-      <media:description>Julian Assange, 52, was the head of WikiLeaks in 2010 when it published of tens of thousands of classified military and diplomatic documents leaked by Chelsea Manning, an Army intelligence analyst.</media:description>
+      <media:description>Julian Assange, 52, was the head of WikiLeaks in 2010 when it published tens of thousands of classified military and diplomatic documents leaked by Chelsea Manning, an Army intelligence analyst.</media:description>
     </item>
     <item>
       <title>For Israel’s Allies, Iranian Missile Strike Scrambles Debate Over Gaza</title>
@@ -398,7 +398,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/15/world/middleeast/palestinian-men-killed-israel-west-bank.html" rel="standout"></atom:link>
       <description>The Israeli military said the men were killed during a “violent exchange” that followed a report of a Palestinian attacking an Israeli shepherd.</description>
       <dc:creator>Aaron Boxerman</dc:creator>
-      <pubDate>Tue, 16 Apr 2024 14:38:49 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 19:56:15 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">West Bank</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israeli Settlements</category>

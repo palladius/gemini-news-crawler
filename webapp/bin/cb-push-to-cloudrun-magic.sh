@@ -151,6 +151,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="DATABASE_URL_PROD=$DATABASE_URL_PROD" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \
+      --set-env-vars=APP_NAME='GemiNews CB-CR-magic' \
       --set-secrets="/secretenvrc/gemini-news-crawler-envrc=gemini-news-crawler-envrc:latest" \
       --set-secrets="/geminews-key/geminews-key=geminews-key:latest" \
       --allow-unauthenticated
