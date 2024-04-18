@@ -8,10 +8,13 @@ FROM registry.docker.com/library/ruby:$RUBY_VERSION-slim as base
 WORKDIR /rails
 
 # Set production environment
+# see this error for last env https://github.com/rails/rails/issues/38560
 ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
     BUNDLE_PATH="/usr/local/bundle" \
-    BUNDLE_WITHOUT="development"
+    BUNDLE_WITHOUT="development"  \
+    OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
 
 
 # Throw-away build stage to reduce size of final image

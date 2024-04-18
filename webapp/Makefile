@@ -22,8 +22,10 @@ run:
 	rails s
 
 run-prod:
-	RAILS_ENV=production rake assets:precompile
-	RAILS_ENV=production rails s -p 3001 -b 0.0.0.0
+# fioxes this: objc[92630]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production rails assets:precompile
+	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production rails db:migrate
+	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production rails s -p 3001 -b 0.0.0.0
 
 
 regenerate-DANGEROUS-DO-NOT-DO-IT:
