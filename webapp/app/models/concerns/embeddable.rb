@@ -9,7 +9,7 @@ module Embeddable
   def compute_embeddings!()
     if (gcp?)
       # ARRAYs (fake vectors)
-      self.title_embedding = self.compute_gcp_embeddings_for(field_to_access: :title)
+      self.title_embedding = self.compute_gcp_embeddings_for(field_to_access: :title) # Array opf 768.
       self.summary_embedding = self.compute_gcp_embeddings_for(field_to_access: :summary)
       # VECTOR (the real deal)
       self.article_embedding = self.title_embedding if self.article_embedding.nil?

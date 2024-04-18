@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Thu, 18 Apr 2024 05:42:34 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 18 Apr 2024 06:54:10 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,14 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.4</generator>
 			<item>
+				<link>https://www.aljazeera.com/economy/2024/4/18/tesla-asks-shareholders-to-restore-elon-musks-56bn-pay-deal?traffic_source=rss</link>
+				<title>Tesla asks shareholders to restore Elon Musk’s $56bn pay deal</title>
+				<description><![CDATA[Tesla Chair Robyn Denholm says company believes in &#039;big risks for the chance of big rewards&#039;.]]></description>
+				<pubDate>Thu, 18 Apr 2024 06:54:10 +0000</pubDate>
+				<category>Economy</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1713420416</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/news/2024/4/18/georgia-advances-foreign-agents-bill-as-20000-rally-against-it?traffic_source=rss</link>
 				<title>Georgia advances ‘foreign agents’ bill as 20,000 rally against it</title>
 				<description><![CDATA[The ruling party suddenly reintroduced the bill earlier this month, after mass protests forced its withdrawal last year.]]></description>
@@ -211,14 +219,6 @@
 				<pubDate>Wed, 17 Apr 2024 13:42:41 +0000</pubDate>
 				<category>News</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1713296900</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/4/17/qatar-says-gaza-ceasefire-talks-at-delicate-phase?traffic_source=rss</link>
-				<title>Qatar ‘re-evaluating’ role as mediator in Israel-Gaza truce talks</title>
-				<description><![CDATA[Qatar’s prime minister says there has been &#039;abuse and harm&#039; done related to Doha’s mediation efforts.]]></description>
-				<pubDate>Wed, 17 Apr 2024 13:26:23 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1713350088</guid>
 							</item>
 			</channel>
 </rss>

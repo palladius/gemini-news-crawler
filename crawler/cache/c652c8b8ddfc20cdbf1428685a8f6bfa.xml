@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com/page/2_0006.html"/>
 <description>World News</description>
 <language>en-us</language>
-<pubDate>Thu, 18 Apr 2024 02:49:46 -0400</pubDate>
-<lastBuildDate>Thu, 18 Apr 2024 02:49:46 -0400</lastBuildDate>
+<pubDate>Thu, 18 Apr 2024 03:21:58 -0400</pubDate>
+<lastBuildDate>Thu, 18 Apr 2024 03:21:58 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com/page/2_0006.html</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,9 +17,39 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
+<title>U.S. Dollar's Strength to Endure, Dominance Isn't at Risk, Says Morgan Stanley</title>
+<link>https://www.wsj.com/articles/jpy-krw-strengthen-slightly-after-japan-korea-u-s-issue-joint-statement-95dbbb83</link>
+<description><![CDATA[Morgan Stanley Research expects the dollar’s resilience to endure, building on gains versus the euro and the Chinese yuan in the short term due to the U.S. business cycle.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 03:20:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001713174</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>NewsPlus</wsj:articletype>
+</item>
+<item>
+<title>China Reports Steady Youth Unemployment</title>
+<link>https://www.wsj.com/articles/china-reports-steady-youth-unemployment-as-data-paints-mixed-economic-picture-016a0e48</link>
+<description><![CDATA[China’s youth unemployment rate remained steady in March, in what could be seen by some as a tentative sign that the world’s second-largest economy is gradually stabilizing.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 03:19:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001713398</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Asia Economy</wsj:articletype>
+</item>
+<item>
+<title>ABB Earnings Rise, Orders Fall</title>
+<link>https://www.wsj.com/articles/abb-posts-lower-profit-despite-higher-earnings-revenue-6781fd6b</link>
+<description><![CDATA[ABB reported an 11% rise in first-quarter underlying earnings despite a drop in orders.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 03:10:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001713666</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Business</wsj:articletype>
+</item>
+<item>
 <title>TSMC Profit Rises on Demand for Advanced Chips</title>
 <link>https://www.wsj.com/articles/nvidia-ai-chips-demand-tsmc-strategy-e2b8e7d0</link>
-<description><![CDATA[The results follow three straight quarterly declines and benefit from a surge in demand for advanced chips amid a global boom in artificial intelligence.]]></description>
+<description><![CDATA[The results follow three straight quarterly declines and benefit from a global boom in artificial intelligence.]]></description>
 <content:encoded/>
 <pubDate>Thu, 18 Apr 2024 02:48:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001713571</guid>
@@ -107,16 +137,6 @@
 <wsj:articletype>NewsPlus</wsj:articletype>
 </item>
 <item>
-<title>China Reports Steady Youth Unemployment as Data Paints Mixed Economic Picture</title>
-<link>https://www.wsj.com/articles/china-reports-steady-youth-unemployment-as-data-paints-mixed-economic-picture-016a0e48</link>
-<description><![CDATA[China’s youth unemployment rate remained steady in March, in what could be seen by some as a tentative sign that the world’s second-largest economy is gradually stabilizing.]]></description>
-<content:encoded/>
-<pubDate>Thu, 18 Apr 2024 00:29:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001713398</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Asia Economy</wsj:articletype>
-</item>
-<item>
 <title>Is Apple an Illegal Monopoly? Antitrust Lawyer Breaks Down U.S. v. Apple</title>
 <link>https://www.wsj.com/articles/is-apple-an-illegal-monopoly-antitrust-lawyer-breaks-down-u-s-v-apple-e2d3da20</link>
 <description><![CDATA[The Department of Justice is claiming that Apple is an illegal monopoly, hanging its case on a century-old law called the Sherman Act. WSJ breaks down the DOJ’s legal argument, and how Apple might fight back.]]></description>
@@ -193,26 +213,6 @@
 <content:encoded/>
 <pubDate>Thu, 18 Apr 2024 00:01:00 -0400</pubDate>
 <guid isPermaLink="false">2A30C6EC-D708-4E4D-BCDB-143FDBAB7F69</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Deco Summary (Content)</wsj:articletype>
-</item>
-<item>
-<title>The Supreme Court made it easier for workers to challenge job transfers as discriminatory, ruling that allegations of illegal treatment can be valid even if an employee's pay or rank doesn't change.</title>
-<link>https://www.wsj.com/us-news/law/in-win-for-workers-supreme-court-opens-door-to-more-discrimination-claims-d63202d5</link>
-<description><![CDATA[The Supreme Court made it easier for workers to challenge job transfers as discriminatory, ruling that allegations of illegal treatment can be valid even if an employee’s pay or rank doesn’t change.]]></description>
-<content:encoded/>
-<pubDate>Thu, 18 Apr 2024 00:01:00 -0400</pubDate>
-<guid isPermaLink="false">68DACEEF-B9F2-4EC8-9F53-8598E6506B3A</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Deco Summary (Content)</wsj:articletype>
-</item>
-<item>
-<title>On the battlefronts of the east, threadbare Ukrainian forces are doggedly holding on against mounting Russian assaults that are expected to reach a crescendo in the this summer.</title>
-<link>https://www.wsj.com/world/ukraines-chances-of-pushing-russia-out-look-increasingly-grim-3bc2075a</link>
-<description><![CDATA[On the battlefronts of the east, threadbare Ukrainian forces are doggedly holding on against mounting Russian assaults that are expected to reach a crescendo in the this summer.]]></description>
-<content:encoded/>
-<pubDate>Thu, 18 Apr 2024 00:01:00 -0400</pubDate>
-<guid isPermaLink="false">88288FF0-89E2-4884-AC26-9EBAD3450191</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Deco Summary (Content)</wsj:articletype>
 </item>

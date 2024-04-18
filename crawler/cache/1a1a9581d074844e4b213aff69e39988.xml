@@ -9,11 +9,19 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Apr 2024 06:57:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Apr 2024 07:35:52 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Two suspected Russian spies arrested in Germany]]></title>
+            <description><![CDATA[The German-Russian nationals are suspected of planning to sabotage German military help for Ukraine.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68843541</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68843541#0</guid>
+            <pubDate>Thu, 18 Apr 2024 07:28:24 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/127ED/production/_133175757_gettyimages-1258770918.jpg"/>
+        </item>
         <item>
             <title><![CDATA[EU to tighten Iran sanctions after Israel attack]]></title>
             <description><![CDATA[The expanded penalties target companies involved in the production of drones and missiles.]]></description>
@@ -63,14 +71,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91E3/production/_133174373_75168983009b8593c2dc8c9b7b25f2fb11436929.jpg"/>
         </item>
         <item>
-            <title><![CDATA[50,000 Russian soldiers confirmed dead by BBC]]></title>
-            <description><![CDATA[In the second 12 months on the front line the body count was nearly 25% higher than in the first year.]]></description>
-            <link>https://www.bbc.co.uk/news/world-68819853</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-68819853#0</guid>
-            <pubDate>Wed, 17 Apr 2024 16:26:01 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11CAB/production/_133157827_russian_deaths_part2_index_promo_976-nc.png"/>
-        </item>
-        <item>
             <title><![CDATA[Banned in Russia after anthem for stray animals goes viral]]></title>
             <description><![CDATA[Artist Ap$ent became popular across Eastern Europe after his song about fleeing Belarus went viral as an anthem for strays.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68826576</link>
@@ -103,14 +103,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6EC4/production/_133165382_gettyimages-2147825708-1.jpg"/>
         </item>
         <item>
-            <title><![CDATA[US and EU eye new sanctions on Iran after attack]]></title>
-            <description><![CDATA[Israel is urging Western allies to punish Tehran for the missile and drone attack on its territory.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-68832045</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-68832045#1</guid>
-            <pubDate>Wed, 17 Apr 2024 01:07:11 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/494E/production/_133166781_rockjet5reuters.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Dutch princess lived in Spain after threats - reports]]></title>
             <description><![CDATA[Princess Amalia studied in Madrid for more than a year but has since returned, sources say.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68830917</link>
@@ -119,12 +111,12 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18228/production/_133165889_gettyimages-1464327441.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Russia to grow faster than all advanced economies]]></title>
-            <description><![CDATA[The IMF estimates Russia's economy will grow faster than the likes of the US, UK and Germany this year.]]></description>
-            <link>https://www.bbc.co.uk/news/business-68823399</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68823399#1</guid>
-            <pubDate>Tue, 16 Apr 2024 16:26:44 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8A2C/production/_120727353__112965584_gettyimages-976188246-1.jpg"/>
+            <title><![CDATA[50,000 Russian soldiers confirmed dead by BBC]]></title>
+            <description><![CDATA[In the second 12 months on the front line the body count was nearly 25% higher than in the first year.]]></description>
+            <link>https://www.bbc.co.uk/news/world-68819853</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-68819853#2</guid>
+            <pubDate>Wed, 17 Apr 2024 16:26:01 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11CAB/production/_133157827_russian_deaths_part2_index_promo_976-nc.png"/>
         </item>
         <item>
             <title><![CDATA[100 days to go - all you need to know for Paris 2024]]></title>
