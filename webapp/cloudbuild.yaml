@@ -113,6 +113,7 @@ steps:
  # - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
   - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
+  - RAILS_ENV=production
 
 # This does NOT work
 # - name: 'gcr.io/cloud-builders/gcloud'
