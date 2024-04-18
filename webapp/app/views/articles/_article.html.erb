@@ -22,14 +22,14 @@
   </p>
 
   <p class="my-5">
-    <strong class="font-medium mb-1">Summary:</strong>
-    <%= article.summary %>
+    <strong class="font-medium mb-1">🏥 Summary:</strong>
+    <%= render_sanitized article, :summary %>
   </p>
 
   <% if article.content %>
     <p class="my-5">
-      <strong class="font-medium mb-1">content:</strong>
-      <%= article.content %>
+      <strong class="font-medium mb-1">🏥 Sanitized content:</strong>
+      <%= render_sanitized article, :content %>
     </p>
   <% end %>
 

@@ -26,4 +26,9 @@ module ArticlesHelper
     "Embedding[#{embedding_size}]: #{embedding.first(4)}, .."
   end
 
+  def render_sanitized(article, field)
+    html_string = article.send(field)
+    ActionView::Base.full_sanitizer.sanitize(html_string)
+  end
+
 end
