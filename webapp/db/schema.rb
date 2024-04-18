@@ -44,8 +44,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_16_182052) do
     t.datetime "updated_at", null: false
     t.string "newspaper"
     t.string "macro_region"
-    t.float "title_embedding", array: true
-    t.float "summary_embedding", array: true
+    t.vector "title_embedding", limit: 768
+    t.vector "summary_embedding", limit: 768
     t.vector "article_embedding", limit: 768
   end
 
