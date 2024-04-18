@@ -5,6 +5,41 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>New SudoRails version has been released 🚀 Sudo mode for your Rails controllers 🔒</title>
+      <description> Protect any Rails action with a customizable password confirmation. 🙇 Inspired by &lt;em&gt;GitHub Sudo mode&lt;/em&gt;. </description>
+      <pubDate>Wed, 17 Apr 2024 19:06:40 +0000</pubDate>
+      <link>https://rubyflow.com/p/rz3r1u-sudorails-has-been-released-sudo-mode-for-your-rails-controllers-</link>
+      <guid>https://rubyflow.com/p/rz3r1u-sudorails-has-been-released-sudo-mode-for-your-rails-controllers-</guid>
+    </item>
+    <item>
+      <title>Handling Exceptions in Grape for Ruby</title>
+      <description> Let’s explore the basics of Grape exception handling, including customizing exceptions: &lt;a href="https://blog.appsignal.com/2024/04/17/handling-exceptions-in-grape-for-ruby.html" rel="nofollow"&gt;https://blog.appsignal.com/2024/04/17/handling-exceptions-in-grape-for-ruby.html&lt;/a&gt; </description>
+      <pubDate>Wed, 17 Apr 2024 10:57:16 +0000</pubDate>
+      <link>https://rubyflow.com/p/qctowh-handling-exceptions-in-grape-for-ruby</link>
+      <guid>https://rubyflow.com/p/qctowh-handling-exceptions-in-grape-for-ruby</guid>
+    </item>
+    <item>
+      <title>The tale of an XSS in Phlex</title>
+      <description> I reported an XSS to Phlex yesterday and since it was pretty quickly fixed, I wrote a post about it: &lt;a href="https://greg.molnar.io/blog/the-tale-of-an-xss-in-phlex/" rel="nofollow"&gt;https://greg.molnar.io/blog/the-tale-of-an-xss-in-phlex/&lt;/a&gt; </description>
+      <pubDate>Wed, 17 Apr 2024 10:08:24 +0000</pubDate>
+      <link>https://rubyflow.com/p/riz0ih-the-tale-of-an-xss-in-phlex</link>
+      <guid>https://rubyflow.com/p/riz0ih-the-tale-of-an-xss-in-phlex</guid>
+    </item>
+    <item>
+      <title>Scaffolding in Ruby on Rails</title>
+      <description> &lt;a href="https://www.railscarma.com/blog/scaffolding-in-ruby-on-rails-complete-guide/" rel="nofollow"&gt;Scaffolding in Ruby on Rails&lt;/a&gt; </description>
+      <pubDate>Wed, 17 Apr 2024 05:17:50 +0000</pubDate>
+      <link>https://rubyflow.com/p/dymfun-scaffolding-in-ruby-on-rails</link>
+      <guid>https://rubyflow.com/p/dymfun-scaffolding-in-ruby-on-rails</guid>
+    </item>
+    <item>
+      <title>Introducing Janus a read/write proxy for ActiveRecord 7.1+</title>
+      <description> Janus is a read/write split proxy for MySQL/ActiveRecord 7.1+. It works by sending any read queries to a replica, and any write queries to the primary database server. If there’s been a write statement within the same thread we stick any future queries to the primary server unless the developer specifically chooses not to. </description>
+      <pubDate>Tue, 16 Apr 2024 14:32:56 +0000</pubDate>
+      <link>https://rubyflow.com/p/yayg7b-introducing-janus-a-readwrite-proxy-for-activerecord-71</link>
+      <guid>https://rubyflow.com/p/yayg7b-introducing-janus-a-readwrite-proxy-for-activerecord-71</guid>
+    </item>
+    <item>
       <title>Create a MacOS desktop application with pure Ruby (Tutorial)</title>
       <description> This is (for now) a modest step-by-step tutorial about creating a MacOS desktop application with Ruby. </description>
       <pubDate>Tue, 16 Apr 2024 10:07:15 +0000</pubDate>
@@ -143,41 +178,6 @@
       <pubDate>Sat, 06 Apr 2024 14:13:47 +0000</pubDate>
       <link>https://rubyflow.com/p/dagsra-optimized-model-auditing-with-papertrail</link>
       <guid>https://rubyflow.com/p/dagsra-optimized-model-auditing-with-papertrail</guid>
-    </item>
-    <item>
-      <title>RedisQueuedLocks [major 1.1.0 release] </title>
-      <description> &lt;a href="https://github.com/0exp/redis_queued_locks" rel="nofollow"&gt;https://github.com/0exp/redis_queued_locks&lt;/a&gt; </description>
-      <pubDate>Thu, 04 Apr 2024 08:30:00 +0000</pubDate>
-      <link>https://rubyflow.com/p/n9mhiw-redisqueuedlocks-major-release-</link>
-      <guid>https://rubyflow.com/p/n9mhiw-redisqueuedlocks-major-release-</guid>
-    </item>
-    <item>
-      <title>AnyCable v1.5: simplified pub/sub, whispering and more</title>
-      <description> &lt;a href="https://docs.anycable.io/release_notes?id=_150" rel="nofollow"&gt;This release&lt;/a&gt;’s major highlight is singed (and public) streams: skip channel classes and connect to your data streams directly (and securely), progressively enhance your application with bi-directional realtime features only when necessary (not so often). </description>
-      <pubDate>Wed, 03 Apr 2024 23:54:57 +0000</pubDate>
-      <link>https://rubyflow.com/p/zw6btc-anycable-v15-simplified-pubsub-whispering-and-more</link>
-      <guid>https://rubyflow.com/p/zw6btc-anycable-v15-simplified-pubsub-whispering-and-more</guid>
-    </item>
-    <item>
-      <title>Streamlined Syntax - Unveiling the Power of Slim Template Language</title>
-      <description> &lt;a href="https://www.shakacode.com/blog/streamlined-syntax-unveiling-the-power-of-slim-template-language/" rel="nofollow"&gt;https://www.shakacode.com/blog/streamlined-syntax-unveiling-the-power-of-slim-template-language/&lt;/a&gt; </description>
-      <pubDate>Wed, 03 Apr 2024 17:47:03 +0000</pubDate>
-      <link>https://rubyflow.com/p/c9d6jg-streamlined-syntax-unveiling-the-power-of-slim-template-language</link>
-      <guid>https://rubyflow.com/p/c9d6jg-streamlined-syntax-unveiling-the-power-of-slim-template-language</guid>
-    </item>
-    <item>
-      <title>Live reload a Rails 7 application, an unsatisfaying attempt</title>
-      <description> Livereload a Rails app on your local machine is still not available natively. Maybe in next version of Rails, but not yet. </description>
-      <pubDate>Wed, 03 Apr 2024 06:18:50 +0000</pubDate>
-      <link>https://rubyflow.com/p/rrwzsa-live-reload-a-rails-7-application-an-unsatisfaying-attempt</link>
-      <guid>https://rubyflow.com/p/rrwzsa-live-reload-a-rails-7-application-an-unsatisfaying-attempt</guid>
-    </item>
-    <item>
-      <title>Outgrowing Heroku: An AWS Migration Story</title>
-      <description> Facing Heroku’s limitations during their Black Friday frenzy, TeePublic moved their Rails monolith to Amazon ECS. This story &lt;a href="https://judoscale.com/blog/heroku-to-aws-migration" rel="nofollow"&gt;details their journey&lt;/a&gt;, including the why, how, and impressive results of the migration. (Spoiler: it was a game-changer) </description>
-      <pubDate>Tue, 02 Apr 2024 17:33:02 +0000</pubDate>
-      <link>https://rubyflow.com/p/uzyq7h-outgrowing-heroku-an-aws-migration-story</link>
-      <guid>https://rubyflow.com/p/uzyq7h-outgrowing-heroku-an-aws-migration-story</guid>
     </item>
   </channel>
 </rss>

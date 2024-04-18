@@ -13,7 +13,7 @@
 	<atom:link href="https://seroter.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://seroter.com</link>
 	<description>Blog Featuring Code, Thoughts, and Experiences with Software and Services</description>
-	<lastBuildDate>Tue, 16 Apr 2024 00:00:35 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Apr 2024 23:27:25 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,6 +29,170 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://seroter.com/osd.xml" title="Richard Seroter&#039;s Architecture Musings" />
 	<atom:link rel='hub' href='https://seroter.com/?pushpress=hub'/>
 	<item>
+		<title>Daily Reading List &#8211; April 17, 2024 (#299)</title>
+		<link>https://seroter.com/2024/04/17/daily-reading-list-april-17-2024-299/</link>
+					<comments>https://seroter.com/2024/04/17/daily-reading-list-april-17-2024-299/#respond</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Wed, 17 Apr 2024 23:27:25 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16294</guid>
+
+					<description><![CDATA[Today's links look at well-intentioned behaviors that mess up your team, why "most developers have adopted devops" hides some depressing news, and what Colab is all about.]]></description>
+										<content:encoded><![CDATA[
+<p>If I made up a theme for today&#8217;s reading list, I think it&#8217;s &#8220;focus.&#8221; You&#8217;ll find a few pieces that are about focusing your automation efforts, AI usage, and even your time.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715362/most-developers-have-adopted-devops-survey-says.html">Most developers have adopted devops, survey says</a></strong>. That seems like good news, but when you drill in, you see that a surprising number of people aren&#8217;t doing CI or CD. <a href="https://devops.com/cdf-survey-surfaces-devops-progress-and-challenges/">Related story</a>.</p>
+
+
+
+<p>[article] <strong><a href="https://hbr.org/2024/04/5-well-intentioned-behaviors-that-can-hurt-your-team">5 Well-Intentioned Behaviors That Can Hurt Your Team</a></strong>. It&#8217;s one thing to be intentionally terrible at something, but it&#8217;s worse when your seemingly best efforts have a negative impact. Here are things that many of us probably do, and should stop doing.</p>
+
+
+
+<p>[blog] <strong><a href="https://idratherbewriting.com/blog/ai-is-accelerating-me">AI is accelerating my technical writing output, and other observations</a></strong>. If possible, read less from &#8220;thought leaders&#8221; and more from those doing the work. Tom offers up good personal observations of how AI is impacting tech writing.</p>
+
+
+
+<p>[survey] <strong><a href="https://google.qualtrics.com/jfe/form/SV_8uCHA4aRzcGDjg2?source=doradotdev-banner">2024 DORA survey</a></strong>. This is the tenth year of this widely-recognized report that explores what good software delivery practices look like. Participate in this year&#8217;s survey!</p>
+
+
+
+<p>[youtube-video] <strong><a href="https://www.youtube.com/watch?v=gxJHqBthLlc">Mastering Kubernetes for Multi-Cloud Efficiency With Nick Eberts</a></strong>. Nick chats with Corey Quinn about Kubernetes. Neither of these two people is un-opinionated.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.docker.com/blog/ai-trends-report-2024/">AI Trends Report 2024: AI’s Growing Role in Software Development</a></strong>. On the topic of surveys, the Docker team shared results from their own study. No surprisingly, developers are using AI tools for coding assistance, writing docs, writing tests, and troubleshooting.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.forrester.com/blogs/build-your-genai-strategy-on-a-rock-solid-foundation/">Build Your GenAI Strategy On A Rock-Solid Foundation (Model)</a></strong>. I believe this refers to a family of foundation models, not a specific version. They change too fast! Maybe you can&#8217;t bet on one model, but don&#8217;t accidentally over-complicate things by trying to use all of them.</p>
+
+
+
+<p>[youtube-video] <strong><a href="https://www.youtube.com/watch?v=Ii6gs9zADEA">Colab 101: Your Ultimate Beginner&#8217;s Guide!</a></strong> Millions of folks use Colab every month to learn Python, run models, and do all sorts of notebook-y things. This is a very good video intro.</p>
+
+
+
+<p>[blog] <strong><a href="https://redis.io/blog/building-a-rag-application-with-redis-and-spring-ai/">Building a RAG Application with Redis and Spring AI</a></strong>. You have lots of ways to orchestrate calls to an LLM. Spring AI looks nice for Java devs.</p>
+
+
+
+<p>[article] <strong><a href="https://shiftmag.dev/fighting-distractions-as-a-software-developer-3175/">There is always something: Fighting distractions as a software developer</a></strong>. Developer or not, your day is probably full of distractions. How do you force yourself to prioritize and then focus?</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16294" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/17/daily-reading-list-april-17-2024-299/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; April 16, 2024 (#298)</title>
+		<link>https://seroter.com/2024/04/16/daily-reading-list-april-16-2024-298/</link>
+					<comments>https://seroter.com/2024/04/16/daily-reading-list-april-16-2024-298/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Tue, 16 Apr 2024 23:52:40 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16282</guid>
+
+					<description><![CDATA[Today's links look at common leadership styles, how to compare popular AI frameworks, and 101 real-world generative AI use cases.]]></description>
+										<content:encoded><![CDATA[
+<p>Do you ever have a big project (work-related, personal life) end, and then need to reset your attention? I&#8217;m in that mode now with Cloud Next being over. I&#8217;m rediscovering my priorities list and arranging my time accordingly. My backlog of tech to play with has gotten long!</p>
+
+
+
+<p>[blog] <strong><a href="https://www.marktechpost.com/2024/04/09/llamaindex-vs-langchain-a-comparison-of-artificial-intelligence-ai-frameworks">LlamaIndex vs LangChain: A Comparison of Artificial Intelligence (AI) Frameworks</a></strong>. There&#8217;s no shortage of ways to invoke LLMs. Use direct APIs, general purpose frameworks like these, or language-specific options like Spring.AI.</p>
+
+
+
+<p>[blog] <strong><a href="https://arindam1729.hashnode.dev/5-developer-communities-you-must-join-in-2024">5 Developer Communities You Must Join in 2024</a></strong>. I haven&#8217;t become a Discord person, but it&#8217;s great to see so many online spaces for folks. This post highlights some good ones to join.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoq.com/news/2024/04/cncf-cloudevents-graduation">Cloud Native Computing Foundation Graduation of CloudEvents: Q&amp;A with Clemens Vasters</a></strong>. Everything you wanted to know about CloudEvents, but didn&#8217;t think to ask? Steef-Jan and Clemens go into depth in this discussion, and I learned a few things.</p>
+
+
+
+<p>[blog] <strong><a href="https://snyk.io/blog/snyk-partnership-gemini-code-assist/">Introducing Snyk’s partnership with Gemini Code Assist</a></strong>. I&#8217;d be surprised if devs want a dozen different AI agents plugged into their IDEs. Funneling advice through 1-2 assistants seems like a good idea.</p>
+
+
+
+<p>[article] <strong><a href="https://hbr.org/2024/04/6-common-leadership-styles-and-how-to-decide-which-to-use-when">6 Common Leadership Styles — and How to Decide Which to Use When</a></strong>. Do you have a solid answer when someone asks about your &#8220;leadership style&#8221;? If so, you&#8217;re better than me. But I liked how this article calls out the various styles and when each is appropriate.</p>
+
+
+
+<p>[article] <strong><a href="https://www.oreilly.com/radar/attacking-supply-chains-at-the-source/">Attacking Supply Chains at the Source</a></strong>. Security is a shared responsibility. Make sure you have all the scans and vulnerability checks in place, even for OSS you use!</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715340/data-pipelines-for-the-rest-of-us.html">Data pipelines for the rest of us</a></strong>. Matt looks at Apache Airflow as a strong open source option, with cautions around most contributors coming from one company.</p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/jpmorgan-jamie-dimon-cloud-generative-ai-strategy/713093/">JPMorgan Chase CEO wants more cloud to fuel AI, analytics</a></strong>. Public (and private) cloud is how JPMC wants to unlock value from data using AI. If you can&#8217;t plow billions into your own data center, skip the &#8220;private&#8221; part.</p>
+
+
+
+<p>[blog] <strong><a href="https://blog.google/products/google-cloud/gen-ai-business-use-cases/">101 real-world gen AI use cases featured at Google Cloud Next ’24</a></strong>. If you need some inspiration for how to use generative AI in the real world, this is a good place to start.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16282" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/16/daily-reading-list-april-16-2024-298/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Daily Reading List &#8211; April 15, 2024 (#297)</title>
 		<link>https://seroter.com/2024/04/15/daily-reading-list-april-15-2024-297/</link>
 					<comments>https://seroter.com/2024/04/15/daily-reading-list-april-15-2024-297/#comments</comments>
@@ -673,174 +837,6 @@
 					
 					<wfw:commentRss>https://seroter.com/2024/04/03/daily-reading-list-april-3-2024-290/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; April 2, 2024 (#289)</title>
-		<link>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/</link>
-					<comments>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/#comments</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Wed, 03 Apr 2024 02:19:14 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16147</guid>
-
-					<description><![CDATA[Today's links look at which JavaScript web framework is best, how to correctly review a pull request, and what you should know about vector search.]]></description>
-										<content:encoded><![CDATA[
-<p>Today&#8217;s reading list has some depth to it, with many long articles. But, there&#8217;s a lot of wisdom in the items you&#8217;ll find here. Pick a couple to dig into.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoworld.com/article/3713207/whats-the-best-javascript-framework.html">What’s the best JavaScript framework?</a></strong> &#8220;Best&#8221; is relative, but all these frameworks aren&#8217;t the same. I liked this evaluation and comparison. Read this for an understanding of the different approaches these frameworks take, and maybe take a new one for a spin.</p>
-
-
-
-<p>[article] <strong><a href="https://hbr.org/2024/04/leading-a-company-that-can-thrive-in-a-chaotic-world">Leading a Company That Can Thrive in a Chaotic World</a></strong>. Most of you probably don&#8217;t feel like you&#8217;re in a predictable sector or environment. It&#8217;s wild out there. Here&#8217;s an article on ways you can set up a team/company to handle it better.</p>
-
-
-
-<p>[blog] <strong><a href="https://jimbobbennett.dev/blogs/how-to-review-a-pr/">How to correctly review a pull request</a></strong>. This is helpful advice for engineering teams that want to be better at reviewing pull requests for code changes.</p>
-
-
-
-<p>[docs] <strong><a href="https://cloud.google.com/architecture/genai-mlops-blueprint">Build and deploy generative AI and machine learning models in an enterprise</a></strong>. Read through this for a rich MLOps reference blueprint. It includes links to a repo with Terraform scripts and notebooks.</p>
-
-
-
-<p>[blog] <strong><a href="https://leerob.io/blog/developer-marketing">On Developer Marketing</a></strong>. Very good take from Lee. Marketing to developers is different than the efforts towards other personas.</p>
-
-
-
-<p>[article] <strong><a href="https://martinfowler.com/articles/uncovering-mainframe-seams.html#InternalInterfaces">Uncovering the Seams in Mainframes for Incremental Modernisation: Internal Interfaces</a></strong>. This article keeps getting updated with more content. The latest addition looks at internal data interfaces that you can shift from the mainframe.</p>
-
-
-
-<p>[article] <strong><a href="https://thenewstack.io/vector-search-what-you-need-to-know-before-getting-started/">Vector Search: What You Need to Know Before Getting Started</a></strong>. We don&#8217;t all need to become experts on vector databases, but it&#8217;s useful to know some fundamentals.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoq.com/presentations/noisy-neighbor">Survival Strategies for the Noisy Neighbor Apocalypse</a></strong>. Here&#8217;s a detailed look at detecting and mitigating a noisy neighbor in a multi-tenant environment at Netflix.</p>
-
-
-
-<p>[article] <strong><a href="https://thenewstack.io/how-should-we-define-open-ai/">How Should We Define ‘Open’ AI?</a></strong> Does it matter if AI models claiming to be &#8220;open source AI&#8221; don&#8217;t meet the definition? Many won&#8217;t care. It&#8217;s a blurry space at the moment.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="https://seroter.com/?post_type=post&#038;p=16147" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/04/02/daily-reading-list-april-2-2024-289/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; April 1, 2024 (#288)</title>
-		<link>https://seroter.com/2024/04/01/daily-reading-list-april-1-2024-288/</link>
-					<comments>https://seroter.com/2024/04/01/daily-reading-list-april-1-2024-288/#respond</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Tue, 02 Apr 2024 00:26:56 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16135</guid>
-
-					<description><![CDATA[Today's links look at why it's risky to play it safe, how to use LLMs to improve factuality, and how you can build trust with others.]]></description>
-										<content:encoded><![CDATA[
-<p>I had a wonderful Easter Sunday which set the tone for what will hopefully be an excellent week.  Scan through a bunch of really solid items in today&#8217;s reading list.</p>
-
-
-
-<p>[paper] <strong><a href="https://arxiv.org/pdf/2403.18802.pdf">Long-form Factuality in Large Language Models</a></strong>. From DeepMind, this paper explains that larger language models are better for factuality, and LLM agents are better than humans at rating factual accuracy.</p>
-
-
-
-<p>[article] <strong><a href="https://hbr.org/2024/03/why-playing-it-safe-is-the-riskiest-strategic-choice">Why Playing It Safe Is the Riskiest Strategic Choice</a></strong>. The &#8220;timid transformation&#8221; may be worse than no transformation at all. You don&#8217;t have to be reckless when you decide to take bigger swings.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/gke-gemma-ollama-the-power-trio-for-flexible-llm-deployment-5f1fa9223477">GKE + Gemma + Ollama: The Power Trio for Flexible LLM Deployment</a></strong>. Open models run through open frameworks atop open platforms? Even when managed or proprietary services are &#8220;easier&#8221;, patterns like this will be justifiably popular for portability reasons.</p>
-
-
-
-<p>[blog] <strong><a href="https://www.getport.io/blog/using-the-platform-engineering-maturity-model-to-evaluate-your-investment-in-internal-developer-platforms">Using the platform engineering maturity model to understand the commitment required for an internal developer platform</a></strong>. Here&#8217;s a look at how you might tackle platform engineering. I&#8217;d recommend you don&#8217;t aim for super-maturity up front. Do a minimum viable platform and see what makes sense before over-investing and over-engineering.</p>
-
-
-
-<p>[blog] <strong><a href="https://longform.asmartbear.com/avoid-blundering/">Avoid blundering: 80% of a winning strategy</a></strong>. Really good post from Jason that looks at the preventable mistakes that sink your business.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-get-ready-for-next-24-what-you-need-to-know/?e=48754805">Cloud CISO Perspectives: Get ready for Next ‘24: What you need to know</a></strong>. To make big conferences feel more controlled, it&#8217;s useful to carve up a domain of focus. If you care about security, there will be a lot to pay attention to at Google Cloud Next. Here are <a href="https://cloud.google.com/blog/products/identity-security/15-must-attend-security-sessions-at-next24/?e=48754805">15 sessions</a> that are a good start.</p>
-
-
-
-<p>[blog] <strong><a href="https://bakadesuyo.com/2024/03/trust/">How To Know Who You Can Trust: 6 Secrets From Research</a></strong>. You won&#8217;t get far if people don&#8217;t trust you. But earning trust, and trusting others, isn&#8217;t easy. This post offers a few suggestions.</p>
-
-
-
-<p>[article] <strong><a href="https://sazak.io/articles/visual-guide-to-slices-in-go-2024-03-25">Visual Guide to Slices in Go</a></strong>. That is a LOT of coverage for slices (array abstractions), but I particularly liked the engaging visual treatment. It definitely made a potentially-dry topic come to life.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoworld.com/article/3714688/the-bizarre-defense-of-trillion-dollar-cabals.html">Redis vs. the trillion-dollar cabals</a></strong>. Matt is fired UP about the recent Redis fork and makes the argument that it wouldn&#8217;t be needed if cloud vendors pitched in more. <a href="https://techcrunch.com/2024/03/31/why-aws-google-and-oracle-are-backing-the-valkey-redis-fork/">More fork talk</a>.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/claude-3-on-google-cloud-20c65b308f01">Getting Started with Claude 3 on Google Cloud</a></strong>. Good look at trying out the latest Anthropic models.</p>
-
-
-
-<p>[blog] <strong><a href="https://blog.research.google/2024/03/generative-ai-to-quantify-uncertainty.html">Generative AI to quantify uncertainty in weather forecasting</a></strong>. Is anyone going to tell me with a straight face that weather prediction is so good already that we don&#8217;t need AI? Didn&#8217;t think so.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="https://seroter.com/?post_type=post&#038;p=16135" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/04/01/daily-reading-list-april-1-2024-288/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 		

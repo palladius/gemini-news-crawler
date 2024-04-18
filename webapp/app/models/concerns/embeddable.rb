@@ -132,8 +132,10 @@ module Embeddable
     end
     def compute_embeddings_for_all(max_instances: 1000)
       # TODO honour the 1000.
-      puts("🗿🗿🗿 Computing embeddings for ALL. This makes for a great RAKE task!")
+      puts("🗿🗿🗿 Computing embeddings for ALL. This makes for a great RAKE task or a Job (inspired by 'DHH-Vanilla-RoR7 with Embeddings')!")
       #self.all
+      how_many = self.find_all_without_any_embeddings.count
+      puts("🗿🗿🗿  Total Articles: #{Article.all.count}. Total embeddings to be computed: #{how_many}")
       self.find_all_without_any_embeddings.each do |article|
         puts("🗿 Calculating embedding for #{article}..")
         article.compute_embeddings()

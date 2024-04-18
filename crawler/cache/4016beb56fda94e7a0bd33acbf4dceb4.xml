@@ -9,64 +9,144 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Apr 2024 20:09:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Apr 2024 06:57:41 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
+            <title><![CDATA[Tory MP suspended over alleged misuse of funds]]></title>
+            <description><![CDATA[Mark Menzies, who represents the seat of Fylde, told the Times he strongly disputed the allegations.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68841840</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68841840#0</guid>
+            <pubDate>Thu, 18 Apr 2024 05:37:42 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/AF2F/production/_133174844_a601c3cd889cc4b45611d33f428a6441bdd7b4590_0_2250_30001500x2000.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Lords continue to insist on Rwanda bill changes]]></title>
+            <description><![CDATA[Peers continue standoff with MPs over legislation enabling asylum seekers to be sent to east Africa.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68833783</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68833783#0</guid>
+            <pubDate>Wed, 17 Apr 2024 19:50:49 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10B16/production/_133147386_rwandaplanereuters.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Starmer accuses PM of 'smearing' working-class Rayner]]></title>
+            <description><![CDATA[The Labour leader rushes to his deputy's defence after Rishi Sunak makes a jibe about her tax affairs.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68838701</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68838701#0</guid>
+            <pubDate>Wed, 17 Apr 2024 16:29:35 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/259B/production/_133172690_mediaitem133172689.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[I told Truss her policies were wrong - Sunak]]></title>
+            <description><![CDATA[The prime minister and Labour leader Sir Keir Starmer clash over ex PM at Prime Minister's Questions.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68834217</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68834217#0</guid>
+            <pubDate>Wed, 17 Apr 2024 13:10:09 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83F0/production/_133167733_87adf5819b19b4a5e4a9c4c8984b04b85e3257f9.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[New carpets got rid of Downing Street fleas - Hunt]]></title>
+            <description><![CDATA[Chancellor Jeremy Hunt says he replaced the No 11 carpets Liz Truss claimed were infested with fleas.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68841797</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68841797#0</guid>
+            <pubDate>Wed, 17 Apr 2024 21:25:55 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C1E5/production/_133173694_9508f5bd6e71b7b68f92a0ab25cc8c32ad3e2e9f-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Scotland to ditch key climate change target]]></title>
+            <description><![CDATA[The Scottish government is to scrap its flagship target of reducing greenhouse gas emissions by 75% by 2030.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-68841141</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-scotland-68841141#0</guid>
+            <pubDate>Wed, 17 Apr 2024 20:32:52 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ACD7/production/_119074244_climatestrikepa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Israel makes own decisions, Netanyahu tells Cameron]]></title>
+            <description><![CDATA[The UK foreign secretary tells Israeli leaders not to risk escalating tensions in the Middle East.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-68833121</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-68833121#0</guid>
+            <pubDate>Wed, 17 Apr 2024 18:19:01 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/CA05/production/_133171715_cameronnetanyahu.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Are taxes going up or down?]]></title>
+            <description><![CDATA[The government talks about taxes coming down but other talk about them going up. Who is right?]]></description>
+            <link>https://www.bbc.com/news/articles/cv2yx9gpk05o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cv2yx9gpk05o#1</guid>
+            <pubDate>Wed, 17 Apr 2024 13:47:09 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/a066/live/a3ef42a0-fcc4-11ee-97f7-e98b193ef1b8.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Chris Mason: Smoking ban represents a political legacy for PM]]></title>
+            <description><![CDATA[It has cross-party support but Tory opposition shows a 'fractious' party, says political editor Chris Mason.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68832709</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68832709#1</guid>
+            <pubDate>Wed, 17 Apr 2024 00:48:09 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14D1C/production/_133167258_sunak-index2-pa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[UK inflation falls as some food prices drop]]></title>
+            <description><![CDATA[New official figures show that inflation, the rate at which prices rise over time, fell again in March.]]></description>
+            <link>https://www.bbc.co.uk/news/business-68833077</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68833077#1</guid>
+            <pubDate>Wed, 17 Apr 2024 17:41:22 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DBD4/production/_133167265_inflation-index2-getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[As it happened: Sunak and Starmer clash at PMQs]]></title>
+            <description><![CDATA[The PM says a Labour government would raise taxes - but Starmer says no-one has put up taxes more than Sunak.]]></description>
+            <link>https://www.bbc.co.uk/news/live/uk-politics-68833359</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/live/uk-politics-68833359#1</guid>
+            <pubDate>Wed, 17 Apr 2024 09:59:31 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3328/production/_133169031_e1bc6ed1-2b05-4415-9315-6c7ba88fe066.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cheap booze prices to rise as MSPs vote to increase minimum cost]]></title>
+            <description><![CDATA[MSPs increase the cost of alcohol but opinions remain split over the policy's effectiveness.]]></description>
+            <link>https://www.bbc.com/news/articles/cgrjyqlqedpo</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cgrjyqlqedpo#1</guid>
+            <pubDate>Wed, 17 Apr 2024 16:53:19 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/d068/live/4c7fe0d0-fbdc-11ee-97f7-e98b193ef1b8.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[MPs back smoking ban for those born after 2009]]></title>
             <description><![CDATA[The measures, championed by PM Rishi Sunak, pass despite opposition by several leading Conservative figures.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68824493</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68824493#0</guid>
-            <pubDate>Tue, 16 Apr 2024 20:00:44 GMT</pubDate>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68824493#1</guid>
+            <pubDate>Tue, 16 Apr 2024 21:41:09 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0D4E/production/_133160430_smoking_getty.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Government suffers fresh Rwanda Bill defeat in Lords]]></title>
-            <description><![CDATA[Peers maintain stand-off with government over flagship controversial Rwanda deportation plan.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68831697</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68831697#0</guid>
-            <pubDate>Tue, 16 Apr 2024 18:02:45 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6E4B/production/_133153282_rwandasmallboats.png"/>
         </item>
         <item>
             <title><![CDATA[Truss backs Trump to win US presidential race]]></title>
             <description><![CDATA[The ex-PM warns the "world was safer" under Donald Trump's presidency, and the West is "on the cusp" of conflict.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68821646</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68821646#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68821646#1</guid>
             <pubDate>Mon, 15 Apr 2024 21:32:17 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/150B3/production/_133159168_2f5f05709f0fd37ee1d7dac5377895276eac7ea9.jpg"/>
         </item>
         <item>
             <title><![CDATA[Police told to shut down right-wing Brussels conference]]></title>
-            <description><![CDATA[Attendees are not being allowed into the National Conservatism Conference after authorities ordered it to close.]]></description>
+            <description><![CDATA[Attendees were not being allowed into the National Conservatism Conference after the mayor ordered it to shut.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68826577</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68826577#0</guid>
-            <pubDate>Tue, 16 Apr 2024 16:29:14 GMT</pubDate>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68826577#1</guid>
+            <pubDate>Tue, 16 Apr 2024 20:34:37 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/EA98/production/_133165006_19b61d647d1a1c34c261d5c1e6d854ad9540335d0_127_4208_23674208x2367.jpg"/>
         </item>
         <item>
             <title><![CDATA[Yousaf: Trans women will be protected by misogyny law]]></title>
             <description><![CDATA[The first minister says anyone affected by misogyny will be covered, whatever their biological sex. ]]></description>
             <link>https://www.bbc.com/news/articles/cw59e7dg2nlo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw59e7dg2nlo#0</guid>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw59e7dg2nlo#1</guid>
             <pubDate>Tue, 16 Apr 2024 14:51:18 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/51ad/live/e8099f40-fbd3-11ee-8369-47dc4454b972.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Unemployment jumps as UK jobs market stalls]]></title>
-            <description><![CDATA[The slowing jobs market has raised questions over when the Bank of England might cut interest rates.]]></description>
-            <link>https://www.bbc.co.uk/news/business-68820103</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68820103#0</guid>
-            <pubDate>Tue, 16 Apr 2024 09:52:13 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42BD/production/_133158071_office1-gettyimages-545163603.jpg"/>
         </item>
         <item>
             <title><![CDATA[Sunak urges restraint after Iran attack on Israel]]></title>
             <description><![CDATA[The prime minister will speak to Israel's Benjamin Netanyahu to discuss how to prevent escalation.]]></description>
             <link>https://www.bbc.co.uk/news/uk-68815198</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-68815198#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-68815198#1</guid>
             <pubDate>Mon, 15 Apr 2024 18:10:03 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12287/production/_133157347_sunak2.jpg"/>
         </item>
@@ -95,48 +175,32 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C7BF/production/_133153115_uc-index-getty.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Prime minister not at Eid party guests boycotted]]></title>
-            <description><![CDATA[Rishi Sunak makes statement on Iran while a number of guests shun the annual reception at No 10.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-london-68818484</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-london-68818484#1</guid>
-            <pubDate>Mon, 15 Apr 2024 19:46:14 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/FFCD/production/_133158456_19affdb5-7063-4a2b-a722-78089307683c.jpg"/>
+            <title><![CDATA[Starmer challenges Sunak over Truss' book of memoirs]]></title>
+            <description><![CDATA[The Labour leader asks the PM about his predecessor claiming her Budget was the "happiest moment of her premiership".]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68836483</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68836483#2</guid>
+            <pubDate>Wed, 17 Apr 2024 11:33:35 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/114F0/production/_133169807_p0hrb145.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Starmer 'absolutely' committed to nuclear weapons]]></title>
-            <description><![CDATA[The Labour leader also says he would match the Tory aim of raising defence spending to 2.5% of GDP.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68790435</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68790435#1</guid>
-            <pubDate>Fri, 12 Apr 2024 13:14:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DB1C/production/_133129065_gettyimages-1841930956.jpg"/>
+            <title><![CDATA[SNP Westminster leader asks PM about Brown's Scotland claims]]></title>
+            <description><![CDATA[Rishi Sunak is asked if he backs predecessor Gordon Brown who spoke of Scotland's role inside, or outside, the UK.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68836482</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68836482#2</guid>
+            <pubDate>Wed, 17 Apr 2024 11:35:48 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0768/production/_133169810_p0hrb2kk.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Charities plan legal action against Rwanda removals]]></title>
-            <description><![CDATA[The move comes as legislation to revive the removal scheme is expected to pass in the coming days.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-68809947</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-68809947#1</guid>
-            <pubDate>Sun, 14 Apr 2024 10:10:50 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13226/production/_133147387_rwandaplanereuters.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Energy minister Graham Stuart quits government]]></title>
-            <description><![CDATA[The MP, who has been replaced by Justin Tomlinson, says the prime minister has his full support.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68797259</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68797259#1</guid>
-            <pubDate>Fri, 12 Apr 2024 16:31:57 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84DD/production/_133131043_0a7bc7bf5c44d7b290f7b5f6b968216025d0bc30.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Former shadow minister readmitted to Labour Party]]></title>
-            <description><![CDATA[The MP for Enfield Southgate is reinstated as an investigation into a claim about his conduct ends.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-london-68803732</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-london-68803732#1</guid>
-            <pubDate>Fri, 12 Apr 2024 21:07:35 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2570/production/_130048590_bambos_charalambous_uk_parliament.jpg"/>
+            <title><![CDATA[Sunak: Our plan is working, delivering brighter Britain]]></title>
+            <description><![CDATA[Sir Keir Starmer questions how the PM will fund the planned end of National Insurance.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68836481</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68836481#2</guid>
+            <pubDate>Wed, 17 Apr 2024 12:01:57 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7C98/production/_133169813_p0hrb63k.jpg"/>
         </item>
         <item>
             <title><![CDATA[Voting has changed - here's what you need to know]]></title>
-            <description><![CDATA[BBC political correspondent Harry Farley explains voting changes to make sure you don't get caught out.]]></description>
+            <description><![CDATA[BBC political correspondent Harry Farley explains the changes to make sure you don't get caught out.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68821254</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68821254#2</guid>
             <pubDate>Tue, 16 Apr 2024 00:59:57 GMT</pubDate>
@@ -183,6 +247,14 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D177/production/_133132635_p0hqfwj5.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Councils to watch in the 2024 local elections]]></title>
+            <description><![CDATA[Where might the main political parties make gains and losses in the local elections on 2 May?]]></description>
+            <link>https://www.bbc.com/news/articles/ck5k72r9nygo</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/ck5k72r9nygo#3</guid>
+            <pubDate>Thu, 18 Apr 2024 00:19:32 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/7f8c/live/9a6498a0-fbf4-11ee-a9f7-4d961743aa47.png"/>
+        </item>
+        <item>
             <title><![CDATA[Chris Mason: Six things that stand out for me in Liz Truss's book]]></title>
             <description><![CDATA[The BBC's political editor Chris Mason on what the former prime minister has to say about the state of conservatism.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68823526</link>
@@ -207,14 +279,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/e259/live/7d00edd0-e53e-11ee-860f-4b0b053e4cd0.png"/>
         </item>
         <item>
-            <title><![CDATA[Election poll tracker: How do the parties compare?]]></title>
-            <description><![CDATA[How do people say they will vote in the UK general election? Our poll tracker measures the trends.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68079726</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68079726#3</guid>
-            <pubDate>Wed, 10 Apr 2024 08:13:02 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3607/production/_132413831_polltracker_index_promo-2-nc.png"/>
-        </item>
-        <item>
             <title><![CDATA[The candidates vying to be the next London mayor]]></title>
             <description><![CDATA[The campaign to be the next London mayor has begun with the election due to be held on 2 May 2024.]]></description>
             <link>https://www.bbc.com/news/articles/czvkq975yp4o</link>
@@ -223,11 +287,11 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/d6bd/live/db3f0120-f650-11ee-8369-47dc4454b972.png"/>
         </item>
         <item>
-            <title><![CDATA[How to register to vote, ahead of midnight deadline]]></title>
+            <title><![CDATA[When are the local elections and who can vote?]]></title>
             <description><![CDATA[Voters in parts of England will elect councillors, mayors and police commissioners in May.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68552707</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68552707#3</guid>
-            <pubDate>Tue, 16 Apr 2024 13:56:06 GMT</pubDate>
+            <pubDate>Wed, 17 Apr 2024 09:25:54 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/164D6/production/_132905319_le_2024_promo_simpleguide-nc.png"/>
         </item>
         <item>
