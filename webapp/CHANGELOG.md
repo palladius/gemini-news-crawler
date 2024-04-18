@@ -1,3 +1,5 @@
+2024-04-18 v0.1.7 [DEV] Fixed a bug in prod which made /Articles invisible/buggy when you dont have all embeddings.
+                        Should test with no embeddings to make sure it works :)
 2024-04-18 v0.1.7 [DEV] I fixed RAILS_ENV=production in localhost! Lets see if this change the build in Cloud Run!
 2024-04-16 v0.1.5 [DEV] Now calculating embeddings as before_save with `resuce nil` to be safe.
 2024-04-16 v0.1.4 [DEV] Relaxed the need for the JSON key there. So Cloud Build can keep building it.
