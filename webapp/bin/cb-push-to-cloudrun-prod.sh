@@ -100,7 +100,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --platform managed \
       --memory "2048Mi" \
       --region "$GCLOUD_REGION" \
-      --set-env-vars='description=created-from-bin-slash-cb-push-to-cloudrun-sh' \
+      --set-env-vars='description=created-from-bin-slash-cb-push-to-cloudrun-sh OBSOLETE use cbp2cr-magic instead' \
       --set-env-vars='fav_color=purple' \
       --set-env-vars="GIT_STATE=$GIT_STATE" \
       --set-env-vars="APP_VERSION=$APP_VERSION" \

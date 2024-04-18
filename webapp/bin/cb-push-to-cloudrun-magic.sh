@@ -131,6 +131,8 @@ echo 'WARNING: For this to work you need to 1. upload your ENVRC to Secret MAnag
 # DEV
 # Uses: DATABASE_URL_DEV
 # TODO when it works delete DATABASE_blah
+# I'm too dumb to use DEV and PROD at same time DATABASE_URL_DEV and DATABASE_URL_PROD
+# but its not too simple to fix.
 #########
 
 gcloud --project "$CLOUDRUN_PROJECT_ID" \
