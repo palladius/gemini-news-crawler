@@ -1,5 +1,6 @@
 ###############################################################################
 # Build ENV needed:
+# Self link: https://console.cloud.google.com/cloud-build/triggers?hl=IT&project=palladius-genai
 # Self link: https://console.cloud.google.com/cloud-build/triggers;region=global?e=-13802955&mods=logs_tg_staging&project=palladius-genai
 #
 # Loosely inspired by ror7-tailwind-gemini-news-crawler
@@ -90,7 +91,6 @@ steps:
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - dev
-  #allowFailure: true
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
@@ -105,30 +105,27 @@ steps:
   args:
   - bin/cb-push-to-cloudrun-magic.sh
   - prod
-  #allowFailure: true
+  allowFailure: true
   dir: webapp
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
  # - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+  - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
 
 # This does NOT work
-- name: 'gcr.io/cloud-builders/gcloud'
-  id: 6. Push DEV to Cloud run from POOR Env with DB stuff..
-  # waitFor:
-  # - 'step1 docker build'
-  # - 'step2 docker tag'
-  # - 'step3 tag SHA and VERSION'
-  entrypoint: bash
-  args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
-  dir: webapp
-  allowFailure: true
-  env:
-  - 'PROJECT_ID=$PROJECT_ID'
-  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
-  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+# - name: 'gcr.io/cloud-builders/gcloud'
+#   id: 6. Push DEV to Cloud run from POOR Env with DB stuff..
+#   entrypoint: bash
+#   args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
+#   dir: webapp
+#   allowFailure: true
+#   env:
+#   - 'PROJECT_ID=$PROJECT_ID'
+#   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+#   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+#   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
 - name: 'gcr.io/cloud-builders/gcloud'
   id: 7. Push PROD to Cloud run from POOR Env with DB stuff..
@@ -139,7 +136,6 @@ steps:
   entrypoint: bash
   args:
   - bin/cb-push-to-cloudrun-prod.sh
-  #- latest # todo remove me when we fix versions
   allowFailure: true
   dir: webapp
   env:
@@ -147,4 +143,5 @@ steps:
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+  - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
 
