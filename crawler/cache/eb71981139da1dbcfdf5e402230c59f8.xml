@@ -9,18 +9,26 @@
             <link>https://www.bbc.co.uk/news/science_and_environment</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Apr 2024 07:35:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Apr 2024 04:53:32 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Chinese cities sinking under their own weight]]></title>
+            <description><![CDATA[Extracting ground water for growing urban populations causes half of China's big cities to sink.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68844731</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68844731#0</guid>
+            <pubDate>Thu, 18 Apr 2024 18:00:01 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2FC4/production/_133182221_gettyimages-482840564.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Deadly Africa heat caused by human-induced warming]]></title>
             <description><![CDATA[Extreme heat linked to the deaths of hundreds of people would not have happened without global warming.]]></description>
             <link>https://www.bbc.co.uk/news/science-environment-68835575</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68835575#0</guid>
             <pubDate>Thu, 18 Apr 2024 04:00:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14A9D/production/_133173648_thumbnail_burkinofaso-getty.jpg"/>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15CB3/production/_133176298_thumbnail_burkinofaso-getty.jpg"/>
         </item>
         <item>
             <title><![CDATA[Prehistoric sea reptile 'twice as long as bus']]></title>
@@ -44,7 +52,7 @@
             <link>https://www.bbc.co.uk/news/science-environment-68839043</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68839043#0</guid>
             <pubDate>Wed, 17 Apr 2024 18:24:50 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25F5/production/_133171790_gettyimages-2147875664.jpg"/>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/E521/production/_133175685_dubai-index-getty.jpg"/>
         </item>
         <item>
             <title><![CDATA[Nasa: 'New plan needed to return rocks from Mars']]></title>
@@ -61,14 +69,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68814016#0</guid>
             <pubDate>Mon, 15 Apr 2024 16:38:53 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12D59/production/_133154177_coral.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[UK food production at threat after extreme flooding]]></title>
-            <description><![CDATA[Record-breaking rainfall leaves fields under water, threatening this year's harvest yield and quality.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-68792017</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68792017#0</guid>
-            <pubDate>Thu, 11 Apr 2024 23:58:17 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1A10/production/_133127660_floodfarm.jpg"/>
         </item>
         <item>
             <title><![CDATA[First ever climate change victory in Europe court]]></title>

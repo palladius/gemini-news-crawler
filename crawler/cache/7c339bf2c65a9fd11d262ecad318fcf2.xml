@@ -7,13 +7,50 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Thu, 18 Apr 2024 07:31:16 +0000</lastBuildDate>
-    <pubDate>Thu, 18 Apr 2024 04:22:38 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2024 04:49:25 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Apr 2024 03:25:22 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
+    <item>
+      <title>Chinese Exports Are Threatening Biden’s Industrial Agenda</title>
+      <link>https://www.nytimes.com/2024/04/18/us/politics/china-exports-biden-industrial-agenda.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/18/us/politics/china-exports-biden-industrial-agenda.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/18/us/politics/china-exports-biden-industrial-agenda.html" rel="standout"></atom:link>
+      <description>The president is increasingly hitting back with tariffs and other measures meant to restrict imports, raising tensions with Beijing.</description>
+      <dc:creator>Jim Tankersley and Alan Rappeport</dc:creator>
+      <pubDate>Thu, 18 Apr 2024 22:26:22 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Monetary Fund</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Treasury Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yellen, Janet L</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/18/multimedia/18dc-biden-china-thvq/18dc-biden-china-thvq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Al Drago for The New York Times</media:credit>
+      <media:description>“I’m not looking for a fight with China,” President Biden said during a visit to the United Steelworkers Union in Pittsburgh on Wednesday. “I’m looking for competition — and fair competition.”</media:description>
+    </item>
+    <item>
+      <title>A Japanese Village Wants Tourists to Come for Heat, Soot and Steel</title>
+      <link>https://www.nytimes.com/2024/04/18/travel/yoshida-japan-steel-furnace.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/18/travel/yoshida-japan-steel-furnace.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/18/travel/yoshida-japan-steel-furnace.html" rel="standout"></atom:link>
+      <description>To lure visitors, residents of Yoshida, famed for its high-quality steel, are inviting tourists to help produce it.</description>
+      <dc:creator>Craig Mod</dc:creator>
+      <pubDate>Thu, 18 Apr 2024 09:02:43 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Steel and Iron</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Swords</category>
+    </item>
     <item>
       <title>Biden Calls for Tariffs on Chinese Steel in Pittsburgh Pitch, Vying With Trump for Votes</title>
       <link>https://www.nytimes.com/2024/04/17/us/politics/biden-trump-china-tariffs.html</link>
@@ -21,7 +58,7 @@
       <atom:link href="https://www.nytimes.com/2024/04/17/us/politics/biden-trump-china-tariffs.html" rel="standout"></atom:link>
       <description>Speaking to the United Steelworkers union in Pittsburgh, the president urged major increases to some tariffs on steel and aluminum products from China.</description>
       <dc:creator>Nicholas Nehamas and Jim Tankersley</dc:creator>
-      <pubDate>Wed, 17 Apr 2024 22:05:39 +0000</pubDate>
+      <pubDate>Thu, 18 Apr 2024 14:49:45 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pittsburgh (Pa)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
@@ -42,17 +79,15 @@
       <description>The United Automobile Workers hopes contract gains at the Big Three carmakers will provide momentum in a broad effort to organize nonunion plants.</description>
       <dc:creator>Neal E. Boudette</dc:creator>
       <pubDate>Wed, 17 Apr 2024 15:13:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Volkswagen AG</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Automobile Workers</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Automobile Workers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Volkswagen AG</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fain, Shawn</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Chattanooga (Tenn)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/17/multimedia/17vw-union-kgvm/17vw-union-kgvm-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Melissa Golden for The New York Times</media:credit>
       <media:description>The 4,300 workers at Volkswagen’s plant in Chattanooga, Tenn., will begin voting on Wednesday on whether to join the United Automobile Workers union.</media:description>
@@ -360,48 +395,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/arts/shindle/shindle-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit> Sarah Reingewirtz/MediaNews Group, via Getty Images</media:credit>
       <media:description>Kate Shindle spoke in California in 2022 to encourage that state’s leadership to support nonprofit performing arts organizations.</media:description>
-    </item>
-    <item>
-      <title>As Wildfires Grow Fiercer, Some Companies Look to Rebuild the Tree Supply Chain</title>
-      <link>https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/headway/wildfire-forestry-supply-chain.html" rel="standout"></atom:link>
-      <description>As forests succumb to ever-fiercer wildfires, the federal government and some adventurous private companies are trying to resuscitate an industry.</description>
-      <dc:creator>Lydia DePillis</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 17:54:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Forests and Forestry</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wildfires</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trees and Shrubs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Agriculture and Farming</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conservation of Resources</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Land Use Policies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Aid (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Carbon Caps and Emissions Trading Programs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Carbon Capture and Sequestration</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Western States (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-open-access</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/03/14/multimedia/00hw-reforestation-jpkb/00hw-reforestation-jpkb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Ian Allen for The New York Times</media:credit>
-      <media:description>Saplings, grown at Mast’s Washington state nursery, are destined for replanting in the wild. </media:description>
-    </item>
-    <item>
-      <title>Fed Chair Powell Wants Inflation to Cool More</title>
-      <link>https://www.nytimes.com/2024/04/03/business/economy/fed-chair-awaits-more-inflation-cooling-as-path-proves-bumpy.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/03/business/economy/fed-chair-awaits-more-inflation-cooling-as-path-proves-bumpy.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/03/business/economy/fed-chair-awaits-more-inflation-cooling-as-path-proves-bumpy.html" rel="standout"></atom:link>
-      <description>Jerome H. Powell, the Federal Reserve chair, said officials can take their time cutting rates. He also underscored the Fed’s independence as election season heats up.</description>
-      <dc:creator>Jeanna Smialek and Santul Nerkar</dc:creator>
-      <pubDate>Wed, 03 Apr 2024 20:22:05 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/03/multimedia/03dc-powell-bzgj/03dc-powell-bzgj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Kenny Holston/The New York Times</media:credit>
-      <media:description>Jerome H. Powell, the Federal Reserve chair, said on Wednesday that “we have time to let the incoming data guide our decisions on policy.”</media:description>
     </item>
   </channel>
 </rss>

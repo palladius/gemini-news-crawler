@@ -7,7 +7,319 @@
   <author>
     <name>Google Cloud Platform</name>
   </author>
-  <updated>2024-04-17T00:00:00-07:00</updated>
+  <updated>2024-04-18T00:00:00-07:00</updated>
+
+  <entry>
+    <title>April 18, 2024</title>
+    <id>tag:google.com,2016:gcp-release-notes#April_18_2024</id>
+    <updated>2024-04-18T00:00:00-07:00</updated>
+    <link rel="alternate" href="https://cloud.google.com/release-notes#April_18_2024"/>
+    <content type="html"><![CDATA[<h2 class="release-note-product-title">Artifact Registry</h2>
+<h3>Feature</h3>
+<p>The immutable tags setting is generally available for Docker repositories. When tags are immutable, you can&#39;t change the image digest that a tag references in the repository. You can configure this setting when you <a href="https://cloud.google.com/artifact-registry/docs/repositories/create-repos">create a repository</a> or <a href="https://cloud.google.com/artifact-registry/docs/repositories/update-repo-settings">change the setting</a> on an existing repository.</p>
+<h2 class="release-note-product-title">BigQuery</h2>
+<h3>Feature</h3>
+<p>The <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/operators#like_operator_quantified">quantified <code>LIKE</code> operator</a> is <a href="https://cloud.google.com/products#product-launch-stages">generally available (GA)</a>. With this operator, you can check a search value for matches against a list of patterns or an array of patterns, using one of these conditions:</p>
+
+<ul>
+<li><code>LIKE ANY</code>: Checks if at least one pattern matches.</li>
+<li><code>LIKE SOME</code>: Synonym for <code>LIKE ANY</code>.</li>
+<li><code>LIKE ALL</code>: Checks if every pattern matches.</li>
+</ul>
+<h2 class="release-note-product-title">Dataproc</h2>
+<h3>Announcement</h3>
+<p>New <a href="https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions">Dataproc Serverless for Spark runtime versions</a>:</p>
+
+<ul>
+<li>1.1.58</li>
+<li>1.2.2</li>
+<li>2.0.66</li>
+<li>2.1.45</li>
+<li>2.2.2</li>
+</ul>
+<h3>Changed</h3>
+<p>Set the soft delete policy of newly created Dataproc staging and temp Cloud Storage buckets to <code>0</code> days.</p>
+<h3>Changed</h3>
+<p>Updated the default <a href="https://cloud.google.com/dataproc-serverless/docs/concepts/autoscaling#autoscaling_v2">autoscaling V2</a> cool-down time from <code>2m</code> to <code>1m</code> to reduce scaling latency.</p>
+<h3>Fixed</h3>
+<p>Fixed a bug where Dataproc Serverless sessions that live longer than 48 hours are underbilled.</p>
+<h2 class="release-note-product-title">Generative AI on Vertex AI</h2>
+<h3>Feature</h3>
+<p>Meta&#39;s open weight <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/open-models/use-llama">LLama 3 model</a> is available in the Vertex AI Model Garden. </p>
+<h2 class="release-note-product-title">Google Kubernetes Engine</h2>
+<h3>Changed</h3>
+<h4 id="2024-r10_version_updates">(2024-R10) Version updates</h4>
+
+<p>GKE cluster versions have been updated.</p>
+
+<p><strong>New versions available for upgrades and new clusters</strong></p>
+
+<p>The following Kubernetes versions are now available for new clusters and for
+opt-in control plane upgrades and node upgrades for existing clusters. For more
+information on versioning and upgrades, see <a href="https://cloud.google.com/kubernetes-engine/versioning">GKE versioning and support</a>
+and <a href="https://cloud.google.com/kubernetes-engine/upgrades">Upgrades</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3>No channel</h3><aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are
+already in progress when we publish the release notes, and can take multiple
+days to complete across all Google Cloud zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> is now the default version.</li>
+<li>The following control plane versions are now available:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1570000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1759000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1158000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1190000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1175000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282000</a></li>
+</ul></li>
+<li>The following node versions are now available:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1759000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1158000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1190000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1175000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282000</a></li>
+</ul></li>
+<li>The following versions are no longer available:
+<ul>
+<li>1.25.15-gke.1115000</li>
+<li>1.25.16-gke.1041000</li>
+<li>1.25.16-gke.1596000</li>
+<li>1.25.16-gke.1648000</li>
+<li>1.26.11-gke.1055000</li>
+<li>1.26.14-gke.1076000</li>
+<li>1.26.14-gke.1133000</li>
+<li>1.27.3-gke.100</li>
+<li>1.27.11-gke.1118000</li>
+<li>1.27.11-gke.1202000</li>
+<li>1.28.3-gke.1203001</li>
+<li>1.28.7-gke.1226000</li>
+<li>1.29.0-gke.1381000</li>
+<li>1.29.2-gke.1521000 </li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.26 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> with this release.</li>
+</ul></section>
+<section><h3>Stable channel</h3><aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are
+already in progress when we publish the release notes, and can take multiple
+days to complete across all Google Cloud zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> is now the default version in the Stable channel.</li>
+<li>The following versions are now available in the Stable channel:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614">1.26.14-gke.1044000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a></li>
+</ul></li>
+<li>The following versions are no longer available in the Stable channel:
+<ul>
+<li>1.25.15-gke.1115000</li>
+<li>1.25.16-gke.1041000</li>
+<li>1.26.11-gke.1055000</li>
+<li>1.27.7-gke.1121002</li>
+<li>1.28.3-gke.1203001</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1460000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.26 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> with this release.</li>
+</ul></section>
+<section><h3>Regular channel</h3><aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are
+already in progress when we publish the release notes, and can take multiple
+days to complete across all Google Cloud zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> is now the default version in the Regular channel.</li>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1570000</a> is now available in the Regular channel.</li>
+<li>The following versions are no longer available in the Regular channel:
+<ul>
+<li>1.25.16-gke.1460000</li>
+<li>1.27.8-gke.1067004</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> with this release.</li>
+</ul></section>
+<section><h3>Rapid channel</h3><aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are
+already in progress when we publish the release notes, and can take multiple
+days to complete across all Google Cloud zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1093000</a> is now the default version in the Rapid channel.</li>
+<li>The following versions are now available in the Rapid channel:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1759000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1158000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1190000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1175000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282000</a></li>
+</ul></li>
+<li>The following versions are no longer available in the Rapid channel:
+<ul>
+<li>1.25.16-gke.1596000</li>
+<li>1.25.16-gke.1648000</li>
+<li>1.26.14-gke.1076000</li>
+<li>1.26.14-gke.1133000</li>
+<li>1.27.11-gke.1118000</li>
+<li>1.27.11-gke.1202000</li>
+<li>1.28.7-gke.1026000</li>
+<li>1.28.7-gke.1226000</li>
+<li>1.29.1-gke.1589017</li>
+<li>1.29.2-gke.1521000</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1711000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1090000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.26 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1115000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1095000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1093000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.29 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1093000</a> with this release.</li>
+</ul></section>
+</div>
+<h3>Changed</h3>
+<h4 id="2024-r10_version_updates">(2024-R10) Version updates</h4>
+<aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are already in progress
+  when we publish the release notes, and can take multiple days to complete across all Google Cloud
+  zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> is now the default version.</li>
+<li>The following control plane versions are now available:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1570000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1759000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1158000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1190000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1175000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282000</a></li>
+</ul></li>
+<li>The following node versions are now available:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1759000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1158000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1190000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1175000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282000</a></li>
+</ul></li>
+<li>The following versions are no longer available:
+<ul>
+<li>1.25.15-gke.1115000</li>
+<li>1.25.16-gke.1041000</li>
+<li>1.25.16-gke.1596000</li>
+<li>1.25.16-gke.1648000</li>
+<li>1.26.11-gke.1055000</li>
+<li>1.26.14-gke.1076000</li>
+<li>1.26.14-gke.1133000</li>
+<li>1.27.3-gke.100</li>
+<li>1.27.11-gke.1118000</li>
+<li>1.27.11-gke.1202000</li>
+<li>1.28.3-gke.1203001</li>
+<li>1.28.7-gke.1226000</li>
+<li>1.29.0-gke.1381000</li>
+<li>1.29.2-gke.1521000</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.26 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> with this release.</li>
+</ul>
+<h3>Changed</h3>
+<h4 id="2024-r10_version_updates">(2024-R10) Version updates</h4>
+<aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are already in progress
+  when we publish the release notes, and can take multiple days to complete across all Google Cloud
+  zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> is now the default version in the Stable channel.</li>
+<li>The following versions are now available in the Stable channel:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12614">1.26.14-gke.1044000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a></li>
+</ul></li>
+<li>The following versions are no longer available in the Stable channel:
+<ul>
+<li>1.25.15-gke.1115000</li>
+<li>1.25.16-gke.1041000</li>
+<li>1.26.11-gke.1055000</li>
+<li>1.27.7-gke.1121002</li>
+<li>1.28.3-gke.1203001</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1460000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.26 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12613">1.26.13-gke.1144000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Stable channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> with this release.</li>
+</ul>
+<h3>Changed</h3>
+<h4 id="2024-r10_version_updates">(2024-R10) Version updates</h4>
+<aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are already in progress
+  when we publish the release notes, and can take multiple days to complete across all Google Cloud
+  zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> is now the default version in the Regular channel.</li>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1570000</a> is now available in the Regular channel.</li>
+<li>The following versions are no longer available in the Regular channel:
+<ul>
+<li>1.25.16-gke.1460000</li>
+<li>1.27.8-gke.1067004</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1537000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12711">1.27.11-gke.1062000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Regular channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1287">1.28.7-gke.1026000</a> with this release.</li>
+</ul>
+<h3>Changed</h3>
+<h4 id="2024-r10_version_updates">(2024-R10) Version updates</h4>
+<aside class="note"><strong>Note:</strong><span> Your clusters might not have these versions available. Rollouts are already in progress
+  when we publish the release notes, and can take multiple days to complete across all Google Cloud
+  zones.</span></aside>
+<ul>
+<li>Version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1093000</a> is now the default version in the Rapid channel.</li>
+<li>The following versions are now available in the Rapid channel:
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1759000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1158000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1190000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1175000</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282000</a></li>
+</ul></li>
+<li>The following versions are no longer available in the Rapid channel:
+<ul>
+<li>1.25.16-gke.1596000</li>
+<li>1.25.16-gke.1648000</li>
+<li>1.26.14-gke.1076000</li>
+<li>1.26.14-gke.1133000</li>
+<li>1.27.11-gke.1118000</li>
+<li>1.27.11-gke.1202000</li>
+<li>1.28.7-gke.1026000</li>
+<li>1.28.7-gke.1226000</li>
+<li>1.29.1-gke.1589017</li>
+<li>1.29.2-gke.1521000</li>
+</ul></li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.24 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.25.md#v12516">1.25.16-gke.1711000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.25 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md#v12615">1.26.15-gke.1090000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.26 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md#v12712">1.27.12-gke.1115000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.27 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.28.md#v1288">1.28.8-gke.1095000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1093000</a> with this release.</li>
+<li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.29 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1093000</a> with this release.</li>
+</ul>
+<h2 class="release-note-product-title">Looker Studio</h2>
+<h3>Feature</h3>
+<p><strong>Viewer role for team workspaces</strong></p>
+
+<p>The <a href="https://support.google.com/looker-studio/answer/10403868">Viewer role</a> can now be assigned to members of a team workspace. The Viewer role lets users view existing assets in the team workspace, view folders in the team workspace, and view the team workspace Trash.</p>
+<h3>Feature</h3>
+<p><strong>Pro feature: New Viewer permissions to create scheduled report deliveries</strong></p>
+
+<p>When sharing a Pro report, Pro users can now <a href="https://support.google.com/looker-studio/answer/7459147#share-with-users">grant users</a> with a <a href="https://support.google.com/looker-studio/answer/10403868">Viewer role</a> the <a href="https://support.google.com/looker-studio/answer/9263641">ability to create scheduled deliveries</a> of the shared report.</p>
+]]>
+    </content>
+  </entry>
 
   <entry>
     <title>April 17, 2024</title>
@@ -230,6 +542,48 @@ For information on new installations, see <a href="https://cloud.google.com/apig
 <h2 class="release-note-product-title">Cloud Data Fusion</h2>
 <h3>Fixed</h3>
 <p>The Salesforce Marketing Cloud plugin (version 1.3.1) is available in Cloud Data Fusion version 6.8.0 and later. The release fixed an issue in the Salesforce Marketing sink plugin causing upsert operations to fail (<a href="https://cdap.atlassian.net/browse/PLUGIN-1773">PLUGIN-1773</a>).</p>
+<h2 class="release-note-product-title">Google Cloud Marketplace Partners</h2>
+<h3>Announcement</h3>
+<p>We&#39;ve made the following changes to Cloud Marketplace reports:</p>
+
+<ul>
+<li>A new field, <code>offer_title</code>, has been added to the <a href="https://cloud.google.com/marketplace/docs/partners/reports/report-detailed-disbursement">Detailed disbursements report</a> and the <a href="https://cloud.google.com/marketplace/docs/partners/reports/report-customer-insight">Customer Insights report</a>.</li>
+<li>The <code>entitlement_id</code> field from the Detailed disbursements report is now also available in the Customer Insights report.</li>
+</ul>
+<h2 class="release-note-product-title">Google Distributed Cloud Virtual for VMware</h2>
+<h3>Announcement</h3>
+<p>GKE on VMware 1.28.400-gke.75 is now available. To upgrade, see
+<a href="https://cloud.google.com/anthos/clusters/docs/on-prem/latest/how-to/upgrading">Upgrading GKE on VMware</a>.
+GKE on VMware 1.28.400-gke.75 runs on Kubernetes v1.28.7-gke.1700. </p>
+
+<p>If you are using a third-party storage vendor, check the
+<a href="https://cloud.google.com/anthos/docs/resources/partner-storage">GDCV Ready storage partners</a>
+document to make sure the storage vendor has already passed the qualification
+for this release of GKE on VMware.</p>
+<h3>Fixed</h3>
+<p>The following vulnerabilities are fixed in1.28.400-gke.75:</p>
+
+<ul>
+<li><p>High-severity container vulnerabilities:</p>
+
+<ul>
+<li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24806">CVE-2024-24806</a></li>
+</ul></li>
+<li><p>Container-optimized OS vulnerabilities:</p>
+
+<ul>
+<li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52447">CVE-2023-52447</a></li>
+</ul></li>
+<li><p>Ubuntu vulnerabilities:</p>
+
+<ul>
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23000">CVE-2023-23000</a></p></li>
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32247">CVE-2023-32247</a></p></li>
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1085">CVE-2024-1085</a></p></li>
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1086">CVE-2024-1086</a></p></li>
+<li><p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24855">CVE-2024-24855</a></p></li>
+</ul></li>
+</ul>
 <h2 class="release-note-product-title">SAP on Google Cloud</h2>
 <h3>Announcement</h3>
 <p><strong>BigQuery Connector for SAP version v2.7</strong></p>
@@ -237,6 +591,11 @@ For information on new installations, see <a href="https://cloud.google.com/apig
 <p>Version 2.7 of the BigQuery Connector for SAP is generally available (GA). This version extends support for using the SAP SLT add-on DMIS 2018 SP 11.</p>
 
 <p>For more information, see <a href="https://cloud.google.com/solutions/sap/docs/bq-connector/whats-new">What&#39;s new with BigQuery Connector for SAP</a>.</p>
+<h2 class="release-note-product-title">Storage Transfer Service</h2>
+<h3>Feature</h3>
+<p>Storage Transfer Service has added support for Shared Keys as an authentication method when transferring from Microsoft Azure Storage.</p>
+
+<p>To use an Azure Shared Key, you must store the key value in Secret Manager. See <a href="https://cloud.google.com/storage-transfer/docs/source-microsoft-azure#secret_manager">Save your Microsoft credentials in Secret Manager</a> for details.</p>
 ]]>
     </content>
   </entry>
@@ -570,6 +929,9 @@ Fixed a potential corruption when launching kernels on H100 GPUs.</p>
 <p><strong>Anthropic Claude 3.0 Opus model</strong></p>
 
 <p>The <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude#claude-opus">Anthropic Claude 3.0 Opus</a> model is available in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>. The Claude 3.0 Opus model is an Anthropic partner model that you can use with Vertex AI. It&#39;s the most capable of the Anthropic models at performing complex tasks quickly. To learn more, see its <a href="https://console.cloud.google.com/vertex-ai/publishers/anthropic/model-garden/claude-3-opus">model card in Model Garden</a>.</p>
+<h2 class="release-note-product-title">Google Cloud Marketplace Partners</h2>
+<h3>Announcement</h3>
+<p>If you&#39;ve turned on <a href="https://cloud.google.com/marketplace/docs/partners/reports/report-types">Marketplace reports</a> in Producer Portal, you now receive proactive email notifications from Google when reports are delayed, have inaccurate data, or have been regenerated. For steps to set up reports and receive these notifications, see <a href="https://cloud.google.com/marketplace/docs/partners/reports/set-up-reports">Set up to receive reports</a>.</p>
 <h2 class="release-note-product-title">Pub/Sub</h2>
 <h3>Feature</h3>
 <p>If you use Pub/Sub metrics as a signal to autoscale your pipeline, refer to <a href="https://cloud.google.com/pubsub/docs/metrics-autoscaling-best-practices">Best practices for using Pub/Sub metrics as a scaling signal</a>.</p>
@@ -614,6 +976,8 @@ Fixed a potential corruption when launching kernels on H100 GPUs.</p>
 </ul>
 
 <p>More information for using the Embedded Looker Studio feature is coming soon.</p>
+<h3>Breaking</h3>
+<p>The Allow Legacy Maps <a href="https://cloud.google.com/looker/docs/legacy-feature-schedule">legacy feature</a> is now disabled by default. When the Allow Legacy Maps legacy feature is disabled, any map visualization that uses the <a href="https://cloud.google.com/looker/docs/map-options">Map (Legacy) chart type</a> will be converted to use the <a href="https://cloud.google.com/looker/docs/google-map-options">Google Maps chart type</a>. This may be a breaking change for some customers who are still using Legacy Maps.</p>
 <h3>Feature</h3>
 <p><a href="https://cloud.google.com/looker/docs/sql-interface">Open SQL Interface</a> now supports <a href="https://cloud.google.com/looker/docs/reference/param-field-parameter">parameters</a> and <a href="https://cloud.google.com/looker/docs/reference/param-field-filter">filter-only fields</a>.</p>
 <h3>Feature</h3>
@@ -909,6 +1273,10 @@ model to create embeddings for user or item data.</li>
 <p><strong>Generative AI Knowledge Base</strong></p>
 
 <p>The <a href="https://console.cloud.google.com/products/solutions/details/generative-ai-knowledge-base">Jump Start Solution: Generative AI Knowledge Base</a> demonstrates how to build a simple chatbot with business- and domain-specific knowledge. </p>
+<h3>Feature</h3>
+<p><strong>Text translation</strong></p>
+
+<p><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/translate/translate-text">Translate text in Vertex AI Studio</a> is available in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>. </p>
 <h3>Announcement</h3>
 <p><strong>Gemini 1.0 Pro stable version 002</strong></p>
 
@@ -3734,15 +4102,24 @@ how-to topic.</p>
 <p>(New guide) <a href="https://cloud.google.com/architecture/cross-silo-cross-device-federated-learning-google-cloud">Cross-silo and cross-device federated learning on Google Cloud</a>: Provides guidance to help you create a federated learning platform that supports either a cross-silo or cross-device architecture.</p>
 <h2 class="release-note-product-title">Migrate to Virtual Machines</h2>
 <h3>Feature</h3>
-<p><a href="https://cloud.google.com/products/#product-launch-stages"><strong>Preview:</strong></a> Migrate to Virtual Machines supports the ARM64 migration journey. This feature lets you migrate ARM virtual machine (VM) instances from <a href="https://cloud.google.com/migrate/virtual-machines/docs/5.0/discover/supported-os-versions#aws-source">AWS</a> and <a href="https://cloud.google.com/migrate/virtual-machines/docs/5.0/discover/supported-os-versions#azure-source">Azure cloud services</a> to ARM VM instances on Compute Engine, and is supported for the following operating systems:</p>
+<p><a href="https://cloud.google.com/products/#product-launch-stages"><strong>Preview:</strong></a> Migrate to Virtual Machines supports the ARM64 migration journey. This feature lets you migrate ARM virtual machine (VM) instances from <a href="https://cloud.google.com/migrate/virtual-machines/docs/5.0/discover/supported-os-versions#aws-source">AWS</a> and <a href="https://cloud.google.com/migrate/virtual-machines/docs/5.0/discover/supported-os-versions#azure-source">Azure cloud services</a> to ARM VM instances on Compute Engine, and it is supported for the following operating systems:</p>
 
 <ul>
 <li>Debian 11 and 12</li>
 <li>RHEL 9</li>
 <li>Rocky Linux 8 and 9</li>
 <li>SLES 15 SP5</li>
-<li>Ubuntu 20.04 and 22.04</li>
+<li>Ubuntu 20.04 and 22.04 </li>
 </ul>
+<h2 class="release-note-product-title">Security Command Center</h2>
+<h3>Feature</h3>
+<p><strong>GKE security posture recommendations released to Preview</strong></p>
+
+<p>Recommendations from <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/about-security-posture-dashboard#scc-integration">GKE security posture</a> are now available as findings in all tiers of Security Command Center as a <a href="https://cloud.google.com/products#product-launch-stages">Preview</a> release.</p>
+
+<p>GKE security posture publishes <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/about-configuration-scanning">workload configuration auditing</a> results as <code>Misconfiguration</code> class findings and <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/about-workload-vulnerability-scanning#about-container-os-scanning">vulnerability assessment</a> results as <code>Vulnerability</code> class findings in Security Command Center.</p>
+
+<p>For more information, see <a href="https://cloud.google.com/security-command-center/docs/concepts-security-sources#gke-security-posture-dashboard">GKE security posture dashboard</a>.</p>
 <h2 class="release-note-product-title">Spanner</h2>
 <h3>Announcement</h3>
 <p>Duet AI in Google Cloud is now Gemini for Google Cloud. See our <a href="https://blog.google/technology/ai/google-gemini-update-sundar-pichai-2024/">blog post</a> for more information.</p>
@@ -6874,9 +7251,6 @@ To learn about using Tags in your cost data exported to BigQuery, see more <a hr
 <h2 class="release-note-product-title">Google Cloud Deploy</h2>
 <h3>Announcement</h3>
 <p>Cloud Deploy support for <a href="https://cloud.google.com/deploy/docs/automation">deploy automation</a> is now <a href="https://cloud.google.com/products#product-launch-stages">generally available</a>.</p>
-<h2 class="release-note-product-title">Google Cloud Marketplace Partners</h2>
-<h3>Changed</h3>
-<p>If you&#39;ve turned on <a href="https://cloud.google.com/marketplace/docs/partners/reports/report-types">Marketplace reports</a> in Producer Portal, you now receive proactive email notifications from Google when reports are delayed, have inaccurate data, or have been regenerated. For steps to set up reports and receive these notifications, see <a href="https://cloud.google.com/marketplace/docs/partners/reports/set-up-reports">Set up to receive reports</a>.</p>
 <h2 class="release-note-product-title">Google Cloud VMware Engine</h2>
 <h3>Feature</h3>
 <p>Google Cloud VMware Engine now leverages Cloud Logging to provide status updates about hardware health and VMware management components. The logs are available in <a href="https://cloud.google.com/logging/docs/view/logs-explorer-interface">Logs Explorer</a> with the following log name:</p>
@@ -7002,45 +7376,6 @@ To learn about using Tags in your cost data exported to BigQuery, see more <a hr
 <h2 class="release-note-product-title">Spanner</h2>
 <h3>Feature</h3>
 <p>Table renaming is now generally available. This feature lets you rename tables in place or safely swap names using synonyms. For more information, see <a href="https://cloud.google.com/spanner/docs/table-name-synonym">Manage table names</a>.</p>
-]]>
-    </content>
-  </entry>
-
-  <entry>
-    <title>March 08, 2024</title>
-    <id>tag:google.com,2016:gcp-release-notes#March_08_2024</id>
-    <updated>2024-03-08T00:00:00-08:00</updated>
-    <link rel="alternate" href="https://cloud.google.com/release-notes#March_08_2024"/>
-    <content type="html"><![CDATA[<h2 class="release-note-product-title">Chronicle SOAR</h2>
-<h3>Announcement</h3>
-<p>Release 6.2.49 is now in General Availability. </p>
-<h2 class="release-note-product-title">Dataflow</h2>
-<h3>Changed</h3>
-<p>Streaming jobs created after March 7, 2024 automatically encrypt all user data with <a href="https://cloud.google.com/dataflow/docs/guides/customer-managed-encryption-keys">customer-managed encryption keys (CMEK)</a>. To enable this encryption for jobs created before March 7, 2024, <a href="https://cloud.google.com/dataflow/docs/guides/stopping-a-pipeline">drain or cancel the job</a>, and then restart it.</p>
-<h2 class="release-note-product-title">Dataproc Metastore</h2>
-<h3>Feature</h3>
-<p>Dataproc Metastore now supports <a href="https://cloud.google.com/dataproc-metastore/docs/backup-metadata">scheduled backups</a>. Backups can be scheduled to run at user-specified cron job intervals, including running daily, weekly, or monthly. </p>
-<h2 class="release-note-product-title">Google Kubernetes Engine</h2>
-<h3>Fixed</h3>
-<p>For GKE versions later than 1.29.1-gke.1760000, the NEG, Ingress, L4 internal load balancer with <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/service-load-balancer#subsetting">subsetting</a>, and <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/external-svc-lb-rbs#backend_service-based">L4 RBS controllers</a> will skip processing the nodes missing the <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/gke-zonal-topology#zonal-placement-methods"><code>topology.kubernetes.io/zone</code></a> label until the zone information is ready. The load balancer controllers will no longer block sync operations when a node is introduced without the label.</p>
-<h3>Fixed</h3>
-<p>Managed ASM installation and node scaling fails on GKE Autopilot clusters on versions between 1.28.6-gke.1095000 and 1.28.7-gke.1025000 and on versions between 1.29.1-gke.1016000 and 1.29.1-gke.1781000. To mitigate this issue, <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-upgrades-autopilot#manual-upgrade">upgrade the cluster</a> to version 1.28.7-gke.1026000 or later, or 1.29.2-gke.1060000 or later.</p>
-
-<p>With 2024-R07, clusters created in the Rapid channel are defaulting to an affected version. To avoid creating a cluster on an affected version, <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-an-autopilot-cluster#set-version">manually specify</a> version 1.28.7-gke.1026000 or later, or 1.29.2-gke.1060000 or later when creating clusters in the Rapid channel.</p>
-<h2 class="release-note-product-title">Recommender</h2>
-<h3>Feature</h3>
-<p><a href="https://console.cloud.google.com/home/recommendations">Recommendation Hub</a> is a centralized page on Google Cloud that helps you view all of your recommendations in one place. We recently made improvements to the page, including enabling organization and folder-view of recommendations, custom sorting and filtering of recommendations, and more. For more information, see <a href="https://cloud.google.com/recommender/docs/quickstart-recommendation-hub">documentation</a></p>
-<h2 class="release-note-product-title">Vertex AI</h2>
-<h3>Feature</h3>
-<p><strong>Vertex AI Feature Store</strong></p>
-
-<p>The following features of Vertex AI Feature Store are now available in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>:</p>
-
-<ul>
-<li><p><strong>Integration of Vertex AI Feature Store with Dataplex:</strong>  Online store instances, feature views, and feature groups are now automatically registered as data assets in Data Catalog, a Dataplex feature that catalogs metadata from these resources. You can use the metadata search capability of Dataplex to search for and view the metadata of these resources. For more information, see <a href="https://cloud.google.com/vertex-ai/docs/featurestore/latest/search-feature-metadata">Search for resource metadata in Data Catalog</a>.</p></li>
-<li><p>**Service account configuration for feature views: **You can configure a feature view to use a dedicated service account. By default, every feature view uses the service account configured for your project. For more information, see <a href="https://cloud.google.com/vertex-ai/docs/featurestore/latest/create-featureview#serviceaccount">Configure the service account for a feature view</a>.</p></li>
-<li><p><strong>Multiple entity IDs for a feature view:</strong> While creating or updating a feature view, you can specify multiple entity ID columns. For more information, see <a href="https://cloud.google.com/vertex-ai/docs/featurestore/latest/create-featureview#create_featureview_bq_embedding">Create a feature view</a>.</p></li>
-</ul>
 ]]>
     </content>
   </entry>

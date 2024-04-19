@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Thu, 18 Apr 2024 00:12:45 -0400</pubDate>
-<lastBuildDate>Thu, 18 Apr 2024 00:12:45 -0400</lastBuildDate>
+<pubDate>Fri, 19 Apr 2024 00:47:54 -0400</pubDate>
+<lastBuildDate>Fri, 19 Apr 2024 00:47:54 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,24 +17,84 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
-<title>Japan, Korea, U.S. Note 'Serious Concerns' Over Recent Currency Moves</title>
+<title>Asia Markets Fall After Israeli Missile Strike on Iran</title>
+<link>https://www.wsj.com/articles/asia-markets-fall-after-israeli-missile-strike-on-iran-faa25456?mod=rss_markets_main</link>
+<description><![CDATA[Stock markets in Asia fell while safe-haven assets such as U.S. Treasurys, the yen and the Swiss franc rose sharply after Israel launched a retaliatory strike against Iran early Friday.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 00:46:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001716745</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Markets Main</wsj:articletype>
+</item>
+<item>
+<title>They Bet Against the Dollar. Now They're Paying the Price.</title>
+<link>https://www.wsj.com/articles/us-economy-currency-market-yen-c620e359?mod=rss_markets_main</link>
+<description><![CDATA[The dollar recently hit a 34-year high against the yen, sending ripples through global markets.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 00:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001713845</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
+</item>
+<item>
+<title>Grayscale's Once-Mighty Fund Is Bleeding Bitcoin</title>
+<link>https://www.wsj.com/articles/grayscales-once-mighty-fund-is-bleeding-bitcoin-394dcfde?mod=rss_markets_main</link>
+<description><![CDATA[The asset manager has resisted a significant fee cut, betting that rising bitcoin prices will continue to buoy its fortunes.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 17:32:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001708108</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Crypto</wsj:articletype>
+</item>
+<item>
+<title>Treasury Yields Rise, S&amp;P 500 Extends April Slide</title>
+<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-04-18-2024-de2f3160?mod=rss_markets_main</link>
+<description><![CDATA[Stocks mostly slumped Thursday as investors digested a range of corporate earnings including a better-than-expected report from Alaska Air.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 16:20:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001715586</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Today's Markets</wsj:articletype>
+</item>
+<item>
+<title>Chip Giant TSMC Offers Reassurance---and a Warning</title>
+<link>https://www.wsj.com/articles/chip-giant-tsmc-offers-reassuranceand-a-warning-6a95ac55?mod=rss_markets_main</link>
+<description><![CDATA[The chip industry is recovering more slowly than expected from the inventory glut of 2023 but the semiconductor investments required for the rapid growth of artificial intelligence are on track.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 07:38:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001713885</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>For Tesla, India Represents Big Promise---and Some Peril</title>
+<link>https://www.wsj.com/articles/for-tesla-india-represents-big-promiseand-some-peril-3658772d?mod=rss_markets_main</link>
+<description><![CDATA[A factory in India would be a significant risk—but maybe one worth taking.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 07:19:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001713853</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Pension Funds Are Pulling Hundreds of Billions From Stocks</title>
+<link>https://www.wsj.com/articles/pension-funds-stocks-bonds-679b8536?mod=rss_markets_main</link>
+<description><![CDATA[Stock portfolios at large pension funds had a blockbuster run. Now, managers are cashing out and shifting money into bonds.]]></description>
+<content:encoded/>
+<pubDate>Thu, 18 Apr 2024 06:45:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001711914</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
+</item>
+<item>
+<title>China Pledges to Steady Yuan as Asian Currencies Come Under Pressure</title>
 <link>https://www.wsj.com/articles/japan-korea-u-s-note-serious-concerns-over-recent-currency-moves-146fdd8a?mod=rss_markets_main</link>
-<description><![CDATA[The finance ministers of Japan, South Korea and the U.S. acknowledged “serious concerns” from Tokyo and Seoul over their respective currencies’ recent sharp weakness.]]></description>
+<description><![CDATA[China’s central bank reiterated its commitment to a stable yuan, joining the chorus of Asian officials concerned about weakening regional currencies.]]></description>
 <content:encoded/>
 <pubDate>Thu, 18 Apr 2024 00:11:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001713463</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Markets Main</wsj:articletype>
-</item>
-<item>
-<title>Pension Funds Are Pulling $325 Billion From Stocks</title>
-<link>https://www.wsj.com/articles/pension-funds-stocks-bonds-679b8536?mod=rss_markets_main</link>
-<description><![CDATA[Some turn to bonds or private markets after major indexes’ run to records.]]></description>
-<content:encoded/>
-<pubDate>Thu, 18 Apr 2024 00:01:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001711914</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
 </item>
 <item>
 <title>Bitcoin's Halving Is Coming. Miners Are Looking for New Ways to Make Money.</title>
@@ -117,16 +177,6 @@
 <wsj:articletype>Heard on the Street</wsj:articletype>
 </item>
 <item>
-<title>Nelson Peltz Got Crushed by Disney. Can He Recover?</title>
-<link>https://www.wsj.com/articles/nelson-peltz-disney-proxy-fight-586e1c5f?mod=rss_markets_main</link>
-<description><![CDATA[After his Trian Partners lost its proxy fight, a big bet on Unilever comes into focus.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001708648</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
-</item>
-<item>
 <title>General Electric's Power Spinoff Could Be Formidable Once Fully Charged</title>
 <link>https://www.wsj.com/articles/general-electrics-power-spinoff-could-be-formidable-once-fully-charged-0bd15005?mod=rss_markets_main</link>
 <description><![CDATA[GE Vernova is expected to turn profitable this year and benefit from growing electricity demand.]]></description>
@@ -135,6 +185,16 @@
 <guid isPermaLink="false">WP-WSJ-0001709317</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Nelson Peltz Got Crushed by Disney. Can He Recover?</title>
+<link>https://www.wsj.com/articles/nelson-peltz-disney-proxy-fight-586e1c5f?mod=rss_markets_main</link>
+<description><![CDATA[After his Trian Partners lost its proxy fight, a big bet on Unilever comes into focus.]]></description>
+<content:encoded/>
+<pubDate>Wed, 17 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001708648</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
 </item>
 <item>
 <title>Chinese Regulators Downplay Effects of New Equities Rules</title>
@@ -155,66 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001709131</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Today's Markets</wsj:articletype>
-</item>
-<item>
-<title>Trump's Truth Social Stake Shrinks by $3.4 Billion After Stock Tanks</title>
-<link>https://www.wsj.com/articles/trump-stock-djt-truth-social-loss-57075c77?mod=rss_markets_main</link>
-<description><![CDATA[Shares are down more than 65% from a recent peak after the first three weeks of trading.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 16:35:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001700795</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
-</item>
-<item>
-<title>Investment Banking Bounceback Powers Big U.S. Lenders</title>
-<link>https://www.wsj.com/articles/bank-of-america-morgan-stanley-earnings-q1-2024-4fe97e75?mod=rss_markets_main</link>
-<description><![CDATA[Top U.S. banks, including Bank of America, JPMorgan and Goldman, posted better-than-expected earnings thanks to strong consumer spending and a flurry of Wall Street activity.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 16:24:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001707482</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
-</item>
-<item>
-<title>Hollywood Still Banks On the Familiar for Box Office</title>
-<link>https://www.wsj.com/articles/hollywood-still-banks-on-the-familiar-for-box-office-286a1a38?mod=rss_markets_main</link>
-<description><![CDATA[Sequels from lesser-tapped franchises are expected to dominate this year’s film releases, but Wall Street anticipates weak overall results.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 10:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001706243</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Tesla Is Running Out of Time to Deliver on Self-Driving Promises</title>
-<link>https://www.wsj.com/articles/tesla-is-running-out-of-time-to-deliver-on-self-driving-promises-92f4afc1?mod=rss_markets_main</link>
-<description><![CDATA[The electric-vehicle pioneer seems to be shifting its growth hopes to the unproven technology of automated driving.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 07:52:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001707547</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>China's Overcapacity Is Already Backfiring</title>
-<link>https://www.wsj.com/articles/chinas-overcapacity-is-already-backfiring-86f29e4a?mod=rss_markets_main</link>
-<description><![CDATA[Excess investment in industry isn’t made up by China’s trading partners, and it has domestic consequences.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 07:18:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001707502</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>PwC Pushes Back at Evergrande Letter</title>
-<link>https://www.wsj.com/articles/pwc-pushes-back-at-evergrande-letter-3279321d?mod=rss_markets_main</link>
-<description><![CDATA[PricewaterhouseCoopers has responded to a public letter that blamed some of its executives for the global accounting firm’s exposure to China Evergrande, the fallen property giant.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 05:50:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001707435</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
 </item>
 </channel>
 </rss>

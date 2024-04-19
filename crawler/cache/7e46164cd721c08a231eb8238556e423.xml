@@ -9,114 +9,106 @@
             <link>https://www.bbc.co.uk/news/world/us_and_canada</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Apr 2024 07:36:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Apr 2024 04:53:34 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Senate dismisses impeachment case against Mayorkas]]></title>
-            <description><![CDATA[It was the first time in almost 150 years the chamber had considered a US cabinet secretary's impeachment.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68841951</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68841951#0</guid>
-            <pubDate>Wed, 17 Apr 2024 21:36:16 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/110C9/production/_132633896_gettyimages-1918145910.jpg"/>
+            <title><![CDATA[Full 12-person jury seated in Trump criminal case]]></title>
+            <description><![CDATA[The trial, the first ever in which an ex-US president is the defendant, may see opening arguments on Monday.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68851832</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68851832#0</guid>
+            <pubDate>Thu, 18 Apr 2024 22:44:29 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/936A/production/_133183773_gettyimages-2147903802.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Dozens arrested as Gaza protest cleared at Columbia]]></title>
+            <description><![CDATA[Democratic politician Ilhan Omar's daughter is suspended from college for participating.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68851168</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68851168#0</guid>
+            <pubDate>Thu, 18 Apr 2024 23:35:20 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2416/production/_133183290_capture.png"/>
+        </item>
+        <item>
+            <title><![CDATA[USC campus tense after Muslim valedictorian's speech cancelled]]></title>
+            <description><![CDATA[The university said it cut the speech over security concerns tied to the Middle East.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68848821</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68848821#0</guid>
+            <pubDate>Thu, 18 Apr 2024 18:54:07 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14F25/production/_133179758_gettyimages-2147867238.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[US and UK extend sanctions against Iran]]></title>
+            <description><![CDATA[Measures against Tehran's drone programme are issued jointly in response to Saturday's attack on Israel.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-68848438</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-68848438#0</guid>
+            <pubDate>Thu, 18 Apr 2024 16:28:57 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B2E5/production/_133179754_gettyimages-2147877794.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Kennedys endorse Biden over relative RFK Jr]]></title>
+            <description><![CDATA[Robert F Kennedy Jr is running for president as an independent - but many family members oppose him.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68848356</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68848356#0</guid>
+            <pubDate>Thu, 18 Apr 2024 20:12:49 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17384/production/_133180159_rfkjr.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Fans react as Taylor Swift's new album 'leaked']]></title>
+            <description><![CDATA[Some Swifties dive straight in to listen while others insist true fans will wait for official release.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-68844317</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68844317#0</guid>
+            <pubDate>Thu, 18 Apr 2024 10:48:47 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16E1/production/_133175850_fd0592d7-b75b-45ec-bedd-18847a0e0eda.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Video captures 'traumatic' bear cub handling]]></title>
+            <description><![CDATA[No cubs were physically harmed when a group pulled the baby black bears out of trees to take photos.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68848098</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68848098#0</guid>
+            <pubDate>Thu, 18 Apr 2024 15:22:40 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/BAB5/production/_133179774_blackbeargrab.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Google sacks staff protesting over Israeli contract]]></title>
+            <description><![CDATA[Google sacked 28 staff members for taking part in protests against a contract with the Israeli government. ]]></description>
+            <link>https://www.bbc.com/news/articles/c3gqw1d37l4o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/c3gqw1d37l4o#1</guid>
+            <pubDate>Thu, 18 Apr 2024 14:52:04 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/62f0/live/57208ed0-fd95-11ee-a927-47d95e36676b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Four US states hit by 911 call outages]]></title>
+            <description><![CDATA[There were temporary issues in Nevada, Nebraska, South Dakota and Texas overnight; the cause is unknown.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68844879</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68844879#1</guid>
+            <pubDate>Thu, 18 Apr 2024 10:42:39 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6D49/production/_133177972_911_976getty.jpg"/>
         </item>
         <item>
             <title><![CDATA[Lawmakers to vote soon on stalled Ukraine aid]]></title>
             <description><![CDATA[Despite right-wing outcries, Speaker Mike Johnson is pressing to pass billions of dollars in aid.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68840405</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68840405#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68840405#1</guid>
             <pubDate>Wed, 17 Apr 2024 20:47:15 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1639D/production/_133173019_gettyimages-2148845135.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Top US college defends efforts to combat antisemitism]]></title>
+            <description><![CDATA[The Columbia University head faced lawmakers' questions as a free-speech debate rages about student protests.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-68838018</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68838018#1</guid>
+            <pubDate>Thu, 18 Apr 2024 07:56:06 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/016F/production/_133176300_gettyimages-2149005659-1.jpg"/>
         </item>
         <item>
             <title><![CDATA[Guns and gold seized in Canada bullion heist probe]]></title>
             <description><![CDATA[Alleged driver and gun-runner arrested in probe into C$20m of gold stolen from a Toronto airport.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-68832680</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68832680#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68832680#1</guid>
             <pubDate>Wed, 17 Apr 2024 17:02:12 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38B5/production/_133171541_goldbars.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Ivy League college head slams campus antisemitism]]></title>
-            <description><![CDATA[But at a congressional hearing, Nemat Shafik hedges when asked about a slogan widely seen as antisemitic.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68838018</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68838018#0</guid>
-            <pubDate>Thu, 18 Apr 2024 02:12:35 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/333D/production/_133171131_gettyimages-2149005659-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Boeing whistleblower says he was put through 'hell']]></title>
-            <description><![CDATA[Lawmakers voice concerns over claims that Boeing threatens staff who raise safety concerns.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68834525</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68834525#0</guid>
-            <pubDate>Thu, 18 Apr 2024 01:00:07 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/DE69/production/_133173965_gettyimages-2147882906.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Porter banned for life by NBA for betting violations]]></title>
-            <description><![CDATA[Toronto Raptors forward Jontay Porter is given a lifetime ban by the NBA for breaching the league's betting rules.]]></description>
-            <link>https://www.bbc.co.uk/sport/basketball/68840803</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/sport/basketball/68840803#0</guid>
-            <pubDate>Wed, 17 Apr 2024 18:04:03 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4977/production/_133170881_gettyimages-2072135381.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[US man accused of shooting Uber driver caught in scam]]></title>
-            <description><![CDATA[Police say Loletha Hall, 61, was killed by William Brock, 81, who believed she was part of a ransom plot.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68838017</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68838017#0</guid>
-            <pubDate>Wed, 17 Apr 2024 18:53:22 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/140C5/production/_133171128_screenshot-2024-04-16-at-6-54-42-pm.png"/>
-        </item>
-        <item>
-            <title><![CDATA[US student's speech cancelled in Israel-Gaza hate row]]></title>
-            <description><![CDATA[The decision to cancel the valedictorian's speech came amid a backlash over her social media.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68828082</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68828082#1</guid>
-            <pubDate>Wed, 17 Apr 2024 10:54:05 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1121/production/_133158340_usc1-2.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Seven jurors selected so far in historic Trump trial]]></title>
-            <description><![CDATA[Opinionated New Yorkers have complicated the process - as the court takes a rest day on Wednesday.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68832369</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68832369#1</guid>
-            <pubDate>Wed, 17 Apr 2024 02:14:47 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1786E/production/_133166369_1c099d152aa8ebab290ae3c0f3c7874046f992910_380_2079_11691000x563.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Biden's options narrow after Iran's attack on Israel]]></title>
-            <description><![CDATA[The unprecedented assault has changed the political calculus, writes the BBC's Gary O'Donoghue.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68832679</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68832679#1</guid>
-            <pubDate>Wed, 17 Apr 2024 00:52:58 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18566/production/_133168699_gettyimages-2051180594.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA['Psychic' conman jailed for swindling 1.3m Americans]]></title>
-            <description><![CDATA[Canadian Patrice Runner made $175m over 20 years in leaflet scam claiming he could make people rich.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68831124</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68831124#1</guid>
-            <pubDate>Tue, 16 Apr 2024 19:22:38 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11C98/production/_133165827_gettyimages-2131940338.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Nasa says part of ISS station hit Florida home]]></title>
-            <description><![CDATA[The 0.7kg metal object tore through man's roof after re-entering Earth's atmosphere.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68828078</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68828078#1</guid>
-            <pubDate>Tue, 16 Apr 2024 15:00:59 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15BD6/production/_133164098_capture.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Kansas women allegedly killed by 'God's misfits']]></title>
-            <description><![CDATA[Four members of an "anti-government" group are suspected of kidnapping and killing two Kansas mothers.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68830214</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68830214#1</guid>
-            <pubDate>Wed, 17 Apr 2024 09:11:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F6F0/production/_133161236_kansascomp.jpg"/>
         </item>
         <item>
             <title><![CDATA[Runaway circus elephant stops traffic in Montana]]></title>
@@ -189,14 +181,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68793086#2</guid>
             <pubDate>Thu, 11 Apr 2024 17:05:04 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D7E8/production/_133127255_p0hq9qp9.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Watch OJ Simpson's notorious 1994 car chase]]></title>
-            <description><![CDATA[Archive video shows the police pursuit of a white Ford Bronco carrying Simpson as he fled in Los Angeles.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-68793085</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-68793085#2</guid>
-            <pubDate>Thu, 11 Apr 2024 15:51:45 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62B8/production/_133127252_p0hq8ypc.jpg"/>
         </item>
         <item>
             <title><![CDATA[Wildcard witness and untested legal theory: How strong is first Trump case?]]></title>

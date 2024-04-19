@@ -96,7 +96,6 @@ steps:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
-#  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
@@ -110,14 +109,13 @@ steps:
   env:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
- # - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
   - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
   - RAILS_ENV=production
 
 # This does NOT work
 # - name: 'gcr.io/cloud-builders/gcloud'
-#   id: 6. Push DEV to Cloud run from POOR Env with DB stuff..
+#   id: 6. Push DEV-OLD to Cloud run from POOR Env with DB stuff..
 #   entrypoint: bash
 #   args: [ "bin/cb-push-to-cloudrun-dev.sh" , "latest" ]
 #   dir: webapp
@@ -128,21 +126,17 @@ steps:
 #   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
 #   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
 
-- name: 'gcr.io/cloud-builders/gcloud'
-  id: 7. Push PROD to Cloud run from POOR Env with DB stuff..
-  # waitFor:
-  # - 'step1 docker build'
-  # - 'step2 docker tag'
-  # - 'step3 tag SHA and VERSION'
-  entrypoint: bash
-  args:
-  - bin/cb-push-to-cloudrun-prod.sh
-  allowFailure: true
-  dir: webapp
-  env:
-  - 'PROJECT_ID=$PROJECT_ID'
-  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
-  - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
-  - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
+# - name: 'gcr.io/cloud-builders/gcloud'
+#   id: 7. Push PROD-OLD to Cloud run from POOR Env with DB stuff..
+#   entrypoint: bash
+#   args:
+#   - bin/cb-push-to-cloudrun-prod.sh
+#   allowFailure: true
+#   dir: webapp
+#   env:
+#   - 'PROJECT_ID=$PROJECT_ID'
+#   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+#   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+#   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
+#   - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
 

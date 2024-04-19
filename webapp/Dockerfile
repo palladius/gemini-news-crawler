@@ -13,7 +13,8 @@ ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
     BUNDLE_PATH="/usr/local/bundle" \
     BUNDLE_WITHOUT="development"  \
-    OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+    OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES \
+    BUCKET_NAME="palladius-genai-gemini-news-crawler"
 
 
 

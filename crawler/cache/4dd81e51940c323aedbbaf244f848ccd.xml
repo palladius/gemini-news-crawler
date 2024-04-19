@@ -5,6 +5,34 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>You are what you see</title>
+      <description> &lt;a href="https://schwad.github.io/2024/04/18/you-are-what-you-see.html" rel="nofollow"&gt;https://schwad.github.io/2024/04/18/you-are-what-you-see.html&lt;/a&gt; </description>
+      <pubDate>Thu, 18 Apr 2024 21:39:29 +0000</pubDate>
+      <link>https://rubyflow.com/p/i633zw-you-are-what-you-see</link>
+      <guid>https://rubyflow.com/p/i633zw-you-are-what-you-see</guid>
+    </item>
+    <item>
+      <title>RailsConf 2024 Countdown — Behind the Scenes with Kevin Murphy</title>
+      <description> 📣 The latest Ruby for All episode is now available! </description>
+      <pubDate>Thu, 18 Apr 2024 17:10:53 +0000</pubDate>
+      <link>https://rubyflow.com/p/ta51gk-railsconf-2024-countdown-behind-the-scenes-with-kevin-murphy</link>
+      <guid>https://rubyflow.com/p/ta51gk-railsconf-2024-countdown-behind-the-scenes-with-kevin-murphy</guid>
+    </item>
+    <item>
+      <title>New version of DnsMock has been released 🚀</title>
+      <description> Added ability to interact with DNS message question/answer context. Mimic any DNS records for your test environment and even more: &lt;a href="https://github.com/mocktools/ruby-dns-mock" rel="nofollow"&gt;https://github.com/mocktools/ruby-dns-mock&lt;/a&gt; </description>
+      <pubDate>Thu, 18 Apr 2024 12:40:09 +0000</pubDate>
+      <link>https://rubyflow.com/p/r7fal9-new-version-of-dnsmock-has-been-released-</link>
+      <guid>https://rubyflow.com/p/r7fal9-new-version-of-dnsmock-has-been-released-</guid>
+    </item>
+    <item>
+      <title>Delegated types in Rails: I tried them, and I'm not sure I really understood them.</title>
+      <description> Developers have been scratching their head trying to figure out delegated types for ages. Today, I want to share a real-world use case. &lt;a href="https://remimercier.com/delegated-types/" rel="nofollow"&gt;I’ll walk you through my pre-existing domain architecture, my initial requirements, my mistakes, how I eventually used delegated types, what I learned and my open questions&lt;/a&gt;. </description>
+      <pubDate>Thu, 18 Apr 2024 07:29:17 +0000</pubDate>
+      <link>https://rubyflow.com/p/z639hp-delegated-types-in-rails-i-tried-them-and-im-not-sure-i-really-understood-them</link>
+      <guid>https://rubyflow.com/p/z639hp-delegated-types-in-rails-i-tried-them-and-im-not-sure-i-really-understood-them</guid>
+    </item>
+    <item>
       <title>New SudoRails version has been released 🚀 Sudo mode for your Rails controllers 🔒</title>
       <description> Protect any Rails action with a customizable password confirmation. 🙇 Inspired by &lt;em&gt;GitHub Sudo mode&lt;/em&gt;. </description>
       <pubDate>Wed, 17 Apr 2024 19:06:40 +0000</pubDate>
@@ -150,34 +178,6 @@
       <pubDate>Tue, 09 Apr 2024 04:10:53 +0000</pubDate>
       <link>https://rubyflow.com/p/mirn05-abstract-methods-and-notimplementederror-in-ruby</link>
       <guid>https://rubyflow.com/p/mirn05-abstract-methods-and-notimplementederror-in-ruby</guid>
-    </item>
-    <item>
-      <title>Windows and WSL</title>
-      <description> In this episode, we’ll look at setting up a fresh Windows 11 environment for Ruby on Rails development. We’ll be looking at a few different tricks that makes managing a Windows environment much easier. &lt;a href="https://www.driftingruby.com/episodes/windows-and-wsl?utm_medium=social&amp;amp;utm_campaign=weekly_episode&amp;amp;utm_source=rubyflow" rel="nofollow"&gt;https://www.driftingruby.com/episodes/windows-and-wsl&lt;/a&gt; </description>
-      <pubDate>Mon, 08 Apr 2024 11:35:40 +0000</pubDate>
-      <link>https://rubyflow.com/p/gequ8i-windows-and-wsl</link>
-      <guid>https://rubyflow.com/p/gequ8i-windows-and-wsl</guid>
-    </item>
-    <item>
-      <title>How to add or remove a Stimulus controller</title>
-      <description> A quick memo about how to add or remove a Stimulus controller - I recommend to rely on generator this time. </description>
-      <pubDate>Mon, 08 Apr 2024 11:28:32 +0000</pubDate>
-      <link>https://rubyflow.com/p/absg4o-how-to-add-or-remove-a-stimulus-controller</link>
-      <guid>https://rubyflow.com/p/absg4o-how-to-add-or-remove-a-stimulus-controller</guid>
-    </item>
-    <item>
-      <title>Introducing ActiveRecordAnonymizer</title>
-      <description> Excited to share a new Ruby gem I’ve been working on: ActiveRecordAnonymizer! 🚀 </description>
-      <pubDate>Sun, 07 Apr 2024 12:14:55 +0000</pubDate>
-      <link>https://rubyflow.com/p/k6wp9i-introducing-activerecordanonymizer</link>
-      <guid>https://rubyflow.com/p/k6wp9i-introducing-activerecordanonymizer</guid>
-    </item>
-    <item>
-      <title>Optimized Model Auditing with PaperTrail</title>
-      <description> Learn how to optimize model auditing in your Rails application using the PaperTrail gem by setting up separate audit tables for each model, enhancing performance and organization in the auditing process: &lt;a href="https://danielabaron.me/blog/model-audit-paper-trail/" rel="nofollow"&gt;https://danielabaron.me/blog/model-audit-paper-trail/&lt;/a&gt; </description>
-      <pubDate>Sat, 06 Apr 2024 14:13:47 +0000</pubDate>
-      <link>https://rubyflow.com/p/dagsra-optimized-model-auditing-with-papertrail</link>
-      <guid>https://rubyflow.com/p/dagsra-optimized-model-auditing-with-papertrail</guid>
     </item>
   </channel>
 </rss>
