@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://rubyonrails.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rubyonrails.org/" rel="alternate" type="text/html" /><updated>2024-04-16T20:48:26+00:00</updated><id>https://rubyonrails.org/feed.xml</id><title type="html">Ruby on Rails</title><subtitle>A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.</subtitle><entry><title type="html">A week of fixes</title><link href="https://rubyonrails.org/2024/4/12/this-week-in-rails" rel="alternate" type="text/html" title="A week of fixes" /><published>2024-04-12T00:00:00+00:00</published><updated>2024-04-12T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/4/12/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/4/12/this-week-in-rails"><![CDATA[<p>Hi, it’s <a href="https://greg.molnar.io">Greg</a>. Let’s explore this week’s changes in the Rails codebase.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://rubyonrails.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rubyonrails.org/" rel="alternate" type="text/html" /><updated>2024-04-19T12:54:25+00:00</updated><id>https://rubyonrails.org/feed.xml</id><title type="html">Ruby on Rails</title><subtitle>A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.</subtitle><entry><title type="html">ActiveRecord::Base#pluck accepts hash values, devcontainers improvements and more!</title><link href="https://rubyonrails.org/2024/4/19/this-week-in-rails" rel="alternate" type="text/html" title="ActiveRecord::Base#pluck accepts hash values, devcontainers improvements and more!" /><published>2024-04-19T00:00:00+00:00</published><updated>2024-04-19T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/4/19/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/4/19/this-week-in-rails"><![CDATA[<p>Hey everyone, Happy Friday! I hope you get some time to unwind and relax going into the weekend 😎</p>
+
+<p><a href="https://www.saeloun.com/team/vipul">Vipul</a> here with the latest updates for This Week in Rails. Let’s dive in.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51565">Allow ActiveRecord::Base#pluck to accept hash values</a><br />
+This change adds support for  <code class="language-plaintext highlighter-rouge">ActiveRecord::Base#pluck</code> to accept hash values.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Before</span>
+<span class="no">Post</span><span class="p">.</span><span class="nf">joins</span><span class="p">(</span><span class="ss">:comments</span><span class="p">).</span><span class="nf">pluck</span><span class="p">(</span><span class="s2">"posts.id"</span><span class="p">,</span> <span class="s2">"comments.id"</span><span class="p">,</span> <span class="s2">"comments.body"</span><span class="p">)</span>
+
+<span class="c1"># After</span>
+<span class="no">Post</span><span class="p">.</span><span class="nf">joins</span><span class="p">(</span><span class="ss">:comments</span><span class="p">).</span><span class="nf">pluck</span><span class="p">(</span><span class="ss">posts: </span><span class="p">[</span><span class="ss">:id</span><span class="p">],</span> <span class="ss">comments: </span><span class="p">[</span><span class="ss">:id</span><span class="p">,</span> <span class="ss">:body</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>The same applies to <code class="language-plaintext highlighter-rouge">.pick</code>, which is implemented using <code class="language-plaintext highlighter-rouge">.pluck</code>.</p>
+
+<p><a href="https://github.com/rails/rails/pull/48785">Fix child association loading in :n_plus_one_only mode</a>   <br />
+Strict loading in <code class="language-plaintext highlighter-rouge">:n_plus_one_only</code> mode is designed to prevent performance issues when deeply traversing associations. 
+It allows <code class="language-plaintext highlighter-rouge">Person.find(1).posts</code>, but not <code class="language-plaintext highlighter-rouge">Person.find(1).posts.map(&amp;:category)</code>. 
+This fix avoids the surprise that occurs when <code class="language-plaintext highlighter-rouge">person.posts.first</code> eagerly loads the whole association rather than allowing the user to manage the child association.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">person</span> <span class="o">=</span> <span class="no">Person</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">person</span><span class="p">.</span><span class="nf">strict_loading!</span><span class="p">(</span><span class="ss">mode: :n_plus_one_only</span><span class="p">)</span>
+
+<span class="c1"># Before</span>
+<span class="n">person</span><span class="p">.</span><span class="nf">posts</span><span class="p">.</span><span class="nf">first</span>
+<span class="c1"># SELECT * FROM posts WHERE person_id = 1; -- non-deterministic order</span>
+
+<span class="c1"># After</span>
+<span class="n">person</span><span class="p">.</span><span class="nf">posts</span><span class="p">.</span><span class="nf">first</span> <span class="c1"># this is 1+1, not N+1</span>
+<span class="c1"># SELECT * FROM posts WHERE person_id = 1 ORDER BY id LIMIT 1;</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/rails/rails/pull/49267">Add save_and_open_page helper to IntegrationTest</a>  <br />
+<code class="language-plaintext highlighter-rouge">save_and_open_page</code> is a capybara helper that lets developers inspect the status of the page at any given point in their tests.
+This change adds <code class="language-plaintext highlighter-rouge">save_and_open_page</code> helper support to allow using them from within system tests.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51588">Change devcontainer.json to forward used ports for the project</a><br />
+Currently the generated <code class="language-plaintext highlighter-rouge">devcontainer.json</code> file does not forward the ports required for the project, so we might need to manually change it in order to access the project when running via <code class="language-plaintext highlighter-rouge">devcontainer</code>.
+This PR adds the required forwarding for the project by default.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51520">Add node and yarn to devcontainer when creating a project with Javascript</a><br />
+Currently when creating a rails project with javascript (–javascript=esbuild for example) neither node or yarn are added to the devcontainer. 
+This change adds both when needed.</p>
+
+<p><a href="https://github.com/rails/rails/pull/51563">Fix typo in Feature Policy for idle-detection</a><br />
+This change fixes a small typo in feature policy <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy/idle-detection"><code class="language-plaintext highlighter-rouge">idle-detection</code></a> and not <code class="language-plaintext highlighter-rouge">idle_detection</code> which was leading to this policy not being applied before.</p>
+
+<p><em>You can view the whole list of changes <a href="https://github.com/rails/rails/compare/@%7B2024-04-13%7D...main@%7B2024-04-19%7D">here</a>.</em><br />
+<em>We had <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240413-20240419">17 contributors</a> to the Rails codebase this past week!</em></p>
+
+<p>Until next time!</p>
+
+<p><em><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</em></p>]]></content><author><name>vipulnsward</name></author><category term="news" /><summary type="html"><![CDATA[Hey everyone, Happy Friday! I hope you get some time to unwind and relax going into the weekend 😎]]></summary></entry><entry><title type="html">A week of fixes</title><link href="https://rubyonrails.org/2024/4/12/this-week-in-rails" rel="alternate" type="text/html" title="A week of fixes" /><published>2024-04-12T00:00:00+00:00</published><updated>2024-04-12T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/4/12/this-week-in-rails</id><content type="html" xml:base="https://rubyonrails.org/2024/4/12/this-week-in-rails"><![CDATA[<p>Hi, it’s <a href="https://greg.molnar.io">Greg</a>. Let’s explore this week’s changes in the Rails codebase.</p>
 
 <p><a href="https://github.com/rails/rails/pull/51549">Fix union select parentheses</a><br />
 When building <code class="language-plaintext highlighter-rouge">UNION</code> or <code class="language-plaintext highlighter-rouge">UNION ALL</code> queries involving <code class="language-plaintext highlighter-rouge">LIMIT</code> or <code class="language-plaintext highlighter-rouge">ORDER BY</code>, Arel generated invalid SQL previously. This pull request changes <code class="language-plaintext highlighter-rouge">Arel::Visitors::ToSql</code> so that <code class="language-plaintext highlighter-rouge">SELECT</code> statements in <code class="language-plaintext highlighter-rouge">Union</code> and <code class="language-plaintext highlighter-rouge">UnionAll</code> nodes are enclosed in parentheses to avoid syntax errors.</p>
@@ -350,43 +403,4 @@ Using <em>query_constraints</em> method with a single non-primary-key column use
 
 <p>Para mais informações sobre Rails Girls São Paulo e para participar de próximas edições, visite: https://railsgirls.com.br.  <br /></p>
 
-<p>Estamos ansiosos para encontrar todos em São Paulo. Até breve!  <br /></p>]]></content><author><name>Rails Foundation</name></author><category term="news" /><summary type="html"><![CDATA[(Portuguese below)]]></summary></entry><entry><title type="html">Enhanced assert_broadcasts, file support for Logger outputs and more!</title><link href="https://rubyonrails.org/2024/2/24/this-week-in-rails-enhanced-assert_broadcasts-file-support-for-logger-outputs-and-more-25a0f981" rel="alternate" type="text/html" title="Enhanced assert_broadcasts, file support for Logger outputs and more!" /><published>2024-02-24T00:00:00+00:00</published><updated>2024-02-24T00:00:00+00:00</updated><id>https://rubyonrails.org/2024/2/24/this-week-in-rails-enhanced-assert_broadcasts-file-support-for-logger-outputs-and-more-25a0f981</id><content type="html" xml:base="https://rubyonrails.org/2024/2/24/this-week-in-rails-enhanced-assert_broadcasts-file-support-for-logger-outputs-and-more-25a0f981"><![CDATA[<p>Hope you’re having a lovely weekend. <a href="https://twitter.com/siaw23">Emmanuel</a> here with yet another batch of Rails updates for you!</p>
-
-<p><a href="https://github.com/rails/rails/pull/47025">assert_broadcasts returns the messages that were broadcast
-</a><br />
-<em>assert_broadcasts</em> now not only confirms the broadcast but also provides access to the messages that were broadcast. This enhancement, similar to what we have in <em>assert_emails</em>, facilitates additional analyses of the transmitted messages.<br />
-Here’s an example:</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">test_emails_more_thoroughly</span>
-  <span class="n">email</span> <span class="o">=</span> <span class="n">assert_emails</span> <span class="mi">1</span> <span class="k">do</span>
-    <span class="no">ContactMailer</span><span class="p">.</span><span class="nf">welcome</span><span class="p">.</span><span class="nf">deliver_now</span>
-  <span class="k">end</span>
-  <span class="n">assert_email</span> <span class="s1">'Hi there'</span><span class="p">,</span> <span class="n">email</span><span class="p">.</span><span class="nf">subject</span>
-
-  <span class="n">emails</span> <span class="o">=</span> <span class="n">assert_emails</span> <span class="mi">2</span> <span class="k">do</span>
-    <span class="no">ContactMailer</span><span class="p">.</span><span class="nf">welcome</span><span class="p">.</span><span class="nf">deliver_now</span>
-    <span class="no">ContactMailer</span><span class="p">.</span><span class="nf">welcome</span><span class="p">.</span><span class="nf">deliver_later</span>
-  <span class="k">end</span>
-  <span class="n">assert_email</span> <span class="s1">'Hi there'</span><span class="p">,</span> <span class="n">emails</span><span class="p">.</span><span class="nf">first</span><span class="p">.</span><span class="nf">subject</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<p><a href="https://github.com/rails/rails/pull/50901">Autosaving has_one sets foreign key attribute when unchanged</a><br />
-This pull request corrected an issue where the <em>has_one</em> association would erroneously set the foreign key attribute even when unchanged. This behavior was inconsistent with the autosaving mechanism of <em>belongs_to</em> associations and could lead to unintended side effects, such as triggering an <em>ActiveRecord::ReadOnlyAttributeError</em> when the foreign key attribute is set as read-only.</p>
-
-<p><a href="https://github.com/rails/rails/pull/51078">Fix override existing join types in the query in the where.associated method</a><br />
-The fix now ensures that the association is joined using the correct join type (either INNER JOIN or LEFT OUTER JOIN) based on the existing joins in the scope. This prevents inadvertent overrides of existing join types and guarantees consistency in the resulting SQL queries.</p>
-
-<p><a href="https://github.com/rails/rails/pull/51131">Add parameter filter capability for redirect locations</a><br />
-Here we add a parameter filter capability for redirect locations. This feature utilizes the <em>config.filter_parameters</em> to determine which parameters should be filtered. As a result, redirects will not display filtered parameters, ensuring sensitive information remains protected. A redirect location with filtered parameters will now look like: <em>Redirected to secret.foo.bar?username=roque&amp;password=[FILTERED]</em>.</p>
-
-<p><a href="https://github.com/rails/rails/pull/51125">Support filenames in Logger.logger_outputs_to?</a><br />
-Well, this one is straightforward, we can now do stuff like <em>Logger.logger_outputs_to?(‘/var/log/rails.log’)</em>.</p>
-
-<p>That’s it! We saw <a href="https://contributors.rubyonrails.org/contributors/in-time-window/20240216-20240224">43 people contribute</a> to Rails this past week!</p>
-
-<p>Take care :)</p>
-
-<p>Your weekly inside scoop of interesting commits, pull requests and more from <a href="https://github.com/rails/rails"><strong>Rails</strong></a>.</p>
-
-<p><i><a href="https://world.hey.com/this.week.in.rails">Subscribe</a> to get these updates mailed to you.</i></p>]]></content><author><name>Emmanuel Hayford</name></author><category term="news" /><summary type="html"><![CDATA[Hope you’re having a lovely weekend. Emmanuel here with yet another batch of Rails updates for you!]]></summary></entry></feed>
+<p>Estamos ansiosos para encontrar todos em São Paulo. Até breve!  <br /></p>]]></content><author><name>Rails Foundation</name></author><category term="news" /><summary type="html"><![CDATA[(Portuguese below)]]></summary></entry></feed>

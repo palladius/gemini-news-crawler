@@ -43,6 +43,9 @@
 <p>Updated the default <a href="https://cloud.google.com/dataproc-serverless/docs/concepts/autoscaling#autoscaling_v2">autoscaling V2</a> cool-down time from <code>2m</code> to <code>1m</code> to reduce scaling latency.</p>
 <h3>Fixed</h3>
 <p>Fixed a bug where Dataproc Serverless sessions that live longer than 48 hours are underbilled.</p>
+<h2 class="release-note-product-title">Dialogflow</h2>
+<h3>Feature</h3>
+<p>Dialogflow CX: The <a href="https://cloud.google.com/dialogflow/cx/docs/reference/rpc/google.cloud.dialogflow.cx.v3beta1#conversationhistory">Conversation history API</a> is now available for public preview.</p>
 <h2 class="release-note-product-title">Generative AI on Vertex AI</h2>
 <h3>Feature</h3>
 <p>Meta&#39;s open weight <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/open-models/use-llama">LLama 3 model</a> is available in the Vertex AI Model Garden. </p>

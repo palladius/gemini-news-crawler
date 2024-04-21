@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Fri, 19 Apr 2024 00:47:54 -0400</pubDate>
-<lastBuildDate>Fri, 19 Apr 2024 00:47:54 -0400</lastBuildDate>
+<pubDate>Fri, 19 Apr 2024 11:05:38 -0400</pubDate>
+<lastBuildDate>Fri, 19 Apr 2024 11:05:38 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,7 +17,77 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
-<title>Asia Markets Fall After Israeli Missile Strike on Iran</title>
+<title>How Not to Invest in the Bond Market</title>
+<link>https://www.wsj.com/articles/long-term-bond-funds-how-not-to-invest-in-the-bond-market-22ca937f?mod=rss_markets_main</link>
+<description><![CDATA[Investors poured billions into long-term U.S. government funds last year. Right on cue, the market tanked—again.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 11:04:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001715698</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>The Intelligent Investor</wsj:articletype>
+</item>
+<item>
+<title>Stock Futures Slip, Oil Gyrates After Israel Strikes Iran</title>
+<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-04-19-2024-2e20e078?mod=rss_markets_main</link>
+<description><![CDATA[The strikes jolted prices for stocks, bonds, currencies and commodities, but the moves quickly abated as the limited scope of the assault became clear.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 08:21:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001717050</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Today's Markets</wsj:articletype>
+</item>
+<item>
+<title>The Headache at the End of the Costco Gold Rush</title>
+<link>https://www.wsj.com/articles/selling-costco-gold-bars-f14e966f?mod=rss_markets_main</link>
+<description><![CDATA[Selling gold bars takes more time and money than stocks, bonds or crypto.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 08:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001715508</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Personal Finance</wsj:articletype>
+</item>
+<item>
+<title>Banks Believe They Are Well-Prepared for Commercial Real Estate Fallout</title>
+<link>https://www.wsj.com/articles/banks-believe-they-are-well-prepared-for-commercial-real-estate-fallout-b34c6cbf?mod=rss_markets_main</link>
+<description><![CDATA[Banks have built up substantial reserves against office loans going bad.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 07:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001716631</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>A Century-Old Lending Lifeline for Troubled Banks Has a Major Flaw. The Fed Wants to Fix It.</title>
+<link>https://www.wsj.com/articles/federal-reserve-discount-window-banks-e59d6dbf?mod=rss_markets_main</link>
+<description><![CDATA[Borrowing from the discount window carries a stigma officials hope to reduce.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001709148</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Financial Regulation</wsj:articletype>
+</item>
+<item>
+<title>Netflix Dealt With the Freeloaders. Its Next Act Will Be Tougher.</title>
+<link>https://www.wsj.com/articles/netflix-earnings-analysis-23b12db8?mod=rss_markets_main</link>
+<description><![CDATA[The decision to stop reporting subscriber numbers will put a greater focus on revenue growth—and advertising.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001716463</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>America's Cigarette Market Is Up for Grabs</title>
+<link>https://www.wsj.com/articles/americas-cigarette-market-is-up-for-grabs-897674af?mod=rss_markets_main</link>
+<description><![CDATA[Philip Morris will soon be able to sell its most successful smoke-free product in the U.S., setting up a battle with its former parent company Altria.]]></description>
+<content:encoded/>
+<pubDate>Fri, 19 Apr 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001715258</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Asia Markets Fall After Israeli Strike on Iran</title>
 <link>https://www.wsj.com/articles/asia-markets-fall-after-israeli-missile-strike-on-iran-faa25456?mod=rss_markets_main</link>
 <description><![CDATA[Stock markets in Asia fell while safe-haven assets such as U.S. Treasurys, the yen and the Swiss franc rose sharply after Israel launched a retaliatory strike against Iran early Friday.]]></description>
 <content:encoded/>
@@ -145,76 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001711342</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Oil Markets</wsj:articletype>
-</item>
-<item>
-<title>Who Is Going to Win the Presidential Election? Want to Bet?</title>
-<link>https://www.wsj.com/articles/presidential-election-2024-betting-websites-15f0fc94?mod=rss_markets_main</link>
-<description><![CDATA[A political-futures website lets participants wager on presidential outcomes.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 11:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001648841</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Journal Reports: Investing Monthly</wsj:articletype>
-</item>
-<item>
-<title>Copper and Aluminum Prices Reach Annual Highs on Tight Supply, Higher Demand</title>
-<link>https://www.wsj.com/articles/copper-and-aluminum-prices-reach-annual-highs-on-tight-supply-higher-demand-2220523e?mod=rss_markets_main</link>
-<description><![CDATA[Copper and aluminum prices both breached their highest levels since 2022 and 2023, respectively, as global demand picks up and supplies tighten.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 10:58:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001711360</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Commodities</wsj:articletype>
-</item>
-<item>
-<title>Dealmaking Is Looking Up as Companies Stop Waiting Out the Fed</title>
-<link>https://www.wsj.com/articles/dealmaking-is-looking-up-as-companies-stop-waiting-out-the-fed-db447738?mod=rss_markets_main</link>
-<description><![CDATA[Borrowers are getting on with things as rates are set to remain high for longer.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 07:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001710145</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>General Electric's Power Spinoff Could Be Formidable Once Fully Charged</title>
-<link>https://www.wsj.com/articles/general-electrics-power-spinoff-could-be-formidable-once-fully-charged-0bd15005?mod=rss_markets_main</link>
-<description><![CDATA[GE Vernova is expected to turn profitable this year and benefit from growing electricity demand.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001709317</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Nelson Peltz Got Crushed by Disney. Can He Recover?</title>
-<link>https://www.wsj.com/articles/nelson-peltz-disney-proxy-fight-586e1c5f?mod=rss_markets_main</link>
-<description><![CDATA[After his Trian Partners lost its proxy fight, a big bet on Unilever comes into focus.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001708648</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
-</item>
-<item>
-<title>Chinese Regulators Downplay Effects of New Equities Rules</title>
-<link>https://www.wsj.com/articles/chinese-regulators-downplay-effects-of-new-equities-rules-fed6c00c?mod=rss_markets_main</link>
-<description><![CDATA[Chinese regulators sought to reassure investors in the wake of new rules governing its beleaguered equities markets, saying the once-in-a-decade changes will affect relatively few of the country’s thousands of publicly traded companies.]]></description>
-<content:encoded/>
-<pubDate>Wed, 17 Apr 2024 02:44:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001710579</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Financial Regulation</wsj:articletype>
-</item>
-<item>
-<title>Stocks Stabilize, Treasury Yields Reach New Five-Month Highs</title>
-<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-04-16-2024-d30043dc?mod=rss_markets_main</link>
-<description><![CDATA[Fed Chair Jerome Powell shifted his tone on rate cuts, matching investors’ expectations.]]></description>
-<content:encoded/>
-<pubDate>Tue, 16 Apr 2024 16:37:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001709131</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Today's Markets</wsj:articletype>
 </item>
 </channel>
 </rss>

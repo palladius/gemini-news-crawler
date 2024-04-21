@@ -9,11 +9,43 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 19 Apr 2024 04:53:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Apr 2024 17:49:09 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Children among seven dead in Russia strike on Ukraine]]></title>
+            <description><![CDATA[Russia hits cities in central Ukraine, as Kyiv claims to have downed a strategic Russian warplane.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68853490</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68853490#0</guid>
+            <pubDate>Fri, 19 Apr 2024 12:34:21 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15728/production/_133184878_photo_2024-04-19_06-36-41.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[After their PM halts Ukraine aid, Slovaks dig deep to help]]></title>
+            <description><![CDATA[A crowdfunding campaign to buy artillery shells for Ukraine quickly exceeds its target of €1m (£850m).]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68843542</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68843542#0</guid>
+            <pubDate>Fri, 19 Apr 2024 13:25:02 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15778/production/_133182978_ukraine-top2-epa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Man held over Paris bomb threat at Iran consulate]]></title>
+            <description><![CDATA[Reports say a witness saw a man entering the consulate carrying a grenade or explosive vest.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68853494</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68853494#0</guid>
+            <pubDate>Fri, 19 Apr 2024 13:19:28 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12411/production/_133196747_51fe12ea1a10846213b23c517f11df1b2dee0f7b0_477_5341_30061000x563.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Three arrested over attack on Navalny ally]]></title>
+            <description><![CDATA[Leonid Volkov was hospitalised and his arm broken in the attack outside his Lithuanian home in March.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68854314</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68854314#0</guid>
+            <pubDate>Fri, 19 Apr 2024 16:29:32 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/119D5/production/_133194127_volkov.jpg"/>
+        </item>
         <item>
             <title><![CDATA[EU proposes some free movement for UK young people]]></title>
             <description><![CDATA[The EU Commission says UK and EU citizens under 30 should be able to work or study for up to four years.]]></description>
@@ -42,7 +74,7 @@
             <title><![CDATA[Far-right German politician tried for Nazi slogan]]></title>
             <description><![CDATA[A leader of the AfD party is on trial for saying the words "Everything for Germany!" at a 2021 rally.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68848312</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68848312#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68848312#1</guid>
             <pubDate>Thu, 18 Apr 2024 15:57:37 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A921/production/_133179234_gettyimages-2147896864.jpg"/>
         </item>
@@ -50,7 +82,7 @@
             <title><![CDATA[Spain and Italy clash over abortion laws]]></title>
             <description><![CDATA[Italy's prime minister hits back at Spanish criticism of a bill allowing anti-abortion groups in clinics.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68845011</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68845011#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68845011#1</guid>
             <pubDate>Thu, 18 Apr 2024 14:16:06 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0F25/production/_133177830_gettyimages-2147857973.jpg"/>
         </item>
@@ -58,17 +90,9 @@
             <title><![CDATA[EU to tighten Iran sanctions after Israel attack]]></title>
             <description><![CDATA[The expanded penalties target companies involved in the production of drones and missiles.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68842436</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68842436#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68842436#1</guid>
             <pubDate>Thu, 18 Apr 2024 04:53:52 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46A4/production/_133148081_6597d58888d3637cf86bf3e64048f12b5fad90a90_0_2000_13341000x667.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Ukraine warns of WW3 ahead of stalled US aid vote]]></title>
-            <description><![CDATA[Denys Shmyhal tells the BBC his country desperately needs the US to approve long-stalled security assistance.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68840261</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68840261#0</guid>
-            <pubDate>Thu, 18 Apr 2024 11:22:35 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/122ED/production/_133177447_ukrainesoldier-reuters.jpg"/>
         </item>
         <item>
             <title><![CDATA[Croatia braces for horse-trading after tight election]]></title>
@@ -79,22 +103,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10CEF/production/_133174886_phonesreuters.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Spy scandal revives fears of Austrian exposure to Russia]]></title>
-            <description><![CDATA[Egisto Ott was detained last month on suspicion of spying for Russia, prompting a raft of allegations.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68833834</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68833834#1</guid>
-            <pubDate>Thu, 18 Apr 2024 03:04:15 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C073/production/_133176294_jan_marsalek_comp.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Russian missile strike in northern Ukraine kills 17]]></title>
-            <description><![CDATA[Dozens more people are wounded in the attack close to the centre of Chernihiv, officials say.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68833833</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68833833#1</guid>
-            <pubDate>Wed, 17 Apr 2024 14:32:33 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7C8E/production/_133168813_ukraine_getty.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Sweden votes to lower age to change legal gender to 16]]></title>
             <description><![CDATA[Swedes have been able to change their legally recognised gender since 1972 - but this will make it easier.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-68841275</link>
@@ -103,36 +111,12 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91E3/production/_133174373_75168983009b8593c2dc8c9b7b25f2fb11436929.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Right-wing Brussels event resumes after legal U-turn]]></title>
-            <description><![CDATA[The second day of a conference for right-wing politicians is going ahead after a ban was overturned.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68826578</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68826578#1</guid>
-            <pubDate>Wed, 17 Apr 2024 10:15:59 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/134F8/production/_133169097_eef080c0504d1cb3367ae5fbf0f9fe85fdce1e8f0_441_4896_27544896x2754.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Copenhagen vows to rebuild fire-hit stock exchange]]></title>
-            <description><![CDATA[The pledge comes after a huge blaze devastated the 17th-Century landmark on Tuesday.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68834447</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68834447#1</guid>
-            <pubDate>Wed, 17 Apr 2024 10:39:32 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/141D2/production/_133168328_gettyimages-2147872112.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA['Unprecedented' security for Games - Paris chief]]></title>
-            <description><![CDATA[Paris 2024 chief Tony Estanguet says the Games will protected by an "unprecedented" security operation, and that preparations are "in good shape".]]></description>
-            <link>https://www.bbc.co.uk/sport/olympics/68831181</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/sport/olympics/68831181#1</guid>
-            <pubDate>Tue, 16 Apr 2024 23:02:09 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6EC4/production/_133165382_gettyimages-2147825708-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Dutch princess lived in Spain after threats - reports]]></title>
-            <description><![CDATA[Princess Amalia studied in Madrid for more than a year but has since returned, sources say.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68830917</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68830917#1</guid>
-            <pubDate>Tue, 16 Apr 2024 21:26:03 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18228/production/_133165889_gettyimages-1464327441.jpg"/>
+            <title><![CDATA[Spy scandal revives fears of Austrian exposure to Russia]]></title>
+            <description><![CDATA[Egisto Ott was detained last month on suspicion of spying for Russia, prompting a raft of allegations.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68833834</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68833834#2</guid>
+            <pubDate>Thu, 18 Apr 2024 03:04:15 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/C073/production/_133176294_jan_marsalek_comp.jpg"/>
         </item>
         <item>
             <title><![CDATA[Banned in Russia after anthem for stray animals goes viral]]></title>
@@ -141,6 +125,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68826576#2</guid>
             <pubDate>Wed, 17 Apr 2024 12:16:57 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1A1E/production/_133168660_photo1713197027.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Copenhagen vows to rebuild fire-hit stock exchange]]></title>
+            <description><![CDATA[The pledge comes after a huge blaze devastated the 17th-Century landmark on Tuesday.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68834447</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68834447#2</guid>
+            <pubDate>Wed, 17 Apr 2024 10:39:32 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/141D2/production/_133168328_gettyimages-2147872112.jpg"/>
         </item>
         <item>
             <title><![CDATA[50,000 Russian soldiers confirmed dead by BBC]]></title>
@@ -165,14 +157,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68018536#2</guid>
             <pubDate>Wed, 17 Apr 2024 08:04:47 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16152/production/_132405409_gettyimages-849351740.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Workers take on car giant Volkswagen in fight for pay]]></title>
-            <description><![CDATA[VW workers in the south vote on whether to join a union - a test of how far worker activism has spread.]]></description>
-            <link>https://www.bbc.co.uk/news/business-68763233</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-68763233#2</guid>
-            <pubDate>Tue, 16 Apr 2024 23:01:59 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0D36/production/_133128330_whatsubject.jpg"/>
         </item>
         <item>
             <title><![CDATA[Watch: Facade of Copenhagen stock exchange collapses]]></title>

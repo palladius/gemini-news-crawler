@@ -8,261 +8,315 @@
     <copyright>Copyright 2024 - GEDI Gruppo Editoriale S.p.A.</copyright>
     <ttl>30</ttl>
     <category domain="https://www.repubblica.it">/repubblica/esteri</category>
-    <category domain="https://www.repubblica.it">/repubblica/politica</category>
-    <category domain="https://bologna.repubblica.it">/rep-bologna/cronaca</category>
     <category domain="https://www.repubblica.it">/repubblica/cronaca</category>
-    <category domain="https://www.repubblica.it">/repubblica/spettacoli/tv-radio</category>
-    <category domain="https://www.repubblica.it">/repubblica/economia</category>
-    <category domain="https://torino.repubblica.it">/rep-torino/cronaca</category>
+    <category domain="https://www.repubblica.it">/repubblica/politica</category>
+    <category domain="https://bari.repubblica.it">/rep-bari/cronaca</category>
+    <category domain="https://www.repubblica.it">/repubblica/cultura</category>
     <category domain="https://milano.repubblica.it">/rep-milano/cronaca</category>
-    <pubDate>Fri, 19 Apr 2024 06:32:12 +0200</pubDate>
-    <lastBuildDate>Fri, 19 Apr 2024 06:32:12 +0200</lastBuildDate>
+    <category domain="https://www.repubblica.it">/repubblica/spettacoli/tv-radio</category>
+    <category domain="https://firenze.repubblica.it">/rep-firenze/cronaca</category>
+    <category domain="https://roma.repubblica.it">/rep-roma/cronaca</category>
+    <category domain="https://palermo.repubblica.it">/rep-palermo/cronaca</category>
+    <category domain="https://www.repubblica.it">/repubblica/spettacoli/cinema</category>
+    <category domain="https://napoli.repubblica.it">/rep-napoli/dossier/repubblica-idee-napoli</category>
+    <pubDate>Fri, 19 Apr 2024 19:32:19 +0200</pubDate>
+    <lastBuildDate>Fri, 19 Apr 2024 19:32:19 +0200</lastBuildDate>
     <item>
-      <title>Guerra in Medio Oriente, le notizie di oggi. Israele ha lanciato un attacco contro l’Iran: siti nucleari in sicurezza</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_israele_iran_hamas_notizie_oggi-422589351/</link>
-      <description><![CDATA[L'Iran ha attivato il suo sistema di difesa aerea su diverse città, come riferiscono i media statali, dopo che l'emittente ufficiale del Paese ha riportato la notizia secondo la quale sarebbero state udite forti esplosioni vicino alla città centrale di Isfahan]]></description>
+      <title>Revocata la cittadinanza di Ustica a Mussolini e ai gerarchi. Ma il Consiglio comunale la revoca pure a Bongiorno, Cousteau e Disney</title>
+      <link>https://palermo.repubblica.it/cronaca/2024/04/19/news/revocata_cittadinanza_ustica_mussolini_bongiorno_cousteau_disney-422618340/</link>
+      <description><![CDATA[E’ stato deciso ieri con un emendamento di modifica al regolamento, con cui sono decadute anche tutte le altre onorificenze assegnate nel tempo]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-palermo/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 17:09:51 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-palermo:422618340</guid>
+      <dcterms:modified>2024-04-19T17:09:51Z</dcterms:modified>
+    </item>
+    <item>
+      <title>In fiamme l’Overlook Hotel, l’albergo “da paura” dove fu girato ‘Shining’</title>
+      <link>https://www.repubblica.it/spettacoli/cinema/2024/04/19/news/incendio_overlook_hotel_shining-422618003/</link>
+      <description><![CDATA[L’incendio provocato dalle ceneri ardenti di uno dei camini dell’edificio in Oregon, diventato monumento nazionale nel ’77]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/spettacoli/cinema">Cinema</category>
+      <pubDate>Fri, 19 Apr 2024 16:52:52 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422618003</guid>
+      <dcterms:modified>2024-04-19T16:52:52Z</dcterms:modified>
+    </item>
+    <item>
+      <title>‘Pulp Fiction’, il cast si riunisce a Los Angeles. Al posto di Bruce Willis la moglie e le figlie</title>
+      <link>https://www.repubblica.it/spettacoli/cinema/2024/04/19/news/pulp_fiction_reunion_cast_trentennale-422617935/</link>
+      <description><![CDATA[Tappeto rosso al Chinese Theater per i protagonisti del cult nel trentennale dell’uscita. Assente anche il regista Quentin Tarantino. Uma Thurman: “Un film che ha cambiato il cinema”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/spettacoli/cinema">Cinema</category>
+      <pubDate>Fri, 19 Apr 2024 16:49:14 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422617935</guid>
+      <dcterms:modified>2024-04-19T16:49:14Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Guerra Ucraina - Russia, le news di oggi. Stoltenberg; “Daremo sistemi di difesa aerea Nato a Kiev”. Missili su Dnipro, distrutto un edificio residenziale</title>
+      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_ucraina_russia_news_oggi-422589851/</link>
+      <description><![CDATA[Kiev rivendica l’abbattimento di un bombardiere russo. L’allarme del direttore della Cia, William Burns: “Senza aiuti l’Ucraina può perdere la guerra entro l’anno”]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Fri, 19 Apr 2024 04:28:01 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422589351</guid>
-      <dcterms:modified>2024-04-19T04:28:01Z</dcterms:modified>
+      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
+      <pubDate>Fri, 19 Apr 2024 16:47:46 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422589851</guid>
+      <dcterms:modified>2024-04-19T16:47:46Z</dcterms:modified>
     </item>
     <item>
-      <title>Guerra in Medio Oriente, le notizie di oggi. Israele ha lanciato un attacco contro l’Iran: siti nucleari in sicurezza</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_israele_iran_hamas_notizie_oggi-422589351/</link>
-      <description><![CDATA[L'Iran ha attivato il suo sistema di difesa aerea su diverse città, come riferiscono i media statali, dopo che l'emittente ufficiale del Paese ha riportato la notizia secondo la quale sarebbero state udite forti esplosioni vicino alla città centrale di Isfahan]]></description>
+      <title>Guerra Ucraina - Russia, le news di oggi. Stoltenberg; “Daremo sistemi di difesa aerea Nato a Kiev”. Missili su Dnipro, distrutto un edificio residenziale</title>
+      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_ucraina_russia_news_oggi-422589851/</link>
+      <description><![CDATA[Kiev rivendica l’abbattimento di un bombardiere russo. L’allarme del direttore della Cia, William Burns: “Senza aiuti l’Ucraina può perdere la guerra entro l’anno”]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Fri, 19 Apr 2024 04:28:01 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422589351</guid>
-      <dcterms:modified>2024-04-19T04:28:01Z</dcterms:modified>
+      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
+      <pubDate>Fri, 19 Apr 2024 16:47:46 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422589851</guid>
+      <dcterms:modified>2024-04-19T16:47:46Z</dcterms:modified>
     </item>
     <item>
-      <title>“Confessi, lei è sposato ma guarda gli uomini”, l’umiliazione dell’agente penitenziario al test dell’omosessualità</title>
-      <link>https://torino.repubblica.it/cronaca/2024/04/19/news/test_omosessualita_agente_polizia_penitenziaria_carcere_vercelli-422586744/</link>
-      <description><![CDATA[Messo alla gogna perché sospettato di essere gay e poi trasferito. Contro di lui addirittura un procedimento disciplinare, poi archiviato. Ora ha ottenuto un risarcimento per i danni psicologici]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/rep-torino/cronaca">Cronaca</category>
-      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-torino:422586744</guid>
-      <dcterms:modified>2024-04-19T00:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>L’ambigua battaglia della destra meloniana per aprire i consultori agli ultra-cattolici</title>
-      <link>https://www.repubblica.it/politica/2024/04/19/news/consultori_familiari_legge_aborto_italia-422587697/</link>
-      <description><![CDATA[La rete delle strutture di base è ormai ridotta al lumicino. Ne sono rimaste 1.800 in tutta Italia: una ogni 32mila abitanti, il 60 per cento in meno rispetto al necessari]]></description>
+      <title>Inna Aprilova e Alexander Pastore, Palagiano piange la mamma e il figlio 12enne morti sulla statale 100: “Tragedia insensata”</title>
+      <link>https://bari.repubblica.it/cronaca/2024/04/19/news/palagiano_funerali_inna_aprilova_alexander_pastore_incidente_statale_100-422617830/</link>
+      <description><![CDATA[Lutto cittadino nel comune in provincia di Taranto nel giorno dei funerali delle vittime del nuovo incidente sulla strada per Bari: l’impatto mortale contro un tir il 16 aprile. Lei “una donna gentile e impegnata nel sociale, mamma amorevole e sempre presente”, il bambino una promessa del calcio. Gravemente ferito il padre]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/cronaca">Cronaca</category>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587697</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
+      <category domain="/rep-bari/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 16:44:10 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-bari:422617830</guid>
+      <dcterms:modified>2024-04-19T16:44:10Z</dcterms:modified>
     </item>
     <item>
-      <title>La deputata Gilda Sportiello: “Ho confessato alla Camera di aver abortito, insultata in Aula e sui social”</title>
-      <link>https://www.repubblica.it/politica/2024/04/19/news/gilda_sportiello_m5s_intervista-422587624/</link>
-      <description><![CDATA[Intervista alla parlamentare 5S, madre di un bimbo che mesi fa ha allattato tra i banchi di Montecitorio]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587624</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Europee, Ilaria Salis firma la candidatura con Avs. Il padre: “Non è una fuga, tutela i suoi diritti. L’aveva cercata anche il Pd”</title>
-      <link>https://www.repubblica.it/politica/2024/04/18/news/ilaria_salis_candidata_europee_avs-422572063/</link>
-      <description><![CDATA[Pronto il posto di capolista nel nord ovest per l’alleanza Verdi Sinistra. Meloni: “Politicizzare non aiuta”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422572063</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Rai, scontro sugli ascolti. L’ad Sergio: “Sorpasso Mediaset è fake news, siamo ancora primi”. Ma i dati lo smentiscono</title>
-      <link>https://www.repubblica.it/politica/2024/04/19/news/rai_mediaset_sorpasso_fact_checking_meloni-422585037/</link>
-      <description><![CDATA[Il dirigente di Viale Mazzini in diretta da Fiorello attacca Repubblica. La premier da Bruxelles: TeleMeloni? Non accetto lezioni di democrazia]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422585037</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Sinibaldi: “Sulla Rai la tempesta perfetta. E il governo vuole spegnere le voci libere”</title>
-      <link>https://www.repubblica.it/politica/2024/04/19/news/caduta_rai_governo_meloni_sinibaldi_intervista-422587074/</link>
-      <description><![CDATA[Intervista allo storico conduttore di Fahrenheit su Radio3: “Questo esecutivo ha una cultura fragile del pluralismo, ma il Freedom Act impone una governance indipendente entro quindici mesi”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587074</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Porta aperta di Meloni a Draghi: “Ma se ne parli solo dopo il voto”</title>
-      <link>https://www.repubblica.it/economia/2024/04/19/news/giorgia_meloni_consiglio_europeo_bruxelles_draghi_letta-422589232/</link>
-      <description><![CDATA[La premier alla conclusione del Consiglio Ue: “Contenta che si discuta di un italiano al vertice delle istituzioni europee”. E promuove il piano Letta: “Ci dice che l’Europa va cambiata”. Scontro sull’armonizzazione del mercato unico dei capitali]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422589232</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Tra Tajani e Salvini lo scontro è totale: il primo strappo Lega-Forza Italia in Veneto, scintille sull’Autonomia anche in Calabria</title>
-      <link>https://www.repubblica.it/politica/2024/04/19/news/tajani_salvini_scontro_lega_forza_italia_veneto_calabria-422585280/</link>
-      <description><![CDATA[Dalla campagna acquisti al Nord alle critiche contro la riforma, gli azzurri fanno infuriare gli alleati. E il Carroccio conferma: il nome del leader sarà nel simbolo per le Europee]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422585280</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Micciché: “Sì, Berlusconi voleva al Quirinale un presidente che liberasse Dell’Utri, ma intervenne nel 2015”</title>
-      <link>https://www.repubblica.it/politica/2024/04/19/news/micciche_renzi_caso_berlusconi_dell_utri_2015-422585605/</link>
-      <description><![CDATA[L’ex ministro siciliano: “La mia cena con Renzi avvenne nel 2021, mi disse che il Cavaliere gli aveva chiesto più volte di intervenire per l’elezione di un Capo dello Stato favorevole alla grazia”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422585605</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Iran-Israele, minacce incrociate sui siti nucleari. Onu, veto americano sullo Stato Palestinese</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/news/centrale_nucleare_israele_attacco-422587437/</link>
-      <description><![CDATA[Gli Stati Uniti ritengono improbabile un attacco prima di Pesach, la Pasqua ebraica. Ad Ankara Haniyeh pone condizioni per deporre le armi a Gaza]]></description>
+      <title>Guerra in Medio Oriente, le notizie di oggi. Israele attacca una base militare in Iran a Isfahan. Media: “Teheran non pianifica una ritorsione immediata”</title>
+      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_israele_iran_hamas_notizie_oggi-422589351/</link>
+      <description><![CDATA[L’operazione nella notte. Gli Usa: “Avvertiti ma non coinvolti”. Il G7 invita alla prudenza. L’Iran: “Indagini in corso, forse droni attivati da persone dentro il Paese”]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587437</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
+      <pubDate>Fri, 19 Apr 2024 16:26:19 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422589351</guid>
+      <dcterms:modified>2024-04-19T16:26:19Z</dcterms:modified>
     </item>
     <item>
-      <title>L’Italia informata dagli Usa ma esclusa dalla difesa di Israele. “Tempi lunghi per il via libera”</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/news/iran_attacco_israele_italia_esclusa_usa_difesa-422587217/</link>
-      <description><![CDATA[Il retroscena. I dubbi degli alleati sulla compattezza del governo e il nodo del via libera del Parlamento]]></description>
+      <title>Guerra in Medio Oriente, le notizie di oggi. Israele attacca una base militare in Iran a Isfahan. Media: “Teheran non pianifica una ritorsione immediata”</title>
+      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_israele_iran_hamas_notizie_oggi-422589351/</link>
+      <description><![CDATA[L’operazione nella notte. Gli Usa: “Avvertiti ma non coinvolti”. Il G7 invita alla prudenza. L’Iran: “Indagini in corso, forse droni attivati da persone dentro il Paese”]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587217</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
+      <pubDate>Fri, 19 Apr 2024 16:26:19 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422589351</guid>
+      <dcterms:modified>2024-04-19T16:26:19Z</dcterms:modified>
     </item>
     <item>
-      <title>Una doccia calda, un kebab e il silenzio della notte: i desideri semplici di chi ha vissuto sei mesi di guerra a Gaza</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/news/diario_gaza_sami_al_ajrami-422585789/</link>
-      <description><![CDATA[La testimonianza. Dopo la fuga dalla Striscia, il giornalista Sami al-Ajrami racconta le sue prime ore al Cairo tra la gioia di chi riscopre il piacere delle attività a lungo negate e la nostalgia degli affetti]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422585789</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Il giurato italo-americano si autoesclude dal processo Stormy Daniels: “Non posso, Trump è come Berlusconi”</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/news/trump_berlusconi_giurato_processo_stormy_daniels-422585841/</link>
-      <description><![CDATA[Candidato a comporre il collegio popolare, l’uomo ha dichiarato di essere nato e cresciuto in Italia. “Sarebbe difficile per me mantenermi imparziale”. La corte sta incontrando difficoltà nel selezionare i giurati in una città che a stragrande maggioranza ha manifestato il suo astio nei confronti del tycoon]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422585841</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Al G7 pressing Usa sui beni russi congelati. Appello di Kiev: “Fate presto, aiutateci”</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/news/g7_capri_2024_riunione_ministri_esteri-422587057/</link>
-      <description><![CDATA[Blinken spinge per l’uso degli asset di Mosca in Europa. Imbarazzo italiano sulla richiesta dei Samp-T. Meloni:“Faremo il possibile”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587057</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Il monito di Mattarella: “Pace giusta per l’Ucraina”</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/news/mattarella_guerra_medio_oriente_fronte_sud-422585733/</link>
-      <description><![CDATA[Il presidente della Repubblica in Bulgaria ha visitato gli oltre settecento militari italiani della base Nato di Novo Selo]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422585733</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Marina Brambilla: “Io, prima donna alla guida della Statale ora cercherò il dialogo”</title>
-      <link>https://milano.repubblica.it/cronaca/2024/04/19/news/intervista_brambilla_prima_donna_alla_guida_della_statale-422586921/</link>
-      <description><![CDATA[“Con Iannuantuoni alla Bicocca e Sciuto al Politecnico adesso tutte le università pubbliche della città sono a guida femminile”]]></description>
+      <title>Morto il magistrato Italo Ormanni, seguì i casi di Emanuela Orlandi, Marta Russo e Simonetta Cesaroni</title>
+      <link>https://roma.repubblica.it/cronaca/2024/04/19/news/morto_italo_ormanni_emanuela_orlandi_marta_russo_e_simonetta_cesaroni-422617403/</link>
+      <description><![CDATA[Aveva 87 anni. Nel corso della sua carriera alla procura di Roma ha seguito le indagini più delicate degli ultimi decenni]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/cronaca">Cronaca</category>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 16:25:50 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422617403</guid>
+      <dcterms:modified>2024-04-19T16:25:50Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Canal Grande a Venezia colorato di verde e rosso: la vernice versata da un vaporetto, bloccati due turisti francesi</title>
+      <link>https://www.repubblica.it/cronaca/2024/04/19/news/canal_grande_a_venezia_colorato_di_verde_e_rosso_la_vernice_versata_da_un_vaporetto_bloccati_due_turisti_francesi-422616772/</link>
+      <description><![CDATA[Potrebbe essere una nuova azione di Extinction Rebellion]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 15:52:56 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422616772</guid>
+      <dcterms:modified>2024-04-19T15:52:56Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Come è avvenuto l’attacco israeliano all’Iran. Ecco cosa sappiamo</title>
+      <link>https://www.repubblica.it/esteri/2024/04/19/news/come_e_avvenuto_lattacco_israeliano_ecco_cosa_sappiamo-422616683/</link>
+      <description><![CDATA[Prima i droni quadricotteri per far scattare la contraerea, probabilmente decollati da vicino, poi i missili lanciati dagli F-16 mentre sorvolavano l’Iraq]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/esteri">Esteri</category>
+      <pubDate>Fri, 19 Apr 2024 15:48:23 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422616683</guid>
+      <dcterms:modified>2024-04-19T15:48:23Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Il sindaco di Venezia Brugnaro stronca il Padiglione Italia della Biennale. Il ministro Sangiuliano: “L’ho scelto io”</title>
+      <link>https://www.repubblica.it/cultura/2024/04/19/news/il_sindaco_di_venezia_brugnaro_stronca_il_padiglione_italia_della_biennale_il_ministro_sangiuliano_lho_scelto_io-422616640/</link>
+      <description><![CDATA[“Non mi piace, sono tubi innocenti”, ha detto all’inaugurazione.]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/cultura">Cultura</category>
+      <pubDate>Fri, 19 Apr 2024 15:46:17 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422616640</guid>
+      <dcterms:modified>2024-04-19T15:46:17Z</dcterms:modified>
+    </item>
+    <item>
+      <title>I rischi della candidatura Salis: chi la scambia per Tortora e chi la trasforma in Soumahoro</title>
+      <link>https://www.repubblica.it/politica/2024/04/19/news/ilaria_salis_candidata_rischi_tortora_soumahoro-422614876/</link>
+      <description><![CDATA[Eleggerla per liberarla e ripristinare lo Stato di diritto è una battaglia giusta, reclutarla come icona anti Orbàn, e quindi anti Meloni, è un errore]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Fri, 19 Apr 2024 15:00:05 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422614876</guid>
+      <dcterms:modified>2024-04-19T15:00:05Z</dcterms:modified>
+    </item>
+    <item>
+      <title>“Cresce la presa di Meloni sui media”. Anche Le Figaro lancia l’allarme sul governo italiano</title>
+      <link>https://www.repubblica.it/politica/2024/04/19/news/meloni_media_le_figaro_allarme-422614685/</link>
+      <description><![CDATA[L'articolo della inviata francese segue di pochi giorni gli approfondimenti di altre testate straniere]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Fri, 19 Apr 2024 14:50:41 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422614685</guid>
+      <dcterms:modified>2024-04-19T14:50:41Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Chiara Francini, la Rai cancella ‘Forte e Chiara’: “Non raggiunti i risultati auspicati”</title>
+      <link>https://www.repubblica.it/spettacoli/tv-radio/2024/04/19/news/la_rai_cancella_forte_e_chiara_non_raggiunti_i_risultati_auspicati-422614634/</link>
+      <description><![CDATA[Viale Mazzini decide di fermare in anticipo lo show di Rai 1. L’attrice su Ig: “Scusateci se siamo stati troppo forti come un gin tonic senza tonic”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/spettacoli/tv-radio">TV</category>
+      <pubDate>Fri, 19 Apr 2024 14:48:47 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422614634</guid>
+      <dcterms:modified>2024-04-19T14:48:47Z</dcterms:modified>
+    </item>
+    <item>
+      <title>“Una seduta così neanche dal ginecologo”. Il finto fisioterapista arrestato per molestie: tra le vittime una minorenne</title>
+      <link>https://roma.repubblica.it/cronaca/2024/04/19/news/fisioterapista_molestie_fondi_trainer_vip_francesca_cipriani-422612459/</link>
+      <description><![CDATA[Lo sportivo era conosciuto anche per essere il personal trainer dei vip. Tra i tanti suoi clienti Francesca Cipriani, ex concorrente del Grande Fratello]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 13:19:10 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422612459</guid>
+      <dcterms:modified>2024-04-19T13:19:10Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Omicidio Mollicone, l’ex di Marco Mottola: “Mi chiese di fargli da alibi il giorno della sparizione di Serena”</title>
+      <link>https://roma.repubblica.it/cronaca/2024/04/19/news/serena_mollicone_processo_appello_marco_mottola_alibi-422612010/</link>
+      <description><![CDATA[Il racconto di Laura Ricci durante il processo di Appello per la morte della ragazza. Il figlio dell’allora comandante della caserma di Arce fu assolto, assieme ai genitori, dall’accusa di omicidio]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 13:00:30 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422612010</guid>
+      <dcterms:modified>2024-04-19T13:00:30Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Muore sul lavoro a 23 anni, è la decima vittima in Toscana nel 2024</title>
+      <link>https://firenze.repubblica.it/cronaca/2024/04/19/news/siena_montepulciano_muore_sul_lavoro_a_19_anni-422611906/</link>
+      <description><![CDATA[L’incidente a Tre Berte in provincia di Siena, sul posto 118 e vigili del fuoco. La Uil: “Un’altra vita infranta”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-firenze/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 12:55:37 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-firenze:422611906</guid>
+      <dcterms:modified>2024-04-19T12:55:37Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Caso Visibilia, il fratello di Santanché intercettato con il consigliere indagato: “E’ un casino, se la società fallisce Daniela dovrà dimettersi”</title>
+      <link>https://milano.repubblica.it/cronaca/2024/04/19/news/caso_visibilia_il_fratello_di_santanche_intercettato_con_il_consigliere_indagato_e_un_casino_se_la_societa_fallisce_dan-422611054/</link>
+      <description><![CDATA[Agli atti della chiusura indagini per falso in bilancio anche una telefonata di Dimitri Kunz: “Dobbiamo trovare un milione per pagare i debiti ma non posso darlo a Santanché, sarebbe finanziamento illecito”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
       <category domain="/rep-milano/cronaca">Cronaca</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-milano:422586921</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
+      <pubDate>Fri, 19 Apr 2024 12:30:18 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-milano:422611054</guid>
+      <dcterms:modified>2024-04-19T12:30:18Z</dcterms:modified>
     </item>
     <item>
-      <title>Vivendi, esposto contro Labriola: “In ritardo i dati sul debito”</title>
-      <link>https://www.repubblica.it/economia/2024/04/19/news/vivendi_esposto_consob_labriola_tim-422587255/</link>
-      <description><![CDATA[L’autorità d’Oltralpe potrebbe indagare in collaborazione con quella italiana]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422587255</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Per Scannapieco conferma in Cdp. Sfuma Turicchi, deve restare a Ita</title>
-      <link>https://www.repubblica.it/economia/2024/04/19/news/scannapieco_cdp_turicchi_ita_donnarumma-422586935/</link>
-      <description><![CDATA[Il presidente del vettore deve attendere le nozze con Lufthansa. 
-Donnarumma per Fs]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Thu, 18 Apr 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422586935</guid>
-      <dcterms:modified>2024-04-18T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Guerra Ucraina - Russia, le news di oggi. Direttore Cia: senza aiuti, Ucraina può perdere guerra entro l’anno</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_ucraina_russia_news_oggi-422589851/</link>
-      <description><![CDATA[E' l'allarme - fra i più netti finora inviati dall'amministrazione Biden al Congresso - lanciato dal direttore della Cia, William Burns]]></description>
+      <title>Dal no agli attacchi all’Iran e a Rafah all’accordo tra Israele e sauditi: Biden prova a chiudere la guerra in vista delle elezioni Usa</title>
+      <link>https://www.repubblica.it/esteri/2024/04/19/news/usa_biden_attacco_israele_iran_gaza-422609422/</link>
+      <description><![CDATA[L’amministrazione americana non ha dato semaforo verde all’offensiva su Isfahan. Ora in campo la diplomazia per fare in modo che il conflitto di Gaza esca dalla campagna elettorale per la Casa Bianca]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
-      <pubDate>Thu, 18 Apr 2024 22:45:15 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422589851</guid>
-      <dcterms:modified>2024-04-18T22:45:15Z</dcterms:modified>
+      <pubDate>Fri, 19 Apr 2024 11:22:59 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422609422</guid>
+      <dcterms:modified>2024-04-19T11:22:59Z</dcterms:modified>
     </item>
     <item>
-      <title>Guerra Ucraina - Russia, le news di oggi. Direttore Cia: senza aiuti, Ucraina può perdere guerra entro l’anno</title>
-      <link>https://www.repubblica.it/esteri/2024/04/19/diretta/guerra_ucraina_russia_news_oggi-422589851/</link>
-      <description><![CDATA[E' l'allarme - fra i più netti finora inviati dall'amministrazione Biden al Congresso - lanciato dal direttore della Cia, William Burns]]></description>
+      <title>Aborto, l’Ue boccia i fondi per i pro-life nei consultori: “Misure nel decreto italiano non c’entrano col Pnrr”</title>
+      <link>https://www.repubblica.it/politica/2024/04/19/news/aborto_ue_italia_decreto_pnrr-422608437/</link>
+      <description><![CDATA[Lo ha dichiarato la portavoce della Commissione europea per gli Affari economici commentando l’emendamento presentato da FdI]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
-      <pubDate>Thu, 18 Apr 2024 22:45:15 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422589851</guid>
-      <dcterms:modified>2024-04-18T22:45:15Z</dcterms:modified>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Fri, 19 Apr 2024 10:34:25 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422608437</guid>
+      <dcterms:modified>2024-04-19T10:34:25Z</dcterms:modified>
     </item>
     <item>
-      <title>Giorgetti rassicura l’Fmi su sostenibilità del debito. Panetta: l’Italia reagisce bene</title>
-      <link>https://www.repubblica.it/economia/2024/04/19/news/giorgetti_washington_paesi_g7_fmi-422589941/</link>
-      <description><![CDATA[Il governatore di Bankitalia: a giugno potrebbero esserci novità sui tassi dalla Banca centrale europea]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Thu, 18 Apr 2024 22:43:42 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422589941</guid>
-      <dcterms:modified>2024-04-18T22:43:42Z</dcterms:modified>
-    </item>
-    <item>
-      <title>“Basta violare le vette con trapani ed elicotteri. L’Himalaya è una discarica, io adesso scalo e pulisco”</title>
-      <link>https://www.repubblica.it/cronaca/2024/04/19/news/matteo_della_bordella_alpinista-422588970/</link>
-      <description><![CDATA[Intervista a Matteo Della Bordella, l’alpinista green: “Anche sul Cerro Torre ho visto un compressore da 150 chili piantato sulla roccia: è il simbolo di chi vuole le cime a qualunque costo”]]></description>
+      <title>Treviso, si fingevano minori per stanare i pedofili in chat, poi li adescavano e picchiavano: condannata a sei anni la banda dei vendicatori</title>
+      <link>https://www.repubblica.it/cronaca/2024/04/19/news/banda_vendicatori_pedofili_treviso_condanna-422606522/</link>
+      <description><![CDATA[Sequestravano adulti, li stordivano con un taser e li tenevano per giorni in un casolare. Si ispiravano a una serie americana]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/cronaca">Cronaca</category>
-      <pubDate>Thu, 18 Apr 2024 22:02:58 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422588970</guid>
-      <dcterms:modified>2024-04-18T22:02:58Z</dcterms:modified>
+      <pubDate>Fri, 19 Apr 2024 09:39:29 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422606522</guid>
+      <dcterms:modified>2024-04-19T09:39:29Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Porta a Porta, solo uomini da Vespa per parlare d’aborto. La presidente Rai Soldi richiama il conduttore che replica: “Sempre attento alle presenze femminili”</title>
+      <link>https://www.repubblica.it/politica/2024/04/19/news/porta_a_porta_aborto_vespa_uomini-422606300/</link>
+      <description><![CDATA[Il fermo immagine diventa virale sui social. Esplode la polemica, pronta un’interrogazione in Vigilanza. Il Pd: “L’Italia di Meloni non è un Paese per donne”. Avs: violato codice etico Rai]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Fri, 19 Apr 2024 09:29:07 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422606300</guid>
+      <dcterms:modified>2024-04-19T09:29:07Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Porta a Porta, solo uomini da Vespa per parlare d’aborto. La presidente Rai Soldi richiama il conduttore che replica: “Sempre attento alle presenze femminili”</title>
+      <link>https://www.repubblica.it/politica/2024/04/19/news/porta_a_porta_aborto_vespa_uomini-422606300/</link>
+      <description><![CDATA[Il fermo immagine diventa virale sui social. Esplode la polemica, pronta un’interrogazione in Vigilanza. Il Pd: “L’Italia di Meloni non è un Paese per donne”. Avs: violato codice etico Rai]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Fri, 19 Apr 2024 09:29:07 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422606300</guid>
+      <dcterms:modified>2024-04-19T09:29:07Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Sondaggi politici, per FdI nuovo record negativo: mai così giù col governo Meloni. Bonino-Renzi, la lista unica cala rispetto alla somma dei due</title>
+      <link>https://www.repubblica.it/politica/2024/04/19/news/sondaggi_politici_fdi_record_negativo_bonino_renzi_pd_forza_italia-422605208/</link>
+      <description><![CDATA[I dati della Supermedia Agi / Youtrend: cresce ancora Forza Italia, ora la Lega è dietro di tre decimi. Il Pd torna sotto al 20%. Avs e Azione guadagnano ma non raggiungono il 4%]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Fri, 19 Apr 2024 08:50:27 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422605208</guid>
+      <dcterms:modified>2024-04-19T08:50:27Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Non ci sarà alcun processo per l’equipaggio della nave Iuventa: per il gup di Trapani “il fatto non sussiste”</title>
+      <link>https://palermo.repubblica.it/cronaca/2024/04/19/news/processo_iuventa_sentenza_trapani-422604065/</link>
+      <description><![CDATA[Un incubo giudiziario durato sette anni e costato quasi tre milioni allo Stato italiano, che ha portato alla distruzione di una nave di salvataggio, bloccata in porto e abbandonata all’incuria e ai vandali]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/cronaca">Cronaca</category>
+      <category domain="/rep-palermo/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 08:02:57 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-palermo:422604065</guid>
+      <dcterms:modified>2024-04-19T08:02:57Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Federico Fashion Style, aggressione omofoba sul treno. La denuncia: “Preso a schiaffi in faccia. Mi hanno urlato fr… di merda”</title>
+      <link>https://roma.repubblica.it/cronaca/2024/04/19/news/federico_fashion_style_aggressione_omofoba_italo_schiaffi_insulti-422603799/</link>
+      <description><![CDATA[Il racconto sui social del parrucchiere dei vip a bordo dell’ambulanza: “Insultato e denigrato per il mio orientamento sessuale. Nel 2024 è una vergogna”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 07:50:09 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422603799</guid>
+      <dcterms:modified>2024-04-19T07:50:09Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Innovare per crescere, Repubblica abbraccia la sua comunità: a Napoli da oggi a domenica</title>
+      <link>https://napoli.repubblica.it/dossier/repubblica-idee-napoli/2024/04/19/news/repubblica_idee_napoli_temi_programma_19_21_aprile-422600228/</link>
+      <description><![CDATA[Repubblica delle Idee: ecco il giorno uno. Si comincia dalla capitale del Mezzogiorno d’Italia, prima di tornare a giugno nella sede tradizionale di Bologna Due sono le tracce ideali da seguire: restituire il Mediterraneo alla sua più profonda vocazione europea e promuovere analisi e confronti sulle sfide cruciali cui è chiamato il nostro Vecchio Continente in questo momento Nel mondo che cambia vogliamo aprire la discussione su un futuro da costruire insieme]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-napoli/dossier/repubblica-idee-napoli">repubblica idee napoli</category>
+      <pubDate>Fri, 19 Apr 2024 05:46:06 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-napoli:422600228</guid>
+      <dcterms:modified>2024-04-19T05:46:06Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Dimissioni lampo prima dell’arresto, Emiliano avrebbe avvisato Pisicchio dell’inchiesta: pm indagano su fuga di notizie. Renzi e Gasparri: “Gravissimo”</title>
+      <link>https://bari.repubblica.it/cronaca/2024/04/19/news/pisicchio_e_le_dimissioni_lampo_da_commissario_arti_lipotesi_di_un_messaggio_inviato_da_emiliano_poche_ore_prima_dellarre-422599804/</link>
+      <description><![CDATA[La procura sta ricostruendo quanto accaduto nella giornata di venerdì 12 aprile, vuole capire se c’è stata una fuga di notizie sull’arresto oppure si sia trattato di una coincidenza. Lo smartphone dell’ex assessore ai domiciliari è sotto sequestro ma lui stesso avrebbe indcato un messaggio del governatore]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <category domain="/rep-bari/cronaca">Cronaca</category>
+      <pubDate>Fri, 19 Apr 2024 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-bari:422599804</guid>
+      <dcterms:modified>2024-04-19T05:00:00Z</dcterms:modified>
     </item>
     <item>
       <title>Ilaria Salis: “Se eletta va subito liberata. L’Ungheria può riarrestarla solo con il voto di Strasburgo”</title>
@@ -273,58 +327,6 @@ Donnarumma per Fs]]></description>
       <pubDate>Thu, 18 Apr 2024 21:48:51 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:repubblica:422588665</guid>
       <dcterms:modified>2024-04-18T21:48:51Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Fine vita, il Governo fa ricorso contro l’Emilia-Romagna. Schlein: “Decisione ideologica. Facciamo una legge in Parlamento”</title>
-      <link>https://bologna.repubblica.it/cronaca/2024/04/18/news/fine_vita_ricorso_governo_contro_emilia-romagna_delibera_suicidio_assistito-422572112/</link>
-      <description><![CDATA[Il 12 aprile la presidenza del Consiglio dei ministri e il ministero della Salute hanno depositato al Tar la richiesta di annullare la delibera di giunta che garantisce ai malati “il diritto di congedarsi dalla vita”. Bonaccini: “Battaglia sulla pelle delle persone”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/cronaca">Cronaca</category>
-      <category domain="/rep-bologna/cronaca">Cronaca</category>
-      <pubDate>Thu, 18 Apr 2024 18:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-bologna:422572112</guid>
-      <dcterms:modified>2024-04-18T18:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>La maggioranza si divide sull’aborto: alla Camera la Lega si astiene sui pro-life nei consultori voluti da FdI. Il Pd: “Governo contro le donne”</title>
-      <link>https://www.repubblica.it/politica/2024/04/18/news/aborto_governo_lega_pro_life_consultori-422575453/</link>
-      <description><![CDATA[Bocciato in Aula l’odg dei dem con cui si chiedeva di assicurare che l'emendamento presentato da FdI non creasse nessuna limitazione alla piena attuazione della legge 194. Non votano 15 dei 37 deputati leghisti presenti, compreso il capogruppo Molinari]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Thu, 18 Apr 2024 12:46:10 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422575453</guid>
-      <dcterms:modified>2024-04-18T12:46:10Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Proteste all’università, i rettori della Crui: no al boicottaggio di Israele. “Ma non servono misure speciali di polizia”</title>
-      <link>https://www.repubblica.it/cronaca/2024/04/18/news/universita_crui_no_boicottaggio-422570222/</link>
-      <description><![CDATA[“La richiesta dei giovani di assumerci delle responsabilità contro la guerra non può rimanere inascoltata”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/cronaca">Cronaca</category>
-      <pubDate>Thu, 18 Apr 2024 10:15:25 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422570222</guid>
-      <dcterms:modified>2024-04-18T10:15:25Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Migranti alla deriva nell’Atlantico per tre mesi. Diretti alle Canarie, hanno perso la rotta e sono finiti in Brasile. Trovati nove corpi</title>
-      <link>https://www.repubblica.it/esteri/2024/04/18/news/migranti_atlantico_canarie_morti-422569698/</link>
-      <description><![CDATA[L’atroce scoperta di alcuni pescatori dello stato del Parà. Dai giubbotti sull’imbarcazione si evince che a bordo erano almeno in 25, partiti dalla Mauritania dopo il 17 gennaio.]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/dossier/cronaca/fuggire-per-vivere">Fuggire per vivere</category>
-      <pubDate>Thu, 18 Apr 2024 09:54:44 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422569698</guid>
-      <dcterms:modified>2024-04-18T09:54:44Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Amadeus ha firmato con Discovery. Un accordo di quattro anni e due programmi prime time</title>
-      <link>https://www.repubblica.it/spettacoli/tv-radio/2024/04/18/news/amadeus_firma_contratto_dicovery_nove-422568234/</link>
-      <description><![CDATA[Il conduttore è stato chiamato a organizzare un palinsesto dell’intrattenimento per tutte le piattaforme del gruppo, in autunno sarà sul Nove]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/spettacoli/tv-radio">TV</category>
-      <pubDate>Thu, 18 Apr 2024 09:06:51 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422568234</guid>
-      <dcterms:modified>2024-04-18T09:06:51Z</dcterms:modified>
     </item>
   </channel>
 </rss>

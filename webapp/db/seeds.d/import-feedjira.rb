@@ -18,7 +18,7 @@ def parse_feedjira_from_yaml(jira_feed, file)
     #print('🎯 [CACHE HIT]')
     return
   else
-    puts("🍅 [FRESH NEWS] '#{o.title}'")
+    puts("🍅 [FRESH NEWS] #{o.published_date.to_date} '#{o.title}'")
   end
 
   unsafe_feed = YAML.unsafe_load(o.to_yaml) # ["carlessian_info"]

@@ -57,7 +57,9 @@ drop-and-recreate-db-dev:
 #	RAILS_ENV=development rake db:drop db:migrate db:seed
 
 seed-forever:
-	bin/seed-forever
+	bundle exec bin/seed-forever
+seed-forever-prod:
+	RAILS_ENV=production bundle exec bin/seed-forever
 
 test-cat-article-association:
 	echo  ArticleTag.count | rails c

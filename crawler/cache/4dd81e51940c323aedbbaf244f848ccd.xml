@@ -5,6 +5,13 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>authenticate_by: Prevent timing-based enumeration of users.</title>
+      <description> &lt;a href="https://a-chacon.com/en/ruby/rails/security/2024/04/18/authenticate-by-for-prevent-timing-based-enumeration-in-rails.html" rel="nofollow"&gt;https://a-chacon.com/en/ruby/rails/security/2024/04/18/authenticate-by-for-prevent-timing-based-enumeration-in-rails.html&lt;/a&gt; </description>
+      <pubDate>Fri, 19 Apr 2024 01:05:57 +0000</pubDate>
+      <link>https://rubyflow.com/p/67b6u2-authenticateby-prevent-timing-based-enumeration-of-users</link>
+      <guid>https://rubyflow.com/p/67b6u2-authenticateby-prevent-timing-based-enumeration-of-users</guid>
+    </item>
+    <item>
       <title>You are what you see</title>
       <description> &lt;a href="https://schwad.github.io/2024/04/18/you-are-what-you-see.html" rel="nofollow"&gt;https://schwad.github.io/2024/04/18/you-are-what-you-see.html&lt;/a&gt; </description>
       <pubDate>Thu, 18 Apr 2024 21:39:29 +0000</pubDate>
@@ -171,13 +178,6 @@
       <pubDate>Tue, 09 Apr 2024 06:24:04 +0000</pubDate>
       <link>https://rubyflow.com/p/3gjn97-do-you-still-pbcopy-and-pbpaste</link>
       <guid>https://rubyflow.com/p/3gjn97-do-you-still-pbcopy-and-pbpaste</guid>
-    </item>
-    <item>
-      <title>Abstract methods and NotImplementedError in Ruby</title>
-      <description> Ruby’s NotImplementedError exception is often used as a placeholder in abstract classes for methods that should be implemented by subclasses. But did you know that this is not how this exception class was intended to be used? </description>
-      <pubDate>Tue, 09 Apr 2024 04:10:53 +0000</pubDate>
-      <link>https://rubyflow.com/p/mirn05-abstract-methods-and-notimplementederror-in-ruby</link>
-      <guid>https://rubyflow.com/p/mirn05-abstract-methods-and-notimplementederror-in-ruby</guid>
     </item>
   </channel>
 </rss>

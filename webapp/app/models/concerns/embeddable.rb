@@ -9,8 +9,16 @@ module Embeddable
   def compute_embeddings!()
     if (gcp?)
       # ARRAYs (fake vectors)
-      self.title_embedding = self.compute_gcp_embeddings_for(field_to_access: :title) # Array opf 768.
-      self.summary_embedding = self.compute_gcp_embeddings_for(field_to_access: :summary)
+      unless self.title.nil? || self.title.empty?
+        self.title_embedding = self.compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
+      else
+        puts("ε - No title -> skipping")
+      end
+      unless self.summary.nil? || self.summary.empty?
+        self.summary_embedding = self.compute_gcp_embeddings_for(field_to_access: :summary) #rescue nil
+      else
+        puts("ε - No summary -> skipping")
+      end
       # VECTOR (the real deal)
       self.article_embedding = self.title_embedding if self.article_embedding.nil?
       self.save if self.changed? # cool! https://stackoverflow.com/questions/24412634/rails-save-method-if-no-changes
@@ -45,8 +53,9 @@ module Embeddable
 
   # self.
   def compute_gcp_embeddings_for(field_to_access:)
-    value = cleanup_text(self.send(field_to_access))
-    puts("Compute embeddings for a #{self.class}. Value: '#{value}'")
+    value = cleanup_text(self.send(field_to_access)).to_s
+    raise "Empty request - skipping calculation as it doesnt make sense." if value.length <= 1 # also 1 is nothing..
+    puts("Compute embeddings for a #{self.class}. Value: '#{value}'. Len=#{value.length}")
     unless gcp?
       puts("No GCP enabled. I need to skip this - quitely.")
       return
@@ -54,7 +63,7 @@ module Embeddable
     require 'gemini-ai'
     require 'matrix'
 
-    #model =  'textembedding-gecko-multilingual'
+    embedding_model =  'textembedding-gecko-multilingual'
     client = Gemini.new(
       credentials: {
         service: 'vertex-ai-api',
@@ -63,29 +72,34 @@ module Embeddable
       },
           # code: https://github.com/gbaptista/gemini-ai/blob/main/controllers/client.rb
       options: {
-              model:   'textembedding-gecko-multilingual',
+              model:  embedding_model, #  'textembedding-gecko-multilingual',
               service_version: 'v1',
             }
     )
     request_hash = {
       "instances": [{
         #"task_type": "QUESTION_ANSWERING", # "Semantic Search", ## "QUESTION_ANSWERING",
+        "task_type": 'RETRIEVAL_DOCUMENT', # what i need
         "content": value
       }],
     # "parameters": {
     #  "outputDimensionality": 256 # 768 is the default
     # }
     }
-    result = client.request('predict',request_hash ) rescue nil
-    if result.nil?
-      puts("Some issues with request: #{$!}. Existing")
+    result = client.request('predict',request_hash ) rescue [$!, nil]
+    if result.is_a? Array # .nil?
+      puts("❌ Some issues with #{embedding_model} request: '#{result[0]}' => Exiting")
+      puts("❌ request_hash: #{request_hash}")
+
+      exit(42) # raise 'TODO levami di qui - ma ora muoro'
       return nil
     end
     File.write('.tmp.hi.embed_predict.json', result.to_json)
     # Embedding Response
     cleaned_response = result['predictions'][0]['embeddings']['values']
-    puts("📊 Statistics: #{ result['predictions'][0]['embeddings']['statistics'] rescue "Some Error: #{$!}"}")
-    puts("♊️ Gemini Embeddings responded with a #{cleaned_response.size rescue -1 }-sized embedding: #{cleaned_response.first(5) rescue result}, ...")
+    stats = result['predictions'][0]['embeddings']['statistics'] rescue "Some Error: #{$!}"
+    puts("📊 Stats: #{stats}")
+    puts("♊️ YAY! Gemini Embeddings responded with a #{cleaned_response.size rescue -1 }-sized embedding: #{cleaned_response.first(3) rescue result}, ...")
     return cleaned_response
   end
 

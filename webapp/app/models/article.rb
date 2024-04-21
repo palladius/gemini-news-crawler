@@ -27,7 +27,7 @@ class Article < ApplicationRecord
   after_save :set_defaults_after
 
     # https://stackoverflow.com/questions/5164566/how-to-intercept-assignment-to-attributes
-    def categories=(categories)
+    def categories=(categories, verbose: false)
       method_ver = '0.2'
       raise "I only accept an Array of Strings!" unless categories.is_a? Array
       #Rails.logger.info "Setting categories with #{categories}"
@@ -38,16 +38,17 @@ class Article < ApplicationRecord
       @categories_to_be_initialized = []
       categories.each do |category_name|
         c = Category.find_or_create_by(name: category_name)
-        puts("#{Category.emoji}  Category created or found: #{c} (id=#{c.id})")
+        puts("#{Category.emoji}  Category created or found: #{c} (id=#{c.id})") if verbose
         @categories_to_be_initialized << c
       end
-      puts "Setting categories with #{categories}"
+      puts "Setting categories with #{categories}" if verbose
     end
 
+    # This is usually called BEFORE its saved, so you have no ID.
     def set_categories()
-      puts("I just initialized my object. Now I have an id and can finally create the AT I need")
+      #puts("I just initialized my object. Now I have an id and can finally create the AT I need")
       puts("@categories_to_be_initialized: #{@categories_to_be_initialized}")
-      puts "Now i have an id: #{self.id} - anzi no"
+      #puts "Now i have an id: #{self.id} - anzi no"
       # @categories_to_be_initialized.each do |c|
       #   at = ArticleTag.find_or_create_by(
       #       article_id: self.id,
@@ -59,7 +60,7 @@ class Article < ApplicationRecord
     end
 
     def set_defaults
-      puts("Article::set_defaults (before_save). My id=#{self.id}")
+      #puts("Article::set_defaults (before_save). My id=#{self.id}")
       self.active ||= true
     end
 
