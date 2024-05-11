@@ -1,10 +1,12 @@
 
 # About ♊️ GemiNews 📰
 
+Self: [palladius/gemini-news-crawler](https://github.com/palladius/gemini-news-crawler)
+
 This is a News Slurper that takes News in real time and - hopefully - feeds an LLM with RAG knowledge.
 
 * Session: https://sessionize.com/app/speaker/session/621013
-* Slides: TODO
+* Slides: [Ricc Slides](https://docs.google.com/presentation/d/11R5TbqPRsdeMdqN_1vFRS9v7qFRvOvpxTAFPOd-kfaE/edit#slide=id.g259ddd8dc87_0_2049)
 
 ## Description
 
