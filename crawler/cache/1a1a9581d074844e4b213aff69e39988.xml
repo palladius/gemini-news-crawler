@@ -9,26 +9,34 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 May 2024 07:17:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 May 2024 15:43:43 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[The Russians simply walked in, Ukrainian troops in Kharkiv tell BBC]]></title>
+            <description><![CDATA[The BBC's Jonathan Beale meets front-line soldiers battling Russia's new incursion in north-east Ukraine.]]></description>
+            <link>https://www.bbc.com/news/articles/c72p0xx410xo</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/c72p0xx410xo#0</guid>
+            <pubDate>Sun, 12 May 2024 14:23:00 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/16be/live/7fb8b480-1064-11ef-82e8-cd354766a224.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Russia blames Ukraine after blast destroys apartments]]></title>
+            <description><![CDATA[At least two people are said to have been killed after a section of a 10-storey block collapsed in Belgorod.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68998913</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68998913#0</guid>
+            <pubDate>Sun, 12 May 2024 15:08:56 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4588/production/_133300871_9e36a2b04e02d7bb8508bc1a57db65316c9628c8.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Switzerland's Nemo wins Eurovision as UK comes 18th]]></title>
             <description><![CDATA[Nemo becomes the first non-binary artist to win Eurovision with their song The Code.]]></description>
             <link>https://www.bbc.com/news/articles/c03drw23zewo</link>
             <guid isPermaLink="false">https://www.bbc.com/news/articles/c03drw23zewo#0</guid>
             <pubDate>Sun, 12 May 2024 00:28:31 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/526f/live/590610d0-0fe2-11ef-bd71-bbb1b5f9d1b7.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Hundreds flee Ukraine border area after Russia attack]]></title>
-            <description><![CDATA[Evacuations are under way in the Kharkiv area as fighting continues after Friday's surprise incursions.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68994877</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68994877#0</guid>
-            <pubDate>Sat, 11 May 2024 17:29:54 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F1C1/production/_133298816_mediaitem133298815.jpg"/>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/2b20/live/27e2da90-103e-11ef-bee9-6125e244a4cd.png"/>
         </item>
         <item>
             <title><![CDATA[Thousands march in Georgia over foreign influence bill]]></title>
@@ -69,6 +77,14 @@
             <guid isPermaLink="false">https://www.bbc.com/sport/tennis/articles/c289lpjr0ppo#0</guid>
             <pubDate>Fri, 10 May 2024 21:36:18 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/07e8/live/8b663bb0-0f09-11ef-82e8-cd354766a224.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hundreds flee Ukraine border area after Russia attack]]></title>
+            <description><![CDATA[Evacuations are under way in the Kharkiv area as fighting continues after Friday's surprise incursions.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-68994877</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68994877#1</guid>
+            <pubDate>Sat, 11 May 2024 17:29:54 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F1C1/production/_133298816_mediaitem133298815.jpg"/>
         </item>
         <item>
             <title><![CDATA[Mbappe announces he will leave Paris St-Germain]]></title>
@@ -116,7 +132,7 @@
             <link>https://www.bbc.com/news/articles/cv2dy69jm6no</link>
             <guid isPermaLink="false">https://www.bbc.com/news/articles/cv2dy69jm6no#2</guid>
             <pubDate>Sat, 11 May 2024 23:34:21 GMT</pubDate>
-            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/e5de/live/3d252370-0feb-11ef-b2ba-416397970b5d.png"/>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/c727/live/9dd068c0-103f-11ef-bee9-6125e244a4cd.jpg"/>
         </item>
         <item>
             <title><![CDATA[Eurovision queen Loreen: 'I want to write a boring song']]></title>

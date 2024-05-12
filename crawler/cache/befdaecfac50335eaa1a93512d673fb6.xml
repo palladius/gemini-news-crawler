@@ -7,29 +7,133 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 12 May 2024 07:14:20 +0000</lastBuildDate>
-    <pubDate>Sun, 12 May 2024 06:31:50 +0000</pubDate>
+    <lastBuildDate>Sun, 12 May 2024 15:40:54 +0000</lastBuildDate>
+    <pubDate>Sun, 12 May 2024 15:33:06 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world</link>
     </image>
     <item>
-      <title>Russian Attacks Open a New Front in Ukraine</title>
-      <link>https://www.nytimes.com/2024/05/11/world/europe/ukraine-russia-kharkiv.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/europe/ukraine-russia-kharkiv.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/europe/ukraine-russia-kharkiv.html" rel="standout"></atom:link>
-      <description>Russia’s latest offensive has expanded the battlefield along Ukraine’s northern border, and sent thousands of civilians fleeing to Kharkiv, the closest large city.</description>
-      <dc:creator>Jeffrey Gettleman and Emile Ducke</dc:creator>
-      <pubDate>Sun, 12 May 2024 06:31:50 +0000</pubDate>
+      <title>Yahya Sinwar Helped Start the War in Gaza. Now He’s Key to Its Endgame.</title>
+      <link>https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html" rel="standout"></atom:link>
+      <description>Hamas’s leader in Gaza is considered an architect of the Oct. 7 attacks that prompted Israel to retaliate. As mediators seek a cease-fire, a deal depends on Mr. Sinwar as well as his Israeli foes.</description>
+      <dc:creator>Patrick Kingsley, Julian E. Barnes and Adam Rasgon</dc:creator>
+      <pubDate>Sun, 12 May 2024 13:06:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haniya, Ismail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sinwar, Yehya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12israel-gaza-sinwar-01-fkvm/12israel-gaza-sinwar-01-fkvm-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mohammed Abed/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Yahya Sinwar, center, Hamas’s leader in Gaza, in Gaza City last year. He is now believed to be hiding in a tunnel network in the enclave.</media:description>
+    </item>
+    <item>
+      <title>Ahead of Olympics, World Anti-Doping Agency Faces a Trust Crisis</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html" rel="standout"></atom:link>
+      <description>Concerns are growing that the body whose job is keeping sports free of illegal drugs is failing at that mission, leading Congress to question U.S. support.</description>
+      <dc:creator>Michael S. Schmidt, Jenny Vrentas and Tariq Panja</dc:creator>
+      <pubDate>Sun, 12 May 2024 12:13:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doping (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Anti-Doping Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2024)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Swimming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Olympic Committee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">King, Lilly (1997- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">USA Swimming</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12doping-wada-print4-zmwl/12doping-wada-print4-zmwl-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Denis Balibouse/Reuters</media:credit>
+      <media:description>The World Anti-Doping Agency president, Witold Banka, has defended his organization’s handling of a doping case involving 23 Chinese swimmers.</media:description>
+    </item>
+    <item>
+      <title>Russian Forces Push Deeper Into Northern Ukraine</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html" rel="standout"></atom:link>
+      <description>A Ukrainian military unit said that its troops were forced to retreat from several positions and that one settlement had been captured by Russian forces.</description>
+      <dc:creator>Jeffrey Gettleman and Constant Méheut</dc:creator>
+      <pubDate>Sun, 12 May 2024 15:11:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11ukraine-kharkiv-new-4-zlfk/11ukraine-kharkiv-new-4-zlfk-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:description>Olha Melnichuk, an 85-year-old resident of Liptsi, near the Russian border, was evacuated to a shelter in Kharkiv, the country’s second-largest city, on Saturday.</media:description>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12ukraine-kharkiv-01-hkbv/12ukraine-kharkiv-01-hkbv-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Emile Ducke for The New York Times</media:credit>
+      <media:description>A person being evacuated to Kharkiv city on Saturday.</media:description>
+    </item>
+    <item>
+      <title>Ukraine’s Seaborne Grain Exports Bounce Back to Near Prewar Levels</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html" rel="standout"></atom:link>
+      <description>The flow of grain ships through ports in the Odesa region is a welcome boost for Ukraine’s war-ravaged economy. But analysts warn it may not last.</description>
+      <dc:creator>Constant Méheut</dc:creator>
+      <pubDate>Sun, 12 May 2024 09:02:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ships and Shipping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Black Sea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Odessa (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14ukraine-grain-ltvh/14ukraine-grain-ltvh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Oksana Parafeniuk for The New York Times</media:credit>
+      <media:description>A 700-foot Liberian-flagged ship carrying corn bound for Bangladesh leaving the Ukrainian port of Odesa in March.</media:description>
+    </item>
+    <item>
+      <title>Middle East Crisis: Fighting Rages in Northern Gaza, an Area Israeli Troops Had Left</title>
+      <link>https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah</link>
+      <guid isPermaLink="true">https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah</guid>
+      <atom:link href="https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
+      <description>The fighting in Gaza City and Jabaliya fit into a familiar scenario: Israeli forces returning to an area where they had defeated Hamas earlier in the war.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Sun, 12 May 2024 15:10:02 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-promo-11-mbgl/12mideast-promo-11-mbgl-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Amir Cohen/Reuters</media:credit>
+    </item>
+    <item>
+      <title>The Controversy Over K-pop Band NewJeans</title>
+      <link>https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html" rel="standout"></atom:link>
+      <description>The firm Hybe has lost hundreds of millions of dollars in market value because of a feud with the creative force behind the band NewJeans.</description>
+      <dc:creator>Jin Yu Young</dc:creator>
+      <pubDate>Sun, 12 May 2024 04:01:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">NewJeans (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">BTS (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hybe America (Hybe Co Ltd)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">K-Pop</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/03/multimedia/00skorea-kpop-kpwv/00skorea-kpop-kpwv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Kim Hong-Ji/Reuters</media:credit>
+      <media:description>Min Hee-jin, who developed the band NewJeans and is embroiled in a dispute with her employer, at a news conference last month in Seoul.</media:description>
+    </item>
+    <item>
+      <title>Bus Crash in Indonesia Kills 11, Including Students, After Graduation Celebration</title>
+      <link>https://www.nytimes.com/2024/05/12/world/asia/bus-crash-indonesia-students.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/asia/bus-crash-indonesia-students.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/asia/bus-crash-indonesia-students.html" rel="standout"></atom:link>
+      <description>The vehicle was carrying dozens of teachers and students when it sped out of control on a downhill road and crashed into several vehicles in a hilly resort area.</description>
+      <dc:creator>Jin Yu Young</dc:creator>
+      <pubDate>Sun, 12 May 2024 07:44:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Traffic Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Buses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bandung (Indonesia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Indonesia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Java (Indonesia)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12indonesia-bus-mvwg/12indonesia-bus-mvwg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Ryan Suherlan/EPA, via Shutterstock</media:credit>
+      <media:description>Police officers and rescuers inspecting the wreckage of a bus after a crash on Saturday in Subang, Indonesia.</media:description>
     </item>
     <item>
       <title>Burkina Faso Accused of Massacring Civilians</title>
@@ -136,31 +240,6 @@
       <media:description>Flash flooding in northern Afghanistan has killed more than 300 people, U.N. officials said.</media:description>
     </item>
     <item>
-      <title>Middle East Crisis: Israel Attacks Jabaliya in Northern Gaza, Saying Hamas Has Returned</title>
-      <link>https://www.nytimes.com/live/2024/05/11/world/israel-gaza-war-hamas-rafah</link>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2024/05/11/world/israel-gaza-war-hamas-rafah</guid>
-      <atom:link href="https://www.nytimes.com/live/2024/05/11/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
-      <description>Hours before stepping up attacks, Israel urged Palestinian civilians to evacuate the area around Jabaliya. It also issued a wider evacuation order for Rafah, in the south, leaving many confused about where to go to find safety</description>
-      <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sun, 12 May 2024 06:22:19 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11mideast-crisis-promo-330p-qhcz/11mideast-crisis-promo-330p-qhcz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>-/Agence France-Presse — Getty Images</media:credit>
-    </item>
-    <item>
-      <title>Who Are the Favorites to Win Eurovision?</title>
-      <link>https://www.nytimes.com/2024/05/10/arts/music/eurovision-odds-favorites.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/arts/music/eurovision-odds-favorites.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/arts/music/eurovision-odds-favorites.html" rel="standout"></atom:link>
-      <description>Some of the buzziest acts taking part in Saturday’s final hail from Croatia, Israel and Ukraine.</description>
-      <dc:creator>Alex Marshall</dc:creator>
-      <pubDate>Sat, 11 May 2024 17:22:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Eurovision Song Contest</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alyona Alyona (1991- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Golan, Eden</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10eurovision-favorites-promo/10eurovision-favorites-04-mthq-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Tobias Schwarz/Agence France-Presse — Getty Images</media:credit>
-    </item>
-    <item>
       <title>Big, Smoggy Bangkok Gets a Badly Needed Breath of Fresh Air</title>
       <link>https://www.nytimes.com/2024/05/11/world/asia/bangkok-thailand-benjakitti-park.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/asia/bangkok-thailand-benjakitti-park.html</guid>
@@ -199,160 +278,135 @@
       <media:description>Supporters of former South African president Jacob Zuma’s uMkhonto weSizwe Party (MK) protested over the lack of service delivery in Pietermaritzburg, KwaZulu_Natal province where they delivered a memorandum to the city’s mayor’s office, on Wednesday.</media:description>
     </item>
     <item>
-      <title>Russia Mounting New Border Assaults in North, Ukraine Says</title>
-      <link>https://www.nytimes.com/2024/05/10/world/europe/russia-border-assaults-north-ukraine.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/russia-border-assaults-north-ukraine.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/russia-border-assaults-north-ukraine.html" rel="standout"></atom:link>
-      <description>Armored columns tried to punch through at several points, the military said, raising pressure on already stretched Ukrainian forces.</description>
-      <dc:creator>Marc Santora, Maria Varenikova and Eric Schmitt</dc:creator>
-      <pubDate>Sat, 11 May 2024 03:18:53 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10ukraine-kharkiv-01-mgql/10ukraine-kharkiv-01-mgql-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Sergey Kozlov/EPA, via Shutterstock</media:credit>
-      <media:description>Fighting a fire on Friday after an overnight strike in Kharkiv. Russia has stepped up its bombardment of the northern Ukrainian city in recent weeks.</media:description>
+      <title>Mystery of Mona Lisa’s Location May Be Solved</title>
+      <link>https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html" rel="standout"></atom:link>
+      <description>A mash-up of geology and art history has identified a likely setting for one of the world’s most famous paintings.</description>
+      <dc:creator>Ali Watkins</dc:creator>
+      <pubDate>Sun, 12 May 2024 14:54:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">da Vinci, Leonardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Geology</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12xp-MonaLisa2-qvzw/12xp-MonaLisa2-qvzw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Christophe Ena/Associated Press</media:credit>
+      <media:description>A geologist said the shape of the lake and the gray-white limestone in the background of Leonardo da Vinci’s Mona Lisa helped identify the setting of the portrait.</media:description>
     </item>
     <item>
-      <title>Kherson Residents Rebuild and Brace for New Russian Attack</title>
-      <link>https://www.nytimes.com/2024/05/10/world/europe/kherson-ukraine-russia-attack.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/kherson-ukraine-russia-attack.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/kherson-ukraine-russia-attack.html" rel="standout"></atom:link>
-      <description>The people of the Kherson region have slowly rebuilt their homes and livelihoods since a Ukrainian counteroffensive forced out Russian troops. Now they are bracing for another Russian attack.</description>
-      <dc:creator>Carlotta Gall, Oleksandr Chubko and Mauricio Lima</dc:creator>
-      <pubDate>Sat, 11 May 2024 16:10:59 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kherson (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/01/multimedia/00ukraine-kherson-villages-01-vqzf-promo/00ukraine-kherson-villages-01-vqzf-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Mauricio Lima for The New York Times</media:credit>
-    </item>
-    <item>
-      <title>After Her Sister Wed at 11, a Girl Began Fighting Child Marriage at 13</title>
-      <link>https://www.nytimes.com/2024/05/10/world/africa/child-marriage-malawi-memory-banda.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/africa/child-marriage-malawi-memory-banda.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/world/africa/child-marriage-malawi-memory-banda.html" rel="standout"></atom:link>
-      <description>Memory Banda’s battle, which she has been waging since she was a teenager in a village in Malawi, started with a poignant question: “Why should this be happening to girls so young?”</description>
-      <dc:creator>Rabson Kondowe</dc:creator>
-      <pubDate>Sat, 11 May 2024 00:56:49 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Malawi</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Marriages</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women&#39;s Rights</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Banda, Memory</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/08/multimedia/00malawi-1-lvjg/00malawi-1-lvjg-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Amos Gumulira for The New York Times</media:credit>
-      <media:description>Memory Banda’s activism against child marriage began in a small village in Malawi she was just 13. </media:description>
-    </item>
-    <item>
-      <title>How Pro-Palestinian Students Pushed Trinity College Dublin to Divest</title>
-      <link>https://www.nytimes.com/2024/05/10/world/europe/ireland-trinity-dublin-palestinian-protests-divest.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/ireland-trinity-dublin-palestinian-protests-divest.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/ireland-trinity-dublin-palestinian-protests-divest.html" rel="standout"></atom:link>
-      <description>A surge of attention hit Ireland’s most prestigious university over protests that involved Israel, Gaza and the famed medieval Book of Kells.</description>
-      <dc:creator>Isabella Kwai and Ed O’Loughlin</dc:creator>
-      <pubDate>Fri, 10 May 2024 09:42:40 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pro-Palestinian Campus Protests (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Trinity College (Dublin, Ireland)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Boycott, Divestment and Sanctions (BDS)</category>
+      <title>About 300,000 Gazans Have Fled Rafah, U.N. Says</title>
+      <link>https://www.nytimes.com/2024/05/12/world/middleeast/rafah-gaza-evacuation.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/middleeast/rafah-gaza-evacuation.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/rafah-gaza-evacuation.html" rel="standout"></atom:link>
+      <description>The Israeli military has expanded its evacuation orders for Rafah, deepening fears that it was preparing a full-scale invasion of the city in southern Gaza.</description>
+      <dc:creator>Mike Ives</dc:creator>
+      <pubDate>Sun, 12 May 2024 13:45:19 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10campusprotest-trinity-glzk/10campusprotest-trinity-glzk-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Artur Widak/Nurphoto, via Getty Images</media:credit>
-      <media:description>Students at Trinity College Dublin staging a campus protest against Israel’s actions in Gaza last Saturday. The students said they were inspired by similar movements in the United States.</media:description>
-    </item>
-    <item>
-      <title>Yahya Sinwar Helped Start the Gaza War. Now He’s Key to Its Endgame.</title>
-      <link>https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html" rel="standout"></atom:link>
-      <description>Hamas’s leader in Gaza is considered an architect of the Oct. 7 attacks that prompted Israel to retaliate. As mediators seek a cease-fire, a deal depends on Mr. Sinwar as well as his Israeli foes.</description>
-      <dc:creator>Patrick Kingsley, Julian E. Barnes and Adam Rasgon</dc:creator>
-      <pubDate>Sun, 12 May 2024 04:01:32 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haniya, Ismail</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sinwar, Yehya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12israel-gaza-sinwar-01-fkvm/12israel-gaza-sinwar-01-fkvm-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Mohammed Abed/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Yahya Sinwar, center, Hamas’s leader in Gaza, in Gaza City last year. He is now believed to be hiding in a tunnel network in the enclave.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-crisis-rafah-tjcg/12mideast-crisis-rafah-tjcg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Agence France-Presse — Getty Images</media:credit>
+      <media:description>Tents housing displaced Palestinians in Rafah, in southern Gaza, on Saturday.</media:description>
     </item>
     <item>
-      <title>Ahead of Olympics, World Anti-Doping Agency Faces a Trust Crisis</title>
-      <link>https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html" rel="standout"></atom:link>
-      <description>Concerns are growing that the body whose job is keeping sports free of illegal drugs is failing at that mission, leading Congress to question U.S. support.</description>
-      <dc:creator>Michael S. Schmidt, Jenny Vrentas and Tariq Panja</dc:creator>
-      <pubDate>Sun, 12 May 2024 04:01:20 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doping (Sports)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Anti-Doping Agency</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2024)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Swimming</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Olympic Committee</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">King, Lilly (1997- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">USA Swimming</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12doping-wada-print4-zmwl/12doping-wada-print4-zmwl-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Denis Balibouse/Reuters</media:credit>
-      <media:description>The World Anti-Doping Agency president, Witold Banka, has defended his organization’s handling of a doping case involving 23 Chinese swimmers.</media:description>
+      <title>Can Parrots Converse? Polly Says That’s the Wrong Question.</title>
+      <link>https://www.nytimes.com/2024/05/12/science/parrots-language-cognition.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/science/parrots-language-cognition.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/science/parrots-language-cognition.html" rel="standout"></atom:link>
+      <description>In a cautious new paper, scientists tried to determine whether an interactive speech board might enrich the life of a parrot named Ellie.</description>
+      <dc:creator>Emily Anthes</dc:creator>
+      <pubDate>Sun, 12 May 2024 09:03:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animal Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parrots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Birds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tablet Computers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animal Cognition</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Language and Languages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pepperberg, Irene M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-animals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
     </item>
     <item>
-      <title>The Controversy Over K-pop Band NewJeans</title>
-      <link>https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html" rel="standout"></atom:link>
-      <description>The firm Hybe has lost hundreds of millions of dollars in market value because of a feud with the creative force behind the band NewJeans.</description>
-      <dc:creator>Jin Yu Young</dc:creator>
-      <pubDate>Sun, 12 May 2024 04:01:19 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">NewJeans (Music Group)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">BTS (Music Group)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hybe America (Hybe Co Ltd)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">K-Pop</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/03/multimedia/00skorea-kpop-kpwv/00skorea-kpop-kpwv-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Kim Hong-Ji/Reuters</media:credit>
-      <media:description>Min Hee-jin, who developed the band NewJeans and is embroiled in a dispute with her employer, at a news conference last month in Seoul.</media:description>
+      <title>Elon Musk’s Diplomacy: Woo Right-Wing World Leaders. Then Benefit.</title>
+      <link>https://www.nytimes.com/2024/05/12/technology/elon-musk-world-leaders.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/technology/elon-musk-world-leaders.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/technology/elon-musk-world-leaders.html" rel="standout"></atom:link>
+      <description>Mr. Musk has built a constellation of like-minded heads of state — including Argentina’s Javier Milei and India’s Narendra Modi — to push his own politics and expand his business empire.</description>
+      <dc:creator>Ryan Mac, Jack Nicas and Alex Travelli</dc:creator>
+      <pubDate>Sun, 12 May 2024 15:33:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Musk, Elon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tesla Motors Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Space Exploration Technologies Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Starlink Satellite Constellation (SpaceX)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Modi, Narendra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bolsonaro, Jair (1955- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Milei, Javier</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Private Spaceflight</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fringe Groups and Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Satellites</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lobbying and Lobbyists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">X (Formerly Twitter)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Argentina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brazil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mines and Mining</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lithium (Metal)</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/10/business/00musk-leaders-SUB/00musk-leaders-SUB-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Cristiana Couceiro</media:credit>
     </item>
     <item>
-      <title>As Israel Steps Up Attacks, 300,000 Gazans Are on the Move</title>
+      <title>As Israel Steps Up Attacks, 300,000 Gazans Are Forced to Evacuate</title>
       <link>https://www.nytimes.com/2024/05/11/world/middleeast/israel-gaza-rafah-palestinians.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/middleeast/israel-gaza-rafah-palestinians.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/11/world/middleeast/israel-gaza-rafah-palestinians.html" rel="standout"></atom:link>
       <description>Many say there is nowhere to go, and even the “humanitarian zone” recommended by Israel is neither safe nor equipped to handle all of them, the U.N. says.</description>
       <dc:creator>Raja Abdulrahim, Bilal Shbair, Aaron Boxerman and Ben Shpigel</dc:creator>
-      <pubDate>Sat, 11 May 2024 20:00:50 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 14:40:38 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations Relief and Works Agency</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jabaliya Refugee Camp (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations Relief and Works Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jabaliya Refugee Camp (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11mideast-ledeall-swaps-02-wcfh/11mideast-ledeall-swaps-02-wcfh-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Agence France-Presse — Getty Images</media:credit>
       <media:description>Fleeing Rafah, in southern Gaza, on Saturday. Around 150,000 have left Rafah in the past week, after the Israeli military ordered an evacuation.</media:description>
+    </item>
+    <item>
+      <title>Russian Attacks Open a New Front in Ukraine</title>
+      <link>https://www.nytimes.com/2024/05/11/world/europe/ukraine-russia-kharkiv.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/europe/ukraine-russia-kharkiv.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/11/world/europe/ukraine-russia-kharkiv.html" rel="standout"></atom:link>
+      <description>Russia’s latest offensive has expanded the battlefield along Ukraine’s northern border, and sent thousands of civilians fleeing to Kharkiv, the closest large city.</description>
+      <dc:creator>Jeffrey Gettleman and Emile Ducke</dc:creator>
+      <pubDate>Sun, 12 May 2024 06:31:50 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11ukraine-kharkiv-new-4-zlfk/11ukraine-kharkiv-new-4-zlfk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:description>Olha Melnichuk, an 85-year-old resident of Liptsi, near the Russian border, was evacuated to a shelter in Kharkiv, the country’s second-largest city, on Saturday.</media:description>
     </item>
     <item>
       <title>When Travel Plans Go Awry</title>
@@ -415,9 +469,9 @@
       <link>https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html" rel="standout"></atom:link>
-      <description>The unusual sight of aurora borealis was visible in several European countries on Friday, and in multiple parts of the United States.</description>
+      <description>The unusual sight of aurora borealis was visible around the world.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sat, 11 May 2024 19:48:56 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 14:54:31 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Aurora Borealis</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
@@ -780,6 +834,24 @@
       <media:description>President Ronald Reagan used the power of American arms several times to influence Israeli war policy, at different points ordering warplanes and cluster munitions to be delayed or withheld.</media:description>
     </item>
     <item>
+      <title>Russia Mounting New Border Assaults in North, Ukraine Says</title>
+      <link>https://www.nytimes.com/2024/05/10/world/europe/russia-border-assaults-north-ukraine.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/russia-border-assaults-north-ukraine.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/russia-border-assaults-north-ukraine.html" rel="standout"></atom:link>
+      <description>Armored columns tried to punch through at several points, the military said, raising pressure on already stretched Ukrainian forces.</description>
+      <dc:creator>Marc Santora, Maria Varenikova and Eric Schmitt</dc:creator>
+      <pubDate>Sat, 11 May 2024 03:18:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10ukraine-kharkiv-01-mgql/10ukraine-kharkiv-01-mgql-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Sergey Kozlov/EPA, via Shutterstock</media:credit>
+      <media:description>Fighting a fire on Friday after an overnight strike in Kharkiv. Russia has stepped up its bombardment of the northern Ukrainian city in recent weeks.</media:description>
+    </item>
+    <item>
       <title>An English Town Drops Apostrophes From Street Signs. Some Aren’t Happy.</title>
       <link>https://www.nytimes.com/2024/05/10/world/europe/north-yorkshire-apostrophe-street-signs.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/north-yorkshire-apostrophe-street-signs.html</guid>
@@ -816,6 +888,68 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
       <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10rory-mbappe-jgzb/10rory-mbappe-jgzb-mediumSquareAt3X-v3.jpg" width="1800"></media:content>
       <media:credit>Miguel Medina/Agence France-Presse — Getty Images</media:credit>
+    </item>
+    <item>
+      <title>How Pro-Palestinian Students Pushed Trinity College Dublin to Divest</title>
+      <link>https://www.nytimes.com/2024/05/10/world/europe/ireland-trinity-dublin-palestinian-protests-divest.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/ireland-trinity-dublin-palestinian-protests-divest.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/ireland-trinity-dublin-palestinian-protests-divest.html" rel="standout"></atom:link>
+      <description>A surge of attention hit Ireland’s most prestigious university over protests that involved Israel, Gaza and the famed medieval Book of Kells.</description>
+      <dc:creator>Isabella Kwai and Ed O’Loughlin</dc:creator>
+      <pubDate>Fri, 10 May 2024 09:42:40 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pro-Palestinian Campus Protests (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Trinity College (Dublin, Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Boycott, Divestment and Sanctions (BDS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10campusprotest-trinity-glzk/10campusprotest-trinity-glzk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Artur Widak/Nurphoto, via Getty Images</media:credit>
+      <media:description>Students at Trinity College Dublin staging a campus protest against Israel’s actions in Gaza last Saturday. The students said they were inspired by similar movements in the United States.</media:description>
+    </item>
+    <item>
+      <title>Kherson Residents Rebuild and Brace for New Russian Attack</title>
+      <link>https://www.nytimes.com/2024/05/10/world/europe/kherson-ukraine-russia-attack.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/kherson-ukraine-russia-attack.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/kherson-ukraine-russia-attack.html" rel="standout"></atom:link>
+      <description>The people of the Kherson region have slowly rebuilt their homes and livelihoods since a Ukrainian counteroffensive forced out Russian troops. Now they are bracing for another Russian attack.</description>
+      <dc:creator>Carlotta Gall, Oleksandr Chubko and Mauricio Lima</dc:creator>
+      <pubDate>Sat, 11 May 2024 16:10:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kherson (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/01/multimedia/00ukraine-kherson-villages-01-vqzf-promo/00ukraine-kherson-villages-01-vqzf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mauricio Lima for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>After Her Sister Wed at 11, a Girl Began Fighting Child Marriage at 13</title>
+      <link>https://www.nytimes.com/2024/05/10/world/africa/child-marriage-malawi-memory-banda.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/africa/child-marriage-malawi-memory-banda.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/10/world/africa/child-marriage-malawi-memory-banda.html" rel="standout"></atom:link>
+      <description>Memory Banda’s battle, which she has been waging since she was a teenager in a village in Malawi, started with a poignant question: “Why should this be happening to girls so young?”</description>
+      <dc:creator>Rabson Kondowe</dc:creator>
+      <pubDate>Sat, 11 May 2024 00:56:49 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Malawi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Marriages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women&#39;s Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Banda, Memory</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/08/multimedia/00malawi-1-lvjg/00malawi-1-lvjg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Amos Gumulira for The New York Times</media:credit>
+      <media:description>Memory Banda’s activism against child marriage began in a small village in Malawi she was just 13. </media:description>
     </item>
     <item>
       <title>How a Remote Australian Town Nearly Ran Out of Food</title>
@@ -1040,110 +1174,6 @@
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09dc-prexy-clhz/09dc-prexy-clhz-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Ramez Habboub/Associated Press</media:credit>
       <media:description>Smoke rising over buildings after an airstrike near Rafah, southern Gaza, on Tuesday.</media:description>
-    </item>
-    <item>
-      <title>Boeing Plane Goes Off Runway in Senegal, Leaving at Least 10 Injured</title>
-      <link>https://www.nytimes.com/2024/05/09/world/africa/boeing-plane-runway-senegal.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/africa/boeing-plane-runway-senegal.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/africa/boeing-plane-runway-senegal.html" rel="standout"></atom:link>
-      <description>The authorities in Senegal said the incident involving the aircraft, a Boeing 737 that was flying to Mali, was under investigation.</description>
-      <dc:creator>Christine Hauser</dc:creator>
-      <pubDate>Thu, 09 May 2024 19:12:19 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Air Senegal</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Aviation Accidents, Safety and Disasters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Boeing Company</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airports</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dakar (Senegal)</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09xp-boeing2-hgqz/09xp-boeing2-hgqz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Zohra Bensemra/Reuters</media:credit>
-      <media:description>A Boeing passenger plane overran the runway while aborting takeoff from Blaise Diagne International Airport in Senegal on Thursday.</media:description>
-    </item>
-    <item>
-      <title>Ukraine Strikes Russian Oil Facilities, Including One Far Over the Border</title>
-      <link>https://www.nytimes.com/2024/05/09/world/europe/ukraine-strikes-russia-oil-refineries.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/europe/ukraine-strikes-russia-oil-refineries.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/europe/ukraine-strikes-russia-oil-refineries.html" rel="standout"></atom:link>
-      <description>Analysts say Ukraine is trying to disrupt the Russian military’s logistical routes and combat operations by targeting the facilities that supply fuel for its tanks, ships and fighter jets.</description>
-      <dc:creator>Constant Méheut</dc:creator>
-      <pubDate>Thu, 09 May 2024 18:32:01 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Oil (Petroleum) and Gasoline</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09ukraine-strikes-1-bjlw/09ukraine-strikes-1-bjlw-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Gavriil Grigorov</media:credit>
-      <media:description>Radiy Khabirov, the head of the of the Bashkiria region, near Kazakhstan, in the Kremlin, last month. He said a drone had hit the Neftekhim Salavat oil refinery on Thursday.</media:description>
-    </item>
-    <item>
-      <title>Venezuelan Show Contestants Compete for Maduro’s Presidential Campaign Jingle</title>
-      <link>https://www.nytimes.com/2024/05/09/world/americas/venezuela-maduro-m-factor-show.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/americas/venezuela-maduro-m-factor-show.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/americas/venezuela-maduro-m-factor-show.html" rel="standout"></atom:link>
-      <description>The program is one way President Nicolás Maduro of Venezuela is trying portray himself and his allies as joyful, colorful characters determined to save the nation.</description>
-      <dc:creator>Genevieve Glatsky</dc:creator>
-      <pubDate>Thu, 09 May 2024 21:14:59 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-    </item>
-    <item>
-      <title>Ramón Fonseca, Cofounder of Panama Papers Law Firm, Dies</title>
-      <link>https://www.nytimes.com/2024/05/09/world/americas/ramon-fonseca-panama-papers-dies.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/americas/ramon-fonseca-panama-papers-dies.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/americas/ramon-fonseca-panama-papers-dies.html" rel="standout"></atom:link>
-      <description>Mr. Fonseca died while awaiting the verdict in his trial for money laundering tied to the 2016 scandal exposed by a massive leak of documents from his firm.</description>
-      <dc:creator>Leila Miller</dc:creator>
-      <pubDate>Thu, 09 May 2024 17:28:39 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fonseca Mora, Ramon (1952- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Panama Papers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Money Laundering</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tax Shelters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mossack, Jurgen (1948- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Panama</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Consortium of Investigative Journalists</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mossack Fonseca &amp; Co</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Siemens AG</category>
-      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09fonseca-1-fwmh/09fonseca-1-fwmh-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Arnulfo Franco/Associated Press</media:credit>
-      <media:description>Ramon Fonseca, a lawyer at the heart of the Panama Papers scandal, in his office in Panama City, in 2016.</media:description>
-    </item>
-    <item>
-      <title>‘We Still Have Hope’: Rescuers Race to Find Dozens Missing in South Africa Building Collapse</title>
-      <link>https://www.nytimes.com/2024/05/09/world/africa/south-africa-george-collapse.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/africa/south-africa-george-collapse.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/africa/south-africa-george-collapse.html" rel="standout"></atom:link>
-      <description>Three days after the collapse of a four-story building that was under construction, rescuers were still combing through some 3,000 tons of concrete rubble even as signs of life faded.</description>
-      <dc:creator>John Eligon</dc:creator>
-      <pubDate>Thu, 09 May 2024 21:52:18 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Accidents and Safety</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rescues</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Africa</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Western Cape (South Africa)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Buildings (Structures)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09safrica-collapse-1-gjwm/09safrica-collapse-1-gjwm-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Jerome Delay/Associated Press</media:credit>
-      <media:description>Rescue personnel searching the site on Thursday, three days after the building collapsed.</media:description>
-    </item>
-    <item>
-      <title>In Budapest, Xi Hails China’s ‘Deep Friendship’ With Hungary</title>
-      <link>https://www.nytimes.com/2024/05/09/world/europe/xi-jinping-china-hungary-orban.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/europe/xi-jinping-china-hungary-orban.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/europe/xi-jinping-china-hungary-orban.html" rel="standout"></atom:link>
-      <description>The Chinese leader met with Viktor Orban, the Hungarian prime minister, one of China’s most fervent admirers and protectors in Europe.</description>
-      <dc:creator>Andrew Higgins</dc:creator>
-      <pubDate>Thu, 09 May 2024 21:32:25 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Belt and Road Initiative (China)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orban, Viktor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hungary</category>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09xi-europe-01-qvmf/09xi-europe-01-qvmf-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Szilard Koszticsak</media:credit>
-      <media:description>Xi Jinping, China’s leader, was met with military honors at the Buda Castle in Budapest on Thursday.</media:description>
     </item>
   </channel>
 </rss>

@@ -7,13 +7,66 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 12 May 2024 07:14:38 +0000</lastBuildDate>
-    <pubDate>Sun, 12 May 2024 06:31:50 +0000</pubDate>
+    <lastBuildDate>Sun, 12 May 2024 15:40:35 +0000</lastBuildDate>
+    <pubDate>Sun, 12 May 2024 15:20:40 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
+    <item>
+      <title>Mystery of Mona Lisa’s Location May Be Solved</title>
+      <link>https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html" rel="standout"></atom:link>
+      <description>A mash-up of geology and art history has identified a likely setting for one of the world’s most famous paintings.</description>
+      <dc:creator>Ali Watkins</dc:creator>
+      <pubDate>Sun, 12 May 2024 14:54:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">da Vinci, Leonardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Geology</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12xp-MonaLisa2-qvzw/12xp-MonaLisa2-qvzw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Christophe Ena/Associated Press</media:credit>
+      <media:description>A geologist said the shape of the lake and the gray-white limestone in the background of Leonardo da Vinci’s Mona Lisa helped identify the setting of the portrait.</media:description>
+    </item>
+    <item>
+      <title>Russian Forces Push Deeper Into Northern Ukraine</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html" rel="standout"></atom:link>
+      <description>A Ukrainian military unit said that its troops were forced to retreat from several positions and that one settlement had been captured by Russian forces.</description>
+      <dc:creator>Jeffrey Gettleman and Constant Méheut</dc:creator>
+      <pubDate>Sun, 12 May 2024 15:11:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12ukraine-kharkiv-01-hkbv/12ukraine-kharkiv-01-hkbv-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Emile Ducke for The New York Times</media:credit>
+      <media:description>A person being evacuated to Kharkiv city on Saturday.</media:description>
+    </item>
+    <item>
+      <title>Ukraine’s Seaborne Grain Exports Bounce Back to Near Prewar Levels</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html" rel="standout"></atom:link>
+      <description>The flow of grain ships through ports in the Odesa region is a welcome boost for Ukraine’s war-ravaged economy. But analysts warn it may not last.</description>
+      <dc:creator>Constant Méheut</dc:creator>
+      <pubDate>Sun, 12 May 2024 09:02:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ships and Shipping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Black Sea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Odessa (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14ukraine-grain-ltvh/14ukraine-grain-ltvh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Oksana Parafeniuk for The New York Times</media:credit>
+      <media:description>A 700-foot Liberian-flagged ship carrying corn bound for Bangladesh leaving the Ukrainian port of Odesa in March.</media:description>
+    </item>
     <item>
       <title>Ahead of Olympics, World Anti-Doping Agency Faces a Trust Crisis</title>
       <link>https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html</link>
@@ -21,7 +74,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/olympics-wada-doping.html" rel="standout"></atom:link>
       <description>Concerns are growing that the body whose job is keeping sports free of illegal drugs is failing at that mission, leading Congress to question U.S. support.</description>
       <dc:creator>Michael S. Schmidt, Jenny Vrentas and Tariq Panja</dc:creator>
-      <pubDate>Sun, 12 May 2024 04:01:20 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 12:13:12 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Doping (Sports)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">World Anti-Doping Agency</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Olympic Games (2024)</category>
@@ -40,7 +93,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/11/arts/music/eurovision-final-winner.html" rel="standout"></atom:link>
       <description>The nonbinary singer Nemo won the high-camp contest, during a night that included pro-Palestinian demonstrations outside the arena and fireworks onstage.</description>
       <dc:creator>Alex Marshall</dc:creator>
-      <pubDate>Sat, 11 May 2024 23:49:01 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 12:56:22 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Eurovision Song Contest</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Broadcasting Union</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Golan, Eden</category>
@@ -100,11 +153,11 @@
       <dc:creator>Jeffrey Gettleman and Emile Ducke</dc:creator>
       <pubDate>Sun, 12 May 2024 06:31:50 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11ukraine-kharkiv-new-4-zlfk/11ukraine-kharkiv-new-4-zlfk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:description>Olha Melnichuk, an 85-year-old resident of Liptsi, near the Russian border, was evacuated to a shelter in Kharkiv, the country’s second-largest city, on Saturday.</media:description>
     </item>
@@ -136,9 +189,9 @@
       <link>https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html" rel="standout"></atom:link>
-      <description>The unusual sight of aurora borealis was visible in several European countries on Friday, and in multiple parts of the United States.</description>
+      <description>The unusual sight of aurora borealis was visible around the world.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sat, 11 May 2024 19:48:56 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 14:54:31 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Aurora Borealis</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
@@ -344,58 +397,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12sp-design-istanbul-bzcj/12sp-design-istanbul-bzcj-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Bradley Secker for The New York Times</media:credit>
       <media:description>At Zeyrek Cinili Hamam, visitors can enjoy a Turkish bath under domes pierced with star-shaped skylights.</media:description>
-    </item>
-    <item>
-      <title>Friday Briefing</title>
-      <link>https://www.nytimes.com/2024/05/10/briefing/israel-us-relations-ukraine.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/briefing/israel-us-relations-ukraine.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/briefing/israel-us-relations-ukraine.html" rel="standout"></atom:link>
-      <description>Here’s what you need to know.</description>
-      <dc:creator>Natasha Frost</dc:creator>
-      <pubDate>Fri, 10 May 2024 04:05:22 +0000</pubDate>
-      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10ambriefing-europe-jfqm-israel/10ambriefing-europe-jfqm-israel-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Abir Sultan/EPA, via Shutterstock</media:credit>
-      <media:description>Israeli military vehicles near the border with Gaza.</media:description>
-    </item>
-    <item>
-      <title>Bernard Pivot, Host of Influential French TV Show on Books, Dies at 89</title>
-      <link>https://www.nytimes.com/2024/05/09/world/europe/bernard-pivot-dead.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/europe/bernard-pivot-dead.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/europe/bernard-pivot-dead.html" rel="standout"></atom:link>
-      <description>For 15 years, French viewers watched Mr. Pivot on his weekly show, “Apostrophes,” to decide what to read next.</description>
-      <dc:creator>Adam Nossiter</dc:creator>
-      <pubDate>Fri, 10 May 2024 21:30:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pivot, Bernard (1935- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Matzneff, Gabriel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Solzhenitsyn, Aleksandr I</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bukowski, Charles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duras, Marguerite</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Apostrophes (TV Program)</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09Pivot--03-gjqm/09Pivot--03-gjqm-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Remi Berli/Gamma-Rapho, via Getty Images</media:credit>
-      <media:description>Bernard Pivot in 1980. His weekly show, “Apostrophes,” ran from 1975 to 1990.</media:description>
-    </item>
-    <item>
-      <title>Ukraine Strikes Russian Oil Facilities, Including One Far Over the Border</title>
-      <link>https://www.nytimes.com/2024/05/09/world/europe/ukraine-strikes-russia-oil-refineries.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/europe/ukraine-strikes-russia-oil-refineries.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/europe/ukraine-strikes-russia-oil-refineries.html" rel="standout"></atom:link>
-      <description>Analysts say Ukraine is trying to disrupt the Russian military’s logistical routes and combat operations by targeting the facilities that supply fuel for its tanks, ships and fighter jets.</description>
-      <dc:creator>Constant Méheut</dc:creator>
-      <pubDate>Thu, 09 May 2024 18:32:01 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Oil (Petroleum) and Gasoline</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09ukraine-strikes-1-bjlw/09ukraine-strikes-1-bjlw-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Gavriil Grigorov</media:credit>
-      <media:description>Radiy Khabirov, the head of the of the Bashkiria region, near Kazakhstan, in the Kremlin, last month. He said a drone had hit the Neftekhim Salavat oil refinery on Thursday.</media:description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Sat, 11 May 2024 06:01:14 -0400</pubDate>
-<lastBuildDate>Sat, 11 May 2024 06:01:14 -0400</lastBuildDate>
+<pubDate>Sun, 12 May 2024 11:01:16 -0400</pubDate>
+<lastBuildDate>Sun, 12 May 2024 11:01:16 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,46 @@
 <link>http://online.wsj.com</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Wealth Managers, Charities Defend Fees From Donor-Advised Funds</title>
+<link>https://www.wsj.com/articles/wealth-managers-charities-defend-fees-from-donor-advised-funds-ac382208?mod=rss_markets_main</link>
+<description><![CDATA[“Strange bedfellows” are teaming up to oppose a Treasury Department proposal penalizing certain payments.]]></description>
+<content:encoded/>
+<pubDate>Sun, 12 May 2024 11:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001769127</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Financial Regulation</wsj:articletype>
+</item>
+<item>
+<title>What You Need to Know About Managing Expenses to Buy and Stay in Your Home</title>
+<link>https://www.wsj.com/articles/what-you-need-to-know-about-managing-expenses-to-buy-and-stay-in-your-home-5855c92c?mod=rss_markets_main</link>
+<description><![CDATA[A podcast series examines sustainable homeownership by outlining the financial implications of buying a house.]]></description>
+<content:encoded/>
+<pubDate>Sun, 12 May 2024 10:02:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001760786</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Personal Finance</wsj:articletype>
+</item>
+<item>
+<title>What's So Bad About Fixing Oil Prices?</title>
+<link>https://www.wsj.com/articles/ftc-oil-prices-market-collusion-aa7f2de9?mod=rss_markets_main</link>
+<description><![CDATA[A U.S. oil CEO’s alleged collusion with OPEC isn’t as alarming or evil as it seems.]]></description>
+<content:encoded/>
+<pubDate>Sun, 12 May 2024 07:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001768041</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Wall Street Turns Up the Heat on Companies to Perform</title>
+<link>https://www.wsj.com/articles/wall-street-turns-up-the-heat-on-companies-to-perform-12010d2b?mod=rss_markets_main</link>
+<description><![CDATA[Shares of companies that missed first-quarter earnings estimates have slid an average of 2.8%, compared with the five-year average of a 2.3% decline.]]></description>
+<content:encoded/>
+<pubDate>Sun, 12 May 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001767843</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Stocks</wsj:articletype>
+</item>
 <item>
 <title>This Stock-Market Rally Isn't What It Seems</title>
 <link>https://www.wsj.com/articles/this-stock-market-rally-isnt-what-it-seems-602b0feb?mod=rss_markets_main</link>
@@ -27,16 +67,6 @@
 <wsj:articletype>Heard on the Street</wsj:articletype>
 </item>
 <item>
-<title>Inside the 21st Century Gold Rush</title>
-<link>https://www.wsj.com/articles/gold-prices-2024-investment-dc6248b2?mod=rss_markets_main</link>
-<description><![CDATA[Worries about war, discord and mounting government debt have fueled a worldwide rush by individuals and institutions into what Wall Street calls “physical gold”— bars, coins, jewelry and nuggets.]]></description>
-<content:encoded/>
-<pubDate>Sat, 11 May 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001764630</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Precious Metals</wsj:articletype>
-</item>
-<item>
 <title>The 'Save the Oceans' Tax Break: Recycling Oyster Shells</title>
 <link>https://www.wsj.com/articles/climate-save-ocean-recycled-oyster-shells-1fff9d54?mod=rss_markets_main</link>
 <description><![CDATA[People love to eat oysters. The shells often end up in landfills. These restaurants want to repurpose them—and save some money.]]></description>
@@ -45,6 +75,16 @@
 <guid isPermaLink="false">WP-WSJ-0001763358</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Markets Main</wsj:articletype>
+</item>
+<item>
+<title>Inside the 21st Century Gold Rush</title>
+<link>https://www.wsj.com/articles/gold-prices-2024-investment-dc6248b2?mod=rss_markets_main</link>
+<description><![CDATA[Worries about war, discord and mounting government debt have fueled a worldwide rush by individuals and institutions into what Wall Street calls “physical gold”— bars, coins, jewelry and nuggets.]]></description>
+<content:encoded/>
+<pubDate>Sat, 11 May 2024 05:30:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001764630</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Precious Metals</wsj:articletype>
 </item>
 <item>
 <title>How Did Jim Simons's Firm Make $100 Billion? He Told His Secrets to Our Reporter</title>
@@ -173,46 +213,6 @@
 <content:encoded/>
 <pubDate>Thu, 09 May 2024 12:22:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001477324</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Financial Regulation</wsj:articletype>
-</item>
-<item>
-<title>Binance Pledged to Thwart Suspicious Trading---Until It Involved a Lamborghini-Loving High Roller</title>
-<link>https://www.wsj.com/articles/binance-investigation-suspicious-trading-dwf-5f481f9d?mod=rss_markets_main</link>
-<description><![CDATA[Former company insiders say the firing of an internal investigator showed that the crypto exchange neglected evidence of market manipulation.]]></description>
-<content:encoded/>
-<pubDate>Thu, 09 May 2024 09:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001755383</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Crypto</wsj:articletype>
-</item>
-<item>
-<title>Spain's BBVA Goes Hostile in Pursuit of Smaller Banking Rival Sabadell</title>
-<link>https://www.wsj.com/articles/bbva-launches-12-4-billion-formal-bid-for-sabadell-dfd7adbe?mod=rss_markets_main</link>
-<description><![CDATA[Its $12 billion-plus stock offer faced immediate opposition from the Spanish government.]]></description>
-<content:encoded/>
-<pubDate>Thu, 09 May 2024 08:01:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001762804</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Deals &amp; Deal Makers</wsj:articletype>
-</item>
-<item>
-<title>Chinese Stocks Rebound, but Foundation for Rally Still Weak</title>
-<link>https://www.wsj.com/articles/chinese-stocks-rebound-but-foundation-for-rally-still-weak-7008df05?mod=rss_markets_main</link>
-<description><![CDATA[Stocks in Chinese companies have bounced back, but investors have seen false dawns before.]]></description>
-<content:encoded/>
-<pubDate>Thu, 09 May 2024 06:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001762495</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>FDIC Chairman's Future Hinges on High-Stakes Hearings</title>
-<link>https://www.wsj.com/articles/fdic-chairmans-future-hinges-on-high-stakes-hearings-70f35763?mod=rss_markets_main</link>
-<description><![CDATA[Martin Gruenberg goes before House and Senate panels next week after an investigation found the agency’s culture rife with racism, sexism and abuse.]]></description>
-<content:encoded/>
-<pubDate>Thu, 09 May 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001761533</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Financial Regulation</wsj:articletype>
 </item>

@@ -188,6 +188,11 @@ interfaces with these CNI binaries can continue working.</p></li>
 <p>A vulnerability (CVE-2024-26808) was discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized OS and Ubuntu nodes. </p>
 
 <p>For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-027">GCP-2024-027 security bulletin</a>.</p>
+<h2 class="release-note-product-title">Google SecOps SOAR</h2>
+<h3>Announcement</h3>
+<p>Release 6.3.1 is now in General Availability. </p>
+<h3>Announcement</h3>
+<p>Remote Agents Release 1.6.0 is now in General Availability. </p>
 ]]>
     </content>
   </entry>
@@ -481,6 +486,19 @@ zones.</span></aside>
 <li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.28 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282001</a> with this release.</li>
 <li>Control planes and nodes with auto-upgrade enabled in the Rapid channel will be upgraded from version 1.29 to version <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.29.md#v1293">1.29.3-gke.1282001</a> with this release.</li>
 </ul>
+<h2 class="release-note-product-title">Google SecOps SOAR</h2>
+<h3>Announcement</h3>
+<p>Release 6.3.2 is currently in Preview. </p>
+<h3>Fixed</h3>
+<p>Issues when  <code>Siemplify &gt; Set Case SLA</code> actions run at the exact same time (ID #49397338)</p>
+<h3>Fixed</h3>
+<p>Wrong error message displays when you to try add a custom list with a name that already exists (ID #50610331)</p>
+<h3>Fixed</h3>
+<p>User mentioned in case not receiving an email notification (ID #00274991)</p>
+<h3>Fixed</h3>
+<p>Widgets not fully aligned on Case view page (ID #49711925)</p>
+<h3>Fixed</h3>
+<p>Number increased for integer type integration parameters (ID #00287205)</p>
 <h2 class="release-note-product-title">Looker</h2>
 <h3>Announcement</h3>
 <p><strong>Looker 24.8</strong>  includes the following changes, features, and fixes:</p>

@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Sun, 12 May 2024 07:12:09 +0200</lastBuildDate>
-  <pubDate>Sun, 12 May 2024 07:12:09 +0200</pubDate>
+  <lastBuildDate>Sun, 12 May 2024 15:00:06 +0200</lastBuildDate>
+  <pubDate>Sun, 12 May 2024 15:00:06 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,34 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Israeli police break up anti-government protest in Tel Aviv</title>
+   <link>https://www.euronews.com/2024/05/12/israeli-police-break-up-anti-government-protest-in-tel-aviv</link>
+   <guid>https://www.euronews.com/2024/05/12/israeli-police-break-up-anti-government-protest-in-tel-aviv</guid>
+   <pubDate>Sun, 12 May 2024 14:18:29 +0200</pubDate>
+   <description>The police pushed an anti-government demonstration away from a main traffic junction in the city using water canon and arresting some of the protestors.</description>
+  </item>
+  <item>
+   <title>Latest news bulletin | May 12th – Midday</title>
+   <link>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-midday</link>
+   <guid>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-midday</guid>
+   <pubDate>Sun, 12 May 2024 12:00:02 +0200</pubDate>
+   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
+  </item>
+  <item>
+   <title>Russia bombards border city as major assault on Ukraine continues</title>
+   <link>https://www.euronews.com/2024/05/12/russia-bombards-border-city-as-major-assault-on-ukraine-continues</link>
+   <guid>https://www.euronews.com/2024/05/12/russia-bombards-border-city-as-major-assault-on-ukraine-continues</guid>
+   <pubDate>Sun, 12 May 2024 11:00:02 +0200</pubDate>
+   <description>Russia targets the border city of Vovchansk with intense airstrikes and rocket attacks as part of its major new assault on eastern Ukraine.</description>
+  </item>
+  <item>
+   <title>IDF says 'precise operation' in Rafah continues as thousands more told to evacuate</title>
+   <link>https://www.euronews.com/2024/05/12/idf-says-precise-operation-in-rafah-continues-as-thousands-more-told-to-evacuate</link>
+   <guid>https://www.euronews.com/2024/05/12/idf-says-precise-operation-in-rafah-continues-as-thousands-more-told-to-evacuate</guid>
+   <pubDate>Sun, 12 May 2024 10:22:01 +0200</pubDate>
+   <description>The Israeli military issued more evacuation orders for tens of thousand of Palestinians on Saturday, advising them to head to an ‘expanded humanitarian zone’ in al-Mawasi.</description>
+  </item>
   <item>
    <title>Latest news bulletin | May 12th – Morning</title>
    <link>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-morning</link>
@@ -336,34 +364,6 @@
    <guid>https://www.euronews.com/2024/05/08/another-german-politician-is-attacked-as-concerns-rise-over-violence-ahead-of-eu-elections</guid>
    <pubDate>Wed, 08 May 2024 13:12:58 +0200</pubDate>
    <description>The rise in far-right sentiment across Europe and Germany in particular has come with increased threats to public figures and various groups.</description>
-  </item>
-  <item>
-   <title>Russia launches 'massive' missile and drone attack on Ukraine's energy facilities</title>
-   <link>https://www.euronews.com/2024/05/08/russia-launches-massive-missile-and-drone-attack-on-ukraines-energy-facilities</link>
-   <guid>https://www.euronews.com/2024/05/08/russia-launches-massive-missile-and-drone-attack-on-ukraines-energy-facilities</guid>
-   <pubDate>Wed, 08 May 2024 12:13:37 +0200</pubDate>
-   <description>Worries about a renewed Russian offensive are intensifying as Ukrainian forces struggle to regain their footing.</description>
-  </item>
-  <item>
-   <title>Latest news bulletin | May 8th – Midday</title>
-   <link>https://www.euronews.com/video/2024/05/08/latest-news-bulletin-may-8th-midday</link>
-   <guid>https://www.euronews.com/video/2024/05/08/latest-news-bulletin-may-8th-midday</guid>
-   <pubDate>Wed, 08 May 2024 12:00:03 +0200</pubDate>
-   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
-  </item>
-  <item>
-   <title>Iran and UN nuclear watchdog look for a way forward on uranium enrichment inspections</title>
-   <link>https://www.euronews.com/2024/05/08/iran-and-un-nuclear-watchdog-look-for-a-way-forward-on-uranium-enrichment-inspections</link>
-   <guid>https://www.euronews.com/2024/05/08/iran-and-un-nuclear-watchdog-look-for-a-way-forward-on-uranium-enrichment-inspections</guid>
-   <pubDate>Wed, 08 May 2024 10:35:51 +0200</pubDate>
-   <description>Tensions with Israel and Tehran's ongoing enrichment of uranium have put the international nuclear weapons control regime under major stress.</description>
-  </item>
-  <item>
-   <title>What is former Iranian leader Ahmadinejad doing on a secret trip to Budapest?</title>
-   <link>https://www.euronews.com/2024/05/08/what-is-former-iranian-leader-ahmadinejad-doing-in-a-secret-visit-to-budapest</link>
-   <guid>https://www.euronews.com/2024/05/08/what-is-former-iranian-leader-ahmadinejad-doing-in-a-secret-visit-to-budapest</guid>
-   <pubDate>Wed, 08 May 2024 10:24:26 +0200</pubDate>
-   <description>In a statement to Euronews, the Israeli Embassy in Hungary has slammed the move to invite the Holocaust-denying Iranian ex-president to speak at a Budapest university.</description>
   </item>
  </channel>
 </rss>
