@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Sat, 11 May 2024 21:51:05 +0200</lastBuildDate>
-  <pubDate>Sat, 11 May 2024 21:51:05 +0200</pubDate>
+  <lastBuildDate>Sun, 12 May 2024 07:12:09 +0200</lastBuildDate>
+  <pubDate>Sun, 12 May 2024 07:12:09 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,13 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Latest news bulletin | May 12th – Morning</title>
+   <link>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-morning</link>
+   <guid>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-morning</guid>
+   <pubDate>Sun, 12 May 2024 07:00:03 +0200</pubDate>
+   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
+  </item>
   <item>
    <title>European success with an Uzbek comeback</title>
    <link>https://www.euronews.com/2024/05/11/european-success-with-an-uzbek-comeback</link>
@@ -357,13 +364,6 @@
    <guid>https://www.euronews.com/2024/05/08/what-is-former-iranian-leader-ahmadinejad-doing-in-a-secret-visit-to-budapest</guid>
    <pubDate>Wed, 08 May 2024 10:24:26 +0200</pubDate>
    <description>In a statement to Euronews, the Israeli Embassy in Hungary has slammed the move to invite the Holocaust-denying Iranian ex-president to speak at a Budapest university.</description>
-  </item>
-  <item>
-   <title>Latest news bulletin | May 8th – Morning</title>
-   <link>https://www.euronews.com/video/2024/05/08/latest-news-bulletin-may-8th-morning</link>
-   <guid>https://www.euronews.com/video/2024/05/08/latest-news-bulletin-may-8th-morning</guid>
-   <pubDate>Wed, 08 May 2024 07:00:03 +0200</pubDate>
-   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
   </item>
  </channel>
 </rss>

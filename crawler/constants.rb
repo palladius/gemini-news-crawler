@@ -70,12 +70,12 @@ NEWS_BY_REGION ={
     # 'US general11': 'http://feeds.reuters.com/Reuters/domesticNews',
     # 'US general12': 'http://hosted.ap.org/lineups/USHEADS.rss',
     # 'US general13': 'http://hosted.ap.org/lineups/WORLDHEADS.rss',
-    'US general14': 'http://www.huffingtonpost.com/feeds/verticals/world/index.xml',
-    'US general15': 'http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml',
-    'US general16': 'http://news.yahoo.com/rss/us',
-    'US general17': 'http://rss.news.yahoo.com/rss/world',
+    'US - huffingtonpost world': 'http://www.huffingtonpost.com/feeds/verticals/world/index.xml',
+    'US - BBC US and Canada': 'http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml',
+    'US - Yahoo News US': 'http://news.yahoo.com/rss/us',
+    'US - Yahoo News World': 'http://rss.news.yahoo.com/rss/world',
 
-    #  'US general19': 'http://feeds.feedburner.com/thedailybeast/articles',
+    'US The Daily Beast': 'http://feeds.feedburner.com/thedailybeast/articles',
     #'US general20': 'http://qz.com/feed', # lags
     'US general21': 'http://www.theguardian.com/world/usa/rss',
     'Politico': 'http://www.politico.com/rss/politicopicks.xml',
@@ -91,6 +91,7 @@ NEWS_BY_REGION ={
     'US - Salon': 'http://www.salon.com/category/news/feed/rss/',
     'US - Time': 'http://time.com/newsfeed/feed/',
     'US - Fox News': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
+    'US - Reuters Politics': 'https://www.reutersagency.com/feed/?best-topics=political-general&post_type=best',
   },
   'Blogs': {
     'Riccardo Carlesso - Blog':   'https://ricc.rocks/en/index.xml',
@@ -108,17 +109,24 @@ NEWS_BY_REGION ={
   'Technology': {
     'GCP latest releases':        'https://cloud.google.com/feeds/gcp-release-notes.xml',
     'Google Cloud Blog': 'https://cloudblog.withgoogle.com/rss/',
+    'Kevin Randles on Medium': 'https://medium.com/feed/@krandles',
+    # from https://rss.feedspot.com/technology_rss_feeds/
+    'techcrunch': 'https://techcrunch.com/feed/',
+    'The Verge': 'https://www.theverge.com/rss/frontpage',
+    'Mashable': 'https://mashable.com/feeds/rss/all',
+    'Wired': 'https://www.wired.com/feed/rss',
+    'ZDNet': 'https://www.zdnet.com/news/rss.xml',
+    'ComputerWeekly': 'https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml',
+  },
+  'Ruby': {
     'Ruby (EN RSS)':  'https://www.ruby-lang.org/en/feeds/news.rss',
     'Ruby (English)':  'https://www.ruby-lang.org/en/',
     'Ruby (Italian)':  'https://www.ruby-lang.org/it/',
-
+    'Everyday Rails': 'http://feeds.feedburner.com/EverydayRails',
+    'Drifitng ruby': 'https://www.driftingruby.com/episodes/feed.atom',
     # Ruby RSS from https://rss.feedspot.com/ruby_on_rails_rss_feeds/
     'Ruby on Rails': 'https://rubyonrails.org/feed.xml',
     'Ruby Flow': 'https://rubyflow.com/rss',
-    'Everyday Rails': 'http://feeds.feedburner.com/EverydayRails',
-    'Drifitng ruby': 'https://www.driftingruby.com/episodes/feed.atom',
-    'Kevin Randles on Medium': 'https://medium.com/feed/@krandles',
-    #/Ruby
   }
 }
 
