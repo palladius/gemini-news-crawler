@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  get 'pages/stats'
   get 'pages/about'
+  get 'pages/graphs'
   get 'pages/search'
+  get 'pages/stats'
   get 'pages/gcp'
   get 'controller_name/stats'
   get 'controller_name/about'
