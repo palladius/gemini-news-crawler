@@ -147,50 +147,47 @@
 
 
 <div class="post">
-  <h3><a href="/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc</a></h3>
+  <h3><a href="/en/news/2024/04/23/ruby-3-3-1-released/">Ruby 3.3.1 Released</a></h3>
 
-  <p>We have released the RDoc gem version 6.3.4.1, 6.4.1.1, 6.5.1.1 and 6.6.3.1 that have a security fix for a RCE vulnerability.
-This vulnerability has been assigned the CVE identifier <a href="https://www.cve.org/CVERecord?id=CVE-2024-27281">CVE-2024-27281</a>.</p>
+  <p>Ruby 3.3.1 has been released.</p>
 
 
-  <p class="post-link"><a href="/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">Continue Reading...</a></p>
+  <p class="post-link"><a href="/en/news/2024/04/23/ruby-3-3-1-released/">Continue Reading...</a></p>
 
-  <p class="post-info">Posted by hsbt on 21 Mar 2024</p>
+  <p class="post-info">Posted by naruse on 23 Apr 2024</p>
 </div>
 
 <div class="post">
-  <h3><a href="/en/news/2024/03/21/buffer-overread-cve-2024-27280/">CVE-2024-27280: Buffer overread vulnerability in StringIO</a></h3>
+  <h3><a href="/en/news/2024/04/23/ruby-3-2-4-released/">Ruby 3.2.4 Released</a></h3>
 
-  <p>We have released the StringIO gem version 3.0.1.1 and 3.0.1.2 that have a security fix for a buffer overread vulnerability.
-This vulnerability has been assigned the CVE identifier <a href="https://www.cve.org/CVERecord?id=CVE-2024-27280">CVE-2024-27280</a>.</p>
+  <p>Ruby 3.2.4 has been released.</p>
 
 
-  <p class="post-link"><a href="/en/news/2024/03/21/buffer-overread-cve-2024-27280/">Continue Reading...</a></p>
+  <p class="post-link"><a href="/en/news/2024/04/23/ruby-3-2-4-released/">Continue Reading...</a></p>
 
-  <p class="post-info">Posted by hsbt on 21 Mar 2024</p>
+  <p class="post-info">Posted by nagachika on 23 Apr 2024</p>
 </div>
 
 <div class="post">
-  <h3><a href="/en/news/2024/01/18/ruby-3-2-3-released/">Ruby 3.2.3 Released</a></h3>
+  <h3><a href="/en/news/2024/04/23/ruby-3-1-5-released/">Ruby 3.1.5 Released</a></h3>
 
-  <p>Ruby 3.2.3 has been released.</p>
+  <p>Ruby 3.1.5 has been released.</p>
 
 
-  <p class="post-link"><a href="/en/news/2024/01/18/ruby-3-2-3-released/">Continue Reading...</a></p>
+  <p class="post-link"><a href="/en/news/2024/04/23/ruby-3-1-5-released/">Continue Reading...</a></p>
 
-  <p class="post-info">Posted by nagachika on 18 Jan 2024</p>
+  <p class="post-info">Posted by hsbt on 23 Apr 2024</p>
 </div>
 
 <div class="post">
-  <h3><a href="/en/news/2023/12/25/ruby-3-3-0-released/">Ruby 3.3.0 Released</a></h3>
+  <h3><a href="/en/news/2024/04/23/ruby-3-0-7-released/">Ruby 3.0.7 Released</a></h3>
 
-  
-<p>We are pleased to announce the release of Ruby 3.3.0. Ruby 3.3 adds a new parser named Prism, uses Lrama as a parser generator, adds a new pure-Ruby JIT compiler named RJIT, and many performance improvements especially YJIT.</p>
+  <p>Ruby 3.0.7 has been released.</p>
 
 
-  <p class="post-link"><a href="/en/news/2023/12/25/ruby-3-3-0-released/">Continue Reading...</a></p>
+  <p class="post-link"><a href="/en/news/2024/04/23/ruby-3-0-7-released/">Continue Reading...</a></p>
 
-  <p class="post-info">Posted by naruse on 25 Dec 2023</p>
+  <p class="post-info">Posted by hsbt on 23 Apr 2024</p>
 </div>
 
 
@@ -199,33 +196,33 @@ This vulnerability has been assigned the CVE identifier <a href="https://www.cve
   <ul>
     
     <li>
+      <a href="/en/news/2024/04/23/arbitrary-memory-address-read-regexp-cve-2024-27282/">CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search</a><br>
+      <span class="post-info">Posted by hsbt on 23 Apr 2024</span>
+    </li>
+    
+    <li>
+      <a href="/en/news/2024/03/21/rce-rdoc-cve-2024-27281/">CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc</a><br>
+      <span class="post-info">Posted by hsbt on 21 Mar 2024</span>
+    </li>
+    
+    <li>
+      <a href="/en/news/2024/03/21/buffer-overread-cve-2024-27280/">CVE-2024-27280: Buffer overread vulnerability in StringIO</a><br>
+      <span class="post-info">Posted by hsbt on 21 Mar 2024</span>
+    </li>
+    
+    <li>
+      <a href="/en/news/2024/01/18/ruby-3-2-3-released/">Ruby 3.2.3 Released</a><br>
+      <span class="post-info">Posted by nagachika on 18 Jan 2024</span>
+    </li>
+    
+    <li>
+      <a href="/en/news/2023/12/25/ruby-3-3-0-released/">Ruby 3.3.0 Released</a><br>
+      <span class="post-info">Posted by naruse on 25 Dec 2023</span>
+    </li>
+    
+    <li>
       <a href="/en/news/2023/12/11/ruby-3-3-0-rc1-released/">Ruby 3.3.0-rc1 Released</a><br>
       <span class="post-info">Posted by naruse on 11 Dec 2023</span>
-    </li>
-    
-    <li>
-      <a href="/en/news/2023/11/12/ruby-3-3-0-preview3-released/">Ruby 3.3.0-preview3 Released</a><br>
-      <span class="post-info">Posted by naruse on 12 Nov 2023</span>
-    </li>
-    
-    <li>
-      <a href="/en/news/2023/09/14/ruby-3-3-0-preview2-released/">Ruby 3.3.0-preview2 Released</a><br>
-      <span class="post-info">Posted by naruse on 14 Sep 2023</span>
-    </li>
-    
-    <li>
-      <a href="/en/news/2023/06/29/redos-in-uri-CVE-2023-36617/">CVE-2023-36617: ReDoS vulnerability in URI</a><br>
-      <span class="post-info">Posted by hsbt on 29 Jun 2023</span>
-    </li>
-    
-    <li>
-      <a href="/en/news/2023/05/12/ruby-3-3-0-preview1-released/">Ruby 3.3.0-preview1 Released</a><br>
-      <span class="post-info">Posted by naruse on 12 May 2023</span>
-    </li>
-    
-    <li>
-      <a href="/en/news/2023/03/30/ruby-3-2-2-released/">Ruby 3.2.2 Released</a><br>
-      <span class="post-info">Posted by naruse on 30 Mar 2023</span>
     </li>
     
   </ul>

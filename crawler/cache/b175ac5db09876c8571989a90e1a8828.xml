@@ -10,10 +10,10 @@
 
 <channel>
 	<title>Richard Seroter&#039;s Architecture Musings</title>
-	<atom:link href="http://seroter.com/feed/" rel="self" type="application/rss+xml" />
-	<link>http://seroter.com</link>
+	<atom:link href="https://seroter.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://seroter.com</link>
 	<description>Blog Featuring Code, Thoughts, and Experiences with Software and Services</description>
-	<lastBuildDate>Thu, 18 Apr 2024 23:44:40 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 10 May 2024 23:55:16 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,69 +22,61 @@
 	<generator>http://wordpress.com/</generator>
 <cloud domain='seroter.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
 <image>
-		<url>http://s0.wp.com/i/buttonw-com.png</url>
+		<url>https://s0.wp.com/i/buttonw-com.png</url>
 		<title>Richard Seroter&#039;s Architecture Musings</title>
-		<link>http://seroter.com</link>
+		<link>https://seroter.com</link>
 	</image>
-	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://seroter.com/osd.xml" title="Richard Seroter&#039;s Architecture Musings" />
-	<atom:link rel='hub' href='http://seroter.com/?pushpress=hub'/>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://seroter.com/osd.xml" title="Richard Seroter&#039;s Architecture Musings" />
+	<atom:link rel='hub' href='https://seroter.com/?pushpress=hub'/>
 	<item>
-		<title>Daily Reading List &#8211; April 18, 2024 (#300)</title>
-		<link>http://seroter.com/2024/04/18/daily-reading-list-april-18-2024-300/</link>
-					<comments>http://seroter.com/2024/04/18/daily-reading-list-april-18-2024-300/#respond</comments>
+		<title>Daily Reading List &#8211; May 10, 2024 (#316)</title>
+		<link>https://seroter.com/2024/05/10/daily-reading-list-may-10-2024-316/</link>
+					<comments>https://seroter.com/2024/05/10/daily-reading-list-may-10-2024-316/#respond</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Thu, 18 Apr 2024 23:44:40 +0000</pubDate>
+		<pubDate>Fri, 10 May 2024 23:53:29 +0000</pubDate>
 				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16312</guid>
+		<guid isPermaLink="false">http://seroter.com/?p=16638</guid>
 
-					<description><![CDATA[300 issues! Today's links look at what product management looks like for AI apps, which language (hint: Java) is hardest by dependency vulnerabilities, and a couple of ways to fine tune LLMs.]]></description>
+					<description><![CDATA[Today's links look at how gatekeepers limit the benefits of continuous delivery, how a cloud-managed database compares to a self-managed one, and how one might do chaos testing on a database.]]></description>
 										<content:encoded><![CDATA[
-<p>Three hundred issues of this little daily post! I&#8217;m sure I&#8217;ll really find my voice by the time I reach issue eight hundred. A few of the items today really got me thinking and I hope you enjoy the list.</p>
+<p>It&#8217;s the end of a solid workweek. Next week, I&#8217;ll be at Google I/O <a href="https://io.google/2024/explore/d347231e-4f66-4b2b-8c8b-f9090068bc79/">delivering the cloud keynote</a>, and then jetting off to Vegas to talk to analysts at the Gartner event going on there. Those events have wildly different audiences, and I deeply enjoy both.</p>
 
 
 
-<p>[article] <strong><a href="https://www.svpg.com/ai-product-management/">AI Product Management</a></strong>. Building AI apps (not platforms) comes with risks to consider and plan for. This is a great article for teams about to embark on that journey.</p>
+<p>[article] <strong><a href="https://thenewstack.io/gatekeepers-limit-continuous-deliverys-benefits/">Gatekeepers Limit Continuous Delivery’s Benefits</a></strong>. The <a href="https://www.leanproduction.com/theory-of-constraints/">theory of constraints</a> says you have to optimize the limiting factor. If you improve how fast folks can write code, but can&#8217;t ship it any faster, what&#8217;s the point?</p>
 
 
 
-<p>[blog] <strong><a href="https://www.syncfusion.com/blogs/post/build-apps-faster-with-flutter-tools">Flutter Made Easy: 5 Tools to Build Better Apps Faster</a></strong>. I&#8217;ve given up on ever getting into frontend work, but maybe better tools and generative AI assistance will get me there.</p>
+<p>[blog] <strong><a href="https://blog.gopenai.com/building-ai-powered-apps-with-langchain-a-2024-guide-a21df1d26b6c">Building AI-Powered Apps with LangChain: A 2024 Guide</a></strong>. Good details about this framework that has quickly become a go-to for folks building generative AI apps.</p>
 
 
 
-<p>[blog] <strong><a href="https://bravenewgeek.com/security-maintainability-velocity-choose-one/">Security, Maintainability, Velocity: Choose One</a></strong>. Tyler says that without careful consideration, you&#8217;ll find yourself choosing security, maintainability, or velocity for your software development.</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison">AlloyDB vs. self-managed PostgreSQL: a price-performance comparison</a></strong>. There are, of course, cases where self-managing hardware or software is a better move for you. But the number of cases is shrinking.</p>
 
 
 
-<p>[site] <strong><a href="https://llama.meta.com/llama3/">Build the future of AI with Meta Llama 3</a></strong>. Meta shipped the latest version of their Llama model with some impressive performance numbers. Relatedly, you can <a href="https://cloud.google.com/blog/products/ai-machine-learning/meta-llama-3-available-today-on-google-cloud-vertex-ai">try it out on Google Cloud&#8217;s Vertex platform</a>.</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/media-entertainment/paramount-global-built-its-streaming-platform-on-google-cloud/">Paramount+: A streaming powerhouse with limitless entertainment</a></strong>. Few folks need a zero-downtime, globally available service. But when you do, or if you want to apply the lessons learned from such an approach, see this post.</p>
 
 
 
-<p>[blog] <strong><a href="https://firebase.blog/posts/2024/04/next-announcements">What you missed from Firebase at Cloud Next ‘24!</a></strong> The Firebase booth was PACKED with people looking at tech and asking questions. Check this out for videos of their talks.</p>
+<p>[blog] <strong><a href="https://medium.com/beacamp-pub/6-best-practices-for-hosting-developer-focused-events-840a39c1ee2e">6 Best Practices for Hosting Developer-Focused Events</a></strong>. The in-person meetup scene seems hot right now, with lots of tech folks getting together to learn. This is a good post for those putting on events.</p>
 
 
 
-<p>[blog] <strong><a href="https://blog.howardjohn.info/posts/securing-prometheus/">Securing Prometheus with Istio Ambient</a></strong>. Quick post, but it highlights the &#8220;it just works&#8221; outcome of the new data plane in the Istio service mesh.</p>
+<p>[blog] <strong><a href="https://opensource.googleblog.com/2024/05/kubernetes-130-is-now-available-in-gke.html">Kubernetes 1.30 is now available in GKE in record time</a></strong>. Staying up to date in your Kubernetes cluster isn&#8217;t about features; it&#8217;s about security and stability updates. Nobody keeps you up to date like our GKE team.</p>
 
 
 
-<p>[blog] <strong><a href="https://medium.com/@brunoborges/optimize-applications-with-performance-configuration-testing-f0430a38b820">Optimize Applications with Performance Configuration Testing</a></strong>. Can you A/B test infrastructure setups in production? That&#8217;s what Bruno proposes here, and cloud platforms make it easier to run such experiments.</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/management-tools/active-assist-gets-new-hub-and-recommendations/">What’s new with Active Assist: New Hub UI and four new recommendations</a></strong>. Even if the AI hype train has taken focus off cost and security optimization, those things still matter a ton. I like the new security and audit-related &#8220;recommendations&#8221; we&#8217;re offering Cloud customers now.</p>
 
 
 
-<p>[blog] <strong><a href="https://medium.com/google-cloud/use-log-analytics-for-bigquery-usage-analysis-on-google-cloud-8f5454626c6c">Use Log Analytics for BigQuery Usage Analysis on Google Cloud</a></strong>. It doesn&#8217;t matter if you generate tons of logs if you have to way to use them. This post shows how to more easily analyze logs produced by your data warehouse.</p>
+<p>[blog] <strong><a href="https://dev.to/ceceliacreates/the-devrel-guide-to-business-jargon-2042">The DevRel Guide to Business Jargon</a></strong>. Get definitions of common sales and marketing terms like TAM, ARR, conversion rate, and more.</p>
 
 
 
-<p>[blog] <strong><a href="https://developers.googleblog.com/2024/03/tune-gemini-pro-in-google-ai-studio-or-gemini-api.html">Tune Gemini Pro in Google AI Studio or with the Gemini API</a></strong>. While tuning a model can feel intimidating, it really does seem like we&#8217;re making this very approachable.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/data-analytics/bigquery-can-now-fine-tune-models-hosted-in-vertex-ai/">Introducing LLM fine-tuning and evaluation in BigQuery</a></strong>. While the previous example is for experimentation, this post shows more of a production-grade fine tuning scenario.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoworld.com/article/3715264/java-services-hit-hardest-by-third-party-vulnerabilities-says-report.html">Java services hit hardest by third-party vulnerabilities, report says</a></strong>. Plenty of risk to go around, but pay special attention to your (patched) dependencies for Java.</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/databases/chaos-testing-spanner-improves-reiliability/">How chaos testing adds extra reliability to Spanner’s fault-tolerant design</a></strong>. I was impressed by the extent to which we try to &#8220;break&#8221; Spanner to test its reliability. You might find inspiration for tests you want to run against your own systems.</p>
 
 
 
@@ -100,14 +92,14 @@
 			<div>
 				<div>
 					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16312" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+						<a href="https://seroter.com/?post_type=post&#038;p=16638" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>]]></content:encoded>
 					
-					<wfw:commentRss>http://seroter.com/2024/04/18/daily-reading-list-april-18-2024-300/feed/</wfw:commentRss>
+					<wfw:commentRss>https://seroter.com/2024/05/10/daily-reading-list-may-10-2024-316/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
@@ -117,58 +109,66 @@
 		</media:content>
 	</item>
 		<item>
-		<title>Daily Reading List &#8211; April 17, 2024 (#299)</title>
-		<link>http://seroter.com/2024/04/17/daily-reading-list-april-17-2024-299/</link>
-					<comments>http://seroter.com/2024/04/17/daily-reading-list-april-17-2024-299/#comments</comments>
+		<title>Daily Reading List &#8211; May 9, 2024 (#315)</title>
+		<link>https://seroter.com/2024/05/09/daily-reading-list-may-9-2024-315/</link>
+					<comments>https://seroter.com/2024/05/09/daily-reading-list-may-9-2024-315/#comments</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Wed, 17 Apr 2024 23:27:25 +0000</pubDate>
+		<pubDate>Thu, 09 May 2024 23:22:36 +0000</pubDate>
 				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16294</guid>
+		<guid isPermaLink="false">http://seroter.com/?p=16617</guid>
 
-					<description><![CDATA[Today's links look at well-intentioned behaviors that mess up your team, why "most developers have adopted devops" hides some depressing news, and what Colab is all about.]]></description>
+					<description><![CDATA[Today's links look at how to intentionally boost dev productivity, how to optimize continuous integration, and 20 lessons for product-market fit.]]></description>
 										<content:encoded><![CDATA[
-<p>If I made up a theme for today&#8217;s reading list, I think it&#8217;s &#8220;focus.&#8221; You&#8217;ll find a few pieces that are about focusing your automation efforts, AI usage, and even your time.</p>
+<p>Each day, I just read whatever pops into my feeds and newsletters. I&#8217;m not <em>looking</em> for a theme, but sometimes one pops out at me. Today? It seemed like a lot of content focused on optimization and doing things the right way. For example, check out items below about improving dev experience, efficient hosting of streaming platforms, doing CI well, controlling ops metrics volume, and scaling Kubernetes.</p>
 
 
 
-<p>[article] <strong><a href="https://www.infoworld.com/article/3715362/most-developers-have-adopted-devops-survey-says.html">Most developers have adopted devops, survey says</a></strong>. That seems like good news, but when you drill in, you see that a surprising number of people aren&#8217;t doing CI or CD. <a href="https://devops.com/cdf-survey-surfaces-devops-progress-and-challenges/">Related story</a>.</p>
+<p>[article] <strong><a href="https://thenewstack.io/boost-developer-productivity-by-reducing-their-paper-cuts/">Boost Developer Productivity by Reducing Their ‘Paper Cuts’</a></strong>. If you&#8217;re a small or mid-size tech team, what can you do to build a better dev experience for your team? This article offers an outstanding blueprint.</p>
 
 
 
-<p>[article] <strong><a href="https://hbr.org/2024/04/5-well-intentioned-behaviors-that-can-hurt-your-team">5 Well-Intentioned Behaviors That Can Hurt Your Team</a></strong>. It&#8217;s one thing to be intentionally terrible at something, but it&#8217;s worse when your seemingly best efforts have a negative impact. Here are things that many of us probably do, and should stop doing.</p>
+<p>[article] <strong><a href="https://review.firstround.com/20-lessons-from-20-different-paths-to-product-market-fit-advice-for-founders-from-founders/">20 Lessons From 20 Different Paths to Product-Market Fit — Advice for Founders, From Founders</a></strong>. This is useful for founders, yes, but also for anyone building products that aim to solve a problem.</p>
 
 
 
-<p>[blog] <strong><a href="https://idratherbewriting.com/blog/ai-is-accelerating-me">AI is accelerating my technical writing output, and other observations</a></strong>. If possible, read less from &#8220;thought leaders&#8221; and more from those doing the work. Tom offers up good personal observations of how AI is impacting tech writing.</p>
+<p>[blog] <strong><a href="https://maheshba.bitbucket.io/blog/2024/05/08/2024-ThreeLaws.html">Three Laws of Software Complexity (or: why software engineers are always grumpy)</a></strong>. Do well-designed systems always degrade into badly designed ones? Mahesh makes that argument, and others.</p>
 
 
 
-<p>[survey] <strong><a href="https://google.qualtrics.com/jfe/form/SV_8uCHA4aRzcGDjg2?source=doradotdev-banner">2024 DORA survey</a></strong>. This is the tenth year of this widely-recognized report that explores what good software delivery practices look like. Participate in this year&#8217;s survey!</p>
+<p>[paper] <strong><a href="https://arxiv.org/abs/2404.18416">Capabilities of Gemini Models in Medicine</a></strong>. There&#8217;s 30+ pages of description and data in this new paper, and it may inspire you for use cases outside of medicine.</p>
 
 
 
-<p>[youtube-video] <strong><a href="https://www.youtube.com/watch?v=gxJHqBthLlc">Mastering Kubernetes for Multi-Cloud Efficiency With Nick Eberts</a></strong>. Nick chats with Corey Quinn about Kubernetes. Neither of these two people is un-opinionated.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/yahoo-benchmarks-dataflow-vs-b189c809ff49">Yahoo Benchmarks Dataflow vs Self-managed Flink Efficiency for two Streaming use-cases– Which is More Cost-Effective?</a></strong> Some Yahoo! engineers wanted to compare the cost and performance of running their own data processing stack (on Kubernetes) or using a managed service.</p>
 
 
 
-<p>[blog] <strong><a href="https://www.docker.com/blog/ai-trends-report-2024/">AI Trends Report 2024: AI’s Growing Role in Software Development</a></strong>. On the topic of surveys, the Docker team shared results from their own study. No surprisingly, developers are using AI tools for coding assistance, writing docs, writing tests, and troubleshooting.</p>
+<p>[article] <strong><a href="https://www.freecodecamp.org/news/how-is-flutter-platform-agnostic/">How is Flutter Platform-Agnostic?</a></strong> This framework renders interfaces across desktop, web, and mobile. how does it do that? Good deep dive here.</p>
 
 
 
-<p>[blog] <strong><a href="https://www.forrester.com/blogs/build-your-genai-strategy-on-a-rock-solid-foundation/">Build Your GenAI Strategy On A Rock-Solid Foundation (Model)</a></strong>. I believe this refers to a family of foundation models, not a specific version. They change too fast! Maybe you can&#8217;t bet on one model, but don&#8217;t accidentally over-complicate things by trying to use all of them.</p>
+<p>[article] <strong><a href="https://www.ciodive.com/news/generative-AI-talent-strategies/715451/">Generative AI interest now shapes talent strategy, employers say</a></strong>. Makes sense. This likely impacts who you hire, how you train, and what you build.</p>
 
 
 
-<p>[youtube-video] <strong><a href="https://www.youtube.com/watch?v=Ii6gs9zADEA">Colab 101: Your Ultimate Beginner&#8217;s Guide!</a></strong> Millions of folks use Colab every month to learn Python, run models, and do all sorts of notebook-y things. This is a very good video intro.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/optimizing-ci-in-google-cloud-build-1ae2562ccaa1">Optimizing CI in Google Cloud Build</a></strong>. Darren wrote a fantastic post that&#8217;s helpful whether you&#8217;re using the Google Cloud services he mentions, or not.</p>
 
 
 
-<p>[blog] <strong><a href="https://redis.io/blog/building-a-rag-application-with-redis-and-spring-ai/">Building a RAG Application with Redis and Spring AI</a></strong>. You have lots of ways to orchestrate calls to an LLM. Spring AI looks nice for Java devs.</p>
+<p>[article] <strong><a href="https://garymarcus.substack.com/p/microsoft-and-openais-increasingly">Microsoft and OpenAI’s increasingly complicated relationship</a></strong>. Partnerships are critical, and Microsoft does them well overall. But I&#8217;m glad Google has its own foundation models to bet on. A <a href="https://www.semianalysis.com/p/openai-is-doomed-et-tu-microsoft">related perspective here</a>.</p>
 
 
 
-<p>[article] <strong><a href="https://shiftmag.dev/fighting-distractions-as-a-software-developer-3175/">There is always something: Fighting distractions as a software developer</a></strong>. Developer or not, your day is probably full of distractions. How do you force yourself to prioritize and then focus?</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/management-tools/controlling-metric-flow-in-managed-service-for-prometheus/">Controlling metric ingestion with Google Cloud Managed Service for Prometheus</a></strong>. If you&#8217;re drowning in metrics, and paying a lot for the privilege, consider some of the steps called out here.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.denofgeek.com/tv/streaming-war-disney-max-bundle/">The Streaming War Is Over and All It Cost Was the Entertainment Industry</a></strong>. Bundles versus individual best-of-breed is a pendulum. For streaming, we&#8217;re inevitably back at bundles.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/containers-kubernetes/tuning-the-kubernetes-hpa-in-gke/">The surprising economics of Horizontal Pod Autoscaling tuning</a></strong>. Some good advice here on autoscaling, with a clear view of the tradeoffs of setting different resource targets.</p>
 
 
 
@@ -184,14 +184,14 @@
 			<div>
 				<div>
 					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16294" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+						<a href="https://seroter.com/?post_type=post&#038;p=16617" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>]]></content:encoded>
 					
-					<wfw:commentRss>http://seroter.com/2024/04/17/daily-reading-list-april-17-2024-299/feed/</wfw:commentRss>
+					<wfw:commentRss>https://seroter.com/2024/05/09/daily-reading-list-may-9-2024-315/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
@@ -201,54 +201,62 @@
 		</media:content>
 	</item>
 		<item>
-		<title>Daily Reading List &#8211; April 16, 2024 (#298)</title>
-		<link>http://seroter.com/2024/04/16/daily-reading-list-april-16-2024-298/</link>
-					<comments>http://seroter.com/2024/04/16/daily-reading-list-april-16-2024-298/#comments</comments>
+		<title>Daily Reading List &#8211; May 8, 2024 (#314)</title>
+		<link>https://seroter.com/2024/05/08/daily-reading-list-may-8-2024-314/</link>
+					<comments>https://seroter.com/2024/05/08/daily-reading-list-may-8-2024-314/#comments</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Tue, 16 Apr 2024 23:52:40 +0000</pubDate>
+		<pubDate>Wed, 08 May 2024 23:59:02 +0000</pubDate>
 				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16282</guid>
+		<guid isPermaLink="false">http://seroter.com/?p=16601</guid>
 
-					<description><![CDATA[Today's links look at common leadership styles, how to compare popular AI frameworks, and 101 real-world generative AI use cases.]]></description>
+					<description><![CDATA[Today's links look at what you should know when building dev tool websites, what causes the biggest effect on code quality, and how McDonalds standardizes software at scale.]]></description>
 										<content:encoded><![CDATA[
-<p>Do you ever have a big project (work-related, personal life) end, and then need to reset your attention? I&#8217;m in that mode now with Cloud Next being over. I&#8217;m rediscovering my priorities list and arranging my time accordingly. My backlog of tech to play with has gotten long!</p>
+<p>Weirdly, many of the things I read today seemed to relate to other things I read today. I&#8217;ll chalk it up to a weird wrinkle in the universe.</p>
 
 
 
-<p>[blog] <strong><a href="https://www.marktechpost.com/2024/04/09/llamaindex-vs-langchain-a-comparison-of-artificial-intelligence-ai-frameworks">LlamaIndex vs LangChain: A Comparison of Artificial Intelligence (AI) Frameworks</a></strong>. There&#8217;s no shortage of ways to invoke LLMs. Use direct APIs, general purpose frameworks like these, or language-specific options like Spring.AI.</p>
+<p>[blog] <strong><a href="https://www.plg.news/p/the-ultimate-guide-to-building-developer-website">The Ultimate Guide to building Developer Tool Websites</a></strong>. This post justifies the title of &#8220;ultimate guide.&#8221; It&#8217;s a really good look at how to build websites that developers find useful.</p>
 
 
 
-<p>[blog] <strong><a href="https://arindam1729.hashnode.dev/5-developer-communities-you-must-join-in-2024">5 Developer Communities You Must Join in 2024</a></strong>. I haven&#8217;t become a Discord person, but it&#8217;s great to see so many online spaces for folks. This post highlights some good ones to join.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/a-tour-of-gemini-1-5-pro-samples-da48e3c907b3">A tour of Gemini 1.5 Pro samples</a></strong>. Speaking of useful things offered on dev websites, Mete looks at code samples here. He looks at how to use Gemini to process audio, video, and multi-modalities at the same time.</p>
 
 
 
-<p>[article] <strong><a href="https://www.infoq.com/news/2024/04/cncf-cloudevents-graduation">Cloud Native Computing Foundation Graduation of CloudEvents: Q&amp;A with Clemens Vasters</a></strong>. Everything you wanted to know about CloudEvents, but didn&#8217;t think to ask? Steef-Jan and Clemens go into depth in this discussion, and I learned a few things.</p>
+<p>[blog] <strong><a href="https://medium.com/chick-fil-atech/humility-the-secret-ingredient-to-modern-tech-agility-214794e204eb">Humility: The Secret Ingredient to Modern Tech Agility</a></strong>. We don&#8217;t celebrate humility (which I guess would be ironic in some way), but it&#8217;s a key ingredient to agile leaders and teams.</p>
 
 
 
-<p>[blog] <strong><a href="https://snyk.io/blog/snyk-partnership-gemini-code-assist/">Introducing Snyk’s partnership with Gemini Code Assist</a></strong>. I&#8217;d be surprised if devs want a dozen different AI agents plugged into their IDEs. Funneling advice through 1-2 assistants seems like a good idea.</p>
+<p>[blog] <strong><a href="https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/">AlphaFold 3 predicts the structure and interactions of all of life’s molecules</a></strong>. Talk about humbling! We&#8217;re now learning more about the biological world than ever before.</p>
 
 
 
-<p>[article] <strong><a href="https://hbr.org/2024/04/6-common-leadership-styles-and-how-to-decide-which-to-use-when">6 Common Leadership Styles — and How to Decide Which to Use When</a></strong>. Do you have a solid answer when someone asks about your &#8220;leadership style&#8221;? If so, you&#8217;re better than me. But I liked how this article calls out the various styles and when each is appropriate.</p>
+<p>[[blog] <strong><a href="https://bartwullems.blogspot.com/2024/05/the-biggest-effect-on-code-quality.html">The biggest effect on code quality</a></strong>. This author says its not about tools or skills; code quality is impacted by teams working in &#8220;crunch mode&#8221; and making mistakes.</p>
 
 
 
-<p>[article] <strong><a href="https://www.oreilly.com/radar/attacking-supply-chains-at-the-source/">Attacking Supply Chains at the Source</a></strong>. Security is a shared responsibility. Make sure you have all the scans and vulnerability checks in place, even for OSS you use!</p>
+<p>[blog] <strong><a href="https://rdel.substack.com/p/rdel-41-what-causes-new-engineers">What causes new engineers to “sink or swim”?</a></strong> If you want new developers on your team to be successful, check out this guidance for what determines that.</p>
 
 
 
-<p>[article] <strong><a href="https://www.infoworld.com/article/3715340/data-pipelines-for-the-rest-of-us.html">Data pipelines for the rest of us</a></strong>. Matt looks at Apache Airflow as a strong open source option, with cautions around most contributors coming from one company.</p>
+<p>[article] <strong><a href="https://thenewstack.io/what-can-incident-teams-learn-from-crisis-management/">What Can Incident Teams Learn From Crisis Management?</a></strong> My friend Dormain wrote up an insightful piece on the need for strong communication during incidents.</p>
 
 
 
-<p>[article] <strong><a href="https://www.ciodive.com/news/jpmorgan-jamie-dimon-cloud-generative-ai-strategy/713093/">JPMorgan Chase CEO wants more cloud to fuel AI, analytics</a></strong>. Public (and private) cloud is how JPMC wants to unlock value from data using AI. If you can&#8217;t plow billions into your own data center, skip the &#8220;private&#8221; part.</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/data-analytics/bigquery-gets-managed-disaster-recovery/">Maintain business continuity across regions with BigQuery managed disaster recovery</a></strong>. I just mentioned incident management, and here&#8217;s a piece on a new feature of BigQuery that offers automatic failover in the unlikely case of a regional outage.</p>
 
 
 
-<p>[blog] <strong><a href="https://blog.google/products/google-cloud/gen-ai-business-use-cases/">101 real-world gen AI use cases featured at Google Cloud Next ’24</a></strong>. If you need some inspiration for how to use generative AI in the real world, this is a good place to start.</p>
+<p>[blog] <strong><a href="https://medium.com/mcdonalds-technical-blog/simplifying-and-standardizing-software-at-scale-6b60e451e772">Simplifying and standardizing software at scale</a></strong>. Here&#8217;s how the McDonalds engineering team is building golden paths to help teams build, ship, and run software better.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.infoworld.com/article/3328817/what-is-istio-the-kubernetes-service-mesh-explained.html">What is Istio? The Kubernetes service mesh explained</a></strong>. I don&#8217;t know if Istio helps you simplify things, but it&#8217;s definitely a powerful mesh that&#8217;s getting easier to use.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.honeycomb.io/blog/observability-telemetry-monitoring">Observability, Telemetry, and Monitoring: Learn About the Differences</a></strong>. Stop using these words interchangeably! I&#8217;m mostly saying that to myself. But also, you might find this clarifying.</p>
 
 
 
@@ -264,14 +272,14 @@
 			<div>
 				<div>
 					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16282" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+						<a href="https://seroter.com/?post_type=post&#038;p=16601" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>]]></content:encoded>
 					
-					<wfw:commentRss>http://seroter.com/2024/04/16/daily-reading-list-april-16-2024-298/feed/</wfw:commentRss>
+					<wfw:commentRss>https://seroter.com/2024/05/08/daily-reading-list-may-8-2024-314/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
@@ -281,54 +289,54 @@
 		</media:content>
 	</item>
 		<item>
-		<title>Daily Reading List &#8211; April 15, 2024 (#297)</title>
-		<link>http://seroter.com/2024/04/15/daily-reading-list-april-15-2024-297/</link>
-					<comments>http://seroter.com/2024/04/15/daily-reading-list-april-15-2024-297/#comments</comments>
+		<title>Daily Reading List &#8211; May 7, 2024 (#313)</title>
+		<link>https://seroter.com/2024/05/07/daily-reading-list-may-7-2024-313/</link>
+					<comments>https://seroter.com/2024/05/07/daily-reading-list-may-7-2024-313/#comments</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Tue, 16 Apr 2024 00:00:35 +0000</pubDate>
+		<pubDate>Tue, 07 May 2024 23:50:45 +0000</pubDate>
 				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16269</guid>
+		<guid isPermaLink="false">http://seroter.com/?p=16585</guid>
 
-					<description><![CDATA[Today's links look at everything Google announced at Cloud Next, why cybersecurity isn't special, and the four reasons managers fail.]]></description>
+					<description><![CDATA[Today's links look at using AI to ask questions of unstructured data, how to pick the right container base image, and how to resolve the four types of team conflict.]]></description>
 										<content:encoded><![CDATA[
-<p>I spent the weekend recovering from Cloud Next. I played some miniature golf, went to a Little League game, and took my daughter to a dance at her school. That band rocked hard (too hard?) for a bunch of kids, but all the dads appreciated the guitar solo in Boston&#8217;s &#8220;More Than a Feeling.&#8221;</p>
+<p>Today&#8217;s reading list had some good practical examples, and also some thought-provoking ideas. Did any resonate with you too?</p>
 
 
 
-<p>[article] <strong><a href="https://stratechery.com/2024/an-interview-with-google-cloud-ceo-thomas-kurian-about-googles-enterprise-ai-strategy/">An Interview with Google Cloud CEO Thomas Kurian About Google’s Enterprise AI Strategy</a></strong>. This was a fun read. Thomas deeply knows what he&#8217;s talking about, and I loved the insights shared here.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/moneyball-with-genai-using-vertex-ai-search-to-find-the-next-generation-of-baseball-stars-cc3921907d98">Moneyball with GenAI: Using Vertex AI Search to Find the Next Generation of Baseball Stars</a></strong>. If you want me to read and share your post, just make it about baseball. Well done, Alok. This is an excellent demonstration of how AI can change how we interact with unstructured data.</p>
 
 
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/topics/google-cloud-next/google-cloud-next-2024-wrap-up?e=48754805">All 218 things we announced at Google Cloud Next ‘24 – a recap</a></strong>. Skim through to get a sense of what you can now do in Google Cloud. And, you&#8217;ll likely get a foreshadowing of what you&#8217;ll see from other clouds in the months and years ahead <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/networking/service-extensions-callouts-for-application-load-balancing">5 ways Service Extensions callouts can improve your Cloud Load Balancing environment</a></strong>. This product update didn&#8217;t catch my eye, but a Google Engineering Fellow told me I should give it a second look. Thanks, Anna. Yes, it <em>is</em> a very powerful way to add intelligence and security as part of cloud traffic management. Also <a href="https://cloud.google.com/blog/products/networking/whats-new-for-networking-at-next24">mentioned here</a> as part of a cross-cloud strategy.</p>
 
 
 
-<p>[article] <strong><a href="https://review.firstround.com/build-your-culture-like-a-product-lessons-from-asanas-head-of-people/">Build Your Culture Like a Product — Lessons from Asana’s Head of People</a></strong>. Do you think about intentionally building culture, or does it &#8220;just happen&#8221;? I liked the advice in this article.</p>
+<p>[article] <strong><a href="https://www.ciodive.com/news/enterprise-generative-ai-spending-modernize-tech/715158/">Enterprises prep for big AI spending, but data woes prevent progress</a></strong>. It looks like most companies are recognizing the importance of a solid data strategy.</p>
 
 
 
-<p>[blog] <strong><a href="https://kellyshortridge.com/blog/posts/cybersecurity-isnt-special/">Cybersecurity Isn’t Special</a></strong>. Wow, this piece stood out to me today. It&#8217;s full of assertive, edgy perspectives from someone credible enough to make these statements. Good read.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/alpine-distroless-or-scratch-caac35250e0b">alpine, distroless or scratch?</a></strong> A small, minimum-dependency base image for your containers is a smart bet. This post looks at 4 options, and the implications of each.</p>
 
 
 
-<p>[blog] <strong><a href="https://beam.incubator.apache.org/blog/beam-yaml-release/">Introducing Beam YAML: Apache Beam&#8217;s First No-code SDK</a></strong>. It&#8217;s not unnatural to represent a data pipeline in a declarative fashion, so this makes sense to me.</p>
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715444/what-software-developers-hate.html">What software developers hate</a></strong>. Short post, but Matt looks at three things—scope creep, pace of learning, lack of time to code—that drive developers bonkers.</p>
 
 
 
-<p>[repo] <strong><a href="https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/sample-apps/fixmycar">Fix My Car</a></strong>. Here&#8217;s a complete reference app that you can deploy to try out retrieval augmented generation (RAG) on Google Cloud. Or, you can simply study the architecture to understand the components of such a system.</p>
+<p>[article] <strong><a href="https://thenewstack.io/platform-engineering-for-a-mainframe-design-thinking-drives-change/">Platform Engineering for a Mainframe: Design Thinking Drives Change</a></strong>. You can apply modern practices (with varying levels of impact) to nearly any technology stack. I like efforts like this which try to help users of &#8220;legacy&#8221; systems get a better dev experience.</p>
 
 
 
-<p>[article] <strong><a href="https://hbr.org/2024/04/4-reasons-why-managers-fail">4 Reasons Why Managers Fail</a></strong>. It&#8217;s not because of skills! This article calls out the handful of ways that managers fail, and how you can prevent it.</p>
+<p>[article] <strong><a href="https://hbr.org/2024/05/4-common-types-of-team-conflict-and-how-to-resolve-them">4 Common Types of Team Conflict — and How to Resolve Them</a></strong>. Conflict, even temporary, is inevitable in a team. This article identifies each type, and how to respond.</p>
 
 
 
-<p>[article] <strong><a href="https://www.ciodive.com/news/generative-ai-ROI-enterprise-progress/712832/">Generative AI’s ROI is a work in progress</a></strong>. Not yet settled, but the it&#8217;s not hard to see where value will come from.</p>
+<p>[blog] <strong><a href="https://wietsevenema.eu/build-and-deploy-a-langchain-app-with-a-vector-database/">Build and Deploy a Langchain App With a Vector Database</a></strong>. Wietse wrote a very good walkthrough of the steps for building a generative AI app.</p>
 
 
 
-<p>[article] <strong><a href="https://martinfowler.com/articles/uncovering-mainframe-seams.html#DataReplicationToEnableNewProductDevelopment">Uncovering the Seams in Mainframes for Incremental Modernisation: Data Replication</a></strong>. The final update to this article is complete, and it walks us through change data capture and replication techniques.</p>
+<p>[blog] <strong><a href="https://kellblog.com/2024/05/03/does-your-marketing-pass-the-duck-test/">Does Your Marketing Pass the Duck Test?</a></strong> This is a good read, especially for folks who crave plain-English descriptions that actually tell you something.</p>
 
 
 
@@ -344,14 +352,14 @@
 			<div>
 				<div>
 					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16269" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+						<a href="https://seroter.com/?post_type=post&#038;p=16585" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>]]></content:encoded>
 					
-					<wfw:commentRss>http://seroter.com/2024/04/15/daily-reading-list-april-15-2024-297/feed/</wfw:commentRss>
+					<wfw:commentRss>https://seroter.com/2024/05/07/daily-reading-list-may-7-2024-313/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
@@ -361,58 +369,62 @@
 		</media:content>
 	</item>
 		<item>
-		<title>Daily Reading List &#8211; April 12, 2024 (#296)</title>
-		<link>http://seroter.com/2024/04/12/daily-reading-list-april-12-2024-296/</link>
-					<comments>http://seroter.com/2024/04/12/daily-reading-list-april-12-2024-296/#respond</comments>
+		<title>Daily Reading List &#8211; May 6, 2024 (#312)</title>
+		<link>https://seroter.com/2024/05/06/daily-reading-list-may-6-2024-312/</link>
+					<comments>https://seroter.com/2024/05/06/daily-reading-list-may-6-2024-312/#comments</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Fri, 12 Apr 2024 23:06:17 +0000</pubDate>
+		<pubDate>Mon, 06 May 2024 23:52:08 +0000</pubDate>
 				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16254</guid>
+		<guid isPermaLink="false">http://seroter.com/?p=16564</guid>
 
-					<description><![CDATA[Today's links look at how open source licenses work, where AI and Kubernetes intersect, and what developers should learn about learning.]]></description>
+					<description><![CDATA[Today's links look at a productivity measure for engineering teams, how LLMs actually work, and what makes a good developer experience.]]></description>
 										<content:encoded><![CDATA[
-<p>Today was a partial workday as I caught up on (most) email as well as my reading backlog from the week. I&#8217;ll take the weekend to recover physically and mentally from an exhausting week, and should be ready to roll by Monday.</p>
+<p>It was a beautiful weekend down here in San Diego. Summer feels close. For those readers in the Northern Hemisphere, hopefully you&#8217;re feeling the same!</p>
 
 
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/topics/google-cloud-next/next24-day-2-recap/?e=48754805">Day 2 at Next ’24 recap: building AI agents</a></strong>. Here was a good roundup of our activities on day 2.</p>
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/identity-security/advancing-the-art-of-ai-driven-security-with-google-cloud-at-rsa/">Advancing the art of AI-driven security with Google Cloud</a></strong>. The RSA conference is this week, so expect lots of security news across the industry. We announced some new services, like <a href="https://cloud.google.com/blog/products/identity-security/introducing-google-threat-intelligence-actionable-threat-intelligence-at-google-scale-at-rsa/">Google Threat Intelligence</a> and <a href="https://cloud.google.com/blog/products/identity-security/introducing-google-security-operations-intel-driven-ai-powered-secops-at-rsa/">Google Security Operations</a>.</p>
 
 
 
-<p>[article] <strong><a href="https://stratechery.com/2024/gemini-1-5-and-googles-nature/">Gemini 1.5 and Google’s Nature</a></strong>. I enjoy reading positive takes, but I also have been looking to see what the savviest folks thought of Cloud Next. This indicates we landed a powerful message.</p>
+<p>[blog] <strong><a href="https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure">A Useful Productivity Measure?</a></strong> What did this VP of Engineering do after being asked to define a productivity metric for his team? I like where he ended up.</p>
 
 
 
-<p>[blog] <strong><a href="https://newsletter.goodtechthings.com/p/the-threat-to-open-source-comes-from">The threat to open source comes from within</a></strong>. Forrest explores ideas around that XZ fiasco and how OSS might have saved the day, versus been the cause. He also connects this to recent hoopla with Terraform and OpenTofu.</p>
+<p>[blog] <strong><a href="https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math">How LLMs Work, Explained Without Math</a></strong>. Unless you live and breathe LLMs, you&#8217;ll probably have one or two lightbulb moments when reading this. I sure did.</p>
 
 
 
-<p>[article] <strong><a href="https://thenewstack.io/how-do-open-source-licenses-work-the-ultimate-guide/">How Do Open Source Licenses Work? The Ultimate Guide</a></strong>. Speaking of open source, this article goes fairly keep into licensing, and offers a useful education for users and leaders.</p>
+<p>[article] <strong><a href="https://www.thestack.technology/mongodb-takes-data-stream-processing-service-ga/">MongoDB takes data streaming service GA</a></strong>. Kafka integrations today, apparently more coming in the future. Check this out if you use MongoDB yourself.</p>
 
 
 
-<p>[blog] <strong><a href="https://www.honeycomb.io/blog/honeycomb-google-next-gemini">Honeycomb + Google Gemini</a></strong>. The Honeycomb team goes into more depth regarding their demonstration with us on stage at Cloud Next.</p>
+<p>[article] <strong><a href="https://thenewstack.io/dealing-with-chaos-a-guide-for-leaders-feeling-overwhelmed-at-work/">Dealing With Chaos: A Guide for Leaders Feeling Overwhelmed at Work</a></strong>. This likely resonates with everyone at one point or another. It&#8217;s useful to label some of the circumstances that cause a sense of chaos.</p>
 
 
 
-<p>[blog] <strong><a href="https://kaslin.rocks/ai-kubernetes/">AI and Kubernetes</a></strong>. Kaslin is learning in public, and I love that. Here is her take on different types of AI workloads and where Kubernetes plays a part.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/codelab-using-gemini-code-assist-to-explore-and-enhance-generative-ai-document-summarization-jump-28c410042544">Codelab: Using Gemini Code Assist to explore and enhance Generative AI Document Summarization Jump Start Solution</a></strong>. If you&#8217;re like me, you enjoy learning from observing small bits of a bigger solution while ALSO exploring more complete solutions themselves. Here&#8217;s an end to end AI-based scenario to dig into.</p>
 
 
 
-<p>[article] <strong><a href="https://thenewstack.io/3-reasons-tech-execs-are-slowing-down-genai-projects/">3 Reasons Tech Execs Are Slowing Down GenAI Projects</a></strong>. Trust matters. These reasons don&#8217;t surprise me.</p>
+<p>[article] <strong><a href="https://robertglazer.substack.com/p/friday-forward-chasing-butterflies">Friday Forward &#8211; Chasing Butterflies</a></strong>. Good post from Bob. Sometimes feelings are just feelings, and not indicative of something that needs therapy or medication.</p>
 
 
 
-<p>[blog] <strong><a href="https://8thlight.com/insights/managing-technical-debt">Managing Technical Debt</a></strong>. I&#8217;m not sure you can ever &#8220;prevent&#8221; tech debt—like financial debt, some tech debt can even be &#8220;good&#8221; to have—but it&#8217;s something that needs to be managed.</p>
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715404/10-principles-for-creating-great-developer-experiences.html">10 principles for creating a great developer experience</a></strong>. This is a good list to work through if you&#8217;re serious about building and maintaining an impactful developer experience.</p>
 
 
 
-<p>[article] <strong><a href="https://newsletter.getdx.com/p/software-developers-learning">10 things software developers should learn about learning</a></strong>. The best people I work with don&#8217;t just know many things; they&#8217;re good at learning the next thing. Learning how to learn is how you separate from the pack.</p>
+<p>[blog] <strong><a href="https://medium.com/google-cloud/when-to-use-gemini-or-purpose-built-ai-models-in-bigquery-7bb2f707a7a2">When to use Gemini or purpose-built AI models in BigQuery</a></strong>. This argument applies to almost everything in tech: use the general purpose thing or the purpose-built thing? Shane looks at how BigQuery handles some specific data prep and analysis tasks with AI models.</p>
 
 
 
-<p>[article] <strong><a href="https://www.freecodecamp.org/news/beginners-guide-to-langchain/">How to Use LangChain to Build With LLMs – A Beginner&#8217;s Guide</a></strong>. This is an excellent introduction to LangChain, and you can follow along yourself with Colab.</p>
+<p>[blog] <strong><a href="https://cote.io/2024/05/06/to-days-to.html">60 to 100 days to onboard a developer &#8211; Highlights from the Harness State of Developer Experience survey</a></strong>. Lots of (good) thoughts here about making a better developer experience and healthier platform.</p>
+
+
+
+<p>[blog] <strong><a href="https://security.googleblog.com/2024/04/accelerating-incident-response-using.html">Accelerating incident response using generative AI</a></strong>. Here are some details from an experiment run by the Google Security team.</p>
 
 
 
@@ -428,14 +440,330 @@
 			<div>
 				<div>
 					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16254" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+						<a href="https://seroter.com/?post_type=post&#038;p=16564" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>]]></content:encoded>
 					
-					<wfw:commentRss>http://seroter.com/2024/04/12/daily-reading-list-april-12-2024-296/feed/</wfw:commentRss>
+					<wfw:commentRss>https://seroter.com/2024/05/06/daily-reading-list-may-6-2024-312/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; May 3, 2024 (#311)</title>
+		<link>https://seroter.com/2024/05/03/daily-reading-list-may-3-2024-311/</link>
+					<comments>https://seroter.com/2024/05/03/daily-reading-list-may-3-2024-311/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 23:58:26 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16542</guid>
+
+					<description><![CDATA[Today's links look at running gamedays to test system resilience, how to set up private networking to cloud AI services, and how Slack automates deployments.]]></description>
+										<content:encoded><![CDATA[
+<p>I spent most of today allowing the &#8220;unread&#8221; number in my inbox to grow as I attended meetings that required my full attention. For an &#8220;inbox zero&#8221; person, that&#8217;s painful. But fortunately the last half hour of the day included some productive catch-up. Enjoy your weekend!</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/bigquery-vector-search-using-python-sdk-gemini-and-langchain-on-gcp-74d868568862">BigQuery Vector Search using Python SDK, Gemini and Langchain on GCP</a></strong>. Good walkthrough of using a public dataset to experiment with creating and storing embeddings before running the queries that use them.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/intuit-engineering/intuit-runs-gameday-simulations-to-test-resilience-of-critical-business-systems-and-apps-at-scale-7861223d526f">Intuit Runs Gameday Simulations to Test Resilience of Critical Business Systems and Apps at Scale</a></strong>. Do you run these types of exercises to test out your incident response process, runbooks, and system resilience?</p>
+
+
+
+<p>[blog] <strong><a href="https://go.dev/blog/chacha8rand">Secure Randomness in Go 1.22</a></strong>. Geeky read, but a good one if you care about secure code.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/networking/private-connectivity-to-vertex-workloads/">Private networking patterns to Vertex AI workloads</a></strong>. Your best option for performant, innovative, and complete AI stacks is in the cloud. But what are the right patterns for securely interfacing with those services? This post is about networking.</p>
+
+
+
+<p>[article] <strong><a href="https://newsletter.getdx.com/p/how-slack-automates-deploys">How Slack automates deploys</a></strong>. Good post that looks at some recent work Slack did to improve dev experience and how they do release management.</p>
+
+
+
+<p>[blog] <strong><a href="https://accelerationeconomy.com/cloud-wars/dear-satya-nadella-why-are-you-whitewashing-the-microsoft-china-cybersecurity-crisis/">Dear Satya Nadella: Why Are You Whitewashing the Microsoft China Cybersecurity Crisis?</a></strong> Security has been an issue at Microsoft for a bit. Maybe <a href="https://www.geekwire.com/2024/internal-memo-microsoft-ceo-satya-nadella-delivers-a-new-mandate-on-security/">Satya&#8217;s serious about it now</a>?</p>
+
+
+
+<p>[blog] <strong><a href="https://www.honeycomb.io/blog/introducing-honeycomb-for-frontend-observability">Introducing Honeycomb for Frontend Observability: Get the Data You Need for Actionable Customer Experience Improvements</a></strong>. If you&#8217;re going to explore unknown unknowns, you need access to all sorts of places to explore.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/kubernetes-engine/docs/tutorials/simulate-zone-failure">Simulate a zone failure in GKE regional clusters</a></strong>. You know what shouldn&#8217;t be unknown? How your app responds when it loses a cloud zone. This is a good guide for how to simulate that scenario.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16542" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/05/03/daily-reading-list-may-3-2024-311/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; May 2, 2024 (#310)</title>
+		<link>https://seroter.com/2024/05/02/daily-reading-list-may-2-2024-310/</link>
+					<comments>https://seroter.com/2024/05/02/daily-reading-list-may-2-2024-310/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Thu, 02 May 2024 23:10:37 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16526</guid>
+
+					<description><![CDATA[Today's links look at why you should use "thin" events in your architecture, who the leaders in AI developer services are, and whether WebAssembly is getting traction.]]></description>
+										<content:encoded><![CDATA[
+<p>It was a wild, frantic day, and now I&#8217;m sitting in the airport waiting to fly home. My days are never boring, which is a gift! A <em>little</em> more boring might be nice.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.thoughtworks.com/insights/blog/architecture/thin-events-the-lean-muscle-of-event-driven-architecture">Thin Events: The lean muscle of event-driven architecture</a></strong>. Gosh, I remember writing about this topic fifteen years ago. Even today, it&#8217;s important to make conscious choices about how you shape your messages—&#8221;thick&#8221; messages that contain all the data, or &#8220;thin&#8221; messages that are only notifications.</p>
+
+
+
+<p>[article] <strong><a href="https://thenewstack.io/recurrentgemma-an-open-language-model-for-smaller-devices/">RecurrentGemma: An Open Language Model For Smaller Devices</a></strong>. Transformers are all the rage for deep learning models, but the Gemma team used a different approach with this model. And got good results.</p>
+
+
+
+<p>[article] <strong><a href="https://techcrunch.com/2024/05/01/atlassian-launches-rovo-its-new-ai-teammate/?guccounter=1">Atlassian launches Rovo, its new AI teammate</a></strong>. While I&#8217;m not smart enough to understand why every vendor needs to create their own foundation model, I <em>do</em> get why everyone is offering agent-builder experiences.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/c-and-vertex-ai-gemini-streaming-api-bug-and-workaround-dd5eb61f1f8e">C# and Vertex AI Gemini streaming API bug and workaround</a></strong>. We know that our interactions with APIs is sometimes affected by choices within our programming language itself. This issues within C# is causing an issue calling the Gemini API, but a fix is on the way.</p>
+
+
+
+<p>[blog] <strong><a href="https://auth0.com/blog/the-backend-for-frontend-pattern-bff/">The Backend for Frontend Pattern</a></strong>. If you&#8217;re doing single-page apps, or just looking for more ideas around authentication in distributed systems, check out this post.</p>
+
+
+
+<p>[blog] <strong><a href="https://go.dev/blog/randv2">Evolving the Go Standard Library with math/rand/v2</a></strong>. Developers often use random number generators in their code. This is a big, interesting post on the new generator in Go, and how we introduced a breaking change.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-the-2024-gartner-magic-quadrant-for-cloud-ai-developer-services/">Google is a Leader in the 2024 Gartner® Magic Quadrant<img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> for Cloud AI Developer Services</a></strong>. Any analyst assessment related to AI is outdated the moment it ships, but there are definitely fundamental criteria that are durable. I&#8217;m glad to see us show up well here. </p>
+
+
+
+<p>[blog] <strong><a href="https://blog.upbound.io/announcing-upbound-now-everywhere">Upbound now everywhere: A fully automated Crossplane experience for platform engineers</a></strong>. Crossplane is a cool CNCF project for managing infrastructure across clouds, and the sponsoring company now has a managed service for you.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/storage-data-transfer/understanding-cloud-storages-new-soft-delete-feature/">Managing Cloud Storage soft delete at scale</a></strong>. Everyone makes mistakes, and it&#8217;s good to be able to recover &#8220;deleted&#8221; files if needed. I was impressed reading this post and seeing the breadth we considered (metrics, Terraform, APIs) to manage this new type of object.</p>
+
+
+
+<p>[article] <strong><a href="https://thenewstack.io/webassembly-adoption-its-complicated-says-cncf-survey/">WebAssembly Adoption: It’s Complicated, Says CNCF Survey</a></strong>. I can&#8217;t say I&#8217;ve ever had Wasm come up in a customer conversation during the past four years. Maybe it&#8217;s who I talk to. Or it&#8217;s just not that relevant to most developers.</p>
+
+
+
+<p>[blog] <strong><a href="https://www.syntasso.io/post/kubecrash-platform-engineering-recap-from-silo-busting-to-thinnest-viable-platforms">KubeCrash Platform Engineering Recap: From Silo Busting to Thinnest Viable Platforms</a></strong>. You can use tools like Gemini to summarize videos, but I still like when humans do it. This post has some takeaways about platform engineering from a recent event.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16526" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/05/02/daily-reading-list-may-2-2024-310/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; May 1, 2024 (#309)</title>
+		<link>https://seroter.com/2024/05/01/daily-reading-list-may-1-2024-309/</link>
+					<comments>https://seroter.com/2024/05/01/daily-reading-list-may-1-2024-309/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Wed, 01 May 2024 23:09:00 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16511</guid>
+
+					<description><![CDATA[Today's links look at how to build a streaming data pipeline, why you should be careful about using AI assistance for code refactoring, and what Java devs are using in 2024.]]></description>
+										<content:encoded><![CDATA[
+<p>I had a very enlightening day of leadership meetings and am very bullish on the things Google Cloud is working on for customers. Energy level is high around here! I started my day with lots of reading, which you&#8217;ll find below.</p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/retail-banking-core-hybrid-cloud-modernization-endava/714782/">Retail banking turns to core modernization as cloud strategies mature</a></strong>. It&#8217;s time to finish some of those modernizations, people! These small, incremental approaches take too long, and it&#8217;s holding up future progress.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/%EF%B8%8Fgcp-data-engineering-project-streaming-data-pipeline-with-pub-sub-and-apache-beam-dataflow-40341c3757c4">GCP Data Engineering Project: Streaming Data Pipeline with Pub/Sub and Apache Beam/Dataflow</a></strong>. Big post showing off a complete solution for aggregating messages in a streaming architecture.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715267/mongodb-aims-to-jumpstart-ai-app-development-with-maap.html">MongoDB aims to jumpstart AI app development with MAAP</a></strong>. More tools and professional services on the way to help folks build generative AI apps.</p>
+
+
+
+<p>[blog] <strong><a href="https://bravenewgeek.com/how-konfig-provides-an-enterprise-platform-with-gitlab-and-google-cloud/">How Konfig provides an enterprise platform with GitLab and Google Cloud</a></strong>. I&#8217;d suspect that if you&#8217;re reading my post, you probably have a source control system in place. But if not, or if you need an upgrade, I like what Real Kinetic is doing to make it easier to set up an enterprise-grade deployment.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715285/ai-still-has-a-ways-to-go-in-code-refactoring.html">AI still has a ways to go in code refactoring</a></strong>. Readability and maintainability matter as much (more than?) coding speed, and Matt points out the need to supervise what AI is generating.</p>
+
+
+
+<p>[blog] <strong><a href="https://engineering.atspotify.com/2024/04/supercharged-developer-portals/">Supercharged Developer Portals</a></strong>. Good for Spotify for commercializing their open source tech and making developer portals easier to set up and use.</p>
+
+
+
+<p>[article] <strong><a href="https://www.linkedin.com/pulse/ai-your-task-create-autonomous-agents-neuronn-oiw7c/">AI, Your Task: Create Autonomous Agents</a></strong>. Vik (with help from AI) wrote this piece about &#8220;foundation agents&#8221; that learn and adapt to their environments.</p>
+
+
+
+<p>[article] <strong><a href="https://insight.kellogg.northwestern.edu/article/who-takes-a-risk-on-new-technology">Who Takes a Risk on New Technology?</a></strong> That new technology won&#8217;t take off if there aren&#8217;t people willing to make personal bets on it. This article starts with a story about directors in Hollywood, and connects it to technology adoption.</p>
+
+
+
+<p>[article] <strong><a href="https://www.infoworld.com/article/3715425/java-17-is-most-used-lts-version-of-java-report.html">Java 17 is most-used LTS version of Java – report</a></strong>. It&#8217;s very good to see that Java 8 is finally falling out favor with Java devs. </p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16511" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/05/01/daily-reading-list-may-1-2024-309/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Daily Reading List &#8211; April 30, 2024 (#308)</title>
+		<link>https://seroter.com/2024/04/30/daily-reading-list-april-30-2024-308/</link>
+					<comments>https://seroter.com/2024/04/30/daily-reading-list-april-30-2024-308/#respond</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Tue, 30 Apr 2024 23:58:46 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16471</guid>
+
+					<description><![CDATA[Today's links look at scaling developer experience, how to do large document summarization, and how the latest AI models stack up to each other.]]></description>
+										<content:encoded><![CDATA[
+<p>Travel day as I jetted up to Sunnyvale for a week of meetings. The year is 1/3 over after tomorrow, so hopefully you&#8217;re tracking towards some of your 2024 goals!</p>
+
+
+
+<p>[article] <strong><a href="https://thenewstack.io/devex-success-how-pfizer-scaled-to-1000-engineers/">DevEx Success: How Pfizer Scaled to 1,000 Engineers</a></strong>. Building a great developer experience for an individual team is wonderful, and not trivial. Scaling that to hundreds or thousands? Entirely different problem. This article has good advice.</p>
+
+
+
+<p>[article] <strong><a href="https://techcrunch.com/2024/04/26/the-ibm-hashicorp-coupling-could-be-more-complicated-than-it-seems/">The IBM-HashiCorp coupling could be more complicated than it seems</a></strong>. This acquisition definitely got folks talking. Here&#8217;s another perspective from TechCrunch. And Forrest <a href="https://newsletter.goodtechthings.com/p/why-didnt-google-cloud-buy-hashicorp">wrote a thing too</a>.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/level-up-your-rag-tuning-embeddings-on-vertex-ai-901bb7f65bd0">Level Up your RAG: Tuning Embeddings on Vertex AI</a></strong>. Can you bubble up the most relevant answers from an LLM through tuning? Ivan has a deep dive here.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/products/ai-machine-learning/long-document-summarization-with-workflows-and-gemini-models">Long document summarization with Workflows and Gemini models</a></strong>. Map/reduce for big documents you&#8217;re trying to summarize with generative AI? I like this pattern.</p>
+
+
+
+<p>[article] <strong><a href="https://shiftmag.dev/what-is-devops-3236/">Is DevOps just a conspiracy theory?</a></strong> A bit of a tongue in cheek post, but related to an important question about what DevOps is really about.</p>
+
+
+
+<p>[blog] <strong><a href="https://cloud.google.com/blog/topics/threat-intelligence/gemini-for-malware-analysis/">From Assistant to Analyst: The Power of Gemini 1.5 Pro for Malware Analysis</a></strong>. Does the giant context window of the Gemini model help with reverse engineering malware? Looks like it.</p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/top-generative-ai-models-grading-system/714625/">Google’s Gemini beats GPT-4, Llama 2 in model grading test</a></strong>. The &#8220;best&#8221; is a fast-changing label, but I&#8217;m glad Gemini is currently doing well compared to peers.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16471" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/04/30/daily-reading-list-april-30-2024-308/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
@@ -445,404 +773,405 @@
 		</media:content>
 	</item>
 		<item>
-		<title>Daily Reading List &#8211; April 10, 2024 (#295)</title>
-		<link>http://seroter.com/2024/04/11/daily-reading-list-april-10-2024-295/</link>
-					<comments>http://seroter.com/2024/04/11/daily-reading-list-april-10-2024-295/#comments</comments>
+		<title>Here&#8217;s what I&#8217;d use to build a generative AI application in 2024</title>
+		<link>https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/</link>
+					<comments>https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/#comments</comments>
 		
 		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Thu, 11 Apr 2024 12:57:08 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16240</guid>
+		<pubDate>Tue, 30 Apr 2024 19:56:11 +0000</pubDate>
+				<category><![CDATA[AI/ML]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[General Architecture]]></category>
+		<category><![CDATA[Google Cloud]]></category>
+		<category><![CDATA[Spring]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16426</guid>
 
-					<description><![CDATA[Today's links look at trends in tech culture, why Flux didn't die after it's sponsor went away, and what Go developers want for AI.]]></description>
+					<description><![CDATA[What exactly is a &#8220;generative AI app&#8221;? Do you think of chatbots, image creation tools,&#8230;]]></description>
 										<content:encoded><![CDATA[
-<p>What a wild day. From the <a href="https://www.youtube.com/watch?v=KMH5OcW5UYw">morning keynote</a> to the end of the day, it was nonstop. Good thing I got some reading done first thing in the morning!</p>
+<p>What exactly <em>is</em> a &#8220;generative AI app&#8221;? Do you think of chatbots, image creation tools, or music makers? What about document analysis services, text summarization capabilities, or widgets that &#8220;fix&#8221; your writing? These all seem to apply in one way or another! I see a lot written about tools and techniques for training, fine-tuning, and serving models, but what about us app builders? How do we actually <em>build</em> generative AI apps without obsessing over the models? Here&#8217;s what I&#8217;d consider using in 2024. And note that there&#8217;s much more to cover besides just building—think designing, testing, deploying, operating—but I&#8217;m just focusing on the builder tools today.</p>
 
 
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/topics/google-cloud-next/next24-day-1-recap/?e=48754805">Day 1 at Next ’24 recap: AI agents for everyone</a></strong>. Great recap of yesterday&#8217;s event kickoff. We&#8217;ll see if they mention my stuff in our day 2 recap!</p>
+<h2 class="wp-block-heading">Find a sandbox for experimenting with prompts</h2>
 
 
 
-<p>[article] <strong><a href="https://www.infoq.com/articles/culture-trends-2024/">InfoQ Culture &amp; Methods Trends Report &#8211; April 2024</a></strong>. What aspects of tech culture are mainstream now? And which behaviors are still emerging? InfoQ does a good assessment here.</p>
+<p>A successful generative AI app depends on a useful model, good data, and <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies">quality prompts</a>. Before going to deep on the app itself, it&#8217;s good to have a sandbox to play in.</p>
 
 
 
-<p>[blog] <strong><a href="https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html">Gemini 1.5 Pro Now Available in 180+ Countries; With Native Audio Understanding, System Instructions, JSON Mode and More</a></strong>. New access, fresh capabilities, and updated behavior for this excellent model.</p>
+<p>You can definitely start with chat tools like Gemini and ChatGPT. That&#8217;s not a bad way to get your hands dirty. There&#8217;s also a set of developer-centric surfaces such as <a href="https://colab.research.google.com/">Google Colab</a> or<a href="https://ai.google.dev/aistudio/"> Google AI Studio</a>. Once you sign in with a Google ID, you get free access to environments to experiment.</p>
 
 
 
-<p>[blog] <strong><a href="https://www.honeycomb.io/blog/demo-app-opentelemetry-instrumentation-honeycomb">Instrumenting a Demo App With OpenTelemetry and Honeycomb</a></strong>. Are you lighting up all the right paths in your system to be able to effectively troubleshoot later?</p>
+<p>Let&#8217;s look at Google AI Studio. Once you&#8217;re in this UI, you have the ability to simulate a back-and-forth chat, create freeform prompts that include uploaded media, or even structured prompts for more complex interactions.</p>
 
 
 
-<p>[article] <strong><a href="https://thenewstack.io/why-flux-isnt-dying-after-weaveworks/">Why Flux Isn’t Dying after Weaveworks</a></strong>. This is a good example of when foundations make a positive difference for open source projects. More on <a href="https://thenewstack.io/the-open-source-markets-in-flux-how-can-it-managers-cope/">that idea here</a>.</p>
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png"><img width="1024" height="664" data-attachment-id="16433" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-01/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png" data-orig-size="1400,908" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-01" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=1024" alt="" class="wp-image-16433" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
-<p>[blog] <strong><a href="https://jeremydmiller.com/2024/04/08/actually-talking-about-modular-monoliths/">Actually Talking about Modular Monoliths</a></strong>. In this post, Jeremy explores the modular monolith and how you might arrange one.</p>
+<p>If you find yourself staring at an empty console wondering what to try, check out <a href="https://ai.google.dev/examples?keywords=prompt">this prompt gallery</a> that shows off a lot of unique scenarios.</p>
 
 
 
-<p>[blog] <strong><a href="https://go.dev/blog/survey2024-h1-results">Go Developer Survey 2024 H1 Results</a></strong>. The Go team doesn&#8217;t ask softball questions in these surveys. Get a look into challenges that developers face, what they enjoy, and what matters most to them. More <a href="https://www.infoworld.com/article/3715200/go-language-shines-for-ai-powered-workloads-survey-says.html">coverage here</a>.</p>
+<p>Once you&#8217;re doing more &#8220;serious&#8221; work, you might upgrade to a proper cloud service that offers a sandbox along with SLAs and prompt lifecycle capabilities. Google Cloud Vertex AI is one example. Here, I created a named prompt.</p>
 
 
 
-<p>##</p>
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png"><img width="1024" height="804" data-attachment-id="16436" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-02/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png" data-orig-size="1400,1100" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-02" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=1024" alt="" class="wp-image-16436" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+<p>With my language prompts, I can also jump into a nice &#8220;compare&#8221; experience where I can try out variations of my prompt and see if the results are graded as better or worse. I can even set one as &#8220;ground truth&#8221; used as a baseline for all comparisons.</p>
 
 
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16240" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png"><img width="862" height="1024" data-attachment-id="16438" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-03/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png" data-orig-size="1400,1664" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-03" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=252" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=862" alt="" class="wp-image-16438" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=862 862w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=126 126w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=252 252w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png 1400w" sizes="(max-width: 862px) 100vw, 862px" /></a></figure>
+
+
+
+<p>Whatever sandbox tools you use, make sure they help you iterate quickly, while also matching the enterprise-y needs of the use case or company you work for.</p>
+
+
+
+<h2 class="wp-block-heading">Consume native APIs when working with specific models or platforms</h2>
+
+
+
+<p>At this point, you might be ready to start building your generative AI app. There seems to be a new, interesting foundation model <a href="https://huggingface.co/models">up on Hugging Face</a> every couple of days. You might have a lot of affection for a specific model family, or not. If you care about the model, you might choose the APIs for that specific model or provider.</p>
+
+
+
+<p>For example, let&#8217;s say you were making good choices and anchored your app to the Gemini model. I&#8217;d go straight to the Vertex AI SDK for <a href="https://cloud.google.com/vertex-ai/docs/python-sdk/use-vertex-ai-python-sdk">Python</a>, <a href="https://github.com/googleapis/nodejs-vertexai">Node</a>, <a href="https://github.com/googleapis/google-cloud-java/tree/main/java-vertexai">Java</a>, or <a href="https://github.com/googleapis/google-cloud-go/tree/main/vertexai">Go</a>. I might even jump to the <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini">raw REST API</a> and build my app with that.</p>
+
+
+
+<p>If I were baking a chat-like API call into my Node.js app, the quickest way to get the code I need is to go into Vertex AI, create a sample prompt, and click the &#8220;get code&#8221; button.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif"><img loading="lazy" width="676" height="434" data-attachment-id="16441" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-04/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif" data-orig-size="676,434" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-04" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=676" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=676" alt="" class="wp-image-16441" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif 676w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=300 300w" sizes="(max-width: 676px) 100vw, 676px" /></a></figure>
+
+
+
+<p>I took that code, ran it in a Cloud Shell instance, and it worked perfectly. I could easily tweak it for my specific needs from here. Drop this code into a serverless function, Kubernetes pod, or VM and you&#8217;ve got a working generative AI app.</p>
+
+
+
+<p>You could follow this same direct API approach when building out more sophisticated retrieval augmented generation (RAG) apps. In a Google Cloud world, you might use the Vertex AI APIs to <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings">get text embeddings</a>. Or you could choose something more general purpose and <a href="https://cloud.google.com/alloydb/docs/ai/work-with-embeddings">interact with a PostgreSQL database to generate, store, and query embeddings</a>. This is an <a href="https://medium.com/google-cloud/revolutionizing-patent-searches-with-alloydb-and-google-cloud-an-80-000-lesson-learned-8079a48528b0">excellent example</a> of this approach.</p>
+
+
+
+<p>If you have a specific model preference, you might choose to use the API for Gemini, Llama, Mistral, or whatever. And you might choose to directly interact with database or function APIs to augment the input to those models. That&#8217;s cool, and is the right choice for many scenarios.</p>
+
+
+
+<h2 class="wp-block-heading">Use meta-frameworks for consistent experiences across models and providers</h2>
+
+
+
+<p>As expected, the AI builder space is now full of higher-order frameworks that help developers incorporate generative AI into their apps. These frameworks help you call LLMs, work with embeddings and vector databases, and even support actions like function calling.</p>
+
+
+
+<p><a href="https://www.langchain.com/">LangChain</a> is a big one. You don&#8217;t need to be bothered with many model details, and you can chain together tasks to get results. It&#8217;s for Python devs, so your choice is either to use Python, or, embrace one of the many offshoots. There&#8217;s <a href="https://github.com/langchain4j/langchain4j">LangChain4J</a> for Java devs, <a href="https://github.com/tmc/langchaingo">LangChain Go</a> for Go devs, and <a href="https://github.com/langchain-ai/langchainjs">LangChain.js</a> for JavaScript devs.</p>
+
+
+
+<p>You have other choices if LangChain-style frameworks aren&#8217;t your jam. There&#8217;s <a href="https://spring.io/projects/spring-ai">Spring AI</a>, which has a fairly straightforward set of objects and methods for interacting with models. I tried it out for interacting with the Gemini model, and almost found it easier to use than our native API! It takes one update to my POM file:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate">
+&lt;dependency&gt;
+			&lt;groupId&gt;org.springframework.ai&lt;/groupId&gt;
+			&lt;artifactId&gt;spring-ai-vertex-ai-gemini-spring-boot-starter&lt;/artifactId&gt;
+&lt;/dependency&gt;
+</pre></div>
+
+
+<p>One set of application properties:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate">
+spring.application.name=demo
+spring.ai.vertex.ai.gemini.projectId=seroter-dev
+spring.ai.vertex.ai.gemini.location=us-central1
+spring.ai.vertex.ai.gemini.chat.options.model=gemini-pro-vision
+</pre></div>
+
+
+<p>And then an autowired chat object that I call from anywhere, like in this REST endpoint.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: java; title: ; notranslate">
+@RestController
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String&#91;] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+	private final VertexAiGeminiChatClient chatClient;
+
+	@Autowired
+    public DemoApplication(VertexAiGeminiChatClient chatClient) {
+        this.chatClient = chatClient;
+    }
+
+	@GetMapping("/")
+	public String getGeneratedText() {
+		String generatedResponse = chatClient.call("Tell me a joke");
+		return generatedResponse;
+	}
+}
+</pre></div>
+
+
+<p>Super easy. There are other frameworks too. Use something like <a href="https://docs.ai-jsx.com/">AI.JSX</a> for building JavaScript apps and components. <a href="https://github.com/SciSharp/BotSharp">BotSharp</a> is a framework for .NET devs building conversational apps with LLMs. Hugging Face has frameworks that help you abstract the LLM, including <a href="https://huggingface.co/docs/transformers.js/en/index">Transformers.js</a> and <a href="https://huggingface.co/blog/agents-js">agents.js</a>. </p>
+
+
+
+<p>There&#8217;s no shortage of these types of frameworks. If you&#8217;re iterating through LLMs and want consistent code regardless of which model you use, these are good choices.</p>
+
+
+
+<h2 class="wp-block-heading">Create with low-code tools when available</h2>
+
+
+
+<p>If I had an idea for a generative AI app, I&#8217;d want to figure out how much I actually had to build <em>myself</em>. There are a LOT of tools for building entire apps, components, or widgets, and many require very little coding.</p>
+
+
+
+<p>Everyone&#8217;s in this game. <a href="https://zapier.com/ai">Zapier</a> has some cool integration flows. <a href="https://www.gradio.app/">Gradio</a> lets you expose models and APIs as web pages. <a href="https://www.langflow.org/">Langflow</a> got snapped up by DataStax, but still offers a way to create AI apps without much required coding. <a href="https://flowiseai.com/">Flowise</a> offers some nice tooling for orchestration or AI agents. <a href="https://www.microsoft.com/en-us/power-platform/ai">Microsoft&#8217;s Power Platform</a> is useful for low-code AI app builders. AWS is in the game now with <a href="https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-bedrock-agents-agent-creation-return-control-capability/">Amazon Bedrock Agents</a>. <a href="https://www.servicenow.com/now-platform/generative-ai.html">ServiceNow</a> is baking generative AI into their builder tools, <a href="https://www.salesforce.com/products/customer-service-chatbot/">Salesforce</a> is doing their thing, and basically every traditional low-code app vendor is playing along. See <a href="https://www.outsystems.com/low-code-platform/gen-ai/">OutSystems</a>, <a href="https://www.mendix.com/platform/ai/">Mendix</a>, and everyone else.</p>
+
+
+
+<p>As you would imagine, Google does a fair bit here as well. The <a href="https://cloud.google.com/generative-ai-app-builder/docs/introduction">Vertex AI Agent Builder</a> offers four different app types that you basically build through point-and-click. These include personalized search engines, chat, recommendation engine, and connected agents. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png"><img loading="lazy" width="700" height="506" data-attachment-id="16461" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-05/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png" data-orig-size="700,506" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-05" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=700" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=700" alt="" class="wp-image-16461" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png 700w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=300 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></figure>
+
+
+
+<p>Search apps can tap into a variety of data sources including crawled websites, data warehouses, relational databases, and more.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png"><img loading="lazy" width="700" height="515" data-attachment-id="16463" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-06/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png" data-orig-size="700,515" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-06" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=700" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=700" alt="" class="wp-image-16463" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png 700w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=300 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></figure>
+
+
+
+<p>What&#8217;s fairly new is the &#8220;agent app&#8221; so let&#8217;s try building one of those. Specifically, let&#8217;s say I run a baseball clinic (sigh, someday) and help people tune their swing in our batting cages. I might want a chat experience for those looking for help with swing mechanics, and then also offer the ability to book time in the batting cage. I need data, but also interactivity.</p>
+
+
+
+<p>Before building the AI app, I need a Cloud Function that returns available times for the batting cage. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png"><img loading="lazy" width="700" height="615" data-attachment-id="16476" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-07/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png" data-orig-size="700,615" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-07" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=700" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=700" alt="" class="wp-image-16476" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png 700w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=300 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></figure>
+
+
+
+<p>This Node.js function returns an array of book-able timeslots. I&#8217;ve hard-coded the data, but you get the idea.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png"><img loading="lazy" width="1024" height="807" data-attachment-id="16478" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-08/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png" data-orig-size="1400,1104" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-08" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=1024" alt="" class="wp-image-16478" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>I also jumped into the Google Cloud IAM interface to ensure that the Dialogflow service account (which the AI agent operates as) has permission to invoke the serverless function.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png"><img loading="lazy" width="1024" height="684" data-attachment-id="16481" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-09/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png" data-orig-size="1400,936" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-09" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=1024" alt="" class="wp-image-16481" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Let&#8217;s build the agent. Back in the Vertex AI Agent Builder interface, I choose &#8220;new app&#8221; and pick  &#8220;agent.&#8221;</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png"><img loading="lazy" width="1024" height="650" data-attachment-id="16483" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-10/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png" data-orig-size="1400,890" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-10" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=1024" alt="" class="wp-image-16483" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=1022 1022w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Now I&#8217;m dropped into the agent builder interface. On the left, I have navigation for agents, tools, test cases, and more. In the next column, I set the goal of the agent, the instructions, and any tools I want to use with the agent. On the right, I preview my agent.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png"><img loading="lazy" width="1024" height="734" data-attachment-id="16486" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-11/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png" data-orig-size="1400,1004" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-11" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=1024" alt="" class="wp-image-16486" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>I set a goal of &#8220;Answer questions about baseball and let people book time in the batting cage&#8221; and then get to the instructions. There&#8217;s a &#8220;sample&#8221; set of instructions that are useful for getting started. I used those, but removed references to other agents or tools, as we don&#8217;t have that yet.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png"><img loading="lazy" width="1024" height="775" data-attachment-id="16487" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-12/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png" data-orig-size="1400,1060" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-12" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=1024" alt="" class="wp-image-16487" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>But now I want to add a tool, as I need a way to show available booking times if the user asks. I have a choice of adding a data store—this is useful if you want to source Q&amp;A from a BigQuery table, crawl a website, or get data from an API. I clicked the &#8220;manage all tools&#8221; button and chose to add a new tool. Here I give the tool a name, and very importantly, a description. This description is used by the AI agent to figure out when to invoke it.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png"><img loading="lazy" width="1024" height="933" data-attachment-id="16489" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-13/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png" data-orig-size="1400,1276" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-13" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=1024" alt="" class="wp-image-16489" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Because I chose OpenAPI as the tool type, I need to provide an OpenAPI spec for my Cloud Function. There&#8217;s a sample provided, and I used that to put together my spec. Note that the URL is the function&#8217;s base URL, and the path contains the specific function name.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; title: ; notranslate">
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Cage API",
+        "version": "1.0.0"
+    },
+    "servers": &#91;
+        {
+            "url": "https://us-central1-seroter-anthos.cloudfunctions.net"
+        }
+    ],
+    "paths": {
+        "/function-get-cage-times": {
+            "get": {
+                "summary": "List all open cage times",
+                "operationId": "getCageTimes",
+                "responses": {
+                    "200": {
+                        "description": "An array of cage times",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/CageTimes"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CageTimes": {
+                "type": "object",
+                "required": &#91;
+                    "cageNumber",
+                    "openSlot",
+                    "cageType"
+                ],
+                "properties": {
+                    "cageNumber": {
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "openSlot": {
+                        "type": "string"
+                    },
+                    "cageType": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
+</pre></div>
+
+
+<p>Finally, in this &#8220;tool setup&#8221; I define the authentication to that API. I chose &#8220;service agent token&#8221; and because I&#8217;m calling a specific instance of a service (versus the platform APIs), I picked &#8220;ID token.&#8221;</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png"><img loading="lazy" width="1024" height="806" data-attachment-id="16492" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-15/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png" data-orig-size="1400,1102" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-15" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=1024" alt="" class="wp-image-16492" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>After saving the tool, I go back to the agent definition and want to update the instructions to invoke the tool. I use the syntax, and appreciated the auto-completion help.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png"><img loading="lazy" width="1024" height="412" data-attachment-id="16494" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-16/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png" data-orig-size="1300,524" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-16" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=1024" alt="" class="wp-image-16494" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=1022 1022w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png 1300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Let&#8217;s see if it works. I went to the right-hand preview pane and asked it a generic baseball question. Good. Then I asked it for open times in the batting cage. Look at that! It didn&#8217;t just return a blob of JSON; it parsed the result and worded it well.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png"><img loading="lazy" width="953" height="1023" data-attachment-id="16496" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-17/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png" data-orig-size="1400,1504" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-17" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=279" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=953" alt="" class="wp-image-16496" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=953 953w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=140 140w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=279 279w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png 1400w" sizes="(max-width: 953px) 100vw, 953px" /></a></figure>
+
+
+
+<p>Very cool. There are some quirks with this tool, but it&#8217;s early, and I like where it&#8217;s going. This was MUCH simpler than me building a RAG-style or function-calling solution by hand.</p>
+
+
+
+<h2 class="wp-block-heading">Summary</h2>
+
+
+
+<p>The AI assistance and model building products get a lot of attention, but some of the most interesting work is happening in the tools for AI app builders. Whether you&#8217;re experimenting with prompts, coding up a solution, or assembling an app out of pre-built components, it&#8217;s a fun time to be developer. What products, tools, or frameworks did I miss from my assessment?</p>
+]]></content:encoded>
 					
-					<wfw:commentRss>http://seroter.com/2024/04/11/daily-reading-list-april-10-2024-295/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+					<wfw:commentRss>https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
 		
 		
 		
+		<media:thumbnail url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png" />
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png" medium="image">
+			<media:title type="html">2024.04.30-ai-10</media:title>
+		</media:content>
+
 		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
 			<media:title type="html">rseroter</media:title>
 		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; April 9, 2024 (#294)</title>
-		<link>http://seroter.com/2024/04/09/daily-reading-list-april-9-2024-294/</link>
-					<comments>http://seroter.com/2024/04/09/daily-reading-list-april-9-2024-294/#comments</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Tue, 09 Apr 2024 23:51:25 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16225</guid>
 
-					<description><![CDATA[Today's links look at modern AI assistance for developers, what Google's AI hypercomputer is all about, and a new way to build generative AI agents.]]></description>
-										<content:encoded><![CDATA[
-<p>Day 1 of Google Cloud Next is in the books. The <a href="https://www.youtube.com/watch?v=V6DJYGn2SFk">opening keynote</a> was outstanding, and we announced technology (and customer stories) that I found inspiring. <a href="https://www.youtube.com/watch?v=KMH5OcW5UYw">Tomorrow morning&#8217;s keynote (10:30am PT)</a> features more shenanigans because I&#8217;m involved. Tune in!</p>
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=862" medium="image" />
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/topics/google-cloud-next/welcome-to-google-cloud-next24/?e=48754805">Welcome to Google Cloud Next ‘24</a></strong>. This kickoff blog from Thomas sets the stage by listing out the major announcements we made today.</p>
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=676" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=700" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=700" medium="image" />
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-google-cloud-is-here/?e=48754805">Powering Google Cloud with Gemini</a></strong>. Brad explains what an AI-assisted cloud looks like with services across app development, databases, analytics, security, and more.</p>
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=700" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=1024" medium="image" />
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/application-development/gen-ai-and-app-development-tools-and-partnerships/?e=48754805">Ushering in a new era for app developers</a></strong>. So much good stuff for developers. Gabe&#8217;s post recaps everything from dev tooling to new partnerships.</p>
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=1024" medium="image" />
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/compute/whats-new-with-google-clouds-ai-hypercomputer-architecture/?e=48754805">What’s new with Google Cloud’s AI Hypercomputer architecture</a></strong>. The vertical integration here at Google Cloud is unique and powerful. Among other things, Mark announces TPU/GPU updates and new open source software.</p>
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=1024" medium="image" />
 
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=1024" medium="image" />
 
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/compute/introducing-googles-new-arm-based-cpu/?e=48754805">Introducing Google Axion Processors, our new Arm-based CPUs</a></strong>. This is our first one of these, and looks to be a difference-maker.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/containers-kubernetes/google-clouds-container-platform-for-the-next-decade-of-ai/?e=48754805">The container platform for the next decade of AI and beyond</a></strong>. Cloud Run and GKE form the best container platform you&#8217;ll find anywhere. These are terrific updates for builders and those running (AI) workloads at scale.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/databases/whats-new-with-databases-at-next24/?e=48754805">What&#8217;s new and what&#8217;s next for Google Cloud databases</a></strong>. I like the changes we&#8217;ve made for database users who are writing queries or managing fleets.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/data-analytics/data-analytics-at-next24/?e=48754805">What’s next for data analytics at Google Cloud Next ’24</a></strong>. The BigQuery updates are outstanding, including the new continuous queries.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-gemini-image-2-and-mlops-updates/?e=48754805">Google Cloud announces updates to Gemini, Imagen, Gemma and MLOps on Vertex AI</a></strong>. Get your hands on Gemini 1.5 Pro and that giant context window. Also check out new grounding capabilities and prompt management experiences.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/ai-machine-learning/build-generative-ai-experiences-with-vertex-ai-agent-builder/?e=48754805">Announcing Vertex AI Agent Builder: Helping developers easily build and deploy gen AI experiences</a></strong>. Build and orchestrate custom agents to make generative AI apps more contextual and relevant for your users.</p>
-
-
-
-<p>[blog] <strong><a href="https://developers.googleblog.com/2024/04/gemma-family-expands.html">Gemma Family Expands with Models Tailored for Developers and Researchers</a></strong>. Now access and use our high-performing open model that offers coding assistance.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16225" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>http://seroter.com/2024/04/09/daily-reading-list-april-9-2024-294/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; April 8, 2024 (#293)</title>
-		<link>http://seroter.com/2024/04/08/daily-reading-list-april-8-2024-293/</link>
-					<comments>http://seroter.com/2024/04/08/daily-reading-list-april-8-2024-293/#respond</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Mon, 08 Apr 2024 21:17:21 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16210</guid>
-
-					<description><![CDATA[Today's links look at how to fine tune an LLM, what to do about mainframes, and how to make corporate learning less boring.]]></description>
-										<content:encoded><![CDATA[
-<p>It&#8217;s the day before Google Cloud Next starts, so I&#8217;m spending it doing some final prep and hanging out with my team in Las Vegas. Meanwhile, the tech world keeps going &#8217;round, and I read some good items today.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/fine-tuning-large-language-models-how-vertex-ai-takes-llms-to-the-next-level-3c113f4007da">Fine Tuning Large Language Models: How Vertex AI Takes LLMs to the Next Level</a></strong>. Here&#8217;s one of the more approachable articles I&#8217;ve read about fine tuning. Abi does such a great job explaining a use case and the steps that anyone can follow to repeat her exercise.</p>
-
-
-
-<p>[article] <strong><a href="https://www.ciodive.com/news/banks-cloud-mainframe-generative-ai-strategy/712327/">Banking’s mainframe strategies shift as boards push for AI, cloud</a></strong>. Mainframes remain a very important source of data and computing power at many big companies. </p>
-
-
-
-<p>[article] <strong><a href="https://www.ciodive.com/news/ibm-mainframe-sixty-years-anniversary-cloud-skills/712325/">As mainframes turn 60, skill gaps threaten the enterprise workhorse</a></strong>. Two mainframe articles in one day? I gotta keep you guessing. This is a longer-form piece that explores the staffing opportunity and challenge around mainframes.</p>
-
-
-
-<p>[article] <strong><a href="https://thenewstack.io/shifting-left-is-now-mainstream-for-developers-or-is-it/">Shifting Left Is Now Mainstream for Developers, or Is It?</a></strong> This looks primarily at security-related activities (and vendors) that apply early in the dev cycle.</p>
-
-
-
-<p>[blog] <strong><a href="https://newsletter.getdx.com/p/creativity-in-software-engineering">Creativity in Software Engineering</a></strong>. Abi looks at that research paper from Google and pulls out the key takeaways.</p>
-
-
-
-<p>[article] <strong><a href="https://hbr.org/2024/04/corporate-learning-is-boring-but-it-doesnt-have-to-be">Corporate Learning Is Boring — But It Doesn’t Have to Be</a></strong>. We&#8217;re not talking that boring, obligatory training we all have to take. This is about the sort of training we <em>want</em> to take, but it doesn&#8217;t engage us well.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoq.com/articles/architecture-trends-2024/">InfoQ Software Architecture and Design Trends Report &#8211; April 2024</a></strong>. The crew at InfoQ create these reports to show what is mainstream, and what&#8217;s emerging. It&#8217;s useful to do this sort of exercise for your own company to figure out what&#8217;s recommended versus incubated.</p>
-
-
-
-<p>[guide] <strong><a href="https://dora.dev/guides/dora-metrics-four-keys/">DORA’s software delivery metrics: the four keys</a></strong>. Nathen offers up a useful deep dive into the four key indicators of a high performing organization. I like the &#8220;pitfalls&#8221; section.</p>
-
-
-
-<p>[article] <strong><a href="https://www.infoq.com/presentations/communication-patterns-resilience/">How Do We Talk to Each Other? How Surfacing Communication Patterns in Organizations Can Help You Understand and Improve Your Resilience</a></strong>. Nora has a great talk about how people talk to each other and work together. She explains the impact on scenarios like incident management.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16210" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>http://seroter.com/2024/04/08/daily-reading-list-april-8-2024-293/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; April 5, 2024 (#292)</title>
-		<link>http://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/</link>
-					<comments>http://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/#respond</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Fri, 05 Apr 2024 22:57:46 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16193</guid>
-
-					<description><![CDATA[Today's links look at queuing up your app deployments, how enterprises are spending their budgets on AI, and why Ruby on Rails isn't dead.]]></description>
-										<content:encoded><![CDATA[
-<p>It was a quiet end to a bonkers run-up to <a href="https://cloud.withgoogle.com/next">Google Cloud Next</a>, which starts on Monday in Las Vegas. Most everything is done and ready to roll. I&#8217;m flying out tomorrow and have rehearsals on Sunday. I&#8217;ll plan on posting my reading list each day, but I&#8217;ll warn you ahead of time that it&#8217;ll probably be fairly Google heavy!</p>
-
-
-
-<p>[article]<strong> <a href="https://martinfowler.com/articles/uncovering-mainframe-seams.html#batch-pipeline">Uncovering the Seams in Mainframes for Incremental Modernisation: Batch Pipeline Step Handoff</a></strong>. The article keeps getting extended, and this latest addition looks at &#8220;seams&#8221; in the mainframe app around data processing.</p>
-
-
-
-<p>[blog] <strong><a href="https://glaforge.dev/posts/2024/04/04/calling-gemma-with-ollama-and-testcontainers/">Calling Gemma with Ollama, TestContainers, and LangChain4j</a></strong>. Local development with LLMs has gotten much easier. If you&#8217;re building training labs or just experimenting, you might like this pattern of running Gemma in a testcontainer.</p>
-
-
-
-<p>[blog] <strong><a href="https://redmonk.com/rstephens/2024/04/05/monkigras-1/">2024 Monki Gras Recap, Day 1</a></strong>. &#8220;Prompting craft&#8221; was the theme of this event, and Rachel&#8217;s recap does a great job pulling out some high notes to learn from.</p>
-
-
-
-<p>[blog] <strong><a href="https://www.taylorstacey.ca/posts/deploy-on-fridays">Queuing Deployments with Workflows and Cloud Deploy</a></strong>. You might deploy right away, or you might choose to queue them for specific periods. This post shows one way to schedule deployments for later.</p>
-
-
-
-<p>[aricle] <strong><a href="https://thenewstack.io/platform-engineering-more-teams-now-running-3-or-more-idps/">Platform Engineering: More Teams Now Running 3 or More IDPs</a></strong>. Why? Are these narrowly-scoped IDPs? One internal developer platform per department? Such curious data!</p>
-
-
-
-<p>[blog] <strong><a href="https://www.battery.com/blog/enterprise-tech-survey-q124/">Survey Says: AI and Data Buoy Technology Spend Planning</a></strong>. Very interesting data in this survey. Download to flip through it to see where enterprise buyers are prioritizing their attention.</p>
-
-
-
-<p>[article] <strong><a href="https://www.itpro.com/cloud/cloud-computing/3-reasons-why-you-need-to-pay-attention-to-google-cloud-next-2024">3 reasons why you need to pay attention to Google Cloud Next 2024</a></strong>. I&#8217;ll humbly request that you take this writer&#8217;s advice. It&#8217;s going to be a great week.</p>
-
-
-
-<p>[article] <strong><a href="https://thenewstack.io/ruby-on-rails-is-not-dead-and-may-even-be-ai-panacea-for-devs/">Ruby on Rails Is Not Dead and May Even Be AI Panacea for Devs</a></strong>. You don&#8217;t hear a ton about Ruby in this JavaScript and Python obsessed landscape, but it&#8217;s still fairly popular.</p>
-
-
-
-<p>[blog] <strong><a href="https://bravenewgeek.com/introducing-konfig-gitlab-and-google-cloud-preconfigured-for-startups-and-enterprises/">Introducing Konfig: GitLab and Google Cloud preconfigured for startups and enterprises</a></strong>. The folks at Real Kinetic built something they&#8217;re calling &#8220;platform as code&#8221; to establish core infrastructure for cloud teams. </p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16193" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>http://seroter.com/2024/04/05/daily-reading-list-april-5-2024-292/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-	</item>
-		<item>
-		<title>Daily Reading List &#8211; April 4, 2024 (#291)</title>
-		<link>http://seroter.com/2024/04/04/daily-reading-list-april-4-2024-291/</link>
-					<comments>http://seroter.com/2024/04/04/daily-reading-list-april-4-2024-291/#comments</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Thu, 04 Apr 2024 23:30:16 +0000</pubDate>
-				<category><![CDATA[Daily Reading List]]></category>
-		<guid isPermaLink="false">https://seroter.com/?p=16179</guid>
-
-					<description><![CDATA[Today's links look at function calling with LLMs, whether prompt engineering is already tired, and if "platform as product" is back.]]></description>
-										<content:encoded><![CDATA[
-<p>Given the fast evolution of technology right now, I wonder if enterprises are doing strategic planning exercises more often. Annual plans don&#8217;t work in this climate. As I read the items below, I was thinking about how organizations are adapting!</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/using-gemini-function-calling-in-java-for-deterministic-generative-ai-responses-4c86a5ab80a9">Deterministic Generative AI with Gemini Function Calling in Java</a></strong>. Sometimes you have to see something over and over again before it clicks. I&#8217;ve now read enough about function calling in LLMs to &#8220;get&#8221; it. Good post here from Abi.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff">How we built Text-to-SQL at Pinterest</a></strong>. Is natural language about to become the preferred interface into data sources? Maybe, with the help of generative AI. Here&#8217;s what Pinterest built.</p>
-
-
-
-<p>[guide] <strong><a href="https://cloud.google.com/architecture/rag-capable-gen-ai-app-using-gke">Infrastructure for a RAG-capable generative AI application using GKE</a></strong>. So good. Learn how to build an AI platform that makes it possible to deploy contextual apps that know about your domain.</p>
-
-
-
-<p>[article] <strong><a href="https://www.ciodive.com/news/prompt-engineering-AI-LLM-VMware-research/712190/">Is prompt engineering’s party over?</a></strong> That was fast. Will LLMs be better prompts, and are they already better than humans? I wouldn&#8217;t hire a dedicated &#8220;prompt engineer&#8221;, but the tech isn&#8217;t ready for the robots to take this on.</p>
-
-
-
-<p>[article] <strong><a href="https://techcrunch.com/2024/04/04/aerospike-raises-100m-for-its-real-time-database-platform-to-capitalize-on-the-ai-boom/">Aerospike raises $100M for its real-time database platform to capitalize on the AI boom</a></strong>. Done right, a lot of existing data vendors will find new life by legitimately serving AI use cases. Good for Aerospike.</p>
-
-
-
-<p>[blog] <strong><a href="https://medium.com/google-cloud/parsing-invoices-using-gemini-1-5-api-with-google-apps-script-1f32af1678f2">Parsing Invoices using Gemini 1.5 API with Google Apps Script</a></strong>. There are so many creative uses of LLMs, even when applied to &#8220;boring&#8221; scenarios like processing invoices. Fun example here.</p>
-
-
-
-<p>[blog] <strong><a href="https://firebase.blog/posts/2024/04/next-24">Firebase at Cloud Next &#8217;24</a></strong>. This is the most straight-up dev content I&#8217;ve seen at our cloud conference. Learn Flutter and Angular, Go and Android. And go deep on Firebase.</p>
-
-
-
-<p>[blog] <strong><a href="https://www.syntasso.io/post/kubecon-eu-paris-the-re-emergence-of-platform-as-a-product">KubeCon EU Paris: The (Re)Emergence of Platform as a Product</a></strong>. I&#8217;ve been on the &#8220;platform as product&#8221; train for many years now, and modern platform engineering embraces that concept.</p>
-
-
-
-<p>[blog] <strong><a href="https://cloud.google.com/blog/products/networking/understanding-dns-options-for-gke/?e=48754805">DNS providers for Google Kubernetes Engine explained</a></strong>. Geeky topic, but there are performance and reliability outcomes that stem from your choices here.</p>
-
-
-
-<p>##</p>
-
-
-
-<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
-
-
-<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
-		<div>
-			<div>
-				<div>
-					<p >
-						<a href="http://seroter.com/?post_type=post&#038;p=16179" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>]]></content:encoded>
-					
-					<wfw:commentRss>http://seroter.com/2024/04/04/daily-reading-list-april-4-2024-291/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
+		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=953" medium="image" />
 	</item>
 	</channel>
 </rss>

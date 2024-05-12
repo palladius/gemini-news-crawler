@@ -13,6 +13,9 @@ gem 'gemini-ai' # For Gemini
 gem 'matrix' # to play wtih matrices ..
 gem 'neighbor' # to cal;culate similarity: https://www.crunchydata.com/blog/ruby-on-rails-neighbor-gem-for-ai-embeddings
 # brew install postgresql@15
+# Graphs:
+gem "chartkick"
+gem "groupdate"
 # /Riccardo end
 ################################
 

@@ -7,392 +7,434 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Fri, 19 Apr 2024 16:57:38 +0000</lastBuildDate>
-    <pubDate>Fri, 19 Apr 2024 13:02:17 +0000</pubDate>
+    <lastBuildDate>Sun, 12 May 2024 05:42:02 +0000</lastBuildDate>
+    <pubDate>Sat, 11 May 2024 15:47:53 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
     <item>
-      <title>Chinese Exports Are Threatening Biden’s Industrial Agenda</title>
-      <link>https://www.nytimes.com/2024/04/18/us/politics/china-exports-biden-industrial-agenda.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/18/us/politics/china-exports-biden-industrial-agenda.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/18/us/politics/china-exports-biden-industrial-agenda.html" rel="standout"></atom:link>
-      <description>The president is increasingly hitting back with tariffs and other measures meant to restrict imports, raising tensions with Beijing.</description>
-      <dc:creator>Jim Tankersley and Alan Rappeport</dc:creator>
-      <pubDate>Thu, 18 Apr 2024 22:26:22 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <title>U.S. to Announce New Tariffs on Chinese Electric Vehicles</title>
+      <link>https://www.nytimes.com/2024/05/10/us/politics/us-biden-china-tariffs-electric-vehicles.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/us/politics/us-biden-china-tariffs-electric-vehicles.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/10/us/politics/us-biden-china-tariffs-electric-vehicles.html" rel="standout"></atom:link>
+      <description>The administration could raise tariffs on electric vehicles from China to 100 percent in an attempt to protect American auto manufacturers.</description>
+      <dc:creator>Alan Rappeport and Jim Tankersley</dc:creator>
+      <pubDate>Sat, 11 May 2024 15:47:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Protectionism (Trade)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alternative and Renewable Energy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Union</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/18/multimedia/18dc-biden-china-thvq/18dc-biden-china-thvq-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Al Drago for The New York Times</media:credit>
-      <media:description>“I’m not looking for a fight with China,” President Biden said during a visit to the United Steelworkers Union in Pittsburgh on Wednesday. “I’m looking for competition — and fair competition.”</media:description>
-    </item>
-    <item>
-      <title>A Japanese Village Wants Tourists to Come for Heat, Soot and Steel</title>
-      <link>https://www.nytimes.com/2024/04/18/travel/yoshida-japan-steel-furnace.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/18/travel/yoshida-japan-steel-furnace.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/18/travel/yoshida-japan-steel-furnace.html" rel="standout"></atom:link>
-      <description>To lure visitors, residents of Yoshida, famed for its high-quality steel, are inviting tourists to help produce it.</description>
-      <dc:creator>Craig Mod</dc:creator>
-      <pubDate>Thu, 18 Apr 2024 09:02:43 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Steel and Iron</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Swords</category>
-    </item>
-    <item>
-      <title>Biden Calls for Tariffs on Chinese Steel in Pittsburgh Pitch, Vying With Trump for Votes</title>
-      <link>https://www.nytimes.com/2024/04/17/us/politics/biden-trump-china-tariffs.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/17/us/politics/biden-trump-china-tariffs.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/17/us/politics/biden-trump-china-tariffs.html" rel="standout"></atom:link>
-      <description>Speaking to the United Steelworkers union in Pittsburgh, the president urged major increases to some tariffs on steel and aluminum products from China.</description>
-      <dc:creator>Nicholas Nehamas and Jim Tankersley</dc:creator>
-      <pubDate>Thu, 18 Apr 2024 14:49:45 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pittsburgh (Pa)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Steel and Iron</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tai, Katherine (1974- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/17/multimedia/17pol-biden-pittsburgh-topart-sub-lpqk/17pol-biden-pittsburgh-topart-sub-lpqk-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Al Drago for The New York Times</media:credit>
-      <media:description>President Biden speaking on Wednesday in Pittsburgh, where he continued a three-day swing through Pennsylvania. </media:description>
-    </item>
-    <item>
-      <title>VW Workers in Tennessee Start Vote on U.A.W., Testing Union Ambitions</title>
-      <link>https://www.nytimes.com/2024/04/17/business/economy/volkswagen-united-auto-workers-union.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/17/business/economy/volkswagen-united-auto-workers-union.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/17/business/economy/volkswagen-united-auto-workers-union.html" rel="standout"></atom:link>
-      <description>The United Automobile Workers hopes contract gains at the Big Three carmakers will provide momentum in a broad effort to organize nonunion plants.</description>
-      <dc:creator>Neal E. Boudette</dc:creator>
-      <pubDate>Wed, 17 Apr 2024 15:13:44 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Volkswagen AG</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Automobile Workers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fain, Shawn</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Chattanooga (Tenn)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/17/multimedia/17vw-union-kgvm/17vw-union-kgvm-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Melissa Golden for The New York Times</media:credit>
-      <media:description>The 4,300 workers at Volkswagen’s plant in Chattanooga, Tenn., will begin voting on Wednesday on whether to join the United Automobile Workers union.</media:description>
-    </item>
-    <item>
-      <title>The Global Turn Away From Free-Market Policies Worries Economists</title>
-      <link>https://www.nytimes.com/2024/04/17/business/economy/industrial-policies-global-economy.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/17/business/economy/industrial-policies-global-economy.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/17/business/economy/industrial-policies-global-economy.html" rel="standout"></atom:link>
-      <description>More countries are embracing measures meant to encourage their own security and independence, a trend that some say could slow global growth.</description>
-      <dc:creator>Patricia Cohen</dc:creator>
-      <pubDate>Wed, 17 Apr 2024 19:34:38 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Investments</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Monetary Fund</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/17/multimedia/00JPecon-policy-print-03-gflq/00econ-policy-03-gflq-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Mandel Ngan/Agence France-Presse &amp;mdash; Getty Images</media:credit>
-      <media:description>Kristalina Georgieva, managing director of the International Monetary Fund, has pushed back against the growing use of industrial policies.</media:description>
-    </item>
-    <item>
-      <title>Why Better Times (and Big Raises) Haven’t Cured the Inflation Hangover</title>
-      <link>https://www.nytimes.com/2024/04/15/business/economy/economy-consumer-sentiment-pennsylvania.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/15/business/economy/economy-consumer-sentiment-pennsylvania.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/15/business/economy/economy-consumer-sentiment-pennsylvania.html" rel="standout"></atom:link>
-      <description>Frustrated by higher prices, many Pennsylvanians with fresh pay raises and solid finances report a sense of insecurity lingering from the pandemic.</description>
-      <dc:creator>Talmon Joseph Smith</dc:creator>
-      <pubDate>Mon, 15 Apr 2024 09:00:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pennsylvania</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/08/multimedia/00econ-mood-qtkm/00econ-mood-qtkm-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
-      <media:credit>Ross Mantle for The New York Times</media:credit>
-      <media:description>Levity Brewing occupies a former supply store with floor-to-ceiling windows in downtown Altoona, part of a district that has been revitalizing since 2021.</media:description>
-    </item>
-    <item>
-      <title>3 Facts That Help Explain a Confusing Economic Moment</title>
-      <link>https://www.nytimes.com/2024/04/13/business/economy/economy-inflation-interest-rates.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/13/business/economy/economy-inflation-interest-rates.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/13/business/economy/economy-inflation-interest-rates.html" rel="standout"></atom:link>
-      <description>The path to a “soft landing” doesn’t seem as smooth as it did four months ago. But the expectations of a year ago have been surpassed.</description>
-      <dc:creator>Ben Casselman</dc:creator>
-      <pubDate>Sat, 13 Apr 2024 09:05:00 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Price Index</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hiring and Promotion</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <media:content height="1000" medium="image" url="https://static01.nyt.com/images/2024/04/13/pageoneplus/13econ-explain-promo/13econ-explain-promo-mediumSquareAt3X.png" width="1000"></media:content>
-      <media:credit>The New York Times</media:credit>
-    </item>
-    <item>
-      <title>Immigrants in Maine Are Filling a Labor Gap. It May Be a Prelude for the U.S.</title>
-      <link>https://www.nytimes.com/2024/04/12/business/economy/immigrants-maine-lobster-aging-workforce.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/12/business/economy/immigrants-maine-lobster-aging-workforce.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/12/business/economy/immigrants-maine-lobster-aging-workforce.html" rel="standout"></atom:link>
-      <description>A wave of rapid immigration is taxing local resources around the country and drawing political ire. But it might leave America’s economy better off.</description>
-      <dc:creator>Jeanna Smialek</dc:creator>
-      <pubDate>Fri, 12 Apr 2024 10:00:12 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Maine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fishing, Commercial</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Workers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal-State Relations (US)</category>
-      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/04/11/multimedia/00dc-immigecon-01-mkzh/00dc-immigecon-01-mkzh-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Greta Rybus for The New York Times</media:credit>
-      <media:description>Chadai Gatembo, who came to Maine two years ago from the Democratic Republic of Congo, is entertaining the possibility of one day becoming a full-fledged lobsterman.</media:description>
-    </item>
-    <item>
-      <title>Soft Landing or No Landing? Fed’s Economic Picture Gets Complicated.</title>
-      <link>https://www.nytimes.com/2024/04/11/business/economy/federal-reserve-soft-no-landing.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/11/business/economy/federal-reserve-soft-no-landing.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/11/business/economy/federal-reserve-soft-no-landing.html" rel="standout"></atom:link>
-      <description>Stubborn inflation and strong growth could keep the Federal Reserve wary about interest rate cuts, eager to avoid adding vim to the economy.</description>
-      <dc:creator>Jeanna Smialek</dc:creator>
-      <pubDate>Thu, 11 Apr 2024 16:54:38 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/11/multimedia/11dc-nolanding-lmjp/11dc-nolanding-lmjp-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Kenny Holston/The New York Times</media:credit>
-      <media:description>Jerome H. Powell, the Federal Reserve chair, and his colleagues have taken an increasingly cautious tone when they talk about when and how much they might lower borrowing costs.</media:description>
-    </item>
-    <item>
-      <title>Is the Boom-and-Bust Business Cycle Dead?</title>
-      <link>https://www.nytimes.com/2024/04/11/business/economy/business-cycle.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/11/business/economy/business-cycle.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/11/business/economy/business-cycle.html" rel="standout"></atom:link>
-      <description>There is a growing view that the U.S. business cycle has changed (for better) in a more diversified economy. To some, that sounds like tempting fate.</description>
-      <dc:creator>Talmon Joseph Smith</dc:creator>
-      <pubDate>Thu, 11 Apr 2024 09:02:55 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Recession and Depression</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economics (Theory and Philosophy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/13/business/10business-cycle/10business-cycle-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Weston Wei</media:credit>
-    </item>
-    <item>
-      <title>Higher for Longer After All? Investors See Fed Rates Falling More Slowly.</title>
-      <link>https://www.nytimes.com/2024/04/09/business/economy/interest-rates-inflation-federal-reserve.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/09/business/economy/interest-rates-inflation-federal-reserve.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/09/business/economy/interest-rates-inflation-federal-reserve.html" rel="standout"></atom:link>
-      <description>Investors went into 2024 expecting the Federal Reserve to cut rates sharply. Stubborn inflation and quick growth call that into question.</description>
-      <dc:creator>Jeanna Smialek</dc:creator>
-      <pubDate>Tue, 09 Apr 2024 16:39:19 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-    </item>
-    <item>
-      <title>TSMC Will Receive $6.6 Billion to Bolster U.S. Chip Manufacturing</title>
-      <link>https://www.nytimes.com/2024/04/08/us/politics/tsmc-taiwan-chips-grants.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/08/us/politics/tsmc-taiwan-chips-grants.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/08/us/politics/tsmc-taiwan-chips-grants.html" rel="standout"></atom:link>
-      <description>Taiwan Semiconductor Manufacturing Company plans to build an additional factory and upgrade another planned facility in Phoenix with the federal grants.</description>
-      <dc:creator>Madeleine Ngo and Don Clark</dc:creator>
-      <pubDate>Mon, 08 Apr 2024 18:47:34 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Aid (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Taiwan Semiconductor Manufacturing Company Ltd</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Phoenix (Ariz)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
-      <media:content height="1780" medium="image" url="https://static01.nyt.com/images/2024/04/08/multimedia/08dc-TSMC-gqcj/08dc-TSMC-gqcj-mediumSquareAt3X.jpg" width="1780"></media:content>
-      <media:credit>T.J. Kirkpatrick for The New York Times</media:credit>
-      <media:description>A new Taiwan Semiconductor Manufacturing Company plant under construction in Phoenix, Ariz., in December 2022.</media:description>
-    </item>
-    <item>
-      <title>Yellen Sees ‘More Work to Do’ as China Talks End With No Breakthrough</title>
-      <link>https://www.nytimes.com/2024/04/08/business/economy/yellen-china-us-exports.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/08/business/economy/yellen-china-us-exports.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/08/business/economy/yellen-china-us-exports.html" rel="standout"></atom:link>
-      <description>Treasury Secretary Janet L. Yellen was warmly received in China, but it was evident that the level of trust between the two sides does not run deep.</description>
-      <dc:creator>Alan Rappeport</dc:creator>
-      <pubDate>Mon, 08 Apr 2024 17:00:28 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Li Qiang (1959- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yellen, Janet L</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guangzhou (China)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/08/multimedia/08dc-us-china-new-wflb/08dc-us-china-new-wflb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Tatan Syuflana</media:credit>
-      <media:description>Treasury Secretary Janet L. Yellen with Premier Li Qiang of China at the Great Hall of the People in Beijing on Sunday.</media:description>
-    </item>
-    <item>
-      <title>Why a Second Trump Term Could Be Bad for Corporate America</title>
-      <link>https://www.nytimes.com/2024/04/07/magazine/trump-corporate-business.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/07/magazine/trump-corporate-business.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/07/magazine/trump-corporate-business.html" rel="standout"></atom:link>
-      <description>Despite his populist promises, many bigwigs are keeping the faith that it couldn’t really happen here.</description>
-      <dc:creator>Jonathan Mahler</dc:creator>
-      <pubDate>Sun, 07 Apr 2024 16:13:43 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Corporations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dimon, James</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">JPMorgan Chase &amp; Company</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orban, Viktor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hungary</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2021/05/06/world/10dc-china-tariffs/10dc-china-tariffs-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Lorenz Huber for The New York Times</media:credit>
+      <media:description>The Biden administration is expected to raise tariffs on Chinese electric vehicles in order to protect domestic manufacturers.</media:description>
     </item>
     <item>
-      <title>Consumers Hate ‘Price Discrimination,’ but They Sure Love a Discount</title>
-      <link>https://www.nytimes.com/2024/04/06/business/economy/wendys-company-price-discrimination.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/business/economy/wendys-company-price-discrimination.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/06/business/economy/wendys-company-price-discrimination.html" rel="standout"></atom:link>
-      <description>The Wendy’s debacle is a warning shot for brands: If you want to play with prices, make sure to communicate why and whom it could help.</description>
-      <dc:creator>Lydia DePillis</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 09:03:38 +0000</pubDate>
+      <title>Why Higher Fed Rates Are Not Totally Off the Table</title>
+      <link>https://www.nytimes.com/2024/05/09/business/economy/federal-reserve-powell-raise-interest-rates.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/business/economy/federal-reserve-powell-raise-interest-rates.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/09/business/economy/federal-reserve-powell-raise-interest-rates.html" rel="standout"></atom:link>
+      <description>Fed officials still think their next move will be to cut rates, but they are not entirely ruling out the possibility that they might have to raise them.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Thu, 09 May 2024 22:55:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discount Selling</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Protection</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economics (Theory and Philosophy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Wendy&#39;s International Inc</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">audio-neutral-informative</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/02/business/00dynamic-pricing-still/00dynamic-pricing-still-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Filip Fröhlich</media:credit>
-    </item>
-    <item>
-      <title>Yellen Warns China on Exports and Russia Support</title>
-      <link>https://www.nytimes.com/2024/04/06/business/economy/us-china-yellen.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/06/business/economy/us-china-yellen.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/06/business/economy/us-china-yellen.html" rel="standout"></atom:link>
-      <description>Beijing’s economic policies threaten American workers, Treasury Secretary Janet L. Yellen told Vice Premier He Lifeng in the southern city of Guangzhou.</description>
-      <dc:creator>Alan Rappeport</dc:creator>
-      <pubDate>Sat, 06 Apr 2024 08:54:22 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yellen, Janet L</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/06/multimedia/06dc-USCHINA-vhzp/06dc-USCHINA-vhzp-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Tingshu Wang/Reuters</media:credit>
-      <media:description>Treasury Secretary Janet L. Yellen and Vice Premier He Lifeng in Guangzhou, China, on Saturday.</media:description>
-    </item>
-    <item>
-      <title>Mercedes-Benz Workers in Alabama Ask for Unionization Vote</title>
-      <link>https://www.nytimes.com/2024/04/05/business/economy/uaw-mercedes-alabama-union.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/business/economy/uaw-mercedes-alabama-union.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/05/business/economy/uaw-mercedes-alabama-union.html" rel="standout"></atom:link>
-      <description>The United Automobile Workers union is mounting its most ambitious effort to gain an industry foothold beyond Detroit’s Big Three.</description>
-      <dc:creator>Jack Ewing</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 21:50:27 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Alabama</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mercedes-Benz</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Automobile Workers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Volkswagen AG</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fain, Shawn</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05uaw-mercedes-mhfl/05uaw-mercedes-mhfl-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Gary Cosby Jr./The Tuscaloosa News, via Associated Press</media:credit>
-      <media:description>A majority of workers at the Mercedes-Benz plant near Tuscaloosa, Ala., are calling for a vote to join the United Automobile Workers union.</media:description>
-    </item>
-    <item>
-      <title>New Questions on How a Key Agency Shared Inflation Data</title>
-      <link>https://www.nytimes.com/2024/04/05/business/economy/labor-statistics-super-users.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/business/economy/labor-statistics-super-users.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/05/business/economy/labor-statistics-super-users.html" rel="standout"></atom:link>
-      <description>A government economist had regular contact with “super users” in finance, records show, at a time when such information keenly interests investors.</description>
-      <dc:creator>Ben Casselman and Jeanna Smialek</dc:creator>
-      <pubDate>Fri, 05 Apr 2024 21:43:41 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Bureau of Labor Statistics</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Mail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Price Index</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stocks and Bonds</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Statistics</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09fed-dc-bjcq/09fed-dc-bjcq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pete Marovich for The New York Times</media:credit>
+      <media:description>Jerome H. Powell, the Federal Reserve chair, has said raising interest rates again would be unlikely, but he did not rule out the possibility.</media:description>
+    </item>
+    <item>
+      <title>Biden Announces $3.3 Billion Microsoft AI Center at Trump’s Failed Foxconn Site</title>
+      <link>https://www.nytimes.com/2024/05/08/us/politics/biden-data-center-wisconsin.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/08/us/politics/biden-data-center-wisconsin.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/08/us/politics/biden-data-center-wisconsin.html" rel="standout"></atom:link>
+      <description>The president’s visit to Wisconsin celebrated the investment by Microsoft in a center to be built on the site of a failed Foxconn project negotiated by his predecessor.</description>
+      <dc:creator>Erica L. Green</dc:creator>
+      <pubDate>Wed, 08 May 2024 20:27:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Microsoft Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Data Centers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Racine (Wis)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wisconsin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Foxconn Technology</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/08/multimedia/08dc-biden-pjhf/08dc-biden-pjhf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Tom Brenner for The New York Times</media:credit>
+      <media:description>President Biden at the Intel campus in Chandler, Ariz., in March. His “Investing in America” agenda has focused on bringing billions of private-sector dollars into manufacturing and industries such as clean energy and artificial intelligence.</media:description>
+    </item>
+    <item>
+      <title>How 401(k) Drives Inequality</title>
+      <link>https://www.nytimes.com/2024/05/08/magazine/401k-retirement-crisis.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/08/magazine/401k-retirement-crisis.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/08/magazine/401k-retirement-crisis.html" rel="standout"></atom:link>
+      <description>How an obscure, 45-year-old tax change transformed retirement and left so many Americans out in the cold.</description>
+      <dc:creator>Michael Steinberger</dc:creator>
+      <pubDate>Wed, 08 May 2024 20:33:50 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ghilarducci, Teresa</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">401(k), 403(b) and 457 Plans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pensions and Retirement Plans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Retirement</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income Inequality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Work, Retire, Repeat: The Uncertainty of Retirement in the New Economy (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <category domain="">futureofwork2024</category>
+    </item>
+    <item>
+      <title>U.S. Job Market Eases, but Hiring Remains Firm</title>
+      <link>https://www.nytimes.com/2024/05/03/business/economy/jobs-report-april-2024.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/03/business/economy/jobs-report-april-2024.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/03/business/economy/jobs-report-april-2024.html" rel="standout"></atom:link>
+      <description>Employers added 175,000 jobs in April, a milder pace than in the winter months, though layoffs have remained low and most sectors appear stable.</description>
+      <dc:creator>Lydia DePillis</dc:creator>
+      <pubDate>Fri, 03 May 2024 18:43:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hiring and Promotion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labor Department (US)</category>
+      <media:content height="1000" medium="image" url="https://static01.nyt.com/images/2024/04/30/multimedia/april-jobs-promo-index/april-jobs-promo-index-mediumSquareAt3X-v12.png" width="1000"></media:content>
+    </item>
+    <item>
+      <title>The Fed Is Eyeing the Job Market, but It’s Difficult to Read</title>
+      <link>https://www.nytimes.com/2024/05/02/business/economy/the-fed-job-market.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/02/business/economy/the-fed-job-market.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/02/business/economy/the-fed-job-market.html" rel="standout"></atom:link>
+      <description>Fed officials are watching labor trends as they contemplate when to cut rates. But different measures are telling different stories.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Thu, 02 May 2024 18:25:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hiring and Promotion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/02/multimedia/02dc-FedFollow-fchj/02dc-FedFollow-fchj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Gabby Jones for The New York Times</media:credit>
+      <media:description>In recent months, the job market has been expanding much more rapidly than economists would typically expect.</media:description>
+    </item>
+    <item>
+      <title>North Carolina Triad Tries to Reinvent Its Economy</title>
+      <link>https://www.nytimes.com/2024/05/02/business/economy/north-carolina-triad-economy.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/02/business/economy/north-carolina-triad-economy.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/02/business/economy/north-carolina-triad-economy.html" rel="standout"></atom:link>
+      <description>North Carolina’s Triad was built on tobacco, textiles and furniture. Now it’s trying to forge a new economy from more highly skilled manufacturing.</description>
+      <dc:creator>Santul Nerkar and Mike Belleme</dc:creator>
+      <pubDate>Thu, 02 May 2024 15:35:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Liberty (NC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Greensboro (NC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">High Point (NC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Winston-Salem (NC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Carolina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hiring and Promotion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/07/multimedia/00carolina-econ-01-thbk/00carolina-econ-01-thbk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:description>Some residents and local leaders in the Triad region of North Carolina, which includes the town of Liberty, are hoping that new business investments could breathe new life into the area.</media:description>
+    </item>
+    <item>
+      <title>Job Openings and Hiring Are at a 3-Year Ebb</title>
+      <link>https://www.nytimes.com/2024/05/01/business/economy/jolts-job-openings-hires-quits.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/01/business/economy/jolts-job-openings-hires-quits.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/01/business/economy/jolts-job-openings-hires-quits.html" rel="standout"></atom:link>
+      <description>March data showed a cooling labor market, but layoffs remain low. The overall trend is likely to be welcomed by Federal Reserve policymakers.</description>
+      <dc:creator>Ben Casselman</dc:creator>
+      <pubDate>Wed, 01 May 2024 15:20:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hiring and Promotion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Layoffs and Job Reductions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labor Department (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/01/multimedia/01econ-jolts-jmbh/01econ-jolts-jmbh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Scott McIntyre for The New York Times</media:credit>
+      <media:description>Job hunters met potential employers at a job fair in Miami.</media:description>
+    </item>
+    <item>
+      <title>The Fed Tries to Steer Clear of Politics, but an Election Year Is Making It Tough</title>
+      <link>https://www.nytimes.com/2024/05/01/business/economy/federal-reserve-presidential-election.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/01/business/economy/federal-reserve-presidential-election.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/01/business/economy/federal-reserve-presidential-election.html" rel="standout"></atom:link>
+      <description>Economists are wondering whether political developments could play into both the Fed’s near-term decisions and its long-term independence.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Wed, 01 May 2024 19:22:17 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Powell, Jerome H</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/01/multimedia/01dc-Fed-politics-lgmp/01dc-Fed-politics-lgmp-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pete Marovich for The New York Times</media:credit>
+      <media:description>Federal Reserve officials set policy independently of the White House.</media:description>
+    </item>
+    <item>
+      <title>Fed Holds Rates Steady, Noting Lack of Progress on Inflation</title>
+      <link>https://www.nytimes.com/2024/05/01/business/economy/fed-interest-rates-inflation.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/01/business/economy/fed-interest-rates-inflation.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/01/business/economy/fed-interest-rates-inflation.html" rel="standout"></atom:link>
+      <description>The Federal Reserve left interest rates unchanged for a sixth straight meeting and suggested that rates would stay high for longer.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Wed, 01 May 2024 22:46:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Powell, Jerome H</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/01/multimedia/01vid-dc-fed-COVER-tcwf/01vid-dc-fed-COVER-tcwf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Susan Walsh/Associated Press</media:credit>
+    </item>
+    <item>
+      <title>Federal Money Is All Over Milwaukee. Biden Hopes Voters Will Notice.</title>
+      <link>https://www.nytimes.com/2024/05/01/business/economy/federal-money-milwaukee-biden.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/01/business/economy/federal-money-milwaukee-biden.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/01/business/economy/federal-money-milwaukee-biden.html" rel="standout"></atom:link>
+      <description>White House officials have barnstormed Wisconsin to make the connection between big changes and their signature laws.</description>
+      <dc:creator>Lydia DePillis</dc:creator>
+      <pubDate>Wed, 01 May 2024 19:19:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2024</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">American Rescue Plan (2021)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Aid (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Infrastructure (Public Works)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation Reduction Act of 2022</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Milwaukee (Wis)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wisconsin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Local Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/03/multimedia/00ira-milwaukee-wpfg/00ira-milwaukee-wpfg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Sara Stathas for The New York Times</media:credit>
+      <media:description>Tom Perez, a White House official, at an event in Milwaukee showcasing Biden administration programs, including one that helped fund the building of homes by Habitat for Humanity.</media:description>
+    </item>
+    <item>
+      <title>He Won by a Landslide. Why Is He Fighting for His Political Life?</title>
+      <link>https://www.nytimes.com/2024/05/01/world/europe/uk-election-mayor-ben-houchen.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/01/world/europe/uk-election-mayor-ben-houchen.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/01/world/europe/uk-election-mayor-ben-houchen.html" rel="standout"></atom:link>
+      <description>Ben Houchen, a regional mayor in the north of England, faces a close re-election race, partly thanks to the broader troubles of Britain’s Conservative Party.</description>
+      <dc:creator>Stephen Castle</dc:creator>
+      <pubDate>Thu, 02 May 2024 01:25:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Houchen, Ben (1986- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mayors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Local Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Conservative Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labour Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sunak, Rishi (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">England</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hartlepool (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Teesside (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tees Valley (England)</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/01/multimedia/01uk-mayor-bqzl/01uk-mayor-bqzl-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mary Turner for The New York Times</media:credit>
+      <media:description>Ben Houchen, the mayor of Tees Valley, at the site where development work is taking place to build a new quayside port on the location of the former steelworks in Redcar, England.</media:description>
+    </item>
+    <item>
+      <title>Walmart Introduces a New Store Brand for ‘Quality Food’</title>
+      <link>https://www.nytimes.com/2024/04/30/business/economy/walmart-better-goods-store-brand.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/30/business/economy/walmart-better-goods-store-brand.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/30/business/economy/walmart-better-goods-store-brand.html" rel="standout"></atom:link>
+      <description>The Better Goods store brand will carry plant-based, gluten-free and higher-end food and could help the retailer attract more affluent shoppers.</description>
+      <dc:creator>Jordyn Holman</dc:creator>
+      <pubDate>Tue, 30 Apr 2024 12:48:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Food</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Generic Brands and Products</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labeling and Labels (Product)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Walmart Stores Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/30/multimedia/30walmart-food-jhlt/30walmart-food-jhlt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Adam Davis/EPA, via Shutterstock</media:credit>
+      <media:description>Walmart is expanding its food aisle as the company seeks to hold on to the scores of shoppers it won over during the height of inflation in summer 2022.</media:description>
+    </item>
+    <item>
+      <title>High Fed Rates Are Not Crushing Growth. Wealthier People Help Explain Why.</title>
+      <link>https://www.nytimes.com/2024/04/30/business/economy/high-fed-rates-rich-people.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/30/business/economy/high-fed-rates-rich-people.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/30/business/economy/high-fed-rates-rich-people.html" rel="standout"></atom:link>
+      <description>High rates usually pull down asset prices and hurt the housing market. Those channels are muted now, possibly making policy slower to work.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Tue, 30 Apr 2024 15:31:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mortgages</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/05/multimedia/05super-users-fmct/05super-users-fmct-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Amanda Lucier for The New York Times</media:credit>
-      <media:description>An unexpected jump in housing costs in the Consumer Price Index was the subject of an email from a government economist that was widely circulated on Wall Street.</media:description>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/04/29/multimedia/29dc-fed-rates-zpwg/29dc-fed-rates-zpwg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alyssa Schukar for The New York Times</media:credit>
+      <media:description>High interest rates aren’t affecting Americans who own assets like houses as much as many economists expected.</media:description>
     </item>
     <item>
-      <title>U.S. Employers Added 303,000 Jobs in 39th Straight Month of Growth</title>
-      <link>https://www.nytimes.com/2024/04/05/business/economy/jobs-report-march-2024.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/05/business/economy/jobs-report-march-2024.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/05/business/economy/jobs-report-march-2024.html" rel="standout"></atom:link>
-      <description>The March data increased confidence among economists and investors that robust hiring and rising wages can continue to coexist while inflation eases.</description>
-      <dc:creator>Talmon Joseph Smith</dc:creator>
-      <pubDate>Mon, 08 Apr 2024 14:49:20 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <title>Inflation Is Stubborn. Is the Federal Budget Deficit Making It Worse?</title>
+      <link>https://www.nytimes.com/2024/04/29/us/politics/fed-inflation-deficit.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/29/us/politics/fed-inflation-deficit.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/29/us/politics/fed-inflation-deficit.html" rel="standout"></atom:link>
+      <description>Economists are divided over whether the growing amount of federal borrowing is fueling demand and driving up prices.</description>
+      <dc:creator>Jim Tankersley</dc:creator>
+      <pubDate>Mon, 29 Apr 2024 16:50:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labor Department (US)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hiring and Promotion</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <media:content height="1000" medium="image" url="https://static01.nyt.com/images/2024/04/04/multimedia/march-24-jobsday-overall-jobs/march-24-jobsday-overall-jobs-mediumSquareAt3X-v10.png" width="1000"></media:content>
-      <media:credit>Ella Koeze</media:credit>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stimulus (Economic)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/29/multimedia/29dc-biden-inflation-lwhb/29dc-biden-inflation-lwhb-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Marissa Alper for The New York Times</media:credit>
+      <media:description>Some economists say that the federal budget deficit has helped to fuel demand for goods or services, like dining out, leading to rising prices.</media:description>
     </item>
     <item>
-      <title>Kate Shindle on Why She’s Stepping Down as Actors’ Equity President</title>
-      <link>https://www.nytimes.com/2024/04/04/theater/kate-shindle-actors-equity.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/04/theater/kate-shindle-actors-equity.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/04/theater/kate-shindle-actors-equity.html" rel="standout"></atom:link>
-      <description>After nine years in the role, she has decided not to seek re-election in May. Her departure comes amid significant turnover in the theater industry.</description>
-      <dc:creator>Michael Paulson</dc:creator>
-      <pubDate>Thu, 04 Apr 2024 19:00:10 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shindle, Kate</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Actors Equity Assn</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/06/arts/shindle/shindle-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit> Sarah Reingewirtz/MediaNews Group, via Getty Images</media:credit>
-      <media:description>Kate Shindle spoke in California in 2022 to encourage that state’s leadership to support nonprofit performing arts organizations.</media:description>
+      <title>How High Wall Street Thinks the Fed Will Keep Interest Rates</title>
+      <link>https://www.nytimes.com/2024/04/26/business/economy/fed-rate-cut-forecast.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/26/business/economy/fed-rate-cut-forecast.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/26/business/economy/fed-rate-cut-forecast.html" rel="standout"></atom:link>
+      <description>Stubborn inflation has led traders to forecast far fewer rate cuts by the Federal Reserve than just a few months ago.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Fri, 26 Apr 2024 18:16:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conflicts of Interest</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+    </item>
+    <item>
+      <title>U.S. Economy Grew at 1.6% Rate in First-Quarter Slowdown</title>
+      <link>https://www.nytimes.com/2024/04/25/business/economy/us-economy-gdp-growth.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/business/economy/us-economy-gdp-growth.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/25/business/economy/us-economy-gdp-growth.html" rel="standout"></atom:link>
+      <description>Gross domestic product, adjusted for inflation, increased at a 1.6 percent annual rate in the first three months of the year.</description>
+      <dc:creator>Ben Casselman</dc:creator>
+      <pubDate>Fri, 26 Apr 2024 00:39:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Commerce Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gross Domestic Product</category>
+      <media:content height="1000" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/2024-04-25-gdp-quarters-index/2024-04-25-gdp-quarters-index-mediumSquareAt3X-v3.png" width="1000"></media:content>
+      <media:credit>Karl Russell</media:credit>
+    </item>
+    <item>
+      <title>N.F.L. Draft Is Like Super Bowl for City of Detroit</title>
+      <link>https://www.nytimes.com/2024/04/25/business/nfl-draft-detroit.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/business/nfl-draft-detroit.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/25/business/nfl-draft-detroit.html" rel="standout"></atom:link>
+      <description>Places that are not usual sites for the league’s marquee game are jumping at the chance to be the host of its three-day draft.</description>
+      <dc:creator>Ken Belson</dc:creator>
+      <pubDate>Thu, 25 Apr 2024 14:53:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Football League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Draft and Recruitment (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Detroit (Mich)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Advertising and Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/24nfldraft-detroit-01-pqkc/24nfldraft-detroit-01-pqkc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Nic Antaya for The New York Times</media:credit>
+      <media:description>“We have a chance to reintroduce ourselves to America,” Detroit’s mayor said of hosting the draft.</media:description>
+    </item>
+    <item>
+      <title>Blinken’s Visit to China: What to Know</title>
+      <link>https://www.nytimes.com/2024/04/25/world/asia/blinken-china-united-states-thaw.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/world/asia/blinken-china-united-states-thaw.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/25/world/asia/blinken-china-united-states-thaw.html" rel="standout"></atom:link>
+      <description>Secretary of State Antony J. Blinken is in China this week as tensions have risen over trade, security, Russia’s war on Ukraine and the Middle East crisis.</description>
+      <dc:creator>Ana Swanson, David Pierson and Olivia Wang</dc:creator>
+      <pubDate>Thu, 25 Apr 2024 04:46:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Territorial Disputes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">TikTok (ByteDance)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">State Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Austin, Lloyd J III</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wang Yi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">East Asia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Middle East</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South China Sea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/00china-blinken-explainer-qpgz/00china-blinken-explainer-qpgz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pool photo by Mark Schiefelbein</media:credit>
+      <media:description>Secretary of State Antony J. Blinken with Chen Jining, the Communist Party secretary for Shanghai, on Thursday.</media:description>
+    </item>
+    <item>
+      <title>Antony Blinken Visits China</title>
+      <link>https://www.nytimes.com/2024/04/25/business/economy/xi-jinping-blinken-china-trade.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/business/economy/xi-jinping-blinken-china-trade.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/04/25/business/economy/xi-jinping-blinken-china-trade.html" rel="standout"></atom:link>
+      <description>Tensions over economic ties are running high, threatening to disrupt a fragile cooperation between the U.S. and China.</description>
+      <dc:creator>Ana Swanson</dc:creator>
+      <pubDate>Thu, 25 Apr 2024 18:59:48 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Commerce</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Investments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/25/multimedia/25china-blinken-mzqc/25china-blinken-mzqc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pool photo by Mark Schiefelbein</media:credit>
+      <media:description>The U.S. secretary of state, Antony J. Blinken, walked with Nicholas Burns, the U.S. ambassador to China, through the Yu Gardens in Shanghai on Wednesday.</media:description>
     </item>
   </channel>
 </rss>

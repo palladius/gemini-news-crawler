@@ -1,4 +1,5 @@
-2024-04-19 v0.2.2 [DEV] Adding graphs and minor things.
+2024-05-12 v0.2.3 [DEV] Added the first Chartkick graph.
+2024-05-12 v0.2.2 [DEV] Adding graphs and minor things.
 2024-04-19 v0.2.1 [DEV] Added BUCKET_NAME to Dockerfile
 2024-04-18 v0.2.0 [DEV] Fixed schema from ARRAY error in `schema.rb`
 2024-04-18 v0.1.7 [DEV] Fixed a bug in prod which made /Articles invisible/buggy when you dont have all embeddings.

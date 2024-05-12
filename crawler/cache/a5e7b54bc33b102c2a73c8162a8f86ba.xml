@@ -1,454 +1,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  
+
+  
+
+
+
+
+
+
+
   <channel>
-  <atom:link rel="self" type="application/rss+xml" href="https://www.ansa.it/sito/notizie//_rss.xml"></atom:link>
-  <title>RSS di   - ANSA.it</title>
-    <link>https://www.ansa.it/sito/notizie//.shtml</link>
+  <atom:link rel="self" type="application/rss+xml" href="https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml"></atom:link>
+  <title>RSS di Mondo  - ANSA.it</title>
+    
+    <link>https://www.ansa.it/mondo/index.html</link>
     <description>Updated every day - FOR PERSONAL USE ONLY</description>
   <language>it</language>
   <copyright>Copyright: (C) ANSA, https://www.ansa.it/sito/static/disclaimer.html</copyright>
   
   <item>
-  <title><![CDATA['Il Pentagono sta già preparando i nuovi aiuti a Kiev']]></title>
-  <description><![CDATA[Politico: 'Incluse artiglieria e difese aeree. Tempi brevi']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/il-pentagono-sta-gia-preparando-i-nuovi-aiuti-a-kiev_3ec1d012-5bb0-4f4c-bb4b-defe68f4baa7.html</link><pubDate>Fri, 19 Apr 2024 18:33:43 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/il-pentagono-sta-gia-preparando-i-nuovi-aiuti-a-kiev_3ec1d012-5bb0-4f4c-bb4b-defe68f4baa7.html</guid>
+  <title><![CDATA[Agenzia Gaza, due medici uccisi da raid israeliani]]></title>
+  <description><![CDATA['I corpi recuperati e portati all'ospedale Al-Aqsa Martyrs']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/12/agenzia-gaza-due-medici-uccisi-da-raid-israeliani_94b9a0ab-d036-4fd0-a339-a4db2b2e6b86.html</link><pubDate>Sun, 12 May 2024 06:38:02 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/12/agenzia-gaza-due-medici-uccisi-da-raid-israeliani_94b9a0ab-d036-4fd0-a339-a4db2b2e6b86.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[L'Iran, 'attacco fallito, droni abbattuti e nessuna vittima']]></title>
-  <description><![CDATA['I media filo israeliani festeggiano una vittoria che non c'è']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/liran-attacco-fallito-droni-abbattuti-e-nessuna-vittima_146c6c09-89d2-4083-820b-2c769138a669.html</link><pubDate>Fri, 19 Apr 2024 18:13:08 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/liran-attacco-fallito-droni-abbattuti-e-nessuna-vittima_146c6c09-89d2-4083-820b-2c769138a669.html</guid>
+  <title><![CDATA[Trump, costretto a New York da processo-show, dietro c'è Biden]]></title>
+  <description><![CDATA['Mi perseguitano perché sono candidato e avanti nei sondaggi']]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/05/12/trump-costretto-a-new-york-da-processo-show-dietro-ce-biden_1bdd0daa-a925-4d0d-9185-9e687c4779d7.html</link><pubDate>Sun, 12 May 2024 01:32:18 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/05/12/trump-costretto-a-new-york-da-processo-show-dietro-ce-biden_1bdd0daa-a925-4d0d-9185-9e687c4779d7.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Zelensky, la Nato scelga se siamo davvero alleati]]></title>
-  <description><![CDATA['Scelga se la vita ha davvero lo stesso valore ovunque']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/zelensky-la-nato-scelga-se-siamo-davvero-alleati_9d077510-d9ab-4636-bc4b-b9e21a34c165.html</link><pubDate>Fri, 19 Apr 2024 17:47:25 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/zelensky-la-nato-scelga-se-siamo-davvero-alleati_9d077510-d9ab-4636-bc4b-b9e21a34c165.html</guid>
+  <title><![CDATA[Israele 'Avanti con l'operazione a Rafah, per portare gli ostaggi a casa']]></title>
+  <description><![CDATA['Le nostre operazioni contro Hamas restano limitate e dirette a progressi tattici'. Protesta per la liberazione degli ostaggi a Tel Aviv, 30 fermi]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/12/-idfavanti-con-operazione-rafah-per-portare-ostaggi-a-casa-_30cb8ea4-349e-4a28-bb3a-aabfe079ee72.html</link><pubDate>Sun, 12 May 2024 07:38:54 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/12/-idfavanti-con-operazione-rafah-per-portare-ostaggi-a-casa-_30cb8ea4-349e-4a28-bb3a-aabfe079ee72.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Zelensky, abbiamo bisogno di almeno altri 7 sistemi Patriot]]></title>
-  <description><![CDATA[Intervenendo al Consiglio Nato-Ucraina]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/zelensky-abbiamo-bisogno-di-almeno-altri-7-sistemi-patriot_904e743b-0f3b-4d6e-97ad-ec2ed80d5a28.html</link><pubDate>Fri, 19 Apr 2024 17:44:05 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/zelensky-abbiamo-bisogno-di-almeno-altri-7-sistemi-patriot_904e743b-0f3b-4d6e-97ad-ec2ed80d5a28.html</guid>
+  <title><![CDATA[Biden, cessate il fuoco domani se Hamas liberasse ostaggi]]></title>
+  <description><![CDATA[Dichiarazione del presidente Usa]]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/05/11/biden-cessate-il-fuoco-domani-se-hamas-liberasse-ostaggi_f1b367c3-0542-4d8e-9117-1eb5c5e58247.html</link><pubDate>Sat, 11 May 2024 22:37:54 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/05/11/biden-cessate-il-fuoco-domani-se-hamas-liberasse-ostaggi_f1b367c3-0542-4d8e-9117-1eb5c5e58247.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Primo via libera della Camera Usa agli aiuti a Kiev]]></title>
-  <description><![CDATA[Domani il voto finale. I dem schierati al fianco di Johnson]]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/19/primo-via-libera-della-camera-usa-agli-aiuti-a-kiev_877fd3d8-506d-4d99-b895-d42a43972408.html</link><pubDate>Fri, 19 Apr 2024 17:32:22 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/19/primo-via-libera-della-camera-usa-agli-aiuti-a-kiev_877fd3d8-506d-4d99-b895-d42a43972408.html</guid>
+  <title><![CDATA[Israele, attacchi a siti di Hamas a Jabalia nella Striscia]]></title>
+  <description><![CDATA[Report palestinesi denunciano danni a decine di edifici]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/israele-attacchi-a-siti-di-hamas-a-jabalia-nella-striscia_038c41cf-71e7-4eac-9c23-6b4148658af7.html</link><pubDate>Sat, 11 May 2024 22:04:27 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/israele-attacchi-a-siti-di-hamas-a-jabalia-nella-striscia_038c41cf-71e7-4eac-9c23-6b4148658af7.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Wafa, 4 palestinesi uccisi da Israele in Cisgiordania]]></title>
-  <description><![CDATA[Media, l'uomo ucciso questa mattina era della Jihad islamica]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/wafa-4-palestinesi-uccisi-da-israele-in-cisgiordania_9d736491-2350-438a-87ec-ecc69842a0c3.html</link><pubDate>Fri, 19 Apr 2024 17:03:10 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/wafa-4-palestinesi-uccisi-da-israele-in-cisgiordania_9d736491-2350-438a-87ec-ecc69842a0c3.html</guid>
+  <title><![CDATA[Schiaffo di Barron a Trump, non andrà alla convention]]></title>
+  <description><![CDATA[Nota di staff Melania, 'per impegni presi in precedenza']]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/05/11/schiaffo-di-barron-a-trump-non-andra-alla-convention_400275e1-6e7f-439f-abd2-26c89d6c0886.html</link><pubDate>Sat, 11 May 2024 20:41:26 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/05/11/schiaffo-di-barron-a-trump-non-andra-alla-convention_400275e1-6e7f-439f-abd2-26c89d6c0886.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Stoltenberg, 'daremo sistemi di difesa aerea Nato a Kiev']]></title>
-  <description><![CDATA['Presto risultati concreti, anche i Samp-T non solo i Patriot']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/stoltenberg-daremo-sistemi-di-difesa-aerea-nato-a-kiev_0bf267af-b063-4a48-87b6-0096a7d9a1f9.html</link><pubDate>Fri, 19 Apr 2024 17:00:23 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/stoltenberg-daremo-sistemi-di-difesa-aerea-nato-a-kiev_0bf267af-b063-4a48-87b6-0096a7d9a1f9.html</guid>
+  <title><![CDATA[Putin approva il nuovo governo, i ministeri restano gli stessi]]></title>
+  <description><![CDATA[Tass: 'Il primo ministro Mikhail Mishustin avrà 10 vice']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/putin-approva-il-nuovo-governo-i-ministeri-restano-gli-stessi_1be58293-9665-4324-9c2b-73900105f7d1.html</link><pubDate>Sat, 11 May 2024 17:40:08 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/putin-approva-il-nuovo-governo-i-ministeri-restano-gli-stessi_1be58293-9665-4324-9c2b-73900105f7d1.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Vietnam, sito web per 70° anniversario vittoria di Dien Bien Phu]]></title>
-  <description><![CDATA[Documenti e foto scattate dai giornalisti della Vna]]></description><link>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/vietnam-sito-web-per-70-anniversario-vittoria-di-dien-bien-phu_33ffaf29-eebd-4124-8387-6ddd9c8a7ee6.html</link><pubDate>Fri, 19 Apr 2024 16:01:47 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/vietnam-sito-web-per-70-anniversario-vittoria-di-dien-bien-phu_33ffaf29-eebd-4124-8387-6ddd9c8a7ee6.html</guid>
+  <title><![CDATA[Putin approva il nuovo governo, i ministri restano gli stessi]]></title>
+  <description><![CDATA[Tass: 'Il primo ministro Mikhail Mishustin avrà 10 vice']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/putin-approva-il-nuovo-governo-i-ministri-restano-gli-stessi_cc78f895-24aa-4fe7-9c66-cfbfed6c5090.html</link><pubDate>Sat, 11 May 2024 17:08:08 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/putin-approva-il-nuovo-governo-i-ministri-restano-gli-stessi_cc78f895-24aa-4fe7-9c66-cfbfed6c5090.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Parigi, nessun materiale esplosivo sull'uomo al consolato Iran]]></title>
-  <description><![CDATA[Lo ha reso noto la Procura]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/parigi-nessun-materiale-esplosivo-sulluomo-al-consolato-iran_694f5296-2c58-498d-a41c-5b82fd91cd24.html</link><pubDate>Fri, 19 Apr 2024 15:40:42 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/parigi-nessun-materiale-esplosivo-sulluomo-al-consolato-iran_694f5296-2c58-498d-a41c-5b82fd91cd24.html</guid>
+  <title><![CDATA[Cremlino, l'Ucraina va verso il collasso totale]]></title>
+  <description><![CDATA['Per questo gli europei rischiano il tutto per tutto']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/cremlino-lucraina-va-verso-il-collasso-totale_45828add-66ad-4e12-8740-5bdbd8d071e3.html</link><pubDate>Sat, 11 May 2024 17:00:08 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/cremlino-lucraina-va-verso-il-collasso-totale_45828add-66ad-4e12-8740-5bdbd8d071e3.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Brasile, il governo istituisce due nuove riserve indigene]]></title>
-  <description><![CDATA[In occasione della Giornata nazionale dei popoli originari]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/brasile-il-governo-istituisce-due-nuove-riserve-indigene_3a1aa73c-8f06-4580-83d1-ec7f3b06801f.html</link><pubDate>Fri, 19 Apr 2024 15:24:18 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/brasile-il-governo-istituisce-due-nuove-riserve-indigene_3a1aa73c-8f06-4580-83d1-ec7f3b06801f.html</guid>
+  <title><![CDATA[Nuovo video di Hamas, 'ostaggio morto per raid di Israele']]></title>
+  <description><![CDATA[Prima erano state pubblicate immagini con un punto interrogativo]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/nuovo-video-di-hamas-ostaggio-morto-per-raid-di-israele_138b6ce0-4e52-49e8-85e5-96a64ed4b3e5.html</link><pubDate>Sat, 11 May 2024 22:09:58 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/nuovo-video-di-hamas-ostaggio-morto-per-raid-di-israele_138b6ce0-4e52-49e8-85e5-96a64ed4b3e5.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Kiev, da bombardiere che abbiamo colpito il raid a Dnipro]]></title>
-  <description><![CDATA[Otto morti e 24 feriti negli attacchi]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/kiev-da-bombardiere-che-abbiamo-colpito-il-raid-a-dnipro_61d3ab26-c4c6-4087-aca5-2b38f1d8e074.html</link><pubDate>Fri, 19 Apr 2024 15:27:00 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/kiev-da-bombardiere-che-abbiamo-colpito-il-raid-a-dnipro_61d3ab26-c4c6-4087-aca5-2b38f1d8e074.html</guid>
+  <title><![CDATA[La Bei ha approvato il piano per finanziare la difesa Ue]]></title>
+  <description><![CDATA[Nuove norme per spingere la spesa per beni a uso militare-civile]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/la-bei-ha-approvato-il-piano-per-finanziare-la-difesa-ue_317924bf-f26e-4ef7-af6d-921ab1f5db7d.html</link><pubDate>Sat, 11 May 2024 18:21:07 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/la-bei-ha-approvato-il-piano-per-finanziare-la-difesa-ue_317924bf-f26e-4ef7-af6d-921ab1f5db7d.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Iran, israeliani o americani i mini droni colpiti]]></title>
-  <description><![CDATA[Nezameddin Mousavi: 'L'operazione è stata ridicola']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iran-israeliani-o-americani-i-mini-droni-colpiti_d86e45c1-87d0-49c7-8652-1a88e9a512c3.html</link><pubDate>Fri, 19 Apr 2024 15:27:06 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iran-israeliani-o-americani-i-mini-droni-colpiti_d86e45c1-87d0-49c7-8652-1a88e9a512c3.html</guid>
+  <title><![CDATA[Torna a piovere nel sud del Brasile, saliti a 136 i morti]]></title>
+  <description><![CDATA[Protezione civile: '756 feriti e 141 dispersi']]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/torna-a-piovere-nel-sud-del-brasile-saliti-a-136-i-morti_838a7224-2646-4586-8db0-fb9b8ecb324c.html</link><pubDate>Sat, 11 May 2024 18:21:21 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/torna-a-piovere-nel-sud-del-brasile-saliti-a-136-i-morti_838a7224-2646-4586-8db0-fb9b8ecb324c.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Il Belgio valuta la task force Ue in vista delle europee]]></title>
-  <description><![CDATA[Proteggere il voto da disinformazione russa, attiva per 2 mesi]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/il-belgio-valuta-la-task-force-ue-in-vista-delle-europee_436e3b54-2320-4b70-8b40-6e8ec94d4b2b.html</link><pubDate>Fri, 19 Apr 2024 15:07:00 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/il-belgio-valuta-la-task-force-ue-in-vista-delle-europee_436e3b54-2320-4b70-8b40-6e8ec94d4b2b.html</guid>
+  <title><![CDATA[Messico: Matera finalista del premio Uclg-Cultura 21]]></title>
+  <description><![CDATA[I vincitori saranno resi noti nei prossimi giorni]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/messico-matera-finalista-del-premio-uclg-cultura-21_534c97e8-6c2f-448a-bcf9-55c99f1caf81.html</link><pubDate>Sat, 11 May 2024 15:14:35 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/messico-matera-finalista-del-premio-uclg-cultura-21_534c97e8-6c2f-448a-bcf9-55c99f1caf81.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Paura a Parigi, un uomo con esplosivi nel consolato dell'Iran. Fermato]]></title>
-  <description><![CDATA[Aveva detto di voler vendicare il fratello]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/paura-a-parigi-un-uomo-con-esplosivi-nel-consolato-delliran.-fermato_c6e156d3-41ee-4a5a-856a-871f1a3b0ded.html</link><pubDate>Fri, 19 Apr 2024 15:02:37 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/paura-a-parigi-un-uomo-con-esplosivi-nel-consolato-delliran.-fermato_c6e156d3-41ee-4a5a-856a-871f1a3b0ded.html</guid>
+  <title><![CDATA[Filorussi, almeno 3 morti nel ristorante colpito a Donetsk]]></title>
+  <description><![CDATA[Governatore filorusso: 'Per il momento sono otto feriti']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/filorussi-almeno-3-morti-nel-ristorante-colpito-a-donetsk_c3448dc4-af56-40d0-a244-bdd3395daa9e.html</link><pubDate>Sat, 11 May 2024 18:21:46 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/filorussi-almeno-3-morti-nel-ristorante-colpito-a-donetsk_c3448dc4-af56-40d0-a244-bdd3395daa9e.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Hamas, l'aggressione di Israele all'Iran è un'escalation]]></title>
-  <description><![CDATA[Contro tutta la regione]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/hamas-laggressione-di-israele-alliran-e-unescalation_1e66255b-3c96-4aa9-83b4-36868582595b.html</link><pubDate>Fri, 19 Apr 2024 15:07:07 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/hamas-laggressione-di-israele-alliran-e-unescalation_1e66255b-3c96-4aa9-83b4-36868582595b.html</guid>
+  <title><![CDATA[Idf, 4 razzi lanciati da Rafah verso Kerem Shalom]]></title>
+  <description><![CDATA[Preceduti da sirene d'allarme, non ci sono feriti]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/idf-4-razzi-lanciati-da-rafah-verso-kerem-shalom_975e7583-835b-456e-875b-00f31c09a30a.html</link><pubDate>Sat, 11 May 2024 18:22:03 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/idf-4-razzi-lanciati-da-rafah-verso-kerem-shalom_975e7583-835b-456e-875b-00f31c09a30a.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Iran,fallito tentativo di Israele attraverso agenti locali]]></title>
-  <description><![CDATA[Deputato di Isfahan: 'Pronti a proteggere il nostro Paese']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iranfallito-tentativo-di-israele-attraverso-agenti-locali_d310b32b-07e8-4c13-b2d2-208f8f48ff12.html</link><pubDate>Fri, 19 Apr 2024 15:07:13 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iranfallito-tentativo-di-israele-attraverso-agenti-locali_d310b32b-07e8-4c13-b2d2-208f8f48ff12.html</guid>
+  <title><![CDATA[Afghanistan, salgono a 311 le vittime delle inondazioni]]></title>
+  <description><![CDATA[Il Nord Est del Paese colpito da alluvioni improvvise]]></description><link>https://www.ansa.it/sito/notizie/mondo/asia/2024/05/11/afghanistan-salgono-a-311-le-vittime-delle-inondazioni_a0d67894-a737-4f3e-adff-be86dd47e744.html</link><pubDate>Sat, 11 May 2024 18:22:15 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/asia/2024/05/11/afghanistan-salgono-a-311-le-vittime-delle-inondazioni_a0d67894-a737-4f3e-adff-be86dd47e744.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Guterres, stop al ciclo di ritorsioni in Medio Oriente]]></title>
-  <description><![CDATA[Appello a comunità internazionale, prevenire sviluppi devastanti]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/guterres-stop-al-ciclo-di-ritorsioni-in-medio-oriente_1566a3f8-3c8c-4459-a1d0-c1cfd2f8405b.html</link><pubDate>Fri, 19 Apr 2024 15:07:22 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/guterres-stop-al-ciclo-di-ritorsioni-in-medio-oriente_1566a3f8-3c8c-4459-a1d0-c1cfd2f8405b.html</guid>
+  <title><![CDATA[Inondazioni forzano città a cambiare ubicazione nel sud Brasile]]></title>
+  <description><![CDATA[Edifici compromessi. Salgono a 126 i morti]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/inondazioni-forzano-citta-a-cambiare-ubicazione-nel-sud-brasile_bc8ebdc7-5b53-4659-b9af-3cfabe5769bf.html</link><pubDate>Sat, 11 May 2024 18:22:30 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/inondazioni-forzano-citta-a-cambiare-ubicazione-nel-sud-brasile_bc8ebdc7-5b53-4659-b9af-3cfabe5769bf.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Ue vara sanzioni contro i coloni violenti in Cisgiordania]]></title>
-  <description><![CDATA[Due entità e quattro individui. 'Gravi violazioni diritti umani']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/ue-vara-sanzioni-contro-i-coloni-violenti-in-cisgiordania_ebaee504-88a0-4f0b-80a8-44513185de98.html</link><pubDate>Fri, 19 Apr 2024 15:07:31 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/ue-vara-sanzioni-contro-i-coloni-violenti-in-cisgiordania_ebaee504-88a0-4f0b-80a8-44513185de98.html</guid>
+  <title><![CDATA[Catalogna domani al voto, elezioni cruciali per governo Sanchez]]></title>
+  <description><![CDATA[Oltre 5,7 milioni di persone alle urne per Parlamento regione]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/catalogna-domani-al-voto-elezioni-cruciali-per-governo-sanchez_7a5f8679-1820-4f38-8df2-0a9c57c4ae5c.html</link><pubDate>Sat, 11 May 2024 13:17:47 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/catalogna-domani-al-voto-elezioni-cruciali-per-governo-sanchez_7a5f8679-1820-4f38-8df2-0a9c57c4ae5c.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[A Parigi uomo nel consolato iraniano con gilet esplosivo]]></title>
-  <description><![CDATA[Visto da un testimone mentre entrava nella sede]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/a-parigi-uomo-nel-consolato-iraniano-con-gilet-esplosivo_562d14c6-443f-461b-b4ae-dcd71ff12089.html</link><pubDate>Fri, 19 Apr 2024 14:53:18 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/a-parigi-uomo-nel-consolato-iraniano-con-gilet-esplosivo_562d14c6-443f-461b-b4ae-dcd71ff12089.html</guid>
+  <title><![CDATA['Bombardato ristorante in Donetsk durate la festa dei filorussi']]></title>
+  <description><![CDATA[Media: 'Ci sarebbero morti, anche un bambino e una cameriera']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/bombardato-ristorante-in-donetsk-durate-la-festa-dei-filorussi_0479090e-28b3-4573-8718-ba2b7c4db81c.html</link><pubDate>Sat, 11 May 2024 13:05:42 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/bombardato-ristorante-in-donetsk-durate-la-festa-dei-filorussi_0479090e-28b3-4573-8718-ba2b7c4db81c.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Il Belgio valuta la task force Ue in vista delle europee ]]></title>
-  <description><![CDATA[Proteggere il voto da disinformazione russa, attiva per 2 mesi ]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/il-belgio-valuta-la-task-force-ue-in-vista-delle-europee_b07d8c69-c211-46c9-9894-7bf2dffde24e.html</link><pubDate>Fri, 19 Apr 2024 15:16:54 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/il-belgio-valuta-la-task-force-ue-in-vista-delle-europee_b07d8c69-c211-46c9-9894-7bf2dffde24e.html</guid>
+  <title><![CDATA[Mosca, conquistati 5 insediamenti in regione Kharkiv]]></title>
+  <description><![CDATA[Un altro in quella di Donetsk]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/mosca-conquistati-5-insediamenti-in-regione-kharkiv_5a460be4-547f-4756-9d19-26e8e9a56d87.html</link><pubDate>Sat, 11 May 2024 18:23:09 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/mosca-conquistati-5-insediamenti-in-regione-kharkiv_5a460be4-547f-4756-9d19-26e8e9a56d87.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Ok commissione Camera Usa, aiuti a Israele e Kiev in aula]]></title>
-  <description><![CDATA[Col voto determinante dei democratici. Domani il voto]]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/19/ok-commissione-camera-usa-aiuti-a-israele-e-kiev-in-aula_9c4fd01f-5edf-424b-8b65-397ae956f445.html</link><pubDate>Fri, 19 Apr 2024 15:07:54 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/19/ok-commissione-camera-usa-aiuti-a-israele-e-kiev-in-aula_9c4fd01f-5edf-424b-8b65-397ae956f445.html</guid>
+  <title><![CDATA[Diagnosticato un tumore all'ex presidente del Perù Fujimori]]></title>
+  <description><![CDATA['Combatto contro un cancro alla lingua da ormai 27 anni']]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/diagnosticato-un-tumore-allex-presidente-del-peru-fujimori_a8dc704f-efe5-41d5-a3c6-d34289db2571.html</link><pubDate>Sat, 11 May 2024 12:11:06 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/diagnosticato-un-tumore-allex-presidente-del-peru-fujimori_a8dc704f-efe5-41d5-a3c6-d34289db2571.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Premi Nobel e Sacharov a Picierno: 'Resti al Pe']]></title>
-  <description><![CDATA[Due lettere cosiglate da Matvijčuk, Paievska e attivisti di]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/premi-nobel-e-sacharov-a-picierno-resti-al-pe_aec21dd7-c95b-436d-9a49-11fb4d87292e.html</link><pubDate>Fri, 19 Apr 2024 13:54:02 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/premi-nobel-e-sacharov-a-picierno-resti-al-pe_aec21dd7-c95b-436d-9a49-11fb4d87292e.html</guid>
+  <title><![CDATA[Dichiarato incostituzionale lo stato di eccezione in Ecuador]]></title>
+  <description><![CDATA[Quello decretato il 30 aprile da Noboa manca di 'dati fattuali']]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/dichiarato-incostituzionale-lo-stato-di-eccezione-in-ecuador_0142fbdb-2601-466f-94b2-c07de4a63ca7.html</link><pubDate>Sat, 11 May 2024 18:23:32 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/05/11/dichiarato-incostituzionale-lo-stato-di-eccezione-in-ecuador_0142fbdb-2601-466f-94b2-c07de4a63ca7.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Bolsonaro, 'il Brasile si sta avvicinando ad una dittatura']]></title>
-  <description><![CDATA[L'ex presidente promotore di evento 'in difesa della democrazia']]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/bolsonaro-il-brasile-si-sta-avvicinando-ad-una-dittatura_037fd748-807b-4e73-82d2-56857a03462a.html</link><pubDate>Fri, 19 Apr 2024 13:38:08 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/bolsonaro-il-brasile-si-sta-avvicinando-ad-una-dittatura_037fd748-807b-4e73-82d2-56857a03462a.html</guid>
+  <title><![CDATA[Kiev, quasi 1.800 civili evacuati vicino al confine in Kharkiv]]></title>
+  <description><![CDATA[Governatore regionale, 'a causa degli attacchi russi']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/kiev-quasi-1.800-civili-evacuati-vicino-al-confine-in-kharkiv_781f0d30-2d39-4be6-b7ae-d906de031855.html</link><pubDate>Sat, 11 May 2024 10:02:27 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/05/11/kiev-quasi-1.800-civili-evacuati-vicino-al-confine-in-kharkiv_781f0d30-2d39-4be6-b7ae-d906de031855.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Blinken, 'su Rafah molto chiari, contrari a operazione']]></title>
-  <description><![CDATA[]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/blinken-su-rafah-molto-chiari-contrari-a-operazione_263b9504-a569-4240-9e25-ab1b046a230c.html</link><pubDate>Fri, 19 Apr 2024 13:37:28 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/blinken-su-rafah-molto-chiari-contrari-a-operazione_263b9504-a569-4240-9e25-ab1b046a230c.html</guid>
+  <title><![CDATA[Fonti Israele, 'Sinwar non è a Rafah, forse a Khan Yunis']]></title>
+  <description><![CDATA[Times of Israel, 'capo Hamas ancora a Gaza']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/fonti-israele-sinwar-non-e-a-rafah-forse-a-khan-yunis_f3a43c07-2c62-47bf-8079-4e5bb55153d6.html</link><pubDate>Sat, 11 May 2024 18:23:52 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/fonti-israele-sinwar-non-e-a-rafah-forse-a-khan-yunis_f3a43c07-2c62-47bf-8079-4e5bb55153d6.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Blinken, Usa non coinvolti in alcuna operazione offensiva]]></title>
-  <description><![CDATA['Lavoriamo a de-escalation']]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/19/blinken-usa-non-coinvolti-in-alcuna-operazione-offensiva_4848ec0a-f66b-4813-a1d1-478c191aca83.html</link><pubDate>Fri, 19 Apr 2024 13:32:23 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/19/blinken-usa-non-coinvolti-in-alcuna-operazione-offensiva_4848ec0a-f66b-4813-a1d1-478c191aca83.html</guid>
+  <title><![CDATA[Wafa, 'decine di civili uccisi in vari raid sulla Striscia']]></title>
+  <description><![CDATA[Fra le vittime un giornalista a Jabalia]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/wafa-decine-di-civili-uccisi-in-vari-raid-sulla-striscia_65d2e602-db04-461e-829f-96725ebe50d9.html</link><pubDate>Sat, 11 May 2024 10:01:13 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/wafa-decine-di-civili-uccisi-in-vari-raid-sulla-striscia_65d2e602-db04-461e-829f-96725ebe50d9.html</guid>
   </item>
   
   <item>
-  <title><![CDATA[Mitsotakis a Lesbo con i turisti turchi celebra la visa express]]></title>
-  <description><![CDATA[Premier: 'Riavvicinamento con Ankara ha risultati tangibili']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/mitsotakis-a-lesbo-con-i-turisti-turchi-celebra-la-visa-express_74fca41d-ab9c-426e-9d3d-18147a50742a.html</link><pubDate>Fri, 19 Apr 2024 13:31:28 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/mitsotakis-a-lesbo-con-i-turisti-turchi-celebra-la-visa-express_74fca41d-ab9c-426e-9d3d-18147a50742a.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Pubblicata la lista dei criminali più ricercati dell'Ecuador]]></title>
-  <description><![CDATA[Il presidente Noboa include oltre 60 membri di 8 diverse gang]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/pubblicata-la-lista-dei-criminali-piu-ricercati-dellecuador_d589c9be-299c-4fb4-afa3-9e73cc343e36.html</link><pubDate>Fri, 19 Apr 2024 12:56:20 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/pubblicata-la-lista-dei-criminali-piu-ricercati-dellecuador_d589c9be-299c-4fb4-afa3-9e73cc343e36.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Indonesia: ancora un'eruzione del vulcano Ruang]]></title>
-  <description><![CDATA[Sprigionata una colonna di fumo alta 400 metri]]></description><link>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/indonesia-ancora-uneruzione-del-vulcano-ruang_e2860d5e-5a91-470e-8f10-4874e371a64e.html</link><pubDate>Fri, 19 Apr 2024 13:00:21 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/indonesia-ancora-uneruzione-del-vulcano-ruang_e2860d5e-5a91-470e-8f10-4874e371a64e.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Tajani, 'Italia farà il possibile per la difesa aerea di Kiev']]></title>
-  <description><![CDATA[Lo afferma il ministro degli Esteri al termine del G7 di Capri]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/tajani-italia-fara-il-possibile-per-la-difesa-aerea-di-kiev_5a4e84e0-77e2-4260-9520-7cdfe2942621.html</link><pubDate>Fri, 19 Apr 2024 12:46:34 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/tajani-italia-fara-il-possibile-per-la-difesa-aerea-di-kiev_5a4e84e0-77e2-4260-9520-7cdfe2942621.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Ue, misure dell'Italia sull'aborto non rientrano nel Pnrr]]></title>
-  <description><![CDATA['Alcuni aspetti del decreto non hanno alcun legame con il Piano']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/ue-misure-dellitalia-sullaborto-non-rientrano-nel-pnrr_0a113320-d626-4354-806f-7c7101cbda25.html</link><pubDate>Fri, 19 Apr 2024 13:00:31 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/ue-misure-dellitalia-sullaborto-non-rientrano-nel-pnrr_0a113320-d626-4354-806f-7c7101cbda25.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[G7, determinati a rafforzare la difesa aerea dell'Ucraina]]></title>
-  <description><![CDATA['Impegno per la sicurezza a lungo termine']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/g7-determinati-a-rafforzare-la-difesa-aerea-dellucraina_8fe8be1e-b959-4274-9df1-c24bc0a64628.html</link><pubDate>Fri, 19 Apr 2024 12:42:33 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/g7-determinati-a-rafforzare-la-difesa-aerea-dellucraina_8fe8be1e-b959-4274-9df1-c24bc0a64628.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Fonti, 'i 27 vogliono maggiori sanzioni a Iran, Ue frena']]></title>
-  <description><![CDATA[Fonte alla vigilia del Consiglio Esteri-Difesa di lunedì]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/fonti-i-27-vogliono-maggiori-sanzioni-a-iran-ue-frena_c3e964e8-dfa9-4106-968c-47336fafb944.html</link><pubDate>Fri, 19 Apr 2024 13:01:02 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/fonti-i-27-vogliono-maggiori-sanzioni-a-iran-ue-frena_c3e964e8-dfa9-4106-968c-47336fafb944.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[G7, parti lavorino per evitare escalation in Medio Oriente]]></title>
-  <description><![CDATA['L'Iran si astenga da ulteriori azioni destabilizzanti']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/g7-parti-lavorino-per-evitare-escalation-in-medio-oriente_cd9b9df8-7810-4a1e-8562-77da289d2d7a.html</link><pubDate>Fri, 19 Apr 2024 12:42:04 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/g7-parti-lavorino-per-evitare-escalation-in-medio-oriente_cd9b9df8-7810-4a1e-8562-77da289d2d7a.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Ex vicepresidente ecuadoriano chiede aiuto a leader progressisti]]></title>
-  <description><![CDATA[Glas scrive dal carcere a Obrador, Petro e Lula: 'Fate qualcosa']]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/ex-vicepresidente-ecuadoriano-chiede-aiuto-a-leader-progressisti_0c9fdbdf-b0c7-43d7-b7e7-af02b2e8e8ca.html</link><pubDate>Fri, 19 Apr 2024 12:17:38 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/ex-vicepresidente-ecuadoriano-chiede-aiuto-a-leader-progressisti_0c9fdbdf-b0c7-43d7-b7e7-af02b2e8e8ca.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Sottosegretaria Tripodi a pre-apertura Biennale d'Arte a Venezia]]></title>
-  <description><![CDATA['Promozione cultura è asset strategico di diplomazia italiana']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/sottosegretaria-tripodi-a-pre-apertura-biennale-darte-a-venezia_1e501a7e-b6c4-43ef-b1a7-2c8fb64fc597.html</link><pubDate>Fri, 19 Apr 2024 11:54:39 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/sottosegretaria-tripodi-a-pre-apertura-biennale-darte-a-venezia_1e501a7e-b6c4-43ef-b1a7-2c8fb64fc597.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Musk, 'il giudice Moraes interferì nelle elezioni brasiliane']]></title>
-  <description><![CDATA[Il magnate di X torna ad attaccare il magistrato di Brasilia]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/musk-il-giudice-moraes-interferi-nelle-elezioni-brasiliane_0a92befe-ced7-48e1-905d-53885f8aeecd.html</link><pubDate>Fri, 19 Apr 2024 11:47:25 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/musk-il-giudice-moraes-interferi-nelle-elezioni-brasiliane_0a92befe-ced7-48e1-905d-53885f8aeecd.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Raisi, attacco a Israele ha mostrato la nostra forza]]></title>
-  <description><![CDATA[Presidente iraniano non commenta raid attribuito a Tel Aviv]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/raisi-attacco-a-israele-ha-mostrato-la-nostra-forza_90e881be-6e25-471f-af63-d048d3a512c6.html</link><pubDate>Fri, 19 Apr 2024 11:41:29 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/raisi-attacco-a-israele-ha-mostrato-la-nostra-forza_90e881be-6e25-471f-af63-d048d3a512c6.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Primo giorno di voto in India, code dalle 7 del mattino]]></title>
-  <description><![CDATA[Oggi seggi aperti in in 17 Stati e 4 Unioni territoriali]]></description><link>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/primo-giorno-di-voto-in-india-code-dalle-7-del-mattino_1c3f86e4-05ae-4d26-a1ac-4ecac54e6cea.html</link><pubDate>Fri, 19 Apr 2024 10:51:39 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/primo-giorno-di-voto-in-india-code-dalle-7-del-mattino_1c3f86e4-05ae-4d26-a1ac-4ecac54e6cea.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[In Perù la cocaina dei narcos trasformata in blocchi di cemento]]></title>
-  <description><![CDATA[Per ridurre l'impatto ambientale generato dall'incenerimento]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/in-peru-la-cocaina-dei-narcos-trasformata-in-blocchi-di-cemento_81d3179e-7122-434e-af28-ef6e6058fe9f.html</link><pubDate>Fri, 19 Apr 2024 10:49:13 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/in-peru-la-cocaina-dei-narcos-trasformata-in-blocchi-di-cemento_81d3179e-7122-434e-af28-ef6e6058fe9f.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Iran, nessun vertice di emergenza del Consiglio Sicurezza]]></title>
-  <description><![CDATA[Dopo l'attacco attribuito ad Israele]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iran-nessun-vertice-di-emergenza-del-consiglio-sicurezza_f294ea9b-140a-4f81-8800-f5471884319c.html</link><pubDate>Fri, 19 Apr 2024 10:49:21 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iran-nessun-vertice-di-emergenza-del-consiglio-sicurezza_f294ea9b-140a-4f81-8800-f5471884319c.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Attacco all'Iran sul tavolo del G7, 'le parti non eccedano']]></title>
-  <description><![CDATA[Blinken informa i partner sulle notizie in possesso degli Usa]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/attacco-alliran-sul-tavolo-del-g7-le-parti-non-eccedano_ffd3d255-e1e1-4149-8db9-6ce7ef830fe0.html</link><pubDate>Fri, 19 Apr 2024 10:35:28 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/attacco-alliran-sul-tavolo-del-g7-le-parti-non-eccedano_ffd3d255-e1e1-4149-8db9-6ce7ef830fe0.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Trasporto pubblico a Cuba in 'uno dei suoi momenti peggiori']]></title>
-  <description><![CDATA[Il governo riconosce la 'forte preoccupazione' dei cittadini]]></description><link>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/trasporto-pubblico-a-cuba-in-uno-dei-suoi-momenti-peggiori_df50784c-769a-4d22-8904-47ed5fe8db91.html</link><pubDate>Fri, 19 Apr 2024 10:49:54 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/americalatina/2024/04/19/trasporto-pubblico-a-cuba-in-uno-dei-suoi-momenti-peggiori_df50784c-769a-4d22-8904-47ed5fe8db91.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Fonte Iran,'raid con piccoli droni, forse da dentro Paese']]></title>
-  <description><![CDATA[Nyt,'Radar non hanno rilevato velivoli dentro spazio aereo']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/fonte-iranraid-con-piccoli-droni-forse-da-dentro-paese_3da057b8-08b2-472f-bc37-a25d1e6a8b06.html</link><pubDate>Fri, 19 Apr 2024 10:04:11 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/fonte-iranraid-con-piccoli-droni-forse-da-dentro-paese_3da057b8-08b2-472f-bc37-a25d1e6a8b06.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Iran, 'assurdo attribuire l'attacco a Israele']]></title>
-  <description><![CDATA[Esercito: 'Lo Stato ebraico ha già visto la risposta di Teheran']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iran-assurdo-attribuire-lattacco-a-israele_8937a072-6de2-4529-a8e3-74f7fb851e94.html</link><pubDate>Fri, 19 Apr 2024 10:04:06 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/iran-assurdo-attribuire-lattacco-a-israele_8937a072-6de2-4529-a8e3-74f7fb851e94.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Cina, 'contrari a escalation tensione con attacco a Iran']]></title>
-  <description><![CDATA[Lo ha detto il portavoce del ministero degli Esteri Lin Jan]]></description><link>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/cina-contrari-a-escalation-tensione-con-attacco-a-iran_3e1d9d64-ddf7-413d-b953-bc5eb6d7acdf.html</link><pubDate>Fri, 19 Apr 2024 09:45:34 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/asia/2024/04/19/cina-contrari-a-escalation-tensione-con-attacco-a-iran_3e1d9d64-ddf7-413d-b953-bc5eb6d7acdf.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Mosca, bombardiere precipitato per guasto tecnico]]></title>
-  <description><![CDATA[Ministero Difesa: 'Morto uno dei 4 membri dell'equipaggio']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/mosca-bombardiere-precipitato-per-guasto-tecnico_df5db4ae-9fa0-4a11-a161-12d8efbe8380.html</link><pubDate>Fri, 19 Apr 2024 09:42:24 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/mosca-bombardiere-precipitato-per-guasto-tecnico_df5db4ae-9fa0-4a11-a161-12d8efbe8380.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Medvedev, 'l'Occidente ha deciso di eliminare Zelensky']]></title>
-  <description><![CDATA[Ex presidente: 'Abbi paura, pagliaccio']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/medvedev-loccidente-ha-deciso-di-eliminare-zelensky_3289fe80-6985-4113-9446-007735ff2d99.html</link><pubDate>Fri, 19 Apr 2024 09:43:57 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/medvedev-loccidente-ha-deciso-di-eliminare-zelensky_3289fe80-6985-4113-9446-007735ff2d99.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Kiev afferma di aver abbattuto un bombardiere russo]]></title>
-  <description><![CDATA['Per la prima volta dall'inizio dell'invasione']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/kiev-afferma-di-aver-abbattuto-un-bombardiere-russo_d33d4919-6ca5-4127-83c5-393b2463898f.html</link><pubDate>Fri, 19 Apr 2024 09:07:23 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/kiev-afferma-di-aver-abbattuto-un-bombardiere-russo_d33d4919-6ca5-4127-83c5-393b2463898f.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Bilaterale Tajani-Kuleba, 'discussi contributi a difesa aerea']]></title>
-  <description><![CDATA[]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/bilaterale-tajani-kuleba-discussi-contributi-a-difesa-aerea_f2d24bde-b829-419a-922c-8fe22d2b7de0.html</link><pubDate>Fri, 19 Apr 2024 09:31:38 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/bilaterale-tajani-kuleba-discussi-contributi-a-difesa-aerea_f2d24bde-b829-419a-922c-8fe22d2b7de0.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Media, 'l'Iran non pianifica una ritorsione immediata']]></title>
-  <description><![CDATA[Dopo l'azione militare di stanotte di Israele]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/media-liran-non-pianifica-una-ritorsione-immediata_8c245763-069e-4b34-a779-b63fff31047d.html</link><pubDate>Fri, 19 Apr 2024 09:32:04 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/media-liran-non-pianifica-una-ritorsione-immediata_8c245763-069e-4b34-a779-b63fff31047d.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Ben Gvir: 'Moscio l'attacco di Israele all'Iran']]></title>
-  <description><![CDATA[Primo commento ufficiale israeliano]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/ben-gvir-moscio-lattacco-di-israele-alliran_f4d0c748-6ef8-458b-969a-0e8422820c3d.html</link><pubDate>Fri, 19 Apr 2024 08:15:53 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/ben-gvir-moscio-lattacco-di-israele-alliran_f4d0c748-6ef8-458b-969a-0e8422820c3d.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Missili russi su Dnipro, almeno 2 morti e 15 feriti]]></title>
-  <description><![CDATA[Zelensky: 'Nella città distrutto un edificio residenziale']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/missili-russi-su-dnipro-almeno-2-morti-e-15-feriti_6701996d-df52-4adf-a0ed-d824c95e8b67.html</link><pubDate>Fri, 19 Apr 2024 09:32:30 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/19/missili-russi-su-dnipro-almeno-2-morti-e-15-feriti_6701996d-df52-4adf-a0ed-d824c95e8b67.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Ben Gvir, 'moscio l'attacco di Israele all'Iran']]></title>
-  <description><![CDATA[Primo commento ufficiale israeliano del raid]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/ben-gvir-moscio-lattacco-di-israele-alliran_6f9c6da7-48e5-4616-9cd8-89df63fecb4e.html</link><pubDate>Fri, 19 Apr 2024 08:07:08 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/ben-gvir-moscio-lattacco-di-israele-alliran_6f9c6da7-48e5-4616-9cd8-89df63fecb4e.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Aiea, 'nessun danno agli impianti nucleari in Iran']]></title>
-  <description><![CDATA[Nota dell'agenzia internazionale per l'energia atomica]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/aiea-nessun-danno-agli-impianti-nucleari-in-iran_61e25351-1199-4da4-b6a9-a1c6031f277d.html</link><pubDate>Fri, 19 Apr 2024 08:06:24 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/aiea-nessun-danno-agli-impianti-nucleari-in-iran_61e25351-1199-4da4-b6a9-a1c6031f277d.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Comandante iraniano, 'nessun danno nell'attacco notturno']]></title>
-  <description><![CDATA['Esplosioni per l'uso di difesa aerea contro oggetti sospetti']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/comandante-iraniano-nessun-danno-nellattacco-notturno_3d4ff4f0-68e7-4a98-a357-863d0957ccdd.html</link><pubDate>Fri, 19 Apr 2024 07:37:55 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/comandante-iraniano-nessun-danno-nellattacco-notturno_3d4ff4f0-68e7-4a98-a357-863d0957ccdd.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Tajani, 'gli italiani in Iran sono al sicuro']]></title>
-  <description><![CDATA['Invitiamo alla prudenza, no all'attacco a Rafah']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/tajani-gli-italiani-in-iran-sono-al-sicuro_22b94d5b-3a23-4b47-b0a3-5d78a424e8fe.html</link><pubDate>Fri, 19 Apr 2024 07:32:35 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/tajani-gli-italiani-in-iran-sono-al-sicuro_22b94d5b-3a23-4b47-b0a3-5d78a424e8fe.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Cnn, riaperto lo spazio aereo in Iran]]></title>
-  <description><![CDATA[I voli dall'aeroporto di Teheran sono ripresi]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/cnn-riaperto-lo-spazio-aereo-in-iran_a0088b12-f582-4a78-b79e-586f65497264.html</link><pubDate>Fri, 19 Apr 2024 07:14:18 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/cnn-riaperto-lo-spazio-aereo-in-iran_a0088b12-f582-4a78-b79e-586f65497264.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA['Israele ha detto agli Usa che non avrebbe colpito il nucleare']]></title>
-  <description><![CDATA[Lo riferiscono dirigenti americani citati dal Guardian]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/israele-ha-detto-agli-usa-che-non-avrebbe-colpito-il-nucleare_dd27fe3f-8e3f-4571-88cd-8f51ca928b9b.html</link><pubDate>Fri, 19 Apr 2024 06:30:04 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/israele-ha-detto-agli-usa-che-non-avrebbe-colpito-il-nucleare_dd27fe3f-8e3f-4571-88cd-8f51ca928b9b.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[La risposta di Israele nel giorno del compleanno di Khamenei]]></title>
-  <description><![CDATA[La Guida suprema iraniana è nata il 19 aprile 1939]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/la-risposta-di-israele-nel-giorno-del-compleanno-di-khamenei_bd5c9a0a-68e1-4c57-a5c7-e8ae4f32e889.html</link><pubDate>Fri, 19 Apr 2024 06:21:13 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/la-risposta-di-israele-nel-giorno-del-compleanno-di-khamenei_bd5c9a0a-68e1-4c57-a5c7-e8ae4f32e889.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Usa, avvisati da Israele di ritorsioni ma da noi nessun ok]]></title>
-  <description><![CDATA[Ieri un colloquio tra Austin e Gallant]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/usa-avvisati-da-israele-di-ritorsioni-ma-da-noi-nessun-ok_29beb816-8c88-4c9b-ada3-ce816ed7388e.html</link><pubDate>Fri, 19 Apr 2024 06:06:54 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/usa-avvisati-da-israele-di-ritorsioni-ma-da-noi-nessun-ok_29beb816-8c88-4c9b-ada3-ce816ed7388e.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Fonte militare a Fox News, attacco 'limitato']]></title>
-  <description><![CDATA[Pentagono non ha ancora confermato il raid]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/fonte-militare-a-fox-news-attacco-limitato_68067c1e-199f-41ba-816e-59edc7f319ae.html</link><pubDate>Fri, 19 Apr 2024 05:26:05 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/fonte-militare-a-fox-news-attacco-limitato_68067c1e-199f-41ba-816e-59edc7f319ae.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Tv Usa, Israele ha lanciato un attacco contro l'Iran]]></title>
-  <description><![CDATA[Esplosioni sono state registrate anche nel sud della Siria, mentre nel nord di Israele sono risuonate le sirene di allarme. L'Iran ha ammesso di aver abbattuto dei droni, ma non missili]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/tv-usa-israele-ha-lanciato-un-attacco-contro-liran_42112000-1568-4da6-8f83-53d04fd19b80.html</link><pubDate>Fri, 19 Apr 2024 07:28:03 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/tv-usa-israele-ha-lanciato-un-attacco-contro-liran_42112000-1568-4da6-8f83-53d04fd19b80.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Hamas condanna il veto Usa all'Onu, 'lotteremo ancora']]></title>
-  <description><![CDATA['Combatteremo per uno Stato palestinese indipendente e sovrano']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/hamas-condanna-il-veto-usa-allonu-lotteremo-ancora_ce633c21-f12b-4a4f-9d20-bc7cc9aae5ee.html</link><pubDate>Fri, 19 Apr 2024 02:13:05 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/19/hamas-condanna-il-veto-usa-allonu-lotteremo-ancora_ce633c21-f12b-4a4f-9d20-bc7cc9aae5ee.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Anp contro veto Usa all'Onu, 'palese attacco al diritto']]></title>
-  <description><![CDATA['Spinge ulteriormente la regione sull'orlo dell'abisso']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/anp-contro-veto-usa-allonu-palese-attacco-al-diritto_ad63a40d-3550-4a4e-85cd-d88549878b5c.html</link><pubDate>Thu, 18 Apr 2024 23:58:25 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/anp-contro-veto-usa-allonu-palese-attacco-al-diritto_ad63a40d-3550-4a4e-85cd-d88549878b5c.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Usa, supporto allo stato palestinese con accordo pace]]></title>
-  <description><![CDATA['Azioni premature qui a New York non porteranno a questo']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/usa-supporto-allo-stato-palestinese-con-accordo-pace_c0b1c44d-29d0-4b1f-8507-69115afa4782.html</link><pubDate>Thu, 18 Apr 2024 23:36:36 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/usa-supporto-allo-stato-palestinese-con-accordo-pace_c0b1c44d-29d0-4b1f-8507-69115afa4782.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Usa bloccano bozza su adesione piena Palestina all'Onu]]></title>
-  <description><![CDATA[12 voti a favore tra cui Francia, Sud Corea e Giappone]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/usa-bloccano-bozza-su-adesione-piena-palestina-allonu_ce6952e4-3712-44b8-ac33-cc7d5949d076.html</link><pubDate>Thu, 18 Apr 2024 23:27:59 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/usa-bloccano-bozza-su-adesione-piena-palestina-allonu_ce6952e4-3712-44b8-ac33-cc7d5949d076.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[L'Ue propone di 'superare' la Brexit, almeno per i giovani]]></title>
-  <description><![CDATA[Un'intesa sulla libertà di movimento per chi ha tra 18 e 30 anni]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/lue-propone-di-superare-la-brexit-almeno-per-i-giovani_a4db7321-2f1b-4727-9f87-c4552d64e579.html</link><pubDate>Thu, 18 Apr 2024 20:47:32 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/lue-propone-di-superare-la-brexit-almeno-per-i-giovani_a4db7321-2f1b-4727-9f87-c4552d64e579.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[L'Ucraina decora Alain Delon per ringraziarlo del sostegno]]></title>
-  <description><![CDATA[Assegnato all'attore francese l'ordine del merito]]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/lucraina-decora-alain-delon-per-ringraziarlo-del-sostegno_c08066e4-75e8-4d45-83ca-aa957542084e.html</link><pubDate>Thu, 18 Apr 2024 19:47:30 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/lucraina-decora-alain-delon-per-ringraziarlo-del-sostegno_c08066e4-75e8-4d45-83ca-aa957542084e.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[L'Iran all'Onu, 'se Israele ci attacca lo rimpiangerà']]></title>
-  <description><![CDATA['L'attacco di sabato notte è stato necessario']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/liran-allonu-se-israele-ci-attacca-lo-rimpiangera_9df1bbd9-1516-43c9-9f11-f9d3a1819bc5.html</link><pubDate>Thu, 18 Apr 2024 19:43:06 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/liran-allonu-se-israele-ci-attacca-lo-rimpiangera_9df1bbd9-1516-43c9-9f11-f9d3a1819bc5.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA['Alla Casa Bianca Trump è chiamato il maiale hitleriano']]></title>
-  <description><![CDATA[Politico rivela soprannome usato nelle mail dello staff di Biden]]></description><link>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/18/alla-casa-bianca-trump-e-chiamato-il-maiale-hitleriano_98a1415a-9076-41e8-9329-e40a44478666.html</link><pubDate>Thu, 18 Apr 2024 19:31:16 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/nordamerica/2024/04/18/alla-casa-bianca-trump-e-chiamato-il-maiale-hitleriano_98a1415a-9076-41e8-9329-e40a44478666.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Tajani, 'G7 compatto sulle sanzioni all'Iran']]></title>
-  <description><![CDATA['Stiamo perfezionando il documento finale: invito alla prudenza']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/tajani-g7-compatto-sulle-sanzioni-alliran_a0bfad81-f745-43ba-8df6-5afd9b1f19b9.html</link><pubDate>Thu, 18 Apr 2024 19:07:22 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/tajani-g7-compatto-sulle-sanzioni-alliran_a0bfad81-f745-43ba-8df6-5afd9b1f19b9.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Erdogan, 'l'Occidente fermi Israele']]></title>
-  <description><![CDATA[Leader turco: 'Ora cessate il fuoco e riconoscimento Palestina']]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/erdogan-loccidente-fermi-israele_0fc44ceb-982c-436f-b9d8-8559879d18fc.html</link><pubDate>Thu, 18 Apr 2024 18:53:29 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/04/18/erdogan-loccidente-fermi-israele_0fc44ceb-982c-436f-b9d8-8559879d18fc.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Macron, 'l'aborto sia tra i diritti fondamentali dell'Ue']]></title>
-  <description><![CDATA['Tutte le donne in Europa devono essere libere di esercitarlo']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/macron-laborto-sia-tra-i-diritti-fondamentali-dellue_1d031ba6-7e30-4da6-8df9-fe61f0aa4a70.html</link><pubDate>Thu, 18 Apr 2024 18:44:12 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/macron-laborto-sia-tra-i-diritti-fondamentali-dellue_1d031ba6-7e30-4da6-8df9-fe61f0aa4a70.html</guid>
-  </item>
-  
-  <item>
-  <title><![CDATA[Varsavia-Kiev, un arresto per tentato attacco a Zelensky]]></title>
-  <description><![CDATA['Uomo sospettato di contatti con i servizi di spionaggio russi']]></description><link>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/varsavia-kiev-un-arresto-per-tentato-attacco-a-zelensky_2b6b64f2-2531-47b1-8d4f-b02033eb8bd0.html</link><pubDate>Thu, 18 Apr 2024 18:46:02 +0200</pubDate>
-  <guid>https://www.ansa.it/sito/notizie/mondo/europa/2024/04/18/varsavia-kiev-un-arresto-per-tentato-attacco-a-zelensky_2b6b64f2-2531-47b1-8d4f-b02033eb8bd0.html</guid>
+  <title><![CDATA[Idf chiede a popolazione altri quartieri Rafah di evacuare]]></title>
+  <description><![CDATA[Mentre si intensificano i combattimenti nella città]]></description><link>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/idf-chiede-a-popolazione-altri-quartieri-rafah-di-evacuare_1feae0f7-5b35-461a-ab7e-43ce24dfd7b6.html</link><pubDate>Sat, 11 May 2024 09:58:33 +0200</pubDate>
+  <guid>https://www.ansa.it/sito/notizie/mondo/mediooriente/2024/05/11/idf-chiede-a-popolazione-altri-quartieri-rafah-di-evacuare_1feae0f7-5b35-461a-ab7e-43ce24dfd7b6.html</guid>
   </item>
   
   </channel>

@@ -44,7 +44,7 @@ Apps are on Cloud Run
 
 ### Autofeed now
 
-1. `cd crawler/ ; $ make crawl-a-lot` or `make crawl-continuously`. This populates XML every 15min (or I get kicked out by the robots :P ) and slurps articles from XML. XML I check on git, articles i dont or theyre too many.
+1. `cd crawler/ ; $ make crawl-a-lot` or `make crawl-continuously` (`bundle install` if its the first time). This populates XML every 15min (or I get kicked out by the robots :P ) and slurps articles from XML. XML I check on git, articles i dont or theyre too many.
 2. `cd webapp ; bundle exec make seed-forever` (without bundle wont work). this seeds info from (1) into ActiveRecord, hence DB.
 3. call an async routing to populate - although since v0.1.5 this should happen automatically before save of Article.
 4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all | rails c`. Note: since I moved from Array to Vector this script is now BROKEN

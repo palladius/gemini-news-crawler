@@ -5,179 +5,184 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
-      <title>authenticate_by: Prevent timing-based enumeration of users.</title>
-      <description> &lt;a href="https://a-chacon.com/en/ruby/rails/security/2024/04/18/authenticate-by-for-prevent-timing-based-enumeration-in-rails.html" rel="nofollow"&gt;https://a-chacon.com/en/ruby/rails/security/2024/04/18/authenticate-by-for-prevent-timing-based-enumeration-in-rails.html&lt;/a&gt; </description>
-      <pubDate>Fri, 19 Apr 2024 01:05:57 +0000</pubDate>
-      <link>https://rubyflow.com/p/67b6u2-authenticateby-prevent-timing-based-enumeration-of-users</link>
-      <guid>https://rubyflow.com/p/67b6u2-authenticateby-prevent-timing-based-enumeration-of-users</guid>
+      <title>Videos to Walkthrough Rails Deployment</title>
+      <description> Videos are now available that walks you through the steps to deploy Rails app to EC2. &lt;a href="https://github.com/bparanj/hivegrid.dev#getting-started-guide" rel="nofollow"&gt;Videos&lt;/a&gt; </description>
+      <pubDate>Sat, 11 May 2024 18:02:46 +0000</pubDate>
+      <link>https://rubyflow.com/p/9eehdi-videos-to-walkthrough-rails-deployment</link>
+      <guid>https://rubyflow.com/p/9eehdi-videos-to-walkthrough-rails-deployment</guid>
     </item>
     <item>
-      <title>You are what you see</title>
-      <description> &lt;a href="https://schwad.github.io/2024/04/18/you-are-what-you-see.html" rel="nofollow"&gt;https://schwad.github.io/2024/04/18/you-are-what-you-see.html&lt;/a&gt; </description>
-      <pubDate>Thu, 18 Apr 2024 21:39:29 +0000</pubDate>
-      <link>https://rubyflow.com/p/i633zw-you-are-what-you-see</link>
-      <guid>https://rubyflow.com/p/i633zw-you-are-what-you-see</guid>
+      <title>Ruby on Rails Devs Choose Technologies To Do The Best Job Possible For Customers</title>
+      <description> Ruby on Rails developers who say things like “Oh! It is OK to use any programming language you like! Whatever strikes your fancy is good! JavaScript is OK if that’s what you like. If you prefer TypeScript, go for it!” are some of the… &lt;a href="https://andymaleh.blogspot.com/2024/05/ruby-on-rails-devs-choose-technologies.html" rel="nofollow"&gt;https://andymaleh.blogspot.com/2024/05/ruby-on-rails-devs-choose-technologies.html&lt;/a&gt; </description>
+      <pubDate>Sat, 11 May 2024 17:05:59 +0000</pubDate>
+      <link>https://rubyflow.com/p/lqgwsy-ruby-on-rails-devs-choose-technologies-to-do-the-best-job-possible-for-customers</link>
+      <guid>https://rubyflow.com/p/lqgwsy-ruby-on-rails-devs-choose-technologies-to-do-the-best-job-possible-for-customers</guid>
     </item>
     <item>
-      <title>RailsConf 2024 Countdown — Behind the Scenes with Kevin Murphy</title>
-      <description> 📣 The latest Ruby for All episode is now available! </description>
-      <pubDate>Thu, 18 Apr 2024 17:10:53 +0000</pubDate>
-      <link>https://rubyflow.com/p/ta51gk-railsconf-2024-countdown-behind-the-scenes-with-kevin-murphy</link>
-      <guid>https://rubyflow.com/p/ta51gk-railsconf-2024-countdown-behind-the-scenes-with-kevin-murphy</guid>
+      <title>Join us virtually at NYC.rb on June 12, 5:30 PM EDT for Obie Fernandez</title>
+      <description> &lt;a href="https://www.meetup.com/nyc-rb/events/300339701/" rel="nofollow"&gt;Obie Fernandez: Ruby and Rails &amp;amp; AI: Leading Prompt-Driven Development&lt;/a&gt; </description>
+      <pubDate>Sat, 11 May 2024 04:53:30 +0000</pubDate>
+      <link>https://rubyflow.com/p/wb9p9u-join-us-virtually-at-nycrb-on-june-12-530-pm-edt-for-obie-fernandez</link>
+      <guid>https://rubyflow.com/p/wb9p9u-join-us-virtually-at-nycrb-on-june-12-530-pm-edt-for-obie-fernandez</guid>
     </item>
     <item>
-      <title>New version of DnsMock has been released 🚀</title>
-      <description> Added ability to interact with DNS message question/answer context. Mimic any DNS records for your test environment and even more: &lt;a href="https://github.com/mocktools/ruby-dns-mock" rel="nofollow"&gt;https://github.com/mocktools/ruby-dns-mock&lt;/a&gt; </description>
-      <pubDate>Thu, 18 Apr 2024 12:40:09 +0000</pubDate>
-      <link>https://rubyflow.com/p/r7fal9-new-version-of-dnsmock-has-been-released-</link>
-      <guid>https://rubyflow.com/p/r7fal9-new-version-of-dnsmock-has-been-released-</guid>
+      <title>Headless UI with StimulusJS and an Outlet</title>
+      <description> Headless UI 2.0 just came out from TailwindLabs. I often find myself using their components in my projects, and I wanted to show you my process for converting their React components to use Stimulus, since I haven’t been using React in any of my projects. &lt;a href="https://onrails.blog/2024/05/08/headless-ui-with-stimulusjs-and-an-outlet-screencast/" rel="nofollow"&gt;https://onrails.blog/2024/05/08/headless-ui-with-stimulusjs-and-an-outlet-screencast/&lt;/a&gt; </description>
+      <pubDate>Thu, 09 May 2024 11:51:36 +0000</pubDate>
+      <link>https://rubyflow.com/p/fztdia-headless-ui-with-stimulusjs-and-an-outlet</link>
+      <guid>https://rubyflow.com/p/fztdia-headless-ui-with-stimulusjs-and-an-outlet</guid>
     </item>
     <item>
-      <title>Delegated types in Rails: I tried them, and I'm not sure I really understood them.</title>
-      <description> Developers have been scratching their head trying to figure out delegated types for ages. Today, I want to share a real-world use case. &lt;a href="https://remimercier.com/delegated-types/" rel="nofollow"&gt;I’ll walk you through my pre-existing domain architecture, my initial requirements, my mistakes, how I eventually used delegated types, what I learned and my open questions&lt;/a&gt;. </description>
-      <pubDate>Thu, 18 Apr 2024 07:29:17 +0000</pubDate>
-      <link>https://rubyflow.com/p/z639hp-delegated-types-in-rails-i-tried-them-and-im-not-sure-i-really-understood-them</link>
-      <guid>https://rubyflow.com/p/z639hp-delegated-types-in-rails-i-tried-them-and-im-not-sure-i-really-understood-them</guid>
+      <title>Here's how to add Thruster to a Kamal setup</title>
+      <description> I made some notes on &lt;a href="https://nts.strzibny.name/running-thruster-rails-kamal/" rel="nofollow"&gt;running Thruster with Rails and Kamal&lt;/a&gt;. </description>
+      <pubDate>Thu, 09 May 2024 08:24:54 +0000</pubDate>
+      <link>https://rubyflow.com/p/3z0clp-heres-how-to-add-thruster-to-a-kamal-setup</link>
+      <guid>https://rubyflow.com/p/3z0clp-heres-how-to-add-thruster-to-a-kamal-setup</guid>
     </item>
     <item>
-      <title>New SudoRails version has been released 🚀 Sudo mode for your Rails controllers 🔒</title>
-      <description> Protect any Rails action with a customizable password confirmation. 🙇 Inspired by &lt;em&gt;GitHub Sudo mode&lt;/em&gt;. </description>
-      <pubDate>Wed, 17 Apr 2024 19:06:40 +0000</pubDate>
-      <link>https://rubyflow.com/p/rz3r1u-sudorails-has-been-released-sudo-mode-for-your-rails-controllers-</link>
-      <guid>https://rubyflow.com/p/rz3r1u-sudorails-has-been-released-sudo-mode-for-your-rails-controllers-</guid>
+      <title>validate_foreign_key reduces the impact of adding foreign keys on high-traffic tables</title>
+      <description> &lt;a href="https://blog.saeloun.com/2024/05/08/rails-validate_foreign_key/" rel="nofollow"&gt;https://blog.saeloun.com/2024/05/08/rails-validate_foreign_key/&lt;/a&gt; </description>
+      <pubDate>Wed, 08 May 2024 14:52:36 +0000</pubDate>
+      <link>https://rubyflow.com/p/n3esw3-validateforeignkey-reduces-the-impact-of-adding-foreign-keys-on-high-traffic-tab</link>
+      <guid>https://rubyflow.com/p/n3esw3-validateforeignkey-reduces-the-impact-of-adding-foreign-keys-on-high-traffic-tab</guid>
     </item>
     <item>
-      <title>Handling Exceptions in Grape for Ruby</title>
-      <description> Let’s explore the basics of Grape exception handling, including customizing exceptions: &lt;a href="https://blog.appsignal.com/2024/04/17/handling-exceptions-in-grape-for-ruby.html" rel="nofollow"&gt;https://blog.appsignal.com/2024/04/17/handling-exceptions-in-grape-for-ruby.html&lt;/a&gt; </description>
-      <pubDate>Wed, 17 Apr 2024 10:57:16 +0000</pubDate>
-      <link>https://rubyflow.com/p/qctowh-handling-exceptions-in-grape-for-ruby</link>
-      <guid>https://rubyflow.com/p/qctowh-handling-exceptions-in-grape-for-ruby</guid>
+      <title>RedisQueuedLocks [1.3.0] Support for Reentrant Locks</title>
+      <description> Recently announced new distributed redis locks on Ruby (that works in advisory-locks manner with queue capabilities) reached the new verison 1.3.0 with a support for reentrant locks (when the lock is obtained again from the same process that is already hold this lock). </description>
+      <pubDate>Wed, 08 May 2024 10:53:57 +0000</pubDate>
+      <link>https://rubyflow.com/p/m202kz-redisqueuedlocks-130-support-for-reentrant-locks</link>
+      <guid>https://rubyflow.com/p/m202kz-redisqueuedlocks-130-support-for-reentrant-locks</guid>
     </item>
     <item>
-      <title>The tale of an XSS in Phlex</title>
-      <description> I reported an XSS to Phlex yesterday and since it was pretty quickly fixed, I wrote a post about it: &lt;a href="https://greg.molnar.io/blog/the-tale-of-an-xss-in-phlex/" rel="nofollow"&gt;https://greg.molnar.io/blog/the-tale-of-an-xss-in-phlex/&lt;/a&gt; </description>
-      <pubDate>Wed, 17 Apr 2024 10:08:24 +0000</pubDate>
-      <link>https://rubyflow.com/p/riz0ih-the-tale-of-an-xss-in-phlex</link>
-      <guid>https://rubyflow.com/p/riz0ih-the-tale-of-an-xss-in-phlex</guid>
+      <title>Debugging in Ruby with pry-byebug</title>
+      <description> Let’s set up and use pry-byebug, a gem that adds debugging and stack navigation to pry using byebug: &lt;a href="https://blog.appsignal.com/2024/05/08/debugging-in-ruby-with-pry-byebug.html" rel="nofollow"&gt;https://blog.appsignal.com/2024/05/08/debugging-in-ruby-with-pry-byebug.html&lt;/a&gt; </description>
+      <pubDate>Wed, 08 May 2024 10:14:26 +0000</pubDate>
+      <link>https://rubyflow.com/p/5p76xc-debugging-in-ruby-with-pry-byebug</link>
+      <guid>https://rubyflow.com/p/5p76xc-debugging-in-ruby-with-pry-byebug</guid>
     </item>
     <item>
-      <title>Scaffolding in Ruby on Rails</title>
-      <description> &lt;a href="https://www.railscarma.com/blog/scaffolding-in-ruby-on-rails-complete-guide/" rel="nofollow"&gt;Scaffolding in Ruby on Rails&lt;/a&gt; </description>
-      <pubDate>Wed, 17 Apr 2024 05:17:50 +0000</pubDate>
-      <link>https://rubyflow.com/p/dymfun-scaffolding-in-ruby-on-rails</link>
-      <guid>https://rubyflow.com/p/dymfun-scaffolding-in-ruby-on-rails</guid>
+      <title>Hanami and htmx - progress bar example</title>
+      <description> Article showing off Hanami and HTMX used in combination, to create an updating progress bar &lt;a href="https://2n.pl/blog/hanami-progress-bar-with-htmx" rel="nofollow"&gt;https://2n.pl/blog/hanami-progress-bar-with-htmx&lt;/a&gt;
+It is sort of a tutorial, but more of a my own write-up of what I experimented with an learned. 
+Some more hanami articles are on the blog page, with more to come </description>
+      <pubDate>Tue, 07 May 2024 08:54:13 +0000</pubDate>
+      <link>https://rubyflow.com/p/wb309v-hanami-and-htmx-progress-bar-example</link>
+      <guid>https://rubyflow.com/p/wb309v-hanami-and-htmx-progress-bar-example</guid>
     </item>
     <item>
-      <title>Introducing Janus a read/write proxy for ActiveRecord 7.1+</title>
-      <description> Janus is a read/write split proxy for MySQL/ActiveRecord 7.1+. It works by sending any read queries to a replica, and any write queries to the primary database server. If there’s been a write statement within the same thread we stick any future queries to the primary server unless the developer specifically chooses not to. </description>
-      <pubDate>Tue, 16 Apr 2024 14:32:56 +0000</pubDate>
-      <link>https://rubyflow.com/p/yayg7b-introducing-janus-a-readwrite-proxy-for-activerecord-71</link>
-      <guid>https://rubyflow.com/p/yayg7b-introducing-janus-a-readwrite-proxy-for-activerecord-71</guid>
+      <title>Tips and Tricks</title>
+      <description> In this episode, we look at various tricks in Ruby on Rails as well as some other neat tricks. &lt;a href="https://www.driftingruby.com/episodes/tips-and-tricks?utm_medium=social&amp;amp;utm_campaign=weekly_episode&amp;amp;utm_source=rubyflow" rel="nofollow"&gt;https://www.driftingruby.com/episodes/tips-and-tricks&lt;/a&gt; </description>
+      <pubDate>Mon, 06 May 2024 11:55:09 +0000</pubDate>
+      <link>https://rubyflow.com/p/qthwpu-tips-and-tricks</link>
+      <guid>https://rubyflow.com/p/qthwpu-tips-and-tricks</guid>
     </item>
     <item>
-      <title>Create a MacOS desktop application with pure Ruby (Tutorial)</title>
-      <description> This is (for now) a modest step-by-step tutorial about creating a MacOS desktop application with Ruby. </description>
-      <pubDate>Tue, 16 Apr 2024 10:07:15 +0000</pubDate>
-      <link>https://rubyflow.com/p/m447q3-create-a-macos-desktop-application-with-pure-ruby-tutorial</link>
-      <guid>https://rubyflow.com/p/m447q3-create-a-macos-desktop-application-with-pure-ruby-tutorial</guid>
+      <title>New release of actual_db_schema</title>
+      <description> Exciting news! 🚀 The latest release of the &lt;a href="https://github.com/widefix/actual_db_schema" rel="nofollow"&gt;actual_db_schema&lt;/a&gt; is out. It adds multiple database support, which is the most wanted feature. Streamline your dev experience like never before! Huge thanks to everyone who contributed and reported issues on GitHub.
+I must admit that adding this feature was challenging. The main PR is &lt;a href="https://github.com/widefix/actual_db_schema/pull/56" rel="nofollow"&gt;here&lt;/a&gt;. </description>
+      <pubDate>Mon, 06 May 2024 10:46:26 +0000</pubDate>
+      <link>https://rubyflow.com/p/60avai-new-release-of-actualdbschema</link>
+      <guid>https://rubyflow.com/p/60avai-new-release-of-actualdbschema</guid>
     </item>
     <item>
-      <title>FactoryBot: the secret weapon called @overrides</title>
-      <description> &lt;a href="https://dev.to/povilasjurcys/factorybot-the-secret-weapon-called-overrides-n31" rel="nofollow"&gt;https://dev.to/povilasjurcys/factorybot-the-secret-weapon-called-overrides-n31&lt;/a&gt; </description>
-      <pubDate>Tue, 16 Apr 2024 03:37:14 +0000</pubDate>
-      <link>https://rubyflow.com/p/wlkayl-factorybot-the-secret-weapon-called-overrides</link>
-      <guid>https://rubyflow.com/p/wlkayl-factorybot-the-secret-weapon-called-overrides</guid>
+      <title>HexaPDF 0.41.0 released</title>
+      <description> This release brings support for certain AcroForm field JavaScript calculation actions andother (mostly AcroForm related) improvements. </description>
+      <pubDate>Sun, 05 May 2024 21:52:51 +0000</pubDate>
+      <link>https://rubyflow.com/p/7bxms5-hexapdf-0410-released</link>
+      <guid>https://rubyflow.com/p/7bxms5-hexapdf-0410-released</guid>
     </item>
     <item>
-      <title>Automating Rubocop Into Your Rails Development Workflow</title>
-      <description> &lt;a href="https://www.youtube.com/watch?v=zwwn2WzrrHc" rel="nofollow"&gt;This video will show you a couple of ways to run Rubocop early and often&lt;/a&gt; so you and your team can ensure you’re avoiding inconsistencies and bugs while maintaining your code for the long haul. </description>
-      <pubDate>Tue, 16 Apr 2024 02:18:34 +0000</pubDate>
-      <link>https://rubyflow.com/p/3zpqlx-automating-rubocop-into-your-rails-development-workflow</link>
-      <guid>https://rubyflow.com/p/3zpqlx-automating-rubocop-into-your-rails-development-workflow</guid>
+      <title>Setting up ActiveStorage + CloudflareR2 + Quill</title>
+      <description> In this post, I explain how you can set up Quill Editor on Ruby on Rails with Active Storage and Cloudflare R2! Let me know your thoughts! </description>
+      <pubDate>Fri, 03 May 2024 21:25:17 +0000</pubDate>
+      <link>https://rubyflow.com/p/ryklv6-setting-up-activestorage-cloudflarer2-quill</link>
+      <guid>https://rubyflow.com/p/ryklv6-setting-up-activestorage-cloudflarer2-quill</guid>
     </item>
     <item>
-      <title>Forcing a Rails database column to be not null</title>
-      <description> Here is a guide to &lt;a href="https://tosbourn.com/force-null-constraint-rails/" rel="nofollow"&gt;forcing null constraints&lt;/a&gt; in Rails. It explains why, how to do it in different circumstances, and an introduction to &lt;code&gt;change_column_null&lt;/code&gt;. </description>
-      <pubDate>Mon, 15 Apr 2024 09:33:15 +0000</pubDate>
-      <link>https://rubyflow.com/p/bp4h2h-forcing-a-rails-database-column-to-be-not-null</link>
-      <guid>https://rubyflow.com/p/bp4h2h-forcing-a-rails-database-column-to-be-not-null</guid>
+      <title>Simple Test for Revealing Fake Rubyists in the Rails Community</title>
+      <description> Here is a very easy test for figuring out if someone in the Rails community is a Real Rubyist who truly gets Ruby and its unique benefits 100% compared to other programming languages or a Fake Rubyist who is just riding the Ruby on Rails bandwagon because it is “cool” or because they heard about it from an acquaintance without thinking for themselves… </description>
+      <pubDate>Fri, 03 May 2024 00:46:12 +0000</pubDate>
+      <link>https://rubyflow.com/p/celr3a-simple-test-for-revealing-fake-rubyists-in-the-rails-community</link>
+      <guid>https://rubyflow.com/p/celr3a-simple-test-for-revealing-fake-rubyists-in-the-rails-community</guid>
     </item>
     <item>
-      <title>New release of OnStrum, configurable application healthcheck rack middleware 🚀</title>
-      <description> This gem allows you to embed healthcheck endpoints into your rack based application to perform healthcheck probes. Make your application compatible with Docker/Kubernetes healthchecks in a seconds: &lt;a href="https://github.com/on-strum/ruby-on-strum-healthcheck" rel="nofollow"&gt;https://github.com/on-strum/ruby-on-strum-healthcheck&lt;/a&gt; </description>
-      <pubDate>Mon, 15 Apr 2024 09:21:54 +0000</pubDate>
-      <link>https://rubyflow.com/p/z0e11w-new-release-of-onstrum-configurable-application-healthcheck-rack-middleware-</link>
-      <guid>https://rubyflow.com/p/z0e11w-new-release-of-onstrum-configurable-application-healthcheck-rack-middleware-</guid>
+      <title>Ruby Fusion - Initial Gathering</title>
+      <description> If you’d like to attend a gathering devoted to blending of Object Oriented with Functional programming in Ruby, check out &lt;a href="https://lu.ma/ruby_fusion" rel="nofollow"&gt;Ruby Fusion&lt;/a&gt; on Thursday (2024-05-09) at 7pm MDT. This is our initial gathering of folks that are excited to be working, learning, and growing in this space. The gathering is virtual and free to attend but capacity is very limited at the moment so don’t hesitate if interested! </description>
+      <pubDate>Wed, 01 May 2024 23:23:31 +0000</pubDate>
+      <link>https://rubyflow.com/p/giw813-ruby-fusion-initial-gathering</link>
+      <guid>https://rubyflow.com/p/giw813-ruby-fusion-initial-gathering</guid>
     </item>
     <item>
-      <title>Making a (Sidekiq) Batch Recipe</title>
-      <description> &lt;a href="https://kevinjmurphy.com/posts/making-a-sidekiq-batch-recipe/" rel="nofollow"&gt;This post&lt;/a&gt; introduces Sidekiq Pro’s batches feature. It builds some tests that exercise batches to explain how they work. </description>
-      <pubDate>Sun, 14 Apr 2024 16:02:18 +0000</pubDate>
-      <link>https://rubyflow.com/p/ecf458-making-a-sidekiq-batch-recipe</link>
-      <guid>https://rubyflow.com/p/ecf458-making-a-sidekiq-batch-recipe</guid>
+      <title>AnyCable for Ruby on Rails: How Does it Improve over Action Cable? </title>
+      <description> Let’s see what AnyCable brings to the table and how it outperforms Action Cable: &lt;a href="https://blog.appsignal.com/2024/05/01/anycable-for-ruby-on-rails-how-does-it-improve-over-action-cable.html" rel="nofollow"&gt;https://blog.appsignal.com/2024/05/01/anycable-for-ruby-on-rails-how-does-it-improve-over-action-cable.html&lt;/a&gt; </description>
+      <pubDate>Wed, 01 May 2024 14:21:44 +0000</pubDate>
+      <link>https://rubyflow.com/p/8tp59b-anycable-for-ruby-on-rails-how-does-it-improve-over-action-cable-</link>
+      <guid>https://rubyflow.com/p/8tp59b-anycable-for-ruby-on-rails-how-does-it-improve-over-action-cable-</guid>
     </item>
     <item>
-      <title>Hands-off eclipse photography with ruby and gphoto</title>
-      <description> How I automated exposure bracketing to take pictures of the eclipse totality using ruby and gphoto: &lt;a href="https://yboulkaid.com/2024/04/10/eclipse.html" rel="nofollow"&gt;https://yboulkaid.com/2024/04/10/eclipse.html&lt;/a&gt; </description>
-      <pubDate>Thu, 11 Apr 2024 17:49:28 +0000</pubDate>
-      <link>https://rubyflow.com/p/wh9ay3-hands-off-eclipse-photography-with-ruby-and-gphoto</link>
-      <guid>https://rubyflow.com/p/wh9ay3-hands-off-eclipse-photography-with-ruby-and-gphoto</guid>
+      <title>astronoby v0.4.0 released</title>
+      <description> &lt;a href="https://github.com/rhannequin/astronoby/releases/tag/v0.4.0" rel="nofollow"&gt;https://github.com/rhannequin/astronoby/releases/tag/v0.4.0&lt;/a&gt;
+With accuracy and performance improvements, twilight times and new info about the Sun. </description>
+      <pubDate>Tue, 30 Apr 2024 23:22:23 +0000</pubDate>
+      <link>https://rubyflow.com/p/r6x86m-astronoby-v040-released</link>
+      <guid>https://rubyflow.com/p/r6x86m-astronoby-v040-released</guid>
     </item>
     <item>
-      <title>How to Build a Discord Bot in Ruby on Rails</title>
-      <description> In this guide, Fiona walks you through the process of creating a Discord bot using Ruby on Rails. </description>
-      <pubDate>Wed, 10 Apr 2024 15:13:23 +0000</pubDate>
-      <link>https://rubyflow.com/p/jdcz83-how-to-build-a-discord-bot-in-ruby-on-rails</link>
-      <guid>https://rubyflow.com/p/jdcz83-how-to-build-a-discord-bot-in-ruby-on-rails</guid>
+      <title>HiveGrid now supports Ruby 3.3.1</title>
+      <description> Check out &lt;a href="https://github.com/bparanj/hivegrid.dev" rel="nofollow"&gt;HiveGrid&lt;/a&gt;. Goss also has been updated to version 0.4.6. </description>
+      <pubDate>Tue, 30 Apr 2024 19:38:05 +0000</pubDate>
+      <link>https://rubyflow.com/p/8oant3-hivegrid-now-supports-ruby-331</link>
+      <guid>https://rubyflow.com/p/8oant3-hivegrid-now-supports-ruby-331</guid>
     </item>
     <item>
-      <title>Super Fast Rails – A promise given is a debt</title>
-      <description> Last week’s article, Super Fast Rails, received many funny reactions. But for some people, that was too much: &lt;a href="https://www.rorvswild.com/blog/2024/super-fast-rails-a-promise-given-is-a-debt" rel="nofollow"&gt;https://www.rorvswild.com/blog/2024/super-fast-rails-a-promise-given-is-a-debt&lt;/a&gt; </description>
-      <pubDate>Wed, 10 Apr 2024 07:47:24 +0000</pubDate>
-      <link>https://rubyflow.com/p/fthwoi-super-fast-rails-a-promise-given-is-a-debt</link>
-      <guid>https://rubyflow.com/p/fthwoi-super-fast-rails-a-promise-given-is-a-debt</guid>
+      <title>ActiveRecord::Base#pluck adds support for hash values in Rails 7.2</title>
+      <description> &lt;a href="https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/" rel="nofollow"&gt;https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/&lt;/a&gt; </description>
+      <pubDate>Mon, 29 Apr 2024 10:15:22 +0000</pubDate>
+      <link>https://rubyflow.com/p/rf9gdo-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</link>
+      <guid>https://rubyflow.com/p/rf9gdo-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</guid>
     </item>
     <item>
-      <title>Account-based subdomains in Rails</title>
-      <description> Learn how to &lt;a href="https://www.honeybadger.io/blog/rails-account-subdomains/?utm_source=rubyflow&amp;amp;utm_medium=social" rel="nofollow"&gt;isolate data in Rails with multitenancy and customize your user experience with account-based subdomains&lt;/a&gt;. It’s all in our latest article on the Honeybadger Developer Blog. </description>
-      <pubDate>Tue, 09 Apr 2024 17:01:26 +0000</pubDate>
-      <link>https://rubyflow.com/p/dlvq97-account-based-subdomains-in-rails</link>
-      <guid>https://rubyflow.com/p/dlvq97-account-based-subdomains-in-rails</guid>
+      <title>Rabarber v2: A Major Update for the Role-Based Authorization Gem</title>
+      <description> We’re excited to announce the release of version 2 of &lt;a href="https://github.com/enjaku4/rabarber" rel="nofollow"&gt;Rabarber&lt;/a&gt;, a role-based authorization gem for Ruby on Rails. This new version brings significant improvements, cleaner code, and a more refined user experience. </description>
+      <pubDate>Mon, 29 Apr 2024 09:43:24 +0000</pubDate>
+      <link>https://rubyflow.com/p/ghjoox-rabarber-v2-a-major-update-for-the-role-based-authorization-gem</link>
+      <guid>https://rubyflow.com/p/ghjoox-rabarber-v2-a-major-update-for-the-role-based-authorization-gem</guid>
     </item>
     <item>
-      <title>Process management in Ruby 💎</title>
-      <description> Application, process, heap, stack, wow that’s a lot of triggering words. Ever wondered what they are and how they are translated in the Ruby world? 💎 </description>
-      <pubDate>Tue, 09 Apr 2024 14:07:16 +0000</pubDate>
-      <link>https://rubyflow.com/p/l2cdlb-process-management-in-ruby</link>
-      <guid>https://rubyflow.com/p/l2cdlb-process-management-in-ruby</guid>
+      <title>N+1 in Ruby on Rails - Katarzyna Melon-Markowska</title>
+      <description> &lt;a href="https://www.visuality.pl/posts/n-1-in-ruby-on-rails" rel="nofollow"&gt;https://www.visuality.pl/posts/n-1-in-ruby-on-rails&lt;/a&gt; </description>
+      <pubDate>Sat, 27 Apr 2024 07:19:15 +0000</pubDate>
+      <link>https://rubyflow.com/p/7lgch8-n1-in-ruby-on-rails-katarzyna-melon-markowska</link>
+      <guid>https://rubyflow.com/p/7lgch8-n1-in-ruby-on-rails-katarzyna-melon-markowska</guid>
     </item>
     <item>
-      <title>An interactive intro to ruby debugger, part 2</title>
-      <description> I’ve expanded my interactive intro to ruby debugger, inside the debugger itself, with an introduction to using breakpoints: &lt;a href="https://radanskoric.com/articles/ruby-debug-tutorial-intro?utm_source=rubyflow&amp;amp;utm_medium=feed&amp;amp;utm_campaign=ruby-debug-tutorial-intro" rel="nofollow"&gt;An interactive intro to ruby debugger, in the debugger&lt;/a&gt; </description>
-      <pubDate>Tue, 09 Apr 2024 12:22:46 +0000</pubDate>
-      <link>https://rubyflow.com/p/ewerqz-an-interactive-intro-to-ruby-debugger-part-2</link>
-      <guid>https://rubyflow.com/p/ewerqz-an-interactive-intro-to-ruby-debugger-part-2</guid>
+      <title>ActiveRecord::Base#pluck adds support for hash values in Rails 7.2</title>
+      <description> ActiveRecord pluck and pick can accept hash values for specifying columns from Rails 7.2
+&lt;a href="https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/" rel="nofollow"&gt;https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/&lt;/a&gt; </description>
+      <pubDate>Fri, 26 Apr 2024 17:56:18 +0000</pubDate>
+      <link>https://rubyflow.com/p/od3drv-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</link>
+      <guid>https://rubyflow.com/p/od3drv-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</guid>
     </item>
     <item>
-      <title>Maximizing Code Quality with Rails Pre-Commit and Pre-Push Hooks</title>
-      <description> &lt;a href="https://www.shakacode.com/blog/maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks/" rel="nofollow"&gt;https://www.shakacode.com/blog/maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks/&lt;/a&gt; </description>
-      <pubDate>Tue, 09 Apr 2024 10:54:13 +0000</pubDate>
-      <link>https://rubyflow.com/p/9ks8wd-maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks</link>
-      <guid>https://rubyflow.com/p/9ks8wd-maximizing-code-quality-with-rails-pre-commit-and-pre-push-hooks</guid>
+      <title>Animate Filtering Data in HOTWire</title>
+      <description> We can progressively enhance the filtering search. We can dig deeper into Turbo events and get a very satisfying animation of Todos disappearing when they’re filtered out, and reappearing when they are back in the list. &lt;a href="https://onrails.blog/2024/04/23/animate-filtering-data-in-hotwire/" rel="nofollow"&gt;https://onrails.blog/2024/04/23/animate-filtering-data-in-hotwire/&lt;/a&gt; </description>
+      <pubDate>Wed, 24 Apr 2024 14:14:46 +0000</pubDate>
+      <link>https://rubyflow.com/p/31s0v6-animate-filtering-data-in-hotwire</link>
+      <guid>https://rubyflow.com/p/31s0v6-animate-filtering-data-in-hotwire</guid>
     </item>
     <item>
-      <title>🇺🇸 Ruby / Rails channel in telegram</title>
-      <description> &lt;a href="https://t.me/railsclub" rel="nofollow"&gt;Channel about Ruby and Ruby on Rails&lt;/a&gt; </description>
-      <pubDate>Tue, 09 Apr 2024 10:06:44 +0000</pubDate>
-      <link>https://rubyflow.com/p/8koq67--ruby-rails-channel-in-telegram</link>
-      <guid>https://rubyflow.com/p/8koq67--ruby-rails-channel-in-telegram</guid>
+      <title>Enhancing Rails Log Output with SQL Query Count</title>
+      <description> &lt;a href="https://blog.saeloun.com/2024/04/24/add-queries-count/" rel="nofollow"&gt;https://blog.saeloun.com/2024/04/24/add-queries-count/&lt;/a&gt; </description>
+      <pubDate>Wed, 24 Apr 2024 13:57:18 +0000</pubDate>
+      <link>https://rubyflow.com/p/jn2mcx-enhancing-rails-log-output-with-sql-query-count</link>
+      <guid>https://rubyflow.com/p/jn2mcx-enhancing-rails-log-output-with-sql-query-count</guid>
     </item>
     <item>
-      <title>Do you still `pbcopy` and `pbpaste`?</title>
-      <description> Nothing’s wrong with that, but the advantage you get with the clipboard gem is that it works on many more platforms than just macOS (including Windows). </description>
-      <pubDate>Tue, 09 Apr 2024 06:24:04 +0000</pubDate>
-      <link>https://rubyflow.com/p/3gjn97-do-you-still-pbcopy-and-pbpaste</link>
-      <guid>https://rubyflow.com/p/3gjn97-do-you-still-pbcopy-and-pbpaste</guid>
+      <title>Should You Use Ruby on Rails or Hanami?</title>
+      <description> Let’s explore the strengths and weaknesses of Rails and Hanami: &lt;a href="https://blog.appsignal.com/2024/04/24/should-you-use-ruby-on-rails-or-hanami.html" rel="nofollow"&gt;https://blog.appsignal.com/2024/04/24/should-you-use-ruby-on-rails-or-hanami.html&lt;/a&gt; </description>
+      <pubDate>Wed, 24 Apr 2024 13:03:21 +0000</pubDate>
+      <link>https://rubyflow.com/p/w1nyp8-should-you-use-ruby-on-rails-or-hanami</link>
+      <guid>https://rubyflow.com/p/w1nyp8-should-you-use-ruby-on-rails-or-hanami</guid>
     </item>
   </channel>
 </rss>

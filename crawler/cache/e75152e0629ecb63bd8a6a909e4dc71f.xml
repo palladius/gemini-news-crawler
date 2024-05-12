@@ -4,13 +4,21 @@
  <title>Everyday Rails</title>
  <link href="https://everydayrails.com/atom.xml" rel="self"/>
  <link href="https://everydayrails.com/"/>
- <updated>2024-03-13T21:54:04+00:00</updated>
+ <updated>2024-05-04T13:14:04+00:00</updated>
  <id>https://everydayrails.com/</id>
  <author>
    <name>Aaron Sumner</name>
    <email>aaron@everydayrails.com</email>
  </author>
  
+ 
+ <entry>
+   <title>Testing with RSpec book May 2024 status report</title>
+   <link href="https://everydayrails.com/2024/05/04/rspec-book-status-may-2024.html"/>
+   <updated>2024-05-04T00:00:00+00:00</updated>
+   <id>http://www.everydayrails.com/2024/05/04/rspec-book-status-may-2024</id>
+   <content type="html">How it started, how it&apos;s going, what I&apos;ve learned, and a revised delivery timeline for book updates.</content>
+ </entry>
  
  <entry>
    <title>Notes from migrating from Minitest to RSpec, with help from GitHub Copilot</title>
@@ -82,14 +90,6 @@
    <updated>2021-05-29T00:00:00+00:00</updated>
    <id>http://www.everydayrails.com/2021/05/29/pronto-github-actions-code-quality</id>
    <content type="html">Nobody likes to be the one to pick through your pull request for style guide and security violations. Here&apos;s how to ask robots to do the work for you, automatically!</content>
- </entry>
- 
- <entry>
-   <title>Working around the mimemagic issue in my RSpec testing book</title>
-   <link href="https://everydayrails.com/2021/04/05/rspec-tutorial-mimemagic-fix.html"/>
-   <updated>2021-04-05T00:00:00+00:00</updated>
-   <id>http://www.everydayrails.com/2021/04/05/rspec-tutorial-mimemagic-fix</id>
-   <content type="html">The book&apos;s sample source no longer installs due to a dependency change. Here&apos;s how to fix it.</content>
  </entry>
  
  

@@ -6,5 +6,6 @@
 
   <h2>🌱 Latest Articles</h2>
 
+  <%= line_chart Article.group_by_day(:created_at).count %>
 
 </div>
