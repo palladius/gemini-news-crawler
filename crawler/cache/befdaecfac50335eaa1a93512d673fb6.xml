@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 12 May 2024 15:40:54 +0000</lastBuildDate>
-    <pubDate>Sun, 12 May 2024 15:33:06 +0000</pubDate>
+    <lastBuildDate>Sun, 12 May 2024 16:51:06 +0000</lastBuildDate>
+    <pubDate>Sun, 12 May 2024 16:32:04 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -97,8 +97,8 @@
       <atom:link href="https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
       <description>The fighting in Gaza City and Jabaliya fit into a familiar scenario: Israeli forces returning to an area where they had defeated Hamas earlier in the war.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sun, 12 May 2024 15:10:02 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-promo-11-mbgl/12mideast-promo-11-mbgl-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <pubDate>Sun, 12 May 2024 16:32:04 +0000</pubDate>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-gaza-promoj-1p-cqbw/12mideast-gaza-promoj-1p-cqbw-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Amir Cohen/Reuters</media:credit>
     </item>
     <item>
@@ -144,18 +144,16 @@
       <dc:creator>Elian Peltier and Christiaan Triebert</dc:creator>
       <pubDate>Sun, 12 May 2024 02:24:33 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Burkina Faso</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Africa</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Traore, Ibrahim</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Al Qaeda</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Traore, Ibrahim</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Coups D&#39;Etat and Attempted Coups D&#39;Etat</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Al Qaeda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">War and Armed Conflicts</category>
     </item>
     <item>
       <title>Isolated and Defiant, Israel Vows to ‘Stand Alone’ in War on Hamas</title>
@@ -166,12 +164,20 @@
       <dc:creator>Damien Cave</dc:creator>
       <pubDate>Sat, 11 May 2024 15:52:07 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/30/multimedia/30israel-isolation-vcbl/30israel-isolation-vcbl-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Eduardo Munoz/Reuters</media:credit>
       <media:description>On Friday, in a largely symbolic gesture, the United Nations General Assembly backed Palestine’s bid for U.N. membership.</media:description>
@@ -207,14 +213,15 @@
       <description>President Nicolás Maduro has held on to power by holding sham elections. In July he will run again, but would he willingly cede power?</description>
       <dc:creator>Julie Turkewitz and Adriana Loureiro Fernandez</dc:creator>
       <pubDate>Sat, 11 May 2024 14:08:43 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Machado, Maria Corina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gonzalez, Edmundo (1949- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Democracy (Theory and Philosophy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gonzalez, Edmundo (1949- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Machado, Maria Corina</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11venezuela-opposition-promo/11venezuela-opposition-01-mfkc-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Adriana Loureiro Fernandez for The New York Times</media:credit>

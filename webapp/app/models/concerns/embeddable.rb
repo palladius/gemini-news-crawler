@@ -5,24 +5,51 @@ module Embeddable
 # #    store_accessor :embeddings, :title_embedding, :summary_embedding
 #     store_accessor :title_embedding, :summary_embedding
 #   end
+  def assert_good_gemini_response(x, description)
+    raise "assert_good_gemini_response(#{description}): should be an Array, not a '#{x.class}'" unless x.is_a?(Array)
+    raise "assert_good_gemini_response(#{description}): should be an Array sized 768, not #{x.size}" unless x.size == 768
+    true
+  end
 
   def compute_embeddings!()
     if (gcp?)
       # ARRAYs (fake vectors)
       unless self.title.nil? || self.title.empty?
-        self.title_embedding = self.compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
+        title = self.compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
+        assert_good_gemini_response(title, "compute_embeddings! on title side 1")
+        self.title_embedding = title # .to_a # This converts to string!!!
+        #self.title_embedding = [1,2,3] # title.to_a # This converts to string!!!
+        #         title_embedding: "[1, 2, 3]",
+        #  summary_embedding: nil,
+        #  article_embedding:
+        #   [1.0,
+        #    2.0,
+        #    3.0,
+        # Found the bug! title_embedding is a string, not an array!
+        assert_good_gemini_response(self.title_embedding, "compute_embeddings! on title side 2 after assignment")
+        # irb(main):004> t.class
+        # => Array
+        # irb(main):005> t.size
+        # => 768
       else
         puts("ε - No title -> skipping")
       end
+
       unless self.summary.nil? || self.summary.empty?
-        self.summary_embedding = self.compute_gcp_embeddings_for(field_to_access: :summary) #rescue nil
+        # raise Empty request - skipping calculation as it doesnt make sense. -> rescue nil
+        self.summary_embedding = self.compute_gcp_embeddings_for(field_to_access: :summary) rescue nil
+        assert_good_gemini_response(self.title_embedding, "compute_embeddings! on Summary side")
       else
         puts("ε - No summary -> skipping")
       end
       # VECTOR (the real deal)
-      self.article_embedding = self.title_embedding if self.article_embedding.nil?
+      # db/schema.rb:    t.vector "title_embedding", limit: 768
+      # db/schema.rb:    t.vector "summary_embedding", limit: 768
+      # db/schema.rb:    t.vector "article_embedding", limit: 768
+      self.article_embedding = self.title_embedding if (self.article_embedding.nil? and  self.title_embedding.is_a? Array)
       self.save if self.changed? # cool! https://stackoverflow.com/questions/24412634/rails-save-method-if-no-changes
-    # else
+    else
+      puts("GCP is false. Lets compute them through Llama or sth else..")
     #   self.title_embedding = [42,42,42,42,42]
     #   self.summary_embedding = [41.0,41.0,41.0,41.0,41.0]
     end
@@ -30,11 +57,14 @@ module Embeddable
   end
 
   def compute_embeddings()
-    if title_embedding.nil? and summary_embedding.nil?
-      puts("Embeddings are EMPTY - what I do is now needed!")
+    need_to_compute_embedding = title_embedding.nil?
+    if need_to_compute_embedding # title_embedding.nil? and summary_embedding.nil?
+      puts("Some Embeddings are EMPTY - what I do is now needed!")
       compute_embeddings!
     else
-      puts("Some Embeddings are NON EMPTY - I skip all (but TBH I should be iterating through eveyr value...)")
+      puts("Some Embeddings are NON EMPTY - I skip all (but TBH I should be iterating through every value...)")
+      puts("- title_embedding.nil? -> #{title_embedding.nil?}")
+      puts("- summary_embedding.nil? -> #{summary_embedding.nil?}")
     end
   end
 
@@ -99,7 +129,9 @@ module Embeddable
     cleaned_response = result['predictions'][0]['embeddings']['values']
     stats = result['predictions'][0]['embeddings']['statistics'] rescue "Some Error: #{$!}"
     puts("📊 Stats: #{stats}")
+    puts("📊 cleaned_response (should be an Array) is a: #{cleaned_response.class}")
     puts("♊️ YAY! Gemini Embeddings responded with a #{cleaned_response.size rescue -1 }-sized embedding: #{cleaned_response.first(3) rescue result}, ...")
+    assert_good_gemini_response(cleaned_response, "End of compute_gcp_embeddings_for(#{field_to_access})")
     return cleaned_response
   end
 
@@ -150,8 +182,9 @@ module Embeddable
       #self.all
       how_many = self.find_all_without_any_embeddings.count
       puts("🗿🗿🗿  Total Articles: #{Article.all.count}. Total embeddings to be computed: #{how_many}")
-      self.find_all_without_any_embeddings.each do |article|
-        puts("🗿 Calculating embedding for #{article}..")
+      self.find_all_without_any_embeddings.each_with_index do |article, ix|
+        puts("🗿 [#{ix+1}/#{how_many}] Calculating embedding for #{article}..")
+        break if ix > max_instances
         article.compute_embeddings()
         # or the API will complain
         sleep(1.0/24.0)

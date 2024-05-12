@@ -47,7 +47,8 @@ Apps are on Cloud Run
 1. `cd crawler/ ; $ make crawl-a-lot` or `make crawl-continuously` (`bundle install` if its the first time). This populates XML every 15min (or I get kicked out by the robots :P ) and slurps articles from XML. XML I check on git, articles i dont or theyre too many.
 2. `cd webapp ; bundle exec make seed-forever` (without bundle wont work). this seeds info from (1) into ActiveRecord, hence DB. Make sure the env vars are NOT empty in the 🧡🧡🧡 stanza.
 3. call an async routing to populate - although since v0.1.5 this should happen automatically before save of Article.
-4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all | rails c`. Note: since I moved from Array to Vector this script is now BROKEN
+4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all max_instances: 5 | rails c`. Note: since I moved from Array to Vector this script is now BROKEN.
+5. On 12may24 I found the bug. When I assign the `title_embedding` it converts from float to String and before the assignment its a float! So it looks like the DB has a strong. But the DB says it has a vector, and the other Two fields have NO PROBLEMS! Maybe I should reset the DB and see what happens..
 
 Error:
 ```
@@ -64,7 +65,7 @@ Did you mean?  to_s
 Issue with keys
 ```
 * Created secret: `projects/272932496670/secrets/geminews-key`
-* Mounted on Crun as /geminews-key/geminews-key
+* Mounted on CRun as /geminews-key/geminews-key
 * Now the final bit: GCP_KEY_PATH_FROM_WEBAPP = /geminews-key/geminews-key
 
 ### esbuild issues

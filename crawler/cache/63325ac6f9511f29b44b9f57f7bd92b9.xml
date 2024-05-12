@@ -6,8 +6,8 @@
   <language>en</language>
   <description>Latest news from Euronews</description>
   <copyright>Euronews 2024</copyright>
-  <lastBuildDate>Sun, 12 May 2024 15:00:06 +0200</lastBuildDate>
-  <pubDate>Sun, 12 May 2024 15:00:06 +0200</pubDate>
+  <lastBuildDate>Sun, 12 May 2024 18:12:08 +0200</lastBuildDate>
+  <pubDate>Sun, 12 May 2024 18:12:08 +0200</pubDate>
   <ttl>30</ttl>
   <atom:link href="https://www.euronews.com/rss?level=vertical&amp;name=news" rel="self" type="application/rss+xml"/>
   <image>
@@ -15,6 +15,20 @@
    <title>News | Euronews RSS </title>
    <link>https://www.euronews.com</link>
   </image>
+  <item>
+   <title>Latest news bulletin | May 12th – Evening</title>
+   <link>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-evening</link>
+   <guid>https://www.euronews.com/video/2024/05/12/latest-news-bulletin-may-12th-evening</guid>
+   <pubDate>Sun, 12 May 2024 18:00:03 +0200</pubDate>
+   <description>Catch up with the most important stories from around Europe and beyond - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.</description>
+  </item>
+  <item>
+   <title>Israel attacks northern Gaza's Jabaliya refugee camp</title>
+   <link>https://www.euronews.com/2024/05/12/israel-attacks-northern-gazas-jabaliya-refugee-camp</link>
+   <guid>https://www.euronews.com/2024/05/12/israel-attacks-northern-gazas-jabaliya-refugee-camp</guid>
+   <pubDate>Sun, 12 May 2024 17:10:07 +0200</pubDate>
+   <description>Israeli military tanks have ventured into the camp after five Israeli soldiers were killed over the weekend.</description>
+  </item>
   <item>
    <title>Israeli police break up anti-government protest in Tel Aviv</title>
    <link>https://www.euronews.com/2024/05/12/israeli-police-break-up-anti-government-protest-in-tel-aviv</link>
@@ -350,20 +364,6 @@
    <guid>https://www.euronews.com/2024/05/08/watch-hundreds-of-argentines-protest-against-mileis-social-policies</guid>
    <pubDate>Wed, 08 May 2024 13:47:13 +0200</pubDate>
    <description>Social organisations from Argentina staged blockades in Buenos Aires and other regions, protesting President Javier Milei's austerity measures and reform agenda.</description>
-  </item>
-  <item>
-   <title>Watch: Pro-Palestine students in Amsterdam demonstrate </title>
-   <link>https://www.euronews.com/2024/05/08/watch-pro-palestine-students-in-amsterdam-demonstrate</link>
-   <guid>https://www.euronews.com/2024/05/08/watch-pro-palestine-students-in-amsterdam-demonstrate</guid>
-   <pubDate>Wed, 08 May 2024 13:44:00 +0200</pubDate>
-   <description>Student of the University of Amsterdam demonstrated in large crowds, blocking the road in front of the university while brandishing placards in solidarity with Gaza and expressing their support through chants like &quot;Free Palestine&quot; and &quot;End the Occupation.&quot;</description>
-  </item>
-  <item>
-   <title>Another German politician attacked as concerns rise over pre-European elections violence</title>
-   <link>https://www.euronews.com/2024/05/08/another-german-politician-is-attacked-as-concerns-rise-over-violence-ahead-of-eu-elections</link>
-   <guid>https://www.euronews.com/2024/05/08/another-german-politician-is-attacked-as-concerns-rise-over-violence-ahead-of-eu-elections</guid>
-   <pubDate>Wed, 08 May 2024 13:12:58 +0200</pubDate>
-   <description>The rise in far-right sentiment across Europe and Germany in particular has come with increased threats to public figures and various groups.</description>
   </item>
  </channel>
 </rss>
