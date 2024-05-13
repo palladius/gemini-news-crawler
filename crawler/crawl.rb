@@ -37,7 +37,9 @@ require 'tempfile'
 MaxArticleSize = ENV.fetch('MAX_ARTICLE_SIZE', '2').to_i  # 10 # todo 100
 MaxNewsWebsites = ENV.fetch('MAX_WEBSITES', '3').to_i  # 50 # todo 100
 RssCacheInvalidationMinutes = ENV.fetch('RSS_CACHE_INVALIDATION_MINUTES', '15').to_i  # 15 # 15 minutes
-SkipCrawling = ENV.fetch('SKIP_CRAWLING', 'false').downcase.to_s == 'true'
+SkipCrawling = ENV.fetch('SKIP_CRAWLING', 'false').downcase.to_s == 'true'    # dflt: false
+#SkipGcsUpload = ENV.fetch('SKIP_GCS_UPLOAD', 'false').downcase.to_s == 'true' # dflt: false
+SkipGcsUpload = 'true' # dflt: true
 
 
 Useless = %w{ enclosure category guid language lastmod loc pubDate description link publication_date pub_date elevation dcterms
@@ -235,10 +237,6 @@ def copy_stuff_to_gcs(gcs_environment: , bucket_name:)
   Dir.glob(File.join(local_dir, '**/*')) do |local_file|
     next if File.directory?(local_file) # Skip directories
     #break if file_counter == 5
-    # if file_counter % 9 == 0
-    #   puts("💤 skeeping 1 sec")
-    #   sleep(1)
-    # end
     remote_file_path = File.join(remote_folder_path, local_file.sub(local_dir, ''))
     puts " ⬆️ #{file_counter} Uploading local '#{local_file}' -> remote '#{remote_file_path}'" # 🛗
     #puts(`ls -al '#{local_file}'`)
@@ -248,7 +246,6 @@ def copy_stuff_to_gcs(gcs_environment: , bucket_name:)
         bucket.create_file(
         local_file,
         folder + '/' + local_file,
-        #folder
         ) # local, remote
     end
     file_counter += 1
@@ -346,9 +343,10 @@ end # SkipCrawling
     bucket_name = ENV.fetch 'BUCKET_NAME'
     raise "BUCKET_NAME not given! " if bucket_name.nil?
     puts("☁️ Nuclear GCP launch detected! (ENABLE_GCP=true)")
-    copy_stuff_to_gcs(gcs_environment: gcs_environment, bucket_name: bucket_name ) # puts("☁️ Nuclear GCP launch detected! (ENABLE_GCP=true)")
+    puts("☁️ SkipGcsUpload=#{SkipGcsUpload}")
+
+    copy_stuff_to_gcs(gcs_environment: gcs_environment, bucket_name: bucket_name ) unless SkipGcsUpload # puts("☁️ Nuclear GCP launch detected! (ENABLE_GCP=true)")
   end
 end
-
 
 main

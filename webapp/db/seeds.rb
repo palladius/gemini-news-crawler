@@ -9,7 +9,8 @@
 #   end
 
 if ENV['DESTROY_ALL_BEFORE'] == 'YES_WHY_NOT'
-  puts("DESTROY_ALL_BEFORE activated")
+  puts("DESTROY_ALL_BEFORE activated. Sleeping 5sec to allow you to CTRL-C..")
+  sleep(5)
   ArticleTag.delete_all
   Article.delete_all
   Category.delete_all

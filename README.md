@@ -8,6 +8,11 @@ This is a News Slurper that takes News in real time and - hopefully - feeds an L
 * Session: https://sessionize.com/app/speaker/session/621013
 * Slides: [Ricc Slides](https://docs.google.com/presentation/d/11R5TbqPRsdeMdqN_1vFRS9v7qFRvOvpxTAFPOd-kfaE/edit#slide=id.g259ddd8dc87_0_2049)
 
+Apps are on Cloud Run:
+
+* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
+* PROD: [🫀 health check PROD](https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/up)
+
 ## Description
 
 How can we get an LLM to be updated to today’s news?
@@ -31,13 +36,6 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 
 ## App info
 
-### Google Cloud info
-
-Apps are on Cloud Run
-
-* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
-* PROD: [🫀 health check PROD](https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/up)
-
 ### TODOs
 
 *  add Devise for user mgmt
@@ -51,20 +49,6 @@ Apps are on Cloud Run
 3. call an async routing to populate - although since v0.1.5 this should happen automatically before save of Article.
 4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all | rails c`. Note: since I moved from Array to Vector this script is now BROKEN
 
-Error:
-```
-(NoMethodError)
-
-      value = value.to_a.map(&:to_f)
-                   ^^^^^
-Did you mean?  to_s
-               to_d
-               to_f
-               to_c
-               to_r
-               to_i
-Issue with keys
-```
 * Created secret: `projects/272932496670/secrets/geminews-key`
 * Mounted on Crun as /geminews-key/geminews-key
 * Now the final bit: GCP_KEY_PATH_FROM_WEBAPP = /geminews-key/geminews-key

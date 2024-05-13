@@ -9,7 +9,7 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 May 2024 16:06:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 May 2024 17:32:17 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -23,20 +23,28 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6810/production/_133304662_mediaitem133304661.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Chris Mason: Welcome to the Sunak and Starmer show]]></title>
-            <description><![CDATA[The prime minister and opposition leader are road testing their messages ahead of the general election.]]></description>
-            <link>https://www.bbc.com/news/articles/cyerz0wp2ero</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cyerz0wp2ero#0</guid>
-            <pubDate>Mon, 13 May 2024 07:55:17 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/b2f5/live/a820c2d0-1106-11ef-bee9-6125e244a4cd.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Parts of migration act 'should not apply in NI']]></title>
             <description><![CDATA[A court in Belfast rules the UK government’s act unlawfully diminishes the rights of asylum seekers.]]></description>
             <link>https://www.bbc.co.uk/news/uk-northern-ireland-69001673</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-northern-ireland-69001673#0</guid>
-            <pubDate>Mon, 13 May 2024 15:55:22 GMT</pubDate>
+            <pubDate>Mon, 13 May 2024 16:39:11 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15196/production/_129022468_9917a3f3-0533-4053-a47d-a0638bae2b25.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Power to move rough sleepers over 'smells' dropped]]></title>
+            <description><![CDATA[The power to move people on due to "smells" will no longer be in a bill, after a backlash from MPs.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-69005091</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-69005091#0</guid>
+            <pubDate>Mon, 13 May 2024 16:45:52 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A24E/production/_133305514_roughsleepergetty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Suspend Elphicke over lobbying claims, MP says]]></title>
+            <description><![CDATA[Labour MP Rosie Duffield says allegations she made representations to help her husband should be investigated.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-69004978</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-69004978#0</guid>
+            <pubDate>Mon, 13 May 2024 16:09:43 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0D7A/production/_133305430_rosieduffield.jpg"/>
         </item>
         <item>
             <title><![CDATA[Universal credit claimants must seek 18 hours work]]></title>
@@ -66,7 +74,7 @@
             <title><![CDATA[Kuenssberg: What could possibly go wrong for Keir Starmer? A lot, actually]]></title>
             <description><![CDATA[Labour's leadership is bouncing - but there are plenty of potential pitfalls between Starmer and No 10.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68995187</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68995187#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68995187#1</guid>
             <pubDate>Sat, 11 May 2024 10:46:53 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10161/production/_133298856_smlk_index_starmer2-getty.jpg"/>
         </item>
@@ -311,12 +319,12 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4929/production/_133292781_p0hx2w1w.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Chris Mason: Sunak, Starmer and their small boats row]]></title>
-            <description><![CDATA[The issue of people crossing the Channel is so contested, even the terminology of the topic is disputed.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68994326</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68994326#4</guid>
-            <pubDate>Sat, 11 May 2024 05:06:47 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4F41/production/_133298202_boat.jpg"/>
+            <title><![CDATA[Chris Mason: Welcome to the Sunak and Starmer show]]></title>
+            <description><![CDATA[The prime minister and opposition leader are road testing their messages ahead of the general election.]]></description>
+            <link>https://www.bbc.com/news/articles/cyerz0wp2ero</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cyerz0wp2ero#4</guid>
+            <pubDate>Mon, 13 May 2024 07:55:17 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/b2f5/live/a820c2d0-1106-11ef-bee9-6125e244a4cd.jpg"/>
         </item>
         <item>
             <title><![CDATA[How foreign affairs could shape votes at home]]></title>
@@ -335,14 +343,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0F26/production/_133287830_elphickegetty.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Natalie Elphicke: who is the new Labour MP?]]></title>
-            <description><![CDATA[The MP for Dover and Deal crossed the floor during PMQs but will stand down at the general election.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-politics-68976807</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68976807#4</guid>
-            <pubDate>Wed, 08 May 2024 16:16:52 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5378/production/_133286312_2551cd5605845ae26b3f83ffa233855a1373c543.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[Election poll tracker: How do the parties compare?]]></title>
             <description><![CDATA[How do people say they will vote in the UK general election? Our poll tracker measures the trends.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68079726</link>
@@ -357,6 +357,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-62064552#4</guid>
             <pubDate>Fri, 03 May 2024 07:52:03 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/A0A8/production/_132982114_next_election_index_promo-nc.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Natalie Elphicke: who is the new Labour MP?]]></title>
+            <description><![CDATA[The MP for Dover and Deal crossed the floor during PMQs but will stand down at the general election.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-68976807</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68976807#4</guid>
+            <pubDate>Wed, 08 May 2024 16:16:52 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5378/production/_133286312_2551cd5605845ae26b3f83ffa233855a1373c543.jpg"/>
         </item>
         <item>
             <title><![CDATA[Curtice: Conservatives remain in deep electoral trouble]]></title>

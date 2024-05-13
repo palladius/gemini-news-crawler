@@ -50,12 +50,17 @@
     <b><%= my_class.all.count %></b>
   </p>
   <% end %>
-  <p>Number of <%= EmbeddingEmoji %> <b>Articles with Fake Embeddings</b>:
+  <p>Number of <%= EmbeddingEmoji %> <b>Articles with Fake Embeddings (title_embedding)</b>:
     <b><%= Article.find_all_with_fake_embeddings.count %></b>
   </p>
-  <p>Number of <%= EmbeddingEmoji %> <b>Articles with Proper Embeddings</b>:
+  <p>Number of <%= EmbeddingEmoji %> <b>Articles with Proper Embeddings (article_embedding)</b>:
     <b><%= Article.find_all_with_proper_embeddings.count %></b>
   </p>
+  <p>Number of <%= EmbeddingEmoji %> <b>Articles without Embeddings (no article_embedding)</b>:
+    <b><%= Article.find_all_without_any_embeddings.count %></b>
+  </p>
+
+
 
   <h2>Cache</h2>
 

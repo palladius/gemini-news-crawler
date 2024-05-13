@@ -129,7 +129,7 @@ For more information, see
 <a href="https://cloud.google.com/monitoring/charts/view-logs">Display logs and errors on a custom dashboard</a>.</p>
 <h2 class="release-note-product-title">Dataproc</h2>
 <h3>Changed</h3>
-<p><a href="https://cloud.google.com/dataproc/docs/concepts/versioning/dataproc-version-clusters#supported_dataproc_versions">Dataproc on Compute Engine</a>:</p>
+<p>New <a href="https://cloud.google.com/dataproc/docs/concepts/versioning/dataproc-version-clusters#supported_dataproc_versions">Dataproc on Compute Engine subminor image versions</a>:</p>
 
 <ul>
 <li><p>2.0.101-debian10, 2.0.101-rocky8, 2.0.101-ubuntu18</p></li>

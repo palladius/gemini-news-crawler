@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Mon, 13 May 2024 16:05:16 +0000</lastBuildDate>
-    <pubDate>Mon, 13 May 2024 16:04:44 +0000</pubDate>
+    <lastBuildDate>Mon, 13 May 2024 17:29:45 +0000</lastBuildDate>
+    <pubDate>Mon, 13 May 2024 17:29:00 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -21,9 +21,9 @@
       <atom:link href="https://www.nytimes.com/live/2024/05/13/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
       <description>Hecklers assailed Prime Minister Benjamin Netanyahu and other leaders as tensions over the Oct. 7 attacks and the Gaza war flared on one of Israel’s most solemn holidays.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Mon, 13 May 2024 16:04:44 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13mideast-crisis-promo-10am-mjkl/13mideast-crisis-promo-10am-mjkl-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Atef Safadi/EPA, via Shutterstock</media:credit>
+      <pubDate>Mon, 13 May 2024 17:29:00 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13mideast-crisis-promo-130pm-cvfb/13mideast-crisis-promo-130pm-cvfb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Leo Correa/Associated Press</media:credit>
     </item>
     <item>
       <title>Secret Hamas Files Show It Spied on Everyday Palestinians</title>
@@ -32,7 +32,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html" rel="standout"></atom:link>
       <description>Hamas monitored political activity, online posts, and apparently even love lives. Palestinians were stuck between an Israeli blockade and a repressive security force.</description>
       <dc:creator>Adam Rasgon and Ronen Bergman</dc:creator>
-      <pubDate>Mon, 13 May 2024 09:03:27 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 17:16:57 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
@@ -85,19 +85,20 @@
       <media:description>A pro-democracy activist holding a placard demanding the release of Zhang Zhan, outside the Chinese central government’s liaison office in Hong Kong in 2020.</media:description>
     </item>
     <item>
-      <title>What to Know About Russia’s Offensive in Ukraine’s Northeast</title>
+      <title>Facing Russian Advance, a Top Ukrainian General Paints a Bleak Picture</title>
       <link>https://www.nytimes.com/article/russia-ukraine-kharkiv.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/article/russia-ukraine-kharkiv.html</guid>
       <atom:link href="https://www.nytimes.com/article/russia-ukraine-kharkiv.html" rel="standout"></atom:link>
-      <description>Moscow’s forces have captured at least nine villages and settlements near Kharkiv in a push that analysts say is intended to stretch Ukrainian troops and divert them from fighting elsewhere.</description>
-      <dc:creator>Constant Méheut and Maria Varenikova</dc:creator>
-      <pubDate>Mon, 13 May 2024 13:41:02 +0000</pubDate>
+      <description>Ukraine’s forces are stretched thin and have minimal reserves to draw on, the chief of military intelligence said, in addition to shortages of weapons.</description>
+      <dc:creator>Constant Méheut, Maria Varenikova and Michael Schwirtz</dc:creator>
+      <pubDate>Mon, 13 May 2024 16:13:03 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Budanov, Kyrylo</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13ukraine-kharkiv-01-zblt/13ukraine-kharkiv-01-zblt-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Emile Ducke for The New York Times</media:credit>
       <media:description>Residents from the village of Liptsi, in northeastern Ukraine, arriving at an evacuation point as they made their way to Kharkiv on Sunday.</media:description>
@@ -126,14 +127,15 @@
       <link>https://www.nytimes.com/2024/05/13/world/europe/uk-hong-kong-intelligence-arrests.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/uk-hong-kong-intelligence-arrests.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/uk-hong-kong-intelligence-arrests.html" rel="standout"></atom:link>
-      <description>The three were arrested under Britain’s National Security Act and appeared in court on Monday. Eight other people detained in the case have been released.</description>
+      <description>The three appeared in court on Monday after being arrested under Britain’s National Security Act. Eight other people detained in the case have been released.</description>
       <dc:creator>Stephen Castle</dc:creator>
-      <pubDate>Mon, 13 May 2024 15:39:34 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 17:28:46 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hong Kong</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13uk-arrests-02-hwmj/13uk-arrests-02-hwmj-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Neil Hall/EPA, via Shutterstock</media:credit>
       <media:description>The three men charged appeared at Westminster Magistrates’ Court on Monday. </media:description>
@@ -435,7 +437,7 @@
       <pubDate>Sun, 12 May 2024 21:35:05 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">da Vinci, Leonardo</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lecco (Italy)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Geology</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12xp-MonaLisa2-qvzw/12xp-MonaLisa2-qvzw-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Christophe Ena/Associated Press</media:credit>
@@ -761,7 +763,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/aurora-northern-lights-solar-storm-photos.html" rel="standout"></atom:link>
       <description>The unusual sight of aurora borealis was visible around the world.</description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sun, 12 May 2024 14:54:31 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 16:58:23 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Aurora Borealis</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
