@@ -15,7 +15,7 @@
 	<atom:link href="https://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://techcrunch.com/</link>
 	<description>Startup and Technology News</description>
-	<lastBuildDate>Sun, 12 May 2024 15:54:29 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 12 May 2024 20:31:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,6 +31,26 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">136296444</site>	<item>
+		<title>Women in AI: Rep. Dar&#8217;shun Kendrick wants to pass more AI legislation</title>
+		<link>https://techcrunch.com/2024/05/12/women-in-ai-rep-darshun-kendrick-wants-to-pass-more-ai-legislation/</link>
+		
+		<dc:creator><![CDATA[Dominic-Madori Davis]]></dc:creator>
+		<pubDate>Sun, 12 May 2024 17:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Government & Policy]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[Women in AI]]></category>
+		<category><![CDATA[women in ai series]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2769046</guid>
+
+					<description><![CDATA[<p>To give AI-focused women academics and others their well-deserved — and overdue — time in the spotlight, TechCrunch has been publishing a&#160;series of interviews&#160;focused on remarkable women who’ve contributed to the AI revolution. We’re publishing these pieces throughout the year as the AI boom continues, highlighting key work that often goes unrecognized. Read more profiles&#160;here. [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2769046</post-id>	</item>
+		<item>
 		<title>A reckoning is coming for emerging venture funds, and that, VCs say, is a good thing</title>
 		<link>https://techcrunch.com/2024/05/12/emerging-fund-venture-capital/</link>
 		
@@ -62,7 +82,7 @@
 		<category><![CDATA[Apple]]></category>
 		<guid isPermaLink="false">https://techcrunch.com/?p=2777165</guid>
 
-					<description><![CDATA[<p>It&#8217;s been a busy weekend for union organizing efforts at U.S. Apple stores, with the union at one store voting to authorize a strike, while workers at another store voted against forming a union. Back in 2022, workers the Apple store in Towson, Maryland became organized the first formally recognized union at an Apple retail [&#8230;]</p>
+					<description><![CDATA[<p>It&#8217;s been a busy weekend for union organizing efforts at U.S. Apple stores, with the union at one store voting to authorize a strike, while workers at another store voted against forming a union. Back in 2022, workers in Towson, Maryland became the first formally recognized union at an Apple retail store. That union, which [&#8230;]</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
@@ -393,8 +413,8 @@
 		<dc:creator><![CDATA[Aria Alamalhodaei]]></dc:creator>
 		<pubDate>Fri, 10 May 2024 19:00:00 +0000</pubDate>
 				<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Founders Fund]]></category>
 		<category><![CDATA[layup parts]]></category>
+		<category><![CDATA[Founders Fund]]></category>
 		<guid isPermaLink="false">https://techcrunch.com/?p=2766219</guid>
 
 					<description><![CDATA[<p>Scarcely five months after its founding, hard tech startup Layup Parts has landed a $9 million round of financing led by Founders Fund to transform composites manufacturing. Lux Capital and Haystack also participated. The breakneck pace is more than a subtle indication that investors&#8217; appetite for tech-focused solutions to the woes of the American industrial base [&#8230;]</p>
@@ -404,25 +424,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2766219</post-id>	</item>
-		<item>
-		<title>Anthropic now lets kids use its AI tech &#8212; within limits</title>
-		<link>https://techcrunch.com/2024/05/10/anthropic-now-lets-kids-use-its-ai-tech-within-limits/</link>
-		
-		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
-		<pubDate>Fri, 10 May 2024 18:35:38 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[anthropic]]></category>
-		<category><![CDATA[Generative AI]]></category>
-		<category><![CDATA[kids]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2770502</guid>
-
-					<description><![CDATA[<p>AI startup Anthropic is changing its policies to allow minors to use its generative AI systems &#8212; in certain circumstances, at least.&#160; Announced in a post on the company&#8217;s official blog Friday, Anthropic will begin letting teens and preteens use third-party apps (but not its own apps, necessarily) powered by its AI models so long [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2770502</post-id>	</item>
 	</channel>
 </rss>

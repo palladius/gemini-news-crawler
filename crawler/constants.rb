@@ -127,6 +127,7 @@ NEWS_BY_REGION ={
     # Ruby RSS from https://rss.feedspot.com/ruby_on_rails_rss_feeds/
     'Ruby on Rails': 'https://rubyonrails.org/feed.xml',
     'Ruby Flow': 'https://rubyflow.com/rss',
+    'Crunchydata RoR': 'https://www.crunchydata.com/blog/topic/ruby-on-rails/rss.xml',
   }
 }
 

@@ -9,11 +9,19 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 May 2024 16:51:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 May 2024 05:16:26 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Sunak to promise 'bold ideas' in pre-election pitch]]></title>
+            <description><![CDATA[The PM will argue in a speech that the UK is facing some of its "most transformational" years.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-69000303</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-69000303#0</guid>
+            <pubDate>Mon, 13 May 2024 05:01:13 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/271A/production/_133301001_a1.jpg"/>
+        </item>
         <item>
             <title><![CDATA[UK arms ban for Israel would strengthen Hamas, says Cameron]]></title>
             <description><![CDATA[Foreign Secretary David Cameron tells the BBC the UK should focus on getting humanitarian aid into Gaza.]]></description>
@@ -61,14 +69,6 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68994326#0</guid>
             <pubDate>Sat, 11 May 2024 05:06:47 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4F41/production/_133298202_boat.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[How foreign affairs could shape votes at home]]></title>
-            <description><![CDATA[Former, current and would-be foreign secretaries set out their pitch for Britain and the world. ]]></description>
-            <link>https://www.bbc.com/news/articles/crgy9qpdr8go</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/crgy9qpdr8go#0</guid>
-            <pubDate>Sat, 11 May 2024 01:06:07 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/c1ba/live/f1af6650-0f02-11ef-abe6-bf113436bc18.jpg"/>
         </item>
         <item>
             <title><![CDATA[Sunak says it'll take time for people feel better as UK exits recession]]></title>
@@ -421,6 +421,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68957531#3</guid>
             <pubDate>Sat, 04 May 2024 12:25:24 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B673/production/_133270764_p0hw2r05.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How foreign affairs could shape votes at home]]></title>
+            <description><![CDATA[Former, current and would-be foreign secretaries set out their pitch for Britain and the world. ]]></description>
+            <link>https://www.bbc.com/news/articles/crgy9qpdr8go</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/crgy9qpdr8go#4</guid>
+            <pubDate>Sat, 11 May 2024 01:06:07 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/c1ba/live/f1af6650-0f02-11ef-abe6-bf113436bc18.jpg"/>
         </item>
         <item>
             <title><![CDATA[Chris Mason: A defection barely anyone saw coming]]></title>

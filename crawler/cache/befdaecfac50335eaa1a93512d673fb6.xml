@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Sun, 12 May 2024 16:51:06 +0000</lastBuildDate>
-    <pubDate>Sun, 12 May 2024 16:32:04 +0000</pubDate>
+    <lastBuildDate>Mon, 13 May 2024 05:14:25 +0000</lastBuildDate>
+    <pubDate>Mon, 13 May 2024 05:08:39 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -21,7 +21,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/gaza-war-hamas-yahya-sinwar.html" rel="standout"></atom:link>
       <description>Hamas’s leader in Gaza is considered an architect of the Oct. 7 attacks that prompted Israel to retaliate. As mediators seek a cease-fire, a deal depends on Mr. Sinwar as well as his Israeli foes.</description>
       <dc:creator>Patrick Kingsley, Julian E. Barnes and Adam Rasgon</dc:creator>
-      <pubDate>Sun, 12 May 2024 13:06:57 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 00:20:36 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haniya, Ismail</category>
@@ -58,48 +58,57 @@
       <link>https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/russia-ukraine-kharkiv.html" rel="standout"></atom:link>
-      <description>A Ukrainian military unit said that its troops were forced to retreat from several positions and that one settlement had been captured by Russian forces.</description>
+      <description>With Ukrainian troops outnumbered, exhausted and now in retreat near Kharkiv, many Ukrainians wonder if the war has taken a significant turn for the worse.</description>
       <dc:creator>Jeffrey Gettleman and Constant Méheut</dc:creator>
-      <pubDate>Sun, 12 May 2024 15:11:57 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 01:31:53 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12ukraine-kharkiv-01-hkbv/12ukraine-kharkiv-01-hkbv-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12ukraine-kharkiv-zhwv/12ukraine-kharkiv-zhwv-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Emile Ducke for The New York Times</media:credit>
-      <media:description>A person being evacuated to Kharkiv city on Saturday.</media:description>
+      <media:description>Evacuees from the Ukrainian village of Lyptsi, near the Russian border, being taken to the city of Kharkiv on Sunday.</media:description>
     </item>
     <item>
-      <title>Ukraine’s Seaborne Grain Exports Bounce Back to Near Prewar Levels</title>
-      <link>https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html" rel="standout"></atom:link>
-      <description>The flow of grain ships through ports in the Odesa region is a welcome boost for Ukraine’s war-ravaged economy. But analysts warn it may not last.</description>
-      <dc:creator>Constant Méheut</dc:creator>
-      <pubDate>Sun, 12 May 2024 09:02:04 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ships and Shipping</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ports</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Black Sea</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Odessa (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14ukraine-grain-ltvh/14ukraine-grain-ltvh-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Oksana Parafeniuk for The New York Times</media:credit>
-      <media:description>A 700-foot Liberian-flagged ship carrying corn bound for Bangladesh leaving the Ukrainian port of Odesa in March.</media:description>
+      <title>Spain’s Socialists Win Catalan Vote Dominated by Amnesty for Separatists</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/spain-catalan-election.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/spain-catalan-election.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/spain-catalan-election.html" rel="standout"></atom:link>
+      <description>For the first time in over a decade, the regional government in Catalonia may be led by a party opposed to independence.</description>
+      <dc:creator>Rachel Chaundler</dc:creator>
+      <pubDate>Mon, 13 May 2024 03:41:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Catalonia (Spain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Secession and Independence Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Amnesties, Commutations and Pardons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Esquerra Republicana de Catalunya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Together for Catalonia (Spanish Political Party)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12catalonia-election-new-top-mzqt/12catalonia-election-new-top-mzqt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Lluis Gene/Agence France-Presse — Getty Images</media:credit>
+      <media:description>The Socialist leader in Catalonia, Salvador Illa, center, celebrating in Barcelona.</media:description>
     </item>
     <item>
-      <title>Middle East Crisis: Fighting Rages in Northern Gaza, an Area Israeli Troops Had Left</title>
-      <link>https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah</link>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah</guid>
-      <atom:link href="https://www.nytimes.com/live/2024/05/12/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
-      <description>The fighting in Gaza City and Jabaliya fit into a familiar scenario: Israeli forces returning to an area where they had defeated Hamas earlier in the war.</description>
-      <dc:creator>The New York Times</dc:creator>
-      <pubDate>Sun, 12 May 2024 16:32:04 +0000</pubDate>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-gaza-promoj-1p-cqbw/12mideast-gaza-promoj-1p-cqbw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <title>Fighting Flares Anew in Gaza as Hamas Reconstitutes</title>
+      <link>https://www.nytimes.com/2024/05/12/world/middleeast/israel-hamas-gaza.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/middleeast/israel-hamas-gaza.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/israel-hamas-gaza.html" rel="standout"></atom:link>
+      <description>The U.S. secretary of state warned that Israel’s victories over Hamas may not be “sustainable.”</description>
+      <dc:creator>Liam Stack, Aaron Boxerman and Eric Nagourney</dc:creator>
+      <pubDate>Mon, 13 May 2024 05:06:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <media:content height="1036" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-ledeall-pvlq/12mideast-ledeall-pvlq-mediumSquareAt3X.jpg" width="1036"></media:content>
       <media:credit>Amir Cohen/Reuters</media:credit>
+      <media:description>A missile hitting a building in northern Gaza, seen from Israel, on Saturday.</media:description>
     </item>
     <item>
       <title>The Controversy Over K-pop Band NewJeans</title>
@@ -108,12 +117,12 @@
       <atom:link href="https://www.nytimes.com/2024/05/12/world/asia/newjeans-kpop-controversy-hybe.html" rel="standout"></atom:link>
       <description>The firm Hybe has lost hundreds of millions of dollars in market value because of a feud with the creative force behind the band NewJeans.</description>
       <dc:creator>Jin Yu Young</dc:creator>
-      <pubDate>Sun, 12 May 2024 04:01:19 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <pubDate>Mon, 13 May 2024 02:39:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">K-Pop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hybe America (Hybe Co Ltd)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">NewJeans (Music Group)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">BTS (Music Group)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hybe America (Hybe Co Ltd)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">K-Pop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/03/multimedia/00skorea-kpop-kpwv/00skorea-kpop-kpwv-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Kim Hong-Ji/Reuters</media:credit>
       <media:description>Min Hee-jin, who developed the band NewJeans and is embroiled in a dispute with her employer, at a news conference last month in Seoul.</media:description>
@@ -125,7 +134,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/12/world/asia/bus-crash-indonesia-students.html" rel="standout"></atom:link>
       <description>The vehicle was carrying dozens of teachers and students when it sped out of control on a downhill road and crashed into several vehicles in a hilly resort area.</description>
       <dc:creator>Jin Yu Young</dc:creator>
-      <pubDate>Sun, 12 May 2024 07:44:03 +0000</pubDate>
+      <pubDate>Mon, 13 May 2024 00:22:16 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Traffic Accidents and Safety</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Buses</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bandung (Indonesia)</category>
@@ -285,13 +294,110 @@
       <media:description>Supporters of former South African president Jacob Zuma’s uMkhonto weSizwe Party (MK) protested over the lack of service delivery in Pietermaritzburg, KwaZulu_Natal province where they delivered a memorandum to the city’s mayor’s office, on Wednesday.</media:description>
     </item>
     <item>
+      <title>Cold Lava and Floods Kill 37 on Indonesian Island of Sumatra</title>
+      <link>https://www.nytimes.com/2024/05/13/world/asia/cold-lava-indonesia.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/asia/cold-lava-indonesia.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/world/asia/cold-lava-indonesia.html" rel="standout"></atom:link>
+      <description>Heavy rain on the island of Sumatra caused torrents of rock and ash to flow down a volcano and into nearby towns. At least 17 people were still missing.</description>
+      <dc:creator>Yan Zhuang</dc:creator>
+      <pubDate>Mon, 13 May 2024 05:08:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Volcanoes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Indonesia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sumatra (Indonesia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Floods</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13vid-coldlava-mlvj/13vid-coldlava-mlvj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Givo Alputra/EPA, via Shutterstock</media:credit>
+    </item>
+    <item>
+      <title>Monday Briefing</title>
+      <link>https://www.nytimes.com/2024/05/13/briefing/fighting-ukraine-gaza-northern-lights.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/briefing/fighting-ukraine-gaza-northern-lights.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/briefing/fighting-ukraine-gaza-northern-lights.html" rel="standout"></atom:link>
+      <description>Here’s what you need to know.</description>
+      <dc:creator>Natasha Frost</dc:creator>
+      <pubDate>Mon, 13 May 2024 04:41:12 +0000</pubDate>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/fjmq/fjmq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Emile Ducke for The New York Times</media:credit>
+      <media:description>Evacuees arriving in Kharkiv on Sunday.</media:description>
+    </item>
+    <item>
+      <title>A Night to Remember at the Opera, Complete With a Phantom</title>
+      <link>https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html" rel="standout"></atom:link>
+      <description>About 130 children took part in a sleepover at Rome’s opera house, part of a campaign to make up for a lack of music education by making the theater and the art form more familiar and accessible.</description>
+      <dc:creator>Elisabetta Povoledo and Alessandro Penso</dc:creator>
+      <pubDate>Mon, 13 May 2024 04:01:30 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13rome-opera-mtqz-promo/13rome-opera-mtqz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alessandro Penso for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Monday Briefing: Russia Pushes Into Northern Ukraine</title>
+      <link>https://www.nytimes.com/2024/05/12/world/asia/russia-kharkiv-israel-gaza-asia.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/asia/russia-kharkiv-israel-gaza-asia.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/asia/russia-kharkiv-israel-gaza-asia.html" rel="standout"></atom:link>
+      <description>Also, fighting is raging in northern Gaza.</description>
+      <dc:creator>Amelia Nierenberg</dc:creator>
+      <pubDate>Sun, 12 May 2024 20:53:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Far East, South and Southeast Asia and Pacific Areas</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/13ambriefing-asia-ukraine/13ambriefing-asia-ukraine-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Emile Ducke for The New York Times</media:credit>
+      <media:description>Olha Melnichuk, an 85-year-old Ukrainian, was evacuated to Kharkiv on Saturday.</media:description>
+    </item>
+    <item>
+      <title>Putin Replaces Defense Minister in Rare Cabinet Shake-up</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/russia-putin-cabinet-war-shoigu.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/russia-putin-cabinet-war-shoigu.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/russia-putin-cabinet-war-shoigu.html" rel="standout"></atom:link>
+      <description>Mr. Putin shifted Sergei Shoigu to run the security council, and nominated an economist to run the defense ministry.</description>
+      <dc:creator>Paul Sonne and Anton Troianovski</dc:creator>
+      <pubDate>Mon, 13 May 2024 00:22:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shoigu, Sergei K</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Patrushev, Nikolai P</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12russia-defense-qfcw/12russia-defense-qfcw-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Nanna Heitmann for The New York Times</media:credit>
+      <media:description>Sergei K. Shoigu at the Victory Day military parade in Moscow this month.</media:description>
+    </item>
+    <item>
+      <title>Blinken Says U.S. Has Not Ruled Out Withholding More Military Aid From Israel</title>
+      <link>https://www.nytimes.com/2024/05/12/world/middleeast/us-military-aid-israel-blinken.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/middleeast/us-military-aid-israel-blinken.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/us-military-aid-israel-blinken.html" rel="standout"></atom:link>
+      <description>The secretary of state said the U.S. could pull additional support if Israel undertakes a major attack on Rafah.</description>
+      <dc:creator>Carol Rosenberg and Minho Kim</dc:creator>
+      <pubDate>Sun, 12 May 2024 20:48:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Aid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-blinken-lmzj/12mideast-blinken-lmzj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Michael Reynolds/EPA, via Shutterstock</media:credit>
+      <media:description>Antony J. Blinken, the U.S. secretary of state, at the State Department on Friday.</media:description>
+    </item>
+    <item>
       <title>Mystery of Mona Lisa’s Location May Be Solved</title>
       <link>https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/12/arts/mona-lisa-location-solved.html" rel="standout"></atom:link>
       <description>A mash-up of geology and art history has identified a likely setting for one of the world’s most famous paintings.</description>
       <dc:creator>Ali Watkins</dc:creator>
-      <pubDate>Sun, 12 May 2024 14:54:33 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 21:35:05 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">da Vinci, Leonardo</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
@@ -307,16 +413,16 @@
       <atom:link href="https://www.nytimes.com/2024/05/12/world/middleeast/rafah-gaza-evacuation.html" rel="standout"></atom:link>
       <description>The Israeli military has expanded its evacuation orders for Rafah, deepening fears that it was preparing a full-scale invasion of the city in southern Gaza.</description>
       <dc:creator>Mike Ives</dc:creator>
-      <pubDate>Sun, 12 May 2024 13:45:19 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 18:42:28 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-crisis-rafah-tjcg/12mideast-crisis-rafah-tjcg-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Agence France-Presse — Getty Images</media:credit>
-      <media:description>Tents housing displaced Palestinians in Rafah, in southern Gaza, on Saturday.</media:description>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12mideast-food-tgkc/12mideast-food-tgkc-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Ramadan Abed/Reuters</media:credit>
+      <media:description>Palestinians seeking water at a tent camp in Deir al Balah, in the central Gaza Strip, on Saturday.</media:description>
     </item>
     <item>
       <title>Can Parrots Converse? Polly Says That’s the Wrong Question.</title>
@@ -338,13 +444,33 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
     </item>
     <item>
+      <title>Ukraine’s Seaborne Grain Exports Bounce Back to Near Prewar Levels</title>
+      <link>https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/12/world/europe/ukraine-black-sea-grain-exports.html" rel="standout"></atom:link>
+      <description>The flow of grain ships through ports in the Odesa region is a welcome boost for Ukraine’s war-ravaged economy. But analysts warn it may not last.</description>
+      <dc:creator>Constant Méheut</dc:creator>
+      <pubDate>Sun, 12 May 2024 09:02:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ships and Shipping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Black Sea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Odessa (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14ukraine-grain-ltvh/14ukraine-grain-ltvh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Oksana Parafeniuk for The New York Times</media:credit>
+      <media:description>A 700-foot Liberian-flagged ship carrying corn bound for Bangladesh leaving the Ukrainian port of Odesa in March.</media:description>
+    </item>
+    <item>
       <title>Elon Musk’s Diplomacy: Woo Right-Wing World Leaders. Then Benefit.</title>
       <link>https://www.nytimes.com/2024/05/12/technology/elon-musk-world-leaders.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/12/technology/elon-musk-world-leaders.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/12/technology/elon-musk-world-leaders.html" rel="standout"></atom:link>
       <description>Mr. Musk has built a constellation of like-minded heads of state — including Argentina’s Javier Milei and India’s Narendra Modi — to push his own politics and expand his business empire.</description>
       <dc:creator>Ryan Mac, Jack Nicas and Alex Travelli</dc:creator>
-      <pubDate>Sun, 12 May 2024 15:33:06 +0000</pubDate>
+      <pubDate>Sun, 12 May 2024 15:33:07 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Musk, Elon</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tesla Motors Inc</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Space Exploration Technologies Corp</category>
@@ -551,7 +677,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/xi-europe-diplomacy.html" rel="standout"></atom:link>
       <description>The red carpet receptions China’s leader received in France, Serbia and Hungary helped recast a strained relationship with the continent.</description>
       <dc:creator>Andrew Higgins and Chris Buckley</dc:creator>
-      <pubDate>Fri, 10 May 2024 22:36:21 +0000</pubDate>
+      <pubDate>Fri, 10 May 2024 22:36:22 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Belgrade (Serbia)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Budapest (Hungary)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orban, Viktor</category>
@@ -1056,131 +1182,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09mideast-crisis-asians-rift-01-mhkg/09mideast-crisis-asians-rift-01-mhkg-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Kent Nishimura for The New York Times</media:credit>
       <media:description>David Inoue, the executive director of the Japanese American Citizens League, next to a painting that depicts a Supreme Court case during the World War II incarceration of people of Japanese descent.</media:description>
-    </item>
-    <item>
-      <title>Chad’s Military Ruler Is Announced as Winner of Disputed Election</title>
-      <link>https://www.nytimes.com/2024/05/09/world/africa/chad-election.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/africa/chad-election.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/africa/chad-election.html" rel="standout"></atom:link>
-      <description>The Central African country’s incumbent president and his prime minister both ran. Shortly after the prime minister claimed victory, the president was declared the winner.</description>
-      <dc:creator>Ruth Maclean</dc:creator>
-      <pubDate>Fri, 10 May 2024 12:01:46 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Chad</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Deby, Mahamat Idriss</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/06/09/multimedia/09chad-election-01-hlmt/09chad-election-01-hlmt-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Issouf Sanogo/Agence France-Presse — Getty Images</media:credit>
-      <media:description>President Mahamat Idriss Déby of Chad at a campaign rally in Ndjamena, the capital, last week.</media:description>
-    </item>
-    <item>
-      <title>Bernard Pivot, Host of Influential French TV Show on Books, Dies at 89</title>
-      <link>https://www.nytimes.com/2024/05/09/world/europe/bernard-pivot-dead.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/europe/bernard-pivot-dead.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/europe/bernard-pivot-dead.html" rel="standout"></atom:link>
-      <description>For 15 years, French viewers watched Mr. Pivot on his weekly show, “Apostrophes,” to decide what to read next.</description>
-      <dc:creator>Adam Nossiter</dc:creator>
-      <pubDate>Fri, 10 May 2024 21:30:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pivot, Bernard (1935- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Matzneff, Gabriel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Solzhenitsyn, Aleksandr I</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bukowski, Charles</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duras, Marguerite</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Apostrophes (TV Program)</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09Pivot--03-gjqm/09Pivot--03-gjqm-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Remi Berli/Gamma-Rapho, via Getty Images</media:credit>
-      <media:description>Bernard Pivot in 1980. His weekly show, “Apostrophes,” ran from 1975 to 1990.</media:description>
-    </item>
-    <item>
-      <title>As Gaza Talks Falter, Negotiators Look for a Deal or a Scapegoat</title>
-      <link>https://www.nytimes.com/2024/05/09/us/politics/gaza-israel-biden-hamas.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/us/politics/gaza-israel-biden-hamas.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/us/politics/gaza-israel-biden-hamas.html" rel="standout"></atom:link>
-      <description>President Biden’s decision to withhold offensive weapons if Israel attacks Rafah has scrambled cease-fire talks. But much of the various sides’ recriminations may be to gain advantage — or shift blame.</description>
-      <dc:creator>Peter Baker</dc:creator>
-      <pubDate>Fri, 10 May 2024 01:09:39 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Peace Process</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Aid</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bombs and Explosives</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09dc-biden-assess-zfhb/09dc-biden-assess-zfhb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Mohammed Saber/EPA, via Shutterstock</media:credit>
-      <media:description>President Biden has long objected to an assault on Rafah, where more than one million Palestinians have taken refuge, because he has seen no war plan that would not result in extensive civilian casualties. </media:description>
-    </item>
-    <item>
-      <title>Rafah Invasion Tests Biden’s Relationship With Israel</title>
-      <link>https://www.nytimes.com/2024/05/09/world/middleeast/israel-gaza-rafah-biden.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/middleeast/israel-gaza-rafah-biden.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/middleeast/israel-gaza-rafah-biden.html" rel="standout"></atom:link>
-      <description>Defiant Israelis have vowed to do “whatever is necessary” in the Gaza Strip despite the American president’s threat to withhold weapons.</description>
-      <dc:creator>Adam Rasgon, Julian E. Barnes and Michael Levenson</dc:creator>
-      <pubDate>Thu, 09 May 2024 22:20:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Trade</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Aid</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09mideast-crisis-leadall-01-hpwb/09mideast-crisis-leadall-01-hpwb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Abir Sultan/EPA, via Shutterstock</media:credit>
-      <media:description>Israeli military vehicles near the border of the Gaza Strip on Thursday at an undisclosed location.</media:description>
-    </item>
-    <item>
-      <title>Friday Briefing: Stormy Daniels, Day Two</title>
-      <link>https://www.nytimes.com/2024/05/09/world/asia/stormy-trump-israel-rafah-asia.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/world/asia/stormy-trump-israel-rafah-asia.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/world/asia/stormy-trump-israel-rafah-asia.html" rel="standout"></atom:link>
-      <description>Also, Israel-Hamas talks falter again.</description>
-      <dc:creator>Amelia Nierenberg</dc:creator>
-      <pubDate>Thu, 09 May 2024 20:53:54 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Far East, South and Southeast Asia and Pacific Areas</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10ambriefing-asia-nl-daniels-mqkt/10ambriefing-asia-nl-daniels-mqkt-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Justin Lane/EPA, via Shutterstock</media:credit>
-      <media:description>Stormy Daniels, 45, leaving court yesterday.</media:description>
-    </item>
-    <item>
-      <title>Israel ‘Smashing Into Rafah’ Will Not Eradicate Hamas, Biden Aide Says</title>
-      <link>https://www.nytimes.com/2024/05/09/us/politics/biden-kirby-israel-hamas-rafah.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/09/us/politics/biden-kirby-israel-hamas-rafah.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/09/us/politics/biden-kirby-israel-hamas-rafah.html" rel="standout"></atom:link>
-      <description>The president has grown increasingly wary of a major assault in the densely populated city in southern Gaza.</description>
-      <dc:creator>Erica L. Green</dc:creator>
-      <pubDate>Fri, 10 May 2024 07:52:26 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kirby, John F</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bombs and Explosives</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09dc-prexy-clhz/09dc-prexy-clhz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Ramez Habboub/Associated Press</media:credit>
-      <media:description>Smoke rising over buildings after an airstrike near Rafah, southern Gaza, on Tuesday.</media:description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,9 @@
 module Embeddable
   extend ActiveSupport::Concern
 
+  EmbeddableFields =  %w{ title_embedding summary_embedding article_embedding} # .each do |my_field|
+
+
 #   included do
 # #    store_accessor :embeddings, :title_embedding, :summary_embedding
 #     store_accessor :title_embedding, :summary_embedding
@@ -137,8 +140,29 @@ module Embeddable
 
   def similar_articles(max_size: 5)
     Article.all.first(5)
-    #[]
   end
+
+  # def fix_strings!(my_field:, save_after_correct_assignment: true)
+  #   raise "Unsupported/Unfixable field: #{my_field}" unless EmbeddableFields.include?(my_field.to_s)
+  #   val = self.send(my_field)
+  #   if val.is_a?(String)
+  #     puts("Trying to move String to an Array")
+  #     # Dangerous!!!
+  #     new_val = eval(val)
+  #     raise "Not an array - exiting!" unless new_val.is_a?(Array)
+  #     # Now we're good - assignign
+  #     # a.send(:c=, b.send(:c))
+  #     self.send("#{my_field}=", new_val)
+  #     # Now we're good - saving - maybe?
+  #     self.save if save_after_correct_assignment
+  #   end
+  # end
+
+  # def autofix_strings_bug!()
+  #   EmbeddableFields.each do |f|
+  #     fix_strings!(my_field: f)
+  #   end
+  # end
 
   # Sistanbce from another Article by title
   def distance_by_title_from(article) # , field: :title)
@@ -152,11 +176,36 @@ module Embeddable
       FROM Articles
       ORDER BY title_embedding <=>
       (
-       SELECT title_embedding FROM Articles WHERE id=3901
+       SELECT title_embedding FROM Articles WHERE id=#{article.id}
       )
        LIMIT 5;"
   end
 
+  # Last in DEV:  => {"title_embedding_class"=>String, "summary_embedding_class"=>NilClass, "article_embedding_class"=>Array, "article_embedding_array_len"=>768}
+  # Last in PROD: => {"title_embedding_class"=>NilClass, "summary_embedding_class"=>String, "article_embedding_class"=>NilClass}
+  def embeddings_palooza
+    ret = { env: Rails.env } # boh: 'remove me'
+    # title_embedding: nil,
+    # summary_embedding: nil,
+    # article_embedding: nil>
+    %w{ title_embedding summary_embedding article_embedding}.each do |my_field|
+    val = self.send(my_field)
+    ret["#{my_field}_class"] = val.class
+    if val.nil?
+      ret["#{my_field}_nil"] = true
+      original_field = my_field.gsub(/_embedding/,'')
+      original_field_value = self.send(original_field)
+      ret["#{my_field}_original_field_nil"] =  original_field_value.nil?
+      ret["#{my_field}_make_sense_to_compute_embedding"] = not(original_field_value.nil?)
+      ret["#{original_field}_class"] = original_field_value.class
+    end
+      if val.is_a?(Array)
+      ret["#{my_field}_array_len"] = val.length
+      ret["#{my_field}_array_sample123"] = [val[0],val[1],val[2]] if (val.length ==768)
+    end
+  end
+  ret
+  end
   # Class Methods: https://stackoverflow.com/questions/33326257/what-does-class-methods-do-in-concerns
   class_methods do
     # EMbeddings which i thought was love instead was a caless...

@@ -633,6 +633,25 @@ For more information, see <a href="https://cloud.google.com/apigee/docs/api-plat
     <content type="html"><![CDATA[<h2 class="release-note-product-title">AlloyDB for PostgreSQL</h2>
 <h3>Feature</h3>
 <p>You can now <a href="https://cloud.google.com/alloydb/docs/manage-password-policy">set password policies for local database users</a>.</p>
+<h2 class="release-note-product-title">Apigee API hub</h2>
+<h3>Announcement</h3>
+<p>Apigee API hub is available in <a href="https://cloud.google.com/products#product-launch-stages">preview</a>.</p>
+
+<p>With Apigee API hub, you can consolidate and organize critical information about your APIs in one place. Use API hub to accelerate the consistency, use, reuse, and governance of your API portfolio.</p>
+
+<p>Use API hub to:</p>
+
+<ul>
+<li>Create and manage a complete catalog of your APIs and API resources.</li>
+<li>Add rich attributes to your APIs for tracking, organizing, and filtering.</li>
+<li>Link to one or more Apigee projects to automatically fetch and store Apigee API proxy information.</li>
+<li>Find APIs with powerful free-form semantic search capabilities.</li>
+<li>Track compliance for your API specification files using Linting functionality.</li>
+</ul>
+
+<p>To learn more about the features and functionality available, see <a href="https://cloud.google.com/apigee/docs/apihub/what-is-api-hub">What is Apigee API hub?</a></p>
+
+<p><strong>NOTE</strong>: Rollouts of this feature will begin on May 6, 2024, and may take four or more business days to be completed across all Google Cloud zones. You may not be able to provision API hub until the rollout is complete.</p>
 <h2 class="release-note-product-title">AutoML Natural Language</h2>
 <h3>Deprecated</h3>
 <p>This legacy version of AutoML Natural Language is <a href="https://cloud.google.com/natural-language/automl/docs/deprecations">deprecated</a> and new models can no longer be trained nor deployed on the legacy platform. Already deployed models will stop working on May 30, 2024. All the functionality of legacy AutoML Natural Language and new features are available on the Vertex AI platform. See <a href="https://cloud.google.com/vertex-ai/docs/start/migrating-to-vertex-ai">Migrate to Vertex AI</a> to learn how to migrate your resources.</p>
@@ -1806,9 +1825,6 @@ You can customize the title&#39;s font, color, size, styling, and positioning wi
     <content type="html"><![CDATA[<h2 class="release-note-product-title">AlloyDB for PostgreSQL</h2>
 <h3>Feature</h3>
 <p>You can now <a href="https://cloud.google.com/alloydb/docs/maintenance-windows">set maintenance windows for your AlloyDB clusters</a>. If you do, then AlloyDB schedules non-emergency maintenance events to begin only during the weekly period that you specify. You can also opt in to receive email notifications of upcoming maintenance events.</p>
-<h2 class="release-note-product-title">Apigee API hub</h2>
-<h3>Announcement</h3>
-<p>The new Apigee API hub feature is available for <a href="https://cloud.google.com/products#product-launch-stages">preview</a>.</p>
 <h2 class="release-note-product-title">Apigee Integrated Portal</h2>
 <h3>Announcement</h3>
 <p>On May 1, 2024 we released an updated version of Apigee integrated portal.</p>

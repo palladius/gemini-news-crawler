@@ -9,11 +9,19 @@
             <link>https://www.bbc.co.uk/news/science_and_environment</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 May 2024 16:51:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 May 2024 05:16:20 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[27 new wild swimming sites for England - but are they clean?]]></title>
+            <description><![CDATA[Twenty-seven new sites have been designated for summer pollution monitoring.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-68989650</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-68989650#0</guid>
+            <pubDate>Mon, 13 May 2024 01:04:27 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/062B/production/_133297510_ed84250e-1f94-4cfc-b84b-01b97876b29a.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Northern Lights stun UK in spectacular display]]></title>
             <description><![CDATA[A rare solar storm made the aurora borealis visible across the UK, including across the south.]]></description>
@@ -61,14 +69,6 @@
             <guid isPermaLink="false">https://www.bbc.com/news/articles/cedxqn730gvo#0</guid>
             <pubDate>Fri, 10 May 2024 17:05:40 GMT</pubDate>
             <media:thumbnail width="240" height="180" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/d05d/live/07502210-0ee0-11ef-bee9-6125e244a4cd.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Mosquitoes found across Scotland as temperatures rise]]></title>
-            <description><![CDATA[One of the most common types of mosquito has been identified for the first time in locations across Scotland.]]></description>
-            <link>https://www.bbc.com/news/articles/cw0721l9183o</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw0721l9183o#0</guid>
-            <pubDate>Fri, 10 May 2024 05:21:04 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/de30/live/7cca4910-0ea1-11ef-82e8-cd354766a224.jpg"/>
         </item>
         <item>
             <title><![CDATA[Together in wonder: North America awed by total solar eclipse]]></title>

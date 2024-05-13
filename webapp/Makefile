@@ -90,3 +90,9 @@ push-latest-to-dev-manhouse:
 
 postgres-start-locally-mac:
 	brew services start postgresql
+
+postgres-schema:
+	echo "SELECT * FROM information_schema.columns WHERE table_name = 'articles'; " | rails dbconsole | tee articles.schema
+
+sample-gcp-article-neighbours:
+	echo 'Article.find(10170).closest_articles(size: 5, similarity_field: :title_embedding).map{|x| x.title}'| rails c

@@ -3,9 +3,17 @@ class Article < ApplicationRecord
 
   # https://github.com/ankane/neighbor
   has_neighbors :article_embedding
+  has_neighbors :title_embedding
+  has_neighbors :summary_embedding
 
   validates :title, uniqueness: true, presence: true
   validates :guid, uniqueness: true, presence: true
+
+  # Trying to fix the String bug for title_embedding - thanks Gemini!
+  #attribute :title_embedding, :float, array: true
+  #attribute :title_embedding, :vector, limit: 768
+  #     add_column :articles, :title_embedding, :vector, limit: 768 # dimensions
+
 
   has_many :article_tags,
     primary_key: :id,
@@ -104,13 +112,31 @@ class Article < ApplicationRecord
 
     # item.nearest_neighbors(:embedding, distance: "euclidean").first(5)
     # https://github.com/ankane/neighbor
-    def closest_articles(size: 6)
-      self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
+    # def closest_articles(size: 6)
+    #   self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
+    #   #self.nearest_neighbors(:title_embedding, distance: "euclidean").first(size)
+    # end
+    def closest_articles(size: 6, similarity_field: :title_embedding)
+      # TODO make sure its title/article/whatevs
+      raise "Unknown similarity field: #{similarity_field}" unless similarity_field.is_a?(Symbol)
+      self.nearest_neighbors(similarity_field, distance: "cosine").first(size)
+      #self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
+      #self.nearest_neighbors(:title_embedding, distance: "euclidean").first(size)
     end
 
     def set_embeddings_best_effort()
       puts("Article before_save(): set_embeddings_best_effort()")
       compute_embeddings rescue nil
+    end
+
+    # This should be the stuff you feed to the EMBEDDING
+    # Note this is just because then you have a correspondance between:
+    # * title -> title_embedding
+    # * summary -> summary_embedding
+    # * article(*) -> article_embedding
+    # (*) This was the ONLY one missing, som fixing it now.
+    def article
+      "#{self.title}\n\n#{self.summary}\n#{self.content}\n-- #{self.newspaper}"
     end
 
     # a.article_embedding =  a.title_embedding
@@ -121,8 +147,9 @@ class Article < ApplicationRecord
     # I need for fast computation of nearest neighbor.
     def self.import_title_embedding_into_article_embedding()
       Article.all.first(10000).each do |a|
+        # Note Bug with title_embedding.
         if a.article_embedding.nil? and (not a.title_embedding.nil?)
-          a.article_embedding =  a.title_embedding
+          a.article_embedding = a.title_embedding
           a.save
         end
       end

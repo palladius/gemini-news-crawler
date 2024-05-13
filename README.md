@@ -49,7 +49,13 @@ Apps are on Cloud Run
 3. call an async routing to populate - although since v0.1.5 this should happen automatically before save of Article.
 4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all max_instances: 5 | rails c`. Note: since I moved from Array to Vector this script is now BROKEN.
 5. On 12may24 I found the bug. When I assign the `title_embedding` it converts from float to String and before the assignment its a float! So it looks like the DB has a strong. But the DB says it has a vector, and the other Two fields have NO PROBLEMS! Maybe I should reset the DB and see what happens..
-
+6. Bug fixed by adding this to the model:
+```
+  has_neighbors :article_embedding
+  has_neighbors :title_embedding
+  has_neighbors :summary_embedding
+```
+Damn it was THAT easy.
 Error:
 ```
 (NoMethodError)

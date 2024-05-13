@@ -1,3 +1,4 @@
+2024-05-12 v0.2.4 [DEV] Fixed bug of Embeddings! Now I have 3 embeddings which work.
 2024-05-12 v0.2.3 [DEV] Added the first Chartkick graph.
 2024-05-12 v0.2.2 [DEV] Adding graphs and minor things.
 2024-04-19 v0.2.1 [DEV] Added BUCKET_NAME to Dockerfile

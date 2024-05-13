@@ -13,7 +13,7 @@ crawl-a-few:
 	MAX_ARTICLE_SIZE=2 MAX_WEBSITES=5 ./crawl.rb
 
 crawl-continuously:
-	MAX_ARTICLE_SIZE=1000 MAX_WEBSITES=5000 SLEEP_FOR_SECONDS=600 bin/crawl-continuously
+	MAX_ARTICLE_SIZE=12345 MAX_WEBSITES=5000 SLEEP_FOR_SECONDS=600 bin/crawl-continuously
 crawl-continuously-minitest:
 	MAX_ARTICLE_SIZE=2 MAX_WEBSITES=3 SLEEP_FOR_SECONDS=10 bin/crawl-continuously
 

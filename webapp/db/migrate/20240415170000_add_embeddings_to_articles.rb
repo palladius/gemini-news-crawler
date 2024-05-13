@@ -7,5 +7,8 @@ class AddEmbeddingsToArticles < ActiveRecord::Migration[7.1]
     enable_extension "vector"
     add_column :articles, :title_embedding, :vector, limit: 768 # dimensions
     add_column :articles, :summary_embedding, :vector, limit: 768 # dimensions
+    # As per https://github.com/ankane/neighbor:
+    #add_column :items, :embedding, :vector, limit: 3 # dimensions
+
   end
 end
