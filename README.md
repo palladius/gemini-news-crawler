@@ -1,7 +1,7 @@
 
 # About ♊️ GemiNews 📰
 
-Self: [palladius/gemini-news-crawler](https://github.com/palladius/gemini-news-crawler)
+Self: [palladius/gemini-news-crawler](https://github.com/palladius/gemini-news-crawler) (public)
 
 This is a News Slurper that takes News in real time and - hopefully - feeds an LLM with RAG knowledge.
 
@@ -35,7 +35,7 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 
 Apps are on Cloud Run
 
-* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/stats
+* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
 * PROD: [🫀 health check PROD](https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/up)
 
 ### TODOs
@@ -46,18 +46,11 @@ Apps are on Cloud Run
 
 ### Autofeed now
 
-1. `cd crawler/ ; $ make crawl-a-lot` or `make crawl-continuously` (`bundle install` if its the first time). This populates XML every 15min (or I get kicked out by the robots :P ) and slurps articles from XML. XML I check on git, articles i dont or theyre too many.
-2. `cd webapp ; bundle exec make seed-forever` (without bundle wont work). this seeds info from (1) into ActiveRecord, hence DB. Make sure the env vars are NOT empty in the 🧡🧡🧡 stanza.
+1. `cd crawler/ ; $ make crawl-a-lot` or `make crawl-continuously`. This populates XML every 15min (or I get kicked out by the robots :P ) and slurps articles from XML. XML I check on git, articles i dont or theyre too many.
+2. `cd webapp ; bundle exec make seed-forever` (without bundle wont work). this seeds info from (1) into ActiveRecord, hence DB.
 3. call an async routing to populate - although since v0.1.5 this should happen automatically before save of Article.
-4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all max_instances: 5 | rails c`. Note: since I moved from Array to Vector this script is now BROKEN.
-5. On 12may24 I found the bug. When I assign the `title_embedding` it converts from float to String and before the assignment its a float! So it looks like the DB has a strong. But the DB says it has a vector, and the other Two fields have NO PROBLEMS! Maybe I should reset the DB and see what happens..
-6. Bug fixed by adding this to the model:
-```
-  has_neighbors :article_embedding
-  has_neighbors :title_embedding
-  has_neighbors :summary_embedding
-```
-Damn it was THAT easy.
+4. This workED: `cd webapp ; echo Article.compute_embeddings_for_all | rails c`. Note: since I moved from Array to Vector this script is now BROKEN
+
 Error:
 ```
 (NoMethodError)
@@ -73,7 +66,7 @@ Did you mean?  to_s
 Issue with keys
 ```
 * Created secret: `projects/272932496670/secrets/geminews-key`
-* Mounted on CRun as /geminews-key/geminews-key
+* Mounted on Crun as /geminews-key/geminews-key
 * Now the final bit: GCP_KEY_PATH_FROM_WEBAPP = /geminews-key/geminews-key
 
 ### esbuild issues

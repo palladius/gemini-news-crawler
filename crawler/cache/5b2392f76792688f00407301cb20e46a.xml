@@ -7,7 +7,33 @@
   <author>
     <name>Google Cloud Platform</name>
   </author>
-  <updated>2024-05-10T00:00:00-07:00</updated>
+  <updated>2024-05-13T00:00:00-07:00</updated>
+
+  <entry>
+    <title>May 13, 2024</title>
+    <id>tag:google.com,2016:gcp-release-notes#May_13_2024</id>
+    <updated>2024-05-13T00:00:00-07:00</updated>
+    <link rel="alternate" href="https://cloud.google.com/release-notes#May_13_2024"/>
+    <content type="html"><![CDATA[<h2 class="release-note-product-title">Cloud Logging</h2>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-logging" class="external">Changes for <a href="https://github.com/googleapis/java-logging">google-cloud-logging</a></h3>
+
+<h4 id="3171_2024-05-06"><a href="https://github.com/googleapis/java-logging/compare/v3.17.0...v3.17.1" target="_blank" rel="noreferrer noopener" class="external">3.17.1</a> (2024-05-06)</h4>
+
+<h5 id="dependencies">Dependencies</h5>
+
+<ul>
+<li>Update actions/checkout action to v4 (<a href="https://github.com/googleapis/java-logging/issues/1570" target="_blank" rel="noreferrer noopener" class="external">#1570</a>) (<a href="https://github.com/googleapis/java-logging/commit/ea0db3579da6e965e778233b3cba4862b3fff65c" target="_blank" rel="noreferrer noopener" class="external">ea0db35</a>)</li>
+<li>Update actions/github-script action to v7 (<a href="https://github.com/googleapis/java-logging/issues/1571" target="_blank" rel="noreferrer noopener" class="external">#1571</a>) (<a href="https://github.com/googleapis/java-logging/commit/16d61928b6d4887faebbdd48a694a2edff8cb752" target="_blank" rel="noreferrer noopener" class="external">16d6192</a>)</li>
+<li>Update actions/setup-java action to v4 (<a href="https://github.com/googleapis/java-logging/issues/1572" target="_blank" rel="noreferrer noopener" class="external">#1572</a>) (<a href="https://github.com/googleapis/java-logging/commit/9eb88346fac9688c0e56bec83f7407c5690a5b7f" target="_blank" rel="noreferrer noopener" class="external">9eb8834</a>)</li>
+<li>Update dependency com.google.cloud:sdk-platform-java-config to v3.30.0 (<a href="https://github.com/googleapis/java-logging/issues/1603" target="_blank" rel="noreferrer noopener" class="external">#1603</a>) (<a href="https://github.com/googleapis/java-logging/commit/16967e5ba704a75419904ba2aaabce0cbc116352" target="_blank" rel="noreferrer noopener" class="external">16967e5</a>)</li>
+</ul></section>
+</div>
+]]>
+    </content>
+  </entry>
 
   <entry>
     <title>May 10, 2024</title>
@@ -6611,164 +6637,6 @@ Advisory Notifications now lets users <a href="https://cloud.google.com/advisory
 <li><a href="https://cloud.google.com/solutions/sap/docs/abap-sdk/btp/whats-new">What&#39;s new with the SAP BTP edition of ABAP SDK for Google Cloud</a></li>
 <li><a href="https://cloud.google.com/solutions/sap/docs/abap-sdk/overview">Overview of the ABAP SDK for Google Cloud</a>.</li>
 </ul>
-]]>
-    </content>
-  </entry>
-
-  <entry>
-    <title>April 04, 2024</title>
-    <id>tag:google.com,2016:gcp-release-notes#April_04_2024</id>
-    <updated>2024-04-04T00:00:00-07:00</updated>
-    <link rel="alternate" href="https://cloud.google.com/release-notes#April_04_2024"/>
-    <content type="html"><![CDATA[<h2 class="release-note-product-title">Anthos clusters on AWS</h2>
-<h3>Announcement</h3>
-<p>You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:</p>
-
-<ul>
-<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/reference/supported-versions#1287-gke1700">1.28.7-gke.1700</a></li>
-<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/reference/supported-versions#12711-gke1600">1.27.11-gke.1600</a></li>
-<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/reference/supported-versions#12614-gke1500">1.26.14-gke.1500</a></li>
-</ul>
-<h2 class="release-note-product-title">Anthos clusters on Azure</h2>
-<h3>Announcement</h3>
-<p>You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:</p>
-
-<ul>
-<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/azure/reference/supported-versions#1287-gke1700">1.28.7-gke.1700</a></li>
-<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/azure/reference/supported-versions#12711-gke1600">1.27.11-gke.1600</a></li>
-<li><a href="https://cloud.google.com/anthos/clusters/docs/multi-cloud/azure/reference/supported-versions#12614-gke1500">1.26.14-gke.1500</a></li>
-</ul>
-<h2 class="release-note-product-title">BigQuery</h2>
-<h3>Feature</h3>
-<p>The <a href="https://cloud.google.com/bigquery/docs/materialized-views-create#non-incremental"><code>allow_non_incremental_definition</code> option</a> and <a href="https://cloud.google.com/bigquery/docs/materialized-views-create#max_staleness"><code>max_staleness</code> option</a> for materialized views are now <a href="https://cloud.google.com/products/#product-launch-stages">generally available (GA)</a>.  The <code>allow_non_incremental_definition</code> option supports an expanded range of SQL queries to create materialized views, and the <code>max_staleness</code> option provides consistently high performance with controlled costs when processing large, frequently changing datasets.</p>
-<h3>Feature</h3>
-<p>You can now perform
-<a href="https://cloud.google.com/bigquery/docs/model-monitoring-overview">model monitoring</a> in BigQuery ML. The following model monitoring functions are now in
-<a href="https://cloud.google.com/products/#product-launch-stages">preview</a>:</p>
-
-<ul>
-<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-describe-data"><code>ML.DESCRIBE_DATA</code></a>:
-compute descriptive statistics for a set of training or serving data.</li>
-<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-validate-data-skew"><code>ML.VALIDATE_DATA_SKEW</code></a>:
-compute the statistics for a set of serving data, and then compare them to
-the statistics for the data used to train a BigQuery ML model in order to
-identify anomalous differences between the two data sets.</li>
-<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-validate-data-drift"><code>ML.VALIDATE_DATA_DRIFT</code></a>:
-compute and compare the statistics for two sets of serving data in order to
-identify anomalous differences between the two data sets.</li>
-<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-tfdv-describe"><code>ML.TFDV_DESCRIBE</code></a>:
-compute fine-grained descriptive statistics for a set of training or
-serving data. This function provides the same behavior as the
-<a href="https://www.tensorflow.org/tfx/data_validation/api_docs/python/tfdv/generate_statistics_from_csv">TensorFlow <code>tfdv.generate_statistics_from_csv</code> API</a>.</li>
-<li><a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-tfdv-validate"><code>ML.TFDV_VALIDATE</code></a>:
-compute and compare the statistics for training and serving data, or two
-sets of serving data, in order to identify anomalous differences between
-the two data sets. This function provides the same behavior as the
-<a href="https://www.tensorflow.org/tfx/data_validation/api_docs/python/tfdv/validate_statistics">TensorFlow <code>validate_statistics</code> API</a>.</li>
-</ul>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/bigquery/docs/data-clean-rooms">BigQuery data clean rooms</a> with analysis rules and enhanced usage metrics are now <a href="https://cloud.google.com/products/#product-launch-stages">generally available (GA)</a>. Data clean rooms provide a security-enhanced and privacy-preserving environment for multiple parties to share and augment data without moving or revealing the underlying data. </p>
-<h3>Feature</h3>
-<p><a href="https://cloud.google.com/bigquery/docs/analysis-rules#join_restriction_rules">Join restrictions</a>, <a href="https://cloud.google.com/bigquery/docs/analysis-rules#list_overlap_rules">list overlap</a>, <a href="https://cloud.google.com/bigquery/docs/analysis-rules#dp_analysis_rules">differential privacy with privacy budgeting</a>, and <a href="https://cloud.google.com/bigquery/docs/analysis-rules#agg_analysis_rules">aggregation thresholding</a> are now enforceable in BigQuery data clean rooms using analysis rules.</p>
-<h2 class="release-note-product-title">Cloud Data Fusion</h2>
-<h3>Changed</h3>
-<p>Cloud Data Fusion is available in the <code>africa-south1</code> region. For more information, see <a href="https://cloud.google.com/data-fusion/pricing">Pricing</a>.</p>
-<h2 class="release-note-product-title">Cloud Healthcare API</h2>
-<h3>Announcement</h3>
-<p>A new release is available. This release may include some or all of the following: general performance improvements, bug fixes, and updates to the API reference documentation.</p>
-<h2 class="release-note-product-title">Cloud Key Management Service</h2>
-<h3>Feature</h3>
-<p>Bare Metal Rack HSM is generally available for customers with specific business and technical requirements in limited regions.</p>
-
-<p>Bare Metal Rack HSM is an infrastructure-as-a-service offering that lets you deploy large numbers of customer-owned hardware security modules (HSMs) in PCI-compliant facilities next to your Google Cloud workloads. This product helps to accelerate migration of your payment applications to Google Cloud.</p>
-
-<p>For more information, including to compare Bare Metal Rack HSM with Bare Metal HSM, see <a href="https://cloud.google.com/kms/docs/bare-metal-rack-hsm">Bare Metal Rack HSM</a>.</p>
-<h2 class="release-note-product-title">Cloud SQL for MySQL</h2>
-<h3>Feature</h3>
-<p>For <a href="https://cloud.google.com/sql/docs/mysql/editions-intro">Cloud SQL Enterprise Plus edition</a>, you can now use advanced disaster recovery (DR) to simplify recovery and fallback processes after you perform a cross-regional failover. With advanced DR, you can: </p>
-
-<ul>
-<li>Designate a cross-region disaster recovery (DR) replica</li>
-<li>Perform replica failover</li>
-<li>Restore your original deployment by using zero data loss switchover</li>
-</ul>
-
-<p>You can also use switchover to simulate disaster recovery without data loss. </p>
-
-<p>For more information, see <a href="https://cloud.google.com/sql/docs/mysql/intro-to-cloud-sql-disaster-recovery#advanced-dr">Advanced disaster recovery (DR)</a> and <a href="https://cloud.google.com/sql/docs/mysql/use-advanced-disaster-recovery">Use advanced disaster recovery (DR)</a>. This feature is in <a href="https://cloud.google.com/products#product-launch-stages">Preview</a>.</p>
-<h2 class="release-note-product-title">Compute Engine</h2>
-<h3>Feature</h3>
-<p><strong>Generally available</strong>: Simplify block storage management for Compute Engine instances with Hyperdisk Storage Pools. A Hyperdisk Storage Pool is a pre-purchased collection of disk capacity, throughput, and IOPS which you can then provision to your applications as needed. By managing disks in aggregate, you can save costs while achieving expected capacity and performance growth. For more information, see <a href="https://cloud.google.com/compute/docs/disks/storage-pools">About Hyperdisk Storage Pools</a>.</p>
-<h2 class="release-note-product-title">Container Optimized OS</h2>
-<h3>Changed</h3>
-<h3 id="cos-105-17412-294-62_">cos-105-17412-294-62 <a id="cos-arm64-105-17412-294-62"/></h3>
-
-<table class=pkg>
-  <tr>
-    <td>Kernel</td>
-    <td>Docker</td>
-    <td>Containerd</td>
-    <td>GPU Drivers</td>
-  </tr>
-  <tr>
-    <td><a href="https://cos.googlesource.com/third_party/kernel/+/a7537d805f405f86617355ac6fab708fc2a4d95a
-">COS-5.15.146</a></td>
-    <td>v23.0.3</td>
-    <td>v1.7.13</td>
-    <td>v470.239.06(default),v550.54.14(latest)</td>
-  </tr>
-</table>
-<h3>Changed</h3>
-<p>Updated app-emulation/containerd to 1.7.13.</p>
-<h3>Changed</h3>
-<p>Upgraded net-misc/chrony to v4.5.</p>
-<h3>Changed</h3>
-<p>Upgraded sys-apps/makedumpfile to v1.7.4.</p>
-<h3>Changed</h3>
-<p>Upgraded app-admin/node-problem-detector to v0.8.17.</p>
-<h3>Changed</h3>
-<p>Upgraded app-admin/localtoast to v1.1.7.</p>
-<h3>Feature</h3>
-<p>Add NVIDIA GPU drivers R550 branch and update latest to
-550.54.14.</p>
-<h3>Fixed</h3>
-<p>Downgraded app-admin/localtoast to v1.1.5.</p>
-<h3>Fixed</h3>
-<p>Fix bug in google-guest-agent service enablement.</p>
-<h3>Security</h3>
-<p>Fixed CVE-2024-26591 in the Linux kernel.</p>
-<h3>Security</h3>
-<p>Fixed CVE-2024-26589 in the Linux kernel</p>
-<h3>Security</h3>
-<p>Fixed CVE-2024-26585 in the Linux kernel.</p>
-<h3>Security</h3>
-<p>Fixed CVE-2023-52439 in the Linux kernel.</p>
-<h3>Security</h3>
-<p>Fixed CVE-2023-52434 in the Linux kernel.</p>
-<h2 class="release-note-product-title">Dataproc</h2>
-<h3>Announcement</h3>
-<p>New <a href="https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions">Dataproc Serverless for Spark runtime versions</a>:</p>
-
-<ul>
-<li>1.1.57</li>
-<li>1.2.1</li>
-<li>2.0.65</li>
-<li>2.1.44</li>
-<li>2.2.1</li>
-</ul>
-<h3>Changed</h3>
-<p>Added <code>bigframes</code> Python package by default in the Dataproc Serverless for Spark runtime versions 1.2 and 2.2</p>
-<h2 class="release-note-product-title">Dialogflow</h2>
-<h3>Feature</h3>
-<p>Vertex AI Conversation: You can now create a <a href="https://cloud.google.com/dialogflow/vertex/docs/concept/data-store#languages">data store in one language</a> that is connected to an agent that uses different languages.</p>
-<h2 class="release-note-product-title">Google Cloud Architecture Center</h2>
-<h3>Changed</h3>
-<p><a href="https://cloud.google.com/architecture/disaster-recovery">Architecting disaster recovery for cloud infrastructure outages</a>: Added DR guidance for <a href="https://cloud.google.com/architecture/disaster-recovery#cloud_billing">Cloud Billing</a>.</p>
-<h2 class="release-note-product-title">Google Kubernetes Engine</h2>
-<h3>Security</h3>
-<p>A Denial-of-Service (DoS) vulnerability (CVE-2023-45288) was recently discovered in multiple implementations of the HTTP/2 protocol, including the golang HTTP server used by Kubernetes. The vulnerability could lead to a DoS of the Google Kubernetes Engine (GKE) control plane.</p>
-
-<p>For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-022">GCP-2024-022 security bulletin</a>.</p>
 ]]>
     </content>
   </entry>

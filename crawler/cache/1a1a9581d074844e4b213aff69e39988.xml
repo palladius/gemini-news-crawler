@@ -9,17 +9,41 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 May 2024 05:16:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 May 2024 16:06:27 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Putin set to remove Russian defence minister Shoigu]]></title>
-            <description><![CDATA[Sergei Shoigu, a close ally of the president, has played a key role in Russia's hugely costly war in Ukraine.]]></description>
+            <title><![CDATA[Russia claims troops enter border town near Kharkiv]]></title>
+            <description><![CDATA[Ukraine is concerned about what could happen if Russian troops get within artillery range of Kharkiv.]]></description>
+            <link>https://www.bbc.com/news/articles/crgyymn8y3ro</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/crgyymn8y3ro#0</guid>
+            <pubDate>Mon, 13 May 2024 11:30:15 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/0443/live/7cfa8830-110f-11ef-a190-bb979758150a.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Eurovision EU flag ban regrettable, Brussels says]]></title>
+            <description><![CDATA[Banning the EU flag from Eurovision was a gift to "the enemies of Europe", the commission's vice-president said]]></description>
+            <link>https://www.bbc.com/news/articles/cw4dd9lzx02o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw4dd9lzx02o#0</guid>
+            <pubDate>Mon, 13 May 2024 13:34:33 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/5ac4/live/e8d40880-113a-11ef-bee9-6125e244a4cd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Riot police face off against Georgia protesters]]></title>
+            <description><![CDATA[Thousands have gathered outside parliament in Tbilisi to protest the bill they say is Russian-inspired.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-69001339</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69001339#0</guid>
+            <pubDate>Mon, 13 May 2024 12:06:38 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/762A/production/_133305203_gettyimages-2152158660.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Putin removes defence minister who led war campaign]]></title>
+            <description><![CDATA[Sergei Shoigu, a close ally of the president, will be replaced by Deputy Prime Minister Andrei Belousov.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-69000698</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000698#0</guid>
-            <pubDate>Sun, 12 May 2024 21:40:35 GMT</pubDate>
+            <pubDate>Mon, 13 May 2024 11:22:03 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17E8/production/_133302160_gettyimages-2025763634.jpg"/>
         </item>
         <item>
@@ -28,14 +52,14 @@
             <link>https://www.bbc.co.uk/news/world-europe-69000823</link>
             <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000823#0</guid>
             <pubDate>Sun, 12 May 2024 23:19:06 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/B108/production/_133302354_tv094690285.jpg"/>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41B4/production/_133302861_salvador_illa_reuters.jpg"/>
         </item>
         <item>
             <title><![CDATA[The Russians simply walked in, Ukrainian troops in Kharkiv tell BBC]]></title>
             <description><![CDATA[The BBC's Jonathan Beale meets front-line soldiers battling Russia's new incursion in north-east Ukraine.]]></description>
             <link>https://www.bbc.com/news/articles/c72p0xx410xo</link>
             <guid isPermaLink="false">https://www.bbc.com/news/articles/c72p0xx410xo#0</guid>
-            <pubDate>Sun, 12 May 2024 14:23:00 GMT</pubDate>
+            <pubDate>Mon, 13 May 2024 05:55:41 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/16be/live/7fb8b480-1064-11ef-82e8-cd354766a224.jpg"/>
         </item>
         <item>
@@ -50,23 +74,15 @@
             <title><![CDATA[Georgia opposition urges UK to oppose 'Russian law']]></title>
             <description><![CDATA[Critics say the foreign influence bill will be used to clamp down on the Tbilisi government's opponents.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-69000645</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000645#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000645#1</guid>
             <pubDate>Sun, 12 May 2024 23:40:03 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4A4C/production/_133302091_getty4.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Thousands protest in Georgia against foreign influence bill]]></title>
-            <description><![CDATA[Critics denounce a so-called "Russian law", saying it's like a law used by the Kremlin to silence critics.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-69000894</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000894#0</guid>
-            <pubDate>Mon, 13 May 2024 04:31:02 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F820/production/_133302536_p0hxms71.jpg"/>
         </item>
         <item>
             <title><![CDATA[Switzerland's Nemo wins Eurovision as UK comes 18th]]></title>
             <description><![CDATA[Nemo becomes the first non-binary artist to win Eurovision with their song The Code.]]></description>
             <link>https://www.bbc.com/news/articles/c03drw23zewo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/c03drw23zewo#0</guid>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/c03drw23zewo#1</guid>
             <pubDate>Sun, 12 May 2024 00:28:31 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/2b20/live/27e2da90-103e-11ef-bee9-6125e244a4cd.png"/>
         </item>
@@ -173,6 +189,14 @@
             <guid isPermaLink="false">https://www.bbc.com/news/articles/cm54pp11x3go#2</guid>
             <pubDate>Tue, 07 May 2024 23:29:09 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/3624/live/b7d41670-0d1c-11ef-82e8-cd354766a224.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Police clash with protesters in Georgia over controversial bill]]></title>
+            <description><![CDATA[Critics denounce a so-called "Russian law", saying it's like a law used by the Kremlin to silence critics.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-69000894</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000894#3</guid>
+            <pubDate>Mon, 13 May 2024 10:45:07 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/160DA/production/_133303309_p0hxqbfx.jpg"/>
         </item>
         <item>
             <title><![CDATA[Djokovic dons a helmet after being hit by bottle]]></title>

@@ -7,13 +7,32 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Mon, 13 May 2024 05:16:02 +0000</lastBuildDate>
-    <pubDate>Sat, 11 May 2024 15:47:53 +0000</pubDate>
+    <lastBuildDate>Mon, 13 May 2024 16:06:33 +0000</lastBuildDate>
+    <pubDate>Mon, 13 May 2024 09:01:06 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
+    <item>
+      <title>U.S. Awards $120 Million to Polar Semiconductor to Expand Chip Facility</title>
+      <link>https://www.nytimes.com/2024/05/13/us/politics/chips-polar-semiconductor-biden.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/us/politics/chips-polar-semiconductor-biden.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/us/politics/chips-polar-semiconductor-biden.html" rel="standout"></atom:link>
+      <description>The grant is the latest federal award in a series stemming from the CHIPS and Science Act meant to ramp up domestic production of vital semiconductors.</description>
+      <dc:creator>Madeleine Ngo</dc:creator>
+      <pubDate>Mon, 13 May 2024 09:01:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Commerce Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supply Chain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bloomington (Minn)</category>
+      <media:content height="1632" medium="image" url="https://static01.nyt.com/images/2024/05/13/us/politics/13dc-chips1/13dc-chips1-mediumSquareAt3X.jpg" width="1632"></media:content>
+      <media:credit>Kristoffer Tripplaar/Sipa USA, via Associated Press</media:credit>
+      <media:description>The federal award will go toward a project to expand the Polar Semiconductor facility in Bloomington, Minn.</media:description>
+    </item>
     <item>
       <title>U.S. to Announce New Tariffs on Chinese Electric Vehicles</title>
       <link>https://www.nytimes.com/2024/05/10/us/politics/us-biden-china-tariffs-electric-vehicles.html</link>
@@ -410,31 +429,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/00china-blinken-explainer-qpgz/00china-blinken-explainer-qpgz-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Pool photo by Mark Schiefelbein</media:credit>
       <media:description>Secretary of State Antony J. Blinken with Chen Jining, the Communist Party secretary for Shanghai, on Thursday.</media:description>
-    </item>
-    <item>
-      <title>Antony Blinken Visits China</title>
-      <link>https://www.nytimes.com/2024/04/25/business/economy/xi-jinping-blinken-china-trade.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/business/economy/xi-jinping-blinken-china-trade.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/25/business/economy/xi-jinping-blinken-china-trade.html" rel="standout"></atom:link>
-      <description>Tensions over economic ties are running high, threatening to disrupt a fragile cooperation between the U.S. and China.</description>
-      <dc:creator>Ana Swanson</dc:creator>
-      <pubDate>Thu, 25 Apr 2024 18:59:48 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Commerce</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Investments</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/25/multimedia/25china-blinken-mzqc/25china-blinken-mzqc-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Mark Schiefelbein</media:credit>
-      <media:description>The U.S. secretary of state, Antony J. Blinken, walked with Nicholas Burns, the U.S. ambassador to China, through the Yu Gardens in Shanghai on Wednesday.</media:description>
     </item>
   </channel>
 </rss>
