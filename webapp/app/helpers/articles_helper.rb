@@ -31,4 +31,9 @@ module ArticlesHelper
     ActionView::Base.full_sanitizer.sanitize(html_string)
   end
 
+  def render_neighbor_distance(article)
+    dist = article.neighbor_distance
+    "#{(dist*100).round(1)}"
+  end
+
 end

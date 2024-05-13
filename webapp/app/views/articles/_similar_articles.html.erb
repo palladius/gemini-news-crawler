@@ -6,6 +6,7 @@
         <ul class="list-disc space-y-2 pl-4">
         <% @article.closest_articles.each do |article| %>
             <li>🗄️
+                <b><%= render_neighbor_distance(article) %></b>
             <a href="<%= article_path(article) %>" class="text-yellow-700 hover:text-blue-500 underline">
                 <%= article.title %>
             </a>

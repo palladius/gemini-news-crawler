@@ -34,3 +34,6 @@ clean-articles:
 
 test-gcp-comntinuously:
 	watch SKIP_CRAWLING=true ./crawl.rb
+
+
+# Article.find_by_link(Article.find_by_id(10181).link).map{|x| x.id}
