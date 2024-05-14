@@ -1,6 +1,7 @@
+2024-05-14 v0.3.0 [DEV] Added DelayedJob (changed schema). Also added Description to rhe 3 Article Embeddings. Now I'll use ArticleEmbedding for Gemini stuff because Nearesdt Neighbor doesnt work across models :/
+
 2024-05-14 v0.2.9 [DEV] Added SmartQueries. Also adding langhcianrb gem which BREAKs my Mac development but hopefully not my linux dev.
-
-
+                        # Breaks on Mac, works on Linux
 2024-05-14 v0.2.8 [DEV] Added RECENCY. Now visualizes only articles from last 48h
 2024-05-14 v0.2.7 [DEV] Fixed graphs. Better similar articles now with title and author.
 2024-05-13 v0.2.6 [DEV] Added distance to top close articles

@@ -16,9 +16,14 @@ gem 'neighbor' # to cal;culate similarity: https://www.crunchydata.com/blog/ruby
 gem "chartkick"
 gem "groupdate"
 
+# DelayedJob to compute slow stuff: https://github.com/collectiveidea/delayed_job
+gem 'delayed_job_active_record'
+
 # AI stuff
 gem 'gemini-ai' # For Gemini
 gem 'langchainrb', '~> 0.12.1'
+gem 'google-apis-aiplatform_v1' # For Gemini
+
 # /Riccardo end
 ################################
 

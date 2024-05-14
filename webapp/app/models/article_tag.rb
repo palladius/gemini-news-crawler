@@ -15,4 +15,9 @@ class ArticleTag < ApplicationRecord
   def to_s
     "AT(#{self.article_id};#{self.category_id})"
   end
+
+  def category_name
+    # Article.find(10259).article_tags.first.
+    category.name
+  end
 end

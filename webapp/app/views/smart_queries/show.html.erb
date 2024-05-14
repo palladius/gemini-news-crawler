@@ -1,7 +1,24 @@
+<%
+# demo1
+@e = GeminiLLM.embed(text: @query).embedding
+# Possibilities:
+# 1. article_embedding, title_embedding, summary_embedding
+# 2. distance: euclidean, cosine, ?
+#closest_articles = Article.nearest_neighbors(:article_embedding, e, distance: "euclidean").first(5)
+@closest_articles = Article.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(10)
+@query_info = "euclidean distance for article_embedding for query: '#{@query}'"
+
+# non va
+a = Article.find(10260)
+a.title_embedding = GeminiLLM.embed(text: a.title).embedding
+a.article_embedding = GeminiLLM.embed(text: a.article).embedding
+a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
+# demo2
+%>
+
 <div class="container mx-auto mt-10">
 
-    <h1 class="text-3xl mb-4 font-bold">
-        This is a Heading</h1>
+    <h1 class="text-3xl mb-4 font-bold">Search for '<%= @query %>'</h1>
 
     <h1>Show Query</h1>
 
@@ -14,14 +31,34 @@
 
 
 
-    <h2 class="text-3xl mb-4 font-bold" >Play with console and Langchainrb now!</h2>
+    <h2 class="text-3xl mb-4 font-bold" >[demo1] Results from cached articles (RAG+ActiveRecord+Embeddings)</h2>
+
+
+    Play with console and Langchainrb now!
 
     <pre>
         1. Calculate embedding of the query if not there already.
+
+            e = GeminiLLM.embed(text: "<%=@query%>").embedding
+
         2. Search closest articles.
+
+            Article.nearest_neighbors(:article_embedding, e, distance: "euclidean").first(5)
+
+
         3. RAG them into Langchain.
+
+            TODO
+
         4. Summarize. Add a prompt like:
     </pre>
+
+    <h3>Closest Articles to this embedding</h3>
+
+    Query Info: <b><%= @query_info %></b><br/>
+    <% @closest_articles.each do |a| %>
+        🌍 [<%= (a.neighbor_distance * 100.0).round(1) %>] <%= link_to a,a  %> <br/>
+    <% end %>
 
     <h2>prompt in exemplo</h2>
 
@@ -33,4 +70,25 @@
     Articles
     </pre>
 
+
+    <h2 class="text-3xl mb-4 font-bold" >[demo2] Live Results from Gemini + Function Calling (live OpenAPI call + proper prompting)</h2>
+
+    <pre>
+        1. Use Gemini f(x) calling with LangchainRb +
+        2. Use LangchainRb Tool 'NewsRetriever'
+        3. return news to UI.
+        4. Summarize. like
+
+        GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
+    </pre>
+
+    <div class="bg-purple-100 p-4 rounded shadow-md">
+        <div class="prose p-4">
+            <%= GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content'] %>
+        </div>
+    </div>
+
 </div>
+
+
+<%= console %>

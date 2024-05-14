@@ -17,6 +17,9 @@ CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # 
 
 RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
+GeminiLLM = Langchain::LLM::GoogleVertexAi.new(project_id: ENV['PROJECT_ID']) rescue nil
+
+
 Rails.application.configure do
 
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
@@ -65,6 +68,7 @@ puts "#{emoji} 🌞 GCP_KEY_PATH:           #{ GCP_KEY_PATH}"
 puts "#{emoji} 🌞 GCP_KEY_PATH_EXISTS:    #{ GCP_KEY_PATH_EXISTS}"
 puts "#{emoji} 🌞 CLOUDRUN_SA_KEY_EXISTS: #{ CLOUDRUN_SA_KEY_EXISTS}" # should only exist in ricc cloud run. For debug
 puts "#{emoji} 🌞 CLOUDRUN_ENVRC_EXISTS:  #{ CLOUDRUN_ENVRC_EXISTS}"
+puts "#{emoji} 🌞 GeminiLLM:              #{ GeminiLLM}"
 puts "#{emoji} #{ emoji * 60}"
 
 

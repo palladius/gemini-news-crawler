@@ -144,14 +144,44 @@ class Article < ApplicationRecord
       compute_embeddings rescue nil
     end
 
+    def tag_names
+      self.article_tags.map{|t| t.category_name }
+    end
+
     # This should be the stuff you feed to the EMBEDDING
     # Note this is just because then you have a correspondance between:
     # * title -> title_embedding
     # * summary -> summary_embedding
     # * article(*) -> article_embedding
     # (*) This was the ONLY one missing, som fixing it now.
-    def article
-      "#{self.title}\n\n#{self.summary}\n#{self.content}\n-- #{self.newspaper}"
+    def article(verbose: true)
+      #return article_json() # testing UI..
+      ret = "------------------------------\n"
+      if verbose
+        # Relevant info
+        ret += "Title: #{self.title.strip}\n" if title?
+        ret += "Summary: #{self.summary.strip}\n\n" if summary?
+        # gsub!(/\n+/, '')
+        ret += "[content]\n#{self.content.strip}\n[/content]\n\n" if self.content?
+        # Footer
+        ret += "Author: #{self.author}\n" if author?
+        ret += "PublishedDate: #{self.yyyymmdd}\n"
+        ret += "Category: #{self.macro_region}\n" # always true
+        ret += "NewsPaper: #{self.newspaper}\n" # always true
+        ret += "Tags: #{self.tag_names.join(', ')}\n" if self.tag_names.size > 0  # always true
+      else
+        ret += "## #{self.title}\n\n#{self.summary}\n#{self.content}\n-- #{self.newspaper}"
+      end
+      ret
+    end
+
+    # json or hash?
+    # Hash: this code
+    # JSON: article_json = article.as_json(only: [:title, :summary])
+    def article_json
+      #self.attributes.slice('title', 'summary', :category)
+      relevant_columns = %w{title summary content category newspaper macro_region yyyymmdd } # published_date
+      attributes.slice(*relevant_columns)
     end
 
     # a.article_embedding =  a.title_embedding

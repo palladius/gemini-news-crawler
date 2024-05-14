@@ -6,8 +6,9 @@ class SmartQueriesController < ApplicationController
       "What happens in Verona or in Veneto region?",
       "What are the latest stories?",
       "What are the latest stories from Italy?",
-      "What are the current sports scores?",
-      "What are some fun facts?"
+      "Any news from Google Cloud?",
+      "Any news about Ruby or RoR?",
+      "What are some fun facts?",
     ]
   end
 
