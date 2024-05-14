@@ -1,6 +1,7 @@
 <%
 # demo1
-@e = GeminiLLM.embed(text: @query).embedding
+@query ||= 'Riccardo Carlesso'
+@e = GeminiLLM.embed(text: @query).embedding rescue nil
 # Possibilities:
 # 1. article_embedding, title_embedding, summary_embedding
 # 2. distance: euclidean, cosine, ?
@@ -9,22 +10,18 @@
 @query_info = "euclidean distance for article_embedding for query: '#{@query}'"
 
 # non va
-a = Article.find(10260)
-# a.title_embedding = GeminiLLM.embed(text: a.title).embedding # WRONG i should use the OLD model for now.
-a.article_embedding = GeminiLLM.embed(text: a.article).embedding
-embedding_description = {
-    llm_project_id: GeminiLLM.project_id,
-    llm_dimensions: GeminiLLM.default_dimensions,
-    # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
-    llm_embeddings_model_name: "textembedding-gecko",
-
-}
-a.article_embedding_description = embedding_description.to_s
-a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
+#a = Article.find(10260)
+   # a.title_embedding = GeminiLLM.embed(text: a.title).embedding # WRONG i should use the OLD model for now.
+#a.article_embedding = GeminiLLM.embed(text: a.article).embedding
+#embedding_description = {
+#    llm_project_id: GeminiLLM.project_id,
+#    llm_dimensions: GeminiLLM.default_dimensions,
+#    # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
+#    llm_embeddings_model_name: "textembedding-gecko",#
 #
-
-
-
+#}
+#a.article_embedding_description = embedding_description.to_s
+#a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
 
 # demo2
 %>
@@ -95,7 +92,7 @@ a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
         GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
     </pre>
 
-    <div class="bg-purple-100 p-4 rounded shadow-md">
+    <div class="bg-brown-100 p-4 rounded shadow-md">
         <div class="prose p-4">
             <%= GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content'] %>
         </div>

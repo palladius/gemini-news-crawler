@@ -18,9 +18,10 @@ module Embeddable
     if (gcp?)
       # ARRAYs (fake vectors)
       unless self.title.nil? || self.title.empty?
-        title = self.compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
-        assert_good_gemini_response(title, "compute_embeddings! on title side 1")
-        self.title_embedding = title # .to_a # This converts to string!!!
+        # there was possibly a BIG bug here. Now fixed since version 0.3.1
+        e_title = self.compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
+        assert_good_gemini_response(e_title, "compute_embeddings! on title side 1")
+        self.title_embedding = e_title # .to_a # This converts to string!!!
         assert_good_gemini_response(self.title_embedding, "compute_embeddings! on title side 2 after assignment")
       else
         puts("ε - No title -> skipping")
@@ -40,8 +41,11 @@ module Embeddable
       # OLD VERSION: article_embedding copied from  title_embedding
       #self.article_embedding = self.title_embedding if (self.article_embedding.nil? and  self.title_embedding.is_a? Array)
 
-      self.article_embedding = self.compute_gcp_embeddings_for(field_to_access: :article) rescue nil
-      assert_good_gemini_response(self.article_embedding, "compute_embeddings! on whole Article side")
+      # SKIPPING Article side and doing it the Gemini way.
+      #self.article_embedding = self.compute_gcp_embeddings_for(field_to_access: :article) rescue nil
+      #assert_good_gemini_response(self.article_embedding, "compute_embeddings! on whole Article side")
+      puts("Computing ArticleEmbeddings in v2!")
+      self.compute_article_embedding_with_gemini_v2()
 
       self.save if self.changed? # cool! https://stackoverflow.com/questions/24412634/rails-save-method-if-no-changes
     else
@@ -78,7 +82,7 @@ module Embeddable
     text_with_maybe_some_html
   end
 
-  # self.
+  # this is the OLD v1 way of calculating an embedding. Uses gemini-ai and a very manual process.
   def compute_gcp_embeddings_for(field_to_access:)
     value = cleanup_text(self.send(field_to_access)).to_s
     raise "Empty request - skipping calculation as it doesnt make sense." if value.length <= 1 # also 1 is nothing..
@@ -204,6 +208,24 @@ module Embeddable
     ret
   end
 
+  # v2 version of embeddings, NOT multilingual.
+  def compute_article_embedding_with_gemini_v2(save_afterwards: false)
+    # TODO move out of CLASS
+    self.article_embedding = GeminiLLM.embed(text: self.article).embedding # rescue nil resceu nil
+    # if nil, next...
+    embedding_description = {
+        llm_project_id: GeminiLLM.project_id,
+        llm_dimensions: GeminiLLM.default_dimensions,
+        article_size: self.article.size,
+        # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
+        llm_embeddings_model_name: "textembedding-gecko",
+    }
+    self.article_embedding_description = embedding_description.to_s
+    self.save if save_afterwards
+    return self
+  end
+
+
   # Class Methods: https://stackoverflow.com/questions/33326257/what-does-class-methods-do-in-concerns
   class_methods do
     # EMbeddings which i thought was love instead was a caless...
@@ -239,7 +261,8 @@ module Embeddable
     end
 
 
-    def migrate_all_article_embedding_to_gemini_thru_langchain(max_instances: 10000)
+
+    def migrate_all_article_embedding_to_gemini_thru_langchain(max_instances: 10)
       puts("🗿2️⃣🗿 Computing article_embeddings only (v2) for ALL Articles. This makes for a great RAKE task or a Job (inspired by 'DHH-Vanilla-RoR7 with Embeddings')!")
       embeddings_to_be_recalculated = self.where('article_embedding_description' => nil).all
       puts("🗿2️⃣🗿 Total Articles: #{Article.all.count}. Total embeddings to be computed (article_embedding_description=nil): #{embeddings_to_be_recalculated.count}")
@@ -247,17 +270,7 @@ module Embeddable
         # Now I recompute JUST the article thingy since its RICHER and NEWER and i can keep using the TITLE one on the other thingy until its all migrated.
         # so the OLD keeps working (in the yellow NEIGHBOR articles) until i have sth better for everyone
         break if ix > max_instances
-        a.article_embedding = GeminiLLM.embed(text: a.article).embedding # rescue nil resceu nil
-        # if nil, next...
-        embedding_description = {
-            llm_project_id: GeminiLLM.project_id,
-            llm_dimensions: GeminiLLM.default_dimensions,
-            article_size: a.article.size,
-            # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
-            llm_embeddings_model_name: "textembedding-gecko",
-
-        }
-        a.article_embedding_description = embedding_description.to_s
+        a.compute_article_embedding_with_gemini_v2
         ret = a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
         puts("Saved Article: #{ret.class}")
         sleep(1.0/48.0)

@@ -1,7 +1,7 @@
 <div class="flex flex-col space-y-4">
     <div class="bg-yellow-100 p-4 rounded shadow-md">
         <h3 class="text-lg font-medium text-yellow-900">
-            <%= EmbeddingEmoji %>Semantically Similar Articles
+            <%= EmbeddingEmoji %>Semantically Similar Articles (by :title_embedding)
         </h3>
         <ul class="list-disc space-y-2 pl-4">
         <% @article.closest_articles.each do |article| %>

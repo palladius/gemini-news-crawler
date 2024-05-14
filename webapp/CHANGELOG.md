@@ -1,5 +1,6 @@
+2024-05-14 v0.3.1 [DEV] Harmonized the new ArticleEmbedding is calculated correctly BOTH in the migration script `aaa`
+                        AND in the migration v1 script (`compute_embeddings!`)
 2024-05-14 v0.3.0 [DEV] Added DelayedJob (changed schema). Also added Description to rhe 3 Article Embeddings. Now I'll use ArticleEmbedding for Gemini stuff because Nearesdt Neighbor doesnt work across models :/
-
 2024-05-14 v0.2.9 [DEV] Added SmartQueries. Also adding langhcianrb gem which BREAKs my Mac development but hopefully not my linux dev.
                         # Breaks on Mac, works on Linux
 2024-05-14 v0.2.8 [DEV] Added RECENCY. Now visualizes only articles from last 48h
