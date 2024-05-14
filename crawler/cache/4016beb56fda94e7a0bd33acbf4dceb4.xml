@@ -9,11 +9,19 @@
             <link>https://www.bbc.co.uk/news/politics</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 May 2024 17:32:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 May 2024 04:26:29 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/politics/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[MPs arrested for sex offences face Parliament ban]]></title>
+            <description><![CDATA[Proposal passes by one vote after the government had suggested the threshold should be when an MP is charged.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-69006187</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-69006187#0</guid>
+            <pubDate>Mon, 13 May 2024 21:12:56 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15640/production/_131061678_gettyimages-166022926.jpg"/>
+        </item>
         <item>
             <title><![CDATA[PM attacks Starmer on defence as election lines drawn]]></title>
             <description><![CDATA[Rishi Sunak says Labour would not match the Tories on defence spending but Sir Keir says the party only offered chaos.]]></description>
@@ -21,6 +29,14 @@
             <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-69001810#0</guid>
             <pubDate>Mon, 13 May 2024 15:11:29 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6810/production/_133304662_mediaitem133304661.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Labour pledges 'iron-clad commitment' for Ukraine]]></title>
+            <description><![CDATA[Shadow Foreign Secretary David Lammy and Shadow Defence Secretary John Healey visited Ukraine's capital Kyiv.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-69004980</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-69004980#0</guid>
+            <pubDate>Mon, 13 May 2024 21:30:57 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/D0CA/production/_133305435_lammyhealey.jpg"/>
         </item>
         <item>
             <title><![CDATA[Parts of migration act 'should not apply in NI']]></title>
@@ -58,7 +74,7 @@
             <title><![CDATA[MP Chris Bryant treated for skin cancer in lung]]></title>
             <description><![CDATA[Labour MP Chris Bryant has revealed he is having immunotherapy after his skin cancer returned.]]></description>
             <link>https://www.bbc.com/news/articles/cw0vv4py05xo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw0vv4py05xo#0</guid>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw0vv4py05xo#1</guid>
             <pubDate>Mon, 13 May 2024 09:51:12 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/27c8/live/1d4db060-1119-11ef-8f16-93511f1db9c7.jpg"/>
         </item>
@@ -66,7 +82,7 @@
             <title><![CDATA[UK arms ban for Israel would strengthen Hamas, says Cameron]]></title>
             <description><![CDATA[Foreign Secretary David Cameron tells the BBC the UK should focus on getting humanitarian aid into Gaza.]]></description>
             <link>https://www.bbc.co.uk/news/uk-politics-68999212</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68999212#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-68999212#1</guid>
             <pubDate>Sun, 12 May 2024 16:50:33 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1110C/production/_133300996_9b1f6862c9bc7d72bbcc4f1c26fd01ec811ba450.jpg"/>
         </item>

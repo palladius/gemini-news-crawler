@@ -5,6 +5,44 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>Hanami shrine</title>
+      <description> &lt;a href="https://2n.pl/blog/hanami-shrine-file-handling-in-hanami" rel="nofollow"&gt;https://2n.pl/blog/hanami-shrine-file-handling-in-hanami&lt;/a&gt;
+Showing an simple, flexible file handling solution in hanami, with ROM-rb ORM, using Shrine. Also contains some of my thoughts on active-storage in comparison to shrine. </description>
+      <pubDate>Mon, 13 May 2024 15:30:31 +0000</pubDate>
+      <link>https://rubyflow.com/p/fwzheb-hanami-shrine</link>
+      <guid>https://rubyflow.com/p/fwzheb-hanami-shrine</guid>
+    </item>
+    <item>
+      <title>Ruby class pattern to work with API requests with built-in async approach</title>
+      <description> Ruby pattern to connect multiple APIs to your project more easily with async requests approach
+&lt;a href="https://medium.com/@zozulyak.nick/ruby-class-pattern-to-work-with-api-requests-with-built-in-async-approach-bf0713a7dc96" rel="nofollow"&gt;https://medium.com/@zozulyak.nick/ruby-class-pattern-to-work-with-api-requests-with-built-in-async-approach-bf0713a7dc96&lt;/a&gt; </description>
+      <pubDate>Mon, 13 May 2024 14:08:05 +0000</pubDate>
+      <link>https://rubyflow.com/p/snslht-ruby-class-pattern-to-work-with-api-requests-with-built-in-async-approach</link>
+      <guid>https://rubyflow.com/p/snslht-ruby-class-pattern-to-work-with-api-requests-with-built-in-async-approach</guid>
+    </item>
+    <item>
+      <title>Concurrent-ruby (async) S3 files download</title>
+      <description> Short intro to concurrent-ruby with S3 files download example
+&lt;a href="https://medium.com/@zozulyak.nick/concurrent-ruby-async-s3-files-download-85f46f298319" rel="nofollow"&gt;https://medium.com/@zozulyak.nick/concurrent-ruby-async-s3-files-download-85f46f298319&lt;/a&gt; </description>
+      <pubDate>Mon, 13 May 2024 14:05:19 +0000</pubDate>
+      <link>https://rubyflow.com/p/kuzoaf-concurrent-ruby-async-s3-files-download</link>
+      <guid>https://rubyflow.com/p/kuzoaf-concurrent-ruby-async-s3-files-download</guid>
+    </item>
+    <item>
+      <title>Rails Deployments Made Easy with Terraform and Kamal</title>
+      <description> Looking to spin up and manage a server on the cloud to deploy your Rails applications using Kamal? This video will show you how to create a server on Hetzner Cloud using Terraform, then set up your Rails app to deploy it to the newly-provisioned server with Kamal. &lt;a href="https://www.youtube.com/watch?v=uVGo7eZr6wU" rel="nofollow"&gt;https://www.youtube.com/watch?v=uVGo7eZr6wU&lt;/a&gt; </description>
+      <pubDate>Mon, 13 May 2024 12:45:26 +0000</pubDate>
+      <link>https://rubyflow.com/p/ttut73-rails-deployments-made-easy-with-terraform-and-kamal</link>
+      <guid>https://rubyflow.com/p/ttut73-rails-deployments-made-easy-with-terraform-and-kamal</guid>
+    </item>
+    <item>
+      <title>Ruby 3.4, no more TypeError with **nil as it is treated as an empty hash.</title>
+      <description> &lt;a href="https://blog.saeloun.com/2024/05/13/ruby-3-4-no-more-type-error-with-nil/" rel="nofollow"&gt;https://blog.saeloun.com/2024/05/13/ruby-3-4-no-more-type-error-with-nil/&lt;/a&gt; </description>
+      <pubDate>Mon, 13 May 2024 12:41:28 +0000</pubDate>
+      <link>https://rubyflow.com/p/rx14tv-ruby-34-no-more-typeerror-with-nil-as-it-is-treated-as-an-empty-hash</link>
+      <guid>https://rubyflow.com/p/rx14tv-ruby-34-no-more-typeerror-with-nil-as-it-is-treated-as-an-empty-hash</guid>
+    </item>
+    <item>
       <title>My proposal for a better migration versioning</title>
       <description> Today I want to share a new approach to Ruby on Rails migration versioning that aims to enhance organization and clarity. </description>
       <pubDate>Mon, 13 May 2024 04:34:21 +0000</pubDate>
@@ -147,42 +185,6 @@ With accuracy and performance improvements, twilight times and new info about th
       <pubDate>Mon, 29 Apr 2024 10:15:22 +0000</pubDate>
       <link>https://rubyflow.com/p/rf9gdo-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</link>
       <guid>https://rubyflow.com/p/rf9gdo-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</guid>
-    </item>
-    <item>
-      <title>Rabarber v2: A Major Update for the Role-Based Authorization Gem</title>
-      <description> We’re excited to announce the release of version 2 of &lt;a href="https://github.com/enjaku4/rabarber" rel="nofollow"&gt;Rabarber&lt;/a&gt;, a role-based authorization gem for Ruby on Rails. This new version brings significant improvements, cleaner code, and a more refined user experience. </description>
-      <pubDate>Mon, 29 Apr 2024 09:43:24 +0000</pubDate>
-      <link>https://rubyflow.com/p/ghjoox-rabarber-v2-a-major-update-for-the-role-based-authorization-gem</link>
-      <guid>https://rubyflow.com/p/ghjoox-rabarber-v2-a-major-update-for-the-role-based-authorization-gem</guid>
-    </item>
-    <item>
-      <title>N+1 in Ruby on Rails - Katarzyna Melon-Markowska</title>
-      <description> &lt;a href="https://www.visuality.pl/posts/n-1-in-ruby-on-rails" rel="nofollow"&gt;https://www.visuality.pl/posts/n-1-in-ruby-on-rails&lt;/a&gt; </description>
-      <pubDate>Sat, 27 Apr 2024 07:19:15 +0000</pubDate>
-      <link>https://rubyflow.com/p/7lgch8-n1-in-ruby-on-rails-katarzyna-melon-markowska</link>
-      <guid>https://rubyflow.com/p/7lgch8-n1-in-ruby-on-rails-katarzyna-melon-markowska</guid>
-    </item>
-    <item>
-      <title>ActiveRecord::Base#pluck adds support for hash values in Rails 7.2</title>
-      <description> ActiveRecord pluck and pick can accept hash values for specifying columns from Rails 7.2
-&lt;a href="https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/" rel="nofollow"&gt;https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/&lt;/a&gt; </description>
-      <pubDate>Fri, 26 Apr 2024 17:56:18 +0000</pubDate>
-      <link>https://rubyflow.com/p/od3drv-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</link>
-      <guid>https://rubyflow.com/p/od3drv-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</guid>
-    </item>
-    <item>
-      <title>Animate Filtering Data in HOTWire</title>
-      <description> We can progressively enhance the filtering search. We can dig deeper into Turbo events and get a very satisfying animation of Todos disappearing when they’re filtered out, and reappearing when they are back in the list. &lt;a href="https://onrails.blog/2024/04/23/animate-filtering-data-in-hotwire/" rel="nofollow"&gt;https://onrails.blog/2024/04/23/animate-filtering-data-in-hotwire/&lt;/a&gt; </description>
-      <pubDate>Wed, 24 Apr 2024 14:14:46 +0000</pubDate>
-      <link>https://rubyflow.com/p/31s0v6-animate-filtering-data-in-hotwire</link>
-      <guid>https://rubyflow.com/p/31s0v6-animate-filtering-data-in-hotwire</guid>
-    </item>
-    <item>
-      <title>Enhancing Rails Log Output with SQL Query Count</title>
-      <description> &lt;a href="https://blog.saeloun.com/2024/04/24/add-queries-count/" rel="nofollow"&gt;https://blog.saeloun.com/2024/04/24/add-queries-count/&lt;/a&gt; </description>
-      <pubDate>Wed, 24 Apr 2024 13:57:18 +0000</pubDate>
-      <link>https://rubyflow.com/p/jn2mcx-enhancing-rails-log-output-with-sql-query-count</link>
-      <guid>https://rubyflow.com/p/jn2mcx-enhancing-rails-log-output-with-sql-query-count</guid>
     </item>
   </channel>
 </rss>

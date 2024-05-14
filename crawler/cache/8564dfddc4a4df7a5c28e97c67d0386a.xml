@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Mon, 13 May 2024 11:15:18 -0400</pubDate>
-<lastBuildDate>Mon, 13 May 2024 11:15:18 -0400</lastBuildDate>
+<pubDate>Mon, 13 May 2024 18:48:47 -0400</pubDate>
+<lastBuildDate>Mon, 13 May 2024 18:48:47 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,9 +17,49 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
+<title>Fund Manager Bill Hwang's Archegos Was a 'House of Cards,' Prosecutor Tells Jury</title>
+<link>https://www.wsj.com/articles/fund-manager-bill-hwangs-archegos-was-a-house-of-cards-prosecutor-tells-jury-77f70a1e?mod=rss_markets_main</link>
+<description><![CDATA[Hwang, on trial for fraud and racketeering related to his firm’s meltdown, maintains his trading practices were lawful.]]></description>
+<content:encoded/>
+<pubDate>Mon, 13 May 2024 18:47:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001771246</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
+</item>
+<item>
+<title>Grupo Aeroméxico Files for IPO</title>
+<link>https://www.wsj.com/articles/grupo-aeromexico-files-for-ipo-4deb225d?mod=rss_markets_main</link>
+<description><![CDATA[The Mexican airline said it would apply to list its ADSs on the New York Stock Exchange under the ticker AERO and had already applied to list shares on the Mexican Stock Exchange.]]></description>
+<content:encoded/>
+<pubDate>Mon, 13 May 2024 18:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001772076</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>IPOs</wsj:articletype>
+</item>
+<item>
+<title>Dow's Winning Streak Ends Ahead of Inflation Data</title>
+<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-05-13-2024-e4eaf3b2?mod=rss_markets_main</link>
+<description><![CDATA[The Dow Jones Industrial Average slipped 0.2%, snapping its eight-session streak of gains, as investors await fresh inflation data. GameStop shares soared as meme-stock mania resurfaced.]]></description>
+<content:encoded/>
+<pubDate>Mon, 13 May 2024 16:32:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001771610</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Today's Markets</wsj:articletype>
+</item>
+<item>
+<title>Investors Crowd Into Soft-Landing Trade Ahead of Crucial Inflation Data</title>
+<link>https://www.wsj.com/articles/investors-crowd-into-soft-landing-trade-ahead-of-crucial-inflation-data-b7cf5049?mod=rss_markets_main</link>
+<description><![CDATA[Stocks and bonds have rallied ahead of Wednesday’s consumer-price index report.]]></description>
+<content:encoded/>
+<pubDate>Mon, 13 May 2024 16:14:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001768008</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Finance</wsj:articletype>
+</item>
+<item>
 <title>Future Problems for Private Lending Will Start Today</title>
 <link>https://www.wsj.com/articles/future-problems-for-private-lending-will-start-today-e36f9664?mod=rss_markets_main</link>
-<description><![CDATA[More lenders chasing the same deals could sow the seeds of tomorrow’s problems.]]></description>
+<description><![CDATA[Lenders are stepping back into the market for risky loans, even as borrower demand has been tepid, threatening to throw the market out of balance.]]></description>
 <content:encoded/>
 <pubDate>Mon, 13 May 2024 11:14:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001770676</guid>
@@ -65,16 +105,6 @@
 <guid isPermaLink="false">WP-WSJ-0001767126</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Investors Crowd Into Soft-Landing Trade Ahead of Crucial Inflation Data</title>
-<link>https://www.wsj.com/articles/investors-crowd-into-soft-landing-trade-ahead-of-crucial-inflation-data-b7cf5049?mod=rss_markets_main</link>
-<description><![CDATA[Stocks and bonds have rallied ahead of Wednesday’s consumer-price index report.]]></description>
-<content:encoded/>
-<pubDate>Mon, 13 May 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001768008</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Finance</wsj:articletype>
 </item>
 <item>
 <title>Platinum Market Deficit Forecast Widens on Weak Supply, Sustained Demand</title>
@@ -185,36 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001146574</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>The Score: Tyson Foods, Walt Disney, Shopify and More Stocks That Defined the Week</title>
-<link>https://www.wsj.com/articles/the-score-tyson-foods-walt-disney-shopify-and-more-stocks-that-defined-the-week-99bdf37f?mod=rss_markets_main</link>
-<description><![CDATA[Here are some of the major companies whose stocks moved on the week’s news]]></description>
-<content:encoded/>
-<pubDate>Fri, 10 May 2024 16:57:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001764840</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Markets Main</wsj:articletype>
-</item>
-<item>
-<title>Stocks Log Weekly Gains in Hot Start to May</title>
-<link>https://www.wsj.com/articles/global-stocks-markets-dow-news-05-10-2024-44b54374?mod=rss_markets_main</link>
-<description><![CDATA[The month’s performance so far marks a reversal from April.]]></description>
-<content:encoded/>
-<pubDate>Fri, 10 May 2024 16:10:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001767672</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Today's Markets</wsj:articletype>
-</item>
-<item>
-<title>How to Lend Family Money Without Wrecking Your Relationship</title>
-<link>https://www.wsj.com/articles/loan-family-interest-rates-money-apps-tools-c4d44e7b?mod=rss_markets_main</link>
-<description><![CDATA[High interest rates lead more people to borrow money from family. Tech tools can reduce the risks and grief.]]></description>
-<content:encoded/>
-<pubDate>Fri, 10 May 2024 09:42:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001761808</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Personal Finance</wsj:articletype>
 </item>
 </channel>
 </rss>

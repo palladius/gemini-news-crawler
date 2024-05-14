@@ -13,7 +13,7 @@
 	<atom:link href="https://seroter.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://seroter.com</link>
 	<description>Blog Featuring Code, Thoughts, and Experiences with Software and Services</description>
-	<lastBuildDate>Fri, 10 May 2024 23:55:16 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 May 2024 00:47:46 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,6 +29,98 @@
 	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://seroter.com/osd.xml" title="Richard Seroter&#039;s Architecture Musings" />
 	<atom:link rel='hub' href='https://seroter.com/?pushpress=hub'/>
 	<item>
+		<title>Daily Reading List &#8211; May 13, 2024 (#317)</title>
+		<link>https://seroter.com/2024/05/13/daily-reading-list-may-13-2024-317/</link>
+					<comments>https://seroter.com/2024/05/13/daily-reading-list-may-13-2024-317/#respond</comments>
+		
+		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 00:47:46 +0000</pubDate>
+				<category><![CDATA[Daily Reading List]]></category>
+		<guid isPermaLink="false">http://seroter.com/?p=16672</guid>
+
+					<description><![CDATA[Today's links look at how Meta engineers reacted to AI assisted coding tools, how to present to audiences that know more than you, and how to design REST APIs.]]></description>
+										<content:encoded><![CDATA[
+<p>I had my rehearsal at Google I/O today, and then attended a half-day offsite with my team.  Before that, I read a bunch of things you&#8217;ll find below.</p>
+
+
+
+<p>[article] <strong><a href="https://newsletter.getdx.com/p/ai-assisted-code-authoring-at-scale">AI-assisted code authoring at scale</a></strong>. When Meta rolled out AI assisted tools to their engineers, what were the results? This post reviews a paper with the details.</p>
+
+
+
+<p>[blog] <strong><a href="https://blog.infernored.com/keeping-up-with-tech/">Keeping Up with Tech</a></strong>. This post was mainly about being a t-shaped developer, with a mention of how to find the &#8220;next thing&#8221; to learn about.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/@fmmagalhaes/i-built-the-same-app-with-flutter-react-native-and-ionic-33ff8b358562">I built the same app with Flutter, React Native, and Ionic</a></strong>. You can learn a lot by using different languages or frameworks to solves the same problem. Here&#8217;s a look at three popular app frameworks.</p>
+
+
+
+<p>[article] <strong><a href="https://hbr.org/2024/05/how-to-present-to-an-audience-that-knows-more-than-you">How to Present to an Audience That Knows More Than You</a></strong>. Many folks dislike public speaking. It can be even more nerve-wracking if you know the audience is smarter than you on a given topic. That&#8217;s often the case! This article has some advice for those situations.</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/unlocking-codebase-insights-with-vertex-ai-gemini-1-5-pro-a-comprehensive-guide-1f40a6f488e9">Unlocking Codebase Insights with Vertex AI Gemini 1.5 Pro: A Comprehensive Guide</a></strong>. What questions would you ask of an inherited codebase? Where are the security issues? How should I troubleshoot? What does each component do? This post shows examples for AI-based interrogation.</p>
+
+
+
+<p>[article] <strong><a href="https://thenewstack.io/do-enormous-llm-context-windows-spell-the-end-of-rag/">Do Enormous LLM Context Windows Spell the End of RAG?</a></strong> Somewhat related to the previous piece. If I can send in all my code to an LLM, I may not need it chunked up and vector-stored prior.</p>
+
+
+
+<p>[blog] <strong><a href="https://robertglazer.substack.com/p/friday-forward-nvidia-jensen-huang">Good Suffering</a></strong>. Bob has a good reminder that &#8220;resilience&#8221; is a developed characteristic, and talks about having &#8220;high standards and low expectations.&#8221;</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/using-googles-gemini-function-calling-to-fetch-real-time-company-news-and-insights-from-external-d11b2da565e3">Using Google’s Gemini Function Calling to Fetch Real-Time Company News and Insights from External APIs</a></strong>. This is a good example of &#8220;function calling&#8221; as a technique for getting real-time data into your generative AI apps.</p>
+
+
+
+<p>[blog] <strong><a href="https://codeopinion.com/how-to-and-how-not-to-design-rest-apis/">How to (and how not to) design REST APIs</a></strong>. Derek affirms and rejects some &#8220;conventional wisdom&#8221; around HTTP (or REST) APIs.</p>
+
+
+
+<p>[article] <strong><a href="https://www.ciodive.com/news/it-services-tech-spend-growth-forrester-accenture-cloud-ai/715436/">IT services spend will reach $2 trillion by 2028: Forrester</a></strong>. Spending is up, especially on cloud. But this notes that cloud spending is still less than 10% of the IT services spend!</p>
+
+
+
+<p>[blog] <strong><a href="https://medium.com/google-cloud/billed-for-unauthorized-requests-google-cloud-storage-vs-aws-s3-8d4d6551fe72">Billed for unauthorized requests? Google Cloud Storage vs. AWS S3</a></strong>. This topic came up a week or so ago when a user got a massive bill for unauthorized 403 requests to their Amazon S3 bucket. AWS is fixing that, and this post looks at whether you&#8217;re at the same risk on Google Cloud. Hint: you&#8217;re not.</p>
+
+
+
+<p>[blog] <strong><a href="https://blog.howardjohn.info/posts/podless-kubernetes/">Podless Kubernetes</a></strong>. As an academic exercise, could you deploy a full Kubernetes cluster and mesh in a single node binary, without any pods running? John did just that.</p>
+
+
+
+<p>##</p>
+
+
+
+<p>Want to get this update sent to you every day? <a rel="noreferrer noopener" href="https://seroter.com/feed/" target="_blank">Subscribe to my RSS feed</a> or subscribe via email below:</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://seroter.com/?post_type=post&#038;p=16672" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px; background-color: #113AF5; color: #FFFFFF; text-decoration: none; white-space: nowrap; margin-left: 0">Subscribe</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>]]></content:encoded>
+					
+					<wfw:commentRss>https://seroter.com/2024/05/13/daily-reading-list-may-13-2024-317/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		
+		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
+			<media:title type="html">rseroter</media:title>
+		</media:content>
+	</item>
+		<item>
 		<title>Daily Reading List &#8211; May 10, 2024 (#316)</title>
 		<link>https://seroter.com/2024/05/10/daily-reading-list-may-10-2024-316/</link>
 					<comments>https://seroter.com/2024/05/10/daily-reading-list-may-10-2024-316/#respond</comments>
@@ -771,407 +863,6 @@
 		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
 			<media:title type="html">rseroter</media:title>
 		</media:content>
-	</item>
-		<item>
-		<title>Here&#8217;s what I&#8217;d use to build a generative AI application in 2024</title>
-		<link>https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/</link>
-					<comments>https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/#comments</comments>
-		
-		<dc:creator><![CDATA[Richard Seroter]]></dc:creator>
-		<pubDate>Tue, 30 Apr 2024 19:56:11 +0000</pubDate>
-				<category><![CDATA[AI/ML]]></category>
-		<category><![CDATA[Cloud]]></category>
-		<category><![CDATA[General Architecture]]></category>
-		<category><![CDATA[Google Cloud]]></category>
-		<category><![CDATA[Spring]]></category>
-		<guid isPermaLink="false">http://seroter.com/?p=16426</guid>
-
-					<description><![CDATA[What exactly is a &#8220;generative AI app&#8221;? Do you think of chatbots, image creation tools,&#8230;]]></description>
-										<content:encoded><![CDATA[
-<p>What exactly <em>is</em> a &#8220;generative AI app&#8221;? Do you think of chatbots, image creation tools, or music makers? What about document analysis services, text summarization capabilities, or widgets that &#8220;fix&#8221; your writing? These all seem to apply in one way or another! I see a lot written about tools and techniques for training, fine-tuning, and serving models, but what about us app builders? How do we actually <em>build</em> generative AI apps without obsessing over the models? Here&#8217;s what I&#8217;d consider using in 2024. And note that there&#8217;s much more to cover besides just building—think designing, testing, deploying, operating—but I&#8217;m just focusing on the builder tools today.</p>
-
-
-
-<h2 class="wp-block-heading">Find a sandbox for experimenting with prompts</h2>
-
-
-
-<p>A successful generative AI app depends on a useful model, good data, and <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies">quality prompts</a>. Before going to deep on the app itself, it&#8217;s good to have a sandbox to play in.</p>
-
-
-
-<p>You can definitely start with chat tools like Gemini and ChatGPT. That&#8217;s not a bad way to get your hands dirty. There&#8217;s also a set of developer-centric surfaces such as <a href="https://colab.research.google.com/">Google Colab</a> or<a href="https://ai.google.dev/aistudio/"> Google AI Studio</a>. Once you sign in with a Google ID, you get free access to environments to experiment.</p>
-
-
-
-<p>Let&#8217;s look at Google AI Studio. Once you&#8217;re in this UI, you have the ability to simulate a back-and-forth chat, create freeform prompts that include uploaded media, or even structured prompts for more complex interactions.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png"><img width="1024" height="664" data-attachment-id="16433" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-01/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png" data-orig-size="1400,908" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-01" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=1024" alt="" class="wp-image-16433" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>If you find yourself staring at an empty console wondering what to try, check out <a href="https://ai.google.dev/examples?keywords=prompt">this prompt gallery</a> that shows off a lot of unique scenarios.</p>
-
-
-
-<p>Once you&#8217;re doing more &#8220;serious&#8221; work, you might upgrade to a proper cloud service that offers a sandbox along with SLAs and prompt lifecycle capabilities. Google Cloud Vertex AI is one example. Here, I created a named prompt.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png"><img width="1024" height="804" data-attachment-id="16436" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-02/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png" data-orig-size="1400,1100" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-02" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=1024" alt="" class="wp-image-16436" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>With my language prompts, I can also jump into a nice &#8220;compare&#8221; experience where I can try out variations of my prompt and see if the results are graded as better or worse. I can even set one as &#8220;ground truth&#8221; used as a baseline for all comparisons.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png"><img width="862" height="1024" data-attachment-id="16438" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-03/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png" data-orig-size="1400,1664" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-03" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=252" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=862" alt="" class="wp-image-16438" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=862 862w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=126 126w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=252 252w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png 1400w" sizes="(max-width: 862px) 100vw, 862px" /></a></figure>
-
-
-
-<p>Whatever sandbox tools you use, make sure they help you iterate quickly, while also matching the enterprise-y needs of the use case or company you work for.</p>
-
-
-
-<h2 class="wp-block-heading">Consume native APIs when working with specific models or platforms</h2>
-
-
-
-<p>At this point, you might be ready to start building your generative AI app. There seems to be a new, interesting foundation model <a href="https://huggingface.co/models">up on Hugging Face</a> every couple of days. You might have a lot of affection for a specific model family, or not. If you care about the model, you might choose the APIs for that specific model or provider.</p>
-
-
-
-<p>For example, let&#8217;s say you were making good choices and anchored your app to the Gemini model. I&#8217;d go straight to the Vertex AI SDK for <a href="https://cloud.google.com/vertex-ai/docs/python-sdk/use-vertex-ai-python-sdk">Python</a>, <a href="https://github.com/googleapis/nodejs-vertexai">Node</a>, <a href="https://github.com/googleapis/google-cloud-java/tree/main/java-vertexai">Java</a>, or <a href="https://github.com/googleapis/google-cloud-go/tree/main/vertexai">Go</a>. I might even jump to the <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini">raw REST API</a> and build my app with that.</p>
-
-
-
-<p>If I were baking a chat-like API call into my Node.js app, the quickest way to get the code I need is to go into Vertex AI, create a sample prompt, and click the &#8220;get code&#8221; button.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif"><img loading="lazy" width="676" height="434" data-attachment-id="16441" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-04/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif" data-orig-size="676,434" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-04" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=676" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=676" alt="" class="wp-image-16441" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif 676w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=300 300w" sizes="(max-width: 676px) 100vw, 676px" /></a></figure>
-
-
-
-<p>I took that code, ran it in a Cloud Shell instance, and it worked perfectly. I could easily tweak it for my specific needs from here. Drop this code into a serverless function, Kubernetes pod, or VM and you&#8217;ve got a working generative AI app.</p>
-
-
-
-<p>You could follow this same direct API approach when building out more sophisticated retrieval augmented generation (RAG) apps. In a Google Cloud world, you might use the Vertex AI APIs to <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings">get text embeddings</a>. Or you could choose something more general purpose and <a href="https://cloud.google.com/alloydb/docs/ai/work-with-embeddings">interact with a PostgreSQL database to generate, store, and query embeddings</a>. This is an <a href="https://medium.com/google-cloud/revolutionizing-patent-searches-with-alloydb-and-google-cloud-an-80-000-lesson-learned-8079a48528b0">excellent example</a> of this approach.</p>
-
-
-
-<p>If you have a specific model preference, you might choose to use the API for Gemini, Llama, Mistral, or whatever. And you might choose to directly interact with database or function APIs to augment the input to those models. That&#8217;s cool, and is the right choice for many scenarios.</p>
-
-
-
-<h2 class="wp-block-heading">Use meta-frameworks for consistent experiences across models and providers</h2>
-
-
-
-<p>As expected, the AI builder space is now full of higher-order frameworks that help developers incorporate generative AI into their apps. These frameworks help you call LLMs, work with embeddings and vector databases, and even support actions like function calling.</p>
-
-
-
-<p><a href="https://www.langchain.com/">LangChain</a> is a big one. You don&#8217;t need to be bothered with many model details, and you can chain together tasks to get results. It&#8217;s for Python devs, so your choice is either to use Python, or, embrace one of the many offshoots. There&#8217;s <a href="https://github.com/langchain4j/langchain4j">LangChain4J</a> for Java devs, <a href="https://github.com/tmc/langchaingo">LangChain Go</a> for Go devs, and <a href="https://github.com/langchain-ai/langchainjs">LangChain.js</a> for JavaScript devs.</p>
-
-
-
-<p>You have other choices if LangChain-style frameworks aren&#8217;t your jam. There&#8217;s <a href="https://spring.io/projects/spring-ai">Spring AI</a>, which has a fairly straightforward set of objects and methods for interacting with models. I tried it out for interacting with the Gemini model, and almost found it easier to use than our native API! It takes one update to my POM file:</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate">
-&lt;dependency&gt;
-			&lt;groupId&gt;org.springframework.ai&lt;/groupId&gt;
-			&lt;artifactId&gt;spring-ai-vertex-ai-gemini-spring-boot-starter&lt;/artifactId&gt;
-&lt;/dependency&gt;
-</pre></div>
-
-
-<p>One set of application properties:</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate">
-spring.application.name=demo
-spring.ai.vertex.ai.gemini.projectId=seroter-dev
-spring.ai.vertex.ai.gemini.location=us-central1
-spring.ai.vertex.ai.gemini.chat.options.model=gemini-pro-vision
-</pre></div>
-
-
-<p>And then an autowired chat object that I call from anywhere, like in this REST endpoint.</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: java; title: ; notranslate">
-@RestController
-@SpringBootApplication
-public class DemoApplication {
-
-	public static void main(String&#91;] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
-
-	private final VertexAiGeminiChatClient chatClient;
-
-	@Autowired
-    public DemoApplication(VertexAiGeminiChatClient chatClient) {
-        this.chatClient = chatClient;
-    }
-
-	@GetMapping("/")
-	public String getGeneratedText() {
-		String generatedResponse = chatClient.call("Tell me a joke");
-		return generatedResponse;
-	}
-}
-</pre></div>
-
-
-<p>Super easy. There are other frameworks too. Use something like <a href="https://docs.ai-jsx.com/">AI.JSX</a> for building JavaScript apps and components. <a href="https://github.com/SciSharp/BotSharp">BotSharp</a> is a framework for .NET devs building conversational apps with LLMs. Hugging Face has frameworks that help you abstract the LLM, including <a href="https://huggingface.co/docs/transformers.js/en/index">Transformers.js</a> and <a href="https://huggingface.co/blog/agents-js">agents.js</a>. </p>
-
-
-
-<p>There&#8217;s no shortage of these types of frameworks. If you&#8217;re iterating through LLMs and want consistent code regardless of which model you use, these are good choices.</p>
-
-
-
-<h2 class="wp-block-heading">Create with low-code tools when available</h2>
-
-
-
-<p>If I had an idea for a generative AI app, I&#8217;d want to figure out how much I actually had to build <em>myself</em>. There are a LOT of tools for building entire apps, components, or widgets, and many require very little coding.</p>
-
-
-
-<p>Everyone&#8217;s in this game. <a href="https://zapier.com/ai">Zapier</a> has some cool integration flows. <a href="https://www.gradio.app/">Gradio</a> lets you expose models and APIs as web pages. <a href="https://www.langflow.org/">Langflow</a> got snapped up by DataStax, but still offers a way to create AI apps without much required coding. <a href="https://flowiseai.com/">Flowise</a> offers some nice tooling for orchestration or AI agents. <a href="https://www.microsoft.com/en-us/power-platform/ai">Microsoft&#8217;s Power Platform</a> is useful for low-code AI app builders. AWS is in the game now with <a href="https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-bedrock-agents-agent-creation-return-control-capability/">Amazon Bedrock Agents</a>. <a href="https://www.servicenow.com/now-platform/generative-ai.html">ServiceNow</a> is baking generative AI into their builder tools, <a href="https://www.salesforce.com/products/customer-service-chatbot/">Salesforce</a> is doing their thing, and basically every traditional low-code app vendor is playing along. See <a href="https://www.outsystems.com/low-code-platform/gen-ai/">OutSystems</a>, <a href="https://www.mendix.com/platform/ai/">Mendix</a>, and everyone else.</p>
-
-
-
-<p>As you would imagine, Google does a fair bit here as well. The <a href="https://cloud.google.com/generative-ai-app-builder/docs/introduction">Vertex AI Agent Builder</a> offers four different app types that you basically build through point-and-click. These include personalized search engines, chat, recommendation engine, and connected agents. </p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png"><img loading="lazy" width="700" height="506" data-attachment-id="16461" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-05/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png" data-orig-size="700,506" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-05" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=700" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=700" alt="" class="wp-image-16461" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png 700w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=300 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></figure>
-
-
-
-<p>Search apps can tap into a variety of data sources including crawled websites, data warehouses, relational databases, and more.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png"><img loading="lazy" width="700" height="515" data-attachment-id="16463" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-06/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png" data-orig-size="700,515" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-06" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=700" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=700" alt="" class="wp-image-16463" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png 700w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=300 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></figure>
-
-
-
-<p>What&#8217;s fairly new is the &#8220;agent app&#8221; so let&#8217;s try building one of those. Specifically, let&#8217;s say I run a baseball clinic (sigh, someday) and help people tune their swing in our batting cages. I might want a chat experience for those looking for help with swing mechanics, and then also offer the ability to book time in the batting cage. I need data, but also interactivity.</p>
-
-
-
-<p>Before building the AI app, I need a Cloud Function that returns available times for the batting cage. </p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png"><img loading="lazy" width="700" height="615" data-attachment-id="16476" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-07/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png" data-orig-size="700,615" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-07" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=700" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=700" alt="" class="wp-image-16476" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png 700w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=300 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></figure>
-
-
-
-<p>This Node.js function returns an array of book-able timeslots. I&#8217;ve hard-coded the data, but you get the idea.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png"><img loading="lazy" width="1024" height="807" data-attachment-id="16478" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-08/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png" data-orig-size="1400,1104" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-08" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=1024" alt="" class="wp-image-16478" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>I also jumped into the Google Cloud IAM interface to ensure that the Dialogflow service account (which the AI agent operates as) has permission to invoke the serverless function.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png"><img loading="lazy" width="1024" height="684" data-attachment-id="16481" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-09/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png" data-orig-size="1400,936" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-09" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=1024" alt="" class="wp-image-16481" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>Let&#8217;s build the agent. Back in the Vertex AI Agent Builder interface, I choose &#8220;new app&#8221; and pick  &#8220;agent.&#8221;</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png"><img loading="lazy" width="1024" height="650" data-attachment-id="16483" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-10/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png" data-orig-size="1400,890" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-10" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=1024" alt="" class="wp-image-16483" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=1022 1022w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>Now I&#8217;m dropped into the agent builder interface. On the left, I have navigation for agents, tools, test cases, and more. In the next column, I set the goal of the agent, the instructions, and any tools I want to use with the agent. On the right, I preview my agent.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png"><img loading="lazy" width="1024" height="734" data-attachment-id="16486" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-11/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png" data-orig-size="1400,1004" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-11" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=1024" alt="" class="wp-image-16486" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>I set a goal of &#8220;Answer questions about baseball and let people book time in the batting cage&#8221; and then get to the instructions. There&#8217;s a &#8220;sample&#8221; set of instructions that are useful for getting started. I used those, but removed references to other agents or tools, as we don&#8217;t have that yet.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png"><img loading="lazy" width="1024" height="775" data-attachment-id="16487" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-12/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png" data-orig-size="1400,1060" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-12" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=1024" alt="" class="wp-image-16487" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>But now I want to add a tool, as I need a way to show available booking times if the user asks. I have a choice of adding a data store—this is useful if you want to source Q&amp;A from a BigQuery table, crawl a website, or get data from an API. I clicked the &#8220;manage all tools&#8221; button and chose to add a new tool. Here I give the tool a name, and very importantly, a description. This description is used by the AI agent to figure out when to invoke it.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png"><img loading="lazy" width="1024" height="933" data-attachment-id="16489" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-13/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png" data-orig-size="1400,1276" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-13" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=1024" alt="" class="wp-image-16489" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>Because I chose OpenAPI as the tool type, I need to provide an OpenAPI spec for my Cloud Function. There&#8217;s a sample provided, and I used that to put together my spec. Note that the URL is the function&#8217;s base URL, and the path contains the specific function name.</p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; title: ; notranslate">
-{
-    "openapi": "3.0.0",
-    "info": {
-        "title": "Cage API",
-        "version": "1.0.0"
-    },
-    "servers": &#91;
-        {
-            "url": "https://us-central1-seroter-anthos.cloudfunctions.net"
-        }
-    ],
-    "paths": {
-        "/function-get-cage-times": {
-            "get": {
-                "summary": "List all open cage times",
-                "operationId": "getCageTimes",
-                "responses": {
-                    "200": {
-                        "description": "An array of cage times",
-                        "content": {
-                            "application/json": {
-                                "schema": {
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#/components/schemas/CageTimes"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "components": {
-        "schemas": {
-            "CageTimes": {
-                "type": "object",
-                "required": &#91;
-                    "cageNumber",
-                    "openSlot",
-                    "cageType"
-                ],
-                "properties": {
-                    "cageNumber": {
-                        "type": "integer",
-                        "format": "int64"
-                    },
-                    "openSlot": {
-                        "type": "string"
-                    },
-                    "cageType": {
-                        "type": "string"
-                    }
-                }
-            }
-        }
-    }
-}
-</pre></div>
-
-
-<p>Finally, in this &#8220;tool setup&#8221; I define the authentication to that API. I chose &#8220;service agent token&#8221; and because I&#8217;m calling a specific instance of a service (versus the platform APIs), I picked &#8220;ID token.&#8221;</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png"><img loading="lazy" width="1024" height="806" data-attachment-id="16492" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-15/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png" data-orig-size="1400,1102" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-15" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=1024" alt="" class="wp-image-16492" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=1024 1024w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>After saving the tool, I go back to the agent definition and want to update the instructions to invoke the tool. I use the syntax, and appreciated the auto-completion help.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png"><img loading="lazy" width="1024" height="412" data-attachment-id="16494" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-16/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png" data-orig-size="1300,524" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-16" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=300" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=1024" alt="" class="wp-image-16494" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=1022 1022w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=150 150w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=300 300w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png 1300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p>Let&#8217;s see if it works. I went to the right-hand preview pane and asked it a generic baseball question. Good. Then I asked it for open times in the batting cage. Look at that! It didn&#8217;t just return a blob of JSON; it parsed the result and worded it well.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png"><img loading="lazy" width="953" height="1023" data-attachment-id="16496" data-permalink="https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/2024-04-30-ai-17/#main" data-orig-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png" data-orig-size="1400,1504" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="2024.04.30-ai-17" data-image-description="" data-image-caption="" data-medium-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=279" data-large-file="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=730" src="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=953" alt="" class="wp-image-16496" srcset="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=953 953w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=140 140w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=279 279w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=768 768w, https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png 1400w" sizes="(max-width: 953px) 100vw, 953px" /></a></figure>
-
-
-
-<p>Very cool. There are some quirks with this tool, but it&#8217;s early, and I like where it&#8217;s going. This was MUCH simpler than me building a RAG-style or function-calling solution by hand.</p>
-
-
-
-<h2 class="wp-block-heading">Summary</h2>
-
-
-
-<p>The AI assistance and model building products get a lot of attention, but some of the most interesting work is happening in the tools for AI app builders. Whether you&#8217;re experimenting with prompts, coding up a solution, or assembling an app out of pre-built components, it&#8217;s a fun time to be developer. What products, tools, or frameworks did I miss from my assessment?</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://seroter.com/2024/04/30/heres-what-id-use-to-build-a-generative-ai-application-in-2024/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		
-		<media:thumbnail url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png" />
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png" medium="image">
-			<media:title type="html">2024.04.30-ai-10</media:title>
-		</media:content>
-
-		<media:content url="https://2.gravatar.com/avatar/2fab44e2f8decc2654cf4cb6b3bef813b072a16c7206880423c14d2e4be6f910?s=96&#38;d=https%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96" medium="image">
-			<media:title type="html">rseroter</media:title>
-		</media:content>
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-01.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-02.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-03.png?w=862" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-04.gif?w=676" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-05.png?w=700" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-06.png?w=700" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-07.png?w=700" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-08.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-09.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-10.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-11.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-12.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-13.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-15.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-16.png?w=1024" medium="image" />
-
-		<media:content url="https://seroter.files.wordpress.com/2024/04/2024.04.30-ai-17.png?w=953" medium="image" />
 	</item>
 	</channel>
 </rss>

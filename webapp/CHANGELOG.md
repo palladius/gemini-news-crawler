@@ -1,3 +1,4 @@
+2024-05-14 v0.2.7 [DEV] Fixed graphs. Better similar articles now with title and author.
 2024-05-13 v0.2.6 [DEV] Added distance to top close articles
 2024-05-13 v0.2.5 [DEV] Fixed bug of `db:seed`
 2024-05-12 v0.2.4 [DEV] Fixed bug of Embeddings! Now I have 3 embeddings which work.

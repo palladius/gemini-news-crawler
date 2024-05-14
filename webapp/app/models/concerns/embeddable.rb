@@ -21,19 +21,7 @@ module Embeddable
         title = self.compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
         assert_good_gemini_response(title, "compute_embeddings! on title side 1")
         self.title_embedding = title # .to_a # This converts to string!!!
-        #self.title_embedding = [1,2,3] # title.to_a # This converts to string!!!
-        #         title_embedding: "[1, 2, 3]",
-        #  summary_embedding: nil,
-        #  article_embedding:
-        #   [1.0,
-        #    2.0,
-        #    3.0,
-        # Found the bug! title_embedding is a string, not an array!
         assert_good_gemini_response(self.title_embedding, "compute_embeddings! on title side 2 after assignment")
-        # irb(main):004> t.class
-        # => Array
-        # irb(main):005> t.size
-        # => 768
       else
         puts("ε - No title -> skipping")
       end
@@ -49,7 +37,12 @@ module Embeddable
       # db/schema.rb:    t.vector "title_embedding", limit: 768
       # db/schema.rb:    t.vector "summary_embedding", limit: 768
       # db/schema.rb:    t.vector "article_embedding", limit: 768
-      self.article_embedding = self.title_embedding if (self.article_embedding.nil? and  self.title_embedding.is_a? Array)
+      # OLD VERSION: article_embedding copied from  title_embedding
+      #self.article_embedding = self.title_embedding if (self.article_embedding.nil? and  self.title_embedding.is_a? Array)
+
+      self.article_embedding = self.compute_gcp_embeddings_for(field_to_access: :article) rescue nil
+      assert_good_gemini_response(self.article_embedding, "compute_embeddings! on whole Article side")
+
       self.save if self.changed? # cool! https://stackoverflow.com/questions/24412634/rails-save-method-if-no-changes
     else
       puts("GCP is false. Lets compute them through Llama or sth else..")
@@ -66,8 +59,9 @@ module Embeddable
       compute_embeddings!
     else
       puts("Some Embeddings are NON EMPTY - I skip all (but TBH I should be iterating through every value...)")
-      puts("- title_embedding.nil? -> #{title_embedding.nil?}")
-      puts("- summary_embedding.nil? -> #{summary_embedding.nil?}")
+      puts("- 1. title_embedding.nil? -> #{title_embedding.nil?}")
+      puts("- 2. summary_embedding.nil? -> #{summary_embedding.nil?}")
+      puts("- 3. article_embedding.nil? -> #{article_embedding.nil?}")
     end
   end
 
@@ -88,7 +82,7 @@ module Embeddable
   def compute_gcp_embeddings_for(field_to_access:)
     value = cleanup_text(self.send(field_to_access)).to_s
     raise "Empty request - skipping calculation as it doesnt make sense." if value.length <= 1 # also 1 is nothing..
-    puts("Compute embeddings for a #{self.class}. Value: '#{value}'. Len=#{value.length}")
+    puts("+ Compute embeddings for a #{self.class}. Value: '#{value}'. Len=#{value.length}")
     unless gcp?
       puts("No GCP enabled. I need to skip this - quitely.")
       return
@@ -225,10 +219,8 @@ module Embeddable
 #      self.includes(:article_embedding).where('article_embedding' => nil).all
       self.where('article_embedding' => nil).all
     end
-    def compute_embeddings_for_all(max_instances: 1000)
-      # TODO honour the 1000.
+    def compute_embeddings_for_all(max_instances: 10000)
       puts("🗿🗿🗿 Computing embeddings for ALL. This makes for a great RAKE task or a Job (inspired by 'DHH-Vanilla-RoR7 with Embeddings')!")
-      #self.all
       how_many = self.find_all_without_any_embeddings.count
       puts("🗿🗿🗿  Total Articles: #{Article.all.count}. Total embeddings to be computed: #{how_many}")
       self.find_all_without_any_embeddings.each_with_index do |article, ix|
@@ -236,7 +228,8 @@ module Embeddable
         break if ix > max_instances
         article.compute_embeddings()
         # or the API will complain
-        sleep(1.0/24.0)
+        #sleep(1.0/24.0)
+        sleep(1.0/48.0)
       end
     end
   end

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Notizie su Ruby</title>
+    <link>https://www.ruby-lang.org/it/feeds/news.rss</link>
+    <language>it-IT</language>
+    <ttl>40</ttl>
+    <description>Le ultime notizie da ruby-lang.org.</description>
+    
+    <item>
+      <title>Rilasciato Ruby 2.4.2</title>
+      <description>&lt;p&gt;Siamo lieti di annunciare il rilascio di Ruby 2.4.2.
+Questa release include alcuni fix di sicurezza.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/&quot;&gt;CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/&quot;&gt;CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/&quot;&gt;CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/&quot;&gt;CVE-2017-14064: Heap exposure in generating JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/&quot;&gt;Multiple vulnerabilities in RubyGems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Update bundled libyaml to version 0.1.7.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ci sono anche molti fix di bug.
+Si vedano i &lt;a href=&quot;https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2&quot;&gt;commit logs&lt;/a&gt; per ulteriori dettagli.&lt;/p&gt;
+
+&lt;h2&gt;Problemi conosciuti&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;(This section was added at September 15, 2017.)&lt;/em&gt;
+&lt;em&gt;(Questa sezione è stata aggiunta il 15 settembre 2017.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;E’ stata trovata una incompatibilità in Ruby 2.4.2.
+Ruby 2.4.2 non può linkare le librerie libgmp e jemalloc.
+Risolveremo questo problema con la prossima release, me se lo riscontrate ora e avete la necessità di una soluzione immediata, potete prelevare una patch da questo link:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/13899&quot;&gt;Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   12607283 bytes
+SHA1:   a8a50a9297ff656e5230bf0f945acd69cc02a097
+SHA256: 08e72d0cbe870ed1317493600fbbad5995ea3af2d0166585e7ecc85d04cc50dc
+SHA512: 1a5302d2558089a6b91b815fff9b75a29e690f10861de5fdd48211f3f45025a70dad7495f216e6af9c62d72e69ed316f1a52fada704bdc7e6d8c094d141ea77c
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   14187859 bytes
+SHA1:   b096124469e31e4fc3d00d2b61b11d36992e6bbd
+SHA256: 93b9e75e00b262bc4def6b26b7ae8717efc252c47154abb7392e54357e6c8c9c
+SHA512: 96c236bdcd09b2e7cf429da631a487fc00f1255443751c03c8abeb4c2ce57079ad60ef566fecc0bf2c7beb2f080e2b8c4d30f321664547b2dc7d2a62aa1075ef
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   10046412 bytes
+SHA1:   8373e32c63bba2180799da091b572664aa9faf6f
+SHA256: 748a8980d30141bd1a4124e11745bb105b436fb1890826e0d2b9ea31af27f735
+SHA512: c1d42272fb0d94b693452e703b0ea4942bf59cbd4b08ba83bf039f54be97ebc88511632413da0164970b4cf97bc302bccb88aab48edfa8fa147498e7ee741595
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   15645325 bytes
+SHA1:   861b51de9db0d822ef141ad04383c76aa3cd2fff
+SHA256: 37d7cb27d8abd4b143556260506306659930548652343076f7f8470f07818824
+SHA512: 234765091528be1310ac315868f84ae6c505aa696672929df2f00828c1bbdc7cbcb2fc690eab4e73efde6be9104584ba7b6944853861f6d05e775b124ce8dfd5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+&lt;p&gt;I molti committers, sviluppatori e utenti che hanno fornito segnalazioni di bug ci hanno aiutato
+a realizzare questo rilascio.
+Un ringraziamento per il loro contributo.&lt;/p&gt;
+
+&lt;p&gt;Inserito da nagachika il 2017-09-14&lt;br /&gt;Tradotto da stefsava&lt;/p&gt;</description>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2017/09/14/ruby-2-4-2-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2017/09/14/ruby-2-4-2-released/</link>
+    </item>
+    
+    <item>
+      <title>Rilasciato Ruby 2.4.0-preview2</title>
+      <description>&lt;p&gt;Siamo lieti di annunciare la release di Ruby 2.4.0-preview2.&lt;/p&gt;
+
+&lt;p&gt;Ruby 2.4.0-preview2 è la prima anteprima di Ruby 2.4.0.
+Questa preview2 è rilasciata per avere dei feedback dalla community.
+&lt;a href=&quot;https://github.com/ruby/ruby/wiki/How-To-Report&quot;&gt;Mandate pure feedback&lt;/a&gt;
+poiché potete ancora influenzare le features.&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/12005&quot;&gt;Fixnum e Bignum unificati in Integer&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Anche se &lt;a href=&quot;http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579&quot;&gt;ISO/IEC 30170:2012&lt;/a&gt;
+non specifica i dettagli della classe Integer, Ruby ha due classi Integer:
+Fixnum e Bignum.
+Ruby 2.4 le unisce in Integer.
+Tutte le estensioni C che usano le classi Fixnum o Bignum devono essere
+modificate.&lt;/p&gt;
+
+&lt;p&gt;Si vedano inoltre &lt;a href=&quot;https://bugs.ruby-lang.org/issues/12005&quot;&gt;il ticket&lt;/a&gt; e
+&lt;a href=&quot;http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf&quot;&gt;le slide di akr&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/10085&quot;&gt;String supporta i case mapping Unicode&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String/Symbol#upcase/downcase/swapcase/capitalize(!)&lt;/code&gt; ora gestiscono i case
+mapping Unicode invede dei soli case mapping ASCII.&lt;/p&gt;
+
+&lt;h2&gt;Miglioramenti di Performance&lt;/h2&gt;
+
+&lt;p&gt;Ruby 2.4 include anche le seguenti migliorie prestazionali:&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/12172&quot;&gt;Array#max, Array#min&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[x, y].max&lt;/code&gt; e &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[x, y].min&lt;/code&gt; in alcuni casi sono ottimizzati per non creare un
+array temporaneo.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/8110&quot;&gt;Regexp#match?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;È stato aggiunto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Regexp#match?&lt;/code&gt;, che esegue un match regexp senza creare un
+back reference object e cambiando &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$~&lt;/code&gt; per ridurre l’allocazione di oggetti.&lt;/p&gt;
+
+&lt;h3&gt;Altre migliorie di performance&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/12274&quot;&gt;accesso delle variabili di istanza più veloce&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Debugging&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/6647&quot;&gt;Thread#report_on_exception e Thread.report_on_exception&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ruby ignora le eccezioni nei threads a meno che un altro thread non le acceda
+esplicitamente.
+Con &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;report_on_exception = true&lt;/code&gt;, vi potete accorgere se un thread è morto per
+un’eccezione non gestita.&lt;/p&gt;
+
+&lt;p&gt;Mandateci feedback su quale dovrebbe essere il default di &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;report_on_exception&lt;/code&gt;
+e riguardo report-on-GC, che mostra un report quando un thread è
+garbage collected without join.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/8214&quot;&gt;La Deadlock detection di Thread ora mostra i thread con backtrace e dipendenze&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ruby ha una deadlock detection sui thread in attesa, ma il suo report non
+include abbasta informazioni per il debug.
+La deadlock detection di Ruby 2.4’s mostra i thread con il loro backtrace e i
+thread dipendenti.&lt;/p&gt;
+
+&lt;p&gt;Dilettatevi nella programmazione con Ruby 2.4.0-preview2 e
+&lt;a href=&quot;https://github.com/ruby/ruby/wiki/How-To-Report&quot;&gt;mandateci feedback&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2&gt;Modifiche importanti dalla 2.3&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Supporta OpenSSL 1.1.0&lt;/li&gt;
+  &lt;li&gt;ext/tk rimosso dalla stdlib &lt;a href=&quot;https://bugs.ruby-lang.org/issues/8539&quot;&gt;Feature #8539&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vedere le &lt;a href=&quot;https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS&quot;&gt;NEWS&lt;/a&gt;
+e il &lt;a href=&quot;https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt;
+per i dettagli.&lt;/p&gt;
+
+&lt;p&gt;Con queste modifiche abbiamo
+&lt;a href=&quot;https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview2&quot;&gt;2353 file modificati, 289057 inserimenti(+), 73847 rimozioni(-)&lt;/a&gt;
+da Ruby 2.3.0!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;SIZE:   12463225 bytes&lt;/li&gt;
+      &lt;li&gt;SHA1:   95a501624f1cf4bb0785d3e17afd0ad099f66385&lt;/li&gt;
+      &lt;li&gt;SHA256: 2224c55b2d87b5c0f08d23a4618e870027dbc1cffbfb4a05efd19eac4ff4cf1d&lt;/li&gt;
+      &lt;li&gt;SHA512: 0c9a59a2f57a99c4ee8539a30f41da1de7547566203f89d856e1be9dbb44365754e6c470145dc9336eb324e0feb2f53d9fef18a1564968ac21f9ee528905949f&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;SIZE:   15586514 bytes&lt;/li&gt;
+      &lt;li&gt;SHA1:   492a13c4ddc1c0c218433acb00dcf7ddeef96fe0&lt;/li&gt;
+      &lt;li&gt;SHA256: fec544836428aada2dc593a8cc42ce330798a805e49ecb807a0e21b386fd0b14&lt;/li&gt;
+      &lt;li&gt;SHA512: 5a3de852a7611e79f38219ed7bb13772aaabb25538ca843d38743180a0cc939a4e34c008b61d578da785285196b6b8882270bddc17cbed481237db8afa4c54e4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;SIZE:   9886832 bytes&lt;/li&gt;
+      &lt;li&gt;SHA1:   95d5fd7d54d86497194f69ec433755a517dcde8f&lt;/li&gt;
+      &lt;li&gt;SHA256: 6c2d25bedc50c2f19b0e349f0ffd9b9a83000d9cb6a677bf5372fb493d33e16a&lt;/li&gt;
+      &lt;li&gt;SHA512: b9bd898d17583103ee61b4764ac86eb62c9661fca1f41ff0d06a15965a0a1ba581491d4b8a342e527d63e102b6ddcb2acebdabe5b246409ce9711e13f9428d5b&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;SIZE:   17401564 bytes&lt;/li&gt;
+      &lt;li&gt;SHA1:   5f3a5b2fd03f70d49e74ec36be3e0c110f6c17cc&lt;/li&gt;
+      &lt;li&gt;SHA256: 4d0e466148283ad52208b1e1b70b018aefb7fa95b490fc862d5ea4ca284ecdd2&lt;/li&gt;
+      &lt;li&gt;SHA512: 0ef2098d995238580245a4bcee843641199c1194189be13614611e2ffec329278072319a799d409eaf13b1cff45f05a0eae02d9ea8ccc69058fa49e03eca0130&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Commento alla release&lt;/h2&gt;
+
+&lt;p&gt;Per il release schedule e altre informazioni vedere anche:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24&quot;&gt;ReleaseEngineering24&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inserito da naruse il 2016-09-08&lt;br /&gt;Tradotto da alepore&lt;/p&gt;</description>
+      <pubDate>Thu, 08 Sep 2016 09:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2016/09/08/ruby-2-4-0-preview2-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2016/09/08/ruby-2-4-0-preview2-released/</link>
+    </item>
+    
+    <item>
+      <title>Rilasciato Ruby 2.3.1</title>
+      <description>&lt;p&gt;È stato rilasciato Ruby 2.3.1.&lt;/p&gt;
+
+&lt;p&gt;Questo è il rilascio della prima versione TEENY della serie stabile 2.3.&lt;/p&gt;
+
+&lt;p&gt;Ci sono molti bugfixes, vedere il &lt;a href=&quot;https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt;
+per i dettagli.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   14432088 bytes
+SHA1:   4ee76c7c1b12d5c5b0245fc71595c5635d2217c9
+SHA256: 4a7c5f52f205203ea0328ca8e1963a7a88cf1f7f0e246f857d595b209eac0a4d
+SHA512: a8659b96a3a481a3dbdbb6997eb18ff1f8cd926a9707a90d071e937315c21d372c89252f0d44732ae5007d2678fda8c8fbceafa4e4b4ff500d236fb796284d8d
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   17797997 bytes
+SHA1:   c39b4001f7acb4e334cb60a0f4df72d434bef711
+SHA256: b87c738cb2032bf4920fef8e3864dc5cf8eae9d89d8d523ce0236945c5797dcd
+SHA512: 7399d59b54764e02760ed6cac525a43c5e7212aebbbff8a04234dc45adbc0cd9fe1ff9a9328eefd38f02d3b6c5b2e3ca843808784755ff4e66ded624f55c150a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   11407048 bytes
+SHA1:   83499c14c674cf2d88e495031434a94c06330879
+SHA256: 6725b5534d5a3a21ec4f14d6d7b9921a0d00d08acb88fd04cd50b47b70496338
+SHA512: e9d89aeefb1b1e72cee9d3d414b27c793cf09ff3ed5e0ea5277a2b6ae1cae9fdbf6b404a84b42c0c6835754eb04674fc4f1470fbfedabeee3f57e518f13db633
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   19842037 bytes
+SHA1:   ab9dec602b11ee4cfc295d6aa87ebe712372d123
+SHA256: 4c8ae431b33f78d64cabb31911e0890e9a3ac380b4f22b11738f9baeeda51763
+SHA512: a26d3ab5983c6f3ea454e3e75554137305525479e4c15c0ae424689e870e2c5a9f0fe194975cf362cc5528ce601e31a0a15b87c7af200fd0d1da17459435b953
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Commento alla Release&lt;/h2&gt;
+
+&lt;p&gt;I molti committer, developer e utenti che ci hanno segnalato bug hanno reso
+possibile questa release.
+Li ringraziamo per il loro contributo.&lt;/p&gt;
+
+&lt;p&gt;Inserito da nagachika il 2016-04-26&lt;br /&gt;Tradotto da alepore&lt;/p&gt;</description>
+      <pubDate>Tue, 26 Apr 2016 12:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2016/04/26/ruby-2-3-1-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2016/04/26/ruby-2-3-1-released/</link>
+    </item>
+    
+    <item>
+      <title>Rilasciato Ruby 2.2.5</title>
+      <description>&lt;p&gt;È stato rilasciato Ruby 2.2.5.&lt;/p&gt;
+
+&lt;p&gt;Questa release contiene molti bugfixes, si veda il &lt;a href=&quot;https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt;
+per i dettagli.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   13350551 bytes
+SHA1:   f78473fe60a632b778599374ae64612592c2c9c1
+SHA256: 22f0c6f34c0024e0bcaaa8e6831b7c0041e1ef6120c781618b833bde29626700
+SHA512: d3224814361c297bc36646c2e40f63c461ccf5a77fea5a3acdcb2c7ad1705bb229ac6abbd7ad1ae61cbe0fefd7a008c6102568d11366ad3107179302cd3e734e
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   16654395 bytes
+SHA1:   457707459827bd527347a5cee7b4dc509b486713
+SHA256: 30c4b31697a4ca4ea0c8db8ad30cf45e6690a0f09687e5d483c933c03ca335e3
+SHA512: 3dd8688c64b8b143bdd6b0f123b7c2ecdd1b93c7c9ee51b2774a3b0b864897789932c7ad406293a6ab12c9eb9db9cfb2940fc14e2afc4f79718994f7668cbd5f
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   10457620 bytes
+SHA1:   58484284dd613e139e8f7023b1168e9034a8766d
+SHA256: f86feaa0a578e8da0924ced3ec68b25b50d69fc9a72cc8d919bc3c73f85f87d7
+SHA512: 6da4bdb0a43d56c7a8e4dddbcacf237e998ebb54706c8f835b53713dbdf924e40d5f89f63017515e1d66904ca01f28058cf296567104e06540c57f036dcdd0fe
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   18493821 bytes
+SHA1:   e4f497e5b79768ae93dd73ac26da4ff5dd722bfe
+SHA256: d5094d7cc50266772a8352c68b7fcd865889fd174c09e2f11bb003696cd04bb3
+SHA512: b3789063252e361aa4598ecd9170fc360f0d5685497975ce09442fe5815c438b67b95fc67e56b99ab4044a49715ed1a8b1fb089f757c7c0d1a777536e06de8cf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Commento alla Release&lt;/h2&gt;
+
+&lt;p&gt;Grazie a tutti coloro che hanno aiutato questo rilascio.&lt;/p&gt;
+
+&lt;p&gt;Con questa release il maintainer di Ruby 2.2 cambia da nagachika-san a usa.
+Circa due terzi delle modifiche incluse in questa release sono stati fatti da
+nagachika-san.
+Un ringraziamento per il suo grande contributo.&lt;/p&gt;
+
+&lt;p&gt;La manutenzione di Ruby 2.2, inclusa questa release, è basato sull’ “Agreement
+for the Ruby stable version” della &lt;a href=&quot;http://www.ruby.or.jp/&quot;&gt;Ruby Association&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Inserito da usa il 2016-04-26&lt;br /&gt;Tradotto da alepore&lt;/p&gt;</description>
+      <pubDate>Tue, 26 Apr 2016 12:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2016/04/26/ruby-2-2-5-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2016/04/26/ruby-2-2-5-released/</link>
+    </item>
+    
+    <item>
+      <title>Rilasciato Ruby 2.1.10</title>
+      <description>&lt;p&gt;Ruby 2.1.10 è stato rilasciato.
+Questa release non è fatta per essere usata in produzione ma per dei test di
+compatibilità con i numeri di versione a due cifre.
+Per il normale utilizzo non è necessario aggiornare Ruby 2.1.9 a 2.1.10.&lt;/p&gt;
+
+&lt;p&gt;Come annunciato nel &lt;a href=&quot;https://www.ruby-lang.org/it/news/2016/03/30/ruby-2-1-9-released/&quot;&gt;post della release 2.1.9 release&lt;/a&gt;,
+Ruby 2.1.10 non include nessuna modifica rispetto alla 2.1.9, ad esclusione del
+numero di versione (e una relativa piccola modifica nella suite di test).
+Vi preghiamo di testare la vostra applicazione e/o librerie per la compatibilità
+con i numeri di versione a due cifre.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   12015299 bytes
+SHA1:   22dcd759d8cbb14c8735988fbc7ee5c35f9d4720
+SHA256: a74675578a9a801ac25eb7152bef3023432d6267f875b198eb9cd6944a5bf4f1
+SHA512: 4b7213695416876e4de3cbce912f61ac89db052c74f0daa8424477991cfc49b07300e960177ff576b634a97ee8afef3c5aded5d5806329dbd01d0ce7b42b9b63
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   15165837 bytes
+SHA1:   2a5194b1fd42a3f1f23f1e0844ae78332a9efd5d
+SHA256: fb2e454d7a5e5a39eb54db0ec666f53eeb6edc593d1d2b970ae4d150b831dd20
+SHA512: 5f9c0cc3d10b4e04c63f001b4add782c34b9f260368f48b443b397cea57680d328f7c28cbb2a9be4c2f5acd114bac07dacb100d57018fa4d2a1792fc03083418
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   9362868 bytes
+SHA1:   adcc9e10b8f7add0e19f8c70afc134c069a862ca
+SHA256: 5be9f8d5d29d252cd7f969ab7550e31bbb001feb4a83532301c0dd3b5006e148
+SHA512: 72406ac133af7f057d4633d2a300e49e133881f6b36ff4cdf6c72b4ff4325de332fc5a45c96ea407140a8bf09cdc307e13107c539196902e5b67b7d24cd72dc9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   16706304 bytes
+SHA1:   402158192b7673cb4e7a67f48f6d93945bc9fd13
+SHA256: 21cf83156ec782d17827fb9c8a945626dfd68cf0d9eb5ca7a78b12eb91c6f1fb
+SHA512: 5490fc4726a1efaea8c7c541ca3102013b00a0af2903d15009307265c93b218bb13aab0007d279823c740a9b173d957ca79f2d8f25932f04763ec1aa18d164e8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Commento alla Release&lt;/h2&gt;
+
+&lt;p&gt;Grazie a tutti coloro che hanno aiutato questa release.&lt;/p&gt;
+
+&lt;p&gt;Inserito da usa il 2016-04-01&lt;br /&gt;Tradotto da alepore&lt;/p&gt;</description>
+      <pubDate>Fri, 01 Apr 2016 02:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2016/04/01/ruby-2-1-10-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2016/04/01/ruby-2-1-10-released/</link>
+    </item>
+    
+    <item>
+      <title>Rilasciato Ruby 2.1.9</title>
+      <description>&lt;p&gt;Ruby 2.1.9 è stato rilasciato.&lt;/p&gt;
+
+&lt;p&gt;Questa release include molti bug fix.
+Si veda il &lt;a href=&quot;https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt;
+per ulteriori dettagli.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ruby-lang.org/it/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/&quot;&gt;Come già annunciato&lt;/a&gt;,
+questa è l’ultima release normale della serie 2.1 di Ruby.
+Dopo questa release non porteremo più bug fix sulla 2.1 ad eccezione dei fix di
+sicurezza.
+Vi consigliamo di iniziare a pianificare l’aggiornamento a Ruby 2.3 o 2.2.&lt;/p&gt;
+
+&lt;p&gt;Stiamo anche pianificando il rilascio di Ruby 2.1.10 tra qualche giorno.
+Ruby 2.1.10 non includerà nessuna modifica rispetto alla 2.1.9, ad esclusione
+del numero di versione
+Non dovrete usarla in produzione ma potete provarla, poiché avrà un numero di
+versione a due cifre.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   12016421 bytes
+SHA1:   39524185b580a3390a3b5019819c8b28d3249766
+SHA256: 4f21376aa11e09b499c3254bbd839e68e053c0d18e28d61c428a32347269036e
+SHA512: a86422132e4c64007a84a91696f4557bdcbc8716fbfe1962f1eef3754ee7f994f4de0b5b7e7231c25057515767040d5c4af33339750b6db15744662e9bd24f38
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   15166126 bytes
+SHA1:   dd68afc652fe542f83a9a709a74f4da2662054bf
+SHA256: 034cb9c50676d2c09b3b6cf5c8003585acea05008d9a29fa737c54d52c1eb70c
+SHA512: 1e03aa720e932f019c4651c355e8ef35b87fdf69b054c9d39a319467d2a8e5bfe4995cbacd9add36b832c77761a47c9d1040f00e856ad5888d69ec7221455e35
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   9395648 bytes
+SHA1:   5e89efa5189c3def8ee8de18ce750a7e4a20ac32
+SHA256: 39f203f7498aed2456fb500147fada5adcbf102d89d4f6aca773ebcadd8ea82a
+SHA512: 1f331a8910fd7a9ab9c41bf56aef12041dd413ad49c696f6df2c9a7ec3a3d5cdf383f2a3d30949ea37b8ecb39f50355e526412b36ed4e07b60733d9db4d2bd14
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   16696728 bytes
+SHA1:   4aa288b65fbf12692ac53577adc561c9a0f6a6ca
+SHA256: 8610fdb1836d493c19600cfed4828083f85197096c0aea3f73fa1ed532cbb5a7
+SHA512: a212b6a58637f6bf4f456d7ecc7bbd8ceaa0c3f16cb844b872eb62eaf261b5874fdb79705241d05a356fcdc1d3fdd8a94fcd8e6ca62190e9f544c8f45a9f41af
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Commento alla Release&lt;/h2&gt;
+
+&lt;p&gt;Grazie a tutti coloro che hanno aiutato questa release.&lt;/p&gt;
+
+&lt;p&gt;La manutenzione di Ruby 2.1, inclusa questa release, è basato sull’ “Agreement
+for the Ruby stable version” della &lt;a href=&quot;http://www.ruby.or.jp/&quot;&gt;Ruby Association&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Inserito da usa il 2016-03-30&lt;br /&gt;Tradotto da alepore&lt;/p&gt;</description>
+      <pubDate>Wed, 30 Mar 2016 12:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2016/03/30/ruby-2-1-9-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2016/03/30/ruby-2-1-9-released/</link>
+    </item>
+    
+    <item>
+      <title>Piani di supporto per Ruby 2.0.0 e Ruby 2.1</title>
+      <description>&lt;p&gt;Annunciamo i futuri piani di supporto per Ruby 2.0.0 e Ruby 2.1.&lt;/p&gt;
+
+&lt;h2&gt;A proposito di Ruby 2.0.0&lt;/h2&gt;
+
+&lt;p&gt;Come già annunciato precedentemente, tutto il supporto di Ruby 2.0.0 finisce
+oggi.
+Bug e security fix da versioni più recenti di Ruby non saranno più portati alla
+2.0.0 e non saranno più rilasciate altre patch release della 2.0.0.&lt;/p&gt;
+
+&lt;p&gt;Invitiamo tutti ad aggiornare a Ruby 2.3 o 2.2 il prima possibile.&lt;/p&gt;
+
+&lt;p&gt;Vi preghiamo di contattarci sulla mailing list ruby-core se avete intenzione di
+continuare la manutenzione del branch 2.0.0 perché siete impossibilitati ad
+aggiornare per qualche ragione.&lt;/p&gt;
+
+&lt;h2&gt;A proposito di Ruby 2.1&lt;/h2&gt;
+
+&lt;p&gt;Stiamo pianificando la release di Ruby 2.1.9 per la fine di Marzo.
+Dopo la release finiremo la normale fase di manutenzione della 2.1 e inizieremo
+la sua fase di manutenzione di sicurezza.
+Questo significa che dopo la release della versione 2.1.9 non porteremo alcun
+bug fix sulla 2.1 ad eccezione dei fix di sicurezza.&lt;/p&gt;
+
+&lt;p&gt;Vi consigliamo di iniziare a pianificare l’aggiornamento a Ruby 2.3 o 2.2.&lt;/p&gt;
+
+&lt;p&gt;Stiamo anche pianificando il rilascio di Ruby 2.1.10 subito dopo la 2.1.9.
+Questa non è una release di bug fix o di security fix.
+Non abbiamo mai avuto un numero di versione a due cifre su Ruby e pensiamo
+quindi che sia importante testare una release del genere, che non contiene
+nessun importante fix di sicurezza.&lt;/p&gt;
+
+&lt;p&gt;Ruby 2.1.10 non includerà nessuna modifica rispetto alla 2.1.9, ad esclusione
+del numero di versione
+Non dovrete usarla in produzione ma potete provarla prima della release 2.1.11,
+che probabilmente includerà dei security fix.&lt;/p&gt;
+
+&lt;p&gt;Inserito da usa il 2016-02-24&lt;br /&gt;Tradotto da alepore&lt;/p&gt;</description>
+      <pubDate>Wed, 24 Feb 2016 09:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/</guid>
+      <link>https://www.ruby-lang.org/it/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 2.3.0 Released</title>
+      <description>&lt;p&gt;Siamo lieti di annunciare la release di Ruby 2.3.0.&lt;/p&gt;
+
+&lt;p&gt;Questa è la prima release stabile della serie Ruby 2.3.
+Questa versione introduce nuove funzionalità, ad esempio:&lt;/p&gt;
+
+&lt;p&gt;Il &lt;a href=&quot;https://bugs.ruby-lang.org/issues/11473&quot;&gt;frozen string literal pragma&lt;/a&gt;.
+Su Ruby 2.1 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;str&quot;.freeze&lt;/code&gt; è stato ottimizzato per ridurre il numero di oggetti allocati in memoria.
+Ruby 2.3 introduce un nuovo commento ‘magico’ e un’opzione da linea di comando che
+permette di congelare tutte le stringhe nel codice sorgente.
+Inoltre per poter debuggare le proprie applicazioni, potete individuare dove sia
+stato creato l’oggetto che causa l’errore &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;can&apos;t modify frozen String&quot;&lt;/code&gt; passando
+l’opzione &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--debug=frozen-string-literal&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il &lt;a href=&quot;https://bugs.ruby-lang.org/issues/11537&quot;&gt;safe navigation operator&lt;/a&gt;
+(&lt;a href=&quot;https://instagram.com/p/-M9l6mRPLR/&quot;&gt;chiamato anche lonely operator&lt;/a&gt;) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;.&lt;/code&gt;,
+che esiste già in linguaggi come C#, Groovy e Swift, è stato introdotto per
+rendere più semplice la gestione di oggetti che potrebbero essere &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil&lt;/code&gt;,
+scrivendo ad esempio &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;obj&amp;amp;.foo&lt;/code&gt;. Inoltre sono stati aggiunti &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array#dig&lt;/code&gt; e
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hash#dig&lt;/code&gt;.
+Da notare che si comporta come &lt;a href=&quot;http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21&quot;&gt;try! di Active Support&lt;/a&gt;,
+che tratta in maniera particolare solo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;La gemma &lt;a href=&quot;https://bugs.ruby-lang.org/issues/11252&quot;&gt;did_you_mean&lt;/a&gt;,
+che mostra le possibili alternative quando si incontrano &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NameError&lt;/code&gt; o
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NoMethodError&lt;/code&gt; per rendere più semplice il debug delle nostre applicazioni.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/issues/11788&quot;&gt;RubyVM::InstructionSequence#to_binary e .load_from_binary&lt;/a&gt; sono stati aggiunte come funzionalità sperimentali.
+Con queste funzionalità, possiamo creare un sistema di pre-compilazione ISeq (bytecode).&lt;/p&gt;
+
+&lt;p&gt;Questa release include anche molti miglioramenti alle performance, come ad esempio:
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/11278&quot;&gt;reconsidering method entry data structure&lt;/a&gt;,
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/11420&quot;&gt;introducing new table data structure&lt;/a&gt;,
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/11569&quot;&gt;ottimizzazione di Proc#call&lt;/a&gt;,
+un’ottimizzazione a livello di codice macchina per ottimizzare l’allocazione
+degli oggetti e l’invocazione dei metodi,
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/11170&quot;&gt;smarter instance variable data structure&lt;/a&gt;,
+&lt;a href=&quot;https://bugs.ruby-lang.org/issues/11229&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exception: false&lt;/code&gt; keyword argument support on Socket#*_nonblock methods&lt;/a&gt;
+e così via. Controllare la sezione “Implementation improvements” nel file NEWS.&lt;/p&gt;
+
+&lt;p&gt;Per una lista completa delle nuove funzionalità e le note sulla compatibilità, vedere il file
+&lt;a href=&quot;https://github.com/ruby/ruby/blob/v2_3_0/NEWS&quot;&gt;NEWS&lt;/a&gt; e il
+&lt;a href=&quot;https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Con queste modifiche, &lt;a href=&quot;https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0&quot;&gt;2946 files modificati, 104057 aggiunte(+), 59478 rimozioni(-)&lt;/a&gt; da Ruby 2.2.0!&lt;/p&gt;
+
+&lt;p&gt;Buon natale, Buone feste e buon divertimento con Ruby 2.3!&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   14185617 bytes
+SHA1:   6c8a832d49d22755ea8c45b6d53faf2ccc6d6ac9
+SHA256: ec7579eaba2e4c402a089dbc86c98e5f1f62507880fd800b9b34ca30166bfa5e
+SHA512: 77b707359e754c3616699d21697752741497c719dc3d6fdfb55ed639e76d52560d293ae54cbe5c63be78dc73fbe60f1b8615d704d017bdfe1994aa9747d26a6c
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   17648682 bytes
+SHA1:   2dfcf7f33bda4078efca30ae28cb89cd0e36ddc4
+SHA256: ba5ba60e5f1aa21b4ef8e9bf35b9ddb57286cb546aac4b5a28c71f459467e507
+SHA512: 914d0201ecefaeb67aca0531146d2e89900833d8d2a597ec8a19be94529ab6b4be367f9b0cee2868b407288896cc14b64d96150223cac0aef8aafc46fc3dd7cc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   11294412 bytes
+SHA1:   96e620e38af351c8da63e40cfe217ec79f912ba1
+SHA256: 70125af0cfd7048e813a5eecab3676249582bfb65cfd57b868c3595f966e4097
+SHA512: d893c5e6db5a0533e0da48d899c619964388852ef90e7d1b92a4363d5f189cd2dba32a009581f62b9f42a8e6027975fc3c18b64faf356f5e3ac43a8d69ec5327
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   19840511 bytes
+SHA1:   3f88617568d9a4f491e8b32dca532363f73eaa71
+SHA256: 8270bdcbc6b62a18fdf1b75bd28d5d6fc0fc26b9bd778d422393a1b98006020a
+SHA512: a3f397bb3c9c19d9b797552c5d60bb01c82db884cfa966df84881125bea35713cffd99f88fb86b271bae72d9cfb09ad9b33838cffcf6365c091459479914fdef
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inserito da naruse il 2015-12-25&lt;br /&gt;Tradotto da simo2409&lt;/p&gt;</description>
+      <pubDate>Fri, 25 Dec 2015 17:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2015/12/25/ruby-2-3-0-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2015/12/25/ruby-2-3-0-released/</link>
+    </item>
+    
+    <item>
+      <title>CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL</title>
+      <description>&lt;p&gt;E’ stata trovata una vulnerabilità nella gestione delle stringhe in Fiddle e DL.
+A questa vulnerabilità è stato assegnato l’identificativo
+&lt;a href=&quot;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7551&quot;&gt;CVE-2015-7551&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Dettagli&lt;/h2&gt;
+
+&lt;p&gt;E’ stato trovata una vulnerabilità nella gestione delle stringhe in Fiddle e DL.
+Questo problema è stato originariamente riportato e corretto con il codice &lt;a href=&quot;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-5147&quot;&gt;CVE-2009-5147&lt;/a&gt; in DL,
+ma è riapparso dopo che DL è stato re-implementato utilizzando Fiddle e libffi.&lt;/p&gt;
+
+&lt;p&gt;E, sempre riguardo DL, la vulnerabilità &lt;a href=&quot;http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-5147&quot;&gt;CVE-2009-5147&lt;/a&gt;
+è stata risolta in Ruby 1.9.1, ma non negli altri branch,
+quindi tutte le versioni (eccetto Ruby 1.9.1) sono ancora vulnerabili.&lt;/p&gt;
+
+&lt;p&gt;Un esempio del codice che causa il problema:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Fiddle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dangerous_user_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;O:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;handle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Fiddle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;some_library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;function_pointer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;handle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dangerous_user_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Tutti gli utenti che stanno utilizzando una versione ancora senza fix
+dovrebbero aggiornarla o usare un workaround.&lt;/p&gt;
+
+&lt;h2&gt;Versioni afflitte&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tutte le versioni patch di Ruby 1.9.2 e Ruby 1.9.3 (DL e Fiddle).&lt;/li&gt;
+  &lt;li&gt;Tutte le versioni patch di Ruby 2.0.0 e precedenti al patchlevel 648 (DL e Fiddle).&lt;/li&gt;
+  &lt;li&gt;Tutte le versioni di Ruby 2.1 precedenti a Ruby 2.1.8 (DL e Fiddle).&lt;/li&gt;
+  &lt;li&gt;Tutte le versioni di Ruby 2.2 precedenti a Ruby 2.2.4 (Fiddle).&lt;/li&gt;
+  &lt;li&gt;Ruby 2.3.0 preview 1 e preview 2 (Fiddle).&lt;/li&gt;
+  &lt;li&gt;Tutte le versioni precedenti alla revisione del trunk 53153 (Fiddle).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Workaround&lt;/h2&gt;
+
+&lt;p&gt;Se non è possibile aggiornare, il seguente codice può essere utilizzato
+per risolvere il problema in Fiddle:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Fiddle::Handle&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:old_initialize&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:initialize&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SecurityError&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tainted?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$SAFE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;old_initialize&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:sym&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:[]&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:old_call&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:[]&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fun&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SecurityError&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fun&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tainted?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$SAFE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;old_call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fun&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Se si utilizza DL si suggerisce di utilizzare Fiddle al suo posto.&lt;/p&gt;
+
+&lt;h2&gt;Credits&lt;/h2&gt;
+
+&lt;p&gt;Grazie a Christian Hofstaedtler &lt;a href=&quot;mailto:zeha@debian.org&quot;&gt;zeha@debian.org&lt;/a&gt; per aver riportato il problema!&lt;/p&gt;
+
+&lt;h2&gt;Storia&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Originariamente pubblicato il 2015-12-16 12:00:00 UTC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inserito da usa il 2015-12-16&lt;br /&gt;Tradotto da simo2409&lt;/p&gt;</description>
+      <pubDate>Wed, 16 Dec 2015 12:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/</guid>
+      <link>https://www.ruby-lang.org/it/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/</link>
+    </item>
+    
+    <item>
+      <title>Ruby 2.2.4 Released</title>
+      <description>&lt;p&gt;Ruby 2.2.4 è stato rilasciato.&lt;/p&gt;
+
+&lt;p&gt;Questa release include un fix di sicurezza per Fiddle e per l’estensione DL.
+Guarda i topic qui sotto per maggiori informazioni.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/&quot;&gt;CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;E molti altri fix.
+Vedi il &lt;a href=&quot;https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt; per maggiori informazioni.&lt;/p&gt;
+
+&lt;h2&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   13336518 bytes
+SHA1:   6132840a859dbf2ac1498ba313021f299a870038
+SHA256: 31203696adbfdda6f2874a2de31f7c5a1f3bcb6628f4d1a241de21b158cd5c76
+SHA512: d27ca2f19c214ce87f906b57edd41f2f8af35b2871c191470facded9cfda15ba46e5c3bc7d5540225a38da6bd65050fcc8aaa4ffbadbb6bf7dc891c1821da0df
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   16638151 bytes
+SHA1:   818e5e157f76d4912ba3a7c7b4fc5156105e83c3
+SHA256: b6eff568b48e0fda76e5a36333175df049b204e91217aa32a65153cc0cdcb761
+SHA512: 5f5d4a5b6bb55643a2c2e4df9ec81062f62d97b2aa0de5faf5b4251f7e585b65a0ff07b4edf23c0969525e36916a132362f8349b6ab441ced8a86d0337532832
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.xz&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.xz&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   10464500 bytes
+SHA1:   9216cf34df7fd5ce8059a6403951d6d47964442a
+SHA256: d28bff4641e382681c58072ddc244d025ac47ff71dd9426a92fcfc3830d1773c
+SHA512: 755257eea0cb79f28f1d2dc6e2a5ee4b1954280f51153e5fe90605a875b1d52077660b87e4e04d11552591a1f60a1241e4c70056f073a217b3bad896f64780da
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.zip&quot;&gt;https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.zip&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SIZE:   18472352 bytes
+SHA1:   b6de8559d6e56ad09a3f4b57ef2c01e8c0754d5a
+SHA256: 9b7f9e96ef84eef97f44bd5ab1fa70ece1668a52585a88ba6a3487579f12e6f4
+SHA512: 7a6678d3f9bc81eb7bb60de342820ed1bf44e834ee3e5ed6c713c8fa0a80c758c5a5260f17aa5ceae32e1f180187c9cb4e278e9fc6a7b8ad4386f9261426ad5b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Release Comment&lt;/h2&gt;
+
+&lt;p&gt;I molti committer, developer e utenti che ci hanno segnalato bug hanno reso
+possibile questa release.
+Grazie per il vostro contributo.&lt;/p&gt;
+
+&lt;p&gt;Inserito da nagachika il 2015-12-16&lt;br /&gt;Tradotto da simo2409&lt;/p&gt;</description>
+      <pubDate>Wed, 16 Dec 2015 12:00:00 +0000</pubDate>
+      <guid>https://www.ruby-lang.org/it/news/2015/12/16/ruby-2-2-4-released/</guid>
+      <link>https://www.ruby-lang.org/it/news/2015/12/16/ruby-2-2-4-released/</link>
+    </item>
+    
+  </channel>
+</rss>

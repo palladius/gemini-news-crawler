@@ -36,4 +36,14 @@ module ArticlesHelper
     "#{(dist*100).round(1)}"
   end
 
+  def render_article(article)
+    # Render title with author, or if missing with newspaper thingy
+    addl_info = article.author.nil? ?
+      "📰 #{article.newspaper}" :
+      "🧑🏻‍💻 #{article.author}"
+    link_to('link', article.link) + ' ' + content_tag('b', article.title) + " (" + content_tag('i', addl_info) +")"
+#    "#{article.title} (#{addl_info})"
+
+  end
+
 end

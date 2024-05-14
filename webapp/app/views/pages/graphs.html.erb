@@ -14,7 +14,7 @@
 %>
 <h1 class="font-bold text-4xl">📈 Graphs</h1>
 
-<!--
+<% if false %>
 <div width="100%">
 
   <h2>🌱 Latest Articles</h2>
@@ -29,11 +29,11 @@
 
 </div>
 <div class="container mx-auto mt-28 px-5 flex flex-wrap">
-  <div class="bg-blue-300 h-20 basis-1/2">
+  <div class="bg-blue-300 basis-1/2">
     <h2>🌱 Latest Articles</h2>
     <%= line_chart Article.group_by_day(:created_at).count %>
   </div>
-  <div class="bg-red-300 h-20 basis-1/2"></div>
+  <div class="bg-red-300 basis-1/2"></div>
 </div>
 
   <table border="1" >
@@ -65,38 +65,39 @@
     </td>
   </tr>
 </table>
--->
+<% end %>
+
+
 <div class="container mx-auto mt-28 px-5">
-  <div class="">
-  <div class="bg-blue-300 h-20 basis-1/2">
+  <div class="bg-blue-300 basis-1/2">
     <h2>🌱 Latest Articles by day</h2>
     <%= line_chart Article.group_by_day(:created_at).count %>
   </div>
-  <div class="bg-red-300 h-20 basis-1/2">
+  <div class="bg-red-300 basis-1/2">
     <h2>🌱 Latest Articles by month</h2>
     <%= column_chart Article.group_by_month(:created_at).count,  stacked: true %>
   </div>
-  <div class="bg-red-300 h-20 basis-1/2">
+  <div class="bg-yellow-300 basis-1/2">
     <h2>🌱 Latest Articles group by Tech</h2>
     <%= column_chart Article.group(:macro_region).group_by_month(:created_at).count,  stacked: true %>
   </div>
-  <div class="bg-red-300 h-20 basis-1/2">
+  <div class="bg-green-300 basis-1/2">
     <h2>🌱 Latest Articles  by Tech</h2>
     <%= bar_chart Article.group(:macro_region).count %>
   </div>
   <!--
-  <div class="bg-red-300 h-20 basis-1/2">
+  <div class="bg-red-300 basis-1/2">
     <h2>🌱 Latest Articles  by newspaper (top N with >200 counts)</h2>
     <%#= bar_chart Article.group(:newspaper).having('COUNT(*) > 200').count %>
     < ! - - imnspired by https://stackoverflow.com/questions/32868779/get-top-n-items-per-group-in-ruby-on-rails - - >
   </div>
     -->
-  <div class="bg-red-300 h-20 basis-1/2">
+  <div class="bg-red-300 basis-1/2">
     <h2>🌱 Latest Articles  by newspaper (top 8)</h2>
     <%= bar_chart Article.group(:newspaper).count.sort_by { |_key, value| value }.reverse.take(8) %>
     <!-- imnspired by https://stackoverflow.com/questions/32868779/get-top-n-items-per-group-in-ruby-on-rails -->
   </div>
-  <div class="bg-red-300 h-20 basis-1/2">
+  <div class="bg-red-300 basis-1/2">
     <h2>🌱 Latest 20 Articles by Tech (recency bias)</h2>
     <%= bar_chart Article.order(:created_at).last(20).map{|x| [x.title, x.created_at, x.macro_region]}.map { |item| item[2] }.group_by(&:itself).map { |category, items| [category, items.size] } %>
     <!-- imnspired by gemini! https://gemini.google.com/app/81824bda3944e885  -->
@@ -104,7 +105,5 @@
 
 
 
-
-</div>
 
 </div>

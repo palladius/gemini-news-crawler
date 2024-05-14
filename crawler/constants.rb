@@ -1,11 +1,12 @@
 
 # require_relative '../_env_gaic.rb'
 
-ProgVersion = '0.2'
+ProgVersion = '0.3'
 
 CHANGELOG = {
   '0.1': 'initial stesure.',
   '0.2': 'integrating with Rails app. Adding more 2-level news',
+  '0.3': 'Added Ruby as a Region',
 }
 
 NEWS_BY_REGION ={
@@ -66,10 +67,6 @@ NEWS_BY_REGION ={
     'The Christian Science Monitor': 'http://rss.csmonitor.com/feeds/usa',
     'NBC News - Top Stories': 'http://feeds.nbcnews.com/feeds/topstories',
     'NBC News - World': 'http://feeds.nbcnews.com/feeds/worldnews',
-    # 'US general10': 'http://feeds.reuters.com/Reuters/worldNews',
-    # 'US general11': 'http://feeds.reuters.com/Reuters/domesticNews',
-    # 'US general12': 'http://hosted.ap.org/lineups/USHEADS.rss',
-    # 'US general13': 'http://hosted.ap.org/lineups/WORLDHEADS.rss',
     'US - huffingtonpost world': 'http://www.huffingtonpost.com/feeds/verticals/world/index.xml',
     'US - BBC US and Canada': 'http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml',
     'US - Yahoo News US': 'http://news.yahoo.com/rss/us',
@@ -77,13 +74,11 @@ NEWS_BY_REGION ={
 
     'US The Daily Beast': 'http://feeds.feedburner.com/thedailybeast/articles',
     #'US general20': 'http://qz.com/feed', # lags
-    'US general21': 'http://www.theguardian.com/world/usa/rss',
+    'Guardian - US': 'http://www.theguardian.com/world/usa/rss',
     'Politico': 'http://www.politico.com/rss/politicopicks.xml',
     'The NewYorker': 'http://www.newyorker.com/feed/news',
-    'Nation – PBS NewsHour': 'http://feeds.feedburner.com/NationPBSNewsHour',
-    'World – PBS NewsHour': 'http://feeds.feedburner.com/NewshourWorld',
-#    'US general26': 'http://www.usnews.com/rss/news',
-#'US general29': 'http://feeds.feedburner.com/AtlanticNational',
+    'Nation - PBS NewsHour': 'http://feeds.feedburner.com/NationPBSNewsHour',
+    'World - PBS NewsHour': 'http://feeds.feedburner.com/NewshourWorld',
     'US - The Atlantic': 'http://feeds.feedburner.com/TheAtlanticWire',
     'US - LA Times Nation': 'http://www.latimes.com/nation/rss2.0.xml',
     'US - LA Times World': 'http://www.latimes.com/world/rss2.0.xml',
@@ -92,6 +87,8 @@ NEWS_BY_REGION ={
     'US - Time': 'http://time.com/newsfeed/feed/',
     'US - Fox News': 'http://feeds.foxnews.com/foxnews/latest?format=xml',
     'US - Reuters Politics': 'https://www.reutersagency.com/feed/?best-topics=political-general&post_type=best',
+    #    'US general26': 'http://www.usnews.com/rss/news',
+#'US general29': 'http://feeds.feedburner.com/AtlanticNational',
   },
   'Blogs': {
     'Riccardo Carlesso - Blog':   'https://ricc.rocks/en/index.xml',
@@ -101,8 +98,8 @@ NEWS_BY_REGION ={
     'Marc Cohen - Medium':        'https://marcacohen.medium.com/feed',
 # 🕷️ 6  Crawling RSS Feed from: Laurent Picard - Medium # https://PicardParis.medium.com/feed❌ Some issues with parsing https://PicardParis.medium.com/feed:
 # 🕷️ 7  Crawling RSS Feed from: Aja Hammerly - Medium # https://thagomizer.medium.com/feed❌ Some issues with parsing https://thagomizer.medium.com/feed:
-    #'Laurent Picard - Medium':        'https://PicardParis.medium.com/feed',
-    #'Aja Hammerly - Medium':        'https://thagomizer.medium.com/feed',
+    'Laurent Picard - Medium':        'https://medium.com/feed/@picardparis',
+    'Aja Hammerly - Medium':        'https://medium.com/feed/@thagomizer',
     'Richard Seroter Blog':       'https://seroter.com/feed/',
     'Google Cloud - Medium':      'https://medium.com/feed/google-cloud',
   },
@@ -120,8 +117,7 @@ NEWS_BY_REGION ={
   },
   'Ruby': {
     'Ruby (EN RSS)':  'https://www.ruby-lang.org/en/feeds/news.rss',
-    'Ruby (English)':  'https://www.ruby-lang.org/en/',
-    'Ruby (Italian)':  'https://www.ruby-lang.org/it/',
+    'Ruby (IT RSS)':  'https://www.ruby-lang.org/it/feeds/news.rss', # https://www.ruby-lang.org/it/',
     'Everyday Rails': 'http://feeds.feedburner.com/EverydayRails',
     'Drifitng ruby': 'https://www.driftingruby.com/episodes/feed.atom',
     # Ruby RSS from https://rss.feedspot.com/ruby_on_rails_rss_feeds/

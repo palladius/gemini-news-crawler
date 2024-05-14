@@ -14,7 +14,46 @@
     <id>tag:google.com,2016:gcp-release-notes#May_13_2024</id>
     <updated>2024-05-13T00:00:00-07:00</updated>
     <link rel="alternate" href="https://cloud.google.com/release-notes#May_13_2024"/>
-    <content type="html"><![CDATA[<h2 class="release-note-product-title">Cloud Logging</h2>
+    <content type="html"><![CDATA[<h2 class="release-note-product-title">BigQuery</h2>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-bigquery" class="external">Changes for <a href="https://github.com/googleapis/java-bigquery">google-cloud-bigquery</a></h3>
+
+<h4 id="2401_2024-05-06"><a href="https://github.com/googleapis/java-bigquery/compare/v2.40.0...v2.40.1" target="_blank" rel="noreferrer noopener" class="external">2.40.1</a> (2024-05-06)</h4>
+
+<h5 id="dependencies">Dependencies</h5>
+
+<ul>
+<li>Update actions/checkout action (<a href="https://github.com/googleapis/java-bigquery/issues/3286" target="_blank" rel="noreferrer noopener" class="external">#3286</a>) (<a href="https://github.com/googleapis/java-bigquery/commit/4d8f3fb7fd3d8f6e9484c809d6690f8078ef7a30" target="_blank" rel="noreferrer noopener" class="external">4d8f3fb</a>)</li>
+</ul>
+
+<h4 id="2400_2024-05-06"><a href="https://github.com/googleapis/java-bigquery/compare/v2.39.1...v2.40.0" target="_blank" rel="noreferrer noopener" class="external">2.40.0</a> (2024-05-06)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li>Add getStringOrDefault method to FieldValue (<a href="https://github.com/googleapis/java-bigquery/issues/3255" target="_blank" rel="noreferrer noopener" class="external">#3255</a>) (<a href="https://github.com/googleapis/java-bigquery/commit/8bac33a32e0239ffa03715ad0c6440527cb2e01e" target="_blank" rel="noreferrer noopener" class="external">8bac33a</a>)</li>
+</ul>
+
+<h5 id="dependencies_2">Dependencies</h5>
+
+<ul>
+<li>Update dependency com.google.cloud:sdk-platform-java-config to v3.30.0 (<a href="https://github.com/googleapis/java-bigquery/issues/3279" target="_blank" rel="noreferrer noopener" class="external">#3279</a>) (<a href="https://github.com/googleapis/java-bigquery/commit/67f2ea47f78240b6def27241e21fd298a75920b2" target="_blank" rel="noreferrer noopener" class="external">67f2ea4</a>)</li>
+</ul></section>
+<section><h3 track-name="python">Python</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-bigquery_2" class="external">Changes for <a href="https://github.com/googleapis/python-bigquery">google-cloud-bigquery</a></h3>
+
+<h4 id="3220_2024-04-19"><a href="https://github.com/googleapis/python-bigquery/compare/v3.21.0...v3.22.0" target="_blank" rel="noreferrer noopener" class="external">3.22.0</a> (2024-04-19)</h4>
+
+<h5 id="features_2">Features</h5>
+
+<ul>
+<li>Support RANGE in queries Part 2: Arrow (<a href="https://github.com/googleapis/python-bigquery/issues/1868" target="_blank" rel="noreferrer noopener" class="external">#1868</a>) (<a href="https://github.com/googleapis/python-bigquery/commit/5251b5dbb254732ea730bab664ad319bd5be47e7" target="_blank" rel="noreferrer noopener" class="external">5251b5d</a>)</li>
+</ul></section>
+</div>
+<h3>Feature</h3>
+<p>Phrase support for the <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#search"><code>SEARCH</code> function</a> is in <a href="https://cloud.google.com/products#product-launch-stages">preview</a>.</p>
+<h2 class="release-note-product-title">Cloud Logging</h2>
 <h3>Libraries</h3>
 <p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
 <div class="ds-selector-tabs" data-ds-scope="code-sample">
@@ -31,6 +70,189 @@
 <li>Update dependency com.google.cloud:sdk-platform-java-config to v3.30.0 (<a href="https://github.com/googleapis/java-logging/issues/1603" target="_blank" rel="noreferrer noopener" class="external">#1603</a>) (<a href="https://github.com/googleapis/java-logging/commit/16967e5ba704a75419904ba2aaabce0cbc116352" target="_blank" rel="noreferrer noopener" class="external">16967e5</a>)</li>
 </ul></section>
 </div>
+<h2 class="release-note-product-title">Cloud Monitoring</h2>
+<h3>Feature</h3>
+<p>You can now configure dashboards to display events by using the Monitoring API.</p>
+
+<ul>
+<li>For event information, see <a href="https://cloud.google.com/monitoring/dashboards/event-types#psh-events">Event types</a>.</li>
+<li>For information about enabling events, see <a href="https://cloud.google.com/monitoring/dashboards/show-events">Show events on a dashboard</a>.</li>
+<li>For an example, see <a href="https://cloud.google.com/monitoring/dashboards/api-examples#filters-events">API examples: Enable dashboard events and filters</a>.</li>
+</ul>
+<h2 class="release-note-product-title">Container Optimized OS</h2>
+<h3>Changed</h3>
+<h3 id="cos-113-18244-85-5_">cos-113-18244-85-5 <a id="cos-arm64-113-18244-85-5"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/510d0ede0bca3487f6195e421338c21518bc0e85
+">COS-6.1.90</a></td>
+    <td>v24.0.9</td>
+    <td>v1.7.15</td>
+    <td>v535.161.08(default),v550.54.15(latest),v470.239.06(R470 for compatibility with K80 GPUs)</td>
+  </tr>
+</table>
+<h3>Announcement</h3>
+<p>This is an <a href="https://cloud.google.com/container-optimized-os/docs/concepts/versioning#lts_refresh_releases">LTS Refresh release.</a></p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/node-problem-detector to v0.8.18.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/google-osconfig-agent to v20240501.00.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/google-guest-agent to v20240314.00.</p>
+<h3>Changed</h3>
+<p>Upgraded app-containers/docker and app-containers/docker-cli to v24.0.9.</p>
+<h3>Changed</h3>
+<p>Upgraded app-admin/google-guest-configs to v20240307.00.</p>
+<h3>Changed</h3>
+<p>Upgraded sys-boot/grub-lakitu to the FC 39&#39;s current version.</p>
+<h3>Changed</h3>
+<p>Upgraded app-emulation/cloud-init to v23.4.4.</p>
+<h3>Feature</h3>
+<p>Added support for i6300 watchdog timer device.</p>
+<h3>Fixed</h3>
+<p>Uprev GPU driver version to v470.239.06.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2021-36084, CVE-2021-36085, CVE-2021-36086, CVE-2021-36087 in sys-libs/libsepol.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26900 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26809 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26882 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26884 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26885 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26883 in the Linux kernel.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26907 in the Linux kernel.</p>
+<h3>Changed</h3>
+<p>Runtime sysctl changes:
+<ul>
+<li>Added: net.core.mem_pcpu_rsv: 256</li>
+<li>Changed: fs.epoll.max_user_watches: 1809474 -&gt; 1809452</li>
+<li>Changed: fs.file-max: 812400 -&gt; 812391</li>
+<li>Changed: kernel.threads-max: 63504 -&gt; 63503</li>
+<li>Changed: net.ipv4.tcp_mem: 94068    125424  188136 -&gt; 94065 125423  188130</li>
+<li>Changed: net.ipv4.udp_mem: 188136   250848  376272 -&gt; 188133    250847  376266</li>
+<li>Changed: user.max_cgroup_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_ipc_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_mnt_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_net_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_pid_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_time_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_user_namespaces: 31752 -&gt; 31751</li>
+<li>Changed: user.max_uts_namespaces: 31752 -&gt; 31751</li>
+</ul></p>
+<h3>Changed</h3>
+<h3 id="cos-109-17800-218-26_">cos-109-17800-218-26 <a id="cos-arm64-109-17800-218-26"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/b53e4d6b6eddd40ed75aba7ba51a25346e65e674
+">COS-6.1.85</a></td>
+    <td>v24.0.9</td>
+    <td>v1.7.15</td>
+    <td>v535.161.08(default),v550.54.15(latest),v470.239.06(R470 for compatibility with K80 GPUs)</td>
+  </tr>
+</table>
+<h3>Fixed</h3>
+<p>Uprev GPU driver version to v470.239.06.</p>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26900 in the Linux kernel.</p>
+<h3>Changed</h3>
+<h3 id="cos-105-17412-370-29_">cos-105-17412-370-29 <a id="cos-arm64-105-17412-370-29"/></h3>
+
+<table class=pkg>
+  <tr>
+    <td>Kernel</td>
+    <td>Docker</td>
+    <td>Containerd</td>
+    <td>GPU Drivers</td>
+  </tr>
+  <tr>
+    <td><a href="https://cos.googlesource.com/third_party/kernel/+/4ea480d9ce7c7966753af94b56b69dd6bdd8caa5
+">COS-5.15.154</a></td>
+    <td>v23.0.3</td>
+    <td>v1.7.15</td>
+    <td>v470.239.06(default),v550.54.15(latest)</td>
+  </tr>
+</table>
+<h3>Security</h3>
+<p>Fixed CVE-2024-26900 in the Linux kernel.</p>
+<h2 class="release-note-product-title">Firestore in Datastore mode</h2>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="go">Go</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_datastoreadminapiv1" class="external">Changes for <a href="https://github.com/googleapis/google-cloud-go/tree/main/datastore/admin/apiv1">datastore/admin/apiv1</a></h3>
+
+<h4 id="1170_2024-05-08"><a href="https://github.com/googleapis/google-cloud-go/compare/datastore/v1.16.0...datastore/v1.17.0" target="_blank" rel="noreferrer noopener" class="external">1.17.0</a> (2024-05-08)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li><strong>datastore:</strong> Add query profiling (<a href="https://github.com/googleapis/google-cloud-go/issues/9200" target="_blank" rel="noreferrer noopener" class="external">#9200</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/b0235bb3828cea64b87cac3d1d84e42f1b2744ab" target="_blank" rel="noreferrer noopener" class="external">b0235bb</a>)</li>
+</ul></section>
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-datastore" class="external">Changes for <a href="https://github.com/googleapis/java-datastore">google-cloud-datastore</a></h3>
+
+<h4 id="2192_2024-05-03"><a href="https://github.com/googleapis/java-datastore/compare/v2.19.1...v2.19.2" target="_blank" rel="noreferrer noopener" class="external">2.19.2</a> (2024-05-03)</h4>
+
+<h5 id="bug_fixes">Bug Fixes</h5>
+
+<ul>
+<li><strong>deps:</strong> Update the Java code generator (gapic-generator-java) to 2.39.0 (<a href="https://github.com/googleapis/java-datastore/issues/1406" target="_blank" rel="noreferrer noopener" class="external">#1406</a>) (<a href="https://github.com/googleapis/java-datastore/commit/b265fb3c3b8ebc972edbe5a7beae816379846dac" target="_blank" rel="noreferrer noopener" class="external">b265fb3</a>)</li>
+</ul>
+
+<h5 id="dependencies">Dependencies</h5>
+
+<ul>
+<li>Update dependency com.google.cloud:sdk-platform-java-config to v3.30.0 (<a href="https://github.com/googleapis/java-datastore/issues/1426" target="_blank" rel="noreferrer noopener" class="external">#1426</a>) (<a href="https://github.com/googleapis/java-datastore/commit/ac3a1c10f64c8338346f8fb39f4857f47e8fc639" target="_blank" rel="noreferrer noopener" class="external">ac3a1c1</a>)</li>
+<li>Update dependency com.google.errorprone:error_prone_core to v2.27.0 (<a href="https://github.com/googleapis/java-datastore/issues/1411" target="_blank" rel="noreferrer noopener" class="external">#1411</a>) (<a href="https://github.com/googleapis/java-datastore/commit/a3f5a2c24bff408479541e08278e888cf3166727" target="_blank" rel="noreferrer noopener" class="external">a3f5a2c</a>)</li>
+<li>Update dependency com.google.errorprone:error_prone_core to v2.27.1 (<a href="https://github.com/googleapis/java-datastore/issues/1421" target="_blank" rel="noreferrer noopener" class="external">#1421</a>) (<a href="https://github.com/googleapis/java-datastore/commit/48d7dafc0c7a49e95bf41d29865ac872b0de0faf" target="_blank" rel="noreferrer noopener" class="external">48d7daf</a>)</li>
+<li>Update dependency com.google.guava:guava-testlib to v33.2.0-jre (<a href="https://github.com/googleapis/java-datastore/issues/1422" target="_blank" rel="noreferrer noopener" class="external">#1422</a>) (<a href="https://github.com/googleapis/java-datastore/commit/5a5dfdfb0855cf485b875ab071b79979d24f98dd" target="_blank" rel="noreferrer noopener" class="external">5a5dfdf</a>)</li>
+</ul></section>
+</div>
+<h2 class="release-note-product-title">Google Distributed Cloud Virtual for VMware</h2>
+<h3>Security</h3>
+<p>A vulnerability (CVE-2024-26581) was discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized OS and Ubuntu nodes. </p>
+
+<p>For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-028">GCP-2024-028 security bulletin</a>.</p>
+<h2 class="release-note-product-title">Google Kubernetes Engine</h2>
+<h3>Security</h3>
+<p>A vulnerability (CVE-2024-26581) was discovered in the Linux kernel that can lead to a privilege escalation on Container-Optimized OS and Ubuntu nodes. </p>
+
+<p>For more information, see the <a href="https://cloud.google.com/anthos/clusters/docs/security-bulletins#gcp-2024-028">GCP-2024-028 security bulletin</a>.</p>
+<h2 class="release-note-product-title">Media CDN</h2>
+<h3>Feature</h3>
+<p>Media CDN supports <a href="https://cloud.google.com/media-cdn/docs/custom-headers#header-variables">content targeting</a>, which helps you cache and deliver assets that are customized for your end-user contexts. It enables device characterization and geo-targeting, which are useful for implementing responsive websites, language customization, and currency settings.</p>
+<h2 class="release-note-product-title">Sensitive Data Protection</h2>
+<h3>Feature</h3>
+<p>The <code>IMMIGRATION_STATUS</code> infoType detector is available in all regions. For more information about all built-in infoTypes, see <a href="https://cloud.google.com/dlp/docs/infotypes-reference">InfoType detector reference</a>.</p>
+<h3>Feature</h3>
+<p>The <code>RUSSIA_PASSPORT</code> infoType detector is available in all regions. For more information about all built-in infoTypes, see <a href="https://cloud.google.com/dlp/docs/infotypes-reference">InfoType detector reference</a>.</p>
+<h3>Feature</h3>
+<p>The <code>UKRAINE_PASSPORT</code> infoType detector is available in all regions. For more information about all built-in infoTypes, see <a href="https://cloud.google.com/dlp/docs/infotypes-reference">InfoType detector reference</a>.</p>
+<h3>Feature</h3>
+<p>The <code>UZBEKISTAN_PASSPORT</code> infoType detector is available in all regions. For more information about all built-in infoTypes, see <a href="https://cloud.google.com/dlp/docs/infotypes-reference">InfoType detector reference</a>.</p>
+<h2 class="release-note-product-title">Spanner</h2>
+<h3>Feature</h3>
+<p>Spanner now supports a new metric in the monitoring console called <code>read_request_latencies_by_change_stream</code>. Use this metric to view all read latencies and filter latencies by change stream or non-change stream reads. For more information, see <a href="https://cloud.google.com/spanner/docs/monitoring-console#charts-metrics">Available charts and metrics</a>.</p>
+<h3>Feature</h3>
+<p>Vector length annotation is now generally available. For more information, see the <a href="https://cloud.google.com/spanner/docs/reference/postgresql/data-types.md#array-extensions">PostgreSQL vector length parameter</a> or the <a href="https://cloud.google.com/spanner/docs/reference/postgresql/data-types.md#array-extensions">GoogleSQL vector_length parameter</a>.</p>
 ]]>
     </content>
   </entry>
@@ -72,6 +294,18 @@
 </ul>
 
 <p>To mitigate this issue, upgrade the cluster to version 1.28.7-gke.1026000 or later, or to 1.29.2-gke.1060000 or later.</p>
+<h2 class="release-note-product-title">SAP on Google Cloud</h2>
+<h3>Announcement</h3>
+<p><strong>New SAP HANA certification: Hyperdisk Balanced usage with M1 machine types</strong></p>
+
+<p>For use with SAP HANA on Google Cloud, SAP has certified the usage of Hyperdisk Balanced with the M1 series of memory-optimized machine types.</p>
+
+<p>For more information, see:</p>
+
+<ul>
+<li><a href="https://cloud.google.com/solutions/sap/docs/sap-hana-planning-guide#certified-vms">Certified Compute Engine VMs for SAP HANA</a></li>
+<li>The &quot;Hyperdisk Balanced&quot; tab in <a href="https://cloud.google.com/solutions/sap/docs/sap-hana-planning-guide#hana-minimum-pd-sizes-ssd-balanced">Minimum sizes for SSD-based Persistent Disk and Hyperdisk volumes</a></li>
+</ul>
 ]]>
     </content>
   </entry>
@@ -765,6 +999,16 @@ For more information, see <a href="https://cloud.google.com/apigee/docs/api-plat
 <h2 class="release-note-product-title">Certificate Authority Service</h2>
 <h3>Feature</h3>
 <p>Implement fine-grained policy controls over your certificate issuance using certificate templates. Certificate templates can be used in conjunction with IAM conditions to effectively create different policy controls for different users on the same CA pool. You can test certificate issuance in a validation mode and proactively identify conflicts between the CA pool&#39;s issuance policies and the certificate template&#39;s policies.  For information, see <a href="https://cloud.google.com/certificate-authority-service/docs/issue-certificate-using-template">Request a certificate using a certificate template</a>. The feature is in General Availability (GA).</p>
+<h2 class="release-note-product-title">Cloud Asset Inventory</h2>
+<h3>Feature</h3>
+<p>The following resource types are now publicly available through the <a href="https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/exportAssets">ExportAssets</a>, <a href="https://cloud.google.com/asset-inventory/docs/listing-assets">ListAssets</a>, <a href="https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/batchGetAssetsHistory">BatchGetAssetsHistory</a>, <a href="https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/queryAssets">QueryAssets</a>, <a href="https://cloud.google.com/asset-inventory/docs/reference/rest/v1/feeds">Feed</a>, and Search (<a href="https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/searchAllResources">SearchAllResources</a>, <a href="https://cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/searchAllIamPolicies">SearchAllIamPolicies</a>) APIs.</p>
+
+<ul>
+<li>Compute Engine
+<ul>
+<li><code>compute.googleapis.com/StoragePool</code></li>
+</ul></li>
+</ul>
 <h2 class="release-note-product-title">Cloud Billing</h2>
 <h3>Feature</h3>
 <p><strong>Download committed use discount data as a CSV file</strong></p>
