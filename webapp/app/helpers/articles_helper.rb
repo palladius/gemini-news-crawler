@@ -41,9 +41,8 @@ module ArticlesHelper
     addl_info = article.author.nil? ?
       "📰 #{article.newspaper}" :
       "🧑🏻‍💻 #{article.author}"
-    link_to('link', article.link) + ' ' + content_tag('b', article.title) + " (" + content_tag('i', addl_info) +")"
-#    "#{article.title} (#{addl_info})"
-
+    short_date =  article.published_date.to_date.strftime('%Y%b%d').gsub(/2024/,'') # eg "May 14" or "1997May29"
+    link_to('🔗', article.link, class: :link_icon, target: "_blank") + " #{short_date} " + link_to(content_tag('b', article.title), article) + " (" + content_tag('i', addl_info) +")"
   end
 
 end

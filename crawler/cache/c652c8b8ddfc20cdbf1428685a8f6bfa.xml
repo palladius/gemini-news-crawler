@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com/page/2_0006.html"/>
 <description>World News</description>
 <language>en-us</language>
-<pubDate>Tue, 14 May 2024 00:21:35 -0400</pubDate>
-<lastBuildDate>Tue, 14 May 2024 00:21:35 -0400</lastBuildDate>
+<pubDate>Tue, 14 May 2024 01:07:44 -0400</pubDate>
+<lastBuildDate>Tue, 14 May 2024 01:07:44 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com/page/2_0006.html</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,16 @@
 <link>http://online.wsj.com/page/2_0006.html</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Uber to Buy Delivery Hero's Taiwan Business for $950 Million</title>
+<link>https://www.wsj.com/articles/uber-to-acquire-delivery-heros-foodpanda-business-in-taiwan-463de07c</link>
+<description><![CDATA[Uber will also separately purchase $300 million in newly issued ordinary shares of Delivery Hero.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 01:06:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001772523</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Business</wsj:articletype>
+</item>
 <item>
 <title>Blinken Arrives in Ukraine to Boost Spirits, Funnel U.S. Military Aid</title>
 <link>https://www.wsj.com/articles/blinken-arrives-in-ukraine-to-boost-spirits-funnel-u-s-military-aid-6a7d77a6</link>
@@ -113,16 +123,6 @@
 <content:encoded/>
 <pubDate>Mon, 13 May 2024 23:59:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772549</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Business</wsj:articletype>
-</item>
-<item>
-<title>Uber to Acquire Delivery Hero's Foodpanda Business in Taiwan</title>
-<link>https://www.wsj.com/articles/uber-to-acquire-delivery-heros-foodpanda-business-in-taiwan-463de07c</link>
-<description><![CDATA[Uber will also separately purchase $300 million in newly issued ordinary shares of Delivery Hero.]]></description>
-<content:encoded/>
-<pubDate>Mon, 13 May 2024 23:36:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772523</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Business</wsj:articletype>
 </item>

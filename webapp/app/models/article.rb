@@ -128,7 +128,7 @@ class Article < ApplicationRecord
     # end
 
 
-    def closest_articles(size: 6, similarity_field: :article_embedding)
+    def closest_articles(size: 5, similarity_field: :article_embedding)
       # :title_embedding
       # TODO make sure its title/article/whatevs
       distance_type = 'cosine' # cosine, euclidean
