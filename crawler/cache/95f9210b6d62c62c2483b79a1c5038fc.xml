@@ -5,11 +5,47 @@
     <title>Mashable</title>
     <link>https://mashable.com/feeds/rss/all</link>
     <description>Mashable is a global, multi-platform media and entertainment company.</description>
-    <pubDate>Tue, 14 May 2024 17:11:12 +0000</pubDate>
+    <pubDate>Tue, 14 May 2024 17:41:16 +0000</pubDate>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 May 2024 17:11:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2024 17:41:16 +0000</lastBuildDate>
     <copyright>©2024 Mashable, Inc. All Rights Reserved.</copyright>
     <ttl>15</ttl>
+    <item>
+      <title><![CDATA[Ask Photos is Google's new AI feature for Google Photos]]></title>
+      <link>https://mashable.com/article/google-io-2024-ask-photos-gemini-ai</link>
+      <guid isPermaLink="false">00N85muTiHccLHNYAeDs4aj</guid>
+      <pubDate>Tue, 14 May 2024 17:31:28 +0000</pubDate>
+      <description><![CDATA[Ask Photos is an AI assistant for Google Photos announced at Google's annual I/O conference.]]></description>
+      <content:encoded><![CDATA[<img src="https://helios-i.mashable.com/imagery/articles/00N85muTiHccLHNYAeDs4aj/hero-image.png" alt="A mobile phone with the Google Photos logo on screen."><p>At <a href="https://mashable.com/article/google-io-how-to-watch-2024" target="_self">Google's annual I/O conference</a>, the tech giant announced a more powerful AI-based search experience within Google Photos. </p><p>People upload 6 billion photos and videos to the platform every day, and now they'll be able to search for those elements more efficiently using not just keywords but phrases.  </p><div class="mx-auto mt-8 w-full max-w-3xl font-sans text-lg leading-normal md:text-xl md:leading-7">
+        <span class="font-bold text-primary-400">SEE ALSO:</span>
+        <a href="https://mashable.com/article/search-engine-overviews-rolling-out-this-week" class="text-secondary-300">
+            Google I/O 2024: AI Overviews are rolling out to users this week
+            <svg class="inline-block ml-1 w-4 h-4 font-normal fill-current"><use href="https://mashable.com/images/icons/spritemap.svg#sprite-arrow-right-thin"></use></svg>
+        </a>
+    </div>
+<p>CEO Sundar Pichai gave one example: "Say you're at a parking station ready to pay," he told the audience, "but you can't recall your license plate number." Now you can ask Google Photos something like, "What's my license plate number again?" </p><p>It's unclear how Gemini will know to bring up <em>your</em> license plate number instead of all photos with a license plate in them, but Pichai says Gemini does. </p><p>Another example was reminiscing on family memories. Ask Google Photos, "When did Lucia learn to swim?" for example, says Pichai, and "Gemini goes beyond a simple search, recognizing different contexts from doing laps in the pool to snorkeling in the ocean to the text and dates on our swimming certificates." Then it packages those photos and videos together for you.</p><div class="mx-auto mt-8 w-full max-w-3xl font-sans text-lg leading-normal md:text-xl md:leading-7">
+        <span class="font-bold text-primary-400">SEE ALSO:</span>
+        <a href="https://mashable.com/article/openai-chatgpt-voice-assistant-google-io" class="text-secondary-300">
+            OpenAI isn't just competing with Google Search. It's coming for Google Assistant, Alexa &amp; Siri, too.
+            <svg class="inline-block ml-1 w-4 h-4 font-normal fill-current"><use href="https://mashable.com/images/icons/spritemap.svg#sprite-arrow-right-thin"></use></svg>
+        </a>
+    </div>]]></content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Google I/O 2024: AI Overviews in Search are rolling out to users this week]]></title>
+      <link>https://mashable.com/article/search-engine-overviews-rolling-out-this-week</link>
+      <guid isPermaLink="false">04YGejy3olSGFDq4ZOAbPrg</guid>
+      <pubDate>Tue, 14 May 2024 17:25:23 +0000</pubDate>
+      <description><![CDATA[Google I/O 2024: AI Overviews are rolling out to users this week]]></description>
+      <content:encoded><![CDATA[<img src="https://helios-i.mashable.com/imagery/articles/04YGejy3olSGFDq4ZOAbPrg/hero-image.png" alt="Man standing in front of a giant screen that says AI Overviews"><p>It's been <a href="https://mashable.com/article/google-testing-generative-ai-search-results" target="_self">teased</a> and <a href="https://mashable.com/article/google-ai-search-generative-experience-details" target="_self">tested</a> for over a year, but it's finally here: AI Overviews in Search.</p><div class="mx-auto mt-8 w-full max-w-3xl font-sans text-lg leading-normal md:text-xl md:leading-7">
+        <span class="font-bold text-primary-400">SEE ALSO:</span>
+        <a href="https://mashable.com/article/google-i-o-may-14-event-android-15-surface-pro-what-to-expect" class="text-secondary-300">
+            Google I/O 2024: What to expect after OpenAI's GPT-4o reveal
+            <svg class="inline-block ml-1 w-4 h-4 font-normal fill-current"><use href="https://mashable.com/images/icons/spritemap.svg#sprite-arrow-right-thin"></use></svg>
+        </a>
+    </div>
+<p>The first major announcement of <a href="https://mashable.com/article/google-io-how-to-watch-2024" target="_self">Google's I/O 2024 event</a>, the tech giant started off with the reveal that its Search Generative Experience (SGE) labs feature will be rolling out to US users within the week. This new feature allows Google to provide AI-generated overviews or summaries directly in the search results, potentially offering more comprehensive answers to complex queries.</p><p>The aim is to improve the user's experience by leveraging AI to aggregate and synthesize information from various web sources, delivering it in an easily digestible format. In May 2023, Google introduced its AI-enhanced search feature, which it characterized as an "AI-powered snapshot of key information to consider, with links to dig deeper." </p><p>However, the results were inconsistent when Mashable conducted tests on this feature on Google Labs. <a href="https://mashable.com/article/google-ai-search-generative-experience-details" target="_self">Reporter Cecily Mauran noted</a> that this tool cluttered Google's results pages, overshadowed already useful features, and mentioned that unexpectedly encountering an AI-generated result could be somewhat disconcerting.</p><p>That doesn't mean that Google hasn't improved on SGE since then. The keynote has only started so you can watch live <a href="https://www.youtube.com/watch?v=XEzRZ35urlk" target="_blank">here</a>.</p>]]></content:encoded>
+    </item>
     <item>
       <title><![CDATA[Colorful, funky DJ shows off 'Music FX DJ' ahead of Google I/O — and you can make sick beats now, too]]></title>
       <link>https://mashable.com/article/google-i-o-music-fx-dj-mode-now-available</link>
@@ -6276,7 +6312,7 @@
                                             <span class="text-sm font-bold">$429.00</span>
                                                     <span class="text-xs"> at Amazon</span>
                                                 <br>
-                                                                                                                            </div>
+                                                        </div>
             </div>
                                                     <a href="https://cc.mashable.com/v1/otc/03bCs1jQxEftXGkZ7A6Km1e?merchant=05kie42h3YvHwjr4G1w80Qq&amp;url=https%3A%2F%2Fwww.amazon.com%2FBose-QuietComfort-Wireless-Cancelling-Headphones%2Fdp%2FB0CCZ1L489&amp;template=review&amp;module=shop-card&amp;element=offer&amp;item=offer-button&amp;position=&amp;element_label=Shop+Now&amp;u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall&amp;product_uuid=02PHgeYFSbMZlgsFEv13et2&amp;offer_uuid=03x9pYcL8vWQr84BQnQ3GUG&amp;object_type=03x9pYcL8vWQr84BQnQ3GUG&amp;object_uuid=02PHgeYFSbMZlgsFEv13et2" data-commerce="1" target="_blank" rel="nofollow sponsored" data-parent-group="affiliate-link" title="(opens in a new window)" class="no-underline hover:text-white">
     <button class="inline-block px-5 mt-3 w-full font-sans text-base font-bold tracking-wide md:w-auto md:text-lg btn btn-secondary">Shop Now</button>
@@ -6292,12 +6328,10 @@
     Sony WH-1000XM5
 </a>                                        <div class="flex justify-between items-center py-3 md:py-0 md:space-x-2">
                 <div class="md:w-2/3" style="line-height: 0.75rem">
-                                            <span class="text-sm font-bold">$348.00</span>
+                                            <span class="text-sm font-bold">$398.00</span>
                                                     <span class="text-xs"> at Amazon</span>
                                                 <br>
-                                                                                            <span class="text-xs font-bold line-through">$399.99</span>
-                                                                            <span class="text-xs font-bold text-red-400"> Save $51.99</span>
-                                                            </div>
+                                                        </div>
             </div>
                                                     <a href="https://cc.mashable.com/v1/otc/03bCs1jQxEftXGkZ7A6Km1e?merchant=05kie42h3YvHwjr4G1w80Qq&amp;url=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB09XS7JWHH&amp;template=review&amp;module=shop-card&amp;element=offer&amp;item=offer-button&amp;position=&amp;element_label=Shop+Now&amp;u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall&amp;product_uuid=013F7ytrzVMg0LfQEHuaCE2&amp;offer_uuid=05imy3o2JwVgYdFh4CPslEy&amp;object_type=05imy3o2JwVgYdFh4CPslEy&amp;object_uuid=013F7ytrzVMg0LfQEHuaCE2" data-commerce="1" target="_blank" rel="nofollow sponsored" data-parent-group="affiliate-link" title="(opens in a new window)" class="no-underline hover:text-white">
     <button class="inline-block px-5 mt-3 w-full font-sans text-base font-bold tracking-wide md:w-auto md:text-lg btn btn-secondary">Shop Now</button>
@@ -6372,7 +6406,7 @@
     Beats Studio Buds+
 </a>                                        <div class="flex justify-between items-center py-3 md:py-0 md:space-x-2">
                 <div class="md:w-2/3" style="line-height: 0.75rem">
-                                            <span class="text-sm font-bold">$169.95</span>
+                                            <span class="text-sm font-bold">$169.99</span>
                                                     <span class="text-xs"> at Amazon</span>
                                                 <br>
                                                         </div>
@@ -7207,92 +7241,6 @@
 
 
 <p>The BirdBike weighs 51 pounds (it's a sturdy city ride) and has a maximum weight capacity of 256 pounds. This e-bike has a 50-mile range and can reach speeds up to 20 miles per hour, which is ideal for commuting to work. And if you're worried about someone snagging your sweet ride while you have it parked, there's a built-in anti-theft alarm that rings out 120 decibels of sound.</p><p>Whether you're a daily commuter, weekend adventurer, or simply someone who loves the freedom of two wheels, this could be a fun companion for your next journey.</p><p>Pick up this <a href="https://zdcs.link/712EG?pageview_type=RSS&template=deals&module=content_body&element=offer&item=text-link&element_label=BirdBike%20Electric%20Bike%20on%20sale&object_type=article&object_uuid=02KQ1OgnBJPMFTzmYg3RYmC&short_url=712EG&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"title="(opens in a new window)" target="_blank">BirdBike Electric Bike on sale</a> for $699.97 (reg. $2,299.99) with free shipping until May 12 at 11:59 p.m. PT.</p><p><a href="https://www.stacksocial.com/" target="_blank"><em>StackSocial</em></a><em> prices subject to change.</em></p>]]></content:encoded>
-    </item>
-    <item>
-      <title><![CDATA[Save $35 on a wireless charging pad that powers 3 devices at once]]></title>
-      <link>https://mashable.com/deals/may-12-magnetic-wireless-charger</link>
-      <guid isPermaLink="false">05xVgVfHpmlRomX23IuY3Xu</guid>
-      <pubDate>Sun, 12 May 2024 09:00:00 +0000</pubDate>
-      <description><![CDATA[For a limited time, you can grab this 3-in-1 wireless charging pad on sale for only $34.99.]]></description>
-      <content:encoded><![CDATA[<img src="https://helios-i.mashable.com/imagery/articles/05xVgVfHpmlRomX23IuY3Xu/hero-image.jpg" alt="3-in-1 wireless charger with devices"><p><strong>TL;DR:</strong> Through May 12, save 50% on this <a href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=content_body&element=offer&item=text-link&element_label=wireless%20charging%20pad&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"title="(opens in a new window)" target="_blank">wireless charging pad</a> that can refuel a smartphone, a watch, and headphones, all at once.</p><hr><p>It seems like every new gadget you buy these days is missing something pretty crucial: the charger. Gone are the days of the complimentary charging block, and it's only a matter of time before the humble charging cable becomes a relic of the past, too. That's why this is the ideal time to try charging pads &mdash; your desk will thank you for the instant declutter.</p><p>The 3-in-1 Magnetic Wireless Charging Pad can finally let you kick the rat's nest of wires on your desk into the trash. As you can tell by the name, it's designed to <a href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=content_body&element=offer&item=text-link&element_label=charge%20three%20devices%20at%20once&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"title="(opens in a new window)" target="_blank">charge three devices at once</a>, and through the end of the day, it's on sale for almost $35 off at $34.99 (reg. $69.99). However, <strong>if you want to charge your devices all at once, you will need to use a PD18W wall adapter (not included)</strong>.</p><p>With three separate charging modules, this pad can accommodate smartphones, headphones, watches, and other devices compatible with wireless charging. Want to top up three phones at once? No problem. A watch and two headphones? Easy. The combination doesn't matter; it handles them all efficiently and simultaneously.</p><p>While there's a maximum power of 15W for cell phone charging, 5W for AirPods charging, and 2.5W for Apple Watch charging, it can still refuel your devices fairly quickly. The charging plates are also designed to secure the devices firmly, and when you're not charging, you can fold and configure them to <a href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=content_body&element=offer&item=text-link&element_label=function%20as%20a%20phone%20stand&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"title="(opens in a new window)" target="_blank">function as a phone stand</a>.</p><div class="mx-auto mt-8 w-full max-w-4xl">
-    <div id="video-container-McNj8JMcTK0"></div>
-</div>
-
-
-<p>On the safety front, it packs a multifunctional SmartShunt technology with a built-in smart chip, along with features like short-circuit protection, foreign-object detection, and temperature control. It's also quite portable, allowing you to take it from point A to point B with ease. It barely takes up any space, so you can easily put it into your pocket or bag.</p><p>Untangle your harware with this <a href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=content_body&element=offer&item=text-link&element_label=3-in-1%20wireless%20charger%2C%20on%20sale%20for%20%2434.99&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"title="(opens in a new window)" target="_blank">3-in-1 wireless charger, on sale for $34.99</a> for a limited time.</p><p><a href="https://www.stacksocial.com/" target="_blank"><em>StackSocial</em></a><em> prices subject to change.</em></p><div class="flex flex-col mx-auto mt-8 mb-16 max-w-3xl font-sans md:flex-row">
-    <div class="mx-auto w-64 md:mx-0 md:w-1/3">
-                                                        <a class="block group" href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=shop-card&element=offer&item=image&element_label=image&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"target="_blank"title="(opens in a new window)" data-ga-action="product_image" data-ga-label="image" data-ga-item="image" data-ga-element="offer" data-ga-module="shop-card" data-ga-click>
-                                                            <img class="w-full" src="https://helios-i.mashable.com/imagery/articles/05xVgVfHpmlRomX23IuY3Xu/images-1.fill.size_256x192.v1715347895.jpg" alt="Watch, air pods bring charged." width="256" height="192" loading="lazy">
-
-
-                    
-                    <div class="block relative mx-14 group-hover:visible tooltip">
-                    <span class="absolute invisible p-1 mt-2 text-xs text-center text-white group-hover:visible tooltiptext bg-gray-600/0 group-hover:bg-gray-600/100">
-                        Opens in a new window
-                    </span>
-                    </div>
-                                    </a>
-                                <div class="mt-2 leading-none text-left">
-                                            <span class="pr-5 mt-1 text-xs text-gray-600 subtitle-2">Credit: RochasDivineMart</span>
-                                    </div>
-                        </div>
-    <div class="pl-0 mt-3 w-full md:pl-8 md:mt-0 md:w-2/3">
-                                    <a href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=shop-card&element=offer&item=title&element_label=3-in-1%20Magnetic%20Wireless%20Charging%20Pad&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"target="_blank" class="block mb-5 text-xl font-bold leading-8 text-center md:text-2xl md:text-left hover:underline text-secondary-300" data-ga-action="offer-title" data-ga-item="title" data-ga-element="offer" data-ga-module="shop-card" data-ga-label="3-in-1 Magnetic Wireless Charging Pad" data-ga-click title="(opens in a new window)">
-                    3-in-1 Magnetic Wireless Charging Pad
-                </a>
-                                        <div class="flex justify-between items-center py-3 md:py-0 md:space-x-2">
-                <div class="md:w-2/3" style="line-height: 0.75rem">
-                                            <span class="text-sm font-bold">$34.99</span>
-                                                    <span class="text-xs"> at the Mashable Shop</span>
-                                                <br>
-                                                                                            <span class="text-xs font-bold line-through">$69.99</span>
-                                                                            <span class="text-xs font-bold text-red-400"> Save $35.00</span>
-                                                            </div>
-            </div>
-                                                    <a class="font-bold leading-6 text-center hover:underline" href="https://zdcs.link/EyljM?pageview_type=RSS&template=deals&module=shop-card&element=offer&item=buy-button&element_label=Get%20Deal&object_type=article&object_uuid=05xVgVfHpmlRomX23IuY3Xu&short_url=EyljM&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored" target="_blank" data-ga-action="buy-link" data-ga-item="buy-button" data-ga-label="$text" data-ga-element="offer" data-ga-module="shop-card" data-ga-click title="(opens in a new window)">
-                    <button class="inline-block px-5 mt-3 w-full font-sans text-base font-bold tracking-wide md:w-auto md:text-lg btn btn-secondary">Get Deal</button>
-                </a>
-                        </div>
-</div>]]></content:encoded>
-    </item>
-    <item>
-      <title><![CDATA[How to watch Royal Challengers Bengaluru vs. Delhi Capitals online for free]]></title>
-      <link>https://mashable.com/article/royal-challengers-bengaluru-delhi-capitals-live-stream-for-free</link>
-      <guid isPermaLink="false">078AlRGkPyjhtZEPjpGeQ7R</guid>
-      <pubDate>Sun, 12 May 2024 09:00:00 +0000</pubDate>
-      <description><![CDATA[Watch Royal Challengers Bengaluru vs. Delhi Capitals in the IPL for free from anywhere in the world.]]></description>
-      <content:encoded><![CDATA[<img src="https://helios-i.mashable.com/imagery/articles/078AlRGkPyjhtZEPjpGeQ7R/hero-image.jpg" alt="Royal Challengers Bengaluru's Virat Kohli and Will Jacks"><p><strong>TL;DR:</strong> Watch Royal Challengers Bengaluru vs. Delhi Capitals in the IPL for free on <a href="https://www.jiocinema.com/" target="_blank">JioCinema</a>. Access this free streaming platform from anywhere in the world with <a href="https://go.expressvpn.com/c/1442494/1462856/16063" target="_blank">ExpressVPN</a>.</p><hr><p>The <a href="https://mashable.com/uk/deals/ipl-live-stream-for-free" target="_self">IPL</a> is in its final two weeks, and it has been an incredible season. There's just a handful of fixtures left to play, and next to the field are the Royal Challengers Bengaluru and Delhi Capitals. The lineup should include captains Faf du Plessis and Rishabh Pant.</p><p>Want to catch up on the action? You can watch Royal Challengers Bengaluru vs. Delhi Capitals for free from anywhere in the world, and we have all the information you need.</p><h2><strong>When is Royal Challengers Bengaluru vs. Delhi Capitals?</strong></h2><p>Royal Challengers Bengaluru vs. Delhi Capitals starts at <strong>3 p.m. BST on May 12</strong>. This fixture will be played at the M. Chinnaswamy Stadium in Bengaluru, India.</p><h2><strong>How to watch Royal Challengers Bengaluru vs. Delhi Capitals for free</strong></h2><p><a href="https://www.jiocinema.com/" target="_blank">JioCinema</a> is your go-to for free live streams of every IPL cricket match this season.</p><p>JioCinema is <a href="https://mashable.com/uk/deals/access-jiocinema-for-free" target="_self">geo-restricted to India</a>, but anyone can unblock this free streaming service with a <a href="https://mashable.com/uk/roundup/best-vpn-uk" target="_self">VPN</a>. These tools can hide your real IP address (digital location) and connect you to a secure server in India, meaning you can access JioCinema from anywhere in the world.</p><p>Unblock JioCinema to stream the IPL 2024 by following these simple steps:</p><ol><li><p>Sign up for a streaming-friendly VPN (like <a href="https://go.expressvpn.com/c/1442494/1462856/16063" target="_blank">ExpressVPN</a>)</p></li><li><p>Download the app to your device of choice (the best VPNs have apps for Windows, Mac, iOS, Android, Linux, and more)</p></li><li><p>Open up the app and connect to a server in India</p></li><li><p>Visit <a href="https://zdcs.link/5pKP8?pageview_type=RSS&amp%3Btemplate=deals&amp%3Bmodule=content_body&amp%3Belement=offer&amp%3Bitem=text-link&amp%3Belement_label=JioCinema&amp%3Bobject_type=article&amp%3Bobject_uuid=01LMzWgMM9gE8Npw5LF3SZd&amp%3Bshort_url=5pKP8&amp%3Bu=https%3A%2F%2Fmashable.com%2Fuk%2Fdeals%2Fipl-live-stream-for-free&template=article&module=content_body&element=offer&item=text-link&element_label=JioCinema&object_type=article&object_uuid=078AlRGkPyjhtZEPjpGeQ7R&short_url=5pKP8&u=https%3A%2F%2Fmashable.com%2Ffeeds%2Frss%2Fall" rel="nofollow sponsored"title="(opens in a new window)" target="_blank">JioCinema</a> (you will need an Indian phone number to subscribe)</p></li><li><p>Watch Royal Challengers Bengaluru vs. Delhi Capitals for free from anywhere in the world</p></li></ol><div class="flex flex-col mx-auto mt-8 mb-16 max-w-3xl font-sans md:flex-row">
-    <div class="mx-auto w-64 md:mx-0 md:w-1/3">
-                                                        <a class="block group" href="https://go.expressvpn.com/c/1442494/1462856/16063" data-ga-action="product_image" data-ga-label="image" data-ga-item="image" data-ga-element="offer" data-ga-module="shop-card" data-ga-click>
-                                                            <img class="w-full" src="https://helios-i.mashable.com/imagery/articles/078AlRGkPyjhtZEPjpGeQ7R/images-1.fill.size_256x128.v1714421374.png" alt="ExpressVPN logo" width="256" height="128" loading="lazy">
-
-
-                    
-                    <div class="block relative mx-14 group-hover:visible tooltip">
-                    <span class="absolute invisible p-1 mt-2 text-xs text-center text-white group-hover:visible tooltiptext bg-gray-600/0 group-hover:bg-gray-600/100">
-                        Opens in a new window
-                    </span>
-                    </div>
-                                    </a>
-                                <div class="mt-2 leading-none text-left">
-                                            <span class="pr-5 mt-1 text-xs text-gray-600 subtitle-2">Credit: ExpressVPN</span>
-                                    </div>
-                        </div>
-    <div class="pl-0 mt-3 w-full md:pl-8 md:mt-0 md:w-2/3">
-                                    <a href="https://go.expressvpn.com/c/1442494/1462856/16063" class="block mb-5 text-xl font-bold leading-8 text-center md:text-2xl md:text-left hover:underline text-secondary-300" data-ga-action="offer-title" data-ga-item="title" data-ga-element="offer" data-ga-module="shop-card" data-ga-label="ExpressVPN (1-Year Subscription + 3 Months Free)" data-ga-click title="(opens in a new window)">
-                    ExpressVPN (1-Year Subscription + 3 Months Free)
-                </a>
-                                        <div class="flex justify-between items-center py-3 md:py-0 md:space-x-2">
-                <div class="md:w-2/3" style="line-height: 0.75rem">
-                                                        </div>
-            </div>
-                            <div class="mb-4 text-base font-normal leading-tight">$99.95 only at ExpressVPN (with money-back guarantee)</div>
-                                            <a class="font-bold leading-6 text-center hover:underline" href="https://go.expressvpn.com/c/1442494/1462856/16063" target="_blank" data-ga-action="buy-link" data-ga-item="buy-button" data-ga-label="$text" data-ga-element="offer" data-ga-module="shop-card" data-ga-click title="(opens in a new window)">
-                    <button class="inline-block px-5 mt-3 w-full font-sans text-base font-bold tracking-wide md:w-auto md:text-lg btn btn-secondary">Get Deal</button>
-                </a>
-                        </div>
-</div>
-<p>You'll find that the majority of the <a href="https://mashable.com/uk/roundup/best-vpn-for-streaming-uk" target="_self">best VPNs for streaming</a> aren't free, but they do often promote free trials or money-back guarantees. By taking advantage of these deals, you can catch up on IPL live streams without parting with any of your cash. This is clearly not a long-term solution, but it does mean you can watch select IPL fixtures for free.</p><h2><strong>What is the best VPN for JioCinema?</strong></h2><p><a href="https://go.expressvpn.com/c/1442494/1462856/16063" target="_blank">ExpressVPN</a> is the best service for unblocking JioCinema, for a number of reasons:</p><ul><li><p>Servers in 105 countries including India</p></li><li><p>Easy-to-use app available on all major devices including iPhone, Android, Windows, Mac, and more</p></li><li><p>Strict no-logging policy so your data is secure</p></li><li><p>Fast connection speeds</p></li><li><p>Up to eight simultaneous connections</p></li><li><p>30-day money-back guarantee</p></li></ul><p>A one-year subscription to <a href="https://go.expressvpn.com/c/1442494/1462856/16063" target="_blank">ExpressVPN</a> is on sale for $99.95 and includes an extra three months for free &mdash; 49% off for a limited time. This plan also includes a year of free unlimited cloud backup and a generous 30-day money-back guarantee.</p><p>Stream the IPL for free with ExpressVPN.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

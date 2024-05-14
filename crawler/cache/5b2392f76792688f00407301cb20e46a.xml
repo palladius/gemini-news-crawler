@@ -239,6 +239,65 @@
 <h2 class="release-note-product-title">Media CDN</h2>
 <h3>Feature</h3>
 <p>Media CDN supports <a href="https://cloud.google.com/media-cdn/docs/custom-headers#header-variables">content targeting</a>, which helps you cache and deliver assets that are customized for your end-user contexts. It enables device characterization and geo-targeting, which are useful for implementing responsive websites, language customization, and currency settings.</p>
+<h2 class="release-note-product-title">Pub/Sub</h2>
+<h3>Libraries</h3>
+<p>A weekly digest of client library updates from across the <a href="https://cloud.google.com/sdk">Cloud SDK</a>.</p>
+<div class="ds-selector-tabs" data-ds-scope="code-sample">
+<section><h3 track-name="node.js">Node.js</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloudpubsub" class="external">Changes for <a href="https://github.com/googleapis/nodejs-pubsub">@google-cloud/pubsub</a></h3>
+
+<h4 id="440_2024-05-03"><a href="https://github.com/googleapis/nodejs-pubsub/compare/v4.3.3...v4.4.0" target="_blank" rel="noreferrer noopener" class="external">4.4.0</a> (2024-05-03)</h4>
+
+<h5 id="features">Features</h5>
+
+<ul>
+<li>Add several fields to manage state of database encryption update (<a href="https://github.com/googleapis/nodejs-pubsub/issues/1904" target="_blank" rel="noreferrer noopener" class="external">#1904</a>) (<a href="https://github.com/googleapis/nodejs-pubsub/commit/aba9aee0c8ecc840c150aa077892b7bb88f18eca" target="_blank" rel="noreferrer noopener" class="external">aba9aee</a>)</li>
+</ul>
+
+<h5 id="bug_fixes">Bug Fixes</h5>
+
+<ul>
+<li><strong>deps:</strong> Update dependency @types/long to v5 (<a href="https://github.com/googleapis/nodejs-pubsub/issues/1901" target="_blank" rel="noreferrer noopener" class="external">#1901</a>) (<a href="https://github.com/googleapis/nodejs-pubsub/commit/d13d395341efacf926a126bf756873922f6bbab7" target="_blank" rel="noreferrer noopener" class="external">d13d395</a>)</li>
+</ul></section>
+<section><h3 track-name="go">Go</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_pubsubapiv1" class="external">Changes for <a href="https://github.com/googleapis/google-cloud-go/tree/main/pubsub/apiv1">pubsub/apiv1</a></h3>
+
+<h4 id="1380_2024-05-06"><a href="https://github.com/googleapis/google-cloud-go/compare/pubsub/v1.37.0...pubsub/v1.38.0" target="_blank" rel="noreferrer noopener" class="external">1.38.0</a> (2024-05-06)</h4>
+
+<h5 id="features_2">Features</h5>
+
+<ul>
+<li><strong>pubsub:</strong> Add custom datetime format for Cloud Storage subscriptions (<a href="https://github.com/googleapis/google-cloud-go/commit/48344254a5d21ec51ffee275c78a15c9345dc09c" target="_blank" rel="noreferrer noopener" class="external">4834425</a>)</li>
+<li><strong>pubsub:</strong> Support publisher compression (<a href="https://github.com/googleapis/google-cloud-go/issues/9711" target="_blank" rel="noreferrer noopener" class="external">#9711</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/4940c3c5ab31b6e66ec8f29f9cf60298f8de630a" target="_blank" rel="noreferrer noopener" class="external">4940c3c</a>)</li>
+<li><strong>pubsub:</strong> Use Streaming Pull response for ordering check (<a href="https://github.com/googleapis/google-cloud-go/issues/9682" target="_blank" rel="noreferrer noopener" class="external">#9682</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/7bf49049cdc44ca260d1c1354bc7661de9ed8585" target="_blank" rel="noreferrer noopener" class="external">7bf4904</a>)</li>
+</ul>
+
+<h5 id="bug_fixes_2">Bug Fixes</h5>
+
+<ul>
+<li><strong>pubsub:</strong> Bump x/net to v0.24.0 (<a href="https://github.com/googleapis/google-cloud-go/commit/ba31ed5fda2c9664f2e1cf972469295e63deb5b4" target="_blank" rel="noreferrer noopener" class="external">ba31ed5</a>)</li>
+<li><strong>pubsub:</strong> Respect gRPC dial option when PUBSUB_EMULATOR_HOST is set (<a href="https://github.com/googleapis/google-cloud-go/issues/10040" target="_blank" rel="noreferrer noopener" class="external">#10040</a>) (<a href="https://github.com/googleapis/google-cloud-go/commit/95bf6b255d8ff7bb385567da498b90252efb338f" target="_blank" rel="noreferrer noopener" class="external">95bf6b2</a>)</li>
+<li><strong>pubsub:</strong> Update protobuf dep to v1.33.0 (<a href="https://github.com/googleapis/google-cloud-go/commit/30b038d8cac0b8cd5dd4761c87f3f298760dd33a" target="_blank" rel="noreferrer noopener" class="external">30b038d</a>)</li>
+</ul></section>
+<section><h3 track-name="java">Java</h3><h3 target="_blank" rel="noreferrer noopener" id="changes_for_google-cloud-pubsub" class="external">Changes for <a href="https://github.com/googleapis/java-pubsub">google-cloud-pubsub</a></h3>
+
+<h4 id="11294_2024-05-10"><a href="https://github.com/googleapis/java-pubsub/compare/v1.129.3...v1.129.4" target="_blank" rel="noreferrer noopener" class="external">1.129.4</a> (2024-05-10)</h4>
+
+<h5 id="dependencies">Dependencies</h5>
+
+<ul>
+<li>Update dependency com.google.cloud:google-cloud-bigquery to v2.40.0 (<a href="https://github.com/googleapis/java-pubsub/issues/2016" target="_blank" rel="noreferrer noopener" class="external">#2016</a>) (<a href="https://github.com/googleapis/java-pubsub/commit/beee523ffc501a33b99a4ee82ccdb04b83391403" target="_blank" rel="noreferrer noopener" class="external">beee523</a>)</li>
+<li>Update dependency com.google.cloud:google-cloud-bigquery to v2.40.1 (<a href="https://github.com/googleapis/java-pubsub/issues/2021" target="_blank" rel="noreferrer noopener" class="external">#2021</a>) (<a href="https://github.com/googleapis/java-pubsub/commit/0873594c000f470c6193ebe8b4d091701670ef06" target="_blank" rel="noreferrer noopener" class="external">0873594</a>)</li>
+<li>Update dependency com.google.cloud:google-cloud-storage to v2.38.0 (<a href="https://github.com/googleapis/java-pubsub/issues/2019" target="_blank" rel="noreferrer noopener" class="external">#2019</a>) (<a href="https://github.com/googleapis/java-pubsub/commit/ba3dffc3ac8cf173362307c24bc46e815c64db40" target="_blank" rel="noreferrer noopener" class="external">ba3dffc</a>)</li>
+</ul>
+
+<h4 id="11293_2024-05-06"><a href="https://github.com/googleapis/java-pubsub/compare/v1.129.2...v1.129.3" target="_blank" rel="noreferrer noopener" class="external">1.129.3</a> (2024-05-06)</h4>
+
+<h5 id="dependencies_2">Dependencies</h5>
+
+<ul>
+<li>Update dependency com.google.cloud:google-cloud-core to v2.38.0 (<a href="https://github.com/googleapis/java-pubsub/issues/2011" target="_blank" rel="noreferrer noopener" class="external">#2011</a>) (<a href="https://github.com/googleapis/java-pubsub/commit/4a547d08d02f3abaf23bfb8e5ed65e40c131bb94" target="_blank" rel="noreferrer noopener" class="external">4a547d0</a>)</li>
+<li>Update dependency com.google.cloud:sdk-platform-java-config to v3.30.0 (<a href="https://github.com/googleapis/java-pubsub/issues/2012" target="_blank" rel="noreferrer noopener" class="external">#2012</a>) (<a href="https://github.com/googleapis/java-pubsub/commit/811d0e609b5eb6eaf9c921828255407d9db68293" target="_blank" rel="noreferrer noopener" class="external">811d0e6</a>)</li>
+</ul></section>
+</div>
 <h2 class="release-note-product-title">Sensitive Data Protection</h2>
 <h3>Feature</h3>
 <p>The <code>IMMIGRATION_STATUS</code> infoType detector is available in all regions. For more information about all built-in infoTypes, see <a href="https://cloud.google.com/dlp/docs/infotypes-reference">InfoType detector reference</a>.</p>

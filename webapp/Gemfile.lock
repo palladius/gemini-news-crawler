@@ -383,7 +383,7 @@ DEPENDENCIES
   faraday
   feedjira
   gemini-ai
-  google-apis-aiplatform_v1
+  google-apis-aiplatform_v1 (~> 0.23.0)
   google-cloud-storage
   groupdate
   importmap-rails

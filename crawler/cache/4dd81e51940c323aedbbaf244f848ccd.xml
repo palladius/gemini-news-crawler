@@ -5,6 +5,14 @@
     <description>The Ruby and Rails community linklog</description>
     <link>https://rubyflow.com</link>
     <item>
+      <title>Concurrency and parallelism in Ruby 💎</title>
+      <description> &lt;a href="https://mathieu-eustachy.com/articles/concurrency-and-parallelism-in-ruby?locale=en" rel="nofollow"&gt;https://mathieu-eustachy.com/articles/concurrency-and-parallelism-in-ruby?locale=en&lt;/a&gt;
+It looks like a philosophy essay title, but they are fundamental developing principles. </description>
+      <pubDate>Tue, 14 May 2024 11:45:48 +0000</pubDate>
+      <link>https://rubyflow.com/p/1yf721-concurrency-and-parallelism-in-ruby</link>
+      <guid>https://rubyflow.com/p/1yf721-concurrency-and-parallelism-in-ruby</guid>
+    </item>
+    <item>
       <title>Hanami shrine</title>
       <description> &lt;a href="https://2n.pl/blog/hanami-shrine-file-handling-in-hanami" rel="nofollow"&gt;https://2n.pl/blog/hanami-shrine-file-handling-in-hanami&lt;/a&gt;
 Showing an simple, flexible file handling solution in hanami, with ROM-rb ORM, using Shrine. Also contains some of my thoughts on active-storage in comparison to shrine. </description>
@@ -178,13 +186,6 @@ With accuracy and performance improvements, twilight times and new info about th
       <pubDate>Tue, 30 Apr 2024 19:38:05 +0000</pubDate>
       <link>https://rubyflow.com/p/8oant3-hivegrid-now-supports-ruby-331</link>
       <guid>https://rubyflow.com/p/8oant3-hivegrid-now-supports-ruby-331</guid>
-    </item>
-    <item>
-      <title>ActiveRecord::Base#pluck adds support for hash values in Rails 7.2</title>
-      <description> &lt;a href="https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/" rel="nofollow"&gt;https://blog.saeloun.com/2024/04/26/rails-7-2-activerecord-pluck-to-accept-hash-values/&lt;/a&gt; </description>
-      <pubDate>Mon, 29 Apr 2024 10:15:22 +0000</pubDate>
-      <link>https://rubyflow.com/p/rf9gdo-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</link>
-      <guid>https://rubyflow.com/p/rf9gdo-activerecordbasepluck-adds-support-for-hash-values-in-rails-72</guid>
     </item>
   </channel>
 </rss>

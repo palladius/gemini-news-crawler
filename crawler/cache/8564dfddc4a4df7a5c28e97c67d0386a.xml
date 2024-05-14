@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Tue, 14 May 2024 11:39:11 -0400</pubDate>
-<lastBuildDate>Tue, 14 May 2024 11:39:11 -0400</lastBuildDate>
+<pubDate>Tue, 14 May 2024 13:51:07 -0400</pubDate>
+<lastBuildDate>Tue, 14 May 2024 13:51:07 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,9 +17,19 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
+<title>Meme Stock Mania and 'Roaring Kitty' Are Back: 'Let Me Get In'</title>
+<link>https://www.wsj.com/articles/meme-stocks-jump-gamestop-amc-keith-gill-returns-c46f76c8?mod=rss_markets_main</link>
+<description><![CDATA[Short sellers have been burned by the resurgence of GameStop, AMC and other meme stocks.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 13:49:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773803</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Stocks</wsj:articletype>
+</item>
+<item>
 <title>Home Depot Still Looks Sturdy</title>
 <link>https://www.wsj.com/articles/home-depot-still-looks-sturdy-e980b614?mod=rss_markets_main</link>
-<description><![CDATA[High rates and low housing turnover are a drag, but there is much to like.]]></description>
+<description><![CDATA[High rates and low housing turnover are a drag, but there is much to like about the home-improvement retailer.]]></description>
 <content:encoded/>
 <pubDate>Tue, 14 May 2024 11:37:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001773385</guid>
@@ -37,7 +47,7 @@
 <wsj:articletype>Heard on the Street</wsj:articletype>
 </item>
 <item>
-<title>Tips For Raising Money With Personal Crowdfunding Campaigns</title>
+<title>Tips for Raising Money With Personal Crowdfunding Campaigns</title>
 <link>https://www.wsj.com/articles/crowdfunding-campaign-tips-research-65f05ea6?mod=rss_markets_main</link>
 <description><![CDATA[Among other things, researchers have found that the more faces shown in the main photo, the more money people will donate.]]></description>
 <content:encoded/>
@@ -205,16 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001768041</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Wall Street Turns Up the Heat on Companies to Perform</title>
-<link>https://www.wsj.com/articles/wall-street-turns-up-the-heat-on-companies-to-perform-12010d2b?mod=rss_markets_main</link>
-<description><![CDATA[Shares of companies that missed first-quarter earnings estimates have slid an average of 2.8%, compared with the five-year average of a 2.3% decline.]]></description>
-<content:encoded/>
-<pubDate>Sun, 12 May 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001767843</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Stocks</wsj:articletype>
 </item>
 </channel>
 </rss>

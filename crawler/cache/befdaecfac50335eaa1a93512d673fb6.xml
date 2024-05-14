@@ -7,23 +7,23 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 17:34:47 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 17:32:06 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 18:04:55 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 18:04:37 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world</link>
     </image>
     <item>
-      <title>Middle East Crisis: As Israel Fights Again in Gaza’s North, Military’s Discontent Grows</title>
+      <title>Middle East Crisis: U.N. Says It’s Unclear How Many of Gaza’s Dead Are Women and Children</title>
       <link>https://www.nytimes.com/live/2024/05/14/world/israel-gaza-war-hamas-rafah</link>
       <guid isPermaLink="true">https://www.nytimes.com/live/2024/05/14/world/israel-gaza-war-hamas-rafah</guid>
       <atom:link href="https://www.nytimes.com/live/2024/05/14/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
       <description></description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Tue, 14 May 2024 17:32:06 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14mideast-crisis-briefing-promo-930am-mjtf/14mideast-crisis-briefing-promo-930am-mjtf-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>-/Agence France-Presse — Getty Images</media:credit>
+      <pubDate>Tue, 14 May 2024 18:04:37 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14mideast-crisis-promo-130pm/14mideast-crisis-casualties-lmgh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mohammed Saber/EPA, via Shutterstock</media:credit>
     </item>
     <item>
       <title>Putin Will Visit Xi, Testing a ‘No Limits’ Partnership</title>
@@ -318,26 +318,6 @@
       <media:description>A photo made available by the Russian Defense Ministry of Lt. Gen. Yuri Kuznetsov. </media:description>
     </item>
     <item>
-      <title>U.N. Cites a Lower Death Toll Among Women and Children in Gaza</title>
-      <link>https://www.nytimes.com/2024/05/14/world/middleeast/un-gaza-death-toll-women-children.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/middleeast/un-gaza-death-toll-women-children.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/middleeast/un-gaza-death-toll-women-children.html" rel="standout"></atom:link>
-      <description>The overall count of those killed has not declined, but incomplete information about many of them has prompted the United Nations to use more conservative figures for children and women.</description>
-      <dc:creator>Matthew Mpoke Bigg, Lauren Leatherby and Abu Bakr Bashir</dc:creator>
-      <pubDate>Tue, 14 May 2024 17:18:01 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14mideast-crisis-casualties-zcqk/14mideast-crisis-casualties-zcqk-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Samar Abu Elouf for The New York Times</media:credit>
-      <media:description>A woman mourning the loss of her siblings killed in Israeli airstrikes in the Gaza Strip in October.</media:description>
-    </item>
-    <item>
       <title>Orcas Sink Another Boat Near Iberia, Worrying Sailors Before Summer</title>
       <link>https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html</guid>
@@ -601,15 +581,14 @@
       <description>Yet Zhang Zhan’s supporters and human rights activists who had followed her case said they could not reach her or her family members.</description>
       <dc:creator>Vivian Wang</dc:creator>
       <pubDate>Mon, 13 May 2024 17:47:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zhang Zhan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of the Press</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Reporters Without Borders</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Human Rights Watch</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zhang Zhan</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Shanghai (China)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wuhan (China)</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/world/13CHINA-CITIZENJOURNALIST/13CHINA-CITIZENJOURNALIST-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Kin Cheung/Associated Press</media:credit>
       <media:description>A pro-democracy activist holding a placard demanding the release of Zhang Zhan, outside the Chinese central government’s liaison office in Hong Kong in 2020.</media:description>
@@ -740,14 +719,13 @@
       <description>About 130 children took part in a sleepover at Rome’s opera house, part of a campaign to make up for a lack of music education by making the theater and the art form more familiar and accessible.</description>
       <dc:creator>Elisabetta Povoledo and Alessandro Penso</dc:creator>
       <pubDate>Mon, 13 May 2024 14:06:05 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Teatro dell&#39;Opera di Roma</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13rome-opera-mtqz-promo/13rome-opera-mtqz-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Alessandro Penso for The New York Times</media:credit>
     </item>
@@ -1085,6 +1063,20 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11ukraine-kharkiv-new-4-zlfk/11ukraine-kharkiv-new-4-zlfk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:description>Olha Melnichuk, an 85-year-old resident of Liptsi, near the Russian border, was evacuated to a shelter in Kharkiv, the country’s second-largest city, on Saturday.</media:description>
+    </item>
+    <item>
+      <title>When Travel Plans Go Awry</title>
+      <link>https://www.nytimes.com/2024/05/11/briefing/when-travel-plans-go-awry.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/briefing/when-travel-plans-go-awry.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/11/briefing/when-travel-plans-go-awry.html" rel="standout"></atom:link>
+      <description>There are ways of keeping ourselves anchored, even when we enter a parallel universe disconnected from time.</description>
+      <dc:creator>Melissa Kirsch</dc:creator>
+      <pubDate>Sat, 11 May 2024 10:28:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-storyline-no</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hotels and Travel Lodgings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Video Recordings, Downloads and Streaming</category>
     </item>
   </channel>
 </rss>

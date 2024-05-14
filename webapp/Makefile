@@ -99,6 +99,17 @@ postgres-schema:
 sample-gcp-article-neighbours:
 	echo 'Article.find(10170).closest_articles(size: 5, similarity_field: :title_embedding).map{|x| x.title}'| rails c
 
+# Derek (works):
+# gemini-news-crawler True palladiusbonton@gmail.com palladius-genai us-central1-b us-central1
+# from gcloud-auth-debug: ..
+
+# model = gemini-1.0-pro-002
 auth:
 	gcloud auth application-default login
 	gcloud auth login
+	gcloud config  set project  palladius-genai
+	gcloud config  set compute/region us-central1
+	gcloud config  set compute/zone us-central1-b
+
+test-llm:
+	echo "GeminiLLM.complete prompt: 'Hi my name is Riccar'" | rails c

@@ -12,6 +12,6 @@
 
 <!--  to harden it: https://github.com/rails/web-console -->
 <% if (Rails.env == 'development') %>
-  <%= console rescue "Erros with Console" %>
+  <%= console rescue "Errors with Console: '#{$!}'" %>
 <% end %>
 

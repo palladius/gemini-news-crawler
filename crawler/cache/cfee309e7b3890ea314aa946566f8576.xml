@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Tue, 14 May 2024 16:42:09 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 14 May 2024 17:39:56 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,14 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.4</generator>
 			<item>
+				<link>https://www.aljazeera.com/news/2024/5/14/at-least-8-people-dead-as-bus-carrying-farmworkers-crashes-in-florida?traffic_source=rss</link>
+				<title>At least 8 people dead as bus carrying farmworkers crashes in Florida</title>
+				<description><![CDATA[Bus was carrying 53 farmworkers when it collided with a pick-up truck in central Florida, authorities say.]]></description>
+				<pubDate>Tue, 14 May 2024 17:11:47 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715701372</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/program/newsfeed/2024/5/14/israelis-tearful-plea-decrying-gaza-aid-convoy-attacks?traffic_source=rss</link>
 				<title>Israeli’s tearful plea decrying Gaza aid convoy attacks</title>
 				<description><![CDATA[An Israeli human rights lawyer interrupts interview with tearful plea condemning Israel’s war on Gaza.  ]]></description>
@@ -110,7 +118,7 @@
 							</item>
 					<item>
 				<link>https://www.aljazeera.com/news/2024/5/14/georgias-lawmakers-brawl-as-controversial-foreign-agent-bill-set-to-pass?traffic_source=rss</link>
-				<title>Georgia Parliament passes ‘foreign agents’ bill amid scuffles</title>
+				<title>Thousands protest after Georgia Parliament passes ‘foreign agents’ bill</title>
 				<description><![CDATA[The bill requires organisations receiving more than 20 percent of their funding from abroad to register as foreign agents.]]></description>
 				<pubDate>Tue, 14 May 2024 12:55:33 +0000</pubDate>
 				<category>News</category>
@@ -211,14 +219,6 @@
 				<pubDate>Tue, 14 May 2024 09:09:32 +0000</pubDate>
 				<category>News</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715670205</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/5/14/why-has-a-un-resolution-on-srebrenica-genocide-ignited-tensions-in-bosnia?traffic_source=rss</link>
-				<title>A UN resolution on the Srebrenica genocide ignites old tensions</title>
-				<description><![CDATA[Leaders from Serbia and Bosnia&#039;s Republika Srpska have been campaigning against the adoption of a UN resolution.]]></description>
-				<pubDate>Tue, 14 May 2024 08:58:13 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1713712150</guid>
 							</item>
 			</channel>
 </rss>

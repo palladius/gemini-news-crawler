@@ -2,258 +2,254 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>The Verge -  All Posts</title>
   <icon>https://cdn.vox-cdn.com/community_logos/52801/VER_Logomark_32x32..png</icon>
-  <updated>2024-05-14T13:29:06-04:00</updated>
+  <updated>2024-05-14T14:00:53-04:00</updated>
   <id>https://www.theverge.com/rss/full.xml</id>
   <link type="text/html" href="https://www.theverge.com/" rel="alternate"/>
   <entry>
-    <published>2024-05-14T13:29:06-04:00</published>
-    <updated>2024-05-14T13:29:06-04:00</updated>
-    <title>Google Photos is getting its own ‘Ask Photos’ assistant this summer</title>
+    <published>2024-05-14T14:00:53-04:00</published>
+    <updated>2024-05-14T14:00:53-04:00</updated>
+    <title>Google will let you create personalized AI chatbots</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="An image of Google’s I/O 2024 keynote." src="https://cdn.vox-cdn.com/thumbor/SF3yFAEty9M0hDUpq7FWrpNGPrw=/331x0:2017x1124/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346916/Screenshot_2024_05_14_at_1.11.25_PM.0.png" /&gt;
-        &lt;figcaption&gt;Image: Google&lt;/figcaption&gt;
+      &lt;img alt="Vector illustration of the Google Gemini logo." src="https://cdn.vox-cdn.com/thumbor/UGRcArlUk_8ruluL89RvKs9lSco=/20x0:2021x1334/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73347029/STK255_Google_Gemini_B.0.jpg" /&gt;
+        &lt;figcaption&gt;Image: The Verge&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="fi8iir"&gt;Google Photos already has impressive search capabilities, but Google is using Gemini to dial those powers up to the next level. During &lt;a href="https://www.theverge.com/24156147/google-io-2024-live-blog-ai-gemini"&gt;today’s I/O keynote&lt;/a&gt;, CEO Sundar Pichai announced “Ask Photos,” a new feature coming this summer that should make the service much smarter when it comes to understanding what it is you’re looking for, using artificial intelligence to connect the dots for more sophisticated requests. &lt;/p&gt;
-&lt;p id="bauFD1"&gt;Pichai asked the app, “What’s my license plate number again?” Currently, searching for a license plate requires scrolling through photos of many different cars. But here, Google Photos was smart enough to figure out which vehicle was the intended one — based on location, how many times it has appeared in photos through the...&lt;/p&gt;
+  &lt;p id="fWK5Qp"&gt;Google is adding a bunch of new features to its Gemini AI, and one of the most powerful is &lt;a href="https://blog.google/products/gemini/google-gemini-update-may-2024"&gt;a personalization option called “Gems”&lt;/a&gt; that allows users to create custom versions of the Gemini assistant with varying personalties.&lt;/p&gt;
+&lt;p id="qoL0JI"&gt;Gems lets you create iterations of chatbots that can help you with certain tasks and retain specific characteristics, kind of like making your own bot in &lt;a href="https://www.theverge.com/2024/5/4/24144763/ai-chatbot-friends-character-teens"&gt;Character.AI&lt;/a&gt;, the service that lets you talk to virtualized versions of popular characters and celebrities or even a fake psychiatrist. Google says you can make Gemini your gym buddy, sous-chef, coding partner, creative writing guide, or anything you can dream up. Gems feels similar to OpenAI’s &lt;a href="https://www.theverge.com/2024/5/13/24155582/openai-custom-gpt-store-available-free-subscribers"&gt;GPT Store&lt;/a&gt; that lets you make customized ChatGPT chatbots.&lt;/p&gt;
+&lt;p id="mhT9T4"&gt;You can set up...&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156552/google-photos-ask-gemini-feature-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24156511/google-ai-gemini-gems-custom-chatbots"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156552/google-photos-ask-gemini-feature-io"/>
-    <id>https://www.theverge.com/2024/5/14/24156552/google-photos-ask-gemini-feature-io</id>
-    <author>
-      <name>Chris Welch</name>
-    </author>
-  </entry>
-  <entry>
-    <published>2024-05-14T12:30:00-04:00</published>
-    <updated>2024-05-14T12:30:00-04:00</updated>
-    <title>Google I/O 2024 live blog: it’s AI time</title>
-    <content type="html">  
-
-    &lt;figure&gt;
-      &lt;img alt="Google I/O logo." src="https://cdn.vox-cdn.com/thumbor/lA8Ucbh9CDsKxRnMEEt_2rc2L18=/0x239:5000x3572/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346710/Google_IO.0.png" /&gt;
-        &lt;figcaption&gt;Image: Google&lt;/figcaption&gt;
-    &lt;/figure&gt;
-
-
-  		 &lt;p&gt;The future of Gemini, Search, Android, and more.&lt;/p&gt;
-  &lt;p&gt;
-    &lt;a href="https://www.theverge.com/24156147/google-io-2024-live-blog-ai-gemini"&gt;Continue reading&amp;hellip;&lt;/a&gt;
-  &lt;/p&gt;
-
-</content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/24156147/google-io-2024-live-blog-ai-gemini"/>
-    <id>https://www.theverge.com/24156147/google-io-2024-live-blog-ai-gemini</id>
-    <author>
-      <name>Victoria Song</name>
-      <name>Alex Heath</name>
-      <name>Kylie Robison</name>
-      <name>Sean Hollister</name>
-      <name>Allison Johnson</name>
-    </author>
-  </entry>
-  <entry>
-    <published>2024-05-14T12:07:14-04:00</published>
-    <updated>2024-05-14T12:07:14-04:00</updated>
-    <title>Amazon follows Fallout with live-action Tomb Raider show</title>
-    <content type="html">  
-
-    &lt;figure&gt;
-      &lt;img alt="Screenshot from Rise of the Tomb Raider featuring Lara Croft covered in blood and bundled in a fur coat in a frozen wilderness" src="https://cdn.vox-cdn.com/thumbor/JxMuyJeHvZ7LLD1FBAIF4AbaTUo=/0x0:2145x1430/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346659/ROTTR_20_LaunchSS_1_png_jpgcopy.0.jpg" /&gt;
-        &lt;figcaption&gt;Image: Crystal Dynamics&lt;/figcaption&gt;
-    &lt;/figure&gt;
-
-  &lt;p id="QHZOdh"&gt;In addition to announcing a second season of &lt;a href="https://www.theverge.com/2024/5/14/24156409/hihi-b"&gt;&lt;em&gt;Mr. And Mrs. Smith&lt;/em&gt;&lt;/a&gt; and a fifth season of &lt;a href="https://www.theverge.com/2024/5/14/24156299/the-boys-are-coming-back-for-a-fifth-season"&gt;&lt;em&gt;The Boys&lt;/em&gt;&lt;/a&gt;, Amazon is adding another new series to its television lineup: &lt;a href="https://press.amazonmgmstudios.com/us/en/press-release/prime-video-orders-itomb-raideri-series-based-on-t"&gt;a live-action &lt;em&gt;Tomb Raider&lt;/em&gt; series&lt;/a&gt;. The series will be produced in collaboration between Crystal Dynamics and Amazon MGM Studios, with Phoebe Waller-Bridge serving as the show’s writer and executive producer, &lt;a href="https://www.theverge.com/2023/1/27/23574923/amazon-tomb-raider-tv-series-phoebe-waller-bridge"&gt;confirming rumors reported earlier last year&lt;/a&gt;.&lt;/p&gt;
-&lt;p id="rNRRv5"&gt;The &lt;em&gt;Tomb Raider&lt;/em&gt; series is no stranger to live-action adaptations. In the 2000s, Angelina Jolie starred as the badass grave robber in&lt;em&gt; Lara Croft: Tomb Raider &lt;/em&gt;and its sequel, &lt;em&gt;The Cradle of Life&lt;/em&gt;. At the time, both movies were financial if not critical successes but are viewed more favorably today, especially when compared to...&lt;/p&gt;
-  &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156397/tomb-raider-series-amazon-phoebe-waller-bridge"&gt;Continue reading&amp;hellip;&lt;/a&gt;
-  &lt;/p&gt;
-
-</content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156397/tomb-raider-series-amazon-phoebe-waller-bridge"/>
-    <id>https://www.theverge.com/2024/5/14/24156397/tomb-raider-series-amazon-phoebe-waller-bridge</id>
-    <author>
-      <name>Ash Parrish</name>
-    </author>
-  </entry>
-  <entry>
-    <published>2024-05-14T12:02:37-04:00</published>
-    <updated>2024-05-14T12:02:37-04:00</updated>
-    <title>Jeopardy! is making its first-ever streaming spinoff for Prime Video</title>
-    <content type="html">  
-
-    &lt;figure&gt;
-      &lt;img alt="retro Jeopardy logo screen" src="https://cdn.vox-cdn.com/thumbor/bpcte78isyejBzRkufdGQRkVhPs=/375x0:4425x2700/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346643/jeopardy.0.jpg" /&gt;
-        &lt;figcaption&gt;Image: Sony Pictures&lt;/figcaption&gt;
-    &lt;/figure&gt;
-
-  &lt;p id="Okg3p7"&gt;The classic competitive game show &lt;em&gt;Jeopardy!&lt;/em&gt; is getting &lt;a href="https://press.amazonmgmstudios.com/us/en/press-release/prime-video-orders-pop-iculture-jeopardyi-from-son"&gt;a spinoff series on Prime Video&lt;/a&gt;. Sony Pictures Television is producing &lt;em&gt;Pop Culture Jeopardy!,&lt;/em&gt; which turns the classic academic quiz show with three challengers into a team-based trivia game that touches on music, movies, culture, sports, celebrities, entertainment, and more.&lt;/p&gt;
-&lt;p id="UlVhL3"&gt;The new series marks the first time the company’s game show division is expanding the &lt;em&gt;Jeopardy!&lt;/em&gt; brand to a streaming platform with a new show. Years ago, the company let watchers &lt;a href="https://www.theverge.com/2018/8/10/17675262/jeopargy-hulu-stream-binge"&gt;binge the main show on Hulu&lt;/a&gt;.&lt;/p&gt;
-&lt;p id="x7v6br"&gt;While the series sounds like a casual side mission for the franchise, Sony Pictures Television’s president of game shows, Suzanne Prete, states it will “be a nail biter” for fans and that teams will compete...&lt;/p&gt;
-  &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156287/jeopardy-pop-culture-spinoff-streaming-amazon-prime-video"&gt;Continue reading&amp;hellip;&lt;/a&gt;
-  &lt;/p&gt;
-
-</content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156287/jeopardy-pop-culture-spinoff-streaming-amazon-prime-video"/>
-    <id>https://www.theverge.com/2024/5/14/24156287/jeopardy-pop-culture-spinoff-streaming-amazon-prime-video</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156511/google-ai-gemini-gems-custom-chatbots"/>
+    <id>https://www.theverge.com/2024/5/14/24156511/google-ai-gemini-gems-custom-chatbots</id>
     <author>
       <name>Umar Shakir</name>
     </author>
   </entry>
   <entry>
-    <published>2024-05-14T11:00:00-04:00</published>
-    <updated>2024-05-14T11:00:00-04:00</updated>
-    <title>Ancient trees show how hot summers have gotten</title>
+    <published>2024-05-14T13:59:19-04:00</published>
+    <updated>2024-05-14T13:59:19-04:00</updated>
+    <title>Gemini is about to get better at understanding what’s on your phone screen</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="The cross section of a tree trunk shows a pattern of light and dark rings of wood." src="https://cdn.vox-cdn.com/thumbor/fboDJZQsP3xtNSPzEdO4QZhqc9c=/0x235:5145x3665/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346450/1961182231.0.jpg" /&gt;
-        &lt;figcaption&gt;&lt;em&gt;The annual rings on the trunk of a conifer tree.&lt;/em&gt; | Photo: Getty Images&lt;/figcaption&gt;
+      &lt;img alt="Phone in hand showing Google Gemini welcome screen." src="https://cdn.vox-cdn.com/thumbor/PVaFjB6O8VbpJx9LpD5TuprDE4A=/0x0:2700x1800/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73347002/247017_Google_Gemini_AKrales_0004.0.jpg" /&gt;
+        &lt;figcaption&gt;&lt;em&gt;The dream of contextual search is alive.&lt;/em&gt; | Photo by Amelia Holowaty Krales / The Verge&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="dDXoX7"&gt;A summer marked by deadly heatwaves across Asia, Europe, and North America last year turns out to have been the hottest in the Northern Hemisphere in at least 2,000 years, according to a new &lt;a href="https://www.nature.com/articles/s41586-024-07512-y"&gt;study&lt;/a&gt; published in the journal &lt;em&gt;Nature&lt;/em&gt;.&lt;/p&gt;
-&lt;p id="LzZPbl"&gt;&lt;a href="https://climate.copernicus.eu/copernicus-2023-hottest-year-record"&gt;Officially&lt;/a&gt;, 2023 went down in history books as the &lt;a href="https://www.theverge.com/2024/1/9/24031317/heat-record-2023-copernicus-climate-change-el-nino-forecast"&gt;hottest on record for the planet&lt;/a&gt; — but those records only started in 1850. To see how drastically the climate has changed over millennia, the authors of the new paper studied ancient tree rings to gauge fluctuations in temperatures over the years. &lt;/p&gt;
-&lt;p id="S2yRjb"&gt;The results show us &lt;a href="https://www.theverge.com/2021/8/9/22613531/climate-change-united-nations-report-extreme-weather-ipcc"&gt;how extreme the weather is becoming&lt;/a&gt;. And while temperatures have reached unprecedented peaks, they’re also a warning of what’s to come unless policymakers do more to turn down the heat. &lt;/p&gt;
-&lt;div class="c-float-left c-float-hang"&gt;&lt;aside id="FMzQOy"&gt;&lt;q&gt;The cross...&lt;/q&gt;&lt;/aside&gt;&lt;/div&gt;
+  &lt;p id="xZqDDE"&gt;Google is updating &lt;a href="https://blog.google/products/android/google-ai-android-update-io-2024"&gt;Gemini on Android&lt;/a&gt; to let its AI better tap into what’s on your screen. The update should allow Gemini to lean into one of its best use cases, helping you make sense of a limited set of data as you go about your day.&lt;/p&gt;
+&lt;p id="hnW0xL"&gt;If you set Gemini as the default assist on your Android phone, it can already summarize or answer questions about a webpage or a screenshot. Soon, it’ll also be able to tell if there’s a video on your screen and prompt you to ask questions about it. Gemini uses the video’s automatic captions to find answers — something you could already get it to do &lt;a href="https://www.theverge.com/2023/11/22/23972636/bard-youtube-extension-update-search-video-content"&gt;in a more roundabout way&lt;/a&gt;.&lt;/p&gt;
+&lt;p id="kT34rw"&gt;Gemini will also take a similar cue if you’re looking at a PDF, but there’s a catch: you’ll need access to Google’s paid version,...&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24155408/tree-rings-hottest-summer-climate-change-nature-research"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24155497/google-ai-gemini-assistant-android-context-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24155408/tree-rings-hottest-summer-climate-change-nature-research"/>
-    <id>https://www.theverge.com/2024/5/14/24155408/tree-rings-hottest-summer-climate-change-nature-research</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24155497/google-ai-gemini-assistant-android-context-io"/>
+    <id>https://www.theverge.com/2024/5/14/24155497/google-ai-gemini-assistant-android-context-io</id>
     <author>
-      <name>Justine Calma</name>
+      <name>Allison Johnson</name>
     </author>
   </entry>
   <entry>
-    <published>2024-05-14T10:30:21-04:00</published>
-    <updated>2024-05-14T10:30:21-04:00</updated>
-    <title>US to raise tariffs on EVs, batteries, solar cells, and computer chips from China </title>
+    <published>2024-05-14T13:58:46-04:00</published>
+    <updated>2024-05-14T13:58:46-04:00</updated>
+    <title>Google’s Circle to Search will help you with your math homework</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="Four workers standing at a battery assembly line." src="https://cdn.vox-cdn.com/thumbor/AK-dOyQuddL9TVf8zxsUIh-QsX8=/0x2:8192x5463/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346381/2028780095.0.jpg" /&gt;
-        &lt;figcaption&gt;&lt;em&gt;Workers are producing structural components of EV batteries at a production workshop in Qingkou Automobile Industrial Park in Fuzhou, Fujian province, China, on February 23rd, 2024.&lt;/em&gt; | Photo by Costfoto / NurPhoto via Getty Images&lt;/figcaption&gt;
+      &lt;img alt="A math word problem that says a car takes 8 seconds to accelerate from 0 meters per second to 24 meters per second. Calculate the acceleration of the car. There’s a drawn circle around the word problem. A metallic blue android bot is in the corner with a Gemini star above it." src="https://cdn.vox-cdn.com/thumbor/gHWmEBO9ZyWzBvQMMsgLd1ZO1D0=/207x0:2426x1479/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346998/Screenshot_2024_05_13_at_12.45.10_PM.0.jpeg" /&gt;
+        &lt;figcaption&gt;&lt;em&gt;Google might tell you f = ma, or something. I haven’t been to school for a long time.&lt;/em&gt; | Image: Google&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="lpPZQ1"&gt;The Biden administration announced much higher tariffs today on key goods from China that the US will need to meet its climate goals. The move targets transportation, clean energy technologies, raw materials, and more. &lt;/p&gt;
-&lt;p id="eCnH7r"&gt;“To encourage China to eliminate its unfair trade practices regarding technology transfer, intellectual property, and innovation, the President is directing increases in tariffs across strategic sectors such as steel and aluminum, semiconductors, electric vehicles, batteries, critical minerals, solar cells, ship-to-shore cranes, and medical products,” a &lt;a href="https://www.whitehouse.gov/briefing-room/statements-releases/2024/05/14/fact-sheet-president-biden-takes-action-to-protect-american-workers-and-businesses-from-chinas-unfair-trade-practices/"&gt;White House fact sheet&lt;/a&gt; says. &lt;/p&gt;
-&lt;p id="lTsTXa"&gt;It’s the latest move the US has taken amid efforts to ramp up domestic manufacturing while escalating trade tensions with China. All in all,...&lt;/p&gt;
+  &lt;p id="A3ttK7"&gt;Google is enhancing Android’s Circle to Search — the feature that lets you literally circle something on your Android phone’s screen to search it on Google — with a new ability to generate instructions on &lt;a href="https://blog.google/products/android/google-ai-android-update-io-2024/"&gt;how to solve school math and physics problems&lt;/a&gt;.&lt;/p&gt;
+&lt;p id="dxnUG0"&gt;Using an Android phone or tablet, students can now use Circle to Search to get AI assistance on mathematical word problems from their homework. The feature will help unpack the problem and list what the student needs to do to get the correct answer. According to Google, it won’t actually do the homework for you — only help you approach the problem.&lt;/p&gt;
+&lt;p id="Ei5oLj"&gt;Over the past year, the use of AI tools like ChatGPT has become a hot topic in the field of education, with plenty of concern over how &lt;a href="https://www.theverge.com/2023/1/5/23540263/chatgpt-education-fears-banned-new-york-city-safety-accuracy"&gt;students...&lt;/a&gt;&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156249/us-biden-china-tariffs-ev-solar-battery-semiconductor-critical-minerals"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24155469/google-circle-to-search-school-help-homework-ai-io-android"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156249/us-biden-china-tariffs-ev-solar-battery-semiconductor-critical-minerals"/>
-    <id>https://www.theverge.com/2024/5/14/24156249/us-biden-china-tariffs-ev-solar-battery-semiconductor-critical-minerals</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24155469/google-circle-to-search-school-help-homework-ai-io-android"/>
+    <id>https://www.theverge.com/2024/5/14/24155469/google-circle-to-search-school-help-homework-ai-io-android</id>
     <author>
-      <name>Justine Calma</name>
+      <name>Umar Shakir</name>
     </author>
   </entry>
   <entry>
-    <published>2024-05-14T10:00:00-04:00</published>
-    <updated>2024-05-14T10:00:00-04:00</updated>
-    <title>SteelSeries’ new headset provides over 100 game-specific audio presets</title>
+    <published>2024-05-14T13:58:14-04:00</published>
+    <updated>2024-05-14T13:58:14-04:00</updated>
+    <title>Google is building Gemini Nano AI right into Chrome</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="A person wearing the SteelSeries Arctis Nova 5 wireless headset." src="https://cdn.vox-cdn.com/thumbor/zyXoJmIdUKH7QwIW6Nq0KAEMSgc=/107x0:1259x768/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346298/arctis_nova_5p_wl_black_lifestyle_noisy_butters_closeup.0.png" /&gt;
-        &lt;figcaption&gt;&lt;em&gt;The Arctis Nova 5 headset’s mic can retract into the earcup when not in use.&lt;/em&gt; | Image: SteelSeries&lt;/figcaption&gt;
+      &lt;img alt="An image showing the Chrome logo surrounded by yellow circles" src="https://cdn.vox-cdn.com/thumbor/Jk-rQZfjQheW01xM6cuwNayLMAg=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346996/STK114_Google_Chrome_03.0.jpg" /&gt;
+        &lt;figcaption&gt;Image: The Verge&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="TnXi4W"&gt;If you hate (or simply can’t be bothered) to adjust your audio profiles when setting up a new gaming headset, then you might be the target demographic for SteelSeries’ latest offering. Introduced on Tuesday, the new Arctis Nova 5 headset is supported by a dedicated companion app that features over 100 game-specific audio presets for Xbox and PlayStation 5 titles like &lt;em&gt;Fortnite&lt;/em&gt;, &lt;em&gt;Apex Legends&lt;/em&gt;, and &lt;em&gt;Minecraft&lt;/em&gt;, which SteelSeries says have been “custom-tailored to each game by audio engineers.”&lt;/p&gt;
-&lt;p id="sabm42"&gt;&lt;a href="https://howl.me/cmfyK02oneU"&gt;Available starting today&lt;/a&gt; for $129.99, SteelSeries describes the Arctis Nova 5 as an “affordable luxury.” It’s a smidge pricier than the &lt;a href="https://www.theverge.com/2023/5/16/23725308/steelseries-arctis-nova-4-wireless-headset-price-date"&gt;$119.99 Arctis Nova 4 wireless headset&lt;/a&gt; launched last year, but for that, you get the ability to change audio presets...&lt;/p&gt;
+  &lt;p id="qzStuv"&gt;Google is building its Gemini AI into Chrome on desktop. During its I/O event on Tuesday, Google announced that Chrome 126 will use Gemini Nano to power on-device AI features, such as text generation.&lt;/p&gt;
+&lt;p id="HDuJnn"&gt;&lt;a href="https://www.theverge.com/2023/12/6/23990466/google-gemini-llm-ai-model"&gt;Gemini Nano is the lightweight&lt;/a&gt; large language model Google introduced to &lt;a href="https://www.theverge.com/23912370/google-pixel-8-pro-review-camera-assistant-magic-editor-best-take-audio-eraser"&gt;the Pixel 8 Pro&lt;/a&gt; last year — and, later, &lt;a href="https://www.theverge.com/2024/3/28/24114078/google-pixel-8-gemini-nano-on-device-ai"&gt;the Pixel 8&lt;/a&gt;. To get Gemini Nano on Chrome, Google says it tweaked the model and optimized the browser to “load the model quickly.”&lt;/p&gt;
+&lt;p id="Nhq8MT"&gt;The integration will let you do things like generate product reviews, social media posts, and other blurbs directly within Chrome. &lt;a href="https://www.theverge.com/2023/9/21/23883798/microsoft-copilot-unified-windows-11-apps-launch-date"&gt;Microsoft similarly added its AI assistant Copilot&lt;/a&gt; to Edge last year, letting you ask questions and summarize the information on your screen. Unlike Gemini Nano in Chrome,...&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24155623/steelseries-arctis-nova-5-wireless-gaming-headset-price-availability"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24155382/google-gemini-ai-chrome-nano-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24155623/steelseries-arctis-nova-5-wireless-gaming-headset-price-availability"/>
-    <id>https://www.theverge.com/2024/5/14/24155623/steelseries-arctis-nova-5-wireless-gaming-headset-price-availability</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24155382/google-gemini-ai-chrome-nano-io"/>
+    <id>https://www.theverge.com/2024/5/14/24155382/google-gemini-ai-chrome-nano-io</id>
+    <author>
+      <name>Emma Roth</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2024-05-14T13:57:35-04:00</published>
+    <updated>2024-05-14T13:57:35-04:00</updated>
+    <title>Google’s Gemini can build an entire vacation itinerary ‘in a matter of seconds’</title>
+    <content type="html">  
+
+    &lt;figure&gt;
+      &lt;img alt="Vector illustration of the Google Gemini logo." src="https://cdn.vox-cdn.com/thumbor/9YCjNtaOF0cAeAsEFaPlXhIbBLo=/20x0:2021x1334/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346994/STK255_Google_Gemini_A.0.jpg" /&gt;
+        &lt;figcaption&gt;Illustration: The Verge&lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+  &lt;p id="Hi913s"&gt;Gemini, Google’s ChatGPT competitor, is getting new trip planning capabilities, the company announced today at its &lt;a href="https://www.theverge.com/2024/5/14/24155647/google-io-news-announcements-rumors-gemini-ai"&gt;I/O developer conference&lt;/a&gt;. &lt;/p&gt;
+&lt;p id="5kMiIy"&gt;Based on the user’s prompt, the AI model will now research publicly available information as well as tap into specific details like flight times and hotel bookings to work up a custom, multiday vacation itinerary “in a matter of seconds.”&lt;/p&gt;
+&lt;p id="dfTKzq"&gt;In a briefing with reporters, Google VP and general manager of Gemini, Sissie Hsiao, said that manually planning a trip could “take me hours, days, maybe even weeks.” But with the help of Gemini, the process could be nearly instantaneous. And it will be “dynamic,” meaning it can be tweaked and adjusted through prompts and other requests thanks to Gemini’s new trip...&lt;/p&gt;
+  &lt;p&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24156508/google-ai-gemini-travel-assistant-hotel-bookings-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+  &lt;/p&gt;
+
+</content>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156508/google-ai-gemini-travel-assistant-hotel-bookings-io"/>
+    <id>https://www.theverge.com/2024/5/14/24156508/google-ai-gemini-travel-assistant-hotel-bookings-io</id>
+    <author>
+      <name>Andrew J. Hawkins</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2024-05-14T13:57:28-04:00</published>
+    <updated>2024-05-14T13:57:28-04:00</updated>
+    <title>Android is getting an AI-powered scam call detection feature</title>
+    <content type="html">  
+
+    &lt;figure&gt;
+      &lt;img alt="Android logo on a green and blue background" src="https://cdn.vox-cdn.com/thumbor/4KU1EDSHo7N8CQDp3wEpLDc-TV8=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346992/acastro_STK112_android_01.0.jpg" /&gt;
+        &lt;figcaption&gt;Illustration by Alex Castro / The Verge&lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+  &lt;p id="2ZzKVL"&gt;Google is working on new protections to help prevent Android users from falling victim to phone scams. During its I/O developer conference on Tuesday, Google announced that it’s testing a new call monitoring feature that will warn users if the person they’re talking to is likely attempting to scam them and encourage them to end such calls.&lt;/p&gt;
+&lt;p id="ZBXSyp"&gt;Google says the feature utilizes &lt;a href="https://www.theverge.com/2023/12/6/23989591/google-gemini-ai-model-pixel-8-pro-recorder-smart-reply"&gt;Gemini Nano&lt;/a&gt; — a reduced version of the company’s Gemini large language model for Android devices that can run locally and offline — to look for fraudulent language and other conversation patterns typically associated with scams. Users will then receive real-time alerts during calls where these red flags are present. &lt;/p&gt;
+&lt;p id="gtymNh"&gt;Some examples of what could trigger these alerts...&lt;/p&gt;
+  &lt;p&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24156212/google-android-ai-gemini-scam-call-detection-feature-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+  &lt;/p&gt;
+
+</content>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156212/google-android-ai-gemini-scam-call-detection-feature-io"/>
+    <id>https://www.theverge.com/2024/5/14/24156212/google-android-ai-gemini-scam-call-detection-feature-io</id>
     <author>
       <name>Jess Weatherbed</name>
     </author>
   </entry>
   <entry>
-    <published>2024-05-14T09:39:20-04:00</published>
-    <updated>2024-05-14T09:39:20-04:00</updated>
-    <title>Dune: Part Two starts streaming on Max next week</title>
+    <published>2024-05-14T13:57:16-04:00</published>
+    <updated>2024-05-14T13:57:16-04:00</updated>
+    <title>Google targets filmmakers with Veo, its new generative AI video model</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="A photo of Timothée Chalamet in Dune: Part Two." src="https://cdn.vox-cdn.com/thumbor/Pf5XME_jyGih8lPnW2SPSyLWcQQ=/428x0:3668x2160/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346253/rev_1_DUN2_T3_0084r_High_Res_JPEG.0.jpeg" /&gt;
-        &lt;figcaption&gt;Image: Warner Bros. Pictures&lt;/figcaption&gt;
+      &lt;img alt="A screenshot taken of Google’s Veo demonstration, showing an ai-generated elephant that looks like a knitted toy." src="https://cdn.vox-cdn.com/thumbor/ulWYg5kqNau0JpJ-iZpRIn94wg0=/126x0:1802x1117/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346990/Google_Veo_knitted_elephant_demo.0.jpg" /&gt;
+        &lt;figcaption&gt;&lt;em&gt;Veo demos show that Google’s AI-generated video capabilities have come a long way.&lt;/em&gt; | Image: Google&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="1z4teB"&gt;The second chapter of Denis Villeneuve’s &lt;em&gt;Dune&lt;/em&gt; saga is streaming very soon: Max announced that &lt;a href="https://www.theverge.com/24086957/dune-part-two-movie-review"&gt;&lt;em&gt;Dune: Part Two&lt;/em&gt;&lt;/a&gt; will be hitting the service on May 21st.&lt;/p&gt;
-&lt;p id="BWo7ao"&gt;The film originally premiered in March and — as the title implies — follows &lt;a href="https://www.theverge.com/22737214/dune-review-hbo-max-denis-villeneuve-timothee-chalamet-sandworm"&gt;the first movie&lt;/a&gt; in telling the complete story of Frank Herbert’s original &lt;em&gt;Dune&lt;/em&gt; novel. Villeneuve directed both films, and the sequel introduced a number of notable new characters including Feyd-Rautha (Austin Butler), Princess Irulan (Florence Pugh), Emperor Shaddam IV (Christopher Walken), and Lady Margot Fenring (Léa Seydoux), along with the somewhat surprise appearance of Alia Atreides (Anya Taylor-Joy).&lt;/p&gt;
-&lt;p id="nEj8Ya"&gt;If you didn’t manage to catch &lt;em&gt;Dune: Part Two&lt;/em&gt; in theaters, now is a great time to catch up. A third film is...&lt;/p&gt;
+  &lt;p id="vd1cVb"&gt;It’s been three months since OpenAI demoed its captivating text-to-video AI, &lt;a href="https://www.theverge.com/2024/2/15/24074151/openai-sora-text-to-video-ai"&gt;Sora&lt;/a&gt;, and now Google is trying to steal some of that spotlight. Announced during its I/O developer conference on Tuesday, Google says &lt;a href="http://deepmind.google/technologies/veo"&gt;Veo&lt;/a&gt; — its latest generative AI video model — can generate “high-quality” 1080p resolution videos over a minute in length in a wide variety of visual and cinematic styles.&lt;/p&gt;
+&lt;p id="fx1PhS"&gt;Veo has “an advanced understanding of natural language,” according to Google’s press release, enabling the model to understand cinematic terms like “timelapse” or “aerial shots of a landscape.” Users can direct their desired output using text, image, or video-based prompts, and Google says the resulting videos are “more consistent and coherent,” depicting more...&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156302/dune-part-two-streaming-max-date"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24156255/google-veo-ai-generated-video-model-openai-sora-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156302/dune-part-two-streaming-max-date"/>
-    <id>https://www.theverge.com/2024/5/14/24156302/dune-part-two-streaming-max-date</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156255/google-veo-ai-generated-video-model-openai-sora-io"/>
+    <id>https://www.theverge.com/2024/5/14/24156255/google-veo-ai-generated-video-model-openai-sora-io</id>
     <author>
-      <name>Andrew Webster</name>
+      <name>Jess Weatherbed</name>
     </author>
   </entry>
   <entry>
-    <published>2024-05-14T09:22:55-04:00</published>
-    <updated>2024-05-14T09:22:55-04:00</updated>
-    <title>Amazon Web Services CEO to step down</title>
+    <published>2024-05-14T13:56:54-04:00</published>
+    <updated>2024-05-14T13:56:54-04:00</updated>
+    <title>Gemini will integrate with Calendar, Tasks, and Keep</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="Illustration of Amazon’s wordmark on an orange, black, and tan background made up of overlapping lines." src="https://cdn.vox-cdn.com/thumbor/jUg6y2zm8js0KLNBydkcjt4ERrU=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346229/acastro_STK103__03.0.jpg" /&gt;
+      &lt;img alt="The Google Drive logo on a background of geometric shapes in various shades of blue." src="https://cdn.vox-cdn.com/thumbor/J8Ys37pNi2j3EJHjkRkLg4vPE44=/0x0:3000x2000/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346988/acastro_STK459_03.0.jpg" /&gt;
         &lt;figcaption&gt;Illustration by Alex Castro / The Verge&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="P3iBZH"&gt;AWS CEO Adam Selipsky is stepping down, effective June 3rd, according to a leaked email from Amazon CEO Andy Jassy viewed by &lt;em&gt;The Verge. &lt;/em&gt;Matt Garman&lt;em&gt;, &lt;/em&gt;the SVP of AWS sales, marketing, and global services at Amazon, will replace Selipsky as CEO. Amazon confirmed &lt;em&gt;The Verge&lt;/em&gt;’s reporting in a &lt;a href="https://www.aboutamazon.com/news/company-news/leadership-update-aws-adam-selipsky-matt-garman"&gt;blog post&lt;/a&gt; published this morning.&lt;/p&gt;
-&lt;p id="NSJ47s"&gt;Garman is a &lt;a href="https://www.linkedin.com/in/mattgarman/"&gt;nearly 18-year veteran of Amazon&lt;/a&gt;, spending the entire time working on AWS.&lt;/p&gt;
-&lt;p id="D99Sjp"&gt;Amazon &lt;a href="https://www.cnbc.com/2024/04/30/aws-q1-earnings-report-2024.html"&gt;reported&lt;/a&gt; that revenue from its cloud unit grew 17 percent year over year in the first quarter of 2024, beating Wall Street expectations, with revenue at $25.04 billion. AWS is also very profitable, accounting for 17 percent of Amazon’s revenue in the most recent quarter and 62 percent of its operating income. That &lt;a href="https://www.theverge.com/2019/5/10/18563485/amazon-web-services-internet-location-map-data-center"&gt;invisible server...&lt;/a&gt;&lt;/p&gt;
+  &lt;p id="zYr7xu"&gt;Part of Google’s vision at its I/O developer conference this year has involved transforming its &lt;a href="https://www.theverge.com/2024/2/8/24065553/google-gemini-ios-android-app-duet-bard"&gt;Gemini AI chatbot&lt;/a&gt; into more of a digital assistant that specializes in dealing with our day-to-day tedium. One of the &lt;a href="https://blog.google/products/search/generative-ai-google-search-may-2024"&gt;new ways it’s doing that&lt;/a&gt; is by integrating Gemini with Google Calendar, Tasks, and Keep.&lt;/p&gt;
+&lt;p id="oQN0Cm"&gt;The new integrations, which Google says are coming “soon” come by way of the extensions the company &lt;a href="https://www.theverge.com/24066399/google-gemini-voice-assistant-app-android"&gt;added to Bard last year&lt;/a&gt; and have continued with its Gemini chatbot. To use those, you just ask Gemini to do something involving one of the new services it can tap into, like summarize your emails in Gmail for the day, or type an @ symbol into Gemini’s text box to bring up a list of extensions like Google Docs or Drive. &lt;/p&gt;
+&lt;p id="dyTnft"&gt;The Gemini chatbot...&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156306/amazon-web-services-aws-ceo-stepping-down"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24155848/google-ai-gemini-calendar-tasks-keep-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156306/amazon-web-services-aws-ceo-stepping-down"/>
-    <id>https://www.theverge.com/2024/5/14/24156306/amazon-web-services-aws-ceo-stepping-down</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24155848/google-ai-gemini-calendar-tasks-keep-io"/>
+    <id>https://www.theverge.com/2024/5/14/24155848/google-ai-gemini-calendar-tasks-keep-io</id>
     <author>
-      <name>Kylie Robison</name>
+      <name>Wes Davis</name>
     </author>
   </entry>
   <entry>
-    <published>2024-05-14T09:13:02-04:00</published>
-    <updated>2024-05-14T09:13:02-04:00</updated>
-    <title>Nicolas Cage is back as Spider-Man in live-action Amazon series</title>
+    <published>2024-05-14T13:56:50-04:00</published>
+    <updated>2024-05-14T13:56:50-04:00</updated>
+    <title>Project Astra is the future of AI at Google</title>
     <content type="html">  
 
     &lt;figure&gt;
-      &lt;img alt="Nicolas Cage poses in the press room during the 96th Annual Academy Awards at Ovation Hollywood on March 10th, 2024, in Hollywood, California." src="https://cdn.vox-cdn.com/thumbor/3XZS5S_i9v8d_bgeN5wDjidHcJE=/53x0:2947x1929/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346217/2076374601.0.jpg" /&gt;
-        &lt;figcaption&gt;Photo by Rodin Eckenroth / Getty Images&lt;/figcaption&gt;
+      &lt;img alt="A still from a video showing a phone identifying a bowl of markers." src="https://cdn.vox-cdn.com/thumbor/34h9PSi1Mp-S75Rnpe6L8RUDUAc=/150x0:1770x1080/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346986/Gemini_Astra.0.jpg" /&gt;
+        &lt;figcaption&gt;&lt;em&gt;Astra is meant to be a real-time, multimodal AI assistant.&lt;/em&gt; | Image: Google&lt;/figcaption&gt;
     &lt;/figure&gt;
 
-  &lt;p id="1oF8J2"&gt;Nicolas Cage is ready to don the Spider-Man Noir suit again — only this time, in live-action. Amazon has confirmed that Cage will be reprising the role that he previously voiced in &lt;a href="https://www.theverge.com/2018/11/28/18115201/spider-man-into-the-verse-movie-review-miles-morales"&gt;the animated film &lt;em&gt;Into the Spider-Verse&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p id="At3iCa"&gt;The new series, &lt;a href="https://www.theverge.com/2023/2/9/23592839/spider-man-noir-amazon-series-live-action"&gt;which was first reported last year&lt;/a&gt;, is simply called &lt;em&gt;Noir&lt;/em&gt; and, according to Amazon, “tells the story of an aging and down on his luck private investigator (Cage) in 1930s New York, who is forced to grapple with his past life as the city’s one and only superhero.” Oren Uziel (&lt;em&gt;22 Jump Street&lt;/em&gt;) and Steve Lightfoot (&lt;em&gt;The Punisher&lt;/em&gt; on Netflix) will serve as co-showrunners, while Phil Lord, Christopher Miller, and Amy Pascal, who worked on the &lt;em&gt;Spider-Verse&lt;/em&gt; films, will be executive producers.&lt;/p&gt;
-&lt;p id="um6JrS"&gt;&lt;em&gt;Noir&lt;/em&gt; doesn’t...&lt;/p&gt;
+  &lt;p id="1ru3pS"&gt;“I’ve had this vision in my mind for quite a while,” says Demis Hassabis, the head of Google DeepMind and the &lt;a href="https://www.theverge.com/23778745/demis-hassabis-google-deepmind-ai-alphafold-risks"&gt;leader of Google’s AI efforts&lt;/a&gt;. Hassabis has been thinking about and working on AI for decades, but four or five years ago, something really crystallized. One day soon, he realized, “we would have this universal assistant. It’s multimodal, it’s with you all the time.” Call it the &lt;em&gt;Star Trek&lt;/em&gt; Communicator; call it the voice from &lt;em&gt;Her&lt;/em&gt;; call it whatever you want. “It’s that helper,” Hassabis continues, “that’s just useful. You get used to it being there whenever you need it.” &lt;/p&gt;
+&lt;p id="uuJF8i"&gt;At &lt;a href="https://www.theverge.com/2024/5/14/24155647/google-io-news-announcements-rumors-gemini-ai"&gt;Google I/O, the company’s annual developer conference&lt;/a&gt;, Hassabis showed off a very early version of what he hopes will become that universal assistant. Google...&lt;/p&gt;
   &lt;p&gt;
-    &lt;a href="https://www.theverge.com/2024/5/14/24156273/nicolas-cage-spider-man-noir-amazon-prime-video"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24156296/google-ai-gemini-astra-assistant-live-io"&gt;Continue reading&amp;hellip;&lt;/a&gt;
   &lt;/p&gt;
 
 </content>
-    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156273/nicolas-cage-spider-man-noir-amazon-prime-video"/>
-    <id>https://www.theverge.com/2024/5/14/24156273/nicolas-cage-spider-man-noir-amazon-prime-video</id>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156296/google-ai-gemini-astra-assistant-live-io"/>
+    <id>https://www.theverge.com/2024/5/14/24156296/google-ai-gemini-astra-assistant-live-io</id>
     <author>
-      <name>Andrew Webster</name>
+      <name>David Pierce</name>
+    </author>
+  </entry>
+  <entry>
+    <published>2024-05-14T13:56:44-04:00</published>
+    <updated>2024-05-14T13:56:44-04:00</updated>
+    <title>Gmail on smartphones is getting better AI integration with Gemini</title>
+    <content type="html">  
+
+    &lt;figure&gt;
+      &lt;img alt="The Gmail logo on a red and white background" src="https://cdn.vox-cdn.com/thumbor/Mw8Z0VeQtnp2TfmxWibkY6j6uJw=/0x0:3000x2000/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/73346984/acastro_STK459_10.0.jpg" /&gt;
+        &lt;figcaption&gt;Illustration by Alex Castro / The Verge&lt;/figcaption&gt;
+    &lt;/figure&gt;
+
+  &lt;p id="A2HVCa"&gt;Google is preparing to bring Gemini to one place it’s sorely needed: the Gmail app on smartphones. The company announced at its I/O developer conference today that, starting next month, Workspace and Google One AI Premium subscribers will be able to use Gemini to summarize emails for them inside the Gmail app. Google says that later, users will be able to access Gemini from Gmail both in the app and on the web to ask questions about their emails or have it compose replies based on the email’s context.&lt;/p&gt;
+&lt;p id="qWIOwH"&gt;The reply suggestions, called “Contextual Smart Reply,” will work like the current Smart Reply feature, just more “detailed and nuanced.” Other features will be available through a new Gemini button in the Gmail app. Google says tapping the...&lt;/p&gt;
+  &lt;p&gt;
+    &lt;a href="https://www.theverge.com/2024/5/14/24156500/google-gmail-ai-gemini-summaries-contextual-smart-reply"&gt;Continue reading&amp;hellip;&lt;/a&gt;
+  &lt;/p&gt;
+
+</content>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2024/5/14/24156500/google-gmail-ai-gemini-summaries-contextual-smart-reply"/>
+    <id>https://www.theverge.com/2024/5/14/24156500/google-gmail-ai-gemini-summaries-contextual-smart-reply</id>
+    <author>
+      <name>Wes Davis</name>
     </author>
   </entry>
 </feed>

@@ -73,4 +73,15 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  ###############
+  # Riccardo
+  ###############
+
+    # in RVT:   config.rvt.whitelisted_ips = %w( 127.0.0.1 192.168.0.100 )
+  config.web_console.permissions = [
+      '192.168.1.0/24', # Zurich Ricc home
+      '2a02:168:646b:0:406f:8a5e:499b:a9d2', # Ricc home
+    ]
+
 end

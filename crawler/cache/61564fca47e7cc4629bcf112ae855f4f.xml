@@ -15,7 +15,7 @@
 	<atom:link href="https://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://techcrunch.com/</link>
 	<description>Startup and Technology News</description>
-	<lastBuildDate>Tue, 14 May 2024 17:33:04 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 May 2024 18:05:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,29 +31,128 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">136296444</site>	<item>
-		<title>Google Photos introduces an AI search feature, &#8216;Ask Photos&#8217;</title>
-		<link>https://techcrunch.com/2024/05/14/google-photos-introduces-an-ai-search-feature-ask-photos/</link>
+		<title>Google Play preps a new full-screen app discovery feature and adds more developer tools</title>
+		<link>https://techcrunch.com/2024/05/14/google-play-preps-a-new-full-screen-app-discovery-feature-and-adds-more-developer-tools/</link>
 		
 		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 17:25:00 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
+		<pubDate>Tue, 14 May 2024 18:05:00 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
 		<category><![CDATA[Google I/O]]></category>
 		<category><![CDATA[Google IO 2024]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777825</guid>
+		<category><![CDATA[google play services]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778034</guid>
 
-					<description><![CDATA[<p>The AI upgrade will make finding the right content more intuitive and less of a manual search process.</p>
+					<description><![CDATA[<p>Google Play has a new discovery feature for apps, new ways to acquire users, updates to Play Points, and other enhancements to developer-facing tools.</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777825</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">2778034</post-id>	</item>
+		<item>
+		<title>Gemini on Android becomes more capable and works with Gmail, Messages, YouTube and more</title>
+		<link>https://techcrunch.com/2024/05/14/gemini-on-android-becomes-more-capable-and-works-with-gmail-messages-youtube-and-more/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 18:05:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google Assistant]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777681</guid>
+
+					<description><![CDATA[<p>Soon, Android users will be able to drag and drop AI-generated images directly into their Gmail, Google Messages and other apps. </p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777681</post-id>	</item>
+		<item>
+		<title>Google gets serious about AI-generated video at Google I/O 2024</title>
+		<link>https://techcrunch.com/2024/05/14/google-gets-serious-about-ai-generated-video/</link>
+		
+		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 18:02:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<category><![CDATA[Video]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778161</guid>
+
+					<description><![CDATA[<p>Google’s gunning for OpenAI’s&#160;Sora&#160;with Veo, an AI model that can create 1080p video clips around a minute long given a text prompt.&#160; Unveiled on Tuesday at Google’s I/O 2024 developer conference, Veo can capture different visual and cinematic styles, including shots of landscapes and timelapses, and make edits and adjustments to already-generated footage. “We’re exploring [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778161</post-id>	</item>
+		<item>
+		<title>Gemini comes to Gmail to summarize, draft emails, and more</title>
+		<link>https://techcrunch.com/2024/05/14/gemini-comes-to-gmail-to-summarize-and-draft-emails/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 18:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777693</guid>
+
+					<description><![CDATA[<p>In addition to the body of the emails themselves, the feature will also be able to analyze attachments, like PDFs.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777693</post-id>	</item>
+		<item>
+		<title>Google is bringing Gemini capabilities to the Google Maps platform</title>
+		<link>https://techcrunch.com/2024/05/14/google-gemini-capabilities-google-maps-platform/</link>
+		
+		<dc:creator><![CDATA[Aisha Malik]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:59:23 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<category><![CDATA[Google Maps Platform]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777790</guid>
+
+					<description><![CDATA[<p>The summaries are created based on Gemini's analysis of insights from Google Maps’ community of more than 300 million contributors.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777790</post-id>	</item>
+		<item>
+		<title>Project IDX, Google&#8217;s next-gen IDE, is now in open beta</title>
+		<link>https://techcrunch.com/2024/05/14/project-idx-googles-next-gen-ide-is-now-in-open-beta/</link>
+		
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:59:06 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777195</guid>
+
+					<description><![CDATA[<p>Google says that over 100,000 developers already tried the service.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777195</post-id>	</item>
 		<item>
 		<title>Google I/O 2024: Everything announced so far</title>
 		<link>https://techcrunch.com/2024/05/14/google-i-o-2024-everything-announced-so-far/</link>
 		
 		<dc:creator><![CDATA[Christine Hall]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 17:17:45 +0000</pubDate>
+		<pubDate>Tue, 14 May 2024 17:59:00 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
 		<category><![CDATA[Gadgets]]></category>
 		<category><![CDATA[Hardware]]></category>
@@ -69,358 +168,270 @@
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2778448</post-id>	</item>
 		<item>
-		<title>Apple touts stopping $1.8BN in App Store fraud last year in latest pitch to developers</title>
-		<link>https://techcrunch.com/2024/05/14/apple-touts-stopping-1-8bn-in-app-store-fraud-last-year-in-latest-pitch-to-devs/</link>
+		<title>Google will use Gemini to detect scams during calls</title>
+		<link>https://techcrunch.com/2024/05/14/google-will-use-gemini-to-detect-scams-during-calls/</link>
 		
-		<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 17:00:00 +0000</pubDate>
-				<category><![CDATA[TC]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[apple app store security]]></category>
-		<category><![CDATA[apple app store anti-fraud]]></category>
-		<category><![CDATA[apple fraud prevention]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778345</guid>
+		<dc:creator><![CDATA[Karyne Levy]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:56:41 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777626</guid>
 
-					<description><![CDATA[<p>Apple released new data about anti-fraud measures related to its operation of the iOS App Store on Tuesday morning, trumpeting a claim that it stopped over $7 billion in &#8220;potentially fraudulent transactions&#8221; across the four years between 2020 and 2023. More than $1.8 billion of that total was stopped in 2023, per Apple, which is [&#8230;]</p>
+					<description><![CDATA[<p>The system effectively listens for “conversation patterns commonly associated with scams” in-real time. </p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778345</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">2777626</post-id>	</item>
 		<item>
-		<title>Expedia starts testing AI-powered features for search and travel planning</title>
-		<link>https://techcrunch.com/2024/05/14/expedia-starts-testing-ai-powered-features-for-search-and-travel-planning/</link>
+		<title>Google announces Gemma 2, a 27B-parameter version of its open model, launching in June</title>
+		<link>https://techcrunch.com/2024/05/14/google-announces-gemma-2-a-27b-parameter-version-of-its-open-model-launching-in-june/</link>
+		
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:55:58 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Google Gemma]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777202</guid>
+
+					<description><![CDATA[<p>The standard Gemma models were only available in 2 billion and 7 billion parameter versions, making this quite a step up.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777202</post-id>	</item>
+		<item>
+		<title>Google TalkBack will use Gemini to describe images for blind people</title>
+		<link>https://techcrunch.com/2024/05/14/google-talkback-will-use-gemini-to-describe-images-for-blind-people/</link>
+		
+		<dc:creator><![CDATA[Brian Heater]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:55:36 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Gemini Nano]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<category><![CDATA[talkback]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777323</guid>
+
+					<description><![CDATA[<p>This is a great example of a company using generative AI to open its software to more users.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777323</post-id>	</item>
+		<item>
+		<title>Google launches Firebase Genkit, a new open source framework for building AI-powered apps</title>
+		<link>https://techcrunch.com/2024/05/14/google-launches-firebase-genkit-a-new-open-source-framework-for-building-ai-powered-apps/</link>
+		
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:55:21 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777804</guid>
+
+					<description><![CDATA[<p>Firebase Genkit is an open source framework that enables developers to quickly build AI into new and existing applications.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777804</post-id>	</item>
+		<item>
+		<title>Google is building its Gemini Nano AI model into Chrome on the desktop</title>
+		<link>https://techcrunch.com/2024/05/14/google-is-building-its-gemini-nano-ai-model-into-chrome-on-the-desktop/</link>
+		
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:54:39 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Gemini Nano]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2771483</guid>
+
+					<description><![CDATA[<p>This will enable developers to use the on-device model to power their own AI features.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2771483</post-id>	</item>
+		<item>
+		<title>Circle to Search is now a better homework helper</title>
+		<link>https://techcrunch.com/2024/05/14/circle-to-search-is-now-a-better-homework-helper/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:54:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google Assistant]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777672</guid>
+
+					<description><![CDATA[<p>Google's Circle to Search feature will now be able to solve more complex problems across psychics and math word problems. </p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777672</post-id>	</item>
+		<item>
+		<title>Google experiments with using video to search, thanks to Gemini AI</title>
+		<link>https://techcrunch.com/2024/05/14/google-experiments-with-using-video-to-search-thanks-to-gemini-ai/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:53:55 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777901</guid>
+
+					<description><![CDATA[<p>People can now search using a video they upload combined with a text query to get an AI overview of the answers they need.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777901</post-id>	</item>
+		<item>
+		<title>Google will soon start using GenAI to organize some search results pages</title>
+		<link>https://techcrunch.com/2024/05/14/seo-is-dead-google-will-soon-start-using-genai-to-organize-some-search-results-pages/</link>
+		
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:50:41 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<category><![CDATA[search results]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777442</guid>
+
+					<description><![CDATA[<p>A search results page based on generative AI as its ranking mechanism will have wide-reaching consequences for online publishers. </p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777442</post-id>	</item>
+		<item>
+		<title>Google is adding more AI to its search results</title>
+		<link>https://techcrunch.com/2024/05/14/google-is-adding-more-ai-to-its-search-results/</link>
 		
 		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 17:00:00 +0000</pubDate>
+		<pubDate>Tue, 14 May 2024 17:49:00 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
 		<category><![CDATA[Apps]]></category>
-		<category><![CDATA[Expedia]]></category>
-		<category><![CDATA[travel]]></category>
-		<category><![CDATA[travel planning]]></category>
-		<category><![CDATA[AI bot]]></category>
-		<category><![CDATA[AI travel]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778201</guid>
-
-					<description><![CDATA[<p>Online travel agency Expedia is testing an AI assistant that bolsters features like search, itinerary building, trip planning, and real-time travel updates.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778201</post-id>	</item>
-		<item>
-		<title>Inside TabaPay’s drama-filled decision to abandon its plans to buy Synapse’s assets</title>
-		<link>https://techcrunch.com/2024/05/14/inside-tabapays-drama-filled-decision-to-abandon-its-plans-to-buy-synapses-assets/</link>
-		
-		<dc:creator><![CDATA[Carrie Andrews]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 17:00:00 +0000</pubDate>
-				<category><![CDATA[Fintech]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777826</guid>
-
-					<description><![CDATA[<p>Welcome to TechCrunch Fintech! This week, we look at the drama around TabaPay deciding to not buy Synapse&#8217;s assets, as well as stocks dropping for a couple of fintechs, Monzo raising even more funds, and more! Sign up here to get Fintech in your inbox every Tuesday at 7 a.m. PT! The big story There was [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777826</post-id>	</item>
-		<item>
-		<title>Threat actor scraped Dell support tickets, including customer phone numbers</title>
-		<link>https://techcrunch.com/2024/05/14/threat-actor-scraped-dell-support-tickets-including-customer-phone-numbers/</link>
-		
-		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 16:47:31 +0000</pubDate>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[cybersecurity]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778552</guid>
-
-					<description><![CDATA[<p>The person who claimed to have stolen the physical addresses of 49 million Dell customers appears to have taken more data from a different Dell portal, TechCrunch has learned. The newly compromised data includes names, phone numbers and email addresses of Dell customers. This personal data is contained in customer “service reports,” which also include [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778552</post-id>	</item>
-		<item>
-		<title>On Elon&#8217;s whim, X now treats &#8216;cisgender&#8217; as a slur</title>
-		<link>https://techcrunch.com/2024/05/14/on-elons-whim-x-now-treats-cisgender-as-a-slur/</link>
-		
-		<dc:creator><![CDATA[Amanda Silberling]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 16:33:34 +0000</pubDate>
-				<category><![CDATA[Social]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778495</guid>
-
-					<description><![CDATA[<p>If you write the words &#8220;cis&#8221; or &#8220;cisgender&#8221; on X, you might be served this full-screen message: &#8220;This post contains language that may be considered a slur by X and could be used in a harmful manner in violation of our rules,&#8221; the warning says. You can continue to publish the post or delete it. [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778495</post-id>	</item>
-		<item>
-		<title>Meta is shutting down Workplace, its enterprise communications business</title>
-		<link>https://techcrunch.com/2024/05/14/meta-is-shutting-down-workplace-its-enterprise-communications-business/</link>
-		
-		<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 15:34:39 +0000</pubDate>
-				<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[Social]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778501</guid>
-
-					<description><![CDATA[<p>Facebook once had big ambitions to be a major player in enterprise communication and productivity, but today the social network&#8217;s parent company Meta will be closing a very significant chapter in that story. TechCrunch has learned that Meta is shuttering Workplace, a version of Facebook that had been built to enable communication among business teams [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778501</post-id>	</item>
-		<item>
-		<title>Meta&#8217;s Oversight Board overturns takedown decision for Pakistan child abuse documentary</title>
-		<link>https://techcrunch.com/2024/05/14/metas-oversight-board-overturns-takedown-decision-for-pakistan-child-abuse-documentary/</link>
-		
-		<dc:creator><![CDATA[Jagmeet Singh]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 15:07:44 +0000</pubDate>
-				<category><![CDATA[Social]]></category>
-		<category><![CDATA[meta]]></category>
-		<category><![CDATA[pakistan]]></category>
-		<category><![CDATA[oversight board]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778384</guid>
-
-					<description><![CDATA[<p>The Oversight Board has overturned Meta's decision to take down a documentary revealing the identities of child abuse victims in Pakistan.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778384</post-id>	</item>
-		<item>
-		<title>Google I/O 2024: How to watch</title>
-		<link>https://techcrunch.com/2024/05/14/google-i-o-2024-how-to-watch/</link>
-		
-		<dc:creator><![CDATA[Brian Heater]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 14:00:00 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[AI search]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[google ai]]></category>
 		<category><![CDATA[Google I/O]]></category>
-		<category><![CDATA[google i/o 2024]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2766937</guid>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778304</guid>
 
-					<description><![CDATA[<p>The keynote kicks off at 10 a.m. PT on Tuesday and will offer glimpses into the latest versions of Android, Wear OS and Android TV.</p>
+					<description><![CDATA[<p>Google has built a custom Gemini model for search to combine real-time information, Google's ranking, long context and multimodal features.</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2766937</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">2778304</post-id>	</item>
 		<item>
-		<title>AWS CEO Adam Selipsky steps down</title>
-		<link>https://techcrunch.com/2024/05/14/aws-ceo-adam-selipsky-steps-down/</link>
+		<title>Google&#8217;s next-gen TPUs promise a 4.7x performance boost</title>
+		<link>https://techcrunch.com/2024/05/14/googles-next-gen-tpus-promise-a-4-7x-performance-boost/</link>
+		
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:48:50 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777578</guid>
+
+					<description><![CDATA[<p>At its Google I/O developer conference, Google on Tuesday announced the next generation of its Tensor Processing Units (TPU) AI chips. </p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777578</post-id>	</item>
+		<item>
+		<title>Google reveals plans for upgrading AI in the real world through Gemini Live at Google I/O 2024</title>
+		<link>https://techcrunch.com/2024/05/14/google-aims-to-make-gemini-more-contextually-useful/</link>
 		
 		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 13:34:39 +0000</pubDate>
-				<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[Adam Selipsky]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[AWS]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778399</guid>
-
-					<description><![CDATA[<p>Adam Selipsky is stepping down from his role as CEO of Amazon Web Services, Amazon has confirmed to TechCrunch.&#160; In a memo shared internally by Amazon CEO Andy Jassy and published this morning to the company&#8217;s blog, Jassy said that AWS sales chief Matt Garman will be promoted to CEO. Garman previously headed AWS&#8217; EC2 [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778399</post-id>	</item>
-		<item>
-		<title>David Sacks reveals Glue, the AI company he’s been teasing on his All In podcast</title>
-		<link>https://techcrunch.com/2024/05/14/david-sacks-glue-ai-slack-microsoft-teams-alternative/</link>
-		
-		<dc:creator><![CDATA[Marina Temkin]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 12:00:00 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Venture]]></category>
-		<category><![CDATA[all in]]></category>
-		<category><![CDATA[Craft Ventures]]></category>
-		<category><![CDATA[david sacks]]></category>
-		<category><![CDATA[enterprise chat]]></category>
-		<category><![CDATA[Microsoft Teams]]></category>
-		<category><![CDATA[slack]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777984</guid>
-
-					<description><![CDATA[<p>VC and podcaster David Sacks has revealed a new AI chat app called Glue that fixes "Slack channel fatigue," he says.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777984</post-id>	</item>
-		<item>
-		<title>After surpassing $100M in ARR, Harness grabs a $150M line of credit</title>
-		<link>https://techcrunch.com/2024/05/14/after-surpassing-100m-in-arr-harness-labs-grabs-a-150m-line-of-credit/</link>
-		
-		<dc:creator><![CDATA[Ron Miller]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 12:00:00 +0000</pubDate>
-				<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[debt financing]]></category>
-		<category><![CDATA[debt relief]]></category>
-		<category><![CDATA[Harness Labs]]></category>
-		<category><![CDATA[Hercules Capital]]></category>
-		<category><![CDATA[jyoti bansal]]></category>
-		<category><![CDATA[silicon valley bank]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777545</guid>
-
-					<description><![CDATA[<p>Harness isn&#8217;t founder Jyoti Bansal’s first startup. He sold AppDynamics to Cisco for $3.7 billion in 2017, the week it was supposed to go public. His latest venture has raised $425 million, per Crunchbase. On Tuesday, Harness announced $150 million in debt financing, essentially a line of credit that the company can draw on as [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777545</post-id>	</item>
-		<item>
-		<title>Google I/O 2024: What to expect</title>
-		<link>https://techcrunch.com/2024/05/14/google-i-o-2024-what-to-expect/</link>
-		
-		<dc:creator><![CDATA[Brian Heater]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 12:00:00 +0000</pubDate>
+		<pubDate>Tue, 14 May 2024 17:47:00 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
 		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[gemini live]]></category>
+		<category><![CDATA[Generative AI]]></category>
 		<category><![CDATA[Google I/O]]></category>
-		<category><![CDATA[google i/o 2024]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2766420</guid>
+		<category><![CDATA[Google IO 2024]]></category>
+		<category><![CDATA[project astra]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777787</guid>
 
-					<description><![CDATA[<p>You can expect plenty of AI, but probably not a lot of hardware. </p>
+					<description><![CDATA[<p>Google is upgrading Gemini, its AI-powered chatbot, with features aimed at making the experience more ambient and contextually useful.</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2766420</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">2777787</post-id>	</item>
 		<item>
-		<title>Waymo&#8217;s robotaxis under investigation after crashes and traffic mishaps</title>
-		<link>https://techcrunch.com/2024/05/14/waymo-safety-probe-nhtsa-crashes-traffic-cones-construction/</link>
+		<title>Google&#8217;s image-generating AI gets an upgrade</title>
+		<link>https://techcrunch.com/2024/05/14/google-launches-new-video-and-image-generation-tools/</link>
 		
-		<dc:creator><![CDATA[Sean O'Kane]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 11:00:55 +0000</pubDate>
-				<category><![CDATA[Government & Policy]]></category>
-		<category><![CDATA[Transportation]]></category>
-		<category><![CDATA[autonomous vehicles]]></category>
-		<category><![CDATA[nhtsa]]></category>
-		<category><![CDATA[robotaxis]]></category>
-		<category><![CDATA[waymo]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778342</guid>
-
-					<description><![CDATA[<p>The company's autonomous vehicles have had a number of misadventures lately, involving driving into construction sites.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778342</post-id>	</item>
-		<item>
-		<title>OpenAI&#8217;s ChatGPT announcement: Watch the GPT-4o reveal and demo here</title>
-		<link>https://techcrunch.com/2024/05/14/openais-chatgpt-announcement-what-we-know-so-far/</link>
-		
-		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:46:00 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[openai chatgpt]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2771455</guid>
-
-					<description><![CDATA[<p>The company is describing the event as “a chance to demo some ChatGPT and GPT-4 updates.”</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2771455</post-id>	</item>
-		<item>
-		<title>Sona, a frontline workforce management platform, raises $27.5M with eyes on US expansion</title>
-		<link>https://techcrunch.com/2024/05/14/sona-a-frontline-workforce-management-platform-raises-27-5m-with-eyes-on-us-expansion/</link>
-		
-		<dc:creator><![CDATA[Paul Sawers]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 10:00:00 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[TC]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2768391</guid>
-
-					<description><![CDATA[<p>Sona, a workforce management platform for frontline employees, has raised $27.5 million in a Series A round of funding. More than two-thirds of the U.S. workforce are reportedly in frontline jobs, which might be anything from customer service and healthcare to retail environments and hospitality. But managing this vast workforce, ensuring roles are filled and [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2768391</post-id>	</item>
-		<item>
-		<title>Uber to acquire Foodpanda&#8217;s Taiwan unit from Delivery Hero for $950M in cash </title>
-		<link>https://techcrunch.com/2024/05/14/uber-to-acquire-foodpandas-taiwan-unit-from-delivery-hero-for-950m-in-cash/</link>
-		
-		<dc:creator><![CDATA[Kate Park]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 09:37:37 +0000</pubDate>
-				<category><![CDATA[Commerce]]></category>
 		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[food delivery]]></category>
-		<category><![CDATA[Foodpanda]]></category>
-		<category><![CDATA[Mergers and Acquisitions]]></category>
-		<category><![CDATA[taiwan]]></category>
-		<category><![CDATA[Uber Eats]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778327</guid>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<category><![CDATA[Imagen]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777381</guid>
 
-					<description><![CDATA[<p>Uber Technologies announced Tuesday that it will buy the Taiwan unit of Delivery Hero&#8217;s Foodpanda for $950 million in cash. The deal is part of Uber Eats&#8217; strategy to expand in Asia, specifically by strengthening its position in Taiwan. On the other hand, it also underscores Delivery Hero&#8217;s ongoing retreat from that same market: The sale [&#8230;]</p>
+					<description><![CDATA[<p>Veo can generate few-seconds-long 1080p video clips given a text prompt.</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778327</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">2777381</post-id>	</item>
 		<item>
-		<title>Paris-based VC firm Blisce launches climate tech fund with a target of $160M</title>
-		<link>https://techcrunch.com/2024/05/14/paris-based-vc-firm-blisce-launches-climate-technology-fund/</link>
+		<title>Google&#8217;s generative AI can now analyze hours of video</title>
+		<link>https://techcrunch.com/2024/05/14/googles-generative-ai-model-can-now-analyze-hours-of-video/</link>
 		
-		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 08:23:19 +0000</pubDate>
-				<category><![CDATA[Climate]]></category>
-		<category><![CDATA[Venture]]></category>
-		<category><![CDATA[Blisce]]></category>
-		<category><![CDATA[climate tech]]></category>
-		<category><![CDATA[paris]]></category>
-		<category><![CDATA[venture funds]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777420</guid>
+		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:43:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[gemini 1.5 pro]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2771541</guid>
 
-					<description><![CDATA[<p>Paris-based Blisce has become the latest VC firm to launch a fund dedicated to climate tech. It plans to raise as much as €150M (about $162M). </p>
+					<description><![CDATA[<p>At Google I/O, Google announced upgrades to Gemini 1.5 Pro, including a bigger context window. .</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777420</post-id>	</item>
-		<item>
-		<title>Maad raises $3.2M seed amid B2B e-commerce sector turbulence in Africa</title>
-		<link>https://techcrunch.com/2024/05/13/maad-raises-3-2-seed-fundin/</link>
-		
-		<dc:creator><![CDATA[Annie Njanja]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 03:44:27 +0000</pubDate>
-				<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Commerce]]></category>
-		<category><![CDATA[Maad]]></category>
-		<category><![CDATA[Ventures Platform]]></category>
-		<category><![CDATA[e-commerce]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777857</guid>
-
-					<description><![CDATA[<p>Maad, a B2B e-commerce startup based in Senegal, has secured $3.2 million debt-equity funding to bolster its growth in the western Africa country and to explore fresh opportunities in the wider Francophone region. The seed round was led by Ventures Platform, with participation from Seedstars International Ventures, Reflect Ventures, Oui Capital, Launch Africa, Voltron Capital [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777857</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">2771541</post-id>	</item>
 	</channel>
 </rss>
