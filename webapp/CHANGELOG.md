@@ -1,3 +1,4 @@
+2024-05-14 v0.3.2 [DEV] Cleaned up bad/empty articles. Also made sure than now published_date is NEEDED field.
 2024-05-14 v0.3.1 [DEV] Harmonized the new ArticleEmbedding is calculated correctly BOTH in the migration script `aaa`
                         AND in the migration v1 script (`compute_embeddings!`)
 2024-05-14 v0.3.0 [DEV] Added DelayedJob (changed schema). Also added Description to rhe 3 Article Embeddings. Now I'll use ArticleEmbedding for Gemini stuff because Nearesdt Neighbor doesnt work across models :/

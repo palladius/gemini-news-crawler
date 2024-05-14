@@ -246,6 +246,11 @@ module Embeddable
       self.where('article_embedding' => nil).all
     end
 
+    def find_all_with_empty_date
+      self.where('published_date' => nil).all
+    end
+
+
     def compute_embeddings_for_all(max_instances: 10000)
       puts("🗿🗿🗿 Computing embeddings for ALL. This makes for a great RAKE task or a Job (inspired by 'DHH-Vanilla-RoR7 with Embeddings')!")
       how_many = self.find_all_without_any_embeddings.count
@@ -276,5 +281,16 @@ module Embeddable
         sleep(1.0/48.0)
       end
     end
+
+    # summary: nil,
+    # content: nil,
+    # author: nil,
+    # => WTF? Lets get rid of them
+    def delete_bad_articles()
+      Article.where('published_date' => nil).where('content' => nil).where('summary' => nil).delete_all # .allfind_all_with_empty_date
+      Article.where('published_date' => nil).delete_all # .allfind_all_with_empty_date
+    end
+
+
   end
 end

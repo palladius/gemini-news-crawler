@@ -89,12 +89,22 @@
         3. return news to UI.
         4. Summarize. like
 
+        Short story (max 256 token):
         GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
+
+        Long story (2048 tokens):
+        GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content']
+
     </pre>
 
-    <div class="bg-brown-100 p-4 rounded shadow-md">
-        <div class="prose p-4">
-            <%= GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content'] %>
+    <div class="bg-blue-500 md:bg-green-500 p-4 rounded shadow-md">
+        <div class="prose lg:prose-xl" >
+            <%#= GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
+            # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/
+             %>
+            <%=
+            GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content']
+             %>
         </div>
     </div>
 

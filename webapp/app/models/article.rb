@@ -8,6 +8,9 @@ class Article < ApplicationRecord
 
   validates :title, uniqueness: true, presence: true
   validates :guid, uniqueness: true, presence: true
+  # published_date
+  validates :published_date, presence: true # We really want this data..
+
 
   # Trying to fix the String bug for title_embedding - thanks Gemini!
   #attribute :title_embedding, :float, array: true
@@ -104,7 +107,7 @@ class Article < ApplicationRecord
     end
 
     def yyyymmdd
-      published_date.localtime.to_s[0,10]
+      published_date.localtime.to_s[0,10] # rescue ''
     end
     def yyyymmdd_hhmm
       published_date.localtime.to_s[0,16]
@@ -165,7 +168,7 @@ class Article < ApplicationRecord
         ret += "[content]\n#{self.content.strip}\n[/content]\n\n" if self.content?
         # Footer
         ret += "Author: #{self.author}\n" if author?
-        ret += "PublishedDate: #{self.yyyymmdd}\n"
+        ret += "PublishedDate: #{self.yyyymmdd}\n" rescue nil
         ret += "Category: #{self.macro_region}\n" # always true
         ret += "NewsPaper: #{self.newspaper}\n" # always true
         ret += "Tags: #{self.tag_names.join(', ')}\n" if self.tag_names.size > 0  # always true
