@@ -183,23 +183,27 @@ module Embeddable
     # summary_embedding: nil,
     # article_embedding: nil>
     %w{ title_embedding summary_embedding article_embedding}.each do |my_field|
-    val = self.send(my_field)
-    ret["#{my_field}_class"] = val.class
-    if val.nil?
-      ret["#{my_field}_nil"] = true
-      original_field = my_field.gsub(/_embedding/,'')
-      original_field_value = self.send(original_field)
-      ret["#{my_field}_original_field_nil"] =  original_field_value.nil?
-      ret["#{my_field}_make_sense_to_compute_embedding"] = not(original_field_value.nil?)
-      ret["#{original_field}_class"] = original_field_value.class
-    end
+      val = self.send(my_field)
+      ret["#{my_field}_class"] = val.class
+
+      if val.nil?
+        ret["#{my_field}_nil"] = true
+        original_field = my_field.gsub(/_embedding/,'')
+        original_field_value = self.send(original_field)
+        ret["#{my_field}_original_field_nil"] =  original_field_value.nil?
+        ret["#{my_field}_make_sense_to_compute_embedding"] = not(original_field_value.nil?)
+        ret["#{original_field}_class"] = original_field_value.class
+      end
+
       if val.is_a?(Array)
-      ret["#{my_field}_array_len"] = val.length
-      ret["#{my_field}_array_sample123"] = [val[0],val[1],val[2]] if (val.length ==768)
+        ret["#{my_field}_array_len"] = val.length
+        ret["#{my_field}_array_sample123"] = [val[0],val[1],val[2]] if (val.length ==768)
+      end
+
     end
+    ret
   end
-  ret
-  end
+
   # Class Methods: https://stackoverflow.com/questions/33326257/what-does-class-methods-do-in-concerns
   class_methods do
     # EMbeddings which i thought was love instead was a caless...
@@ -219,6 +223,7 @@ module Embeddable
 #      self.includes(:article_embedding).where('article_embedding' => nil).all
       self.where('article_embedding' => nil).all
     end
+
     def compute_embeddings_for_all(max_instances: 10000)
       puts("🗿🗿🗿 Computing embeddings for ALL. This makes for a great RAKE task or a Job (inspired by 'DHH-Vanilla-RoR7 with Embeddings')!")
       how_many = self.find_all_without_any_embeddings.count
@@ -229,6 +234,32 @@ module Embeddable
         article.compute_embeddings()
         # or the API will complain
         #sleep(1.0/24.0)
+        sleep(1.0/48.0)
+      end
+    end
+
+
+    def migrate_all_article_embedding_to_gemini_thru_langchain(max_instances: 10000)
+      puts("🗿2️⃣🗿 Computing article_embeddings only (v2) for ALL Articles. This makes for a great RAKE task or a Job (inspired by 'DHH-Vanilla-RoR7 with Embeddings')!")
+      embeddings_to_be_recalculated = self.where('article_embedding_description' => nil).all
+      puts("🗿2️⃣🗿 Total Articles: #{Article.all.count}. Total embeddings to be computed (article_embedding_description=nil): #{embeddings_to_be_recalculated.count}")
+      embeddings_to_be_recalculated.each_with_index do |a, ix|
+        # Now I recompute JUST the article thingy since its RICHER and NEWER and i can keep using the TITLE one on the other thingy until its all migrated.
+        # so the OLD keeps working (in the yellow NEIGHBOR articles) until i have sth better for everyone
+        break if ix > max_instances
+        a.article_embedding = GeminiLLM.embed(text: a.article).embedding # rescue nil resceu nil
+        # if nil, next...
+        embedding_description = {
+            llm_project_id: GeminiLLM.project_id,
+            llm_dimensions: GeminiLLM.default_dimensions,
+            article_size: a.article.size,
+            # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
+            llm_embeddings_model_name: "textembedding-gecko",
+
+        }
+        a.article_embedding_description = embedding_description.to_s
+        ret = a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
+        puts("Saved Article: #{ret.class}")
         sleep(1.0/48.0)
       end
     end

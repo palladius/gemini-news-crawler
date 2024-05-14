@@ -60,6 +60,12 @@
     <b><%= Article.find_all_without_any_embeddings.count %></b>
   </p>
 
+  <p>Number of <%= EmbeddingEmoji %> <b>Articles without new v2 Embeddings (no article_embedding v2 via migrate_all_article_embedding_to_gemini_thru_langchain)</b>:
+    <b><%= Article.where('article_embedding_description' => nil).all.count %></b> / <%= Article.all.count %>
+  </p>
+
+
+
 
 
   <h2>Cache</h2>

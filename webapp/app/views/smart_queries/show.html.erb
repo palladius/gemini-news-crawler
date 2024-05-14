@@ -10,9 +10,22 @@
 
 # non va
 a = Article.find(10260)
-a.title_embedding = GeminiLLM.embed(text: a.title).embedding
+# a.title_embedding = GeminiLLM.embed(text: a.title).embedding # WRONG i should use the OLD model for now.
 a.article_embedding = GeminiLLM.embed(text: a.article).embedding
+embedding_description = {
+    llm_project_id: GeminiLLM.project_id,
+    llm_dimensions: GeminiLLM.default_dimensions,
+    # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
+    llm_embeddings_model_name: "textembedding-gecko",
+
+}
+a.article_embedding_description = embedding_description.to_s
 a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
+#
+
+
+
+
 # demo2
 %>
 
