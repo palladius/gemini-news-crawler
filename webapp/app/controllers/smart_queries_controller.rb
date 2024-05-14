@@ -13,6 +13,9 @@ class SmartQueriesController < ApplicationController
       "Google Cloud and Alphabet",
       "Ruby or Rails",
       "fun facts",
+      'crime news',       # => cronaca nera
+      'Cronaca Nera',
+      'Fake news',
     ]
     @sample_queries_for_gemini_functions = [
       "What's new in US politics?",
