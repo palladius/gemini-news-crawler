@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 12:43:37 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 12:40:01 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 17:34:47 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 17:32:06 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -21,9 +21,9 @@
       <atom:link href="https://www.nytimes.com/live/2024/05/14/world/israel-gaza-war-hamas-rafah" rel="standout"></atom:link>
       <description></description>
       <dc:creator>The New York Times</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:37:36 +0000</pubDate>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14mideast-crisis-briefing-promo-tclh/14mideast-crisis-briefing-promo-tclh-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Agence France-Presse — Getty Images</media:credit>
+      <pubDate>Tue, 14 May 2024 17:32:06 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14mideast-crisis-briefing-promo-930am-mjtf/14mideast-crisis-briefing-promo-930am-mjtf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>-/Agence France-Presse — Getty Images</media:credit>
     </item>
     <item>
       <title>Putin Will Visit Xi, Testing a ‘No Limits’ Partnership</title>
@@ -58,7 +58,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/russia-frozen-assets-ukraine.html" rel="standout"></atom:link>
       <description>Kyiv’s supporters are discussing how to use the interest earned by frozen Russian assets to help pay for weapons and postwar reconstruction.</description>
       <dc:creator>Steven Erlanger</dc:creator>
-      <pubDate>Tue, 14 May 2024 09:30:42 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 15:31:41 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
@@ -77,23 +77,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14europe-russia-assets-hlpc/14europe-russia-assets-hlpc-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Tyler Hicks/The New York Times</media:credit>
       <media:description>Repairing tanks and other vehicles in the Donetsk region of eastern Ukraine this month.</media:description>
-    </item>
-    <item>
-      <title>How One Crack in the Line Opened a Path for the Russians</title>
-      <link>https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html" rel="standout"></atom:link>
-      <description>When Russian soldiers suddenly showed up in the small town of Ocheretyne in the east, it was clear that something had gone wrong.</description>
-      <dc:creator>Marc Santora and Tyler Hicks</dc:creator>
-      <pubDate>Tue, 14 May 2024 10:07:23 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09ukraine-battlefield-promo/09ukraine-battlefield-01-sub-jbhw-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Tyler Hicks/The New York Times</media:credit>
-      <media:description>Paramedics with the 59th Separate Motorized Infantry Brigade of the Ukrainian army evacuating wounded soldiers from battles raging on the front line of the Donetsk region, this month.</media:description>
     </item>
     <item>
       <title>The Other Busing Program: Mexico Is Pushing Migrants Back South</title>
@@ -115,25 +98,134 @@
       <media:description>Migrants listening to guidelines from a staff member at the Oasis De Paz Del Espíritu Santo Amparito shelter in Villahermosa, Mexico.</media:description>
     </item>
     <item>
-      <title>On Surprise Visit to Ukraine, Blinken Reassures Zelensky of U.S. Support</title>
-      <link>https://www.nytimes.com/2024/05/13/us/politics/blinken-ukraine-russia-war.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/us/politics/blinken-ukraine-russia-war.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/us/politics/blinken-ukraine-russia-war.html" rel="standout"></atom:link>
-      <description>The trip came amid Russian military gains in Ukraine’s northeast. The Biden administration had warned for months that Congress’s delay in approving an aid package would leave the Ukrainians vulnerable.</description>
-      <dc:creator>Michael Crowley</dc:creator>
-      <pubDate>Tue, 14 May 2024 09:31:04 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Foreign Aid</category>
+      <title>Roman Polanski Did Not Defame British Actress, French Court Rules</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html" rel="standout"></atom:link>
+      <description>Charlotte Lewis, who says the director raped her in the 1980s, brought the lawsuit against him over an interview in which he called the accusations an “odious lie.”</description>
+      <dc:creator>Aurelien Breeden</dc:creator>
+      <pubDate>Tue, 14 May 2024 13:02:37 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Polanski, Roman</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lewis, Charlotte (1967- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Libel and Slander</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14france-polanski-bthv/14france-polanski-bthv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Thomas Samson/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Roman Polanski in Paris in 2019.</media:description>
+    </item>
+    <item>
+      <title>How One Crack in the Line Opened a Path for the Russians</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html" rel="standout"></atom:link>
+      <description>When Russian soldiers suddenly showed up in the small town of Ocheretyne in the east, it was clear that something had gone wrong.</description>
+      <dc:creator>Marc Santora and Tyler Hicks</dc:creator>
+      <pubDate>Tue, 14 May 2024 10:07:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zelensky, Volodymyr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kyiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13dc-blinken-pjlz/13dc-blinken-pjlz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pete Marovich for The New York Times</media:credit>
-      <media:description>Secretary of State Antony J. Blinken plans to deliver a speech in Kyiv on Tuesday celebrating the new influx of American aid and portraying Russia’s failed effort to take control of the country as a strategic success for Ukraine, an official said.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Donetsk (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ocheretyne (Ukraine)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09ukraine-battlefield-promo/09ukraine-battlefield-01-sub-jbhw-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Tyler Hicks/The New York Times</media:credit>
+      <media:description>Paramedics with the 59th Separate Motorized Infantry Brigade of the Ukrainian army evacuating wounded soldiers from battles raging on the front line of the Donetsk region, this month.</media:description>
+    </item>
+    <item>
+      <title>Kenya Rallies Police Officers Ahead of Haiti Deployment</title>
+      <link>https://www.nytimes.com/2024/05/14/world/africa/kenya-haiti-police.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/africa/kenya-haiti-police.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/africa/kenya-haiti-police.html" rel="standout"></atom:link>
+      <description>The East African country is preparing to send hundreds of police officers as the first wave of a multinational force aimed at stabilizing the chaos-ridden Caribbean nation.</description>
+      <dc:creator>Abdi Latif Dahir</dc:creator>
+      <pubDate>Tue, 14 May 2024 14:04:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Haiti</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ruto, William</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kenya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Port-au-Prince (Haiti)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Nairobi (Kenya)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14Kenya-Haiti-01-whfp/14Kenya-Haiti-01-whfp-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Yasuyoshi Chiba/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Kenyan anti-riot police officers on patrol last year on a highway that runs by an impoverished neighborhood.</media:description>
+    </item>
+    <item>
+      <title>Anti-Monarchy Activist in Thailand Dies After Hunger Strike</title>
+      <link>https://www.nytimes.com/2024/05/14/world/asia/thailand-monarchy-activist-hunger-strike.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/asia/thailand-monarchy-activist-hunger-strike.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/asia/thailand-monarchy-activist-hunger-strike.html" rel="standout"></atom:link>
+      <description>Netiporn Sanesangkhom, 28, supported abolishing the law that prohibits criticizing royalty and wanted to push the authorities to stop jailing political activists.</description>
+      <dc:creator>Sui-Lee Wee</dc:creator>
+      <pubDate>Tue, 14 May 2024 11:27:32 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Thailand</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hunger Strikes</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14thai-activist-kjbq/14thai-activist-kjbq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Lillian Suwanrumpha/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Thailand’s Parliament. The governing party said last year that lawmakers would discuss changes to the law against criticism of the monarchy, but later backtracked.</media:description>
+    </item>
+    <item>
+      <title>Manhunt Underway in France After Prisoner Escapes in Ambush</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html" rel="standout"></atom:link>
+      <description>The French authorities said that armed assailants had attacked a prison convoy, killed at least two prison officers and freed an inmate.</description>
+      <dc:creator>Aurelien Breeden</dc:creator>
+      <pubDate>Tue, 14 May 2024 13:47:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fugitives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Attacks on Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Darmanin, Gerald</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dupond-Moretti, Eric</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/tqhb/tqhb-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Alain Jocard/Agence France-Presse — Getty Images</media:credit>
+      <media:description>France’s justice minister, Éric Dupond-Moretti, said that three other officers had been injured in the episode.</media:description>
+    </item>
+    <item>
+      <title>Iranian Film Director Mohammad Rasoulof Flees Country After Jail Sentence</title>
+      <link>https://www.nytimes.com/2024/05/14/world/middleeast/iran-director-rasoulof.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/middleeast/iran-director-rasoulof.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/middleeast/iran-director-rasoulof.html" rel="standout"></atom:link>
+      <description>Mohammad Rasoulof, known for the award-winning “There Is No Evil,” had been barred from leaving Iran after his work criticized Iran’s authoritarian rule.</description>
+      <dc:creator>Emma Bubola</dc:creator>
+      <pubDate>Tue, 14 May 2024 13:12:32 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rasoulof, Mohammad</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cannes International Film Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of Speech and Expression</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14iran-director-gmkf/14iran-director-gmkf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Loic Venance/Agence France-Presse — Getty Images</media:credit>
+      <media:description>“I had to choose between prison and leaving Iran,” the director Mohammad Rasoulof said. “With a heavy heart, I chose exile.” </media:description>
+    </item>
+    <item>
+      <title>Georgia’s Parliament Gives Final Approval to ‘Foreign Agents’ Measure</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html" rel="standout"></atom:link>
+      <description>The president has vowed to veto the legislation, which critics say could push the country back into Russia’s orbit. The governing party says it can override a veto.</description>
+      <dc:creator>Ivan Nechepurenko</dc:creator>
+      <pubDate>Tue, 14 May 2024 16:20:49 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Georgian Dream (Political Party)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Georgia (Georgian Republic)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14georgia1-jmpt/14georgia1-jmpt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Giorgi Arjevanidze/Agence France-Presse — Getty Images</media:credit>
+      <media:description>A march to protest the controversial bill in Tbilisi, Georgia, on Monday.</media:description>
     </item>
     <item>
       <title>European Union 2024 Election: What to Know</title>
@@ -172,82 +264,6 @@
       <media:description>Smoke rising over New Caledonia’s capital, Noumea, on Tuesday as protests continued. The French authorities in the territory said they would mobilize security forces.</media:description>
     </item>
     <item>
-      <title>Secret Hamas Files Show It Spied on Everyday Palestinians</title>
-      <link>https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html" rel="standout"></atom:link>
-      <description>Hamas monitored political activity, online posts, and apparently even love lives. Palestinians were stuck between an Israeli blockade and a repressive security force.</description>
-      <dc:creator>Adam Rasgon and Ronen Bergman</dc:creator>
-      <pubDate>Mon, 13 May 2024 17:16:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sinwar, Yehya</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/00hamas-surveillance-01-wvzb/00hamas-surveillance-01-wvzb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Fatima Shbair/Associated Press</media:credit>
-      <media:description>A rally in support of Hamas in Gaza City in 2022. A secret police force overseen by Hamas’s leader in the enclave utilizes an extensive network of informants.</media:description>
-    </item>
-    <item>
-      <title>Anti-Monarchy Activist in Thailand Dies After Hunger Strike</title>
-      <link>https://www.nytimes.com/2024/05/14/world/asia/thailand-monarchy-activist-hunger-strike.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/asia/thailand-monarchy-activist-hunger-strike.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/asia/thailand-monarchy-activist-hunger-strike.html" rel="standout"></atom:link>
-      <description>Netiporn Sanesangkhom, 28, supported abolishing the law that prohibits criticizing royalty and wanted to push the authorities to stop jailing political activists.</description>
-      <dc:creator>Sui-Lee Wee</dc:creator>
-      <pubDate>Tue, 14 May 2024 11:27:32 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Thailand</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hunger Strikes</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14thai-activist-kjbq/14thai-activist-kjbq-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Lillian Suwanrumpha/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Thailand’s Parliament. The governing party said last year that lawmakers would discuss changes to the law against criticism of the monarchy, but later backtracked.</media:description>
-    </item>
-    <item>
-      <title>A Night to Remember at the Opera, Complete With a Phantom</title>
-      <link>https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html" rel="standout"></atom:link>
-      <description>About 130 children took part in a sleepover at Rome’s opera house, part of a campaign to make up for a lack of music education by making the theater and the art form more familiar and accessible.</description>
-      <dc:creator>Elisabetta Povoledo and Alessandro Penso</dc:creator>
-      <pubDate>Mon, 13 May 2024 14:06:05 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13rome-opera-mtqz-promo/13rome-opera-mtqz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Alessandro Penso for The New York Times</media:credit>
-    </item>
-    <item>
-      <title>Chinese Woman Jailed for Reporting on Covid Set to be Freed</title>
-      <link>https://www.nytimes.com/2024/05/13/world/asia/china-covid-citizen-journalist-zhang.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/asia/china-covid-citizen-journalist-zhang.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/world/asia/china-covid-citizen-journalist-zhang.html" rel="standout"></atom:link>
-      <description>Yet Zhang Zhan’s supporters and human rights activists who had followed her case said they could not reach her or her family members.</description>
-      <dc:creator>Vivian Wang</dc:creator>
-      <pubDate>Mon, 13 May 2024 17:47:35 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Reporters Without Borders</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Human Rights Watch</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zhang Zhan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Shanghai (China)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wuhan (China)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/world/13CHINA-CITIZENJOURNALIST/13CHINA-CITIZENJOURNALIST-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Kin Cheung/Associated Press</media:credit>
-      <media:description>A pro-democracy activist holding a placard demanding the release of Zhang Zhan, outside the Chinese central government’s liaison office in Hong Kong in 2020.</media:description>
-    </item>
-    <item>
       <title>Mumbai Storm Topples Huge Billboard, Killing 14</title>
       <link>https://www.nytimes.com/2024/05/13/world/asia/mumbai-india-storm-deaths.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/asia/mumbai-india-storm-deaths.html</guid>
@@ -264,96 +280,114 @@
       <media:description>The billboard fell on a gas station in suburban Mumbai where people had taken shelter from a storm. </media:description>
     </item>
     <item>
-      <title>Finnish Lawmaker Who Fired Gun Outside Bar Is Expelled From Party</title>
-      <link>https://www.nytimes.com/2024/05/13/world/europe/finland-mp-expelled-timo-vornanen.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/finland-mp-expelled-timo-vornanen.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/finland-mp-expelled-timo-vornanen.html" rel="standout"></atom:link>
-      <description>The lawmaker, Timo Vornanen, from the right-wing nationalist Finns Party is the latest party figure to come under scrutiny. He said he would continue in Parliament.</description>
-      <dc:creator>Johanna Lemola and Emma Bubola</dc:creator>
-      <pubDate>Mon, 13 May 2024 18:32:05 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fringe Groups and Movements</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gun Control</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Finland</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Firearms</category>
-    </item>
-    <item>
-      <title>At Least 2 Officers Killed in Ambush on Prison Convoy in France</title>
-      <link>https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html" rel="standout"></atom:link>
-      <description>The French authorities said that hundreds of officers had been deployed to track down a prisoner who had escaped and the assailants who had helped him.</description>
-      <dc:creator>Aurelien Breeden</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:34:19 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fugitives</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Attacks on Police</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Darmanin, Gerald</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dupond-Moretti, Eric</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
-      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/tqhb/tqhb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Alain Jocard/Agence France-Presse — Getty Images</media:credit>
-      <media:description>France’s justice minister, Éric Dupond-Moretti, said that three other officers had been injured in the episode.</media:description>
-    </item>
-    <item>
-      <title>Iranian Film Director Mohammad Rasoulof Flees Country After Jail Sentence</title>
-      <link>https://www.nytimes.com/2024/05/14/world/middleeast/iran-director-rasoulof.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/middleeast/iran-director-rasoulof.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/middleeast/iran-director-rasoulof.html" rel="standout"></atom:link>
-      <description>Mohammad Rasoulof, known for the award-winning “There Is No Evil,” had been barred from leaving Iran after his work criticized the country’s clerical leadership.</description>
-      <dc:creator>Emma Bubola</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:19:15 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rasoulof, Mohammad</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cannes International Film Festival</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of Speech and Expression</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14iran-director-gmkf/14iran-director-gmkf-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Loic Venance/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Mohammad Rasoulof in 2017. His most recent work is scheduled to premiere at the Cannes Film Festival this month.</media:description>
-    </item>
-    <item>
-      <title>Roman Polanski Did Not Defame British Actress, French Court Rules</title>
-      <link>https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html" rel="standout"></atom:link>
-      <description>Charlotte Lewis, who says the director raped her in the 1980s, brought the lawsuit against him over an interview in which he called the accusations an “odious lie.”</description>
-      <dc:creator>Aurelien Breeden</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:02:41 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Polanski, Roman</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Charlotte Lewis</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Libel and Slander</category>
+      <title>German Court Fines Far-Right Leader for Using Nazi Phrase</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/germany-afd-nazi-hocke.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/germany-afd-nazi-hocke.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/germany-afd-nazi-hocke.html" rel="standout"></atom:link>
+      <description>Björn Höcke, a state leader of the nationalist Alternative for Germany party, repeatedly used the phrase “Everything for Germany,” a slogan of the Nazi paramilitary wing, during campaign stops.</description>
+      <dc:creator>Christopher F. Schuetze</dc:creator>
+      <pubDate>Tue, 14 May 2024 17:14:28 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14france-polanski-bthv/14france-polanski-bthv-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Thomas Samson/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Roman Polanski in Paris in 2019.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Alternative for Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hocke, Bjorn (1972- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Thuringia (Germany)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14germany-hocke-ltwv/14germany-hocke-ltwv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pool photo by Jens Schlueter</media:credit>
+      <media:description>Björn Höcke at his trial in Halle, eastern Germany, on Tuesday. He claimed during the proceedings that he had not known about the phrase’s Nazi origin.</media:description>
     </item>
     <item>
-      <title>Georgia’s Parliament Gives Final Approval to ‘Foreign Agents’ Measure</title>
-      <link>https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html" rel="standout"></atom:link>
-      <description>The president has vowed to veto the legislation, which critics say could push the country back into Russia’s orbit. The governing party says it can override a veto.</description>
-      <dc:creator>Ivan Nechepurenko</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:08:56 +0000</pubDate>
+      <title>Russia Detains Senior General, Widening Military Purge</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/russia-detains-general-yuri-kuznetsov.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/russia-detains-general-yuri-kuznetsov.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/russia-detains-general-yuri-kuznetsov.html" rel="standout"></atom:link>
+      <description>Lt. Gen. Yuri Kuznetsov became the second senior defense official to be detained on an accusation of corruption in the past month.</description>
+      <dc:creator>Anatoly Kurmanaev</dc:creator>
+      <pubDate>Tue, 14 May 2024 17:18:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bribery and Kickbacks</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Georgian Dream (Political Party)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">European Union</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Georgia (Georgian Republic)</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14georgia1-jmpt/14georgia1-jmpt-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Giorgi Arjevanidze/Agence France-Presse — Getty Images</media:credit>
-      <media:description>A march to protest the controversial bill in Tbilisi, Georgia, on Monday.</media:description>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Investigative Committee (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shoigu, Sergei K</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14russia-defense-tgmh/14russia-defense-tgmh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Russian Defense Ministry, via Associated Press</media:credit>
+      <media:description>A photo made available by the Russian Defense Ministry of Lt. Gen. Yuri Kuznetsov. </media:description>
+    </item>
+    <item>
+      <title>U.N. Cites a Lower Death Toll Among Women and Children in Gaza</title>
+      <link>https://www.nytimes.com/2024/05/14/world/middleeast/un-gaza-death-toll-women-children.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/middleeast/un-gaza-death-toll-women-children.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/middleeast/un-gaza-death-toll-women-children.html" rel="standout"></atom:link>
+      <description>The overall count of those killed has not declined, but incomplete information about many of them has prompted the United Nations to use more conservative figures for children and women.</description>
+      <dc:creator>Matthew Mpoke Bigg, Lauren Leatherby and Abu Bakr Bashir</dc:creator>
+      <pubDate>Tue, 14 May 2024 17:18:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14mideast-crisis-casualties-zcqk/14mideast-crisis-casualties-zcqk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Samar Abu Elouf for The New York Times</media:credit>
+      <media:description>A woman mourning the loss of her siblings killed in Israeli airstrikes in the Gaza Strip in October.</media:description>
+    </item>
+    <item>
+      <title>Orcas Sink Another Boat Near Iberia, Worrying Sailors Before Summer</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html" rel="standout"></atom:link>
+      <description>Two people were rescued on Sunday after orcas damaged their boat near the Strait of Gibraltar, where the animals have caused havoc in recent years.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Tue, 14 May 2024 16:29:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sailboats and Sailing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Maritime Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gibraltar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Morocco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+    </item>
+    <item>
+      <title>Summer 2023 Was the Northern Hemisphere’s Hottest in 2,000 Years, Study Finds</title>
+      <link>https://www.nytimes.com/2024/05/14/climate/summer-2023-hottest-2000-years.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/climate/summer-2023-hottest-2000-years.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/climate/summer-2023-hottest-2000-years.html" rel="standout"></atom:link>
+      <description>Scientists used tree rings to compare last year’s extreme heat with temperatures over the past two millenniums.</description>
+      <dc:creator>Delger Erdenesanaa</dc:creator>
+      <pubDate>Tue, 14 May 2024 15:02:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trees and Shrubs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Two Thousand Twenty Three</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Heat and Heat Waves</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Nature (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Summer (Season)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/climate/14CLI-hottest-2000/14CLI-hottest-2000-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Arpad Benedek/Alamy</media:credit>
+      <media:description>A 730-year-old fir tree in Mount Rainier National Park, Wash. Researchers used data from 10,000 trees across the Northern Hemisphere.</media:description>
+    </item>
+    <item>
+      <title>Red Lobster Temporarily Closes Dozens of Restaurants</title>
+      <link>https://www.nytimes.com/2024/05/14/business/red-lobster-closing.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/business/red-lobster-closing.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/business/red-lobster-closing.html" rel="standout"></atom:link>
+      <description>The seafood chain has been losing money for years. The liquidator behind the auction said more than 50 of its U.S. locations had closed.</description>
+      <dc:creator>Mike Ives</dc:creator>
+      <pubDate>Tue, 14 May 2024 13:47:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Seafood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Red Lobster Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Thailand</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/glbj/glbj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Justin Sullivan/Getty Images</media:credit>
+      <media:description>A Red Lobster restaurant in Rohnert Park, Calif., is one of the locations listed on an auction website as selling its equipment. </media:description>
     </item>
     <item>
       <title>Alarmed by Climate Change, Astronomers Train Their Sights on Earth</title>
@@ -439,11 +473,16 @@
       <dc:creator>David E. Sanger and Zach Montague</dc:creator>
       <pubDate>Mon, 13 May 2024 22:57:24 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sullivan, Jacob J (1976- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rafah (Gaza Strip)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sullivan, Jacob J (1976- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13mideast-crisis-biden-white-house-briefing-jckv/13mideast-crisis-biden-white-house-briefing-jckv-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Doug Mills/The New York Times</media:credit>
       <media:description>Jake Sullivan, President Biden’s national security adviser, at the White House, on Monday.</media:description>
@@ -469,17 +508,32 @@
       <description>The Federal Energy Regulatory Commission approved the biggest changes in more than a decade to the way U.S. power lines are planned and funded.</description>
       <dc:creator>Brad Plumer</dc:creator>
       <pubDate>Mon, 13 May 2024 22:22:17 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alternative and Renewable Energy</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric Light and Power</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Energy and Power</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Alternative and Renewable Energy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Energy Regulatory Commission</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schumer, Charles E</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/13cli-expandingthegrid-01-vjpl/13cli-expandingthegrid-01-vjpl-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Renaud Philippe for The New York Times</media:credit>
       <media:description>A transmission line construction project near Bingham, Maine, in 2022.</media:description>
+    </item>
+    <item>
+      <title>Finnish Lawmaker Who Fired Gun Outside Bar Is Expelled From Party</title>
+      <link>https://www.nytimes.com/2024/05/13/world/europe/finland-mp-expelled-timo-vornanen.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/finland-mp-expelled-timo-vornanen.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/finland-mp-expelled-timo-vornanen.html" rel="standout"></atom:link>
+      <description>The lawmaker, Timo Vornanen, from the right-wing nationalist Finns Party is the latest party figure to come under scrutiny. He said he would continue in Parliament.</description>
+      <dc:creator>Johanna Lemola and Emma Bubola</dc:creator>
+      <pubDate>Mon, 13 May 2024 18:32:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fringe Groups and Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gun Control</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Finland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Firearms</category>
     </item>
     <item>
       <title>Putin’s New Defense Minister Signals Russia’s Plan for a Long War in Ukraine</title>
@@ -507,11 +561,13 @@
       <atom:link href="https://www.nytimes.com/article/russia-ukraine-kharkiv.html" rel="standout"></atom:link>
       <description>Ukraine’s forces are stretched thin and have minimal reserves to draw on, the chief of military intelligence said, in addition to shortages of weapons.</description>
       <dc:creator>Constant Méheut, Maria Varenikova and Michael Schwirtz</dc:creator>
-      <pubDate>Tue, 14 May 2024 07:31:15 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 07:31:16 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Vovchansk (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Chasiv Yar (Ukraine)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Budanov, Kyrylo</category>
@@ -536,6 +592,27 @@
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13uk-arrests-02-hwmj/13uk-arrests-02-hwmj-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Neil Hall/EPA, via Shutterstock</media:credit>
       <media:description>The three men charged appeared at Westminster Magistrates’ Court on Monday. </media:description>
+    </item>
+    <item>
+      <title>Chinese Woman Jailed for Reporting on Covid Set to be Freed</title>
+      <link>https://www.nytimes.com/2024/05/13/world/asia/china-covid-citizen-journalist-zhang.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/asia/china-covid-citizen-journalist-zhang.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/world/asia/china-covid-citizen-journalist-zhang.html" rel="standout"></atom:link>
+      <description>Yet Zhang Zhan’s supporters and human rights activists who had followed her case said they could not reach her or her family members.</description>
+      <dc:creator>Vivian Wang</dc:creator>
+      <pubDate>Mon, 13 May 2024 17:47:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coronavirus (2019-nCoV)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Reporters Without Borders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Human Rights Watch</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zhang Zhan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Shanghai (China)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wuhan (China)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/world/13CHINA-CITIZENJOURNALIST/13CHINA-CITIZENJOURNALIST-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Kin Cheung/Associated Press</media:credit>
+      <media:description>A pro-democracy activist holding a placard demanding the release of Zhang Zhan, outside the Chinese central government’s liaison office in Hong Kong in 2020.</media:description>
     </item>
     <item>
       <title>Israelis Mark Memorial Day Among Portraits of Those Lost at the Nova Festival Ground</title>
@@ -593,6 +670,26 @@
       <media:description>Smoke from wildfires burning east of Teepee Creek in Alberta, Canada, on Friday.</media:description>
     </item>
     <item>
+      <title>Secret Hamas Files Show It Spied on Everyday Palestinians</title>
+      <link>https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html" rel="standout"></atom:link>
+      <description>Hamas monitored political activity, online posts, and apparently even love lives. Palestinians were stuck between an Israeli blockade and a repressive security force.</description>
+      <dc:creator>Adam Rasgon and Ronen Bergman</dc:creator>
+      <pubDate>Mon, 13 May 2024 17:16:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sinwar, Yehya</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/00hamas-surveillance-01-wvzb/00hamas-surveillance-01-wvzb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Fatima Shbair/Associated Press</media:credit>
+      <media:description>A rally in support of Hamas in Gaza City in 2022. A secret police force overseen by Hamas’s leader in the enclave utilizes an extensive network of informants.</media:description>
+    </item>
+    <item>
       <title>Violent Unrest Over Economic Strife Erupts in Pakistan’s Kashmir Region</title>
       <link>https://www.nytimes.com/2024/05/13/world/asia/pakistan-kashmir-protests.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/asia/pakistan-kashmir-protests.html</guid>
@@ -634,6 +731,25 @@
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/fjmq/fjmq-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Emile Ducke for The New York Times</media:credit>
       <media:description>Evacuees arriving in Kharkiv on Sunday.</media:description>
+    </item>
+    <item>
+      <title>A Night to Remember at the Opera, Complete With a Phantom</title>
+      <link>https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/opera-rome-music-education.html" rel="standout"></atom:link>
+      <description>About 130 children took part in a sleepover at Rome’s opera house, part of a campaign to make up for a lack of music education by making the theater and the art form more familiar and accessible.</description>
+      <dc:creator>Elisabetta Povoledo and Alessandro Penso</dc:creator>
+      <pubDate>Mon, 13 May 2024 14:06:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13rome-opera-mtqz-promo/13rome-opera-mtqz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alessandro Penso for The New York Times</media:credit>
     </item>
     <item>
       <title>Fighting Flares Anew in Gaza as Hamas Regroups</title>
@@ -969,147 +1085,6 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
       <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11ukraine-kharkiv-new-4-zlfk/11ukraine-kharkiv-new-4-zlfk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:description>Olha Melnichuk, an 85-year-old resident of Liptsi, near the Russian border, was evacuated to a shelter in Kharkiv, the country’s second-largest city, on Saturday.</media:description>
-    </item>
-    <item>
-      <title>When Travel Plans Go Awry</title>
-      <link>https://www.nytimes.com/2024/05/11/briefing/when-travel-plans-go-awry.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/briefing/when-travel-plans-go-awry.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/briefing/when-travel-plans-go-awry.html" rel="standout"></atom:link>
-      <description>There are ways of keeping ourselves anchored, even when we enter a parallel universe disconnected from time.</description>
-      <dc:creator>Melissa Kirsch</dc:creator>
-      <pubDate>Sat, 11 May 2024 10:28:13 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-storyline-no</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hotels and Travel Lodgings</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Video Recordings, Downloads and Streaming</category>
-    </item>
-    <item>
-      <title>Canada’s Public Sector Unions Threaten Disruption Over Return to Office</title>
-      <link>https://www.nytimes.com/2024/05/11/world/canada/canada-public-sector-unions-remote-work.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/canada/canada-public-sector-unions-remote-work.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/canada/canada-public-sector-unions-remote-work.html" rel="standout"></atom:link>
-      <description>After their strike last year failed to win the right to work remotely, the unions are challenging a plan calling for three days a week at workplaces.</description>
-      <dc:creator>Ian Austen</dc:creator>
-      <pubDate>Sat, 11 May 2024 10:00:02 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Strikes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Telecommuting</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ford, Doug Jr (1964- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Anand, Anita (1972- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11canadaletter-strike-gfph/11canadaletter-strike-gfph-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Ian Austen/The New York Times</media:credit>
-      <media:description>Return to office was a major issue during last year’s public service walkout.</media:description>
-    </item>
-    <item>
-      <title>Will an Authoritarian Government in Venezuela Allow a Fair Election?</title>
-      <link>https://www.nytimes.com/2024/05/11/world/americas/venezuela-elections.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/americas/venezuela-elections.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/americas/venezuela-elections.html" rel="standout"></atom:link>
-      <description>President Nicolás Maduro has held on to power by holding sham elections. In July he will run again, but would he willingly cede power?</description>
-      <dc:creator>Julie Turkewitz and Adriana Loureiro Fernandez</dc:creator>
-      <pubDate>Sat, 11 May 2024 14:08:43 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Machado, Maria Corina</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gonzalez, Edmundo (1949- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Democracy (Theory and Philosophy)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11venezuela-opposition-promo/11venezuela-opposition-01-mfkc-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Adriana Loureiro Fernandez for The New York Times</media:credit>
-      <media:description>People line up to vote at an improvised voting center in a football court in Catia, a former stronghold of Nicolas Maduro’s party.</media:description>
-    </item>
-    <item>
-      <title>Isolated and Defiant, Israel Vows to ‘Stand Alone’ in War on Hamas</title>
-      <link>https://www.nytimes.com/2024/05/11/world/middleeast/isolated-israel-war-hamas.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/middleeast/isolated-israel-war-hamas.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/middleeast/isolated-israel-war-hamas.html" rel="standout"></atom:link>
-      <description>As the death toll in Gaza has risen, countries have turned their backs on Israel. The consequences of those desertions, from security to economics, risk turning Israel into a pariah.</description>
-      <dc:creator>Damien Cave</dc:creator>
-      <pubDate>Sat, 11 May 2024 15:52:07 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/30/multimedia/30israel-isolation-vcbl/30israel-isolation-vcbl-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Eduardo Munoz/Reuters</media:credit>
-      <media:description>On Friday, in a largely symbolic gesture, the United Nations General Assembly backed Palestine’s bid for U.N. membership.</media:description>
-    </item>
-    <item>
-      <title>Burkina Faso Accused of Massacring Civilians</title>
-      <link>https://www.nytimes.com/2024/05/11/world/africa/burkina-faso-massacre.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/africa/burkina-faso-massacre.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/africa/burkina-faso-massacre.html" rel="standout"></atom:link>
-      <description>Witnesses and human rights groups claim the West African country’s military killed more than 220 people, including women and children, in February. It was neither a mistake nor a one-off, they say.</description>
-      <dc:creator>Elian Peltier and Christiaan Triebert</dc:creator>
-      <pubDate>Sun, 12 May 2024 02:24:33 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Burkina Faso</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Traore, Ibrahim</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coups D&#39;Etat and Attempted Coups D&#39;Etat</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Al Qaeda</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic State in Iraq and Syria (ISIS)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">War Crimes, Genocide and Crimes Against Humanity</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Muslims and Islam</category>
-    </item>
-    <item>
-      <title>Flooding Kills Dozens in Afghanistan</title>
-      <link>https://www.nytimes.com/2024/05/11/world/asia/afghanistan-flash-flooding.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/asia/afghanistan-flash-flooding.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/asia/afghanistan-flash-flooding.html" rel="standout"></atom:link>
-      <description>Heavy seasonal rains have set off floods in the northern province of Baghlan and in at least three other provinces.</description>
-      <dc:creator>Safiullah Padshah, Christina Goldbaum and Najim Rahim</dc:creator>
-      <pubDate>Sat, 11 May 2024 17:49:14 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Floods</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kabul (Afghanistan)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Disasters and Emergencies</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Taliban</category>
-      <media:content height="1618" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11xp-afghan-floods-vmjg/11xp-afghan-floods-vmjg-mediumSquareAt3X.jpg" width="1616"></media:content>
-      <media:credit>Agence France-Presse — Getty Images</media:credit>
-      <media:description>Flash flooding in northern Afghanistan has killed more than 300 people, U.N. officials said.</media:description>
-    </item>
-    <item>
-      <title>Big, Smoggy Bangkok Gets a Badly Needed Breath of Fresh Air</title>
-      <link>https://www.nytimes.com/2024/05/11/world/asia/bangkok-thailand-benjakitti-park.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/world/asia/bangkok-thailand-benjakitti-park.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/world/asia/bangkok-thailand-benjakitti-park.html" rel="standout"></atom:link>
-      <description>In the heart of this megacity, an industrial site has been turned into an oasis for residents (and birds, bats and mosquito-eating dragonflies).</description>
-      <dc:creator>Richard C. Paddock</dc:creator>
-      <pubDate>Sat, 11 May 2024 04:01:27 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bangkok (Thailand)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Thailand</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parks and Other Recreation Areas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wetlands</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Urban Areas</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/01/world/00Thailand-Bangkok-Park-19/00Thailand-Bangkok-Park-19-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Lauren DeCicca for The New York Times</media:credit>
-      <media:description>Trees and wetlands thrive in the newly expanded Benjakitti Park in central Bangkok, where a factory complex once churned out cigarettes.</media:description>
     </item>
   </channel>
 </rss>

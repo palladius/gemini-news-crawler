@@ -26,6 +26,7 @@ gem 'gemini-ai' # For Gemini
 # [NOT TESTED] bundle config build.unicode --with-cflags=\"-Wno-incompatible-function-pointer-types\"
 gem 'langchainrb', '~> 0.12.1'
 gem 'google-apis-aiplatform_v1' # For Gemini
+gem 'faraday' # for Ollama
 # /Riccardo end
 ################################
 

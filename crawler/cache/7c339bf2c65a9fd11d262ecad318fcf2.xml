@@ -7,13 +7,30 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 12:43:31 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 11:20:39 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 17:35:24 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 16:21:27 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
+    <item>
+      <title>Fed Chair’s Confidence in Slowing Inflation Is ‘Not as High’ as Before</title>
+      <link>https://www.nytimes.com/2024/05/14/business/economy/fed-powell-inflation.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/business/economy/fed-powell-inflation.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/business/economy/fed-powell-inflation.html" rel="standout"></atom:link>
+      <description>Jerome H. Powell, the Federal Reserve chair, said that the central bank was poised to leave interest rates on hold after surprisingly stubborn inflation.</description>
+      <dc:creator>Jeanna Smialek</dc:creator>
+      <pubDate>Tue, 14 May 2024 15:32:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14dc-powell-vmbj/14dc-powell-vmbj-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Kevin Lamarque/Reuters</media:credit>
+      <media:description>Jerome H. Powell said that he expected continued growth and a strong labor market in the months ahead, and that he believed inflation would begin to slow again.</media:description>
+    </item>
     <item>
       <title>High Interest Rates Are Hitting Poorer Americans the Hardest</title>
       <link>https://www.nytimes.com/2024/05/14/business/economy/interest-rates-inequality.html</link>
@@ -394,25 +411,6 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-    </item>
-    <item>
-      <title>U.S. Economy Grew at 1.6% Rate in First-Quarter Slowdown</title>
-      <link>https://www.nytimes.com/2024/04/25/business/economy/us-economy-gdp-growth.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/business/economy/us-economy-gdp-growth.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/25/business/economy/us-economy-gdp-growth.html" rel="standout"></atom:link>
-      <description>Gross domestic product, adjusted for inflation, increased at a 1.6 percent annual rate in the first three months of the year.</description>
-      <dc:creator>Ben Casselman</dc:creator>
-      <pubDate>Fri, 26 Apr 2024 00:39:25 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Behavior</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Commerce Department</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gross Domestic Product</category>
-      <media:content height="1000" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/2024-04-25-gdp-quarters-index/2024-04-25-gdp-quarters-index-mediumSquareAt3X-v3.png" width="1000"></media:content>
-      <media:credit>Karl Russell</media:credit>
     </item>
   </channel>
 </rss>

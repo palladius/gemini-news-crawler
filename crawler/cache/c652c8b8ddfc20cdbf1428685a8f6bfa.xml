@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com/page/2_0006.html"/>
 <description>World News</description>
 <language>en-us</language>
-<pubDate>Tue, 14 May 2024 08:44:25 -0400</pubDate>
-<lastBuildDate>Tue, 14 May 2024 08:44:25 -0400</lastBuildDate>
+<pubDate>Tue, 14 May 2024 13:29:46 -0400</pubDate>
+<lastBuildDate>Tue, 14 May 2024 13:29:46 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com/page/2_0006.html</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -17,41 +17,121 @@
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
 <item>
-<title>Stock Futures Flat With PPI Inflation Data in Spotlight</title>
-<link>https://www.wsj.com/articles/australia-shares-shaping-for-uncertain-open-6f326123</link>
-<description><![CDATA[Stock futures moved lower after the latest inflation reading came in hotter than expected.]]></description>
+<title>The Students Who Go Against the Crowd</title>
+<link>https://www.wsj.com/articles/columbia-law-clerks-judges-boycott-3f5baa57</link>
+<description><![CDATA[Rather than boycott institutions, the 13 judges should consider giving preference to law students who challenge them.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 08:43:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 13:28:00 -0400</pubDate>
+<guid isPermaLink="false">SB11748940752782174604404591044473221728988</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Letters</wsj:articletype>
+</item>
+<item>
+<title>Google to Roll Out AI Search Summaries to Billions</title>
+<link>https://www.wsj.com/articles/google-generative-ai-search-summaries-announcement-ffab4ce1</link>
+<description><![CDATA[Starting this week in the U.S., hundreds of millions of people will begin seeing AI overviews in Google search, as the company strengthens its embrace of generative artificial intelligence.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 13:26:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001772441</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Technology</wsj:articletype>
+</item>
+<item>
+<title>Stocks Mixed After Producer-Price Data</title>
+<link>https://www.wsj.com/articles/australia-shares-shaping-for-uncertain-open-6f326123</link>
+<description><![CDATA[U.S. stocks were mixed in recent trading as investors digested wholesale-inflation data and awaited a reading on consumer prices, due Wednesday .]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 13:21:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772217</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>NewsPlus</wsj:articletype>
 </item>
 <item>
-<title>Alibaba Quarterly Profit Sinks Despite Rise in Sales</title>
-<link>https://www.wsj.com/articles/alibaba-quarterly-profit-sinks-despite-rise-in-sales-e86bf592</link>
-<description><![CDATA[Alibaba Group’s profit sank in the latest quarter, even as revenue rose on higher sales in its key e-commerce, cloud and logistics businesses.]]></description>
+<title>Payments-Company Waystar Plans to Restart IPO Pitch</title>
+<link>https://www.wsj.com/articles/waystar-ipo-june-2024-1662148d</link>
+<description><![CDATA[The private equity-backed company is eyeing a June stock-market debut.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 08:16:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772459</guid>
+<pubDate>Tue, 14 May 2024 13:19:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773678</guid>
 <category domain="AccessClassName">PAID</category>
-<wsj:articletype>Earnings</wsj:articletype>
+<wsj:articletype>Business</wsj:articletype>
+</item>
+<item>
+<title>Michael Cohen on Working for Trump:'I Violated My Moral Compass'</title>
+<link>https://www.wsj.com/articles/michael-cohen-trump-trial-testimony-day-two-7f5c7874</link>
+<description><![CDATA[The former fixer is continuing his testimony in Trump’s criminal trial.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 13:13:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001763745</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>U.S. News</wsj:articletype>
+</item>
+<item>
+<title>'Pompeii: The New Dig' Review: Stories From Under the Ashes</title>
+<link>https://www.wsj.com/articles/pompeii-the-new-dig-review-pbs-documentary-excavation-vesuvius-babf8ef1</link>
+<description><![CDATA[A three-part PBS documentary explores the revelatory recent excavations of the ancient Italian city buried by the eruption of Mount Vesuvius in A.D. 79.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 13:11:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJO-0000038021</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Television Review</wsj:articletype>
+</item>
+<item>
+<title>U.S. Inflation Could Be Getting Less Sticky</title>
+<link>https://www.wsj.com/articles/u-s-inflation-could-be-getting-less-sticky-db35007e</link>
+<description><![CDATA[There are signs that U.S. inflation might be getting less sticky, Piper Sandler economists write in a note.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 13:06:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773746</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Central Banks Research</wsj:articletype>
 </item>
 <item>
 <title>Biden Levies Sweeping Tariffs on China, Intensifying Trade Fight With Trump</title>
 <link>https://www.wsj.com/articles/biden-trump-tariffs-d405cbca</link>
 <description><![CDATA[The presumed 2024 election foes are taking competing protectionist approaches against Beijing.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 08:13:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 13:02:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772092</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Election 2024</wsj:articletype>
 </item>
 <item>
+<title>Alice Munro, Prolific Short-Story Author and Nobel Laureate, Has Died</title>
+<link>https://www.wsj.com/articles/alice-munro-prolific-short-story-author-and-nobel-laureate-has-died-6da7607e</link>
+<description><![CDATA[The Canadian writer used spare language and precise dialogue to explore characters’ inner lives.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 12:44:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0000602731</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Obituaries</wsj:articletype>
+</item>
+<item>
+<title>The Populist Who Plans to Break Up Belgium</title>
+<link>https://www.wsj.com/articles/the-populist-who-plans-to-break-up-belgium-84cd39c9</link>
+<description><![CDATA[Tom Van Grieken’s party leads the polls. He won’t be prime minister but could shake things up.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 12:38:00 -0400</pubDate>
+<guid isPermaLink="false">SB11758838676680174563904591022071401452898</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Commentary (U.S.)</wsj:articletype>
+</item>
+<item>
+<title>Save Higher Ed With the Chicago Principles</title>
+<link>https://www.wsj.com/articles/save-higher-ed-the-chicago-way-respect-free-speech-to-avoid-campus-strife-abbf70e7</link>
+<description><![CDATA[Respect free speech and don’t take sides—a simple approach to avoid campus strife.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 12:35:00 -0400</pubDate>
+<guid isPermaLink="false">SB10808318901491104888604591044450076483240</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Politics &amp; Ideas</wsj:articletype>
+</item>
+<item>
 <title>Auto &amp; Transport Roundup: Market Talk</title>
 <link>https://www.wsj.com/articles/auto-transport-roundup-market-talk-b5c8f192</link>
-<description><![CDATA[Maersk, Hyundai Mobis and more in the latest Market Talks covering the Auto and Transport sector.]]></description>
+<description><![CDATA[Gain insight on Boeing, Fraport, and more in the latest Market Talks covering the Auto and Transport sector.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 08:07:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 12:34:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772983</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>NewsPlus</wsj:articletype>
@@ -59,29 +139,19 @@
 <item>
 <title>Energy &amp; Utilities Roundup: Market Talk</title>
 <link>https://www.wsj.com/articles/energy-utilities-roundup-market-talk-353d2944</link>
-<description><![CDATA[Emera, Algonquin Power and more in the latest Market Talks covering Energy and Utilities.]]></description>
+<description><![CDATA[Find insights on Keyera, Worley, Sinopec, and more in the latest Market Talks covering Energy and Utilities.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 08:02:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 12:31:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772977</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>NewsPlus</wsj:articletype>
 </item>
 <item>
-<title>Flood of Fake Science Forces Multiple Journal Closures</title>
-<link>https://www.wsj.com/articles/academic-studies-research-paper-mills-journals-publishing-f5a3d4bc</link>
-<description><![CDATA[Wiley will announce that it will shutter 19 more journals, some tainted by fraud.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 08:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001771155</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Science</wsj:articletype>
-</item>
-<item>
 <title>Health Care Roundup: Market Talk</title>
 <link>https://www.wsj.com/articles/health-care-roundup-market-talk-4557ddcb</link>
-<description><![CDATA[Novo Nordisk, Cytokinetics and more in the latest Market Talks covering the Health Care sector.]]></description>
+<description><![CDATA[Find insights on Bayer, Alcon, Dr. Lal Pathlabs, and more in the latest Market Talks covering the Health Care sector.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:58:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 12:28:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772972</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>NewsPlus</wsj:articletype>
@@ -89,9 +159,9 @@
 <item>
 <title>Financial Services Roundup: Market Talk</title>
 <link>https://www.wsj.com/articles/financial-services-roundup-market-talk-2c261805</link>
-<description><![CDATA[The latest Market Talks covering Financial Services.]]></description>
+<description><![CDATA[Gain insight on Hannover Re, Virgin Money UK, and more in the latest Market Talks covering Financial Services.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:54:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 12:27:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772967</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>NewsPlus</wsj:articletype>
@@ -99,122 +169,52 @@
 <item>
 <title>Tech, Media &amp; Telecom Roundup: Market Talk</title>
 <link>https://www.wsj.com/articles/tech-media-telecom-roundup-market-talk-97b45657</link>
-<description><![CDATA[Telenor, Squarespace and more in the latest Market Talks covering Technology, Media and Telecom.]]></description>
+<description><![CDATA[Find insights on Vodafone, Delivery Hero, UMS Holdings, and more in the latest Market Talks covering Technology, Media and Telecom.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:50:00 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 12:25:00 -0400</pubDate>
 <guid isPermaLink="false">WP-WSJ-0001772958</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>NewsPlus</wsj:articletype>
 </item>
 <item>
-<title>Regulators Probe Alphabet's Waymo After 22 Self-Driving Car Incidents</title>
-<link>https://www.wsj.com/articles/regulators-probe-alphabets-waymo-after-22-self-driving-car-incidents-996fde65</link>
-<description><![CDATA[Federal auto-safety regulators are looking into Waymo, Google parent Alphabet’s self-driving car startup, following 22 reported incidents involving the unit’s automated driving system.]]></description>
+<title>Basic Materials Roundup: Market Talk</title>
+<link>https://www.wsj.com/articles/basic-materials-roundup-market-talk-d40ad228</link>
+<description><![CDATA[Gain insight on MP Materials, Hudbay Minerals, and more in the latest Market Talks covering Basic Materials.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:38:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772950</guid>
+<pubDate>Tue, 14 May 2024 12:23:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773017</guid>
 <category domain="AccessClassName">PAID</category>
-<wsj:articletype>Business</wsj:articletype>
+<wsj:articletype>NewsPlus</wsj:articletype>
 </item>
 <item>
-<title>Anglo American Plots Breakup After Rejecting $43 Billion BHP Bid</title>
-<link>https://www.wsj.com/articles/anglo-american-plans-to-split-up-units-after-rejecting-43-billion-bhp-bid-20f0230c</link>
-<description><![CDATA[The miner outlined a turnaround effort that sharpens its focus on copper after turning down a sweetened takeover offer.]]></description>
+<title>Ex-Google Chief Eric Schmidt Finds Buyer Two Weeks After Listing Silicon Valley Home</title>
+<link>https://www.wsj.com/articles/ex-google-chief-eric-schmidt-silicon-valley-home-f92dcb7e</link>
+<description><![CDATA[Schmidt and his wife, Wendy Schmidt, listed the Atherton property for $24.5 million.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:32:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772684</guid>
+<pubDate>Tue, 14 May 2024 12:21:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773399</guid>
 <category domain="AccessClassName">PAID</category>
-<wsj:articletype>Business</wsj:articletype>
+<wsj:articletype>Private Properties</wsj:articletype>
 </item>
 <item>
-<title>Top-Ranking Lenders See Diminishing Recoveries in Bankruptcy</title>
-<link>https://www.wsj.com/articles/top-ranking-lenders-see-diminishing-recoveries-in-bankruptcy-653af97e</link>
-<description><![CDATA[Top-ranking lenders continue to get less of their money back when companies go bankrupt as many firms head into chapter 11 with less junior debt to absorb the pain, and as aggressive debt restructurings can change who gets repaid first.]]></description>
+<title>Harvard Reaches Deal With Student Protesters to End Encampment</title>
+<link>https://www.wsj.com/articles/harvard-reaches-deal-with-student-protesters-to-end-encampment-5961dedc</link>
+<description><![CDATA[President Alan Garber said the university would begin reinstatement proceedings for students “placed on involuntary leaves of absence” and evaluate the disciplinary cases of those who participated in the encampment.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001771703</guid>
+<pubDate>Tue, 14 May 2024 12:21:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773455</guid>
 <category domain="AccessClassName">PAID</category>
-<wsj:articletype>Pro Bankruptcy Bankruptcy</wsj:articletype>
+<wsj:articletype>U.S. News</wsj:articletype>
 </item>
 <item>
-<title>Israel's Once-Dominant Drugmaker Is Revived by Innovation</title>
-<link>https://www.wsj.com/articles/israels-once-dominant-drugmaker-is-revived-by-innovation-daed1214</link>
-<description><![CDATA[Teva Pharmaceutical’s stock has nearly doubled in the past year as Wall Street gets excited about its branded portfolio.]]></description>
+<title>The Art Market is Down. A Cyberattack at Christie's May Make Things Worse.</title>
+<link>https://www.wsj.com/articles/christies-cyber-attack-auctions-290b2a53</link>
+<description><![CDATA[The auction house plans for sales to proceed, including for a Warhol “Flowers” estimated at $20 million.]]></description>
 <content:encoded/>
-<pubDate>Tue, 14 May 2024 07:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001771934</guid>
+<pubDate>Tue, 14 May 2024 12:21:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773450</guid>
 <category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>OPEC Sticks to Oil-Demand View</title>
-<link>https://www.wsj.com/articles/opec-sticks-to-oil-demand-view-posts-fall-in-overall-output-65c820ec</link>
-<description><![CDATA[OPEC left its estimates for global oil-demand growth unchanged for this year and next, while reporting a fall in crude output as the market awaits the cartel’s next production policy move at its upcoming meeting in June.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:55:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772813</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Oil Markets</wsj:articletype>
-</item>
-<item>
-<title>GameStop, AMC Shares Soar as Meme-Stock Comeback Continues</title>
-<link>https://www.wsj.com/articles/gamestop-amc-shares-soar-as-meme-stock-comeback-continues-d4de3681</link>
-<description><![CDATA[Both stocks added about 40% premarket and were among the most heavily traded shares in off-hours action.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:46:00 -0400</pubDate>
-<guid isPermaLink="false">SB11748940752782174604404591045740259405936</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>MobileDeco1</wsj:articletype>
-</item>
-<item>
-<title>On Independence Day, Many Israelis Ask: 'What's to Celebrate?'</title>
-<link>https://www.wsj.com/articles/on-independence-day-many-israelis-ask-whats-to-celebrate-d1ad6562</link>
-<description><![CDATA[With the Gaza war grinding on and fallen soldiers, victims of the Oct. 7 attack and hostages front of mind, the mood is somber.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:41:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772775</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Middle East News</wsj:articletype>
-</item>
-<item>
-<title>GameStop, AMC Shares Soar as Meme-Stock Comeback Continues</title>
-<link>https://www.wsj.com/articles/gamestop-amc-shares-soar-as-meme-stock-comeback-continues-db73fc80</link>
-<description><![CDATA[Prices of both stocks roughly doubled premarket and were among the most heavily traded shares in off-hours action.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:38:00 -0400</pubDate>
-<guid isPermaLink="false">SB10808318901491104888604591045732582264432</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Deco Summary (Plain)</wsj:articletype>
-</item>
-<item>
-<title>Blinken Arrives in Ukraine to Boost Spirits, Funnel U.S. Military Aid</title>
-<link>https://www.wsj.com/articles/blinken-arrives-in-ukraine-to-boost-spirits-funnel-u-s-military-aid-6a7d77a6</link>
-<description><![CDATA[A resurgent Russian military is pressing hard before Ukrainians can rearm.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:37:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772517</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>World News</wsj:articletype>
-</item>
-<item>
-<title>Tencent Profit Jumps as High-Margin Businesses Grow</title>
-<link>https://www.wsj.com/articles/tencent-profit-jumps-as-high-margin-businesses-grow-caf0ea7a</link>
-<description><![CDATA[Chinese technology giant Tencent reported a sharp rise in profit for the first quarter, buoyed by rapid growth in its high-margin businesses.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:37:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772465</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Business</wsj:articletype>
-</item>
-<item>
-<title>How Limited Partner Scrutiny Has Changed Since 2021</title>
-<link>https://www.wsj.com/articles/how-limited-partner-scrutiny-has-changed-since-2021-e23d0112</link>
-<description><![CDATA[Giuseppe Stuto, co-founder and managing partner of 186 Ventures, discusses what it takes to raise a venture-capital fund now.]]></description>
-<content:encoded/>
-<pubDate>Tue, 14 May 2024 06:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001772251</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Pro VC Industry News</wsj:articletype>
+<wsj:articletype>Art &amp; Auctions</wsj:articletype>
 </item>
 </channel>
 </rss>

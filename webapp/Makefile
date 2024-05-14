@@ -8,7 +8,7 @@ install:
 	npm i @hotwired/turbo-rails
 	npm i "@hotwired/stimulus"
 	rails stimulus:install
-	if_mac bundle config build.langchainrb --with-cflags=\"-Wno-incompatible-function-pointer-types\"
+	if_mac bundle config build.unicode --with-cflags=\"-Wno-incompatible-function-pointer-types\"
 	bundle install
 #	yarn upgrade
 
@@ -98,3 +98,7 @@ postgres-schema:
 
 sample-gcp-article-neighbours:
 	echo 'Article.find(10170).closest_articles(size: 5, similarity_field: :title_embedding).map{|x| x.title}'| rails c
+
+auth:
+	gcloud auth application-default login
+	gcloud auth login

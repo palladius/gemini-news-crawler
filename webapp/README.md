@@ -5,14 +5,18 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version: `3.2.2` has issues with langchainrb
-* System dependencies
-* Configuration
-* Database: Using PostgreS
+* Ruby version: `3.2.2`.
+* Rails version: `7.1.3.2`.
+* Database: PostgreS
 * How to run the test suite
 * Services (job queues, cache servers, search engines, etc.)
-* Deployment instructions
-* ...
+
+Deployment:
+* dockerized in.. `Dockerfile` and launched through `entrypoint-8080.sh`
+* Cloud Build (auto): https://console.cloud.google.com/cloud-build/builds?project=palladius-genai
+* Launched in:
+* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
+* PROD: https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/
 
 ## Incidents
 

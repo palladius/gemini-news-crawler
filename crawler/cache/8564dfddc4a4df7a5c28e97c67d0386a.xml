@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Tue, 14 May 2024 07:01:22 -0400</pubDate>
-<lastBuildDate>Tue, 14 May 2024 07:01:22 -0400</lastBuildDate>
+<pubDate>Tue, 14 May 2024 11:39:11 -0400</pubDate>
+<lastBuildDate>Tue, 14 May 2024 11:39:11 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,36 @@
 <link>http://online.wsj.com</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Home Depot Still Looks Sturdy</title>
+<link>https://www.wsj.com/articles/home-depot-still-looks-sturdy-e980b614?mod=rss_markets_main</link>
+<description><![CDATA[High rates and low housing turnover are a drag, but there is much to like.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 11:37:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773385</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Breaking Up Anglo American Now Could Mean Merging It Later</title>
+<link>https://www.wsj.com/articles/breaking-up-anglo-american-now-could-mean-merging-it-later-5133c893?mod=rss_markets_main</link>
+<description><![CDATA[Anglo American’s plan to sell off assets and strengthen its balance sheet would likely make it an even more attractive acquisition.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 11:22:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001773300</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>Tips For Raising Money With Personal Crowdfunding Campaigns</title>
+<link>https://www.wsj.com/articles/crowdfunding-campaign-tips-research-65f05ea6?mod=rss_markets_main</link>
+<description><![CDATA[Among other things, researchers have found that the more faces shown in the main photo, the more money people will donate.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 10:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001656189</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Journal Reports: Wealth Management</wsj:articletype>
+</item>
 <item>
 <title>Israel's Once-Dominant Drugmaker Is Revived by Innovation</title>
 <link>https://www.wsj.com/articles/israels-once-dominant-drugmaker-is-revived-by-innovation-daed1214?mod=rss_markets_main</link>
@@ -185,36 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001767843</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Stocks</wsj:articletype>
-</item>
-<item>
-<title>This Stock-Market Rally Isn't What It Seems</title>
-<link>https://www.wsj.com/articles/this-stock-market-rally-isnt-what-it-seems-602b0feb?mod=rss_markets_main</link>
-<description><![CDATA[To anybody listening to Wall Street analysts, it might sound like all the market volatility has had to do with the economy and the Federal Reserve’s policy response. But what if stocks just got too expensive?]]></description>
-<content:encoded/>
-<pubDate>Sat, 11 May 2024 06:00:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001766575</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
-</item>
-<item>
-<title>Inside the 21st Century Gold Rush</title>
-<link>https://www.wsj.com/articles/gold-prices-2024-investment-dc6248b2?mod=rss_markets_main</link>
-<description><![CDATA[Worries about war, discord and mounting government debt have fueled a worldwide rush by individuals and institutions into what Wall Street calls “physical gold”— bars, coins, jewelry and nuggets.]]></description>
-<content:encoded/>
-<pubDate>Sat, 11 May 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001764630</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Precious Metals</wsj:articletype>
-</item>
-<item>
-<title>The 'Save the Oceans' Tax Break: Recycling Oyster Shells</title>
-<link>https://www.wsj.com/articles/climate-save-ocean-recycled-oyster-shells-1fff9d54?mod=rss_markets_main</link>
-<description><![CDATA[People love to eat oysters. The shells often end up in landfills. These restaurants want to repurpose them—and save some money.]]></description>
-<content:encoded/>
-<pubDate>Sat, 11 May 2024 05:30:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001763358</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Markets Main</wsj:articletype>
 </item>
 </channel>
 </rss>

@@ -17,8 +17,10 @@ CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # 
 
 RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
+# Should be Gemini
 GeminiLLM = Langchain::LLM::GoogleVertexAi.new(project_id: ENV['PROJECT_ID']) rescue nil
-
+#GeminiLLM = Langchain::LLM::GoogleVertexAi.new(project_id: ENV['PROJECT_ID']) rescue nil
+OllamaLLM = Langchain::LLM::Ollama.new
 
 Rails.application.configure do
 

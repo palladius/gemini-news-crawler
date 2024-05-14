@@ -3,9 +3,9 @@
   <span>&copy; <%= APP_NAME %> v<%= APP_VERSION %></span>
 
   <%= render partial: 'layouts/latest_article_info' rescue "LatestArticleInfoError('#{$!}')" %>
-  <%#= render partial: 'layouts/latest_article_info' %>
 
-  <%= link_to "🏭 PROD App", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %>
+  <%= link_to "🟡 Dev App", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %>
+  <%= link_to "🟢 PROD App", 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/' %>
 
   <span>Env: <b><%= Rails.env %></b></span>
 </footer>

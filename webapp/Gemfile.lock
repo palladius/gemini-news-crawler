@@ -380,6 +380,7 @@ DEPENDENCIES
   chartkick
   debug
   delayed_job_active_record
+  faraday
   feedjira
   gemini-ai
   google-apis-aiplatform_v1

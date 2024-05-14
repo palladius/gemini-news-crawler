@@ -15,7 +15,7 @@
 	<atom:link href="https://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://techcrunch.com/</link>
 	<description>Startup and Technology News</description>
-	<lastBuildDate>Tue, 14 May 2024 12:03:52 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 May 2024 17:33:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,21 +31,225 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">136296444</site>	<item>
+		<title>Google Photos introduces an AI search feature, &#8216;Ask Photos&#8217;</title>
+		<link>https://techcrunch.com/2024/05/14/google-photos-introduces-an-ai-search-feature-ask-photos/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:25:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[Google IO 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777825</guid>
+
+					<description><![CDATA[<p>The AI upgrade will make finding the right content more intuitive and less of a manual search process.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777825</post-id>	</item>
+		<item>
+		<title>Google I/O 2024: Everything announced so far</title>
+		<link>https://techcrunch.com/2024/05/14/google-i-o-2024-everything-announced-so-far/</link>
+		
+		<dc:creator><![CDATA[Christine Hall]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:17:45 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[google i/o 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778448</guid>
+
+					<description><![CDATA[<p>Here are quick hits of the biggest news from the keynote as they are announced.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778448</post-id>	</item>
+		<item>
+		<title>Apple touts stopping $1.8BN in App Store fraud last year in latest pitch to developers</title>
+		<link>https://techcrunch.com/2024/05/14/apple-touts-stopping-1-8bn-in-app-store-fraud-last-year-in-latest-pitch-to-devs/</link>
+		
+		<dc:creator><![CDATA[Natasha Lomas]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:00:00 +0000</pubDate>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[apple app store security]]></category>
+		<category><![CDATA[apple app store anti-fraud]]></category>
+		<category><![CDATA[apple fraud prevention]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778345</guid>
+
+					<description><![CDATA[<p>Apple released new data about anti-fraud measures related to its operation of the iOS App Store on Tuesday morning, trumpeting a claim that it stopped over $7 billion in &#8220;potentially fraudulent transactions&#8221; across the four years between 2020 and 2023. More than $1.8 billion of that total was stopped in 2023, per Apple, which is [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778345</post-id>	</item>
+		<item>
+		<title>Expedia starts testing AI-powered features for search and travel planning</title>
+		<link>https://techcrunch.com/2024/05/14/expedia-starts-testing-ai-powered-features-for-search-and-travel-planning/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Expedia]]></category>
+		<category><![CDATA[travel]]></category>
+		<category><![CDATA[travel planning]]></category>
+		<category><![CDATA[AI bot]]></category>
+		<category><![CDATA[AI travel]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778201</guid>
+
+					<description><![CDATA[<p>Online travel agency Expedia is testing an AI assistant that bolsters features like search, itinerary building, trip planning, and real-time travel updates.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778201</post-id>	</item>
+		<item>
+		<title>Inside TabaPay’s drama-filled decision to abandon its plans to buy Synapse’s assets</title>
+		<link>https://techcrunch.com/2024/05/14/inside-tabapays-drama-filled-decision-to-abandon-its-plans-to-buy-synapses-assets/</link>
+		
+		<dc:creator><![CDATA[Carrie Andrews]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 17:00:00 +0000</pubDate>
+				<category><![CDATA[Fintech]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2777826</guid>
+
+					<description><![CDATA[<p>Welcome to TechCrunch Fintech! This week, we look at the drama around TabaPay deciding to not buy Synapse&#8217;s assets, as well as stocks dropping for a couple of fintechs, Monzo raising even more funds, and more! Sign up here to get Fintech in your inbox every Tuesday at 7 a.m. PT! The big story There was [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2777826</post-id>	</item>
+		<item>
+		<title>Threat actor scraped Dell support tickets, including customer phone numbers</title>
+		<link>https://techcrunch.com/2024/05/14/threat-actor-scraped-dell-support-tickets-including-customer-phone-numbers/</link>
+		
+		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 16:47:31 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778552</guid>
+
+					<description><![CDATA[<p>The person who claimed to have stolen the physical addresses of 49 million Dell customers appears to have taken more data from a different Dell portal, TechCrunch has learned. The newly compromised data includes names, phone numbers and email addresses of Dell customers. This personal data is contained in customer “service reports,” which also include [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778552</post-id>	</item>
+		<item>
+		<title>On Elon&#8217;s whim, X now treats &#8216;cisgender&#8217; as a slur</title>
+		<link>https://techcrunch.com/2024/05/14/on-elons-whim-x-now-treats-cisgender-as-a-slur/</link>
+		
+		<dc:creator><![CDATA[Amanda Silberling]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 16:33:34 +0000</pubDate>
+				<category><![CDATA[Social]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778495</guid>
+
+					<description><![CDATA[<p>If you write the words &#8220;cis&#8221; or &#8220;cisgender&#8221; on X, you might be served this full-screen message: &#8220;This post contains language that may be considered a slur by X and could be used in a harmful manner in violation of our rules,&#8221; the warning says. You can continue to publish the post or delete it. [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778495</post-id>	</item>
+		<item>
+		<title>Meta is shutting down Workplace, its enterprise communications business</title>
+		<link>https://techcrunch.com/2024/05/14/meta-is-shutting-down-workplace-its-enterprise-communications-business/</link>
+		
+		<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 15:34:39 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Social]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778501</guid>
+
+					<description><![CDATA[<p>Facebook once had big ambitions to be a major player in enterprise communication and productivity, but today the social network&#8217;s parent company Meta will be closing a very significant chapter in that story. TechCrunch has learned that Meta is shuttering Workplace, a version of Facebook that had been built to enable communication among business teams [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778501</post-id>	</item>
+		<item>
+		<title>Meta&#8217;s Oversight Board overturns takedown decision for Pakistan child abuse documentary</title>
+		<link>https://techcrunch.com/2024/05/14/metas-oversight-board-overturns-takedown-decision-for-pakistan-child-abuse-documentary/</link>
+		
+		<dc:creator><![CDATA[Jagmeet Singh]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 15:07:44 +0000</pubDate>
+				<category><![CDATA[Social]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[pakistan]]></category>
+		<category><![CDATA[oversight board]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778384</guid>
+
+					<description><![CDATA[<p>The Oversight Board has overturned Meta's decision to take down a documentary revealing the identities of child abuse victims in Pakistan.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778384</post-id>	</item>
+		<item>
+		<title>Google I/O 2024: How to watch</title>
+		<link>https://techcrunch.com/2024/05/14/google-i-o-2024-how-to-watch/</link>
+		
+		<dc:creator><![CDATA[Brian Heater]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 14:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[google i/o 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2766937</guid>
+
+					<description><![CDATA[<p>The keynote kicks off at 10 a.m. PT on Tuesday and will offer glimpses into the latest versions of Android, Wear OS and Android TV.</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2766937</post-id>	</item>
+		<item>
+		<title>AWS CEO Adam Selipsky steps down</title>
+		<link>https://techcrunch.com/2024/05/14/aws-ceo-adam-selipsky-steps-down/</link>
+		
+		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 13:34:39 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Adam Selipsky]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[AWS]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2778399</guid>
+
+					<description><![CDATA[<p>Adam Selipsky is stepping down from his role as CEO of Amazon Web Services, Amazon has confirmed to TechCrunch.&#160; In a memo shared internally by Amazon CEO Andy Jassy and published this morning to the company&#8217;s blog, Jassy said that AWS sales chief Matt Garman will be promoted to CEO. Garman previously headed AWS&#8217; EC2 [&#8230;]</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2778399</post-id>	</item>
+		<item>
 		<title>David Sacks reveals Glue, the AI company he’s been teasing on his All In podcast</title>
 		<link>https://techcrunch.com/2024/05/14/david-sacks-glue-ai-slack-microsoft-teams-alternative/</link>
 		
 		<dc:creator><![CDATA[Marina Temkin]]></dc:creator>
 		<pubDate>Tue, 14 May 2024 12:00:00 +0000</pubDate>
-				<category><![CDATA[TC]]></category>
+				<category><![CDATA[AI]]></category>
 		<category><![CDATA[Startups]]></category>
 		<category><![CDATA[Venture]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[david sacks]]></category>
 		<category><![CDATA[all in]]></category>
-		<category><![CDATA[slack]]></category>
-		<category><![CDATA[Microsoft Teams]]></category>
-		<category><![CDATA[enterprise chat]]></category>
 		<category><![CDATA[Craft Ventures]]></category>
+		<category><![CDATA[david sacks]]></category>
+		<category><![CDATA[enterprise chat]]></category>
+		<category><![CDATA[Microsoft Teams]]></category>
+		<category><![CDATA[slack]]></category>
 		<guid isPermaLink="false">https://techcrunch.com/?p=2777984</guid>
 
 					<description><![CDATA[<p>VC and podcaster David Sacks has revealed a new AI chat app called Glue that fixes "Slack channel fatigue," he says.</p>
@@ -56,7 +260,7 @@
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2777984</post-id>	</item>
 		<item>
-		<title>After surpassing $100M in ARR, Harness Labs grabs a $150M line of credit</title>
+		<title>After surpassing $100M in ARR, Harness grabs a $150M line of credit</title>
 		<link>https://techcrunch.com/2024/05/14/after-surpassing-100m-in-arr-harness-labs-grabs-a-150m-line-of-credit/</link>
 		
 		<dc:creator><![CDATA[Ron Miller]]></dc:creator>
@@ -64,18 +268,39 @@
 				<category><![CDATA[Enterprise]]></category>
 		<category><![CDATA[Startups]]></category>
 		<category><![CDATA[debt financing]]></category>
-		<category><![CDATA[jyoti bansal]]></category>
 		<category><![CDATA[debt relief]]></category>
 		<category><![CDATA[Harness Labs]]></category>
+		<category><![CDATA[Hercules Capital]]></category>
+		<category><![CDATA[jyoti bansal]]></category>
+		<category><![CDATA[silicon valley bank]]></category>
 		<guid isPermaLink="false">https://techcrunch.com/?p=2777545</guid>
 
-					<description><![CDATA[<p>Harness Lab isn&#8217;t founder Jyoti Bansal’s first startup. He sold AppDynamics to Cisco for $3.7 billion in 2017, the week it was supposed to go public. His latest venture has raised $425 million, per Crunchbase. On Tuesday, Harness announced $150 million in debt financing, essentially a line of credit that the company can draw on [&#8230;]</p>
+					<description><![CDATA[<p>Harness isn&#8217;t founder Jyoti Bansal’s first startup. He sold AppDynamics to Cisco for $3.7 billion in 2017, the week it was supposed to go public. His latest venture has raised $425 million, per Crunchbase. On Tuesday, Harness announced $150 million in debt financing, essentially a line of credit that the company can draw on as [&#8230;]</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2777545</post-id>	</item>
+		<item>
+		<title>Google I/O 2024: What to expect</title>
+		<link>https://techcrunch.com/2024/05/14/google-i-o-2024-what-to-expect/</link>
+		
+		<dc:creator><![CDATA[Brian Heater]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 12:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Google I/O]]></category>
+		<category><![CDATA[google i/o 2024]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2766420</guid>
+
+					<description><![CDATA[<p>You can expect plenty of AI, but probably not a lot of hardware. </p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2766420</post-id>	</item>
 		<item>
 		<title>Waymo&#8217;s robotaxis under investigation after crashes and traffic mishaps</title>
 		<link>https://techcrunch.com/2024/05/14/waymo-safety-probe-nhtsa-crashes-traffic-cones-construction/</link>
@@ -97,6 +322,25 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2778342</post-id>	</item>
+		<item>
+		<title>OpenAI&#8217;s ChatGPT announcement: Watch the GPT-4o reveal and demo here</title>
+		<link>https://techcrunch.com/2024/05/14/openais-chatgpt-announcement-what-we-know-so-far/</link>
+		
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+		<pubDate>Tue, 14 May 2024 10:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[openai chatgpt]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2771455</guid>
+
+					<description><![CDATA[<p>The company is describing the event as “a chance to demo some ChatGPT and GPT-4 updates.”</p>
+<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2771455</post-id>	</item>
 		<item>
 		<title>Sona, a frontline workforce management platform, raises $27.5M with eyes on US expansion</title>
 		<link>https://techcrunch.com/2024/05/14/sona-a-frontline-workforce-management-platform-raises-27-5m-with-eyes-on-us-expansion/</link>
@@ -123,14 +367,14 @@
 		<pubDate>Tue, 14 May 2024 09:37:37 +0000</pubDate>
 				<category><![CDATA[Commerce]]></category>
 		<category><![CDATA[Enterprise]]></category>
-		<category><![CDATA[acquisition]]></category>
 		<category><![CDATA[food delivery]]></category>
 		<category><![CDATA[Foodpanda]]></category>
+		<category><![CDATA[Mergers and Acquisitions]]></category>
 		<category><![CDATA[taiwan]]></category>
 		<category><![CDATA[Uber Eats]]></category>
 		<guid isPermaLink="false">https://techcrunch.com/?p=2778327</guid>
 
-					<description><![CDATA[<p>Uber Technologies announced Tuesday that it will buy the Taiwan unit of Delivery Hero&#8217;s Foodpanda for $950 million in cash. The deal is part of Uber Eats&#8217; strategy to expand in Asia, specifically by strengthening its position in Taiwan. On the other hand, it also underscores Delivery Hero&#8217;s ongoing retreat from that same market: the sale [&#8230;]</p>
+					<description><![CDATA[<p>Uber Technologies announced Tuesday that it will buy the Taiwan unit of Delivery Hero&#8217;s Foodpanda for $950 million in cash. The deal is part of Uber Eats&#8217; strategy to expand in Asia, specifically by strengthening its position in Taiwan. On the other hand, it also underscores Delivery Hero&#8217;s ongoing retreat from that same market: The sale [&#8230;]</p>
 <p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
 ]]></description>
 		
@@ -145,10 +389,10 @@
 		<pubDate>Tue, 14 May 2024 08:23:19 +0000</pubDate>
 				<category><![CDATA[Climate]]></category>
 		<category><![CDATA[Venture]]></category>
-		<category><![CDATA[paris]]></category>
-		<category><![CDATA[venture funds]]></category>
 		<category><![CDATA[Blisce]]></category>
 		<category><![CDATA[climate tech]]></category>
+		<category><![CDATA[paris]]></category>
+		<category><![CDATA[venture funds]]></category>
 		<guid isPermaLink="false">https://techcrunch.com/?p=2777420</guid>
 
 					<description><![CDATA[<p>Paris-based Blisce has become the latest VC firm to launch a fund dedicated to climate tech. It plans to raise as much as €150M (about $162M). </p>
@@ -178,258 +422,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2777857</post-id>	</item>
-		<item>
-		<title>OpenAI Startup Fund raises additional $5M</title>
-		<link>https://techcrunch.com/2024/05/13/openai-startup-fund-raises-additional-5m/</link>
-		
-		<dc:creator><![CDATA[Marina Temkin]]></dc:creator>
-		<pubDate>Tue, 14 May 2024 00:24:59 +0000</pubDate>
-				<category><![CDATA[Venture]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[OpenAI Startup Fund]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778088</guid>
-
-					<description><![CDATA[<p>The fresh funds were raised from two investors who transferred the capital into a special purpose vehicle, a legal entity associated with the OpenAI Startup Fund.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778088</post-id>	</item>
-		<item>
-		<title>Accel has a fresh $650M to back European early-stage startups</title>
-		<link>https://techcrunch.com/2024/05/13/accel-has-a-fresh-650m-to-back-european-early-stage-startups/</link>
-		
-		<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 23:45:46 +0000</pubDate>
-				<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Venture]]></category>
-		<category><![CDATA[Accel]]></category>
-		<category><![CDATA[early-stage startup]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777935</guid>
-
-					<description><![CDATA[<p>Accel has invested in more than 200 startups in the region to date, making it one of the more prolific VCs in this market.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777935</post-id>	</item>
-		<item>
-		<title>Cruise founder Kyle Vogt is back with a robot startup</title>
-		<link>https://techcrunch.com/2024/05/13/cruise-founder-kyle-vogt-is-back-with-a-robot-startup/</link>
-		
-		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 23:37:15 +0000</pubDate>
-				<category><![CDATA[Transportation]]></category>
-		<category><![CDATA[Robotics]]></category>
-		<category><![CDATA[robotics]]></category>
-		<category><![CDATA[startup]]></category>
-		<category><![CDATA[Kyle Vogt]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2778001</guid>
-
-					<description><![CDATA[<p>Kyle Vogt, the former founder and CEO of self-driving car company Cruise, has a new VC-backed robotics startup focused on household chores. Vogt announced Monday that the new startup, called the Bot Company, has raised $150 million from former GitHub CEO and investor Nat Friedman, Pioneer founder and investor Daniel Gross, Spark Capital general partner [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2778001</post-id>	</item>
-		<item>
-		<title>From Miles Grimshaw to Eva Ho, venture capitalists continue to play musical chairs</title>
-		<link>https://techcrunch.com/2024/05/13/from-connie-chan-to-ethan-kurzweil-venture-capitalists-continue-to-play-musical-chairs/</link>
-		
-		<dc:creator><![CDATA[Rebecca Szkutak]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 23:01:00 +0000</pubDate>
-				<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Venture]]></category>
-		<category><![CDATA[Work]]></category>
-		<category><![CDATA[Founders Fund]]></category>
-		<category><![CDATA[investors]]></category>
-		<category><![CDATA[Keith Rabois]]></category>
-		<category><![CDATA[venture capital]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2699347</guid>
-
-					<description><![CDATA[<p>When Keith Rabois announced he was leaving Founders Fund to return to Khosla Ventures in January, it came as a shock to many in the venture capital ecosystem — and not just because Rabois is a big name in the industry. It was surprising because unlike in many other fields, venture capitalists don&#8217;t traditionally move [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2699347</post-id>	</item>
-		<item>
-		<title>Anthropic is expanding to Europe and raising more money</title>
-		<link>https://techcrunch.com/2024/05/13/anthropic-is-expanding-to-europe-and-raising-more-money/</link>
-		
-		<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 22:28:02 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Generative AI]]></category>
-		<category><![CDATA[anthropic]]></category>
-		<category><![CDATA[Claude]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777821</guid>
-
-					<description><![CDATA[<p>On the heels of OpenAI announcing the latest iteration of its GPT large language model, its biggest rival in generative AI in the U.S. announced an expansion of its own. Anthropic said Monday that Claude, its AI assistant, is now live in Europe with support for &#8220;multiple languages,&#8221; including French, German, Italian and Spanish across [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777821</post-id>	</item>
-		<item>
-		<title>TechCrunch Space: You rock(et) my world, moms</title>
-		<link>https://techcrunch.com/2024/05/13/techcrunch-space-you-rocket-my-world-moms/</link>
-		
-		<dc:creator><![CDATA[Aria Alamalhodaei]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 22:00:00 +0000</pubDate>
-				<category><![CDATA[Space]]></category>
-		<category><![CDATA[TC Space]]></category>
-		<category><![CDATA[techcrunch space]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2771522</guid>
-
-					<description><![CDATA[<p>If you're looking for a Starliner mission recap, you'll have to wait a little longer, because the mission has officially been delayed.</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2771522</post-id>	</item>
-		<item>
-		<title>Apple iPad Pro M4 vs. iPad Air M2: Reviewing which is right for most</title>
-		<link>https://techcrunch.com/2024/05/13/apple-ipad-pro-m4-vs-ipad-air-m2-which-is-right-for-most/</link>
-		
-		<dc:creator><![CDATA[Brian Heater]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 21:00:00 +0000</pubDate>
-				<category><![CDATA[Hardware]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[M4]]></category>
-		<category><![CDATA[ipad air]]></category>
-		<category><![CDATA[iPad Pro]]></category>
-		<category><![CDATA[apple ipad event 2024]]></category>
-		<category><![CDATA[apple ipad event]]></category>
-		<category><![CDATA[apple ipad pro]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777188</guid>
-
-					<description><![CDATA[<p>Apple devoted a full event to iPad last Tuesday, roughly a month out from WWDC. From the invite artwork to the polarizing ad spot, Apple was clear — the event was all about iPads. Most of the rumors proved true: Apple introduced a new iPad Pro (with a new M4 chip), iPad Air, the Pencil [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777188</post-id>	</item>
-		<item>
-		<title>GV&#8217;s youngest partner has launched her own firm</title>
-		<link>https://techcrunch.com/2024/05/13/gvs-youngest-partner-has-launched-her-own-firm/</link>
-		
-		<dc:creator><![CDATA[Dominic-Madori Davis]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 20:00:00 +0000</pubDate>
-				<category><![CDATA[Venture]]></category>
-		<category><![CDATA[terri burns]]></category>
-		<category><![CDATA[venture capital]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777712</guid>
-
-					<description><![CDATA[<p>Terri Burns, a former partner at GV, is venturing into a new chapter of her career by launching her own venture firm called Type Capital. </p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777712</post-id>	</item>
-		<item>
-		<title>ChatGPT&#8217;s new face is a black hole</title>
-		<link>https://techcrunch.com/2024/05/13/chatgpts-new-face-is-a-black-hole/</link>
-		
-		<dc:creator><![CDATA[Devin Coldewey]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 19:07:53 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[openai chatgpt]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777509</guid>
-
-					<description><![CDATA[<p>The decision to go monochrome was probably a smart one, considering the candy-colored alternatives that seem to want to dazzle and comfort you. </p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777509</post-id>	</item>
-		<item>
-		<title>Apple and Google agree on standard to alert people when unknown Bluetooth devices may be tracking them</title>
-		<link>https://techcrunch.com/2024/05/13/apple-and-google-agree-on-standard-to-alert-people-when-unknown-bluetooth-devices-may-be-tracking-them/</link>
-		
-		<dc:creator><![CDATA[Aisha Malik]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 18:29:23 +0000</pubDate>
-				<category><![CDATA[Hardware]]></category>
-		<category><![CDATA[Apple]]></category>
-		<category><![CDATA[Google]]></category>
-		<category><![CDATA[AirTags]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777662</guid>
-
-					<description><![CDATA[<p>Apple and Google announced on Monday that iPhone and Android users will start seeing alerts when it&#8217;s possible that an unknown Bluetooth device is being used to track them. The two companies have developed an industry standard called “Detecting Unwanted Location Trackers.&#8221; Starting Monday, Apple is introducing the capability in iOS 17.5 and Google is [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777662</post-id>	</item>
-		<item>
-		<title>OpenAI&#8217;s ChatGPT announcement: Watch here</title>
-		<link>https://techcrunch.com/2024/05/13/openais-chatgpt-announcement-what-we-know-so-far/</link>
-		
-		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 17:52:00 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[sam altman]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[openai chatgpt]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2771455</guid>
-
-					<description><![CDATA[<p>The company is describing the event as “a chance to demo some ChatGPT and GPT-4 updates.”</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2771455</post-id>	</item>
-		<item>
-		<title>GM&#8217;s Cruise ramps up robotaxi testing in Phoenix</title>
-		<link>https://techcrunch.com/2024/05/13/gms-cruise-ramps-up-robotaxi-testing-in-phoenix/</link>
-		
-		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 17:42:23 +0000</pubDate>
-				<category><![CDATA[Transportation]]></category>
-		<category><![CDATA[cruise]]></category>
-		<category><![CDATA[robotaxi]]></category>
-		<category><![CDATA[General Motors]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777472</guid>
-
-					<description><![CDATA[<p>A human safety operator will be behind the wheel during this phase of testing, according to the company. </p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777472</post-id>	</item>
-		<item>
-		<title>OpenAI debuts GPT-4o &#8216;omni&#8217; model now powering ChatGPT</title>
-		<link>https://techcrunch.com/2024/05/13/openais-newest-model-is-gpt-4o/</link>
-		
-		<dc:creator><![CDATA[Kyle Wiggers]]></dc:creator>
-		<pubDate>Mon, 13 May 2024 17:06:29 +0000</pubDate>
-				<category><![CDATA[AI]]></category>
-		<category><![CDATA[OpenAI]]></category>
-		<category><![CDATA[Generative AI]]></category>
-		<category><![CDATA[ChatGPT]]></category>
-		<category><![CDATA[openai spring update 2024]]></category>
-		<guid isPermaLink="false">https://techcrunch.com/?p=2777517</guid>
-
-					<description><![CDATA[<p>OpenAI announced a new flagship generative AI model on Monday that they call GPT-4o — the &#8220;o&#8221; stands for &#8220;omni,&#8221; referring to the model&#8217;s ability to handle text, speech, and video. GPT-4o is set to roll out &#8220;iteratively&#8221; across the company&#8217;s developer and consumer-facing products over the next few weeks. OpenAI CTO Mira Murati said [&#8230;]</p>
-<p>© 2024 TechCrunch. All rights reserved. For personal use only.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2777517</post-id>	</item>
 	</channel>
 </rss>

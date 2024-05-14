@@ -7,28 +7,98 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 12:45:13 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 12:40:01 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 17:30:49 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 17:29:53 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
     <item>
-      <title>At Least 2 Officers Killed in Ambush on Prison Convoy in France</title>
+      <title>German Court Fines Far-Right Leader for Using Nazi Phrase</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/germany-afd-nazi-hocke.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/germany-afd-nazi-hocke.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/germany-afd-nazi-hocke.html" rel="standout"></atom:link>
+      <description>Björn Höcke, a state leader of the nationalist Alternative for Germany party, repeatedly used the phrase “Everything for Germany,” a slogan of the Nazi paramilitary wing, during campaign stops.</description>
+      <dc:creator>Christopher F. Schuetze</dc:creator>
+      <pubDate>Tue, 14 May 2024 17:14:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Alternative for Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hocke, Bjorn (1972- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Thuringia (Germany)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14germany-hocke-ltwv/14germany-hocke-ltwv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pool photo by Jens Schlueter</media:credit>
+      <media:description>Björn Höcke at his trial in Halle, eastern Germany, on Tuesday. He claimed during the proceedings that he had not known about the phrase’s Nazi origin.</media:description>
+    </item>
+    <item>
+      <title>Russia Detains Senior General, Widening Military Purge</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/russia-detains-general-yuri-kuznetsov.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/russia-detains-general-yuri-kuznetsov.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/russia-detains-general-yuri-kuznetsov.html" rel="standout"></atom:link>
+      <description>Lt. Gen. Yuri Kuznetsov became the second senior defense official to be detained on an accusation of corruption in the past month.</description>
+      <dc:creator>Anatoly Kurmanaev</dc:creator>
+      <pubDate>Tue, 14 May 2024 17:18:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bribery and Kickbacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Investigative Committee (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shoigu, Sergei K</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14russia-defense-tgmh/14russia-defense-tgmh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Russian Defense Ministry, via Associated Press</media:credit>
+      <media:description>A photo made available by the Russian Defense Ministry of Lt. Gen. Yuri Kuznetsov. </media:description>
+    </item>
+    <item>
+      <title>Cannes: Greta Gerwig, Lily Gladstone and the Weight of Politics at the Fest</title>
+      <link>https://www.nytimes.com/2024/05/14/movies/cannes-jury-greta-gerwig-lily-gladstone.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/movies/cannes-jury-greta-gerwig-lily-gladstone.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/movies/cannes-jury-greta-gerwig-lily-gladstone.html" rel="standout"></atom:link>
+      <description>The festival opened with questions for the jury about Indigenous representation, #MeToo rumors and other timely topics.</description>
+      <dc:creator>Kyle Buchanan</dc:creator>
+      <pubDate>Tue, 14 May 2024 16:38:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">#MeToo Movement</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cannes International Film Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fremaux, Thierry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gerwig, Greta</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gladstone, Lily</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14cannes-opener-lvcg/14cannes-opener-lvcg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Kristy Sparow/Getty Images</media:credit>
+      <media:description>The Cannes jury includes, from left, Nadine Labaki, Omar Sy, Lily Gladstone, Greta Gerwig (the president of the group), Ebru Ceylan and Hirokazu Kore-eda.</media:description>
+    </item>
+    <item>
+      <title>Orcas Sink Another Boat Near Iberia, Worrying Sailors Before Summer</title>
+      <link>https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/orcas-sink-yacht-strait-of-gibraltar.html" rel="standout"></atom:link>
+      <description>Two people were rescued on Sunday after orcas damaged their boat near the Strait of Gibraltar, where the animals have caused havoc in recent years.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Tue, 14 May 2024 16:29:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sailboats and Sailing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Maritime Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gibraltar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Morocco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+    </item>
+    <item>
+      <title>Manhunt Underway in France After Prisoner Escapes in Ambush</title>
       <link>https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html</link>
       <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html</guid>
       <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/france-prison-ambush.html" rel="standout"></atom:link>
-      <description>The French authorities said that hundreds of officers had been deployed to track down a prisoner who had escaped and the assailants who had helped him.</description>
+      <description>The French authorities said that armed assailants had attacked a prison convoy, killed at least two prison officers and freed an inmate.</description>
       <dc:creator>Aurelien Breeden</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:34:19 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 13:47:23 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Fugitives</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Attacks on Police</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Darmanin, Gerald</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dupond-Moretti, Eric</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
-      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/tqhb/tqhb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/tqhb/tqhb-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
       <media:credit>Alain Jocard/Agence France-Presse — Getty Images</media:credit>
       <media:description>France’s justice minister, Éric Dupond-Moretti, said that three other officers had been injured in the episode.</media:description>
     </item>
@@ -39,10 +109,10 @@
       <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/roman-polanski-charlotte-lewis-defamation-france.html" rel="standout"></atom:link>
       <description>Charlotte Lewis, who says the director raped her in the 1980s, brought the lawsuit against him over an interview in which he called the accusations an “odious lie.”</description>
       <dc:creator>Aurelien Breeden</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:02:41 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 13:02:37 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Polanski, Roman</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lewis, Charlotte (1967- )</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Charlotte Lewis</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Libel and Slander</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
@@ -59,7 +129,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/georgia-parliament-foreign-agents-bill.html" rel="standout"></atom:link>
       <description>The president has vowed to veto the legislation, which critics say could push the country back into Russia’s orbit. The governing party says it can override a veto.</description>
       <dc:creator>Ivan Nechepurenko</dc:creator>
-      <pubDate>Tue, 14 May 2024 12:08:56 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 16:20:49 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
@@ -79,7 +149,7 @@
       <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/russia-frozen-assets-ukraine.html" rel="standout"></atom:link>
       <description>Kyiv’s supporters are discussing how to use the interest earned by frozen Russian assets to help pay for weapons and postwar reconstruction.</description>
       <dc:creator>Steven Erlanger</dc:creator>
-      <pubDate>Tue, 14 May 2024 09:30:42 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 15:31:41 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
@@ -215,12 +285,14 @@
       <atom:link href="https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html" rel="standout"></atom:link>
       <description>When Russian soldiers suddenly showed up in the small town of Ocheretyne in the east, it was clear that something had gone wrong.</description>
       <dc:creator>Marc Santora and Tyler Hicks</dc:creator>
-      <pubDate>Tue, 14 May 2024 10:07:23 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 10:07:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Donetsk (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ocheretyne (Ukraine)</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/09ukraine-battlefield-promo/09ukraine-battlefield-01-sub-jbhw-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Tyler Hicks/The New York Times</media:credit>
       <media:description>Paramedics with the 59th Separate Motorized Infantry Brigade of the Ukrainian army evacuating wounded soldiers from battles raging on the front line of the Donetsk region, this month.</media:description>
@@ -270,20 +342,18 @@
       <dc:creator>Azeen Ghorayshi</dc:creator>
       <pubDate>Mon, 13 May 2024 15:10:49 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Youth</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gender</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transgender</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cass, Hilary D</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicine and Health</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Doctors</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Transgender</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cass, Hilary D</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">England</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">American Academy of Pediatrics</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Endocrine Society</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Health Service</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-healthcare</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
       <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13CONVERSATION-CASS-promo/13CONVERSATION-CASS-promo-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
       <media:credit>Tori Ferenc for The New York Times</media:credit>
     </item>
@@ -313,84 +383,19 @@
       <atom:link href="https://www.nytimes.com/article/russia-ukraine-kharkiv.html" rel="standout"></atom:link>
       <description>Ukraine’s forces are stretched thin and have minimal reserves to draw on, the chief of military intelligence said, in addition to shortages of weapons.</description>
       <dc:creator>Constant Méheut, Maria Varenikova and Michael Schwirtz</dc:creator>
-      <pubDate>Tue, 14 May 2024 07:31:15 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 07:31:16 +0000</pubDate>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Invasion of Ukraine (2022)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Evacuations and Evacuees</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kharkiv (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Vovchansk (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Chasiv Yar (Ukraine)</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
       <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Budanov, Kyrylo</category>
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13ukraine-kharkiv-01-zblt/13ukraine-kharkiv-01-zblt-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Emile Ducke for The New York Times</media:credit>
       <media:description>Residents from the village of Liptsi, in northeastern Ukraine, arriving at an evacuation point as they made their way to Kharkiv on Sunday.</media:description>
-    </item>
-    <item>
-      <title>U.K. Police Charge 3 Men With Aiding Hong Kong Intelligence Service</title>
-      <link>https://www.nytimes.com/2024/05/13/world/europe/uk-hong-kong-intelligence-arrests.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/uk-hong-kong-intelligence-arrests.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/uk-hong-kong-intelligence-arrests.html" rel="standout"></atom:link>
-      <description>The three appeared in court on Monday after being arrested under Britain’s National Security Act. Eight other people detained in the case have been released.</description>
-      <dc:creator>Stephen Castle</dc:creator>
-      <pubDate>Mon, 13 May 2024 18:01:34 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hong Kong</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13uk-arrests-02-hwmj/13uk-arrests-02-hwmj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Neil Hall/EPA, via Shutterstock</media:credit>
-      <media:description>The three men charged appeared at Westminster Magistrates’ Court on Monday. </media:description>
-    </item>
-    <item>
-      <title>Secret Hamas Files Show It Spied on Everyday Palestinians</title>
-      <link>https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/world/europe/secret-hamas-files-palestinians.html" rel="standout"></atom:link>
-      <description>Hamas monitored political activity, online posts, and apparently even love lives. Palestinians were stuck between an Israeli blockade and a repressive security force.</description>
-      <dc:creator>Adam Rasgon and Ronen Bergman</dc:creator>
-      <pubDate>Mon, 13 May 2024 17:16:58 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sinwar, Yehya</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/09/multimedia/00hamas-surveillance-01-wvzb/00hamas-surveillance-01-wvzb-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Fatima Shbair/Associated Press</media:credit>
-      <media:description>A rally in support of Hamas in Gaza City in 2022. A secret police force overseen by Hamas’s leader in the enclave utilizes an extensive network of informants.</media:description>
-    </item>
-    <item>
-      <title>How to Plan a Visit to the V&amp;A Museum in London</title>
-      <link>https://www.nytimes.com/2024/05/13/travel/london-victoria-and-albert-museum.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/travel/london-victoria-and-albert-museum.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/travel/london-victoria-and-albert-museum.html" rel="standout"></atom:link>
-      <description>Paintings, ceramics, photography, fashion, furniture and more: The Victoria and Albert Museum is a treasure trove of art and design. Here’s one besotted visitor’s plan for taking it all in.</description>
-      <dc:creator>Andrew Ferren</dc:creator>
-      <pubDate>Mon, 13 May 2024 09:00:22 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Victoria and Albert Museum</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Museums</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Service</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/00V-AND-A-MUSEUM-qfbj/00V-AND-A-MUSEUM-qfbj-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Jeremie Souteyrat for The New York Times</media:credit>
-      <media:description>In the Cast Courts rooms of the Victoria and Albert Museum in London, exhibits include reproductions of masterpieces like Michelangelo’s David.</media:description>
-    </item>
-    <item>
-      <title>Monday Briefing</title>
-      <link>https://www.nytimes.com/2024/05/13/briefing/fighting-ukraine-gaza-northern-lights.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/13/briefing/fighting-ukraine-gaza-northern-lights.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/13/briefing/fighting-ukraine-gaza-northern-lights.html" rel="standout"></atom:link>
-      <description>Here’s what you need to know.</description>
-      <dc:creator>Natasha Frost</dc:creator>
-      <pubDate>Mon, 13 May 2024 04:41:12 +0000</pubDate>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/fjmq/fjmq-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Emile Ducke for The New York Times</media:credit>
-      <media:description>Evacuees arriving in Kharkiv on Sunday.</media:description>
     </item>
   </channel>
 </rss>
