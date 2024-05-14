@@ -8,124 +8,276 @@
     <copyright>Copyright 2024 - GEDI Gruppo Editoriale S.p.A.</copyright>
     <ttl>30</ttl>
     <category domain="https://www.repubblica.it">/repubblica/esteri</category>
-    <category domain="https://www.repubblica.it">/repubblica/cronaca</category>
-    <category domain="https://genova.repubblica.it">/rep-genova/cronaca</category>
     <category domain="https://www.repubblica.it">/repubblica/politica</category>
-    <category domain="https://www.repubblica.it">/repubblica/cultura</category>
+    <category domain="https://palermo.repubblica.it">/rep-palermo/cronaca</category>
+    <category domain="https://www.repubblica.it">/repubblica/viaggi</category>
+    <category domain="https://genova.repubblica.it">/rep-genova/cronaca</category>
     <category domain="https://milano.repubblica.it">/rep-milano/cronaca</category>
-    <category domain="https://torino.repubblica.it">/rep-torino/cronaca</category>
-    <category domain="https://www.repubblica.it">/repubblica/economia</category>
+    <category domain="https://www.repubblica.it">/repubblica/cronaca</category>
+    <category domain="https://www.repubblica.it">/repubblica/dossier/politica/ortica</category>
     <category domain="https://bari.repubblica.it">/rep-bari/cronaca</category>
-    <pubDate>Tue, 14 May 2024 07:32:17 +0200</pubDate>
-    <lastBuildDate>Tue, 14 May 2024 07:32:17 +0200</lastBuildDate>
+    <category domain="https://roma.repubblica.it">/rep-roma/cronaca</category>
+    <category domain="https://torino.repubblica.it">/rep-torino/cronaca</category>
+    <pubDate>Tue, 14 May 2024 14:32:14 +0200</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 14:32:14 +0200</lastBuildDate>
     <item>
-      <title>'Ndrangheta: maxi blitz in corso a Cosenza, 142 indagati</title>
-      <link>https://www.repubblica.it/cronaca/2024/05/14/news/cosenza_ndrangheta_maxi_blitz-422950748/</link>
-      <description><![CDATA[Tra i reati contestati: associazione a delinquere finalizzata al traffico di sostanze stupefacenti]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/cronaca">Cronaca</category>
-      <pubDate>Tue, 14 May 2024 05:28:17 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422950748</guid>
-      <dcterms:modified>2024-05-14T05:28:17Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Guerra Ucraina - Russia, le news di oggi. Blinken in Ucraina. Mosca bombarda la regione di Kharkiv. Russia, deraglia treno merci, intervento “persone esterne”</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_ucraina_-_russia_le_news_di_oggi-422943555/</link>
-      <description><![CDATA[Estonia: “Valutiamo seriamente l'invio di truppe a Kiev”. Sono 19 le vittime dell’attacco di Kiev a Bolgorod: l’Ucraina con un missile ha colpito un edificio nella città russa. Mosca ha distrutto il primo pezzo di artiglieria italiano.]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
-      <pubDate>Tue, 14 May 2024 03:24:22 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943555</guid>
-      <dcterms:modified>2024-05-14T03:24:22Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Guerra Ucraina - Russia, le news di oggi. Blinken in Ucraina. Mosca bombarda la regione di Kharkiv. Russia, deraglia treno merci, intervento “persone esterne”</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_ucraina_-_russia_le_news_di_oggi-422943555/</link>
-      <description><![CDATA[Estonia: “Valutiamo seriamente l'invio di truppe a Kiev”. Sono 19 le vittime dell’attacco di Kiev a Bolgorod: l’Ucraina con un missile ha colpito un edificio nella città russa. Mosca ha distrutto il primo pezzo di artiglieria italiano.]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
-      <pubDate>Tue, 14 May 2024 03:24:22 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943555</guid>
-      <dcterms:modified>2024-05-14T03:24:22Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Guerra Israele - Hamas, le notizie di oggi. Cnn: “Israele ha ammassato abbastanza truppe per assalto a Rafah”. Gaza: media, 14 morti in raid Israele su campo Nuseirat</title>
+      <title>Guerra Israele - Hamas, le notizie di oggi. Esercito israeliano: “Operazioni a a Rafah est e Jybalia”. Turchia: “A Gaza è genocidio”</title>
       <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_israele_-_hamas_le_notizie_di_oggi-422943551/</link>
-      <description><![CDATA[Casa Bianca: “Quello che accade a Gaza non è un genocidio”. Erdogan: “Più di 1.000 membri di Hamas curati in Turchia”. Blinken: “L’operazione a Rafah creerà solo caos”. Il New York Times: “Sinwar è a Khan Yunis”.]]></description>
+      <description><![CDATA[Fonti palestinesi: “Nella Striscia 82 vittime in 24 ore”. In Israele la Giornata dell’Indipendenza, contestato Netanyahu]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
       <category domain="/repubblica/dossier/esteri/guerra-israele-hamas-gaza-medio-oriente">guerra israele hamas gaza medio oriente</category>
-      <pubDate>Tue, 14 May 2024 02:05:31 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 12:23:07 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:repubblica:422943551</guid>
-      <dcterms:modified>2024-05-14T02:05:31Z</dcterms:modified>
+      <dcterms:modified>2024-05-14T12:23:07Z</dcterms:modified>
     </item>
     <item>
-      <title>Guerra Israele - Hamas, le notizie di oggi. Cnn: “Israele ha ammassato abbastanza truppe per assalto a Rafah”. Gaza: media, 14 morti in raid Israele su campo Nuseirat</title>
+      <title>Guerra Israele - Hamas, le notizie di oggi. Esercito israeliano: “Operazioni a a Rafah est e Jybalia”. Turchia: “A Gaza è genocidio”</title>
       <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_israele_-_hamas_le_notizie_di_oggi-422943551/</link>
-      <description><![CDATA[Casa Bianca: “Quello che accade a Gaza non è un genocidio”. Erdogan: “Più di 1.000 membri di Hamas curati in Turchia”. Blinken: “L’operazione a Rafah creerà solo caos”. Il New York Times: “Sinwar è a Khan Yunis”.]]></description>
+      <description><![CDATA[Fonti palestinesi: “Nella Striscia 82 vittime in 24 ore”. In Israele la Giornata dell’Indipendenza, contestato Netanyahu]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/esteri">Esteri</category>
       <category domain="/repubblica/dossier/esteri/guerra-israele-hamas-gaza-medio-oriente">guerra israele hamas gaza medio oriente</category>
-      <pubDate>Tue, 14 May 2024 02:05:31 +0000</pubDate>
+      <pubDate>Tue, 14 May 2024 12:23:07 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:repubblica:422943551</guid>
-      <dcterms:modified>2024-05-14T02:05:31Z</dcterms:modified>
+      <dcterms:modified>2024-05-14T12:23:07Z</dcterms:modified>
     </item>
     <item>
-      <title>Antonio Gozzi e la bufera giudiziaria sulla Liguria: “L’inchiesta non diventi un alibi per l’immobilismo”</title>
-      <link>https://genova.repubblica.it/cronaca/2024/05/14/news/antonio_gozzi_e_la_bufera_giudiziaria_sulla_liguria_linchiesta_non_diventi_un_alibi_per_limmobilismo-422943415/</link>
-      <description><![CDATA[Il presidente di Federacciai: “Sviluppo, crescita e legalità possono convivere. Guai a rallentare sulle opere. Servono procedure trasparenti”]]></description>
+      <title>Fratoianni in carcere da Ilaria Salis per le Europee: “La sua candidatura è un atto concreto, vuole uscire dall’incubo per occuparsi dei diritti dei detenuti”</title>
+      <link>https://www.repubblica.it/cronaca/2024/05/14/news/ilaria_salis_europee_fratoianni-422960746/</link>
+      <description><![CDATA[Un’ora di colloquio, il leader di Sinistra italiana: “Si è emozionata quando le ho detto dell’onda di solidarietà e dell’affetto che si sono creati attorno al suo nome”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 12:10:28 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422960746</guid>
+      <dcterms:modified>2024-05-14T12:10:28Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Guerra Ucraina - Russia, le news di oggi. Putin nomina Patrushev come suo consigliere. Blinken in Ucraina. Mosca: “Avanziamo in profondità nella regione di Kharkiv”</title>
+      <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_ucraina_-_russia_le_news_di_oggi-422943555/</link>
+      <description><![CDATA[Ue: “La legge sulle interferenze un grave ostacolo per l’ingresso della Georgia”. La Corte suprema russa respinge l'appello di Kara-Murza. Al Cremlino arrestato per corruzione generale della Difesa. Putin in Cina il 16 e 17 maggio]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/esteri">Esteri</category>
+      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
+      <pubDate>Tue, 14 May 2024 12:07:34 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422943555</guid>
+      <dcterms:modified>2024-05-14T12:07:34Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Guerra Ucraina - Russia, le news di oggi. Putin nomina Patrushev come suo consigliere. Blinken in Ucraina. Mosca: “Avanziamo in profondità nella regione di Kharkiv”</title>
+      <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_ucraina_-_russia_le_news_di_oggi-422943555/</link>
+      <description><![CDATA[Ue: “La legge sulle interferenze un grave ostacolo per l’ingresso della Georgia”. La Corte suprema russa respinge l'appello di Kara-Murza. Al Cremlino arrestato per corruzione generale della Difesa. Putin in Cina il 16 e 17 maggio]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/esteri">Esteri</category>
+      <category domain="/repubblica/dossier/esteri/guerra-in-ucraina">Guerra in Ucraina</category>
+      <pubDate>Tue, 14 May 2024 12:07:34 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422943555</guid>
+      <dcterms:modified>2024-05-14T12:07:34Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Agenzie di stampa nella bufera, sciopero boicottato alla Dire: “È il metodo Rai”. E Agi sfiducia la direttrice</title>
+      <link>https://www.repubblica.it/politica/2024/05/14/news/agi_direttrice_sciopero_agenzie_stampa_dire-422959429/</link>
+      <description><![CDATA[Protesta contro il nuovo piano di tagli nella redazione guidata da Nico Perrone. In quella del gruppo Eni si contestano a Rita Lofano le mancate relazioni sindacali nella manovra per la cessione ad Angelucci]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/politica">Politica</category>
-      <category domain="/rep-genova/cronaca">Cronaca</category>
-      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-genova:422943415</guid>
-      <dcterms:modified>2024-05-14T00:00:00Z</dcterms:modified>
+      <pubDate>Tue, 14 May 2024 10:54:31 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422959429</guid>
+      <dcterms:modified>2024-05-14T10:54:31Z</dcterms:modified>
     </item>
     <item>
-      <title>La verità di Aldo Spinelli davanti alla giudice: “Toti mi ha preso in giro, promette e non mantiene”</title>
-      <link>https://genova.repubblica.it/cronaca/2024/05/14/news/caso_toti_interrogatori_spinelli_aldo_roberto_preso_in_giro-422943534/</link>
-      <description><![CDATA[L’imprenditore interrogato per due ore dal gip: “Ho risposto a tutto, penso di meritare la libertà”. Frode sulle mascherine anti Covid, nuova indagine: “Se agganciamo la Regione facciamo briscola”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/cronaca">Cronaca</category>
-      <category domain="/rep-genova/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-genova:422943534</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>“La diga è per Spinelli deve essere finanziata”. Così Toti vuole offrire garanzie al costruttore Webuild</title>
-      <link>https://genova.repubblica.it/cronaca/2024/05/14/news/arresto_toti_diga_webuild_salini_spinelli_pnrr_inchiesta-422943474/</link>
-      <description><![CDATA[Gli incontri del governatore ligure con Salini, ad del gruppo: “Va rassicurato perché vuole capire se gli diamo il 20 per cento di incremento prezzi”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/cronaca">Cronaca</category>
-      <category domain="/rep-genova/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-genova:422943474</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Ombre sul Pnrr, la Lega teme la bufera. Meloni si smarca e inaugura il comitato anticorruzione</title>
-      <link>https://www.repubblica.it/politica/2024/05/14/news/arresto_toti_lega_meloni_pnrr-422943494/</link>
-      <description><![CDATA[Il salviniano Rixi “scarica” Toti e lancia l’allarme: “Rischiamo 
-il blocco dei cantieri”]]></description>
+      <title>La 5S Floridia scrive ad Agcom e Rai sul confronto tv Meloni-Schlein: “Non rispettata la par condicio, garantire tutti i leader”</title>
+      <link>https://www.repubblica.it/politica/2024/05/14/news/duello_meloni_schlein_tv_m5s_par_condicio-422959096/</link>
+      <description><![CDATA[La lettera della presidente della commissione di Vigilanza per bloccare il duello televisivo del 23 maggio. Protestano gli altri capi partito, da Renzi a Conte]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943494</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
+      <pubDate>Tue, 14 May 2024 10:42:02 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422959096</guid>
+      <dcterms:modified>2024-05-14T10:42:02Z</dcterms:modified>
     </item>
     <item>
-      <title>Tutti alla corte del scio’ Aldo: “Ha la quinta elementare ma sa lui come convincerli”</title>
-      <link>https://genova.repubblica.it/cronaca/2024/05/14/news/aldo_spinelli_imprenditore_arrestato_inchiesta_toti-422943417/</link>
-      <description><![CDATA[Storia dell’uomo simbolo dell’inchiesta ligure attraverso le intercettazioni: dall’appartamento disegnato da Renzo Piano al vaccino iniettato dal professor Matteo Bassetti ai problemi di famiglia]]></description>
+      <title>Così l’Afrikanskij Korpus russo sta prendendo il controllo della Libia per sfidare Europa e Nato: “Haftar dipende totalmente dal Cremlino”</title>
+      <link>https://www.repubblica.it/esteri/2024/05/14/news/wagner_libia_afrikanskij_korpus_haftar_russia-422958741/</link>
+      <description><![CDATA[Secondo un rapporto di All Eyes on Wagner i mercenari di Mosca hanno già trasferito 1.800 uomini e materiale bellico in Cirenaica. Puntano a costruire una serie di basi che affacciano sul Mediterraneo per mettere in scacco l’Occidente]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/esteri">Esteri</category>
+      <pubDate>Tue, 14 May 2024 10:32:21 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422958741</guid>
+      <dcterms:modified>2024-05-14T10:32:21Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Toti, voto di scambio e corruzione: la Procura apre un nuovo filone per rivelazione di segreto d’ufficio</title>
+      <link>https://genova.repubblica.it/cronaca/2024/05/14/news/toti_voto_di_scambio_e_corruzione_la_procura_apre_un_nuovo_filone_per_rivelazione_di_segreto_dufficio-422958387/</link>
+      <description><![CDATA[Si indaga sul consigliere comunale Umberto Lo Grasso che avrebbe avvisato i fratelli Testa delle intercettazioni in corso]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-genova/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 10:07:28 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-genova:422958387</guid>
+      <dcterms:modified>2024-05-14T10:07:28Z</dcterms:modified>
+    </item>
+    <item>
+      <title>La “cancel culture” secondo Cambridge: messa al bando la parola “anglossassone”. “Ricorda i suprematisti bianchi”</title>
+      <link>https://www.repubblica.it/esteri/2024/05/14/news/cambridge_cancella_parola_anglosassone-422958121/</link>
+      <description><![CDATA[La casa editrice dell’università inglese ha cambiato il nome della rivista Anglo-Saxon England in Early Medieval England and its Neighbours. Pioggia di critiche]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/esteri">Esteri</category>
+      <pubDate>Tue, 14 May 2024 09:51:12 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422958121</guid>
+      <dcterms:modified>2024-05-14T09:51:12Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Fedez indagato per le botte a Iovino, tutto quello che non torna nella versione difensiva del rapper</title>
+      <link>https://milano.repubblica.it/cronaca/2024/05/14/news/fedez_contraddizioni_iovino_pestaggio_inchiesta_rissa_indagato-422958069/</link>
+      <description><![CDATA[La difesa del rapper è costellata di contraddizioni, mezze verità e affermazioni smentite dai primi atti dell’indagine]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/repubblica/cronaca">Cronaca</category>
+      <category domain="/rep-milano/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 09:47:30 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-milano:422958069</guid>
+      <dcterms:modified>2024-05-14T09:47:30Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Veneto, scintille nella Lega: ecco chi sono i nomi di Salvini per il dopo-Zaia</title>
+      <link>https://www.repubblica.it/politica/2024/05/14/news/lega_veneto_salvini_zaia_nomi-422957880/</link>
+      <description><![CDATA[Dal sindaco di Treviso Mario Conte ad Alberto Stefani, segretario regionale del Carroccio all’ex ministra Stefani: dopo le parole del vicepremier è partita la successione al “Doge”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Tue, 14 May 2024 09:38:17 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422957880</guid>
+      <dcterms:modified>2024-05-14T09:38:17Z</dcterms:modified>
+    </item>
+    <item>
+      <title>La star degli evangelisti Franklin Graham alleato di Trump nella “crociata” verso la Casa Bianca</title>
+      <link>https://www.repubblica.it/esteri/2024/05/14/news/franklin_graham_evangelista_donald_trump-422957312/</link>
+      <description><![CDATA[Sostenitore della Bibbia autografata dal candidato repubblicano, il figlio dello storico leader religioso Bill Graham spacca la comunità che ne chiede le dimissioni con una petizione online]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/esteri">Esteri</category>
+      <pubDate>Tue, 14 May 2024 09:22:18 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422957312</guid>
+      <dcterms:modified>2024-05-14T09:22:18Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Caso Toti, consiglio regionale ligure bollente: “Dimissioni”. E il consigliere Anzalone scoppia in lacrime: “Spero sia dimostrata la mia estraneità”</title>
+      <link>https://genova.repubblica.it/cronaca/2024/05/14/news/caso_toti_in_consiglio_regionale_il_pubblico_chiede_le_dimissioni_e_il_consigliere_totiano_anzalone_scoppia_in_lacrime-422956957/</link>
+      <description><![CDATA[Pima seduta questa mattina celebrata per la prima volta senza il presidente della Regione, Giovanni Toti, agli arresti domiciliari coinvolto nella mega inchiesta che sta travolgendo la Liguria]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
       <category domain="/rep-genova/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-genova:422943417</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
+      <pubDate>Tue, 14 May 2024 09:16:56 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-genova:422956957</guid>
+      <dcterms:modified>2024-05-14T09:16:56Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Bandiere Blu 2024, ecco gli Oscar delle spiagge italiane. Liguria e Puglia sempre regine</title>
+      <link>https://www.repubblica.it/viaggi/2024/05/14/news/bandiere_blu_2024_spiagge_migliori_italia-422917481/</link>
+      <description><![CDATA[Edizione numero 38 per i riconoscimenti assegnati della ong Fee: al vertice anche Campania e Calabria. I nuovi ingressi sono 14, escono quattro comuni, 485 i tratti dove può sventolare il drappo azzurro che segnala mare e servizi migliori]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/viaggi">Viaggi</category>
+      <pubDate>Tue, 14 May 2024 08:27:00 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422917481</guid>
+      <dcterms:modified>2024-05-14T08:27:00Z</dcterms:modified>
+    </item>
+    <item>
+      <title>“Matteotti? Vietato parlarne in campagna elettorale”: sindaco nostalgico di Mussolini nega la sala per presentare un libro</title>
+      <link>https://www.repubblica.it/politica/2024/05/14/news/franzinelli_sindaco_masera_matteotti-422955745/</link>
+      <description><![CDATA[Polemica a Maserà, nel Padovano, sulla richiesta dello storico Franzinelli. Il primo cittadino: “Contenuti informativi non neutrali”. In passato si era rifiutato di revocare la cittadinanza al Duce e di conferirla al deputato socialista]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Tue, 14 May 2024 08:24:30 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422955745</guid>
+      <dcterms:modified>2024-05-14T08:24:30Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Violentata a 13 anni in gita: indagati tre compagni di classe. Nei guai anche due prof: “Omessa vigilanza”</title>
+      <link>https://roma.repubblica.it/cronaca/2024/05/14/news/violenza_sessuale_gita_13_anni_frosinone_firenze_chianciano_terme-422955613/</link>
+      <description><![CDATA[La vittima è un’alunna di una scuola media di Frosinone: un 14enne l’avrebbe costretta a praticare atti sessuali davanti ad altri due ragazzi in hotel a Chianciano]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 08:21:14 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422955613</guid>
+      <dcterms:modified>2024-05-14T08:21:14Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Amianto, morto Mariusz Sodkiewicz: è il dipendente col mesotelioma che aveva accusato la Rai. La procura indaga per “lesioni”</title>
+      <link>https://roma.repubblica.it/cronaca/2024/05/14/news/mariusz_sodkiewicz_morto_dipendente_rai_mesotelioma_franco_di_mare-422954707/</link>
+      <description><![CDATA[Aperto un fascicolo. L’impiegato aveva lavorato per 22 anni nel quartiere generale della tv di Stato, in viale Mazzini. L’avvocato Ezio Bonanni: “Adesso bisogna investistigare su quella sede”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 07:45:16 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422954707</guid>
+      <dcterms:modified>2024-05-14T07:45:16Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Ponte sullo Stretto, gli affari dei costruttori imbarazzano Salvini. Le opposizioni: “Riferisca in parlamento”</title>
+      <link>https://www.repubblica.it/politica/2024/05/14/news/ponte_sullo_stretto_messina_salvini_opposizioni-422953446/</link>
+      <description><![CDATA[Dopo l’inchiesta di Repubblica i parlamentari di Pd, M5S e Avs chiedono chiarezza. L’ad Ciucci: gli atti sul rapporto tra Sdm e contraente generale ancora non esistono. Ma lo Stato ha già impegnato 14 miliardi]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <pubDate>Tue, 14 May 2024 07:20:32 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422953446</guid>
+      <dcterms:modified>2024-05-14T07:20:32Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Ponte sullo Stretto, il pericolo faglie conosciuto da due secoli. La società: “Tutto ok”. Ma gli esperti insistono</title>
+      <link>https://palermo.repubblica.it/cronaca/2024/05/14/news/ponte_stretto_messina_pericolo_faglie-422953102/</link>
+      <description><![CDATA[Ricerche e incisioni di inizio Ottocento confermano l’allarme. La Stretto di Messina: “L’opera progettata per resistere ai terremoti”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-palermo/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 06:59:40 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-palermo:422953102</guid>
+      <dcterms:modified>2024-05-14T06:59:40Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Giornalista Rai porta a processo l’ex caporedattore per mobbing e stalking</title>
+      <link>https://torino.repubblica.it/cronaca/2024/05/14/news/giornalista_rai_porta_a_processo_lex_caporedattore_per_mobbing_e_stalking-422952894/</link>
+      <description><![CDATA[Michele Ruggiero accusa: costretto a dimettersi a seguito di episodi “ritorsivi” e “svilenti” adottati da parte del capo]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-torino/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 06:48:45 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-torino:422952894</guid>
+      <dcterms:modified>2024-05-14T06:48:45Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Legionella al Policlinico, torna l’incubo: morto il produttore di documentari Rai Maurizio Paffetti</title>
+      <link>https://roma.repubblica.it/cronaca/2024/05/14/news/legionella_policlinico_umberto_i_morto_maurizio_paffetti_rai-422952593/</link>
+      <description><![CDATA[Prima dell’ultima vittima altri casi: indagine interna all’Umberto I con tre medici. La denuncia del sindacato: “Abbiamo denunciato la presenza del batterio tre mesi fa”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 06:37:54 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422952593</guid>
+      <dcterms:modified>2024-05-14T06:37:54Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Il premierato andrà al Festival?</title>
+      <link>https://www.repubblica.it/dossier/politica/ortica/2024/05/14/news/premierato_riforme_festival_sanremo_minghi_pupo_zanicchi-422952581/</link>
+      <description><![CDATA[Dopo Pupo, Minghi e Zanicchi al convegno della Camera, manca solo che le riforme finiscano sul palco di Sanremo]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/politica">Politica</category>
+      <category domain="/repubblica/dossier/politica/ortica">ortica</category>
+      <pubDate>Tue, 14 May 2024 06:37:19 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422952581</guid>
+      <dcterms:modified>2024-05-14T06:37:19Z</dcterms:modified>
+    </item>
+    <item>
+      <title>“Roma consuma due tonnellate di cocaina al mese. E ama la boliviana”. Le rivelazioni del narcos pentito</title>
+      <link>https://roma.repubblica.it/cronaca/2024/05/14/news/roma_due_tonnellate_cocaina_a_settimana_narcos_fabrizio_capogna-422952100/</link>
+      <description><![CDATA[Fabrizio Capogna si è consegnato alla giustizia e confessa i segreti del mercato romano: “Ultimamente Tor Bella Monaca batte San Basilio”]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-roma/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 06:16:08 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-roma:422952100</guid>
+      <dcterms:modified>2024-05-14T06:16:08Z</dcterms:modified>
+    </item>
+    <item>
+      <title>Baby escort a Bari, la rete degli hotel che ospitavano gli incontri delle tre 16enni: “Siamo minorenni, il cliente lo sapeva”</title>
+      <link>https://bari.repubblica.it/cronaca/2024/05/14/news/baby_escort_a_bari_la_rete_degli_hotel_che_ospitavano_gli_incontri_delle_tre_16enni_siamo_minorenni_il_cliente_lo_sapeva-422952785/</link>
+      <description><![CDATA[Alberghi e b&amp;b anche in pieno centro per ospitare gli incontri: 
+   
+   
+   ora al setaccio le eventuali responsabilità di gestori e proprietari]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/rep-bari/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-bari:422952785</guid>
+      <dcterms:modified>2024-05-14T06:00:00Z</dcterms:modified>
     </item>
     <item>
       <title>Caso Toti, amanti e fidanzate in procura. Gli indagati con i loro cellulari per non farsi intercettare</title>
@@ -136,110 +288,6 @@ il blocco dei cantieri”]]></description>
       <category domain="/rep-genova/cronaca">Cronaca</category>
       <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:rep-genova:422943548</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Meloni è un ostacolo: ora Von der Leyen ignora la destra e tenta la “tattica del sommergibile”</title>
-      <link>https://www.repubblica.it/politica/2024/05/14/news/ue_von_der_leyen_strategia_candidata_presidenza_ppe-422943453/</link>
-      <description><![CDATA[La presidente uscente ieri in Italia non ha visto la premier: punta a ricucire coi “grandi soci” della Ue e col suo stesso partito. L’insofferenza di Macron e quella del connazionale Scholz.  
-L’ombra di Draghi]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943453</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Chi è l’economista Belousov, nuovo ministro della Difesa al posto di Shojgu</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/news/belousov_nuovo_ministro_difesa_putin_shoigu-422943460/</link>
-      <description><![CDATA[Crede nel keynesismo militare. La sua nomina sancisce la transizione del Paese in un’economia di guerra e segnala che il Cremlino si prepara a un conflitto di lunga durata in Ucraina. Dubbi sul futuro di Gerasimov]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943460</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Cosa succede dopo il rimpasto di Putin, la mossa dello Zar per sopravvivere alla sua guerra lunga</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/news/mosca_cosa_succede_rimpasto_putin_guerra-422943463/</link>
-      <description><![CDATA[Il senso della manovra è di proteggere economia e società dal conflitto ucraino: perché in Russia impero e regime cadono insieme]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943463</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>L’ascesa della dinastia Patrushev sul trampolino del dopo Putin</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/news/putin_sindrome_napoleone_successione_patrushev-422943488/</link>
-      <description><![CDATA[Il vecchio sodale del leader russo partecipa al Consiglio di sicurezza: secondo gli analisti continuerà ad essere molto influente. Il figlio Dmitrij è stato nominato vice premier: per molti la rampa di lancio per diventare il delfino del capo del Cremlino]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943488</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Wael Zaqqout (Anp): “Noi palestinesi siamo per la soluzione a due Stati, ma spetta a Israele decidere. Se non lo farà, resterà isolato”</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/news/anp_wael_zaqqout_nuovo_governo_palestinese-422943467/</link>
-      <description><![CDATA[L’intervista al ministro della Cooperazione Internazionale dell’Autorità: “La guerra non porta da nessuna parte, sediamoci e parliamo. Non chiediamo il mondo. Pace, dignità, diritti umani, sicurezza: come tutti”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943467</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>L’ex legale Cohen va in aula e inchioda “il boss”. Trump: “Mi disse di pagare Stormy”</title>
-      <link>https://www.repubblica.it/esteri/2024/05/14/news/trump_processo_avvocato_michael_cohen-422943457/</link>
-      <description><![CDATA[Udienza drammatica a New York sui soldi in nero alla pornostar: “Donald temeva che la storia avesse un catastrofico impatto sulle presidenziali, mi ordinò di darle cash”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943457</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Antisemitismo, dal 7 ottobre l’odio è raddoppiato. E il numero delle aggressioni ha raggiunto quello delle minacce virtuali</title>
-      <link>https://www.repubblica.it/politica/2024/05/14/news/antisemitismo_7_ottobre_aggressioni_cdec-422943400/</link>
-      <description><![CDATA[I dati del Centro di documentazione ebraica contemporanea: impennata di molestie, pressioni e vandalizzazioni a danno di ebrei]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <category domain="/rep-milano/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943400</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Giorgetti resiste sul Superbonus. Ignorate le richieste di Tajani</title>
-      <link>https://www.repubblica.it/economia/2024/05/14/news/giorgetti_tajani_superbonus_emendamenti_senato-422943517/</link>
-      <description><![CDATA[Parere negativo dal Mef agli emendamenti 
-di Forza Italia: “Diamo un segnale ai mercati”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943517</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Il Tesoro e Forza Italia trattano per il rinvio della sugar tax. Ma c’è il nodo coperture</title>
-      <link>https://www.repubblica.it/economia/2024/05/14/news/rinvio_sugar_tax_governo-422943523/</link>
-      <description><![CDATA[Forza Italia vuole attingere da un Fondo del Mef per rinviare ancora l’introduzione dell’imposta sulle bevande zuccherate. La Lega risponde: tagli alle missioni internazionali]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943523</guid>
-      <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>I soci Open Fiber all’ultimo miglio: accordo vicino sui soldi</title>
-      <link>https://www.repubblica.it/economia/2024/05/14/news/open_fiber_fibra_rete_accordo_banche-422943496/</link>
-      <description><![CDATA[Cdp, Macquarie e le banche trovano l’intesa sull’ultima tranche del vecchio finanziamento da 7,2 miliardi. Si tratta su altri 2 miliardi]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <category domain="/repubblica/economia/affari-e-finanza">Affari e finanza</category>
-      <pubDate>Mon, 13 May 2024 23:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943496</guid>
       <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
     </item>
     <item>
@@ -264,75 +312,25 @@ di Forza Italia: “Diamo un segnale ai mercati”]]></description>
       <dcterms:modified>2024-05-13T23:00:00Z</dcterms:modified>
     </item>
     <item>
-      <title>La verità di Pozzolo in procura: “A sparare fu il capo scorta di Delmastro”</title>
-      <link>https://torino.repubblica.it/cronaca/2024/05/13/news/sparo_capodanno_pozzolo_accusa_caposcorta_delmastro_morello-422943546/</link>
-      <description><![CDATA[Il deputato indica il nome del poliziotto penitenziario che avrebbe fatto esplodere il colpo a Capodanno]]></description>
+      <title>Le macerie delle discoteche abbandonate: 2.100 chiuse negli ultimi 14 anni. “Le più grandi e belle in Europa”. Metà sono banche, McDonald’s, grattacieli e chiese</title>
+      <link>https://www.repubblica.it/cronaca/2024/05/14/news/le_macerie_delle_discoteche_abbandonate_2100_chiuse_negli_ultimi_14_anni_le_piu_grandi_e_belle_in_europa_meta_sono_ban-422943542/</link>
+      <description><![CDATA[L’inchiesta. Ecco che fine hanno fatto il Bandiera gialla di Rimini, il Marabù di Reggio Emilia, il Genux nel Bresciano, L’ultimo Impero in provincia di Torino. Parlano Johnson Righeira, Umberto Smaila e Marcella Bella. “E’ finita un’era e i giovani oggi hanno meno voglia di conoscersi”]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/rep-torino/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 22:00:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-torino:422943546</guid>
-      <dcterms:modified>2024-05-13T22:00:00Z</dcterms:modified>
+      <category domain="/repubblica/cronaca">Cronaca</category>
+      <pubDate>Mon, 13 May 2024 22:01:00 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422943542</guid>
+      <dcterms:modified>2024-05-13T22:01:00Z</dcterms:modified>
     </item>
     <item>
-      <title>Cambio al vertice del Senato dopo il patto tra FdI e Conte</title>
-      <link>https://www.repubblica.it/economia/2024/05/13/news/toniato_segretario_al_senato_patto_tra_fdi_e_conte-422943538/</link>
-      <description><![CDATA[Toniato verso la nomina al posto di Serafin come segretario generale. Goracci vice grazie all’intervento dell’ex premier]]></description>
+      <title>Sandro Tonali testimonial contro le scommesse in un liceo di Bari: “Mi sono nascosto e ho sbagliato. A rischio amicizie e lavoro”</title>
+      <link>https://bari.repubblica.it/cronaca/2024/05/13/news/sandro_tonali_testimonial_scommesse_liceo_salvemini_bari_rischio_amicizie_lavoro-422943009/</link>
+      <description><![CDATA[Il calciatore del Newcastle, squalificato fino al 28 agosto 2024, è intervenuto in un incontro nel capoluogo pugliese con gli studenti, promosso con la Federcalcio]]></description>
       <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/economia">Economia</category>
-      <pubDate>Mon, 13 May 2024 21:54:23 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943538</guid>
-      <dcterms:modified>2024-05-13T21:54:23Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Von der Leyen a Roma, incontro con i forzisti tra imbarazzi e porte chiuse. E Tajani deve precisare: “Con lei tutto bene”</title>
-      <link>https://www.repubblica.it/politica/2024/05/14/news/von_der_leyen_roma_forza_italia_tajani-422943499/</link>
-      <description><![CDATA[Tappa di poche ore nella Capitale della presidente della commissione europea. Caos in agenda, la riunione con i giovani azzurri si svolge quasi in segreto. Il leader di FI sdrammatizza, ma alla convention dell’Eur non la cita mai]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <pubDate>Mon, 13 May 2024 20:53:00 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943499</guid>
-      <dcterms:modified>2024-05-13T20:53:00Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Rafah, spari sull’Onu: almeno un morto. Fischi al governo Netanyahu nel giorno della Memoria</title>
-      <link>https://www.repubblica.it/esteri/2024/05/13/news/israele_proteste_giornata_memoria-422943435/</link>
-      <description><![CDATA[Colpita nel su di Gaza un’auto delle Nazioni Unite, l’Idf annuncia un’inchiesta. Erdogan: “Curati in Turchia più di mille membri di Hamas”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 19:59:48 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943435</guid>
-      <dcterms:modified>2024-05-13T19:59:48Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Stefano Massini aggredito al Salone del Libro di Torino: “Voi comunisti state riscrivendo la storia”</title>
-      <link>https://www.repubblica.it/cultura/2024/05/13/news/stefano_massini_aggredito_al_salone_del_libro_di_torino-422943103/</link>
-      <description><![CDATA[L’autore presentava il suo “Mein Kampf” sull’ascesa del nazismo. Contestazione verbale poi spintoni: “Hitler aveva ragione. Ora lo possiamo dire”]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/politica">Politica</category>
-      <category domain="/repubblica/cultura">Cultura</category>
-      <pubDate>Mon, 13 May 2024 18:40:08 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422943103</guid>
-      <dcterms:modified>2024-05-13T18:40:08Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Fedez indagato per rissa a Milano: la svolta nell’inchiesta sul pestaggio del personal trainer Cristiano Iovino</title>
-      <link>https://milano.repubblica.it/cronaca/2024/05/13/news/fedez_indagato_per_rissa_a_milano-422943030/</link>
-      <description><![CDATA[Ancora da chiarire i motivi della lite nella discoteca The Club, con diversi ultrà milanisti presenti, prima del misterioso agguato del 22 aprile]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/rep-milano/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 17:36:21 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-milano:422943030</guid>
-      <dcterms:modified>2024-05-13T17:36:21Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Arrestato Scorpion, il trafficante di uomini più ricercato d’Europa</title>
-      <link>https://www.repubblica.it/esteri/2024/05/13/news/scorpion_trafficante_migranti_arresto_kurdiatn-422942811/</link>
-      <description><![CDATA[L’annuncio dell’emittente irachena Kurdistan 24: il fermo dopo un’operazione congiunta dei servizi segreti del Kurdistan iracheno e dell’Interpol. Era considerato uno degli uomini principali dietro le partenze illegali di migranti]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/repubblica/esteri">Esteri</category>
-      <pubDate>Mon, 13 May 2024 15:15:34 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:repubblica:422942811</guid>
-      <dcterms:modified>2024-05-13T15:15:34Z</dcterms:modified>
+      <category domain="/repubblica/sport">Sport</category>
+      <category domain="/rep-bari/cronaca">Cronaca</category>
+      <pubDate>Mon, 13 May 2024 17:24:16 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:rep-bari:422943009</guid>
+      <dcterms:modified>2024-05-13T17:24:16Z</dcterms:modified>
     </item>
   </channel>
 </rss>

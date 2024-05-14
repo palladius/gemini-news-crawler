@@ -6,8 +6,8 @@
 <atom:link type="application/rss+xml" rel="self" href="http://online.wsj.com"/>
 <description>Markets</description>
 <language>en-us</language>
-<pubDate>Mon, 13 May 2024 18:48:47 -0400</pubDate>
-<lastBuildDate>Mon, 13 May 2024 18:48:47 -0400</lastBuildDate>
+<pubDate>Tue, 14 May 2024 07:01:22 -0400</pubDate>
+<lastBuildDate>Tue, 14 May 2024 07:01:22 -0400</lastBuildDate>
 <copyright>Dow Jones &amp; Company, Inc.</copyright>
 <generator>http://online.wsj.com</generator>
 <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
@@ -16,6 +16,26 @@
 <link>http://online.wsj.com</link>
 <url>http://online.wsj.com/img/wsj_sm_logo.gif</url>
 </image>
+<item>
+<title>Israel's Once-Dominant Drugmaker Is Revived by Innovation</title>
+<link>https://www.wsj.com/articles/israels-once-dominant-drugmaker-is-revived-by-innovation-daed1214?mod=rss_markets_main</link>
+<description><![CDATA[Teva Pharmaceutical’s stock has nearly doubled in the past year as Wall Street gets excited about its branded portfolio.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 07:00:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001771934</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Heard on the Street</wsj:articletype>
+</item>
+<item>
+<title>OPEC Sticks to Oil-Demand View</title>
+<link>https://www.wsj.com/articles/opec-sticks-to-oil-demand-view-posts-fall-in-overall-output-65c820ec?mod=rss_markets_main</link>
+<description><![CDATA[OPEC left its estimates for global oil-demand growth unchanged for this year and next, while reporting a fall in crude output as the market awaits the cartel’s next production policy move at its upcoming meeting in June.]]></description>
+<content:encoded/>
+<pubDate>Tue, 14 May 2024 06:55:00 -0400</pubDate>
+<guid isPermaLink="false">WP-WSJ-0001772813</guid>
+<category domain="AccessClassName">PAID</category>
+<wsj:articletype>Oil Markets</wsj:articletype>
+</item>
 <item>
 <title>Fund Manager Bill Hwang's Archegos Was a 'House of Cards,' Prosecutor Tells Jury</title>
 <link>https://www.wsj.com/articles/fund-manager-bill-hwangs-archegos-was-a-house-of-cards-prosecutor-tells-jury-77f70a1e?mod=rss_markets_main</link>
@@ -195,26 +215,6 @@
 <guid isPermaLink="false">WP-WSJ-0001763358</guid>
 <category domain="AccessClassName">PAID</category>
 <wsj:articletype>Markets Main</wsj:articletype>
-</item>
-<item>
-<title>How Did Jim Simons's Firm Make $100 Billion? He Told His Secrets to Our Reporter</title>
-<link>https://www.wsj.com/articles/how-did-jim-simonss-firm-make-100-billion-he-told-his-secrets-to-our-reporter-f7b335f9?mod=rss_markets_main</link>
-<description><![CDATA[The huge gains came both from groundbreaking insights and lots of small innovations. Being way out on Long Island didn’t hurt either.]]></description>
-<content:encoded/>
-<pubDate>Fri, 10 May 2024 18:59:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001513744</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Hedge Funds</wsj:articletype>
-</item>
-<item>
-<title>Heard on the Street's Stock-Picking Contest</title>
-<link>https://www.wsj.com/articles/heard-on-the-streets-stock-picking-contest-bbb58f00?mod=rss_markets_main</link>
-<description><![CDATA[Read about our columnists’ favorite and least-favorite stocks and see how they have performed.]]></description>
-<content:encoded/>
-<pubDate>Fri, 10 May 2024 17:19:00 -0400</pubDate>
-<guid isPermaLink="false">WP-WSJ-0001146574</guid>
-<category domain="AccessClassName">PAID</category>
-<wsj:articletype>Heard on the Street</wsj:articletype>
 </item>
 </channel>
 </rss>

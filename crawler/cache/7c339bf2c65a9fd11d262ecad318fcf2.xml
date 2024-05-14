@@ -7,13 +7,52 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 05:56:06 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 03:34:54 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 12:43:31 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 11:20:39 +0000</pubDate>
     <image>
       <title>NYT &gt; Business &gt; Economy</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/business/economy</link>
     </image>
+    <item>
+      <title>High Interest Rates Are Hitting Poorer Americans the Hardest</title>
+      <link>https://www.nytimes.com/2024/05/14/business/economy/interest-rates-inequality.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/business/economy/interest-rates-inequality.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/business/economy/interest-rates-inequality.html" rel="standout"></atom:link>
+      <description>The economy as a whole has proved resilient amid the highest rates in decades. But beneath the surface, many low- and moderate-income families are struggling.</description>
+      <dc:creator>Ben Casselman and Jeanna Smialek</dc:creator>
+      <pubDate>Tue, 14 May 2024 07:00:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income Inequality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Credit and Debt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Personal Finances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/13unequal-rates-01-vftp/13unequal-rates-01-vftp-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>David Kasnic for The New York Times</media:credit>
+      <media:description>Chris Nunn of Louisville, Ky., says he has too little credit and too much debt to buy a home, and his rent keeps rising.</media:description>
+    </item>
+    <item>
+      <title>What Forecasters Say About Interest Rates (and Why They Disagree)</title>
+      <link>https://www.nytimes.com/2024/05/14/business/economy/interest-rate-forecasts.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/business/economy/interest-rate-forecasts.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/business/economy/interest-rate-forecasts.html" rel="standout"></atom:link>
+      <description>Hopes for a steep drop in borrowing costs for consumers and businesses have been dashed. But some experts predict modest reductions in coming months.</description>
+      <dc:creator>Talmon Joseph Smith</dc:creator>
+      <pubDate>Tue, 14 May 2024 07:00:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Consumer Price Index</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economics (Theory and Philosophy)</category>
+      <media:content height="1600" medium="image" url="https://static01.nyt.com/images/2024/05/13/business/13econ-explain/13econ-explain-mediumSquareAt3X.jpg" width="1600"></media:content>
+      <media:credit>Tyler Comrie</media:credit>
+    </item>
     <item>
       <title>U.S. Awards $120 Million to Polar Semiconductor to Expand Chip Facility</title>
       <link>https://www.nytimes.com/2024/05/13/us/politics/chips-polar-semiconductor-biden.html</link>
@@ -374,61 +413,6 @@
       <category domain="http://www.nytimes.com/namespaces/keywords/des">Gross Domestic Product</category>
       <media:content height="1000" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/2024-04-25-gdp-quarters-index/2024-04-25-gdp-quarters-index-mediumSquareAt3X-v3.png" width="1000"></media:content>
       <media:credit>Karl Russell</media:credit>
-    </item>
-    <item>
-      <title>N.F.L. Draft Is Like Super Bowl for City of Detroit</title>
-      <link>https://www.nytimes.com/2024/04/25/business/nfl-draft-detroit.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/business/nfl-draft-detroit.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/25/business/nfl-draft-detroit.html" rel="standout"></atom:link>
-      <description>Places that are not usual sites for the league’s marquee game are jumping at the chance to be the host of its three-day draft.</description>
-      <dc:creator>Ken Belson</dc:creator>
-      <pubDate>Thu, 25 Apr 2024 14:53:33 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Football League</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Draft and Recruitment (Sports)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Detroit (Mich)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fans (Persons)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Advertising and Marketing</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-truncator</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/24nfldraft-detroit-01-pqkc/24nfldraft-detroit-01-pqkc-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Nic Antaya for The New York Times</media:credit>
-      <media:description>“We have a chance to reintroduce ourselves to America,” Detroit’s mayor said of hosting the draft.</media:description>
-    </item>
-    <item>
-      <title>Blinken’s Visit to China: What to Know</title>
-      <link>https://www.nytimes.com/2024/04/25/world/asia/blinken-china-united-states-thaw.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/04/25/world/asia/blinken-china-united-states-thaw.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/04/25/world/asia/blinken-china-united-states-thaw.html" rel="standout"></atom:link>
-      <description>Secretary of State Antony J. Blinken is in China this week as tensions have risen over trade, security, Russia’s war on Ukraine and the Middle East crisis.</description>
-      <dc:creator>Ana Swanson, David Pierson and Olivia Wang</dc:creator>
-      <pubDate>Thu, 25 Apr 2024 04:46:13 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Territorial Disputes</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">TikTok (ByteDance)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">State Department</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Austin, Lloyd J III</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blinken, Antony J</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wang Yi</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">East Asia</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Middle East</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South China Sea</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
-      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/04/24/multimedia/00china-blinken-explainer-qpgz/00china-blinken-explainer-qpgz-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Pool photo by Mark Schiefelbein</media:credit>
-      <media:description>Secretary of State Antony J. Blinken with Chen Jining, the Communist Party secretary for Shanghai, on Thursday.</media:description>
     </item>
   </channel>
 </rss>

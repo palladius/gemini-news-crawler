@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link><description>Cloud Blog</description><atom:link href="https://cloudblog.withgoogle.com/blog/rss/" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 13 May 2024 16:00:01 +0000</lastBuildDate><image><url>https://cloud.google.com/blog/static/blog/images/google.a51985becaa6.png</url><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link></image><item><title>Built with BigQuery: Making data activation and monetization accessible with Optable</title><link>https://cloud.google.com/blog/products/data-analytics/optable-data-clean-room-platform-integrates-with-bigquery/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Editor’s note&lt;/strong&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;: The post is part of a series showcasing tech companies and data providers that are &lt;/span&gt;&lt;a href="https://cloud.google.com/solutions/data-cloud-isvs"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Built with BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link><description>Cloud Blog</description><atom:link href="https://cloudblog.withgoogle.com/blog/rss/" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 13 May 2024 16:00:08 +0000</lastBuildDate><image><url>https://cloud.google.com/blog/static/blog/images/google.a51985becaa6.png</url><title>Cloud Blog</title><link>https://cloud.google.com/blog/</link></image><item><title>Performing large-scale computation-driven drug discovery on Google Cloud</title><link>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Editor’s note:&lt;/strong&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; Today we hear from Atommap, a computational drug discovery company that has built an elastic supercomputing cluster on the Google Cloud to empower large-scale, computation-driven drug discovery. Read on to learn more.&lt;/span&gt;&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In recent years, changes in consumer privacy regulations have created disruption within the media and advertising ecosystem. Publishers have felt some of the biggest impact, needing to change the way they think about ad monetization so they can continue to respe&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;ct u&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;ser privacy, reduce reliance on third parties, and build sustainable revenue growth. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Key to helping publishers navigate these challenges is their data management and collaboration technologies, which enable them to utilize private identity data, extract meaningful business insights, and safely scale data activation. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.optable.co/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Optable&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is the maker of an end-to-end data clean room platform for the advertising industry that integrates with &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and enables audience activation and insights through connections with downstream systems.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Optimizing data management for monetization &lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The methods and systems that support audience-focused ad planning, activation, and measurement have undergone a massive shift. As a result, publishers are needing to reevaluate their data strategies, shifting their investments to cloud computing and big data. Unfortunately, a lack of innovation in data management platforms (DMPs) for publishers has stifled revenue growth and created inefficiencies in operations. This lack of ROI in legacy DMPs comes from the following challenges:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Bringing a new medicine to patients typically happens in four stages: (1) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;target identification&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that selects the protein target associated with the disease, (2) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;molecular discovery&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that finds the new molecule modulating the function of the target, (3) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;clinical trial&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that tests the candidate drug molecule’s safety and efficacy in patients, and (4) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;commercialization&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that distributes the drug to patients in needs. The molecular discovery stage, in which novel drug molecules are invented, involves solving two problems: first, we need to establish an effective mechanism to modulate the target function that maximizes the therapeutic efficacy and minimizes the adverse effect; second, we need to design, select, and make the right drug molecule that faithfully implements the mechanism, is bioavailable, and has acceptable toxicity.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;What makes molecular discovery hard?&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A protein is in constant thermal motion, which changes its shape (conformation) and binding partners (other biomolecules), thus affecting its functions. Structural detail of a protein’s conformational dynamics time and again suggests novel mechanisms of functional modulation. But such information often eludes experimental determination, despite tremendous progress in experimental techniques in recent years.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The chemical “universe” of all possible distinct small molecules — estimated to number 10&lt;/span&gt;&lt;sup&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: super;"&gt;60&lt;/span&gt;&lt;/span&gt;&lt;/sup&gt;&lt;span style="vertical-align: baseline;"&gt; (&lt;/span&gt;&lt;a href="https://doi.org/10.1039/C0MD00020E" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Reymond et al. 2010&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;) — is vast. Chemists have made probably ten billion so far, so we still have about 10&lt;/span&gt;&lt;sup&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: super;"&gt;60&lt;/span&gt;&lt;/span&gt;&lt;/sup&gt;&lt;span style="vertical-align: baseline;"&gt; to go.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;There lie two major challenges of molecular discovery and its endless opportunity: chances are that we have not considered all the mechanisms of action or found the best molecules, thus we can always invent a better drug. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Atommap’s computation-driven approach to molecular discovery&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Harnessing the power of high-performance computing, Atommap’s molecular engineering platform enables the discovery of novel drug molecules against previously intractable targets through new mechanisms, making the process faster, cheaper, and more likely to succeed. In past projects, Atommap’s platform has dramatically reduced both the time (by more than half) and cost (by 80%) of molecular discovery. For example, it played a pivotal role in advancing a molecule against a challenging therapeutic target to the clinical trial in 17 months (&lt;/span&gt;&lt;a href="https://clinicaltrials.gov/study/NCT04609579" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;NCT04609579&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;) and it substantially accelerated the discovery of novel molecules that degrade high-valued oncological targets (&lt;/span&gt;&lt;a href="https://doi.org/10.1021/acs.jcim.3c00603" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Mostofian et al. 2023&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Atommap achieves this by:&lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Platforms can’t deliver insights across known users, anonymous traffic, and ad data. &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;A shift across the media landscape to subscription-based approaches and user consent has meant publishers have an influx of first-party data from their audiences. This change means they need new types of privacy-centric tools to not only manage this data, but also combine it with other datasets to derive insights for both internal business operations as well as advertising partners.&lt;/span&gt;&lt;/li&gt;
-&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Identity management can consume the limited resources of modern publishers and media companies&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. As media consumption has continued to fragment, identifying your audience to deliver relevant media and advertising has become a struggle. Many customer data platforms (CDPs) and legacy DMPs rely on systems that are too rigid and profile-based. This makes it difficult to understand true audience reach and attributes, and leaves analytics teams with incomplete or error-prone data sets.&lt;/span&gt;&lt;/li&gt;
-&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;There’s a lack of privacy-centric data monetization tools and integrations for publishers&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. Given the rapid onset of privacy changes, many publishers are navigating a &lt;/span&gt;&lt;a href="https://adage.com/article/opinion/digital-marketing-2024-how-privacy-hurdles-and-signal-loss-will-drive-innovation-across-industry/2542421" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;reduction in addressability, signal loss, and programmatic revenues&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. Current technologies lack interoperability with second-party datasets, advertising ID providers, and ad delivery systems to support direct sales growth.&lt;/span&gt;&lt;/li&gt;
-&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Legacy solutions are not extendable and interoperable across a growing cloud ecosystem&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt; &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Data management solutions have not kept up with innovation in the cloud computing ecosystem. This makes data extensibility into native cloud tools for things like modeling, custom queries and data visualization is difficult without cumbersome data copying. Additionally, most data management platforms lack native functionality with cloud-based clean room capabilities, such as data analysis rules and egress restrictions, across all major cloud providers. &lt;/span&gt;&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Advanced molecular dynamics (MD) simulations&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that unveil complex conformational dynamics of the protein target and its interactions with the drug molecules and other biomolecules. They establish the dynamics-function relationship for the target protein, which is instrumental to choosing the best mechanism of action for the drug molecules. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Generative models&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that enumerate novel molecules. Beginning with a three-dimensional blueprint of a drug molecule's interaction with its target, our models computationally generate thousands to hundreds of thousands of new virtual molecules, which are designed to form the desired interactions and to satisfy both synthetic feasibility and favorable drug-like properties. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Physics-based, ML-enhanced predictive models&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that accurately predict molecular potencies and other properties. Every molecular design is evaluated computationally for its target-binding affinity, its effects on the target, and its drug-likeness. This allows us to explore many times more molecules than can be synthesized and tested in the wet lab, and to perform multiple rounds of designs while waiting for often-lengthy experimental evaluation, leading to compressed timelines and increased probability of success.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Privacy-safe addressable ad products for publishers&lt;/strong&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Computation as a Service and Molecular Discovery as a Service&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To truly, broadly impact drug discovery, Atommap needs to augment its deep expertise in molecular discovery by partnering with external expertise in the other stages — target identification, clinical trials, and commercialization. We form partnerships in two ways: Computation as a Service (CaaS) and Molecular Discovery as a Service (MDaaS, pronounced &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Midas&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;), which make it easy and economically attractive for every drug discovery organization to access our computation-driven molecular engineering platform. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Instead of selling software subscriptions, Atommap’s pay-as-you-go CaaS model lets any discovery project first try our computational tools at a small and affordable scale, without committing too much budget. Not every project is amenable to computational solutions, but most are. This approach allows every drug discovery project to introduce the appropriate computations cheaply and quickly, with demonstrable impact, and then deploy them at scale to amplify their benefits.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For drug hunters who would like to convert their biological and clinical hypotheses into drug candidates, our MDaaS partnership allows them to quickly identify potent molecules with novel intellectual property for clinical trials. Atommap executes the molecular discovery project from the first molecule (initial hits) to the last molecule (development candidates), freeing our partners to focus on biological and clinical validation. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;The need for elastic computing&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-image_full_width"&gt;
 
 
@@ -39,11 +51,13 @@
       
         
         &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1._Optable_Overview.max-1000x1000.png"
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_apPqgNo.max-1000x1000.png"
         
-          alt="1. Optable Overview"&gt;
+          alt="image1"&gt;
         
         &lt;/a&gt;
+      
+        &lt;figcaption class="article-image__caption "&gt;&lt;p data-block-key="eug34"&gt;Figure 1. Diverse computational tasks in Atommap’s molecular engineering platform require elastic computing resources.&lt;/p&gt;&lt;/figcaption&gt;
       
     &lt;/figure&gt;
 
@@ -56,158 +70,32 @@
 
 
 &lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable is a next-generation data management and collaboration platform that is privacy-focused by design and built to harness the power of today's big data and cloud computing ecosystem. To achieve this, Optable focuses on three key areas of innovation.&lt;/span&gt;&lt;/p&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;1. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Composable identity&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;The Optable platform simplifies the complexities of processing and analyzing audience identity data in the age of privacy. By creating a flexible identity system, publishers can shape their audience graph for maximum accuracy and addressability. Optable also makes it easy to connect alternative identifiers such as UID 2.0 or ID5 to your audience data so that you can understand the full spectrum of advertiser demand and maximize revenue. It’s also straightforward to enrich audience data through connecting to second-party data sources, such as &lt;/span&gt;&lt;a href="https://www.truedata.co/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;True Data&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;2. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Interoperability focused on monetization&lt;br/&gt;&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Optable makes monetization easy. It’s built the tools and integrations needed to keep up with programmatic ad-tech ecosystem changes. Audience data is fully interoperable through the Google Cloud ecosystem (and beyond), which means it’s easier to activate through ad servers like &lt;/span&gt;&lt;a href="https://admanager.google.com/intl/en_uk/home/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Ad Manager&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; (GAM) or &lt;/span&gt;&lt;a href="https://marketingplatform.google.com/intl/en_uk/about/display-video-360/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google DV 360&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, or use pre-built clean room applications within BigQuery. This combination means that direct sales and ad operations teams can quickly and easily move from ad partner planning, to audience building and insights, to actual campaign activation.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2._Optable_Data_flow.max-1000x1000.png"
-        
-          alt="2. Optable Data flow"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;3. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Audience insights across all known users and event traffic&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Audience building and analysis with Optable provides a comprehensive 360-degree view without the massive upfront engineering that’s usually required. By allowing audiences to be created, synthesized, and managed using both known user data as well as anonymous events (such as page visits or ad serving events from GAM), operational teams can glean meaningful insights, service unique requests from ad partners, and optimize campaign performance. For example, in the image below, Optable Insights shows customers key information about the size and makeup of their private identity graph as well as the makeup of Traits across their audience.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/3._Optable_Insights_Screenshot.max-1000x1000.png"
-        
-          alt="3. Optable Insights Screenshot"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;One of Optable’s early customers, a major North American news publisher, developed a digital-first publication strategy in 2017. As part of this they built an ad-sales strategy focused on privacy-safe first-party data monetization. A key pillar to their strategy is data collaboration through Optable. Through this investment they achieved a 9% annual increase in ad revenue in 2022.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;How Optable creates growth and efficiency&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable on BigQuery empowers publishers to monetize their data assets, even if they lack engineering resources&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Optable provides the right tools and integrations so teams can use their data to create ad products. For example, audience data can be exported directly into &lt;/span&gt;&lt;a href="https://support.google.com/google-ads/answer/14639041?hl=en-GB" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Ads Data Manager&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for easy activation.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The data clean room is one of the most important technologies in the media and advertising space. The Optable platform gives publishers pre-built applications that are powered by BigQuery data clean room primitives and APIs. These can also easily be extended to power secure data collaboration across other cloud ecosystems using Optable’s ‘Flash Nodes’ and ‘Flash Connectors.’ Flash Nodes allow companies to invite partners to easily onboard their data into a limited version of Optable simply for the purpose of collaborating with that partner; this reduces the friction of setting up a whole new collaboration platform. Likewise, ‘Flash Connectors’ give companies a set of primitives that can be shared with partners who use AWS, Snowflake, and BigQuery so that Optable users can collaborate directly with partners who house their data in those environments without moving any data.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Rather than just focusing on moving data in and out, Optable’s platform is built for a data-warehouse centric world, so publishers can extend their capabilities. Identity graphs can be shaped and custom modeling easily deployed directly in BigQuery. Additionally, the capabilities of the Google Data Cloud enable custom use cases such as data visualization in &lt;/span&gt;&lt;a href="https://cloud.google.com/looker?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Looker&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. To help navigate data security compliance, Optable has built ‘Bring Your Own Account’ functionality to allow customers to utilize a Google BigQuery instance that’s fully controllable.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/4._Optable_Marketecture.max-1000x1000.png"
-        
-          alt="4. Optable Marketecture"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable partners with Google across many areas, including a new integration with the &lt;/span&gt;&lt;a href="https://developers.google.com/privacy-sandbox" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Privacy Sandbox&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; APIs that enable publishers to easily onboard and activate audiences as well as enabling marketers to run campaigns via Privacy Sandbox. An early access program enables these capabilities directly through the Optable platform. You can &lt;/span&gt;&lt;a href="https://www.optable.co/google-privacy-sandbox" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;learn more here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Later this year, Optable is announcing enhancements to its audience data management and collaboration capabilities, including support for ad serving events through Google Ad Manager and the release of the Google BigQuery Connector to allow for zero-copy partner collaboration. For more information on these and other capabilities please visit the &lt;/span&gt;&lt;a href="https://www.optable.co/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Optable website&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable also recently became a&lt;/span&gt;&lt;a href="https://cloud.google.com/marketplace?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt; Google Cloud Marketplace&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; vendor, so Google Cloud customers can now purchase and implement Optable’s platform directly. Following the recently announced &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/bigquery-data-clean-rooms-now-generally-available?e=48754805#:~:text=To%20facilitate%20this%20type%20of,to%20protect%20the%20underlying%20data."&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;general availability of BigQuery data clean rooms&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, the Optable and Google teams are working on an integration to unlock more planning, activation and measurement use cases for the media and advertising ecosystem.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The Built with BigQuery advantage&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Built with BigQuery helps companies like Optable build innovative applications with Google Data Cloud. Participating companies can: &lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Accelerate product design and architecture through access to designated experts who can provide insight into key use cases, architectural patterns, and best practices. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Amplify success with joint marketing programs to drive awareness, generate demand, and increase adoption. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery gives ISVs the advantage of a powerful, highly scalable unified AI lakehouse that’s integrated with Google Cloud’s open, secure, sustainable platform. &lt;/span&gt;&lt;a href="https://cloud.google.com/solutions/data-cloud-isvs"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Click here to learn more about Built with BigQuery&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/optable-data-clean-room-platform-integrates-with-bigquery/</guid><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Built with BigQuery: Making data activation and monetization accessible with Optable</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/optable-data-clean-room-platform-integrates-with-bigquery/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Bennett Crumbling</name><title>Head of Marketing, Optable</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Hamza El-Ghoujdami</name><title>Cloud Tech Advisor, Google Cloud</title><department></department><company></company></author></item><item><title>Data democratization with Dataplex: Implementing a data mesh architecture</title><link>https://cloud.google.com/blog/products/data-analytics/using-bigquery-dataplex-to-build-a-data-mesh/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;&lt;strong&gt;Editor’s note&lt;/strong&gt;: Today’s blog post was written in collaboration with Google Cloud Premier Partner &lt;/span&gt;&lt;a href="https://www.virtusa.com/" rel="noopener" target="_blank"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Virtusa&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;, which specializes in building cloud-native, microservices-based, pre-built solutions and APIs on Kubernetes, as well as machine learning and data-oriented applications, as well as offering managed cloud services and cloud operations design.&lt;/span&gt;&lt;/p&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For Atommap, the number of partnership projects and the scale of computation in each project fluctuate over time. In building structural models to enable structure-based drug design, we run hundreds of long-timescale MD simulations on high-performance GPUs to explore the conformational ensembles of proteins and complexes between proteins and small molecules, each of which can last hours to days. Our NetBFE platform for predicting the binding affinities invokes thousands, sometimes tens of thousands, of MD simulations, although each one is relatively short and completes in a few hours. Atommap’s machine learning (ML) models take days to weeks to train on high-memory GPUs, but once trained and deployed in a project, run in seconds to minutes. Balancing the different computational loads associated with different applications poses a challenge to the computing infrastructure. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To meet this elastic demand, we chose to supplement our internal computer clusters with &lt;/span&gt;&lt;a href="https://cloud.google.com/"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;How to build an elastic supercomputer on Google Cloud&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;It took us several steps to move our computing platform from our internal cluster to a hybrid environment that includes Google Cloud.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Slurm&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Many workflows in our platform depended on &lt;/span&gt;&lt;a href="https://slurm.schedmd.com/overview.html" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Slurm&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for managing the computing jobs. To migrate to Google Cloud, we built a cloud-based Slurm cluster using &lt;/span&gt;&lt;a href="https://cloud.google.com/hpc-toolkit/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud HPC Toolkit&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, an open-source utility developed by Google. Cloud HPC Toolkit is a command line tool that makes it easy to stand up connected and secure cloud HPC systems. With this Slurm cluster up and running in minutes, we quickly put it to use with our Slurm-native tooling to set up computing jobs for our discovery projects.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud HPC Toolkit naturally fits our DevOps function into best practices. We defined our compute clusters as “blueprints” within YAML files that allow us to simply and transparently configure specific details of individual Google Cloud products. The Toolkit transpiles blueprints into input scripts that are executed with Hashicorp’s &lt;/span&gt;&lt;a href="https://www.terraform.io/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Terraform&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, an industry standard tool for defining “infrastructure-as-code” such that it can be committed, reviewed, and version-controlled. Within the blueprint we also defined our compute machine image through a startup script that’s compatible with Hashicorp’s &lt;/span&gt;&lt;a href="https://www.packer.io/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Packer&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. This allowed us to easily “bake in” the software our jobs typically need, such as conda, Docker, and Docker container images that provide dependencies such as &lt;/span&gt;&lt;a href="https://ambermd.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AMBER&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://openmm.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;OpenMM&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, and &lt;/span&gt;&lt;a href="https://pytorch.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;PyTorch&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The deployed Slurm cloud system is as accessible and user-friendly as any Slurm system we have used before. The compute nodes are not deployed until requested and are spun down when finished, thus we only pay for what we use; the only persistent nodes are the head and controller nodes that we log into and deploy from.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Batch&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Compared to Slurm, the cloud-native Google &lt;/span&gt;&lt;a href="https://cloud.google.com/batch"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Batch&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; gives us even greater flexibility in accessing the computing resources. Batch is a managed cloud job-scheduling service, meaning it can be used to schedule cloud resources for long-running scientific computing jobs. Virtual machines that Batch spins up can easily mount either NFS stores or &lt;/span&gt;&lt;a href="https://cloud.google.com/storage/docs/json_api/v1/buckets"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Storage buckets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, the latter of which are particularly suitable for holding our multi-gigabyte MD trajectories and thus useful as output directories for our long-running simulations.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Running our workflows on Google Cloud through the Batch involves two steps: 1) copying the input files to Google Cloud storage, 2) submitting the batch job.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ gcloud storage cp -R ./local_input_dir gs://my-gcs-bucket/work_dir\r\n$ gcloud batch jobs submit example-job --config=./job_cfg.json --location=us-central1&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9320dfe9a0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;SURF&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A common pattern has emerged in most of our computational workflows. First, each job has a set of complex input files, including the sequence and structures of the target protein, a list of small molecules and their valence and three-dimensional structures, and the simulation and model parameters. Second, most computing jobs take hours to days to finish even on the highest-performance machines. Third, the computing jobs produce output datasets of substantial volume and subject to a variety of analyses.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Accordingly, we have recently developed a new computing infrastructure, SURF (submit, upload, run, fetch), which seamlessly integrates our internal cluster and Google Cloud through one simple interface and automatically brings the data to where it is needed by computation or the computation to where the data resides. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ am-surf submit my_job/ --num-cpus 16 --num-gpus 8 --where [gcp|internal]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9320dfeca0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;SURF submits jobs to Google Cloud Batch using Google’s Python API.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We now have an elastic supercomputer on the cloud that gives us massive computing power when we need it. It empowers us to explore the vast chemical space at an unprecedented scale and to invent molecules that better human health and life.&lt;/span&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;sup&gt;&lt;em&gt;&lt;span style="vertical-align: baseline;"&gt;Andrew Sabol supported us from the very beginning of Atommap, even before we knew whether we could afford the computing bills. Without the guidance and technical support of Vincent Beltrani, Mike Sabol, and other Google colleagues, we could not have rebuilt our computing platform on Google Cloud in such a short time. Our discovery partners put their trust in our young company and our burgeoning platform; their collaborations helped us validate our platform in real discovery projects and substantially improve its throughput, robustness, and predictive accuracy. &lt;/span&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</guid><category>Customers</category><category>HPC</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Performing large-scale computation-driven drug discovery on Google Cloud</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Huafeng Xu</name><title>CEO, Atommap</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Christopher Ryan</name><title>Director of Machine Learning and Data Sciences, Atommap</title><department></department><company></company></author></item><item><title>Data democratization with Dataplex: Implementing a data mesh architecture</title><link>https://cloud.google.com/blog/products/data-analytics/using-bigquery-dataplex-to-build-a-data-mesh/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;&lt;strong&gt;Editor’s note&lt;/strong&gt;: Today’s blog post was written in collaboration with Google Cloud Premier Partner &lt;/span&gt;&lt;a href="https://www.virtusa.com/" rel="noopener" target="_blank"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Virtusa&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;, which specializes in building cloud-native, microservices-based, pre-built solutions and APIs on Kubernetes, as well as machine learning and data-oriented applications, as well as offering managed cloud services and cloud operations design.&lt;/span&gt;&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the ever-evolving world of data engineering and analytics, traditional centralized data architectures are facing limitations in scalability, agility, and governance. To address these challenges, a new paradigm, called “data mesh,” has emerged, which allows organizations to take a decentralized approach to data architecture. This blog post explores data mesh as a concept and delineates the ways that &lt;/span&gt;&lt;a href="https://cloud.google.com/dataplex"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Dataplex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, a data fabric capability within the BigQuery suite, can be used to realize the benefits of this decentralized data architecture.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Data mesh is an architectural framework that promotes the idea of treating data as a product and decentralizes data ownership and infrastructure. It enables teams across an organization to be responsible for their own data domains, allowing for greater autonomy, scalability, and data democratization. Instead of relying on a centralized data team, individual teams or data products take ownership of their data, including its quality, schema, and governance. This distributed responsibility model leads to improved data discovery, easier data integration, and faster insights.&lt;/span&gt;&lt;/p&gt;
@@ -489,7 +377,215 @@
 &lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Scalable data infrastructure:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; With the rise of cloud technologies, data meshes can take advantage of scalable cloud-native infrastructure. Leveraging cloud services, such as serverless computing and elastic storage, enables organizations to scale their data infrastructure on-demand, ensuring optimal performance and cost-efficiency.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Comprehensive and robust&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;data governance&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;:&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Dataplex offers an extensive solution for data governance, ensuring security, compliance, and transparency throughout the data lifecycle. With fine-grained access controls, encryption, and policy-driven data management, Dataplex enhances data security and facilitates adherence to regulatory requirements. The platform provides visibility into the entire data lifecycle through lineage tracking, promoting transparency and accountability. Organizations can enforce standardized governance policies, ensuring consistency and reliability across their data landscape. Dataplex's tools for data quality monitoring and centralized data catalog governance further contribute to effective data governance practices.&lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Learn more&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By embracing the principles of decentralization, data ownership, and autonomy, businesses can unlock a range of benefits, including improved data quality, greater accountability, and enhanced agility, scalability, and decision-making. Embracing this innovative approach can position organizations at the forefront of the data revolution, driving growth, innovation, and a competitive advantage. Learn more about &lt;/span&gt;&lt;a href="https://cloud.google.com/partners/ai"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud’s open generative AI partner ecosystem&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. To get started with Google Cloud and Virtusa and to learn more about building a data mesh using Dataplex, &lt;/span&gt;&lt;a href="https://cloud.google.com/contact/"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;contact us&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; today.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/using-bigquery-dataplex-to-build-a-data-mesh/</guid><category>Partners</category><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Data democratization with Dataplex: Implementing a data mesh architecture</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/using-bigquery-dataplex-to-build-a-data-mesh/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Suhrid Saran</name><title>Senior Solution Architect, Data and Analytics, Virtusa</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Saurabh Dubey</name><title>Partner Engineer, Google Cloud</title><department></department><company></company></author></item><item><title>Firestore integration with Eventarc reaches GA with Auth Context</title><link>https://cloud.google.com/blog/products/databases/firestore-eventarc-integration-now-ga-with-auth-context/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Creating event-driven architectures using &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/eventarc-unified-eventing-experience-google-cloud"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Eventarc&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; together with &lt;/span&gt;&lt;a href="https://firebase.google.com/docs/firestore" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Firestore&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is an increasingly popular pattern. Recently, the &lt;/span&gt;&lt;a href="https://cloud.google.com/datastore/docs/eventarc"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Firestore integration with Eventarc&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; became generally available, adding new functionality. You can now register multiple Cloud Functions in different regions against a multi-regional Firestore database for increased reliability, and there are new event types, including the &lt;/span&gt;&lt;a href="https://github.com/cloudevents/spec/blob/main/cloudevents/extensions/authcontext.md" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Auth Context extension for CloudEvents&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By embracing the principles of decentralization, data ownership, and autonomy, businesses can unlock a range of benefits, including improved data quality, greater accountability, and enhanced agility, scalability, and decision-making. Embracing this innovative approach can position organizations at the forefront of the data revolution, driving growth, innovation, and a competitive advantage. Learn more about &lt;/span&gt;&lt;a href="https://cloud.google.com/partners/ai"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud’s open generative AI partner ecosystem&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. To get started with Google Cloud and Virtusa and to learn more about building a data mesh using Dataplex, &lt;/span&gt;&lt;a href="https://cloud.google.com/contact/"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;contact us&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; today.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/using-bigquery-dataplex-to-build-a-data-mesh/</guid><category>Partners</category><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Data democratization with Dataplex: Implementing a data mesh architecture</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/using-bigquery-dataplex-to-build-a-data-mesh/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Suhrid Saran</name><title>Senior Solution Architect, Data and Analytics, Virtusa</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Saurabh Dubey</name><title>Partner Engineer, Google Cloud</title><department></department><company></company></author></item><item><title>Built with BigQuery: Making data activation and monetization accessible with Optable</title><link>https://cloud.google.com/blog/products/data-analytics/optable-data-clean-room-platform-integrates-with-bigquery/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Editor’s note&lt;/strong&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;: The post is part of a series showcasing tech companies and data providers that are &lt;/span&gt;&lt;a href="https://cloud.google.com/solutions/data-cloud-isvs"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Built with BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In recent years, changes in consumer privacy regulations have created disruption within the media and advertising ecosystem. Publishers have felt some of the biggest impact, needing to change the way they think about ad monetization so they can continue to respe&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;ct u&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;ser privacy, reduce reliance on third parties, and build sustainable revenue growth. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Key to helping publishers navigate these challenges is their data management and collaboration technologies, which enable them to utilize private identity data, extract meaningful business insights, and safely scale data activation. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.optable.co/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Optable&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is the maker of an end-to-end data clean room platform for the advertising industry that integrates with &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and enables audience activation and insights through connections with downstream systems.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Optimizing data management for monetization &lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The methods and systems that support audience-focused ad planning, activation, and measurement have undergone a massive shift. As a result, publishers are needing to reevaluate their data strategies, shifting their investments to cloud computing and big data. Unfortunately, a lack of innovation in data management platforms (DMPs) for publishers has stifled revenue growth and created inefficiencies in operations. This lack of ROI in legacy DMPs comes from the following challenges:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Platforms can’t deliver insights across known users, anonymous traffic, and ad data. &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;A shift across the media landscape to subscription-based approaches and user consent has meant publishers have an influx of first-party data from their audiences. This change means they need new types of privacy-centric tools to not only manage this data, but also combine it with other datasets to derive insights for both internal business operations as well as advertising partners.&lt;/span&gt;&lt;/li&gt;
+&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Identity management can consume the limited resources of modern publishers and media companies&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. As media consumption has continued to fragment, identifying your audience to deliver relevant media and advertising has become a struggle. Many customer data platforms (CDPs) and legacy DMPs rely on systems that are too rigid and profile-based. This makes it difficult to understand true audience reach and attributes, and leaves analytics teams with incomplete or error-prone data sets.&lt;/span&gt;&lt;/li&gt;
+&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;There’s a lack of privacy-centric data monetization tools and integrations for publishers&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. Given the rapid onset of privacy changes, many publishers are navigating a &lt;/span&gt;&lt;a href="https://adage.com/article/opinion/digital-marketing-2024-how-privacy-hurdles-and-signal-loss-will-drive-innovation-across-industry/2542421" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;reduction in addressability, signal loss, and programmatic revenues&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. Current technologies lack interoperability with second-party datasets, advertising ID providers, and ad delivery systems to support direct sales growth.&lt;/span&gt;&lt;/li&gt;
+&lt;li role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Legacy solutions are not extendable and interoperable across a growing cloud ecosystem&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt; &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Data management solutions have not kept up with innovation in the cloud computing ecosystem. This makes data extensibility into native cloud tools for things like modeling, custom queries and data visualization is difficult without cumbersome data copying. Additionally, most data management platforms lack native functionality with cloud-based clean room capabilities, such as data analysis rules and egress restrictions, across all major cloud providers. &lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Privacy-safe addressable ad products for publishers&lt;/strong&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1._Optable_Overview.max-1000x1000.png"
+        
+          alt="1. Optable Overview"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable is a next-generation data management and collaboration platform that is privacy-focused by design and built to harness the power of today's big data and cloud computing ecosystem. To achieve this, Optable focuses on three key areas of innovation.&lt;/span&gt;&lt;/p&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;1. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Composable identity&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;The Optable platform simplifies the complexities of processing and analyzing audience identity data in the age of privacy. By creating a flexible identity system, publishers can shape their audience graph for maximum accuracy and addressability. Optable also makes it easy to connect alternative identifiers such as UID 2.0 or ID5 to your audience data so that you can understand the full spectrum of advertiser demand and maximize revenue. It’s also straightforward to enrich audience data through connecting to second-party data sources, such as &lt;/span&gt;&lt;a href="https://www.truedata.co/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;True Data&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;2. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Interoperability focused on monetization&lt;br/&gt;&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Optable makes monetization easy. It’s built the tools and integrations needed to keep up with programmatic ad-tech ecosystem changes. Audience data is fully interoperable through the Google Cloud ecosystem (and beyond), which means it’s easier to activate through ad servers like &lt;/span&gt;&lt;a href="https://admanager.google.com/intl/en_uk/home/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Ad Manager&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; (GAM) or &lt;/span&gt;&lt;a href="https://marketingplatform.google.com/intl/en_uk/about/display-video-360/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google DV 360&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, or use pre-built clean room applications within BigQuery. This combination means that direct sales and ad operations teams can quickly and easily move from ad partner planning, to audience building and insights, to actual campaign activation.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2._Optable_Data_flow.max-1000x1000.png"
+        
+          alt="2. Optable Data flow"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;3. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Audience insights across all known users and event traffic&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;br/&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Audience building and analysis with Optable provides a comprehensive 360-degree view without the massive upfront engineering that’s usually required. By allowing audiences to be created, synthesized, and managed using both known user data as well as anonymous events (such as page visits or ad serving events from GAM), operational teams can glean meaningful insights, service unique requests from ad partners, and optimize campaign performance. For example, in the image below, Optable Insights shows customers key information about the size and makeup of their private identity graph as well as the makeup of Traits across their audience.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/3._Optable_Insights_Screenshot.max-1000x1000.png"
+        
+          alt="3. Optable Insights Screenshot"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;One of Optable’s early customers, a major North American news publisher, developed a digital-first publication strategy in 2017. As part of this they built an ad-sales strategy focused on privacy-safe first-party data monetization. A key pillar to their strategy is data collaboration through Optable. Through this investment they achieved a 9% annual increase in ad revenue in 2022.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;How Optable creates growth and efficiency&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable on BigQuery empowers publishers to monetize their data assets, even if they lack engineering resources&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Optable provides the right tools and integrations so teams can use their data to create ad products. For example, audience data can be exported directly into &lt;/span&gt;&lt;a href="https://support.google.com/google-ads/answer/14639041?hl=en-GB" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Ads Data Manager&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for easy activation.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The data clean room is one of the most important technologies in the media and advertising space. The Optable platform gives publishers pre-built applications that are powered by BigQuery data clean room primitives and APIs. These can also easily be extended to power secure data collaboration across other cloud ecosystems using Optable’s ‘Flash Nodes’ and ‘Flash Connectors.’ Flash Nodes allow companies to invite partners to easily onboard their data into a limited version of Optable simply for the purpose of collaborating with that partner; this reduces the friction of setting up a whole new collaboration platform. Likewise, ‘Flash Connectors’ give companies a set of primitives that can be shared with partners who use AWS, Snowflake, and BigQuery so that Optable users can collaborate directly with partners who house their data in those environments without moving any data.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Rather than just focusing on moving data in and out, Optable’s platform is built for a data-warehouse centric world, so publishers can extend their capabilities. Identity graphs can be shaped and custom modeling easily deployed directly in BigQuery. Additionally, the capabilities of the Google Data Cloud enable custom use cases such as data visualization in &lt;/span&gt;&lt;a href="https://cloud.google.com/looker?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Looker&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. To help navigate data security compliance, Optable has built ‘Bring Your Own Account’ functionality to allow customers to utilize a Google BigQuery instance that’s fully controllable.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/4._Optable_Marketecture.max-1000x1000.png"
+        
+          alt="4. Optable Marketecture"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable partners with Google across many areas, including a new integration with the &lt;/span&gt;&lt;a href="https://developers.google.com/privacy-sandbox" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Privacy Sandbox&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; APIs that enable publishers to easily onboard and activate audiences as well as enabling marketers to run campaigns via Privacy Sandbox. An early access program enables these capabilities directly through the Optable platform. You can &lt;/span&gt;&lt;a href="https://www.optable.co/google-privacy-sandbox" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;learn more here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Later this year, Optable is announcing enhancements to its audience data management and collaboration capabilities, including support for ad serving events through Google Ad Manager and the release of the Google BigQuery Connector to allow for zero-copy partner collaboration. For more information on these and other capabilities please visit the &lt;/span&gt;&lt;a href="https://www.optable.co/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Optable website&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Optable also recently became a&lt;/span&gt;&lt;a href="https://cloud.google.com/marketplace?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt; Google Cloud Marketplace&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; vendor, so Google Cloud customers can now purchase and implement Optable’s platform directly. Following the recently announced &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/bigquery-data-clean-rooms-now-generally-available?e=48754805#:~:text=To%20facilitate%20this%20type%20of,to%20protect%20the%20underlying%20data."&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;general availability of BigQuery data clean rooms&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, the Optable and Google teams are working on an integration to unlock more planning, activation and measurement use cases for the media and advertising ecosystem.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The Built with BigQuery advantage&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Built with BigQuery helps companies like Optable build innovative applications with Google Data Cloud. Participating companies can: &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Accelerate product design and architecture through access to designated experts who can provide insight into key use cases, architectural patterns, and best practices. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: disc; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;Amplify success with joint marketing programs to drive awareness, generate demand, and increase adoption. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery gives ISVs the advantage of a powerful, highly scalable unified AI lakehouse that’s integrated with Google Cloud’s open, secure, sustainable platform. &lt;/span&gt;&lt;a href="https://cloud.google.com/solutions/data-cloud-isvs"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Click here to learn more about Built with BigQuery&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/optable-data-clean-room-platform-integrates-with-bigquery/</guid><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Built with BigQuery: Making data activation and monetization accessible with Optable</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/optable-data-clean-room-platform-integrates-with-bigquery/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Bennett Crumbling</name><title>Head of Marketing, Optable</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Hamza El-Ghoujdami</name><title>Cloud Tech Advisor, Google Cloud</title><department></department><company></company></author></item><item><title>Firestore integration with Eventarc reaches GA with Auth Context</title><link>https://cloud.google.com/blog/products/databases/firestore-eventarc-integration-now-ga-with-auth-context/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Creating event-driven architectures using &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/eventarc-unified-eventing-experience-google-cloud"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Eventarc&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; together with &lt;/span&gt;&lt;a href="https://firebase.google.com/docs/firestore" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Firestore&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is an increasingly popular pattern. Recently, the &lt;/span&gt;&lt;a href="https://cloud.google.com/datastore/docs/eventarc"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Firestore integration with Eventarc&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; became generally available, adding new functionality. You can now register multiple Cloud Functions in different regions against a multi-regional Firestore database for increased reliability, and there are new event types, including the &lt;/span&gt;&lt;a href="https://github.com/cloudevents/spec/blob/main/cloudevents/extensions/authcontext.md" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Auth Context extension for CloudEvents&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Determining who or what — the user, a service account, the system, or a third-party — is making a modification to a Firestore document as a change event has long been a top-requested feature. With the new Firestore event types with Auth Context extension, events now embed metadata about the principal that triggered a document change in the open and portable &lt;/span&gt;&lt;a href="https://github.com/googleapis/google-cloudevents" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;CloudEvents&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; format.&lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Example walkthrough&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Let’s say that you want to have different logic to process events in the destinations for different auth contexts (i.e. &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;unauthenticated&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; or &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;system&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;). To set up your trigger, navigate to the &lt;/span&gt;&lt;a href="https://cloud.google.com/functions/docs/calling/eventarc#deployment"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Eventarc section of the Google Cloud console&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. You’ll need to create a new &lt;/span&gt;&lt;a href="https://cloud.google.com/datastore/docs/eventarc"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;trigger&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for Firestore using the associated event types that include authentication information. These event types end with the suffix *.withAuthContext. We’ll want to capture newly written entities, so we’ll select  &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;google.cloud.firestore.document.v1.written.withAuthContext &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;events&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
@@ -627,103 +723,7 @@
   &lt;/section&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/databases/firestore-eventarc-integration-now-ga-with-auth-context/</guid><category>Application Development</category><category>Containers &amp; Kubernetes</category><category>Serverless</category><category>Databases</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Firestore integration with Eventarc reaches GA with Auth Context</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/databases/firestore-eventarc-integration-now-ga-with-auth-context/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Josué Urbina</name><title>Software Engineer, Firestore</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Hansi Mou</name><title>Software Engineer, Firestore</title><department></department><company></company></author></item><item><title>Performing large-scale computation-driven drug discovery on Google Cloud</title><link>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Editor’s note:&lt;/strong&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; Today we hear from Atommap, a computational drug discovery company that has built an elastic supercomputing cluster on the Google Cloud to empower large-scale, computation-driven drug discovery. Read on to learn more.&lt;/span&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Bringing a new medicine to patients typically happens in four stages: (1) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;target identification&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that selects the protein target associated with the disease, (2) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;molecular discovery&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that finds the new molecule modulating the function of the target, (3) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;clinical trial&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that tests the candidate drug molecule’s safety and efficacy in patients, and (4) &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;commercialization&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that distributes the drug to patients in needs. The molecular discovery stage, in which novel drug molecules are invented, involves solving two problems: first, we need to establish an effective mechanism to modulate the target function that maximizes the therapeutic efficacy and minimizes the adverse effect; second, we need to design, select, and make the right drug molecule that faithfully implements the mechanism, is bioavailable, and has acceptable toxicity.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;What makes molecular discovery hard?&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A protein is in constant thermal motion, which changes its shape (conformation) and binding partners (other biomolecules), thus affecting its functions. Structural detail of a protein’s conformational dynamics time and again suggests novel mechanisms of functional modulation. But such information often eludes experimental determination, despite tremendous progress in experimental techniques in recent years.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The chemical “universe” of all possible distinct small molecules — estimated to number 10&lt;/span&gt;&lt;sup&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: super;"&gt;60&lt;/span&gt;&lt;/span&gt;&lt;/sup&gt;&lt;span style="vertical-align: baseline;"&gt; (&lt;/span&gt;&lt;a href="https://doi.org/10.1039/C0MD00020E" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Reymond et al. 2010&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;) — is vast. Chemists have made probably ten billion so far, so we still have about 10&lt;/span&gt;&lt;sup&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: super;"&gt;60&lt;/span&gt;&lt;/span&gt;&lt;/sup&gt;&lt;span style="vertical-align: baseline;"&gt; to go.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;There lie two major challenges of molecular discovery and its endless opportunity: chances are that we have not considered all the mechanisms of action or found the best molecules, thus we can always invent a better drug. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Atommap’s computation-driven approach to molecular discovery&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Harnessing the power of high-performance computing, Atommap’s molecular engineering platform enables the discovery of novel drug molecules against previously intractable targets through new mechanisms, making the process faster, cheaper, and more likely to succeed. In past projects, Atommap’s platform has dramatically reduced both the time (by more than half) and cost (by 80%) of molecular discovery. For example, it played a pivotal role in advancing a molecule against a challenging therapeutic target to the clinical trial in 17 months (&lt;/span&gt;&lt;a href="https://clinicaltrials.gov/study/NCT04609579" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;NCT04609579&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;) and it substantially accelerated the discovery of novel molecules that degrade high-valued oncological targets (&lt;/span&gt;&lt;a href="https://doi.org/10.1021/acs.jcim.3c00603" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Mostofian et al. 2023&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;).&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Atommap achieves this by:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Advanced molecular dynamics (MD) simulations&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that unveil complex conformational dynamics of the protein target and its interactions with the drug molecules and other biomolecules. They establish the dynamics-function relationship for the target protein, which is instrumental to choosing the best mechanism of action for the drug molecules. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Generative models&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that enumerate novel molecules. Beginning with a three-dimensional blueprint of a drug molecule's interaction with its target, our models computationally generate thousands to hundreds of thousands of new virtual molecules, which are designed to form the desired interactions and to satisfy both synthetic feasibility and favorable drug-like properties. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Physics-based, ML-enhanced predictive models&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; that accurately predict molecular potencies and other properties. Every molecular design is evaluated computationally for its target-binding affinity, its effects on the target, and its drug-likeness. This allows us to explore many times more molecules than can be synthesized and tested in the wet lab, and to perform multiple rounds of designs while waiting for often-lengthy experimental evaluation, leading to compressed timelines and increased probability of success.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Computation as a Service and Molecular Discovery as a Service&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To truly, broadly impact drug discovery, Atommap needs to augment its deep expertise in molecular discovery by partnering with external expertise in the other stages — target identification, clinical trials, and commercialization. We form partnerships in two ways: Computation as a Service (CaaS) and Molecular Discovery as a Service (MDaaS, pronounced &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Midas&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;), which make it easy and economically attractive for every drug discovery organization to access our computation-driven molecular engineering platform. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Instead of selling software subscriptions, Atommap’s pay-as-you-go CaaS model lets any discovery project first try our computational tools at a small and affordable scale, without committing too much budget. Not every project is amenable to computational solutions, but most are. This approach allows every drug discovery project to introduce the appropriate computations cheaply and quickly, with demonstrable impact, and then deploy them at scale to amplify their benefits.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For drug hunters who would like to convert their biological and clinical hypotheses into drug candidates, our MDaaS partnership allows them to quickly identify potent molecules with novel intellectual property for clinical trials. Atommap executes the molecular discovery project from the first molecule (initial hits) to the last molecule (development candidates), freeing our partners to focus on biological and clinical validation. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;The need for elastic computing&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_apPqgNo.max-1000x1000.png"
-        
-          alt="image1"&gt;
-        
-        &lt;/a&gt;
-      
-        &lt;figcaption class="article-image__caption "&gt;&lt;p data-block-key="eug34"&gt;Figure 1. Diverse computational tasks in Atommap’s molecular engineering platform require elastic computing resources.&lt;/p&gt;&lt;/figcaption&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For Atommap, the number of partnership projects and the scale of computation in each project fluctuate over time. In building structural models to enable structure-based drug design, we run hundreds of long-timescale MD simulations on high-performance GPUs to explore the conformational ensembles of proteins and complexes between proteins and small molecules, each of which can last hours to days. Our NetBFE platform for predicting the binding affinities invokes thousands, sometimes tens of thousands, of MD simulations, although each one is relatively short and completes in a few hours. Atommap’s machine learning (ML) models take days to weeks to train on high-memory GPUs, but once trained and deployed in a project, run in seconds to minutes. Balancing the different computational loads associated with different applications poses a challenge to the computing infrastructure. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To meet this elastic demand, we chose to supplement our internal computer clusters with &lt;/span&gt;&lt;a href="https://cloud.google.com/"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;How to build an elastic supercomputer on Google Cloud&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;It took us several steps to move our computing platform from our internal cluster to a hybrid environment that includes Google Cloud.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="vertical-align: baseline;"&gt;Slurm&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Many workflows in our platform depended on &lt;/span&gt;&lt;a href="https://slurm.schedmd.com/overview.html" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Slurm&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for managing the computing jobs. To migrate to Google Cloud, we built a cloud-based Slurm cluster using &lt;/span&gt;&lt;a href="https://cloud.google.com/hpc-toolkit/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud HPC Toolkit&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, an open-source utility developed by Google. Cloud HPC Toolkit is a command line tool that makes it easy to stand up connected and secure cloud HPC systems. With this Slurm cluster up and running in minutes, we quickly put it to use with our Slurm-native tooling to set up computing jobs for our discovery projects.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Cloud HPC Toolkit naturally fits our DevOps function into best practices. We defined our compute clusters as “blueprints” within YAML files that allow us to simply and transparently configure specific details of individual Google Cloud products. The Toolkit transpiles blueprints into input scripts that are executed with Hashicorp’s &lt;/span&gt;&lt;a href="https://www.terraform.io/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Terraform&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, an industry standard tool for defining “infrastructure-as-code” such that it can be committed, reviewed, and version-controlled. Within the blueprint we also defined our compute machine image through a startup script that’s compatible with Hashicorp’s &lt;/span&gt;&lt;a href="https://www.packer.io/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Packer&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. This allowed us to easily “bake in” the software our jobs typically need, such as conda, Docker, and Docker container images that provide dependencies such as &lt;/span&gt;&lt;a href="https://ambermd.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AMBER&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://openmm.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;OpenMM&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, and &lt;/span&gt;&lt;a href="https://pytorch.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;PyTorch&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The deployed Slurm cloud system is as accessible and user-friendly as any Slurm system we have used before. The compute nodes are not deployed until requested and are spun down when finished, thus we only pay for what we use; the only persistent nodes are the head and controller nodes that we log into and deploy from.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Batch&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Compared to Slurm, the cloud-native Google &lt;/span&gt;&lt;a href="https://cloud.google.com/batch"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Batch&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; gives us even greater flexibility in accessing the computing resources. Batch is a managed cloud job-scheduling service, meaning it can be used to schedule cloud resources for long-running scientific computing jobs. Virtual machines that Batch spins up can easily mount either NFS stores or &lt;/span&gt;&lt;a href="https://cloud.google.com/storage/docs/json_api/v1/buckets"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Storage buckets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, the latter of which are particularly suitable for holding our multi-gigabyte MD trajectories and thus useful as output directories for our long-running simulations.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Running our workflows on Google Cloud through the Batch involves two steps: 1) copying the input files to Google Cloud storage, 2) submitting the batch job.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ gcloud storage cp -R ./local_input_dir gs://my-gcs-bucket/work_dir\r\n$ gcloud batch jobs submit example-job --config=./job_cfg.json --location=us-central1&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae287eed60&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;SURF&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A common pattern has emerged in most of our computational workflows. First, each job has a set of complex input files, including the sequence and structures of the target protein, a list of small molecules and their valence and three-dimensional structures, and the simulation and model parameters. Second, most computing jobs take hours to days to finish even on the highest-performance machines. Third, the computing jobs produce output datasets of substantial volume and subject to a variety of analyses.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Accordingly, we have recently developed a new computing infrastructure, SURF (submit, upload, run, fetch), which seamlessly integrates our internal cluster and Google Cloud through one simple interface and automatically brings the data to where it is needed by computation or the computation to where the data resides. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ am-surf submit my_job/ --num-cpus 16 --num-gpus 8 --where [gcp|internal]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae287ee730&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;SURF submits jobs to Google Cloud Batch using Google’s Python API.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We now have an elastic supercomputer on the cloud that gives us massive computing power when we need it. It empowers us to explore the vast chemical space at an unprecedented scale and to invent molecules that better human health and life.&lt;/span&gt;&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;&lt;sup&gt;&lt;em&gt;&lt;span style="vertical-align: baseline;"&gt;Andrew Sabol supported us from the very beginning of Atommap, even before we knew whether we could afford the computing bills. Without the guidance and technical support of Vincent Beltrani, Mike Sabol, and other Google colleagues, we could not have rebuilt our computing platform on Google Cloud in such a short time. Our discovery partners put their trust in our young company and our burgeoning platform; their collaborations helped us validate our platform in real discovery projects and substantially improve its throughput, robustness, and predictive accuracy. &lt;/span&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</guid><category>Customers</category><category>HPC</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Performing large-scale computation-driven drug discovery on Google Cloud</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Huafeng Xu</name><title>CEO, Atommap</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Christopher Ryan</name><title>Director of Machine Learning and Data Sciences, Atommap</title><department></department><company></company></author></item><item><title>How Airwallex leveraged Google Cloud to scale globally</title><link>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;On a mission to disrupt and transform the fintech industry, &lt;/span&gt;&lt;a href="https://www.airwallex.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Airwallex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is constantly innovating, embracing new technologies that can help businesses overcome international money transfer challenges so they can grow without borders. We aim to provide end-to-end solutions and currently offer services related to global payments, treasury and expense management, and embedded finance services. With our proprietary infrastructure, we can remove friction from global payments and financial operations, so that businesses of all sizes can unlock new opportunities for growth.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/databases/firestore-eventarc-integration-now-ga-with-auth-context/</guid><category>Application Development</category><category>Containers &amp; Kubernetes</category><category>Serverless</category><category>Databases</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Firestore integration with Eventarc reaches GA with Auth Context</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/databases/firestore-eventarc-integration-now-ga-with-auth-context/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Josué Urbina</name><title>Software Engineer, Firestore</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Hansi Mou</name><title>Software Engineer, Firestore</title><department></department><company></company></author></item><item><title>How Airwallex leveraged Google Cloud to scale globally</title><link>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;On a mission to disrupt and transform the fintech industry, &lt;/span&gt;&lt;a href="https://www.airwallex.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Airwallex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is constantly innovating, embracing new technologies that can help businesses overcome international money transfer challenges so they can grow without borders. We aim to provide end-to-end solutions and currently offer services related to global payments, treasury and expense management, and embedded finance services. With our proprietary infrastructure, we can remove friction from global payments and financial operations, so that businesses of all sizes can unlock new opportunities for growth.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our developers are at the heart of everything we do at Airwallex. We follow a “develop first, and deploy fast” mindset, which we believe has benefited our customers, and we are highly focused on finding a good balance between velocity and quality.To that end, our continuous Integration and continuous deployment (CI/CD) pipelines, which are run on Google Cloud and Gitlab, always need to be at optimum performance. Over the years, we’ve built a lot of integrations and have automated testing and validation, which enables us to deploy with confidence. &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Expanding into new markets globally with Google Cloud&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;During late 2018 to early 2019, we decided that it was time to grow our presence globally and began looking for a platform that would support our ambitions. We were already on a hybrid cloud with different providers, which made sense in our earlier days as it provided more support in the APAC region. However, our goals were different as we looked to expand, and we found that Google Cloud was best suited to meet our needs because of its well-established global network. Google Cloud’s highly connected cloud infrastructure and advanced inter-region capabilities meant that we could easily build out into different geographies. &lt;/span&gt;&lt;/p&gt;
@@ -2594,36 +2594,36 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;kubectl apply the following:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: PodMonitoring\r\nmetadata:\r\n  name: prom-example\r\nspec:\r\n  selector:\r\n    matchLabels:\r\n      app.kubernetes.io/name: prom-example\r\n  endpoints:\r\n  - port: metrics\r\n    interval: 60s #formerly 30s&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a400&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: PodMonitoring\r\nmetadata:\r\n  name: prom-example\r\nspec:\r\n  selector:\r\n    matchLabels:\r\n      app.kubernetes.io/name: prom-example\r\n  endpoints:\r\n  - port: metrics\r\n    interval: 60s #formerly 30s&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d3d2b0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;After making changes of this sort, it can be helpful to review the status of your modifications by enabling the target status feature, then checking the&lt;/span&gt;&lt;a href="https://cloud.google.com/stackdriver/docs/managed-prometheus/setup-managed#target-status"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;status of the scrape targets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; in the PodMonitoring or ClusterPodMonitoring resources; do this by setting the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;features.targetStatus.enabled&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; value within the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;OperatorConfig&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; resource to true. Note: turn off target status after using it as it is quite noisy and therefore expensive to operate continuously. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To enable target status, kubectl apply the following:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: OperatorConfig\r\nmetadata:\r\n  namespace: gmp-public\r\n  name: config\r\nfeatures:\r\n  targetStatus:\r\n    enabled: true&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a280&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: OperatorConfig\r\nmetadata:\r\n  namespace: gmp-public\r\n  name: config\r\nfeatures:\r\n  targetStatus:\r\n    enabled: true&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d3dcd0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;After a few seconds, the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Status.Endpoint Statuses&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; field appears on every valid PodMonitoring or ClusterPodMonitoring resource, when configured.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If there is a PodMonitoring resource with the name &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;prom-example&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; in the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;NAMESPACE_NAME &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;namespace, then status can be verified by running the following command:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ kubectl -n NAMESPACE_NAME describe podmonitorings/prom-example&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a2b0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ kubectl -n NAMESPACE_NAME describe podmonitorings/prom-example&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d3df40&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Filtering input&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;An alternative to the restriction of sampling rates is to filter inbound metrics before they are ingested. The standard method to prevent time-series metrics from being processed by the collector is to use&lt;/span&gt;&lt;a href="https://prometheus.io/docs/prometheus/latest/configuration/configuration/#relabel_config" rel="noopener" target="_blank"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Prometheus relabeling rules&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; with a &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;keep&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; action for an allowlist or a &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;drop&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; action for a denylist. This rule goes in the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;metricRelabeling&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; section of your PodMonitoring or ClusterPodMonitoring resource.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The following metric relabeling rule will filter out any time series that begins with &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;foo_bar_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;foo_baz_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, or &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;foo_qux_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling: \r\n- action: drop\r\n  regex: foo_(bar|baz|qux)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a670&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling: \r\n- action: drop\r\n  regex: foo_(bar|baz|qux)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d3d0d0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The following metric relabeling rule uses a regular expression to specify which metrics to keep based on the name of the metric. For example, metrics whose name begins with &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;kube_daemonset_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; are kept.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: keep\r\n  regex: kube_(daemonset|deployment|pod|namespace|node|statefulset|persistentvolume|horizontalpodautoscaler)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a220&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: keep\r\n  regex: kube_(daemonset|deployment|pod|namespace|node|statefulset|persistentvolume|horizontalpodautoscaler)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d3dc70&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can also set a rule to manage specific time series based on a label value. For example, the following metric relabeling rule uses a regular expression to filter out all time series where the value for the label “direction” starts with “destination”:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: drop\r\n  regex: destination.*\r\n  sourceLabels: [direction]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a4c0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: drop\r\n  regex: destination.*\r\n  sourceLabels: [direction]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d3d9a0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As the examples above demonstrate, it’s simple to create allow/deny lists of metrics to control ingestion selection.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The decision as to whether it’s best to reduce metrics ingestion by content filtering or by scrape-rate reduction can be complicated. It’s worth pointing out that sample-rate reduction has very broad implications, while filtering offers more control and a more selective approach. Filtering also requires more thought and planning. A rule of thumb is to set scrape intervals to 30 seconds before applying content filtering, but to analyze the cost/benefit before moving a scrape interval to 60 seconds. Having a clear use case for either 30s or 60s data collection is very helpful in the decision-making process.&lt;/span&gt;&lt;/p&gt;
@@ -3150,7 +3150,7 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Your &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;serviceAccountId&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; typically looks like this: &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;{"serviceAccountId": "bqcx-012345678910-abcd@gcp-sa-bigquery-condel.iam.gserviceaccount.com"&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;}`. And it needs the object viewer permission. This can be achieved by:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gsutil iam ch \\ serviceAccount:bqcx-012345678910-abcd@gcp-sa-bigquery-condel.iam.gserviceaccount.com:objectViewer gs://bq-object-tables-demo-data&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2610&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gsutil iam ch \\ serviceAccount:bqcx-012345678910-abcd@gcp-sa-bigquery-condel.iam.gserviceaccount.com:objectViewer gs://bq-object-tables-demo-data&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e932556e400&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Make your object table in BigQuery in an existing dataset, or create a dataset for your object table.&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3161,7 +3161,7 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This is a sample query you can use to create the object table&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE OR REPLACE EXTERNAL TABLE `bq-object-tables.bq_ot_dataset.bq_object_tables_external_table` \r\nWITH CONNECTION `bq-object-tables.us-east1.biglake-connection` OPTIONS (  object_metadata=&amp;quot;DIRECTORY&amp;quot;,  uris = [\&amp;#x27;gs://bq-object-tables-demo-data/*\&amp;#x27; ],  max_staleness=INTERVAL 30 MINUTE,  metadata_cache_mode=&amp;quot;AUTOMATIC&amp;quot;);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2f40&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE OR REPLACE EXTERNAL TABLE `bq-object-tables.bq_ot_dataset.bq_object_tables_external_table` \r\nWITH CONNECTION `bq-object-tables.us-east1.biglake-connection` OPTIONS (  object_metadata=&amp;quot;DIRECTORY&amp;quot;,  uris = [\&amp;#x27;gs://bq-object-tables-demo-data/*\&amp;#x27; ],  max_staleness=INTERVAL 30 MINUTE,  metadata_cache_mode=&amp;quot;AUTOMATIC&amp;quot;);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e932556e7c0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The  max_staleness option lets you manage the trade-off between data freshness and performance by specifying a tolerable level of staleness for the materialized view; this can help improve query response times and reduce costs. By setting an appropriate value, you can achieve consistently high performance while keeping costs under control, even when working with large, frequently changing datasets&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Create metadata using Native BQ Functionality&lt;/strong&gt;&lt;/p&gt;
@@ -3170,13 +3170,13 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;First create the link back to the model in your BQ dataset like this: &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Create Model\r\nCREATE OR REPLACE MODEL\r\n`bq-object-tables.bq_ot_dataset.myvisionmodel`\r\nREMOTE WITH CONNECTION `bq-object-tables.us-east1.biglake-connection`\r\nOPTIONS (remote_service_type =&amp;#x27;cloud_ai_vision_v1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2790&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Create Model\r\nCREATE OR REPLACE MODEL\r\n`bq-object-tables.bq_ot_dataset.myvisionmodel`\r\nREMOTE WITH CONNECTION `bq-object-tables.us-east1.biglake-connection`\r\nOPTIONS (remote_service_type =&amp;#x27;cloud_ai_vision_v1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e932556efd0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Annotate image&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This code parses the images, extracts their contents and outputs a JSON array of words that describe the image and the model’s confidence that the description is correct. This function will then put the description into a table.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Annotate image\r\nSELECT *\r\nFROM ML.ANNOTATE_IMAGE(\r\n  MODEL `mydataset.myvisionmodel`,\r\n  TABLE `mydataset.mytable`,\r\n  STRUCT([&amp;#x27;label_detection&amp;#x27;] AS vision_features)\r\n);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2670&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Annotate image\r\nSELECT *\r\nFROM ML.ANNOTATE_IMAGE(\r\n  MODEL `mydataset.myvisionmodel`,\r\n  TABLE `mydataset.mytable`,\r\n  STRUCT([&amp;#x27;label_detection&amp;#x27;] AS vision_features)\r\n);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e932556ed00&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Step 4. Create a UDF in BigQuery&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can create a Cloud function using &lt;/span&gt;&lt;a href="https://gist.github.com/hselbie/fde69b900c4c719656ab42cdfb897b88" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;this basic code&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
@@ -3205,16 +3205,16 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_safe_search`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_safe_search&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2400&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_safe_search`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_safe_search&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e932556ed60&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_annotation`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_annotation&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb27c0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_annotation`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_annotation&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e932556ebb0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Step 5. Use the function in a query &lt;/span&gt;&lt;/h3&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE TABLE `mydataset.mid_processing` AS\r\nSELECT uri,mydataset.vision_safe_search(signed_url) as safe_search, mydataset.vision_annotation(signed_url) as annotation\r\nFROM EXTERNAL_OBJECT_TRANSFORM(\r\nTABLE `mydataset.imageall`,\r\n[&amp;quot;SIGNED_URL&amp;quot;]);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2640&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE TABLE `mydataset.mid_processing` AS\r\nSELECT uri,mydataset.vision_safe_search(signed_url) as safe_search, mydataset.vision_annotation(signed_url) as annotation\r\nFROM EXTERNAL_OBJECT_TRANSFORM(\r\nTABLE `mydataset.imageall`,\r\n[&amp;quot;SIGNED_URL&amp;quot;]);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e93230bef10&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Tap into unstructured data with BigQuery object tables and AI&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This architecture demonstrates the power of streamlining data integration for centralized analyses through BigQuery. Although we reference image data for this example, this methodology is highly flexible; using object tables we can reference any type of unstructured data in Cloud Storage buckets that could also refer to audio files that might reference a call center AI use case, for example, or live image files relevant to training a computer vision model. &lt;/span&gt;&lt;/p&gt;
@@ -3630,30 +3630,30 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;After you add a replica, it takes time for the initial copy operation to complete. You can still run queries referencing the primary replica while the data is being replicated, with no reduction in query-processing capacity.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;-- Create the primary replica in the primary region.\r\nCREATE SCHEMA my_dataset OPTIONS(location=&amp;#x27;us-west1&amp;#x27;);\r\n-- Create a replica in the secondary region.\r\nALTER SCHEMA my_dataset\r\nADD REPLICA `us-east1`\r\nOPTIONS(location=&amp;#x27;us-east1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae25be8970&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;-- Create the primary replica in the primary region.\r\nCREATE SCHEMA my_dataset OPTIONS(location=&amp;#x27;us-west1&amp;#x27;);\r\n-- Create a replica in the secondary region.\r\nALTER SCHEMA my_dataset\r\nADD REPLICA `us-east1`\r\nOPTIONS(location=&amp;#x27;us-east1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9320d8a580&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Configure a failover reservation + attach a dataset&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The first step is to create a failover reservation and specify its secondary location. Specifying a secondary location can also be done for existing Enterprise Plus reservations.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  OPTIONS (slot_capacity = 200, edition = ENTERPRISE_PLUS,\r\n    secondary_location=&amp;#x27;us-east1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28e940d0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  OPTIONS (slot_capacity = 200, edition = ENTERPRISE_PLUS,\r\n    secondary_location=&amp;#x27;us-east1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9320d8a820&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The next step is to associate one or more datasets with the failover reservation. The dataset needs to be replicated in the same primary / secondary region as specified in the reservation.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER SCHEMA `my_dataset`\r\n  SET OPTIONS (failover_reservation = \r\n    `project1.my_failover_reservation`);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28e94550&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER SCHEMA `my_dataset`\r\n  SET OPTIONS (failover_reservation = \r\n    `project1.my_failover_reservation`);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9321b9d490&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Promote the failover reservation + dataset in the secondary&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Fail over the reservation and associated datasets. This must be performed from the secondary region.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-east1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b97700&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-east1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9321bc85e0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Fail back to original primary&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Fail back the reservation and associated datasets (performed from the new secondary/old primary).&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28eec880&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3e9323d0b1f0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Getting started&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Business continuity is paramount for customers with mission-critical data environments. We are excited to make the preview of BigQuery’s managed disaster recovery feature available for your testing. You can learn more about  managed disaster recovery and how to get started in the BigQuery &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery/docs/managed-disaster-recovery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;managed disaster recovery QuickStart&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 06 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/bigquery-gets-managed-disaster-recovery/</guid><category>Management Tools</category><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Maintain business continuity across regions with BigQuery managed disaster recovery</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/bigquery-gets-managed-disaster-recovery/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Larry Henderson</name><title>Product Manager</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Brian Welcker</name><title>Director, Product Management</title><department></department><company></company></author></item></channel></rss>

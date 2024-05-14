@@ -11,4 +11,7 @@
 </footer>
 
 <!--  to harden it: https://github.com/rails/web-console -->
-<%= console if (Rails.env == 'development') %>
+<% if (Rails.env == 'development') %>
+  <%= console rescue "Erros with Console" %>
+<% end %>
+

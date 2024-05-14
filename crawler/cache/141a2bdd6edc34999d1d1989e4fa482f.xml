@@ -3,8 +3,8 @@
     <channel>
         <atom:link href="https://www.zdnet.com/news/rss.xml" rel="self" type="application/rss+xml" /><title>Latest news</title><description>Most recent news</description><language>en</language><link>https://www.zdnet.com/</link>
 <copyright>© 2024 ZDNET, A RED VENTURES COMPANY. ALL RIGHTS RESERVED.</copyright>
-<pubDate>Tue, 14 May 2024 05:59:07 +0000</pubDate>
-<lastBuildDate>Tue, 14 May 2024 05:59:07 +0000</lastBuildDate>
+<pubDate>Tue, 14 May 2024 12:45:18 +0000</pubDate>
+<lastBuildDate>Tue, 14 May 2024 12:45:18 +0000</lastBuildDate>
 <generator>ZDNET</generator>
 <docs>http://blogs.law.harvard.edu/tech/rss</docs>
 <ttl>2</ttl>
@@ -16,7 +16,43 @@
     <height>144</height>
 </image>
 <category>Technology</category>
-                <item><guid isPermaLink="false">fd4cfb72-855d-4fd8-9bb7-601dcf553736</guid>
+                <item><guid isPermaLink="false">2a9aa649-cf43-4e77-af25-329d2b173ebd</guid>
+<link>https://www.zdnet.com/article/ios-and-android-owners-will-now-be-alerted-if-an-unknown-tracker-is-moving-with-them/#ftag=RSSbaffb68</link>
+<title>iOS and Android owners will now be alerted if an unknown tracker is moving with them</title>
+<description>Last year, Apple and Google teamed up to develop a specification for alerting users if a Bluetooth tracking device is surreptitiously monitoring them. That feature just rolled out to iOS and Android users.</description>
+<pubDate>Tue, 14 May 2024 12:20:25 +0000</pubDate>
+	<media:credit role="author">Adrian Kingsley-Hughes</media:credit></item>
+                            <item><guid isPermaLink="false">772d5518-bbf5-438d-87ee-95096c2ac8d6</guid>
+<link>https://www.zdnet.com/article/best-lenovo-laptop/#ftag=RSSbaffb68</link>
+<title>The best Lenovo laptops of 2024: Expert tested and reviewed</title>
+<description>We&#039;ve tested the best Lenovo laptops on the market to help you choose the best one for your needs, whether it&#039;s for work, personal use, or gaming.</description>
+<pubDate>Tue, 14 May 2024 12:00:19 +0000</pubDate>
+	<media:credit role="author">Cesar Cadenas</media:credit></item>
+                            <item><guid isPermaLink="false">1278d9fd-3d7a-4e29-a1e5-119ec882d333</guid>
+<link>https://www.zdnet.com/article/google-is-planning-on-a-fix-to-prevent-accidental-password-deletion-in-chrome/#ftag=RSSbaffb68</link>
+<title>Google is planning on a fix to prevent accidental password deletion in Chrome</title>
+<description>A default Google Chrome setting in Android could delete credentials saved in the Password Manager, but a potential fix is on the way.</description>
+<pubDate>Tue, 14 May 2024 10:47:00 +0000</pubDate>
+	<media:credit role="author">Jack Wallen</media:credit></item>
+                            <item><guid isPermaLink="false">ef0f58a6-969f-470e-8cb4-bd71cd251c84</guid>
+<link>https://www.zdnet.com/article/how-adobe-manages-ai-ethics-concerns-while-fostering-creativity/#ftag=RSSbaffb68</link>
+<title>How Adobe manages AI ethics concerns while fostering creativity</title>
+<description>In this exclusive ZDNET interview, discover how Adobe&#039;s Grace Yee leads the charge in embedding ethical considerations into AI with a focus on accountability, responsibility, and transparency.</description>
+<pubDate>Tue, 14 May 2024 10:00:16 +0000</pubDate>
+	<media:credit role="author">David Gewirtz</media:credit></item>
+                            <item><guid isPermaLink="false">e41dbce3-6a0d-46d6-83f9-df91ba038e6a</guid>
+<link>https://www.zdnet.com/article/draft-data-not-formally-recognized-as-an-asset-may-be-the-most-valuable-asset/#ftag=RSSbaffb68</link>
+<title>Dispelling five myths and misconceptions about data monetization</title>
+<description>Data is still not recognized as a formal asset but your business must understand its value.</description>
+<pubDate>Tue, 14 May 2024 09:47:47 +0000</pubDate>
+	<media:credit role="author">Joe McKendrick</media:credit></item>
+                            <item><guid isPermaLink="false">6e866f66-bf2f-413d-9ed0-01e1d60825d8</guid>
+<link>https://www.zdnet.com/article/these-cool-kde-plasma-features-could-woo-you-from-windows/#ftag=RSSbaffb68</link>
+<title>These cool KDE Plasma features could woo you from Windows</title>
+<description>If you&#039;re having trouble finding the right Linux desktop, KDE Plasma has a few tricks that could sway you.</description>
+<pubDate>Tue, 14 May 2024 08:14:00 +0000</pubDate>
+	<media:credit role="author">Jack Wallen</media:credit></item>
+                            <item><guid isPermaLink="false">fd4cfb72-855d-4fd8-9bb7-601dcf553736</guid>
 <link>https://www.zdnet.com/article/this-robot-mower-looks-like-a-racecar-but-it-mows-a-gorgeous-lawn/#ftag=RSSbaffb68</link>
 <title>This robot mower looks like a racecar, but it mows a gorgeous lawn</title>
 <description>The Mammotion Luba 2 is a breeze to set up and has sophisticated mapping technology to stay on course.</description>
@@ -58,18 +94,18 @@
 <description>Want to build a website? We tested the top web hosting services that offer fast speeds, solid customer service, and good value for your money.</description>
 <pubDate>Mon, 13 May 2024 20:22:38 +0000</pubDate>
 	<media:credit role="author">Charlie Osborne</media:credit></item>
-                            <item><guid isPermaLink="false">bb7b60d2-90c1-48be-9d3f-a1ee10d7f6bd</guid>
-<link>https://www.zdnet.com/article/google-teases-an-ai-camera-feature-ahead-of-io-that-looks-better-than-rabbit-r1s/#ftag=RSSbaffb68</link>
-<title>Google teases an AI camera feature ahead of I/O that looks better than Rabbit R1&#039;s</title>
-<description>The race is on to make an AI assistant that can &quot;see&quot; as well as it can read, and Google wants to prove that Gemini is it.</description>
-<pubDate>Mon, 13 May 2024 19:41:00 +0000</pubDate>
-	<media:credit role="author">Kyle Kucharski</media:credit></item>
                             <item><guid isPermaLink="false">6c6e324c-73d6-49fb-b5ac-4806e304af21</guid>
 <link>https://www.zdnet.com/article/best-small-tablet/#ftag=RSSbaffb68</link>
 <title>The best small tablets of 2024: Expert tested and reviewed</title>
 <description>Looking for a more portable tablet? We tested the best small tablets that combine affordability, great battery life, and fast processors in a tiny package.</description>
 <pubDate>Mon, 13 May 2024 19:41:00 +0000</pubDate>
 	<media:credit role="author">Allison Murray</media:credit></item>
+                            <item><guid isPermaLink="false">bb7b60d2-90c1-48be-9d3f-a1ee10d7f6bd</guid>
+<link>https://www.zdnet.com/article/google-teases-an-ai-camera-feature-ahead-of-io-that-looks-better-than-rabbit-r1s/#ftag=RSSbaffb68</link>
+<title>Google teases an AI camera feature ahead of I/O that looks better than Rabbit R1&#039;s</title>
+<description>The race is on to make an AI assistant that can &quot;see&quot; as well as it can read, and Google wants to prove that Gemini is it.</description>
+<pubDate>Mon, 13 May 2024 19:41:00 +0000</pubDate>
+	<media:credit role="author">Kyle Kucharski</media:credit></item>
                             <item><guid isPermaLink="false">ecd95f71-e80e-4a31-94af-9f1e0ae1d50c</guid>
 <link>https://www.zdnet.com/article/6-ways-openai-just-supercharged-chatgpt-for-free-users/#ftag=RSSbaffb68</link>
 <title>6 ways OpenAI just supercharged ChatGPT for free users</title>
@@ -99,42 +135,6 @@
 <title>The best budget gaming laptops of 2024: Expert tested</title>
 <description>The best budget gaming laptops don&#039;t compromise price for performance. I tested models from Lenovo, MSI, and more to help you find the best fit for your budget.</description>
 <pubDate>Mon, 13 May 2024 18:29:55 +0000</pubDate>
-	<media:credit role="author">Taylor Clemons</media:credit></item>
-                            <item><guid isPermaLink="false">eb7d9e43-d539-47ad-8cd1-7f3031cbbee4</guid>
-<link>https://www.zdnet.com/article/amazon-fire-kids-tablets-are-up-to-36-off-and-theyre-perfect-for-summer-travel/#ftag=RSSbaffb68</link>
-<title>Amazon Fire kids tablets are up to 36% off ahead of Memorial Day, and they&#039;re perfect for summer travels</title>
-<description>If you&#039;re looking for a sturdy kids&#039; tablet that&#039;ll last to take with you on summer adventures, you can&#039;t go wrong with these Amazon Fire options, which are on sale now.</description>
-<pubDate>Mon, 13 May 2024 18:24:47 +0000</pubDate>
-	<media:credit role="author">Maria Diaz</media:credit></item>
-                            <item><guid isPermaLink="false">a407ec9d-2db7-4cf1-b597-eb56e99e6e4b</guid>
-<link>https://www.zdnet.com/home-and-office/home-entertainment/best-cheap-gaming-pc/#ftag=RSSbaffb68</link>
-<title>The best cheap gaming PCs of 2024: Expert recommended</title>
-<description>You don&#039;t have to sacrifice quality for price. I found some of the best cheap gaming PCs to help you find the right rig for your budget.</description>
-<pubDate>Mon, 13 May 2024 18:18:43 +0000</pubDate>
-	<media:credit role="author">Taylor Clemons</media:credit></item>
-                            <item><guid isPermaLink="false">0ca8fffa-ebce-40b4-ba18-3780107a0937</guid>
-<link>https://www.zdnet.com/article/best-large-tablet/#ftag=RSSbaffb68</link>
-<title>The best large tablets of 2024: Expert tested and reviewed</title>
-<description>We went hands-on with the best big screen tablets from Apple, Samsung, Lenovo, and more that offer bigger screens, ample storage, and awesome performance.</description>
-<pubDate>Mon, 13 May 2024 18:18:00 +0000</pubDate>
-	<media:credit role="author">Jason Cipriani</media:credit></item>
-                            <item><guid isPermaLink="false">c53ab68e-56e1-4fd9-85bc-8c9036cd9cc5</guid>
-<link>https://www.zdnet.com/article/apple-watch-series-9-deal/#ftag=RSSbaffb68</link>
-<title>Save up to $100 on the Apple Watch Series 9 at some major retailers</title>
-<description>Get the latest health and fitness features with savings at select retailers.</description>
-<pubDate>Mon, 13 May 2024 18:17:41 +0000</pubDate>
-	<media:credit role="author">Kayla Solino</media:credit></item>
-                            <item><guid isPermaLink="false">52304575-58b1-4a12-a160-60d2ca7c38ad</guid>
-<link>https://www.zdnet.com/article/windows-11-deal/#ftag=RSSbaffb68</link>
-<title>You can upgrade to Windows 11 Pro for $40 right now</title>
-<description>Windows 11 Pro can give you more productivity features that will help you get things done, and right, now there&#039;s a deal on it.</description>
-<pubDate>Mon, 13 May 2024 18:12:00 +0000</pubDate>
-	<media:credit role="author">Nina Raemont</media:credit></item>
-                            <item><guid isPermaLink="false">852e0d76-ec56-4740-ba3f-674b599c2258</guid>
-<link>https://www.zdnet.com/home-and-office/home-entertainment/best-gaming-pc/#ftag=RSSbaffb68</link>
-<title>The best gaming PCs of 2024: Expert tested</title>
-<description>We tested the best gaming PCs from Alienware, Lenovo, and more that offer customization, advanced processors, and smooth graphics.</description>
-<pubDate>Mon, 13 May 2024 18:09:52 +0000</pubDate>
 	<media:credit role="author">Taylor Clemons</media:credit></item>
             </channel>
 </rss>

@@ -9,24 +9,96 @@
             <link>https://www.bbc.co.uk/news/world/europe</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 May 2024 05:58:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 May 2024 12:48:07 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/world/europe/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Why has Putin removed key ally as defence minister?]]></title>
-            <description><![CDATA[Steve Rosenberg considers possible reasons behind Sergei Shoigu's replacement in the middle of a war.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-69006046</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69006046#0</guid>
-            <pubDate>Mon, 13 May 2024 20:08:55 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/CBC0/production/_133306125_b3d9b7c0-0386-4a1a-8a16-c90fc0cf3f67.jpg"/>
+            <title><![CDATA[Prisoner escapes in France as two officers killed in van ambush]]></title>
+            <description><![CDATA[Several hundred police officers are looking for the prisoner and his accomplices after the attack near Rouen.]]></description>
+            <link>https://www.bbc.co.uk/news/live/world-europe-69009025</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/live/world-europe-69009025#0</guid>
+            <pubDate>Tue, 14 May 2024 11:44:15 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15D24/production/_133308398_frenchprison.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Josef Fritzl: Court approves move to normal prison]]></title>
+            <description><![CDATA[A court in Austria rules the notorious criminal no longer poses a danger given his ill health.]]></description>
+            <link>https://www.bbc.com/news/articles/c03ddj9z657o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/c03ddj9z657o#0</guid>
+            <pubDate>Tue, 14 May 2024 11:06:55 GMT</pubDate>
+            <media:thumbnail width="240" height="156" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/cea1/live/26fe4c30-11d9-11ef-b9d8-4f52aebe147d.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Putin makes ex-security council chief Kremlin aide]]></title>
+            <description><![CDATA[Nikolai Patrushev, 72, is replaced as head of Russia's Security Council by Sergei Shoigu.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-69007468</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69007468#0</guid>
+            <pubDate>Tue, 14 May 2024 11:19:57 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13470/production/_133306987_gettyimages-474781176.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Blinken tells Zelensky US aid on its way during surprise Ukraine visit]]></title>
+            <description><![CDATA[The US secretary of state is in Kyiv as weapons from a new American aid package arrive at the front line.]]></description>
+            <link>https://www.bbc.co.uk/news/live/world-europe-69007139</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/live/world-europe-69007139#0</guid>
+            <pubDate>Tue, 14 May 2024 05:37:22 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3052/production/_133307321_dfa031db9b7fdf7d63e738f97e4641bd798e1e0e0_62_3222_18121000x563.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Violent protests erupt in French Pacific territory]]></title>
+            <description><![CDATA[Protesters are against a law being discussed in France to increase eligibility to vote in New Caledonia.]]></description>
+            <link>https://www.bbc.com/news/articles/c51nn46d222o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/c51nn46d222o#0</guid>
+            <pubDate>Tue, 14 May 2024 10:40:15 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/a9e8/live/36e5bf20-11d4-11ef-b9d8-4f52aebe147d.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Georgia approves controversial law after protests]]></title>
+            <description><![CDATA[The bill targets civil society organisations and independent media that receive foreign funding.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-69007465</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69007465#0</guid>
+            <pubDate>Tue, 14 May 2024 12:35:42 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13BE6/production/_133307808_georgiaprotest-index2-epa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[US curator denies smuggling scorpions from Istanbul]]></title>
+            <description><![CDATA[Lorenzo Prendini tells the BBC he had official permits allowing him to take the samples out of Turkey.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-69005527</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-69005527#0</guid>
+            <pubDate>Tue, 14 May 2024 10:02:38 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2D82/production/_133305611_gettyimages-1282594473-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Drama on and off screen at Cannes Film Festival]]></title>
+            <description><![CDATA[Events off screen could be as dramatic as those in the selection of star-studded film premieres.]]></description>
+            <link>https://www.bbc.com/news/articles/cqennljp4q5o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cqennljp4q5o#1</guid>
+            <pubDate>Tue, 14 May 2024 00:47:29 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/0ee9/live/a8d71f10-1149-11ef-bee9-6125e244a4cd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[EU lodges complaint with Eurovision over flag ban]]></title>
+            <description><![CDATA[Banning the EU flag from Eurovision was a gift to "the enemies of Europe", the commission's vice-president said]]></description>
+            <link>https://www.bbc.com/news/articles/cw4dd9lzx02o</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw4dd9lzx02o#1</guid>
+            <pubDate>Mon, 13 May 2024 18:44:23 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/5ac4/live/e8d40880-113a-11ef-bee9-6125e244a4cd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Dublin Portal changes after 'inappropriate behaviour']]></title>
+            <description><![CDATA[The two circular livestream video portals visually connect New York and Dublin in real-time.]]></description>
+            <link>https://www.bbc.com/news/articles/cd1882x5xggo</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cd1882x5xggo#1</guid>
+            <pubDate>Mon, 13 May 2024 20:34:56 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/2919/live/6d071e90-11e9-11ef-bee9-6125e244a4cd.jpg"/>
         </item>
         <item>
             <title><![CDATA[Russia says troops enter border town near Kharkiv]]></title>
             <description><![CDATA[Ukraine is concerned about what could happen if Russian troops get within artillery range of Kharkiv.]]></description>
             <link>https://www.bbc.com/news/articles/crgyymn8y3ro</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/crgyymn8y3ro#0</guid>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/crgyymn8y3ro#1</guid>
             <pubDate>Mon, 13 May 2024 20:31:05 GMT</pubDate>
             <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/0443/live/7cfa8830-110f-11ef-a190-bb979758150a.jpg"/>
         </item>
@@ -34,7 +106,7 @@
             <title><![CDATA[Eurovision responds to complaints of bad behaviour]]></title>
             <description><![CDATA[The EBU says it "regrets" that some countries "didn’t respect the spirit" of the contest in Sweden.]]></description>
             <link>https://www.bbc.com/news/articles/cx7ddqv6pqeo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cx7ddqv6pqeo#0</guid>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cx7ddqv6pqeo#1</guid>
             <pubDate>Mon, 13 May 2024 21:49:02 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/4f67/live/e301bed0-116b-11ef-b522-558ca506acaf.jpg"/>
         </item>
@@ -42,7 +114,7 @@
             <title><![CDATA[German court says far-right AfD suspected of extremism]]></title>
             <description><![CDATA[The ruling means intelligence services can now monitor the communications of the far-right party.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-69003733</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69003733#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69003733#1</guid>
             <pubDate>Mon, 13 May 2024 14:40:04 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12778/production/_133304657_mediaitem133304656.jpg"/>
         </item>
@@ -50,105 +122,25 @@
             <title><![CDATA[Riot police face off against Georgia protesters]]></title>
             <description><![CDATA[Thousands have gathered outside parliament in Tbilisi to protest the bill they say is Russian-inspired.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-69001339</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69001339#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69001339#1</guid>
             <pubDate>Mon, 13 May 2024 12:06:38 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/762A/production/_133305203_gettyimages-2152158660.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Putin removes defence minister who led war campaign]]></title>
-            <description><![CDATA[Sergei Shoigu, a close ally of the president, will be replaced by Deputy Prime Minister Andrei Belousov.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-69000698</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000698#0</guid>
-            <pubDate>Mon, 13 May 2024 11:22:03 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17E8/production/_133302160_gettyimages-2025763634.jpg"/>
         </item>
         <item>
             <title><![CDATA[Proud mullet-wearers embrace their style at festival]]></title>
             <description><![CDATA[More than 200 people attended the European mullet festival in Quievrain, Belgium]]></description>
             <link>https://www.bbc.co.uk/news/world-69006639</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-69006639#0</guid>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-69006639#1</guid>
             <pubDate>Mon, 13 May 2024 22:23:49 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/FAFA/production/_133305246_p0hxv6hb.jpg"/>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10144/production/_133306856_p0hxxf8j.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Spain Socialists win Catalan election]]></title>
-            <description><![CDATA[The Catalan Socialist Party wins the regional elections as pro-independence parties lose ground.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-69000823</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000823#1</guid>
-            <pubDate>Sun, 12 May 2024 23:19:06 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41B4/production/_133302861_salvador_illa_reuters.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Russia blames Ukraine after blast destroys apartments]]></title>
-            <description><![CDATA[At least two people are said to have been killed after a section of a 10-storey block collapsed in Belgorod.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68998913</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68998913#1</guid>
-            <pubDate>Sun, 12 May 2024 17:07:14 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4588/production/_133300871_9e36a2b04e02d7bb8508bc1a57db65316c9628c8.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Georgia opposition urges UK to oppose 'Russian law']]></title>
-            <description><![CDATA[Critics say the foreign influence bill will be used to clamp down on the Tbilisi government's opponents.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-69000645</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69000645#1</guid>
-            <pubDate>Sun, 12 May 2024 23:40:03 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4A4C/production/_133302091_getty4.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Switzerland's Nemo wins Eurovision as UK comes 18th]]></title>
-            <description><![CDATA[Nemo becomes the first non-binary artist to win Eurovision with their song The Code.]]></description>
-            <link>https://www.bbc.com/news/articles/c03drw23zewo</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/c03drw23zewo#1</guid>
-            <pubDate>Sun, 12 May 2024 00:28:31 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/2b20/live/27e2da90-103e-11ef-bee9-6125e244a4cd.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Dutch contestant disqualified from Eurovision]]></title>
-            <description><![CDATA[The singer, Joost Klein, had been among the favourites to win the contest in Malmö, Sweden.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-68993726</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-68993726#1</guid>
-            <pubDate>Sat, 11 May 2024 16:05:57 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1102F/production/_133297696_joost_reuters.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Seven dead after bus falls into river in St Petersburg]]></title>
-            <description><![CDATA[The accident took place on the Potseluev Bridge in the historic centre.]]></description>
-            <link>https://www.bbc.com/news/articles/cw594p1l39no</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cw594p1l39no#1</guid>
-            <pubDate>Fri, 10 May 2024 20:57:26 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/4b40/live/4f8647a0-0ee3-11ef-afb0-c7213411e7ad.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Djokovic struck by water bottle at Italian Open]]></title>
-            <description><![CDATA[Novak Djokovic is hit on the head by a water bottle as he signs autographs after his win at the Italian Open.]]></description>
-            <link>https://www.bbc.com/sport/tennis/articles/c289lpjr0ppo</link>
-            <guid isPermaLink="false">https://www.bbc.com/sport/tennis/articles/c289lpjr0ppo#1</guid>
-            <pubDate>Fri, 10 May 2024 21:36:18 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/07e8/live/8b663bb0-0f09-11ef-82e8-cd354766a224.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Thousands march in Georgia over foreign influence bill]]></title>
-            <description><![CDATA[Opponents fear the government's bill will silence critics ahead of parliamentary elections later this year.]]></description>
-            <link>https://www.bbc.com/news/articles/cle0j5we2pno</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cle0j5we2pno#1</guid>
-            <pubDate>Sat, 11 May 2024 19:32:41 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/e286/live/196e0e10-0fcd-11ef-bee9-6125e244a4cd.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Hundreds flee Ukraine border area after Russia attack]]></title>
-            <description><![CDATA[Evacuations are under way in the Kharkiv area as fighting continues after Friday's surprise incursions.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-68994877</link>
-            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-68994877#1</guid>
-            <pubDate>Sat, 11 May 2024 17:29:54 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/F1C1/production/_133298816_mediaitem133298815.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Mbappe announces he will leave Paris St-Germain]]></title>
-            <description><![CDATA[France striker Kylian Mbappe says he will leave Paris St-Germain at the end of the season.]]></description>
-            <link>https://www.bbc.com/sport/football/articles/c72pgzvzr23o</link>
-            <guid isPermaLink="false">https://www.bbc.com/sport/football/articles/c72pgzvzr23o#1</guid>
-            <pubDate>Fri, 10 May 2024 19:32:55 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/news/240/cpsprodpb/4675/live/177154c0-0efe-11ef-8d3e-bd8254c642eb.jpg"/>
+            <title><![CDATA[Why has Putin removed key ally as defence minister?]]></title>
+            <description><![CDATA[Steve Rosenberg considers possible reasons behind Sergei Shoigu's replacement in the middle of a war.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-69006046</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-69006046#2</guid>
+            <pubDate>Mon, 13 May 2024 20:08:55 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/CBC0/production/_133306125_b3d9b7c0-0386-4a1a-8a16-c90fc0cf3f67.jpg"/>
         </item>
         <item>
             <title><![CDATA[Eurovision responds to complaints of bad behaviour]]></title>

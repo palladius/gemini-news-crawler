@@ -8,6 +8,8 @@ install:
 	npm i @hotwired/turbo-rails
 	npm i "@hotwired/stimulus"
 	rails stimulus:install
+	if_mac bundle config build.langchainrb --with-cflags=\"-Wno-incompatible-function-pointer-types\"
+	bundle install
 #	yarn upgrade
 
 # To fix dev for derek, I had to remove application.CSS and application.js from app/builds. Weird
