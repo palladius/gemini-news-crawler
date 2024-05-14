@@ -1,3 +1,6 @@
+2024-05-14 v0.2.9 [DEV] Added SmartQueries. Also adding langhcianrb gem which BREAKs my Mac development but hopefully not my linux dev.
+
+
 2024-05-14 v0.2.8 [DEV] Added RECENCY. Now visualizes only articles from last 48h
 2024-05-14 v0.2.7 [DEV] Fixed graphs. Better similar articles now with title and author.
 2024-05-13 v0.2.6 [DEV] Added distance to top close articles

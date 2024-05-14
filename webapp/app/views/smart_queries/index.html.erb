@@ -1,0 +1,12 @@
+<h1>🔎 Select a Sample Query</h1>
+
+<ul>
+  <% @sample_queries.each do |query| %>
+
+  <!-- <li><%#= link_to(query, smart_query_path(query: query), method: :get) rescue "Err #{$!}" %> (This will simulate the search)</li>
+  -->
+  <li>👀  <%= link_to(query, "/smart_queries/show?type=hard-coded&query=#{query}", method: :get) rescue "Err #{$!}" %></li>
+  <% end %>
+</ul>
+
+<%= console %>

@@ -8,10 +8,10 @@ class ArticlesController < ApplicationController
     if params['macro_region']
       @region = params['macro_region']
       @articles = Rails.cache.fetch("latest_n_articles_cached_{ @region }", expires_in: 10.minute) {
-        Article.recent_enough.where(macro_region: @region).select(&:published_date).sort_by(&:published_date).last(50).reverse # DESC
+        Article.where(macro_region: @region).recent_enough.select(&:published_date).sort_by(&:published_date).last(50).reverse # DESC
       }
       @article_total_count = Rails.cache.fetch("total_count_for_{ @region }", expires_in: 10.minute) {
-        Article.recent_enough.where(macro_region: @region).all.count
+        Article.where(macro_region: @region).recent_enough.all.count
       }
     else
       @articles = @cached_latest_n_articles

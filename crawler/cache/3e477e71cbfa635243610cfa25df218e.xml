@@ -711,19 +711,278 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Running our workflows on Google Cloud through the Batch involves two steps: 1) copying the input files to Google Cloud storage, 2) submitting the batch job.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ gcloud storage cp -R ./local_input_dir gs://my-gcs-bucket/work_dir\r\n$ gcloud batch jobs submit example-job --config=./job_cfg.json --location=us-central1&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2472370&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ gcloud storage cp -R ./local_input_dir gs://my-gcs-bucket/work_dir\r\n$ gcloud batch jobs submit example-job --config=./job_cfg.json --location=us-central1&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae287eed60&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;SURF&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A common pattern has emerged in most of our computational workflows. First, each job has a set of complex input files, including the sequence and structures of the target protein, a list of small molecules and their valence and three-dimensional structures, and the simulation and model parameters. Second, most computing jobs take hours to days to finish even on the highest-performance machines. Third, the computing jobs produce output datasets of substantial volume and subject to a variety of analyses.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Accordingly, we have recently developed a new computing infrastructure, SURF (submit, upload, run, fetch), which seamlessly integrates our internal cluster and Google Cloud through one simple interface and automatically brings the data to where it is needed by computation or the computation to where the data resides. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ am-surf submit my_job/ --num-cpus 16 --num-gpus 8 --where [gcp|internal]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2472880&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ am-surf submit my_job/ --num-cpus 16 --num-gpus 8 --where [gcp|internal]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae287ee730&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;SURF submits jobs to Google Cloud Batch using Google’s Python API.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We now have an elastic supercomputer on the cloud that gives us massive computing power when we need it. It empowers us to explore the vast chemical space at an unprecedented scale and to invent molecules that better human health and life.&lt;/span&gt;&lt;/p&gt;
 &lt;hr/&gt;
-&lt;p&gt;&lt;sup&gt;&lt;em&gt;&lt;span style="vertical-align: baseline;"&gt;Andrew Sabol supported us from the very beginning of Atommap, even before we knew whether we could afford the computing bills. Without the guidance and technical support of Vincent Beltrani, Mike Sabol, and other Google colleagues, we could not have rebuilt our computing platform on Google Cloud in such a short time. Our discovery partners put their trust in our young company and our burgeoning platform; their collaborations helped us validate our platform in real discovery projects and substantially improve its throughput, robustness, and predictive accuracy. &lt;/span&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</guid><category>Customers</category><category>HPC</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Performing large-scale computation-driven drug discovery on Google Cloud</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Huafeng Xu</name><title>CEO, Atommap</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Christopher Ryan</name><title>Director of Machine Learning and Data Sciences, Atommap</title><department></department><company></company></author></item><item><title>AlloyDB vs. self-managed PostgreSQL: a price-performance comparison</title><link>https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;a href="https://www.postgresql.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;PostgreSQL&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is an advanced open-source, relational database management system that empowers businesses with robust, reliable, and scalable database solutions. It has a rich set of features including security, availability, and performance that ensure data integrity and business continuity. With its extensive extensibility and vibrant community support, PostgreSQL offers a flexible and cost-effective alternative to proprietary database systems, making it an ideal choice for organizations seeking a versatile database foundation for their critical applications.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;&lt;em&gt;&lt;span style="vertical-align: baseline;"&gt;Andrew Sabol supported us from the very beginning of Atommap, even before we knew whether we could afford the computing bills. Without the guidance and technical support of Vincent Beltrani, Mike Sabol, and other Google colleagues, we could not have rebuilt our computing platform on Google Cloud in such a short time. Our discovery partners put their trust in our young company and our burgeoning platform; their collaborations helped us validate our platform in real discovery projects and substantially improve its throughput, robustness, and predictive accuracy. &lt;/span&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 13 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</guid><category>Customers</category><category>HPC</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Performing large-scale computation-driven drug discovery on Google Cloud</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/hpc/atommap-builds-elastic-supercomputer-on-google-cloud/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Huafeng Xu</name><title>CEO, Atommap</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Christopher Ryan</name><title>Director of Machine Learning and Data Sciences, Atommap</title><department></department><company></company></author></item><item><title>How Airwallex leveraged Google Cloud to scale globally</title><link>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;On a mission to disrupt and transform the fintech industry, &lt;/span&gt;&lt;a href="https://www.airwallex.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Airwallex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is constantly innovating, embracing new technologies that can help businesses overcome international money transfer challenges so they can grow without borders. We aim to provide end-to-end solutions and currently offer services related to global payments, treasury and expense management, and embedded finance services. With our proprietary infrastructure, we can remove friction from global payments and financial operations, so that businesses of all sizes can unlock new opportunities for growth.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our developers are at the heart of everything we do at Airwallex. We follow a “develop first, and deploy fast” mindset, which we believe has benefited our customers, and we are highly focused on finding a good balance between velocity and quality.To that end, our continuous Integration and continuous deployment (CI/CD) pipelines, which are run on Google Cloud and Gitlab, always need to be at optimum performance. Over the years, we’ve built a lot of integrations and have automated testing and validation, which enables us to deploy with confidence. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Expanding into new markets globally with Google Cloud&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;During late 2018 to early 2019, we decided that it was time to grow our presence globally and began looking for a platform that would support our ambitions. We were already on a hybrid cloud with different providers, which made sense in our earlier days as it provided more support in the APAC region. However, our goals were different as we looked to expand, and we found that Google Cloud was best suited to meet our needs because of its well-established global network. Google Cloud’s highly connected cloud infrastructure and advanced inter-region capabilities meant that we could easily build out into different geographies. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Together with the scalability of &lt;/span&gt;&lt;a href="https://cloud.google.com/kubernetes-engine"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Kubernetes Engine&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; (GKE) and agility of &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, our team has been able to take on projects that have become increasingly more complicated and challenging as we continue to extend our global network. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Relying on the stability of Google Cloud for CI/CD&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Airwallex relies on powerful and flexible APIs and CI/CD pipelines for seamless international money transfers, among other services. GitLab and GKE provide a scalable, always-available environment that enables us to respond to the rapidly changing security and market conditions. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;All our GitLab service components are run natively in GKE clusters. We use &lt;/span&gt;&lt;a href="https://cloud.google.com/sql"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud SQL&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, Google Cloud’s fully managed relational database as our GitLab database, and the cache service on &lt;/span&gt;&lt;a href="https://cloud.google.com/memorystore?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Memorystore&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://cloud.google.com/storage/docs/creating-buckets"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud Storage buckets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; act as our GitLab object storage. Some of our GitLab runners are also hosted on &lt;/span&gt;&lt;a href="https://cloud.google.com/compute"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Compute Engine&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; virtual machines. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The diagram below illustrates how Google Cloud is integrated into our GitLab CI/CD pipelines:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_2cJOPrI.max-1000x1000.png"
+        
+          alt="1"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2_XdsgxCw.max-1000x1000.png"
+        
+          alt="2"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A key benefit of Google Cloud is scalability. Running GitLab on GKE has provided us with immense benefits in terms of scalability and reliability. For example, the autoscaling of GKE and the Horizontal Port Autoscaling (HPA) feature of Kubernetes means we never have to worry about the load on GitLab. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Kubernetes nodes can be autoscaled based on the node pressure, and the replicas can also be autoscaled based on the performance of containers. Our GKE clusters are deployed regionally across three zones, which improves the availability of our GitLab instance. Using Cloud SQL, we can guarantee a 99.95% SLA for our GitLab database, and we can deliver up to 99.999% availability by backing up the GitLab data on Cloud Storage buckets — building a truly global DevOps culture.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the past, everything was manual, and it used to take us eight hours to deliver a release to production. With an automated CI/CD pipeline, we can deliver a change in less than an hour, including manual approvals from our stakeholders.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Identifying fraud efficiently with Vertex AI &lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As a fintech company, data security is paramount. We need to ensure that we are working with verified institutions, which is why fraud detection is the first line of defense. In August 2023, we launched a new project using &lt;/span&gt;&lt;a href="https://cloud.google.com/vertex-ai"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Vertex AI&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, focused on anti-money laundering and fraud analysis using generative AI technology. We implemented Vertex AI on our proprietary fraud detection system to scan any website that a customer gives us to determine its validity. After we verify that the website is legitimate, it is put through our other machine learning models to measure the risk of that website.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Prior to this, we relied on &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to train our machine learning models to detect fraud on our system. With Vertex AI, we can detect fraud in real time, improving the speed and efficiency of our day-to-day operations and enabling us to react to potential fraud much quicker. However, we continue to use BigQuery to support other data-driven decision-making due to its minimal maintenance and high security. The serverless, highly scalable infrastructure of BigQuery makes it an incredibly economical tool. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Delivering mission critical infrastructures with a trusted partner&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For Airwallex, we collaborating with the Google Cloud Professional Services Organization (PSO) has been a game changer. The team’s willingness to share their in-depth knowledge on system designs and SRE practices inspire our engineers to continuously do their best work. Having a dedicated team to support us also gives us the confidence to experiment and develop new products quickly, knowing that our infrastructure is secure.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</guid><category>Infrastructure Modernization</category><category>Containers &amp; Kubernetes</category><category>Customers</category><category>Financial Services</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>How Airwallex leveraged Google Cloud to scale globally</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Andy Chow</name><title>Chief of Staff, Technology, Airwallex</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Cathy He</name><title>Engineering Manager, Airwallex</title><department></department><company></company></author></item><item><title>Tencent: Building analytics culture for better game development</title><link>https://cloud.google.com/blog/products/data-analytics/the-road-to-analytics-culture-with-funcom-and-tencent/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;a href="https://www.tencent.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Tencent&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is a leading internet and technology company headquartered in Shenzhen, China. Our mission is “value for users, tech for good.” We are also the company behind world-famous games like Level Infinite, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;PubG Mobile, Honor of Kings, GTFO, and Assassin’s Creed Jade. In February 2020, we acquired &lt;/span&gt;&lt;a href="https://www.funcom.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Funcom&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, a gaming company that recently celebrated its 30th anniversary, with a critically acclaimed portfolio that includes games like The Longest Journey, Anarchy Online, and Metal Hellsinger.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The acquisition of Funcom brought together the best of tech and the gaming industry, and with that, we decided to build an analytics culture at Funcom, supported by Google Cloud. We’ll share the challenges we faced as well as the solutions that were implemented in the process.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To demonstrate, we’ll use the online multiplayer survivor game, Conan Exiles, as an example. Developed by Funcom and released in 2017, this game constantly updates and releases new content, and was transitioned into a live service game model in 2022. As such, we needed data to support our business decisions. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;An architecture for scalability and growth&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Funcom’s architecture was developed to support the internal development team with live operations and to monitor the game servers’ health. The entire architecture was made of on-premises virtual machines and open-source frameworks, which limited our use cases and scalability. The legacy technology stack was not built with a data-driven approach in mind from a live service game model standpoint. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Based on interest from both developers and executives at Funcom, we decided to collaborate with Google Cloud to develop a new architecture. With only a few months to go before the release of the first season of Conan Exiles, the Google Cloud team provided us with a fully operational data warehouse that could be used to build dashboards and provide insights to key stakeholders, including executives, marketing, and live operations. The diagram below illustrates the architecture that we used:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_7iIgU9e.max-1000x1000.png"
+        
+          alt="1"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We built our new technology stack according to a few key criteria: ease of integration, diverse use case coverage, and optimizing the total cost of ownership (TCO).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Building this data platform was like putting together puzzle pieces. We replaced our legacy data infrastructure using key products like Cloud Storage and BigQuery, which acted as a data lake and query engine. As a result, we were able to build a robust data pipeline and a well-established data platform foundation in less than two months, enabling access to a host of new game data that was previously unseen, such as in-game player activity playtests. This includes marketing data, such as social listening and community responses, performance data about CPU, graphic or memory usage, and even crash monitoring data. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;A new foundation to connect gaming and marketing datasets&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With the new architecture set up, we decided to explore other ways of using data to optimize cost performance and get better control of the data stack to connect marketing and sales datasets. For example, game leads need to understand how data can support in-game development, while our marketing teams should have easy access to in-game data to support marketing efforts.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To help, we automated the entire pipeline with always up-to-date KPI reports to monitor our marketing performance within Google Cloud. Additionally, the data team can provide recommendations based on in-depth insight analytics by connecting the data across player behavior, community, and marketing.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Moving forward with a revenue-generating tech stack &lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With Google Cloud, we’ve been able to redesign the raw data pipeline and data lake architecture without impacting our gaming data pipeline, day-to-day decision-making systems, or requiring additional engineering overhead. As a result, we are able to process twice as much game data on a daily basis, compared to our previous architecture. In addition, we have also decreased our overall monthly costs by 70% using BigQuery and Cloud Composer.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Moving forward, we’re looking to further expand this architecture with near real-time pipelines built with Pub/Sub. We are also planning to improve data quality monitoring and alerting, and standardizing our data structure, so that we can deploy newly developed features directly to beta and accelerate our time to market.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/the-road-to-analytics-culture-with-funcom-and-tencent/</guid><category>Infrastructure Modernization</category><category>Gaming</category><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Tencent: Building analytics culture for better game development</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/the-road-to-analytics-culture-with-funcom-and-tencent/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Mathieu Ruiz</name><title>Lead Game Data Analyst, Funcom</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Hao Liang</name><title>Manager, Data Platform, Tencent</title><department></department><company></company></author></item><item><title>Breaking barriers: How BigQuery data insights boosts the data exploration journey</title><link>https://cloud.google.com/blog/products/data-analytics/how-bigquery-data-insights-simplifies-data-analysis/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Most data analysis starts with exploration — finding the right dataset, understanding the data’s structure, identifying key patterns, and identifying the most valuable insights you want to extract. This step can be cumbersome and time-consuming, especially if you are working with a new dataset or if you are new to the team. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To address this problem, we announced the preview of &lt;/span&gt;&lt;a href="https://cloud.google.com/gemini/docs/bigquery/overview#ai-assist"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;new data insights capability&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; in BigQuery at Next ‘24 that surfaces relevant, executable queries for tables that you can run with just one click. These features are available as part of &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/introducing-gemini-in-bigquery-at-next24"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Gemini in BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and leverage the metadata and profiling information of tables from &lt;/span&gt;&lt;a href="https://cloud.google.com/dataplex?e=48754805&amp;amp;hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Dataplex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In this blog post, we explore how Alex, a data analyst working for a large enterprise, can use the new BigQuery data insights features to accelerate his analytics workflows. Like many data professionals, he often encounters the &lt;/span&gt;&lt;a href="https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;"cold-start" problem&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; when exploring new datasets. With little or no prior knowledge about the data they're working with, it can be difficult to identify patterns, much less uncover valuable insights. We also dive deeper into the concept of grounding generated queries and the roles of different personas involved in this journey.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Addressing the cold-start problem with data insights&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Data insights harnesses Google's Gemini models to generate insightful queries about hidden patterns within a table, utilizing the table's metadata. By analyzing data types, statistical summaries, and other metadata attributes, it helps data analysts like Alex overcome the cold-start problem and unlock a world of data exploration possibilities.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "
+      &gt;
+
+      
+      
+        
+        &lt;img
+            src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/image1_74IUZUA.gif"
+        
+          alt="image1"&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p style="padding-left: 40px;"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;“The Insights feature felt like it understood the table, it filtered out not so useful columns like Created_at time, Transaction Id, while highlighting important columns like Amount, Intent Type, Bank Name, App Version, Platform.”&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; - &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Product Manager, Financial Services Industry&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Grounding generated queries for data relevance and accuracy&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;One of the key features of BigQuery data insights is its ability to ground generated queries. This means that the queries are based on the actual data distribution and patterns within the dataset, ensuring their relevance and accuracy. The grounding process involves:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Analyzing profile scan data:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Data insights examines the &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery/docs/data-insights#profile-scans"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;published profile scan&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; data of the dataset, which includes information such as data types, statistical summaries, and other metadata attributes.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Generating queries based on data distribution: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Using the profile scan data, data insights creates queries that are tailored to the specific data distribution and patterns within the dataset.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Validating queries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; The generated queries are validated to ensure their relevance and accuracy.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Two key personas: admin and data consumer&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Two primary personas who can benefit from using BigQuery data insights:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Admins - &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;responsible for generating insights using the data insights feature. Admins typically include data steward, data governors, or other technical users who have the necessary permissions and access to the underlying data. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Data consumers - &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; can view and execute the generated queries without needing direct access to the underlying data. Data consumers may include business analysts, data scientists, or other non-technical users who rely on the insights generated by BigQuery data insights to make informed decisions.In our story, Alex is a data consumer.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Getting started with BigQuery data insights&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To use data Bigquery data insights, follow these steps:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Access data insights: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;With your data in BigQuery, navigate to the BigQuery Studio in the Google Cloud console. Here, you'll find an overview of your tablesand their associated metadata.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Generate queries&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Select a table and click on the "Generate insights" button. Data insights analyzes the metadata and generates a list of insightful queries tailored to your dataset.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Explore and refine queries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Review the generated queries and refine them as needed. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Run queries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Execute the queries against your table and analyze the results to uncover valuable insights.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Alex's path to greater data insights&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Initially, Alex struggled to get up to speed when working with a new dataset. However, after discovering BigQuery data insights, he was able to streamline his data exploration process. Here's what data insights brought to Alex's work:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Efficient data exploration:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; By automatically generating insightful queries based on metadata, data insights enabled Alex to explore new tables more efficiently and independently.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Time and resource savings:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; With data insights handling low-to-moderate complexity data analysis tasks, Alex was able to focus on more challenging projects and save valuable time and resources.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Collaboration and democratization:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Data insights made data analysis more accessible to non-technical users in Alex's organization, fostering collaboration and promoting a unified approach to data interpretation.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
+&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Real-time insights:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; By automatically deriving insights from continuously flowing business data, data insights helped Alex and his team respond to changing business conditions in real-time.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;“It’s fantastic that the Insights generation feature in BigQuery not only provides new insights but also simplifies the process of running derived queries. The tool surprises me with fresh perspectives, going beyond what I initially considered. Its user-friendly nature makes it accessible to everyone, enabling efficient query execution.”&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; - &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Data Analyst, renewable energy industry&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Unlock insights from your data, fast&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery d&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;ata insights is a powerful tool to help you unlock valuable insights from your data. By leveraging the metadata of tables, it streamlines the data exploration process and enables data professionals to focus on more challenging tasks. The grounding of generated queries ensures the relevance and accuracy of the insights, while the two primary personas – admin and data consumer – facilitate collaboration and democratization of data analysis. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Check out the &lt;/span&gt;&lt;a href="https://cloud.google.com/dataplex/docs/data-insights"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to learn more about data insights and reimagine the way you explore and analyze data.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/how-bigquery-data-insights-simplifies-data-analysis/</guid><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Breaking barriers: How BigQuery data insights boosts the data exploration journey</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/how-bigquery-data-insights-simplifies-data-analysis/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Sai Charan Tej Kommuri</name><title>Product Manager, Data Analytics</title><department></department><company></company></author></item><item><title>AlloyDB vs. self-managed PostgreSQL: a price-performance comparison</title><link>https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;a href="https://www.postgresql.org/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;PostgreSQL&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is an advanced open-source, relational database management system that empowers businesses with robust, reliable, and scalable database solutions. It has a rich set of features including security, availability, and performance that ensure data integrity and business continuity. With its extensive extensibility and vibrant community support, PostgreSQL offers a flexible and cost-effective alternative to proprietary database systems, making it an ideal choice for organizations seeking a versatile database foundation for their critical applications.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cloud.google.com/alloydb/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AlloyDB for PostgreSQL&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, meanwhile, is Google Cloud’s fully managed, enterprise-grade database service that adds several enhancements to the standard PostgreSQL database engine while maintaining full compatibility: AlloyDB can handle the most demanding workloads with superior performance, high availability, and scalability, outperforming standard PostgreSQL. Further, AlloyDB leverages Google's differentiated infrastructure and machine learning for automated database management, intelligent resource optimization, and accelerated analytical queries, making it an attractive choice for organizations that need a powerful and streamlined PostgreSQL-compatible solution. So, which should you choose?&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-image_full_width"&gt;
 
@@ -1074,266 +1333,7 @@
 &lt;p role="presentation"&gt;&lt;span style="vertical-align: baseline;"&gt;For a comprehensive overview of AlloyDB, refer to the &lt;/span&gt;&lt;a href="https://cloud.google.com/alloydb/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;overview section&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; of the documentation.&lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;span style="vertical-align: baseline;"&gt;Start building on Google Cloud with $300 in free credits and 20+ always free products at &lt;/span&gt;&lt;a href="https://cloud.google.com/free"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;https://cloud.google.com/free&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison/</guid><category>Databases</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>AlloyDB vs. self-managed PostgreSQL: a price-performance comparison</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Sridhar Ranganathan</name><title>Product Manager, Google Cloud Databases</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Sheshadri Ranganath</name><title>Engineering Director, Google Cloud Databases</title><department></department><company></company></author></item><item><title>How Airwallex leveraged Google Cloud to scale globally</title><link>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;On a mission to disrupt and transform the fintech industry, &lt;/span&gt;&lt;a href="https://www.airwallex.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Airwallex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is constantly innovating, embracing new technologies that can help businesses overcome international money transfer challenges so they can grow without borders. We aim to provide end-to-end solutions and currently offer services related to global payments, treasury and expense management, and embedded finance services. With our proprietary infrastructure, we can remove friction from global payments and financial operations, so that businesses of all sizes can unlock new opportunities for growth.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our developers are at the heart of everything we do at Airwallex. We follow a “develop first, and deploy fast” mindset, which we believe has benefited our customers, and we are highly focused on finding a good balance between velocity and quality.To that end, our continuous Integration and continuous deployment (CI/CD) pipelines, which are run on Google Cloud and Gitlab, always need to be at optimum performance. Over the years, we’ve built a lot of integrations and have automated testing and validation, which enables us to deploy with confidence. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Expanding into new markets globally with Google Cloud&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;During late 2018 to early 2019, we decided that it was time to grow our presence globally and began looking for a platform that would support our ambitions. We were already on a hybrid cloud with different providers, which made sense in our earlier days as it provided more support in the APAC region. However, our goals were different as we looked to expand, and we found that Google Cloud was best suited to meet our needs because of its well-established global network. Google Cloud’s highly connected cloud infrastructure and advanced inter-region capabilities meant that we could easily build out into different geographies. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Together with the scalability of &lt;/span&gt;&lt;a href="https://cloud.google.com/kubernetes-engine"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Kubernetes Engine&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; (GKE) and agility of &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, our team has been able to take on projects that have become increasingly more complicated and challenging as we continue to extend our global network. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Relying on the stability of Google Cloud for CI/CD&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Airwallex relies on powerful and flexible APIs and CI/CD pipelines for seamless international money transfers, among other services. GitLab and GKE provide a scalable, always-available environment that enables us to respond to the rapidly changing security and market conditions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;All our GitLab service components are run natively in GKE clusters. We use &lt;/span&gt;&lt;a href="https://cloud.google.com/sql"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud SQL&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, Google Cloud’s fully managed relational database as our GitLab database, and the cache service on &lt;/span&gt;&lt;a href="https://cloud.google.com/memorystore?hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Memorystore&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://cloud.google.com/storage/docs/creating-buckets"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud Storage buckets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; act as our GitLab object storage. Some of our GitLab runners are also hosted on &lt;/span&gt;&lt;a href="https://cloud.google.com/compute"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Compute Engine&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; virtual machines. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The diagram below illustrates how Google Cloud is integrated into our GitLab CI/CD pipelines:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_2cJOPrI.max-1000x1000.png"
-        
-          alt="1"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2_XdsgxCw.max-1000x1000.png"
-        
-          alt="2"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A key benefit of Google Cloud is scalability. Running GitLab on GKE has provided us with immense benefits in terms of scalability and reliability. For example, the autoscaling of GKE and the Horizontal Port Autoscaling (HPA) feature of Kubernetes means we never have to worry about the load on GitLab. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Kubernetes nodes can be autoscaled based on the node pressure, and the replicas can also be autoscaled based on the performance of containers. Our GKE clusters are deployed regionally across three zones, which improves the availability of our GitLab instance. Using Cloud SQL, we can guarantee a 99.95% SLA for our GitLab database, and we can deliver up to 99.999% availability by backing up the GitLab data on Cloud Storage buckets — building a truly global DevOps culture.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the past, everything was manual, and it used to take us eight hours to deliver a release to production. With an automated CI/CD pipeline, we can deliver a change in less than an hour, including manual approvals from our stakeholders.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Identifying fraud efficiently with Vertex AI &lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As a fintech company, data security is paramount. We need to ensure that we are working with verified institutions, which is why fraud detection is the first line of defense. In August 2023, we launched a new project using &lt;/span&gt;&lt;a href="https://cloud.google.com/vertex-ai"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Vertex AI&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, focused on anti-money laundering and fraud analysis using generative AI technology. We implemented Vertex AI on our proprietary fraud detection system to scan any website that a customer gives us to determine its validity. After we verify that the website is legitimate, it is put through our other machine learning models to measure the risk of that website.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Prior to this, we relied on &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to train our machine learning models to detect fraud on our system. With Vertex AI, we can detect fraud in real time, improving the speed and efficiency of our day-to-day operations and enabling us to react to potential fraud much quicker. However, we continue to use BigQuery to support other data-driven decision-making due to its minimal maintenance and high security. The serverless, highly scalable infrastructure of BigQuery makes it an incredibly economical tool. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Delivering mission critical infrastructures with a trusted partner&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For Airwallex, we collaborating with the Google Cloud Professional Services Organization (PSO) has been a game changer. The team’s willingness to share their in-depth knowledge on system designs and SRE practices inspire our engineers to continuously do their best work. Having a dedicated team to support us also gives us the confidence to experiment and develop new products quickly, knowing that our infrastructure is secure.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</guid><category>Infrastructure Modernization</category><category>Containers &amp; Kubernetes</category><category>Customers</category><category>Financial Services</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>How Airwallex leveraged Google Cloud to scale globally</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/topics/financial-services/scaling-fintech-capabilities-globally-with-google-cloud/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Andy Chow</name><title>Chief of Staff, Technology, Airwallex</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Cathy He</name><title>Engineering Manager, Airwallex</title><department></department><company></company></author></item><item><title>Breaking barriers: How BigQuery data insights boosts the data exploration journey</title><link>https://cloud.google.com/blog/products/data-analytics/how-bigquery-data-insights-simplifies-data-analysis/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Most data analysis starts with exploration — finding the right dataset, understanding the data’s structure, identifying key patterns, and identifying the most valuable insights you want to extract. This step can be cumbersome and time-consuming, especially if you are working with a new dataset or if you are new to the team. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To address this problem, we announced the preview of &lt;/span&gt;&lt;a href="https://cloud.google.com/gemini/docs/bigquery/overview#ai-assist"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;new data insights capability&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; in BigQuery at Next ‘24 that surfaces relevant, executable queries for tables that you can run with just one click. These features are available as part of &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/introducing-gemini-in-bigquery-at-next24"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Gemini in BigQuery&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and leverage the metadata and profiling information of tables from &lt;/span&gt;&lt;a href="https://cloud.google.com/dataplex?e=48754805&amp;amp;hl=en"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Dataplex&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In this blog post, we explore how Alex, a data analyst working for a large enterprise, can use the new BigQuery data insights features to accelerate his analytics workflows. Like many data professionals, he often encounters the &lt;/span&gt;&lt;a href="https://en.wikipedia.org/wiki/Cold_start_(recommender_systems)" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;"cold-start" problem&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; when exploring new datasets. With little or no prior knowledge about the data they're working with, it can be difficult to identify patterns, much less uncover valuable insights. We also dive deeper into the concept of grounding generated queries and the roles of different personas involved in this journey.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Addressing the cold-start problem with data insights&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Data insights harnesses Google's Gemini models to generate insightful queries about hidden patterns within a table, utilizing the table's metadata. By analyzing data types, statistical summaries, and other metadata attributes, it helps data analysts like Alex overcome the cold-start problem and unlock a world of data exploration possibilities.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/image1_74IUZUA.gif"
-        
-          alt="image1"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p style="padding-left: 40px;"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;“The Insights feature felt like it understood the table, it filtered out not so useful columns like Created_at time, Transaction Id, while highlighting important columns like Amount, Intent Type, Bank Name, App Version, Platform.”&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; - &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Product Manager, Financial Services Industry&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Grounding generated queries for data relevance and accuracy&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;One of the key features of BigQuery data insights is its ability to ground generated queries. This means that the queries are based on the actual data distribution and patterns within the dataset, ensuring their relevance and accuracy. The grounding process involves:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Analyzing profile scan data:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Data insights examines the &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery/docs/data-insights#profile-scans"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;published profile scan&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; data of the dataset, which includes information such as data types, statistical summaries, and other metadata attributes.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Generating queries based on data distribution: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Using the profile scan data, data insights creates queries that are tailored to the specific data distribution and patterns within the dataset.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Validating queries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; The generated queries are validated to ensure their relevance and accuracy.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Two key personas: admin and data consumer&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Two primary personas who can benefit from using BigQuery data insights:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Admins - &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;responsible for generating insights using the data insights feature. Admins typically include data steward, data governors, or other technical users who have the necessary permissions and access to the underlying data. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Data consumers - &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; can view and execute the generated queries without needing direct access to the underlying data. Data consumers may include business analysts, data scientists, or other non-technical users who rely on the insights generated by BigQuery data insights to make informed decisions.In our story, Alex is a data consumer.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Getting started with BigQuery data insights&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To use data Bigquery data insights, follow these steps:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Access data insights: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;With your data in BigQuery, navigate to the BigQuery Studio in the Google Cloud console. Here, you'll find an overview of your tablesand their associated metadata.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Generate queries&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Select a table and click on the "Generate insights" button. Data insights analyzes the metadata and generates a list of insightful queries tailored to your dataset.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Explore and refine queries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Review the generated queries and refine them as needed. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Run queries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Execute the queries against your table and analyze the results to uncover valuable insights.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Alex's path to greater data insights&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Initially, Alex struggled to get up to speed when working with a new dataset. However, after discovering BigQuery data insights, he was able to streamline his data exploration process. Here's what data insights brought to Alex's work:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Efficient data exploration:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; By automatically generating insightful queries based on metadata, data insights enabled Alex to explore new tables more efficiently and independently.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Time and resource savings:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; With data insights handling low-to-moderate complexity data analysis tasks, Alex was able to focus on more challenging projects and save valuable time and resources.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Collaboration and democratization:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Data insights made data analysis more accessible to non-technical users in Alex's organization, fostering collaboration and promoting a unified approach to data interpretation.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li aria-level="1" style="list-style-type: decimal; vertical-align: baseline;"&gt;
-&lt;p role="presentation"&gt;&lt;strong style="vertical-align: baseline;"&gt;Real-time insights:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; By automatically deriving insights from continuously flowing business data, data insights helped Alex and his team respond to changing business conditions in real-time.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p style="padding-left: 40px;"&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;“It’s fantastic that the Insights generation feature in BigQuery not only provides new insights but also simplifies the process of running derived queries. The tool surprises me with fresh perspectives, going beyond what I initially considered. Its user-friendly nature makes it accessible to everyone, enabling efficient query execution.”&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; - &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Data Analyst, renewable energy industry&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Unlock insights from your data, fast&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery d&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;ata insights is a powerful tool to help you unlock valuable insights from your data. By leveraging the metadata of tables, it streamlines the data exploration process and enables data professionals to focus on more challenging tasks. The grounding of generated queries ensures the relevance and accuracy of the insights, while the two primary personas – admin and data consumer – facilitate collaboration and democratization of data analysis. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Check out the &lt;/span&gt;&lt;a href="https://cloud.google.com/dataplex/docs/data-insights"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to learn more about data insights and reimagine the way you explore and analyze data.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/how-bigquery-data-insights-simplifies-data-analysis/</guid><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Breaking barriers: How BigQuery data insights boosts the data exploration journey</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/how-bigquery-data-insights-simplifies-data-analysis/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Sai Charan Tej Kommuri</name><title>Product Manager, Data Analytics</title><department></department><company></company></author></item><item><title>Tencent: Building analytics culture for better game development</title><link>https://cloud.google.com/blog/products/data-analytics/the-road-to-analytics-culture-with-funcom-and-tencent/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;a href="https://www.tencent.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Tencent&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is a leading internet and technology company headquartered in Shenzhen, China. Our mission is “value for users, tech for good.” We are also the company behind world-famous games like Level Infinite, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;PubG Mobile, Honor of Kings, GTFO, and Assassin’s Creed Jade. In February 2020, we acquired &lt;/span&gt;&lt;a href="https://www.funcom.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Funcom&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, a gaming company that recently celebrated its 30th anniversary, with a critically acclaimed portfolio that includes games like The Longest Journey, Anarchy Online, and Metal Hellsinger.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The acquisition of Funcom brought together the best of tech and the gaming industry, and with that, we decided to build an analytics culture at Funcom, supported by Google Cloud. We’ll share the challenges we faced as well as the solutions that were implemented in the process.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To demonstrate, we’ll use the online multiplayer survivor game, Conan Exiles, as an example. Developed by Funcom and released in 2017, this game constantly updates and releases new content, and was transitioned into a live service game model in 2022. As such, we needed data to support our business decisions. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;An architecture for scalability and growth&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Funcom’s architecture was developed to support the internal development team with live operations and to monitor the game servers’ health. The entire architecture was made of on-premises virtual machines and open-source frameworks, which limited our use cases and scalability. The legacy technology stack was not built with a data-driven approach in mind from a live service game model standpoint. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Based on interest from both developers and executives at Funcom, we decided to collaborate with Google Cloud to develop a new architecture. With only a few months to go before the release of the first season of Conan Exiles, the Google Cloud team provided us with a fully operational data warehouse that could be used to build dashboards and provide insights to key stakeholders, including executives, marketing, and live operations. The diagram below illustrates the architecture that we used:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "
-      &gt;
-
-      
-      
-        
-        &lt;img
-            src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_7iIgU9e.max-1000x1000.png"
-        
-          alt="1"&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We built our new technology stack according to a few key criteria: ease of integration, diverse use case coverage, and optimizing the total cost of ownership (TCO).&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Building this data platform was like putting together puzzle pieces. We replaced our legacy data infrastructure using key products like Cloud Storage and BigQuery, which acted as a data lake and query engine. As a result, we were able to build a robust data pipeline and a well-established data platform foundation in less than two months, enabling access to a host of new game data that was previously unseen, such as in-game player activity playtests. This includes marketing data, such as social listening and community responses, performance data about CPU, graphic or memory usage, and even crash monitoring data. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;A new foundation to connect gaming and marketing datasets&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With the new architecture set up, we decided to explore other ways of using data to optimize cost performance and get better control of the data stack to connect marketing and sales datasets. For example, game leads need to understand how data can support in-game development, while our marketing teams should have easy access to in-game data to support marketing efforts.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To help, we automated the entire pipeline with always up-to-date KPI reports to monitor our marketing performance within Google Cloud. Additionally, the data team can provide recommendations based on in-depth insight analytics by connecting the data across player behavior, community, and marketing.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Moving forward with a revenue-generating tech stack &lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With Google Cloud, we’ve been able to redesign the raw data pipeline and data lake architecture without impacting our gaming data pipeline, day-to-day decision-making systems, or requiring additional engineering overhead. As a result, we are able to process twice as much game data on a daily basis, compared to our previous architecture. In addition, we have also decreased our overall monthly costs by 70% using BigQuery and Cloud Composer.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Moving forward, we’re looking to further expand this architecture with near real-time pipelines built with Pub/Sub. We are also planning to improve data quality monitoring and alerting, and standardizing our data structure, so that we can deploy newly developed features directly to beta and accelerate our time to market.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/the-road-to-analytics-culture-with-funcom-and-tencent/</guid><category>Infrastructure Modernization</category><category>Gaming</category><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Tencent: Building analytics culture for better game development</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/the-road-to-analytics-culture-with-funcom-and-tencent/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Mathieu Ruiz</name><title>Lead Game Data Analyst, Funcom</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Hao Liang</name><title>Manager, Data Platform, Tencent</title><department></department><company></company></author></item><item><title>How Trendyol solves cloud governance at scale with Looker</title><link>https://cloud.google.com/blog/products/data-analytics/how-trendyol-solves-cloud-governance-at-scale-with-looker/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Editor’s note:&lt;/strong&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; Today, we’ll hear from Trendyol, a leading ecommerce marketplace and Google Cloud partner based in Türkiye, about how it uses Looker on top of its BigQuery data lake infrastructure to allow its thousands of users to gain real-time insights while maintaining strong governance in the cloud. &lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><pubDate>Fri, 10 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison/</guid><category>Databases</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>AlloyDB vs. self-managed PostgreSQL: a price-performance comparison</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/databases/alloydb-vs-self-managed-postgresql-a-price-performance-comparison/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Sridhar Ranganathan</name><title>Product Manager, Google Cloud Databases</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Sheshadri Ranganath</name><title>Engineering Director, Google Cloud Databases</title><department></department><company></company></author></item><item><title>How Trendyol solves cloud governance at scale with Looker</title><link>https://cloud.google.com/blog/products/data-analytics/how-trendyol-solves-cloud-governance-at-scale-with-looker/</link><description>&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Editor’s note:&lt;/strong&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; Today, we’ll hear from Trendyol, a leading ecommerce marketplace and Google Cloud partner based in Türkiye, about how it uses Looker on top of its BigQuery data lake infrastructure to allow its thousands of users to gain real-time insights while maintaining strong governance in the cloud. &lt;/span&gt;&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The beauty of cloud environments is that rather than a “one size fits all” solution, you can choose the services you need and start using them immediately. Still, ensuring enterprise-wide best practices and compliance, such as &lt;/span&gt;&lt;a href="https://cloud.google.com/security/compliance/iso-27001"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;ISO27001&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, can sometimes be a challenge, creating additional authorization requirements and friction between teams. This inherent conflict can lead to competing priorities between the groups consuming cloud resources and those responsible for looking out for the greater good of the organization. In fact, &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/hybrid-cloud/a-cios-guide-to-the-cloud-hybrid-and-human-solutions-to-avoid-trade-offs#:~:text=69%25%20of%20organizations%20indicate%20that%20stringent%20security%20guidelines%20and%20code%20review%20processes%20can%20slow%20developers%20significantly."&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;69% of organizations&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; indicate that stringent security guidelines and code review processes can slow developers significantly.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With this in mind, let’s take a look at how leading ecommerce platform Trendyol uses &lt;/span&gt;&lt;a href="http://cloud.google.com/looker"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Looker&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to &lt;/span&gt;&lt;a href="https://cloud.google.com/customers/trendyol"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;visualize petabytes of data ingested from hundreds of sources&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and achieve cloud governance at scale.&lt;/span&gt;&lt;/p&gt;
@@ -2594,36 +2594,36 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;kubectl apply the following:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: PodMonitoring\r\nmetadata:\r\n  name: prom-example\r\nspec:\r\n  selector:\r\n    matchLabels:\r\n      app.kubernetes.io/name: prom-example\r\n  endpoints:\r\n  - port: metrics\r\n    interval: 60s #formerly 30s&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2572940&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: PodMonitoring\r\nmetadata:\r\n  name: prom-example\r\nspec:\r\n  selector:\r\n    matchLabels:\r\n      app.kubernetes.io/name: prom-example\r\n  endpoints:\r\n  - port: metrics\r\n    interval: 60s #formerly 30s&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a400&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;After making changes of this sort, it can be helpful to review the status of your modifications by enabling the target status feature, then checking the&lt;/span&gt;&lt;a href="https://cloud.google.com/stackdriver/docs/managed-prometheus/setup-managed#target-status"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;status of the scrape targets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; in the PodMonitoring or ClusterPodMonitoring resources; do this by setting the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;features.targetStatus.enabled&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; value within the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;OperatorConfig&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; resource to true. Note: turn off target status after using it as it is quite noisy and therefore expensive to operate continuously. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To enable target status, kubectl apply the following:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: OperatorConfig\r\nmetadata:\r\n  namespace: gmp-public\r\n  name: config\r\nfeatures:\r\n  targetStatus:\r\n    enabled: true&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2572a30&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;apiVersion: monitoring.googleapis.com/v1\r\nkind: OperatorConfig\r\nmetadata:\r\n  namespace: gmp-public\r\n  name: config\r\nfeatures:\r\n  targetStatus:\r\n    enabled: true&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a280&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;After a few seconds, the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Status.Endpoint Statuses&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; field appears on every valid PodMonitoring or ClusterPodMonitoring resource, when configured.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If there is a PodMonitoring resource with the name &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;prom-example&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; in the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;NAMESPACE_NAME &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;namespace, then status can be verified by running the following command:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ kubectl -n NAMESPACE_NAME describe podmonitorings/prom-example&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d25729d0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;$ kubectl -n NAMESPACE_NAME describe podmonitorings/prom-example&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a2b0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Filtering input&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;An alternative to the restriction of sampling rates is to filter inbound metrics before they are ingested. The standard method to prevent time-series metrics from being processed by the collector is to use&lt;/span&gt;&lt;a href="https://prometheus.io/docs/prometheus/latest/configuration/configuration/#relabel_config" rel="noopener" target="_blank"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Prometheus relabeling rules&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; with a &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;keep&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; action for an allowlist or a &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;drop&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; action for a denylist. This rule goes in the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;metricRelabeling&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; section of your PodMonitoring or ClusterPodMonitoring resource.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The following metric relabeling rule will filter out any time series that begins with &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;foo_bar_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;foo_baz_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, or &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;foo_qux_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling: \r\n- action: drop\r\n  regex: foo_(bar|baz|qux)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2572e80&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling: \r\n- action: drop\r\n  regex: foo_(bar|baz|qux)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a670&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The following metric relabeling rule uses a regular expression to specify which metrics to keep based on the name of the metric. For example, metrics whose name begins with &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;kube_daemonset_&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; are kept.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: keep\r\n  regex: kube_(daemonset|deployment|pod|namespace|node|statefulset|persistentvolume|horizontalpodautoscaler)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2572eb0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: keep\r\n  regex: kube_(daemonset|deployment|pod|namespace|node|statefulset|persistentvolume|horizontalpodautoscaler)_.+\r\n  sourceLabels: [__name__]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a220&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can also set a rule to manage specific time series based on a label value. For example, the following metric relabeling rule uses a regular expression to filter out all time series where the value for the label “direction” starts with “destination”:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: drop\r\n  regex: destination.*\r\n  sourceLabels: [direction]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d25726a0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;metricRelabeling:\r\n- action: drop\r\n  regex: destination.*\r\n  sourceLabels: [direction]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b6a4c0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As the examples above demonstrate, it’s simple to create allow/deny lists of metrics to control ingestion selection.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The decision as to whether it’s best to reduce metrics ingestion by content filtering or by scrape-rate reduction can be complicated. It’s worth pointing out that sample-rate reduction has very broad implications, while filtering offers more control and a more selective approach. Filtering also requires more thought and planning. A rule of thumb is to set scrape intervals to 30 seconds before applying content filtering, but to analyze the cost/benefit before moving a scrape interval to 60 seconds. Having a clear use case for either 30s or 60s data collection is very helpful in the decision-making process.&lt;/span&gt;&lt;/p&gt;
@@ -3150,7 +3150,7 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Your &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;serviceAccountId&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; typically looks like this: &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;{"serviceAccountId": "bqcx-012345678910-abcd@gcp-sa-bigquery-condel.iam.gserviceaccount.com"&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;}`. And it needs the object viewer permission. This can be achieved by:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gsutil iam ch \\ serviceAccount:bqcx-012345678910-abcd@gcp-sa-bigquery-condel.iam.gserviceaccount.com:objectViewer gs://bq-object-tables-demo-data&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d18ee0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gsutil iam ch \\ serviceAccount:bqcx-012345678910-abcd@gcp-sa-bigquery-condel.iam.gserviceaccount.com:objectViewer gs://bq-object-tables-demo-data&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2610&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Make your object table in BigQuery in an existing dataset, or create a dataset for your object table.&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -3161,7 +3161,7 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This is a sample query you can use to create the object table&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE OR REPLACE EXTERNAL TABLE `bq-object-tables.bq_ot_dataset.bq_object_tables_external_table` \r\nWITH CONNECTION `bq-object-tables.us-east1.biglake-connection` OPTIONS (  object_metadata=&amp;quot;DIRECTORY&amp;quot;,  uris = [\&amp;#x27;gs://bq-object-tables-demo-data/*\&amp;#x27; ],  max_staleness=INTERVAL 30 MINUTE,  metadata_cache_mode=&amp;quot;AUTOMATIC&amp;quot;);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d183a0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE OR REPLACE EXTERNAL TABLE `bq-object-tables.bq_ot_dataset.bq_object_tables_external_table` \r\nWITH CONNECTION `bq-object-tables.us-east1.biglake-connection` OPTIONS (  object_metadata=&amp;quot;DIRECTORY&amp;quot;,  uris = [\&amp;#x27;gs://bq-object-tables-demo-data/*\&amp;#x27; ],  max_staleness=INTERVAL 30 MINUTE,  metadata_cache_mode=&amp;quot;AUTOMATIC&amp;quot;);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2f40&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The  max_staleness option lets you manage the trade-off between data freshness and performance by specifying a tolerable level of staleness for the materialized view; this can help improve query response times and reduce costs. By setting an appropriate value, you can achieve consistently high performance while keeping costs under control, even when working with large, frequently changing datasets&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Create metadata using Native BQ Functionality&lt;/strong&gt;&lt;/p&gt;
@@ -3170,13 +3170,13 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;First create the link back to the model in your BQ dataset like this: &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Create Model\r\nCREATE OR REPLACE MODEL\r\n`bq-object-tables.bq_ot_dataset.myvisionmodel`\r\nREMOTE WITH CONNECTION `bq-object-tables.us-east1.biglake-connection`\r\nOPTIONS (remote_service_type =&amp;#x27;cloud_ai_vision_v1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d185e0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Create Model\r\nCREATE OR REPLACE MODEL\r\n`bq-object-tables.bq_ot_dataset.myvisionmodel`\r\nREMOTE WITH CONNECTION `bq-object-tables.us-east1.biglake-connection`\r\nOPTIONS (remote_service_type =&amp;#x27;cloud_ai_vision_v1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2790&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Annotate image&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This code parses the images, extracts their contents and outputs a JSON array of words that describe the image and the model’s confidence that the description is correct. This function will then put the description into a table.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Annotate image\r\nSELECT *\r\nFROM ML.ANNOTATE_IMAGE(\r\n  MODEL `mydataset.myvisionmodel`,\r\n  TABLE `mydataset.mytable`,\r\n  STRUCT([&amp;#x27;label_detection&amp;#x27;] AS vision_features)\r\n);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d18850&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;# Annotate image\r\nSELECT *\r\nFROM ML.ANNOTATE_IMAGE(\r\n  MODEL `mydataset.myvisionmodel`,\r\n  TABLE `mydataset.mytable`,\r\n  STRUCT([&amp;#x27;label_detection&amp;#x27;] AS vision_features)\r\n);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2670&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Step 4. Create a UDF in BigQuery&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can create a Cloud function using &lt;/span&gt;&lt;a href="https://gist.github.com/hselbie/fde69b900c4c719656ab42cdfb897b88" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;this basic code&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
@@ -3205,16 +3205,16 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_safe_search`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_safe_search&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d18580&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_safe_search`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_safe_search&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2400&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_annotation`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_annotation&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d189d0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE FUNCTION `mydataset.vision_annotation`(signed_url_ STRING) RETURNS JSON\r\nREMOTE WITH CONNECTION `us.gcs-connection`\r\nOPTIONS(endpoint=&amp;#x27;https://region-myproject.cloudfunctions.net/vision_annotation&amp;#x27;,\r\nmax_batching_rows = 1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb27c0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Step 5. Use the function in a query &lt;/span&gt;&lt;/h3&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE TABLE `mydataset.mid_processing` AS\r\nSELECT uri,mydataset.vision_safe_search(signed_url) as safe_search, mydataset.vision_annotation(signed_url) as annotation\r\nFROM EXTERNAL_OBJECT_TRANSFORM(\r\nTABLE `mydataset.imageall`,\r\n[&amp;quot;SIGNED_URL&amp;quot;]);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d2d18520&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE TABLE `mydataset.mid_processing` AS\r\nSELECT uri,mydataset.vision_safe_search(signed_url) as safe_search, mydataset.vision_annotation(signed_url) as annotation\r\nFROM EXTERNAL_OBJECT_TRANSFORM(\r\nTABLE `mydataset.imageall`,\r\n[&amp;quot;SIGNED_URL&amp;quot;]);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28bb2640&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Tap into unstructured data with BigQuery object tables and AI&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This architecture demonstrates the power of streamlining data integration for centralized analyses through BigQuery. Although we reference image data for this example, this methodology is highly flexible; using object tables we can reference any type of unstructured data in Cloud Storage buckets that could also refer to audio files that might reference a call center AI use case, for example, or live image files relevant to training a computer vision model. &lt;/span&gt;&lt;/p&gt;
@@ -3630,30 +3630,30 @@
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;After you add a replica, it takes time for the initial copy operation to complete. You can still run queries referencing the primary replica while the data is being replicated, with no reduction in query-processing capacity.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;-- Create the primary replica in the primary region.\r\nCREATE SCHEMA my_dataset OPTIONS(location=&amp;#x27;us-west1&amp;#x27;);\r\n-- Create a replica in the secondary region.\r\nALTER SCHEMA my_dataset\r\nADD REPLICA `us-east1`\r\nOPTIONS(location=&amp;#x27;us-east1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d24e3730&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;-- Create the primary replica in the primary region.\r\nCREATE SCHEMA my_dataset OPTIONS(location=&amp;#x27;us-west1&amp;#x27;);\r\n-- Create a replica in the secondary region.\r\nALTER SCHEMA my_dataset\r\nADD REPLICA `us-east1`\r\nOPTIONS(location=&amp;#x27;us-east1&amp;#x27;);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae25be8970&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Configure a failover reservation + attach a dataset&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The first step is to create a failover reservation and specify its secondary location. Specifying a secondary location can also be done for existing Enterprise Plus reservations.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  OPTIONS (slot_capacity = 200, edition = ENTERPRISE_PLUS,\r\n    secondary_location=&amp;#x27;us-east1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d24e3460&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  OPTIONS (slot_capacity = 200, edition = ENTERPRISE_PLUS,\r\n    secondary_location=&amp;#x27;us-east1);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28e940d0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The next step is to associate one or more datasets with the failover reservation. The dataset needs to be replicated in the same primary / secondary region as specified in the reservation.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER SCHEMA `my_dataset`\r\n  SET OPTIONS (failover_reservation = \r\n    `project1.my_failover_reservation`);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d24e3b80&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER SCHEMA `my_dataset`\r\n  SET OPTIONS (failover_reservation = \r\n    `project1.my_failover_reservation`);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28e94550&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Promote the failover reservation + dataset in the secondary&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Fail over the reservation and associated datasets. This must be performed from the secondary region.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-east1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d24e32b0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-east1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28b97700&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Fail back to original primary&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Fail back the reservation and associated datasets (performed from the new secondary/old primary).&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;div class="block-code"&gt;&lt;dl&gt;
     &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3ef3d24e3490&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER RESERVATION `project1.region-us-west1.my_failover_reservation` \r\n  SET OPTIONS (is_primary = true);&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x3eae28eec880&amp;gt;)])]&amp;gt;&lt;/dd&gt;
 &lt;/dl&gt;&lt;/div&gt;
 &lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Getting started&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Business continuity is paramount for customers with mission-critical data environments. We are excited to make the preview of BigQuery’s managed disaster recovery feature available for your testing. You can learn more about  managed disaster recovery and how to get started in the BigQuery &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery/docs/managed-disaster-recovery"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;managed disaster recovery QuickStart&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</description><pubDate>Mon, 06 May 2024 16:00:00 +0000</pubDate><guid>https://cloud.google.com/blog/products/data-analytics/bigquery-gets-managed-disaster-recovery/</guid><category>Management Tools</category><category>Data Analytics</category><og xmlns:og="http://ogp.me/ns#"><type>article</type><title>Maintain business continuity across regions with BigQuery managed disaster recovery</title><description></description><site_name>Google</site_name><url>https://cloud.google.com/blog/products/data-analytics/bigquery-gets-managed-disaster-recovery/</url></og><author xmlns:author="http://www.w3.org/2005/Atom"><name>Larry Henderson</name><title>Product Manager</title><department></department><company></company></author><author xmlns:author="http://www.w3.org/2005/Atom"><name>Brian Welcker</name><title>Director, Product Management</title><department></department><company></company></author></item></channel></rss>

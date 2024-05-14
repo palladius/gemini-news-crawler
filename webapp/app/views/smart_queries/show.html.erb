@@ -1,0 +1,36 @@
+<div class="container mx-auto mt-10">
+
+    <h1 class="text-3xl mb-4 font-bold">
+        This is a Heading</h1>
+
+    <h1>Show Query</h1>
+
+    <p class="text-gray-700 mb-2">
+        Query is: <b><%= @query %></b>
+    </p>
+    <p class="text-gray-700 mb-2">
+        Query type is: <b><%= @query_type %></b>
+    </p>
+
+
+
+    <h2 class="text-3xl mb-4 font-bold" >Play with console and Langchainrb now!</h2>
+
+    <pre>
+        1. Calculate embedding of the query if not there already.
+        2. Search closest articles.
+        3. RAG them into Langchain.
+        4. Summarize. Add a prompt like:
+    </pre>
+
+    <h2>prompt in exemplo</h2>
+
+    <pre>
+    Answer this quesiton: <%= @query %> after reading the following articles which seem the most pertinent.
+    Pay attention to the recency of the articles, since the date of articles is provided and today's date is <%= Date.today %>
+
+    ----
+    Articles
+    </pre>
+
+</div>

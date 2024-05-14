@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Tue, 14 May 2024 04:50:08 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 14 May 2024 05:40:20 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,22 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.4</generator>
 			<item>
+				<link>https://www.aljazeera.com/news/2024/5/14/india-election-will-a-forty-five-degree-heat-wave-affect-who-voters-choose?traffic_source=rss</link>
+				<title>India election: Will a 45C heatwave affect who voters choose?</title>
+				<description><![CDATA[Candidates are fainting, voter turnout is lower, and research suggests extreme heat could influence who people choose. ]]></description>
+				<pubDate>Tue, 14 May 2024 05:40:20 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715655723</guid>
+							</item>
+					<item>
+				<link>https://www.aljazeera.com/sports/2024/5/14/nba-playoffs-celtics-take-3-1-lead-thunder-level-series-with-mavericks?traffic_source=rss</link>
+				<title>NBA playoffs: Celtics take 3-1 lead, Thunder level series with Mavericks</title>
+				<description><![CDATA[Celtics surged ahead of the Cavs with a 109-102 win as LeBron James watched on at his old stomping ground.]]></description>
+				<pubDate>Tue, 14 May 2024 05:25:36 +0000</pubDate>
+				<category>Sports</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715660816</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/news/2024/5/14/uss-blinken-arrives-in-kyiv-in-strong-signal-of-reassurance-for-ukraine?traffic_source=rss</link>
 				<title>US’s Blinken arrives in Kyiv in ‘strong signal of reassurance’ for Ukraine</title>
 				<description><![CDATA[US Secretary of State Antony Blinken arrives in Kyiv after travelling overnight by train from Poland.]]></description>
@@ -38,7 +54,7 @@
 							</item>
 					<item>
 				<link>https://www.aljazeera.com/news/2024/5/14/new-caledonia-security-forces-deployed-curfew-imposed-after-violence?traffic_source=rss</link>
-				<title>New Caledonia: Security forces deployed, curfew imposed after Noumea riot</title>
+				<title>New Caledonia: Security forces deployed, curfew imposed amid Noumea unrest</title>
 				<description><![CDATA[Buildings and cars torched after protest against constitutional amendments descended into unrest]]></description>
 				<pubDate>Tue, 14 May 2024 03:19:43 +0000</pubDate>
 				<category>News</category>
@@ -203,22 +219,6 @@
 				<pubDate>Mon, 13 May 2024 14:21:56 +0000</pubDate>
 				<category>Show Types</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715609301</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/5/13/extermination-expulsion-identifiable-strategies-of-israels-war-in-gaza?traffic_source=rss</link>
-				<title>Extermination, expulsion ‘identifiable strategies’ of Israel’s war in Gaza</title>
-				<description><![CDATA[A human rights group calls on the United Kingdom to stop arming Israel as its campaign in the strip continues.]]></description>
-				<pubDate>Mon, 13 May 2024 14:09:05 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715603631</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/program/newsfeed/2024/5/13/palestinian-girl-rescued-from-rubble-after-israeli-attack-in-gaza?traffic_source=rss</link>
-				<title>Palestinian girl rescued from rubble after Israeli attack in Gaza</title>
-				<description><![CDATA[Video shows the rescue of Palestinian girl who’d been trapped under rubble after an Israeli attack in Gaza.]]></description>
-				<pubDate>Mon, 13 May 2024 13:57:01 +0000</pubDate>
-				<category>Show Types</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715605893</guid>
 							</item>
 			</channel>
 </rss>

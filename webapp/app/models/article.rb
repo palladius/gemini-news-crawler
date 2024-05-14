@@ -21,7 +21,8 @@ class Article < ApplicationRecord
 #  scope :recent_enough, lambda { WHERE('DATE(created_at) = ?', Date.today)}
   scope :within_date, lambda {|date| {:conditions => ['created_at >= ? AND created_at <= ?', date.beginning_of_day, date.end_of_day]}}
   scope :recent_enough_by_date, lambda {|date| {:conditions => ['created_at >= ?', date.beginning_of_day]}}
-  scope :recent_enough, lambda { {:conditions => ['created_at >= ?', Date.yesterday.beginning_of_day]}}
+  #scope :recent_enough, lambda { {:conditions => ['created_at >= ?', Date.yesterday.beginning_of_day]}}
+  scope :recent_enough, -> { where("created_at > ?", Date.yesterday.beginning_of_day) }
 
 
 

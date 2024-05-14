@@ -8,6 +8,7 @@
     <copyright>Copyright 2024 - GEDI Gruppo Editoriale S.p.A.</copyright>
     <ttl>30</ttl>
     <category domain="https://www.repubblica.it">/repubblica/esteri</category>
+    <category domain="https://www.repubblica.it">/repubblica/cronaca</category>
     <category domain="https://genova.repubblica.it">/rep-genova/cronaca</category>
     <category domain="https://www.repubblica.it">/repubblica/politica</category>
     <category domain="https://www.repubblica.it">/repubblica/cultura</category>
@@ -15,8 +16,18 @@
     <category domain="https://torino.repubblica.it">/rep-torino/cronaca</category>
     <category domain="https://www.repubblica.it">/repubblica/economia</category>
     <category domain="https://bari.repubblica.it">/rep-bari/cronaca</category>
-    <pubDate>Tue, 14 May 2024 07:02:34 +0200</pubDate>
-    <lastBuildDate>Tue, 14 May 2024 07:02:34 +0200</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 07:32:17 +0200</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 07:32:17 +0200</lastBuildDate>
+    <item>
+      <title>'Ndrangheta: maxi blitz in corso a Cosenza, 142 indagati</title>
+      <link>https://www.repubblica.it/cronaca/2024/05/14/news/cosenza_ndrangheta_maxi_blitz-422950748/</link>
+      <description><![CDATA[Tra i reati contestati: associazione a delinquere finalizzata al traffico di sostanze stupefacenti]]></description>
+      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
+      <category domain="/repubblica/cronaca">Cronaca</category>
+      <pubDate>Tue, 14 May 2024 05:28:17 +0000</pubDate>
+      <guid isPermaLink="false">rep-locali:repubblica:422950748</guid>
+      <dcterms:modified>2024-05-14T05:28:17Z</dcterms:modified>
+    </item>
     <item>
       <title>Guerra Ucraina - Russia, le news di oggi. Blinken in Ucraina. Mosca bombarda la regione di Kharkiv. Russia, deraglia treno merci, intervento “persone esterne”</title>
       <link>https://www.repubblica.it/esteri/2024/05/14/diretta/guerra_ucraina_-_russia_le_news_di_oggi-422943555/</link>
@@ -322,16 +333,6 @@ di Forza Italia: “Diamo un segnale ai mercati”]]></description>
       <pubDate>Mon, 13 May 2024 15:15:34 +0000</pubDate>
       <guid isPermaLink="false">rep-locali:repubblica:422942811</guid>
       <dcterms:modified>2024-05-13T15:15:34Z</dcterms:modified>
-    </item>
-    <item>
-      <title>Alessia Pifferi condannata all’ergastolo per la morte della figlia Diana: la decisione dei giudici arriva dopo meno di tre ore</title>
-      <link>https://milano.repubblica.it/cronaca/2024/05/13/news/sentenza_alessia_pifferi_condanna_figlia_diana-422941899/</link>
-      <description><![CDATA[La Corte d’Assise ha deciso dopo una breve camera di consiglio. La difesa della 38enne aveva chiesto l’assoluzione]]></description>
-      <author>repubblicawww@repubblica.it (Redazione Repubblica.it)</author>
-      <category domain="/rep-milano/cronaca">Cronaca</category>
-      <pubDate>Mon, 13 May 2024 13:22:24 +0000</pubDate>
-      <guid isPermaLink="false">rep-locali:rep-milano:422941899</guid>
-      <dcterms:modified>2024-05-13T13:22:24Z</dcterms:modified>
     </item>
   </channel>
 </rss>
