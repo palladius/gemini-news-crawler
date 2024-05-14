@@ -9,3 +9,6 @@
 
   <span>Env: <b><%= Rails.env %></b></span>
 </footer>
+
+<!--  to harden it: https://github.com/rails/web-console -->
+<%= console if (Rails.env == 'development') %>

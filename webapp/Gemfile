@@ -23,7 +23,6 @@ gem 'delayed_job_active_record'
 gem 'gemini-ai' # For Gemini
 gem 'langchainrb', '~> 0.12.1'
 gem 'google-apis-aiplatform_v1' # For Gemini
-
 # /Riccardo end
 ################################
 
