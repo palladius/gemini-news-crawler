@@ -30,6 +30,12 @@ Rails.application.configure do
   # Skip DNS rebinding protection for the default health check endpoint.
   #config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
   #config.host_authorization = { exclude: ->(request) { request.path == "/statusz" } }
+
+  # Disable AR logging for super long thingy: https://stackoverflow.com/questions/13051949/how-to-disable-activerecord-logging-for-a-certain-column
+  config.filter_parameters << :title_embedding
+  config.filter_parameters << :article_embedding
+  config.filter_parameters << :summary_embedding
+
 end
 
 

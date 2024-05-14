@@ -7,8 +7,8 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 04:26:13 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 04:17:16 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 04:56:22 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 04:44:42 +0000</pubDate>
     <image>
       <title>NYT &gt; World News</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
@@ -268,6 +268,18 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/12/multimedia/12catalonia-election-new-top-mzqt/12catalonia-election-new-top-mzqt-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>Lluis Gene/Agence France-Presse — Getty Images</media:credit>
       <media:description>The Socialist leader in Catalonia, Salvador Illa, center, celebrating in Barcelona.</media:description>
+    </item>
+    <item>
+      <title>Tuesday Briefing</title>
+      <link>https://www.nytimes.com/2024/05/14/briefing/michael-cohen-israel-memorial-day.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/briefing/michael-cohen-israel-memorial-day.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/briefing/michael-cohen-israel-memorial-day.html" rel="standout"></atom:link>
+      <description>Michael Cohen’s testimony.</description>
+      <dc:creator>Natasha Frost</dc:creator>
+      <pubDate>Tue, 14 May 2024 04:44:42 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14ambriefing-europe-nl-cohen-mzpk/14ambriefing-europe-nl-cohen-mzpk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mike Segar/Reuters</media:credit>
+      <media:description>Michael Cohen spoke about doing Donald Trump’s dirty work for a decade.</media:description>
     </item>
     <item>
       <title>How One Crack in the Line Opened a Path for the Russians</title>
@@ -1099,26 +1111,6 @@
       <media:content height="1802" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10mideast-crisis-egypt-aid-lpbk/10mideast-crisis-egypt-aid-lpbk-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>EPA, via Shutterstock</media:credit>
       <media:description>Trucks loaded with aid for Gaza are lined up in El Arish, Egypt, on Tuesday.</media:description>
-    </item>
-    <item>
-      <title>A Global Lesson from Britain’s Crumbling Conservative Party</title>
-      <link>https://www.nytimes.com/2024/05/10/world/europe/britain-uk-conservative-party.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/10/world/europe/britain-uk-conservative-party.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/10/world/europe/britain-uk-conservative-party.html" rel="standout"></atom:link>
-      <description>Sometimes, even as the far right rises, the center holds.</description>
-      <dc:creator>Amanda Taub</dc:creator>
-      <pubDate>Fri, 10 May 2024 17:03:54 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Great Britain Withdrawal from EU (Brexit)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voting and Voters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Conservative Party (Great Britain)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labour Party (Great Britain)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">England</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
-      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2024/05/10/multimedia/10InterpreterNL-UKPolitics-mqzw/10InterpreterNL-UKPolitics-mqzw-mediumSquareAt3X.jpg" width="1800"></media:content>
-      <media:credit>Darren Staples/Agence France-Presse — Getty Images</media:credit>
-      <media:description>Keir Starmer, Leader of the Labour Party, right, and Mayor Claire Ward of the East Midlands, celebrating at a post election rally in Mansfield, England, on Sunday.</media:description>
     </item>
   </channel>
 </rss>

@@ -14,6 +14,16 @@ class Article < ApplicationRecord
   #attribute :title_embedding, :vector, limit: 768
   #     add_column :articles, :title_embedding, :vector, limit: 768 # dimensions
 
+  # https://stackoverflow.com/questions/5947214/howto-model-scope-for-todays-records
+  # Only recent articles
+  #scope :recent_enough, -> { where("? BETWEEN startDate AND endDate", Time.now.to_date)}
+  #created_at
+#  scope :recent_enough, lambda { WHERE('DATE(created_at) = ?', Date.today)}
+  scope :within_date, lambda {|date| {:conditions => ['created_at >= ? AND created_at <= ?', date.beginning_of_day, date.end_of_day]}}
+  scope :recent_enough_by_date, lambda {|date| {:conditions => ['created_at >= ?', date.beginning_of_day]}}
+  scope :recent_enough, lambda { {:conditions => ['created_at >= ?', Date.yesterday.beginning_of_day]}}
+
+
 
   has_many :article_tags,
     primary_key: :id,

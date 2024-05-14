@@ -9,7 +9,7 @@
 
 <channel>
 	<title>POLITICO</title>
-	<atom:link href="https://www.politico.eu/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.politico.eu/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.politico.eu</link>
 	<description>European Politics, Policy, Government News</description>
 	<lastBuildDate>Tue, 14 May 2024 03:52:27 +0000</lastBuildDate>

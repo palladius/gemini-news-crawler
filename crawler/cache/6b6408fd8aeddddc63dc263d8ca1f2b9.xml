@@ -7,13 +7,25 @@
     <description></description>
     <language>en-us</language>
     <copyright>Copyright 2024 The New York Times Company</copyright>
-    <lastBuildDate>Tue, 14 May 2024 04:24:29 +0000</lastBuildDate>
-    <pubDate>Tue, 14 May 2024 04:07:58 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 04:55:35 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 04:44:42 +0000</pubDate>
     <image>
       <title>NYT &gt; World &gt; Europe</title>
       <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
       <link>https://www.nytimes.com/section/world/europe</link>
     </image>
+    <item>
+      <title>Tuesday Briefing</title>
+      <link>https://www.nytimes.com/2024/05/14/briefing/michael-cohen-israel-memorial-day.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2024/05/14/briefing/michael-cohen-israel-memorial-day.html</guid>
+      <atom:link href="https://www.nytimes.com/2024/05/14/briefing/michael-cohen-israel-memorial-day.html" rel="standout"></atom:link>
+      <description>Michael Cohen’s testimony.</description>
+      <dc:creator>Natasha Frost</dc:creator>
+      <pubDate>Tue, 14 May 2024 04:44:42 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/14/multimedia/14ambriefing-europe-nl-cohen-mzpk/14ambriefing-europe-nl-cohen-mzpk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Mike Segar/Reuters</media:credit>
+      <media:description>Michael Cohen spoke about doing Donald Trump’s dirty work for a decade.</media:description>
+    </item>
     <item>
       <title>How One Crack in the Line Opened a Path for the Russians</title>
       <link>https://www.nytimes.com/2024/05/14/world/europe/ukraine-russia-war-battlefield.html</link>
@@ -367,28 +379,6 @@
       <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2024/05/11/multimedia/11solarstorm-nasa-ktlb/11solarstorm-nasa-ktlb-mediumSquareAt3X.jpg" width="1800"></media:content>
       <media:credit>NASA/Solar Dynamics Observatory</media:credit>
       <media:description>A NASA satellite recorded the sun releasing a powerful solar flare on Friday night. Elevated solar activity this week has contributed to powerful geomagnetic storms in Earth’s atmosphere.</media:description>
-    </item>
-    <item>
-      <title>Eberhard Kornfeld, Art Dealer, Collector and Historian, Is Dead at 99</title>
-      <link>https://www.nytimes.com/2024/05/11/arts/eberhard-kornfeld-dead.html</link>
-      <guid isPermaLink="true">https://www.nytimes.com/2024/05/11/arts/eberhard-kornfeld-dead.html</guid>
-      <atom:link href="https://www.nytimes.com/2024/05/11/arts/eberhard-kornfeld-dead.html" rel="standout"></atom:link>
-      <description>Ensconced in a 15th-century Swiss manor house, he became an expert on the old masters and later tangled with heirs of a collector killed by the Nazis.</description>
-      <dc:creator>Jonathan Kandell</dc:creator>
-      <pubDate>Sat, 11 May 2024 17:40:55 +0000</pubDate>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kornfeld, Eberhard W</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Auctions</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Collectors and Collections</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arts and Antiquities Looting</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
-      <category domain="">Old masters</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Grunbaum, Fritz (1880-1941)</category>
-      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schiele, Egon</category>
-      <media:content height="1462" medium="image" url="https://static01.nyt.com/images/2024/05/13/multimedia/10Kornfeld--03-pvlk/10Kornfeld--03-pvlk-mediumSquareAt3X.jpg" width="1464"></media:content>
-      <media:credit>Priv&amp;eacute;/RDB &amp;mdash; ullstein bild, via Getty Images</media:credit>
-      <media:description>Eberhard Kornfeld in his Galerie Kornfeld in 1993. A Vienna museum official called him “a seminal and unique figure in the art world.”</media:description>
     </item>
   </channel>
 </rss>

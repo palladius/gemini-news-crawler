@@ -11,7 +11,7 @@
 		<webMaster>apps.support@aljazeera.net (Apps Support)</webMaster>
 		<description>Breaking News, World News and Video from Al Jazeera</description>
 		<copyright>© 2024 Al Jazeera Media Network</copyright>
-		<lastBuildDate>Tue, 14 May 2024 04:01:06 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 14 May 2024 04:46:47 +0000</lastBuildDate>
 		<language>en</language>
 		<image>
 			<url>https://www.aljazeera.com/images/logo_aje.png</url>
@@ -21,6 +21,14 @@
 		</image>
 		<generator>https://wordpress.org/?v=6.3.4</generator>
 			<item>
+				<link>https://www.aljazeera.com/news/2024/5/14/uss-blinken-arrives-in-kyiv-in-strong-signal-of-reassurance-for-ukraine?traffic_source=rss</link>
+				<title>US’s Blinken arrives in Kyiv in ‘strong signal of reassurance’ for Ukraine</title>
+				<description><![CDATA[US Secretary of State Antony Blinken arrives in Kyiv after travelling overnight by train from Poland.]]></description>
+				<pubDate>Tue, 14 May 2024 04:46:47 +0000</pubDate>
+				<category>News</category>
+				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715657074</guid>
+							</item>
+					<item>
 				<link>https://www.aljazeera.com/news/2024/5/14/australian-war-crimes-whistleblower-david-mcbride-jailed-for-six-years?traffic_source=rss</link>
 				<title>Australian war crimes whistleblower David McBride jailed for six years</title>
 				<description><![CDATA[Eight years after Australia began investigating war crimes in Afghanistan, a whistleblower is the first to be punished.]]></description>
@@ -211,14 +219,6 @@
 				<pubDate>Mon, 13 May 2024 13:57:01 +0000</pubDate>
 				<category>Show Types</category>
 				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715605893</guid>
-							</item>
-					<item>
-				<link>https://www.aljazeera.com/news/2024/5/13/african-countries-call-for-sanctions-as-un-nears-treaty-on?traffic_source=rss</link>
-				<title>African countries call for sanctions as UN nears treaty on ‘biopiracy’</title>
-				<description><![CDATA[The UN has been working for decades on a treaty to prevent the exploitation of genetic resources. ]]></description>
-				<pubDate>Mon, 13 May 2024 13:42:28 +0000</pubDate>
-				<category>News</category>
-				<guid isPermaLink="false">https://www.aljazeera.com/?t=1715600659</guid>
 							</item>
 			</channel>
 </rss>
