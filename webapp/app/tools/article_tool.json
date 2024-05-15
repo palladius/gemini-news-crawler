@@ -33,7 +33,7 @@
           },
           "language": {
             "type": "string",
-            "description": "Article language"
+            "description": "Article language (2 letters)"
           }
         },
         "required": ["title", "summary", "content", "author", "link", "published_date", "language"]
