@@ -25,7 +25,7 @@ assistant = Langchain::Assistant.new(
   tools: [news_retriever, article_tool]
 )
 
-x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
+@x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
 
 #include MonkeyPatching::LangchainMessagesPatche
 #  class Langchain::Messages::GoogleGeminiMessage
@@ -55,20 +55,29 @@ x = assistant.add_message_and_run content: "What are the latest news from Google
     <caption class="text-center text-xl font-semibold bg-gray-200 p-2">AAA<%#= title %></caption>
     <thead>
       <tr>
-        <th class="border border-slate-300 p-2">🔑 Key</th>
-        <th class="border border-slate-300 p-2">Value</th>
+        <th class="border border-slate-300 p-2">🔑 Role</th>
+        <th class="border border-slate-300 p-2">Content</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 p-2 bg-green-100"><tt>🔑</tt></td>
-        <td class="border border-slate-300 p-2 bg-green-100">1. Small Values</td>
+        <td class="border border-slate-300 p-2 bg-green-100"><tt>Role</tt></td>
+        <td class="border border-slate-300 p-2 bg-green-100">Conversation</td>
       </tr>
       <% assistant.thread.messages.each_with_index do |msg,ix| %>
         <tr class="hover:bg-blue-50">
           <td class="border border-slate-300 p-2">
-                <tt><%= ix %></tt>
+            <tt><%#= ix %>
+                <%= render_assistant_role(msg.role) rescue 'role_err' %>
                 <%= msg.role rescue 'role_err' %>
+            </tt>
+          </td>
+          <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+            cls=<%= msg.class %>
+            <pre><%= render_assistant_message(msg) rescue "render_assistant_message ERR: #{$!}" %></pre>
+          </td>
+          <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+            <pre><%= msg.content.force_encoding("UTF-8") rescue "content_err: #{$!}" %></pre>
           </td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
             <pre><%= msg.inspect rescue 'inspect_err' %></pre>
@@ -77,9 +86,32 @@ x = assistant.add_message_and_run content: "What are the latest news from Google
       <% end %>
     </tbody>
   </table>
+
+<h2>Computer's last message🛬 </h2>
+
+<div  class="w-full table-auto border-collapse border border-slate-400">
+
+    <div class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+        <%= assistant.thread.messages.last.content.force_encoding("UTF-8") %>
+    </div>
+    <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+        <%= assistant.thread.messages.last.content.force_encoding("UTF-8") %>
+    </p>
+    <pre class="border border-slate-300 p-2 prose max-w-none text-sm break-words whitespace-pre-wrap">
+        <%= assistant.thread.messages.last.content.force_encoding("UTF-8") %>
+    </pre>
+</div>
+
+<hr/>
+
 <% assistant.thread.messages.each do |message| %>
     <%#= render_assistant_message(message) %>
 <% end  %>
 
-<h2>OLD WAY </h2>
-<%= assistant.thread.messages %>
+
+<p class="border border-violet-700 p-2 prose max-w-none text-sm break-words text-gray-100">
+    Gemini text
+</p>
+<p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+    Person text
+</p>
