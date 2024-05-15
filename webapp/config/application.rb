@@ -23,5 +23,15 @@ module Webapp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # My stuff
+    #config.autoload_paths << Rails.root.join('lib')
+    #config.eager_load_paths << Rails.root.join('lib')
+    #config.autoload_lib(ignore: %w[tasks assets])
+
+    Dir[Rails.root + 'lib/monkey_patching/*.rb'].each {|file| require file }
+
+
+
   end
 end

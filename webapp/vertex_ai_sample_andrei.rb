@@ -9,26 +9,25 @@ require 'googleauth'
 require_relative 'app/tools/article_tool.rb'
 # bundle exec gem install ruby-openai
 
-class Langchain::Messages::GoogleGeminiMessage
-  def to_s
-    self.tool_calls.any? ?
-      " 🛠️ [#{role}] #{self.tool_calls[0]['functionCall'].to_s.force_encoding("UTF-8") rescue $!}" :
-      " 💬 [#{role}] #{self.content.force_encoding("UTF-8")}"
-    #self.inspect # :status, :code, :messafe, ...
-  end
-end
+# It's in lib/monkey_patching/ now :)
+
+# class Langchain::Messages::GoogleGeminiMessage
+#   def to_s
+#      ...
+#   end
+# end
 
 
-use_openai_instead = !! ENV.fetch('USE_OPENAI_INSTEAD', nil)
+# use_openai_instead = !! ENV.fetch('USE_OPENAI_INSTEAD', nil)
 
 
-puts("[DEB] Using #{use_openai_instead ? 'OpenAI' : 'Google' }")
+# puts("[DEB] Using #{use_openai_instead ? 'OpenAI' : 'Google' }")
 
 raise "Missing GOOGLE_VERTEX_AI_PROJECT_ID" unless ENV.fetch("GOOGLE_VERTEX_AI_PROJECT_ID", nil) # unless use_openai_instead
 raise "Missing NEWS_API_KEY" unless ENV.fetch("NEWS_API_KEY", nil)
-if use_openai_instead
-  raise "Missing OPENAI_API_KEY" unless ENV.fetch("OPENAI_API_KEY", nil)
-end
+#if use_openai_instead
+#  raise "Missing OPENAI_API_KEY" unless ENV.fetch("OPENAI_API_KEY", nil)
+#end
 
 
 # Instantiate the LLM
@@ -53,13 +52,13 @@ assistant = Langchain::Assistant.new(
 x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
 puts(x)
 # Inspect the messages
-# puts assistant.thread.messages
+puts assistant.thread.messages
 
 # last message
 puts assistant.thread.messages.last.content
 
-assistant.add_message_and_run auto_tool_execution: true, content:"Please show me the titles of the articles in a numbered bullet-point list"
-puts assistant.thread.messages.last.content
+assistant.add_message_and_run auto_tool_execution: true, content: "Please show me the titles of the articles in a numbered bullet-point list"
+puts assistant.thread.messages # .last.content
 
 if false
   # are you sure?

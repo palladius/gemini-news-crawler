@@ -84,8 +84,11 @@ build: docker-build
 docker-build:
 	sudo docker build -t geminews:v$(DOCKER_VERSION) .
 docker-run:
-	./entrypoint-8080.sh
-#	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
+#	./entrypoint-8080.sh
+	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
+docker-run-bash:
+#	./entrypoint-8080.sh
+	sudo docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION) bash
 
 # Latyest Magic script
 push-latest-to-dev-manhouse:
