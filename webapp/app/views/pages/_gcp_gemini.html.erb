@@ -19,6 +19,8 @@
         'bundle info langchainrb</b> (you can fix with <b>bundle config --delete local.lanchainrb</b>': `bundle info langchainrb`,
         'bundle info googleauth': `bundle info googleauth`,
     }
+    @title = 'Gemini and Langchain interesting stuff (simply @title - WORSE)' # if i forget it i can get the one from previous invokation -> BAD!
+
 %>
 
 <h1 class="font-bold text-4xl">♊ Gemini and Langchain info</h1>
@@ -26,9 +28,9 @@
 <div class="gemini-stuff" >
 
     <%= render 'pages/gcp_smart_keyvalue_table', :locals => {
-        'interesting_data_short' => @interesting_data_short,
-        'interesting_data_long' => @interesting_data_long,
-        'title': 'Gemini and Langchain interesting stuff',
+       # 'interesting_data_short' => @interesting_data_short,
+       # 'interesting_data_long' => @interesting_data_long,
+       'title': '♊ Gemini and Langchain interesting stuff (by partial arg - better)',
      } %>
 
 </div>

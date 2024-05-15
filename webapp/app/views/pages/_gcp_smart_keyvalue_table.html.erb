@@ -1,8 +1,8 @@
 <%
-  @title ||= 'My Awesome Key-Value Data (changeme)'
+  title ||= @title # 'My Awesome Key-Value Data (changeme)'
 %>
 <table class="w-full table-auto border-collapse border border-slate-400">
-    <caption class="text-center text-xl font-semibold bg-gray-200 p-2"><%= @title %></caption>
+    <caption class="text-center text-xl font-semibold bg-gray-200 p-2"><%= title %></caption>
     <thead>
       <tr>
         <th class="border border-slate-300 p-2">🔑 Key</th>
@@ -28,7 +28,7 @@
         <tr class="hover:bg-blue-50">
           <td class="border border-slate-300 p-2"><tt><%= k %></tt></td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-            <%= v %>
+            <pre><%= v %></pre>
           </td>
         </tr>
       <% end %>
