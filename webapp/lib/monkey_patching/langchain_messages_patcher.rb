@@ -1,6 +1,6 @@
 puts("💬💬💬 REMOVEME this file is imported into rails 💬💬💬")
 
-module  MonkeyPatching::LangchainMessagesPatcher
+module MonkeyPatching::LangchainMessagesPatcher
   class Langchain::Messages::GoogleGeminiMessage
     def to_s
       # 💬

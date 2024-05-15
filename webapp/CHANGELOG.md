@@ -1,3 +1,6 @@
+
+2024-05-15 v0.3.14 [DEV] Cleand up UX in Assistant page.
+2024-05-15 v0.3.13 [DEV] 🍏 Making it work on Mac without changing Andrei's library.
 2024-05-15 v0.3.12 [DEV] Super fast UI! removed latest article..
 2024-05-15 v0.3.11 [DEV] adding demo for UI
 2024-05-15 v0.3.10 [DEV] bugfix - remove console from dev.rb

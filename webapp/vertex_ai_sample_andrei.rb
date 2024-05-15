@@ -2,12 +2,18 @@
 
 # From: https://github.com/palladius/gemini-news-crawler/pull/1
 # Invoke: bundle exec ruby vertex_ai_sample_andrei.rb
+# Invoke:
+#            cat  vertex_ai_sample_andrei.rb | rails c
+#
 
-require 'langchainrb'
-require 'googleauth'
-#require 'langchainrb'
-require_relative 'app/tools/article_tool.rb'
-require_relative 'webapp/lib/monkey_patching/langchain_messages_patcher.rb'
+# require 'langchainrb'
+# require 'googleauth'
+# #require 'langchainrb'
+# require_relative 'app/tools/article_tool.rb'
+# require_relative 'lib/monkey_patching/langchain_messages_patcher'
+include MonkeyPatching::LangchainMessagesPatcher
+
+# puts MonkeyPatching # ::LangchainMessagesPatcher::Langchain::Messages::GoogleGeminiMessage
 
 # It's in lib/monkey_patching/ now :)
 
@@ -32,7 +38,13 @@ raise "Missing NEWS_API_KEY" unless ENV.fetch("NEWS_API_KEY", nil)
 
 
 # Instantiate the LLM
-llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
+llm = Langchain::LLM::GoogleVertexAI.new(
+    project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
+    region: "us-central1",
+    default_options: {
+      chat_completion_model_name: "gemini-1.5-pro-latest",
+    }
+)
 # llm = Langchain::LLM::OpenAI.new(api_key: ENV["OPENAI_API_KEY"])
 
 ## Create a new Thread to keep track of the messages

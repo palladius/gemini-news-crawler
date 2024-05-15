@@ -27,11 +27,12 @@ gem 'gemini-ai' # For Gemini
 #gem 'langchainrb', '~> 0.12.1'
 gem 'langchainrb', '~> 0.13.1'
 gem "googleauth"
+#  git clone  https://github.com/andreibondarev/langchainrb.git ~/git/langchainrb-latest
 #gem "langchainrb", path: '../../langchainrb-pr513-v1/'
 #gem 'google-apis-aiplatform_v1' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'faraday' # for Ollama
-gem 'ruby-openai' # for OpenAI
+#gem 'ruby-openai' # for OpenAI
 # /Riccardo end
 ################################
 

@@ -10,33 +10,38 @@ module AssistantHelper
 # end
 
   def content_tag_with_color(role, msg, role_color = "violet-700", msg_color = "cyan-500")
+    content = msg.content rescue msg.inspect
     content_tag(:div, class: "flex items-center") do
-      content_tag(:span, render_assistant_role(role), class: "text-#{role_color} mr-2") +
-      content_tag(:span, msg.content.force_encoding("UTF-8").strip, class: "text-#{msg_color}")
-    end
+      content_tag(:span, render_assistant_role(role), class: "text-#{role_color} mr-2").html_safe +
+      content_tag(:span, content.force_encoding("UTF-8").strip, class: "text-#{msg_color}").html_safe
+    end.html_safe
   end
+
+  # render_assistant_message ERR: undefined method `content' for "<span class=\"text-red-500\">article_tool__create</span> => [\"Title has already been taken\", \"Guid has already been taken\"]":String
 
   def content_tag_for_role(role, msg)
     role_emoji = render_assistant_role(role)
     case role.downcase
-    when 'model'
-      msg_color = 'cyan-500'
-    when 'user'
-      msg_color = 'yellow-300' # Adjusted for better visibility on white background
-    when 'function'
-      msg_color = 'green-500'
-      tool_call_id = content_tag(:span, msg.tool_call_id.force_encoding("UTF-8"), class: "text-red-500")
-      content = "#{tool_call_id} => #{msg.content.force_encoding("UTF-8")}"
-    else
-      msg_color = 'gray-500'
+      when 'model'
+        msg_color = 'cyan-500'
+        #custom_content = msg.content
+      when 'user'
+        msg_color = 'yellow-300' # Adjusted for better visibility on white background
+        #custom_content = msg.content
+      when 'function'
+        msg_color = 'green-500'
+        tool_call_id = content_tag(:span, msg.tool_call_id.force_encoding("UTF-8"), class: "text-red-500")
+        tool_msg_content = msg.content.force_encoding("UTF-8") rescue msg.inspect
+        custom_content = "#{tool_call_id} ==> #{ tool_msg_content }"
+      else
+        msg_color = 'gray-500'
     end
-
-    content_tag_with_color(role, content || msg, nil, msg_color) # Pass nil for role_color
+    content_tag_with_color(role, custom_content || msg, nil, msg_color).html_safe # Pass nil for role_color
   end
 
   def render_assistant_message(msg)
     # msg is a Langchain::Messages::GoogleGeminiMessage
-    raise "render_assistant_message(msg): wrong class" unless msg.is_a?(Langchain::Messages::GoogleGeminiMessage)
+    raise "render_assistant_message(msg): wrong class (should be a Langchain::Messages::GoogleGeminiMessage and is instead a #{msg.class})" unless msg.is_a?(Langchain::Messages::GoogleGeminiMessage)
     #  class Langchain::Messages::GoogleGeminiMessage
     role = msg.role
 
@@ -49,17 +54,17 @@ module AssistantHelper
     end
 
     # vediamo come fa gemini..
-    return content_tag_for_role(role, msg)
+    return content_tag_for_role(role, msg).html_safe
 
-    # model
-    return content_tag("🤖 [#{role}] 💬 #{msg.content.force_encoding("UTF-8").strip.colorize :cyan}") if role == 'model'
+    # # 🤖 model
+    # return content_tag("💬 #{msg.content.force_encoding("UTF-8").strip.colorize :cyan}") if role == 'model'
 
-    # user
-    return "🧑 [#{role}] 💬 #{msg.content.force_encoding("UTF-8").colorize :yellow}" if role == 'user'
-    # function
-    return "🤖 [#{role}] 🛠️  #{msg.tool_call_id.force_encoding("UTF-8").colorize :red} => #{msg.content.force_encoding("UTF-8").colorize :green}" if role == 'function'
-    # if everything else fails...
-    msg.inspect # :status, :code, :messafe, ...
+    # # user
+    # return "🧑 [#{role}] 💬 #{msg.content.force_encoding("UTF-8").colorize :yellow}" if role == 'user'
+    # # function
+    # return "🤖 [#{role}] 🛠️  #{msg.tool_call_id.force_encoding("UTF-8").colorize :red} => #{msg.content.force_encoding("UTF-8").colorize :green}" if role == 'function'
+    # # if everything else fails...
+    # msg.inspect # :status, :code, :messafe, ...
   end
 #    msg.inspect
 #  end

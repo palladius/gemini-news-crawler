@@ -16,10 +16,11 @@ install:
 fix-derek:
 	rm app/builds/application.js app/builds/application.css
 
-dev: run
+dev:
+	echo 'OBSOLETE. Instead use:     make run-dev'
 
 # ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean
-run:
+run-dev:
 # rails assets:precompile
 	bundle exec rails assets:precompile
 	bundle exec rails s

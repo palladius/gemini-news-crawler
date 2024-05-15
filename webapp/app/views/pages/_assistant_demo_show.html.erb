@@ -1,4 +1,4 @@
-<p class="text-base leading-relaxed">Your paragraph text goes here.</p>
+<h2 class="text-2xl font-semibold mb-2">🔎 @query: '<%= @query %>'</h2>
 
 <p class="text-base leading-relaxed">Back to <%= link_to "Assistant demo home", '/pages/assistant' %> .</p>
 
@@ -6,8 +6,14 @@
 
 # todo optimize...
 
-llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
-# llm = Langchain::LLM::OpenAI.new(api_key: ENV["OPENAI_API_KEY"])
+#llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
+llm = Langchain::LLM::GoogleVertexAI.new(
+    project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
+    region: "us-central1",
+    default_options: {
+      chat_completion_model_name: "gemini-1.5-pro-latest",
+    }
+)
 
 ## Create a new Thread to keep track of the messages
 thread = Langchain::Thread.new
@@ -25,30 +31,11 @@ assistant = Langchain::Assistant.new(
   tools: [news_retriever, article_tool]
 )
 
-@x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
-
-#include MonkeyPatching::LangchainMessagesPatche
-#  class Langchain::Messages::GoogleGeminiMessage
-#    def to_html
-      # 💬
-      # fun call
-    #  if self.tool_calls.any?
-    #    return self.tool_calls.enum_for(:each_with_index).map {|tool_call,ix|
-    #      return "🤖 [#{role}] 🛠️ [#{ix+1}/#{self.tool_calls.count}] 🛠️  #{tool_call['functionCall'].to_s.force_encoding("UTF-8").colorize(:gray) rescue $!}"
-          # + "DEB #{tool_call.to_s.colorize(:blue)}"
-    #  }.join("ZZZ\nAAA") # test, should just be "\n"
-        #return "🤖 [#{role}] 🛠️ #{self.tool_calls[0]['functionCall'].to_s.force_encoding("UTF-8").colorize(:gray) rescue $!}" if self.tool_calls.any?
-    #end
-      # model
-    #  return "🤖 [#{role}] 💬 #{self.content.force_encoding("UTF-8").strip.colorize :cyan}" if role == 'model'
-      # user
-    #  return "🧑 [#{role}] 💬 #{self.content.force_encoding("UTF-8").colorize :yellow}" if role == 'user'
-      # function
-    #  return "🤖 [#{role}] 🛠️  #{self.tool_call_id.force_encoding("UTF-8").colorize :red} => #{self.content.force_encoding("UTF-8").colorize :green}" if role == 'function'
-      # if everything else fails...
-    #  self.inspect # :status, :code, :messafe, ...
-    #end
-  #end
+#@x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
+@x = assistant.add_message_and_run( content: @query, auto_tool_execution: true)
+@answer1_position = @x.size # So I can print THIS response
+@y = assistant.add_message_and_run(content: "Cool! Please save the first retrieved article to the DB", auto_tool_execution: true) rescue []
+@answer2_position = @y.size # So I can print THIS response
 
 %>
 <table class="w-full table-auto border-collapse border border-slate-400">
@@ -73,7 +60,6 @@ assistant = Langchain::Assistant.new(
             </tt>
           </td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-            cls=<%= msg.class %>
             <pre><%= render_assistant_message(msg) rescue "render_assistant_message ERR: #{$!}" %></pre>
           </td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
@@ -92,26 +78,29 @@ assistant = Langchain::Assistant.new(
 <div  class="w-full table-auto border-collapse border border-slate-400">
 
     <div class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-        <%= assistant.thread.messages.last.content.force_encoding("UTF-8") %>
+      <b>Answer to Q1: article search</b><br/>
+        <%= render_assistant_message assistant.thread.messages[@answer1_position+1] rescue "Err123 #{$!}" %>
     </div>
     <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-        <%= assistant.thread.messages.last.content.force_encoding("UTF-8") %>
+      <b>Answer to Q2: add article to ActiveRecord</b><br/>
+      <% if @answer2_position > 0 %>
+        <%= render_assistant_message assistant.thread.messages[@answer2_position+1] rescue "Err124 #{$!}" %>
+        <%#= assistant.thread.messages[@answer2_position+1].content.force_encoding("UTF-8") rescue "Err124 #{$!}" %>
+      <% else %>
+        ❌ Some error hence showing last msg (answer2_position=<%= @answer2_position %>)<br/>
+        <%= render_assistant_message(assistant.thread.messages.last) %>
+      <% end  %>
     </p>
-    <pre class="border border-slate-300 p-2 prose max-w-none text-sm break-words whitespace-pre-wrap">
-        <%= assistant.thread.messages.last.content.force_encoding("UTF-8") %>
-    </pre>
+
 </div>
 
 <hr/>
 
-<% assistant.thread.messages.each do |message| %>
-    <%#= render_assistant_message(message) %>
-<% end  %>
 
 
-<p class="border border-violet-700 p-2 prose max-w-none text-sm break-words text-gray-100">
-    Gemini text
+<p class="border border-violet-700 border-4 p-8 prose max-w-none text-sm break-words text-gray-100">
+    Gemini text @answer1_position = <%= @answer1_position %>
 </p>
 <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-    Person text
+    Person text @answer2_position = <%= @answer2_position %>
 </p>
