@@ -79,7 +79,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     baran (0.1.11)
     base64 (0.2.0)
-    bigdecimal (3.1.7)
+    bigdecimal (3.1.8)
     bindex (0.8.1)
     bootsnap (1.18.3)
       msgpack (~> 1.2)
@@ -110,6 +110,10 @@ GEM
       delayed_job (>= 3.0, < 5)
     digest-crc (0.6.5)
       rake (>= 12.0.0, < 14.0.0)
+    dotenv (3.1.2)
+    dotenv-rails (3.1.2)
+      dotenv (= 3.1.2)
+      railties (>= 6.1)
     drb (2.2.1)
     erubi (1.12.0)
     ethon (0.16.0)
@@ -173,7 +177,7 @@ GEM
     groupdate (6.4.0)
       activesupport (>= 6.1)
     httpclient (2.8.3)
-    i18n (1.14.4)
+    i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
       actionpack (>= 6.0.0)
@@ -190,7 +194,7 @@ GEM
       addressable (>= 2.8)
     jwt (2.8.1)
       base64
-    langchainrb (0.12.1)
+    langchainrb (0.13.0)
       activesupport (>= 7.0.8)
       baran (~> 0.1.9)
       colorize (~> 1.1.0)
@@ -248,7 +252,7 @@ GEM
       unicode
     psych (5.1.2)
       stringio
-    public_suffix (5.0.4)
+    public_suffix (5.0.5)
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.7.3)
@@ -366,7 +370,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.6.13)
+    zeitwerk (2.6.14)
 
 PLATFORMS
   aarch64-linux
@@ -381,6 +385,7 @@ DEPENDENCIES
   debug
   delayed_job_active_record
   faraday
+  dotenv-rails
   feedjira
   gemini-ai
   google-apis-aiplatform_v1 (~> 0.23.0)
@@ -388,7 +393,7 @@ DEPENDENCIES
   groupdate
   importmap-rails
   jbuilder
-  langchainrb (~> 0.12.1)
+  langchainrb (~> 0.13.0)
   lolcat
   matrix
   neighbor

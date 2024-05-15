@@ -1,0 +1,60 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "article_tool__create",
+      "description": "Article Database: Create a new article",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Article title"
+          },
+          "summary": {
+            "type": "string",
+            "description": "Article summary"
+          },
+          "content": {
+            "type": "string",
+            "description": "Article content"
+          },
+          "author": {
+            "type": "string",
+            "description": "Article author"
+          },
+          "link": {
+            "type": "string",
+            "description": "Article link"
+          },
+          "published_date": {
+            "type": "string",
+            "description": "Article published date"
+          },
+          "language": {
+            "type": "string",
+            "description": "Article language"
+          }
+        },
+        "required": ["title", "summary", "content", "author", "link", "published_date", "language"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "article_tool__delete",
+      "description": "Article Database: Delete an article",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Article ID"
+          }
+        },
+        "required": ["id"]
+      }
+    }
+  }
+]
