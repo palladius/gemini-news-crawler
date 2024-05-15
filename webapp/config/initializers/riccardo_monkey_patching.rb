@@ -42,8 +42,7 @@ class Langchain::LLM::GoogleVertexAI
       #   raise TypeError, "Expected Array or String, got #{new_scope.class}"
       ::Google::Auth.get_application_default(scope=scopes) :
       # non GCE - will accept the scopes
-      ::Google::Auth.get_application_default(scope: scopes)
-    #################################################################
+      ::Google::Auth.get_application_default(scope: scopes) #################################################################
 
     proj_id = project_id || @authorizer.project_id || @authorizer.quota_project_id
     @url = "https://#{region}-aiplatform.googleapis.com/v1/projects/#{proj_id}/locations/#{region}/publishers/google/models/"

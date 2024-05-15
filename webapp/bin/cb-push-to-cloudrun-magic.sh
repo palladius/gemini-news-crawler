@@ -9,7 +9,7 @@
 #  reality:        europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler/gemini-news-crawler
 #####################################################################################################
 
-export DEPLOY_VERSION='2.0.1'
+export DEPLOY_VERSION='2.0.2'
 
 if [ -f .envrc ] ; then
   echo Looks like youre local since I see your envrc.
@@ -17,16 +17,6 @@ if [ -f .envrc ] ; then
 else
   echo 'Riccardo NOT LOCAL probably in the Cloud'
 fi
-
-# if [ -f /secretenvrc/gemini-news-crawler-envrc ] ; then
-#   echo Looks like youre on Cloud Run mounting an envrc directly form SM. You could be protecteder. # :)
-#   . /secretenvrc/gemini-news-crawler-envrc
-# else
-#   echo 'Riccardo NOT Secret or it doesnt work with this weird path. to be sure, lets check. Lets see the mounts:'
-#   #ls -al /
-#   #ls -al /secretenvrc
-#   mount
-# fi
 
 if which gcloud ; then
   echo "👒 [GCLOUD AVAILABLE!] Parsing secret wich gcloud - wOOOt 2024 news"
@@ -151,6 +141,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="RAILS_LOG_TO_STDOUT=yesplease" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
       --set-env-vars="DATABASE_URL_PROD=$DATABASE_URL_PROD" \
+      --set-env-vars="NEWSAPI_COM_KEY=$NEWSAPI_COM_KEY" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \
       --set-env-vars=APP_NAME='GemiNews CB-CR-magic' \

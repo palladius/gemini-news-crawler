@@ -96,6 +96,7 @@ steps:
   - 'PROJECT_ID=$PROJECT_ID'
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+  - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY'
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
@@ -111,7 +112,9 @@ steps:
   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   - 'DATABASE_URL_PROD=$_DATABASE_URL_PROD'
   - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
-  - RAILS_ENV=production
+#  - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY' # DEV
+  - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY_RICC' # PROD
+  - 'RAILS_ENV=production'
 
 # This does NOT work
 # - name: 'gcr.io/cloud-builders/gcloud'
