@@ -1,0 +1,85 @@
+<p class="text-base leading-relaxed">Your paragraph text goes here.</p>
+
+<p class="text-base leading-relaxed">Back to <%= link_to "Assistant demo home", '/pages/assistant' %> .</p>
+
+<%
+
+# todo optimize...
+
+llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
+# llm = Langchain::LLM::OpenAI.new(api_key: ENV["OPENAI_API_KEY"])
+
+## Create a new Thread to keep track of the messages
+thread = Langchain::Thread.new
+
+# Instantiate tools
+news_retriever = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
+article_tool = ArticleTool.new
+
+  #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
+
+assistant = Langchain::Assistant.new(
+  llm: llm,
+  thread: thread,
+  instructions: "You are a News Assistant.",
+  tools: [news_retriever, article_tool]
+)
+
+x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
+
+#include MonkeyPatching::LangchainMessagesPatche
+#  class Langchain::Messages::GoogleGeminiMessage
+#    def to_html
+      # 💬
+      # fun call
+    #  if self.tool_calls.any?
+    #    return self.tool_calls.enum_for(:each_with_index).map {|tool_call,ix|
+    #      return "🤖 [#{role}] 🛠️ [#{ix+1}/#{self.tool_calls.count}] 🛠️  #{tool_call['functionCall'].to_s.force_encoding("UTF-8").colorize(:gray) rescue $!}"
+          # + "DEB #{tool_call.to_s.colorize(:blue)}"
+    #  }.join("ZZZ\nAAA") # test, should just be "\n"
+        #return "🤖 [#{role}] 🛠️ #{self.tool_calls[0]['functionCall'].to_s.force_encoding("UTF-8").colorize(:gray) rescue $!}" if self.tool_calls.any?
+    #end
+      # model
+    #  return "🤖 [#{role}] 💬 #{self.content.force_encoding("UTF-8").strip.colorize :cyan}" if role == 'model'
+      # user
+    #  return "🧑 [#{role}] 💬 #{self.content.force_encoding("UTF-8").colorize :yellow}" if role == 'user'
+      # function
+    #  return "🤖 [#{role}] 🛠️  #{self.tool_call_id.force_encoding("UTF-8").colorize :red} => #{self.content.force_encoding("UTF-8").colorize :green}" if role == 'function'
+      # if everything else fails...
+    #  self.inspect # :status, :code, :messafe, ...
+    #end
+  #end
+
+%>
+<table class="w-full table-auto border-collapse border border-slate-400">
+    <caption class="text-center text-xl font-semibold bg-gray-200 p-2">AAA<%#= title %></caption>
+    <thead>
+      <tr>
+        <th class="border border-slate-300 p-2">🔑 Key</th>
+        <th class="border border-slate-300 p-2">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-slate-300 p-2 bg-green-100"><tt>🔑</tt></td>
+        <td class="border border-slate-300 p-2 bg-green-100">1. Small Values</td>
+      </tr>
+      <% assistant.thread.messages.each_with_index do |msg,ix| %>
+        <tr class="hover:bg-blue-50">
+          <td class="border border-slate-300 p-2">
+                <tt><%= ix %></tt>
+                <%= msg.role rescue 'role_err' %>
+          </td>
+          <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+            <pre><%= msg.inspect rescue 'inspect_err' %></pre>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% assistant.thread.messages.each do |message| %>
+    <%#= render_assistant_message(message) %>
+<% end  %>
+
+<h2>OLD WAY </h2>
+<%= assistant.thread.messages %>

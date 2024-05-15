@@ -1,0 +1,9 @@
+<p class="text-base leading-relaxed">🔎 Select a Sample Query</p>
+
+<ul>
+  <% @sample_queries_for_gemini_functions.each do |query| %>
+      <li>💁🏻
+        <%= link_to(query, "/pages/assistant?type=hard-coded&query=#{query}", method: :get) rescue "Err #{$!}" %>
+      </li>
+  <% end %>
+</ul>

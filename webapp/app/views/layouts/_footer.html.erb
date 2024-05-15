@@ -2,6 +2,7 @@
 <footer class="flex justify-between px-4 py-2 bg-gray-800 text-gray-100 text-sm">
   <span>&copy; <%= APP_NAME %> v<%= APP_VERSION %></span>
 
+  <!-- takes too long -->
   <%= render partial: 'layouts/latest_article_info' rescue "LatestArticleInfoError('#{$!}')" %>
 
   <%= link_to "Dev🟡App", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %>

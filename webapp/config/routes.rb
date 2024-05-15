@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/about'
+  get 'pages/assistant'
   get 'pages/graphs'
   get 'pages/search'
   get 'pages/stats'

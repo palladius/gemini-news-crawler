@@ -1,0 +1,24 @@
+<%
+@sample_queries_for_gemini_functions = [
+    "What's new in US politics?",
+    "Latest news from Google I/O",
+    "latest 3 stories from France",
+    "Latest stories from Italy?",
+    "Latest 7 news from Vinitaly",
+    "Any news from Google Cloud?",
+    "Any news about Ruby or RoR?",
+    "What are some fun facts?",
+  ]
+%>
+<div class="assistant-demo" >
+    <h1 class="text-4xl font-bold tracking-tight mb-4">💁🏻 Assistant demo</h1>
+
+    <% if @query.nil? %>
+        <%= render 'pages/assistant_index' %>
+    <% else %>
+        <h2 class="text-2xl font-semibold mb-2">🔎 @query: '<%= @query %>'</h2>
+
+        <%= render 'pages/assistant_demo_show' rescue "Some exception: '#{$!}'" %>
+
+    <% end %>
+</div>

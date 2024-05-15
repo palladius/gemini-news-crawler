@@ -1,4 +1,6 @@
-2024-05-15 v0.3.10[DEV] bugfix - remove console from dev.rb
+2024-05-15 v0.3.12 [DEV] Super fast UI! removed latest article..
+2024-05-15 v0.3.11 [DEV] adding demo for UI
+2024-05-15 v0.3.10 [DEV] bugfix - remove console from dev.rb
 2024-05-15 v0.3.9 [DEV] Adding `GoogleGeminiMessage.to_s` monkeypatching. Andrei will be proud.
 2024-05-15 v0.3.8 [DEV] the tool works like a charm!
 2024-05-15 v0.3.7 [DEV] FINALLY the Assistant works! Most work is outside of here, but just saying. Now fixing small stuff

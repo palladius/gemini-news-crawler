@@ -7,4 +7,8 @@ class PagesController < ApplicationController
 
   def search
   end
+
+  def assistant
+    @query = params.fetch(:query, nil)
+  end
 end
