@@ -7,6 +7,15 @@
             <td>Small Val</td>
         </tr>
         <tr>
+            <td>Langchain::VERSION</td>
+            <td><tt><%= Langchain::VERSION %></tt></td>
+        </tr>
+        <tr>
+            <td>APP_VERSION</td>
+            <td><tt><%= APP_VERSION %></tt></td>
+        </tr>
+
+        <tr>
             <td>GeminiAuthenticated</td>
             <td><tt><%= GeminiAuthenticated %></tt></td>
         </tr>
@@ -26,11 +35,27 @@
             <td>VertexLLMAuthenticatedDerekOnly (ditto)</td>
             <td><tt><%= VertexLLMAuthenticatedDerekOnly %></tt> </td>
         </tr>
+        <tr>
+            <td>VertexLLM</td>
+            <td><tt><%= VertexLLM %></tt> </td>
+        </tr>
+        <tr>
+            <td>GeminiLLM </td>
+            <td><tt><%= GeminiLLM %></tt> </td>
+        </tr>
+        <tr>
+            <td>bundle info langchainrb (path only) </td>
+            <td><tt><%= `bundle info langchainrb|grep Path:` %></tt> </td>
+        </tr>
+        <tr>
+            <td>bundle info googleauth (path only) </td>
+            <td><tt><%= `bundle info googleauth|grep Path:` %></tt> </td>
+        </tr>
 
 
     </table>
 
-    <h2>Longer configs.. </h2>
+    <h2 class="font-bold text-2xl">♊ Longer configs</h2>
 
     <p>
         <b>bundle config for Langchain</b>:
@@ -38,15 +63,12 @@
 
     </p>
     <p>
-        <b>bundle info langchainrb</b>:
+        <b>bundle info langchainrb</b> (you can fix with <b>bundle config --delete local.lanchainrb</b>):
         <pre class="prose p-4 prose-stone" ><%= `bundle info langchainrb` %></pre>
     </p>
     <p>
         <b>bundle info googleauth</b>:
         <pre class="prose p-4 prose-stone" ><%= `bundle info googleauth` %></pre>
     </p>
-
-    <p> <b>VertexAuthenticated</b>: <tt><%= VertexAuthenticated %></tt>  </p>
-    <p> <b>GeminiAuthenticated</b>: <tt><%= GeminiAuthenticated %></tt>  </p>
 
 </div>

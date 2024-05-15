@@ -1,11 +1,81 @@
 <h1 class="font-bold text-4xl">🀄 Ruby and Bundle info</h1>
+<%
+    @interesting_data_short = {
+        'APP_VERSION': APP_VERSION,
+        'Rails.version': Rails.version,
+        'RUBY_VERSION': RUBY_VERSION,
+        'Rails.root': Rails.root.to_s,
+    }
+    @interesting_data_long = {
+        'bundle config': `bundle config`,
+        'ls': `ls`,
+    }
+%>
 
 <div class="ruby-stuff" >
-    <p>
-        <b>bundle config</b>: <pre class="prose" ><%= `bundle config` %></pre>
-    </p>
-    <p>
-        <b>RUBY_VERSION</b>: <tt><%= RUBY_VERSION %></tt>
-    </p>
+        <!--
+    <table border="3" >
+        <tr>
+            <td>Fast 🔑</td>
+            <td>Small Val</td>
+        </tr>
+        <% @interesting_data_short.each do |k,v|%>
+                <tr>
+                    <td>
+                        <tt><%= k%></tt>
+                    </td>
+                    <td>
+                        <b><%= v %></b>
+                    </td>
+                </tr>
+        <% end %>
+        <% @interesting_data_long.each do |k,v|%>
+                <tr>
+                    <td>
+                        <tt><%= k%></tt>
+                    </td>
+                    <td>
+                        <pre class="prose text-2xs prose-sm md:prose-base" ><%= v %></pre>
+                    </td>
+                </tr>
+        <% end %>
+    </table>
+    -->
+
+
+<table class="w-full table-auto border-collapse border border-slate-400">
+    <thead>
+      <tr>
+        <th class="border border-slate-300 p-2">🔑 Key</th>
+        <th class="border border-slate-300 p-2">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-slate-300 p-2"><tt>🔑</tt></td>
+        <td class="border border-slate-300 p-2">1. Small Values</td>
+      </tr>
+      <% @interesting_data_short.each do |k,v| %>
+        <tr>
+          <td class="border border-slate-300 p-2"><tt><%= k %></tt></td>
+          <td class="border border-slate-300 p-2"><b><%= v %></b></td>
+        </tr>
+      <% end %>
+      <tr>
+        <td class="border border-slate-300 p-2"><tt>🔑</tt></td>
+        <td class="border border-slate-300 p-2">2. Big Values</td>
+      </tr>
+
+      <% @interesting_data_long.each do |k,v| %>
+        <tr>
+          <td class="border border-slate-300 p-2"><tt><%= k %></tt></td>
+          <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+            <%= v %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
 
 </div>
