@@ -4,15 +4,28 @@
 # Invoke: bundle exec ruby vertex_ai_sample_andrei.rb
 
 require 'langchainrb'
+require 'googleauth'
+#require 'langchainrb'
 require_relative 'app/tools/article_tool.rb'
+# bundle exec gem install ruby-openai
 
-raise "Missing GOOGLE_VERTEX_AI_PROJECT_ID" unless ENV.fetch("GOOGLE_VERTEX_AI_PROJECT_ID", nil)
+use_openai_instead = !! ENV.fetch('USE_OPENAI_INSTEAD', nil)
+
+
+puts("[DEB] Using #{use_openai_instead ? 'OpenAI' : 'Google' }")
+
+raise "Missing GOOGLE_VERTEX_AI_PROJECT_ID" unless ENV.fetch("GOOGLE_VERTEX_AI_PROJECT_ID", nil) # unless use_openai_instead
 raise "Missing NEWS_API_KEY" unless ENV.fetch("NEWS_API_KEY", nil)
+if use_openai_instead
+  raise "Missing OPENAI_API_KEY" unless ENV.fetch("OPENAI_API_KEY", nil)
+end
 
 
 # Instantiate the LLM
 llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
-# Create a new Thread to keep track of the messages
+# llm = Langchain::LLM::OpenAI.new(api_key: ENV["OPENAI_API_KEY"])
+
+## Create a new Thread to keep track of the messages
 thread = Langchain::Thread.new
 
 # Instantiate tools
@@ -23,12 +36,19 @@ assistant = Langchain::Assistant.new(
   llm: llm,
   thread: thread,
   instructions: "You are a News Assistant.",
+  #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
   tools: [news_retriever, article_tool]
 )
 
-assistant.add_message_and_run content:"What are the latest news from Google I/O?", auto_tool_execution: true
-
+x = assistant.add_message_and_run content:"What are the latest news from Google I/O?", auto_tool_execution: true
+puts(x)
 # Inspect the messages
-assistant.thread.messages
+puts assistant.thread.messages
 
-assistant.add_message_and_run content:"Save the last one to the database", auto_tool_execution: true
+# last message
+puts assistant.thread.messages.last.content
+
+if false
+  # are you sure?
+  assistant.add_message_and_run content:"Save the last one to the database", auto_tool_execution: true
+end

@@ -3,6 +3,7 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
+  VERSION = '1.0'
 
   # Initialize the ArticleTool
   def initialize
@@ -35,7 +36,10 @@ class ArticleTool < Langchain::Tool::Base
       link: link,
       published_date: published_date,
       language: language,
-      guid: SecureRandom.uuid,
+      guid: SecureRandom.uuid, # maybe link itself
+      macro_region: 'gemini-fun-call',
+      ricc_internal_notes: "Created through Andrei's amazing ArticleTool #{NAME} v#{VERSION}.",
+      ricc_source: 'Gemini FunctionCalling',
     )
 
     if article.persisted?

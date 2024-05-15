@@ -26,6 +26,8 @@ class Article < ApplicationRecord
   scope :recent_enough_by_date, lambda {|date| {:conditions => ['created_at >= ?', date.beginning_of_day]}}
   #scope :recent_enough, lambda { {:conditions => ['created_at >= ?', Date.yesterday.beginning_of_day]}}
   scope :recent_enough, -> { where("created_at > ?", Date.yesterday.beginning_of_day) }
+  # sneisble (sensato): Anythign that makes sense. For instance, if you have no macro egion youre notr probably worth reading.
+  scope :sensible, -> { where.not('macro_region' => nil) }
 
 
 

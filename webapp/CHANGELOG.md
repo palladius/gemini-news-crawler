@@ -1,3 +1,5 @@
+2024-05-15 v0.3.7 [DEV] FINALLY the Assistant works! Most work is outside of here, but just saying. Now fixing small stuff
+                        like the baility of my tool function  to save an Article without breaking Ref Integrity.
 2024-05-15 v0.3.6 [DEV] fixing Gemini auth. Dangerously patching local gemini.
 2024-05-15 v0.3.5 [OPS] Fixed some derek/macbook differences.. not so visible to you but yes to me.
 2024-05-15 v0.3.4 [DEV] Integrated with latest Langchain 0.13 with Gemini (woohoo!). Introducing GeminiAuthenticated
