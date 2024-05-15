@@ -33,10 +33,16 @@ class Langchain::LLM::GoogleVertexAI
     # Riccardo begin
     puts("🐒🐒🐒 Riccardo GoogleVertexAI::init on Mac 🐒🐒🐒")
   #      @authorizer = ::Google::Auth.get_application_default
-    @authorizer = ::Google::Auth.get_application_default(scope: [
+    scopes = [
       "https://www.googleapis.com/auth/cloud-platform",
       "https://www.googleapis.com/auth/generative-language.retriever"
-    ])
+    ]
+    @authorizer = Google::Auth::GCECredentials.on_gce?  ?
+      # GCE - wont accept the scopes. Will fail with
+      #   raise TypeError, "Expected Array or String, got #{new_scope.class}"
+      ::Google::Auth.get_application_default(scope=scopes) :
+      # non GCE - will accept the scopes
+      ::Google::Auth.get_application_default(scope: scopes)
     #################################################################
 
     proj_id = project_id || @authorizer.project_id || @authorizer.quota_project_id
