@@ -21,10 +21,10 @@ CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # 
 RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
 # Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
-VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') # rescue nil
+VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') rescue nil
 # VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
-GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI']
-OllamaLLM = Langchain::LLM::Ollama.new
+GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
+OllamaLLM = Langchain::LLM::Ollama.new rescue nil
 
 
 GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok
