@@ -17,11 +17,12 @@ CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # 
 
 RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
-# Should be Gemini
+# Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
 VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') # rescue nil
 # VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
 GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI']
 OllamaLLM = Langchain::LLM::Ollama.new
+GeminiAuthenticated = false
 
 Rails.application.configure do
 
@@ -67,12 +68,14 @@ puts "#{emoji} 🌞 Rails.env: #{Rails.env}"
   puts "#{emoji} 🌞 ENV[#{env_key}]: #{ ENV.fetch( env_key, '🤷' )}"
 end
 # Now normal variables..
-puts "#{emoji} 🌞 GCP_KEY_PATH:           #{ GCP_KEY_PATH}"
-puts "#{emoji} 🌞 GCP_KEY_PATH_EXISTS:    #{ GCP_KEY_PATH_EXISTS}"
-puts "#{emoji} 🌞 CLOUDRUN_SA_KEY_EXISTS: #{ CLOUDRUN_SA_KEY_EXISTS}" # should only exist in ricc cloud run. For debug
-puts "#{emoji} 🌞 CLOUDRUN_ENVRC_EXISTS:  #{ CLOUDRUN_ENVRC_EXISTS}"
-puts "#{emoji} 🪄 Vertex (old GeminiLLM): #{ VertexLLM}"
-puts "#{emoji} 🪄 GeminiLLM (new v13):    #{ GeminiLLM}"
+puts "#{emoji} 🌞 GCP_KEY_PATH:           #{GCP_KEY_PATH}"
+puts "#{emoji} 🌞 GCP_KEY_PATH_EXISTS:    #{GCP_KEY_PATH_EXISTS}"
+puts "#{emoji} 🌞 CLOUDRUN_SA_KEY_EXISTS: #{CLOUDRUN_SA_KEY_EXISTS}" # should only exist in ricc cloud run. For debug
+puts "#{emoji} 🌞 CLOUDRUN_ENVRC_EXISTS:  #{CLOUDRUN_ENVRC_EXISTS}"
+puts "#{emoji} 🪄 Vertex (old GeminiLLM): #{VertexLLM}"
+puts "#{emoji} 🪄 GeminiLLM (new v13):    #{GeminiLLM}"
+puts "#{emoji} 🪄 GeminiAuthen'd (TODO)   #{GeminiAuthenticated}"
+
 puts "#{emoji} #{ emoji * 60}"
 
 

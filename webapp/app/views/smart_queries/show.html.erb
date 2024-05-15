@@ -1,12 +1,12 @@
 <%
 # demo1
 @query ||= 'Riccardo Carlesso'
-@e = GeminiLLM.embed(text: @query).embedding rescue nil
+@e =  GeminiAuthenticated ? (GeminiLLM.embed(text: @query).embedding) : nil
 # Possibilities:
 # 1. article_embedding, title_embedding, summary_embedding
 # 2. distance: euclidean, cosine, ?
 #closest_articles = Article.nearest_neighbors(:article_embedding, e, distance: "euclidean").first(5)
-@closest_articles = Article.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(10)
+@closest_articles = GeminiAuthenticated ? Article.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(10) : []
 @query_info = "euclidean distance for article_embedding for query: '#{@query}'"
 
 # non va
@@ -102,13 +102,11 @@
             <%#= GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
             # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/
              %>
-            <%=
-            GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content']
-             %>
+            <% if GeminiAuthenticated %>
+                <%= GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content'] %>
+            <% else %>
+                <b>Sorry GeminiAuthenticated=false which means that probably we had issues authenticating Gemini</b>
+            <% end %>
         </div>
     </div>
-
 </div>
-
-
-<%#= console %>
