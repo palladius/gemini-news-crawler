@@ -142,6 +142,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
       --set-env-vars="DATABASE_URL_PROD=$DATABASE_URL_PROD" \
       --set-env-vars="NEWSAPI_COM_KEY=$NEWSAPI_COM_KEY" \
+      --set-env-vars="GEMINI_KEY=$GEMINI_KEY" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \
       --set-env-vars=APP_NAME='GemiNews CB-CR-magic' \
