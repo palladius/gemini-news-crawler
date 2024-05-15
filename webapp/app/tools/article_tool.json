@@ -13,11 +13,11 @@
           },
           "summary": {
             "type": "string",
-            "description": "Article summary"
+            "description": "Article summary (in UTF-8)"
           },
           "content": {
             "type": "string",
-            "description": "Article content"
+            "description": "Article content (in UTF-8)"
           },
           "author": {
             "type": "string",

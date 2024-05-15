@@ -3,8 +3,10 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.2'
+  VERSION = '1.4'
 
+  # v1.4 Added UTF8 in the specs since the output is very ugly now: http://localhost:3000/articles/10334
+  # v1.3
   # v1.2 Add EMOJI so AI finds emoji for me and I can just put somewhere easy to parse :)
   # v1.1 GUID is now the Link. Also fixing macro-region
   # v1.0 First version from Andrei
@@ -36,6 +38,12 @@ class ArticleTool < Langchain::Tool::Base
     country:,
     country_emoji:
   )
+    # This will be converted to string in the DB - no biggie. Easy to reverse.
+    hashy_blurb = {
+      country: country,
+      country_emoji: country_emoji,
+      article_tool_version: VERSION,
+    }
     article = Article.create(
       title: title,
       summary: summary,
@@ -48,6 +56,7 @@ class ArticleTool < Langchain::Tool::Base
       guid: link,
       newspaper: link.split('/')[2], # https://www.begeek.fr/google -> "www.begeek.fr"
       macro_region: 'gemini-fun-call',
+      hidden_blurb: hashy_blurb.to_s,
       ricc_internal_notes: "Created through Andrei's amazing ArticleTool #{NAME} v#{VERSION}.
         parsable_blurb = {
           country: '#{country}',

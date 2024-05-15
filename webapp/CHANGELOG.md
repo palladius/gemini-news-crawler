@@ -1,3 +1,4 @@
+2024-05-15 v0.3.8 [DEV] the tool works like a charm!
 2024-05-15 v0.3.7 [DEV] FINALLY the Assistant works! Most work is outside of here, but just saying. Now fixing small stuff
                         like the baility of my tool function  to save an Article without breaking Ref Integrity.
 2024-05-15 v0.3.6 [DEV] fixing Gemini auth. Dangerously patching local gemini.
