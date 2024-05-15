@@ -7,7 +7,7 @@ require 'langchainrb'
 require 'googleauth'
 #require 'langchainrb'
 require_relative 'app/tools/article_tool.rb'
-# bundle exec gem install ruby-openai
+require_relative 'webapp/lib/monkey_patching/langchain_messages_patcher.rb'
 
 # It's in lib/monkey_patching/ now :)
 
@@ -57,12 +57,12 @@ puts assistant.thread.messages
 # last message
 puts assistant.thread.messages.last.content
 
-assistant.add_message_and_run auto_tool_execution: true, content: "Please show me the titles of the articles in a numbered bullet-point list"
-puts assistant.thread.messages # .last.content
+#assistant.add_message_and_run auto_tool_execution: true, content: "Please show me the titles of the articles in a numbered bullet-point list"
+#puts assistant.thread.messages # .last.content
 
 if false
   # are you sure?
-  assistant.add_message_and_run content:"Save the last one to the database", auto_tool_execution: true
+  assistant.add_message_and_run content:"Save the last article to the database", auto_tool_execution: true
   #assistant.add_message_and_run auto_tool_execution: true, content:"Save the FIRST one to the database"
   #assistant.add_message_and_run content:"Save the Pixel 8A one to the database, and also the one titled 'Google IO 2024 lineup is confirmed'", auto_tool_execution: true
   #assistant.add_message_and_run content:"Fantastic! Can you give me the article IDs of the two?", auto_tool_execution: true
