@@ -5,6 +5,7 @@
         'Rails.version': Rails.version,
         'RUBY_VERSION': RUBY_VERSION,
         'Rails.root': Rails.root.to_s,
+        'Google::Auth::GCECredentials.on_gce?':  (Google::Auth::GCECredentials.on_gce? rescue $!),
        # 'hostname': hostname,
     }
     @interesting_data_long = {

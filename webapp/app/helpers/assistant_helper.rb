@@ -19,7 +19,7 @@ module AssistantHelper
     if article_id_scan.size == 1 and article_id_scan[0].is_a? Array
       article_id = article_id_scan[0][0]
       url = url_for(controller: 'articles', action: 'show', id: article_id)
-      ret += "<b>Bingo! We just created a new 📰 Article! #{link_to "##{article_id}", url} </b>".html_safe
+      ret += "<b>Bingo! We just created a new 📰 Article! 🔗🔗🔗 #{link_to "##{article_id}", url} 🔗🔗🔗 </b>".html_safe
     end
     ret.html_safe
   end
