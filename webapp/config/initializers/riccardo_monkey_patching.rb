@@ -149,3 +149,10 @@ class Langchain::LLM::GoogleGemini
   end
 
 end
+
+
+class Google::Auth::GCECredentials
+  def project_id
+    'palladius-genai' # TODO move to ENV[] ma lo posso testare solo a manhouse..
+  end
+end
