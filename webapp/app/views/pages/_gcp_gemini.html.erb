@@ -1,0 +1,52 @@
+<h1 class="font-bold text-4xl">♊ Gemini and Langchain info</h1>
+
+<div class="gemini-stuff" >
+    <table border="1">
+        <tr>
+            <td>Fast 🔑</td>
+            <td>Small Val</td>
+        </tr>
+        <tr>
+            <td>GeminiAuthenticated</td>
+            <td><tt><%= GeminiAuthenticated %></tt></td>
+        </tr>
+        <tr>
+            <td>VertexAuthenticated</td>
+            <td><tt><%= VertexAuthenticated %></tt> </td>
+        </tr>
+        <tr>
+            <td>VertexAuthTokenLength (should be 1024 if it works)</td>
+            <td><tt><%= VertexAuthTokenLength %></tt> </td>
+        </tr>
+        <tr>
+            <td>GeminiLLMAuthenticatedDerekOnly (should work only on Derek)</td>
+            <td><tt><%= GeminiLLMAuthenticatedDerekOnly %></tt> </td>
+        </tr>
+        <tr>
+            <td>VertexLLMAuthenticatedDerekOnly (ditto)</td>
+            <td><tt><%= VertexLLMAuthenticatedDerekOnly %></tt> </td>
+        </tr>
+
+
+    </table>
+
+    <h2>Longer configs.. </h2>
+
+    <p>
+        <b>bundle config for Langchain</b>:
+        <div class="prose p-4 prose-zinc" ><%= `bundle config local.lanchainrb` %></div>
+
+    </p>
+    <p>
+        <b>bundle info langchainrb</b>:
+        <pre class="prose p-4 prose-stone" ><%= `bundle info langchainrb` %></pre>
+    </p>
+    <p>
+        <b>bundle info googleauth</b>:
+        <pre class="prose p-4 prose-stone" ><%= `bundle info googleauth` %></pre>
+    </p>
+
+    <p> <b>VertexAuthenticated</b>: <tt><%= VertexAuthenticated %></tt>  </p>
+    <p> <b>GeminiAuthenticated</b>: <tt><%= GeminiAuthenticated %></tt>  </p>
+
+</div>

@@ -1,9 +1,11 @@
 <header class="bg-gray-800 text-white px-4 py-2 flex justify-between items-center">
   <h1 class="text-xl font-bold">
-    ♊️ GemiNews 🗞️ <%= Rails.env == 'production' ? '' : "(#{Rails.env.to_s[0..2]})" %>
+    <a href="/" class="text-gray-300 hover:text-white">♊️ GemiNews 🗞️</a>
+      <%= Rails.env == 'production' ? '' : "(#{Rails.env.to_s[0..2]})" %>
   </h1>
     <nav class="space-x-4">
       <!-- models -->
+      <a href="/" class="text-gray-300 hover:text-white">🏡</a>
       <a href="/articles" class="text-gray-300 hover:text-white">📰 Articles</a>
       <a href="/categories" class="text-gray-300 hover:text-white">🏷️ Categories</a>
       <a href="/smart_queries" class="text-gray-300 hover:text-white">🧠 Queries</a>

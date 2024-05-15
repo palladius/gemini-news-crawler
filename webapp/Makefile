@@ -113,5 +113,7 @@ auth:
 	gcloud config  set compute/zone us-central1-b
 
 # Thisd wotks on my LInux machine but not on my Mac :/
-test-llm:
+test-llm-gemini:
 	echo "GeminiLLM.complete prompt: 'Hi my name is Riccar'" | rails c
+test-llm-vertex:
+	echo "VertexLLM.complete prompt: 'Hi my name is Riccar'" | rails c

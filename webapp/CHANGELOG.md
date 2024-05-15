@@ -1,4 +1,6 @@
-2024-05-14 v0.3.4 [DEV] Integrated with latest Langchain 0.13 with Gemini (woohoo!). Introducing GeminiAuthenticated
+2024-05-15 v0.3.6 [DEV] fixing Gemini auth. Dangerously patching local gemini.
+2024-05-15 v0.3.5 [OPS] Fixed some derek/macbook differences.. not so visible to you but yes to me.
+2024-05-15 v0.3.4 [DEV] Integrated with latest Langchain 0.13 with Gemini (woohoo!). Introducing GeminiAuthenticated
 2024-05-14 v0.3.3 [DEV] Better links and docs
 2024-05-14 v0.3.2 [DEV] Cleaned up bad/empty articles. Also made sure than now published_date is NEEDED field.
 2024-05-14 v0.3.1 [DEV] Harmonized the new ArticleEmbedding is calculated correctly BOTH in the migration script `aaa`

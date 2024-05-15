@@ -3,6 +3,9 @@ APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
 EmojiAppName = "♊️ GemiNews 🗞️"
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
 ENABLE_GCP = (ENV['ENABLE_GCP'].to_s.downcase == 'true')
+# Note this is NOT necessary to run GCP, its just ONE way.
+GAC = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
+GOOGLE_APPLICATION_CREDENTIALS  = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 EmbeddingEmoji = '🗿'
 
 def gcp?()
@@ -22,7 +25,20 @@ VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], re
 # VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
 GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI']
 OllamaLLM = Langchain::LLM::Ollama.new
-GeminiAuthenticated = false
+
+
+GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok
+GeminiApiKeyLength = GeminiLLM.api_key.to_s.length rescue (-1)
+
+# This code is created by ricc patching manually langchain...
+GeminiLLMAuthenticatedDerekOnly = GeminiLLM.authenticated? rescue 'UnImplemented - Derek Only'
+VertexLLMAuthenticatedDerekOnly = VertexLLM.authenticated? rescue 'UnImplemented - Derek Only'
+
+
+VertexAuthenticated = !!(VertexLLM.authorizer.fetch_access_token rescue false)
+VertexAuthTokenLength = VertexLLM.authorizer.fetch_access_token['access_token'].to_s.length rescue (-1)  # => 1024
+# This doesnt make sense: only works if its already authenticated
+# VertexAuthenticatedAlready = !!(VertexLLM.authorizer.refresh_token.to_s.match?(/^1\/\//) rescue false) # Vertex auth is ok
 
 Rails.application.configure do
 
@@ -72,9 +88,15 @@ puts "#{emoji} 🌞 GCP_KEY_PATH:           #{GCP_KEY_PATH}"
 puts "#{emoji} 🌞 GCP_KEY_PATH_EXISTS:    #{GCP_KEY_PATH_EXISTS}"
 puts "#{emoji} 🌞 CLOUDRUN_SA_KEY_EXISTS: #{CLOUDRUN_SA_KEY_EXISTS}" # should only exist in ricc cloud run. For debug
 puts "#{emoji} 🌞 CLOUDRUN_ENVRC_EXISTS:  #{CLOUDRUN_ENVRC_EXISTS}"
+puts "#{emoji} 🌞 GOOGLE_APPLICATION_CREDENTIALS:  #{GOOGLE_APPLICATION_CREDENTIALS}"
 puts "#{emoji} 🪄 Vertex (old GeminiLLM): #{VertexLLM}"
-puts "#{emoji} 🪄 GeminiLLM (new v13):    #{GeminiLLM}"
-puts "#{emoji} 🪄 GeminiAuthen'd (TODO)   #{GeminiAuthenticated}"
+puts "#{emoji} 🪄 VertexAuthenticated:    #{VertexAuthenticated}"
+puts "#{emoji} 🪄 VertexAuthTokenLength:  #{VertexAuthTokenLength}"
+puts "#{emoji} ♊ GeminiLLM (new v13):    #{GeminiLLM}"
+puts "#{emoji} ♊ GeminiAuthen'd (TODO):  #{GeminiAuthenticated}"
+puts "#{emoji} ♊ GeminiApiKeyLength:     #{GeminiApiKeyLength}"
+
+
 
 puts "#{emoji} #{ emoji * 60}"
 
