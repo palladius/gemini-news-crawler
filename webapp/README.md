@@ -17,6 +17,10 @@ Deployment:
 * Launched in:
 * DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
 * PROD: https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/
+* Runs as compute SvcAcct: `272932496670-compute@developer.gserviceaccount.com`. Needs:
+    * Storage Admin
+    * Vertex AI administrator
+*
 
 ## Incidents
 

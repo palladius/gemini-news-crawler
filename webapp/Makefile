@@ -20,8 +20,9 @@ dev: run
 
 # ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean
 run:
-	rails assets:precompile
-	rails s
+# rails assets:precompile
+	bundle exec rails assets:precompile
+	bundle exec rails s
 
 run-prod:
 # fioxes this: objc[92630]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
@@ -111,5 +112,6 @@ auth:
 	gcloud config  set compute/region us-central1
 	gcloud config  set compute/zone us-central1-b
 
+# Thisd wotks on my LInux machine but not on my Mac :/
 test-llm:
 	echo "GeminiLLM.complete prompt: 'Hi my name is Riccar'" | rails c

@@ -8,6 +8,9 @@ function install_on_machine {
   # Suggested by ruby-build https://github.com/rbenv/ruby-build/wiki
   sudo apt-get install autoconf patch build-essential rustc libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libgmp-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev uuid-dev
   sudo apt-get update && sudo apt-get dist-upgrade
+  # or bundle install will fail.. https://stackoverflow.com/questions/4827092/unable-to-install-pg-gem
+  sudo apt-get install postgresql-client  postgresql-common      postgresql-16 libpq-dev
+
 
   git config --global user.name 'Riccardo Carlesso su Rubino'
   git config --global user.email 'palladiusbonton+rubino@gmail.com'
