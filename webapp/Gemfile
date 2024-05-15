@@ -26,6 +26,7 @@ gem 'gemini-ai' # For Gemini
 # [NOT TESTED] bundle config build.unicode --with-cflags=\"-Wno-incompatible-function-pointer-types\"
 #gem 'langchainrb', '~> 0.12.1'
 gem 'langchainrb', '~> 0.13.1'
+gem "googleauth"
 #gem "langchainrb", path: '../../langchainrb-pr513-v1/'
 #gem 'google-apis-aiplatform_v1' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
@@ -103,3 +104,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dotenv-rails"
