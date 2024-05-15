@@ -1,0 +1,24 @@
+#!/bin/bash
+
+gcloud compute ssh --zone "us-central1-a" "rubino-in-us" --project "ric-cccwiki"
+
+# Ruby install:
+function install_on_machine {
+  sudo apt-get install ruby ruby-bundler rbenv ruby-dev ruby-build libyaml-dev
+  # Suggested by ruby-build https://github.com/rbenv/ruby-build/wiki
+  sudo apt-get install autoconf patch build-essential rustc libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libgmp-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev uuid-dev
+  sudo apt-get update && sudo apt-get dist-upgrade
+
+  git config --global user.name 'Riccardo Carlesso su Rubino'
+  git config --global user.email 'palladiusbonton+rubino@gmail.com'
+  sudo gem install bundler lolcat
+  ssh-keygen -t dsa
+  # Add key to bitbucket..
+  # install GIC SAKURA..
+  # git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+
+}
+
+#  binutils-doc gprofng-gui bzip2-doc cpp-doc gcc-13-locales cpp-13-doc debian-keyring g++-multilib g++-13-multilib gcc-13-doc gcc-multilib
+#  autoconf automake libtool flex bison gdb gcc-doc gcc-13-multilib gdb-x86-64-linux-gnu bzr icu-doc ncurses-doc readline-doc sqlite3-doc
+#  libssl-doc libstdc++-13-doc pkg-config make-doc default-jre ruby-dev
