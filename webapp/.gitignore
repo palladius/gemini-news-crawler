@@ -40,3 +40,7 @@
 /config/credentials/environment.key
 .yarn/
 .tmp.gcloud-envrc
+
+/config/credentials/production.key
+
+/config/credentials/development.key

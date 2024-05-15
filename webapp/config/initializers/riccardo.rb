@@ -40,6 +40,9 @@ VertexAuthTokenLength = VertexLLM.authorizer.fetch_access_token['access_token'].
 # This doesnt make sense: only works if its already authenticated
 # VertexAuthenticatedAlready = !!(VertexLLM.authorizer.refresh_token.to_s.match?(/^1\/\//) rescue false) # Vertex auth is ok
 
+NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
+
+
 Rails.application.configure do
 
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
