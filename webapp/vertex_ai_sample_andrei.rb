@@ -11,6 +11,7 @@ require_relative 'webapp/lib/monkey_patching/langchain_messages_patcher.rb'
 
 # It's in lib/monkey_patching/ now :)
 
+# include MonkeyPatching::LangchainMessagesPatcher
 # class Langchain::Messages::GoogleGeminiMessage
 #   def to_s
 #      ...

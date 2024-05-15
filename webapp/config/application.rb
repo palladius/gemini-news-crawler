@@ -29,9 +29,8 @@ module Webapp
     #config.eager_load_paths << Rails.root.join('lib')
     #config.autoload_lib(ignore: %w[tasks assets])
 
-    Dir[Rails.root + 'lib/monkey_patching/*.rb'].each {|file| require file }
-
-
+    # This doesn't work in PROD: https://stackoverflow.com/questions/60814100/uninitialized-constant-error-when-switching-to-zeitwerk
+    # Dir[Rails.root + 'lib/monkey_patching/*.rb'].each {|file| require file rescue nil } rescue nil
 
   end
 end
