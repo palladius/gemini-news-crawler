@@ -19,6 +19,7 @@
     <!-- Typical problems:
             429 - HTTPTooManyRequests
     -->
-        <%= render 'pages/assistant_demo_show' rescue "E2387465 Some Assistant Exception: '#{$!}'" %>
+    <%#= render 'pages/assistant_demo_show' rescue "E2387465 Some Assistant Exception: '#{$!}'" %>
+    <%= render 'pages/assistant_demo_show' %>
     <% end %>
 </div>
