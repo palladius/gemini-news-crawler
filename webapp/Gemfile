@@ -24,9 +24,7 @@ gem 'gemini-ai' # For Gemini
 # gem install unicode -- --with-cflags="-Wno-incompatible-function-pointer-types"
 # From: https://stackoverflow.com/questions/6761670/is-there-any-way-to-change-gcc-compilation-options-for-a-gem
 # [NOT TESTED] bundle config build.unicode --with-cflags=\"-Wno-incompatible-function-pointer-types\"
-#gem 'langchainrb', '~> 0.12.1'
-gem 'langchainrb', '~> 0.12.1'
-#gem "langchainrb", path: '../../langchainrb-pr513-v1/'
+gem 'langchainrb', '~> 0.13.0'
 #gem 'google-apis-aiplatform_v1' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'faraday' # for Ollama
@@ -104,5 +102,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "langchainrb", "~> 0.13.0"
 gem "dotenv-rails"

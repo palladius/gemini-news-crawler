@@ -384,8 +384,8 @@ DEPENDENCIES
   chartkick
   debug
   delayed_job_active_record
-  faraday
   dotenv-rails
+  faraday
   feedjira
   gemini-ai
   google-apis-aiplatform_v1 (~> 0.23.0)
