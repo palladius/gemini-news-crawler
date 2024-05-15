@@ -3,7 +3,11 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.0'
+  VERSION = '1.2'
+
+  # v1.2 Add EMOJI so AI finds emoji for me and I can just put somewhere easy to parse :)
+  # v1.1 GUID is now the Link. Also fixing macro-region
+  # v1.0 First version from Andrei
 
   # Initialize the ArticleTool
   def initialize
@@ -18,6 +22,8 @@ class ArticleTool < Langchain::Tool::Base
   # @param link [String] the link to the article
   # @param published_date [String] the published date of the article
   # @param language [String] the language of the article
+  # @param country [String] the country of the article (whatever that means)
+  # @param country_emoji [String] the emoji of the flag of the country chosen
   # @return [Hash] the id of the created article
   def create(
     title:,
@@ -26,7 +32,9 @@ class ArticleTool < Langchain::Tool::Base
     author:,
     link:,
     published_date:,
-    language:
+    language:,
+    country:,
+    country_emoji:
   )
     article = Article.create(
       title: title,
@@ -36,9 +44,16 @@ class ArticleTool < Langchain::Tool::Base
       link: link,
       published_date: published_date,
       language: language,
-      guid: SecureRandom.uuid, # maybe link itself
+      #guid: SecureRandom.uuid, # maybe link itself
+      guid: link,
+      newspaper: link.split('/')[2], # https://www.begeek.fr/google -> "www.begeek.fr"
       macro_region: 'gemini-fun-call',
-      ricc_internal_notes: "Created through Andrei's amazing ArticleTool #{NAME} v#{VERSION}.",
+      ricc_internal_notes: "Created through Andrei's amazing ArticleTool #{NAME} v#{VERSION}.
+        parsable_blurb = {
+          country: '#{country}',
+          country_emoji: '#{country_emoji}',
+        }
+      ",
       ricc_source: 'Gemini FunctionCalling',
     )
 

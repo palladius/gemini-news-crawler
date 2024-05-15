@@ -34,6 +34,14 @@
           "language": {
             "type": "string",
             "description": "Article language (2 letters)"
+          },
+          "country": {
+            "type": "string",
+            "description": "Country the article refers to (whatever makes more sense to you: the newspaper location, the country where they speak the language, or the country where the facts happen)"
+          },
+          "country_emoji": {
+            "type": "string",
+            "description": "Country flag emoji - emoji of the country you chose in 'country' field"
           }
         },
         "required": ["title", "summary", "content", "author", "link", "published_date", "language"]

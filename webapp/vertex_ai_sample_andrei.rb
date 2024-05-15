@@ -43,7 +43,7 @@ assistant = Langchain::Assistant.new(
 x = assistant.add_message_and_run content:"What are the latest news from Google I/O?", auto_tool_execution: true
 puts(x)
 # Inspect the messages
-puts assistant.thread.messages
+# puts assistant.thread.messages
 
 # last message
 puts assistant.thread.messages.last.content
