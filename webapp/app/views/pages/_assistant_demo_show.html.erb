@@ -19,7 +19,8 @@ llm = Langchain::LLM::GoogleVertexAI.new(
 thread = Langchain::Thread.new
 
 # Instantiate tools
-news_retriever = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
+#news_retriever = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
+news_retriever  = NewsRetriever # instanziato da mo'.
 article_tool = ArticleTool.new
 
   #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
@@ -31,7 +32,7 @@ assistant = Langchain::Assistant.new(
   tools: [news_retriever, article_tool]
 )
 
-#@x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
+# @x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
 @x = assistant.add_message_and_run( content: @query, auto_tool_execution: true)
 @answer1_position = @x.size # So I can print THIS response
 @y = assistant.add_message_and_run(content: "Cool! Please save the first retrieved article to the DB", auto_tool_execution: true) rescue []
