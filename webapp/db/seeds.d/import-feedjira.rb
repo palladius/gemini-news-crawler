@@ -24,7 +24,7 @@ end
 
 dir = File.dirname(__FILE__) + FeedJiraSubdir
 unless Dir.exist?(dir)
-  puts "🎯  ERROR - doesnt seem a dir: #{dir}. Since this could be running in docker - Im gonna scoop the CGB way"
+  puts "🎯  ERROR - doesnt seem a dir: #{dir}. Since this could be running in docker - Im gonna scoop NICELY the CGB way"
   return
 end
 
