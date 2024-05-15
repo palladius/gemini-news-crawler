@@ -55,15 +55,15 @@ assistant = Langchain::Assistant.new(
         <tr class="hover:bg-blue-50">
           <td class="border border-slate-300 p-2">
             <tt><%#= ix %>
-                <%= render_assistant_role(msg.role) rescue 'role_err' %>
+                <%= render_assistant_role(msg.role).html_safe rescue 'role_err' %>
                 <%= msg.role rescue 'role_err' %>
             </tt>
           </td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-            <pre><%= render_assistant_message(msg) rescue "render_assistant_message ERR: #{$!}" %></pre>
+            <pre><%= render_assistant_message(msg).html_safe rescue "render_assistant_message ERR: #{$!}" %></pre>
           </td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
-            <pre><%= msg.content.force_encoding("UTF-8") rescue "content_err: #{$!}" %></pre>
+            <pre><%= msg.content.force_encoding("UTF-8").html_safe rescue "content_err: #{$!}" %></pre>
           </td>
           <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
             <pre><%= msg.inspect rescue 'inspect_err' %></pre>

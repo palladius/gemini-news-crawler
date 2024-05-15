@@ -11,10 +11,17 @@ module AssistantHelper
 
   def content_tag_with_color(role, msg, role_color = "violet-700", msg_color = "cyan-500")
     content = msg.content rescue msg.inspect
-    content_tag(:div, class: "flex items-center") do
+    ret = content_tag(:div, class: "flex items-center") do
       content_tag(:span, render_assistant_role(role), class: "text-#{role_color} mr-2").html_safe +
       content_tag(:span, content.force_encoding("UTF-8").strip, class: "text-#{msg_color}").html_safe
-    end.html_safe
+    end
+    article_id_scan = content.scan(/{:id=>(\d+)}/) # => [["10342"]]
+    if article_id_scan.size == 1 and article_id_scan[0].is_a? Array
+      article_id = article_id_scan[0][0]
+      url = url_for(controller: 'articles', action: 'show', id: article_id)
+      ret += "<b>Bingo! We just created a new 📰 Article! #{link_to "##{article_id}", url} </b>".html_safe
+    end
+    ret.html_safe
   end
 
   # render_assistant_message ERR: undefined method `content' for "<span class=\"text-red-500\">article_tool__create</span> => [\"Title has already been taken\", \"Guid has already been taken\"]":String
