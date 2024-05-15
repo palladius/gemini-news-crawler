@@ -7,47 +7,10 @@
 
 <%= render partial: 'pages/gcp_rubyenv' rescue "Error with GCP RubyEnv" %>
 
-
-<%= render partial: 'pages/gcp_gemini' rescue "Error with GCP Gemini" %>
+<%= render partial: 'pages/gcp_gemini' # rescue "Error with GCP Gemini"
+%>
 
 <h1 class="font-bold text-4xl">☁️ GCP side</h1>
 
-<h2>Some GCP stuff</h2>
-
-<p>
-  ☁️ GOOGLE_APPLICATION_CREDENTIALS: <%= gac or '🤷 not found' %>
-</p>
-<% if gac %>
-  <p>
-    ☁️ Can i read the file '<%= gac %>' ? If so this is the byte size:
-      <b>
-        <%=File.exist?(gac) ? File.size(gac) : 'File doesnt exist'  %>
-      </b>
-  </p>
-<% end %>
-<p>
-  ☁️ BUCKET_NAME: gs://<%= ENV.fetch 'BUCKET_NAME', '🤷 not found' %>
-</p>
-
-<h2>TODOs</h2>
-<ul>
-  <li>☁️ Add Cloud Run IAP</li>
-</ul>
-
-<% if bucket and gac %>
-<h2>Gcloud 🧪 experiments!</h2>
-
-<p>
-  ☁️ Since we both have GAC and a buckets, let's read the GCS bucket ingo!
-</p>
-<p>
-  ☁️ TODO listing for 🪣 <%= bucket %><br/>
-  <% listing.each do |file| %>
-    💾 <tt><%= file %></tt><br/>
-  <% end if listing.is_a? Array %>
-</p>
-<% end %>
-
-<p>Content of Latest Manifest: TODO</p>
-
-</div>
+Currently working on more important stuff - hence pausing this.
+TODO: `webapp/app/views/pages/_gcp_gcsstuff.html.erb`

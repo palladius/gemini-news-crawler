@@ -1,0 +1,36 @@
+<%
+  @title ||= 'My Awesome Key-Value Data (changeme)'
+%>
+<table class="w-full table-auto border-collapse border border-slate-400">
+    <caption class="text-center text-xl font-semibold bg-gray-200 p-2"><%= @title %></caption>
+    <thead>
+      <tr>
+        <th class="border border-slate-300 p-2">🔑 Key</th>
+        <th class="border border-slate-300 p-2">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-slate-300 p-2 bg-green-100"><tt>🔑</tt></td>
+        <td class="border border-slate-300 p-2 bg-green-100">1. Small Values</td>
+      </tr>
+      <% @interesting_data_short.each do |k,v| %>
+        <tr class="hover:bg-green-50">
+          <td class="border border-slate-300 p-2"><tt><%= k %></tt></td>
+          <td class="border border-slate-300 p-2"><b><%= v %></b></td>
+        </tr>
+      <% end %>
+      <tr>
+        <td class="border border-slate-300 p-2 bg-blue-100"><tt>🔑</tt></td>
+        <td class="border border-slate-300 p-2 bg-blue-100">2. Big Values</td>
+      </tr>
+      <% @interesting_data_long.each do |k,v| %>
+        <tr class="hover:bg-blue-50">
+          <td class="border border-slate-300 p-2"><tt><%= k %></tt></td>
+          <td class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
+            <%= v %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
