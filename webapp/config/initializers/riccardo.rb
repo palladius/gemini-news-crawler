@@ -42,7 +42,10 @@ VertexAuthTokenLength = VertexLLM.authorizer.fetch_access_token['access_token'].
 
 # Old
 NewsRetrieverENV = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
-NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: Rails.application.credentials.env.NEWSAPI_COM_KEY )
+# in cloud Build I get this error:
+# NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: Rails.application.credentials.env.NEWSAPI_COM_KEY )
+# NoMethodError: undefined method `NEWSAPI_COM_KEY' for nil:NilClass (NoMethodError)
+NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: (Rails.application.credentials.env.fetch(:NEWSAPI_COM_KEY, nil) rescue "error #{$!}") )
 
 Rails.application.configure do
 
