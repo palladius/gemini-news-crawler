@@ -14,6 +14,9 @@
         "VertexLLM.authorizer.fetch_access_token!": (VertexLLM.authorizer.fetch_access_token! rescue $!),
         OllamaLLM: OllamaLLM,
         NewsRetriever: NewsRetriever,
+        NewsRetrieverENV: NewsRetrieverENV,
+        NewsRetriever_key_initials: NewsRetriever.inspect.match(/api_key=....../)[0],
+        NewsRetrieverENV_key_initials:  NewsRetrieverENV.inspect.match(/api_key=....../)[0],
         'bundle info langchainrb (path only)': `bundle info langchainrb|grep Path:` ,
         'bundle info googleauth (path only)': `bundle info googleauth|grep Path:` ,
 

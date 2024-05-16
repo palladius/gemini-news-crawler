@@ -27,11 +27,15 @@
         </button>
       </form>
     </div>
-</header>
+  </header>
 
 <div class="bg-gray-700 text-white px-4 py-2 flex justify-center items-center space-x-4">
-  <a href="/articles/#{Article.last.id}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">🆗 Demo 1: Embeddings + Recommendation</a>
-  <a href="/smart_queries" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">🚯 Demo 2: RAG-azzi</a>
-  <a href="/demos/news-retriever" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">🚯 Demo 3: NewRetriever</a>
-  <a href="/pages/assistant" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">[meh] Demo 4: NewsRetrieve+Save</a>
+  <a href="/articles/<%= Article.last.id rescue 42 %>" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    🆗 Demo 1: Embeddings + Recommendation</a>
+  <a href="/smart_queries" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+    🚯 Demo 2: RAG-azzi</a>
+  <a href="/demos/news-retriever" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
+    🚯 Demo 3: NewRetriever</a>
+  <a href="/pages/assistant" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+    [meh] Demo 4: NewsRetrieve+Save</a>
 </div>

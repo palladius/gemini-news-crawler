@@ -75,10 +75,26 @@ cloud-deploy-setup:
 
 # https://discuss.rubyonrails.org/t/rails-master-key-and-per-environment-init/82615
 # My MASTER)_KEY is in ENV now.
-credentials-edit:
-	bin/rails credentials:edit -e production
+
+# Esempio di come fare la get:
+# - Rails.application.credentials.env (tutto il mio oro)
+# - Rails.application.credentials.env.NEWSAPI_COM_KEY
+###############################################################
+# Geminews PROD
+###############################################################
+#
+# Esempio di come fare la get:
+# - Rails.application.credentials.env (tutto il mio oro)
+# - Rails.application.credentials.env.NEWSAPI_COM_KEY
+###############################################################
+
+credentials-edit-prod :
+#	bin/rails credentials:edit -e production
+	RAILS_ENV=production EDITOR="code --wait" rails credentials:edit
+
 credentials-edit-dev:
-	bin/rails credentials:edit -e development
+#bin/rails credentials:edit -e development
+	RAILS_ENV=development EDITOR="code --wait" rails credentials:edit
 
 
 build: docker-build
