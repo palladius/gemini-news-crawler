@@ -1,4 +1,13 @@
-2024-05-16 v0.3.17 [OPS] Testing Neha fix.
+## Open bugs
+
+* b/101 NewsRetriever doesnt work on CloudRun. Cant seemt o find ENV. I'm considering using the builtin cryptic config instead.
+* b/102 Doesnt work on GCE - yet. getting there thanks to Neha
+
+
+## Changelog
+
+2024-05-16 v0.3.17 [DEV] Testing Neha fix.
+2024-05-16 v0.3.17 [DEV] Testing Neha fix.
 2024-05-15 v0.3.16 [OPS] Added NewsRetriever so i can troubleshoot without LLMs.
                          Also added Gemini key to secret creds file.
 2024-05-15 v0.3.15 [OPS] Added NewsAPI Key since i only had it in local but not in prod! Now Gemini is working great so this is the last part missing!
