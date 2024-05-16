@@ -2,10 +2,11 @@
 
 * b/101 NewsRetriever doesnt work on CloudRun. Cant seemt o find ENV. I'm considering using the builtin cryptic config instead.
 * b/102 Doesnt work on GCE - yet. getting there thanks to Neha
-
+* bad encoding http://localhost:3000/articles/10346. note \342\200\231 is a '!
 
 ## Changelog
 
+2024-05-16 v0.3.21 [DEV] Testing better caching of Articles.
 2024-05-16 v0.3.20 [DEV] NewsRetriever is now getting keys from internal encrypted file, not from ENV.
 2024-05-16 v0.3.19 [OPS] Moving Mem from 2gb to 3gb
 2024-05-16 v0.3.18 [DEV] Testing Neha fix.

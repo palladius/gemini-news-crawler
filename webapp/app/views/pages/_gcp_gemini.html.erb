@@ -15,8 +15,8 @@
         OllamaLLM: OllamaLLM,
         NewsRetriever: NewsRetriever,
         NewsRetrieverENV: NewsRetrieverENV,
-        NewsRetriever_key_initials: NewsRetriever.inspect.match(/api_key=....../)[0],
-        NewsRetrieverENV_key_initials:  NewsRetrieverENV.inspect.match(/api_key=....../)[0],
+        NewsRetriever_key_initials: (NewsRetriever.inspect.match(/api_key=....../)[0] rescue $!),
+        NewsRetrieverENV_key_initials: (NewsRetrieverENV.inspect.match(/api_key=....../)[0] rescue $!),
         'bundle info langchainrb (path only)': `bundle info langchainrb|grep Path:` ,
         'bundle info googleauth (path only)': `bundle info googleauth|grep Path:` ,
 
