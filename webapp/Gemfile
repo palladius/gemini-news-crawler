@@ -32,6 +32,7 @@ gem "googleauth"
 #gem 'google-apis-aiplatform_v1' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'faraday' # for Ollama
+gem 'lolcat' # Life is too short without colors
 #gem 'ruby-openai' # for OpenAI
 # /Riccardo end
 ################################
