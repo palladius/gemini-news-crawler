@@ -10,6 +10,8 @@
         VertexLLMAuthenticatedDerekOnly: VertexLLMAuthenticatedDerekOnly,
         GeminiLLM: GeminiLLM,
         VertexLLM: VertexLLM,
+        "VertexLLM.authorizer.token_type": (VertexLLM.authorizer.token_type rescue :Error),
+        "VertexLLM.authorizer.fetch_access_token!": (VertexLLM.authorizer.fetch_access_token! rescue $!),
         OllamaLLM: OllamaLLM,
         NewsRetriever: NewsRetriever,
         'bundle info langchainrb (path only)': `bundle info langchainrb|grep Path:` ,

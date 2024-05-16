@@ -43,8 +43,8 @@ class Langchain::LLM::GoogleVertexAI
     #   ::Google::Auth.get_application_default(scope=scopes) :
     #   # non GCE - will accept the scopes
     #   ::Google::Auth.get_application_default(scope: scopes)
-    #   #################################################################
-    # Neha fix
+      #################################################################
+    #Neha fix
     @authorizer = ::Google::Auth.get_application_default(scopes)
 
 

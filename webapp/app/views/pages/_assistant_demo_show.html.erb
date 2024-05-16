@@ -25,18 +25,19 @@ article_tool = ArticleTool.new
 
   #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
 
-assistant = Langchain::Assistant.new(
+@assistant = Langchain::Assistant.new(
   llm: llm,
   thread: thread,
   instructions: "You are a News Assistant.",
   tools: [news_retriever, article_tool]
 )
 
-# @x = assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
-@x = assistant.add_message_and_run( content: @query, auto_tool_execution: true)
+# @x = @assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
+@x = @assistant.add_message_and_run( content: @query, auto_tool_execution: true)
 @answer1_position = @x.size # So I can print THIS response
-@y = assistant.add_message_and_run(content: "Cool! Please save the first retrieved article to the DB", auto_tool_execution: true) rescue []
-@answer2_position = @y.size # So I can print THIS response
+@y = @assistant.add_message_and_run(content: "Please save the first article to the DB", auto_tool_execution: true) rescue "Error('#{$!}')"
+# rescue []
+@answer2_position = @y.size rescue 0 # So I can print THIS response
 
 %>
 <table class="w-full table-auto border-collapse border border-slate-400">
@@ -52,7 +53,7 @@ assistant = Langchain::Assistant.new(
         <td class="border border-slate-300 p-2 bg-green-100"><tt>Role</tt></td>
         <td class="border border-slate-300 p-2 bg-green-100">Conversation</td>
       </tr>
-      <% assistant.thread.messages.each_with_index do |msg,ix| %>
+      <% @assistant.thread.messages.each_with_index do |msg,ix| %>
         <tr class="hover:bg-blue-50">
           <td class="border border-slate-300 p-2">
             <tt><%#= ix %>
@@ -80,16 +81,16 @@ assistant = Langchain::Assistant.new(
 
     <div class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
       <b>Answer to Q1: article search</b><br/>
-        <%= render_assistant_message assistant.thread.messages[@answer1_position+1] rescue "Err123 #{$!}" %>
+        <%= render_assistant_message @assistant.thread.messages[@answer1_position+1] rescue "Err123 #{$!}" %>
     </div>
     <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
       <b>Answer to Q2: add article to ActiveRecord</b><br/>
       <% if @answer2_position > 0 %>
-        <%= render_assistant_message assistant.thread.messages[@answer2_position+1] rescue "Err124 #{$!}" %>
-        <%#= assistant.thread.messages[@answer2_position+1].content.force_encoding("UTF-8") rescue "Err124 #{$!}" %>
+        <%= render_assistant_message @assistant.thread.messages[@answer2_position+1] rescue "Err124 #{$!}" %>
+        <%#= @assistant.thread.messages[@answer2_position+1].content.force_encoding("UTF-8") rescue "Err124 #{$!}" %>
       <% else %>
         ❌ Some error hence showing last msg (answer2_position=<%= @answer2_position %>)<br/>
-        <%= render_assistant_message(assistant.thread.messages.last) %>
+        <%= render_assistant_message(@assistant.thread.messages.last) %>
       <% end  %>
     </p>
 
