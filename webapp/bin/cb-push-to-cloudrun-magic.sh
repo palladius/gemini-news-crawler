@@ -129,7 +129,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
     beta run deploy "$APP_TO_DEPLOY" \
       --image  "$UPLOADED_IMAGE_WITH_VER" \
       --platform managed \
-      --memory "2048Mi" \
+      --memory "3072Mi" \
       --region "$GCLOUD_REGION" \
       --set-env-vars='description=created-from-bin-slash-cb-push-to-cloudrun-sh' \
       --set-env-vars="GIT_STATE=$GIT_STATE" \

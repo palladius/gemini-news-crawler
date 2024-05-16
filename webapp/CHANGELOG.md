@@ -6,7 +6,8 @@
 
 ## Changelog
 
-2024-05-16 v0.3.17 [DEV] Testing Neha fix.
+2024-05-16 v0.3.19 [OPS] Moving Mem from 2gb to 3gb
+2024-05-16 v0.3.18 [DEV] Testing Neha fix.
 2024-05-16 v0.3.17 [DEV] Testing Neha fix.
 2024-05-15 v0.3.16 [OPS] Added NewsRetriever so i can troubleshoot without LLMs.
                          Also added Gemini key to secret creds file.

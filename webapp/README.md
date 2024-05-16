@@ -12,15 +12,18 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 Deployment:
+
 * dockerized in.. `Dockerfile` and launched through `entrypoint-8080.sh`
 * Cloud Build (auto): https://console.cloud.google.com/cloud-build/builds?project=palladius-genai
-* Launched in:
-* DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
-* PROD: https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/
+* Launched on Cloud Run (both in `europe-west1`):
+    * DEV: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/
+    * PROD: https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/
 * Runs as compute SvcAcct: `272932496670-compute@developer.gserviceaccount.com`. Needs:
-    * Storage Admin
-    * Vertex AI administrator
-*
+    * `Storage Admin`
+    * `Vertex AI administrator`
+* Postgres:
+    * PROD: `pg-prod` in `europe-west6`
+    * DEV:  `pg-dev` in `europe-north1`
 
 ## Incidents
 

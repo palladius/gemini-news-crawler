@@ -7,7 +7,7 @@ ruby "3.2.2"
 # Riccardo start
 gem "sqlite3", "~> 1.4" # just for test
 gem 'feedjira'
-gem 'lolcat' # useless but..
+gem 'lolcat' # Life is too short without colors
 gem 'google-cloud-storage'
 gem 'matrix' # to play wtih matrices ..
 gem 'neighbor' # to cal;culate similarity: https://www.crunchydata.com/blog/ruby-on-rails-neighbor-gem-for-ai-embeddings
@@ -32,7 +32,6 @@ gem "googleauth"
 #gem 'google-apis-aiplatform_v1' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'faraday' # for Ollama
-gem 'lolcat' # Life is too short without colors
 #gem 'ruby-openai' # for OpenAI
 # /Riccardo end
 ################################
