@@ -21,8 +21,22 @@ puts("🐒🐒🐒 webapp/config/initializers/riccardo_monkey_patching.rb 🐒�
 # Had to change the embed..
 #
 
-# class Google::Auth::GCECredentials
-#   def project_id
-#     'palladius-genai' # TODO move to ENV[] ma lo posso testare solo a manhouse..
-#   end
-# end
+#
+# This is needed otherwise in cloud run I ghet this error:
+# UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: undefined method `authenticated?'
+# for "VertexLLM Error('undefined method `project_id' for #<Google::Auth::GCECredentials:0x00003e55f787dc10
+#   @universe_domain_overridden=false, @authorization_uri=nil, @token_credential_uri=nil, @client_id=nil, @client_secret=nil,
+#   @code=nil, @expires_at=nil, @issued_at=nil, @issuer=nil, @password=nil, @principal=nil, @redirect_uri=nil,
+#   @scope=[\"https://www.googleapis.com/auth/cloud-platform\", \"https://www.googleapis.com/auth/generative-language.retriever\"],
+#   @target_audience=nil, @state=nil, @username=nil, @access_type=:offline, @granted_scopes=nil, @expiry=60,
+#   @extension_parameters={}, @additional_parameters={}>')":String
+#
+#
+class Google::Auth::GCECredentials
+  # monkeypatched AF, I know!
+  def project_id
+    default_project_id = 'palladius-genai' # TODO move to ENV[] ma lo posso testare solo a manhouse..
+    ENV.fetch 'PROJECT_ID', default_project_id
+  end
+
+end
