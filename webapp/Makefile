@@ -81,7 +81,7 @@ cloud-deploy-setup:
 # - Rails.application.credentials.env.NEWSAPI_COM_KEY
 
 
-credentials-edit-prod :
+credentials-edit-prod:
 #	bin/rails credentials:edit -e production
 	RAILS_ENV=production EDITOR="code --wait" rails credentials:edit
 
