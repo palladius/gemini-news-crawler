@@ -1,19 +1,26 @@
 <h2 class="text-2xl font-semibold mb-2">🔎 @query: '<%= @query %>'</h2>
 
 <p class="text-base leading-relaxed">Back to <%= link_to "Assistant demo home", '/pages/assistant' %> .</p>
+<p class="text-base leading-relaxed">LLM: <%= llm.class.to_s %></p>
+<p class="text-base leading-relaxed">LLM authenticated?: <%= llm.authenticated? %></p>
+<p class="text-base leading-relaxed">LLM description: <%= llm_description %></p>
+
 
 <%
-
+#return "todo stiamo facendo l italia qui. llm = #{llm}"
 # todo optimize...
 
-#llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
-llm = Langchain::LLM::GoogleVertexAI.new(
-    project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
-    region: "us-central1",
-    default_options: {
-      chat_completion_model_name: "gemini-1.5-pro-latest",
-    }
-)
+   #llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
+
+if (llm.authenticated?)
+
+#llm = Langchain::LLM::GoogleVertexAI.new(
+#    project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
+#    region: "us-central1",
+#    default_options: {
+#      chat_completion_model_name: "gemini-1.5-pro-latest",
+#    }
+#)
 
 ## Create a new Thread to keep track of the messages
 thread = Langchain::Thread.new
@@ -106,3 +113,6 @@ article_tool = ArticleTool.new
 <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
     Person text @answer2_position = <%= @answer2_position %>
 </p>
+<% else %>
+  Sorry, looks like this LLM is not authenticated. It would make a barbina figure to call APIs over it.
+<% end %>

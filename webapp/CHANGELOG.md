@@ -6,6 +6,7 @@
 
 ## Changelog
 
+2024-05-17 v0.3.24 [DEV] Testing triptic demo4 - wow both gemini and vertex.
 2024-05-17 v0.3.23 [DEV] Implementing Neha @authorizer authentication in both.
 2024-05-17 v0.3.22 [DEV] Checking if moneky patching order DOES matter before my riccardo LLM initializer.
 2024-05-16 v0.3.21 [DEV] Testing better caching of Articles.
