@@ -7,9 +7,11 @@
 #Wrong:
 # expected: Image 'europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler-manhouse/gemini-news-crawler-manhouse:latest' not found.
 #  reality:        europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler/gemini-news-crawler
+#
+# 17may24  2.0.3   added project_id
 #####################################################################################################
 
-export DEPLOY_VERSION='2.0.2'
+export DEPLOY_VERSION='2.0.3'
 
 if [ -f .envrc ] ; then
   echo Looks like youre local since I see your envrc.
@@ -142,6 +144,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="DATABASE_URL_DEV=$DATABASE_URL_DEV" \
       --set-env-vars="DATABASE_URL_PROD=$DATABASE_URL_PROD" \
       --set-env-vars="NEWSAPI_COM_KEY=$NEWSAPI_COM_KEY" \
+      --set-env-vars="PROJECT_ID=$PROJECT_ID" \
       --set-env-vars="GEMINI_KEY=$GEMINI_KEY" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \
