@@ -79,14 +79,7 @@ cloud-deploy-setup:
 # Esempio di come fare la get:
 # - Rails.application.credentials.env (tutto il mio oro)
 # - Rails.application.credentials.env.NEWSAPI_COM_KEY
-###############################################################
-# Geminews PROD
-###############################################################
-#
-# Esempio di come fare la get:
-# - Rails.application.credentials.env (tutto il mio oro)
-# - Rails.application.credentials.env.NEWSAPI_COM_KEY
-###############################################################
+
 
 credentials-edit-prod :
 #	bin/rails credentials:edit -e production
