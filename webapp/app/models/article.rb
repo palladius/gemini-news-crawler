@@ -28,6 +28,9 @@ class Article < ApplicationRecord
   scope :recent_enough, -> { where("created_at > ?", Date.yesterday.beginning_of_day) }
   # sneisble (sensato): Anythign that makes sense. For instance, if you have no macro egion youre notr probably worth reading.
   scope :sensible, -> { where.not('macro_region' => nil) }
+  scope :select_sensible_columns, ->{
+    # This needs to be FAST enough but also remove all SLOW stuff like HUGE embeddings
+    select(:id, :title, :macro_region, :created_at, :published_date, :guid, :summary, :link, :newspaper ) }
 
 
 
