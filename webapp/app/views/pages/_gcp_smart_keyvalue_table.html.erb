@@ -17,7 +17,7 @@
       <% @interesting_data_short.each do |k,v| %>
         <tr class="hover:bg-green-50">
           <td class="border border-slate-300 p-2"><tt><%= k %></tt></td>
-          <td class="border border-slate-300 p-2"><b><%= v %></b></td>
+          <td class="border border-slate-300 p-2"><b><%= v === true ? '✅ (Aladeen)' : (v === false ? '❌ (Aladeen)' : v) %></b></td>
         </tr>
       <% end %>
       <tr>

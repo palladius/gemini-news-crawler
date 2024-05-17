@@ -6,6 +6,7 @@
 
 ## Changelog
 
+2024-05-17 v0.3.23 [DEV] Implementing Neha @authorizer authentication in both.
 2024-05-17 v0.3.22 [DEV] Checking if moneky patching order DOES matter before my riccardo LLM initializer.
 2024-05-16 v0.3.21 [DEV] Testing better caching of Articles.
 2024-05-16 v0.3.20 [DEV] NewsRetriever is now getting keys from internal encrypted file, not from ENV.

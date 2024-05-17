@@ -31,8 +31,8 @@ GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.mat
 GeminiApiKeyLength = GeminiLLM.api_key.to_s.length rescue (-1)
 
 # This code is created by ricc patching manually langchain...
-GeminiLLMAuthenticatedDerekOnly = GeminiLLM.authenticated? rescue 'UnImplemented - Derek Only'
-VertexLLMAuthenticatedDerekOnly = VertexLLM.authenticated? rescue 'UnImplemented - Derek Only'
+GeminiLLMAuthenticated = GeminiLLM.authenticated? rescue "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$!}"
+VertexLLMAuthenticated = VertexLLM.authenticated? rescue "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$!}"
 
 
 VertexAuthenticated = !!(VertexLLM.authorizer.fetch_access_token rescue false)
