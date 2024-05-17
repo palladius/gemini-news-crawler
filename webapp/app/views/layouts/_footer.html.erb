@@ -3,10 +3,10 @@
   <span>&copy; <%= APP_NAME %> v<%= APP_VERSION %></span>
 
   <!-- takes too long -->
-  <%= render partial: 'layouts/latest_article_info' rescue "LatestArticleInfoError('#{$!}')" %>
+  <%= render partial: 'layouts/latest_article_info' rescue "No LatestArticle Available ('#{$!}')" %>
 
   <%= link_to "Dev🟡App", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %>
-  <%= link_to "Prd🟢App", 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/' %>
+  <%= link_to "Prod🟢App", 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/' %>
 
   <span>Env: <b><%= Rails.env %></b></span>
 </footer>

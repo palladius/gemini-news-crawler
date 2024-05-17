@@ -1,7 +1,8 @@
 class ApplicationController < ActionController::Base
   #include SetCurrentRequestDetails # Enable IAP once you have devise.
 
-  before_action :set_carlessian_variables
+  #before_action :set_carlessian_variables # needed only in Article controllers
+  before_action :set_freshest_article # needed in ALL controllers
 
   # @cache_expiry = Rails.env == 'development' ?
   #   10.seconds : # for dev
@@ -31,17 +32,7 @@ class ApplicationController < ActionController::Base
 
     # I need it in the footer, hence everywhere..
 #    @freshest_article = Article.select(&:published_date).sort_by(&:published_date).last(1)[0]
-    # Not cached
-    @freshest_article = Article.select(:published_date).order(:published_date).last
 
-    @freshest_article_cached ||= Rails.cache.fetch("freshest_article::v#{APP_VERSION}", expires_in: @cache_expiry ) do
-      # this takes 6 seconds!
-      #Article.sensible.select(&:published_date).sort_by(&:published_date).last(1)[0]
-      # this is much faster - 54ms
-      #Article.sensible.select(:published_date).order(:published_date).last
-      Article.sensible.select_sensible_columns.order(:published_date).last
-
-    end
 
     @cached_latest_n_articles ||= Rails.cache.fetch("latest_n_articles::v#{APP_VERSION}", expires_in: @cache_expiry ) do
       # This takes 7.1sec on Derek
@@ -62,8 +53,19 @@ class ApplicationController < ActionController::Base
       # 48ms
       Article.pluck(:macro_region).uniq
     end
+  end
 
+  def set_freshest_article
+      # Not cached
+      @freshest_article = Article.select_sensible_columns.order(:published_date).last
 
+      @freshest_article_cached ||= Rails.cache.fetch("freshest_article::v#{APP_VERSION}", expires_in: @cache_expiry ) do
+        # this takes 6 seconds!
+        #Article.sensible.select(&:published_date).sort_by(&:published_date).last(1)[0]
+        # this is much faster - 54ms
+        #Article.sensible.select(:published_date).order(:published_date).last
+        Article.sensible.select_sensible_columns.order(:published_date).last
+      end
   end
 
 end
