@@ -25,6 +25,7 @@ VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], re
 # VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
 GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
 OllamaLLM = Langchain::LLM::Ollama.new rescue nil
+PalmLLM = Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
 
 
 GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok

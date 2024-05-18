@@ -115,4 +115,20 @@ class Langchain::LLM::GoogleVertexAI
       end
     end
 
+    # yes it does
+    # (irb):3:in `<main>': Langchain::LLM::GoogleVertexAI does not support summarization (NotImplementedError)
+    def summarize(text:)
+      prompt_template = Langchain::Prompt.load_from_path(
+        file_path: Langchain.root.join("langchain/llm/prompts/summarize_template.yaml")
+      )
+      prompt = prompt_template.format(text: text)
+
+      complete(
+        prompt: prompt,
+        temperature: @defaults[:temperature],
+        # Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
+        max_tokens: 256
+      )
+    end
+
 end

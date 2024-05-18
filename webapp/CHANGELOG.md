@@ -6,6 +6,7 @@
 
 ## Changelog
 
+2024-05-18 v0.3.27 [DEV] Seby bday! Rispolverated Palm to summarize..
 2024-05-17 v0.3.26 [DEV] Added PROJECT_ID to the container
 2024-05-17 v0.3.25 [DEV] Better caching
 2024-05-17 v0.3.24 [DEV] Testing triptic demo4 - wow both gemini and vertex.

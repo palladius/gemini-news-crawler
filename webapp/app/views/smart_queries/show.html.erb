@@ -1,13 +1,28 @@
 <%
 # demo1
 @query ||= 'Riccardo Carlesso'
-@e =  GeminiAuthenticated ? (GeminiLLM.embed(text: @query).embedding) : nil
+#@e =  GeminiAuthenticated ? (GeminiLLM.embed(text: @query).embedding) : nil
+@e = GeminiLLM.embed(text: @query).embedding # nil
 # Possibilities:
 # 1. article_embedding, title_embedding, summary_embedding
 # 2. distance: euclidean, cosine, ?
 #closest_articles = Article.nearest_neighbors(:article_embedding, e, distance: "euclidean").first(5)
-@closest_articles = GeminiAuthenticated ? Article.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(10) : []
+#@closest_articles = GeminiAuthenticated ? Article.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(10) : []
+@closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6)
+@closest_articles_info = @closest_articles.map{|a| [a.id, a.title, a.author, a.neighbor_distance]}
 @query_info = "euclidean distance for article_embedding for query: '#{@query}'"
+@tmp = @closest_articles[0]
+
+@short_prompt = "You are a prompt summarizer. You need to answer this quesiton: '''#{@query}''' after reading the following articles which seem the most pertinent.
+Pay attention to the recency of the articles, since the date of articles is provided and today's date is #{Date.today}. More recent is better.
+
+Date of today: #{Date.today}
+Query: #{@query}
+
+Here are the #{@closest_articles.count} Articles:
+"
+
+@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.article}.join("\n\n")}"
 
 # non va
 #a = Article.find(10260)
@@ -22,6 +37,8 @@
 #}
 #a.article_embedding_description = embedding_description.to_s
 #a.save # FUNGE! Allora devo ricalcolare tutto cacchio.
+
+# Demo1
 
 # demo2
 %>
@@ -39,28 +56,40 @@
         Query type is: <b><%= @query_type %></b>
     </p>
 
-
-
     <h2 class="text-3xl mb-4 font-bold" >[demo1] Results from cached articles (RAG+ActiveRecord+Embeddings)</h2>
 
 
     Play with console and Langchainrb now!
 
-    <pre>
-        1. Calculate embedding of the query if not there already.
+    <p>1. Calculate embedding of the query if not there already. </p>
 
-            e = GeminiLLM.embed(text: "<%=@query%>").embedding
+        <%= render_prose("e = GeminiLLM.embed(text: '#{@query}').embedding") %>
 
-        2. Search closest articles.
+        Result:
 
-            Article.nearest_neighbors(:article_embedding, e, distance: "euclidean").first(5)
+        <tt><%= render_code_result @e.first(5) %>..</tt>
 
+    <p>2. Search closest articles. </p>
 
+        <%= render_prose("Article.nearest_neighbors(:article_embedding, e, distance: 'euclidean').first(5)") %>
+
+        Result:
+
+        <tt><%= render_code_result @closest_articles_info.first(2) %></tt>
+
+    <p>
+        <% @closest_articles_info.each do |id, title, author, distance| %>
+            📰 (dist=<%= (distance*100).round(1) %>) <b><%= link_to title, "/articles/#{id}" %></b> (<%= author %>)<br>
+        <% end if false %>
+    </p>
         3. RAG them into Langchain.
 
             TODO
 
-        4. Summarize. Add a prompt like:
+            <pre>
+
+
+        4. Summarize. Add a prompt like: blah
     </pre>
 
     <h3>Closest Articles to this embedding</h3>
@@ -72,41 +101,26 @@
 
     <h2>prompt in exemplo</h2>
 
-    <pre>
-    Answer this quesiton: <%= @query %> after reading the following articles which seem the most pertinent.
-    Pay attention to the recency of the articles, since the date of articles is provided and today's date is <%= Date.today %>
+    Here is the prompt:
 
-    ----
-    Articles
-    </pre>
-
-
-    <h2 class="text-3xl mb-4 font-bold" >[demo2] Live Results from Gemini + Function Calling (live OpenAPI call + proper prompting)</h2>
-
-    <pre>
-        1. Use Gemini f(x) calling with LangchainRb +
-        2. Use LangchainRb Tool 'NewsRetriever'
-        3. return news to UI.
-        4. Summarize. like
-
-        Short story (max 256 token):
-        GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
-
-        Long story (2048 tokens):
-        GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content']
-
-    </pre>
+    <%= render_prose "Here is the @short_prompt:\n----\n\n#{@short_prompt}\n...\n----\n (the augmented prompt is usually too long)" %>
 
     <div class="bg-blue-500 md:bg-green-500 p-4 rounded shadow-md">
         <div class="prose lg:prose-xl" >
-            <%#= GeminiLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').raw_response.predictions[0]['content']
-            # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/
-             %>
-            <% if GeminiAuthenticated %>
-                <%= GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content'] %>
+                <!--        # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/ -->
+            <% if (GeminiLLM.authenticated? rescue true) %>
+                <%#= GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content']
+                %>
+                <%= PalmLLM.sample_complete.output %>
+                <%= PalmLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').output
+                    # equivalent to: .raw_response['candidates'][0]['output']
+                    # returns a Langchain::LLM::GooglePalmResponse
+                %>
             <% else %>
                 <b>Sorry GeminiAuthenticated=false which means that probably we had issues authenticating Gemini</b>
             <% end %>
         </div>
     </div>
+
+aaa
 </div>
