@@ -1,4 +1,63 @@
-<h1>TODO </h1>
+<%
+#query = 'Pope'
+#query = 'Giorgia Meloni'
+query = 'Vinitaly'
+#query = 'Silvio Berlusconi'
+#query = 'Donald Trump'
+#query = 'Basketball'
+#query = 'Sinner'
+    # non va:
+    # * Giorgia Meloni
+    # Va solo con Trump
+#    news = NewsRetriever.get_top_headlines( q: query).to_s.force_encoding("UTF-8")
+    news = NewsRetriever.get_everything( q: query).to_s.force_encoding("UTF-8")
+    cmd = "NewsRetriever.get_everything( q: '#{query}')"
+    parsed_json = JSON.parse(news)
+    cmd_and_news = "# 💻 #{cmd}\n\n#{news}"
+%>
 
-qui metti una cosa banalissima che chiama il new retriever a muzzo senza AI.
+<div class="relative">
+    <h1>API call</h1>
+    <div class="fixed top-0 left-0 right-0">API Calls</div>
+    <div>
+
+        <%= render_prose cmd_and_news %>
+        <div>
+            <h1>Results</h1>
+        </div>
+        <div>
+            <h1>First Results</h1>
+            <%= render_prose parsed_json['articles'][0] %>
+<!--
+{"source"=>{"id"=>"cbs-news", "name"=>"CBS News"},
+ "author"=>"CBS News",
+ "title"=>"Trump to campaign in Minnesota after son's graduation",
+ "description"=>
+  "Former President Donald Trump heads to Minnesota to campaign Friday after his son Barron Trump's high school graduation. Trump obtained permission to attend the ceremony in a break from his \"hush money\" criminal trial in New York. CBS News politics reporter H…",
+ "url"=>"https://www.cbsnews.com/video/trump-campaign-minnesota-after-sons-barron-graduation/",
+ "urlToImage"=>
+  "https://assets1.cbsnewsstatic.com/hub/i/r/2024/05/17/cacd3c76-074e-4e53-b499-7b8ed5d7625c/thumbnail/1200x630/48f2fca202cf425eac0f84641e15a2ca/cbsn-fusion-trump-campaign-minnesota-after-sons-barron-graduation-thumbnail.jpg?v=dac66bdad19d0be8e87f46552b582682",
+ "publishedAt"=>"2024-05-17T18:51:00+00:00",
+ "content"=>"Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"}
+-->
+
+        </div>
+<% parsed_json['articles'].each do |h| %>
+    <!-- TODO move to partial webapp/app/views/pages/_demo_news_retriaval_article.html.erb -->
+        <div>
+            <%= image_tag h['urlToImage'], size: "350x250" %>
+            <strong>📰 <%= link_to h['title'],h['url'] %></strong>
+            (<%= h['publishedAt'].to_date %>)
+            <i><%= h['description'] %></i>
+        </div>
+<% end %>
+<!--
+        <div>
+            <img src="..." />
+            <strong>Debra Houston</strong>
+        </div>
+    -->
+      <!-- ... -->
+    </div>
+  </div>
 

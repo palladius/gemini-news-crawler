@@ -32,5 +32,10 @@ module Webapp
     # This doesn't work in PROD: https://stackoverflow.com/questions/60814100/uninitialized-constant-error-when-switching-to-zeitwerk
     # Dir[Rails.root + 'lib/monkey_patching/*.rb'].each {|file| require file rescue nil } rescue nil
 
+    ####
+    # Riccardo
+    # https://stackoverflow.com/questions/5286117/incompatible-character-encodings-ascii-8bit-and-utf-8
+    config.encoding = "utf-8"
+    #/ Riccardo
   end
 end
