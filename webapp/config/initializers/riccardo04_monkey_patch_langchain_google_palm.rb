@@ -23,6 +23,43 @@ class Langchain::LLM::GooglePalm
     )
   end
 
+  # client.list_models
+  # =>
+  # {"models"=>
+  #   [{"name"=>"models/chat-bison-001",
+  #     "version"=>"001",
+  #     "displayName"=>"PaLM 2 Chat (Legacy)",
+  #     "description"=>"A legacy text-only model optimized for chat conversations",
+  #     "inputTokenLimit"=>4096,
+  #     "outputTokenLimit"=>1024,
+  #     "supportedGenerationMethods"=>["generateMessage", "countMessageTokens"],
+  #     "temperature"=>0.25,
+  #     "topP"=>0.95,
+  #     "topK"=>40},
+  #    {"name"=>"models/text-bison-001",
+  #     "version"=>"001",
+  #     "displayName"=>"PaLM 2 (Legacy)",
+  #     "description"=>"A legacy model that understands text and generates text as an output",
+  #     "inputTokenLimit"=>8196,
+  #     "outputTokenLimit"=>1024,
+  #     "supportedGenerationMethods"=>["generateText", "countTextTokens", "createTunedTextModel"],
+  #     "temperature"=>0.7,
+  #     "topP"=>0.95,
+  #     "topK"=>40},
+  #    {"name"=>"models/embedding-gecko-001",
+  #     "version"=>"001",
+  #     "displayName"=>"Embedding Gecko",
+  #     "description"=>"Obtain a distributed representation of a text.",
+  #     "inputTokenLimit"=>1024,
+  #     "outputTokenLimit"=>1,
+  #     "supportedGenerationMethods"=>["embedText", "countTextTokens"]}]}
+
+  def authenticated?
+    #:boh
+    # i cant auth but thjis returns an API call so its a good thing
+    client.list_models.key?( 'models') rescue false
+  end
+
 end
 
 
