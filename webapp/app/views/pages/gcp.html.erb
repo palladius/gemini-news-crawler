@@ -5,9 +5,8 @@
 %>
 <div>
 
-<%= render partial: 'pages/gcp_gemini' # rescue "Error with GCP Gemini"
-%>
-
+<%= render partial: 'pages/gcp_stats' %>
+<%= render partial: 'pages/gcp_gemini' %>
 <%= render partial: 'pages/gcp_rubyenv' rescue "Error with GCP RubyEnv" %>
 
 

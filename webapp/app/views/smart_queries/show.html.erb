@@ -137,8 +137,7 @@ Here are the #{@closest_articles.count} Articles:
         <div class="prose lg:prose-xl" >
                 <!--        # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/ -->
             <% if (GeminiLLM.authenticated? rescue true) %>
-                lets save api tokens..
-                <%#= PalmLLM.sample_complete.output %>
+                <%= PalmLLM.sample_complete.output %>
                 <%#= PalmLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').output %>
             <% else %>
                 <b>Sorry GeminiAuthenticated=false which means that probably we had issues authenticating Gemini</b>

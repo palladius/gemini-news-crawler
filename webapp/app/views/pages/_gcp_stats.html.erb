@@ -1,0 +1,72 @@
+<%
+  @latest_article = Article.last
+
+  @interesting_data_short = {
+        '🌱 RAILS_ENV': ENV['RAILS_ENV'],
+        "🔑 Rails.application.credentials['ricc-passwords']['fake-pwd']": Rails.application.credentials['ricc-passwords']['fake-pwd'],
+        "🔑 Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'].first(5)":
+          Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'].first(5),
+        "🔑 Rails.application.credentials['ricc-passwords']['description']":
+            Rails.application.credentials['ricc-passwords']['description'],
+        '🌱  ENV-like keys (sorted)': Rails.application.credentials['env'].keys.sort.join(',') ,
+
+  '🌱  ENV-like keys':
+      Rails.application.credentials['env'].keys,
+  '🌱  ENV-like PROJECT_ID':
+      Rails.application.credentials['env']['PROJECT_ID'],
+  '🌱  ENV-like BUCKET_NAME':
+      Rails.application.credentials['env']['BUCKET_NAME'],
+  '🌱🔐 RailsCredEnv':
+    RailsCredEnv.keys ,
+  '🌱🔐 RailsCredEnv[BUCKET_NAME]':
+    (RailsCredEnv['BUCKET_NAME'] rescue 'nadaa') ,
+    # 🧪 DB stuff
+  '🧪 AR Config dev[0].url':
+      ActiveRecord::Base.configurations.configs_for(env_name: 'development')[0].url.to_s.gsub(/\/\/.*\//, '//.../'),
+      'Newest Article (local time)':
+        "#{@latest_article.published_date.localtime} (#{time_ago_in_words(@latest_article.published_date)} ago)",
+  '🍅  @freshest_article_cached': # @freshest_article_cached ,
+      fancy_link_to(@freshest_article_cached,@freshest_article_cached),
+  'proiva link css':
+      '<a href="#" class="prose-a no-underline hover:underline hover:text-blue-400">Your Link Text</a>'.html_safe,
+
+  "# #{EmbeddingEmoji} Articles with Fake Embeddings (title_embedding)":
+        Article.find_all_with_fake_embeddings.count,
+  "# #{EmbeddingEmoji} Articles with Proper Embeddings (article_embedding)":
+        Article.find_all_with_proper_embeddings.count,
+  "# #{EmbeddingEmoji} Articles without Embeddings (no article_embedding)":
+        Article.find_all_without_any_embeddings.count,
+  "# #{EmbeddingEmoji} Articles without new v2 Embeddings (no article_embedding v2 via migrate_all_article_embedding_to_gemini_thru_langchain)":
+        Article.where('article_embedding_description' => nil).all.count.to_s + " / #{Article.all.count}"  ,
+
+    }
+
+    [Article,ArticleTag, Category].each do |my_class|
+      @interesting_data_short["# ⏺️ #{my_class.to_s.pluralize}"] =
+          my_class.all.count
+    end
+
+    @interesting_data_long = {
+    #     'bundle config local.lanchainrb': `bundle config local.lanchainrb`,
+    #     'bundle info langchainrb</b> (you can fix with <b>bundle config --delete local.lanchainrb</b>': `bundle info langchainrb`,
+    #     'bundle info googleauth': `bundle info googleauth`,
+    }
+    @title = 'Stats v2 (as a partial)' # if i forget it i can get the one from previous invokation -> BAD!
+
+%>
+
+
+<h1 class="font-bold text-4xl">♊ Stats as a partial</h1>
+
+<div class="gemini-stuff" >
+
+    <%= render 'pages/gcp_smart_keyvalue_table', :locals => {
+       #'interesting_data_short' => @interesting_data_short,
+       #'interesting_data_long' => @interesting_data_long,
+       'title': '♊ Gemini and Langchain interesting stuff (by partial arg - better)',
+     } %>
+
+</div>
+<a href="#" class="prose-a underline text-blue-400">Your Link Text 3</a> -
+<a href="#" class="prose-a underline text-white bg-blue-400 rounded">Your Link Text 4 gemini</a>
+<a href="#" class="prose-a underline text-white hover:bg-blue-400 rounded">Your Link Text 4b ricc</a>

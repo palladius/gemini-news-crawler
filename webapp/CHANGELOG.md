@@ -6,6 +6,7 @@
 
 ## Changelog
 
+2024-05-18 v0.3.28 [DEV] Finally merged Stats! Plus added GEMINI_KEY2_SOLO_PER_GEMINEWS to both dev and prod
 2024-05-18 v0.3.28 [DEV] Taking the LLM bull by their horns
 2024-05-18 v0.3.27 [DEV] Seby bday! Rispolverated Palm to summarize..
 2024-05-17 v0.3.26 [DEV] Added PROJECT_ID to the container
