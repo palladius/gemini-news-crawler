@@ -183,6 +183,23 @@ class Article < ApplicationRecord
       ret
     end
 
+    def excerpt_for_llm()
+      # similar to article but shortening the content.
+      ret = "------------------------------\n"
+        # Relevant info
+        ret += "Title: #{self.title.strip}\n" if title?
+        ret += "Summary: #{self.summary.strip}\n\n" if summary?
+        # gsub!(/\n+/, '')
+        ret += "[content]\n#{self.content.strip.first(200)}\n[/content]\n\n" if self.content?
+        # Footer
+        ret += "Author: #{self.author}\n" if author?
+        ret += "PublishedDate: #{self.yyyymmdd}\n" rescue nil
+        ret += "Category: #{self.macro_region}\n" # always true
+        ret += "NewsPaper: #{self.newspaper}\n" # always true
+        ret += "Tags: #{self.tag_names.join(', ')}\n" if self.tag_names.size > 0  # always true
+      ret
+    end
+
     # json or hash?
     # Hash: this code
     # JSON: article_json = article.as_json(only: [:title, :summary])

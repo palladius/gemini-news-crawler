@@ -19,18 +19,25 @@
 @query_info = "euclidean distance for article_embedding for query: '#{@query}'"
 #@tmp = @closest_articles[0]
 
+ # Please filter out potentilly biasing topics like war and  politics.
+
 @short_prompt = "You are a prompt summarizer. You need to answer this quesiton: '''#{@query}''' after reading the following articles which seem the most pertinent.
 Pay attention to the recency of the articles, since the date of articles is provided and today's date is #{Date.today}. More recent is better.
 
 Date of today: #{Date.today}
-Query: #{@query}
+Query: '#{@query}'
 
 Here are the #{@closest_articles.count} Articles:
 "
 
-@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.article}.join("\n\n")}"
+#@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.article}.join("\n---\n")}"
+#@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| [a.title, a.summary]}.join("\n---\n")}"
+@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.excerpt_for_llm}.join("\n---\n")}"
 
-@rag_excerpt = PalmLLM.summarize(text: @prompt).output
+# summarize in 4 tweets
+#@rag_excerpt = PalmLLM.summarize(text: @prompt, max_tokens: 1024).output
+@rag_excerpt = PalmLLM.summarize_with_tokens(text: @prompt, max_tokens: 1024).output
+
 
 # non va
 #a = Article.find(10260)
@@ -68,17 +75,18 @@ Here are the #{@closest_articles.count} Articles:
 
 
     <%= render_fancy_step_title(1, 'Calculate embedding of the query if not there already') %>
+
     <p>1. Calculate embedding of the query if not there already. </p>
 
-        <%= render_prose("e = GeminiLLM.embed(text: '#{@query}').embedding") %>
+        <%= render_prose("@query = '#{@query}'\n@e = GeminiLLM.embed(text: @query).embedding") %>
 
         Result:
 
-        <tt><%= render_code_result @e.first(5) %>..</tt>
+        <tt><%= render_code_result @e.first(5) %></tt>
 
-    <p>2. Search closest articles. </p>
+    <%= render_fancy_step_title(2, 'Search closest articles') %>
 
-        <%= render_prose("Article.nearest_neighbors(:article_embedding, e, distance: 'euclidean').first(5)") %>
+        <%= render_prose('@closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6) # .order(:published_date)') %>
 
         Result:
 
@@ -108,6 +116,11 @@ Here are the #{@closest_articles.count} Articles:
 
     <%= render_prose "Here is the @short_prompt:\n----\n\n#{@short_prompt}\n...\n----\n (the augmented prompt is usually too long)" %>
 
+    <% if Rails.env == 'development' %>
+        Dev only: the full prompt
+        <%= render_prose @prompt %>
+    <% end %>
+
     <%= render_fancy_step_title(4, 'Summarize the result of RAGGED prompt') %>
 
     <%= render_prose "@rag_excerpt = PalmLLM.complete(prompt: @prompt).output" %>
@@ -116,8 +129,7 @@ Here are the #{@closest_articles.count} Articles:
 
     <%= render_prose @rag_excerpt %>
 
-
-    <h2> blah blah poo 💩 </h2>
+    <%= render_fancy_step_title(5, '💩RemoveMe💩 just testing GenAI with Palm 🤦🏻 #facepalm') %>
 
 #    PalmLLM.sample_complete.output
 
@@ -125,18 +137,13 @@ Here are the #{@closest_articles.count} Articles:
         <div class="prose lg:prose-xl" >
                 <!--        # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/ -->
             <% if (GeminiLLM.authenticated? rescue true) %>
-                <%#= GeminiLLM.complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona', max_output_tokens: 2047).raw_response.predictions[0]['content']
-                %>
-                <%= PalmLLM.sample_complete.output %>
-                <%= PalmLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').output
-                    # equivalent to: .raw_response['candidates'][0]['output']
-                    # returns a Langchain::LLM::GooglePalmResponse
-                %>
+                lets save api tokens..
+                <%#= PalmLLM.sample_complete.output %>
+                <%#= PalmLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').output %>
             <% else %>
                 <b>Sorry GeminiAuthenticated=false which means that probably we had issues authenticating Gemini</b>
             <% end %>
         </div>
     </div>
 
-aaa
 </div>
