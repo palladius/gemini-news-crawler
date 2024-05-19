@@ -5,7 +5,7 @@
 
 [[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 
-![Demo 1: embeddings and neighbour gem](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo1.png|alt=Demo1-Embeddings?raw=true "Demo 1: Embeddings")
+![Demo 1: embeddings and neighbour gem](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo1.png?raw=true "Demo 1: Embeddings")
 
 
 
