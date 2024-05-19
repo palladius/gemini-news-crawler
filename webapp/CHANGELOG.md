@@ -6,6 +6,8 @@
 
 ## Changelog
 
+2024-05-19 v0.3.34 [DEV] Demo02 is now rock solid
+2024-05-19 v0.3.33 [DEV] Better description of Embeddings
 2024-05-19 v0.3.32 [DEV] Demo1 being written in code and adding ThatsABingo easter egg for demo1
 2024-05-18 v0.3.31 [DEV] Demo3 Newsretriever works
 2024-05-18 v0.3.30 [DEV] Adding route and skeleton for demo-news-retriever

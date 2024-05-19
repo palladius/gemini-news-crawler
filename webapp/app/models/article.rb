@@ -1,6 +1,18 @@
 class Article < ApplicationRecord
   include Embeddable
 
+  # Note wwe also have a :title_embedding_description
+  @@title_embedding_meaning = '[768 array][OLD yet productive] This is the embedding used. Its computed with an old algorithm nd its only compatiblwe with THAT algorithm. This distance is used to calculate distance across articles in demo1 and in the article view. Im not 100% sure but I believe it uses Google multilang embedding model'
+  @@summary_embedding_meaning = '[768 array] I believe this is NOT utilized 🏧'
+  @@article_embedding_meaning = '[768 array] I believe it uses Google single-lamnguage strongest newest model.'
+
+  # https://stackoverflow.com/questions/39753594/how-do-i-access-class-variable
+  # class << self
+  #   attr_accessor  :summary_embedding, :article_embedding_meaning
+  # end
+  # Convenience method: https://apidock.com/rails/Module/mattr_accessor
+  mattr_accessor :title_embedding_meaning, :summary_embedding_meaning, :article_embedding_meaning
+
   # https://github.com/ankane/neighbor
   has_neighbors :article_embedding
   has_neighbors :title_embedding
@@ -137,6 +149,7 @@ class Article < ApplicationRecord
     # end
 
 
+
     def closest_articles(size: 5, similarity_field: :title_embedding)
       # :title_embedding
       # TODO make sure its title/article/whatevs
@@ -207,6 +220,11 @@ class Article < ApplicationRecord
       #self.attributes.slice('title', 'summary', :category)
       relevant_columns = %w{title summary content category newspaper macro_region yyyymmdd } # published_date
       attributes.slice(*relevant_columns)
+    end
+
+    def fancy_neighbor_distance
+      neighbor_distance.nil? ? nil :
+      (neighbor_distance*100).round(2)
     end
 
     # a.article_embedding =  a.title_embedding

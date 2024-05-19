@@ -32,7 +32,9 @@ Here are the #{@closest_articles.count} Articles:
 
 #@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.article}.join("\n---\n")}"
 #@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| [a.title, a.summary]}.join("\n---\n")}"
-@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.excerpt_for_llm}.join("\n---\n")}"
+@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.excerpt_for_llm}.join("\n---\n")}\nSUMMARY OF THE ARTICLES:"
+
+@prompt2 = rag_long_prompt(date: Date.today, query: @query, article_count: @closest_articles.count, articles: @closest_articles.map{|a| a.excerpt_for_llm})
 
 # summarize in 4 tweets
 #@rag_excerpt = PalmLLM.summarize(text: @prompt, max_tokens: 1024).output
@@ -63,6 +65,11 @@ Here are the #{@closest_articles.count} Articles:
     <h1 class="text-3xl mb-4 font-bold">Search for '<%= @query %>'</h1>
 
     <h1>Show Query</h1>
+    Query is: <b><%=fancy_title "Show Query ('#{@query}')" %></b>
+
+    <p class="text-gray-700 mb-2">
+        TODO RICC <b>you did a lot of html cleanup in the demo02 ruby on console. Bring back that logic back to UI please.</b>
+    </p>
 
     <p class="text-gray-700 mb-2">
         Query is: <b><%= @query %></b>
@@ -102,7 +109,8 @@ Here are the #{@closest_articles.count} Articles:
     <%= render_fancy_step_title(3, 'RAG them into Langchain') %>
 
 
-    <h3>Closest Articles to this embedding</h3>
+    <h3>Closest Articles to this embedding (remove)</h3>
+    <%= fancy_title 'Closest Articles to this embedding' %>
 
     Query Info: <b><%= @query_info %></b><br/>
 
