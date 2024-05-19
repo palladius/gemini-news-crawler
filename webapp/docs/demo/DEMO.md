@@ -44,3 +44,10 @@ See https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/
 [[https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif|alt=A_demo_cant_be_considered_complete_without_a_Tarantino_meme]]
 
 ![A_demo_cant_be_considered_complete_without_a_Tarantino_meme]([http://url/to/img.png](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif))
+
+
+
+
+![Alt text](relative%20path/to/img.jpg?raw=true "Title")
+
+![Alt text thats a bingo](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif?raw=true "Ooh thats a bingo!")
