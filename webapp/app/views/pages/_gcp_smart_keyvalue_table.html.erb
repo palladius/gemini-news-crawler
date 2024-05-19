@@ -4,9 +4,12 @@
   #title += (interesting_data_short.keys rescue $!)
   return "no @interesting_data_short" unless defined?( @interesting_data_short)
 %>
-<% if (debug rescue true) %>
+<% if (debug rescue false) %>
 <p>@interesting_data_short.class =
-  <%= @interesting_data_short %>
+  <%= @interesting_data_short.class %>
+</p>
+<p>@interesting_data_short.keys =
+  <%= @interesting_data_short.keys %>
 </p>
 <% end %>
 <!-- vecchio pre gemino

@@ -8,10 +8,11 @@
 # expected: Image 'europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler-manhouse/gemini-news-crawler-manhouse:latest' not found.
 #  reality:        europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler/gemini-news-crawler
 #
+export DEPLOY_VERSION='2.0.4'
+#
+# 19may24  2.0.4   added ENV[PALM_API_KEY_GEMINI] - should fix PalmLLM
 # 17may24  2.0.3   added project_id
 #####################################################################################################
-
-export DEPLOY_VERSION='2.0.3'
 
 if [ -f .envrc ] ; then
   echo Looks like youre local since I see your envrc.
@@ -146,6 +147,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="NEWSAPI_COM_KEY=$NEWSAPI_COM_KEY" \
       --set-env-vars="PROJECT_ID=$PROJECT_ID" \
       --set-env-vars="GEMINI_KEY=$GEMINI_KEY" \
+      --set-env-vars="PALM_API_KEY_GEMINI=$PALM_API_KEY_GEMINI" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \
       --set-env-vars=APP_NAME='GemiNews CB-CR-magic' \
