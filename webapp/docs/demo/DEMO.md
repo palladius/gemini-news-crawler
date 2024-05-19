@@ -37,3 +37,8 @@ See https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/
 
 # Demo 4
 
+
+# Conclusions
+
+
+[[https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif|alt=A demo cant be considered complete without a Tarantino meme]]
