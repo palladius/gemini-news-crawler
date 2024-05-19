@@ -3,8 +3,10 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.4'
+  VERSION = '1.5'
 
+  # v1.5 Added UTF8 in the code (I trust myself more than an AI :P). Altenratvie would be to sanitize UTF8 in the EXIT of the
+  #      NewsRetriever but that's built into Langchain::Tool::NewsRetriever gem so it would be yet another thing to override.
   # v1.4 Added UTF8 in the specs since the output is very ugly now: http://localhost:3000/articles/10334
   # v1.3
   # v1.2 Add EMOJI so AI finds emoji for me and I can just put somewhere easy to parse :)
@@ -45,9 +47,9 @@ class ArticleTool < Langchain::Tool::Base
       article_tool_version: VERSION,
     }
     article = Article.create(
-      title: title,
-      summary: summary,
-      content: content,
+      title: title.force_encoding("UTF-8"),
+      summary: summary.force_encoding("UTF-8"),
+      content: content.force_encoding("UTF-8"),
       author: author,
       link: link,
       published_date: published_date,
