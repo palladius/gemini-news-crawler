@@ -6,6 +6,7 @@
 
 ## Changelog
 
+2024-05-19 v0.3.32 [DEV] Demo1 being written in code and adding ThatsABingo easter egg for demo1
 2024-05-18 v0.3.31 [DEV] Demo3 Newsretriever works
 2024-05-18 v0.3.30 [DEV] Adding route and skeleton for demo-news-retriever
 2024-05-18 v0.3.29 [DEV] Finally merged Stats! Plus added GEMINI_KEY2_SOLO_PER_GEMINEWS to both dev and prod

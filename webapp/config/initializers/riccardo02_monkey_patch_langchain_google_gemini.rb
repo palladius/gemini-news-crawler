@@ -32,6 +32,10 @@ class Langchain::LLM::GoogleGemini
       ])
   end
 
+  def project_id
+    ENV.fetch 'PROJECT_ID', 'palladius-genai'
+  end
+
   def embed(
     text:,
     model:   "textembedding-gecko", # "gemini-1.5-pro-latest", # since i cant change DEFAULTS ... @defaults[:embeddings_model_name]

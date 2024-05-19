@@ -1,4 +1,10 @@
-
+<%
+  easter_egg = params.fetch :easter_egg , nil # ] ]bingo
+  if easter_egg == 'bingo'
+%>
+  <%#= image_tag 'thats-a-bingo.webp' %>
+  <%= image_tag 'thats-a-bingo.gif' %>
+<% end %>
 <footer class="flex justify-between px-4 py-2 bg-gray-800 text-gray-100 text-sm">
   <span>&copy; <%= APP_NAME %> v<%= APP_VERSION %></span>
 

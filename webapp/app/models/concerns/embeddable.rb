@@ -136,8 +136,11 @@ module Embeddable
     return cleaned_response
   end
 
-  def similar_articles(max_size: 5)
-    Article.all.first(5)
+  # This is WRONG
+  def similar_articles(max_size: 5, similarity_field: :title_embedding)
+    closest_articles(size: max_size, similarity_field:)
+  #   raise "similar_articles this is WRONG. pls implement properly using nearest_neighbors from https://github.com/ankane/neighbor"
+  #   Article.all.first(5)
   end
 
   # def fix_strings!(my_field:, save_after_correct_assignment: true)

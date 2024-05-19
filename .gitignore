@@ -74,3 +74,4 @@ private/
 iac/.exec*
 t
 .DS_Store
+.tmp.*

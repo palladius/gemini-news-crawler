@@ -5,7 +5,11 @@ module ApplicationHelper
   end
 
   def fancy_title(title)
-#    content_tag(:h1, title, class: 'font-bold text-4xl')
-    content_tag(:h1, title, class: "font-bold text-4xl text-gray-800 shadow-lg")
+    # Original boring
+    #    content_tag(:h1, title, class: 'font-bold text-4xl')
+    # Gemini v1 - carino
+    #content_tag(:h1, title, class: "font-bold text-4xl text-gray-800 shadow-lg")
+    # Gemini v2
+    content_tag(:h1, title, class: "font-bold text-4xl bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent shadow-md")
   end
 end
