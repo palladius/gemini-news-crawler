@@ -4,7 +4,9 @@
 ## 🧠🧐 About
 
 [[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
-[[https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo1.png|alt=Demo1-Embeddings]]
+
+![Demo 1: embeddings and neighbour gem](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo1.png|alt=Demo1-Embeddings?raw=true "Demo 1: Embeddings")
+
 
 
 UI: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/10350?easter_egg=bingo (note: article ID might change)
@@ -40,14 +42,4 @@ See https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/
 
 # Conclusions
 
-
-[[https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif|alt=A_demo_cant_be_considered_complete_without_a_Tarantino_meme]]
-
-![A_demo_cant_be_considered_complete_without_a_Tarantino_meme]([http://url/to/img.png](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif))
-
-
-
-
-![Alt text](relative%20path/to/img.jpg?raw=true "Title")
-
-![Alt text thats a bingo](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif?raw=true "Ooh thats a bingo!")
+![A demo cant be considered complete without a Tarantino meme](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/thats-a-bingo.gif?raw=true "Ooh thats a bingo!")
