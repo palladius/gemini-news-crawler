@@ -1,11 +1,7 @@
 ########################################################################
 # Carlessian wisdom:
 #
-# This is saved as code and not markdown for two reasons:
-# 1. Easier to check
-# 2. Easy to integrate with rails console, for instance you can just type to test:
-#
-#   cat docs/demo/demo01-rails-console.rb | rails console
+#   cat docs/demo/demo02-rails-console.rb | rails console
 #
 ########################################################################
 

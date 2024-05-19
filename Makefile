@@ -16,3 +16,13 @@ auth:
 auth-as-sa:
 	gcloud auth activate-service-account --key-file=private/geminews-gcs-readwriter-key.json
 # echo "GOOGLE_APPLICATION_CREDENTIALS=$$GOOGLE_APPLICATION_CREDENTIALS"
+
+
+demo01:
+	cd webapp && cat docs/demo/demo01-rails-console.rb | rails console
+demo02:
+	cd webapp && cat docs/demo/demo02-rails-console.rb | rails console
+demo03:
+	cd webapp && cat docs/demo/demo03-rails-console.rb | rails console
+demo04:
+	cd webapp && cat docs/demo/demo04-rails-console.rb | rails console

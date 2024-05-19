@@ -3,6 +3,8 @@
 
 ## 🧠🧐 About
 
+UI: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/10350?easter_egg=bingo (note: article ID might change)
+
 In this demo we want to demonstrate the ability for Ruby on Rails + PostgreS to easily host.
 
 Lesson learnt: embeddings are BIG, and they slow significantly ActiveRecord retrievals.
@@ -20,22 +22,7 @@ rails c  # opens console
 Within 🚊💻 Rails Console:
 
 ```
-a = Article.last
-# make sure it has embeddings. :title_embedding is used for Article similarity here. A different one is used for semantic search
-# Why? Came in 2 different times (March vs May) of the demo and it would take too long to re-calculate 10k embeddings.
- a.title_embedding
-# IF it doesnt exist, calculate it
- a.compute_embeddings! unless a.title_embedding?
-similaria = a.similar_articles(max_size: 5)
 
-# visualize nicely
-# Adds `neighbor_distance` from https://github.com/ankane/neighbor
-# > nearest_item = item.nearest_neighbors(:embedding, distance: "euclidean").first
-# > nearest_item.neighbor_distance
-
-similaria.map{|a| [a.id, a.title, (a.neighbor_distance*100).round(2) ]}
-
-puts("Bingo!")
 ```
 
 # Demo 2
