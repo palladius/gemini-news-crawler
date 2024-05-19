@@ -3,12 +3,12 @@ Rails.application.routes.draw do
   get 'pages/assistant'
   get 'pages/graphs'
   get 'pages/search'
-  #get 'pages/stats'# obsolete -> go to GCP
   get 'pages/gcp'
   get 'pages/demo-news-retriever'
-  # get 'controller_name/stats'
-  # get 'controller_name/about'
-  # get 'controller_name/search'
+  # obsolete, point to gCP
+  get 'pages/stats' => "pages#gcp" # obsolete -> go to GCP
+
+
   resources :articles
   resources :categories
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

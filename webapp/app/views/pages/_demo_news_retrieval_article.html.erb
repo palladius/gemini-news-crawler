@@ -1,0 +1,13 @@
+<% if article.is_a? Hash
+        h = article
+%>
+    <div>
+        <%= image_tag h['urlToImage'], size: "350x250" %>
+        <strong>📰 <%= link_to h['title'],h['url'] %></strong>
+        (<%= h['publishedAt'].to_date %>)
+        <i><%= h['description'] %></i>
+    </div>
+<% else %>
+    🤷🏼‍♀️ Article not found, sorry 🤷🏼‍♀️
+    <%= article.class %>
+<% end %>

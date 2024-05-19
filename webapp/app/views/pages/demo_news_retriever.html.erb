@@ -1,7 +1,11 @@
 <%
+
+# Sample : http://localhost:3000/pages/demo-news-retriever?q=vinitaly%20verona
+
 #query = 'Pope'
 #query = 'Giorgia Meloni'
-query = 'Vinitaly'
+default_query = 'Vinitaly'
+query = params.fetch('q', default_query)
 #query = 'Silvio Berlusconi'
 #query = 'Donald Trump'
 #query = 'Basketball'
@@ -13,20 +17,21 @@ query = 'Vinitaly'
     news = NewsRetriever.get_everything( q: query).to_s.force_encoding("UTF-8")
     cmd = "NewsRetriever.get_everything( q: '#{query}')"
     parsed_json = JSON.parse(news)
-    cmd_and_news = "# 💻 #{cmd}\n\n#{news}"
+    cmd_and_news = "# 💻 #{cmd} (excerpt)\n\n#{news.first(500)}.." # excerpt of whole return
 %>
 
 <div class="relative">
-    <h1>API call</h1>
+    <%= fancy_title "[Request] 1. API Call: q=#{query}" %>
+
+
     <div class="fixed top-0 left-0 right-0">API Calls</div>
     <div>
 
         <%= render_prose cmd_and_news %>
         <div>
-            <h1>Results</h1>
+            <%= fancy_title "[Response] 2. API results: First Article" %>
         </div>
         <div>
-            <h1>First Results</h1>
             <%= render_prose parsed_json['articles'][0] %>
 <!--
 {"source"=>{"id"=>"cbs-news", "name"=>"CBS News"},
@@ -41,15 +46,14 @@ query = 'Vinitaly'
  "content"=>"Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"}
 -->
 
-        </div>
+    </div>
+
+    <%= fancy_title "[Response] 3. API results from NewsCatcher: reassembled from JSON" %>
+
+
 <% parsed_json['articles'].each do |h| %>
-    <!-- TODO move to partial webapp/app/views/pages/_demo_news_retriaval_article.html.erb -->
-        <div>
-            <%= image_tag h['urlToImage'], size: "350x250" %>
-            <strong>📰 <%= link_to h['title'],h['url'] %></strong>
-            (<%= h['publishedAt'].to_date %>)
-            <i><%= h['description'] %></i>
-        </div>
+    <%#= render partial: 'pages/demo_news_retrieval_article' , locals: { article: h } %>
+    <%= render 'pages/demo_news_retrieval_article' , article: h %>
 <% end %>
 <!--
         <div>
