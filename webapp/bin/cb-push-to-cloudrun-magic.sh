@@ -8,10 +8,14 @@
 # expected: Image 'europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler-manhouse/gemini-news-crawler-manhouse:latest' not found.
 #  reality:        europe-west1-docker.pkg.dev/palladius-genai/gemini-news-crawler/gemini-news-crawler
 #
-export DEPLOY_VERSION='2.0.4'
+# TODO(ricc): add a bunch of eNVs from local to Secret manager to fix the 2.0.4buggy
+
+
+export DEPLOY_VERSION='2.0.4buggy'
 #
-# 19may24  2.0.4   added ENV[PALM_API_KEY_GEMINI] - should fix PalmLLM
-# 17may24  2.0.3   added project_id
+# 19may24  2.0.4buggy  Added ENV[PALM_API_KEY_GEMINI] - should fix PalmLLM. Note I used GEMINI_KEY for since  PALM_API_KEY_GEMINI is actually not in
+#                      my Secret Manager (yet and its late at night and my mum waas the room)
+# 17may24  2.0.3       Added project_id
 #####################################################################################################
 
 if [ -f .envrc ] ; then
@@ -147,7 +151,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="NEWSAPI_COM_KEY=$NEWSAPI_COM_KEY" \
       --set-env-vars="PROJECT_ID=$PROJECT_ID" \
       --set-env-vars="GEMINI_KEY=$GEMINI_KEY" \
-      --set-env-vars="PALM_API_KEY_GEMINI=$PALM_API_KEY_GEMINI" \
+      --set-env-vars="PALM_API_KEY_GEMINI=$GEMINI_KEY" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \
       --set-env-vars=APP_NAME='GemiNews CB-CR-magic' \
