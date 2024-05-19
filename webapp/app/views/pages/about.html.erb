@@ -25,6 +25,10 @@ How about crawling the web for latest news with Gemini for multimodal extraction
 It all gets more exciting thanks to Andrei’s langchainrb gem.
 </p>
 
-<p>See <%= link_to 'Articles', '/articles' %> for something really sweet</p>
+<p>See <%= fancy_link_to 'Articles', '/articles' %> for something really sweet.</p>
+
+<h2  class="font-bold text-3xl">GenAI [Im]promptu</h2>
+
+<%= render_prose(PalmLLMImpromptu) rescue "Issues with PalmLLMImpromptu: #{$!}" %>
 
 </div>

@@ -27,7 +27,12 @@ GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI']
 OllamaLLM = Langchain::LLM::Ollama.new rescue nil
 PalmLLM = Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
 
-# In order
+PalmLLMImpromptu = PalmLLM.nil? ?
+  '🤌 I cant, PalmLLM is nil 🤌' :
+  #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
+  (PalmLLM.sample_complete.output rescue "❌ PalmLLM.sample_complete.output failed: #{$!}")
+
+  # In order
 LLMs = [VertexLLM, GeminiLLM, PalmLLM ]
 
 GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok

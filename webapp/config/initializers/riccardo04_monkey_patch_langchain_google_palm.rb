@@ -4,7 +4,7 @@ class Langchain::LLM::GooglePalm
 
 
   def sample_complete()
-    complete(prompt: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona. He was a part-time Ruby on rails developer who at night went scaring tourists, particularly the ones who saw the Netflix movie "Love in the villa"', max_output_tokens: 2047)
+    complete(prompt: 'Please write a night-time story about the evil Amarone-wine daemon who lived in Arena di Verona. He was a part-time Ruby on rails developer who at night went scaring tourists, particularly the ones who saw the Netflix movie "Love in the villa". Use as many emojis as you can and make it fun.', max_output_tokens: 1024)
     #.raw_response.predictions[0]['content'] %>
   end
 
