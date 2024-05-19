@@ -1,5 +1,20 @@
 <h1 class="font-bold text-4xl">🀄 Ruby and Bundle info</h1>
 <%
+secret_envs = %w{
+    PALM_API_KEY_GEMINI
+    GEMINI_KEY
+    NEWS_API_KEY
+    NEWSAPI_COM_KEY_RICC
+    NEWSCATCHER_API
+    RAILS_MASTER_KEY
+    DATABASE_URL_DEV
+    DATABASE_URL_PROD
+  }
+  public_envs = %w{
+    DESCRIPTION
+    PROJECT_ID
+  }
+
     @interesting_data_short = {
         'APP_VERSION': APP_VERSION,
         'Rails.version': Rails.version,
@@ -14,7 +29,13 @@
         'bundle config': `bundle config`,
         #'pwd': `pwd`,
     }
-    @title = 'Ruby, Rails and bundle'
+    @title = 'Ruby, Rails, ENV and bundle'
+
+
+    secret_envs.each do |secretive_env_key|
+      @interesting_data_short["🔑🌱 ENV[#{secretive_env_key}] (first 5 chars)"] =
+        ENV.fetch(secretive_env_key, '🤷🏼‍♀️').to_s.first(5)
+    end
 %>
 
 <div class="ruby-stuff" >

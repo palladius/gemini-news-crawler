@@ -1,7 +1,19 @@
 <%
   title ||= @title # 'My Awesome Key-Value Data (changeme)'
+  #title=title.to_s + (@interesting_data_short.keys rescue $!).to_s
+  #title += (interesting_data_short.keys rescue $!)
+  return "no @interesting_data_short" unless defined?( @interesting_data_short)
 %>
-<table class="w-full table-auto border-collapse border border-slate-400">
+<% if (debug rescue true) %>
+<p>@interesting_data_short.class =
+  <%= @interesting_data_short %>
+</p>
+<% end %>
+<!-- vecchio pre gemino
+    <table class="w-full table-auto border-collapse border border-slate-400">
+-->
+<table class="w-full table-auto border-collapse border border-slate-400 grid grid-cols-30fr_70fr">
+
     <caption class="text-center text-xl font-semibold bg-gray-200 p-2"><%= title %></caption>
     <thead>
       <tr>
@@ -10,6 +22,7 @@
       </tr>
     </thead>
     <tbody>
+      <!-- 1. Small values, as is -->
       <tr>
         <td class="border border-slate-300 p-2 bg-green-100"><tt>🔑</tt></td>
         <td class="border border-slate-300 p-2 bg-green-100">1. Small Values</td>
@@ -20,6 +33,7 @@
           <td class="border border-slate-300 p-2"><b><%= v === true ? '✅ (Aladeen)' : (v === false ? '❌ (Aladeen)' : v) %></b></td>
         </tr>
       <% end %>
+      <!-- 2. Big values, in <pre> and prose()  -->
       <tr>
         <td class="border border-slate-300 p-2 bg-blue-100"><tt>🔑</tt></td>
         <td class="border border-slate-300 p-2 bg-blue-100">2. Big Values</td>

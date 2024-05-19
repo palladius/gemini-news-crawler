@@ -6,6 +6,7 @@
 
 ## Changelog
 
+2024-05-19 v0.3.36 [DEV] Added Amarone story to homepage, from PalmLLM which doesnt seem to work there.
 2024-05-19 v0.3.35 [DEV] (untested) better UTF-8 **sanitization** in my tool `Langchain::Tool::ArticleTool`
 2024-05-19 v0.3.34 [DEV] Demo02 is now rock solid
 2024-05-19 v0.3.33 [DEV] Better description of Embeddings

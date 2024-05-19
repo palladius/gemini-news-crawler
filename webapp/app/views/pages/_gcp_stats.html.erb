@@ -1,6 +1,8 @@
 <%
   @latest_article = Article.last
 
+
+
   @interesting_data_short = {
         '🌱 RAILS_ENV': ENV['RAILS_ENV'],
         "🔑 Rails.application.credentials['ricc-passwords']['fake-pwd']": Rails.application.credentials['ricc-passwords']['fake-pwd'],
@@ -36,7 +38,8 @@
         Article.find_all_with_proper_embeddings.count,
   "# #{EmbeddingEmoji} Articles without Embeddings (no article_embedding)":
         Article.find_all_without_any_embeddings.count,
-  "# #{EmbeddingEmoji} Articles without new v2 Embeddings (no article_embedding v2 via migrate_all_article_embedding_to_gemini_thru_langchain)":
+        #(no article_embedding v2 via migrate_all_article_embedding_to_gemini_thru_langchain)
+  "# #{EmbeddingEmoji} Articles without new v2 Embeddings":
         Article.where('article_embedding_description' => nil).all.count.to_s + " / #{Article.all.count}"  ,
 
     }
@@ -45,6 +48,7 @@
       @interesting_data_short["# ⏺️ #{my_class.to_s.pluralize}"] =
           my_class.all.count
     end
+
 
     @interesting_data_long = {
     #     'bundle config local.lanchainrb': `bundle config local.lanchainrb`,
@@ -60,9 +64,9 @@
 
 <div class="gemini-stuff" >
 
-    <%= render 'pages/gcp_smart_keyvalue_table', :locals => {
-       #'interesting_data_short' => @interesting_data_short,
-       #'interesting_data_long' => @interesting_data_long,
+    <%= render partial: 'pages/gcp_smart_keyvalue_table', :locals => {
+       'interesting_data_short' => @interesting_data_short,
+       'interesting_data_long' => @interesting_data_long,
        'title': '♊ Gemini and Langchain interesting stuff (by partial arg - better)',
      } %>
 
