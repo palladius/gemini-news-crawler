@@ -5,7 +5,11 @@
 
   <!-- <li><%#= link_to(query, smart_query_path(query: query), method: :get) rescue "Err #{$!}" %> (This will simulate the search)</li>
   -->
-  <li>👀  <%= link_to(query, "/smart_queries/show?type=hard-coded&query=#{query}", method: :get) rescue "Err #{$!}" %></li>
+  <li>👀
+    <%= fancy_link_to(:short, "/smart_queries/show?type=hard-coded&query=#{query}&rag_type=short") rescue "Err #{$!}" %>
+    <%= fancy_link_to(:long, "/smart_queries/show?type=hard-coded&query=#{query}&rag_type=long") rescue "Err #{$!}" %>
+    <%= query %>
+  </li>
   <% end %>
 </ul>
 

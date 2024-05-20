@@ -1,6 +1,7 @@
 <%
 
 @query ||= 'Weather in Italy'
+@rag_type ||= 'short' # long, none
 @e = GeminiLLM.embed(text: @query).embedding # nil
 # Possibilities:
 # 1. article_embedding, title_embedding, summary_embedding
@@ -26,20 +27,44 @@
 # Here are the #{@closest_articles.count} Articles:
 # "
 helpz = ApplicationController.helpers
-
-#@short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
-@short_prompt = helpz.rag_short_prompt(query: @query , article_count: @closest_articles.count)
-puts(@short_prompt.colorize :yellow)
-
-# demo pt1:
 @articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
 puts(@articles_excerpts.colorize :cyan)
-@long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
-puts(@long_prompt.to_s.colorize :yellow)
-@palm_completion_job = PalmLLM.complete(prompt: @long_prompt)
-@rag_excerpt = @palm_completion_job.meaningful_response # output || @palm_completion_job.error
-puts(@rag_excerpt.to_s.colorize :green)
 
+#@short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
+
+case @rag_type
+    when 'none'
+        @rag_description = "We do nothing"
+        @long_or_short_prompt= nil
+    when 'long'
+        @rag_description = "It's long RAG: use use the whole articles"
+        @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
+        puts(@articles_verbose.colorize :cyan)
+        @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_verbose )
+   #     @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
+        puts(@long_prompt.to_s.colorize :yellow)
+        @long_or_short_prompt =  @long_prompt
+    when "short"
+        @rag_description = "Short RAG, only Article title. Will just summarize titles then."
+        @articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
+        @short_prompt = helpz.rag_short_prompt(query: @query , article_count: @closest_articles.count)
+        @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
+        puts(@short_prompt.colorize :yellow)
+        @long_or_short_prompt =  @long_prompt
+    else
+        "You gave me #{x} -- I have no idea what to do with that."
+end
+
+# demo pt1:
+
+if  @long_or_short_prompt
+    @palm_completion_job = PalmLLM.complete(prompt: @long_or_short_prompt)
+    @rag_excerpt = @palm_completion_job.meaningful_response # output || @palm_completion_job.error
+    puts(@rag_excerpt.to_s.colorize :green)
+else
+        # nil
+    @rag_excerpt = '🤷 You decided NOT to invoke RAG. Why, I dont know. Maybe you wanted to check everything else.'
+end
 # demo pt2: LONG prompt with content.
 # @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
 # puts(@articles_verbose.colorize :cyan)
@@ -89,22 +114,33 @@ TEXT
 
 <div class="container mx-auto mt-10">
 
-    <h1 class="text-3xl mb-4 font-bold">Search for '<%= @query %>'</h1>
+<%=fancy_title "Show Query ('#{@query}')" %>
+<h1 class="text-3xl mb-4 font-bold">Search for '<%= @query %>'</h1>
 
     <p class="text-gray-700 mb-2">
         Query is: <b><%= @query %></b>
     </p>
+    <!-- useless
+        <p class="text-gray-700 mb-2">
+            Query type is: <b><%= @query_type %></b>
+        </p>
+    -->
     <p class="text-gray-700 mb-2">
-        Query type is: <b><%= @query_type %></b>
+        @rag_type is: <b><%= @rag_type %></b>
+    </p>
+    <p class="text-gray-700 mb-2">
+        @rag_description is: <b><%= @rag_description %></b>
     </p>
 
-    <h1>Show Query</h1>
 
-    Query is: <b><%=fancy_title "Show Query ('#{@query}')" %></b>
+<%= render_fancy_step_title(4, 'RAG result (first)') %>
+
+    <%= render_prose_gemini @rag_excerpt %>
+
 
       <%#= render_prose_gemini('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod magna at odio finibus, vitae laoreet odio tempor.             Donec sed tempus leo. Nulla vitae elit libero. Maecenas eu augue eget nibh maximus tempor vitae quis risus.            Sed consectetur mi sed magna aliquam porta.') %>
       <%#= render_prose_gemini('Questo invece e quel che mi dice https://tailwindcss.com/docs/gradient-color-stops') %>
-      <%= render_prose_gemini(prova_carpte) %>
+      <%#= render_prose_gemini(prova_carpte) %>
 
 
     <p class="text-gray-700 mb-2">

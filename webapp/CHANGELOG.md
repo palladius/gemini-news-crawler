@@ -7,6 +7,7 @@
 
 ## Changelog
 
+2024-05-20 v0.3.39 [dev] still fixing demo02 on UI = still not finished. dammit.
 2024-05-20 v0.3.38 [dev] Fixed demo02 RAG in UI. Plus added meaningful_response.
 2024-05-19 v0.3.37 [OPS] Added PALM_API_KEY_GEMINI to deployment script. Should fix Amarone and `PalmLLM`
 2024-05-19 v0.3.36 [DEV] Added Amarone story to homepage, from PalmLLM which doesnt seem to work there.

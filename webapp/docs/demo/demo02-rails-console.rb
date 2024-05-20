@@ -53,7 +53,7 @@ puts(@short_prompt.colorize :yellow)
 
 ########################################################
 # 1. If you want use SHORT
-@articles_excerpts = @closest_articles.map{|a| sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
+@articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
 puts(@articles_excerpts.colorize :cyan)
 @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
 @rag_excerpt = PalmLLM.complete(prompt: @long_prompt).output

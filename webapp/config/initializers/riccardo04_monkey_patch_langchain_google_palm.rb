@@ -77,7 +77,7 @@ class Langchain::LLM::GooglePalmResponse
   end
 
   def meaningful_response
-    output || error
+    (output || error rescue "Langchain::LLM::GooglePalmResponse.meaningful_response Exception: #{$!}").to_s
   end
 
 end
