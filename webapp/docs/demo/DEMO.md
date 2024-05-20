@@ -31,14 +31,20 @@ See https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/
 
 # Demo 2
 
+![Demo 2: TODO](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo2.png?raw=true "Demo 2: TODO")
+
 
 
 # Demo 3
 
+This works a lot better in UI, since it has images.
+
+![Demo 3: NewsRetriever](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo3.png?raw=true "Demo 3: Get news online")
 
 
 # Demo 4
 
+![Demo 4: TODO](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4.png?raw=true "Demo 4: TODO")
 
 # Conclusions
 
