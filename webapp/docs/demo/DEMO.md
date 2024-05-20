@@ -1,3 +1,26 @@
+# 4 Demos
+
+1.
+2.
+3.
+4.
+
+## CLI + Rails Console
+
+All demos can be played from the folder `docs/demo` in this way:
+
+💻 Command line:
+
+```
+cd webapp/ # Go into rails folder
+rails c  # opens console
+```
+
+Code: within 🚊💻 Rails Console:  https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/demo0X-rails-console.rb (with X=1,2,3,4)
+
+You can also invoke them with `make demo01` .. `make demo04`.
+
+**Note**. The most complex demo (`demo04`) is worth playing from CLI in non-deterministic way. You don't necessarily want to save the first article, and you might have a full conversation with the agent. Unfortunately I didn't have time to make this in responsive and sleek javascript, so the best experience is from `rails console`.
 
 # Demo 1 - Article / Embeddings
 
@@ -16,18 +39,7 @@ In this demo we want to demonstrate the ability for Ruby on Rails + PostgreS to 
 Lesson learnt: embeddings are BIG, and they slow significantly ActiveRecord retrievals.
 Once you marry one embedding (I have 3 per article, 768 integers for each), you need to learn how to selectively `SELECT(:field1, :field2)` for the queries you do. For articles, that brought my time from 6 seconds to 50ms. 😱
 
-## CLI + Rails Console
-
-💻 Command line:
-
-```
-cd webapp/ # Go into rails folder
-rails c  # opens console
-```
-
-Within 🚊💻 Rails Console:
-
-See https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/demo01-rails-console.rb
+Code: within 🚊💻 Rails Console:  https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/demo01-rails-console.rb
 
 # Demo 2: RAG
 
