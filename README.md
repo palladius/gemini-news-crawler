@@ -53,6 +53,9 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 * add Devise for user mgmt
 * add Cloud Run IAP: https://blog.cloud66.com/authenticating_users_with_google_iap_in_rails
 * Auto feed continuously. Currently manually done on my local machine :(
+* Use updated Gemini embedding models, new since May 14th (launched at NEXT ‘24).
+    * `text-embedding-004`
+    * `text-multilingual-embedding-002`.
 
 ### Autofeed now
 
