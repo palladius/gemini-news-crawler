@@ -20,6 +20,18 @@ Gen AI is great at answering questions.. from the past. After the LLM was traine
 How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
 It all gets more exciting thanks to Andrei’s langchainrb gem.
 
+## Features
+
+* [hot] **Gemini function calling** for getting News and .
+* Use `langchainrb` gem for Tools, Prompts, AI services (mostly Google ones).
+
+
+## Demos
+
+4 juicy demos are available under `webapp/docs/demo/`:
+
+https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/DEMO.md
+
 ## Other Ideas
 
 My idea is to bring slides and a demo, all done in ruby leveraging nokogiri, langchainrb and possibly some capabilities in Langchainrb that Andrei is now building (*).
@@ -38,9 +50,9 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 
 ### TODOs
 
-*  add Devise for user mgmt
-*  add Cloud Run IAP: https://blog.cloud66.com/authenticating_users_with_google_iap_in_rails
-* Auto feed continuously. Currently
+* add Devise for user mgmt
+* add Cloud Run IAP: https://blog.cloud66.com/authenticating_users_with_google_iap_in_rails
+* Auto feed continuously. Currently manually done on my local machine :(
 
 ### Autofeed now
 
@@ -53,23 +65,3 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 * Mounted on Crun as /geminews-key/geminews-key
 * Now the final bit: GCP_KEY_PATH_FROM_WEBAPP = /geminews-key/geminews-key
 
-### esbuild issues
-
-This didnt work:
-* `rails-ric webapp`
-* this didnt work. Will do again with tailwind but without esbuild
-* rails new "$1" -j esbuild --css tailwind
-
-Lets try a second time🧮
-
-```bash
-rails new webapp --database=postgresql --css tailwind
-rm -rf webapp/.git
-git add webapp
-```
-
-* `rails-which-javascript-env ` should say ESBUILD since i installed it with it :)
-
-## Nice to haves
-
-* Add Gemini function calling for getting News.

@@ -1,24 +1,2 @@
 
-# Demo 1 - Article / Embeddings
-
-💻 Command line:
-
-```
-cd webapp/ # Go into rails folder
-rails c  # opens console
-```
-
-Within 🚊💻 Rails Console:
-
-* See in `docs/demo/demo01-rails-console.rb`
-
-# Demo 2
-
-
-
-# Demo 3
-
-
-
-# Demo 4
-
+This page has 4 demos available here: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/DEMO.md

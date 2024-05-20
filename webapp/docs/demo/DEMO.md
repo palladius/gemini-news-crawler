@@ -44,7 +44,13 @@ This works a lot better in UI, since it has images.
 
 # Demo 4
 
-![Demo 4: TODO](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4.png?raw=true "Demo 4: TODO")
+Part 1: interaction with assistant
+
+![Demo 4: Assistant Conversation](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4.png?raw=true "Demo 4: Assistant Conversation")
+
+Part 2: See the article effectively saved in the DB.
+
+![Demo 4: Selected article is actually saved on ActiveRecord](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4.png?raw=true "Demo 4: Selected article is actually saved on ActiveRecord")
 
 # Conclusions
 
