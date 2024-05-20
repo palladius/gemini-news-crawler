@@ -4,8 +4,8 @@
   @interesting_data_short = {
         '🌱 RAILS_ENV': ENV['RAILS_ENV'],
 
-        "🔑 Rails.application.credentials.env.class": (Rails.application.credentials.env.class render "❌ #{$!}"),
-        "🔑 Rails.application.credentials.env.keys": (Rails.application.credentials.env.keys.join(',') render "❌ #{$!}"),
+        "🔑 Rails.application.credentials.env.class": (Rails.application.credentials.env.class rescue "❌ #{$!}"),
+        "🔑 Rails.application.credentials.env.keys": (Rails.application.credentials.env.keys.join(',') rescue "❌ #{$!}"),
 
         "🔑 Rails.application.credentials['ricc-passwords']['fake-pwd']": Rails.application.credentials['ricc-passwords']['fake-pwd'],
         "🔑 Rails.application.credentials['ricc-passwords']['NEWSAPI_COM_KEY'].first(5)":
