@@ -29,13 +29,14 @@ Within 🚊💻 Rails Console:
 
 See https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/demo01-rails-console.rb
 
-# Demo 2
+# Demo 2: RAG
 
-![Demo 2: TODO](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo2.png?raw=true "Demo 2: TODO")
+![Demo 2A: Getting 5 closest articles by embedding(query)](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo2a.png?raw=true "Demo 2A: Getting 5 closest articles by embedding(query)")
+
+![Demo 2B: Gemini summarizing the content](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo2b.png?raw=true "Demo 2B: Gemini summarizing the content")
 
 
-
-# Demo 3
+# Demo 3: NewsRetriever from LangchainRB.
 
 This works a lot better in UI, since it has images.
 
@@ -46,11 +47,11 @@ This works a lot better in UI, since it has images.
 
 Part 1: interaction with assistant
 
-![Demo 4: Assistant Conversation](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4.png?raw=true "Demo 4: Assistant Conversation")
+![Demo 4: Assistant Conversation](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4a.png?raw=true "Demo 4: Assistant Conversation")
 
 Part 2: See the article effectively saved in the DB.
 
-![Demo 4: Selected article is actually saved on ActiveRecord](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4.png?raw=true "Demo 4: Selected article is actually saved on ActiveRecord")
+![Demo 4: Selected article is actually saved on ActiveRecord](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4b.png?raw=true "Demo 4: Selected article is actually saved on ActiveRecord")
 
 # Conclusions
 
