@@ -74,28 +74,22 @@ puts(@rag_excerpt.to_s.colorize :green)
 # Demo1
 
 # demo2
+
+prova_carpte = <<-'TEXT'
+Why is Ruby *awesome*?
+- It's fun to use
+- Easy to learn
+- And so much more...
+Sembra fare doppio invo dannazione:
+* Seby
+* Ale
+TEXT
+
 %>
 
 <div class="container mx-auto mt-10">
 
     <h1 class="text-3xl mb-4 font-bold">Search for '<%= @query %>'</h1>
-
-    <h1>Show Query</h1>
-
-    Query is: <b><%=fancy_title "Show Query ('#{@query}')" %></b>
-
-    <div class="prose prose-lg prose-indigo prose-pink">
-        <%= render_prose_gemini('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod magna at odio finibus, vitae laoreet odio tempor.             Donec sed tempus leo. Nulla vitae elit libero. Maecenas eu augue eget nibh maximus tempor vitae quis risus.            Sed consectetur mi sed magna aliquam porta.') %>
-    </div>
-      <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
-        Questo invece e quel che mi dice https://tailwindcss.com/docs/gradient-color-stops
-      </div>
-      <%= render_prose_gemini('Questo invece e quel che mi dice https://tailwindcss.com/docs/gradient-color-stops') %>
-
-
-    <p class="text-gray-700 mb-2">
-        TODO RICC <b>you did a lot of html cleanup in the demo02 ruby on console. Bring back that logic back to UI please.</b>
-    </p>
 
     <p class="text-gray-700 mb-2">
         Query is: <b><%= @query %></b>
@@ -103,6 +97,22 @@ puts(@rag_excerpt.to_s.colorize :green)
     <p class="text-gray-700 mb-2">
         Query type is: <b><%= @query_type %></b>
     </p>
+
+    <h1>Show Query</h1>
+
+    Query is: <b><%=fancy_title "Show Query ('#{@query}')" %></b>
+
+      <%#= render_prose_gemini('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod magna at odio finibus, vitae laoreet odio tempor.             Donec sed tempus leo. Nulla vitae elit libero. Maecenas eu augue eget nibh maximus tempor vitae quis risus.            Sed consectetur mi sed magna aliquam porta.') %>
+      <%#= render_prose_gemini('Questo invece e quel che mi dice https://tailwindcss.com/docs/gradient-color-stops') %>
+      <%= render_prose_gemini(prova_carpte) %>
+
+
+    <p class="text-gray-700 mb-2">
+        TODO RICC <b>you did a lot of html cleanup in the demo02 ruby on console. Bring back that logic back to UI please.</b>
+        Nearly there. Now check long vs short.
+    </p>
+
+
 
     <h2 class="text-3xl mb-4 font-bold" >[demo1] Results from cached articles (RAG+ActiveRecord+Embeddings)</h2>
 

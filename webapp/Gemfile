@@ -34,6 +34,7 @@ gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'faraday' # for Ollama
 gem 'google_palm_api', '~> 0.1.3' # Palm API - maybe deprecated?
 #gem 'ruby-openai' # for OpenAI
+gem 'redcarpet' # markdown to HTML
 # /Riccardo end
 ################################
 

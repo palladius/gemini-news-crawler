@@ -20,19 +20,8 @@ module ApplicationHelper
     # str.to_s.gsub ',"','<'
     hash = str
 
-    # This works but it doesnt iterates through nested hashes.
+    # This works but it doesnt iterate through nested hashes.
     hash_string1 = hash.map {|k, v| "  <b>#{k}</b>: #{v}" }.join("\n") # .join("<br/>\n")
-
-    #html_string2 = hash.to_s.gsub(/^  (.+?): (.+)$/) { "<p>\\1: \\2</p>" }
-    #hash = {"status":"ok","totalResults":39,"articles":[{"source":{"id":null,"name":"Corriere.it"},"author":"Luciano Ferraro","title":"L’ex premier-vignaiolo D’Alema: sì al vino senza alcol, ma non lo berrò","description":"Incontro-degustazione al Vinitaly con lo chef Cracco, il calciatore Barzagli e l’attrice Carole Bouquet","url":"https://www.corriere.it/cook/wine-cocktail/blog-divini/24_aprile_18/ex-premier-vignaiolo-d-alema-si-vino-senza-alcol-ma-non-berro-2e378286-fd62-11ee-a07c-0b5793220589.shtml","u]"}
-
-    #hash_string = hash.map { |k, v| "  #{k}: #{v}" }.join("\n")
-#    html_string = hash_string.gsub(/^  (.+?): (.+)$/) { "<p>\\1: \\2</p>" }
-    #hash_string = hash_string.gsub(/^  (.+?): (.+)$/) { "<p>\\1: \\2</p>" }
-    #hash_string
-
-    #puts html_string  # This will print the formatted HTML string
-
   end
 
   def render_prose(text, options = {})
@@ -45,12 +34,20 @@ module ApplicationHelper
     end
   end
 
-  def render_prose_gemini(text)
+  def render_prose_gemini(text, markdown: true)
     # See  https://tailwindcss.com/docs/gradient-color-stops for awesome gradient.
-    myclass = "prose lg:prose-xl rounded bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+    myclass = "prose lg:prose-xl rounded bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-slate-950" # black
     text ||= '♊️ 🤷‍♂️ no text'
-    #text = text.gsub("\n","<br/>\n")
-    content_tag(:div, text, class: myclass).gsub("\n","<br/>\n").html_safe
+    text = text.gsub("\n\n","\n")
+    if markdown
+      # interpret as markdown and renders it..
+      # https://wmc-blog.netlify.app/2022/04/01/markdown-in-ruby-on-rails-with-redcarpet
+      options = [:hard_wrap, :autolink, :no_intra_emphasis, :fenced_code_blocks, :underline, :highlight, :no_images, :filter_html, :safe_links_only, :prettify, :no_styles, :superscript, :lax_html_blocks]
+      text = Markdown.new(text, *options).to_html.html_safe
+    end
+    content_tag(:div, text, class: myclass).gsub("\n","<br/>").html_safe
   end
+
+
 
 end
