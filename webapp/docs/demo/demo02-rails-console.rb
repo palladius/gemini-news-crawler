@@ -51,7 +51,7 @@ helpz = ApplicationController.helpers
 @short_prompt = helpz.rag_short_prompt(query: @query , article_count: @closest_articles.count)
 puts(@short_prompt.colorize :yellow)
 
-########################
+########################################################
 # 1. If you want use SHORT
 @articles_excerpts = @closest_articles.map{|a| sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
 puts(@articles_excerpts.colorize :cyan)
@@ -68,7 +68,9 @@ puts(@rag_excerpt.colorize :green)
 # - Rails guides facelift, two new official gems and more!
 # - Daily Reading List – April 5, 2024 (#292)
 # - Rails Guides get a facelift
+########################################################
 
+########################################################
 # 2. If you want use LONG and read the whole article:
 @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
 puts(@articles_verbose.colorize :cyan)

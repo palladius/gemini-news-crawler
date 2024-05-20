@@ -72,4 +72,12 @@ class Langchain::LLM::GooglePalmResponse
     raw_response.dig("candidates", 0, "output")
   end
 
+  def error
+    raw_response.dig('error')
+  end
+
+  def meaningful_response
+    output || error
+  end
+
 end

@@ -3,9 +3,11 @@
 * b/101 NewsRetriever doesnt work on CloudRun. Cant seemt o find ENV. I'm considering using the builtin cryptic config instead.
 * b/102 Doesnt work on GCE - yet. getting there thanks to Neha
 * bad encoding http://localhost:3000/articles/10346. note \342\200\231 is a '!
+* PalmLLM gecko-01 only supports English -> do not try italian stuff.
 
 ## Changelog
 
+2024-05-20 v0.3.38 [dev] Fixed demo02 RAG in UI. Plus added meaningful_response.
 2024-05-19 v0.3.37 [OPS] Added PALM_API_KEY_GEMINI to deployment script. Should fix Amarone and `PalmLLM`
 2024-05-19 v0.3.36 [DEV] Added Amarone story to homepage, from PalmLLM which doesnt seem to work there.
 2024-05-19 v0.3.35 [DEV] (untested) better UTF-8 **sanitization** in my tool `Langchain::Tool::ArticleTool`

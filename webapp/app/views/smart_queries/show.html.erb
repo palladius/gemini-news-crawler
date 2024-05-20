@@ -1,14 +1,10 @@
 <%
-# demo1
 
 @query ||= 'Weather in Italy'
-#@e =  GeminiAuthenticated ? (GeminiLLM.embed(text: @query).embedding) : nil
 @e = GeminiLLM.embed(text: @query).embedding # nil
 # Possibilities:
 # 1. article_embedding, title_embedding, summary_embedding
 # 2. distance: euclidean, cosine, ?
-#closest_articles = Article.nearest_neighbors(:article_embedding, e, distance: "euclidean").first(5)
-#@closest_articles = GeminiAuthenticated ? Article.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(10) : []
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6) # .order(:published_date)
 # i want the most recent on top for the LLM to be time biased positively .. but if i do BEFORE the first(6) it wont take the 6 most relevant.
 # So:
@@ -21,24 +17,44 @@
 
  # Please filter out potentilly biasing topics like war and  politics.
 
-@short_prompt = "You are a prompt summarizer. You need to answer this quesiton: '''#{@query}''' after reading the following articles which seem the most pertinent.
-Pay attention to the recency of the articles, since the date of articles is provided and today's date is #{Date.today}. More recent is better.
+# @short_prompt_old = "You are a prompt summarizer. You need to answer this quesiton: '''#{@query}''' after reading the following articles which seem the most pertinent.
+# Pay attention to the recency of the articles, since the date of articles is provided and today's date is #{Date.today}. More recent is better.
 
-Date of today: #{Date.today}
-Query: '#{@query}'
+# Date of today: #{Date.today}
+# Query: '#{@query}'
 
-Here are the #{@closest_articles.count} Articles:
-"
+# Here are the #{@closest_articles.count} Articles:
+# "
+helpz = ApplicationController.helpers
+
+#@short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
+@short_prompt = helpz.rag_short_prompt(query: @query , article_count: @closest_articles.count)
+puts(@short_prompt.colorize :yellow)
+
+# demo pt1:
+@articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
+puts(@articles_excerpts.colorize :cyan)
+@long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
+puts(@long_prompt.to_s.colorize :yellow)
+@palm_completion_job = PalmLLM.complete(prompt: @long_prompt)
+@rag_excerpt = @palm_completion_job.meaningful_response # output || @palm_completion_job.error
+puts(@rag_excerpt.to_s.colorize :green)
+
+# demo pt2: LONG prompt with content.
+# @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
+# puts(@articles_verbose.colorize :cyan)
+# @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_verbose )
+# @rag_excerpt = PalmLLM.complete(prompt: @long_prompt).output
+# puts(@rag_excerpt.to_s.colorize :green)
 
 #@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.article}.join("\n---\n")}"
 #@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| [a.title, a.summary]}.join("\n---\n")}"
-@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.excerpt_for_llm}.join("\n---\n")}\nSUMMARY OF THE ARTICLES:"
-
-@prompt2 = rag_long_prompt(date: Date.today, query: @query, article_count: @closest_articles.count, articles: @closest_articles.map{|a| a.excerpt_for_llm})
+#@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.excerpt_for_llm}.join("\n---\n")}\nSUMMARY OF THE ARTICLES:"
+#@prompt2 = rag_long_prompt(date: Date.today, query: @query, article_count: @closest_articles.count, articles: @closest_articles.map{|a| a.excerpt_for_llm})
 
 # summarize in 4 tweets
 #@rag_excerpt = PalmLLM.summarize(text: @prompt, max_tokens: 1024).output
-@rag_excerpt = PalmLLM.summarize_with_tokens(text: @prompt, max_tokens: 1024).output
+#@rag_excerpt = PalmLLM.summarize_with_tokens(text: @prompt, max_tokens: 1024).output
 
 
 # non va
@@ -65,7 +81,17 @@ Here are the #{@closest_articles.count} Articles:
     <h1 class="text-3xl mb-4 font-bold">Search for '<%= @query %>'</h1>
 
     <h1>Show Query</h1>
+
     Query is: <b><%=fancy_title "Show Query ('#{@query}')" %></b>
+
+    <div class="prose prose-lg prose-indigo prose-pink">
+        <%= render_prose_gemini('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod magna at odio finibus, vitae laoreet odio tempor.             Donec sed tempus leo. Nulla vitae elit libero. Maecenas eu augue eget nibh maximus tempor vitae quis risus.            Sed consectetur mi sed magna aliquam porta.') %>
+    </div>
+      <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        Questo invece e quel che mi dice https://tailwindcss.com/docs/gradient-color-stops
+      </div>
+      <%= render_prose_gemini('Questo invece e quel che mi dice https://tailwindcss.com/docs/gradient-color-stops') %>
+
 
     <p class="text-gray-700 mb-2">
         TODO RICC <b>you did a lot of html cleanup in the demo02 ruby on console. Bring back that logic back to UI please.</b>
@@ -124,33 +150,17 @@ Here are the #{@closest_articles.count} Articles:
 
     <%= render_prose "Here is the @short_prompt:\n----\n\n#{@short_prompt}\n...\n----\n (the augmented prompt is usually too long)" %>
 
-    <% if Rails.env == 'development' %>
+    <% if Rails.env == 'development' and false # seriously its too much %>
         Dev only: the full prompt
-        <%= render_prose @prompt %>
+        <%= render_prose @prompt.first(500) %>
     <% end %>
 
     <%= render_fancy_step_title(4, 'Summarize the result of RAGGED prompt') %>
 
     <%= render_prose "@rag_excerpt = PalmLLM.complete(prompt: @prompt).output" %>
 
-    result:
+    RAG Result:
 
-    <%= render_prose @rag_excerpt %>
-
-    <%= render_fancy_step_title(5, '💩RemoveMe💩 just testing GenAI with Palm 🤦🏻 #facepalm') %>
-
-#    PalmLLM.sample_complete.output
-
-    <div class="bg-blue-500 md:bg-green-500 p-4 rounded shadow-md">
-        <div class="prose lg:prose-xl" >
-                <!--        # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/ -->
-            <% if (GeminiLLM.authenticated? rescue true) %>
-                <%= PalmLLM.sample_complete.output %>
-                <%#= PalmLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').output %>
-            <% else %>
-                <b>Sorry GeminiAuthenticated=false which means that probably we had issues authenticating Gemini</b>
-            <% end %>
-        </div>
-    </div>
+    <%= render_prose_gemini @rag_excerpt %>
 
 </div>
