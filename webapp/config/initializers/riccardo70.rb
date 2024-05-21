@@ -2,12 +2,12 @@
 APP_NAME = ENV.fetch 'APP_NAME', 'GemiNews'
 EmojiAppName = "♊️ GemiNews 🗞️"
 APP_VERSION = `cat ./VERSION`.chomp rescue "ERROR: #{$!}"
-ENABLE_GCP = (ENV['ENABLE_GCP'].to_s.downcase == 'true')
 # Note this is NOT necessary to run GCP, its just ONE way.
 GAC = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 GOOGLE_APPLICATION_CREDENTIALS  = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 EmbeddingEmoji = '🗿'
 
+ENABLE_GCP = (ENV['ENABLE_GCP'].to_s.downcase == 'true')
 def gcp?()
   ENABLE_GCP
 end
@@ -19,34 +19,6 @@ CLOUDRUN_SA_KEY_EXISTS = File.exist?('/geminews-key/geminews-key') # rescue fals
 CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # rescue false
 
 
-# Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
-VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') rescue "VertexLLM Error('#{$!}')"
-# VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
-GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
-OllamaLLM = Langchain::LLM::Ollama.new rescue nil
-PalmLLM = Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
-
-PalmLLMImpromptu = PalmLLM.nil? ?
-  '🤌 I cant, PalmLLM is nil 🤌' :
-  #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
-  (PalmLLM.sample_complete.output rescue "❌ PalmLLM.sample_complete.output failed: #{$!}")
-
-  # In order
-LLMs = [VertexLLM, GeminiLLM, PalmLLM ]
-
-GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok
-GeminiApiKeyLength = GeminiLLM.api_key.to_s.length rescue (-1)
-
-# This code is created by ricc patching manually langchain...
-GeminiLLMAuthenticated = GeminiLLM.authenticated? rescue "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$!}"
-VertexLLMAuthenticated = VertexLLM.authenticated? rescue "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$!}"
-
-
-VertexAuthenticated = !!(VertexLLM.authorizer.fetch_access_token rescue false)
-VertexAuthTokenLength = VertexLLM.authorizer.fetch_access_token['access_token'].to_s.length rescue (-1)  # => 1024
-# This doesnt make sense: only works if its already authenticated
-# VertexAuthenticatedAlready = !!(VertexLLM.authorizer.refresh_token.to_s.match?(/^1\/\//) rescue false) # Vertex auth is ok
-
 # Old
 NewsRetrieverENV = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
 # in cloud Build I get this error:
@@ -56,7 +28,6 @@ NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: (Rails.application.c
 
 
 Rails.application.configure do
-
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
   config.hosts << "gemini-news-crawler-manhouse-dev-x42ijqglgq-ew.a.run.app"
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"    # Allow requests from example.com
@@ -73,7 +44,6 @@ Rails.application.configure do
   config.filter_parameters << :title_embedding
   config.filter_parameters << :article_embedding
   config.filter_parameters << :summary_embedding
-
 end
 
 

@@ -5,7 +5,10 @@ class ArticleTool < Langchain::Tool::Base
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
   VERSION = '1.6'
 
-  # v1.6 fixed missing `delete` function.
+  # v1.6 fixed missing `delete` function. Bug:
+
+    #(irb):10:in `say': undefined method `delete' for #<ArticleTool:0x00007f97d69cc1b8> (NoMethodError)
+
   # v1.5 Added UTF8 in the code (I trust myself more than an AI :P). Altenratvie would be to sanitize UTF8 in the EXIT of the
   #      NewsRetriever but that's built into Langchain::Tool::NewsRetriever gem so it would be yet another thing to override.
   # v1.4 Added UTF8 in the specs since the output is very ugly now: http://localhost:3000/articles/10334
