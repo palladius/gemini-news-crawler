@@ -57,13 +57,19 @@ This works a lot better in UI, since it has images.
 
 # Demo 4
 
-Part 1: interaction with assistant
+Part 1: interaction with assistant (UI)
 
 ![Demo 4: Assistant Conversation](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4a.png?raw=true "Demo 4: Assistant Conversation")
 
-Part 2: See the article effectively saved in the DB.
+Part 2: See the article effectively saved in the DB. (UI)
 
 ![Demo 4: Selected article is actually saved on ActiveRecord](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4b.png?raw=true "Demo 4: Selected article is actually saved on ActiveRecord")
+
+Some samples on CLI:
+
+![Demo 4 (CLI): see the system trying to save TWO articles and correctly reporting 1 success and 1 error](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo4cli-b.png?raw=true "Demo 4 (CLI): see the system trying to save TWO articles and correctly reporting 1 success and 1 error")
+
+
 
 # Conclusions
 

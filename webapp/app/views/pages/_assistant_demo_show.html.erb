@@ -12,6 +12,8 @@
 
    #llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
 
+@query ||= 'Latest 7 news from Vinitaly'
+
 if (llm.authenticated?)
 
 #llm = Langchain::LLM::GoogleVertexAI.new(
