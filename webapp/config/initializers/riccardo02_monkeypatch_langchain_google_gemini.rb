@@ -10,11 +10,28 @@ class Langchain::LLM::GoogleGemini
 
   attr_reader :authorizer
 
+  # TODO(ricc): this can yield an error. Fix the code so its robust and ALWAYS return false if it fails
+  # def authenticated?
+  #   # TODO(ricc): add if api_key is valid.. but it should work both ways.
+  #   # OR starts with /^ya29\./
+  #   neha_authenticate() unless defined?(@authorizer)
+  #   @authorizer.fetch_access_token!["access_token"].to_s.length == 1024 rescue false # "NEW_NEHA_authenticate()"
+  # end
   def authenticated?
-    # TODO(ricc): add if api_key is valid.. but it should work both ways.
-    # OR starts with /^ya29\./
-    neha_authenticate unless defined?(@authorizer)
-    @authorizer.fetch_access_token!["access_token"].to_s.length == 1024 rescue "NEW_NEHA_authenticate()"
+    # Attempt Neha authentication first
+    begin
+      neha_authenticate! unless defined?(@authorizer)
+      return true if @authorizer.fetch_access_token!["access_token"].to_s.length == 1024
+    rescue => exception
+      # Handle any exceptions gracefully (log, notify, etc.)
+      # You can optionally add specific exception handling here
+      Rails.logger.error "Authentication failed with Neha Authentication: #{exception.message}"
+    end
+
+    # If Neha fails, check for API key validity (replace with your logic)
+    # Add your logic to validate the API key here (e.g., compare with a database)
+    # return true if your_api_key_validation_logic
+    return false  # Replace with your actual API key validation
   end
 
   # This function doesnt retrieve the token. But it initializes the @authorizer thru get_application_default

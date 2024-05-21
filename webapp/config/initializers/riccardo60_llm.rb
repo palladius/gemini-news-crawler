@@ -40,7 +40,8 @@ BookOfLLMs = {
     llm: GeminiLLM.class,
     description: 'todo',
     auth_method: 'api_key (low QPS)',
-    #authenticated: GeminiLLM.authenticated?,
+    authenticated1: GeminiLLM.authenticated? rescue "Error: #{$!}", # <== this gives an error
+    authenticated_should_work_without_exception_now: GeminiLLM.authenticated?,
   },
   palm: {
     llm: PalmLLM.class,
