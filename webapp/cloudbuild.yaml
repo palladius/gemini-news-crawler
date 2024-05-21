@@ -62,6 +62,9 @@ steps:
   id:  'step1 docker build' ##1. Docker Build - to CB_LATEST # might be error prone vs the one create from computer
   args: ['build', '-t', "${_REGION}-docker.pkg.dev/${PROJECT_ID}/gemini-news-crawler/gemini-news-crawler:latest", '.']
   dir: webapp
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
 
 # Then I tag it with another so it survives multiple builds..
 - name: 'gcr.io/cloud-builders/docker'
@@ -81,6 +84,7 @@ steps:
   - bin/autotag.sh
   env:
   - 'PROJECT_ID=$PROJECT_ID'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
   dir: webapp
 
 

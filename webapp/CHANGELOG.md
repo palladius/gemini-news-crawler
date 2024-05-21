@@ -2,11 +2,21 @@
 
 * b/101 NewsRetriever doesnt work on CloudRun. Cant seemt o find ENV. I'm considering using the builtin cryptic config instead.
 * b/102 Doesnt work on GCE - yet. getting there thanks to Neha
-* bad encoding http://localhost:3000/articles/10346. note \342\200\231 is a '!
-* PalmLLM gecko-01 only supports English -> do not try italian stuff.
+* b/103 bad encoding http://localhost:3000/articles/10346. note \342\200\231 is a '!
+* b/104 PalmLLM gecko-01 only supports English -> do not try italian stuff.
+* b/105 in CB step 1 (docker build) RAC is nil. I get this error:
+```
+/rails/config/initializers/riccardo99.rb:60:in `<main>'
+                                                ^^^^^^
+ShowDemoz = Rails.application.credentials['env'].fetch(:SHOW_DEMOZ, false).to_bool
+
+NoMethodError: undefined method `fetch' for nil:NilClass (NoMethodError)
+bin/rails aborted!
+```
 
 ## Changelog
 
+2024-05-21 v0.3.41 [OPS] Adding `RAILS_MASTER_KEY` to basically all CB steps to fix the Rails.cred.ENV error part. b.105
 2024-05-21 v0.3.40 [dev] Adding `ShowDemoz` as a means to showcase quick env use of `Rails.application.credentials`
 2024-05-20 v0.3.39 [dev] still fixing demo02 on UI = still not finished. dammit.
 2024-05-20 v0.3.38 [dev] Fixed demo02 RAG in UI. Plus added meaningful_response.

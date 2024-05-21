@@ -17,8 +17,8 @@
   <span>Env: <b><%= Rails.env %></b></span>
 </footer>
 
-<!--  to harden it: https://github.com/rails/web-console -->
+<!--  to harden it: https://github.com/rails/web-console Failing silently-->
 <% if (Rails.env == 'development') %>
-  <%= console rescue "Errors with Console: '#{$!}'" %>
+  <%= console rescue '' %>
 <% end %>
 
