@@ -15,7 +15,7 @@ PalmLLMImpromptu = PalmLLM.nil? ?
 LLMs = [VertexLLM, GeminiLLM, PalmLLM ]
 
 
-GeminiAuthenticated = false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok
+GeminiAuthenticated = (GeminiLLM.authenticated? rescue "Error: #{$!}") # false # doesnt work GeminiLLM.authorizer.refresh_token.match? /^1\/\// # Vertex auth is ok
 GeminiApiKeyLength = GeminiLLM.api_key.to_s.length rescue (-1)
 
 # This code is created by ricc patching manually langchain...
@@ -40,7 +40,7 @@ BookOfLLMs = {
     llm: GeminiLLM.class,
     description: 'todo',
     auth_method: 'api_key (low QPS)',
-    authenticated1: GeminiLLM.authenticated? rescue "Error: #{$!}", # <== this gives an error
+    authenticated1: GeminiAuthenticated, # <== this gives an error
     authenticated_should_work_without_exception_now: GeminiLLM.authenticated?,
   },
   palm: {
