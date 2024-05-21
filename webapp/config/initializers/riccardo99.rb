@@ -55,6 +55,11 @@ NewsRetrieverENV = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY
 # NoMethodError: undefined method `NEWSAPI_COM_KEY' for nil:NilClass (NoMethodError)
 NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: (Rails.application.credentials.env.fetch(:NEWSAPI_COM_KEY, nil) rescue "error #{$!}") )
 
+
+# Playing with ApplCredentials since ENV is SLOW (need to have it in local file, add to CBuild, ..)
+ShowDemoz = Rails.application.credentials['env'].fetch(:SHOW_DEMOZ, false).to_bool
+
+
 Rails.application.configure do
 
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
