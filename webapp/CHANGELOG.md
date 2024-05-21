@@ -16,6 +16,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-05-21 v0.3.45 [dev] tool is more verbose in crestaing an article #demo4
 2024-05-21 v0.3.44 [dev] One of those useless refactorings which breaks everything
 2024-05-21 v0.3.43 [dev] Tool bugfix
 2024-05-21 v0.3.42 [OPS] Full fledged debugging for `RAILS_MASTER_KEY`: both in `/pages/gcp` and in Logging. Seatch for `RailsCredEnvObj`

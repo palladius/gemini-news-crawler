@@ -3,8 +3,9 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.6'
+  VERSION = '1.7'
 
+  # v1.7 now create() sends a more verbose output in return (whole object instead of just id)
   # v1.6 fixed missing `delete` function. Bug:
 
     #(irb):10:in `say': undefined method `delete' for #<ArticleTool:0x00007f97d69cc1b8> (NoMethodError)
@@ -73,7 +74,10 @@ class ArticleTool < Langchain::Tool::Base
     )
 
     if article.persisted?
-      { id: article.id }
+      #{ id: article.id }
+      # returning the whole object as suggested by Andrei in his video
+      # https://drive.google.com/file/d/1U_hStFa3PmphfHM9xuhNM1W4uQdSwgv5/view?resourcekey=0-EE3YdWxYmp0_YgUGgBk9KQ
+      article.interesting_attributes # redacting the embeddings ones
     else
       article.errors.full_messages
     end

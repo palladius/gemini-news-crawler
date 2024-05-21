@@ -98,6 +98,10 @@ class Article < ApplicationRecord
       #end
     end
 
+    def interesting_attributes
+      attributes.except('title_embedding', 'summary_embedding', 'article_embedding')
+    end
+
     def set_defaults
       #puts("Article::set_defaults (before_save). My id=#{self.id}")
       self.active ||= true
