@@ -16,6 +16,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-05-21 v0.3.42 [OPS] Tool bugfix
 2024-05-21 v0.3.42 [OPS] Full fledged debugging for `RAILS_MASTER_KEY`: both in `/pages/gcp` and in Logging. Seatch for `RailsCredEnvObj`
 2024-05-21 v0.3.41 [OPS] Adding `RAILS_MASTER_KEY` to basically all CB steps to fix the Rails.cred.ENV error part. b.105
 2024-05-21 v0.3.40 [dev] Adding `ShowDemoz` as a means to showcase quick env use of `Rails.application.credentials`
