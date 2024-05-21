@@ -13,3 +13,8 @@ RailsCredEnv = Rails.application.credentials['env'] rescue {} # needs to be a ha
 # Playing with ApplCredentials since ENV is SLOW (need to have it in local file, add to CBuild, ..)
 # Note that in BUILD phase this seems to be EMPTY. Maybe it doesnt find the ENV[RAILS_MASTER_KEY]?!?
 ShowDemoz = Rails.application.credentials['env'].fetch(:SHOW_DEMOZ, false).to_bool rescue false
+
+# Since this seems tow rok well EVERYWHERE except at build time, let me try this:
+
+puts("🤌🤌🤌 RailsCredEnvObj: #{RailsCredEnvObj} 🤌🤌🤌")
+puts("🤌🤌🤌 ENV[RAILS_MASTER_KEY].length: #{ENV.fetch('RAILS_MASTER_KEY', '').length} 🤌🤌🤌")

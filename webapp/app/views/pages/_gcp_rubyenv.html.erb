@@ -21,7 +21,7 @@ secret_envs = %w{
         'RUBY_VERSION': RUBY_VERSION,
         'Rails.root': Rails.root.to_s,
         'Google::Auth::GCECredentials.on_gce?':  (Google::Auth::GCECredentials.on_gce? rescue $!),
-
+        # Should be an array of things. But could be {} if sth went wrong.
         'RAC RailsCredEnvObj': RailsCredEnvObj,
         'RAC RailsCredEnv': RailsCredEnv,
         'RAC Credentials.env.PROJECT_ID': (Rails.application.credentials.env.PROJECT_ID rescue $!),
