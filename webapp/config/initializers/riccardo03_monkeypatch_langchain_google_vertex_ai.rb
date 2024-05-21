@@ -39,6 +39,17 @@ class Langchain::LLM::GoogleVertexAI
 
     @defaults = DEFAULTS.merge(default_options)
 
+    # copied from gbaptista
+    @gbaptista_client = Gemini.new(
+      credentials: {
+        service: 'vertex-ai-api',
+        region: region
+      },
+      options: {
+        model: @defaults[:chat_completion_model_name], # 'gemini-pro',  # TODO(ricc): use @defaults[:chat_completion_model_name]
+        server_sent_events: true }
+  )
+
     chat_parameters.update(
       model: {default: @defaults[:chat_completion_model_name]},
       temperature: {default: @defaults[:temperature]}
@@ -115,8 +126,34 @@ class Langchain::LLM::GoogleVertexAI
       end
     end
 
+
+    # copied from palm
+    def complete(prompt:, **params)
+      default_params = {
+        prompt: prompt,
+        temperature: @defaults[:temperature],
+        model: @defaults[:completion_model_name]
+      }
+
+      if params[:stop_sequences]
+        default_params[:stop_sequences] = params.delete(:stop_sequences)
+      end
+
+      if params[:max_tokens]
+        default_params[:max_output_tokens] = params.delete(:max_tokens)
+      end
+
+      default_params.merge!(params)
+
+      response = client.generate_text(**default_params)
+
+      Langchain::LLM::GoogleGeminiResponse.new response,
+        model: default_params[:model]
+    end
+
     # yes it does
     # (irb):3:in `<main>': Langchain::LLM::GoogleVertexAI does not support summarization (NotImplementedError)
+    # copied from
     def summarize(text:)
       prompt_template = Langchain::Prompt.load_from_path(
         file_path: Langchain.root.join("langchain/llm/prompts/summarize_template.yaml")

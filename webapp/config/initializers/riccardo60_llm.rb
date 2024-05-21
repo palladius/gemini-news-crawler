@@ -1,11 +1,14 @@
 
 
 # Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
-VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') rescue "VertexLLM Error('#{$!}')"
+VertexLLM = Langchain::LLM::GoogleVertexAI.new(
+  project_id: ENV['PROJECT_ID'],
+  region: 'us-central1',
+) rescue "VertexLLM Error('#{$!}')"
 # VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
 GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
-OllamaLLM = Langchain::LLM::Ollama.new rescue nil
 PalmLLM = Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
+OllamaLLM = Langchain::LLM::Ollama.new rescue nil
 
 PalmLLMImpromptu = PalmLLM.nil? ?
   '🤌 I cant, PalmLLM is nil 🤌' :
@@ -32,7 +35,7 @@ VertexAuthTokenLength = VertexLLM.authorizer.fetch_access_token['access_token'].
 BookOfLLMs = {
   vertex: {
     llm: VertexLLM.class,
-    description: 'todo',
+    description: 'This is the only HIGH QPS I have but unfortunately I seem to be able to only use it for embeddings. which is great, since theyre the only thing i do at big scale. But then it breaks my demo if I ask more than 5 request per minute (5QPM)',
     auth_method: 'GCP (high QPS)',
     authenticated1: VertexAuthenticated,
     authenticated2: VertexLLMAuthenticated,
@@ -48,5 +51,11 @@ BookOfLLMs = {
     description: 'todo',
     auth_method: 'api_key (low QPS)',
     authenticated: PalmLLM.authenticated?,
+  },
+  ollama: {
+    llm: OllamaLLM.class,
+    description: 'not used ANYWHERE for now',
+    #auth_method: 'api_key (low QPS)',
+    #authenticated: PalmLLM.authenticated?,
   }
 }
