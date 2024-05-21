@@ -7,28 +7,29 @@
 
   <p></p>This is a News Slurper that takes News in real time and - hopefully - feeds an LLM with RAG knowledge.</p>
 
-<p>䷍ Session: <%= link_to 'Sessionize', 'https://sessionize.com/app/speaker/session/621013' %></p>
-<p>📙 Slides: <%= link_to 'Deck', 'https://docs.google.com/presentation/d/11R5TbqPRsdeMdqN_1vFRS9v7qFRvOvpxTAFPOd-kfaE/edit' %></p>
+  <p>䷍ Session: <%= link_to 'Sessionize', 'https://sessionize.com/app/speaker/session/621013' %></p>
+  <p>📙 Slides: <%= link_to 'Deck', 'https://docs.google.com/presentation/d/11R5TbqPRsdeMdqN_1vFRS9v7qFRvOvpxTAFPOd-kfaE/edit' %></p>
 
-<p><%= link_to "🟡 DEV  https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %></p>
-<p><%= link_to "🟢 PROD https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/", 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/' %></p>
+  <p><%= link_to "🟡 DEV  https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %></p>
+  <p><%= link_to "🟢 PROD https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/", 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/' %></p>
 
 
-<h2  class="font-bold text-3xl">Description</h2>
+  <h2  class="font-bold text-3xl">Description</h2>
 
-<p>
-  How can we get an LLM to be updated to today’s news?
-</p>
-<p>
-Gen AI is great at answering questions.. from the past. After the LLM was trained, all you can do is RAG.
-How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
-It all gets more exciting thanks to Andrei’s langchainrb gem.
-</p>
+  <p>
+    How can we get an LLM to be updated to today's news?
+  </p>
+  <p>
+  Gen AI is great at answering questions.. from the past. After the LLM was trained, all you can do is RAG.
+  How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
+  It all gets more exciting thanks to Andrei's langchainrb gem.
+  </p>
 
-<p>See <%= fancy_link_to 'Articles', '/articles' %> for something really sweet.</p>
+  <p>See <%= fancy_link_to 'Articles', '/articles' %> for something really sweet.</p>
 
-<h2  class="font-bold text-3xl">GenAI [Im]promptu</h2>
-
-<%= render_prose(PalmLLMImpromptu) rescue "Issues with PalmLLMImpromptu: #{$!}" %>
+  <% if ShowDemoz %>
+   <h2  class="font-bold text-3xl">GenAI [Im]promptu</h2>
+    <%= render_prose(PalmLLMImpromptu) rescue "Issues with PalmLLMImpromptu: #{$!}" %>
+  <% end %>
 
 </div>
