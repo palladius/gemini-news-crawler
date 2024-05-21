@@ -65,7 +65,7 @@ class Langchain::LLM::GoogleVertexAI
     # TODO(ricc): add if api_key is valid.. but it should work both ways.
     # OR starts with /^ya29\./
     neha_authenticate unless defined?(@authorizer)
-    @authorizer.fetch_access_token!["access_token"].to_s.length == 1024 rescue "NEW_NEHA_authenticate()"
+    @authorizer.fetch_access_token!["access_token"].to_s.length == 1024 rescue false # "NEW_NEHA_authenticate()"
   end
 
   def neha_authenticate

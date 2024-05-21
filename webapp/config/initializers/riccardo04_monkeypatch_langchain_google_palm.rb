@@ -59,7 +59,7 @@ class Langchain::LLM::GooglePalm
   def authenticated?
     #:boh
     # i cant auth but thjis returns an API call so its a good thing
-    client.list_models.key?( 'models') rescue false
+    client.list_models.key?('models') rescue false
   end
 
 end
