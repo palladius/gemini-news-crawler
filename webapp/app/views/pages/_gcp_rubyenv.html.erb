@@ -21,8 +21,11 @@ secret_envs = %w{
         'RUBY_VERSION': RUBY_VERSION,
         'Rails.root': Rails.root.to_s,
         'Google::Auth::GCECredentials.on_gce?':  (Google::Auth::GCECredentials.on_gce? rescue $!),
-        'Credentials.env.PROJECT_ID': (Rails.application.credentials.env.PROJECT_ID rescue $!),
-        'Credentials.env[:PROJECT_ID]': (Rails.application.credentials.env[:PROJECT_ID] rescue $!),
+
+        'RAC RailsCredEnvObj': RailsCredEnvObj,
+        'RAC RailsCredEnv': RailsCredEnv,
+        'RAC Credentials.env.PROJECT_ID': (Rails.application.credentials.env.PROJECT_ID rescue $!),
+        'RAC Credentials.env[:PROJECT_ID]': (Rails.application.credentials.env[:PROJECT_ID] rescue $!),
        # 'hostname': hostname,
     }
     @interesting_data_long = {
