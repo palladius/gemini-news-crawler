@@ -18,7 +18,6 @@ GCP_KEY_PATH_EXISTS = File.exist?(GCP_KEY_PATH) rescue false
 CLOUDRUN_SA_KEY_EXISTS = File.exist?('/geminews-key/geminews-key') # rescue false
 CLOUDRUN_ENVRC_EXISTS = File.exist?('/secretenvrc/gemini-news-crawler-envrc') # rescue false
 
-RailsCredEnv = Rails.application.credentials['env'] rescue {} #['BUCKET_NAME']
 
 # Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
 VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') rescue "VertexLLM Error('#{$!}')"
@@ -54,10 +53,6 @@ NewsRetrieverENV = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY
 # NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: Rails.application.credentials.env.NEWSAPI_COM_KEY )
 # NoMethodError: undefined method `NEWSAPI_COM_KEY' for nil:NilClass (NoMethodError)
 NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: (Rails.application.credentials.env.fetch(:NEWSAPI_COM_KEY, nil) rescue "error #{$!}") )
-
-
-# Playing with ApplCredentials since ENV is SLOW (need to have it in local file, add to CBuild, ..)
-ShowDemoz = Rails.application.credentials['env'].fetch(:SHOW_DEMOZ, false).to_bool
 
 
 Rails.application.configure do
