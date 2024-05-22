@@ -2,7 +2,9 @@
 # Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
 VertexLLM = Langchain::LLM::GoogleVertexAI.new(project_id: ENV['PROJECT_ID'], region: 'us-central1') rescue "VertexLLM Error('#{$!}')"
 # VertexLLM.chat messages: 'Ciao come stai?' -> {"error":"invalid_scope","error_description":"Invalid OAuth scope or ID token audience provided."}
-GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
+gemini_llm_key = Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA rescue 'nisba'
+GeminiLLM = Langchain::LLM::GoogleGemini.new(api_key: gemini_llm_key) rescue nil # 9xhQ
+#GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
 PalmLLM = Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
 OllamaLLM = Langchain::LLM::Ollama.new rescue nil
 

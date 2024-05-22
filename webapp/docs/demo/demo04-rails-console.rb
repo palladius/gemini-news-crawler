@@ -29,22 +29,22 @@ class Langchain::Assistant
   # just syntactic sugar as i dont want to type 20 times this and grow a beard:
   #  @assistant.add_message_and_run( content: 'Please also save the Magnotta winery article too', auto_tool_execution: true)
   #  => @assistant.say 'Please also save the Magnotta winery article too'
-  def say(msg, also_show_latest_message: true)
+  def say(msg) # , also_show_latest_message: true)
     #Langchain::Assistant
     #puts self.thread.messages.last # (2)
     ret = self.add_message_and_run( content: msg, auto_tool_execution: true)
-    if also_show_latest_message
+    #if also_show_latest_message
       puts self.thread.messages.last(2)
       #puts self.thread.messages.last # (2)
-    end
-    return nil
-    # ret
+    #end
+    ret
   end
 
   def history()
     puts self.thread.messages
   end
 
+  # manages Net::HTTPTooManyRequests:0x0000000116c34940 -> sleep 10 and retry.
   def user_loop()
     puts("Use: 'history' to get chat history or 'exit' to exit.")
     prompt = ">>> "

@@ -3,7 +3,11 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.8'
+  VERSION = '1.9'
+
+  # v1.8 Got a delete error - tried to perfect the JSON decription
+
+    # app/tools/article_tool.rb:94:in `destroy': wrong number of arguments (given 1, expected 0; required keyword: id) (ArgumentError)
 
   # v1.8 Got a create error by unknown city -> defaults now to Vatican.
 

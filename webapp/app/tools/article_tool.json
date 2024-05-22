@@ -52,13 +52,13 @@
     "type": "function",
     "function": {
       "name": "article_tool__delete",
-      "description": "Article Database: Delete an article",
+      "description": "Article Database: Delete an article by id",
       "parameters": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number",
-            "description": "Article ID"
+            "description": "Article numeric ID"
           }
         },
         "required": ["id"]
