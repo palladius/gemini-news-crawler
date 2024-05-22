@@ -48,6 +48,9 @@ What’s latest with the ruby community? .. hoping to retrieve very latest news.
 
 Possibly, retrieve similar pictures/articles based on the questions (embedding style).
 
+* P2. **AWESOME**. Add a research by embedding. Something like "Search something about fun sport" and it calculates the embedding of "fun sport" and returns 5 closest articles. this means creating and declaring one more function.
+
+
 ## App info
 
 ### TODOs

@@ -37,11 +37,11 @@
           },
           "country": {
             "type": "string",
-            "description": "Country the article refers to (whatever makes more sense to you: the newspaper location, the country where they speak the language, or the country where the facts happen)"
+            "description": "Country the article refers to (whatever makes more sense to you: the newspaper location, the country where they speak the language, or the country where the facts happen. If unsure, say Vatican City)"
           },
           "country_emoji": {
             "type": "string",
-            "description": "Country flag emoji - emoji of the country you chose in 'country' field"
+            "description": "Country flag emoji - emoji of the country you chose in 'country' field. If unsure, emoji of vatican city."
           }
         },
         "required": ["title", "summary", "content", "author", "link", "published_date", "language"]

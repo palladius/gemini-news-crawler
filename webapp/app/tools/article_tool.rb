@@ -3,7 +3,11 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.7'
+  VERSION = '1.8'
+
+  # v1.8 Got a create error by unknown city -> defaults now to Vatican.
+
+     # app/tools/article_tool.rb:37:in `create': missing keywords: :country, :country_emoji (ArgumentError)
 
   # v1.7 now create() sends a more verbose output in return (whole object instead of just id)
   # v1.6 fixed missing `delete` function. Bug:
