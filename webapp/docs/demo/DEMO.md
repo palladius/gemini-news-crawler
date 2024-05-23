@@ -1,9 +1,9 @@
 # 4 Demos
 
-1. Embeddings and proximity query.
-2. RAG
-3. NewsRetriever from LangchainRB.
-4. [wow] Talk  Langchain assistant to retrieve latest news about X, tell you more about article Y and possibly save
+1. [UI/console] Embeddings and proximity query.
+2. [UI/console] RAG
+3. [UI best] NewsRetriever from LangchainRB (and page reconstruction). Nicer on UI as you see the images of articles.
+4. [console best] Talk  Langchain assistant to retrieve latest news about X, tell you more about article Y and possibly save
    that article. And finally, a surprise.
 
 ## CLI + Rails Console

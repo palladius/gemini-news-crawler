@@ -1,0 +1,173 @@
+#####################################################################
+# This is created with internal diagramming tool:
+#
+# PermaURL: https://gcpdraw.googleplex.com/diagrams/99913749-0634-45f2-af7e-ee2ef16a2005
+# On Web: TODO
+# Version: 1.1
+#####################################################################
+
+meta {
+  title "♊️ GemiNews 🗞️ Architecture v1.1"
+  #author "Riccardo Carlesso"
+}
+
+elements {
+  card users as developers {
+    display_name "Riccardo"
+    icon_url "https://drive.google.com/file/d/1e5LaKzExfY8ZEu3w9eeIJE5LnYlh-51k/view"
+  }
+  card server as git {
+    display_name "Rails App Github" #  🚂App
+    icon_url "https://drive.google.com/file/d/1u0JxVUaqHXcOR-ok-EUeQd2pQEKWGpqJ/view"
+  }
+
+  gcp {
+
+    card build {
+      name "🔫 Trigger to main"
+      description "Builds to AR\ndeploys to CRun"
+    }
+    #card gke as dev_gke {
+    #  name "Dev Cluster"
+    #}
+    #card gke as prod_gke {
+    #  name "Prod Cluster"
+    #}
+    group Storage {
+      name "Storage, DB, Secrets"
+      background_color "#ccffaa"
+      #group_color "green"
+
+      card secret_manager as secrets {
+         name "🔑 Keys / 🌱 ENVs"
+      }
+      card artifact_registry as ar {
+          name "📦 docker image"
+      }
+      card sql as db {
+         name "PostgreS"
+         icon_url "https://drive.google.com/file/d/15HjdKOPgP8CW9ADfxecerr-xg2ZD-G2X/view"
+      }
+      card gcs as gcs {
+         name "Media 🔊 🏞️ " # images & sounds" 🔊 🏞️
+         #description "Images and words (and sounds)"
+
+      }
+
+    }
+
+
+    #card run as bkg_processing {
+   # 	name "App Bakground"
+   # }
+
+    group APIs {
+      name "Vertex AI / Gemini"
+      background_color "#0079BF"  # gemini
+
+
+      stacked_card vertex_ai as vai_embed {
+         name "📌 Vector Embeddings"
+         description "[0.231, -0.987, ...]"
+      }
+      stacked_card vertex_ai as vai_text {
+         name "📜 Text generation" # 📚
+         description "Here's the story about.."
+      }
+      stacked_card vertex_ai as vai_sum {
+         name "📚 Text Summarization"
+         description "This text is about.."
+      }
+      #card translation as translate {
+      #  name "Translate API"
+      #}
+    }
+
+  group Applications {
+    #name "Applications"
+    background_color "#ffffff"
+
+    icon_url "https://drive.google.com/file/d/1u0JxVUaqHXcOR-ok-EUeQd2pQEKWGpqJ/view"
+
+    card run as run_dev {
+       name "GemiNews"
+       description "♊️GemiNews🗞️ (DEV)"
+       #background_color "#ffcccc"
+    }
+    #card run as run_prod {
+    #   name "GemiNews"
+    #   description "♊️GemiNews🗞️ (PROD)"
+    #   #background_color "#ffcccc"
+    #}
+    card run as crawler {
+       name "🕷️ Crawler"
+       #background_color "#ffcccc"
+    }
+
+
+  } # /Applications
+
+    card internet {
+      name "Internet"
+      description "BCC.RSS, ..."
+      icon_url "https://drive.google.com/file/d/1wP2P37vjl5DvaAb-5VhH2kTAuT4npe7X/view"
+    }
+    #card internet
+  #card users as trigger {
+  #  display_name "Trigger"
+  #  # gun or similar
+  #  icon_url "https://drive.google.com/file/d/1UFRXslwUpY456iZ_71e8sr7hnv22Mtuv/view"
+  #}
+  } #/gcp
+
+  #gcp as gcp2 {
+  #}
+
+
+
+
+  card users as users {
+    display_name "🗞️ Users"
+  }
+
+#  card users as qa {
+#    display_name "QA"
+#  #}
+} # Elements
+
+paths {
+  developers -down-> git
+  #git ..> trigger
+  #trigger ..> build
+  git ..> build
+
+  # CI/CD
+  build --> ar
+  build --> run_dev
+  ar --> run_dev
+
+  #build --> run_prod
+  #ar --> run_prod
+
+  # App to Storage
+  secrets --> run_dev
+  run_dev <..> db
+  #run <..> gcs
+  #bkg_processing  <-up-> gcs
+
+  # API stuff
+  run_dev <..> APIs
+
+  # Crawler interactions
+  gcs <-- crawler
+  crawler  <-->  internet
+
+  APIs <.left.> vai_embed
+  APIs <.left.> vai_text
+  APIs <.left.> vai_sum
+  #APIs <.left.> tts
+  #APIs <.left.> translate
+
+  #run_dev <.down.> users
+  #run_prod <.down.> users
+}
