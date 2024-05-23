@@ -34,10 +34,11 @@ class Langchain::Assistant
     #puts self.thread.messages.last # (2)
     ret = self.add_message_and_run( content: msg, auto_tool_execution: true)
     #if also_show_latest_message
-      puts self.thread.messages.last(2)
-      #puts self.thread.messages.last # (2)
+    puts  self.thread.messages.last(2)
+    #self.thread.messages.last(2)
     #end
-    ret
+    #ret
+    nil # if I return ret, it will bloat the output!
   end
 
   def history()
@@ -69,7 +70,7 @@ class Langchain::Assistant
   end
 end
 
-@query ||= 'Latest 7 news from Italy'
+@query ||= 'Latest 5 news from Italy'
 
 # llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
 

@@ -16,6 +16,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-05-23 v0.3.47 [dev] small nits for awesomization of #demo4
 2024-05-22 v0.3.46 [dev] better country management in tool for #demo4
 2024-05-21 v0.3.45 [dev] tool is more verbose in crestaing an article #demo4
 2024-05-21 v0.3.44 [dev] One of those useless refactorings which breaks everything

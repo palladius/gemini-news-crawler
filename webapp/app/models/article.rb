@@ -98,8 +98,13 @@ class Article < ApplicationRecord
       #end
     end
 
+    # much better!
     def interesting_attributes
-      attributes.except('title_embedding', 'summary_embedding', 'article_embedding')
+      attributes.except('title_embedding', 'summary_embedding', 'article_embedding',
+      # other boring stuff
+        'ricc_internal_notes', 'hidden_blurb', 'guid',
+        'article_embedding_description', 'title_embedding_description','summary_embedding_description',
+      )
     end
 
     def set_defaults
