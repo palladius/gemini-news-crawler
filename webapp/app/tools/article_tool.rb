@@ -3,9 +3,10 @@
 class ArticleTool < Langchain::Tool::Base
   NAME = "article_tool"
   ANNOTATIONS_PATH = Pathname.new("#{__dir__}/article_tool.json").to_path
-  VERSION = '1.9'
+  VERSION = '1.10'
 
-  # v1.8 Got a delete error - tried to perfect the JSON decription
+  # v1.10 Added Carlessian url: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#id
+  # v1.9  Got a delete error - tried to perfect the JSON decription
 
     # app/tools/article_tool.rb:94:in `destroy': wrong number of arguments (given 1, expected 0; required keyword: id) (ArgumentError)
 
@@ -103,5 +104,9 @@ class ArticleTool < Langchain::Tool::Base
   # function is called DELETE, not DESTROY. So copying it
   def delete(id:)
     destroy(id)
+  end
+
+  def carlessian_url(id:)
+    "https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#{id}"
   end
 end

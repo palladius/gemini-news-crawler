@@ -7,6 +7,9 @@ GAC = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 GOOGLE_APPLICATION_CREDENTIALS  = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 EmbeddingEmoji = '🗿'
 
+AppUrlDev  = 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/'
+AppUrlProd = 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/'
+
 ENABLE_GCP = (ENV['ENABLE_GCP'].to_s.downcase == 'true')
 def gcp?()
   ENABLE_GCP

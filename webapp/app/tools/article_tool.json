@@ -64,5 +64,22 @@
         "required": ["id"]
       }
     }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "article_tool__carlessian_url",
+      "description": "Carlessian URL: Provide an article perma-URL for gemini-news-crawler app by id",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Article numeric ID"
+          }
+        },
+        "required": ["id"]
+      }
+    }
   }
 ]
