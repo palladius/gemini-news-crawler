@@ -3,11 +3,11 @@
 #
 # PermaURL: https://gcpdraw.googleplex.com/diagrams/99913749-0634-45f2-af7e-ee2ef16a2005
 # On Web: https://github.com/palladius/gemini-news-crawler/blob/main/docs/architecture-diagram.gcpdraw
-# Version: 1.1b
+# Version: 1.2
 #####################################################################
 
 meta {
-  title "♊️ GemiNews 🗞️ Architecture v1.1b"
+  title "♊️ GemiNews 🗞️ Architecture v1.2"
   #author "Riccardo Carlesso"
   #slide_deck "go/ricc-gemini-verona"
 }
@@ -69,16 +69,20 @@ elements {
 
 
       stacked_card vertex_ai as vai_embed {
-         name "📌 Vector Embeddings"
+         name "🔢 Vector Embeddings" #📌
          description "[0.231, -0.987, ...]"
       }
       stacked_card vertex_ai as vai_text {
          name "📜 Text generation" # 📚
-         description "Here's the story about.."
+         description "'Here's the story about..'"
       }
       stacked_card vertex_ai as vai_sum {
          name "📚 Text Summarization"
-         description "This text is about.."
+         description "'This text is about..'"
+      }
+      stacked_card vertex_ai as vai_func {
+         name "🛠️ Function Calling"
+         description "f(x) 🛠️ ArticleTool.create(..)"
       }
       #card translation as translate {
       #  name "Translate API"
@@ -86,13 +90,13 @@ elements {
     }
 
   group Applications {
-    #name "Applications"
+    name "Ruby Applications"
     background_color "#ffffff"
 
-    icon_url "https://drive.google.com/file/d/1u0JxVUaqHXcOR-ok-EUeQd2pQEKWGpqJ/view"
 
     card run as run_dev {
-       name "GemiNews"
+       name "GemiNews (rails)"
+       icon_url "https://drive.google.com/file/d/1u0JxVUaqHXcOR-ok-EUeQd2pQEKWGpqJ/view"
        description "♊️GemiNews🗞️ (DEV)"
        #background_color "#ffcccc"
     }
@@ -104,6 +108,8 @@ elements {
     card run as crawler {
        name "🕷️ Crawler"
        #background_color "#ffcccc"
+       icon_url "https://drive.google.com/file/d/19ATijjS5ptevY3AyrRou4LSyRulvXI_b/view" # google_cloud_search.png	"
+
     }
 
 
