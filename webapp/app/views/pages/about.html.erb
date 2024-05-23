@@ -27,7 +27,9 @@
 
   <p>See <%= fancy_link_to 'Articles', '/articles' %> for something really sweet.</p>
 
-  <% if ShowDemoz %>
+  <% if false
+     # ShowDemoz
+  %>
    <h2  class="font-bold text-3xl">GenAI [Im]promptu</h2>
     <%= render_prose(PalmLLMImpromptu) rescue "Issues with PalmLLMImpromptu: #{$!}" %>
   <% end %>

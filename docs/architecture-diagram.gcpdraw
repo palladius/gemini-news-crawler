@@ -2,13 +2,14 @@
 # This is created with internal diagramming tool:
 #
 # PermaURL: https://gcpdraw.googleplex.com/diagrams/99913749-0634-45f2-af7e-ee2ef16a2005
-# On Web: TODO
-# Version: 1.1
+# On Web: https://github.com/palladius/gemini-news-crawler/blob/main/docs/architecture-diagram.gcpdraw
+# Version: 1.1b
 #####################################################################
 
 meta {
-  title "♊️ GemiNews 🗞️ Architecture v1.1"
+  title "♊️ GemiNews 🗞️ Architecture v1.1b"
   #author "Riccardo Carlesso"
+  #slide_deck "go/ricc-gemini-verona"
 }
 
 elements {
@@ -19,6 +20,7 @@ elements {
   card server as git {
     display_name "Rails App Github" #  🚂App
     icon_url "https://drive.google.com/file/d/1u0JxVUaqHXcOR-ok-EUeQd2pQEKWGpqJ/view"
+#    icon_url "https://drive.google.com/file/d/16FfLqBVVMioqVPfaazFJmPPi3e8YAcNi/view"
   }
 
   gcp {
