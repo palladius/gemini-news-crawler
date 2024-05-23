@@ -7,6 +7,7 @@ class SmartQueriesController < ApplicationController
     # Sample queries to embed
     @sample_queries = [
       "US politics",
+      "European Elections",
       "Verona, Veneto, Venezia region",
       #"latest stories",
       "Italy",
