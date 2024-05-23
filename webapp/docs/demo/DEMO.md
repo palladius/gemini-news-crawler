@@ -1,9 +1,10 @@
 # 4 Demos
 
-1.
-2.
-3.
-4.
+1. Embeddings and proximity query.
+2. RAG
+3. NewsRetriever from LangchainRB.
+4. [wow] Talk  Langchain assistant to retrieve latest news about X, tell you more about article Y and possibly save
+   that article. And finally, a surprise.
 
 ## CLI + Rails Console
 

@@ -101,7 +101,7 @@ module Embeddable
         file_path: GCP_KEY_PATH, # 'private/ricc-genai.json' ,
         region: 'us-central1', # 'us-east4'
       },
-          # code: https://github.com/gbaptista/gemini-ai/blob/main/controllers/client.rb
+      # code: https://github.com/gbaptista/gemini-ai/blob/main/controllers/client.rb
       options: {
               model:  embedding_model, #  'textembedding-gecko-multilingual',
               service_version: 'v1',

@@ -47,8 +47,9 @@ article_tool = ArticleTool.new
 @y = @assistant.add_message_and_run(content: "Please save the first article to the DB", auto_tool_execution: true) rescue "Error('#{$!}')"
 # rescue []
 @answer2_position = @y.size rescue 0 # So I can print THIS response
-
+@z = @assistant.add_message_and_run(content: "If you were able to save that article to the DB, please provide the Carlessian URL", auto_tool_execution: true) rescue "Error('#{$!}')"
 %>
+
 <table class="w-full table-auto border-collapse border border-slate-400">
     <caption class="text-center text-xl font-semibold bg-gray-200 p-2">AAA<%#= title %></caption>
     <thead>
@@ -115,6 +116,11 @@ article_tool = ArticleTool.new
 <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
     Person text @answer2_position = <%= @answer2_position %>
 </p>
+<h1>@assistant.history</h1>
+
+<pre>
+  <%= @assistant.history rescue "@assistant.histroy err: #{$!}" %>
+</pre>
 <% else %>
   Sorry, looks like this LLM is not authenticated. It would make a barbina figure to call APIs over it.
 <% end %>

@@ -20,7 +20,7 @@ class Langchain::LLM::GoogleGemini
   def authenticated?
     # Attempt Neha authentication first
     begin
-      neha_authenticate! unless defined?(@authorizer)
+      neha_authenticate unless defined?(@authorizer)
       return true if @authorizer.fetch_access_token!["access_token"].to_s.length == 1024
     rescue => exception
       # Handle any exceptions gracefully (log, notify, etc.)

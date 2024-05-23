@@ -34,6 +34,7 @@ Rails.application.configure do
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"
   config.hosts << "gemini-news-crawler-manhouse-dev-x42ijqglgq-ew.a.run.app"
   config.hosts << "gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app"    # Allow requests from example.com
+  config.hosts << /.*\.proxy\.googleprod\.com/
   config.hosts << /gemini-news-crawler.*\.run\.app/
   config.hosts << "localhost:3000"
   config.hosts << "localhost"

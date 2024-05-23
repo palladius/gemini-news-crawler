@@ -160,11 +160,10 @@ class Article < ApplicationRecord
 
 
     def closest_articles(size: 5, similarity_field: :title_embedding)
-      # :title_embedding
-      # TODO make sure its title/article/whatevs
       distance_type = 'cosine' # cosine, euclidean
       raise "Unknown similarity field: #{similarity_field}" unless similarity_field.is_a?(Symbol)
       self.nearest_neighbors(similarity_field, distance: distance_type).first(size)
+      # Also works:
       #self.nearest_neighbors(:article_embedding, distance: "euclidean").first(size)
       #self.nearest_neighbors(:title_embedding, distance: "euclidean").first(size)
     end

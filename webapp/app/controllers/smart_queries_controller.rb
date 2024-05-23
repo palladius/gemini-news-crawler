@@ -19,15 +19,17 @@ class SmartQueriesController < ApplicationController
     #  'Cronaca Nera',
       'Fake news',
     ]
-    @sample_queries_for_gemini_functions = [
-      "What's new in US politics?",
-      "Verona, Veneto, Venezia region",
-      "latest stories from France",
-      "Latest stories from Italy?",
-      "Any news from Google Cloud?",
-      "Any news about Ruby or RoR?",
-      "What are some fun facts?",
-    ]
+    # defined in  app/views/pages/assistant.html.erb:@sample_queries_for_gemini_functions_use_controller_instead = [
+    # @sample_queries_for_gemini_functions = [
+    #   "What's new in US politics?",
+    #   "Verona, Veneto, Venezia region",
+    #   "latest 5 stories from France",
+    #   "latest 4 stories from Oregon",
+    #   "Latest stories from Italy?",
+    #   "Any news from Google Cloud?",
+    #   "Any news about Ruby or RoR?",
+    #   "What are some fun stories from headlines?",
+    # ]
     @rag_type = 'in show non in index!'
   end
 

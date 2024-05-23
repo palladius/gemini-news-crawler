@@ -13,10 +13,17 @@ ShowDemoz = Rails.application.credentials['env'].fetch(:SHOW_DEMOZ, false).to_bo
 NoMethodError: undefined method `fetch' for nil:NilClass (NoMethodError)
 bin/rails aborted!
 ```
+## Features
+* b/106 added quota for new models on Friday May 27.
+
+* gemini-1.5-pro-preview-0514 -> gemini-1.5-pro-001
+* gemini-1.5-flash-preview-0514 -> gemini-1.5-flash-001
+
 
 ## Changelog
 
-2024-05-23 v0.3.48 [dev] Added Carlessian URL to toolchain. It works fabulously.
+2024-05-23 v0.3.49 [dev] [derek] Added Carlessian URL to UI Assistant demo twoo.
+2024-05-23 v0.3.48 [dev] [mac] Added Carlessian URL to toolchain. It works fabulously.
 2024-05-23 v0.3.47 [dev] small nits for awesomization of #demo4
 2024-05-22 v0.3.46 [dev] better country management in tool for #demo4
 2024-05-21 v0.3.45 [dev] tool is more verbose in crestaing an article #demo4
