@@ -22,7 +22,9 @@ It all gets more exciting thanks to Andrei’s langchainrb gem.
 
 ## Features
 
-* [hot] **Gemini function calling** for getting News and .
+* [hot] **Gemini function calling** tools:
+    * `NewsRetriever`: getting News from online (part of `langchainrb` gem),
+    * `ArticleTool`: and from Active Record (local under `webapp/app/tools/article_tool.json`).
 * Use `langchainrb` gem for Tools, Prompts, AI services (mostly Google ones).
 
 ![App Architecture](https://github.com/palladius/gemini-news-crawler/blob/main/docs/GeminewsArchitecture.png?raw=true "Architecture")

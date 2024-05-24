@@ -48,6 +48,16 @@ Code: within 🚊💻 Rails Console:  https://github.com/palladius/gemini-news-c
 
 ![Demo 2B: Gemini summarizing the content](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo2b.png?raw=true "Demo 2B: Gemini summarizing the content")
 
+### RAG Flow of consciouness from console
+
+
+![RAG: A1 Short Prompt - instructions](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo02-pt1-short-prompt.png?raw=true "RAG pt1")
+
+![RAG: A2 Long Prompt - articles excerpts](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo02-pt2-long-prompt.png?raw=true "RAG pt2")
+
+![RAG: G Result - summary](https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/assets/images/demo/demo02-pt3-summary.png?raw=true "RAG pt3")
+
+
 
 # Demo 3: NewsRetriever from LangchainRB.
 
