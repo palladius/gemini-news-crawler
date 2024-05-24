@@ -12,7 +12,7 @@
 
 llm  = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA)# rescue nil # 9xhQ
 
-thread = Langchain::Thread.new
+# thread = Langchain::Thread.new
 
 # Creating tools to feed the Assistant
 #news_retriever  = NewsRetriever # instantiated in config/initializers/
@@ -21,7 +21,7 @@ thread = Langchain::Thread.new
 
 @assistant = Langchain::Assistant.new(
   llm: llm,
-  thread: thread,
+  thread: Langchain::Thread.new,
   instructions: "You are a News Assistant.",
   #instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [

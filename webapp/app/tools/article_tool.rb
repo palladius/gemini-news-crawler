@@ -96,15 +96,15 @@ class ArticleTool < Langchain::Tool::Base
   #
   # @param id [Integer] the id of the article to destroy
   # @return [Boolean] true if the article was destroyed, false otherwise
-  def destroy(id:)
+  def delete(id:)
     article = Article.find(id)
     !!article.destroy
   end
 
-  # function is called DELETE, not DESTROY. So copying it
-  def delete(id:)
-    destroy(id)
-  end
+  # We dont need this!
+  # def destroy(id:)
+  #   destroy(id: id) # Ricc learning
+  # end
 
   def carlessian_url(id:)
     "https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#{id}"
