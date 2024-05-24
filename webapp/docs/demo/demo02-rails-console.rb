@@ -6,8 +6,11 @@
 ########################################################################
 
 #@query = 'Ruby or Rails'
-@query = 'Donald Trump'
+#@query = 'Donald Trump'
+@query = 'Global warming'
+
 # Uses latest Gemini to calculate embeddings.
+@e = GeminiLLM.embed(text: @query).embedding
 # @e is an embedding:
 # => [0.032562922686338425,
 #    -0.1233862042427063,
@@ -16,9 +19,8 @@
 #    0.039575427770614624,
 #    ...
 #    ]
-@e = GeminiLLM.embed(text: @query).embedding
 
-# Claculate closest articles based on:
+# Calculate closest articles based on:
 # 1. ambedding model called: TODO
 # 2. content: article (a smart union of title, body, ..)
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6)
