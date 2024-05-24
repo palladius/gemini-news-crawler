@@ -29,7 +29,10 @@ module DemosHelper
 
     base_classes = "text-white font-bold py-2 px-4 rounded"
 
-    link_to("💻 Demo #{demo_id} on github", "https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/demo#{demo_id}-rails-console.rb", class: "#{color_classes[color]} #{base_classes}")
+    link_to "💻 Demo #{demo_id} on github",
+      "https://github.com/palladius/gemini-news-crawler/blob/main/webapp/docs/demo/demo#{demo_id}-rails-console.rb",
+      target: "_blank",
+      class: "#{color_classes[color]} #{base_classes}"
   end
 
 end

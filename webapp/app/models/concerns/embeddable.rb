@@ -113,9 +113,6 @@ module Embeddable
         "task_type": 'RETRIEVAL_DOCUMENT', # what i need
         "content": value
       }],
-    # "parameters": {
-    #  "outputDimensionality": 256 # 768 is the default
-    # }
     }
     result = client.request('predict',request_hash ) rescue [$!, nil]
     if result.is_a? Array # .nil?

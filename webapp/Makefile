@@ -21,9 +21,11 @@ dev:
 
 # ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean
 run-dev:
-# rails assets:precompile
 	bundle exec rails assets:precompile
 	bundle exec rails s
+run-dev-insecure:
+	bundle exec rails assets:precompile
+	bundle exec rails s -b 0.0.0.0
 
 run-prod:
 # fioxes this: objc[92630]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.

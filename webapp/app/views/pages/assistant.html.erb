@@ -25,9 +25,12 @@
 <div class="assistant-demo" >
     <h1 class="text-4xl font-bold tracking-tight mb-4">💁🏻 Assistant demo</h1>
 
+    <%= demo_button_link('04', 'green') %>
+
     <% if @query.nil? %>
         <%= render 'pages/assistant_index' %>
     <% else %>
+
     <!-- Typical problems:
             429 - HTTPTooManyRequests
     -->

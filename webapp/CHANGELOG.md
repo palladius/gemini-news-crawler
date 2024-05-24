@@ -22,7 +22,9 @@ bin/rails aborted!
 
 ## Changelog
 
-2024-05-24 v0.3.51 [dev] [derek] 4 googley button helpers
+2024-05-24 v0.3.54 [dev] [derek] Demo4: fixed delete() function
+2024-05-24 v0.3.53 [dev] [derek] BREAKING CHANGE - CSS `flex` removed from main. Seems to have fixed EVERYTHING
+2024-05-24 v0.3.52 [dev] [derek] 4 googley button helpers
 2024-05-24 v0.3.51 [dev] [derek] demo3 beautification
 2024-05-24 v0.3.50 [dev] [derek] minor migliorie
 2024-05-23 v0.3.49 [dev] [derek] Added Carlessian URL to UI Assistant demo two.

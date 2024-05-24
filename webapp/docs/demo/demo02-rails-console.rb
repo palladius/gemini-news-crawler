@@ -10,7 +10,7 @@
 @query = 'Global warming'
 
 # Uses latest Gemini to calculate embeddings.
-@e = GeminiLLM.embed(text: 'Global warming').embedding
+@e = GeminiLLM.embed(text: @query).embedding
 # @e is an embedding:
 # => [0.032562922686338425,
 #    -0.1233862042427063,
@@ -21,15 +21,20 @@
 #    ]
 
 # Calculate closest articles based on:
-# 1. ambedding model called: TODO
+# 1. embedding model called: Depends on what I look for. It's definitely one of these two:
+#    - 'textembedding-gecko-multilingual'
+#    - "textembedding-gecko"
+#    Title: ??? Call `a.title_embedding_description` and `a.title_embedding_meaning`
+#    ???:
+#    Article:  ???
 # 2. content: article (a smart union of title, body, ..)
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6)
 #@closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6) # .order(:published_date)
 
 
 # Visualizing for the crowd:
-# @closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title] } # without TAGS
-@closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title, a.tag_names.map{|x| x.to_sym}]} # with tags
+@closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title] } # without TAGS
+# @closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title, a.tag_names.map{|x| x.to_sym}]} # with tags
 
 # =>
 # [[5842, 77.74, "Live reload a Rails 7 application, an unsatisfaying attempt", []],
@@ -51,17 +56,20 @@
 # Here are the #{@closest_articles.count} Articles:
 # "
 helpz = ApplicationController.helpers
+
 #@short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
 @short_prompt = helpz.rag_short_prompt(query: @query , article_count: @closest_articles.count)
 puts(@short_prompt.colorize :yellow)
 
 ########################################################
-# 1. If you want use SHORT
+# 1. If you want use SHORT article representation
+########################################################
 @articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
 puts(@articles_excerpts.colorize :cyan)
 @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
 @rag_excerpt = PalmLLM.complete(prompt: @long_prompt).output
 puts(@rag_excerpt.colorize :green)
+# Or for screenshotting to slides: puts(@rag_excerpt.gsub("\n",' ').colorize :green) # ;-)
 # =>
 # There are 42 articles in total. The most recent one is published on 2024-04-06.
 
@@ -76,6 +84,7 @@ puts(@rag_excerpt.colorize :green)
 
 ########################################################
 # 2. If you want use LONG and read the whole article:
+########################################################
 @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
 puts(@articles_verbose.colorize :cyan)
 @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_verbose )
