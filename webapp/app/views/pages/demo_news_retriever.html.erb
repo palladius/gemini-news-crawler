@@ -21,22 +21,26 @@ excerpt_size = 2500 # with 500 u dont see much
 %>
 
 <div class="relative">
-    <br/>
     <%= fancy_title "[Request] 1. API Call: q=#{query}" %>
 
     <p>Here is the request built by langchainrb 2
         <a href="https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/tool/news_retriever/news_retriever.rb">NewsRetriever tool</a>:
     </p>
+    <br/>
     <p>
-        <%#= demo_button_link('01', 'blue') %>
-        <%#= demo_button_link('02', 'red') %>
         <%= demo_button_link('03', 'yellow') %>
-        <%#= demo_button_link('04', 'green') %>
     </p>
 
     <div>
+            <!-- just cheap paste from irb -->
+        <%= render_prose("irb> <b>#{cmd}</b>\nI, [2024-05-24T18:31:54.143965 #2273497]  INFO -- : [Langchain.rb] [Langchain::Tool::NewsRetriever]: Retrieving all news" ) %>
 
-        <%= render_prose cmd_and_news %>
+        <p>API Result ("BFJ"):</p>
+        <p>Status (from JSON): <b><%= parsed_json['status'] %></b></p>
+        <p>Total results (from JSON): <b><%= parsed_json['totalResults'] %></b></p>
+
+        <%= render_prose news.gsub("},{","},\n\n{") %>
+        <%#= render_prose cmd_and_news %>
         <div>
             <%= fancy_title "[Response] 2. API results: First Article" %>
         </div>

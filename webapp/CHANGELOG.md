@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-05-24 v0.3.55 [dev] [derek] Demo3: fix horrible UI
 2024-05-24 v0.3.54 [dev] [derek] Demo4: fixed delete() function
 2024-05-24 v0.3.53 [dev] [derek] BREAKING CHANGE - CSS `flex` removed from main. Seems to have fixed EVERYTHING
 2024-05-24 v0.3.52 [dev] [derek] 4 googley button helpers
