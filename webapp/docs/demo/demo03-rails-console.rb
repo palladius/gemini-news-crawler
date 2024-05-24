@@ -21,9 +21,11 @@ def print_colorful_to_console(article)
   puts('-------------------------------------------')
 end
 
+# JFYI
+# NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: (Rails.application.credentials.env.fetch(:NEWSAPI_COM_KEY, nil) rescue "error #{$!}") )
 query = 'Vinitaly'
-news = NewsRetriever.get_everything( q: query).to_s.force_encoding("UTF-8")
-cmd = "NewsRetriever.get_everything( q: '#{query}')"
+news = NewsRetriever.get_everything(q: query, page_size: 6).to_s.force_encoding("UTF-8")
+cmd = "NewsRetriever.get_everything(q: '#{query}', page_size: 6)"
 parsed_json = JSON.parse(news)
 cmd_and_news = "# 💻 #{cmd} (excerpt)\n\n#{helpz.render_json(news).first(500)}.."
 
