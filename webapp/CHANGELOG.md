@@ -22,7 +22,8 @@ bin/rails aborted!
 
 ## Changelog
 
-2024-05-23 v0.3.49 [dev] [derek] Added Carlessian URL to UI Assistant demo twoo.
+2024-05-23 v0.3.49 [dev] [derek] minor migliorie
+2024-05-23 v0.3.49 [dev] [derek] Added Carlessian URL to UI Assistant demo two.
 2024-05-23 v0.3.48 [dev] [mac] Added Carlessian URL to toolchain. It works fabulously.
 2024-05-23 v0.3.47 [dev] small nits for awesomization of #demo4
 2024-05-22 v0.3.46 [dev] better country management in tool for #demo4

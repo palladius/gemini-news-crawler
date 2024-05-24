@@ -10,7 +10,7 @@
 @query = 'Global warming'
 
 # Uses latest Gemini to calculate embeddings.
-@e = GeminiLLM.embed(text: @query).embedding
+@e = GeminiLLM.embed(text: 'Global warming').embedding
 # @e is an embedding:
 # => [0.032562922686338425,
 #    -0.1233862042427063,
@@ -28,7 +28,9 @@
 
 
 # Visualizing for the crowd:
-@closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title, a.tag_names.map{|x| x.to_sym} ] }
+# @closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title] } # without TAGS
+@closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title, a.tag_names.map{|x| x.to_sym}]} # with tags
+
 # =>
 # [[5842, 77.74, "Live reload a Rails 7 application, an unsatisfaying attempt", []],
 #  [215, 78.49, "Ruby on Rails-like ORM and scaffolding in Golang anyone?", []],

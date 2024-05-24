@@ -7,15 +7,17 @@ class SmartQueriesController < ApplicationController
     # Sample queries to embed
     @sample_queries = [
       "US politics",
+      'Global warming',
       "European Elections",
       "Verona, Veneto, Venezia region",
-      #"latest stories",
       "Italy",
       "Google Cloud and Alphabet",
+      "Android phones",
       "Ruby or Rails",
-      "fun facts",
+      #"fun facts",
       #'crime news',       # => cronaca nera
-      'Geopolitical situation in China',
+      'Geopolitical world situation',
+      'Latest movies on Netflix',
       'Best travel locations',
     #  'Cronaca Nera',
       'Fake news',
