@@ -1,13 +1,22 @@
 <% if article.is_a? Hash
-        h = article
+    h = article
 %>
-    <div>
-        <%= image_tag h['urlToImage'], size: "350x250" %>
-        <strong>📰 <%= link_to h['title'],h['url'] %></strong>
-        (<%= h['publishedAt'].to_date %>)
-        <i><%= h['description'] %></i>
+  <div class="bg-white rounded-lg shadow-md overflow-hidden">
+    <div class="p-4">
+      <h2 class="text-xl font-semibold mb-2"><%= link_to h['title'], h['url'], class: "hover:underline" %></h2>
+      <div class="flex items-center mb-2">
+        <img src="<%= h['urlToImage'] %>" alt="Article Image" class="w-16 h-16 object-cover rounded-full mr-2">
+        <span class="text-sm text-gray-500">
+          <%= h['publishedAt'].to_date %> - <%= h['author'] if h['author'] %>
+        </span>
+        <span class="text-gray-700"><%= h['description'] %></span>
+      </div>
+      <p class="text-gray-700"><%= h['content'] %></p>
     </div>
+  </div>
 <% else %>
-    🤷🏼‍♀️ Article not found, sorry 🤷🏼‍♀️
-    <%= article.class %>
+  <div class="bg-white rounded-lg shadow-md overflow-hidden p-4">
+    <p class="text-gray-700">🤷🏼‍♀️ Article not found, sorry 🤷🏼‍♀️</p>
+    <p class="text-sm text-gray-500"><%= article.class %></p>
+  </div>
 <% end %>

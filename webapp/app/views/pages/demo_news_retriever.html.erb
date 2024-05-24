@@ -10,6 +10,7 @@ query = params.fetch('q', default_query)
 #query = 'Donald Trump'
 #query = 'Basketball'
 #query = 'Sinner'
+excerpt_size = 2500 # with 500 u dont see much
     # non va:
     # * Giorgia Meloni
     # Va solo con Trump
@@ -17,7 +18,7 @@ query = params.fetch('q', default_query)
     news = NewsRetriever.get_everything( q: query).to_s.force_encoding("UTF-8")
     cmd = "NewsRetriever.get_everything( q: '#{query}')"
     parsed_json = JSON.parse(news)
-    cmd_and_news = "# 💻 #{cmd} (excerpt)\n\n#{render_json(news).first(500)}.." # excerpt of whole return
+    cmd_and_news = "# 💻 #{cmd} (excerpt #{excerpt_size}b)\n\n#{render_json(news).first(excerpt_size)}.." # excerpt of whole return
 %>
 
 <div class="relative">
@@ -45,13 +46,15 @@ query = params.fetch('q', default_query)
             "publishedAt"=>"2024-05-17T18:51:00+00:00",
             "content"=>"Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"}
             -->
-
-    </div>
+        </div>
     <%= fancy_title "[Response] 3. API results from NewsCatcher: reassembled from JSON" %>
-
-        <% parsed_json['articles'].each do |h| %>
-            <%= render 'pages/demo_news_retrieval_article' , article: h %>
-        <% end %>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <% parsed_json['articles'].each do |h| %>
+                <%= render 'pages/demo_news_retrieval_article' , article: h %>
+            <% end %>
+        </div>
+        <p>Note. This CSS was created by Gemini Ultra.</p>
     </div>
   </div>
+
 
