@@ -3,8 +3,6 @@
 # Nice visualizer for the chat -> moved to riccardo05_monkeypatch
 # Nice patch of assistant: moved to `webapp/config/initializers/riccardo15_monkeypatch_langchain_assistant.rb`
 
-#@query ||= 'Latest 5 news from Italy'
-
 # llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
 
 #llm = VertexLLM # doesnt work
@@ -12,23 +10,24 @@
 
 llm  = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA)# rescue nil # 9xhQ
 
-# thread = Langchain::Thread.new
-
-# Creating tools to feed the Assistant
-#news_retriever  = NewsRetriever # instantiated in config/initializers/
-#article_tool = ArticleTool.new  # doing now
+# Which model are we using?
+llm.defaults[:chat_completion_model_name]
+# => "gemini-1.5-pro-latest"
 
 
 @assistant = Langchain::Assistant.new(
   llm: llm,
   thread: Langchain::Thread.new,
   instructions: "You are a News Assistant.",
+  # You can iterate and program your assistant based on your preferences.
   #instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [
     NewsRetriever,     # instantiated in config/initializers/
     ArticleTool.new ,  # instantiating now
   ]
 )
+
+def s(str); @assistant.say(str); end
 
 # returns an array of messages -> adding nil or output is ugly.
 #@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true) ; nil

@@ -7,14 +7,8 @@ class Langchain::Assistant
   #  @assistant.add_message_and_run( content: 'Please also save the Magnotta winery article too', auto_tool_execution: true)
   #  => @assistant.say 'Please also save the Magnotta winery article too'
   def say(msg) # , also_show_latest_message: true)
-    #Langchain::Assistant
-    #puts self.thread.messages.last # (2)
     ret = self.add_message_and_run( content: msg, auto_tool_execution: true)
-    #if also_show_latest_message
     puts  self.thread.messages.last(2)
-    #self.thread.messages.last(2)
-    #end
-    #ret
     nil # if I return ret, it will bloat the output!
   end
 
