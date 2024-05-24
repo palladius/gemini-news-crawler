@@ -15,8 +15,8 @@ excerpt_size = 2500 # with 500 u dont see much
     # * Giorgia Meloni
     # Va solo con Trump
 #    news = NewsRetriever.get_top_headlines( q: query).to_s.force_encoding("UTF-8")
-    news = NewsRetriever.get_everything( q: query).to_s.force_encoding("UTF-8")
-    cmd = "NewsRetriever.get_everything( q: '#{query}')"
+    news = NewsRetriever.get_everything(q: query, page_size: 6).to_s.force_encoding("UTF-8")
+    cmd = "NewsRetriever.get_everything(q: '#{query}', page_size: 6)"
     parsed_json = JSON.parse(news)
     cmd_and_news = "# 💻 #{cmd} (excerpt #{excerpt_size}b)\n\n#{render_json(news).first(excerpt_size)}.." # excerpt of whole return
 %>
