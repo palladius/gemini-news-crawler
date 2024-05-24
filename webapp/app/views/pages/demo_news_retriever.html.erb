@@ -22,10 +22,13 @@ excerpt_size = 2500 # with 500 u dont see much
 %>
 
 <div class="relative">
+    <br/>
     <%= fancy_title "[Request] 1. API Call: q=#{query}" %>
 
+    <p>Here is the request built by langchainrb
+        <a href="https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/tool/news_retriever/news_retriever.rb">NewsRetriever tool</a>:
+    </p>
 
-    <div class="fixed top-0 left-0 right-0">API Calls</div>
     <div>
 
         <%= render_prose cmd_and_news %>
@@ -47,13 +50,24 @@ excerpt_size = 2500 # with 500 u dont see much
             "content"=>"Watch CBS News\r\nCopyright ©2024 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"}
             -->
         </div>
+
+    <br/>
     <%= fancy_title "[Response] 3. API results from NewsCatcher: reassembled from JSON" %>
+
+
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <% parsed_json['articles'].each do |h| %>
                 <%= render 'pages/demo_news_retrieval_article' , article: h %>
             <% end %>
         </div>
-        <p>Note. This CSS was created by Gemini Ultra.</p>
+
+        <p>Note. This CSS was created by Gemini Ultra. We're taking all the ingredients from JSON artifact
+            and building it back into a nice tailwind card.
+        </p>
+        <p>The fields provided by the JSON result (first article to be specific) are: <b><%= parsed_json['articles'][0].keys %></b>
+        </p>
+
     </div>
   </div>
 

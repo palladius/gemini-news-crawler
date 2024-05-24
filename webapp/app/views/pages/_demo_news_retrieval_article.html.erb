@@ -4,17 +4,21 @@
   <div class="bg-white rounded-lg shadow-md overflow-hidden">
     <div class="p-4">
       <h2 class="text-xl font-semibold mb-2"><%= link_to h['title'], h['url'], class: "hover:underline" %></h2>
-      <div class="flex items-center mb-2">
-        <img src="<%= h['urlToImage'] %>" alt="Article Image" class="w-16 h-16 object-cover rounded-full mr-2">
-        <span class="text-sm text-gray-500">
-          <%= h['publishedAt'].to_date %> - <%= h['author'] if h['author'] %>
-        </span>
-        <span class="text-gray-700"><%= h['description'] %></span>
+
+      <div class="flex mb-2">
+        <img src="<%= h['urlToImage'] %>" alt="Article Image" class="w-32 h-32 object-cover rounded-full mr-2">
+        <div class="flex-col">
+          <span class="text-sm text-gray-500 block">
+            <%= h['publishedAt'].to_date %> - <%= h['author'] if h['author'] %>
+          </span>
+          <p class="text-gray-700"><%= h['description'] %></p>
+        </div>
       </div>
+
       <p class="text-gray-700"><%= h['content'] %></p>
     </div>
   </div>
-<% else %>
+  <% else %>
   <div class="bg-white rounded-lg shadow-md overflow-hidden p-4">
     <p class="text-gray-700">🤷🏼‍♀️ Article not found, sorry 🤷🏼‍♀️</p>
     <p class="text-sm text-gray-500"><%= article.class %></p>
