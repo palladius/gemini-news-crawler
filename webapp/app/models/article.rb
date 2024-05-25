@@ -150,6 +150,10 @@ class Article < ApplicationRecord
       '🗞️'
     end
 
+    def url
+      link
+    end
+
     # item.nearest_neighbors(:embedding, distance: "euclidean").first(5)
     # https://github.com/ankane/neighbor
     # def closest_articles(size: 6)

@@ -15,95 +15,12 @@
 <div>
   <%= render 'articles/fancy_article', article: article %>
 </div>
-
 <div id="<%= dom_id article %>">
-
-  <p class="my-5">
-    <strong class="font-medium mb-1">🕸️ Guid:</strong> <%= link_to article.guid,article.guid %>
-  </p>
-
-  <p class="my-5">(
-    By <strong class="font-medium mb-1"><%= article.author_or_newspaper %></strong>,
-    on <%= article.published_date %>)
-  </p>
-
-  <p class="my-5">
-    <strong class="font-medium mb-1">🏥 Summary:</strong>
-    <%= render_sanitized article, :summary %>
-  </p>
-
-  <% if article.content %>
-    <p class="my-5">
-      <strong class="font-medium mb-1">🏥 Sanitized content:</strong>
-      <%= render_sanitized article, :content %>
-    </p>
-  <% end %>
-
-
-
-  <% if article.image_url %>
-    <%= image_tag article.image_url %>
-  <% end %>
-
-  <hr/>
-
-  <p class="my-5">
-    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Proper VECTOR Embedding for article:</strong>
-    <%= render_embedding_for(article, :article_embedding) %>
-  </p>
-
-  <p class="my-5">
-    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Fake ARRAY Embedding for title:</strong>
-    <%= render_embedding_for(article, :title_embedding) %>
-  </p>
-  <p class="my-5">
-    <strong class="font-medium mb-1"><%= EmbeddingEmoji %> Fake ARRAY Embedding for summary:</strong>
-    <%= render_embedding_for(article, :summary_embedding) %>
-  </p>
-
-  <p class="my-5">
-    <strong class="font-medium mb-1">Link:</strong>
-    <%= link_to article.link,article.link %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Published date:</strong>
-    <%= article.published_date %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Feed url:</strong>
-    <%= link_to article.feed_url,article.feed_url %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Hidden blurb:</strong>
-    <%= article.hidden_blurb %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Language:</strong>
-    <%= article.language %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Active:</strong>
-    <%= article.active %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Ricc internal notes:</strong>
-    <%= article.ricc_internal_notes %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Ricc source:</strong>
-    <%= article.ricc_source %>
-  </p>
-
-  <% if action_name != "show" %>
-    <%= link_to "Show this article", article, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-    <%= link_to "Edit this article", edit_article_path(article), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
-    <hr class="mt-6">
-  <% end %>
+  <%= render_prose article.interesting_attributes.to_s.gsub(', "', ", \n\"") %>
 </div>
+
+<!--
+<div id="<%= dom_id article %>_ugly">
+  <%= render 'articles/article_ugly', article: article %>
+</div>
+-->

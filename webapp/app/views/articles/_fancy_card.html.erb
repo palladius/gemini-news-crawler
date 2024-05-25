@@ -31,6 +31,9 @@
           <%= render_fancy_category(cat) %>
         </span> <% end %>
     </div>
+    <span class="text-sm text-gray-500 block" >
+      [<%= link_to article.macro_region, "/articles?macro_region=#{article.macro_region}" %>]
+      🌎 <%= fancy_link_to article.url,article.url %> </span>
 
   </div>
   <% else %>
