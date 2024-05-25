@@ -11,3 +11,14 @@
 }
 
 */
+
+
+/*
+  Added by Riccardo, as asked to Gemini. Gradient between cyan and purple - WOOT!
+*/
+.underline-gradient:hover {
+  background-image: linear-gradient(to right, cyan, purple);
+  background-size: 100% 2px; /* Adjust height for underline thickness */
+  background-position: bottom;
+  text-decoration: none; /* Remove default underline */
+}

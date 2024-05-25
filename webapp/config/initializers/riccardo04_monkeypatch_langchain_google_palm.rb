@@ -3,8 +3,8 @@
 class Langchain::LLM::GooglePalm
 
 
-    # pairs well with => Langchain::LLM::GooglePalmResponse.output()
-    def sample_complete()
+  # pairs well with => Langchain::LLM::GooglePalmResponse.output()
+  def sample_complete()
     complete(prompt: 'Please write a night-time story about the evil Amarone-wine daemon who lived in Arena di Verona. He was a part-time Ruby on rails developer who at night went scaring tourists, particularly the ones who saw the Netflix movie "Love in the villa". Use as many emojis as you can and make it fun and add some Italian drama twist to it.', max_output_tokens: 1024, temperature: 0.5)
   end
 

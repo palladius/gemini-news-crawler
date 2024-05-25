@@ -5,7 +5,7 @@
 <div class="flex flex-col space-y-4">
     <div class="bg-brown-100 p-4 rounded shadow-md">
         <h3 class="text-lg font-medium text-brown-900">
-            <%= EmbeddingEmoji %>Article 'article' content
+            <%= EmbeddingEmoji %>article.to_s
         </h3>
         <!--
         <ul class="list-disc space-y-2 pl-4">
@@ -14,7 +14,6 @@
         </ul>
     -->
         <div class="prose p-4">
-            <b>Article.article</b>:
             <pre style="white-space: pre-wrap;" ><%= sanitized_article %></pre>
         </div>
     </div>

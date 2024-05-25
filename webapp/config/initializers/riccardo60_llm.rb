@@ -8,10 +8,11 @@ GeminiLLM = Langchain::LLM::GoogleGemini.new(api_key: gemini_llm_key) rescue nil
 PalmLLM = Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
 OllamaLLM = Langchain::LLM::Ollama.new rescue nil
 
-PalmLLMImpromptu = PalmLLM.nil? ?
-  '🤌 I cant, PalmLLM is nil 🤌' :
-  #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
-  (PalmLLM.sample_complete.output rescue "❌ PalmLLM.sample_complete.output failed: #{$!}")
+PalmLLMImpromptu = '❌ [redacted from demo. This adds too much to script startup]'
+# PalmLLMImpromptu = PalmLLM.nil? ?
+#   '🤌 I cant, PalmLLM is nil 🤌' :
+#   #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
+#   (PalmLLM.sample_complete.output rescue "❌ PalmLLM.sample_complete.output failed: #{$!}")
 
   # In order
 LLMs = [VertexLLM, GeminiLLM, PalmLLM ]
