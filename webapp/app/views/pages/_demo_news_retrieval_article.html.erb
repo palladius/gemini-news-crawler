@@ -1,4 +1,4 @@
-<% if article.is_a? Hash
+<% if article.is_a?(Hash) and article['title'].to_s != '[Removed]'
     h = article
 %>
   <div class="bg-white rounded-lg shadow-md overflow-hidden">
@@ -18,9 +18,14 @@
       <p class="text-gray-700"><%= h['content'] %></p>
     </div>
   </div>
-  <% else %>
+<% else %>
   <div class="bg-white rounded-lg shadow-md overflow-hidden p-4">
-    <p class="text-gray-700">🤷🏼‍♀️ Article not found, sorry 🤷🏼‍♀️</p>
+    <p class="text-gray-700">🤷🏼‍♀️ Article not found (or insufficient fields), sorry 🤷🏼‍♀️</p>
     <p class="text-sm text-gray-500"><%= article.class %></p>
+    <% if article.is_a? Hash %>
+      <p class="text-sm text-gray-500">Keys: <%= article.keys  %></p>
+      <p class="text-sm text-gray-500">URL: <%= article['url']  %></p>
+    <% end %>
+
   </div>
 <% end %>

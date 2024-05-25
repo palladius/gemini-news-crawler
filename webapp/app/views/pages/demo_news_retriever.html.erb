@@ -18,12 +18,30 @@ excerpt_size = 2500 # with 500 u dont see much
     cmd = "NewsRetriever.get_everything(q: '#{query}', page_size: 6)"
     parsed_json = JSON.parse(news)
     cmd_and_news = "# 💻 #{cmd} (excerpt #{excerpt_size}b)\n\n#{render_json(news).first(excerpt_size)}.." # excerpt of whole return
+
+@newsfetcher_candidates = [
+    'Verona',
+    'Bologna',
+    'Global Warming',
+    'United Kingdom',
+    'Donald Trump',
+    'Riccardo Carlesso',
+    'Ruby Day',
+    'Cyprus',
+    'Malta',
+]
 %>
 
 <div class="relative">
     <%= fancy_title "[Request] 1. API Call: q=#{query}" %>
+    <p>To change query's use ?q=blah. Example:
+        <% @newsfetcher_candidates.each do |keyword| %>
+            q=<%= fancy_link_to keyword,"/pages/demo-news-retriever?q=#{keyword}" %>,
+        <% end %>
+        ..
+    </p>
 
-    <p>Here is the request built by langchainrb 2
+    <p>Here is the request built by langchainrb's
         <a href="https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/tool/news_retriever/news_retriever.rb">NewsRetriever tool</a>:
     </p>
     <br/>
@@ -74,7 +92,7 @@ excerpt_size = 2500 # with 500 u dont see much
         <p>Note. This CSS was created by Gemini Ultra. We're taking all the ingredients from JSON artifact
             and building it back into a nice tailwind card.
         </p>
-        <p>The fields provided by the JSON result (first article to be specific) are: <b><%= parsed_json['articles'][0].keys %></b>
+        <p>The fields provided by the JSON result (first article to be specific) are: <b><%= parsed_json['articles'][0].keys rescue :nada %></b>
         </p>
 
     </div>

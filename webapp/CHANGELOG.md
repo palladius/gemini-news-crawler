@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-05-25 v0.3.57 [dev/ops] [Mac] Ops: cleaned up useless scripts/ Dev: Enriched the demo3 with more keywords.
 2024-05-25 v0.3.57 [dev] [Mac] Prod was broken given some article has NIL published_date. `rescue` to the rescue.
 2024-05-25 v0.3.56 [dev] [Mac] (again working on a weekend) fixed articles#show: now super fancy.
 2024-05-24 v0.3.55 [dev] [derek] Demo3: fix horrible UI
