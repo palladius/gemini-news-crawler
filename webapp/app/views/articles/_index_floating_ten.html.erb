@@ -20,7 +20,7 @@
                 <% article.categories.each do |c| %>
                 <%=    render_fancy_category(c) %>
                 <% end %>
-                <i>(<%= time_ago_in_words(article.published_date) %> ago )</i>
+                <i>(<%= time_ago_in_words(article.published_date) rescue '🤷🏼‍♀️' %> ago )</i>
         </li>
     <% end %>
     </ul>

@@ -10,6 +10,8 @@ module ArticlesHelper
       '🖕🏻'
     when 'Americas', 'USA'
       '🇺🇸'
+    when 'gemini-fun-call'
+      '♊️' # ♊️ or ♊︎
     else
      "#{article.macro_region} ??"
     end
@@ -41,7 +43,7 @@ module ArticlesHelper
     addl_info = article.author.nil? ?
       "📰 #{article.newspaper}" :
       "🧑🏻‍💻 #{article.author}"
-    short_date =  article.published_date.to_date.strftime('%Y%b%d').gsub(/2024/,'') # eg "May 14" or "1997May29"
+    short_date =  article.published_date.to_date.strftime('%Y%b%d').gsub(/2024/,'') rescue "?⌚️?" # eg "May 14" or "1997May29"
     link_to('🔗', article.link, class: :link_icon, target: "_blank") + " #{short_date} " + link_to(content_tag('b', article.title), article) + " (" + content_tag('i', addl_info) +")"
   end
 

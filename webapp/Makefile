@@ -132,3 +132,6 @@ test-llm-gemini:
 	echo "GeminiLLM.complete prompt: 'Hi my name is Riccar'" | rails c
 test-llm-vertex:
 	echo "VertexLLM.complete prompt: 'Hi my name is Riccar'" | rails c
+
+compute_embeddings_for_all:
+	echo Article.compute_embeddings_for_all | rails c

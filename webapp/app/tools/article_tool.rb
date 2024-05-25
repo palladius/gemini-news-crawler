@@ -107,6 +107,8 @@ class ArticleTool < Langchain::Tool::Base
   # end
 
   def carlessian_url(id:)
-    "https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#{id}"
+    Rails.env == 'production' ?
+     "https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/articles/#{id}" :
+     "https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#{id}"
   end
 end

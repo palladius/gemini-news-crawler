@@ -133,13 +133,19 @@ class Article < ApplicationRecord
     end
 
     def yyyymmdd
-      published_date.localtime.to_s[0,10] # rescue ''
+      published_date.localtime.to_s[0,10] rescue ''
     end
     def yyyymmdd_hhmm
-      published_date.localtime.to_s[0,16]
+      published_date.localtime.to_s[0,16] rescue ''
     end
     def hhmm
-      published_date.localtime.to_s[11,5]
+      published_date.localtime.to_s[11,5] rescue ''
+    end
+
+    # get a lot of errors in prod for empty/nil values...
+    def published_date
+      default_value = Time.zone.at(1970) # 1970-01-01
+      super || default_value
     end
 
     def to_s
