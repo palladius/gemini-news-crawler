@@ -88,3 +88,5 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 * Langchain gem: https://github.com/patterns-ai-core/langchainrb
 * Gemini function calling: https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/function-calling
 * **Embeddings** explained by _Sally Goldman_: https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture
+* Video of this presentation: https://youtu.be/-ieyahrpDpM
+* Slides (private): go/ricc-gemini-verona

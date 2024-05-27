@@ -111,4 +111,23 @@ class ArticleTool < Langchain::Tool::Base
      "https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/articles/#{id}" :
      "https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#{id}"
   end
+
+  # # just created with Gemini - to be tested
+  # def sanitized_curl(url:)
+  #   require 'nokogiri'
+
+  #   html = `curl -s "#{url}"`
+
+  #   # Parse the HTML
+  #   doc = Nokogiri::HTML(html)
+
+  #   # Extract and sanitize text content
+  #   sanitized_text = doc.text
+
+  #   # Additional sanitization (if needed)
+  #   sanitized_text.strip!       # Remove leading/trailing whitespace
+  #   sanitized_text.gsub!(/\s+/, ' ') # Collapse multiple spaces
+
+  #   sanitized_text
+  # end
 end

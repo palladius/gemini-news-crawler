@@ -29,10 +29,8 @@ llm.defaults[:chat_completion_model_name]
 
 def s(str); @assistant.say(str); end
 
-# returns an array of messages -> adding nil or output is ugly.
-#@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true) ; nil
 puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true))
-#puts(thread.messages)
+# returns an array of messages
 @assistant.history
 
 @assistant.say 'how many results did the API call return?'
