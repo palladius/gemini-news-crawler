@@ -64,6 +64,11 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 * Use updated Gemini embedding models, new since May 14th (launched at NEXT ‘24).
     * `text-embedding-004`
     * `text-multilingual-embedding-002`.
+* Add multimodal embeddings (search by article picture). This can be achieved by simply adding another embedding:
+    * `picture_embedding`: if picture exists, fetch it and calculate it.
+    * `picture_description`: if picture exists, fetch it and ask Gemini to provide an automated picture description.
+       This is also cool for visually impaired people, and can be added automatically to the pic description!
+       Would be probably worth fetching and downloading the picture on GCS, cos you never know, picture could disappear.
 
 ### Autofeed now
 
@@ -76,3 +81,10 @@ Possibly, retrieve similar pictures/articles based on the questions (embedding s
 * Mounted on Crun as /geminews-key/geminews-key
 * Now the final bit: GCP_KEY_PATH_FROM_WEBAPP = /geminews-key/geminews-key
 
+
+## Bibliography
+
+* This Github repo: https://github.com/palladius/gemini-news-crawler/
+* Langchain gem: https://github.com/patterns-ai-core/langchainrb
+* Gemini function calling: https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/function-calling
+* **Embeddings** explained by _Sally Goldman_: https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture

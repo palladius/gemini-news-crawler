@@ -22,8 +22,8 @@ llm.defaults[:chat_completion_model_name]
   # You can iterate and program your assistant based on your preferences.
   #instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [
-    NewsRetriever,     # instantiated in config/initializers/
-    ArticleTool.new ,  # instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
+    NewsRetriever,     # 🔧 instantiated in config/initializers/
+    ArticleTool.new ,  # 🔧 instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
   ]
 )
 
