@@ -22,17 +22,15 @@ llm.defaults[:chat_completion_model_name]
   # You can iterate and program your assistant based on your preferences.
   #instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [
-    NewsRetriever,     # instantiated in config/initializers/
-    ArticleTool.new ,  # instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
+    NewsRetriever,     # 🔧 instantiated in config/initializers/
+    ArticleTool.new ,  # 🔧 instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
   ]
 )
 
 def s(str); @assistant.say(str); end
 
-# returns an array of messages -> adding nil or output is ugly.
-#@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true) ; nil
 puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true))
-#puts(thread.messages)
+# returns an array of messages
 @assistant.history
 
 @assistant.say 'how many results did the API call return?'
