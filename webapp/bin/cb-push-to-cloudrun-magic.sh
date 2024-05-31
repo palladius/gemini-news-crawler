@@ -11,8 +11,9 @@
 # TODO(ricc): add a bunch of eNVs from local to Secret manager to fix the 2.0.4buggy
 
 
-export DEPLOY_VERSION='2.0.4buggy'
+export DEPLOY_VERSION='2.0.5'
 #
+# 31may24  2.0.5       Added ENV[RUBY_YJIT_ENABLE]=true - should compile stuff faster now.
 # 19may24  2.0.4buggy  Added ENV[PALM_API_KEY_GEMINI] - should fix PalmLLM. Note I used GEMINI_KEY for since  PALM_API_KEY_GEMINI is actually not in
 #                      my Secret Manager (yet and its late at night and my mum waas the room)
 # 17may24  2.0.3       Added project_id
@@ -151,6 +152,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --set-env-vars="NEWSAPI_COM_KEY=$NEWSAPI_COM_KEY" \
       --set-env-vars="PROJECT_ID=$PROJECT_ID" \
       --set-env-vars="GEMINI_KEY=$GEMINI_KEY" \
+      --set-env-vars="RUBY_YJIT_ENABLE=true" \
       --set-env-vars="PALM_API_KEY_GEMINI=$GEMINI_KEY" \
       --set-env-vars=GCP_KEY_PATH_FROM_WEBAPP="/geminews-key/geminews-key" \
       --set-env-vars=ENABLE_GCP='true' \

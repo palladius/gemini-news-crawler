@@ -29,7 +29,11 @@ llm.defaults[:chat_completion_model_name]
 
 def s(str); @assistant.say(str); end
 
-puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true))
+# VERBOSE: puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true))
+# SHORT:   s 'Latest 5 news from Italy'
+
+s 'Latest 5 news from Italy'
+
 # returns an array of messages
 @assistant.history
 
@@ -45,6 +49,8 @@ puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_to
 @assistant.say 'Thanks. Provide me with the Carlessian URL for the article you just saved please'
 
 @assistant.say 'Save this the LAST two articles please'
+
+s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 # interact directly
 @assistant.user_loop
