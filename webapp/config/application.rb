@@ -1,6 +1,8 @@
-require_relative "boot"
+# frozen_string_literal: true
 
-require "rails/all"
+require_relative 'boot'
+
+require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -14,7 +16,7 @@ module Webapp
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
-    config.autoload_lib(ignore: %w(assets tasks tools))
+    config.autoload_lib(ignore: %w[assets tasks tools])
 
     # Configuration for the application, engines, and railties goes here.
     #
@@ -25,9 +27,9 @@ module Webapp
     # config.eager_load_paths << Rails.root.join("extras")
 
     # My stuff
-    #config.autoload_paths << Rails.root.join('lib')
-    #config.eager_load_paths << Rails.root.join('lib')
-    #config.autoload_lib(ignore: %w[tasks assets])
+    # config.autoload_paths << Rails.root.join('lib')
+    # config.eager_load_paths << Rails.root.join('lib')
+    # config.autoload_lib(ignore: %w[tasks assets])
 
     # This doesn't work in PROD: https://stackoverflow.com/questions/60814100/uninitialized-constant-error-when-switching-to-zeitwerk
     # Dir[Rails.root + 'lib/monkey_patching/*.rb'].each {|file| require file rescue nil } rescue nil
@@ -35,7 +37,7 @@ module Webapp
     ####
     # Riccardo
     # https://stackoverflow.com/questions/5286117/incompatible-character-encodings-ascii-8bit-and-utf-8
-    config.encoding = "utf-8"
-    #/ Riccardo
+    config.encoding = 'utf-8'
+    # / Riccardo
   end
 end

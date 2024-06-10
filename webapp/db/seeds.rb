@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file should ensure the existence of records required to run the application in every environment (production,
 # development, test). The code here should be idempotent so that it can be executed at any point in every environment.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
@@ -9,7 +11,7 @@
 #   end
 
 if ENV['DESTROY_ALL_BEFORE'] == 'YES_WHY_NOT'
-  puts("DESTROY_ALL_BEFORE activated. Sleeping 5sec to allow you to CTRL-C..")
+  puts('DESTROY_ALL_BEFORE activated. Sleeping 5sec to allow you to CTRL-C..')
   sleep(5)
   ArticleTag.delete_all
   Article.delete_all
@@ -18,4 +20,4 @@ else
   puts('to DESTROY_ALL_BEFORE please activate the Omega13')
 end
 
-Dir[File.dirname(__FILE__) + '/seeds.d/*.rb'].each {|file| require file }
+Dir["#{File.dirname(__FILE__)}/seeds.d/*.rb"].each { |file| require file }

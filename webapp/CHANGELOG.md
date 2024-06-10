@@ -22,7 +22,8 @@ bin/rails aborted!
 
 ## Changelog
 
-2024-06-01 v0.3.61 [dev] adding `sorbet` and a chat page with Gemini guidance.
+2024-06-10 v0.3.62 [dev] `rubocop -a` earthquake. Just because I met the creator of it I think I owe him.
+2024-06-01 v0.3.61 [dev] adding `sorbet` and a chat page with Gemini guidance. Then removed sorbet :)
 2024-05-31 v0.3.60 [dev] small changes during the day
 2024-05-30 v0.3.59 [dev] [Penguin] added `aiuto` for demo
 2024-05-?? v0.3.58 ???

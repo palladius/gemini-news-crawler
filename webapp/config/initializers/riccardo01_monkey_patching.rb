@@ -1,4 +1,6 @@
-puts("🐒🐒🐒 webapp/config/initializers/riccardo_monkey_patching.rb 🐒🐒🐒")
+# frozen_string_literal: true
+
+puts('🐒🐒🐒 webapp/config/initializers/riccardo_monkey_patching.rb 🐒🐒🐒')
 
 # Monkeypatching the CHAT because I need to use Gemini URI and Vertex Auth. In reality I need some kind of hybrid
 # thingy.
@@ -32,11 +34,14 @@ puts("🐒🐒🐒 webapp/config/initializers/riccardo_monkey_patching.rb 🐒�
 #   @extension_parameters={}, @additional_parameters={}>')":String
 #
 #
-class Google::Auth::GCECredentials
-  # monkeypatched AF, I know!
-  def project_id
-    default_project_id = 'palladius-genai' # TODO move to ENV[] ma lo posso testare solo a manhouse..
-    ENV.fetch 'PROJECT_ID', default_project_id
+module Google
+  module Auth
+    class GCECredentials
+      # monkeypatched AF, I know!
+      def project_id
+        default_project_id = 'palladius-genai' # TODO: move to ENV[] ma lo posso testare solo a manhouse..
+        ENV.fetch 'PROJECT_ID', default_project_id
+      end
+    end
   end
-
 end

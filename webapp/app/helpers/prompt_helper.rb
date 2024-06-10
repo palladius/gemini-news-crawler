@@ -1,13 +1,12 @@
-module PromptHelper
+# frozen_string_literal: true
 
+module PromptHelper
   def sanitize_news(article)
     sanitized_html = ActionView::Base.full_sanitizer.sanitize(article)
-    decoded_text = CGI.unescape_html(sanitized_html)
-    return decoded_text
+    CGI.unescape_html(sanitized_html)
   end
 
-
-  def rag_short_prompt(date: nil, query: , article_count: )
+  def rag_short_prompt(query:, article_count:, date: nil)
     date ||= Date.today
     @short_prompt = <<~HEREDOC
       You are a prompt summarizer called Helper::rag_short_prompt.
@@ -21,7 +20,7 @@ module PromptHelper
     HEREDOC
   end
 
-  def rag_long_prompt(date: nil, query: , article_count: , articles: )
+  def rag_long_prompt(query:, article_count:, articles:, date: nil)
     date ||= Date.today
 
     @long_prompt = <<~HEREDOC
@@ -40,6 +39,4 @@ module PromptHelper
     HEREDOC
     @long_prompt
   end
-
-
 end

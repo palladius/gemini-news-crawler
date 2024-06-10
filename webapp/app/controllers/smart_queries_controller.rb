@@ -1,27 +1,28 @@
+# frozen_string_literal: true
+
 class SmartQueriesController < ApplicationController
   before_action :set_freshest_article # needed in ALL controllers
-
 
   def index
     # return show if params[:query]
 
     # Sample queries to embed
     @sample_queries = [
-      "US politics",
+      'US politics',
       'Global warming',
-      "European Elections",
-      "Verona, Veneto, Venezia region",
-      "Italy",
-      "Google Cloud and Alphabet",
-      "Android phones",
-      "Ruby or Rails",
-      #"fun facts",
-      #'crime news',       # => cronaca nera
+      'European Elections',
+      'Verona, Veneto, Venezia region',
+      'Italy',
+      'Google Cloud and Alphabet',
+      'Android phones',
+      'Ruby or Rails',
+      # "fun facts",
+      # 'crime news',       # => cronaca nera
       'Geopolitical world situation',
       'Latest movies on Netflix',
       'Best travel locations',
-    #  'Cronaca Nera',
-      'Fake news',
+      #  'Cronaca Nera',
+      'Fake news'
     ]
     # defined in  app/views/pages/assistant.html.erb:@sample_queries_for_gemini_functions_use_controller_instead = [
     # @sample_queries_for_gemini_functions = [

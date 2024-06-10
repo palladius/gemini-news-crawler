@@ -1,1 +1,3 @@
-json.partial! "articles/article", article: @article
+# frozen_string_literal: true
+
+json.partial! 'articles/article', article: @article
