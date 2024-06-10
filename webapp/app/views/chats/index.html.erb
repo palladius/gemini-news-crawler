@@ -1,0 +1,15 @@
+<!-- <body data-turbo="false"> -->
+
+  <h1>🔤 Chat Gemini test ohne turbo #frenoamano</h1>
+
+  <div data-controller="chat" data-chat-url-value="<%= chats_path %>">
+    <div id="messages" data-chat-target="messages" class="flex-grow overflow-y-auto p-4 bg-gray-100">
+    </div>
+
+    <%= form_with(url: chats_path, data: { action: "submit->chat#sendMessage" }) do |f| %>
+      <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+      <%= f.text_field :message, placeholder: "Type your message...", class: "w-full p-2 border rounded-lg", data: { chat_target: "input", action: "keydown->chat#sendMessage" } %>
+    <% end %>
+  </div>
+
+<!-- </body> -->

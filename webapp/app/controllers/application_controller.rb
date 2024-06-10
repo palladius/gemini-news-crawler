@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   #include SetCurrentRequestDetails # Enable IAP once you have devise.
 
   #before_action :set_carlessian_variables # needed only in Article controllers
-  before_action :set_freshest_article # needed in ALL controllers
+  #before_action :set_freshest_article # needed in ALL controllers
 
   # @cache_expiry = Rails.env == 'development' ?
   #   10.seconds : # for dev

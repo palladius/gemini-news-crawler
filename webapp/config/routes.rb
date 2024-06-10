@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
   get 'pages/about'
   get 'pages/assistant'
+  get 'pages/chat'
   get 'pages/graphs'
   get 'pages/search'
   get 'pages/gcp'
   get 'pages/demo-news-retriever'
-  # obsolete, point to gCP
   get 'pages/stats' => "pages#gcp" # obsolete -> go to GCP
 
+  resources :chats
 
   resources :articles
   resources :categories

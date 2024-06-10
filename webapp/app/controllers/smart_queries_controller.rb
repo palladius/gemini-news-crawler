@@ -1,4 +1,5 @@
 class SmartQueriesController < ApplicationController
+  before_action :set_freshest_article # needed in ALL controllers
 
 
   def index

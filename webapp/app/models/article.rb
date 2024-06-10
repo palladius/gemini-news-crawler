@@ -98,6 +98,11 @@ class Article < ApplicationRecord
       #end
     end
 
+    # testing deconstruct_keys - never used before. from lucian ghinda
+    # def  deconstruct_keys
+    #   42
+    # end
+
     # much better!
     def interesting_attributes
       attributes.except('title_embedding', 'summary_embedding', 'article_embedding',

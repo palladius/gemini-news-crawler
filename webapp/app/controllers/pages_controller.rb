@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  before_action :set_freshest_article # needed in ALL controllers
+
   def stats
   end
 
@@ -13,5 +15,8 @@ class PagesController < ApplicationController
 
   def assistant
     @query = params.fetch(:query, nil)
+  end
+
+  def chat
   end
 end

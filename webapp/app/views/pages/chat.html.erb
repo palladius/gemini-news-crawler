@@ -1,0 +1,11 @@
+  <h1>🔤 Chat Gemini test</h1>
+
+  <div data-controller="chat" data-chat-url-value="<%= chats_path %>">
+    <div id="messages" data-chat-target="messages" class="flex-grow overflow-y-auto p-4 bg-gray-100">
+      Here are the messages - some day
+    </div>
+
+    <%= form_with(url: chats_path, data: { action: "submit->chat#sendMessage" }) do |f| %>
+      <%= f.text_field :message, placeholder: "Hey Gemini, why is the sky blue?", class: "w-full p-2 border rounded-lg", data: { chat_target: "input", action: "keydown->chat#sendMessage" } %>
+    <% end %>
+  </div>

@@ -22,8 +22,10 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-06-01 v0.3.61 [dev] adding `sorbet` and a chat page with Gemini guidance.
+2024-05-31 v0.3.60 [dev] small changes during the day
 2024-05-30 v0.3.59 [dev] [Penguin] added `aiuto` for demo
-??? 58
+2024-05-?? v0.3.58 ???
 2024-05-25 v0.3.57 [dev/ops] [Mac] Ops: cleaned up useless scripts/ Dev: Enriched the demo3 with more keywords.
 2024-05-25 v0.3.57 [dev] [Mac] Prod was broken given some article has NIL published_date. `rescue` to the rescue.
 2024-05-25 v0.3.56 [dev] [Mac] (again working on a weekend) fixed articles#show: now super fancy.

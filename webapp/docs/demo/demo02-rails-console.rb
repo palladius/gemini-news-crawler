@@ -55,6 +55,7 @@
 # Devil of a DRY Riccardo or... #DRYCCARDO!
 # Here are the #{@closest_articles.count} Articles:
 # "
+
 helpz = ApplicationController.helpers
 
 #@short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
