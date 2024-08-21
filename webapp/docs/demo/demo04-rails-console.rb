@@ -28,12 +28,12 @@ llm.defaults[:chat_completion_model_name]
   ]
 )
 
-def s(str) = @assistant.say(str)
+def say(str) = @assistant.say(str)
 
 # VERBOSE: puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true))
-# SHORT:   s 'Latest 5 news from Italy'
+# SHORT:   say 'Latest 5 news from Italy'
 
-s 'Latest 5 news from Italy'
+say 'Latest 5 news from Italy'
 
 # returns an array of messages
 @assistant.history
@@ -51,7 +51,7 @@ s 'Latest 5 news from Italy'
 
 @assistant.say 'Save this the LAST two articles please'
 
-s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
+say 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 # interact directly
 @assistant.user_loop
@@ -221,7 +221,7 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 # * Borsa Italiana, il commento della seduta del 24 maggio 2024 - SoldiOnline.it, SoldiOnline.it
 # * Il ministro degli Esteri lituano: ‘La Russia non tocchi i confini sul mar Baltico. Unione Europea e Nato reagiscano’ - Corriere della Sera, Corriere della Sera
 # => nil
-# irb(main):026> s 'naaah give me the next 5'
+# irb(main):026> say 'naaah give me the next 5'
 # I, [2024-05-25T10:19:50.274070 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:19:52.852274 #13812]  INFO -- : [Langchain.rb] [Langchain::Tool::NewsRetriever]: Retrieving top news headlines
 # I, [2024-05-25T10:19:53.294950 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
@@ -234,7 +234,7 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 # * Cagliari-Fiorentina 2-3, le pagelle: Ranieri da 9 per la carriera, Arthur di freddezza - TUTTO mercato WEB, TUTTO mercato WEB
 # * Ucraina - Russia in guerra, le notizie di oggi in diretta | Pechino: non abbiamo fornito armi letali a Mosca - Corriere della Sera, Corriere della Sera
 # => nil
-# irb(main):027> s 'please save the two articles about sport'
+# irb(main):027> say 'please save the two articles about sport'
 # I, [2024-05-25T10:20:23.248972 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # @categories_to_be_initialized:
 # Article before_save(): set_embeddings_best_effort()
@@ -249,20 +249,20 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 # 🤖 [function] 🛠️  article_tool__create => {"id"=>6212, "title"=>"Cagliari-Fiorentina 2-3, le pagelle: Ranieri da 9 per la carriera, Arthur di freddezza - TUTTO mercato WEB", "summary"=>"Cagliari-Fiorentina 2-3, le pagelle: Ranieri da 9 per la carriera, Arthur di freddezza - TUTTO mercato WEB", "content"=>"Cagliari-Fiorentina 2-3, le pagelle: Ranieri da 9 per la carriera, Arthur di freddezza", "author"=>"TUTTO mercato WEB", "link"=>"https://news.google.com/rss/articles/CBMigwFodHRwczovL3d3dy50dXR0b21lcmNhdG93ZWIuY29tL3NlcmllLWEvY2FnbGlhcmktZmlvcmVudGluYS0yLTMtbGUtcGFnZWxsZS1yYW5pZXJpLWRhLTktcGVyLWxhLWNhcnJpZXJhLWFydGh1ci1kaS1mcmVkZGV6emEtMTk3MTYyNNIBAA?oc=5", "published_date"=>Fri, 24 May 2024 04:15:00.000000000 UTC +00:00, "image_url"=>nil, "feed_url"=>nil, "language"=>"it", "active"=>true, "ricc_source"=>"Gemini FunctionCalling", "created_at"=>Sat, 25 May 2024 08:20:44.082198000 UTC +00:00, "updated_at"=>Sat, 25 May 2024 08:20:44.082198000 UTC +00:00, "newspaper"=>"news.google.com", "macro_region"=>"gemini-fun-call"}
 # 🤖 [model] 💬 Ok, I've saved the two articles about sport. Anything else?
 # => nil
-# irb(main):028> s 'this is fantastic. Can you give me, for each, the carlessian url?'
+# irb(main):028> say 'this is fantastic. Can you give me, for each, the carlessian url?'
 # I, [2024-05-25T10:21:01.892631 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:21:04.866361 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # 🤖 [function] 🛠️  article_tool__carlessian_url => https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/articles/6211
 # 🤖 [model] 💬 Here is the Carlessian URL for the article "Napoli, Di Lorenzo chiede di andare via - Sportmediaset - Sport Mediaset": https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/articles/6211
 # => nil
-# irb(main):029> s 'apologies i asked you to save articles 2 and 4. did you do it?'
+# irb(main):029> say 'apologies i asked you to save articles 2 and 4. did you do it?'
 # I, [2024-05-25T10:21:33.157505 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # 🧑 [user] 💬 apologies i asked you to save articles 2 and 4. did you do it?
 # 🤖 [model] 💬 You are absolutely correct! I apologize for misunderstanding and saving the wrong articles. I am still under development and learning to interpret requests accurately.
 
 # Could you please tell me the titles of articles 2 and 4 again so I can save the correct ones?
 # => nil
-# irb(main):030> s 'one was about Cagliari-Fiorentina 2-3, the other about le pagelle: De Martino scivola '
+# irb(main):030> say 'one was about Cagliari-Fiorentina 2-3, the other about le pagelle: De Martino scivola '
 # I, [2024-05-25T10:22:07.490277 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:22:15.951164 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # @categories_to_be_initialized:
@@ -295,7 +295,7 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 
 # Would you like me to generate Carlessian URLs for both of them?
 # => nil
-# irb(main):031> s 'yes please. in form of JSON please!'
+# irb(main):031> say 'yes please. in form of JSON please!'
 # I, [2024-05-25T10:22:51.764041 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:22:54.385517 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:22:57.099176 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
@@ -307,14 +307,14 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 # }
 # ```
 # => nil
-# irb(main):032> s 'fantastic. Now get me ANY news regarding Bologna please'
+# irb(main):032> say 'fantastic. Now get me ANY news regarding Bologna please'
 # I, [2024-05-25T10:23:33.372395 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:23:36.427144 #13812]  INFO -- : [Langchain.rb] [Langchain::Tool::NewsRetriever]: Retrieving all news
 # I, [2024-05-25T10:23:36.940137 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # 🤖 [function] 🛠️  news_retriever__get_everything => {"status":"ok","totalResults":3409,"articles":[{"source":{"id":null,"name":"NPR"},"author":"Gisele Grayson","title":"We asked, you answered: What are some weird things you have in common with a sibling?","description":"The answers involved career choices, sleep habits, dog greetings — and bologna eating (although to be fully transparent, we must note that was a quirk shared by an uncle and his niece).","url":"https://www.npr.org/sections/goats-and-soda/2024/05/23/1252739545/we-asked-you-answered-what-are-some-weird-things-you-have-in-common-with-a-sibling","urlToImage":"https://media.npr.org/assets/img/2024/05/22/quirky-siblings-1_wide-1895132a6c0e26191ca0d5aa85131788cb5ae413.jpg?s=1400&c=100&f=jpeg","publishedAt":"2024-05-23T09:00:00Z","content":"Photographer Tommy Trenchard (above) and his sister share the ability to pick up almost anything with their toes. Nothing is too remote a possibility for their dexterous foot digits, including a remo… [+10467 chars]"},{"source":{"id":null,"name":"Openculture.com"},"author":"Colin Marshall","title":"Why Medieval Bologna Was Full of Tall Towers, and What Happened to Them","description":"Image by Toni Pecoraro, via Wikimedia Commons Go to practically any major city today, and you’ll notice that the buildings in certain areas are much taller than in others. That may sound trivially true, but what’s less obvious is that the height of those buil…","url":"https://www.openculture.com/2024/05/why-medieval-bologna-was-full-of-tall-towers-and-what-happened-to-them.html","urlToImage":"https://cdn8.openculture.com/2024/05/20221938/1475px-Medieval_Bologna-1024x750.jpg","publishedAt":"2024-05-21T08:00:09Z","content":"Image by Toni Pec­o­raro, via Wiki­me­dia Com­mons\r\nGo to prac­ti­cal­ly any major city today, and youll notice that the build­ings in cer­tain areas are much taller than in oth­ers. That may sound t… [+3471 chars]"},{"source":{"id":"die-zeit","name":"Die Zeit"},"author":"ZEIT ONLINE: News -","title":"Luftverkehr: Geruch an Bord: Flieger nach Frankfurt landet in Stuttgart","description":"Hier finden Sie Informationen zu dem Thema „Luftverkehr“. Lesen Sie jetzt „Geruch an Bord: Flieger nach Frankfurt landet in Stuttgart“.","url":"https://www.zeit.de/news/2024-05/07/geruch-an-bord-flieger-nach-frankfurt-landet-in-stuttgart","urlToImage":"https://img.zeit.de/news/2024-05/07/geruch-an-bord-flieger-nach-frankfurt-landet-in-stuttgart-image-group/wide__1300x731","publishedAt":"2024-05-07T03:30:34Z","content":"Wegen eines ungewöhnlichen Geruchs an Bord ist ein Flugzeug am Montagabend in Stuttgart statt in Frankfurt am Main gelandet. Das sagte eine Sprecherin des für den Flughafen zuständigen Polizeipräsidi… [+343 chars]"},{"source":{"id":null,"name":"Cheezburger.com"},"author":"Jesse Kessenheimer, Jesse Kessenheimer","title":"Happy Gen Xer rejoices after witnessing a group of bicycle kids who actually enjoy playing outside: 'This was the most mid-1980s thing ever'","description":"Nostalgia can strike at any moment, but for a Gen X dude who hasn't seen kiddos playing outside in decades, the feels hit strongest when he sees a pile of bicycles on a neighborhood lawn. Sipping Capri Suns and enjoying bologna sandwiches, one Gen X neighbor …","url":"https://cheezburger.com/25993733/happy-gen-xer-rejoices-after-witnessing-a-group-of-bicycle-kids-who-actually-enjoy-playing-outside","urlToImage":"https://i.chzbgr.com/original/25993733/h5853729E/flashback-80s-90s-wholesome-bike-bicycles-heartwarming-neighborhood-genx-boomers-millennials-gen-z","publishedAt":"2024-05-20T17:00:00Z","content":"Nostalgia can strike at any moment, but for a Gen X dude who hasn't seen kiddos playing outside in decades, the feels hit strongest when he sees a pile of bicycles on a neighborhood lawn. Sipping Cap… [+772 chars]"},{"source":{"id":null,"name":"Uol.com.br"},"author":"Igor Nishikiori","title":"Bologna x Juventus: onde assistir ao jogo do Campeonato Italiano","description":"Na briga pela terceira colocação, equipe se encaram nesta segunda-feira (20) em Bolonha. Veja quem transmite!\nThe post Bologna x Juventus: onde assistir ao jogo do Campeonato Italiano appeared first on Giz Brasil.","url":"https://gizmodo.uol.com.br/bologna-x-juventus-onde-assistir-ao-jogo-do-campeonato-italiano/","urlToImage":"https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2024/05/juv-bolog.jpg","publishedAt":"2024-05-20T11:03:27Z","content":"A Bologna recebe a Juventus nesta segunda-feira (20), no estádio Renato Dall’Ara, na partida que fecha a penúltima rodada do Campeonato Italiano. Ambas as equipes estão empatadas com 67 pontos, porém… [+2039 chars]"}]}
 # 🤖 [model] 💬 I found a few articles mentioning "Bologna". Can you be more specific? Are you interested in news about the city, a football team, or something else?
 # => nil
-# irb(main):033> s 'please give me their titles. Not sport, anything else, really'
+# irb(main):033> say 'please give me their titles. Not sport, anything else, really'
 # I, [2024-05-25T10:23:58.420911 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # 🧑 [user] 💬 please give me their titles. Not sport, anything else, really
 # 🤖 [model] 💬 Here are the titles of the non-sport articles I found that mention "Bologna":
@@ -325,7 +325,7 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 
 # Let me know if any of these sound interesting, or if you'd like me to refine my search further!
 # => nil
-# irb(main):034> s 'wow. Save the one of Medieval Bologna to DB please'
+# irb(main):034> say 'wow. Save the one of Medieval Bologna to DB please'
 # I, [2024-05-25T10:24:25.434024 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # @categories_to_be_initialized:
 # Article before_save(): set_embeddings_best_effort()
@@ -355,7 +355,7 @@ s 'Im at a conference and my audience is quite susceptible, I want to avoid poli
 
 # Anything else?
 # => nil
-# irb(main):035> s 'please give me now the carlessian url'
+# irb(main):035> say 'please give me now the carlessian url'
 # I, [2024-05-25T10:24:51.772607 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # I, [2024-05-25T10:24:55.072702 #13812]  INFO -- : [Langchain.rb] [Langchain::Assistant]: Sending a call to Langchain::LLM::GoogleGemini
 # 🤖 [function] 🛠️  article_tool__carlessian_url => https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/articles/6214

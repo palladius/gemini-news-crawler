@@ -86,6 +86,22 @@ puts(@rag_excerpt.colorize(:green))
 # - Rails Guides get a facelift
 ########################################################
 
+
+
+
+
+
+
+
+# in alternative: :)
+
+
+
+
+
+
+
+
 ########################################################
 # 2. If you want use LONG and read the whole article:
 ########################################################

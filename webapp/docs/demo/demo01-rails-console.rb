@@ -19,8 +19,8 @@ a = Article.last
 similaria = a.similar_articles(max_size: 5)
 
 # looks better on UI
-puts "1. See the result in localhost in https://localhost:3000/articles/#{Article.id}")
-puts "2. See the result in Cloud Run in https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/#{Article.id}")
+puts "1. See the result in localhost in https://localhost:3000/articles/#{a.id}"
+puts "2. See the result in Cloud Run in https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/#{a.id}"
 
 
 # visualize nicely
