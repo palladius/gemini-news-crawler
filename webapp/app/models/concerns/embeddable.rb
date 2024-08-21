@@ -131,10 +131,11 @@ module Embeddable
       [$ERROR_INFO, nil]
     end
     if result.is_a? Array # .nil?
-      puts("❌ Some issues with #{embedding_model} request: '#{result[0]}' => Exiting")
-      puts("❌ request_hash: #{request_hash}")
+      puts("❌ 1. Issues computing embeddings via 'compute_gcp_embeddings_for(field_to_access: #{field_to_access})'")
+      puts("❌ 2. Issue with embedding_model=#{embedding_model} request: '#{result[0]}' => Exiting")
+      puts("❌ 3. request_hash: '''#{request_hash}'''")
 
-      exit(42) # raise 'TODO levami di qui - ma ora muoro'
+      #exit(42) # raise 'TODO levami di qui - ma ora muoro'
       return nil
     end
     File.write('.tmp.hi.embed_predict.json', result.to_json)

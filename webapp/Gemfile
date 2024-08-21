@@ -27,7 +27,8 @@ gem 'gemini-ai' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'googleauth'
 gem 'google_palm_api', '~> 0.1.3' # Palm API - maybe deprecated?
-gem 'langchainrb', '~> 0.13.1'
+#gem 'langchainrb' # , '~> 0.13.1'
+gem 'langchainrb', '0.13.1'
 gem 'redcarpet' # markdown to HTML
 # gem 'pgvector' # I never needed it TODO(ricc): enable it
 # gem 'sorbet', :group => :development

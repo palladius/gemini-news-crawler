@@ -15,7 +15,7 @@
                 "/articles?macro_region=#{region}&filter=all",
                 class: "bg-blue-100 text-green-700 px-4 py-2 rounded-md hover:bg-green-200"
           %>
-      <% end %>
+      <% end if @article_regions %>
     </div>
 
     <!-- button which doesnt work yet, needs AJAX and JS -->
@@ -35,7 +35,7 @@
           "/articles?macro_region=#{region}&filter=recent",
           class: "bg-blue-100 text-blue-700 px-4 py-2 rounded-md hover:bg-blue-200"
           %>
-      <% end %>
+      <% end if @article_regions %>
     </div>
 
     <!-- Articles -->
