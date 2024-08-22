@@ -29,25 +29,36 @@ excerpt_size = 2500 # with 500 u dont see much
     'Ruby Day',
     'Cyprus',
     'Malta',
-]
+    'Zurich',
+].sort
 %>
+
+<div class="multiple_queries">
+    <p>To change querys use ?q=blah. Example:
+    <% @newsfetcher_candidates.each do |keyword| %>
+        q=<%= fancy_link_to keyword,"/pages/demo-news-retriever?q=#{keyword}" %>,
+    <% end %>
+    ..
+
+        <%= demo_button_link('03', 'yellow') %>
+    </p>
+    <p></p>
+</div>
+
+
+<button id="toggle-button" class="text-blue-500 hover:text-blue-700">Show/Hide 🩸 gory API query details</button>
+<div id="hidden-content" class="hidden">
+    <!-- hidden -->
 
 <div class="relative">
     <%= fancy_title "[Request] 1. API Call: q=#{query}" %>
-    <p>To change query's use ?q=blah. Example:
-        <% @newsfetcher_candidates.each do |keyword| %>
-            q=<%= fancy_link_to keyword,"/pages/demo-news-retriever?q=#{keyword}" %>,
-        <% end %>
-        ..
-    </p>
+
+
 
     <p>Here is the request built by langchainrb's
         <a href="https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/tool/news_retriever/news_retriever.rb">NewsRetriever tool</a>:
     </p>
     <br/>
-    <p>
-        <%= demo_button_link('03', 'yellow') %>
-    </p>
 
     <div>
             <!-- just cheap paste from irb -->
@@ -79,8 +90,16 @@ excerpt_size = 2500 # with 500 u dont see much
         </div>
 
     <br/>
-    <%= fancy_title "[Response] 3. API results from NewsCatcher: reassembled from JSON" %>
+<!-- end of hidden -->
+</div>
+<h2>fine hidden</h2>
 
+    </div>
+  </div>
+
+
+  <div class="results_always_shown" >
+      <%= fancy_title "[Response] 3. API results from NewsCatcher: reassembled from JSON" %>
 
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -95,7 +114,11 @@ excerpt_size = 2500 # with 500 u dont see much
         <p>The fields provided by the JSON result (first article to be specific) are: <b><%= parsed_json['articles'][0].keys rescue :nada %></b>
         </p>
 
-    </div>
   </div>
 
-
+<script>
+document.getElementById("toggle-button").addEventListener("click", function() {
+  const hiddenContent = document.getElementById("hidden-content");
+  hiddenContent.classList.toggle("hidden");
+});
+</script>

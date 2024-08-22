@@ -22,7 +22,11 @@ bin/rails aborted!
 
 ## Changelog
 
-34.64 Removed  `CarlessianChat` from ChatController. broke PPROD in rails c.
+2024-08-22 v0.3.66 [dev] Demo03 is now a bijou thanks to toggling with JS! Thanks Gemini!
+2024-08-22 v0.3.65 [dev] Updated rails to 7.2.0 (was 7.1.3.4) and a minute ago it was 7.1.3.2. Also added some default
+                         values to Article to fix the Demo2 UI page (failed for missing article fields - which I
+                         defaulted to null)
+2024-08-20 v0.3.64 [dev] Removed  `CarlessianChat` from ChatController. broke PPROD in rails c. PS Chromebook is HARD!
 2024-08-20 v0.3.63 [dev] fixed `@articleregions`.
 2024-06-10 v0.3.62 [dev] `rubocop -a` earthquake. Just because I met the creator of it I think I owe him.
 2024-06-01 v0.3.61 [dev] adding `sorbet` and a chat page with Gemini guidance. Then removed sorbet :)

@@ -1,3 +1,4 @@
+
 <div>
   <h1 class="font-bold text-4xl">About ♊️ GemiNews 🗞️</h1>
 
@@ -13,19 +14,27 @@
   <p><%= link_to "🟡 DEV  https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/", 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/' %></p>
   <p><%= link_to "🟢 PROD https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/", 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/' %></p>
 
+<h2  class="font-bold text-3xl">Toggle test</h2>
 
-  <h2  class="font-bold text-3xl">Description</h2>
+  <button id="toggle-button" class="text-blue-500 hover:text-blue-700">Show/Hide</button>
 
-  <p>
-    How can we get an LLM to be updated to today's news?
-  </p>
-  <p>
-  Gen AI is great at answering questions.. from the past. After the LLM was trained, all you can do is RAG.
-  How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
-  It all gets more exciting thanks to Andrei's langchainrb gem.
-  </p>
+  <button id="greet-user-button">Hello!</button>
 
-  <p>See <%= fancy_link_to 'Articles', '/articles' %> for something really sweet.</p>
+<div id="hidden-content" class="hidden">
+    <!-- hidden -->
+    <h2  class="font-bold text-3xl">Description</h2>
+
+    <p>
+      How can we get an LLM to be updated to today's news?
+    </p>
+    <p>
+    Gen AI is great at answering questions.. from the past. After the LLM was trained, all you can do is RAG.
+    How about crawling the web for latest news with Gemini for multimodal extraction and offering summarization by your favorite topic?
+    It all gets more exciting thanks to Andrei's langchainrb gem.
+    </p>
+
+    <p>See <%= fancy_link_to 'Articles', '/articles' %> for something really sweet.</p>
+  </div>
 
   <% if false
      # ShowDemoz
@@ -35,3 +44,9 @@
   <% end %>
 
 </div>
+<script>
+document.getElementById("toggle-button").addEventListener("click", function() {
+  const hiddenContent = document.getElementById("hidden-content");
+  hiddenContent.classList.toggle("hidden");
+});
+</script>

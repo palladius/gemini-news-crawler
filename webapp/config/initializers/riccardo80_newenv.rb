@@ -32,4 +32,6 @@ end
 
 puts("🤌🤌🤌 RailsCredEnvObj: #{RailsCredEnvObj} 🤌🤌🤌")
 puts("🤌🤌🤌 ENV[RAILS_MASTER_KEY].length: #{ENV.fetch('RAILS_MASTER_KEY', '').length} 🤌🤌🤌")
-puts("🤌🤌🤌 ENV[_RAILS_MASTER_KEY].length (only in CloudBuild): #{ENV.fetch('_RAILS_MASTER_KEY', '').length} 🤌🤌🤌")
+
+# I dont think its ever used.
+#puts("🤌🤌🤌 ENV[_RAILS_MASTER_KEY].length (only in CloudBuild): #{ENV.fetch('_RAILS_MASTER_KEY', '').length} 🤌🤌🤌")

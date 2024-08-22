@@ -123,10 +123,14 @@ class Article < ApplicationRecord
     newspaper
   end
 
+  def author =     @author || 'Cielcio Conti'
+  def content =    @content || 'empty'
+
   def set_defaults_after
     puts("Article::set_defaults_after (after_save). My id=#{id}")
     # self.active ||= true
-    # self.author ||= 'Cielcio Conti'
+    # self.
+    #@author ||= 'Cielcio Conti'
     @categories_to_be_initialized ||= []
     @categories_to_be_initialized.each do |c|
       at = ArticleTag.find_or_create_by(
