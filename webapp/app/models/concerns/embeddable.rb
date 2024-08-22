@@ -130,11 +130,11 @@ module Embeddable
     rescue StandardError
       [$ERROR_INFO, nil]
     end
-    if result.is_a? Array # .nil?
+    if not result.is_a?(Array) # .nil?
       puts("❌ Some issues with #{embedding_model} request: '#{result[0]}' => Exiting")
       puts("❌ request_hash: #{request_hash}")
 
-      exit(42) # raise 'TODO levami di qui - ma ora muoro'
+      #exit(42) # raise 'TODO levami di qui - ma ora muoro'
       return nil
     end
     File.write('.tmp.hi.embed_predict.json', result.to_json)
