@@ -29,9 +29,8 @@ news = NewsRetriever.get_everything(q: query, page_size: 6).to_s.force_encoding(
 cmd = "NewsRetriever.get_everything(q: '#{query}', page_size: 6)"
 parsed_json = JSON.parse(news)
 cmd_and_news = "# 💻 #{cmd} (excerpt)\n\n#{helpz.render_json(news).first(500)}.."
-
 puts(cmd_and_news)
 
+# prints first article in colorful way
 first_article = parsed_json['articles'][0]
-
 print_colorful_to_console(first_article)

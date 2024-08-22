@@ -9,8 +9,8 @@
 
 # @query = 'Ruby or Rails'
 # @query = 'Donald Trump'
-@query = 'Global warming'
-
+# @query = 'Giorgia Meloni' # if production
+@query =( Rails.env == 'production') ? 'Giorgia Meloni' : 'Global warming'
 # Uses latest Gemini to calculate embeddings.
 @e = GeminiLLM.embed(text: @query).embedding
 # @e is an embedding:
@@ -26,9 +26,6 @@
 # 1. embedding model called: Depends on what I look for. It's definitely one of these two:
 #    - 'textembedding-gecko-multilingual'
 #    - "textembedding-gecko"
-#    Title: ??? Call `a.title_embedding_description` and `a.title_embedding_meaning`
-#    ???:
-#    Article:  ???
 # 2. content: article (a smart union of title, body, ..)
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e,
                                                                       distance: 'euclidean').first(6)
