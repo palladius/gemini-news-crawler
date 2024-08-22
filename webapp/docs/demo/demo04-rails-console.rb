@@ -16,6 +16,8 @@ llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.en
 llm.defaults[:chat_completion_model_name]
 # => "gemini-1.5-pro-latest"
 
+
+
 @assistant = Langchain::Assistant.new(
   llm:,
   thread: Langchain::Thread.new,
@@ -28,12 +30,28 @@ llm.defaults[:chat_completion_model_name]
   ]
 )
 
-def say(str) = @assistant.say(str)
-
+def s(str) = @assistant.say(str)
 # VERBOSE: puts(@assistant.add_message_and_run(content: 'Latest 5 news from Italy', auto_tool_execution: true))
-# SHORT:   say 'Latest 5 news from Italy'
+# SHORT:   s 'Latest 5 news from Italy'
+############################################################################################################
+# New 22aug24 - nice colorful expression of Gemini messages, where **markdown** is expressed in colors :)
+def last_message = @assistant.thread.messages.last.content
+def penultimate_message = @assistant.thread.messages[-2].content
+def last_message_decoded = JSON.parse(last_message)
+def penultimate_message_decoded = JSON.parse(penultimate_message)
+def colorize_bold(text)
+  regex = /\*\*\s*(.*?)\s*\*\*/
+  result = text.gsub(regex) do |match|
+    "\e[0;33m#{match.gsub(/\*\*/, '')}\e[0m"
+  end
+  puts(result) # instant gratification :)
+  result
+end
+def colorful_lastmessage = colorize_bold(last_message)
+def putlm = puts(colorful_lastmessage)
+############################################################################################################
 
-say 'Latest 5 news from Italy'
+s 'Latest 5 news from Italy'
 
 # returns an array of messages
 @assistant.history
@@ -51,7 +69,7 @@ say 'Latest 5 news from Italy'
 
 @assistant.say 'Save this the LAST two articles please'
 
-say 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
+s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 # interact directly
 @assistant.user_loop
