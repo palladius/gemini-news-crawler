@@ -1,5 +1,7 @@
 
 DOCKER_VERSION = $(shell cat VERSION)
+#BASH_ENV=/etc/profile - from cron - non credo funga qui.
+SHELL = /bin/bash
 
 # i cant believe it that a new rails install doesnt work but hey here it is
 # https://stackoverflow.com/questions/74904688/esbuild-throwing-error-could-not-resolve-import-statement-while-setting-up
@@ -96,8 +98,11 @@ build: docker-build
 docker-build:
 	sudo docker build -t geminews:v$(DOCKER_VERSION) .
 docker-run:
-#	./entrypoint-8080.sh
-	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
+	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION) -e RAILS_MASTER_KEY=$(RAILS_MASTER_KEY)
+docker-run-derek:
+	#echo on derek docker doesnt work from Makefile mneed bash
+	#docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
+	./make-docker-run.sh
 docker-run-bash:
 #	./entrypoint-8080.sh
 	sudo docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION) bash

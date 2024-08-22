@@ -22,9 +22,12 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-08-21 v0.4.2 [dev] fixed chmod 755 tools (tools had 754 sio was not executable)
+2024-08-21 v0.4.1 [dev] Merging yesterdays 0.3.63 (Mac+Chrome) with last week's 0.4.0 on derek.
+.. MERGE NOTE .. 0.4.0 was merged AFTER 0.3.63. Buona fortuna Riccardo...
 2024-08-14 v0.4.0 [dev] Time has passed, some Gemini functionality seems not to work anymore. Added some tests, removed
                         some `exit(42)` which broke everything.
-...
+2024-08-20 v0.3.63 [dev] fixed `@articleregions`.
 2024-06-10 v0.3.62 [dev] `rubocop -a` earthquake. Just because I met the creator of it I think I owe him.
 2024-06-01 v0.3.61 [dev] adding `sorbet` and a chat page with Gemini guidance. Then removed sorbet :)
 2024-05-31 v0.3.60 [dev] small changes during the day

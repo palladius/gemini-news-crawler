@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**Artificial Intelligence (AI)** is the simulation of human intelligence processes by machines. It involves the development of computer systems that can:\n\n**1. Learning:**\n\n* **Machine Learning:** Algorithms that enable computers to learn from data without explicit programming.\n* **Deep Learning:** Subset of machine learning using artificial neural networks with multiple layers, enabling more complex learning tasks.\n\n**2. Reasoning:**\n\n* **Symbolic AI:** Rules-based systems that reason using logic and symbols.\n* **Hybrid Systems:** Combine symbolic and numerical reasoning techniques.\n\n**3. Problem-Solving:**\n\n* **Search Algorithms:** Determine optimal solutions to complex problems.\n* **Planning Algorithms:** Create plans for achieving specific goals.\n\n**4. Natural Language Processing:**\n\n* **Natural Language Understanding:** Computers understand and interpret human language.\n* **Natural Language Generation:** Computers produce text or speech that resembles human communication.\n\n**5. Computer Vision:**\n\n* **Image Recognition:** Computers identify and classify objects in images.\n* **Video Analysis:** Computers understand and interpret video sequences.\n\n**How AI Works:**\n\nAI systems are typically trained on large datasets of data. The algorithms learn patterns, relationships, and rules from the data. This enables them to:\n\n* **Make predictions:** Based on past data, AI systems can make predictions about future events or outcomes.\n* **Classify data:** AI systems can categorize data into different classes or groups.\n* **Provide recommendations:** AI systems can recommend actions or decisions based on user preferences and past behavior.\n* **Automate tasks:** AI systems can perform repetitive or complex tasks efficiently and reliably.\n\n**Specific Techniques:**\n\n* **Artificial Neural Networks:** Mathematical models inspired by the structure of the human brain.\n* **Support Vector Machines:** Algorithms used for classification and regression problems.\n* **Decision Trees:** Tree-like structures used to make decisions and predict outcomes.\n* **Genetic Algorithms:** Algorithms that mimic natural selection to optimize solutions.\n\n**Applications:**\n\nAI has applications in various fields, including:\n\n* Healthcare: Diagnosis, treatment planning, and drug discovery\n* Finance: Risk assessment, fraud detection, and investment management\n* Business: Customer service, marketing optimization, and supply chain management\n* Transportation: Self-driving cars, traffic management, and route optimization\n* Education: Personalized learning, adaptive assessments, and automated grading"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 4,
+    "candidatesTokenCount": 485,
+    "totalTokenCount": 489
+  }
+}

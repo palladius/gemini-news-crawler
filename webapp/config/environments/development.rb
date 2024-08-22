@@ -85,4 +85,6 @@ Rails.application.configure do
   #     '192.168.1.0/24', # Zurich Ricc home
   #     '2a02:168:646b:0:406f:8a5e:499b:a9d2', # Ricc home
   #   ]
+  # only in localhost... TODO
+  #config.force_ssl = false
 end
