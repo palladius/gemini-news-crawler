@@ -26,3 +26,14 @@ Deployment:
     * DEV:  `pg-dev` in `europe-north1`
 
 
+## Recording audio
+
+Docs:
+
+* https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder
+* add RTC: https://hamzawais54.medium.com/integrating-audio-recording-into-a-ruby-on-rails-app-using-recordrtc-and-stimulusjs-f713b1c77bd9
+* https://hamzawais54.medium.com/integrating-audio-recording-into-a-ruby-on-rails-app-using-recordrtc-and-stimulusjs-f713b1c77bd9
+
+Ideas:
+
+* https://github.com/mouraleonardo/voice-recording-react-app

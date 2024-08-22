@@ -2,6 +2,7 @@
 
 Rails.application.routes.draw do
   get 'pages/about'
+  get 'pages/audio'   #Testing auidio, not functional, 22aug24
   get 'pages/assistant'
   get 'pages/chat'
   get 'pages/graphs'

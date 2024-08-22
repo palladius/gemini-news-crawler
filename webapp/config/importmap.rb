@@ -9,3 +9,8 @@ pin '@hotwired/stimulus-loading', to: 'stimulus-loading.js'
 pin_all_from 'app/javascript/controllers', under: 'controllers'
 
 pin_all_from "app/javascript/custom", under: "custom"
+
+# for recording audio
+# Ricc: done: bin/importmap pin  recordrtc
+pin "recordrtc" # @5.6.2
+pin "process" # @2.0.1

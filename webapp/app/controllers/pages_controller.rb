@@ -15,5 +15,9 @@ class PagesController < ApplicationController
     @query = params.fetch(:query, nil)
   end
 
+  def audio
+    # todo
+  end
+
   def chat; end
 end

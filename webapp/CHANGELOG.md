@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-08-22 v0.3.67 [dev] Audio seems broken still :/ but good progress here
 2024-08-22 v0.3.66 [dev] Demo03 is now a bijou thanks to toggling with JS! Thanks Gemini!
 2024-08-22 v0.3.65 [dev] Updated rails to 7.2.0 (was 7.1.3.4) and a minute ago it was 7.1.3.2. Also added some default
                          values to Article to fix the Demo2 UI page (failed for missing article fields - which I

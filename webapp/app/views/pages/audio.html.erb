@@ -1,0 +1,51 @@
+<style>
+  .record-button {
+    height: 8em;
+    width: 8em;
+    border-color: #f3f3f3 !important;
+  }
+
+  .record-button:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  }
+</style>
+
+
+<h1 class="font-bold text-4xl" >🎤 Record and Upload Audio  </h1>
+
+<h2 class="font-bold text-2xl" >Gemini pastie</h2>
+Gemini pastie:
+  <button id="stopButton" disabled>Stop Recording</button>
+
+<h2 class="font-bold text-2xl">2 WEtutorial</h2>
+
+<div class="container">
+  <h1 class="text-center">Record Your Voice</h1>
+  <div class="record-button-container text-center mt-5">
+    <button class="bg-transparent border btn record-button rounded-circle shadow-sm text-center" id="recordButton">
+      <!-- inspired by https://www.sitepoint.com/mediastream-api-record-audio/ -->
+      <%= image_tag("microphone.jpg", alt: "Record", class: "img-fluid") %>
+    </button>
+  </div>
+</div>
+
+
+<h2  class="font-bold text-2xl" >3 Medium ruby guy</h2>
+
+<div class="form-group audio-field" data-controller='audio-recording' >
+  <div class='row'>
+    <div class='col-md-12'>
+      <div class="form-group" >
+        <button data-action="audio-recording#startRecording" data-target="audio-recording.startRecording">Start</button>
+        <button disabled data-action="audio-recording#stopRecording" data-target="audio-recording.stopRecording">Stop</button>
+        <button disabled data-action="audio-recording#pauseRecording" data-target="audio-recording.pauseRecording">Pause</button>
+        <button disabled data-action="audio-recording#resumeRecording" data-target="audio-recording.resumeRecording">Resume</button>
+        <audio data-target="audio-recording.recordedAudio"></audio>
+        <input type="hidden" data-target='audio-recording.audioBlob' value=""
+                name="target_field"
+                id="target_field">
+        <p data-target='audio-recording.timeElapsed'> Time Elapsed: 0 second </p>
+      </div>
+    </div>
+  </div>
+</div>

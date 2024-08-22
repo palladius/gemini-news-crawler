@@ -79,6 +79,8 @@ Rails.application.configure do
   ###############
   # Riccardo
   ###############
+  # disable in DEV: https://guides.rubyonrails.org/v4.0.1/asset_pipeline.html
+  config.assets.enabled = false
 
   # in RVT:   config.rvt.whitelisted_ips = %w( 127.0.0.1 192.168.0.100 )
   # config.web_console.permissions = [
