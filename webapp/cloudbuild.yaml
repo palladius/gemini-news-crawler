@@ -103,6 +103,12 @@ steps:
   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
   - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY'
   - 'GEMINI_KEY=$_GEMINI_KEY'
+  # https://guides.rubyonrails.org/debugging_rails_applications.html
+  #
+  # WARNING !!! DISABLE THIS WHEN THE PROBLEM IS FIXED!!
+  #
+  #
+  - 'RAILS_LOG_LEVEL=debug' # to help debug the system
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
