@@ -27,6 +27,12 @@ development:
   query_cache: 500
   url: <%= ENV["DATABASE_URL_DEV"] %>
 
+staging:
+  <<: *default
+  query_cache: 500
+  url: <%= ENV["DATABASE_URL"] %>
+
+
 # default: &default
 # development:
 #   adapter: sqlite3

@@ -33,6 +33,8 @@ run-prod:
 	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production rails db:migrate
 	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production rails s -p 3001 -b 0.0.0.0
 
+run-staging:
+	RAILS_ENV=staging rails s -p 3000
 
 regenerate-DANGEROUS-DO-NOT-DO-IT:
 # summary = description

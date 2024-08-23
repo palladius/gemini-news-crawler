@@ -26,7 +26,7 @@ else
   echo 'Riccardo NOT LOCAL probably in the Cloud'
 fi
 
-if which gcloud ; then
+if which gcloud >/dev/null ; then
   echo "👒 [GCLOUD AVAILABLE!] Parsing secret wich gcloud - wOOOt 2024 news"
   gcloud secrets versions access latest --secret=gemini-news-crawler-envrc > .tmp.gcloud-envrc ||
     rm .tmp.gcloud-envrc  # remove if failed
@@ -36,7 +36,8 @@ if which gcloud ; then
 fi
 
 function _usage() {
-  echo "Usage: $0 [dev|prod] [latest]"
+  echo "Usage: $0 [dev|stag|prod] [latest]"
+  echo "TODO(ricc): staging is WIP."
   exit 142
 }
 
@@ -68,12 +69,17 @@ fi
 case "$1" in
    dev | development )
     export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-dev"
-    export RAILS_ENV=development
+    export RAILS_ENV='development'
+    ;;
+
+  stag | staging )
+    export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-stag"
+    export RAILS_ENV='staging'
     ;;
 
   prod | production )
     export APP_TO_DEPLOY="${APP_NAME_TO_DEPLOY}-prod"
-    export RAILS_ENV=production
+    export RAILS_ENV='production'
     ;;
 
   *) # else

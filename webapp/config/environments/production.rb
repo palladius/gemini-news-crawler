@@ -51,8 +51,20 @@ Rails.application.configure do
   # config.assume_ssl = true
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  # config.force_ssl = true
-  config.force_ssl = false # testing for localhost
+  config.force_ssl = false
+  #config.force_ssl = true
+
+  # LongHostname = Socket.gethostname
+  # ShortHostname = LongHostname.split('.')
+  # if ShortHostname == 'derek'
+  #   puts("🤌🤌 [Riccardo] - disabling force_ssl in localhost for Riccardo known machines #HACK")
+  #   config.force_ssl = false
+  # end
+  # config.force_ssl = false # testing for localhost
+  #
+  # 1. its sticky, if you change it you need a hard reload!
+  # 2. chrome://net-internals/#hsts -> add localhost https://stackoverflow.com/questions/25277457/google-chrome-redirecting-localhost-to-https/28586593#28586593
+  #
 
   # Log to STDOUT by default
   config.logger = ActiveSupport::Logger.new($stdout)

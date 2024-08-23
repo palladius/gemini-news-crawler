@@ -110,6 +110,25 @@ steps:
   #
   - 'RAILS_LOG_LEVEL=debug' # to help debug the system
 
+
+
+  # This is just to make sure that PROD only gets pushed when EVERYTHING works!
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: 4.5. Push STAGING to Cloud Run via new MAGIC script - never tried STAGING before
+  entrypoint: bash
+  args:
+  - bin/cb-push-to-cloudrun-magic.sh
+  - staging
+  dir: webapp
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
+  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+  - 'DATABASE_URL=$_DATABASE_URL_STAGING'
+  - 'OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES'
+  - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY_RICC' # PROD
+  - 'RAILS_ENV=staging'
+  - 'GEMINI_KEY=$_GEMINI_KEY'
+
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
   id: 5. Push PROD to Cloud Run via new MAGIC script # which doesnt need mounting anymore

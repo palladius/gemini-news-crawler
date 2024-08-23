@@ -13,6 +13,8 @@ end
 GAC = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 GOOGLE_APPLICATION_CREDENTIALS = ENV.fetch 'GOOGLE_APPLICATION_CREDENTIALS', nil
 EmbeddingEmoji = '🗿'
+LongHostname = Socket.gethostname
+ShortHostname = LongHostname.split('.')
 
 AppUrlDev  = 'https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/'
 AppUrlProd = 'https://gemini-news-crawler-prod-x42ijqglgq-ew.a.run.app/'
@@ -53,6 +55,7 @@ Rails.application.configure do
   config.hosts << 'localhost:3000'
   config.hosts << 'localhost'
   config.hosts << 'localhost:3001'
+  config.hosts << '127.0.0.1:3001'
   config.hosts << 'localhost:8080'
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
