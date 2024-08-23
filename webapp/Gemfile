@@ -27,12 +27,13 @@ gem 'gemini-ai' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'googleauth'
 gem 'google_palm_api', '~> 0.1.3' # Palm API - maybe deprecated?
-gem 'langchainrb', '~> 0.13.1'  # May 15th , 0.13.2 is May 22
+gem 'langchainrb', '0.13.1'  # May 15th , 0.13.2 is May 22
 #gem 'langchainrb', '~> 0.13.2'  # May 15th , 0.13.2 is May 22
 gem 'redcarpet' # markdown to HTML
 # gem 'pgvector' # I never needed it TODO(ricc): enable it
 # gem 'sorbet', :group => :development
 # gem 'sorbet-runtime'
+#gem 'tiktoken_ruby' # incredible. Production fails and it seems like it was in the `Gemfile.lock` which made bug002 fail. So forcing it back..
 # /Riccardo end
 ################################
 
