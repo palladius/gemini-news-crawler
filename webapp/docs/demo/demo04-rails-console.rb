@@ -51,7 +51,7 @@ def putlm = puts(colorful_lastmessage)
 ############################################################################################################
 
 # enable HTTP in case its broken
-Net::HTTP.enable_debug!
+# Net::HTTP.enable_debug!
 
 s 'Latest 5 news from Italy'
 
