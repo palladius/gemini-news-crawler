@@ -34,7 +34,8 @@ run-prod:
 	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production rails s -p 3001 -b 0.0.0.0
 
 run-staging:
-	RAILS_ENV=staging rails s -p 3000
+	RAILS_ENV=staging RAILS_LOG_LEVEL=debug bundle exec rails assets:precompile
+	RAILS_ENV=staging RAILS_LOG_LEVEL=debug rails s -p 3002 -b 0.0.0.0
 
 regenerate-DANGEROUS-DO-NOT-DO-IT:
 # summary = description
@@ -88,6 +89,10 @@ cloud-deploy-setup:
 credentials-edit-prod:
 #	bin/rails credentials:edit -e production
 	RAILS_ENV=production EDITOR="code --wait" rails credentials:edit
+
+credentials-edit-staging:
+	@echo with the above diciture it wont work so i need to use the dash dash env
+	EDITOR="code --wait" rails credentials:edit --environment=staging
 
 credentials-edit-dev:
 #bin/rails credentials:edit -e development
