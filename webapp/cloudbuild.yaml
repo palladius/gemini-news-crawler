@@ -89,27 +89,27 @@ steps:
   dir: webapp
 
 
-# Questo finalmente funge!
-- name: 'gcr.io/cloud-builders/gcloud'
-  id: 4alpha. Push DEV204 to Cloud Run via Amazing new script which doesnt need mounting anymore
-  entrypoint: bash
-  args:
-#  - bin/cb-push-to-cloudrun-magic.sh # trying to fix https://github.com/palladius/gemini-news-crawler/issues/3
-  - bin/cb-push-to-cloudrun-magic.sh.old-v204
-  - dev
-  dir: webapp
-  env:
-  - 'PROJECT_ID=$PROJECT_ID'
-  - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
-  - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
-  - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY'
-  - 'GEMINI_KEY=$_GEMINI_KEY'
-  # https://guides.rubyonrails.org/debugging_rails_applications.html
-  #
-  # WARNING !!! DISABLE THIS WHEN THE PROBLEM IS FIXED!!
-  #
-  #
-  - 'RAILS_LOG_LEVEL=debug' # to help debug the system
+# # Questo finalmente funge!
+# - name: 'gcr.io/cloud-builders/gcloud'
+#   id: 4alpha. Push DEV204 to Cloud Run via Amazing new script which doesnt need mounting anymore
+#   entrypoint: bash
+#   args:
+# #  - bin/cb-push-to-cloudrun-magic.sh # trying to fix https://github.com/palladius/gemini-news-crawler/issues/3
+#   - bin/cb-push-to-cloudrun-magic.sh.old-v204
+#   - dev
+#   dir: webapp
+#   env:
+#   - 'PROJECT_ID=$PROJECT_ID'
+#   - 'RAILS_MASTER_KEY=$_RAILS_MASTER_KEY'
+#   - 'DATABASE_URL_DEV=$_DATABASE_URL_DEV'
+#   - 'NEWSAPI_COM_KEY=$_NEWSAPI_COM_KEY'
+#   - 'GEMINI_KEY=$_GEMINI_KEY'
+#   # https://guides.rubyonrails.org/debugging_rails_applications.html
+#   #
+#   # WARNING !!! DISABLE THIS WHEN THE PROBLEM IS FIXED!!
+#   #
+#   #
+#   - 'RAILS_LOG_LEVEL=debug' # to help debug the system
 
 # Questo finalmente funge!
 - name: 'gcr.io/cloud-builders/gcloud'
