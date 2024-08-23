@@ -17,9 +17,8 @@ llm.defaults[:chat_completion_model_name]
 # => "gemini-1.5-pro-latest"
 
 
-
 @assistant = Langchain::Assistant.new(
-  llm:,
+  llm: llm,
   thread: Langchain::Thread.new,
   instructions: 'You are a News Assistant.',
   # You can iterate and program your assistant based on your preferences.
@@ -50,6 +49,9 @@ end
 def colorful_lastmessage = colorize_bold(last_message)
 def putlm = puts(colorful_lastmessage)
 ############################################################################################################
+
+# enable HTTP in case its broken
+Net::HTTP.enable_debug!
 
 s 'Latest 5 news from Italy'
 

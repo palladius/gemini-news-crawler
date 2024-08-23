@@ -10,7 +10,7 @@ module Langchain
     # , also_show_latest_message: true)
     def say(msg)
       add_message_and_run(content: msg, auto_tool_execution: true)
-      puts  thread.messages.last(2)
+      puts thread.messages.last(2)
       nil # if I return ret, it will bloat the output!
     end
 
