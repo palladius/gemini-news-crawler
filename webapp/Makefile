@@ -142,3 +142,6 @@ test-llm-vertex:
 
 compute_embeddings_for_all:
 	echo Article.compute_embeddings_for_all | rails c
+
+test-newsapi:
+	bin/newsapi-test.rb
