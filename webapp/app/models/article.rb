@@ -123,8 +123,16 @@ class Article < ApplicationRecord
     newspaper
   end
 
-  def author =     @author || 'Cielcio Conti'
-  def content =    @content || 'empty'
+  # https://stackoverflow.com/questions/17466903/set-default-value-on-empty-text-field
+  before_save :set_author_and_content
+  def set_author_and_content
+    self.author = 'Cielcio Conti' if self.author.blank?
+    self.content = 'empty' if self.content.blank?
+  end
+
+  # WRONG! BUG!
+  #def author =     @author || 'Cielcio Conti'
+  #def content =    @content || 'empty'
 
   def set_defaults_after
     puts("Article::set_defaults_after (after_save). My id=#{id}")
@@ -275,6 +283,32 @@ class Article < ApplicationRecord
     else
       (neighbor_distance * 100).round(2)
     end
+  end
+
+
+  # FROM: \\342\\200\\234Un ritorno di fiamma tra Fedez e Ferragni? Vi dico la verit\303\240\\342\\200\\235: l\\342\\200\\231esperta di gossip Marzano svela uno scambio di messaggi con l\\342\\200\\231imprenditrice digitale
+  # TO: “Un ritorno di fiamma tra Fedez e Ferragni? Vi dico la verità”: l’esperta di gossip Marzano svela uno scambio di messaggi con l’imprenditrice digitale
+  def self.fix_andrei_newspaper_weird_characters(str, remove_all_double_slashes: false)
+    # changes e', i', \\, \', \r , ’ ‘
+
+    str.gsub("\\'","'").gsub('\\303\\250', 'è').gsub('\\303\\255', 'í').gsub('\\303\\240', 'à').gsub('\\303\\251', 'é').gsub('\\303\\271', 'ù').  # aeiou accentate
+      gsub('\\302\\253', '«').gsub('\\302\\273', '»').gsub('\\342\\200\\231','’').gsub('\\342\\200\\230',"‘").            # single quotes
+      gsub('\\342\\200\\234',"“").gsub('\\342\\200\\235',"”").gsub('\\342\\200\\231',"’").gsub('\\\\342\\\\200\\\\231',"’"). # double quotes
+      gsub("\\r",'')
+    #str.gsub('\\','') if remove_all_double_slashes # quando lo esegui e' distruttivo, toglilo in DEBUG...
+    #str
+  end
+  # Le Vibrazioni, è morta Giulia Tagliapietra, protagonista della canzone (e del video) «Dedicato a te»
+  #def modify = .gsub('\\303\\250', 'è').gsub('\\303\\255', 'í').gsub('\\302\\253', '«').gsub('\\302\\273', '»')
+
+  #=> "\\\\\\\"Ciao amici, sono Gerardina Trovato. A casa. Io ho sempre pensato che quello che conta è la gente. E noi non saremmo niente se non ci foste voi. Non mi abbandonate. Diventate sempre di più, perché voi siete la mia forza\\\\\\\". (ANSA)"
+  def cleanup_ugly_backslashes
+    self.summary = Article.fix_andrei_newspaper_weird_characters(self.summary, remove_all_double_slashes: false)
+    self.content = Article.fix_andrei_newspaper_weird_characters(self.content, remove_all_double_slashes: false)
+    self.title = Article.fix_andrei_newspaper_weird_characters(self.title, remove_all_double_slashes: false)
+
+    puts("cleanup_ugly_backslashes() finished, now saving!")
+    self.save
   end
 
   # a.article_embedding =  a.title_embedding
