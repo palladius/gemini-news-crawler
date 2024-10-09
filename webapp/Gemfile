@@ -26,11 +26,12 @@ gem 'faraday' # for Ollama
 gem 'gemini-ai' # For Gemini
 gem 'google-apis-aiplatform_v1', '~> 0.23.0'
 gem 'googleauth'
-gem 'google_palm_api', '~> 0.1.3' # Palm API - maybe deprecated?
+#gem 'google_palm_api', '~> 0.1.3' # Palm API - maybe deprecated?
 ###########################################################
 # Experimenting in a branch
 #gem 'langchainrb', '0.13.1'  # May 15th , 0.13.2 is May 22
-gem 'langchainrb', '~> 0.16.1' # Oct 09 - BIG DEAL
+gem 'langchainrb', '~> 0.17.1' # Oct 09 - BIG DEAL
+
 ###########################################################
 #gem 'langchainrb', '~> 0.13.2'  # May 15th , 0.13.2 is May 22
 gem 'redcarpet' # markdown to HTML

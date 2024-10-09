@@ -9,6 +9,8 @@ module MonkeyPatching
     module Langchain
       module Messages
         class GoogleGeminiMessage
+
+          # TODO move colorize -> rainbow
           def to_s
             # 💬
             # fun call
