@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echodo git pull origin modernize-langchain-latest
+echodo git push origin  modernize-langchain-latest
