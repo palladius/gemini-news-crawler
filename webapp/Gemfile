@@ -31,9 +31,8 @@ gem 'googleauth'
 # Experimenting in a branch
 #gem 'langchainrb', '0.13.1'  # May 15th , 0.13.2 is May 22
 gem 'langchainrb', '~> 0.17.1' # Oct 09 - BIG DEAL
-
 ###########################################################
-#gem 'langchainrb', '~> 0.13.2'  # May 15th , 0.13.2 is May 22
+gem 'colorize' # TODO REMOVEME
 gem 'redcarpet' # markdown to HTML
 gem 'dotenv-rails'
 gem "pry", "~> 0.14.2" # Maybe just in dev?
