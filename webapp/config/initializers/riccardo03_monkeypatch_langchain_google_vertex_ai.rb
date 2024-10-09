@@ -9,6 +9,7 @@ module Langchain
       # https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/llm/google_vertex_ai.rb
       # commit: https://github.com/patterns-ai-core/langchainrb/commit/dcb6078041ae8af4ff147d650d18ea71ac02d759
 
+      attr_accessor :gbaptista_client
       #
       # Gemini initializer is being merged into BOTH Vertex and ApiKey authentication.
       #
@@ -47,7 +48,8 @@ module Langchain
           },
           options: {
             model: @defaults[:chat_completion_model_name], # 'gemini-pro',  # TODO(ricc): use @defaults[:chat_completion_model_name]
-            server_sent_events: true
+            server_sent_events: true,
+            connection: { request: { timeout: 5 } } # cool!
           }
         )
 
@@ -61,6 +63,21 @@ module Langchain
           tool_choice: :tool_config
         )
       end
+
+      # VertexAI client from https://github.com/gbaptista/gemini-ai
+      # def gbaptista_client(region: , project_id: )
+      #   Gemini.new(
+      #     credentials: {
+      #       service: 'vertex-ai-api',
+      #       region:
+      #     },
+      #     options: {
+      #       model: @defaults[:chat_completion_model_name], # 'gemini-pro',  # TODO(ricc): use @defaults[:chat_completion_model_name]
+      #       server_sent_events: true
+      #     }
+      #   )
+
+      # end
 
       def authenticated?
         # TODO(ricc): add if api_key is valid.. but it should work both ways.
@@ -148,7 +165,11 @@ module Langchain
 
         default_params.merge!(params)
 
-        response = client.generate_text(**default_params)
+        #response = gbaptista_client.generate_text(**default_params)
+        #response = client.generate_text(**default_params)
+        response = gbaptista_client.generate_content(
+          { contents: { role: 'user', parts: { text: prompt } } }
+        )
 
         Langchain::LLM::GoogleGeminiResponse.new response,
                                                  model: default_params[:model]

@@ -32,18 +32,21 @@ rescue StandardError
   nil
 end
 # GeminiLLM = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] rescue nil
-PalmLLM = begin
-  Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI']
-rescue StandardError
-  nil
-end
+# PalmLLM = begin
+#   Langchain::LLM::GooglePalm.new api_key: ENV['PALM_API_KEY_GEMINI']
+# rescue StandardError
+#   nil
+# end
+PalmLLM = VertexLLM # so it doesnt break anything :)
+#PalmLLM = GeminiLLM
+
 OllamaLLM = begin
   Langchain::LLM::Ollama.new
 rescue StandardError
   nil
 end
 
-PalmLLMImpromptu = '❌ [redacted from demo. This adds too much to script startup]'
+#PalmLLMImpromptu = '❌ [redacted from demo. This adds too much to script startup]'
 # PalmLLMImpromptu = PalmLLM.nil? ?
 #   '🤌 I cant, PalmLLM is nil 🤌' :
 #   #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
