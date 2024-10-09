@@ -12,7 +12,6 @@ module Langchain
           # for every tool_calls print one line:
           # 🤖 [model] 🛠️ [1/2] 🛠️  {"name"=>"news_retriever__get_top_headlines", ..
           # 🤖 [model] 🛠️ [2/2] 🛠️  {"name"=>"....",
-          return # test, should just be "\n"
           tool_calls.enum_for(:each_with_index).map do |tool_call, ix|
             return "🤖 [#{role}] 🛠️ [#{ix + 1}/#{tool_calls.count}] 🛠️  #{begin
               tool_call['functionCall'].to_s.force_encoding('UTF-8').colorize(:gray)
