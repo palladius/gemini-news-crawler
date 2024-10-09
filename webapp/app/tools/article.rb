@@ -6,6 +6,33 @@
 #     include Langchain::DependencyHelper
 module Langchain::Tool
   class Article
+    VERSION = '1.11'
+    CHANGELOG = <<-TEXT
+      v1.11 Started on 9oct24 to address the new Langchain tool
+
+      v1.10 Added Carlessian url: https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/articles/#id
+      v1.9  Got a delete error - tried to perfect the JSON decription
+
+      app/tools/article_tool.rb:94:in `destroy': wrong number of arguments (given 1, expected 0; required keyword: id) (ArgumentError)
+
+      v1.8 Got a create error by unknown city -> defaults now to Vatican.
+
+      app/tools/article_tool.rb:37:in `create': missing keywords: :country, :country_emoji (ArgumentError)
+
+      v1.7 now create() sends a more verbose output in return (whole object instead of just id)
+      v1.6 fixed missing `delete` function. Bug:
+
+        (irb):10:in `say': undefined method `delete' for #<ArticleTool:0x00007f97d69cc1b8> (NoMethodError)
+
+      v1.5 Added UTF8 in the code (I trust myself more than an AI :P). Altenratvie would be to sanitize UTF8 in the EXIT of the
+          NewsRetriever but that's built into Langchain::Tool::NewsRetriever gem so it would be yet another thing to override.
+      v1.4 Added UTF8 in the specs since the output is very ugly now: http://localhost:3000/articles/10334
+      v1.3
+      v1.2 Add EMOJI so AI finds emoji for me and I can just put somewhere easy to parse :)
+      v1.1 GUID is now the Link. Also fixing macro-region
+      v1.0 First version from Andrei
+
+    TEXT
 
     extend Langchain::ToolDefinition
     include Langchain::DependencyHelper

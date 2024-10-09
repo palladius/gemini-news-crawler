@@ -30,7 +30,10 @@ if (llm.authenticated?)
 # Instantiate tools
 #news_retriever = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
 news_retriever  = NewsRetriever # instanziato da mo'.
+#article_tool = ArticleTool.new
+#article_tool = Langchain::Tool::ArticleTool.new
 article_tool = ArticleTool.new
+
 
   #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
 
