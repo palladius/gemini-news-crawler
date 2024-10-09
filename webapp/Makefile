@@ -142,6 +142,7 @@ test-llm-vertex:
 
 test-llm-gemini-embeddings:
 	echo "GeminiLLM.embed text: 'ciao'" | rails c
+
 test-llm-vertex-embeddings:
 	echo "VertexLLM.embed text: 'ciao'" | rails c
 

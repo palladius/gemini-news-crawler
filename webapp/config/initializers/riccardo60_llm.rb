@@ -104,18 +104,10 @@ BookOfLLMs = {
     description: 'todo',
     auth_method: 'api_key (low QPS)',
     authenticated1: GeminiAuthenticated, # <== this gives an error
-    authenticated_should_work_without_exception_now: GeminiLLM.authenticated?
-  },
-  palm: {
-    llm: PalmLLM.class,
-    description: 'todo',
-    auth_method: 'api_key (low QPS)'
-    # authenticated: PalmLLM.authenticated?,
   },
   ollama: {
     llm: OllamaLLM.class,
     description: 'not used ANYWHERE for now'
     # auth_method: 'api_key (low QPS)',
-    # authenticated: PalmLLM.authenticated?,
   }
 }.freeze

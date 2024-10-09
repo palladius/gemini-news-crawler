@@ -102,6 +102,47 @@ module Langchain
         )
       end
 
+       # Generate a chat completion for a given prompt
+    #
+    # @param messages [Array<Hash>] List of messages comprising the conversation so far
+    # @param model [String] The model to use
+    # @param tools [Array<Hash>] A list of Tools the model may use to generate the next response
+    # @param tool_choice [String] Specifies the mode in which function calling should execute. If unspecified, the default value will be set to AUTO. Possible values: AUTO, ANY, NONE
+    # @param system [String] Developer set system instruction
+    def chat(params = {})
+      params[:system] = {parts: [{text: params[:system]}]} if params[:system]
+      params[:tools] = {function_declarations: params[:tools]} if params[:tools]
+
+      raise ArgumentError.new("messages argument is required") if Array(params[:messages]).empty?
+
+      parameters = chat_parameters.to_params(params)
+      parameters[:generation_config] ||= {}
+      parameters[:generation_config][:temperature] ||= parameters[:temperature] if parameters[:temperature]
+      parameters.delete(:temperature)
+      parameters[:generation_config][:top_p] ||= parameters[:top_p] if parameters[:top_p]
+      parameters.delete(:top_p)
+      parameters[:generation_config][:top_k] ||= parameters[:top_k] if parameters[:top_k]
+      parameters.delete(:top_k)
+      parameters[:generation_config][:max_output_tokens] ||= parameters[:max_tokens] if parameters[:max_tokens]
+      parameters.delete(:max_tokens)
+      parameters[:generation_config][:response_mime_type] ||= parameters[:response_format] if parameters[:response_format]
+      parameters.delete(:response_format)
+      parameters[:generation_config][:stop_sequences] ||= parameters[:stop] if parameters[:stop]
+      parameters.delete(:stop)
+
+      uri = URI("https://generativelanguage.googleapis.com/v1beta/models/#{parameters[:model]}:generateContent?key=#{api_key}")
+
+      parsed_response = http_post(uri, parameters)
+
+      wrapped_response = Langchain::LLM::GoogleGeminiResponse.new(parsed_response, model: parameters[:model])
+
+      if wrapped_response.chat_completion || Array(wrapped_response.tool_calls).any?
+        wrapped_response
+      else
+        raise StandardError.new(parsed_response)
+      end
+    end
+
       #
       # Generate a completion for a given prompt
       #
@@ -109,24 +150,26 @@ module Langchain
       # @param params extra parameters passed to GooglePalmAPI::Client#generate_text
       # @return [Langchain::LLM::GooglePalmResponse] Response object
       #
-      def complete(prompt:, **params)
-        default_params = {
-          prompt:,
-          temperature: @defaults[:temperature],
-          model: @defaults[:completion_model_name]
-        }
+      # def complete(prompt:, **params)
+      #   default_params = {
+      #     prompt:,
+      #     temperature: @defaults[:temperature],
+      #     model: @defaults[:completion_model_name]
+      #   }
 
-        default_params[:stop_sequences] = params.delete(:stop_sequences) if params[:stop_sequences]
+      #   default_params[:stop_sequences] = params.delete(:stop_sequences) if params[:stop_sequences]
 
-        default_params[:max_output_tokens] = params.delete(:max_tokens) if params[:max_tokens]
+      #   default_params[:max_output_tokens] = params.delete(:max_tokens) if params[:max_tokens]
 
-        default_params.merge!(params)
+      #   default_params.merge!(params)
 
-        response = client.generate_text(**default_params)
+      #   response = client.generate_text(**default_params)
 
-        Langchain::LLM::GooglePalmResponse.new response,
-                                               model: default_params[:model]
-      end
+      #   Langchain::LLM::GooglePalmResponse.new response,
+      #                                          model: default_params[:model]
+      # end
+
     end
+
   end
 end
