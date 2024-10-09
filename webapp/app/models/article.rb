@@ -124,13 +124,21 @@ class Article < ApplicationRecord
   end
 
   # https://stackoverflow.com/questions/17466903/set-default-value-on-empty-text-field
-  before_save :set_author_and_content
-  def set_author_and_content
-    self.author = 'Cielcio Conti' if self.author.blank?
-    self.content = 'empty' if self.content.blank?
-  end
+  # before_save :set_author_and_content
+  # def set_author_and_content
+  #   self.author = 'Cielcio Conti' if self.author.blank?
+  #   self.content = 'empty' if self.content.blank?
+  # end
 
   # WRONG! BUG!
+  # # Ma se lo tolgo non va: missing attribute 'author' for Article
+  # # this works!
+  def content_safe = content rescue 'empty'
+
+  def author_safe = author rescue 'Cielcio Conti'
+  def author = super.presence || 'Cielcio Conti'
+  def content = super.presence || 'empty'
+    # this doesnt work
   #def author =     @author || 'Cielcio Conti'
   #def content =    @content || 'empty'
 
@@ -230,7 +238,7 @@ class Article < ApplicationRecord
       ret += "Title: #{title.strip}\n" if title?
       ret += "Summary: #{summary.strip}\n\n" if summary?
       # gsub!(/\n+/, '')
-      ret += "[content]\n#{content.strip}\n[/content]\n\n" if content?
+      ret += "[content]\n#{content.strip}\n[/content]\n\n" unless content.blank?
       # Footer
       ret += "Author: #{author}\n" if author?
       ret += begin

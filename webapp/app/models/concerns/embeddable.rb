@@ -139,8 +139,10 @@ module Embeddable
     end
     File.write('.tmp.hi.embed_predict.json', result.to_json)
     # Embedding Response
+    binding.pry
     cleaned_response = result['predictions'][0]['embeddings']['values']
     stats = begin
+      puts(result)
       result['predictions'][0]['embeddings']['statistics']
     rescue StandardError
       "Some Error: #{$ERROR_INFO}"

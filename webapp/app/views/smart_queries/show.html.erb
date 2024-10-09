@@ -12,7 +12,7 @@
 # 1. RElevance, once filter
 # 2. date sort
 @closest_articles_sorted_by_date = @closest_articles.sort{|x,y| y.published_date <=> x.published_date } # order by date DESC -> reverse x with y
-@closest_articles_info = @closest_articles_sorted_by_date.map{|a| [a.id, a.published_date, a.title, a.author, a.neighbor_distance]}
+@closest_articles_info = @closest_articles_sorted_by_date.map{|a| [a.id, a.published_date, a.title, a.author_safe, a.neighbor_distance]}
 @query_info = "euclidean distance for article_embedding for query: '#{@query}'"
 #@tmp = @closest_articles[0]
 
@@ -27,10 +27,8 @@
 # Here are the #{@closest_articles.count} Articles:
 # "
 helpz = ApplicationController.helpers
-@articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
+@articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news(a.excerpt_for_llm) rescue "Error swith Artcile [#{a.id}]: #{$!}"}.join("\n")
 puts(@articles_excerpts.colorize :cyan)
-
-#@short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
 
 case @rag_type
     when 'none'
@@ -46,7 +44,7 @@ case @rag_type
         @long_or_short_prompt =  @long_prompt
     when "short"
         @rag_description = "Short RAG, only Article title. Will just summarize titles then."
-        @articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") # .to_s
+        @articles_excerpts = @closest_articles.map{|a| helpz.sanitize_news a.excerpt_for_llm}.join("\n") rescue ''
         @short_prompt = helpz.rag_short_prompt(query: @query , article_count: @closest_articles.count)
         @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
         puts(@short_prompt.colorize :yellow)
