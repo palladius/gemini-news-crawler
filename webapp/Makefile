@@ -140,6 +140,11 @@ test-llm-gemini:
 test-llm-vertex:
 	echo "VertexLLM.complete prompt: 'Hi my name is Riccar'" | rails c
 
+test-llm-gemini-embeddings:
+	echo "GeminiLLM.embed text: 'ciao'" | rails c
+test-llm-vertex-embeddings:
+	echo "VertexLLM.embed text: 'ciao'" | rails c
+
 compute_embeddings_for_all:
 	echo Article.compute_embeddings_for_all | rails c
 

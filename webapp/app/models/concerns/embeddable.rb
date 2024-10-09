@@ -27,7 +27,7 @@ module Embeddable
         puts('ε - No title -> skipping')
       else
         # there was possibly a BIG bug here. Now fixed since version 0.3.1
-        e_title = compute_gcp_embeddings_for(field_to_access: :title) # rescue nil # Array opf 768.
+        e_title = compute_gcp_embeddings_for(field_to_access: :title) # array of 768
         assert_good_gemini_response(e_title, 'compute_embeddings! on title side 1')
         self.title_embedding = e_title # .to_a # This converts to string!!!
         assert_good_gemini_response(title_embedding, 'compute_embeddings! on title side 2 after assignment')
@@ -66,6 +66,44 @@ module Embeddable
     self
   end
 
+  # This is a new function from 9oct24 - to restore Demo1 to its antique splendeurs.
+  # Unfortunately we had:
+  # - title    # v1 - now this (v3?)
+  # - summary  # v1 - now this (v3?)
+  # - article  # v2 - always worked
+  # The problem is that the embeddings of v3 dont seem compatible to v1 by looking at it. Probably it uses a different embedding model
+  # #blahblahblahpoo.
+  #
+  def compute_gcp_embeddings_for(field_to_access: :summary , save_afterwards: false)
+    puts("Sorry this function is obsolete and doesnt work anymore. TODO(ricc): upgrade to compute_article_embedding_with_gemini_v2() which works great for article_embeddings!")
+    #self.article_embedding = GeminiLLM.embed(text: article).embedding # rescue nil resceu nil
+
+    text_to_embed = send(field_to_access)
+
+    # Compute the embedding
+    polymorphic_embedding = GeminiLLM.embed(text: text_to_embed).embedding
+
+    embedding_description = {
+      ricc_notes: '[embed-v3] Fixed on 9oct24. Only seems incompatible at first glance with embed v1.',
+      llm_project_id: GeminiLLM.project_id,
+      llm_dimensions: GeminiLLM.default_dimensions,
+      article_size: article.size,
+      poly_field: field_to_access.to_s,
+      #llm_embedding_model: GeminiLLM.default_dimensions,
+      ## Hardcoded
+      llm_embeddings_model_name: 'textembedding-gecko', # hardocded in Gemini Monkeypatch - see code
+    }
+
+    # Assign the embedding to the corresponding field using `send`
+    send("#{field_to_access}_embedding=", polymorphic_embedding)
+
+    send("#{field_to_access}_embedding_description=", embedding_description)
+    #self.article_embedding_description = embedding_description.to_s
+    save if save_afterwards
+    polymorphic_embedding
+
+  end
+
   def compute_embeddings
     need_to_compute_embedding = title_embedding.nil?
     if need_to_compute_embedding # title_embedding.nil? and summary_embedding.nil?
@@ -93,74 +131,79 @@ module Embeddable
   end
 
   # this is the OLD v1 way of calculating an embedding. Uses gemini-ai and a very manual process.
-  def compute_gcp_embeddings_for(field_to_access:)
-    value = cleanup_text(send(field_to_access)).to_s
-    raise 'Empty request - skipping calculation as it doesnt make sense.' if value.length <= 1 # also 1 is nothing..
+  # def compute_gcp_embeddings_for(field_to_access:)
+  #   value = cleanup_text(send(field_to_access)).to_s
+  #   raise 'Empty request - skipping calculation as it doesnt make sense.' if value.length <= 1 # also 1 is nothing..
 
-    puts("+ Compute embeddings for a #{self.class}. Value: '#{value}'. Len=#{value.length}")
-    unless gcp?
-      puts('No GCP enabled. I need to skip this - quitely.')
-      return
-    end
-    require 'gemini-ai'
-    require 'matrix'
+  #   puts("+ Compute embeddings for a #{self.class}. Value: '#{value}'. Len=#{value.length}")
+  #   unless gcp?
+  #     puts('No GCP enabled. I need to skip this - quitely.')
+  #     return
+  #   end
+  #   require 'gemini-ai'
+  #   require 'matrix'
 
-    embedding_model = 'textembedding-gecko-multilingual'
-    client = Gemini.new(
-      credentials: {
-        service: 'vertex-ai-api',
-        file_path: GCP_KEY_PATH, # 'private/ricc-genai.json' ,
-        region: 'us-central1' # 'us-east4'
-      },
-      # code: https://github.com/gbaptista/gemini-ai/blob/main/controllers/client.rb
-      options: {
-        model: embedding_model, #  'textembedding-gecko-multilingual',
-        service_version: 'v1'
-      }
-    )
-    request_hash = {
-      "instances": [{
-        # "task_type": "QUESTION_ANSWERING", # "Semantic Search", ## "QUESTION_ANSWERING",
-        "task_type": 'RETRIEVAL_DOCUMENT', # what i need
-        "content": value
-      }]
-    }
-    result = begin
-      client.request('predict', request_hash)
-    rescue StandardError
-      [$ERROR_INFO, nil]
-    end
-    if not result.is_a?(Array) # .nil?
-      puts("❌ Some issues with #{embedding_model} request: '#{result[0]}' => Exiting")
-      puts("❌ request_hash: #{request_hash}")
+  #   client = Gemini.new(
+  #     credentials: {
+  #       service: 'vertex-ai-api',
+  #       file_path: GCP_KEY_PATH, # 'private/ricc-genai.json' ,
+  #       region: 'us-central1' # 'us-east4'
+  #     },
+  #     # code: https://github.com/gbaptista/gemini-ai/blob/main/controllers/client.rb
+  #     options: {
+  #       model: EmbeddingModel,
+  #       service_version: 'v1'
+  #     }
+  #   )
+  #   request_hash = {
+  #     "instances": [{
+  #       # "task_type": "QUESTION_ANSWERING", # "Semantic Search", ## "QUESTION_ANSWERING",
+  #       "task_type": 'RETRIEVAL_DOCUMENT', # what i need
+  #       "content": value
+  #     }]
+  #   }
+  #   result = begin
+  #     client.request('predict', request_hash)
+  #   rescue StandardError
+  #     [$ERROR_INFO, nil]
+  #   end
+  #   if not result.is_a?(Array) # .nil?
+  #     puts("❌ Some issues with #{embedding_model} request: '#{result[0]}' => Exiting")
+  #     puts("❌ request_hash: #{request_hash}")
 
-      #exit(42) # raise 'TODO levami di qui - ma ora muoro'
-      return nil
-    end
-    File.write('.tmp.hi.embed_predict.json', result.to_json)
-    # Embedding Response
-    binding.pry
-    cleaned_response = result['predictions'][0]['embeddings']['values']
-    stats = begin
-      puts(result)
-      result['predictions'][0]['embeddings']['statistics']
-    rescue StandardError
-      "Some Error: #{$ERROR_INFO}"
-    end
-    puts("📊 Stats: #{stats}")
-    puts("📊 cleaned_response (should be an Array) is a: #{cleaned_response.class}")
-    puts("♊️ YAY! Gemini Embeddings responded with a #{begin
-      cleaned_response.size
-    rescue StandardError
-      -1
-    end}-sized embedding: #{begin
-      cleaned_response.first(3)
-    rescue StandardError
-      result
-    end}, ...")
-    assert_good_gemini_response(cleaned_response, "End of compute_gcp_embeddings_for(#{field_to_access})")
-    cleaned_response
-  end
+  #     #exit(42) # raise 'TODO levami di qui - ma ora muoro'
+  #     return nil
+  #   end
+  #   File.write('.tmp.hi.embed_predict.json', result.to_json)
+  #   # Embedding Response
+  #   #binding.pry
+  #   print(result.class)
+  #   # if not
+  #   puts("❌ result['class']: #{result.class}")
+  #   puts("❌ result['keys']: #{result.keys}")
+  #   return false unless result.key?(:predictions)
+
+  #   cleaned_response = result['predictions'][0]['embeddings']['values']
+  #   stats = begin
+  #     puts(result)
+  #     result['predictions'][0]['embeddings']['statistics']
+  #   rescue StandardError
+  #     "Some Error: #{$ERROR_INFO}"
+  #   end
+  #   puts("📊 Stats: #{stats}")
+  #   puts("📊 cleaned_response (should be an Array) is a: #{cleaned_response.class}")
+  #   puts("♊️ YAY! Gemini Embeddings responded with a #{begin
+  #     cleaned_response.size
+  #   rescue StandardError
+  #     -1
+  #   end}-sized embedding: #{begin
+  #     cleaned_response.first(3)
+  #   rescue StandardError
+  #     result
+  #   end}, ...")
+  #   assert_good_gemini_response(cleaned_response, "End of compute_gcp_embeddings_for(#{field_to_access})")
+  #   cleaned_response
+  # end
 
   # This is WRONG
   def similar_articles(max_size: 5, similarity_field: :title_embedding)
@@ -238,6 +281,7 @@ module Embeddable
   end
 
   # v2 version of embeddings, NOT multilingual.
+  # This is done with `GeminiLLM` and `textembedding-gecko`
   def compute_article_embedding_with_gemini_v2(save_afterwards: false)
     # TODO: move out of CLASS
     self.article_embedding = GeminiLLM.embed(text: article).embedding # rescue nil resceu nil

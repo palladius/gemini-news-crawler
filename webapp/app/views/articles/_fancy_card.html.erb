@@ -33,7 +33,11 @@
     </div>
     <span class="text-sm text-gray-500 block" >
       [<%= link_to article.macro_region, "/articles?macro_region=#{article.macro_region}" %>]
-      🌎 <%= fancy_link_to article.url,article.url %> </span>
+      🌎 <%= fancy_link_to article.url,article.url %>
+      </span>
+  <% article.llm_info.each do |x| %>
+    [🧠] <%= x %><br/>
+  <% end %>
 
   </div>
   <% else %>

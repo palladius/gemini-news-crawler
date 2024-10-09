@@ -22,7 +22,8 @@ bin/rails aborted!
 
 ## Changelog
 
-2024-08-23 v0.3.72 [dev] Adding PRY to troubleshoot Embeddings: https://github.com/palladius/gemini-news-crawler/issues/4
+2024-10-09 v0.3.74 [dev] Fixing embeddings and demo01!
+2024-10-09 v0.3.73 [dev] Adding PRY to troubleshoot Embeddings: https://github.com/palladius/gemini-news-crawler/issues/4 .
 2024-08-23 v0.3.72 [dev] Removing ForsceSSL except on derek.
 2024-08-23 v0.3.71 [dev] Adding staging to DB and config
 2024-08-23 v0.3.70 [dev] ??? introduced DEBUG in dev.

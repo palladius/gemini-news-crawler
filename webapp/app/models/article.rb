@@ -319,6 +319,23 @@ class Article < ApplicationRecord
     self.save
   end
 
+  def llm_info
+    # on 9octy i started indexing manually TWO articles in dev.
+    # this is bad as their distnaces are now screwed up:
+    # id=889
+    # id=10439
+    article_class13 = title_embedding_description.nil? ?
+      'v1 (like 99% of articles)' :
+      'v3 (very few articles updated on 9oct24)'
+    [
+      "[v2] article_embedding_description: #{article_embedding_description}",
+      "[v1/3] title_embedding_description: #{title_embedding_description}",
+      "[v1/3] summary_embedding_description: #{summary_embedding_description}",
+      "As per bug https://github.com/palladius/gemini-news-crawler/issues/4 we can state this article belongs to titile/summary version: #{article_class13}"
+  ]
+
+  end
+
   # a.article_embedding =  a.title_embedding
   # This is a migration script I created to migrate the Title Embedding into the article embedding.
   # Why?
@@ -333,5 +350,11 @@ class Article < ApplicationRecord
         a.save
       end
     end
+  end
+
+
+  def self.last24hours
+    #now =  Time.now
+    Article.where(created_at: (Time.now - 24.hours)..Time.now)
   end
 end

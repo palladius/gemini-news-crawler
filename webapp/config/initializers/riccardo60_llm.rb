@@ -1,5 +1,17 @@
 # frozen_string_literal: true
 
+##########################
+## LLM Constants
+#
+# I embededed all dev and prod with this!
+EmbeddingModel = 'textembedding-gecko-multilingual-NON_VA'
+# Alternaives:
+# "text-embedding-004" for English.
+# "text-multilingual-embedding-002" for i18n.
+
+
+
+
 # Should be Gemini - note this has been renamed from GoogleVertexAI to GoogleVertexAI in 0.13 version
 require 'English'
 VertexLLM = begin
