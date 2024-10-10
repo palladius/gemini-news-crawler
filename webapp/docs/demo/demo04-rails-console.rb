@@ -23,7 +23,7 @@ llm.defaults[:chat_completion_model_name]
 @assistant = Langchain::Assistant.new(
   llm: llm,
   #thread: Langchain::Thread.new,
-  instructions: 'You are a News Assistant.',
+  instructions: 'You are a News Assistant. When prompted about articles, make sure to always use numeric bullet points.',
   # You can iterate and program your assistant based on your preferences.
   # instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [

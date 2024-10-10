@@ -2,7 +2,12 @@
 
 module PromptHelper
   def sanitize_news(article)
-    sanitized_html = ActionView::Base.full_sanitizer.sanitize(article)
+    # mi sa che a volte questa e una stringa, non un oggetto. Vabbeh
+    #return article if article.is_a?(String)
+    #article.content = '' if article.content.blank?
+    article.content = '[not present]' unless article.content.presence
+
+    sanitized_html = ActionView::Base.full_sanitizer.sanitize(article) rescue "Sanitization error for #{article}: #{$!}"
     CGI.unescape_html(sanitized_html)
   end
 

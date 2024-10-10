@@ -38,8 +38,8 @@ end
 #   nil
 # end
 GeminiLLM10 = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] , default_options: {chat_completion_model_name: 'gemini-1.0-pro'} # so it doesnt break anything :)
-PalmLLM = GeminiLLM10
-#PalmLLM = GeminiLLM
+#PalmLLM = GeminiLLM10
+PalmLLM = GeminiLLM # Gemini1.5
 
 OllamaLLM = begin
   Langchain::LLM::Ollama.new

@@ -36,10 +36,11 @@ case @rag_type
         @long_or_short_prompt= nil
     when 'long'
         @rag_description = "It's long RAG: use use the whole articles"
-        @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
+        @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article) rescue "ERORE ARTICOLO #{$!}" }.join("\n") # .to_s
         puts(@articles_verbose.colorize :cyan)
+        # https://gist.github.com/lfender6445/9919357
+        #binding.pry # <= breakpoint
         @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_verbose )
-   #     @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_excerpts )
         puts(@long_prompt.to_s.colorize :yellow)
         @long_or_short_prompt =  @long_prompt
     when "short"
@@ -56,8 +57,12 @@ end
 # demo pt1:
 
 if  @long_or_short_prompt
-    @palm_completion_job = PalmLLM.complete(prompt: @long_or_short_prompt)
-    @rag_excerpt = @palm_completion_job.meaningful_response # output || @palm_completion_job.error
+    # New oct24
+    # https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/llm/response/google_gemini_response.rb
+    @palm_completion_job = GeminiLLM.complete(prompt: @long_or_short_prompt)
+    @rag_excerpt = @palm_completion_job.chat_completion
+#    @palm_completion_job = PalmLLM.complete(prompt: @long_or_short_prompt)
+#    @rag_excerpt = @palm_completion_job.meaningful_response # output || @palm_completion_job.error
     puts(@rag_excerpt.to_s.colorize :green)
 else
         # nil

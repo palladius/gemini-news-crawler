@@ -5,9 +5,12 @@
 # #   class Calculator
 # #     extend Langchain::ToolDefinition
 # #     include Langchain::DependencyHelper
-# module Langchain::Tool
-#   class Article
-#     VERSION = '1.11'
+module Langchain::Tool
+  class Article
+    VERSION = 'fake on app'
+  end
+end
+#    VERSION = '1.11'
 #     CHANGELOG = <<-TEXT
 #       v1.11 Started on 9oct24 to address the new Langchain tool
 
