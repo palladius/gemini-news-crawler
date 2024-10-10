@@ -56,34 +56,31 @@ end
 # In order
 LLMs = [VertexLLM, GeminiLLM, PalmLLM].freeze
 
-GeminiAuthenticated = begin
-  GeminiLLM.authenticated?
-rescue StandardError
-  "Error: #{$ERROR_INFO}"
-end
+# GeminiAuthenticated = begin
+#   GeminiLLM.authenticated?
+# rescue StandardError
+#   "Error: #{$ERROR_INFO}"
+# end
 GeminiApiKeyLength = begin
   GeminiLLM.api_key.to_s.length
 rescue StandardError
   (-1)
 end
 
-# This code is created by ricc patching manually langchain...
-GeminiLLMAuthenticated = begin
-  GeminiLLM.authenticated?
-rescue StandardError
-  "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$ERROR_INFO}"
-end
-VertexLLMAuthenticated = begin
-  VertexLLM.authenticated?
-rescue StandardError
-  "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$ERROR_INFO}"
-end
+# # This code is created by ricc patching manually langchain...
+# GeminiLLMAuthenticated = begin
+#   GeminiLLM.authenticated?
+# rescue StandardError
+#   "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$ERROR_INFO}"
+# end
 
-VertexAuthenticated = !begin
-  VertexLLM.authorizer.fetch_access_token
-rescue StandardError
-  false
-end.nil?
+
+# VertexAuthenticated = !begin
+#   VertexLLM.authorizer.fetch_access_token
+# rescue StandardError
+#   false
+# end.nil?
+
 VertexAuthTokenLength = begin
   VertexLLM.authorizer.fetch_access_token['access_token'].to_s.length
 rescue StandardError
@@ -104,7 +101,7 @@ BookOfLLMs = {
     llm: GeminiLLM.class,
     description: 'todo',
     auth_method: 'api_key (low QPS)',
-    authenticated1: GeminiAuthenticated, # <== this gives an error
+    #authenticated1: GeminiAuthenticated, # <== this gives an error
   },
   ollama: {
     llm: OllamaLLM.class,

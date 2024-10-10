@@ -2,6 +2,13 @@
 
 # Error
 #  Langchain::Assistant - Error running tools: missing keywords: :title, :summary, :content, :author, :link, :published_date, :language, :country, :country_emoji; /
+
+
+# WError2:
+# Langchain::Assistant - Error running tools: missing keyword: :published_date; /Users/ricc/git/gemini-news-crawler-modernize/webapp/config/initializers/monkey_patch_ng/langchain_tool_article.rb:43:in `create'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/
+
+#  Langchain::Assistant - Error running tools: missing keyword: :published_date; /Users/ricc/git/gemini-news-crawler-modernize/webapp/config/initializers/monkey_patch_ng/langchain_tool_article.rb:43:in `create'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:384:in `block in run_tools'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:377:in `each'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:377:in `run_tools'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:326:in `execute_tools'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:252:in `handle_state'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:134:in `run'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/langchainrb-0.17.1/lib/langchain/assistants/assistant.rb:153:in `add_message_and_run'\n/Users/ricc/git/gemini-news-crawler-modernize/webapp/config/initializers/monkey_patch_ng/riccardo15_monkeypatch_langchain_assistant.rb:12:in `say'\n(irb):27:in `s'\n(irb):63:in `<main>'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb/workspace.rb:121:in `eval'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb/workspace.rb:121:in `evaluate'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb/context.rb:633:in `evaluate_expression'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb/context.rb:601:in `evaluate'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1049:in `block (2 levels) in eval_input'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1388:in `signal_status'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1041:in `block in eval_input'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1120:in `block in each_top_level_statement'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1117:in `loop'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1117:in `each_top_level_statement'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1040:in `eval_input'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1021:in `block in run'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1020:in `catch'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:1020:in `run'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/irb-1.14.0/lib/irb.rb:904:in `start'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/commands/console/console_command.rb:78:in `start'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/commands/console/console_command.rb:16:in `start'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/commands/console/console_command.rb:106:in `perform'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/command/base.rb:178:in `invoke_command'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/command/base.rb:73:in `perform'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/command.rb:71:in `block in invoke'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/command.rb:149:in `with_argv'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/command.rb:69:in `invoke'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.1.3.2/lib/rails/commands.rb:18:in `<main>'\n<internal:/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'\n<internal:/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'\n/Users/ricc/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/bootsnap-1.18.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'\nbin/rails:6:in `<main>'
+
 module Langchain::Tool
   class RiccardoArticle
 
@@ -12,13 +19,13 @@ module Langchain::Tool
       # Done with
         property :title, type: "string", description: "the title of the article"
         property :summary, type: "string", description: "the summary of the article"
-        property :content, type: "string", description: "the content of the article"
-        property :author, type: "string", description: "the author of the article"
+        property :content, type: "string", description: "the content of the article", required: false
+        property :author, type: "string", description: "the author of the article", required: false
         property :link, type: "string", description: "the link to the article"
-        property :published_date, type: "string", description: "the published date of the article"
-        property :language, type: "string", description: "the language of the article"
-        property :country, type: "string", description: "the country of the article (whatever that means)"
-        property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen"
+        property :published_date, type: "string", description: "the published date of the article", required: false
+        property :language, type: "string", description: "the language of the article", required: false
+        property :country, type: "string", description: "the country of the article (whatever that means)", required: false
+        property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen", required: false
     end
     define_function :carlessian_url, description: "Article DB Tool: provides Cloud Run article URL (permalink) for the app in the Cloud" do
       property :id, type: "integer", description: "Article numeric id", required: true
@@ -43,10 +50,10 @@ module Langchain::Tool
   def create(
     title:,
     summary:,
-    content:,
+    content: '',
     author:,
     link:,
-    published_date:,
+    published_date: "1970-01-01",
     language:,
     country:,
     country_emoji:

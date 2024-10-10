@@ -10,6 +10,8 @@
 # llm = VertexLLM # doesnt work
 # llm = GeminiLLM # TODO - move to above
 
+Langchain.logger.level = Logger::ERROR
+
 llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA) # rescue nil # 9xhQ
 
 # Which model are we using?
@@ -56,6 +58,8 @@ def putlm = puts(colorful_lastmessage)
 # Net::HTTP.enable_debug!
 
 s 'Latest 5 news from United States'
+
+s 'awesome! Save the 5th article on DB'
 
 # returns an array of messages
 @assistant.history

@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-10-09 v0.3.76 [modernize-langchain-latest] Tool now works (its just in wrong place but no biggie)
 2024-10-09 v0.3.75 [modernize-langchain-latest] Updating to latest langchainrb
 2024-10-09 v0.3.74 [dev] Fixing embeddings and demo01!
 2024-10-09 v0.3.73 [dev] Adding PRY to troubleshoot Embeddings: https://github.com/palladius/gemini-news-crawler/issues/4 .
