@@ -1,14 +1,32 @@
 # TODO(ricc): quando funge spostalo in app/tools/
 
+# Error
+#  Langchain::Assistant - Error running tools: missing keywords: :title, :summary, :content, :author, :link, :published_date, :language, :country, :country_emoji; /
 module Langchain::Tool
-  class ArticleTool
+  class RiccardoArticle
 
     extend Langchain::ToolDefinition
     include Langchain::DependencyHelper
 
-    define_function :create, description: "Article DB Tool: Create a new article via ActiveRecord"
-#    define_function :create, description: "Article DB Tool: Create a new article via ActiveRecord"
-    carlessian_url(id:)
+    define_function :create, description: "Article DB Tool: Create a new article via ActiveRecord" do
+      # Done with
+        property :title, type: "string", description: "the title of the article"
+        property :summary, type: "string", description: "the summary of the article"
+        property :content, type: "string", description: "the content of the article"
+        property :author, type: "string", description: "the author of the article"
+        property :link, type: "string", description: "the link to the article"
+        property :published_date, type: "string", description: "the published date of the article"
+        property :language, type: "string", description: "the language of the article"
+        property :country, type: "string", description: "the country of the article (whatever that means)"
+        property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen"
+    end
+    define_function :carlessian_url, description: "Article DB Tool: provides Cloud Run article URL (permalink) for the app in the Cloud" do
+      property :id, type: "integer", description: "Article numeric id", required: true
+    end
+
+    # define_function :execute, description: "Database Tool: Executes a SQL query and returns the results" do
+    #   property :input, type: "string", description: "SQL query to be executed", required: true
+    # end
 
   # Create a new article
   #

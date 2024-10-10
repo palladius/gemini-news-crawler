@@ -16,6 +16,7 @@ llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.en
 llm.defaults[:chat_completion_model_name]
 # => "gemini-1.5-pro-latest"
 
+#ArticleTool = Langchain::Tool::RiccardoArticle
 
 @assistant = Langchain::Assistant.new(
   llm: llm,
@@ -25,7 +26,8 @@ llm.defaults[:chat_completion_model_name]
   # instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [
     NewsRetriever, # 🔧 instantiated in config/initializers/
-    #BROKEN ArticleTool.new # 🔧 instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
+    #BROKEN
+    Langchain::Tool::RiccardoArticle.new # 🔧 instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
   ]
 )
 
@@ -53,7 +55,7 @@ def putlm = puts(colorful_lastmessage)
 # enable HTTP in case its broken
 # Net::HTTP.enable_debug!
 
-s 'Latest 5 news from Italy'
+s 'Latest 5 news from United States'
 
 # returns an array of messages
 @assistant.history
