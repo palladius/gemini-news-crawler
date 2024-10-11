@@ -12,10 +12,15 @@ module Langchain::Tool
     extend Langchain::ToolDefinition
     include Langchain::DependencyHelper
 
-    VERSION = '1.12'
+    VERSION = '1.13'
     NAME = 'RiccardoArticle'
     CHANGELOG = <<-TEXT
-      v1.12 Added a nice :create with a lot of back and forth to make it work. Last being I forgot this VERISON! :)
+      TODO(ricc): quando hai un attimo aggiungi il article_tool__delete che ce l'avevi da qualche parte. Certamente ce
+      l'hai nel JSON, lho visto.
+
+    v1.13 Added local [rails] url
+
+    v1.12 Added a nice :create with a lot of back and forth to make it work. Last being I forgot this VERISON! :)
             Errors fixed:
         [ERROR]:
           Langchain::Assistant - Error running tools: uninitialized constant Langchain::Tool::RiccardoArticle::VERSION;
@@ -61,6 +66,9 @@ module Langchain::Tool
         property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen", required: false
     end
     define_function :carlessian_url, description: "Article DB Tool: provides Cloud Run article URL (permalink) for the app in the Cloud" do
+      property :id, type: "integer", description: "Article numeric id", required: true
+    end
+    define_function :local_url, description: "Article DB Tool: provides local article URL (permalink) for the Ruby on Rails app in localhost" do
       property :id, type: "integer", description: "Article numeric id", required: true
     end
 
@@ -151,8 +159,10 @@ module Langchain::Tool
     end
   end
 
-
-
+  # Added recently
+  def local_url(id:)
+      "http://127.0.0.1:3000/articles/#{id}"
+  end
 
   end # /class
 end # /module

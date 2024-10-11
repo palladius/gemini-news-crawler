@@ -9,11 +9,14 @@
 
 ## Status
 
-* ✅ **Demo1**. Funge ma il nuovo embedding non e' compatibile
+* ✅ **Demo1**. Funge ma il nuovo embedding non e' compatibile:
     * Short solution: usa i vecchi (tipo 1) e non mostrare i tuoi 2-3 nuovi (tipo 3)
     * mid-long time version: ricalcola gli embedding on @004 e ricalcolali tutti.
 * ⁉️ **Demo2**
-* ⁉️ **Demo3**
+* ⁉️ **Demo3**. Ci sto lavorando or ora: `app/views/smart_queries/show.html.erb`
+    * per ora ho messo 'ERORE ARTICOLO' siccome l'helper `sanitize_news` non sembra andare. Ma ovviamente la soluzione e' reipulire quello. Fallo in albergo quando il fb_loop e' ristretto.
+    * Semplicemente tofli il RESCUE e fallo fallire finche non va :)
+    * magari crea anche una FAKE Gemini call per rinvelocire il tutto.
 * ✅ **Demo4** Smbra andare.
 
 ## Notule varie

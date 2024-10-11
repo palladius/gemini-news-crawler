@@ -10,7 +10,7 @@
 # llm = VertexLLM # doesnt work
 # llm = GeminiLLM # TODO - move to above
 
-Langchain.logger.level = Logger::ERROR
+#Langchain.logger.level = Logger::ERROR
 
 llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA) # rescue nil # 9xhQ
 
@@ -77,6 +77,7 @@ s 'awesome! Save the 5th article on DB'
 
 @assistant.say 'Save this the LAST two articles please'
 
+# Very interesting for Modena
 s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 # interact directly

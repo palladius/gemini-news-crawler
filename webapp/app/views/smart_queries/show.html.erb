@@ -36,6 +36,7 @@ case @rag_type
         @long_or_short_prompt= nil
     when 'long'
         @rag_description = "It's long RAG: use use the whole articles"
+        # ERORE ARTICOLO
         @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article) rescue "ERORE ARTICOLO #{$!}" }.join("\n") # .to_s
         puts(@articles_verbose.colorize :cyan)
         # https://gist.github.com/lfender6445/9919357

@@ -136,8 +136,8 @@ class Article < ApplicationRecord
   def content_safe = content rescue 'empty'
 
   def author_safe = author rescue 'Cielcio Conti'
-  def author = super.presence || 'Cielcio Conti'
-  def content = super.presence || 'empty'
+  def author = super.presence or 'Cielcio Conti' rescue '[no author]'
+  def content = super.presence || 'empty' rescue '[no content]'
     # this doesnt work
   #def author =     @author || 'Cielcio Conti'
   #def content =    @content || 'empty'
@@ -262,9 +262,10 @@ class Article < ApplicationRecord
     ret += "Title: #{title.strip}\n" if title?
     ret += "Summary: #{summary.strip}\n\n" if summary?
     # gsub!(/\n+/, '')
-    ret += "[content]\n#{content.strip.first(200)}\n[/content]\n\n" if content?
+    #ret += "[content]\n#{content.strip.first(200)}\n[/content]\n\n" if content?
+    ret += ("\n[content]\n#{content.strip.first(200)}\n[/content]\n\n" rescue '')
     # Footer
-    ret += "Author: #{author}\n" if author?
+    #ret += "Author: #{author}\n" if author?
     ret += begin
       "PublishedDate: #{yyyymmdd}\n"
     rescue StandardError

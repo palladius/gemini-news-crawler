@@ -85,7 +85,7 @@ module Embeddable
 
     embedding_description = {
       ricc_notes: '[embed-v3] Fixed on 9oct24. Only seems incompatible at first glance with embed v1.',
-      llm_project_id: GeminiLLM.project_id,
+#      llm_project_id: GeminiLLM.project_id rescue "[unavailable: #{$!}]", # GEmini doesnt have project id - Vertex does!
       llm_dimensions: GeminiLLM.default_dimensions,
       article_size: article.size,
       poly_field: field_to_access.to_s,
@@ -287,7 +287,7 @@ module Embeddable
     self.article_embedding = GeminiLLM.embed(text: article).embedding # rescue nil resceu nil
     # if nil, next...
     embedding_description = {
-      llm_project_id: GeminiLLM.project_id,
+      #llm_project_id: GeminiLLM.project_id,
       llm_dimensions: GeminiLLM.default_dimensions,
       article_size: article.size,
       # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!

@@ -39,7 +39,7 @@ end
 # end
 GeminiLLM10 = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] , default_options: {chat_completion_model_name: 'gemini-1.0-pro'} # so it doesnt break anything :)
 #PalmLLM = GeminiLLM10
-PalmLLM = GeminiLLM # Gemini1.5
+#PalmLLM = GeminiLLM # Gemini1.5
 
 OllamaLLM = begin
   Langchain::LLM::Ollama.new
@@ -47,14 +47,8 @@ rescue StandardError
   nil
 end
 
-#PalmLLMImpromptu = '❌ [redacted from demo. This adds too much to script startup]'
-# PalmLLMImpromptu = PalmLLM.nil? ?
-#   '🤌 I cant, PalmLLM is nil 🤌' :
-#   #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
-#   (PalmLLM.sample_complete.output rescue "❌ PalmLLM.sample_complete.output failed: #{$!}")
-
 # In order
-LLMs = [VertexLLM, GeminiLLM, PalmLLM].freeze
+LLMs = [VertexLLM, GeminiLLM ].freeze
 
 # GeminiAuthenticated = begin
 #   GeminiLLM.authenticated?
