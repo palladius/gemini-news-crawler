@@ -64,7 +64,7 @@ module Langchain::Tool
         property :published_date, type: "string", description: "the published date of the article", required: false
         property :language, type: "string", description: "the language of the article", required: false
         property :country, type: "string", description: "the country of the article (whatever that means)", required: false
-        #property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen", required: false
+        #property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen. If unsure put Vatican city (🇻🇦)", required: false
     end
 
     define_function :carlessian_url, description: "Article DB Tool: provides Cloud Run article URL (permalink) for the app in the Cloud" do
