@@ -11,10 +11,10 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.1].define(version: 2024_05_14_092631) do
-  create_schema "google_vacuum_mgmt"
+  #create_schema "google_vacuum_mgmt"
 
   # These are extensions that must be enabled in order to support this database
-  enable_extension "google_vacuum_mgmt"
+  #enable_extension "google_vacuum_mgmt"
   enable_extension "plpgsql"
   enable_extension "vector"
 

@@ -22,7 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
-2024-10-11 v0.3.79 [modernize-langchain-latest] Fixing db/prepare bug in PROD Cloud run (bug/002 in BUGS.yaml)!
+2024-10-11 v0.3.80 [modernize-langchain-latest] Fixing schema at manhouse
 2024-10-11 v0.3.78 [modernize-langchain-latest] Fixed demo02 and all 4 actually!
 2024-10-10 v0.3.77 [modernize-langchain-latest] Im on a plane ZRH-BLQ. Plenty of time to write, little to code. Created `README.modernize.md` to track down what i need to fix by saturday.
 2024-10-10 v0.3.76 [modernize-langchain-latest] Tool now works (its just in wrong place but no biggie)
