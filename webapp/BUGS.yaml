@@ -1,0 +1,11 @@
+bug/002:
+  date: 11oct24
+  title: "NoMethodError: undefined method `create_schema'"
+  description: |
+    Se,bra che il rake db:prepare non vada. Probabilmente il loading non e fatto bene.
+    Magari ho incasinato qualcosa qui: `config/application.rb`:
+          [..]
+          config.autoload_lib(ignore: %w[assets tasks tools])
+          config.autoload_paths << Rails.root.join('app/tools')
+          [..]
+  GDoc: 'https://docs.google.com/document/d/1YMoO720rXQDtLEXOlqUkNH__G9gxpmUluHbjQIPSjlU/edit?resourcekey=0-cWtIf-mfXAvtFBak4CJQ2g&tab=t.syzevbleal9w'

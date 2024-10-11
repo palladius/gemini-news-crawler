@@ -46,3 +46,4 @@
 /config/credentials/development.key
 yarn.lock
 app/views/pages/audio_tmp.html.erb
+.ok.demo*
