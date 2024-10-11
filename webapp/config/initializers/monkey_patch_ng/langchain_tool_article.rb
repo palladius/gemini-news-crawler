@@ -12,12 +12,13 @@ module Langchain::Tool
     extend Langchain::ToolDefinition
     include Langchain::DependencyHelper
 
-    VERSION = '1.13'
+    VERSION = '1.14'
     NAME = 'RiccardoArticle'
     CHANGELOG = <<-TEXT
       TODO(ricc): quando hai un attimo aggiungi il article_tool__delete che ce l'avevi da qualche parte. Certamente ce
       l'hai nel JSON, lho visto.
 
+    v1.14 Added more non-necessary fields to [summary, author, language]
     v1.13 Added local [rails] url
 
     v1.12 Added a nice :create with a lot of back and forth to make it work. Last being I forgot this VERISON! :)
@@ -56,18 +57,20 @@ module Langchain::Tool
     define_function :create, description: "Article DB Tool: Create a new article via ActiveRecord" do
       # Done with
         property :title, type: "string", description: "the title of the article"
-        property :summary, type: "string", description: "the summary of the article"
+        property :summary, type: "string", description: "the summary of the article. If unsure, copy the title.", required: false
         property :content, type: "string", description: "the content of the article", required: false
-        property :author, type: "string", description: "the author of the article", required: false
-        property :link, type: "string", description: "the link to the article"
+        property :author, type: "string", description: "the author of the article. If unsure, put 'anonymous'.", required: false
+        property :link, type: "string", description: "the link to the article", required: false
         property :published_date, type: "string", description: "the published date of the article", required: false
         property :language, type: "string", description: "the language of the article", required: false
         property :country, type: "string", description: "the country of the article (whatever that means)", required: false
-        property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen", required: false
+        #property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen", required: false
     end
+
     define_function :carlessian_url, description: "Article DB Tool: provides Cloud Run article URL (permalink) for the app in the Cloud" do
       property :id, type: "integer", description: "Article numeric id", required: true
     end
+
     define_function :local_url, description: "Article DB Tool: provides local article URL (permalink) for the Ruby on Rails app in localhost" do
       property :id, type: "integer", description: "Article numeric id", required: true
     end
@@ -97,7 +100,7 @@ module Langchain::Tool
     published_date: "1970-01-01",
     language:,
     country:,
-    country_emoji:
+    country_emoji: '🍕'
   )
     # This will be converted to string in the DB - no biggie. Easy to reverse.
     hashy_blurb = {

@@ -13,7 +13,6 @@
 #Langchain.logger.level = Logger::ERROR
 
 llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA) # rescue nil # 9xhQ
-
 # Which model are we using?
 llm.defaults[:chat_completion_model_name]
 # => "gemini-1.5-pro-latest"
@@ -57,6 +56,7 @@ def putlm = puts(colorful_lastmessage)
 # enable HTTP in case its broken
 # Net::HTTP.enable_debug!
 
+# Bummer:  Italy, France, ... fails :/
 s 'Latest 5 news from United States'
 
 s 'awesome! Save the 5th article on DB'
