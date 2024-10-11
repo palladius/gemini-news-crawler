@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-10-11 v0.3.80 [modernize-langchain-latest] microbug - lets test the cicd if its fixed
 2024-10-11 v0.3.80 [modernize-langchain-latest] Fixing schema at manhouse
 2024-10-11 v0.3.78 [modernize-langchain-latest] Fixed demo02 and all 4 actually!
 2024-10-10 v0.3.77 [modernize-langchain-latest] Im on a plane ZRH-BLQ. Plenty of time to write, little to code. Created `README.modernize.md` to track down what i need to fix by saturday.

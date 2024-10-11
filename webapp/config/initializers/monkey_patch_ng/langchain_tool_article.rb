@@ -166,3 +166,12 @@ module Langchain::Tool
 
   end # /class
 end # /module
+
+
+# Fixes this:
+# Showing /Users/ricc/git/gemini-news-crawler-modernize/webapp/app/views/pages/_assistant_demo_show.html.erb where line #35 raised:
+# uninitialized constant #<Class:0x00000001402b1ba0>::ArticleTool
+# Extracted source (around line #36):
+#article_tool = Langchain::Tool::ArticleTool.new
+# article_tool = ArticleTool.new
+ArticleTool = Langchain::Tool::RiccardoArticle
