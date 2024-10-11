@@ -30,7 +30,6 @@ helpz = ApplicationController.helpers
 # 2. content: article (a smart union of title, body, ..)
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e,
                                                                       distance: 'euclidean').first(6)
-
 # Visualizing for the crowd:
 # @closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title, a.tag_names.map{|x| x.to_sym}]} # with tags
 @closest_articles.map { |a| [a.id, a.fancy_neighbor_distance, a.title] } # without TAGS
