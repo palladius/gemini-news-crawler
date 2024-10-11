@@ -144,6 +144,7 @@ gcloud --project "$CLOUDRUN_PROJECT_ID" \
       --image  "$UPLOADED_IMAGE_WITH_VER" \
       --platform managed \
       --memory "8Gi" \
+      --cpu "4" \
       --region "$GCLOUD_REGION" \
       --set-env-vars='description=created-from-bin-slash-cb-push-to-cloudrun-sh' \
       --set-env-vars="GIT_STATE=$GIT_STATE" \
