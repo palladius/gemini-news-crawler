@@ -3,7 +3,8 @@
 # If running the rails server then create or migrate existing database
 if [ "${1}" == "./bin/rails" ] && [ "${2}" == "server" ]; then
   # Nota bug/002: questo NON VA
-  echo "Nota il DB:PREPARE si ROMPE causa bug/002: vediamo se l OR lo fixa."
+  echo "Nota il DB:PREPARE si ROMPE causa bug/002: vediamo se l OR lo fixa. Ora che lho tolto funge tutto ma NON fa piu le migration"
+  echo '** WARNING ** Riccardo now migrations are on YOU!'
   #./bin/rails db:prepare || echo BUG con prepare ma come direbbe Bob avanti tutta.
 fi
 
