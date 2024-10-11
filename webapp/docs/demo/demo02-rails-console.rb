@@ -12,6 +12,7 @@
 # @query = 'Giorgia Meloni' # if production
 @query =( Rails.env == 'production') ? 'Giorgia Meloni' : 'Global warming'
 # Uses latest Gemini to calculate embeddings.
+helpz = ApplicationController.helpers
 @e = GeminiLLM.embed(text: @query).embedding
 # @e is an embedding:
 # => [0.032562922686338425,
@@ -29,11 +30,10 @@
 # 2. content: article (a smart union of title, body, ..)
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e,
                                                                       distance: 'euclidean').first(6)
-# @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e, distance: "euclidean").first(6) # .order(:published_date)
 
 # Visualizing for the crowd:
-@closest_articles.map { |a| [a.id, a.fancy_neighbor_distance, a.title] } # without TAGS
 # @closest_articles.map{|a| [a.id, a.fancy_neighbor_distance, a.title, a.tag_names.map{|x| x.to_sym}]} # with tags
+@closest_articles.map { |a| [a.id, a.fancy_neighbor_distance, a.title] } # without TAGS
 
 # =>
 # [[5842, 77.74, "Live reload a Rails 7 application, an unsatisfaying attempt", []],
@@ -55,9 +55,6 @@
 # Here are the #{@closest_articles.count} Articles:
 # "
 
-helpz = ApplicationController.helpers
-
-# @short_prompt = ApplicationController.helpers.PromptHelper::rag_short_prompt(date: Date.today , query: 'ORM in PHP' , article_count: 42)
 @short_prompt = helpz.rag_short_prompt(query: @query, article_count: @closest_articles.count)
 puts(@short_prompt.colorize(:yellow))
 
@@ -69,7 +66,7 @@ puts(@articles_excerpts.colorize(:cyan))
 
 @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count,
                                      articles: @articles_excerpts)
-@rag_excerpt = PalmLLM.complete(prompt: @long_prompt).output
+@rag_excerpt = GeminiLLM.complete(prompt: @long_prompt).chat_completion # .output
 puts(@rag_excerpt.colorize(:green))
 # Or for screenshotting to slides: puts(@rag_excerpt.gsub("\n",' ').colorize :green) # ;-)
 # =>

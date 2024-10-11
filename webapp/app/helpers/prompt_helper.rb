@@ -41,6 +41,8 @@ module PromptHelper
   def rag_long_prompt(query:, article_count:, articles:, date: nil)
     date ||= Date.today
 
+    sanitized_articles = sanitize_article_excerpt(articles)
+
     @long_prompt = <<~HEREDOC
       You are a prompt summarizer called Helper::rag_long_prompt.
       You need to answer this user query: '''#{query}''' after reading the following articles which seem the most pertinent.
@@ -51,7 +53,7 @@ module PromptHelper
 
       Here are the #{article_count} Articles:
       ---------------
-      #{sanitize_news articles}
+      #{sanitized_articles}
       ---------------
       Summary of articles regarding '#{query}':
     HEREDOC

@@ -28,3 +28,20 @@
         - e cosi via.
 
 ## BUG
+
+Demo 2 a posto ma non trova roba di Global warming siccome c'e' nuovo embedding. Allora che ho fatto
+
+1. Cercarto articoli con uragano nel titolo
+
+
+2. forzato ricmputo di embeddings.
+
+```ruby
+Article.where("title like ?", '%urricane%').each do |a|
+  a.compute_embeddings!
+end
+
+Article.where("title like ?", '%warming%').each do |a|
+  a.compute_embeddings!
+end
+```
