@@ -9,7 +9,6 @@
 
 # @query = 'Ruby or Rails'
 # @query = 'Donald Trump'
-# @query = 'Giorgia Meloni' # if production
 @query =( Rails.env == 'production') ? 'Giorgia Meloni' : 'Global warming'
 # Uses latest Gemini to calculate embeddings.
 helpz = ApplicationController.helpers
@@ -28,6 +27,7 @@ helpz = ApplicationController.helpers
 #    - 'textembedding-gecko-multilingual'
 #    - "textembedding-gecko"
 # 2. content: article (a smart union of title, body, ..)
+
 @closest_articles = Article.select_sensible_columns.nearest_neighbors(:article_embedding, @e,
                                                                       distance: 'euclidean').first(6)
 # Visualizing for the crowd:
@@ -63,10 +63,13 @@ puts(@short_prompt.colorize(:yellow))
 @articles_excerpts = @closest_articles.map { |a| helpz.sanitize_article_excerpt a.excerpt_for_llm }.join("\n") # .to_s
 puts(@articles_excerpts.colorize(:cyan))
 
+# => Showing RAG part (2, cyan)
+
 @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count,
                                      articles: @articles_excerpts)
 @rag_excerpt = GeminiLLM.complete(prompt: @long_prompt).chat_completion # .output
 puts(@rag_excerpt.colorize(:green))
+
 # Or for screenshotting to slides: puts(@rag_excerpt.gsub("\n",' ').colorize :green) # ;-)
 # =>
 # There are 42 articles in total. The most recent one is published on 2024-04-06.

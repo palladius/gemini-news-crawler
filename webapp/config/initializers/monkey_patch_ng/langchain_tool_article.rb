@@ -63,7 +63,7 @@ module Langchain::Tool
         property :link, type: "string", description: "the link to the article", required: false
         property :published_date, type: "string", description: "the published date of the article", required: false
         property :language, type: "string", description: "the language of the article", required: false
-        property :country, type: "string", description: "the country of the article (whatever that means)", required: false
+        property :country, type: "string", description: "the country of the article (when in doubt put 'Norway')", required: false
         #property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen. If unsure put Vatican city (🇻🇦)", required: false
     end
 

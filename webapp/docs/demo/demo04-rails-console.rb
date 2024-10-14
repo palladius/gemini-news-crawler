@@ -1,14 +1,10 @@
 # frozen_string_literal: true
 
 # This demo is a lot better run in the console than on web, given its interactive aspect.
-
 # Nice visualizer for the chat -> moved to riccardo05_monkeypatch
 # Nice patch of assistant: moved to `webapp/config/initializers/riccardo15_monkeypatch_langchain_assistant.rb`
 
 # llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
-
-# llm = VertexLLM # doesnt work
-# llm = GeminiLLM # TODO - move to above
 
 #Langchain.logger.level = Logger::ERROR
 
@@ -58,6 +54,7 @@ def putlm = puts(colorful_lastmessage)
 
 # Bummer:  Italy, France, ... fails :/
 s 'Latest 5 news from United States'
+# s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 s 'awesome! Save the 5th article on DB'
 
@@ -73,7 +70,7 @@ s 'awesome! Save the 5th article on DB'
 @assistant.say 'Save this the first two articles please'
 @assistant.history
 # Provides with the Cloud Run app url.
-@assistant.say 'Thanks. Provide me with the Carlessian URL for the article you just saved please'
+@assistant.say 'Thanks. Provide me with the Carlessian URL and Local URL for the article you just saved please'
 
 @assistant.say 'Save this the LAST two articles please'
 

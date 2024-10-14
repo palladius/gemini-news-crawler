@@ -11,7 +11,7 @@
 
 #Langchain.logger.level = Logger::ERROR
 
-a = Article.first # .sample
+a = Article.second # .sample
 # make sure it has embeddings. :title_embedding is used for Article similarity here. A different one is used for semantic search
 # Why? Came in 2 different times (March vs May) of the demo and it would take too long to re-calculate 10k embeddings.
 a.title_embedding
@@ -19,13 +19,13 @@ a.title_embedding
 a.compute_embeddings! unless a.title_embedding?
 # compute 5 `similarest` articles
 similaria = a.similar_articles(max_size: 5)
-
 # visualize nicely
 # Adds `neighbor_distance` from https://github.com/ankane/neighbor
 # > nearest_item = item.nearest_neighbors(:embedding, distance: "euclidean").first
 # > nearest_item.neighbor_distance
-
 similaria.map{|a| [a.id, (a.neighbor_distance*100).round(2), a.title]}
+
+
 
 # looks better on UI
 puts "1. See the result in localhost in http://127.0.0.1:3000/articles/#{a.id}"
