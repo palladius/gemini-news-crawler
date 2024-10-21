@@ -319,6 +319,17 @@ class Article < ApplicationRecord
     self.save
   end
 
+  # removes the 3 embeddings, and adds llm_info
+  # "title_embedding",
+  # "summary_embedding",
+  # "article_embedding",
+  def cleaned_up
+    #require 'active_support/core_ext/hash'
+    h = self.as_json
+    h[:llm_info] = llm_info
+    h.except('title_embedding').except('summary_embedding').except('article_embedding') # .except('title_embedding')
+  end
+
   def llm_info
     # on 9octy i started indexing manually TWO articles in dev.
     # this is bad as their distnaces are now screwed up:

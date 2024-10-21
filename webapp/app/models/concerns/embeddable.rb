@@ -7,10 +7,6 @@ module Embeddable
 
   EmbeddableFields = %w[title_embedding summary_embedding article_embedding].freeze # .each do |my_field|
 
-  #   included do
-  # #    store_accessor :embeddings, :title_embedding, :summary_embedding
-  #     store_accessor :title_embedding, :summary_embedding
-  #   end
   def assert_good_gemini_response(x, description)
     raise "assert_good_gemini_response(#{description}): should be an Array, not a '#{x.class}'" unless x.is_a?(Array)
     unless x.size == 768
@@ -48,8 +44,6 @@ module Embeddable
       # db/schema.rb:    t.vector "title_embedding", limit: 768
       # db/schema.rb:    t.vector "summary_embedding", limit: 768
       # db/schema.rb:    t.vector "article_embedding", limit: 768
-      # OLD VERSION: article_embedding copied from  title_embedding
-      # self.article_embedding = self.title_embedding if (self.article_embedding.nil? and  self.title_embedding.is_a? Array)
 
       # SKIPPING Article side and doing it the Gemini way.
       # self.article_embedding = self.compute_gcp_embeddings_for(field_to_access: :article) rescue nil
@@ -85,7 +79,7 @@ module Embeddable
 
     embedding_description = {
       ricc_notes: '[embed-v3] Fixed on 9oct24. Only seems incompatible at first glance with embed v1.',
-      llm_project_id: GeminiLLM.project_id,
+      llm_project_id: (GeminiLLM.project_id rescue "unavailable possibly not using Vertex"),
       llm_dimensions: GeminiLLM.default_dimensions,
       article_size: article.size,
       poly_field: field_to_access.to_s,
@@ -130,80 +124,6 @@ module Embeddable
     text_with_maybe_some_html
   end
 
-  # this is the OLD v1 way of calculating an embedding. Uses gemini-ai and a very manual process.
-  # def compute_gcp_embeddings_for(field_to_access:)
-  #   value = cleanup_text(send(field_to_access)).to_s
-  #   raise 'Empty request - skipping calculation as it doesnt make sense.' if value.length <= 1 # also 1 is nothing..
-
-  #   puts("+ Compute embeddings for a #{self.class}. Value: '#{value}'. Len=#{value.length}")
-  #   unless gcp?
-  #     puts('No GCP enabled. I need to skip this - quitely.')
-  #     return
-  #   end
-  #   require 'gemini-ai'
-  #   require 'matrix'
-
-  #   client = Gemini.new(
-  #     credentials: {
-  #       service: 'vertex-ai-api',
-  #       file_path: GCP_KEY_PATH, # 'private/ricc-genai.json' ,
-  #       region: 'us-central1' # 'us-east4'
-  #     },
-  #     # code: https://github.com/gbaptista/gemini-ai/blob/main/controllers/client.rb
-  #     options: {
-  #       model: EmbeddingModel,
-  #       service_version: 'v1'
-  #     }
-  #   )
-  #   request_hash = {
-  #     "instances": [{
-  #       # "task_type": "QUESTION_ANSWERING", # "Semantic Search", ## "QUESTION_ANSWERING",
-  #       "task_type": 'RETRIEVAL_DOCUMENT', # what i need
-  #       "content": value
-  #     }]
-  #   }
-  #   result = begin
-  #     client.request('predict', request_hash)
-  #   rescue StandardError
-  #     [$ERROR_INFO, nil]
-  #   end
-  #   if not result.is_a?(Array) # .nil?
-  #     puts("❌ Some issues with #{embedding_model} request: '#{result[0]}' => Exiting")
-  #     puts("❌ request_hash: #{request_hash}")
-
-  #     #exit(42) # raise 'TODO levami di qui - ma ora muoro'
-  #     return nil
-  #   end
-  #   File.write('.tmp.hi.embed_predict.json', result.to_json)
-  #   # Embedding Response
-  #   #binding.pry
-  #   print(result.class)
-  #   # if not
-  #   puts("❌ result['class']: #{result.class}")
-  #   puts("❌ result['keys']: #{result.keys}")
-  #   return false unless result.key?(:predictions)
-
-  #   cleaned_response = result['predictions'][0]['embeddings']['values']
-  #   stats = begin
-  #     puts(result)
-  #     result['predictions'][0]['embeddings']['statistics']
-  #   rescue StandardError
-  #     "Some Error: #{$ERROR_INFO}"
-  #   end
-  #   puts("📊 Stats: #{stats}")
-  #   puts("📊 cleaned_response (should be an Array) is a: #{cleaned_response.class}")
-  #   puts("♊️ YAY! Gemini Embeddings responded with a #{begin
-  #     cleaned_response.size
-  #   rescue StandardError
-  #     -1
-  #   end}-sized embedding: #{begin
-  #     cleaned_response.first(3)
-  #   rescue StandardError
-  #     result
-  #   end}, ...")
-  #   assert_good_gemini_response(cleaned_response, "End of compute_gcp_embeddings_for(#{field_to_access})")
-  #   cleaned_response
-  # end
 
   # This is WRONG
   def similar_articles(max_size: 5, similarity_field: :title_embedding)
@@ -212,27 +132,6 @@ module Embeddable
     #   Article.all.first(5)
   end
 
-  # def fix_strings!(my_field:, save_after_correct_assignment: true)
-  #   raise "Unsupported/Unfixable field: #{my_field}" unless EmbeddableFields.include?(my_field.to_s)
-  #   val = self.send(my_field)
-  #   if val.is_a?(String)
-  #     puts("Trying to move String to an Array")
-  #     # Dangerous!!!
-  #     new_val = eval(val)
-  #     raise "Not an array - exiting!" unless new_val.is_a?(Array)
-  #     # Now we're good - assignign
-  #     # a.send(:c=, b.send(:c))
-  #     self.send("#{my_field}=", new_val)
-  #     # Now we're good - saving - maybe?
-  #     self.save if save_after_correct_assignment
-  #   end
-  # end
-
-  # def autofix_strings_bug!()
-  #   EmbeddableFields.each do |f|
-  #     fix_strings!(my_field: f)
-  #   end
-  # end
 
   # Sistanbce from another Article by title
   # , field: :title)
@@ -262,6 +161,9 @@ module Embeddable
     %w[title_embedding summary_embedding article_embedding].each do |my_field|
       val = send(my_field)
       ret["#{my_field}_class"] = val.class
+      #.title_embedding_meaning
+      ret["#{my_field}_meaning"] = self.send("#{my_field}_meaning")
+      ret["#{my_field}_description"] = self.send("#{my_field}_description")
 
       if val.nil?
         ret["#{my_field}_nil"] = true
@@ -287,7 +189,7 @@ module Embeddable
     self.article_embedding = GeminiLLM.embed(text: article).embedding # rescue nil resceu nil
     # if nil, next...
     embedding_description = {
-      llm_project_id: GeminiLLM.project_id,
+      llm_project_id: (GeminiLLM.project_id rescue "Unavailable"),
       llm_dimensions: GeminiLLM.default_dimensions,
       article_size: article.size,
       # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!

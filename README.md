@@ -1,6 +1,6 @@
 Note: this is the **MODENRIZE** branch!
 
-Now on
+Now on:
 * Penguin
 * Derek
 

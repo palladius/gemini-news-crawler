@@ -20,7 +20,6 @@ similaria = a.similar_articles(max_size: 5)
 
 # looks better on UI
 # # http://127.0.0.1:3000/
-puts "1. See the result in localhost in https://localhost:3000/articles/#{a.id} [some issues with HTTPS.]"
 puts "1. See the result in localhost in http://127.0.0.1:3000/articles/#{a.id}"
 puts "2. See the result in Cloud Run in https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/#{a.id}"
 
@@ -31,5 +30,12 @@ puts "2. See the result in Cloud Run in https://gemini-news-crawler-dev-x42ijqgl
 # > nearest_item.neighbor_distance
 
 similaria.map{|a| [a.id, (a.neighbor_distance*100).round(2), a.title]}
+
+# =>
+# [[10446, 65.16, "Northern Lights Alert: Here’s Where Aurora Borealis Can Be Seen Tonight—As Forecasters Predict Strong Showing"],
+#  [10442, 66.91, "Time to evacuate is running out as Hurricane Milton closes in on Florida - The Associated Press"],
+#  [10448, 69.59, "Kyiv says Ukrainian reporter Victoria Roshchyna died in Russian detention"],
+#  [10445, 70.57, "Wildlife Photographer of the Year: Tadpoles win top prize - BBC.com"],
+#  [10444, 71.31, "Supreme Court’s conservatives wrestle with case of death row inmate Richard Glossip, who prosecutors want spared - CNN"]]
 
 puts("We have a Bingo!")
