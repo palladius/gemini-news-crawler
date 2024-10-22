@@ -1,6 +1,7 @@
 <p class="text-base leading-relaxed">🔎 Select a Sample Query</p>
 
 <ul>
+  <!-- # Defined in `app/views/pages/assistant.html.erb` :) -->
   <% @sample_queries_for_gemini_functions.each do |query| %>
       <li>💁🏻
         <%= link_to(query, "/pages/assistant?type=hard-coded&query=#{query}", method: :get) rescue "Err #{$!}" %>

@@ -9,18 +9,14 @@
     "Latest 5 stories from Italy?",
     "Latest 6 stories from Emila Romagna, in Italy?",
     "Latest 7 news from Vinitaly",
+    "Latest 8 news from Pescara (Italy)",
     "Any news from Google Cloud?",
     "Any news about Ruby or RoR?",
     "What are some fun stories from headlines?",
     #"What are some fun facts?", as it is it doesnt work.
-  ]
+]
 
-  # vertexManhouse = Langchain::LLM::GoogleVertexAI.new(
-  #   project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
-  #   region: "us-central1",
-  #   default_options: {        chat_completion_model_name: "gemini-1.5-pro-latest",        }
-  # )
-  vertexManhouse = VertexLLM
+vertexManhouse = VertexLLM
 
 %>
 <div class="assistant-demo" >

@@ -7,22 +7,23 @@ class SmartQueriesController < ApplicationController
     # return show if params[:query]
 
     # Sample queries to embed
+    # Defined in `app/controllers/smart_queries_controller.rb` :)
     @sample_queries = [
       'US politics',
       'Global warming',
       'European Elections',
-      'Verona, Veneto, Venezia region',
+#      'Verona, Veneto, Venezia region',
+      'Pescara, Italy',
       'Italy',
       'Google Cloud and Alphabet',
       'Android phones',
       'Ruby or Rails',
       # "fun facts",
-      # 'crime news',       # => cronaca nera
       'Geopolitical world situation',
       'Latest movies on Netflix',
       'Best travel locations',
       #  'Cronaca Nera',
-      'Fake news'
+      'Fake news',
     ]
     # defined in  app/views/pages/assistant.html.erb:@sample_queries_for_gemini_functions_use_controller_instead = [
     # @sample_queries_for_gemini_functions = [
