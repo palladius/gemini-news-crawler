@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-10-09 v0.3.83 [modernize-langchain-latest] removed `authenticated?` which breaks demo4 online.
 2024-10-09 v0.3.83 [modernize-langchain-latest] Merge 82 with 76
 
 2024-10-09 v0.3.76 [modernize-langchain-latest] Put right embeddings model in the article_embedding_description.

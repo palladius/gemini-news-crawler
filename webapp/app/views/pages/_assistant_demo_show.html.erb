@@ -2,7 +2,6 @@
 
 <p class="text-base leading-relaxed">Back to <%= link_to "Assistant demo home", '/pages/assistant' %> .</p>
 <p class="text-base leading-relaxed">LLM: <%= llm.class.to_s %></p>
-<p class="text-base leading-relaxed">LLM authenticated?: <%= llm.authenticated? %></p>
 <p class="text-base leading-relaxed">LLM description: <%= llm_description %></p>
 
 
@@ -10,11 +9,12 @@
 #return "todo stiamo facendo l italia qui. llm = #{llm}"
 # todo optimize...
 
-   #llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
+#llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
 
 @query ||= 'Latest 7 news from Vinitaly'
 
-if (llm.authenticated?)
+if (true) # todo remove this if altogether
+#if (llm.authenticated? rescue true)
 
 #llm = Langchain::LLM::GoogleVertexAI.new(
 #    project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],

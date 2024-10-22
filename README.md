@@ -1,9 +1,12 @@
-Note: this is the **MODENRIZE** branch!
+Note: as of 22oct24 (v0.3.83), I declare the `modernize-langchain-latest` branch dead.
+Code has been succesfully merged into `main` and now we can go back to our lives and clean up old
+Modernize stuff.
+Note: this was the **MODENRIZE** branch!
 
 Now on:
 
-* Penguin
-* Derek
+* Penguin (TODO reconcile yet)
+* Derek (who was broken up but I then took all the code and it worked fine)
 
 # About ♊️ GemiNews 📰
 
