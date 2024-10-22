@@ -106,7 +106,8 @@ puts(@rag_excerpt.colorize(:green))
 puts(@articles_verbose.colorize(:cyan))
 @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count,
                                      articles: @articles_verbose)
-@rag_excerpt = PalmLLM.complete(prompt: @long_prompt).output
+
+@rag_excerpt = GeminiLLM.complete(prompt: @long_prompt).output
 puts(@rag_excerpt.colorize(:green))
 # Output when RAG knows the content of article, not just the title.
 # => """

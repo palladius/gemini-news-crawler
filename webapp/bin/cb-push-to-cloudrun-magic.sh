@@ -14,7 +14,7 @@
 export DEPLOY_VERSION='2.0.5'
 #
 # 31may24  2.0.5       Added ENV[RUBY_YJIT_ENABLE]=true - should compile stuff faster now.
-# 19may24  2.0.4buggy  Added ENV[PALM_API_KEY_GEMINI] - should fix PalmLLM. Note I used GEMINI_KEY for since  PALM_API_KEY_GEMINI is actually not in
+# 19may24  2.0.4buggy  Added ENV[PALM_API_KEY_GEMINI] - should fix Palm-LLM. Note I used GEMINI_KEY for since  PALM_API_KEY_GEMINI is actually not in
 #                      my Secret Manager (yet and its late at night and my mum waas the room)
 # 17may24  2.0.3       Added project_id
 #####################################################################################################

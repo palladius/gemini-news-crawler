@@ -1,14 +1,10 @@
 
 <%= render_fancy_step_title(5, '💩RemoveMe💩 just testing GenAI with Palm 🤦🏻 #facepalm') %>
-
-#    PalmLLM.sample_complete.output
-
     <div class="bg-blue-500 md:bg-green-500 p-4 rounded shadow-md">
         <div class="prose lg:prose-xl" >
                 <!--        # Verona colors: https://teamcolorcodes.com/hellas-verona-colors/ -->
             <% if (GeminiLLM) %>
-                <%= PalmLLM.sample_complete.output rescue "PalmLLM might not exist anymore.. ERR='#{$!}'" %>
-                <%#= PalmLLM.summarize(text: 'Please write a night-time story about the evil Amarone daemon who lived in Arena di Verona').output %>
+                <%= GeminiLLM.sample_complete.output rescue "Palm-LLM might not exist anymore hence using untested GeminiLLM.. ERR='#{$!}'" %>
             <% else %>
                 <b>Sorry GeminiAuthenticated=false which means that probably we had issues authenticating Gemini</b>
             <% end %>

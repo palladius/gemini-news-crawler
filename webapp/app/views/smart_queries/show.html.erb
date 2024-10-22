@@ -62,8 +62,6 @@ if  @long_or_short_prompt
     # https://github.com/patterns-ai-core/langchainrb/blob/main/lib/langchain/llm/response/google_gemini_response.rb
     @palm_completion_job = GeminiLLM.complete(prompt: @long_or_short_prompt)
     @rag_excerpt = @palm_completion_job.chat_completion
-#    @palm_completion_job = PalmLLM.complete(prompt: @long_or_short_prompt)
-#    @rag_excerpt = @palm_completion_job.meaningful_response # output || @palm_completion_job.error
     puts(@rag_excerpt.to_s.colorize :green)
 else
         # nil
@@ -73,7 +71,6 @@ end
 # @articles_verbose = @closest_articles.map{|a| helpz.sanitize_news(a.article)}.join("\n") # .to_s
 # puts(@articles_verbose.colorize :cyan)
 # @long_prompt = helpz.rag_long_prompt(query: @query, article_count: @closest_articles.count, articles: @articles_verbose )
-# @rag_excerpt = PalmLLM.complete(prompt: @long_prompt).output
 # puts(@rag_excerpt.to_s.colorize :green)
 
 #@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.article}.join("\n---\n")}"
@@ -81,9 +78,6 @@ end
 #@prompt = @short_prompt + "\n\n #{@closest_articles.map{|a| a.excerpt_for_llm}.join("\n---\n")}\nSUMMARY OF THE ARTICLES:"
 #@prompt2 = rag_long_prompt(date: Date.today, query: @query, article_count: @closest_articles.count, articles: @closest_articles.map{|a| a.excerpt_for_llm})
 
-# summarize in 4 tweets
-#@rag_excerpt = PalmLLM.summarize(text: @prompt, max_tokens: 1024).output
-#@rag_excerpt = PalmLLM.summarize_with_tokens(text: @prompt, max_tokens: 1024).output
 
 
 # non va
@@ -208,7 +202,7 @@ TEXT
 
     <%= render_fancy_step_title(4, 'Summarize the result of RAGGED prompt') %>
 
-    <%= render_prose "@rag_excerpt = PalmLLM.complete(prompt: @prompt).output" %>
+    <%= render_prose "@rag_excerpt = GeminiLLM.complete(prompt: @prompt).output" %>
 
     RAG Result:
 

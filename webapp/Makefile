@@ -146,10 +146,6 @@ test-llm-gemini-embeddings:
 test-llm-vertex-embeddings:
 	echo "VertexLLM.embed text: 'ciao'" | rails c
 
-# Decommissioned
-# test-palmLLM-summarize:
-# 	echo "PalmLLM.summarize text: 'ciao'" | rails c
-
 compute_embeddings_for_all:
 	echo Article.compute_embeddings_for_all | rails c
 

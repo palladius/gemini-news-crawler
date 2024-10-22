@@ -10,7 +10,6 @@
         VertexLLMAuthenticated: VertexLLMAuthenticated,
         GeminiLLM: GeminiLLM,
         VertexLLM: VertexLLM,
-        PalmLLM: PalmLLM,
         LLMs: LLMs.map{|llm| llm.to_s },
         "VertexLLM.authorizer.token_type": (VertexLLM.authorizer.token_type rescue :Error),
         "VertexLLM.fetch_access_token.first(10)": (VertexLLM.authorizer.fetch_access_token!()['access_token'].first(10) rescue $!),
@@ -25,7 +24,6 @@
 
     }
     @interesting_data_long = {
-        'PalmLLM.client.list_models': (PalmLLM.client.list_models rescue []),
         'bundle config local.lanchainrb': `bundle config local.lanchainrb`,
         'bundle info langchainrb</b> (you can fix with <b>bundle config --delete local.lanchainrb</b>': `bundle info langchainrb`,
         'bundle info googleauth': `bundle info googleauth`,
