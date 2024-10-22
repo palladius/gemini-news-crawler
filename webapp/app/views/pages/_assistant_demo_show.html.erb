@@ -10,8 +10,6 @@
 
 @query ||= 'Latest 7 news from Vinitaly'
 
-if (true) # todo remove this if altogether
-#if (llm.authenticated? rescue true)
 #llm = GeminiLLM
   # seems like it doesnt work on the web but only in local.
   llm ||= GeminiLLM
@@ -38,10 +36,10 @@ article_tool = ArticleTool.new
   #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
 
 @assistant = Langchain::Assistant.new(
-  llm: llm,
-  #thread: thread,
-  instructions: "You are a News Assistant.",
-  tools: [news_retriever, article_tool]
+  #llm: llm,
+  llm: GeminiLLM,
+  instructions: "You are a News Assistant on a Web UI. You can uggle between retrieving News online (NewsRetriever) or saving to a local database through the Article Tool",
+  tools: [news_retriever, article_tool],
 )
 
 # @x = @assistant.add_message_and_run content: "What are the latest news from Google I/O?", auto_tool_execution: true
@@ -123,6 +121,3 @@ article_tool = ArticleTool.new
 <pre>
   <%= @assistant.history rescue "@assistant.histroy err: #{$!}" %>
 </pre>
-<% else %>
-  Sorry, looks like this LLM is not authenticated. It would make a barbina figure to call APIs over it.
-<% end %>

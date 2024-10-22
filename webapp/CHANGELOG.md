@@ -22,10 +22,11 @@ bin/rails aborted!
 
 ## Changelog
 
-2024-10-09 v0.3.83 [modernize-langchain-latest] removed `authenticated?` which breaks demo4 online.
-2024-10-09 v0.3.83 [modernize-langchain-latest] Merge 82 with 76
+2024-10-22 v0.3.85 [modernize-langchain-latest] Still trying to fix app/views/pages/_assistant_demo_show.html.erb. Works in LO but not on WEB!
+2024-10-22 v0.3.84 [modernize-langchain-latest] removed `authenticated?` which breaks demo4 online.
+2024-10-22 v0.3.83 [modernize-langchain-latest] Merge 82 with 76
 
-2024-10-09 v0.3.76 [modernize-langchain-latest] Put right embeddings model in the article_embedding_description.
+2024-10-22 v0.3.76 [modernize-langchain-latest] Put right embeddings model in the article_embedding_description.
 [..] Updated first 10k articles (on 10256) to V3. See `ops.md`
 
 2024-10-11 v0.3.82 [modernize-langchain-latest] re-enabled 4 demo buttons.
