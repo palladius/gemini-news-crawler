@@ -96,10 +96,8 @@ puts "#{emoji} 🌞 CLOUDRUN_SA_KEY_EXISTS: #{CLOUDRUN_SA_KEY_EXISTS}" # should 
 puts "#{emoji} 🌞 CLOUDRUN_ENVRC_EXISTS:  #{CLOUDRUN_ENVRC_EXISTS}"
 puts "#{emoji} 🌞 GOOGLE_APPLICATION_CREDENTIALS:  #{GOOGLE_APPLICATION_CREDENTIALS}"
 puts "#{emoji} 🪄 Vertex (old GeminiLLM): #{VertexLLM}"
-puts "#{emoji} 🪄 VertexAuthenticated:    #{VertexAuthenticated}"
 puts "#{emoji} 🪄 VertexAuthTokenLength:  #{VertexAuthTokenLength}"
 puts "#{emoji} ♊ GeminiLLM (new v13):    #{GeminiLLM}"
-puts "#{emoji} ♊ GeminiAuthen'd (TODO):  #{GeminiAuthenticated}"
 puts "#{emoji} ♊ GeminiApiKeyLength:     #{GeminiApiKeyLength}"
 
 puts "#{emoji} #{emoji * 60}"
