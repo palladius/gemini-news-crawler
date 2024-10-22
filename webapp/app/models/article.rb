@@ -296,12 +296,23 @@ class Article < ApplicationRecord
 
   # FROM: \\342\\200\\234Un ritorno di fiamma tra Fedez e Ferragni? Vi dico la verit\303\240\\342\\200\\235: l\\342\\200\\231esperta di gossip Marzano svela uno scambio di messaggi con l\\342\\200\\231imprenditrice digitale
   # TO: “Un ritorno di fiamma tra Fedez e Ferragni? Vi dico la verità”: l’esperta di gossip Marzano svela uno scambio di messaggi con l’imprenditrice digitale
+  # https://stackoverflow.com/questions/2812781/how-to-convert-webpage-apostrophe-8217-to-ascii-39-in-ruby-1-8-7#comment2853475_2812781
   def self.fix_andrei_newspaper_weird_characters(str, remove_all_double_slashes: false)
     # changes e', i', \\, \', \r , ’ ‘
 
-    str.gsub("\\'","'").gsub('\\303\\250', 'è').gsub('\\303\\255', 'í').gsub('\\303\\240', 'à').gsub('\\303\\251', 'é').gsub('\\303\\271', 'ù').  # aeiou accentate
+    str.
+        gsub('\\303\\240', 'à'). # aeiou accentate
+        gsub('\\303\\251', 'é').gsub('\\303\\250', 'è'). # e
+        gsub('\\303\\255', 'í').gsub('\\303\\254', 'ì'). # i acuto e grave
+        gsub('\\303\\271', 'ù').  # u
       gsub('\\302\\253', '«').gsub('\\302\\273', '»').gsub('\\342\\200\\231','’').gsub('\\342\\200\\230',"‘").            # single quotes
       gsub('\\342\\200\\234',"“").gsub('\\342\\200\\235',"”").gsub('\\342\\200\\231',"’").gsub('\\\\342\\\\200\\\\231',"’"). # double quotes
+      gsub("\\342\\200\\224"," — ").gsub("\\342\\200\\246","..."). # dashes \\\n \342\200\246 i dont know!!! I believe its three dots
+      gsub("\\\\\\\\n","\n"). #  4 \\\n always MORE then fewer
+      gsub("\\\\\\n","\n"). #  3 \\\n
+      gsub("\\\\n","\n"). #  3 \\\n
+      gsub('\\\\\\"','"').gsub('\\\\"','"').gsub('\\"','"'). #  3,2,1 \\\" Apici doppi (uso singoli per tenerli dentro)
+      gsub("\\\\\\'","'").gsub("\\\\'","'").gsub("\\'","'"). #  3,2,1 \\\" Apici singoli (uso doppi per tenerli)
       gsub("\\r",'')
     #str.gsub('\\','') if remove_all_double_slashes # quando lo esegui e' distruttivo, toglilo in DEBUG...
     #str
@@ -318,6 +329,8 @@ class Article < ApplicationRecord
     puts("cleanup_ugly_backslashes() finished, now saving!")
     self.save
   end
+
+  def fix_ugly_bckslashes = cleanup_ugly_backslashes # lazy alias
 
   # removes the 3 embeddings, and adds llm_info
   # "title_embedding",

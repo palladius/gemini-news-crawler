@@ -85,7 +85,7 @@ module Embeddable
       poly_field: field_to_access.to_s,
       #llm_embedding_model: GeminiLLM.default_dimensions,
       ## Hardcoded
-      llm_embeddings_model_name: 'textembedding-gecko', # hardocded in Gemini Monkeypatch - see code
+      llm_embeddings_model_name: (GeminiLLM.defaults[:embeddings_model_name] rescue "textembedding-gecko-credo"), # 'textembedding-gecko', # hardocded in Gemini Monkeypatch - see code
     }
 
     # Assign the embedding to the corresponding field using `send`
@@ -193,7 +193,8 @@ module Embeddable
       llm_dimensions: GeminiLLM.default_dimensions,
       article_size: article.size,
       # llm_embedding_model: GeminiLLM.default_dimensions, cant find it!
-      llm_embeddings_model_name: 'textembedding-gecko'
+#      llm_embeddings_model_name: 'textembedding-gecko'
+      llm_embeddings_model_name: (GeminiLLM.defaults[:embeddings_model_name] rescue "textembedding-gecko-credo"), # 'textembedding-gecko', # hardocded in Gemini Monkeypatch - see code
     }
     self.article_embedding_description = embedding_description.to_s
     save if save_afterwards
