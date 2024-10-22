@@ -1,3 +1,9 @@
+Note: this is the **MODENRIZE** branch!
+
+Now on:
+
+* Penguin
+* Derek
 
 # About ♊️ GemiNews 📰
 

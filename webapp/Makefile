@@ -142,6 +142,7 @@ test-llm-vertex:
 
 test-llm-gemini-embeddings:
 	echo "GeminiLLM.embed text: 'ciao'" | rails c
+
 test-llm-vertex-embeddings:
 	echo "VertexLLM.embed text: 'ciao'" | rails c
 
@@ -154,3 +155,19 @@ compute_embeddings_for_all:
 
 test-newsapi:
 	bin/newsapi-test.rb
+
+######
+# demos oct24
+
+demo01:
+	cat docs/demo/demo01-rails-console.rb | rails console | tee .ok.demo01.lastout && touch .ok.demo01.touch
+demo02:
+	cat docs/demo/demo02-rails-console.rb | rails console | tee .ok.demo02.lastout && touch .ok.demo02.touch
+demo03:
+	cat docs/demo/demo03-rails-console.rb | rails console | tee .ok.demo03.lastout && touch .ok.demo03.touch
+demo04:
+	cat docs/demo/demo04-rails-console.rb | rails console | tee .ok.demo04.lastout && touch .ok.demo04.touch
+
+demo-all4: demo01 demo02 demo03 demo04
+	ls -al .ok.demo*
+all-demos: demo-all4

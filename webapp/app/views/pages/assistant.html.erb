@@ -15,11 +15,12 @@
     #"What are some fun facts?", as it is it doesnt work.
   ]
 
-  vertexManhouse = Langchain::LLM::GoogleVertexAI.new(
-    project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
-    region: "us-central1",
-    default_options: {        chat_completion_model_name: "gemini-1.5-pro-latest",        }
-  )
+  # vertexManhouse = Langchain::LLM::GoogleVertexAI.new(
+  #   project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"],
+  #   region: "us-central1",
+  #   default_options: {        chat_completion_model_name: "gemini-1.5-pro-latest",        }
+  # )
+  vertexManhouse = VertexLLM
 
 %>
 <div class="assistant-demo" >
@@ -31,12 +32,9 @@
         <%= render 'pages/assistant_index' %>
     <% else %>
 
-    <!-- Typical problems:
-            429 - HTTPTooManyRequests
-    -->
-    <%#= render 'pages/assistant_demo_show' rescue "E2387465 Some Assistant Exception: '#{$!}'" %>
-    <%= render( 'pages/assistant_demo_show', llm: VertexLLM, llm_description: "VertexAI LLM - should have good QPS") rescue "LLM1 error: #{$!}" %>
-    <%= render( 'pages/assistant_demo_show', llm: GeminiLLM, llm_description: "Gemini LLM (consumer) - should have low QPS") rescue "LLM2 error: #{$!}" %>
-    <%= render( 'pages/assistant_demo_show', llm: vertexManhouse, llm_description: "Vertex Manhouse - in case it behaves differnetly from first vertex Riccardo after lunch just remove the firsty and change with this backfilling in config/initliazers and fix vertexLM there") rescue "LLM3 error: #{$!}" %>
+    <%= render( 'pages/assistant_demo_show', llm: VertexLLM, llm_description: "VertexAI LLM - should have good QPS") # rescue "LLM1 error VertexLLM: #{$!}"
+    %>
+    <%= render( 'pages/assistant_demo_show', llm: GeminiLLM, llm_description: "Gemini LLM (consumer) - should have low QPS") rescue "LLM2 error GeminiLLM: #{$!}" %>
+    <%= render( 'pages/assistant_demo_show', llm: vertexManhouse, llm_description: "Vertex Manhouse - in case it behaves differnetly from first vertex Riccardo after lunch just remove the firsty and change with this backfilling in config/initliazers and fix vertexLM there") rescue "LLM3 error vertexManhouse: #{$!}" %>
     <% end %>
 </div>

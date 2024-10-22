@@ -4,6 +4,10 @@
 # * [dev] https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/demo-news-retriever
 # * [PRD] https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/demo-news-retriever
 
+
+#query = 'Vinitaly'
+query = 'Balsamic Vinegar'
+
 # available to rails, but NOT to this script :)
 helpz = ApplicationController.helpers
 
@@ -24,7 +28,7 @@ end
 
 # JFYI
 # NewsRetriever = Langchain::Tool::NewsRetriever.new(api_key: (Rails.application.credentials.env.fetch(:NEWSAPI_COM_KEY, nil) rescue "error #{$!}") )
-query = 'Vinitaly'
+
 news = NewsRetriever.get_everything(q: query, page_size: 6).to_s.force_encoding('UTF-8')
 cmd = "NewsRetriever.get_everything(q: '#{query}', page_size: 6)"
 parsed_json = JSON.parse(news)

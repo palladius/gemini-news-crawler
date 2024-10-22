@@ -25,18 +25,21 @@ if (llm.authenticated?)
 #)
 
 ## Create a new Thread to keep track of the messages
-thread = Langchain::Thread.new
+#thread = Langchain::Thread.new
 
 # Instantiate tools
 #news_retriever = Langchain::Tool::NewsRetriever.new(api_key: ENV["NEWS_API_KEY"])
 news_retriever  = NewsRetriever # instanziato da mo'.
+#article_tool = ArticleTool.new
+#article_tool = Langchain::Tool::ArticleTool.new
 article_tool = ArticleTool.new
+
 
   #instructions: "You are a News Assistant. You retrieve information and summarize it for people with a hint of humorous approach. You like to add French words randomly to the conversation to give yourself a tone.",
 
 @assistant = Langchain::Assistant.new(
   llm: llm,
-  thread: thread,
+  #thread: thread,
   instructions: "You are a News Assistant.",
   tools: [news_retriever, article_tool]
 )
@@ -63,7 +66,7 @@ article_tool = ArticleTool.new
         <td class="border border-slate-300 p-2 bg-green-100"><tt>Role</tt></td>
         <td class="border border-slate-300 p-2 bg-green-100">Conversation</td>
       </tr>
-      <% @assistant.thread.messages.each_with_index do |msg,ix| %>
+      <% @assistant.messages.each_with_index do |msg,ix| %>
         <tr class="hover:bg-blue-50">
           <td class="border border-slate-300 p-2">
             <tt><%#= ix %>
@@ -91,16 +94,15 @@ article_tool = ArticleTool.new
 
     <div class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
       <b>Answer to Q1: article search</b><br/>
-        <%= render_assistant_message @assistant.thread.messages[@answer1_position+1] rescue "Err123 #{$!}" %>
+        <%= render_assistant_message @assistant.messages[@answer1_position+1] rescue "Err123 #{$!}" %>
     </div>
     <p class="border border-slate-300 p-2 prose max-w-none text-sm break-words">
       <b>Answer to Q2: add article to ActiveRecord</b><br/>
       <% if @answer2_position > 0 %>
-        <%= render_assistant_message @assistant.thread.messages[@answer2_position+1] rescue "Err124 #{$!}" %>
-        <%#= @assistant.thread.messages[@answer2_position+1].content.force_encoding("UTF-8") rescue "Err124 #{$!}" %>
+        <%= render_assistant_message @assistant.messages[@answer2_position+1] rescue "Err124 #{$!}" %>
       <% else %>
         ❌ Some error hence showing last msg (answer2_position=<%= @answer2_position %>)<br/>
-        <%= render_assistant_message(@assistant.thread.messages.last) %>
+        <%= render_assistant_message(@assistant.messages.last) %>
       <% end  %>
     </p>
 

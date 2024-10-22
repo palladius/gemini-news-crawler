@@ -22,6 +22,18 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-10-09 v0.3.83 [modernize-langchain-latest] Merge 82 with 76
+
+2024-10-09 v0.3.76 [modernize-langchain-latest] Put right embeddings model in the article_embedding_description.
+[..] Updated first 10k articles (on 10256) to V3. See `ops.md`
+
+2024-10-11 v0.3.82 [modernize-langchain-latest] re-enabled 4 demo buttons.
+2024-10-11 v0.3.81 [modernize-langchain-latest] microbug - lets test the cicd if its fixed
+2024-10-11 v0.3.80 [modernize-langchain-latest] Fixing schema at manhouse
+2024-10-11 v0.3.78 [modernize-langchain-latest] Fixed demo02 and all 4 actually!
+2024-10-10 v0.3.77 [modernize-langchain-latest] Im on a plane ZRH-BLQ. Plenty of time to write, little to code. Created `README.modernize.md` to track down what i need to fix by saturday.
+2024-10-10 v0.3.76 [modernize-langchain-latest] Tool now works (its just in wrong place but no biggie)
+2024-10-09 v0.3.75 [modernize-langchain-latest] Updating to latest langchainrb
 2024-10-09 v0.3.74 [dev] Fixing embeddings and demo01!
 2024-10-09 v0.3.73 [dev] Adding PRY to troubleshoot Embeddings: https://github.com/palladius/gemini-news-crawler/issues/4 .
 2024-08-23 v0.3.72 [dev] Removing ForsceSSL except on derek.

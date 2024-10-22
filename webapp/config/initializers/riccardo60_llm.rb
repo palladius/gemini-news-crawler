@@ -37,8 +37,9 @@ end
 # rescue StandardError
 #   nil
 # end
-PalmLLM = VertexLLM # so it doesnt break anything :)
-#PalmLLM = GeminiLLM
+GeminiLLM10 = Langchain::LLM::GoogleGemini.new api_key: ENV['PALM_API_KEY_GEMINI'] , default_options: {chat_completion_model_name: 'gemini-1.0-pro'} # so it doesnt break anything :)
+#PalmLLM = GeminiLLM10
+#PalmLLM = GeminiLLM # Gemini1.5
 
 OllamaLLM = begin
   Langchain::LLM::Ollama.new
@@ -46,43 +47,34 @@ rescue StandardError
   nil
 end
 
-#PalmLLMImpromptu = '❌ [redacted from demo. This adds too much to script startup]'
-# PalmLLMImpromptu = PalmLLM.nil? ?
-#   '🤌 I cant, PalmLLM is nil 🤌' :
-#   #PalmLLM.complete(prompt: 'Tell me the story of the scary Amarone monster lurking in the dungeon of Arena di Verona: ').
-#   (PalmLLM.sample_complete.output rescue "❌ PalmLLM.sample_complete.output failed: #{$!}")
-
 # In order
-LLMs = [VertexLLM, GeminiLLM, PalmLLM].freeze
+LLMs = [VertexLLM, GeminiLLM ].freeze
 
-GeminiAuthenticated = begin
-  GeminiLLM.authenticated?
-rescue StandardError
-  "Error: #{$ERROR_INFO}"
-end
+# GeminiAuthenticated = begin
+#   GeminiLLM.authenticated?
+# rescue StandardError
+#   "Error: #{$ERROR_INFO}"
+# end
 GeminiApiKeyLength = begin
   GeminiLLM.api_key.to_s.length
 rescue StandardError
   (-1)
 end
 
-# This code is created by ricc patching manually langchain...
-GeminiLLMAuthenticated = begin
-  GeminiLLM.authenticated?
-rescue StandardError
-  "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$ERROR_INFO}"
-end
-VertexLLMAuthenticated = begin
-  VertexLLM.authenticated?
-rescue StandardError
-  "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$ERROR_INFO}"
-end
+# # This code is created by ricc patching manually langchain...
+# GeminiLLMAuthenticated = begin
+#   GeminiLLM.authenticated?
+# rescue StandardError
+#   "UnImplemented - Probably Derek Only but things are moving since v0.3.23. Error: #{$ERROR_INFO}"
+# end
 
-VertexAuthenticated = !begin
-  VertexLLM.authorizer.fetch_access_token
-rescue StandardError
-  false
-end.nil?
+
+# VertexAuthenticated = !begin
+#   VertexLLM.authorizer.fetch_access_token
+# rescue StandardError
+#   false
+# end.nil?
+
 VertexAuthTokenLength = begin
   VertexLLM.authorizer.fetch_access_token['access_token'].to_s.length
 rescue StandardError
@@ -103,19 +95,11 @@ BookOfLLMs = {
     llm: GeminiLLM.class,
     description: 'todo',
     auth_method: 'api_key (low QPS)',
-    authenticated1: GeminiAuthenticated, # <== this gives an error
-    authenticated_should_work_without_exception_now: GeminiLLM.authenticated?
-  },
-  palm: {
-    llm: PalmLLM.class,
-    description: 'todo',
-    auth_method: 'api_key (low QPS)'
-    # authenticated: PalmLLM.authenticated?,
+    #authenticated1: GeminiAuthenticated, # <== this gives an error
   },
   ollama: {
     llm: OllamaLLM.class,
     description: 'not used ANYWHERE for now'
     # auth_method: 'api_key (low QPS)',
-    # authenticated: PalmLLM.authenticated?,
   }
 }.freeze
