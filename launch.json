@@ -1,0 +1,21 @@
+{
+    "folders": [
+      // At the top level of the repository, we have the Rails application
+      {
+        "name": "webapp",
+        "path": "webapp",
+      },
+      // Inside the frontend directory, we have the React frontend
+      {
+        "name": "crawler",
+        "path": "crawler",
+      },
+    ],
+    "settings": {
+      // To avoid having VS Code display the same files twice, we can simply exclude the frontend sub-directory. This
+      // means it will only show up as a separate workspace
+      "files.exclude": {
+        "crawler": true,
+      },
+    },
+  }
