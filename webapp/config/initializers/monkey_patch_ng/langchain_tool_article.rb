@@ -12,11 +12,18 @@ module Langchain::Tool
     extend Langchain::ToolDefinition
     include Langchain::DependencyHelper
 
-    VERSION = '1.14'
+    VERSION = '1.15'
     NAME = 'RiccardoArticle'
     CHANGELOG = <<-TEXT
+
+    v1.15 5nov24 - Added English as dflt language for create(). Also added delete()
+
       TODO(ricc): quando hai un attimo aggiungi il article_tool__delete che ce l'avevi da qualche parte. Certamente ce
       l'hai nel JSON, lho visto.
+
+
+      angchain::Assistant - Error running tools: missing keywords: :language, :country;
+      Article create error
 
     v1.14 Added more non-necessary fields to [summary, author, language]
     v1.13 Added local [rails] url
@@ -62,7 +69,7 @@ module Langchain::Tool
         property :author, type: "string", description: "the author of the article. If unsure, put 'anonymous'.", required: false
         property :link, type: "string", description: "the link to the article", required: false
         property :published_date, type: "string", description: "the published date of the article", required: false
-        property :language, type: "string", description: "the language of the article", required: false
+        property :language, type: "string", description: "the language of the article (when in doubt put 'English')", required: false
         property :country, type: "string", description: "the country of the article (when in doubt put 'Norway')", required: false
         #property :country_emoji, type: "string", description: "the emoji of the flag of the country chosen. If unsure put Vatican city (🇻🇦)", required: false
     end
@@ -74,6 +81,11 @@ module Langchain::Tool
     define_function :local_url, description: "Article DB Tool: provides local article URL (permalink) for the Ruby on Rails app in localhost" do
       property :id, type: "integer", description: "Article numeric id", required: true
     end
+
+    define_function :delete, description: "Article DB Tool: removes an article from the DB by ID" do
+      property :id, type: "integer", description: "Article numeric id", required: true
+    end
+
 
     # define_function :execute, description: "Database Tool: Executes a SQL query and returns the results" do
     #   property :input, type: "string", description: "SQL query to be executed", required: true

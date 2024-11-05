@@ -13,8 +13,6 @@ llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.en
 llm.defaults[:chat_completion_model_name]
 # => "gemini-1.5-pro-latest"
 
-#ArticleTool = Langchain::Tool::RiccardoArticle
-
 @assistant = Langchain::Assistant.new(
   llm: llm,
   #thread: Langchain::Thread.new,
@@ -77,8 +75,71 @@ s 'awesome! Save the 5th article on DB'
 # Very interesting for Modena
 s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
+
+# Pescara v1
+s 'give me news about Pescara'
+s 'give me news about DevFest in Italian language'
+s 'give me news about DevFest in any language'
+s 'save the french articles to DB' # already done
 # interact directly
 @assistant.user_loop
+
+
+# Pescara better, with "Get everything" which actually invokes Pescara
+s 'get everything from Pescara'
+s 'please save to the DB all articles which explicitly mention Pescara in the title'
+#s 'get everything from Pescara, in English'
+s 'get everything from Pescara where article is written in English'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Experiment
+# got a japanes earticle thorugh get everything on devfest
+# 🤖 [model] 💬 The Tokyo article has been saved.
+s 'now trasnslate the Japanese article to Italian. Translate all content (title, author, language, ..) to Italian and change the link from .jp to .it. Preserve the rest. Save the result to DB'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #####################################################
 # Sample output:

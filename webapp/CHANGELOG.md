@@ -22,6 +22,7 @@ bin/rails aborted!
 
 ## Changelog
 
+2024-11-05 v0.3.86 [Langchain-tool-article] Added delete() and fixed some errors via better prompts, hopfully
 2024-10-22 v0.3.85 [modernize-langchain-latest] Still trying to fix app/views/pages/_assistant_demo_show.html.erb. Works in LO but not on WEB!
 2024-10-22 v0.3.84 [modernize-langchain-latest] removed `authenticated?` which breaks demo4 online.
 2024-10-22 v0.3.83 [modernize-langchain-latest] Merge 82 with 76
