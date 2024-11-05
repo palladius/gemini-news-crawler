@@ -341,7 +341,12 @@ class Article < ApplicationRecord
     #require 'active_support/core_ext/hash'
     h = self.as_json
     h[:llm_info] = llm_info
-    h.except('title_embedding').except('summary_embedding').except('article_embedding') # .except('title_embedding')
+    h.except('title_embedding').except('summary_embedding').except('article_embedding').except('hidden_blurb') # .except('llm_info')
+  end
+
+  # Just stuff that GenAI might be interested in reading..
+  def minimalistic_json
+    self.cleaned_up.except('title_embedding_description').except('ricc_internal_notes').except('article_embedding_description').except(:llm_info).except('summary_embedding_description')
   end
 
   def llm_info

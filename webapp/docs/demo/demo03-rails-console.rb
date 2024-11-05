@@ -6,7 +6,8 @@
 
 
 #query = 'Vinitaly'
-query = 'Balsamic Vinegar'
+#query = 'Balsamic Vinegar'
+query = 'Arrosticini'
 
 # available to rails, but NOT to this script :)
 helpz = ApplicationController.helpers

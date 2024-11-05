@@ -23,7 +23,8 @@ module Langchain
         end
 
         redaction_length = 3000
-        sanitized_content = content.force_encoding('UTF-8').strip
+        # if its frozen True it should be it..
+        sanitized_content = content.force_encoding('UTF-8').strip rescue content.to_s
         if sanitized_content.length > redaction_length
           sanitized_content = "#{sanitized_content.first(redaction_length)}.. (🤥 redacted)"
         end

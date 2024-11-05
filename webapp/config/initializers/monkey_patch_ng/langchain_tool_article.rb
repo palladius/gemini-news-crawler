@@ -12,10 +12,11 @@ module Langchain::Tool
     extend Langchain::ToolDefinition
     include Langchain::DependencyHelper
 
-    VERSION = '1.15'
+    VERSION = '1.16'
     NAME = 'RiccardoArticle'
     CHANGELOG = <<-TEXT
 
+    v1.16 5nov24 - Added search by author
     v1.15 5nov24 - Added English as dflt language for create(). Also added delete()
 
       TODO(ricc): quando hai un attimo aggiungi il article_tool__delete che ce l'avevi da qualche parte. Certamente ce
@@ -86,6 +87,12 @@ module Langchain::Tool
       property :id, type: "integer", description: "Article numeric id", required: true
     end
 
+    define_function :search, description: "Article DB Tool: finds all DB articles written by an author" do
+      property :author, type: "string", description: "Author full name", required: true
+    end
+
+    #search(author: )
+
 
     # define_function :execute, description: "Database Tool: Executes a SQL query and returns the results" do
     #   property :input, type: "string", description: "SQL query to be executed", required: true
@@ -121,9 +128,9 @@ module Langchain::Tool
       article_tool_version: VERSION
     }
     article = Article.create(
-      title: title.force_encoding('UTF-8'),
-      summary: summary.force_encoding('UTF-8'),
-      content: content.force_encoding('UTF-8'),
+      title: (title.force_encoding('UTF-8') rescue ''),
+      summary: (summary.force_encoding('UTF-8') rescue ''),
+      content: (content.force_encoding('UTF-8') rescue ''),
       author:,
       link:,
       published_date:,
@@ -159,6 +166,17 @@ module Langchain::Tool
   def delete(id:)
     article = Article.find(id)
     !!article.destroy
+  end
+
+  # Search by author:
+  #
+  # @param author [String] the author to search for
+  # @return [Array] the articles found
+  def search(author: )
+    #minimalistic_json
+    articles = Article.where(author: author).map{|a| a.minimalistic_json}
+    # Let's help the LLM
+    { 'searched_articles_size': articles.size, 'articles': articles}
   end
 
   # We dont need this!

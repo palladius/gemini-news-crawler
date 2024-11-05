@@ -5,13 +5,15 @@
 # Nice patch of assistant: moved to `webapp/config/initializers/riccardo15_monkeypatch_langchain_assistant.rb`
 
 # llm = Langchain::LLM::GoogleVertexAI.new(project_id: ENV["GOOGLE_VERTEX_AI_PROJECT_ID"], region: "us-central1")
-
 #Langchain.logger.level = Logger::ERROR
+
 
 llm = Langchain::LLM::GoogleGemini.new(api_key: Rails.application.credentials.env.GEMINI_API_KEY_BIG_QUOTA) # rescue nil # 9xhQ
 # Which model are we using?
 llm.defaults[:chat_completion_model_name]
 # => "gemini-1.5-pro-latest"
+
+
 
 @assistant = Langchain::Assistant.new(
   llm: llm,
@@ -46,12 +48,15 @@ end
 def colorful_lastmessage = colorize_bold(last_message)
 def putlm = puts(colorful_lastmessage)
 ############################################################################################################
-
 # enable HTTP in case its broken
 # Net::HTTP.enable_debug!
 
+
+
+
 # Bummer:  Italy, France, ... fails :/
 s 'Latest 5 news from United States'
+#s 'Get everything about Arrosticini'
 # s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 s 'awesome! Save the 5th article on DB'
@@ -62,10 +67,17 @@ s 'awesome! Save the 5th article on DB'
 @assistant.say 'how many results did the API call return?'
 # 🤖 [model] 💬 The API call returned 34 results.
 
-# Now its time to improvise a bit. Ask an additional question..
-@assistant.say 'Tell me more about the asian news'
-# @asistant.history
+s 'give me everything you have on arrosticini'
 @assistant.say 'Save this the first two articles please'
+
+
+# 🎉 New Pescara nov2024!! 🎉
+s 'give me all Articles in the DB writen by Roberto Saviano'
+
+# Now its time to improvise a bit. Ask an additional question..
+#@assistant.say 'Tell me more about the asian news'
+# @asistant.history
+#@assistant.say 'Save this the first two articles please'
 @assistant.history
 # Provides with the Cloud Run app url.
 @assistant.say 'Thanks. Provide me with the Carlessian URL and Local URL for the article you just saved please'
