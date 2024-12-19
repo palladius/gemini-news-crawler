@@ -1,7 +1,9 @@
+## Modernization effort notes
+
 Note: as of 22oct24 (v0.3.83), I declare the `modernize-langchain-latest` branch dead.
 Code has been succesfully merged into `main` and now we can go back to our lives and clean up old
 Modernize stuff.
-Note: this was the **MODENRIZE** branch!
+Note: this was the **MODERNIZE** branch!
 
 Now on:
 

@@ -17,7 +17,7 @@ fix-derek:
 	rm app/builds/application.js app/builds/application.css
 
 dev:
-	echo 'OBSOLETE. Instead use:     make run-dev'
+	@echo 'OBSOLETE. Instead use:     make run-dev'
 
 # ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean
 run-dev:

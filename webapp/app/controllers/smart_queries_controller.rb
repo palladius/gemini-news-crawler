@@ -22,8 +22,8 @@ class SmartQueriesController < ApplicationController
       'Geopolitical world situation',
       'Latest movies on Netflix',
       'Best travel locations',
-      #  'Cronaca Nera',
       'Fake news',
+      'Zurich',
     ]
     # defined in  app/views/pages/assistant.html.erb:@sample_queries_for_gemini_functions_use_controller_instead = [
     # @sample_queries_for_gemini_functions = [
