@@ -26,7 +26,8 @@ closest_articles = a.similar_articles(max_size: 5)
 # Adds `neighbor_distance` from https://github.com/ankane/neighbor
 # > nearest_item = item.nearest_neighbors(:embedding, distance: "euclidean").first
 # > nearest_item.neighbor_distance
-closest_articles.map{|a| [a.id, (a.neighbor_distance*100).round(2), a.title]}
+closest_articles.map{|a| [ (a.neighbor_distance*100).round(2), a.id, a.title]}
+
 
 # =>
 # [[10446, 65.16, "Northern Lights Alert: Here’s Where Aurora Borealis Can Be Seen Tonight—As Forecasters Predict Strong Showing"],

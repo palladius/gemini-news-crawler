@@ -3,8 +3,6 @@
 # This demo is also visible in here:
 # * [dev] https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/demo-news-retriever
 # * [PRD] https://gemini-news-crawler-dev-x42ijqglgq-ew.a.run.app/pages/demo-news-retriever
-
-
 #query = 'Vinitaly'
 #query = 'Balsamic Vinegar'
 #query = 'Arrosticini'
@@ -40,3 +38,6 @@ puts(cmd_and_news)
 # prints first article in colorful way
 first_article = parsed_json['articles'][0]
 print_colorful_to_console(first_article)
+
+# Same with second..
+print_colorful_to_console(parsed_json['articles'][1])

@@ -23,7 +23,6 @@ llm.defaults[:chat_completion_model_name]
   # instructions: "You are a News Assistant. When prompted for further info about some news, dont call further functions; instead show the JSON of the matching article - if there's one.",
   tools: [
     NewsRetriever, # 🔧 instantiated in config/initializers/
-    #BROKEN
     Langchain::Tool::RiccardoArticle.new # 🔧 instantiating now. Code in: https://github.com/palladius/gemini-news-crawler/blob/main/webapp/app/tools/article_tool.rb
   ]
 )
@@ -56,8 +55,13 @@ def putlm = puts(colorful_lastmessage)
 
 # Bummer:  Italy, France, ... fails :/
 s 'Latest 5 news from United States'
-#s 'Get everything about Arrosticini'
-# s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
+
+# s 'five more please'
+# @assistant.history
+
+s 'Get everything about Arrosticini'
+
+s 'Im at a conference and my audience is quite susceptible, I want to avoid political or war topics. Which news would you choose to demonstrate this? Pick the least divisive please.'
 
 s 'awesome! Save the 5th article on DB'
 
