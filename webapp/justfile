@@ -1,0 +1,128 @@
+
+# DOCKER_VERSION = $(shell cat VERSION)
+DOCKER_VERSION := `cat VERSION`
+
+# i cant believe it that a new rails install doesnt work but hey here it is
+# https://stackoverflow.com/questions/74904688/esbuild-throwing-error-could-not-resolve-import-statement-while-setting-up
+install:
+	rbenv install 3.2.2
+	npm i @hotwired/turbo-rails
+	npm i "@hotwired/stimulus"
+	rails stimulus:install
+	if_mac bundle config build.unicode --with-cflags=\"-Wno-incompatible-function-pointer-types\"
+	bundle install
+#	yarn upgrade
+
+# To fix dev for derek, I had to remove application.CSS and application.js from app/builds. Weird
+fix-derek:
+	rm app/builds/application.js app/builds/application.css
+
+dev:
+	@echo 'OBSOLETE. Instead use:     make run-dev'
+
+# ricc@derek:🏡~/git/gemini-news-crawler/webapp$ rails assets:clean
+run-dev:
+	bundle exec rails assets:precompile
+	bundle exec rails s
+run-dev-insecure:
+	bundle exec rails assets:precompile
+	bundle exec rails s -b 0.0.0.0
+
+# fioxes this: objc[92630]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+run-prod:
+	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production bundle exec rails assets:precompile
+	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production bundle exec rails db:migrate
+	OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES RAILS_ENV=production bundle exec rails s -p 3001 -b 0.0.0.0
+
+run-staging:
+	RAILS_ENV=staging RAILS_LOG_LEVEL=debug bundle exec rails assets:precompile
+	RAILS_ENV=staging RAILS_LOG_LEVEL=debug rails s -p 3002 -b 0.0.0.0
+
+
+test-cat-article-association:
+	echo  ArticleTag.count | rails c
+	echo  Category.first.articles | rails c
+
+#cloud-deploy-setup:
+#	gcloud deploy apply --file=clouddeploy.yaml --region=europe-west1 --project=palladius-genai
+
+
+credentials-edit-prod:
+	RAILS_ENV=production EDITOR="code --wait" rails credentials:edit
+
+credentials-edit-staging:
+	@echo with the above diciture it wont work so i need to use the dash dash env
+	EDITOR="code --wait" rails credentials:edit --environment=staging
+
+credentials-edit-dev:
+	RAILS_ENV=development EDITOR="code --wait" rails credentials:edit
+
+
+build: docker-build
+docker-build:
+	sudo docker build -t geminews:v$(DOCKER_VERSION) .
+docker-run:
+	#	./entrypoint-8080.sh
+	docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION)
+docker-run-bash:
+	#	./entrypoint-8080.sh
+	sudo docker run -it -p 8080:8080 geminews:v$(DOCKER_VERSION) bash
+
+# Latyest Magic script
+push-latest-to-dev-manhouse:
+	bin/cb-push-to-cloudrun-magic.sh dev latest
+
+postgres-start-locally-mac:
+	brew services start postgresql
+
+postgres-schema:
+	echo "SELECT * FROM information_schema.columns WHERE table_name = 'articles'; " | rails dbconsole | tee articles.schema
+
+sample-gcp-article-neighbours:
+	echo 'Article.find(10170).closest_articles(size: 5, similarity_field: :title_embedding).map{|x| x.title}'| rails c
+
+# Derek (works):
+# gemini-news-crawler True palladiusbonton@gmail.com palladius-genai us-central1-b us-central1
+# from gcloud-auth-debug: ..
+
+# model = gemini-1.0-pro-002
+auth:
+	gcloud auth application-default login
+	gcloud auth login
+	gcloud config  set project  palladius-genai
+	gcloud config  set compute/region us-central1
+	gcloud config  set compute/zone us-central1-b
+
+# Thisd wotks on my LInux machine but not on my Mac :/
+test-llm-gemini:
+	echo "GeminiLLM.complete prompt: 'Hi my name is Riccar'" | rails c
+test-llm-vertex:
+	echo "VertexLLM.complete prompt: 'Hi my name is Riccar'" | rails c
+
+test-llm-gemini-embeddings:
+	echo "GeminiLLM.embed text: 'ciao'" | rails c
+
+test-llm-vertex-embeddings:
+	echo "VertexLLM.embed text: 'ciao'" | rails c
+
+compute_embeddings_for_all:
+	echo Article.compute_embeddings_for_all | rails c
+
+test-newsapi:
+	bin/newsapi-test.rb
+
+######
+# demos oct24
+
+demo01:
+	cat docs/demo/demo01-rails-console.rb | rails console | tee .ok.demo01.lastout && touch .ok.demo01.touch
+demo02:
+	cat docs/demo/demo02-rails-console.rb | rails console | tee .ok.demo02.lastout && touch .ok.demo02.touch
+demo03:
+	cat docs/demo/demo03-rails-console.rb | rails console | tee .ok.demo03.lastout && touch .ok.demo03.touch
+demo04:
+	cat docs/demo/demo04-rails-console.rb | rails console | tee .ok.demo04.lastout && touch .ok.demo04.touch
+
+demo-all4: demo01 demo02 demo03 demo04
+	ls -al .ok.demo*
+all-demos: demo-all4
