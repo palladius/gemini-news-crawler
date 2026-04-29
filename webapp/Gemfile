@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '3.2.2'
+ruby '3.3.8'
 
 # Use postgresql as the database for Active Record
 # brew install postgresql@15
@@ -31,7 +31,7 @@ gem 'googleauth'
 ###########################################################
 # Experimenting in a branch
 #gem 'langchainrb', '0.13.1'  # May 15th , 0.13.2 is May 22
-gem 'langchainrb', '~> 0.17.1' # Oct 09 - BIG DEAL
+gem 'langchainrb' # Oct 09 - BIG DEAL
 ###########################################################
 gem 'colorize' # TODO REMOVEME
 gem 'redcarpet' # markdown to HTML
