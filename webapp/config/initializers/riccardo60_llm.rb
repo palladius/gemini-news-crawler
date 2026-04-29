@@ -27,7 +27,11 @@ rescue StandardError
   'nisba'
 end
 GeminiLLM = begin
-  Langchain::LLM::GoogleGemini.new(api_key: gemini_llm_key)
+  gemini_model = ENV.fetch('GEMINI_MODEL_DEFAULT', 'gemini-2.5-flash')
+  Langchain::LLM::GoogleGemini.new(
+    api_key: gemini_llm_key,
+    default_options: { chat_completion_model_name: gemini_model }
+  )
 rescue StandardError
   nil
 end

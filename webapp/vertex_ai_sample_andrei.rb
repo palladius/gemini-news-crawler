@@ -42,7 +42,7 @@ llm = Langchain::LLM::GoogleVertexAI.new(
   project_id: ENV['GOOGLE_VERTEX_AI_PROJECT_ID'],
   region: 'us-central1',
   default_options: {
-    chat_completion_model_name: 'gemini-1.5-pro-latest'
+    chat_completion_model_name: 'gemini-2.5-flash'
   }
 )
 # llm = Langchain::LLM::OpenAI.new(api_key: ENV["OPENAI_API_KEY"])
