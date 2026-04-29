@@ -1,3 +1,6 @@
+## [0.3.88] - 2026-04-29
+* fixed hardcoded deprecated model `gemini-1.5-pro-latest` with `ENV['GEMINI_MODEL_DEFAULT']` and fallback to `gemini-2.5-flash`
+
 ## Open bugs
 
 * b/101 NewsRetriever doesnt work on CloudRun. Cant seemt o find ENV. I'm considering using the builtin cryptic config instead.
