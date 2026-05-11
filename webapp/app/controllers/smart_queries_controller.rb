@@ -43,5 +43,12 @@ class SmartQueriesController < ApplicationController
     @query = params[:query]
     @query_type = params.fetch :type, 'search' # probably search
     @rag_type = params.fetch :rag_type, 'short' # default
+    
+    begin
+      @e = GeminiLLM.embed(text: @query.to_s).embedding
+    rescue StandardError => e
+      Rails.logger.error("Failed to generate embedding: #{e.message}")
+      @e = []
+    end
   end
 end
